@@ -1,7 +1,7 @@
 #define LEVEL_UP_MOVE(lvl, moveLearned) {.move = moveLearned, .level = lvl}
 
-#include "../battle_moves.h"
-#include "D:\Pokemon Dario 2\D2OW2\include\constants\moves.h"
+//#include "../battle_moves.h"
+//#include "D:\Pokemon Dario 2\D2OW2\include\constants\moves.h"
 
 static const struct LevelUpMove sBulbasaurLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 1, MOVE_TACKLE),
