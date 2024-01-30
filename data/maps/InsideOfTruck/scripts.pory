@@ -1099,16 +1099,16 @@ Text_Take_Starter5:
 Text_Received_Starter5:
 	.string "{PLAYER} received a Cubchoo!$"
 	
-//Skiddo
+//Charmander
 Script_Give_Starter6::
 	lock
 	faceplayer
-	showmonpic SPECIES_SKIDDO, 10, 3
+	showmonpic SPECIES_CHARMANDER, 10, 3
 	msgbox Text_Take_Starter6, MSGBOX_YESNO
 	hidemonpic
 	compare VAR_RESULT, NO
 	goto_if_eq Start_EventScript_Chose_Starter
-	givecustommon SPECIES_SKIDDO, 10, ITEM_NONE, ITEM_POKE_BALL, NATURE_ADAMANT, 1, 0, 0, 0, 0, 0, 0, 31, 31, 15, 15, 15, 15, MOVE_TACKLE, MOVE_GROWL, MOVE_VINE_WHIP, MOVE_MILK_DRINK
+	givecustommon SPECIES_CHARMANDER, 10, ITEM_NONE, ITEM_POKE_BALL, NATURE_ADAMANT, 1, 0, 0, 0, 0, 0, 0, 31, 31, 15, 15, 15, 15, MOVE_TACKLE, MOVE_GROWL, MOVE_EMBER, MOVE_TWINEEDLE
 	playfanfare MUS_OBTAIN_ITEM
 	msgbox Text_Received_Starter6, MSGBOX_DEFAULT
 	setflag FLAG_SYS_POKEMON_GET
@@ -1117,11 +1117,11 @@ Script_Give_Starter6::
 	end
 
 Text_Take_Starter6:
-	.string "Do you want the Mount Pokémon\n"
-	.string "Skiddo?$"
+	.string "Test Starter?\n"
+	.string "Charmander?$"
 
 Text_Received_Starter6:
-	.string "{PLAYER} received a Skiddo!$"
+	.string "{PLAYER} received a Charmander!$"
 	
 //Sandygast
 Script_Give_Starter7::
