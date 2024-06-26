@@ -5646,10 +5646,15 @@ static void HandleEndTurn_MonFled(void)
 
 static void HandleEndTurn_FinishBattle(void)
 {
-    //Nuzlocke
-    SetRegionToNoCatch(gMapHeader.regionMapSectionId);
     u32 i;
 	
+    //Nuzlocke
+    // Check if you have recieved your first pokeballs before checking
+    if (FlagGet(FLAG_ADVENTURE_STARTED))
+    {
+        SetRegionToNoCatch(gMapHeader.regionMapSectionId);
+    }
+
 	if (POF_PlayerHasFollower() && !POF_IsFollowerAliveAndWell()) //tx_pokemon_follower
         POF_DestroyFollower();
 
