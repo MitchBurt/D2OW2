@@ -1061,23 +1061,23 @@ void ItemUseInBattle_PokeBall(u8 taskId)
         if (!InBattlePyramid())
             Task_FadeAndCloseBagMenu(taskId);
         else
-            CloseBattlePyramidBag(taskId);
+            Task_CloseBattlePyramidBag(taskId);
         break;
     case BALL_THROW_UNABLE_TWO_MONS:
         if (!InBattlePyramid())
-            DisplayItemMessage(taskId, FONT_NORMAL, sText_CantThrowPokeBall_TwoMons, BagMenu_InitListsMenu);
+            DisplayItemMessage(taskId, 1, sText_CantThrowPokeBall_TwoMons, BagMenu_InitListsMenu);
         else
             DisplayItemMessageInBattlePyramid(taskId, sText_CantThrowPokeBall_TwoMons, Task_CloseBattlePyramidBagMessage);
         break;
     case BALL_THROW_UNABLE_NONE_LEFT:
         if (!InBattlePyramid())
-            DisplayItemMessage(taskId, FONT_NORMAL, sText_CantThrowPokeBall_NoneLeft, BagMenu_InitListsMenu);
+            DisplayItemMessage(taskId, 1, sText_CantThrowPokeBall_NoneLeft, BagMenu_InitListsMenu);
         else
             DisplayItemMessageInBattlePyramid(taskId, sText_CantThrowPokeBall_NoneLeft, Task_CloseBattlePyramidBagMessage);
         break;
     case BALL_THROW_UNABLE_NO_ROOM:
         if (!InBattlePyramid())
-            DisplayItemMessage(taskId, FONT_NORMAL, gText_BoxFull, BagMenu_InitListsMenu);
+            DisplayItemMessage(taskId, 1, gText_BoxFull, BagMenu_InitListsMenu);
         else
             DisplayItemMessageInBattlePyramid(taskId, gText_BoxFull, Task_CloseBattlePyramidBagMessage);
         break;
