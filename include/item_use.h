@@ -43,18 +43,21 @@ void ItemUseOutOfBattle_IVWings(u8 taskId);
 void ItemUseOutOfBattle_TypeGem(u8 taskId);
 u8 CanUseDigOrEscapeRopeOnCurMap(void);
 u8 CheckIfItemIsTMHMOrEvolutionStone(u16 itemId);
-u32 CanThrowBall(void);
+//u32 CanThrowBall(void);
 void ItemUseOutOfBattle_SootSack(u8);
 u16 GetAshCount(void);
 void ItemUseOutOfBattle_Mints(u8 taskId);
 void ItemUseOutOfBattle_Seal(u8 taskId);
 void ItemUseOutOfBattle_FormChangeItem(u8);
 
+//Nuzlocke
 enum {
     BALL_THROW_UNABLE_TWO_MONS,
     BALL_THROW_UNABLE_NO_ROOM,
     BALL_THROW_ABLE,
     BALL_THROW_UNABLE_NONE_LEFT,
 };
+
+bool32 CanThrowBall(void);
 
 #endif // GUARD_ITEM_USE_H
