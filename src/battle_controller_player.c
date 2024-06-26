@@ -3892,16 +3892,16 @@ static void MoveSelectionDisplaySplitIcon(u8 target){
     effectiveness = GetMoveTypeEffectiveness(moveInfo->moves[gMoveSelectionCursor[gActiveBattler]], target, gActiveBattler);
     switch(effectiveness){
         case MOVE_EFFECTIVENESS_NONE:
-            BlitBitmapToWindow(winID , sEffectiveness_Icon_Zero, (x * 8), (y * 8), 16, 16);
+          //  BlitBitmapToWindow(winID , sEffectiveness_Icon_Zero, (x * 8), (y * 8), 16, 16);
         break;
         case MOVE_EFFECTIVENESS_HALF:
-            BlitBitmapToWindow(winID , sEffectiveness_Icon_Half, (x * 8), (y * 8), 16, 16);
+          //  BlitBitmapToWindow(winID , sEffectiveness_Icon_Half, (x * 8), (y * 8), 16, 16);
         break;
         case MOVE_EFFECTIVENESS_NORMAL:
-            BlitBitmapToWindow(winID , sEffectiveness_Icon_Normal, (x * 8), (y * 8), 16, 16);
+          //  BlitBitmapToWindow(winID , sEffectiveness_Icon_Normal, (x * 8), (y * 8), 16, 16);
         break;
         case MOVE_EFFECTIVENESS_DOUBLE:
-            BlitBitmapToWindow(winID , sEffectiveness_Icon_Double, (x * 8), (y * 8), 16, 16);
+           // BlitBitmapToWindow(winID , sEffectiveness_Icon_Double, (x * 8), (y * 8), 16, 16);
         break;
     }
 	PutWindowTilemap(winID);
