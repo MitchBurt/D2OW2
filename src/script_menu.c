@@ -862,8 +862,8 @@ static const u8 sText_Fossil_11[] = _("Sail Fossil");
 //City Selection
 static const struct ListMenuItem sSet0[] =
 {
-    {gText_City_01, 0},
-    {gText_City_02, 1},
+    {sText_Surprise, 0},
+    {gText_City_01, 1},
     {gText_City_03, 2},
     {gText_City_04, 3},
     {gText_City_05, 4},
@@ -877,7 +877,7 @@ static const struct ListMenuItem sSet0[] =
     {gText_City_13, 12},
     {gText_City_14, 13},
     {gText_City_15, 14},
-    {sText_Surprise, 15},
+    {gText_City_02, 15},
 };
 
 //Starter Selection -------------------------------------------------------------------------
