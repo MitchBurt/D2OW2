@@ -862,9 +862,9 @@ static const u8 sText_Fossil_11[] = _("Sail Fossil");
 //City Selection
 static const struct ListMenuItem sSet0[] =
 {
-    {sText_Surprise, 0},
-    {gText_City_01, 1},
-    {gText_City_03, 2},
+    {sText_Surprise, 15},
+    {gText_City_01, 0},
+    {gText_City_03, 1},
     {gText_City_04, 3},
     {gText_City_05, 4},
     {gText_City_06, 5},
@@ -877,7 +877,7 @@ static const struct ListMenuItem sSet0[] =
     {gText_City_13, 12},
     {gText_City_14, 13},
     {gText_City_15, 14},
-    {gText_City_02, 15},
+    {gText_City_02, 2},
 };
 
 //Starter Selection -------------------------------------------------------------------------
@@ -886,7 +886,7 @@ static const u8 sText_Starter_2[] = _("Slugma");
 static const u8 sText_Starter_3[] = _("Barboach");
 static const u8 sText_Starter_4[] = _("Kricketot");
 static const u8 sText_Starter_5[] = _("Cubchoo");
-static const u8 sText_Starter_6[] = _("Skiddo");
+static const u8 sText_Starter_6[] = _("Charmander");
 static const u8 sText_Starter_7[] = _("Sandygast");
 static const u8 sText_Starter_8[] = _("Cufant");
 static const u8 sText_Starter_9[] = _("Smeargle");

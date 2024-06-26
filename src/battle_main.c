@@ -5650,7 +5650,13 @@ static void HandleEndTurn_FinishBattle(void)
 	
     //Nuzlocke
     // Check if you have recieved your first pokeballs before checking
-    if (FlagGet(FLAG_ADVENTURE_STARTED))
+    if (FlagGet(FLAG_ADVENTURE_STARTED) && (!(gBattleTypeFlags & (BATTLE_TYPE_LINK
+                                  | BATTLE_TYPE_x2000000
+                                  | BATTLE_TYPE_FIRST_BATTLE
+                                  | BATTLE_TYPE_SAFARI
+                                  | BATTLE_TYPE_EREADER_TRAINER
+                                  | BATTLE_TYPE_WALLY_TUTORIAL
+                                  | BATTLE_TYPE_FRONTIER))))
     {
         SetRegionToNoCatch(gMapHeader.regionMapSectionId);
     }
