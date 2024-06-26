@@ -1051,6 +1051,7 @@ bool32 CanThrowBall(void)
 static const u8 sText_CantThrowPokeBall_TwoMons[] = _("Cannot throw a ball!\nThere are two Pokémon out there!\p");
 static const u8 sText_CantThrowPokeBall_NoneLeft[] = _("You can only catch the\nfirst Pokémon seen per route!\p");
 static const u8 sText_CantThrowPokeBall_SemiInvulnerable[] = _("Cannot throw a ball!\nThere's no Pokémon in sight!\p");
+static const u8 sText_CantThrowPokeBall[] = _("Cannot throw a ball!\p");
 void ItemUseInBattle_PokeBall(u8 taskId)
 {
     switch (GetBallThrowableState())
@@ -1061,7 +1062,7 @@ void ItemUseInBattle_PokeBall(u8 taskId)
         if (!InBattlePyramid())
             Task_FadeAndCloseBagMenu(taskId);
         else
-            Task_CloseBattlePyramidBag(taskId);
+                DisplayItemMessageInBattlePyramid(taskId, sText_CantThrowPokeBall, Task_CloseBattlePyramidBagMessage);
         break;
     case BALL_THROW_UNABLE_TWO_MONS:
         if (!InBattlePyramid())

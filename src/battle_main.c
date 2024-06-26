@@ -69,6 +69,7 @@
 #include "tx_pokemon_follower.h"
 #include "printf.h"
 #include "mgba.h"
+#include "region_map.h"
 
 extern struct MusicPlayerInfo gMPlayInfo_SE1;
 extern struct MusicPlayerInfo gMPlayInfo_SE2;
@@ -5645,6 +5646,8 @@ static void HandleEndTurn_MonFled(void)
 
 static void HandleEndTurn_FinishBattle(void)
 {
+    //Nuzlocke
+    SetRegionToNoCatch(gMapHeader.regionMapSectionId);
     u32 i;
 	
 	if (POF_PlayerHasFollower() && !POF_IsFollowerAliveAndWell()) //tx_pokemon_follower
