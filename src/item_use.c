@@ -46,6 +46,7 @@
 #include "tx_pokemon_follower.h"
 #include "printf.h"
 #include "mgba.h"
+#include "region_map.h"
 
 static void SetUpItemUseCallback(u8 taskId);
 static void FieldCB_UseItemOnField(void);
