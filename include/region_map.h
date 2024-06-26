@@ -116,6 +116,8 @@ void sub_8123030(u16 color, u32 coeff);
 void SetRegionMapDataForZoom(void);
 void RegionMap_GetSectionCoordsFromCurrFieldPos(u16 *mapSectionId, u16 *cursorPosX, u16 *cursorPosY, bool8 *playerIsInCave);
 u8 GetMapsecType(u16 mapSecId);
+bool8 HasCaughtMonInRegion(u16 mapSecId);
+void SetRegionToNoCatch(u16 mapSecId);
 
 extern const struct RegionMapLocation gRegionMapEntries[];
 extern const struct RegionMapLocation gKantoRegionMapEntries[];

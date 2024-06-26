@@ -1026,24 +1026,24 @@ void ItemUseOutOfBattle_EvolutionStone(u8 taskId)
     SetUpItemUseCallback(taskId);
 }
 
-u32 CanThrowBall(void)
+//Nuzlocke Ball throw
+
+static u32 GetBallThrowableState(void)
 {
     if (IsBattlerAlive(GetBattlerAtPosition(B_POSITION_OPPONENT_LEFT))
-        && IsBattlerAlive(GetBattlerAtPosition(B_POSITION_OPPONENT_RIGHT))) 
-    {
-        return 1;   // There are two present pokemon.
-    }
-    else if (gBattlerInMenuId == GetBattlerAtPosition(B_POSITION_PLAYER_RIGHT)
-             && IsBattlerAlive(GetBattlerAtPosition(B_POSITION_PLAYER_LEFT))) 
-    {
-        return 2;   // Attempting to throw a ball with the second pokemon while both are alive.
-    }
+     && IsBattlerAlive(GetBattlerAtPosition(B_POSITION_OPPONENT_RIGHT)))
+        return BALL_THROW_UNABLE_TWO_MONS;
     else if (IsPlayerPartyAndPokemonStorageFull() == TRUE)
-    {
-        return 3;   // No room for mon
-    }
-    
-    return 0;   // usable 
+        return BALL_THROW_UNABLE_NO_ROOM;
+    else if (HasCaughtMonInRegion(gMapHeader.regionMapSectionId) == TRUE && (gSaveBlock2Ptr->nuzOptionsSingleCatch == 0))
+        return BALL_THROW_UNABLE_NONE_LEFT;
+        
+    return BALL_THROW_ABLE;
+}
+
+bool32 CanThrowBall(void)
+{
+    return (GetBallThrowableState() == BALL_THROW_ABLE);
 }
 
 static const u8 sText_CantThrowPokeBall_TwoMons[] = _("Cannot throw a ball!\nThere are two pokemon out there!\p");

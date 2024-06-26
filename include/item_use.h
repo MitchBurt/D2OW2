@@ -50,4 +50,11 @@ void ItemUseOutOfBattle_Mints(u8 taskId);
 void ItemUseOutOfBattle_Seal(u8 taskId);
 void ItemUseOutOfBattle_FormChangeItem(u8);
 
+enum {
+    BALL_THROW_UNABLE_TWO_MONS,
+    BALL_THROW_UNABLE_NO_ROOM,
+    BALL_THROW_ABLE,
+    BALL_THROW_UNABLE_NONE_LEFT,
+};
+
 #endif // GUARD_ITEM_USE_H
