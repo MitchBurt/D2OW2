@@ -3516,7 +3516,8 @@ static void Cmd_tryfaintmon(void)
                 gHitMarker |= HITMARKER_x400000;
                 if (gBattleResults.playerFaintCounter < 0xFF)
                     gBattleResults.playerFaintCounter++;
-                AdjustFriendshipOnBattleFaint(gActiveBattler);
+                ZeroMonData(&gPlayerParty[gBattlerPartyIndexes[battlerId]]);    
+                //AdjustFriendshipOnBattleFaint(gActiveBattler);
             }
             else
             {

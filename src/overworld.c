@@ -360,19 +360,36 @@ static void (*const gMovementStatusHandler[])(struct LinkPlayerObjectEvent *, st
     MovementStatusHandler_TryAdvanceScript,
 };
 
+//Nuzlocke 
 // code
+static EWRAM_DATA u8 i = 0;
+static EWRAM_DATA u8 j = 0;
+static EWRAM_DATA bool8 anyPokemonLeft = FALSE;
 void DoWhiteOut(void)
 {
-	u8 numWhiteOuts = 0 + VarGet(VAR_TIMES_WHITED_OUT);
-    ScriptContext2_RunNewScript(EventScript_WhiteOut);
-	numWhiteOuts++;
-	VarSet(VAR_TIMES_WHITED_OUT, numWhiteOuts);
-    //SetMoney(&gSaveBlock1Ptr->money, GetMoney(&gSaveBlock1Ptr->money) / 2);
-    HealPlayerParty();
-    Overworld_ResetStateAfterWhiteOut();
-    SetWarpDestinationToLastHealLocation();
+
+    if ((anyPokemonLeft == FALSE))
+    {
+        ClearSaveData();
+        ResetSafariZoneFlag();
+        NewGameInitData();
+        ResetMenuAndMonGlobals();
+    }
+    else
+    {
+	    u8 numWhiteOuts = 0 + VarGet(VAR_TIMES_WHITED_OUT);
+        ScriptContext2_RunNewScript(EventScript_WhiteOut);
+	    numWhiteOuts++;
+	    VarSet(VAR_TIMES_WHITED_OUT, numWhiteOuts);
+        //SetMoney(&gSaveBlock1Ptr->money, GetMoney(&gSaveBlock1Ptr->money) / 2);
+        HealPlayerParty();
+        Overworld_ResetStateAfterWhiteOut();
+        SetWarpDestinationToLastHealLocation();
 	
-    WarpIntoMap();
+        WarpIntoMap();
+    }
+
+
 }
 
 void Overworld_ResetStateAfterFly(void)
