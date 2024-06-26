@@ -5652,16 +5652,15 @@ static void HandleEndTurn_FinishBattle(void)
     // Check if you have recieved your first pokeballs before checking
     if (FlagGet(FLAG_ADVENTURE_STARTED))
     {
-        if (!(gBattleTypeFlags (BATTLE_TYPE_LINK
-            | BATTLE_TYPE_x2000000
-            | BATTLE_TYPE_TRAINER
-            | BATTLE_TYPE_SAFARI
-            | BATTLE_TYPE_EREADER_TRAINER
-            | BATTLE_TYPE_WALLY_TUTORIAL
-            | BATTLE_TYPE_FRONTIER))
+        if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
+        {
+            //Do nothing
+        }
+        else
         {
             SetRegionToNoCatch(gMapHeader.regionMapSectionId);
         }
+        
     }
 
 	if (POF_PlayerHasFollower() && !POF_IsFollowerAliveAndWell()) //tx_pokemon_follower
