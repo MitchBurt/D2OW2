@@ -1301,9 +1301,9 @@ Start_EvenScript_StoryFlagset::
 //Items
 Start_EventScript_Give_Items::
 	goto_if_set FLAG_NEW_GAME_PLUS, Start_EventScript_Give_Items_New_Game_Plus
-	msgbox Text_Take_These_Items, MSGBOX_DEFAULT
+//	msgbox Text_Take_These_Items, MSGBOX_DEFAULT
 	playfanfare MUS_OBTAIN_ITEM
-	msgbox Text_Received_Items, MSGBOX_SIGN
+//	msgbox Text_Received_Items, MSGBOX_SIGN
 	additem ITEM_ACRO_BIKE
 	additem ITEM_WAILMER_PAIL
 	additem ITEM_OLD_ROD
@@ -1315,11 +1315,11 @@ Start_EventScript_Give_Items::
 	goto Start_EventScript_Chose_City
 	end
 	
-Text_Take_These_Items::
-	.string "Take these items, too.$"
+//Text_Take_These_Items::
+//	.string "Take these items, too.$"
 	
-Text_Received_Items:
-	.string "{PLAYER} received a bunch of items!$"
+//Text_Received_Items:
+//	.string "{PLAYER} received a bunch of items!$"
 	
 //City
 Start_EventScript_Chose_City::
