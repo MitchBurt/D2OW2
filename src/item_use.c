@@ -1047,40 +1047,43 @@ bool32 CanThrowBall(void)
     return (GetBallThrowableState() == BALL_THROW_ABLE);
 }
 
-static const u8 sText_CantThrowPokeBall_TwoMons[] = _("Cannot throw a ball!\nThere are two pokemon out there!\p");
-static const u8 sText_CantThrowPokeBall[] = _("Cannot throw a ball!\p");
+
+static const u8 sText_CantThrowPokeBall_TwoMons[] = _("Cannot throw a ball!\nThere are two Pokémon out there!\p");
+static const u8 sText_CantThrowPokeBall_NoneLeft[] = _("You can only catch the\nfirst Pokémon seen per route!\p");
+static const u8 sText_CantThrowPokeBall_SemiInvulnerable[] = _("Cannot throw a ball!\nThere's no Pokémon in sight!\p");
 void ItemUseInBattle_PokeBall(u8 taskId)
 {
-    switch (CanThrowBall())
+    switch (GetBallThrowableState())
     {
-    case 0: // usable
+    case BALL_THROW_ABLE:
     default:
         RemoveBagItem(gSpecialVar_ItemId, 1);
         if (!InBattlePyramid())
             Task_FadeAndCloseBagMenu(taskId);
         else
-            DisplayItemMessageInBattlePyramid(taskId, sText_CantThrowPokeBall, Task_CloseBattlePyramidBagMessage);
+            CloseBattlePyramidBag(taskId);
         break;
-    case 1:  // There are two present pokemon.
+    case BALL_THROW_UNABLE_TWO_MONS:
         if (!InBattlePyramid())
-            DisplayItemMessage(taskId, 1, sText_CantThrowPokeBall_TwoMons, BagMenu_InitListsMenu);
+            DisplayItemMessage(taskId, FONT_NORMAL, sText_CantThrowPokeBall_TwoMons, BagMenu_InitListsMenu);
         else
             DisplayItemMessageInBattlePyramid(taskId, sText_CantThrowPokeBall_TwoMons, Task_CloseBattlePyramidBagMessage);
         break;
-    case 2: // Attempting to throw a ball with the second pokemon while both are alive.
+    case BALL_THROW_UNABLE_NONE_LEFT:
         if (!InBattlePyramid())
-            DisplayItemMessage(taskId, 1, sText_CantThrowPokeBall_TwoMons, BagMenu_InitListsMenu);
+            DisplayItemMessage(taskId, FONT_NORMAL, sText_CantThrowPokeBall_NoneLeft, BagMenu_InitListsMenu);
         else
-            DisplayItemMessageInBattlePyramid(taskId, sText_CantThrowPokeBall_TwoMons, Task_CloseBattlePyramidBagMessage);
+            DisplayItemMessageInBattlePyramid(taskId, sText_CantThrowPokeBall_NoneLeft, Task_CloseBattlePyramidBagMessage);
         break;
-    case 3: // No room for mon
+    case BALL_THROW_UNABLE_NO_ROOM:
         if (!InBattlePyramid())
-            DisplayItemMessage(taskId, 1, gText_BoxFull, BagMenu_InitListsMenu);
+            DisplayItemMessage(taskId, FONT_NORMAL, gText_BoxFull, BagMenu_InitListsMenu);
         else
             DisplayItemMessageInBattlePyramid(taskId, gText_BoxFull, Task_CloseBattlePyramidBagMessage);
         break;
     }
 }
+
 
 static void Task_CloseStatIncreaseMessage(u8 taskId)
 {
