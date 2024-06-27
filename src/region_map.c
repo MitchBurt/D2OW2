@@ -365,7 +365,7 @@ const u8 sMapHealLocations[][3] =
 	{MAP_GROUP(MT_CHIMNEY), MAP_NUM(MT_CHIMNEY), HEAL_LOCATION_MT_CHIMNEY}
 };
 //Nuzlocke - Caught Areas
-static EWRAM_DATA u8 sRegionMapSectionWhereCaught[] =
+/* static EWRAM_DATA u8 sRegionMapSectionWhereCaught[] =
 {
     [MAPSEC_LITTLEROOT_TOWN] = 0,
     [MAPSEC_OLDALE_TOWN] = 0,
@@ -471,7 +471,7 @@ static EWRAM_DATA u8 sRegionMapSectionWhereCaught[] =
     [MAPSEC_ALTERING_CAVE - KANTO_MAPSEC_COUNT] = 0,
     [MAPSEC_NAVEL_ROCK - KANTO_MAPSEC_COUNT] = 0,
     [MAPSEC_TRAINER_HILL - KANTO_MAPSEC_COUNT] = 0
-};
+}; */
 
 
 static const u8 *const sEverGrandeCityNames[] =
