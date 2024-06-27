@@ -52,7 +52,7 @@
 #include "mgba.h"
 #include "overworld.h"
 #include "constants/region_map_sections.h"
-#include <region_map_sections.h>
+
 
 enum
 {
