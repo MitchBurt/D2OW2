@@ -5658,7 +5658,7 @@ static void HandleEndTurn_FinishBattle(void)
         }
         else
         {
-            SetRegionToNoCatch(gMapHeader.regionMapSectionId);
+            //SetRegionToNoCatch(gMapHeader.regionMapSectionId);
         }
         
     }
