@@ -1070,12 +1070,12 @@ void ItemUseInBattle_PokeBall(u8 taskId)
         else
             DisplayItemMessageInBattlePyramid(taskId, sText_CantThrowPokeBall_TwoMons, Task_CloseBattlePyramidBagMessage);
         break;
-    case BALL_THROW_UNABLE_NONE_LEFT:
+/*     case BALL_THROW_UNABLE_NONE_LEFT:
         if (!InBattlePyramid())
             DisplayItemMessage(taskId, 1, sText_CantThrowPokeBall_NoneLeft, BagMenu_InitListsMenu);
         else
             DisplayItemMessageInBattlePyramid(taskId, sText_CantThrowPokeBall_NoneLeft, Task_CloseBattlePyramidBagMessage);
-        break;
+        break; */
     case BALL_THROW_UNABLE_NO_ROOM:
         if (!InBattlePyramid())
             DisplayItemMessage(taskId, 1, gText_BoxFull, BagMenu_InitListsMenu);
