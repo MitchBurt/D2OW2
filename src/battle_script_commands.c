@@ -3516,8 +3516,7 @@ static void Cmd_tryfaintmon(void)
                 gHitMarker |= HITMARKER_x400000;
                 if (gBattleResults.playerFaintCounter < 0xFF)
                     gBattleResults.playerFaintCounter++;
-                    ZeroMonData(&gPlayerParty[gBattlerPartyIndexes[battlerId]]);
-                //Nuzlocke
+                ZeroMonData(&gPlayerParty[gBattlerPartyIndexes[battlerId]]);    
                 //AdjustFriendshipOnBattleFaint(gActiveBattler);
             }
             else

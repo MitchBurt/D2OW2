@@ -1036,8 +1036,8 @@ static u32 GetBallThrowableState(void)
         return BALL_THROW_UNABLE_TWO_MONS;
     else if (IsPlayerPartyAndPokemonStorageFull() == TRUE)
         return BALL_THROW_UNABLE_NO_ROOM;
-   // else if (HasCaughtMonInRegion(gMapHeader.regionMapSectionId) == TRUE)
-    //    return BALL_THROW_UNABLE_NONE_LEFT;
+    else if (HasCaughtMonInRegion(gMapHeader.regionMapSectionId) == TRUE)
+        return BALL_THROW_UNABLE_NONE_LEFT;
 
     return BALL_THROW_ABLE;
 }

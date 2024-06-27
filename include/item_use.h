@@ -51,12 +51,12 @@ void ItemUseOutOfBattle_Seal(u8 taskId);
 void ItemUseOutOfBattle_FormChangeItem(u8);
 
 //Nuzlocke
-/* enum {
+enum {
     BALL_THROW_UNABLE_TWO_MONS,
     BALL_THROW_UNABLE_NO_ROOM,
     BALL_THROW_ABLE,
     BALL_THROW_UNABLE_NONE_LEFT,
-}; */
+};
 
 bool32 CanThrowBall(void);
 

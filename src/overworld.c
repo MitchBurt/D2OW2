@@ -368,7 +368,7 @@ static EWRAM_DATA bool8 anyPokemonLeft = FALSE;
 void DoWhiteOut(void)
 {
 
-/*     if ((anyPokemonLeft == FALSE))
+    if ((anyPokemonLeft == FALSE))
     {
         ClearSaveData();
         ResetSafariZoneFlag();
@@ -376,7 +376,7 @@ void DoWhiteOut(void)
         ResetMenuAndMonGlobals();
     }
     else
-    { */
+    {
 	    u8 numWhiteOuts = 0 + VarGet(VAR_TIMES_WHITED_OUT);
         ScriptContext2_RunNewScript(EventScript_WhiteOut);
 	    numWhiteOuts++;
@@ -387,7 +387,7 @@ void DoWhiteOut(void)
         SetWarpDestinationToLastHealLocation();
 	
         WarpIntoMap();
-    //}
+    }
 
 
 }
