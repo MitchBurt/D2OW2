@@ -245,7 +245,7 @@
 #define VAR_NEVER_READ_0x40E2                0x40E2 // Var is written to, but never read
 #define VAR_NEVER_READ_0x40E3                0x40E3 // Var is written to, but never read
 #define VAR_NEVER_READ_0x40E4                0x40E4 // var is written to, but never read
-#define VAR_UNUSED_0x40E5                    0x40E5 // Unused Var
+//#define VAR_UNUSED_0x40E5                    0x40E5 // Unused Var
 #define VAR_DAILY_SLOTS                      0x40E6
 #define VAR_DAILY_WILDS                      0x40E7
 #define VAR_DAILY_BLENDER                    0x40E8
@@ -265,11 +265,16 @@
 #define VAR_RIVAL_RAYQUAZA_CALL_STEP_COUNTER 0x40F6
 #define VAR_DEXNAV_SPECIES                   0x40F7 // Registered dexnav species
 #define VAR_DEXNAV_STEP_COUNTER              0x40F8 // steps for finding hidden pokemon
-#define VAR_UNUSED_0x40F9                    0x40F9 // Unused Var
+/* #define VAR_UNUSED_0x40F9                    0x40F9 // Unused Var
 #define VAR_UNUSED_0x40FA                    0x40FA // Unused Var
 #define VAR_UNUSED_0x40FB                    0x40FB // Unused Var
 #define VAR_UNUSED_0x40FC                    0x40FC // Unused Var
-#define VAR_UNUSED_0x40FD                    0x40FD // Unused Var
+#define VAR_UNUSED_0x40FD                    0x40FD // Unused Var */
+#define VAR_WILD_PKMN_ROUTE_SEEN_0                       0x40FA
+#define VAR_WILD_PKMN_ROUTE_SEEN_1                       0x40FB
+#define VAR_WILD_PKMN_ROUTE_SEEN_2                       0x40FC
+#define VAR_WILD_PKMN_ROUTE_SEEN_3                       0x40FD
+#define VAR_WILD_PKMN_ROUTE_SEEN_4                       0x40E5
 #define VAR_SAVE_VERSION                     0x40FE
 #define VAR_DIMENSION_LINK                   0x40FF
 
