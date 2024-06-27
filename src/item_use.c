@@ -47,6 +47,7 @@
 #include "printf.h"
 #include "mgba.h"
 #include "region_map.h"
+#include "battle_setup.h"
 
 static void SetUpItemUseCallback(u8 taskId);
 static void FieldCB_UseItemOnField(void);
@@ -1036,8 +1037,11 @@ static u32 GetBallThrowableState(void)
         return BALL_THROW_UNABLE_TWO_MONS;
     else if (IsPlayerPartyAndPokemonStorageFull() == TRUE)
         return BALL_THROW_UNABLE_NO_ROOM;
-    else if (HasCaughtMonInRegion(gMapHeader.regionMapSectionId) == TRUE)
+    /* else if (HasCaughtMonInRegion(gMapHeader.regionMapSectionId) == TRUE)
+        return BALL_THROW_UNABLE_NONE_LEFT; */
+    else if (gNuzlockeCannotCatch == 1){
         return BALL_THROW_UNABLE_NONE_LEFT;
+   }
 
     return BALL_THROW_ABLE;
 }
