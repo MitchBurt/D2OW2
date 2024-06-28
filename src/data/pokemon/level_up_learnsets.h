@@ -65,7 +65,7 @@ static const struct LevelUpMove sVenusaurLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sCharmanderLevelUpLearnset[] = {
+static const struct LevelUpMove sSkorchiLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
 	LEVEL_UP_MOVE( 1, MOVE_GROWL),
 	LEVEL_UP_MOVE( 7, MOVE_EMBER),
@@ -3360,6 +3360,7 @@ static const struct LevelUpMove sLedybaLevelUpLearnset[] = {
 	LEVEL_UP_MOVE(39, MOVE_IRON_DEFENSE),
 	LEVEL_UP_MOVE(42, MOVE_GYRO_BALL),
 	LEVEL_UP_MOVE(45, MOVE_DOUBLE_EDGE),
+	LEVEL_UP_MOVE(70, MOVE_GUILLOTINE),
 	LEVEL_UP_END
 };
 

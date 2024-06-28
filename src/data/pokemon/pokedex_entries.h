@@ -49,12 +49,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 6,
     },
 
-    [NATIONAL_DEX_CHARMANDER] =
+    [NATIONAL_DEX_SKORCHI] =
     {
         .categoryName = _("Lagartija"),
         .height = 6,
         .weight = 85,
-        .description = gCharmanderPokedexText,
+        .description = gSkorchiPokedexText,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,
@@ -10839,12 +10839,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 6,
     },
 
-    [NATIONAL_DEX_CHARMANDER] =
+    [NATIONAL_DEX_SKORCHI] =
     {
         .categoryName = _("Lizard"),
         .height = 6,
         .weight = 85,
-        .description = gCharmanderPokedexText,
+        .description = gSkorchiPokedexText,
         .pokemonScale = 444,
         .pokemonOffset = 18,
         .trainerScale = 256,

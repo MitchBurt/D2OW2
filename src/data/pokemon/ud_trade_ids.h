@@ -13,7 +13,7 @@ static const u16 ROWESpeciesIDs[NUM_SPECIES] = {};
 static const u16 VanillaSpeciesIDs[NUM_SPECIES] =
 {
     [SPECIES_BULBASAUR] = 1,      [SPECIES_IVYSAUR] = 2,        [SPECIES_VENUSAUR] = 3,       
-    [SPECIES_CHARMANDER] = 4,     [SPECIES_CHARMELEON] = 5,     [SPECIES_CHARIZARD] = 6,      
+    [SPECIES_SKORCHI] = 4,     [SPECIES_CHARMELEON] = 5,     [SPECIES_CHARIZARD] = 6,      
     [SPECIES_SQUIRTLE] = 7,       [SPECIES_WARTORTLE] = 8,      [SPECIES_BLASTOISE] = 9,      
     [SPECIES_CATERPIE] = 10,      [SPECIES_METAPOD] = 11,       [SPECIES_BUTTERFREE] = 12,    
     [SPECIES_WEEDLE] = 13,        [SPECIES_KAKUNA] = 14,        [SPECIES_BEEDRILL] = 15,      
@@ -146,7 +146,7 @@ static const u16 VanillaSpeciesIDs[NUM_SPECIES] =
 static const u16 RyuSpeciesIDs[NUM_SPECIES] =
 {
     [SPECIES_BULBASAUR] = 1,        [SPECIES_IVYSAUR] = 2,          [SPECIES_VENUSAUR] = 3,         
-    [SPECIES_CHARMANDER] = 4,       [SPECIES_CHARMELEON] = 5,       [SPECIES_CHARIZARD] = 6,        
+    [SPECIES_SKORCHI] = 4,       [SPECIES_CHARMELEON] = 5,       [SPECIES_CHARIZARD] = 6,        
     [SPECIES_SQUIRTLE] = 7,         [SPECIES_WARTORTLE] = 8,        [SPECIES_BLASTOISE] = 9,        
     [SPECIES_CATERPIE] = 10,        [SPECIES_METAPOD] = 11,         [SPECIES_BUTTERFREE] = 12,      
     [SPECIES_WEEDLE] = 13,          [SPECIES_KAKUNA] = 14,          [SPECIES_BEEDRILL] = 15,        

@@ -4,7 +4,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Bulbasaur  @ 869DCF4
 	cry Cry_Ivysaur  @ 869DD00
 	cry Cry_Venusaur  @ 869DD0C
-	cry Cry_Charmander  @ 869DD18
+	cry Cry_Skorchi  @ 869DD18
 	cry Cry_Charmeleon  @ 869DD24
 	cry Cry_Charizard  @ 869DD30
 	cry Cry_Squirtle  @ 869DD3C
@@ -1284,7 +1284,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Bulbasaur  @ 869EF24
 	cry2 Cry_Ivysaur  @ 869EF30
 	cry2 Cry_Venusaur  @ 869EF3C
-	cry2 Cry_Charmander  @ 869EF48
+	cry2 Cry_Skorchi  @ 869EF48
 	cry2 Cry_Charmeleon  @ 869EF54
 	cry2 Cry_Charizard  @ 869EF60
 	cry2 Cry_Squirtle  @ 869EF6C

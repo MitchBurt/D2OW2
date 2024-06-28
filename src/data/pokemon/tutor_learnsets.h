@@ -154,7 +154,7 @@ static const u8 sVenusaurTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sCharmanderTutorLearnset[] =
+static const u8 sSkorchiTutorLearnset[] =
 {
     TUTOR(MOVE_SWORDS_DANCE),
     TUTOR(MOVE_MEGA_KICK),
@@ -19725,7 +19725,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_BULBASAUR] = sBulbasaurTutorLearnset,
     [SPECIES_IVYSAUR] = sIvysaurTutorLearnset,
     [SPECIES_VENUSAUR] = sVenusaurTutorLearnset,
-    [SPECIES_CHARMANDER] = sCharmanderTutorLearnset,
+    [SPECIES_SKORCHI] = sSkorchiTutorLearnset,
     [SPECIES_CHARMELEON] = sCharmeleonTutorLearnset,
     [SPECIES_CHARIZARD] = sCharizardTutorLearnset,
     [SPECIES_SQUIRTLE] = sSquirtleTutorLearnset,

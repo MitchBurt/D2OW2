@@ -107,7 +107,7 @@ static const u8 sVenusaurTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sCharmanderTMHMLearnset[] =
+static const u8 sSkorchiTMHMLearnset[] =
 {
     TMHM(TM01_FOCUS_PUNCH),
     TMHM(TM02_DRAGON_CLAW),
@@ -36078,7 +36078,7 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_BULBASAUR] = sBulbasaurTMHMLearnset,
     [SPECIES_IVYSAUR] = sIvysaurTMHMLearnset,
     [SPECIES_VENUSAUR] = sVenusaurTMHMLearnset,
-    [SPECIES_CHARMANDER] = sCharmanderTMHMLearnset,
+    [SPECIES_SKORCHI] = sSkorchiTMHMLearnset,
     [SPECIES_CHARMELEON] = sCharmeleonTMHMLearnset,
     [SPECIES_CHARIZARD] = sCharizardTMHMLearnset,
     [SPECIES_SQUIRTLE] = sSquirtleTMHMLearnset,

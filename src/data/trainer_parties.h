@@ -5255,7 +5255,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Keegan[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_CHARMANDER,
+    .species = SPECIES_SKORCHI,
     },
     {
     .iv = 200,
@@ -14928,7 +14928,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TabithaMtChimney[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_CHARMANDER,
+    .species = SPECIES_SKORCHI,
     },
     {
     .iv = 50,

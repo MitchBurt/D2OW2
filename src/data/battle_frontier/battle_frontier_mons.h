@@ -704,7 +704,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_JOLLY,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_CHARMANDER] = {
+    [FRONTIER_MON_SKORCHI] = {
         .species = SPECIES_CRESSELIA,
         .moves = {MOVE_COSMIC_POWER, MOVE_RECOVER, MOVE_STORED_POWER, MOVE_ICE_BEAM    },
         .itemTableId = BATTLE_FRONTIER_ITEM_LEFTOVERS,

@@ -20,7 +20,7 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x86,
         .y_offset = 10,
     },
-    [SPECIES_CHARMANDER] =
+    [SPECIES_SKORCHI] =
     {
         .size = 0x66,
         .y_offset = 9,

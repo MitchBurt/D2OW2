@@ -399,8 +399,8 @@ Cry_Venusaur::
 	.incbin "sound/direct_sound_samples/cries/cry_venusaur.bin"
 
 	.align 2
-Cry_Charmander::
-	.incbin "sound/direct_sound_samples/cries/cry_charmander.bin"
+Cry_Skorchi::
+	.incbin "sound/direct_sound_samples/cries/cry_skorchi.bin"
 
 	.align 2
 Cry_Charmeleon::

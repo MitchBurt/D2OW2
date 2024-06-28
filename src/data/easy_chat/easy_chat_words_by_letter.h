@@ -240,7 +240,7 @@ const u16 gEasyChatWordsByLetter_C[] = {
     EC_MOVE(CHARGE),
     EC_POKEMON2(CHARIZARD),
     EC_MOVE(CHARM),
-    EC_POKEMON2(CHARMANDER),
+    EC_POKEMON2(SKORCHI),
     EC_POKEMON2(CHARMELEON),
     EC_WORD_CHAT,
     EC_POKEMON2(CHIKORITA),
@@ -1992,7 +1992,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseHi[] = {
     EC_WORD_HIDDEN,
     EC_WORD_PERSON,
     EC_WORD_AWFUL,
-    EC_POKEMON2(CHARMANDER),
+    EC_POKEMON2(SKORCHI),
     -1, 2, // Doubled pokemon species name
     EC_POKEMON2(STARYU),
     EC_POKEMON(STARYU),

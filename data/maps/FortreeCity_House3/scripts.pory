@@ -70,7 +70,7 @@ FortreeCity_House3_Text_ReceivedMonFromOldMan:
 	.string "{PLAYER} received {STR_VAR_2} from\n"
 	.string "the Maniac.$"
 	
-//Charmander
+//Skorchi
 FortreeCity_House3_EventScript_Give_Bulbasaur::
 	bufferspeciesname 1, SPECIES_BULBASAUR
 	playfanfare MUS_OBTAIN_ITEM

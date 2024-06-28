@@ -24,7 +24,7 @@ const u8 gVenusaurPokedexText[] = _(
     "buena nutrición y mucho sol. El aroma\n"
     "delicado de esta flor calma los ánimos.");
 
-const u8 gCharmanderPokedexText[] = _(
+const u8 gSkorchiPokedexText[] = _(
     "La llama que tiene en la punta de la cola\n"
     "arde según sus sentimientos. Llamea\n"
     "levemente cuando está alegre y arde\n"
@@ -5377,10 +5377,10 @@ const u8 gVenusaurPokedexText[] = _(
     "sunlight. The flower's aroma soothes the\n"
     "emotions of people.");
 
-const u8 gCharmanderPokedexText[] = _(
+const u8 gSkorchiPokedexText[] = _(
     "The flame that burns at the tip of its\n"
     "tail is an indication of its emotions.\n"
-    "The flame wavers when Charmander is\n"
+    "The flame wavers when Skorchi is\n"
     "happy, and blazes when it is enraged.");
 
 const u8 gCharmeleonPokedexText[] = _(
