@@ -71,8 +71,8 @@ void HealPlayerParty(void)
         arg[2] = 0;
         arg[3] = 0;
         SetMonData(&gPlayerParty[i], MON_DATA_STATUS, arg);
-    }
 }
+
 
 u8 ScriptGiveMon(u16 species, u8 level, u16 item, u32 ability, u32 unused2, u8 unused3)
 {
