@@ -969,7 +969,7 @@ gText_UnusedNicknameReceivedPokemon:: @ 8272DB3
 
 gText_PlayerWhitedOut:: @ 8272DE3
 	.string "{PLAYER} is out of usable\n"
-	.string "Pokémon!\p{PLAYER} whited out!$"
+	.string "Pokémon!\pRun over!!$"
 #endif
 
 gText_RegisteredTrainerinPokeNav:: @ 8272E0F

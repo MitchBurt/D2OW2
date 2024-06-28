@@ -2828,6 +2828,15 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
     sPartyMenuInternal->numActions = 0;
     AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_SUMMARY);
 
+//Nuzlocke
+   // This if statement causes dead pokemon to only be able to show summary, switch, and cancel. No field moves or items.
+   if (GetMonData(&mons[slotId], MON_DATA_DEAD) && FlagGet(FLAG_NUZLOCKE))
+   {
+        if (GetMonData(&mons[1], MON_DATA_SPECIES) != SPECIES_NONE)
+           AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_SWITCH);
+        AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_CANCEL1);
+        return;
+   }
     // Let any Pokemon that learns Fly or Dig use it without knowing the move
     if (CanMonLearnTMHM(&mons[slotId], ITEM_TM76_FLY - ITEM_TM01_FOCUS_PUNCH))
     {
@@ -4742,12 +4751,16 @@ void ItemUseCB_Medicine(u8 taskId, TaskFunc task)
         }
         cannotUse = ExecuteTableBasedItemEffect_(gPartyMenu.slotId, item, 0);
     }
-
+//Nuzlocke
     if (cannotUse != FALSE)
     {
         gPartyMenuUseExitCallback = FALSE;
         PlaySE(SE_SELECT);
-        DisplayPartyMenuMessage(gText_WontHaveEffect, TRUE);
+        //DisplayPartyMenuMessage(gText_WontHaveEffect, TRUE);
+        if (canHeal && GetMonData(mon, MON_DATA_DEAD))
+            DisplayPartyMenuMessage(gText_WontHaveEffectNuzlocke, TRUE);
+        else
+            DisplayPartyMenuMessage(gText_WontHaveEffect, TRUE);
         ScheduleBgCopyTilemapToVram(2);
         if (gPartyMenu.menuType == PARTY_MENU_TYPE_FIELD && CheckBagHasItem(item, 1))
             gTasks[taskId].func = Task_ReturnToChooseMonAfterText;

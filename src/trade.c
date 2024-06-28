@@ -3158,12 +3158,15 @@ static void TryEnableNationalDexFromLinkPartner(void)
 static void TradeMons(u8 playerPartyIdx, u8 partnerPartyIdx)
 {
     u8 friendship;
+    bool8 dead = FALSE;  // Resets if Pokemon was considered dead through Nuzlocke
 
     struct Pokemon *playerMon = &gPlayerParty[playerPartyIdx];
     u16 playerMail = GetMonData(playerMon, MON_DATA_MAIL);
 
     struct Pokemon *partnerMon = &gEnemyParty[partnerPartyIdx];
     u16 partnerMail = GetMonData(partnerMon, MON_DATA_MAIL);
+
+    SetMonData(playerMon, MON_DATA_DEAD, &dead);
 
     if (playerMail != 0xFF)
         ClearMailStruct(&gSaveBlock1Ptr->mail[playerMail]);
@@ -3175,7 +3178,7 @@ static void TradeMons(u8 playerPartyIdx, u8 partnerPartyIdx)
     friendship = 70;
     if (!GetMonData(playerMon, MON_DATA_IS_EGG))
         SetMonData(playerMon, MON_DATA_FRIENDSHIP, &friendship);
-
+        
     if (partnerMail != 0xFF)
         GiveMailToMon2(playerMon, &gTradeMail[partnerMail]);
 

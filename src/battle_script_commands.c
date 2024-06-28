@@ -3513,10 +3513,14 @@ static void Cmd_tryfaintmon(void)
             gBattlescriptCurrInstr = BS_ptr;
             if (GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER)
             {
+                //Nuzlocke
+                bool8 dead = TRUE;
++               SetMonData(&gPlayerParty[gBattlerPartyIndexes[gActiveBattler]], MON_DATA_DEAD, &dead);
                 gHitMarker |= HITMARKER_x400000;
                 if (gBattleResults.playerFaintCounter < 0xFF)
                     gBattleResults.playerFaintCounter++;
-                ZeroMonData(&gPlayerParty[gBattlerPartyIndexes[battlerId]]);    
+
+                //ZeroMonData(&gPlayerParty[gBattlerPartyIndexes[battlerId]]);    
                 //AdjustFriendshipOnBattleFaint(gActiveBattler);
             }
             else
