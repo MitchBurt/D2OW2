@@ -51,6 +51,7 @@ void HealPlayerParty(void)
                 continue;
             }
         }
+    }
         u16 maxHP = GetMonData(&gPlayerParty[i], MON_DATA_MAX_HP);
         arg[0] = maxHP;
         arg[1] = maxHP >> 8;

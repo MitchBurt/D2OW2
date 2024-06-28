@@ -1791,8 +1791,8 @@ bool8 ScrCmd_checkpartymove(struct ScriptContext *ctx)
     }
 
     return FALSE;
+    }
 }
-
 bool8 ScrCmd_addmoney(struct ScriptContext *ctx)
 {
     u32 amount = ScriptReadWord(ctx);
