@@ -84,7 +84,7 @@ enum { // Main
 
 // Text
 // Main Menu
-static const u8 gUDTradeText_ROWEDimension[] =   _("R.O.W.E Dimension");
+static const u8 gUDTradeText_ROWEDimension[] =   _("D.R.L.O Dimension");
 static const u8 gUDTradeText_VanillaDimension[] =   _("Vanilla Dimension");
 static const u8 gUDTradeText_RyuDimension[] =       _("Inclement Dimension");
 static const u8 gUDTradeText_Cancel[] =             _("Cancel");

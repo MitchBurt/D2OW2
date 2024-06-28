@@ -213,7 +213,7 @@ static const u8 sTheEnd_LetterDMap[] =
 };
 
 static const u8 gCreditsText_EmptyString[] = _("");
-static const u8 gCreditsText_PkmnEmeraldVersion[] = _("Pokémon R.O.W.E");
+static const u8 gCreditsText_PkmnEmeraldVersion[] = _("Pokémon D.R.L.O");
 static const u8 gCreditsText_Credits[] = _("Credits");
 static const u8 gCreditsText_ExecutiveDirector[] = _("Executive Director");
 static const u8 gCreditsText_Director[] = _("Director");
@@ -244,7 +244,7 @@ static const u8 gCreditsText_Producers[] = _("Producers");
 static const u8 gCreditsText_ExecProducers[] = _("Executive Producers");
 static const u8 gCreditsText_InfoSupervisors[] = _("Information Supervisors");
 static const u8 gCreditsText_TaskManagers[] = _("Task Managers");
-static const u8 gCreditsText_BrailleCodeCheck[] = _("R.O.W.E Developers & Supporters");
+static const u8 gCreditsText_BrailleCodeCheck[] = _("D.R.L.O Developers & Supporters");
 static const u8 gCreditsText_WorldDirector[] = _("World Director");
 static const u8 gCreditsText_BattleFrontierData[] = _("Battle Frontier Data");
 static const u8 gCreditsText_SupportProgrammers[] = _("Support Programmers");

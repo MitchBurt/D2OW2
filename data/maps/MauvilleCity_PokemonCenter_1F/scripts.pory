@@ -80,7 +80,7 @@ MauvilleCity_PokemonCenter_1F_Text_MysteryGift: @ 8210EA1
 	
 MauvilleCity_PokemonCenter_1F_Text_MysteryGift_Pre6Badges: @ 8210EA1
 	.string "Hello, thanks for playing Pokémon\n"
-	.string "R.O.W.E!\p"
+	.string "D.R.L.O!\p"
 	.string "I have a little gift for you but\n"
 	.string "you need to get a little stronger\l"
 	.string "before getting it.$"
