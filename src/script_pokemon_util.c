@@ -36,12 +36,13 @@ void HealPlayerParty(void)
     u8 i, j;
     u8 ppBonuses;
     u8 arg[4];
-
+    u16 maxHP;
+	
     // restore HP.
     for(i = 0; i < gPlayerPartyCount; i++)
     {
         //Nuzlocke
-        u16 maxHP;
+        
         if (GetMonData(&gPlayerParty[i], MON_DATA_DEAD)){
             if (!FlagGet(FLAG_SYS_POKEDEX_GET)){
                 bool8 dead = FALSE;
