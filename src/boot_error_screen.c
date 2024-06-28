@@ -67,7 +67,7 @@ const u8 sText_BadEmu[] = _("\n       {COLOR RED}{SHADOW LIGHT_RED}The system ch
 */
 
 static const u8 sText_BootError_1[] = _("No valid backup media was detected.");
-static const u8 sText_BootError_2[] = _("Pokémon R.O.W.E.{COLOR RED}{SHADOW LIGHT_RED} requires the 1M");
+static const u8 sText_BootError_2[] = _("Pokémon D.R.L.O.{COLOR RED}{SHADOW LIGHT_RED} requires the 1M");
 static const u8 sText_BootError_3[] = _("sub-circuit board to be installed.");
 static const u8 sText_BootError_5[] = _("Please turn off the power.");
 static const u8 sText_BootError_7[] = _("{COLOR DARK_GREY}{SHADOW LIGHT_GREY}mGBA: Tools {RIGHT_ARROW} Game overrides…");

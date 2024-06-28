@@ -74,7 +74,7 @@ MauvilleCity_PokemonCenter_Text_ReceivedMysteryGift:
 	
 MauvilleCity_PokemonCenter_1F_Text_MysteryGift: @ 8210EA1
 	.string "Hello, thanks for playing Pokémon\n"
-	.string "R.O.W.E.!\p"
+	.string "D.R.L.O.!\p"
 	.string "To celebrate this release I\n"
 	.string "have a little gift for you!$"
 	

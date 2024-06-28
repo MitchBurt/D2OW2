@@ -66,7 +66,7 @@ struct WonderCard gSavedWonderCard[] =
 		.subtitleText 			= _("subtitleText"),
 		.bodyText 				= _("bodyText"),
 		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon R.O.W.E.!"),
+		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
 	},
 	[CARD_VIVILLON_1] =
     {
@@ -77,14 +77,14 @@ struct WonderCard gSavedWonderCard[] =
 		.bgType 				= CARD_BG_RED,//Red
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon R.O.W.E."),
+		.titleText 				= _("Pokémon D.R.L.O."),
 		.subtitleText 			= _("It's a Poké Ball Pattern Vivillon!"),
 		.bodyText 				= _("Here's a special Vivillon you can't find"
 									"through normal gameplay to add to your  "
 									"Pokédex and complete your colorful      "
 									"Vivillon collection."),
 		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon R.O.W.E.!"),
+		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
 	},
 	[CARD_GRENINJA] =
     {
@@ -95,13 +95,13 @@ struct WonderCard gSavedWonderCard[] =
 		.bgType 				= CARD_BG_BLUE_2,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon R.O.W.E."),
+		.titleText 				= _("Pokémon D.R.L.O."),
 		.subtitleText 			= _("Special Ash-Greninja!"),
 		.bodyText 				= _("It's a Greninja with an Special Ability,"
 									"This Pokémon will be a great help on your "
 									"adventure in this game."),
 		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon R.O.W.E.!"),
+		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
 	},
 	[CARD_PICHU] =
     {
@@ -112,14 +112,14 @@ struct WonderCard gSavedWonderCard[] =
 		.bgType 				= CARD_BG_YELLOW,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon R.O.W.E."),
+		.titleText 				= _("Pokémon D.R.L.O."),
 		.subtitleText 			= _("Special Spiky-eared Pichu!"),
 		.bodyText 				= _("It's a Pichu with a Special Trait,      "
 									"She may not be able to evolve but she   "
 									"will be a great help during your        "
 									"adventure in this game."),
 		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon R.O.W.E.!"),
+		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
 	},
 	[CARD_COSPLAY_PIKACHU] =
     {
@@ -130,14 +130,14 @@ struct WonderCard gSavedWonderCard[] =
 		.bgType 				= CARD_BG_YELLOW,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon R.O.W.E."),
+		.titleText 				= _("Pokémon D.R.L.O."),
 		.subtitleText 			= _("It's the Cosplay Pikachu!"),
 		.bodyText 				= _("Here's a Cosplay Pikachu                "
 									"which you can't find through normal     "
 									"gameplay to add to your Pikachu         "
 									"collection."),
 		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon R.O.W.E.!"),
+		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
 	},
 	[CARD_PIKACHU_POP_STAR] =
     {
@@ -148,14 +148,14 @@ struct WonderCard gSavedWonderCard[] =
 		.bgType 				= CARD_BG_BLUE,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon R.O.W.E."),
+		.titleText 				= _("Pokémon D.R.L.O."),
 		.subtitleText 			= _("It's the Cosplay Pikachu!"),
 		.bodyText 				= _("Here's a Cosplay Pikachu                "
 									"which you can't find through normal     "
 									"gameplay to add to your Pikachu         "
 									"collection."),
 		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon R.O.W.E.!"),
+		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
 	},
 	[CARD_VIVILLON_2] =
     {
@@ -166,14 +166,14 @@ struct WonderCard gSavedWonderCard[] =
 		.bgType 				= CARD_BG_GREEN,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon R.O.W.E."),
+		.titleText 				= _("Pokémon D.R.L.O."),
 		.subtitleText 			= _("It's the Fancy Pattern Vivillon!"),
 		.bodyText 				= _("Here's a Vivillon with the Fancy Pattern"
 									"which you can't find through normal     "
 									"gameplay to add to your Vivillon        "
 									"collection."),
 		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon R.O.W.E.!"),
+		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
 	},
 	[CARD_AZ_FLOETTE] =
     {
@@ -184,14 +184,14 @@ struct WonderCard gSavedWonderCard[] =
 		.bgType 				= CARD_BG_RED,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon R.O.W.E."),
+		.titleText 				= _("Pokémon D.R.L.O."),
 		.subtitleText 			= _("It's a 3,000 year old Floette!"),
 		.bodyText 				= _("Here's a special Floette you can't find "
 									"through normal gameplay, this Pokémon is"
 									"is stronger than its evolved form and   "
 									"will help you on your Adventure."),
 		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon R.O.W.E.!"),
+		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
 	},
 	[CARD_SHINY_BELDUM] =
     {
@@ -202,12 +202,12 @@ struct WonderCard gSavedWonderCard[] =
 		.bgType 				= CARD_BG_SILVER,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon R.O.W.E."),
+		.titleText 				= _("Pokémon D.R.L.O."),
 		.subtitleText 			= _("It's a Shiny Beldum!"),
 		.bodyText 				= _("This Beldum is not only Shiny, it's also"
 									"holding a Mega Stone just for you!"),
 		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon R.O.W.E.!"),
+		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
 	},
 	[CARD_DIANCIE] =
     {
@@ -218,14 +218,14 @@ struct WonderCard gSavedWonderCard[] =
 		.bgType 				= CARD_BG_SILVER,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon R.O.W.E."),
+		.titleText 				= _("Pokémon D.R.L.O."),
 		.subtitleText 			= _("It's the Mythical Pokémon Diancie!"),
 		.bodyText 				= _("Like a diamond, this Pokémon is rare and"
 									"beautiful. It's holding a Mega Stone, so"
 									"it will be able to Mega Evolve in       "
 									"battle!"),
 		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon R.O.W.E.!"),
+		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
 	},
 	[CARD_SHINY_EEVEE] =
     {
@@ -236,14 +236,14 @@ struct WonderCard gSavedWonderCard[] =
 		.bgType 				= CARD_BG_SILVER,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon R.O.W.E."),
+		.titleText 				= _("Pokémon D.R.L.O."),
 		.subtitleText 			= _("It's a Shiny Eevee!"),
 		.bodyText 				= _("This Eevee is not only Shiny, it's also "
 									"holding an Exiolite, use it to stop     "
 									"Eevee from evolving but it will get an  "
 									"stats boost after level 25!"),
 		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon R.O.W.E.!"),
+		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
 	},
 	[CARD_BEE_ALTARIA] =
     {
@@ -254,7 +254,7 @@ struct WonderCard gSavedWonderCard[] =
 		.bgType 				= CARD_BG_YELLOW,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon R.O.W.E."),
+		.titleText 				= _("Pokémon D.R.L.O."),
 		.subtitleText 			= _("It's Bee's Altaria!"),
 		.bodyText 				= _("This Altaria is not only Shiny, it's    "
 									"also holding a Mega Stone, so it will   "
@@ -277,7 +277,7 @@ struct WonderCard gSavedWonderCard[] =
 									"also holding an special item, that will "
 									"help you in your adventure!"),
 		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon R.O.W.E.!"),
+		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
 	},
 	[CARD_COSPLAY_PIKACHU_LIBRE] =
     {
@@ -288,7 +288,7 @@ struct WonderCard gSavedWonderCard[] =
 		.bgType 				= CARD_BG_YELLOW_SECIAL,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon R.O.W.E."),
+		.titleText 				= _("Pokémon D.R.L.O."),
 		.subtitleText 			= _("It's Pikachu Libre!"),
 		.bodyText 				= _("Pikachu Libre, a wrestling idol, is a   "
 									"small masked fighter overflowing with   "
@@ -305,13 +305,13 @@ struct WonderCard gSavedWonderCard[] =
 		.bgType 				= CARD_BG_GREEN,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon R.O.W.E."),
+		.titleText 				= _("Pokémon D.R.L.O."),
 		.subtitleText 			= _("It's a Shiny Axew!"),
 		.bodyText 				= _("This Axew is not only Shiny, it's also  "
 									"has the TGC only move Lunge, it will    "
 									"help you on your adventure "),
 		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon R.O.W.E.!"),
+		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
 	},
     [CARD_MANAPHY] =
     {
@@ -322,14 +322,14 @@ struct WonderCard gSavedWonderCard[] =
 		.bgType 				= CARD_BG_BLUE_2,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon R.O.W.E."),
+		.titleText 				= _("Pokémon D.R.L.O."),
 		.subtitleText 			= _("It's the Mythical Pokémon Manaphy!"),
 		.bodyText 				= _("This Pokémon is rare and beautiful.     "
 									"It was first found as an Egg in the game"
 									"Pokémon Ranger and is now available in  "
-									"Pokemon R.O.W.E. too!"),
+									"Pokemon D.R.L.O. too!"),
 		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon R.O.W.E.!"),
+		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
 	},
     [CARD_HALLOWEEN_GOURGEIST] =
     {
@@ -340,7 +340,7 @@ struct WonderCard gSavedWonderCard[] =
 		.bgType 				= CARD_BG_SILVER,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon R.O.W.E."),
+		.titleText 				= _("Pokémon D.R.L.O."),
 		.subtitleText 			= _("It's the Spooky Month!"),
 		.bodyText 				= _("This Super Sized Gourgeist is not only  "
 									"Shiny, it has access to it's Hidden     "

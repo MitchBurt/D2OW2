@@ -1115,7 +1115,7 @@ static void Task_HofPC_ExitOnButtonPress(u8 taskId)
 
 static void HallOfFame_PrintWelcomeText(u8 unusedPossiblyWindowId, u8 unused2)
 {
-    static const u8 gText_WelcomeToHOF[] 		= _("Pokémon R.O.W.E. - {STR_VAR_1} Difficulty\n{COLOR WHITE}{SHADOW DARK_GREY}{STR_VAR_2}{STR_VAR_3}");
+    static const u8 gText_WelcomeToHOF[] 		= _("Pokémon D.R.L.O. - {STR_VAR_1} Difficulty\n{COLOR WHITE}{SHADOW DARK_GREY}{STR_VAR_2}{STR_VAR_3}");
 	static const u8 easymodeText[] 				= _("{COLOR LIGHT_GREEN}{SHADOW GREEN}Easy");
 	static const u8 normalmodeText[] 			= _("{COLOR LIGHT_BLUE}{SHADOW BLUE}Normal$");
 	static const u8 hardmodeText[] 				= _("{COLOR LIGHT_RED}{SHADOW RED}Hard$");

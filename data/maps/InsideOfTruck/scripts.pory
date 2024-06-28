@@ -22,7 +22,7 @@ Start_EventScript_Starter_Chose::
 	end
 	
 Game_Start_Text_Introduction:
-	.string "Welcome to Pokémon R.O.W.E.\n"
+	.string "Welcome to Pokémon D.R.L.O.\n"
 	.string "Do you have any questions?$"
 	
 Start_EventScript_Game_Level::
@@ -974,7 +974,7 @@ Start_EvenScript_Flagset_Difficulty::
 	goto_if_set FLAG_EASY_MODE, Start_EventScript_Give_Items
 	goto_if_set FLAG_NORMAL_MODE, Start_EventScript_Give_Items
 	goto_if_set FLAG_HARD_MODE, Start_EventScript_Give_Items
-	setflag FLAG_NORMAL_MODE
+	setflag FLAG_HARD_MODE
 	goto Start_EventScript_Give_Items
 	end
 	
