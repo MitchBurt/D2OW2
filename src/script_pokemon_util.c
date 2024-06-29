@@ -44,13 +44,13 @@ void HealPlayerParty(void)
         //Nuzlocke
         
         if (GetMonData(&gPlayerParty[i], MON_DATA_DEAD)){
-            if (!FlagGet(FLAG_SYS_POKEDEX_GET)){
+            //if (!FlagGet(FLAG_SYS_POKEDEX_GET)){
                 bool8 dead = FALSE;
                 SetMonData(&gPlayerParty[i], MON_DATA_DEAD, &dead);
-            }
-            else{
-                continue;
-            }
+           // }
+         //   else{
+            //    continue;
+            //}
         }
     }
         maxHP = GetMonData(&gPlayerParty[i], MON_DATA_MAX_HP);
