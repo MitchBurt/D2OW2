@@ -3346,9 +3346,9 @@ static const struct SpriteSheet sSpriteSheet_LastUsedBallWindow =
     sLastUsedBallWindowGfx, sizeof(sLastUsedBallWindowGfx), LAST_BALL_WINDOW_TAG
 };
 
-#define LAST_USED_BALL_X_F    0
-#define LAST_USED_BALL_X_0    0
-#define LAST_USED_BALL_Y      0
+#define LAST_USED_BALL_X_F    15
+#define LAST_USED_BALL_X_0    -15
+#define LAST_USED_BALL_Y      68
 
 #define LAST_BALL_WIN_X_F       (LAST_USED_BALL_X_F - 1)
 #define LAST_BALL_WIN_X_0       (LAST_USED_BALL_X_0 - 0)
@@ -3362,7 +3362,6 @@ bool32 CanThrowLastUsedBall(void)
      || (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
 	 || (gBattleTypeFlags & BATTLE_TYPE_PIKE)
 	 ||  IsDoubleBattle()
-     ||  CheckBagHasItem(gSaveBlock2Ptr->lastUsedBall, 1)
      || !CheckBagHasItem(gSaveBlock2Ptr->lastUsedBall, 1)));
 }
 
@@ -3472,9 +3471,9 @@ static void TryHideOrRestoreLastUsedBall(u8 caseId)
         break;
     case 1: // restore
         if (gBattleStruct->ballSpriteIds[0] != MAX_SPRITES)
-            gSprites[gBattleStruct->ballSpriteIds[0]].sHide = FALSE;   // restore
+            gSprites[gBattleStruct->ballSpriteIds[0]].sHide = TRUE;   // restore
         if (gBattleStruct->ballSpriteIds[1] != MAX_SPRITES)
-            gSprites[gBattleStruct->ballSpriteIds[1]].sHide = FALSE;   // restore
+            gSprites[gBattleStruct->ballSpriteIds[1]].sHide = TRUE;   // restore
         break;
     }
 }
