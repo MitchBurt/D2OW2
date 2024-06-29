@@ -2830,7 +2830,7 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
 
 //Nuzlocke
    // This if statement causes dead pokemon to only be able to show summary, switch, and cancel. No field moves or items.
-   if (GetMonData(&mons[slotId], MON_DATA_DEAD) && FlagGet(FLAG_NUZLOCKE))
+   if (GetMonData(&mons[slotId], MON_DATA_DEAD))
    {
         if (GetMonData(&mons[1], MON_DATA_SPECIES) != SPECIES_NONE)
            AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_SWITCH);
