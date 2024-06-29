@@ -3311,7 +3311,7 @@ static void Task_FreeAbilityPopUpGfx(u8 taskId)
 
 // last used ball
 #define LAST_BALL_WINDOW_TAG 0xD721
-
+/* 
 static const struct OamData sOamData_LastUsedBall =
 {
 	.y = 0,
@@ -3490,7 +3490,7 @@ void TryRestoreLastUsedBall(void)
     else
         TryAddLastUsedBallItemSprites();
 }
-
+ */
 void UpdateAbilityPopup(u8 battlerId)
 {
     u8 spriteId1 = gBattleStruct->abilityPopUpSpriteIds[battlerId][0];
