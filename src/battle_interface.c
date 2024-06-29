@@ -3311,7 +3311,7 @@ static void Task_FreeAbilityPopUpGfx(u8 taskId)
 
 // last used ball
 #define LAST_BALL_WINDOW_TAG 0xD721
-/* 
+
 static const struct OamData sOamData_LastUsedBall =
 {
 	.y = 0,
@@ -3346,9 +3346,9 @@ static const struct SpriteSheet sSpriteSheet_LastUsedBallWindow =
     sLastUsedBallWindowGfx, sizeof(sLastUsedBallWindowGfx), LAST_BALL_WINDOW_TAG
 };
 
-#define LAST_USED_BALL_X_F    15
-#define LAST_USED_BALL_X_0    -15
-#define LAST_USED_BALL_Y      68
+#define LAST_USED_BALL_X_F    0
+#define LAST_USED_BALL_X_0    0
+#define LAST_USED_BALL_Y      0
 
 #define LAST_BALL_WIN_X_F       (LAST_USED_BALL_X_F - 1)
 #define LAST_BALL_WIN_X_0       (LAST_USED_BALL_X_0 - 0)
@@ -3362,6 +3362,7 @@ bool32 CanThrowLastUsedBall(void)
      || (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
 	 || (gBattleTypeFlags & BATTLE_TYPE_PIKE)
 	 ||  IsDoubleBattle()
+     ||  CheckBagHasItem(gSaveBlock2Ptr->lastUsedBall, 1)
      || !CheckBagHasItem(gSaveBlock2Ptr->lastUsedBall, 1)));
 }
 
@@ -3490,7 +3491,7 @@ void TryRestoreLastUsedBall(void)
     else
         TryAddLastUsedBallItemSprites();
 }
- */
+ 
 void UpdateAbilityPopup(u8 battlerId)
 {
     u8 spriteId1 = gBattleStruct->abilityPopUpSpriteIds[battlerId][0];
