@@ -44,7 +44,7 @@ LilycoveCity_MoveDeletersHouse_EventScript_AsktoTrade::
 	setflag FLAG_UNUSED_0x938
 	random 8
 	switch VAR_RESULT
-	case 0, LilycoveCity_MoveDeletersHouse_EventScript_Give_Squirtle_Mega
+	case 0, LilycoveCity_MoveDeletersHouse_EventScript_Give_Jissm_Mega
 	case 1, LilycoveCity_MoveDeletersHouse_EventScript_Give_Totodile
 	case 2, LilycoveCity_MoveDeletersHouse_EventScript_Give_Mudkip_Mega
 	case 3, LilycoveCity_MoveDeletersHouse_EventScript_Give_Piplup
@@ -70,24 +70,24 @@ LilycoveCity_MoveDeletersHouse_Text_ReceivedMonFromOldMan: @ 82122CB
 	.string "{PLAYER} received {STR_VAR_2} from\n"
 	.string "the Old Man.$"
 	
-//Squirtle
-LilycoveCity_MoveDeletersHouse_EventScript_Give_Squirtle::
-	bufferspeciesname 1, SPECIES_SQUIRTLE
+//Jissm
+LilycoveCity_MoveDeletersHouse_EventScript_Give_Jissm::
+	bufferspeciesname 1, SPECIES_JISSM
 	playfanfare MUS_OBTAIN_ITEM
 	message LilycoveCity_MoveDeletersHouse_Text_ReceivedMonFromOldMan
-	givemon SPECIES_SQUIRTLE, 10, ITEM_NONE
+	givemon SPECIES_JISSM, 10, ITEM_NONE
 	waitfanfare
 	msgbox LilycoveCity_MoveDeletersHouse_Text_ComeAgain_Starter, MSGBOX_DEFAULT
 	release
 	end
 	
-LilycoveCity_MoveDeletersHouse_EventScript_Give_Squirtle_Mega::
-	goto_if_unset FLAG_RECEIVED_TM04 LilycoveCity_MoveDeletersHouse_EventScript_Give_Squirtle
-	goto_if_set FLAG_UNUSED_0x27C LilycoveCity_MoveDeletersHouse_EventScript_Give_Squirtle
-	bufferspeciesname 1, SPECIES_SQUIRTLE
+LilycoveCity_MoveDeletersHouse_EventScript_Give_Jissm_Mega::
+	goto_if_unset FLAG_RECEIVED_TM04 LilycoveCity_MoveDeletersHouse_EventScript_Give_Jissm
+	goto_if_set FLAG_UNUSED_0x27C LilycoveCity_MoveDeletersHouse_EventScript_Give_Jissm
+	bufferspeciesname 1, SPECIES_JISSM
 	playfanfare MUS_OBTAIN_ITEM
 	message LilycoveCity_MoveDeletersHouse_Text_ReceivedMonFromOldMan
-	givemon SPECIES_SQUIRTLE, 30, ITEM_BLASTOISINITE
+	givemon SPECIES_JISSM, 30, ITEM_BLASTOISINITE
 	setflag FLAG_UNUSED_0x27C
 	waitfanfare
 	msgbox LilycoveCity_MoveDeletersHouse_Text_ComeAgain_Starter, MSGBOX_DEFAULT

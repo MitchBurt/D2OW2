@@ -288,7 +288,7 @@ LavaridgeTown_EventScript_Give_Skorchi_Mega_Y::
 	bufferspeciesname 1, SPECIES_SKORCHI
 	playfanfare MUS_OBTAIN_ITEM
 	message LavaridgeTown_Text_ReceivedMonFromOldMan
-	givemon SPECIES_SKORCHI, 30, ITEM_CHARIZARDITE_Y
+	givemon SPECIES_SKORCHI, 30, ITEM_SKORPYROSITE_Y
 	setflag FLAG_UNUSED_0x27A
 	waitfanfare
 	msgbox LavaridgeTown_Text_ComeAgain_Starter, MSGBOX_DEFAULT
@@ -300,7 +300,7 @@ LavaridgeTown_EventScript_Give_Skorchi_Mega_X::
 	bufferspeciesname 1, SPECIES_SKORCHI
 	playfanfare MUS_OBTAIN_ITEM
 	message LavaridgeTown_Text_ReceivedMonFromOldMan
-	givemon SPECIES_SKORCHI, 30, ITEM_CHARIZARDITE_X
+	givemon SPECIES_SKORCHI, 30, ITEM_SKORPYROSITE_X
 	setflag FLAG_UNUSED_0x27B
 	waitfanfare
 	msgbox LavaridgeTown_Text_ComeAgain_Starter, MSGBOX_DEFAULT

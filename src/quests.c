@@ -2112,12 +2112,12 @@ static void UnlockQuestMenu(void)
 				case SPECIES_MARILL:
 				case SPECIES_SWELLOW:
 				case SPECIES_ESPEON:
-				case SPECIES_BEEDRILL:
+				case SPECIES_BERRORD:
 				case SPECIES_DODRIO:
 				case SPECIES_DRAGONITE:
 				case SPECIES_HUNTAIL:
 				case SPECIES_SUDOWOODO:
-				case SPECIES_VENUSAUR:
+				case SPECIES_YGGDRACON:
 				case SPECIES_HITMONCHAN:
 				case SPECIES_MUK:
 				case SPECIES_GRIMER:
@@ -2167,7 +2167,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_CUBONE:
 				case SPECIES_CHIMECHO:
 				case SPECIES_SANDILE:
-				case SPECIES_KAKUNA:
+				case SPECIES_MYRESEFT:
 				case SPECIES_DEINO:
 				case SPECIES_ZWEILOUS:
 				case SPECIES_TURTWIG:

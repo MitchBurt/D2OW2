@@ -58,15 +58,15 @@ enum {
     CARD_GRENINJA,
     CARD_PICHU,
 	CARD_VIVILLON_2,
-	CARD_COSPLAY_PIKACHU,
-	CARD_PIKACHU_POP_STAR,
+	CARD_COSPLAY_SKIPPA,
+	CARD_SKIPPA_POP_STAR,
 	CARD_AZ_FLOETTE,
 	CARD_SHINY_BELDUM,
 	CARD_DIANCIE,
 	CARD_SHINY_EEVEE,
 	CARD_BEE_ALTARIA,
     CARD_CHRISTMASS_DELIBIRD,
-	CARD_COSPLAY_PIKACHU_LIBRE,
+	CARD_COSPLAY_SKIPPA_LIBRE,
 	CARD_SHINY_AXEW,
 	CARD_MANAPHY,
     CARD_HALLOWEEN_GOURGEIST,
@@ -1130,7 +1130,7 @@ struct MysteryGiftMonStructure gMysteryGiftMons[] =
 {
 	[CARD_TEST] =
     {
-		.species 			= SPECIES_BULBASAUR,
+		.species 			= SPECIES_MEADOSAUR,
 		.helditem 			= ITEM_NONE,
 		.abilityNum 		= 0,
 		.level 				= 5,
@@ -1216,9 +1216,9 @@ struct MysteryGiftMonStructure gMysteryGiftMons[] =
 		.nickname 			= _("Pichu"),
 		.isNicknamed		= TRUE,
 	},
-	[CARD_COSPLAY_PIKACHU] =
+	[CARD_COSPLAY_SKIPPA] =
     {
-		.species 			= SPECIES_PIKACHU_COSPLAY,
+		.species 			= SPECIES_SKIPPA_COSPLAY,
 		.helditem 			= ITEM_LIGHT_BALL,
 		.abilityNum 		= 0,
 		.level 				= 12,
@@ -1238,9 +1238,9 @@ struct MysteryGiftMonStructure gMysteryGiftMons[] =
 		.nickname 			= _("No Nickname"),
 		.isNicknamed		= FALSE,
 	},
-	[CARD_PIKACHU_POP_STAR] =
+	[CARD_SKIPPA_POP_STAR] =
     {
-		.species 			= SPECIES_PIKACHU_POP_STAR,
+		.species 			= SPECIES_SKIPPA_POP_STAR,
 		.helditem 			= ITEM_LIGHT_BALL,
 		.abilityNum 		= 0,
 		.level 				= 12,
@@ -1414,9 +1414,9 @@ struct MysteryGiftMonStructure gMysteryGiftMons[] =
 		.nickname 			= _("No Nickname"),
 		.isNicknamed		= FALSE,
 	},
-	[CARD_COSPLAY_PIKACHU_LIBRE] =
+	[CARD_COSPLAY_SKIPPA_LIBRE] =
     {
-		.species 			= SPECIES_PIKACHU_LIBRE,
+		.species 			= SPECIES_SKIPPA_LIBRE,
 		.helditem 			= ITEM_LIGHT_BALL,
 		.abilityNum 		= 0,
 		.level 				= 0,

@@ -310,12 +310,12 @@ const u16 gObjectEventPalette24[] = INCBIN_U16("graphics/object_events/palettes/
 const u16 gObjectEventPalette25[] = INCBIN_U16("graphics/object_events/palettes/25.gbapal");
 const u32 gObjectEventPic_UnusedNatuDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/unused_natu_doll.4bpp");
 const u32 gObjectEventPic_UnusedMagnemiteDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/unused_magnemite_doll.4bpp");
-const u32 gObjectEventPic_UnusedSquirtleDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/unused_squirtle_doll.4bpp");
+const u32 gObjectEventPic_UnusedJissmDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/unused_jissm_doll.4bpp");
 const u32 gObjectEventPic_UnusedWooperDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/unused_wooper_doll.4bpp");
-const u32 gObjectEventPic_UnusedPikachuDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/unused_pikachu_doll.4bpp");
+const u32 gObjectEventPic_UnusedSkippaDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/unused_skippa_doll.4bpp");
 const u32 gObjectEventPic_UnusedPorygon2Doll[] = INCBIN_U32("graphics/object_events/pics/dolls/unused_porygon2_doll.4bpp");
 const u32 gObjectEventPic_PichuDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/pichu_doll.4bpp");
-const u32 gObjectEventPic_PikachuDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/pikachu_doll.4bpp");
+const u32 gObjectEventPic_SkippaDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/skippa_doll.4bpp");
 const u32 gObjectEventPic_MarillDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/marill_doll.4bpp");
 const u32 gObjectEventPic_TogepiDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/togepi_doll.4bpp");
 const u32 gObjectEventPic_CyndaquilDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/cyndaquil_doll.4bpp");
@@ -352,9 +352,9 @@ const u32 gObjectEventPic_WaterCushion[] = INCBIN_U32("graphics/object_events/pi
 const u32 gObjectEventPic_BigSnorlaxDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/big_snorlax_doll.4bpp");
 const u32 gObjectEventPic_BigRhydonDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/big_rhydon_doll.4bpp");
 const u32 gObjectEventPic_BigLaprasDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/big_lapras_doll.4bpp");
-const u32 gObjectEventPic_BigVenusaurDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/big_venusaur_doll.4bpp");
-const u32 gObjectEventPic_BigCharizardDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/big_charizard_doll.4bpp");
-const u32 gObjectEventPic_BigBlastoiseDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/big_blastoise_doll.4bpp");
+const u32 gObjectEventPic_BigYggdraconDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/big_yggdracon_doll.4bpp");
+const u32 gObjectEventPic_BigSkorpyrosDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/big_skorpyros_doll.4bpp");
+const u32 gObjectEventPic_BigSperiathonDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/big_speriathon_doll.4bpp");
 const u32 gObjectEventPic_BigWailmerDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/big_wailmer_doll.4bpp");
 const u32 gObjectEventPic_BigRegirockDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/big_regirock_doll.4bpp");
 const u32 gObjectEventPic_BigRegiceDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/big_regice_doll.4bpp");
@@ -499,9 +499,9 @@ const u32 gObjectEventPic_Munchlax[] = INCBIN_U32("graphics/object_events/pics/p
 const u32 gObjectEventPic_Snorlax[] = INCBIN_U32("graphics/object_events/pics/pokemon/snorlax.4bpp");
 
 /*/Pokemon
-//025 - Pikachu
-const u32 gObjectEventPic_Pikachu[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/025.4bpp");
-const u16 gObjectEventPalette_Pikachu[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/025.gbapal");
+//025 - Skippa
+const u32 gObjectEventPic_Skippa[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/025.4bpp");
+const u16 gObjectEventPalette_Skippa[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/025.gbapal");
 //144 - Articuno
 const u32 gObjectEventPic_Articuno[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/144.4bpp");
 const u16 gObjectEventPalette_Articuno[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/144.gbapal");

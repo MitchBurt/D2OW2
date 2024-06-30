@@ -2632,7 +2632,7 @@ static const u8 sFLOATY_FALLDescription[] = _(
     "angle. May cause flinching.");
 
 static const u8 sPIKA_PAPOWDescription[] = _(
-    "Pikachu's love increases its\n"
+    "Skippa's love increases its\n"
     "power. It never misses.");
 
 static const u8 sBOUNCY_BUBBLEDescription[] = _(
@@ -5581,7 +5581,7 @@ static const u8 sFLOATY_FALLDescription[] = _(
     "angle. May cause flinching.");
 
 static const u8 sPIKA_PAPOWDescription[] = _(
-    "Pikachu's love increases its\n"
+    "Skippa's love increases its\n"
     "power. It never misses.");
 
 static const u8 sBOUNCY_BUBBLEDescription[] = _(

@@ -520,7 +520,7 @@ enum
     FRIENDS_BLANK,
     FRIENDS_CIRCLES,
     FRIENDS_AZUMARILL,
-    FRIENDS_PIKACHU,
+    FRIENDS_SKIPPA,
     FRIENDS_LEGENDARY,
     FRIENDS_DUSCLOPS,
     FRIENDS_LUDICOLO,
@@ -1456,13 +1456,13 @@ static const u16 gWallpaperPalettes_Azumarill[][16] =
 static const u32 gWallpaperTiles_Azumarill[] = INCBIN_U32("graphics/pokemon_storage/azumarill.4bpp.lz");
 static const u32 gWallpaperTilemap_Azumarill[] = INCBIN_U32("graphics/pokemon_storage/azumarill.bin.lz");
 
-static const u16 gWallpaperPalettes_Pikachu[][16] =
+static const u16 gWallpaperPalettes_Skippa[][16] =
 {
     INCBIN_U16("graphics/pokemon_storage/friends_frame2.gbapal"),
-    INCBIN_U16("graphics/pokemon_storage/pikachu_bg.gbapal"),
+    INCBIN_U16("graphics/pokemon_storage/skippa_bg.gbapal"),
 };
-static const u32 gWallpaperTiles_Pikachu[] = INCBIN_U32("graphics/pokemon_storage/pikachu.4bpp.lz");
-static const u32 gWallpaperTilemap_Pikachu[] = INCBIN_U32("graphics/pokemon_storage/pikachu.bin.lz");
+static const u32 gWallpaperTiles_Skippa[] = INCBIN_U32("graphics/pokemon_storage/skippa.4bpp.lz");
+static const u32 gWallpaperTilemap_Skippa[] = INCBIN_U32("graphics/pokemon_storage/skippa.bin.lz");
 
 static const u16 gWallpaperPalettes_Legendary[][16] =
 {
@@ -1537,7 +1537,7 @@ static const struct WallpaperTable gFriendsWallpaperTable[] =
     WALLPAPER_ENTRY(Blank),
     WALLPAPER_ENTRY(Circles),
     WALLPAPER_ENTRY(Azumarill),
-    WALLPAPER_ENTRY(Pikachu),
+    WALLPAPER_ENTRY(Skippa),
     WALLPAPER_ENTRY(Legendary),
     WALLPAPER_ENTRY(Dusclops),
     WALLPAPER_ENTRY(Ludicolo),

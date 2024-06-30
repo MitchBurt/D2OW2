@@ -4632,7 +4632,7 @@ static void _CreateInGameTradePokemon(u8 whichPlayerMon, u8 whichInGameTrade)
 
 u16 getWonderTradePokemonFormID(u16 species)
 {
-	u16 newspecies = SPECIES_BULBASAUR;
+	u16 newspecies = SPECIES_MEADOSAUR;
 	u8 numbadges = GetNumBadges();
 	u8 rand = Random() % 12;
 	bool8 disablealternateforms = FALSE;
@@ -4901,31 +4901,31 @@ u16 getWonderTradePokemonFormID(u16 species)
 		break;
 		
 		//Forms
-		case SPECIES_RATTATA:
+		case SPECIES_HANGSTER:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_RATTATA,
-					SPECIES_RATTATA_ALOLAN,
+					SPECIES_HANGSTER,
+					SPECIES_HANGSTER_ALOLAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_RATICATE:
+		case SPECIES_GAWDAMSTER:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_RATICATE,
-					SPECIES_RATICATE_ALOLAN,
+					SPECIES_GAWDAMSTER,
+					SPECIES_GAWDAMSTER_ALOLAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_RAICHU:
+		case SPECIES_DISHEATS:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_RAICHU,
-					SPECIES_RAICHU_ALOLAN,
+					SPECIES_DISHEATS,
+					SPECIES_DISHEATS_ALOLAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];

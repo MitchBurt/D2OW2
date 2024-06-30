@@ -353,11 +353,11 @@ $(UNUSEDGFXDIR)/obi_palpak3.gbapal: $(UNUSEDGFXDIR)/old_pal5.gbapal \
 									$(UNUSEDGFXDIR)/old_pal7.gbapal
 	@cat $^ >$@
 
-$(UNUSEDGFXDIR)/obi1.4bpp: $(UNUSEDGFXDIR)/old_bulbasaur.4bpp \
-						   $(UNUSEDGFXDIR)/old_charizard.4bpp
+$(UNUSEDGFXDIR)/obi1.4bpp: $(UNUSEDGFXDIR)/old_meadosaur.4bpp \
+						   $(UNUSEDGFXDIR)/old_skorpyros.4bpp
 	@cat $^ >$@
 
-$(UNUSEDGFXDIR)/obi2.4bpp: $(UNUSEDGFXDIR)/old_bulbasaur2.4bpp \
+$(UNUSEDGFXDIR)/obi2.4bpp: $(UNUSEDGFXDIR)/old_meadosaur2.4bpp \
 						   $(UNUSEDGFXDIR)/old_battle_interface_1.4bpp \
 						   $(UNUSEDGFXDIR)/old_battle_interface_2.4bpp \
 						   $(UNUSEDGFXDIR)/old_battle_interface_3.4bpp
@@ -492,7 +492,7 @@ $(BATTRANSGFXDIR)/frontier_square_4.4bpp: $(BATTRANSGFXDIR)/frontier_squares_bla
 										 $(BATTRANSGFXDIR)/frontier_squares_4.4bpp
 	@cat $^ >$@
 
-$(SLOTMACHINEGFXDIR)/reel_time_gfx.4bpp: $(SLOTMACHINEGFXDIR)/reel_time_pikachu.4bpp \
+$(SLOTMACHINEGFXDIR)/reel_time_gfx.4bpp: $(SLOTMACHINEGFXDIR)/reel_time_skippa.4bpp \
 										 $(SLOTMACHINEGFXDIR)/reel_time_machine.4bpp
 	@cat $^ >$@
 
@@ -644,7 +644,7 @@ $(PSSGFXDIR)/circles.4bpp: $(PSSGFXDIR)/friends_frame1.4bpp $(PSSGFXDIR)/circles
 $(PSSGFXDIR)/azumarill.4bpp: $(PSSGFXDIR)/friends_frame2.4bpp $(PSSGFXDIR)/azumarill_bg.4bpp
 	@cat $^ >$@
 
-$(PSSGFXDIR)/pikachu.4bpp: $(PSSGFXDIR)/friends_frame2.4bpp $(PSSGFXDIR)/pikachu_bg.4bpp
+$(PSSGFXDIR)/skippa.4bpp: $(PSSGFXDIR)/friends_frame2.4bpp $(PSSGFXDIR)/skippa_bg.4bpp
 	@cat $^ >$@
 
 $(PSSGFXDIR)/legendary.4bpp: $(PSSGFXDIR)/friends_frame2.4bpp $(PSSGFXDIR)/legendary_bg.4bpp

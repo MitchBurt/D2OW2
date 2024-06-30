@@ -28,15 +28,15 @@ enum {
     CARD_GRENINJA,
     CARD_PICHU,
 	CARD_VIVILLON_2,
-	CARD_COSPLAY_PIKACHU,
-	CARD_PIKACHU_POP_STAR,
+	CARD_COSPLAY_SKIPPA,
+	CARD_SKIPPA_POP_STAR,
 	CARD_AZ_FLOETTE,
 	CARD_SHINY_BELDUM,
 	CARD_DIANCIE,
 	CARD_SHINY_EEVEE,
 	CARD_BEE_ALTARIA,
 	CARD_CHRISTMASS_DELIBIRD,
-	CARD_COSPLAY_PIKACHU_LIBRE,
+	CARD_COSPLAY_SKIPPA_LIBRE,
 	CARD_SHINY_AXEW,
     CARD_MANAPHY,
 	CARD_HALLOWEEN_GOURGEIST,
@@ -56,8 +56,8 @@ struct WonderCard gSavedWonderCard[] =
 	[CARD_TEST] =
     {
 		.flagId 				= 0,
-		.iconSpecies 			= SPECIES_BULBASAUR,
-		.idNumber 				= SPECIES_BULBASAUR,
+		.iconSpecies 			= SPECIES_MEADOSAUR,
+		.idNumber 				= SPECIES_MEADOSAUR,
 		.type 					= 0,
 		.bgType 				= CARD_BG_YELLOW,
 		.sendType 				= 0,
@@ -121,38 +121,38 @@ struct WonderCard gSavedWonderCard[] =
 		.footerLine1Text 		= _("Please continue playing"),
 		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
 	},
-	[CARD_COSPLAY_PIKACHU] =
+	[CARD_COSPLAY_SKIPPA] =
     {
-		.flagId 				= FLAG_MYSTERY_GIFT_COSPLAY_PIKACHU,
-		.iconSpecies 			= SPECIES_PIKACHU_COSPLAY,
-		.idNumber 				= CARD_COSPLAY_PIKACHU,
+		.flagId 				= FLAG_MYSTERY_GIFT_COSPLAY_SKIPPA,
+		.iconSpecies 			= SPECIES_SKIPPA_COSPLAY,
+		.idNumber 				= CARD_COSPLAY_SKIPPA,
 		.type 					= 0,
 		.bgType 				= CARD_BG_YELLOW,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
 		.titleText 				= _("Pokémon D.R.L.O."),
-		.subtitleText 			= _("It's the Cosplay Pikachu!"),
-		.bodyText 				= _("Here's a Cosplay Pikachu                "
+		.subtitleText 			= _("It's the Cosplay Skippa!"),
+		.bodyText 				= _("Here's a Cosplay Skippa                "
 									"which you can't find through normal     "
-									"gameplay to add to your Pikachu         "
+									"gameplay to add to your Skippa         "
 									"collection."),
 		.footerLine1Text 		= _("Please continue playing"),
 		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
 	},
-	[CARD_PIKACHU_POP_STAR] =
+	[CARD_SKIPPA_POP_STAR] =
     {
-		.flagId 				= FLAG_MYSTERY_GIFT_PIKACHU_POP_STAR,
-		.iconSpecies 			= SPECIES_PIKACHU_POP_STAR,
-		.idNumber 				= CARD_PIKACHU_POP_STAR,
+		.flagId 				= FLAG_MYSTERY_GIFT_SKIPPA_POP_STAR,
+		.iconSpecies 			= SPECIES_SKIPPA_POP_STAR,
+		.idNumber 				= CARD_SKIPPA_POP_STAR,
 		.type 					= 0,
 		.bgType 				= CARD_BG_BLUE,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
 		.titleText 				= _("Pokémon D.R.L.O."),
-		.subtitleText 			= _("It's the Cosplay Pikachu!"),
-		.bodyText 				= _("Here's a Cosplay Pikachu                "
+		.subtitleText 			= _("It's the Cosplay Skippa!"),
+		.bodyText 				= _("Here's a Cosplay Skippa                "
 									"which you can't find through normal     "
-									"gameplay to add to your Pikachu         "
+									"gameplay to add to your Skippa         "
 									"collection."),
 		.footerLine1Text 		= _("Please continue playing"),
 		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
@@ -279,18 +279,18 @@ struct WonderCard gSavedWonderCard[] =
 		.footerLine1Text 		= _("Please continue playing"),
 		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
 	},
-	[CARD_COSPLAY_PIKACHU_LIBRE] =
+	[CARD_COSPLAY_SKIPPA_LIBRE] =
     {
-		.flagId 				= FLAG_MYSTERY_GIFT_COSPLAY_PIKACHU_LIBRE,
-		.iconSpecies 			= SPECIES_PIKACHU_LIBRE,
-		.idNumber 				= CARD_COSPLAY_PIKACHU_LIBRE,
+		.flagId 				= FLAG_MYSTERY_GIFT_COSPLAY_SKIPPA_LIBRE,
+		.iconSpecies 			= SPECIES_SKIPPA_LIBRE,
+		.idNumber 				= CARD_COSPLAY_SKIPPA_LIBRE,
 		.type 					= 0,
 		.bgType 				= CARD_BG_YELLOW_SECIAL,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
 		.titleText 				= _("Pokémon D.R.L.O."),
-		.subtitleText 			= _("It's Pikachu Libre!"),
-		.bodyText 				= _("Pikachu Libre, a wrestling idol, is a   "
+		.subtitleText 			= _("It's Skippa Libre!"),
+		.bodyText 				= _("Skippa Libre, a wrestling idol, is a   "
 									"small masked fighter overflowing with   "
 									"fighting spirit."),
 		.footerLine1Text 		= _("To Celebrate 8000 Users"),
@@ -358,7 +358,7 @@ struct WonderCardMetadata gSavedWonderCardMetadata[] =
 		.battlesWon 				= 1,
 		.battlesLost 				= 1,
 		.numTrades 					= 1,
-		.iconSpecies 				= SPECIES_BULBASAUR,
+		.iconSpecies 				= SPECIES_MEADOSAUR,
 		.stampData 					= 1,
 	// First element is STAMP_SPECIES, second is STAMP_ID
 	},
@@ -568,15 +568,15 @@ static const u16 sMysteryGiftFlags[] =
     FLAG_MYSTERY_GIFT_GRENINJA,
     FLAG_MYSTERY_GIFT_SPIKY_EARED_PICHU,
     FLAG_MYSTERY_GIFT_VIVILLON_FANCY,
-    FLAG_MYSTERY_GIFT_COSPLAY_PIKACHU,
-    FLAG_MYSTERY_GIFT_PIKACHU_POP_STAR,
+    FLAG_MYSTERY_GIFT_COSPLAY_SKIPPA,
+    FLAG_MYSTERY_GIFT_SKIPPA_POP_STAR,
     FLAG_MYSTERY_GIFT_ETERNAL_FLOETTE,
     FLAG_MYSTERY_GIFT_SHINY_BELDUM,
     FLAG_MYSTERY_GIFT_DIANCIE,
     FLAG_MYSTERY_GIFT_SHINY_EEVEE,
     FLAG_MYSTERY_GIFT_BEES_ALTARIA,
     FLAG_MYSTERY_GIFT_CHRISTMAS_DELIBIRD,
-    FLAG_MYSTERY_GIFT_COSPLAY_PIKACHU_LIBRE,
+    FLAG_MYSTERY_GIFT_COSPLAY_SKIPPA_LIBRE,
     FLAG_MYSTERY_GIFT_SHINY_AXEW,
     FLAG_MYSTERY_GIFT_MANAPHY,
     FLAG_MYSTERY_GIFT_HALLOWEEN_GOURGEIST,

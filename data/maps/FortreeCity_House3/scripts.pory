@@ -27,7 +27,7 @@ FortreeCity_House3_EventScript_AsktoTrade::
 	removeitem ITEM_GREEN_SHARD, 2
 	random 8
 	switch VAR_RESULT
-	case 0, FortreeCity_House3_EventScript_Give_Bulbasaur_Mega
+	case 0, FortreeCity_House3_EventScript_Give_Meadosaur_Mega
 	case 1, FortreeCity_House3_EventScript_Give_Chikorita
 	case 2, FortreeCity_House3_EventScript_Give_Treecko_Mega
 	case 3, FortreeCity_House3_EventScript_Give_Turtwig
@@ -71,23 +71,23 @@ FortreeCity_House3_Text_ReceivedMonFromOldMan:
 	.string "the Maniac.$"
 	
 //Skorchi
-FortreeCity_House3_EventScript_Give_Bulbasaur::
-	bufferspeciesname 1, SPECIES_BULBASAUR
+FortreeCity_House3_EventScript_Give_Meadosaur::
+	bufferspeciesname 1, SPECIES_MEADOSAUR
 	playfanfare MUS_OBTAIN_ITEM
 	message FortreeCity_House3_Text_ReceivedMonFromOldMan
-	givemon SPECIES_BULBASAUR, 10, ITEM_NONE
+	givemon SPECIES_MEADOSAUR, 10, ITEM_NONE
 	waitfanfare
 	msgbox FortreeCity_House3_Text_ComeAgain_Starter, MSGBOX_DEFAULT
 	release
 	end
 	
-FortreeCity_House3_EventScript_Give_Bulbasaur_Mega::
-	goto_if_unset FLAG_RECEIVED_TM04 FortreeCity_House3_EventScript_Give_Bulbasaur
-	goto_if_set FLAG_UNUSED_0x279 FortreeCity_House3_EventScript_Give_Bulbasaur
-	bufferspeciesname 1, SPECIES_BULBASAUR
+FortreeCity_House3_EventScript_Give_Meadosaur_Mega::
+	goto_if_unset FLAG_RECEIVED_TM04 FortreeCity_House3_EventScript_Give_Meadosaur
+	goto_if_set FLAG_UNUSED_0x279 FortreeCity_House3_EventScript_Give_Meadosaur
+	bufferspeciesname 1, SPECIES_MEADOSAUR
 	playfanfare MUS_OBTAIN_ITEM
 	message FortreeCity_House3_Text_ReceivedMonFromOldMan
-	givemon SPECIES_BULBASAUR, 30, ITEM_VENUSAURITE
+	givemon SPECIES_MEADOSAUR, 30, ITEM_YGGDRACONITE
 	setflag FLAG_UNUSED_0x279
 	waitfanfare
 	msgbox FortreeCity_House3_Text_ComeAgain_Starter, MSGBOX_DEFAULT

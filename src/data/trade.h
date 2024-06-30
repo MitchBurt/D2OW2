@@ -1070,12 +1070,12 @@ static const struct InGameTrade sIngameTrades[] =
         .otName = _("Isis"), 
         .otGender = FEMALE, 
         .sheen = 10,
-        .requestedSpecies = SPECIES_RAICHU
+        .requestedSpecies = SPECIES_DISHEATS
     },
 	[INGAME_WONDER_TRADE] = 
     {
         .nickname = _("Wonder"),
-        .species = SPECIES_BULBASAUR,
+        .species = SPECIES_MEADOSAUR,
         .ivs = {0, 0, 0, 0, 0, 4},
         .abilityNum = 0, 
         .otId = 91481,
@@ -1086,7 +1086,7 @@ static const struct InGameTrade sIngameTrades[] =
         .otName = _("WT"), 
         .otGender = MALE, 
         .sheen = 10,
-        .requestedSpecies = SPECIES_BULBASAUR
+        .requestedSpecies = SPECIES_MEADOSAUR
     }
 };
 

@@ -3,7 +3,7 @@
 #define egg_moves(species, moves...) (SPECIES_##species + EGG_MOVES_SPECIES_OFFSET), moves
 
 const u16 gEggMoves[] = {
-	egg_moves(BULBASAUR,
+	egg_moves(MEADOSAUR,
 		MOVE_FRENZY_PLANT,
 		MOVE_PETAL_DANCE,
 		MOVE_TOXIC,
@@ -45,7 +45,7 @@ const u16 gEggMoves[] = {
 		MOVE_FIRE_LASH,
 		MOVE_ROCK_SLIDE),
 
-	egg_moves(SQUIRTLE,
+	egg_moves(JISSM,
 		MOVE_MIST,
 		MOVE_HAZE,
 		MOVE_FLAIL,
@@ -66,7 +66,7 @@ const u16 gEggMoves[] = {
 		MOVE_ZAP_CANNON,
 		MOVE_CONFUSION),
 
-	egg_moves(PIDGEY,
+	egg_moves(EMELGY,
 		MOVE_FAINT_ATTACK,
 		MOVE_FORESIGHT,
 		MOVE_STEEL_WING,
@@ -77,7 +77,7 @@ const u16 gEggMoves[] = {
 		MOVE_BRAVE_BIRD,
 		MOVE_DEFOG),
 
-	egg_moves(RATTATA,
+	egg_moves(HANGSTER,
 		MOVE_BITE,
 		MOVE_COUNTER,
 		MOVE_SCREECH,
@@ -91,7 +91,7 @@ const u16 gEggMoves[] = {
 		MOVE_FINAL_GAMBIT,
 		MOVE_SWAGGER),
 
-	egg_moves(SPEAROW,
+	egg_moves(BIRDAPP,
 		MOVE_RAZOR_WIND,
 		MOVE_WHIRLWIND,
 		MOVE_QUICK_ATTACK,
@@ -106,7 +106,7 @@ const u16 gEggMoves[] = {
 		MOVE_ASTONISH,
 		MOVE_FALSE_SWIPE),
 
-	egg_moves(EKANS,
+	egg_moves(ALCOO,
 		MOVE_SLAM,
 		MOVE_DISABLE,
 		MOVE_SPITE,
@@ -4830,7 +4830,7 @@ const u16 gEggMoves[] = {
 		MOVE_SUCKER_PUNCH,
 		MOVE_DRAGON_TAIL),
 
-	egg_moves(RATTATA_ALOLAN,
+	egg_moves(HANGSTER_ALOLAN,
 		MOVE_COUNTER,
 		MOVE_FURY_SWIPES,
 		MOVE_REVERSAL,

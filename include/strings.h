@@ -802,9 +802,9 @@ extern const u8 gText_TotodileDoll80BP[];
 
 extern const u8 gText_LaprasDoll128BP[];
 extern const u8 gText_SnorlaxDoll128BP[];
-extern const u8 gText_VenusaurDoll256BP[];
-extern const u8 gText_CharizardDoll256BP[];
-extern const u8 gText_BlastoiseDoll256BP[];
+extern const u8 gText_YggdraconDoll256BP[];
+extern const u8 gText_SkorpyrosDoll256BP[];
+extern const u8 gText_SperiathonDoll256BP[];
 
 extern const u8 gText_Protein1BP[];
 extern const u8 gText_Calcium1BP[];

@@ -9513,34 +9513,34 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_VENUSAURITE] =
+    [ITEM_YGGDRACONITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Venusaurita"),
+        .name = _("Yggdraconita"),
 #else
-        .name = _("Venusaurite"),
+        .name = _("Yggdraconite"),
 #endif
-        .itemId = ITEM_VENUSAURITE,
+        .itemId = ITEM_YGGDRACONITE,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sVenusauriteDesc,
+        .description = sYggdraconiteDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .secondaryId = 0,
     },
 
-    [ITEM_CHARIZARDITE_X] =
+    [ITEM_SKORPYROSITE_X] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Charizardita X"),
+        .name = _("Skorpyrosita X"),
 #else
-        .name = _("Charizardite X"),
+        .name = _("Skorpyrosite X"),
 #endif
-        .itemId = ITEM_CHARIZARDITE_X,
+        .itemId = ITEM_SKORPYROSITE_X,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sCharizarditeDesc,
+        .description = sSkorpyrositeDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -9836,17 +9836,17 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_CHARIZARDITE_Y] =
+    [ITEM_SKORPYROSITE_Y] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Charizardita Y"),
+        .name = _("Skorpyrosita Y"),
 #else
-        .name = _("Charizardite Y"),
+        .name = _("Skorpyrosite Y"),
 #endif
-        .itemId = ITEM_CHARIZARDITE_Y,
+        .itemId = ITEM_SKORPYROSITE_Y,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sCharizarditeDesc,
+        .description = sSkorpyrositeDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -10142,17 +10142,17 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_PIDGEOTITE] =
+    [ITEM_FAZEAGLEITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Pidgeotita"),
+        .name = _("Fazeagleita"),
 #else
-        .name = _("Pidgeotite"),
+        .name = _("Fazeagleite"),
 #endif
-        .itemId = ITEM_PIDGEOTITE,
+        .itemId = ITEM_FAZEAGLEITE,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sPidgeotiteDesc,
+        .description = sFazeagleiteDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -10244,17 +10244,17 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_BEEDRILLITE] =
+    [ITEM_BERRORDITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Beedrillita"),
+        .name = _("Berrordita"),
 #else
-        .name = _("Beedrillite"),
+        .name = _("Berrordite"),
 #endif
-        .itemId = ITEM_BEEDRILLITE,
+        .itemId = ITEM_BERRORDITE,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sBeedrilliteDesc,
+        .description = sBerrorditeDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,

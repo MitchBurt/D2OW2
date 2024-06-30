@@ -3728,7 +3728,7 @@ static void Task_LoadInfoScreen(u8 taskId)
 		if(sPokedexListItem->dexNum < SPECIES_CHESPIN)
 			PrintFootprint(WIN_FOOTPRINT, sPokedexListItem->dexNum);
 		else
-			PrintFootprint(WIN_FOOTPRINT, SPECIES_CATERPIE);
+			PrintFootprint(WIN_FOOTPRINT, SPECIES_BUG);
         CopyWindowToVram(WIN_FOOTPRINT, 2);
         gMain.state++;
         break;
@@ -4485,7 +4485,7 @@ static void Task_DisplayCaughtMonDexPage(u8 taskId)
 		if(gTasks[taskId].tDexNum < SPECIES_CHESPIN)
 			PrintFootprint(WIN_FOOTPRINT, gTasks[taskId].tDexNum);
 		else
-			PrintFootprint(WIN_FOOTPRINT, SPECIES_CATERPIE);
+			PrintFootprint(WIN_FOOTPRINT, SPECIES_BUG);
         CopyWindowToVram(WIN_FOOTPRINT, 2);
         ResetPaletteFade();
         LoadPokedexBgPalette(FALSE);
@@ -8464,12 +8464,12 @@ static void Task_HandleFormsScreenInput(u8 taskId)
 	bool8 cannextFormMegaEvolve = FALSE;
 	
     if (gFormSpeciesIdTables[species] == NULL || 
-	    species == SPECIES_PIKACHU)
+	    species == SPECIES_SKIPPA)
 		dexFormId = 0;
 	else
 		numForms = (sizeof(gFormSpeciesIdTables[species])/sizeof(gFormSpeciesIdTables[species][0]));
 	
-	if(GetFormSpeciesId(species, dexFormId +1) >= SPECIES_VENUSAUR_MEGA && GetFormSpeciesId(species, dexFormId +1) <= SPECIES_GROUDON_PRIMAL)
+	if(GetFormSpeciesId(species, dexFormId +1) >= SPECIES_YGGDRACON_MEGA && GetFormSpeciesId(species, dexFormId +1) <= SPECIES_GROUDON_PRIMAL)
 		cannextFormMegaEvolve = TRUE;
 	
 	if (JOY_NEW(A_BUTTON))
@@ -8484,7 +8484,7 @@ static void Task_HandleFormsScreenInput(u8 taskId)
 	if (JOY_NEW(R_BUTTON) && 
 	    gFormSpeciesIdTables[species] != NULL && 
 		gFormSpeciesIdTables[species][dexFormId + 1] != 0xFFFF && 
-		species != SPECIES_PIKACHU &&
+		species != SPECIES_SKIPPA &&
 		!cannextFormMegaEvolve &&
 		dexFormId < numForms)
     {
@@ -8498,7 +8498,7 @@ static void Task_HandleFormsScreenInput(u8 taskId)
 	
 	if (JOY_NEW(L_BUTTON) && 
 	    gFormSpeciesIdTables[species] != NULL && 
-		species   != SPECIES_PIKACHU &&
+		species   != SPECIES_SKIPPA &&
 		dexFormId != 0)
     {
         dexFormId--;

@@ -694,14 +694,14 @@ const struct Decoration gDecorations[] = {
         DecorDesc_PICHU_DOLL,
         DecorGfx_PICHU_DOLL
     }, {
-        DECOR_PIKACHU_DOLL,
-        _("Muñeco Pikachu"),
+        DECOR_SKIPPA_DOLL,
+        _("Muñeco Skippa"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_DOLL,
         3000,
-        DecorDesc_PIKACHU_DOLL,
-        DecorGfx_PIKACHU_DOLL
+        DecorDesc_SKIPPA_DOLL,
+        DecorGfx_SKIPPA_DOLL
     }, {
         DECOR_MARILL_DOLL,
         _("Muñeco Marill"),
@@ -1027,32 +1027,32 @@ const struct Decoration gDecorations[] = {
         DecorDesc_LAPRAS_DOLL,
         DecorGfx_LAPRAS_DOLL
     }, {
-        DECOR_VENUSAUR_DOLL,
-        _("Muñeco Venusaur"),
+        DECOR_YGGDRACON_DOLL,
+        _("Muñeco Yggdracon"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x2,
         DECORCAT_DOLL,
         10000,
-        DecorDesc_VENUSAUR_DOLL,
-        DecorGfx_VENUSAUR_DOLL
+        DecorDesc_YGGDRACON_DOLL,
+        DecorGfx_YGGDRACON_DOLL
     }, {
-        DECOR_CHARIZARD_DOLL,
+        DECOR_SKORPYROS_DOLL,
         _("Muñeco Charizar"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x2,
         DECORCAT_DOLL,
         10000,
-        DecorDesc_CHARIZARD_DOLL,
-        DecorGfx_CHARIZARD_DOLL
+        DecorDesc_SKORPYROS_DOLL,
+        DecorGfx_SKORPYROS_DOLL
     }, {
-        DECOR_BLASTOISE_DOLL,
-        _("Muñ. Blastoise"),
+        DECOR_SPERIATHON_DOLL,
+        _("Muñ. Speriathon"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x2,
         DECORCAT_DOLL,
         10000,
-        DecorDesc_BLASTOISE_DOLL,
-        DecorGfx_BLASTOISE_DOLL
+        DecorDesc_SPERIATHON_DOLL,
+        DecorGfx_SPERIATHON_DOLL
     }, {
         DECOR_WAILMER_DOLL,
         _("Muñeco Wailmer"),
@@ -1784,14 +1784,14 @@ const struct Decoration gDecorations[] = {
         DecorDesc_PICHU_DOLL,
         DecorGfx_PICHU_DOLL
     }, {
-        DECOR_PIKACHU_DOLL,
-        _("Pikachu Doll"),
+        DECOR_SKIPPA_DOLL,
+        _("Skippa Doll"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_DOLL,
         3000,
-        DecorDesc_PIKACHU_DOLL,
-        DecorGfx_PIKACHU_DOLL
+        DecorDesc_SKIPPA_DOLL,
+        DecorGfx_SKIPPA_DOLL
     }, {
         DECOR_MARILL_DOLL,
         _("Marill Doll"),
@@ -2117,32 +2117,32 @@ const struct Decoration gDecorations[] = {
         DecorDesc_LAPRAS_DOLL,
         DecorGfx_LAPRAS_DOLL
     }, {
-        DECOR_VENUSAUR_DOLL,
-        _("Venusaur Doll"),
+        DECOR_YGGDRACON_DOLL,
+        _("Yggdracon Doll"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x2,
         DECORCAT_DOLL,
         10000,
-        DecorDesc_VENUSAUR_DOLL,
-        DecorGfx_VENUSAUR_DOLL
+        DecorDesc_YGGDRACON_DOLL,
+        DecorGfx_YGGDRACON_DOLL
     }, {
-        DECOR_CHARIZARD_DOLL,
-        _("Charizard Doll"),
+        DECOR_SKORPYROS_DOLL,
+        _("Skorpyros Doll"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x2,
         DECORCAT_DOLL,
         10000,
-        DecorDesc_CHARIZARD_DOLL,
-        DecorGfx_CHARIZARD_DOLL
+        DecorDesc_SKORPYROS_DOLL,
+        DecorGfx_SKORPYROS_DOLL
     }, {
-        DECOR_BLASTOISE_DOLL,
-        _("Blastoise Doll"),
+        DECOR_SPERIATHON_DOLL,
+        _("Speriathon Doll"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x2,
         DECORCAT_DOLL,
         10000,
-        DecorDesc_BLASTOISE_DOLL,
-        DecorGfx_BLASTOISE_DOLL
+        DecorDesc_SPERIATHON_DOLL,
+        DecorGfx_SPERIATHON_DOLL
     }, {
         DECOR_WAILMER_DOLL,
         _("Wailmer Doll"),

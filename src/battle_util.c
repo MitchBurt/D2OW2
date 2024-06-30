@@ -8577,8 +8577,8 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
             MulModifier(&modifier, UQ_4_12(1.5));
         break;
     case HOLD_EFFECT_LIGHT_BALL:
-        if ((gBattleMons[battlerAtk].species == SPECIES_PIKACHU          	 ||
-			 gBattleMons[battlerAtk].species == SPECIES_RAICHU          	 ||
+        if ((gBattleMons[battlerAtk].species == SPECIES_SKIPPA          	 ||
+			 gBattleMons[battlerAtk].species == SPECIES_DISHEATS          	 ||
 			 gBattleMons[battlerAtk].species == SPECIES_PICHU           	 ||
 			 gBattleMons[battlerAtk].species == SPECIES_MINUN           	 ||
 			 gBattleMons[battlerAtk].species == SPECIES_PLUSLE          	 ||
@@ -8588,8 +8588,8 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
 			 gBattleMons[battlerAtk].species == SPECIES_TOGEDEMARU      	 ||
 			 gBattleMons[battlerAtk].species == SPECIES_MORPEKO         	 ||
 			 gBattleMons[battlerAtk].species == SPECIES_MORPEKO_HANGRY  	 ||
-			 gBattleMons[battlerAtk].species == SPECIES_PIKACHU_PARTNER_CAP  ||
-			 gBattleMons[battlerAtk].species == SPECIES_RAICHU_ALOLAN)       && 
+			 gBattleMons[battlerAtk].species == SPECIES_SKIPPA_PARTNER_CAP  ||
+			 gBattleMons[battlerAtk].species == SPECIES_DISHEATS_ALOLAN)       && 
 			 IS_BATTLER_MOVE_SPECIAL(move, battlerAtk) 						 &&
 			 !FlagGet(FLAG_NO_EVOLUTION_MODE))
             MulModifier(&modifier, UQ_4_12(1.5));

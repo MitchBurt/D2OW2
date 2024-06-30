@@ -9,7 +9,7 @@ static const u16 sContestLadyMonGfxId[] =
     OBJ_EVENT_GFX_SKITTY,
     OBJ_EVENT_GFX_POOCHYENA,
     OBJ_EVENT_GFX_KECLEON_1,
-    OBJ_EVENT_GFX_PIKACHU
+    OBJ_EVENT_GFX_SKIPPA
 };
 
 static const u16 sLilycoveLadyGfxId[] =
@@ -465,5 +465,5 @@ static const u16 sContestLadyMonSpecies[] =
     SPECIES_SKITTY,
     SPECIES_POOCHYENA,
     SPECIES_KECLEON,
-    SPECIES_PIKACHU
+    SPECIES_SKIPPA
 };

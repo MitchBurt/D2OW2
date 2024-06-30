@@ -803,7 +803,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_JOLLY
     },
     [SLATEPORT_TENT_MON_WINGULL_1] = {
-        .species = SPECIES_RAICHU,
+        .species = SPECIES_DISHEATS,
         .moves = {MOVE_THUNDERBOLT, MOVE_GRASS_KNOT, MOVE_SURF, MOVE_NUZZLE},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
@@ -1807,7 +1807,7 @@ const struct BattleFrontierTrainer gVerdanturfBattleTentTrainers[NUM_BATTLE_TENT
 const struct FacilityMon gVerdanturfBattleTentMons[NUM_VERDANTURF_TENT_MONS] = 
 {
     [VERDANTURF_TENT_MON_POOCHYENA] = {
-        .species = SPECIES_PIDGEOTTO,
+        .species = SPECIES_FEDORHAWK,
         .moves = {MOVE_WHIRLWIND, MOVE_WING_ATTACK, MOVE_QUICK_ATTACK, MOVE_TACKLE},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_SPEED | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
@@ -1989,7 +1989,7 @@ const struct FacilityMon gVerdanturfBattleTentMons[NUM_VERDANTURF_TENT_MONS] =
         .nature = NATURE_MILD
     },
     [VERDANTURF_TENT_MON_NUZLEAF] = {
-        .species = SPECIES_RATICATE,
+        .species = SPECIES_GAWDAMSTER,
         .moves = {MOVE_CRUNCH, MOVE_HYPER_FANG, MOVE_FAKE_OUT, MOVE_THIEF},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,

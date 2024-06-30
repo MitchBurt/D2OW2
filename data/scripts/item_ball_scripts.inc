@@ -662,8 +662,8 @@ ScorchedSlab_EventScript_ItemTyranitarite::
 	addscaleditem ITEM_TYRANITARITE
 	end
 	
-MegaStone_EventScript_ItemBeedrillite::
-	addscaleditem ITEM_BEEDRILLITE
+MegaStone_EventScript_ItemBerrordite::
+	addscaleditem ITEM_BERRORDITE
 	end
 	
 MegaStone_EventScript_ItemSteelixite::
@@ -718,8 +718,8 @@ MegaStone_EventScript_ItemGardevoirite::
 	addscaleditem ITEM_GARDEVOIRITE
 	end
 	
-MegaStone_EventScript_ItemCharizardite_X::
-	addscaleditem ITEM_CHARIZARDITE_X
+MegaStone_EventScript_ItemSkorpyrosite_X::
+	addscaleditem ITEM_SKORPYROSITE_X
 	end
 	
 MegaStone_EventScript_ItemGengarite::

@@ -1854,7 +1854,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
 	u32 value;
 	u8 OTShiny = OT_ID_RANDOM_NO_SHINY;
 	u8 exioliteboost = 0;
-	u16 newspecies = SPECIES_BULBASAUR;
+	u16 newspecies = SPECIES_MEADOSAUR;
 	u8 pokemonLevel = 1;
 	u8 speciesnumber;
 	u8 abilityNum = 0;
@@ -2352,9 +2352,9 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
 				if(pokemonLevel > 100)
 					pokemonLevel = 100;
 				
-				//Wattson has an Alolan Raichu so I have to force it
-				if(trainerNum == TRAINER_WATTSON_1 && newspecies == SPECIES_RAICHU)
-					newspecies = SPECIES_RAICHU_ALOLAN;
+				//Wattson has an Alolan Disheats so I have to force it
+				if(trainerNum == TRAINER_WATTSON_1 && newspecies == SPECIES_DISHEATS)
+					newspecies = SPECIES_DISHEATS_ALOLAN;
 				
 				// Set its FormId ---------------------------------------------------------------------------------
 				formId = GetFormIdFromFormSpeciesId(newspecies);
@@ -5089,7 +5089,7 @@ s8 getModifiedMovePriority(u16 move, u8 battlerId){
 
     //Boss Pokemon
     switch(speciesId){
-        case SPECIES_PIKACHU_PARTNER_CAP:
+        case SPECIES_SKIPPA_PARTNER_CAP:
             priority++;
         break;
     }
@@ -5902,7 +5902,7 @@ u8 getMoveBasePower(u16 move, u16 speciesId, u16 ability){
 
     //Special Cases
 	switch(speciesId){
-		case SPECIES_PIKACHU_PARTNER_CAP:
+		case SPECIES_SKIPPA_PARTNER_CAP:
 			if(move == MOVE_VOLT_TACKLE)
 				movePower = 130;
 			else if(move == MOVE_PLAY_ROUGH)
@@ -5949,7 +5949,7 @@ u8 getAttackingStat(u16 move, u8 battler){
 
     //Special Cases
     switch(speciesId){
-        case SPECIES_PIKACHU_PARTNER_CAP:
+        case SPECIES_SKIPPA_PARTNER_CAP:
 			if(move == MOVE_VOLT_TACKLE || move == MOVE_PLAY_ROUGH){
 				stat = STAT_SPATK;
 		}

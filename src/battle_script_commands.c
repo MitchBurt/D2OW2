@@ -10684,8 +10684,8 @@ static u8 AttacksThisTurn(u8 battlerId, u16 move) // Note: returns 1 if it's a c
         return 2;
     
     switch(GetFormSpeciesId(gBattleMons[battlerId].species, gBattleMons[battlerId].formId)){
-        case SPECIES_VENUSAUR:
-        case SPECIES_VENUSAUR_MEGA:
+        case SPECIES_YGGDRACON:
+        case SPECIES_YGGDRACON_MEGA:
             if (gSignatureMoveList[GetFormSpeciesId(gBattleMons[battlerId].species, gBattleMons[battlerId].formId)].move == move){
                 return 2; 
             }
@@ -12842,12 +12842,12 @@ static void Cmd_givecaughtmon(void)
     //Remove mega form upon catching
     switch (speciesID)
     {
-        case SPECIES_VENUSAUR_MEGA:
-        case SPECIES_CHARIZARD_MEGA_X:
-        case SPECIES_CHARIZARD_MEGA_Y:
-        case SPECIES_BLASTOISE_MEGA:
-        case SPECIES_BEEDRILL_MEGA:
-        case SPECIES_PIDGEOT_MEGA:
+        case SPECIES_YGGDRACON_MEGA:
+        case SPECIES_SKORPYROS_MEGA_X:
+        case SPECIES_SKORPYROS_MEGA_Y:
+        case SPECIES_SPERIATHON_MEGA:
+        case SPECIES_BERRORD_MEGA:
+        case SPECIES_FAZEAGLE_MEGA:
         case SPECIES_ALAKAZAM_MEGA:
         case SPECIES_SLOWBRO_MEGA:
         case SPECIES_GENGAR_MEGA:

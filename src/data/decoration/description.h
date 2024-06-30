@@ -309,7 +309,7 @@ const u8 DecorDesc_CUTE_POSTER[] = _(
 
 const u8 DecorDesc_PIKA_POSTER[] = _(
     "Póster grande\n"
-        "de Pikachu\n"
+        "de Skippa\n"
         "y Pichu.");
 
 const u8 DecorDesc_LONG_POSTER[] = _(
@@ -333,8 +333,8 @@ const u8 DecorDesc_PICHU_DOLL[] = _(
         "Ponlo en una\n"
         "mesa o tapete.");
 
-const u8 DecorDesc_PIKACHU_DOLL[] = _(
-    "Muñeco de Pikachu.\n"
+const u8 DecorDesc_SKIPPA_DOLL[] = _(
+    "Muñeco de Skippa.\n"
         "Ponlo en una\n"
         "mesa o tapete.");
 
@@ -454,7 +454,7 @@ const u8 DecorDesc_SEEDOT_DOLL[] = _(
         "o tapete.");
 
 const u8 DecorDesc_PIKA_CUSHION[] = _(
-    "Cojín de Pikachu.\n"
+    "Cojín de Skippa.\n"
         "Ponlo en una mesa\n"
         "o tapete.");
 
@@ -518,17 +518,17 @@ const u8 DecorDesc_LAPRAS_DOLL[] = _(
         "Ponlo en una mesa\n"
         "o tapete.");
 
-const u8 DecorDesc_VENUSAUR_DOLL[] = _(
+const u8 DecorDesc_YGGDRACON_DOLL[] = _(
     "Muñeco grande.\n"
         "Ponlo en una mesa\n"
         "o tapete.");
 
-const u8 DecorDesc_CHARIZARD_DOLL[] = _(
+const u8 DecorDesc_SKORPYROS_DOLL[] = _(
     "Muñeco grande.\n"
         "Ponlo en una mesa\n"
         "o tapete.");
 
-const u8 DecorDesc_BLASTOISE_DOLL[] = _(
+const u8 DecorDesc_SPERIATHON_DOLL[] = _(
     "Muñeco grande.\n"
         "Ponlo en una mesa\n"
         "o tapete.");
@@ -885,7 +885,7 @@ const u8 DecorDesc_CUTE_POSTER[] = _(
 
 const u8 DecorDesc_PIKA_POSTER[] = _(
     "A large poster with\n"
-        "a Pikachu and\n"
+        "a Skippa and\n"
         "Pichu print.");
 
 const u8 DecorDesc_LONG_POSTER[] = _(
@@ -909,8 +909,8 @@ const u8 DecorDesc_PICHU_DOLL[] = _(
         "Place it on a mat\n"
         "or a desk.");
 
-const u8 DecorDesc_PIKACHU_DOLL[] = _(
-    "A Pikachu doll.\n"
+const u8 DecorDesc_SKIPPA_DOLL[] = _(
+    "A Skippa doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
@@ -1030,7 +1030,7 @@ const u8 DecorDesc_SEEDOT_DOLL[] = _(
         "or a desk.");
 
 const u8 DecorDesc_PIKA_CUSHION[] = _(
-    "A Pikachu cushion.\n"
+    "A Skippa cushion.\n"
         "Place it on a mat\n"
         "or a desk.");
 
@@ -1094,17 +1094,17 @@ const u8 DecorDesc_LAPRAS_DOLL[] = _(
         "Place it on a mat\n"
         "or a desk.");
 
-const u8 DecorDesc_VENUSAUR_DOLL[] = _(
+const u8 DecorDesc_YGGDRACON_DOLL[] = _(
     "A large doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
-const u8 DecorDesc_CHARIZARD_DOLL[] = _(
+const u8 DecorDesc_SKORPYROS_DOLL[] = _(
     "A large doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
-const u8 DecorDesc_BLASTOISE_DOLL[] = _(
+const u8 DecorDesc_SPERIATHON_DOLL[] = _(
     "A large doll.\n"
         "Place it on a mat\n"
         "or a desk.");

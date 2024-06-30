@@ -1282,11 +1282,11 @@ const u32 gItemIconPalette_Gardevoirite[] = INCBIN_U32("graphics/items/icon_pale
 const u32 gItemIcon_Ampharosite[] = INCBIN_U32("graphics/items/icons/ampharosite.4bpp.lz");
 const u32 gItemIconPalette_Ampharosite[] = INCBIN_U32("graphics/items/icon_palettes/ampharosite.gbapal.lz");
 
-const u32 gItemIcon_Venusaurite[] = INCBIN_U32("graphics/items/icons/venusaurite.4bpp.lz");
-const u32 gItemIconPalette_Venusaurite[] = INCBIN_U32("graphics/items/icon_palettes/venusaurite.gbapal.lz");
+const u32 gItemIcon_Yggdraconite[] = INCBIN_U32("graphics/items/icons/yggdraconite.4bpp.lz");
+const u32 gItemIconPalette_Yggdraconite[] = INCBIN_U32("graphics/items/icon_palettes/yggdraconite.gbapal.lz");
 
-const u32 gItemIcon_CharizarditeX[] = INCBIN_U32("graphics/items/icons/charizardite_x.4bpp.lz");
-const u32 gItemIconPalette_CharizarditeX[] = INCBIN_U32("graphics/items/icon_palettes/charizardite_x.gbapal.lz");
+const u32 gItemIcon_SkorpyrositeX[] = INCBIN_U32("graphics/items/icons/skorpyrosite_x.4bpp.lz");
+const u32 gItemIconPalette_SkorpyrositeX[] = INCBIN_U32("graphics/items/icon_palettes/skorpyrosite_x.gbapal.lz");
 
 const u32 gItemIcon_Blastoisinite[] = INCBIN_U32("graphics/items/icons/blastoisinite.4bpp.lz");
 const u32 gItemIconPalette_Blastoisinite[] = INCBIN_U32("graphics/items/icon_palettes/blastoisinite.gbapal.lz");
@@ -1339,8 +1339,8 @@ const u32 gItemIconPalette_Gyaradosite[] = INCBIN_U32("graphics/items/icon_palet
 const u32 gItemIcon_Absolite[] = INCBIN_U32("graphics/items/icons/absolite.4bpp.lz");
 const u32 gItemIconPalette_Absolite[] = INCBIN_U32("graphics/items/icon_palettes/absolite.gbapal.lz");
 
-const u32 gItemIcon_CharizarditeY[] = INCBIN_U32("graphics/items/icons/charizardite_y.4bpp.lz");
-const u32 gItemIconPalette_CharizarditeY[] = INCBIN_U32("graphics/items/icon_palettes/charizardite_y.gbapal.lz");
+const u32 gItemIcon_SkorpyrositeY[] = INCBIN_U32("graphics/items/icons/skorpyrosite_y.4bpp.lz");
+const u32 gItemIconPalette_SkorpyrositeY[] = INCBIN_U32("graphics/items/icon_palettes/skorpyrosite_y.gbapal.lz");
 
 const u32 gItemIcon_Alakazite[] = INCBIN_U32("graphics/items/icons/alakazite.4bpp.lz");
 const u32 gItemIconPalette_Alakazite[] = INCBIN_U32("graphics/items/icon_palettes/alakazite.gbapal.lz");
@@ -1393,8 +1393,8 @@ const u32 gItemIconPalette_Slowbronite[] = INCBIN_U32("graphics/items/icon_palet
 const u32 gItemIcon_Steelixite[] = INCBIN_U32("graphics/items/icons/steelixite.4bpp.lz");
 const u32 gItemIconPalette_Steelixite[] = INCBIN_U32("graphics/items/icon_palettes/steelixite.gbapal.lz");
 
-const u32 gItemIcon_Pidgeotite[] = INCBIN_U32("graphics/items/icons/pidgeotite.4bpp.lz");
-const u32 gItemIconPalette_Pidgeotite[] = INCBIN_U32("graphics/items/icon_palettes/pidgeotite.gbapal.lz");
+const u32 gItemIcon_Fazeagleite[] = INCBIN_U32("graphics/items/icons/fazeagleite.4bpp.lz");
+const u32 gItemIconPalette_Fazeagleite[] = INCBIN_U32("graphics/items/icon_palettes/fazeagleite.gbapal.lz");
 
 const u32 gItemIcon_Glalitite[] = INCBIN_U32("graphics/items/icons/glalitite.4bpp.lz");
 const u32 gItemIconPalette_Glalitite[] = INCBIN_U32("graphics/items/icon_palettes/glalitite.gbapal.lz");
@@ -1411,8 +1411,8 @@ const u32 gItemIconPalette_Lopunnite[] = INCBIN_U32("graphics/items/icon_palette
 const u32 gItemIcon_Salamencite[] = INCBIN_U32("graphics/items/icons/salamencite.4bpp.lz");
 const u32 gItemIconPalette_Salamencite[] = INCBIN_U32("graphics/items/icon_palettes/salamencite.gbapal.lz");
 
-const u32 gItemIcon_Beedrillite[] = INCBIN_U32("graphics/items/icons/beedrillite.4bpp.lz");
-const u32 gItemIconPalette_Beedrillite[] = INCBIN_U32("graphics/items/icon_palettes/beedrillite.gbapal.lz");
+const u32 gItemIcon_Berrordite[] = INCBIN_U32("graphics/items/icons/berrordite.4bpp.lz");
+const u32 gItemIconPalette_Berrordite[] = INCBIN_U32("graphics/items/icon_palettes/berrordite.gbapal.lz");
 
 const u32 gItemIcon_MegaBracelet[] = INCBIN_U32("graphics/items/icons/mega_bracelet.4bpp.lz");
 const u32 gItemIconPalette_MegaBracelet[] = INCBIN_U32("graphics/items/icon_palettes/mega_bracelet.gbapal.lz");

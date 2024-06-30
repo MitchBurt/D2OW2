@@ -545,7 +545,7 @@ LilycoveCity_PokemonCenter_1F_EventScript_ContestLadyMon:: @ 82A89C7
     compare VAR_RESULT, CONTEST_CATEGORY_SMART
     goto_if_eq LilycoveCity_PokemonCenter_1F_EventScript_Kecleon
     compare VAR_RESULT, CONTEST_CATEGORY_TOUGH
-    goto_if_eq LilycoveCity_PokemonCenter_1F_EventScript_Pikachu
+    goto_if_eq LilycoveCity_PokemonCenter_1F_EventScript_Skippa
     end
 
 LilycoveCity_PokemonCenter_1F_EventScript_Zigzagoon:: @ 82A8A0A
@@ -588,12 +588,12 @@ LilycoveCity_PokemonCenter_1F_EventScript_Kecleon:: @ 82A8A43
     release
     end
 
-LilycoveCity_PokemonCenter_1F_EventScript_Pikachu:: @ 82A8A56
+LilycoveCity_PokemonCenter_1F_EventScript_Skippa:: @ 82A8A56
     lock
     faceplayer
     waitse
     playmoncry VAR_0x8005, 0
-    msgbox LilycoveCity_PokemonCenter_1F_Text_Pikachu, MSGBOX_DEFAULT
+    msgbox LilycoveCity_PokemonCenter_1F_Text_Skippa, MSGBOX_DEFAULT
     waitmoncry
     release
     end
@@ -852,7 +852,7 @@ LilycoveCity_PokemonCenter_1F_Text_Kecleon: @ 82A96E6
 LilycoveCity_PokemonCenter_1F_Text_Poochyena: @ 82A96F6
     .string "{STR_VAR_1}: Baaarun…$"
 
-LilycoveCity_PokemonCenter_1F_Text_Pikachu: @ 82A9703
+LilycoveCity_PokemonCenter_1F_Text_Skippa: @ 82A9703
     .string "{STR_VAR_1}: Pikka!$"
 
 LilycoveCity_PokemonCenter_1F_Text_Skitty: @ 82A970E

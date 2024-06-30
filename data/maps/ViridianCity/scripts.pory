@@ -46,7 +46,7 @@ ViridianCity_EventScript_Youngster:: @ 8165A8F
 	end
 	
 ViridianCity_EventScript_YoungsterExplainCaterpillars:: @ 8165AB0
-	msgbox ViridianCity_Text_ExplainCaterpieWeedle
+	msgbox ViridianCity_Text_ExplainBugPaintic
 	release
 	end
 
@@ -88,11 +88,11 @@ ViridianCity_Text_WantToKnowAboutCaterpillarMons:: @ 817DB98
 ViridianCity_Text_OhOkayThen:: @ 817DBD5
     .string "Oh, okay then!$"
 
-ViridianCity_Text_ExplainCaterpieWeedle:: @ 817DBE4
-    .string "Caterpie has no Poison,\n"
-    .string "but Weedle does.\p"
+ViridianCity_Text_ExplainBugPaintic:: @ 817DBE4
+    .string "Bug has no Poison,\n"
+    .string "but Paintic does.\p"
     .string "Watch that your Pokémon aren't\n"
-    .string "stabbed by Weedle's Poison Sting.$"
+    .string "stabbed by Paintic's Poison Sting.$"
 
 ViridianCity_Text_GrandpaHasntHadCoffeeYet:: @ 817DC4E
     .string "Oh, Grandpa!\n"

@@ -1,67 +1,67 @@
-static const u16 sVenusaurFormSpeciesIdTable[] = {
-    SPECIES_VENUSAUR,
-    SPECIES_VENUSAUR_MEGA,
+static const u16 sYggdraconFormSpeciesIdTable[] = {
+    SPECIES_YGGDRACON,
+    SPECIES_YGGDRACON_MEGA,
     0xFFFF,
 };
 
-static const u16 sCharizardFormSpeciesIdTable[] = {
-    SPECIES_CHARIZARD,
-    SPECIES_CHARIZARD_MEGA_X,
-    SPECIES_CHARIZARD_MEGA_Y,
+static const u16 sSkorpyrosFormSpeciesIdTable[] = {
+    SPECIES_SKORPYROS,
+    SPECIES_SKORPYROS_MEGA_X,
+    SPECIES_SKORPYROS_MEGA_Y,
     0xFFFF,
 };
 
-static const u16 sBlastoiseFormSpeciesIdTable[] = {
-    SPECIES_BLASTOISE,
-    SPECIES_BLASTOISE_MEGA,
+static const u16 sSperiathonFormSpeciesIdTable[] = {
+    SPECIES_SPERIATHON,
+    SPECIES_SPERIATHON_MEGA,
     0xFFFF,
 };
 
-static const u16 sBeedrillFormSpeciesIdTable[] = {
-    SPECIES_BEEDRILL,
-    SPECIES_BEEDRILL_MEGA,
+static const u16 sBerrordFormSpeciesIdTable[] = {
+    SPECIES_BERRORD,
+    SPECIES_BERRORD_MEGA,
     0xFFFF,
 };
 
-static const u16 sPidgeotFormSpeciesIdTable[] = {
-    SPECIES_PIDGEOT,
-    SPECIES_PIDGEOT_MEGA,
+static const u16 sFazeagleFormSpeciesIdTable[] = {
+    SPECIES_FAZEAGLE,
+    SPECIES_FAZEAGLE_MEGA,
     0xFFFF,
 };
 
-static const u16 sRattataFormSpeciesIdTable[] = {
-    SPECIES_RATTATA,
-    SPECIES_RATTATA_ALOLAN,
+static const u16 sHangsterFormSpeciesIdTable[] = {
+    SPECIES_HANGSTER,
+    SPECIES_HANGSTER_ALOLAN,
     0xFFFF,
 };
 
-static const u16 sRaticateFormSpeciesIdTable[] = {
-    SPECIES_RATICATE,
-    SPECIES_RATICATE_ALOLAN,
+static const u16 sGawdamsterFormSpeciesIdTable[] = {
+    SPECIES_GAWDAMSTER,
+    SPECIES_GAWDAMSTER_ALOLAN,
     0xFFFF,
 };
 
-static const u16 sPikachuFormSpeciesIdTable[] = {
-    SPECIES_PIKACHU,
-    SPECIES_PIKACHU_COSPLAY,
-    SPECIES_PIKACHU_ROCK_STAR,
-    SPECIES_PIKACHU_BELLE,
-    SPECIES_PIKACHU_POP_STAR,
-    SPECIES_PIKACHU_PH_D,
-    SPECIES_PIKACHU_LIBRE,
-    SPECIES_PIKACHU_ORIGINAL_CAP,
-    SPECIES_PIKACHU_HOENN_CAP,
-    SPECIES_PIKACHU_SINNOH_CAP,
-    SPECIES_PIKACHU_UNOVA_CAP,
-    SPECIES_PIKACHU_KALOS_CAP,
-    SPECIES_PIKACHU_ALOLA_CAP,
-    SPECIES_PIKACHU_PARTNER_CAP,
+static const u16 sSkippaFormSpeciesIdTable[] = {
+    SPECIES_SKIPPA,
+    SPECIES_SKIPPA_COSPLAY,
+    SPECIES_SKIPPA_ROCK_STAR,
+    SPECIES_SKIPPA_BELLE,
+    SPECIES_SKIPPA_POP_STAR,
+    SPECIES_SKIPPA_PH_D,
+    SPECIES_SKIPPA_LIBRE,
+    SPECIES_SKIPPA_ORIGINAL_CAP,
+    SPECIES_SKIPPA_HOENN_CAP,
+    SPECIES_SKIPPA_SINNOH_CAP,
+    SPECIES_SKIPPA_UNOVA_CAP,
+    SPECIES_SKIPPA_KALOS_CAP,
+    SPECIES_SKIPPA_ALOLA_CAP,
+    SPECIES_SKIPPA_PARTNER_CAP,
     0xFFFF,
 };
 
-static const u16 sRaichuFormSpeciesIdTable[] = {
-    SPECIES_RAICHU,
-    SPECIES_RAICHU_ALOLAN,
+static const u16 sDisheatsFormSpeciesIdTable[] = {
+    SPECIES_DISHEATS,
+    SPECIES_DISHEATS_ALOLAN,
     0xFFFF,
 };
 

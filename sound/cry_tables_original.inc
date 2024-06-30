@@ -1,32 +1,32 @@
 	.align 2
 gCryTable:: @ 869DCF4
 	@ Gen 1
-	cry Cry_Bulbasaur  @ 869DCF4
-	cry Cry_Ivysaur  @ 869DD00
-	cry Cry_Venusaur  @ 869DD0C
+	cry Cry_Meadosaur  @ 869DCF4
+	cry Cry_Grovine  @ 869DD00
+	cry Cry_Yggdracon  @ 869DD0C
 	cry Cry_Skorchi  @ 869DD18
-	cry Cry_Charmeleon  @ 869DD24
-	cry Cry_Charizard  @ 869DD30
-	cry Cry_Squirtle  @ 869DD3C
-	cry Cry_Wartortle  @ 869DD48
-	cry Cry_Blastoise  @ 869DD54
-	cry Cry_Caterpie  @ 869DD60
-	cry Cry_Metapod  @ 869DD6C
-	cry Cry_Butterfree  @ 869DD78
-	cry Cry_Weedle  @ 869DD84
-	cry Cry_Kakuna  @ 869DD90
-	cry Cry_Beedrill  @ 869DD9C
-	cry Cry_Pidgey  @ 869DDA8
-	cry Cry_Pidgeotto  @ 869DDB4
-	cry Cry_Pidgeot  @ 869DDC0
-	cry Cry_Rattata  @ 869DDCC
-	cry Cry_Raticate  @ 869DDD8
-	cry Cry_Spearow  @ 869DDE4
-	cry Cry_Fearow  @ 869DDF0
-	cry Cry_Ekans  @ 869DDFC
-	cry Cry_Arbok  @ 869DE08
-	cry Cry_Pikachu  @ 869DE14
-	cry Cry_Raichu  @ 869DE20
+	cry Cry_Skomad  @ 869DD24
+	cry Cry_Skorpyros  @ 869DD30
+	cry Cry_Jissm  @ 869DD3C
+	cry Cry_Splooger  @ 869DD48
+	cry Cry_Speriathon  @ 869DD54
+	cry Cry_Bug  @ 869DD60
+	cry Cry_Legoog  @ 869DD6C
+	cry Cry_Firome  @ 869DD78
+	cry Cry_Paintic  @ 869DD84
+	cry Cry_Myreseft  @ 869DD90
+	cry Cry_Berrord  @ 869DD9C
+	cry Cry_Emelgy  @ 869DDA8
+	cry Cry_Fedorhawk  @ 869DDB4
+	cry Cry_Fazeagle  @ 869DDC0
+	cry Cry_Hangster  @ 869DDCC
+	cry Cry_Gawdamster  @ 869DDD8
+	cry Cry_Birdapp  @ 869DDE4
+	cry Cry_Chapsnat  @ 869DDF0
+	cry Cry_Alcoo  @ 869DDFC
+	cry Cry_Bevragon  @ 869DE08
+	cry Cry_Skippa  @ 869DE14
+	cry Cry_Disheats  @ 869DE20
 	cry Cry_Sandshrew  @ 869DE2C
 	cry Cry_Sandslash  @ 869DE38
 	cry Cry_NidoranF  @ 869DE44
@@ -906,12 +906,12 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Spectrier
 	cry_not Cry_Calyrex
 	@ Megas
-	cry_not Cry_Venusaur_Mega
-	cry_not Cry_Charizard_Mega_X
-	cry_not Cry_Charizard_Mega_Y
-	cry_not Cry_Blastoise_Mega
-	cry_not Cry_Beedrill_Mega
-	cry_not Cry_Pidgeot_Mega
+	cry_not Cry_Yggdracon_Mega
+	cry_not Cry_Skorpyros_Mega_X
+	cry_not Cry_Skorpyros_Mega_Y
+	cry_not Cry_Speriathon_Mega
+	cry_not Cry_Berrord_Mega
+	cry_not Cry_Fazeagle_Mega
 	cry_not Cry_Alakazam_Mega
 	cry_not Cry_Slowbro_Mega
 	cry_not Cry_Gengar_Mega
@@ -958,9 +958,9 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Kyogre_Primal
 	cry_not Cry_Groudon_Primal
 	@ Alolan Forms
-	cry Cry_Rattata
-	cry Cry_Raticate
-	cry Cry_Raichu
+	cry Cry_Hangster
+	cry Cry_Gawdamster
+	cry Cry_Disheats
 	cry Cry_Sandshrew
 	cry Cry_Sandslash
 	cry Cry_Vulpix
@@ -997,22 +997,22 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Yamask
 	cry_not Cry_Stunfisk
 	@ Misc Forms
-	@ Cosplay Pikachu
-	cry Cry_Pikachu  @ 869DE14
-	cry Cry_Pikachu  @ 869DE14
-	cry Cry_Pikachu  @ 869DE14
-	cry Cry_Pikachu  @ 869DE14
-	cry Cry_Pikachu  @ 869DE14
-	cry Cry_Pikachu  @ 869DE14
-	@ Cap Pikachu
-	cry Cry_Pikachu  @ 869DE14
-	cry Cry_Pikachu  @ 869DE14
-	cry Cry_Pikachu  @ 869DE14
-	cry Cry_Pikachu  @ 869DE14
-	cry Cry_Pikachu  @ 869DE14
-	cry Cry_Pikachu  @ 869DE14
-	cry Cry_Pikachu  @ 869DE14
-	cry Cry_Pikachu  @ 869DE14
+	@ Cosplay Skippa
+	cry Cry_Skippa  @ 869DE14
+	cry Cry_Skippa  @ 869DE14
+	cry Cry_Skippa  @ 869DE14
+	cry Cry_Skippa  @ 869DE14
+	cry Cry_Skippa  @ 869DE14
+	cry Cry_Skippa  @ 869DE14
+	@ Cap Skippa
+	cry Cry_Skippa  @ 869DE14
+	cry Cry_Skippa  @ 869DE14
+	cry Cry_Skippa  @ 869DE14
+	cry Cry_Skippa  @ 869DE14
+	cry Cry_Skippa  @ 869DE14
+	cry Cry_Skippa  @ 869DE14
+	cry Cry_Skippa  @ 869DE14
+	cry Cry_Skippa  @ 869DE14
 	@ Pichu
 	cry Cry_Pichu  @ 869E4F8
 	@ Unown
@@ -1281,32 +1281,32 @@ gCryTable:: @ 869DCF4
 
 	.align 2
 gCryTable2:: @ 869EF24
-	cry2 Cry_Bulbasaur  @ 869EF24
-	cry2 Cry_Ivysaur  @ 869EF30
-	cry2 Cry_Venusaur  @ 869EF3C
+	cry2 Cry_Meadosaur  @ 869EF24
+	cry2 Cry_Grovine  @ 869EF30
+	cry2 Cry_Yggdracon  @ 869EF3C
 	cry2 Cry_Skorchi  @ 869EF48
-	cry2 Cry_Charmeleon  @ 869EF54
-	cry2 Cry_Charizard  @ 869EF60
-	cry2 Cry_Squirtle  @ 869EF6C
-	cry2 Cry_Wartortle  @ 869EF78
-	cry2 Cry_Blastoise  @ 869EF84
-	cry2 Cry_Caterpie  @ 869EF90
-	cry2 Cry_Metapod  @ 869EF9C
-	cry2 Cry_Butterfree  @ 869EFA8
-	cry2 Cry_Weedle  @ 869EFB4
-	cry2 Cry_Kakuna  @ 869EFC0
-	cry2 Cry_Beedrill  @ 869EFCC
-	cry2 Cry_Pidgey  @ 869EFD8
-	cry2 Cry_Pidgeotto  @ 869EFE4
-	cry2 Cry_Pidgeot  @ 869EFF0
-	cry2 Cry_Rattata  @ 869EFFC
-	cry2 Cry_Raticate  @ 869F008
-	cry2 Cry_Spearow  @ 869F014
-	cry2 Cry_Fearow  @ 869F020
-	cry2 Cry_Ekans  @ 869F02C
-	cry2 Cry_Arbok  @ 869F038
-	cry2 Cry_Pikachu  @ 869F044
-	cry2 Cry_Raichu  @ 869F050
+	cry2 Cry_Skomad  @ 869EF54
+	cry2 Cry_Skorpyros  @ 869EF60
+	cry2 Cry_Jissm  @ 869EF6C
+	cry2 Cry_Splooger  @ 869EF78
+	cry2 Cry_Speriathon  @ 869EF84
+	cry2 Cry_Bug  @ 869EF90
+	cry2 Cry_Legoog  @ 869EF9C
+	cry2 Cry_Firome  @ 869EFA8
+	cry2 Cry_Paintic  @ 869EFB4
+	cry2 Cry_Myreseft  @ 869EFC0
+	cry2 Cry_Berrord  @ 869EFCC
+	cry2 Cry_Emelgy  @ 869EFD8
+	cry2 Cry_Fedorhawk  @ 869EFE4
+	cry2 Cry_Fazeagle  @ 869EFF0
+	cry2 Cry_Hangster  @ 869EFFC
+	cry2 Cry_Gawdamster  @ 869F008
+	cry2 Cry_Birdapp  @ 869F014
+	cry2 Cry_Chapsnat  @ 869F020
+	cry2 Cry_Alcoo  @ 869F02C
+	cry2 Cry_Bevragon  @ 869F038
+	cry2 Cry_Skippa  @ 869F044
+	cry2 Cry_Disheats  @ 869F050
 	cry2 Cry_Sandshrew  @ 869F05C
 	cry2 Cry_Sandslash  @ 869F068
 	cry2 Cry_NidoranF  @ 869F074
@@ -2184,12 +2184,12 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Spectrier
 	cry2_not Cry_Calyrex
 	@ Megas
-	cry2_not Cry_Venusaur_Mega
-	cry2_not Cry_Charizard_Mega_X
-	cry2_not Cry_Charizard_Mega_Y
-	cry2_not Cry_Blastoise_Mega
-	cry2_not Cry_Beedrill_Mega
-	cry2_not Cry_Pidgeot_Mega
+	cry2_not Cry_Yggdracon_Mega
+	cry2_not Cry_Skorpyros_Mega_X
+	cry2_not Cry_Skorpyros_Mega_Y
+	cry2_not Cry_Speriathon_Mega
+	cry2_not Cry_Berrord_Mega
+	cry2_not Cry_Fazeagle_Mega
 	cry2_not Cry_Alakazam_Mega
 	cry2_not Cry_Slowbro_Mega
 	cry2_not Cry_Gengar_Mega
@@ -2236,9 +2236,9 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Kyogre_Primal
 	cry2_not Cry_Groudon_Primal
 	@ Alolan Forms
-	cry2 Cry_Rattata
-	cry2 Cry_Raticate
-	cry2 Cry_Raichu
+	cry2 Cry_Hangster
+	cry2 Cry_Gawdamster
+	cry2 Cry_Disheats
 	cry2 Cry_Sandshrew
 	cry2 Cry_Sandslash
 	cry2 Cry_Vulpix
@@ -2275,22 +2275,22 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Yamask
 	cry2_not Cry_Stunfisk
 	@ Misc Forms
-	@ Cosplay Pikachu
-	cry2 Cry_Pikachu  @ 869DE14
-	cry2 Cry_Pikachu  @ 869DE14
-	cry2 Cry_Pikachu  @ 869DE14
-	cry2 Cry_Pikachu  @ 869DE14
-	cry2 Cry_Pikachu  @ 869DE14
-	cry2 Cry_Pikachu  @ 869DE14
-	@ Cap Pikachu
-	cry2 Cry_Pikachu  @ 869DE14
-	cry2 Cry_Pikachu  @ 869DE14
-	cry2 Cry_Pikachu  @ 869DE14
-	cry2 Cry_Pikachu  @ 869DE14
-	cry2 Cry_Pikachu  @ 869DE14
-	cry2 Cry_Pikachu  @ 869DE14
-	cry2 Cry_Pikachu  @ 869DE14
-	cry2 Cry_Pikachu  @ 869DE14
+	@ Cosplay Skippa
+	cry2 Cry_Skippa  @ 869DE14
+	cry2 Cry_Skippa  @ 869DE14
+	cry2 Cry_Skippa  @ 869DE14
+	cry2 Cry_Skippa  @ 869DE14
+	cry2 Cry_Skippa  @ 869DE14
+	cry2 Cry_Skippa  @ 869DE14
+	@ Cap Skippa
+	cry2 Cry_Skippa  @ 869DE14
+	cry2 Cry_Skippa  @ 869DE14
+	cry2 Cry_Skippa  @ 869DE14
+	cry2 Cry_Skippa  @ 869DE14
+	cry2 Cry_Skippa  @ 869DE14
+	cry2 Cry_Skippa  @ 869DE14
+	cry2 Cry_Skippa  @ 869DE14
+	cry2 Cry_Skippa  @ 869DE14
 	@ Pichu
 	cry2 Cry_Pichu  @ 869E4F8
 	@ Unown

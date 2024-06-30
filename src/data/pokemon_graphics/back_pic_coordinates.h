@@ -5,17 +5,17 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x88,
         .y_offset = 0,
     },
-    [SPECIES_BULBASAUR] =
+    [SPECIES_MEADOSAUR] =
     {
         .size = 0x75,
         .y_offset = 13,
     },
-    [SPECIES_IVYSAUR] =
+    [SPECIES_GROVINE] =
     {
         .size = 0x87,
         .y_offset = 9,
     },
-    [SPECIES_VENUSAUR] =
+    [SPECIES_YGGDRACON] =
     {
         .size = 0x86,
         .y_offset = 10,
@@ -25,112 +25,112 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x66,
         .y_offset = 9,
     },
-    [SPECIES_CHARMELEON] =
+    [SPECIES_SKOMAD] =
     {
         .size = 0x76,
         .y_offset = 8,
     },
-    [SPECIES_CHARIZARD] =
+    [SPECIES_SKORPYROS] =
     {
         .size = 0x88,
         .y_offset = 1,
     },
-    [SPECIES_SQUIRTLE] =
+    [SPECIES_JISSM] =
     {
         .size = 0x66,
         .y_offset = 9,
     },
-    [SPECIES_WARTORTLE] =
+    [SPECIES_SPLOOGER] =
     {
         .size = 0x87,
         .y_offset = 7,
     },
-    [SPECIES_BLASTOISE] =
+    [SPECIES_SPERIATHON] =
     {
         .size = 0x87,
         .y_offset = 7,
     },
-    [SPECIES_CATERPIE] =
+    [SPECIES_BUG] =
     {
         .size = 0x65,
         .y_offset = 12,
     },
-    [SPECIES_METAPOD] =
+    [SPECIES_LEGOOG] =
     {
         .size = 0x56,
         .y_offset = 8,
     },
-    [SPECIES_BUTTERFREE] =
+    [SPECIES_FIROME] =
     {
         .size = 0x87,
         .y_offset = 5,
     },
-    [SPECIES_WEEDLE] =
+    [SPECIES_PAINTIC] =
     {
         .size = 0x77,
         .y_offset = 7,
     },
-    [SPECIES_KAKUNA] =
+    [SPECIES_MYRESEFT] =
     {
         .size = 0x45,
         .y_offset = 12,
     },
-    [SPECIES_BEEDRILL] =
+    [SPECIES_BERRORD] =
     {
         .size = 0x87,
         .y_offset = 5,
     },
-    [SPECIES_PIDGEY] =
+    [SPECIES_EMELGY] =
     {
         .size = 0x76,
         .y_offset = 11,
     },
-    [SPECIES_PIDGEOTTO] =
+    [SPECIES_FEDORHAWK] =
     {
         .size = 0x87,
         .y_offset = 6,
     },
-    [SPECIES_PIDGEOT] =
+    [SPECIES_FAZEAGLE] =
     {
         .size = 0x87,
         .y_offset = 7,
     },
-    [SPECIES_RATTATA] =
+    [SPECIES_HANGSTER] =
     {
         .size = 0x87,
         .y_offset = 7,
     },
-    [SPECIES_RATICATE] =
+    [SPECIES_GAWDAMSTER] =
     {
         .size = 0x86,
         .y_offset = 10,
     },
-    [SPECIES_SPEAROW] =
+    [SPECIES_BIRDAPP] =
     {
         .size = 0x77,
         .y_offset = 6,
     },
-    [SPECIES_FEAROW] =
+    [SPECIES_CHAPSNAT] =
     {
         .size = 0x87,
         .y_offset = 4,
     },
-    [SPECIES_EKANS] =
+    [SPECIES_ALCOO] =
     {
         .size = 0x76,
         .y_offset = 10,
     },
-    [SPECIES_ARBOK] =
+    [SPECIES_BEVRAGON] =
     {
         .size = 0x88,
         .y_offset = 1,
     },
-    [SPECIES_PIKACHU] =
+    [SPECIES_SKIPPA] =
     {
         .size = 0x87,
         .y_offset = 4,
     },
-    [SPECIES_RAICHU] =
+    [SPECIES_DISHEATS] =
     {
         .size = 0x87,
         .y_offset = 6,
@@ -4501,32 +4501,32 @@ const struct MonCoords gMonBackPicCoords[] =
         .y_offset = 10,
     },
     // Megas
-    [SPECIES_VENUSAUR_MEGA] =
+    [SPECIES_YGGDRACON_MEGA] =
     {
         .size = 0,
         .y_offset = 8,
     },
-    [SPECIES_CHARIZARD_MEGA_X] =
+    [SPECIES_SKORPYROS_MEGA_X] =
     {
         .size = 0,
         .y_offset = 1,
     },
-    [SPECIES_CHARIZARD_MEGA_Y] =
+    [SPECIES_SKORPYROS_MEGA_Y] =
     {
         .size = 0,
         .y_offset = 1,
     },
-    [SPECIES_BLASTOISE_MEGA] =
+    [SPECIES_SPERIATHON_MEGA] =
     {
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_BEEDRILL_MEGA] =
+    [SPECIES_BERRORD_MEGA] =
     {
         .size = 0,
         .y_offset = 5,
     },
-    [SPECIES_PIDGEOT_MEGA] =
+    [SPECIES_FAZEAGLE_MEGA] =
     {
         .size = 0,
         .y_offset = 7,
@@ -4753,17 +4753,17 @@ const struct MonCoords gMonBackPicCoords[] =
         .y_offset = 8,
     },
     // Alolan Forms
-    [SPECIES_RATTATA_ALOLAN] =
+    [SPECIES_HANGSTER_ALOLAN] =
     {
         .size = 0x65,
         .y_offset = 7,
     },
-    [SPECIES_RATICATE_ALOLAN] =
+    [SPECIES_GAWDAMSTER_ALOLAN] =
     {
         .size = 0x75,
         .y_offset = 8,
     },
-    [SPECIES_RAICHU_ALOLAN] =
+    [SPECIES_DISHEATS_ALOLAN] =
     {
         .size = 0x66,
         .y_offset = 6,
@@ -4940,74 +4940,74 @@ const struct MonCoords gMonBackPicCoords[] =
         .y_offset = 23,
     },
     // Misc Forms
-    // Cosplay Pikachu
-    [SPECIES_PIKACHU_COSPLAY] =
+    // Cosplay Skippa
+    [SPECIES_SKIPPA_COSPLAY] =
     {
         .size = 0x87,
         .y_offset = 4,
     },
-    [SPECIES_PIKACHU_ROCK_STAR] =
+    [SPECIES_SKIPPA_ROCK_STAR] =
     {
         .size = 0x87,
         .y_offset = 4,
     },
-    [SPECIES_PIKACHU_BELLE] =
+    [SPECIES_SKIPPA_BELLE] =
     {
         .size = 0x87,
         .y_offset = 4,
     },
-    [SPECIES_PIKACHU_POP_STAR] =
+    [SPECIES_SKIPPA_POP_STAR] =
     {
         .size = 0x87,
         .y_offset = 4,
     },
-    [SPECIES_PIKACHU_PH_D] =
+    [SPECIES_SKIPPA_PH_D] =
     {
         .size = 0x87,
         .y_offset = 4,
     },
-    [SPECIES_PIKACHU_LIBRE] =
+    [SPECIES_SKIPPA_LIBRE] =
     {
         .size = 0x87,
         .y_offset = 4,
     },
-    // Cap Pikachu
-    [SPECIES_PIKACHU_ORIGINAL_CAP] =
+    // Cap Skippa
+    [SPECIES_SKIPPA_ORIGINAL_CAP] =
     {
         .size = 0x87,
         .y_offset = 4,
     },
-    [SPECIES_PIKACHU_HOENN_CAP] =
+    [SPECIES_SKIPPA_HOENN_CAP] =
     {
         .size = 0x87,
         .y_offset = 4,
     },
-    [SPECIES_PIKACHU_SINNOH_CAP] =
+    [SPECIES_SKIPPA_SINNOH_CAP] =
     {
         .size = 0x87,
         .y_offset = 4,
     },
-    [SPECIES_PIKACHU_UNOVA_CAP] =
+    [SPECIES_SKIPPA_UNOVA_CAP] =
     {
         .size = 0x87,
         .y_offset = 4,
     },
-    [SPECIES_PIKACHU_KALOS_CAP] =
+    [SPECIES_SKIPPA_KALOS_CAP] =
     {
         .size = 0x87,
         .y_offset = 4,
     },
-    [SPECIES_PIKACHU_ALOLA_CAP] =
+    [SPECIES_SKIPPA_ALOLA_CAP] =
     {
         .size = 0x87,
         .y_offset = 4,
     },
-    [SPECIES_PIKACHU_PARTNER_CAP] =
+    [SPECIES_SKIPPA_PARTNER_CAP] =
     {
         .size = 0x87,
         .y_offset = 4,
     },
-    [SPECIES_PIKACHU_WORLD_CAP] =
+    [SPECIES_SKIPPA_WORLD_CAP] =
     {
         .size = 0x87,
         .y_offset = 4,

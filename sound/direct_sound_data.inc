@@ -403,8 +403,8 @@ Cry_Rayquaza::
 	.incbin "sound/direct_sound_samples/cries/cry_rayquaza.bin"
 
 	.align 2
-Cry_Pikachu::
-	.incbin "sound/direct_sound_samples/cries/cry_pikachu.bin"
+Cry_Skippa::
+	.incbin "sound/direct_sound_samples/cries/cry_skippa.bin"
 
 	.align 2
 Cry_Flabebe::

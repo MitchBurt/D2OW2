@@ -297,16 +297,16 @@ EWRAM_DATA static struct PokemonJump2 *gUnknown_02022D00 = NULL;
 
 static const struct PokemonJumpMons gPkmnJumpSpecies[] =
 {
-    { .species = SPECIES_BULBASAUR,  .unk2 = 2, },
+    { .species = SPECIES_MEADOSAUR,  .unk2 = 2, },
     { .species = SPECIES_SKORCHI, .unk2 = 1, },
-    { .species = SPECIES_SQUIRTLE,   .unk2 = 0, },
-    { .species = SPECIES_CATERPIE,   .unk2 = 1, },
-    { .species = SPECIES_METAPOD,    .unk2 = 1, },
-    { .species = SPECIES_WEEDLE,     .unk2 = 1, },
-    { .species = SPECIES_KAKUNA,     .unk2 = 1, },
-    { .species = SPECIES_RATTATA,    .unk2 = 1, },
-    { .species = SPECIES_RATICATE,   .unk2 = 1, },
-    { .species = SPECIES_PIKACHU,    .unk2 = 0, },
+    { .species = SPECIES_JISSM,   .unk2 = 0, },
+    { .species = SPECIES_BUG,   .unk2 = 1, },
+    { .species = SPECIES_LEGOOG,    .unk2 = 1, },
+    { .species = SPECIES_PAINTIC,     .unk2 = 1, },
+    { .species = SPECIES_MYRESEFT,     .unk2 = 1, },
+    { .species = SPECIES_HANGSTER,    .unk2 = 1, },
+    { .species = SPECIES_GAWDAMSTER,   .unk2 = 1, },
+    { .species = SPECIES_SKIPPA,    .unk2 = 0, },
     { .species = SPECIES_SANDSHREW,  .unk2 = 0, },
     { .species = SPECIES_NIDORAN_F,  .unk2 = 0, },
     { .species = SPECIES_NIDORAN_M,  .unk2 = 0, },
@@ -2835,9 +2835,9 @@ static const u16 gPkmnJumpBgPal[] = INCBIN_U16("graphics/link_games/pkmnjump_bg.
 static const u32 gPkmnJumpBgGfx[] = INCBIN_U32("graphics/link_games/pkmnjump_bg.4bpp.lz");
 static const u32 gPkmnJumpBgTilemap[] = INCBIN_U32("graphics/link_games/pkmnjump_bg.bin.lz");
 
-static const u16 gPkmnJumpVenusaurPal[] = INCBIN_U16("graphics/link_games/pkmnjump_venusaur.gbapal");
-static const u32 gPkmnJumpVenusaurGfx[] = INCBIN_U32("graphics/link_games/pkmnjump_venusaur.4bpp.lz");
-static const u32 gPkmnJumpVenusaurTilemap[] = INCBIN_U32("graphics/link_games/pkmnjump_venusaur.bin.lz");
+static const u16 gPkmnJumpYggdraconPal[] = INCBIN_U16("graphics/link_games/pkmnjump_yggdracon.gbapal");
+static const u32 gPkmnJumpYggdraconGfx[] = INCBIN_U32("graphics/link_games/pkmnjump_yggdracon.4bpp.lz");
+static const u32 gPkmnJumpYggdraconTilemap[] = INCBIN_U32("graphics/link_games/pkmnjump_yggdracon.bin.lz");
 
 static const u16 gPkmnJumpResultsPal[] = INCBIN_U16("graphics/link_games/pkmnjump_results.gbapal");
 static const u32 gPkmnJumpResultsGfx[] = INCBIN_U32("graphics/link_games/pkmnjump_results.4bpp.lz");
@@ -2971,9 +2971,9 @@ static void sub_802D150(void)
         LoadPalette(gPkmnJumpBgPal, 0, 0x20);
         DecompressAndCopyTileDataToVram(3, gPkmnJumpBgGfx, 0, 0, 0);
         DecompressAndCopyTileDataToVram(3, gPkmnJumpBgTilemap, 0, 0, 1);
-        LoadPalette(gPkmnJumpVenusaurPal, 0x30, 0x20);
-        DecompressAndCopyTileDataToVram(2, gPkmnJumpVenusaurGfx, 0, 0, 0);
-        DecompressAndCopyTileDataToVram(2, gPkmnJumpVenusaurTilemap, 0, 0, 1);
+        LoadPalette(gPkmnJumpYggdraconPal, 0x30, 0x20);
+        DecompressAndCopyTileDataToVram(2, gPkmnJumpYggdraconGfx, 0, 0, 0);
+        DecompressAndCopyTileDataToVram(2, gPkmnJumpYggdraconTilemap, 0, 0, 1);
         LoadPalette(gPkmnJumpResultsPal, 0x10, 0x20);
         DecompressAndCopyTileDataToVram(1, gPkmnJumpResultsGfx, 0, 0, 0);
         DecompressAndCopyTileDataToVram(1, gPkmnJumpResultsTilemap, 0, 0, 1);

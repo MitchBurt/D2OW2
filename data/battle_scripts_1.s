@@ -4225,8 +4225,8 @@ BattleScript_EffectGust::
 BattleScript_EffectSolarbeam::
 	jumpifabilitypresent ABILITY_CLOUD_NINE, BattleScript_SolarbeamDecideTurn
 	jumpifabilitypresent ABILITY_AIR_LOCK, BattleScript_SolarbeamDecideTurn
-	jumpifsignaturemove BS_ATTACKER, SPECIES_VENUSAUR,      MOVE_SOLAR_BEAM, BattleScript_SolarbeamOnFirstTurn
-	jumpifsignaturemove BS_ATTACKER, SPECIES_VENUSAUR_MEGA, MOVE_SOLAR_BEAM, BattleScript_SolarbeamOnFirstTurn
+	jumpifsignaturemove BS_ATTACKER, SPECIES_YGGDRACON,      MOVE_SOLAR_BEAM, BattleScript_SolarbeamOnFirstTurn
+	jumpifsignaturemove BS_ATTACKER, SPECIES_YGGDRACON_MEGA, MOVE_SOLAR_BEAM, BattleScript_SolarbeamOnFirstTurn
 	jumpifhalfword CMP_COMMON_BITS, gBattleWeather, WEATHER_SUN_TEMPORARY | WEATHER_SUN_PERMANENT, BattleScript_SolarbeamOnFirstTurn
 BattleScript_SolarbeamDecideTurn::
 	jumpifstatus2 BS_ATTACKER, STATUS2_MULTIPLETURNS, BattleScript_TwoTurnMovesSecondTurn

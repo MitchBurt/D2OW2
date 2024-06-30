@@ -454,7 +454,7 @@ enum{
     CRY_RAYQUAZA,
     CRY_MANAPHY,
     CRY_HOOPA,
-    CRY_PIKACHU,
+    CRY_SKIPPA,
     CRY_ROTOM,
     CRY_FLABEBE,
     CRY_EGG_GROUP_WATER_1,
@@ -609,9 +609,9 @@ void PlayGenericCry(u16 species, bool32 v0){
         break;
         case SPECIES_PICHU_SPIKY_EARED:
         case SPECIES_PICHU:
-        case SPECIES_PIKACHU:
-        case SPECIES_RAICHU:
-        case SPECIES_RAICHU_ALOLAN:
+        case SPECIES_SKIPPA:
+        case SPECIES_DISHEATS:
+        case SPECIES_DISHEATS_ALOLAN:
         case SPECIES_MINUN:
         case SPECIES_PLUSLE:
         case SPECIES_PACHIRISU:
@@ -620,7 +620,7 @@ void PlayGenericCry(u16 species, bool32 v0){
         case SPECIES_DEDENNE:
         case SPECIES_MORPEKO:
         case SPECIES_MORPEKO_HANGRY:
-            gMPlay_PokemonCry = SetPokemonCryTone(v0 ? &gCryTable2[CRY_PIKACHU] : &gCryTable[CRY_PIKACHU]);
+            gMPlay_PokemonCry = SetPokemonCryTone(v0 ? &gCryTable2[CRY_SKIPPA] : &gCryTable[CRY_SKIPPA]);
         break;
         case SPECIES_ROTOM:
         case SPECIES_ROTOM_WASH:

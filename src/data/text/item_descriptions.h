@@ -611,7 +611,7 @@ static const u8 sHarborMailDesc[] = _(
     "un Pokémon.");
 
 static const u8 sGlitterMailDesc[] = _(
-    "Sale Pikachu.\n"
+    "Sale Skippa.\n"
     "Debe llevarla\n"
     "un Pokémon.");
 
@@ -1168,7 +1168,7 @@ static const u8 sSachetDesc[] = _(
 
 static const u8 sLightBallDesc[] = _(
     "Al llevarla, el At.\n"
-    "Esp. de Pikachu\n"
+    "Esp. de Skippa\n"
     "aumentará.");
 
 static const u8 sSoftSandDesc[] = _(
@@ -2512,20 +2512,20 @@ static const u8 sAmpharositeDesc[] = _(
     "megaevolucionar a\n"
     "Ampharos.");
 
-static const u8 sVenusauriteDesc[] = _(
+static const u8 sYggdraconiteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Venusaur.");
+    "Yggdracon.");
 
-static const u8 sCharizarditeDesc[] = _(
+static const u8 sSkorpyrositeDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Charizard.");
+    "Skorpyros.");
 
 static const u8 sBlastoisiniteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Blastoise.");
+    "Speriathon.");
 
 static const u8 sMewtwoniteDesc[] = _(
     "Piedra que permite\n"
@@ -2687,10 +2687,10 @@ static const u8 sSteelixiteDesc[] = _(
     "megaevolucionar a\n"
     "Steelix.");
 
-static const u8 sPidgeotiteDesc[] = _(
+static const u8 sFazeagleiteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Pidgeot.");
+    "Fazeagle.");
 
 static const u8 sGlalititeDesc[] = _(
     "Piedra que permite\n"
@@ -2717,10 +2717,10 @@ static const u8 sSalamenciteDesc[] = _(
     "megaevolucionar a\n"
     "Salamence.");
 
-static const u8 sBeedrilliteDesc[] = _(
+static const u8 sBerrorditeDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Beedrill.");
+    "Berrord.");
 
 static const u8 sMegaBraceletDesc[] = _(
     "Permite a Pokémon\n"
@@ -3482,7 +3482,7 @@ static const u8 sHarborMailDesc[] = _(
     "a Pokémon.");
 
 static const u8 sGlitterMailDesc[] = _(
-    "A Pikachu-print\n"
+    "A Skippa-print\n"
     "Mail to be held by\n"
     "a Pokémon.");
 
@@ -4041,7 +4041,7 @@ static const u8 sSachetDesc[] = _(
 static const u8 sLightBallDesc[] = _(
     "A hold item that\n"
     "raises the Sp. Atk\n"
-    "of Pikachu.");
+    "of Skippa.");
 
 static const u8 sSoftSandDesc[] = _(
     "A hold item that\n"
@@ -5745,19 +5745,19 @@ static const u8 sAmpharositeDesc[] = _(
     "Ampharos to Mega\n"
     "Evolve in battle.");
 
-static const u8 sVenusauriteDesc[] = _(
+static const u8 sYggdraconiteDesc[] = _(
     "This stone enables\n"
-    "Venusaur to Mega\n"
+    "Yggdracon to Mega\n"
     "Evolve in battle.");
 
-static const u8 sCharizarditeDesc[] = _(
+static const u8 sSkorpyrositeDesc[] = _(
     "This stone enables\n"
-    "Charizard to Mega\n"
+    "Skorpyros to Mega\n"
     "Evolve in battle.");
 
 static const u8 sBlastoisiniteDesc[] = _(
     "This stone enables\n"
-    "Blastoise to Mega\n"
+    "Speriathon to Mega\n"
     "Evolve in battle.");
 
 static const u8 sMewtwoniteDesc[] = _(
@@ -5920,9 +5920,9 @@ static const u8 sSteelixiteDesc[] = _(
     "Steelix to Mega\n"
     "Evolve in battle.");
 
-static const u8 sPidgeotiteDesc[] = _(
+static const u8 sFazeagleiteDesc[] = _(
     "This stone enables\n"
-    "Pidgeot to Mega\n"
+    "Fazeagle to Mega\n"
     "Evolve in battle.");
 
 static const u8 sGlalititeDesc[] = _(
@@ -5950,9 +5950,9 @@ static const u8 sSalamenciteDesc[] = _(
     "Salamence to Mega\n"
     "Evolve in battle.");
 
-static const u8 sBeedrilliteDesc[] = _(
+static const u8 sBerrorditeDesc[] = _(
     "This stone enables\n"
-    "Beedrill to Mega\n"
+    "Berrord to Mega\n"
     "Evolve in battle.");
 
 static const u8 sMegaBraceletDesc[] = _(

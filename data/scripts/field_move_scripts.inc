@@ -62,13 +62,13 @@ EventScript_RockSmash:: @ 82907A6
 	goto EventScript_UseRockSmash
 	end
 
-EventScript_RaichuSmash::
+EventScript_DisheatsSmash::
 	setvar VAR_0x8004, SPECIES_SAWK
 	setvar VAR_0x8008, MOVE_ROCK_SMASH
 	setvar VAR_0x8009, 1
 	bufferspeciesname 0, VAR_0x8004	
 	buffermovename 1, VAR_0x8008
-	msgbox Text_RaichuSmash, MSGBOX_YESNO
+	msgbox Text_DisheatsSmash, MSGBOX_YESNO
 	compare VAR_RESULT, NO
 	goto_if_eq EventScript_CancelSmash
 	msgbox Text_MonUsedFieldMove, MSGBOX_DEFAULT
@@ -127,7 +127,7 @@ Text_WantToSmash: @ 829083A
 	.string "This rock appears to be breakable.\n"
 	.string "Would you like to break it?$"
 
-Text_RaichuSmash:
+Text_DisheatsSmash:
 	.string "This rock appears to be breakable.\n"
 	.string "Call Poke Ride's Sawk to smash it?$"
 

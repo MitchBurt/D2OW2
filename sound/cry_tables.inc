@@ -6,7 +6,7 @@ gCryTable::
 	cry Cry_Rayquaza
 	cry_not Cry_Manaphy
 	cry_not Cry_Hoopa
-	cry Cry_Pikachu
+	cry Cry_Skippa
 	cry_not Cry_Rotom
 	cry_not Cry_Flabebe
 	cry Cry_Egg_Group_Water_1
@@ -32,7 +32,7 @@ gCryTable2::
 	cry Cry_Rayquaza
 	cry_not Cry_Manaphy
 	cry_not Cry_Hoopa
-	cry Cry_Pikachu
+	cry Cry_Skippa
 	cry_not Cry_Rotom
 	cry_not Cry_Flabebe
 	cry Cry_Egg_Group_Water_1

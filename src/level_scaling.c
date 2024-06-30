@@ -1214,9 +1214,9 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 	
 	//Regional forms
 	switch(basespecies){
-		case SPECIES_RAICHU:
+		case SPECIES_DISHEATS:
 			if(gMapHeader.region == REGION_SEVII)
-				return SPECIES_RAICHU_ALOLAN;
+				return SPECIES_DISHEATS_ALOLAN;
 			else
 				return basespecies;
 		break;
@@ -2183,7 +2183,7 @@ void RandomizeIfSpeciesNone(void)
 	u32 i, j;
 	u16 randomizedspecie;
 	u8 level;
-	u16 newSpecies = SPECIES_BULBASAUR;
+	u16 newSpecies = SPECIES_MEADOSAUR;
 	u16 newFormID = 0;
 	
 	//Clear Battle Moves
@@ -2360,9 +2360,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 	switch(species)
 	{
 		case SPECIES_PICHU:
-		case SPECIES_PIKACHU:
-		case SPECIES_RAICHU:
-		case SPECIES_RAICHU_ALOLAN:
+		case SPECIES_SKIPPA:
+		case SPECIES_DISHEATS:
+		case SPECIES_DISHEATS_ALOLAN:
 		case SPECIES_MINUN:
 		case SPECIES_PLUSLE:
 			item = ITEM_LIGHT_BALL;
@@ -2416,11 +2416,11 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_BANETTITE;
 		break;
-		case SPECIES_BEEDRILL:
+		case SPECIES_BERRORD:
 			if(canMega)
-				item = ITEM_BEEDRILLITE;
+				item = ITEM_BERRORDITE;
 		break;
-		case SPECIES_BLASTOISE:
+		case SPECIES_SPERIATHON:
 			if(canMega)
 				item = ITEM_BLASTOISINITE;
 		break;
@@ -2432,9 +2432,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_CAMERUPTITE;
 		break;
-		case SPECIES_CHARIZARD:
+		case SPECIES_SKORPYROS:
 			if(canMega)
-				item = ITEM_CHARIZARDITE_Y;
+				item = ITEM_SKORPYROSITE_Y;
 		break;
 		case SPECIES_GALLADE:
 			if(canMega)
@@ -2496,9 +2496,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_METAGROSSITE;
 		break;
-		case SPECIES_PIDGEOT:
+		case SPECIES_FAZEAGLE:
 			if(canMega)
-				item = ITEM_PIDGEOTITE;
+				item = ITEM_FAZEAGLEITE;
 		break;
 		case SPECIES_PINSIR:
 			if(canMega)
@@ -2540,9 +2540,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_TYRANITARITE;
 		break;
-		case SPECIES_VENUSAUR:
+		case SPECIES_YGGDRACON:
 			if(canMega)
-				item = ITEM_VENUSAURITE;
+				item = ITEM_YGGDRACONITE;
 		break;
 	}
 	

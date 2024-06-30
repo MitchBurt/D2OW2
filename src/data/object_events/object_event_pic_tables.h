@@ -1665,16 +1665,16 @@ const struct SpriteFrameImage gObjectEventPicTable_UnusedMagnemiteDoll[] = {
     obj_frame_tiles(gObjectEventPic_UnusedMagnemiteDoll),
 };
 
-const struct SpriteFrameImage gObjectEventPicTable_UnusedSquirtleDoll[] = {
-    obj_frame_tiles(gObjectEventPic_UnusedSquirtleDoll),
+const struct SpriteFrameImage gObjectEventPicTable_UnusedJissmDoll[] = {
+    obj_frame_tiles(gObjectEventPic_UnusedJissmDoll),
 };
 
 const struct SpriteFrameImage gObjectEventPicTable_UnusedWooperDoll[] = {
     obj_frame_tiles(gObjectEventPic_UnusedWooperDoll),
 };
 
-const struct SpriteFrameImage gObjectEventPicTable_UnusedPikachuDoll[] = {
-    obj_frame_tiles(gObjectEventPic_UnusedPikachuDoll),
+const struct SpriteFrameImage gObjectEventPicTable_UnusedSkippaDoll[] = {
+    obj_frame_tiles(gObjectEventPic_UnusedSkippaDoll),
 };
 
 const struct SpriteFrameImage gObjectEventPicTable_UnusedPorygon2Doll[] = {
@@ -2139,8 +2139,8 @@ const struct SpriteFrameImage gObjectEventPicTable_PichuDoll[] = {
     obj_frame_tiles(gObjectEventPic_PichuDoll),
 };
 
-const struct SpriteFrameImage gObjectEventPicTable_PikachuDoll[] = {
-    obj_frame_tiles(gObjectEventPic_PikachuDoll),
+const struct SpriteFrameImage gObjectEventPicTable_SkippaDoll[] = {
+    obj_frame_tiles(gObjectEventPic_SkippaDoll),
 };
 
 const struct SpriteFrameImage gObjectEventPicTable_MarillDoll[] = {
@@ -2287,16 +2287,16 @@ const struct SpriteFrameImage gObjectEventPicTable_BigLaprasDoll[] = {
     obj_frame_tiles(gObjectEventPic_BigLaprasDoll),
 };
 
-const struct SpriteFrameImage gObjectEventPicTable_BigVenusaurDoll[] = {
-    obj_frame_tiles(gObjectEventPic_BigVenusaurDoll),
+const struct SpriteFrameImage gObjectEventPicTable_BigYggdraconDoll[] = {
+    obj_frame_tiles(gObjectEventPic_BigYggdraconDoll),
 };
 
-const struct SpriteFrameImage gObjectEventPicTable_BigCharizardDoll[] = {
-    obj_frame_tiles(gObjectEventPic_BigCharizardDoll),
+const struct SpriteFrameImage gObjectEventPicTable_BigSkorpyrosDoll[] = {
+    obj_frame_tiles(gObjectEventPic_BigSkorpyrosDoll),
 };
 
-const struct SpriteFrameImage gObjectEventPicTable_BigBlastoiseDoll[] = {
-    obj_frame_tiles(gObjectEventPic_BigBlastoiseDoll),
+const struct SpriteFrameImage gObjectEventPicTable_BigSperiathonDoll[] = {
+    obj_frame_tiles(gObjectEventPic_BigSperiathonDoll),
 };
 
 const struct SpriteFrameImage gObjectEventPicTable_BigWailmerDoll[] = {
