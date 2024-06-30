@@ -3388,7 +3388,7 @@ void TryAddLastUsedBallItemSprites(void)
         gBattleStruct->ballSpriteIds[0] = AddItemIconSprite(102, 102, gSaveBlock2Ptr->lastUsedBall);
         gSprites[gBattleStruct->ballSpriteIds[0]].pos1.x = LAST_USED_BALL_X_0;
         gSprites[gBattleStruct->ballSpriteIds[0]].pos1.y = LAST_USED_BALL_Y-1;
-        gSprites[gBattleStruct->ballSpriteIds[0]].sHide = FALSE;   // restore
+        gSprites[gBattleStruct->ballSpriteIds[0]].sHide = TRUE;   // restore
         gSprites[gBattleStruct->ballSpriteIds[0]].callback = SpriteCB_LastUsedBall;
     }
 
@@ -3402,7 +3402,7 @@ void TryAddLastUsedBallItemSprites(void)
         gBattleStruct->ballSpriteIds[1] = CreateSprite(&sSpriteTemplate_LastUsedBallWindow,
            LAST_BALL_WIN_X_0,
            LAST_USED_WIN_Y, 5);
-        gSprites[gBattleStruct->ballSpriteIds[0]].sHide = FALSE;   // restore
+        gSprites[gBattleStruct->ballSpriteIds[0]].sHide = TRUE;   // restore
     }
 }
 
