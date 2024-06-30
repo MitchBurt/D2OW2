@@ -894,6 +894,7 @@ static const u8 sText_Starter_9[] = _("Smeargle");
 
 static const struct ListMenuItem sSet1[] =
 {
+    {sText_Surprise, 9},
     {sText_Starter_1, 0},
     {sText_Starter_2, 1},
     {sText_Starter_3, 2},
@@ -903,7 +904,6 @@ static const struct ListMenuItem sSet1[] =
     {sText_Starter_7, 6},
     {sText_Starter_8, 7},
     {sText_Starter_9, 8},
-	{sText_Surprise, 9},
 };
 
 //----------------------------------------------------------------------------------------
