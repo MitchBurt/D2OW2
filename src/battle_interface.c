@@ -3486,7 +3486,7 @@ void TryHideLastUsedBall(void)
 void TryRestoreLastUsedBall(void)
 {
     if (gBattleStruct->ballSpriteIds[0] != MAX_SPRITES)
-        TryHideOrRestoreLastUsedBall(1);
+        TryHideOrRestoreLastUsedBall(0);
     else
         TryAddLastUsedBallItemSprites();
 }

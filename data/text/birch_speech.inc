@@ -62,10 +62,8 @@ gText_Birch_AreYouReady:: @ 82C8C7A
 #else
 
 gText_Birch_Welcome:: @ 82C897B
-	.string "Hi! Sorry to keep you waiting!\p"
-	.string "Welcome to Pokémon D.R.L.O!\p"
-	.string "This is an Open World version\n"
-	.string "of Hoenn.\p"
+	.string "Hi! Nice to see you again\p"
+	.string "Welcome to Pokémon D.R.L.O.\p"
 	.string "$"
 
 gText_Birch_Pokemon:: @ 82C89FB
