@@ -1378,8 +1378,8 @@ const u16 gEasyChatWordsByLetter_S[] = {
     EC_WORD_SAND_VEIL,
     EC_MOVE(SAND_ATTACK),
     -1, 2, // Doubled pokemon species name
-    EC_POKEMON(SANDSHREW),
-    EC_POKEMON2(SANDSHREW),
+    EC_POKEMON(JAFEET),
+    EC_POKEMON2(JAFEET),
     -1, 2, // Doubled pokemon species name
     EC_POKEMON(SANDSLASH),
     EC_POKEMON2(SANDSLASH),

@@ -65,9 +65,9 @@ static const u16 sDisheatsFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sSandshrewFormSpeciesIdTable[] = {
-    SPECIES_SANDSHREW,
-    SPECIES_SANDSHREW_ALOLAN,
+static const u16 sJafeetFormSpeciesIdTable[] = {
+    SPECIES_JAFEET,
+    SPECIES_JAFEET_ALOLAN,
     0xFFFF,
 };
 

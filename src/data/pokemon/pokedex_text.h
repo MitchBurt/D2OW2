@@ -162,7 +162,7 @@ const u8 gDisheatsPokedexText[] = _(
     "descargar los excesos de energía,\n"
     "lo que lo mantiene calmado.");
 
-const u8 gSandshrewPokedexText[] = _(
+const u8 gJafeetPokedexText[] = _(
     "Cuando se hace una bola, repele\n"
     "cualquier ataque. Como vive en el\n"
     "desierto, tiene una piel tosca y dura.");
@@ -5515,7 +5515,7 @@ const u8 gDisheatsPokedexText[] = _(
     "it occasionally discharges excess energy\n"
     "and calms itself down.");
 
-const u8 gSandshrewPokedexText[] = _(
+const u8 gJafeetPokedexText[] = _(
     "When it curls up in a ball, it can make any\n"
     "attack bounce off harmlessly. Its hide has\n"
     "turned tough and solid as a result of\n"

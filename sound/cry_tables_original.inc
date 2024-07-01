@@ -27,7 +27,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Bevragon  @ 869DE08
 	cry Cry_Skippa  @ 869DE14
 	cry Cry_Disheats  @ 869DE20
-	cry Cry_Sandshrew  @ 869DE2C
+	cry Cry_Jafeet  @ 869DE2C
 	cry Cry_Sandslash  @ 869DE38
 	cry Cry_NidoranF  @ 869DE44
 	cry Cry_Nidorina  @ 869DE50
@@ -961,7 +961,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Hangster
 	cry Cry_Gawdamster
 	cry Cry_Disheats
-	cry Cry_Sandshrew
+	cry Cry_Jafeet
 	cry Cry_Sandslash
 	cry Cry_Vulpix
 	cry Cry_Ninetales
@@ -1307,7 +1307,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Bevragon  @ 869F038
 	cry2 Cry_Skippa  @ 869F044
 	cry2 Cry_Disheats  @ 869F050
-	cry2 Cry_Sandshrew  @ 869F05C
+	cry2 Cry_Jafeet  @ 869F05C
 	cry2 Cry_Sandslash  @ 869F068
 	cry2 Cry_NidoranF  @ 869F074
 	cry2 Cry_Nidorina  @ 869F080
@@ -2239,7 +2239,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Hangster
 	cry2 Cry_Gawdamster
 	cry2 Cry_Disheats
-	cry2 Cry_Sandshrew
+	cry2 Cry_Jafeet
 	cry2 Cry_Sandslash
 	cry2 Cry_Vulpix
 	cry2 Cry_Ninetales

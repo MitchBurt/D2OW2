@@ -637,7 +637,7 @@ static const u8 sDisheatsTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sSandshrewTutorLearnset[] =
+static const u8 sJafeetTutorLearnset[] =
 {
     TUTOR(MOVE_SWORDS_DANCE),
     TUTOR(MOVE_BODY_SLAM),
@@ -18755,7 +18755,7 @@ static const u8 sDisheatsAlolanTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sSandshrewAlolanTutorLearnset[] =
+static const u8 sJafeetAlolanTutorLearnset[] =
 {
     TUTOR(MOVE_SWORDS_DANCE),
     TUTOR(MOVE_BODY_SLAM),
@@ -19748,7 +19748,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_BEVRAGON] = sBevragonTutorLearnset,
     [SPECIES_SKIPPA] = sSkippaTutorLearnset,
     [SPECIES_DISHEATS] = sDisheatsTutorLearnset,
-    [SPECIES_SANDSHREW] = sSandshrewTutorLearnset,
+    [SPECIES_JAFEET] = sJafeetTutorLearnset,
     [SPECIES_SANDSLASH] = sSandslashTutorLearnset,
     [SPECIES_NIDORAN_F] = sNidoranFTutorLearnset,
     [SPECIES_NIDORINA] = sNidorinaTutorLearnset,
@@ -20642,7 +20642,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_HANGSTER_ALOLAN] = sHangsterAlolanTutorLearnset,
     [SPECIES_GAWDAMSTER_ALOLAN] = sGawdamsterAlolanTutorLearnset,
     [SPECIES_DISHEATS_ALOLAN] = sDisheatsAlolanTutorLearnset,
-    [SPECIES_SANDSHREW_ALOLAN] = sSandshrewAlolanTutorLearnset,
+    [SPECIES_JAFEET_ALOLAN] = sJafeetAlolanTutorLearnset,
     [SPECIES_SANDSLASH_ALOLAN] = sSandslashAlolanTutorLearnset,
     [SPECIES_VULPIX_ALOLAN] = sVulpixAlolanTutorLearnset,
     [SPECIES_NINETALES_ALOLAN] = sNinetalesAlolanTutorLearnset,

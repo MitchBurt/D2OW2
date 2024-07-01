@@ -1503,7 +1503,7 @@ static const struct TrainerMonNoItemDefaultMoves sTrainerMons_CamperBryce[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SANDSHREW_ALOLAN
+    .species = SPECIES_JAFEET_ALOLAN
     },
 };
 
@@ -5369,7 +5369,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Drew[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SANDSHREW,
+    .species = SPECIES_JAFEET,
     .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},
     .moves = {MOVE_DIG, MOVE_SAND_ATTACK, MOVE_POISON_STING, MOVE_SLASH}
     }
@@ -5392,7 +5392,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Beau[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SANDSHREW,
+    .species = SPECIES_JAFEET,
     .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},
     .moves = {MOVE_POISON_STING, MOVE_SAND_ATTACK, MOVE_SCRATCH, MOVE_DIG}
     },
@@ -5426,7 +5426,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Shane[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SANDSHREW,
+    .species = SPECIES_JAFEET,
     },
     {
     .iv = 0,
@@ -5486,7 +5486,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Travis[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SANDSHREW,
+    .species = SPECIES_JAFEET,
     }
 };
 
@@ -5535,7 +5535,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Ethan4[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SANDSHREW,
+    .species = SPECIES_JAFEET,
     },
     {
     .iv = 30,
@@ -5570,7 +5570,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Ethan5[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SANDSHREW,
+    .species = SPECIES_JAFEET,
     },
     {
     .iv = 40,
@@ -11756,7 +11756,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Becky[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SANDSHREW,
+    .species = SPECIES_JAFEET,
     .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},
     .moves = {MOVE_SAND_ATTACK, MOVE_POISON_STING, MOVE_SLASH, MOVE_DIG}
     },
@@ -13789,7 +13789,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Garrison[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SANDSHREW,
+    .species = SPECIES_JAFEET,
     },
 	{
     .iv = 0,
@@ -17614,7 +17614,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Tyron[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SANDSHREW,
+    .species = SPECIES_JAFEET,
     }
 };
 
@@ -17704,7 +17704,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lawrence[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SANDSHREW,
+    .species = SPECIES_JAFEET,
     }
 };
 
@@ -18129,7 +18129,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Andres1[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SANDSHREW,
+    .species = SPECIES_JAFEET,
     },
     {
     .iv = 50,
@@ -18270,7 +18270,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Bryan[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SANDSHREW,
+    .species = SPECIES_JAFEET,
     },
     {
     .iv = 0,
@@ -18278,7 +18278,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Bryan[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SANDSHREW,
+    .species = SPECIES_JAFEET,
     }
 };
 
@@ -18722,7 +18722,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Pat[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SANDSHREW,
+    .species = SPECIES_JAFEET,
     },
     {
     .iv = 10,
@@ -21402,7 +21402,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Andres2[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SANDSHREW,
+    .species = SPECIES_JAFEET,
     },
     {
     .iv = 10,
@@ -21410,7 +21410,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Andres2[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SANDSHREW,
+    .species = SPECIES_JAFEET,
     }
 };
 
@@ -21429,7 +21429,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Andres3[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SANDSHREW,
+    .species = SPECIES_JAFEET,
     },
     {
     .iv = 20,
@@ -21437,7 +21437,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Andres3[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SANDSHREW,
+    .species = SPECIES_JAFEET,
     }
 };
 
@@ -21456,7 +21456,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Andres4[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SANDSHREW,
+    .species = SPECIES_JAFEET,
     },
     {
     .iv = 30,
@@ -21464,7 +21464,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Andres4[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SANDSHREW,
+    .species = SPECIES_JAFEET,
     }
 };
 
@@ -21483,7 +21483,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Andres5[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SANDSHREW,
+    .species = SPECIES_JAFEET,
     },
     {
     .iv = 40,
@@ -21491,7 +21491,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Andres5[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SANDSHREW,
+    .species = SPECIES_JAFEET,
     }
 };
 

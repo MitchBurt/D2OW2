@@ -308,7 +308,7 @@ static const union AnimCmd sAnim_DISHEATS_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_SANDSHREW_1[] =
+static const union AnimCmd sAnim_JAFEET_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(1, 10),
@@ -318,7 +318,7 @@ static const union AnimCmd sAnim_SANDSHREW_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_SANDSHREW_2[] =
+static const union AnimCmd sAnim_JAFEET_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -8766,7 +8766,7 @@ static const union AnimCmd sAnim_DISHEATS_ALOLAN_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_SANDSHREW_ALOLAN_1[] =
+static const union AnimCmd sAnim_JAFEET_ALOLAN_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
@@ -9277,10 +9277,10 @@ static const union AnimCmd *const sAnims_DISHEATS[] ={
     sAnim_DISHEATS_2,
 };
 
-static const union AnimCmd *const sAnims_SANDSHREW[] ={
+static const union AnimCmd *const sAnims_JAFEET[] ={
     sAnim_GeneralFrame0,
-    sAnim_SANDSHREW_1,
-    sAnim_SANDSHREW_2,
+    sAnim_JAFEET_1,
+    sAnim_JAFEET_2,
 };
 
 static const union AnimCmd *const sAnims_SANDSLASH[] ={
@@ -14149,9 +14149,9 @@ static const union AnimCmd *const sAnims_DISHEATS_ALOLAN[] ={
     sAnim_DISHEATS_ALOLAN_1,
 };
 
-static const union AnimCmd *const sAnims_SANDSHREW_ALOLAN[] ={
+static const union AnimCmd *const sAnims_JAFEET_ALOLAN[] ={
     sAnim_GeneralFrame0,
-    sAnim_SANDSHREW_ALOLAN_1,
+    sAnim_JAFEET_ALOLAN_1,
 };
 
 static const union AnimCmd *const sAnims_SANDSLASH_ALOLAN[] ={
@@ -14464,7 +14464,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(BEVRAGON),
     ANIM_CMD(SKIPPA),
     ANIM_CMD(DISHEATS),
-    ANIM_CMD(SANDSHREW),
+    ANIM_CMD(JAFEET),
     ANIM_CMD(SANDSLASH),
     ANIM_CMD(NIDORAN_F),
     ANIM_CMD(NIDORINA),
@@ -15390,7 +15390,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(HANGSTER_ALOLAN),
     ANIM_CMD(GAWDAMSTER_ALOLAN),
     ANIM_CMD(DISHEATS_ALOLAN),
-    ANIM_CMD(SANDSHREW_ALOLAN),
+    ANIM_CMD(JAFEET_ALOLAN),
     ANIM_CMD(SANDSLASH_ALOLAN),
     ANIM_CMD(VULPIX_ALOLAN),
     ANIM_CMD(NINETALES_ALOLAN),

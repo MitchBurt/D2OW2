@@ -135,7 +135,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x67,
         .y_offset = 3,
     },
-    [SPECIES_SANDSHREW] =
+    [SPECIES_JAFEET] =
     {
         .size = 0x55,
         .y_offset = 11,
@@ -4769,7 +4769,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x67,
         .y_offset = 3,
     },
-    [SPECIES_SANDSHREW_ALOLAN] =
+    [SPECIES_JAFEET_ALOLAN] =
     {
         .size = 0x55,
         .y_offset = 11,

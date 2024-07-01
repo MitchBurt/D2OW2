@@ -708,7 +708,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_SANDSHREW] =
+    [SPECIES_JAFEET] =
     {
         .baseHP        = 50,
         .baseAttack    = 75,
@@ -26757,7 +26757,7 @@ const struct BaseStats gBaseStats[] =
         .flags = F_ALOLAN_FORM,
     },
 
-    [SPECIES_SANDSHREW_ALOLAN] =
+    [SPECIES_JAFEET_ALOLAN] =
     {
         .baseHP        = 50,
         .baseAttack    = 75,
@@ -34822,7 +34822,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_SANDSHREW] =
+    [SPECIES_JAFEET] =
     {
         .baseHP        = 50,
         .baseAttack    = 75,
@@ -61186,7 +61186,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .flags = F_ALOLAN_FORM,
     },
 
-    [SPECIES_SANDSHREW_ALOLAN] =
+    [SPECIES_JAFEET_ALOLAN] =
     {
         .baseHP        = 50,
         .baseAttack    = 75,

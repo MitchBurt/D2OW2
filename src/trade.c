@@ -4931,11 +4931,11 @@ u16 getWonderTradePokemonFormID(u16 species)
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_SANDSHREW:
+		case SPECIES_JAFEET:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_SANDSHREW,
-					SPECIES_SANDSHREW_ALOLAN,
+					SPECIES_JAFEET,
+					SPECIES_JAFEET_ALOLAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];

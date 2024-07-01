@@ -536,7 +536,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_BOLD,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_SANDSHREW] = {
+    [FRONTIER_MON_JAFEET] = {
         .species = SPECIES_FAZEAGLE,
         .moves = {MOVE_HURRICANE, MOVE_HEAT_WAVE, MOVE_AIR_SLASH, MOVE_U_TURN    },
         .itemTableId = BATTLE_FRONTIER_ITEM_FAZEAGLEITE,

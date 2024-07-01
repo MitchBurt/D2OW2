@@ -2135,7 +2135,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_SPINDA:
 				case SPECIES_TORTERRA:
 				case SPECIES_HOPPIP:
-				case SPECIES_SANDSHREW:
+				case SPECIES_JAFEET:
 				case SPECIES_MR_MIME:
 				case SPECIES_WOOBAT:
 				case SPECIES_SWOOBAT:

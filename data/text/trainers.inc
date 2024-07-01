@@ -1458,7 +1458,7 @@ Route111_Text_BrandenDefeat: @ 82994C5
 	.string "enough of a bribe…$"
 
 Route111_Text_BrandenPostBattle: @ 82994FB
-	.string "My Sandshrew loves eating\n"
+	.string "My Jafeet loves eating\n"
 	.string "my sandwiches.$"
 
 Route111_Text_TyronIntro: @ 8299524

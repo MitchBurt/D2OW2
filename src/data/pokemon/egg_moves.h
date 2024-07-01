@@ -121,7 +121,7 @@ const u16 gEggMoves[] = {
 		MOVE_SWITCHEROO,
 		MOVE_CRUNCH),
 
-	egg_moves(SANDSHREW,
+	egg_moves(JAFEET,
 		MOVE_COUNTER,
 		MOVE_FLAIL,
 		MOVE_MUD_SLAP,
@@ -4843,7 +4843,7 @@ const u16 gEggMoves[] = {
 		MOVE_SWITCHEROO,
 		MOVE_FINAL_GAMBIT),
 
-	egg_moves(SANDSHREW_ALOLAN,
+	egg_moves(JAFEET_ALOLAN,
 		MOVE_COUNTER,
 		MOVE_CURSE,
 		MOVE_FLAIL,

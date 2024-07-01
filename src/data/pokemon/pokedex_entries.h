@@ -325,12 +325,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SANDSHREW] =
+    [NATIONAL_DEX_JAFEET] =
     {
         .categoryName = _("Ratón"),
         .height = 6,
         .weight = 120,
-        .description = gSandshrewPokedexText,
+        .description = gJafeetPokedexText,
         .pokemonScale = 365,
         .pokemonOffset = 18,
         .trainerScale = 256,
@@ -11115,12 +11115,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SANDSHREW] =
+    [NATIONAL_DEX_JAFEET] =
     {
         .categoryName = _("Mouse"),
         .height = 6,
         .weight = 120,
-        .description = gSandshrewPokedexText,
+        .description = gJafeetPokedexText,
         .pokemonScale = 365,
         .pokemonOffset = 18,
         .trainerScale = 256,

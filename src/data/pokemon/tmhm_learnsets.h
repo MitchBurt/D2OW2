@@ -866,7 +866,7 @@ static const u8 sDisheatsTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sSandshrewTMHMLearnset[] =
+static const u8 sJafeetTMHMLearnset[] =
 {
     TMHM(TM01_FOCUS_PUNCH),
     TMHM(TM06_TOXIC),
@@ -34660,7 +34660,7 @@ static const u8 sDisheatsAlolanTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sSandshrewAlolanTMHMLearnset[] =
+static const u8 sJafeetAlolanTMHMLearnset[] =
 {
     TMHM(TM01_FOCUS_PUNCH),
     TMHM(TM06_TOXIC),
@@ -36101,7 +36101,7 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_BEVRAGON] = sBevragonTMHMLearnset,
     [SPECIES_SKIPPA] = sSkippaTMHMLearnset,
     [SPECIES_DISHEATS] = sDisheatsTMHMLearnset,
-    [SPECIES_SANDSHREW] = sSandshrewTMHMLearnset,
+    [SPECIES_JAFEET] = sJafeetTMHMLearnset,
     [SPECIES_SANDSLASH] = sSandslashTMHMLearnset,
     [SPECIES_NIDORAN_F] = sNidoranFTMHMLearnset,
     [SPECIES_NIDORINA] = sNidorinaTMHMLearnset,
@@ -37016,7 +37016,7 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_HANGSTER_ALOLAN] = sHangsterAlolanTMHMLearnset,
     [SPECIES_GAWDAMSTER_ALOLAN] = sGawdamsterAlolanTMHMLearnset,
     [SPECIES_DISHEATS_ALOLAN] = sDisheatsAlolanTMHMLearnset,
-    [SPECIES_SANDSHREW_ALOLAN] = sSandshrewAlolanTMHMLearnset,
+    [SPECIES_JAFEET_ALOLAN] = sJafeetAlolanTMHMLearnset,
     [SPECIES_SANDSLASH_ALOLAN] = sSandslashAlolanTMHMLearnset,
     [SPECIES_VULPIX_ALOLAN] = sVulpixAlolanTMHMLearnset,
     [SPECIES_NINETALES_ALOLAN] = sNinetalesAlolanTMHMLearnset,

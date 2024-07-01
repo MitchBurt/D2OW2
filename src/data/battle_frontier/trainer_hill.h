@@ -77,7 +77,7 @@ static const struct TrHillFloor sDataTagJPDefault_Floors[] = {
                         .friendship = 255
                     },
                     [2] = {
-                        .species = SPECIES_SANDSHREW,
+                        .species = SPECIES_JAFEET,
                         .heldItem = ITEM_QUICK_CLAW,
                         .moves = { MOVE_SCRATCH, MOVE_POISON_STING, MOVE_SAND_ATTACK, MOVE_SWIFT },
                         .level = 0,

@@ -491,8 +491,8 @@ Cry_Disheats::
 	.incbin "sound/direct_sound_samples/cries/cry_disheats.bin"
 
 	.align 2
-Cry_Sandshrew::
-	.incbin "sound/direct_sound_samples/cries/cry_sandshrew.bin"
+Cry_Jafeet::
+	.incbin "sound/direct_sound_samples/cries/cry_jafeet.bin"
 
 	.align 2
 Cry_Sandslash::

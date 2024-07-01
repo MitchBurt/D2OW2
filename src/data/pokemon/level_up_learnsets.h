@@ -525,7 +525,7 @@ static const struct LevelUpMove sDisheatsLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sSandshrewLevelUpLearnset[] = {
+static const struct LevelUpMove sJafeetLevelUpLearnset[] = {
 	LEVEL_UP_MOVE(1, MOVE_TACKLE),
 	LEVEL_UP_MOVE(1, MOVE_JUMP_KICK),
 	LEVEL_UP_MOVE(5, MOVE_MEDITATE),
@@ -20221,7 +20221,7 @@ static const struct LevelUpMove sDisheatsAlolanLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sSandshrewAlolanLevelUpLearnset[] = {
+static const struct LevelUpMove sJafeetAlolanLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SCRATCH),
     LEVEL_UP_MOVE( 1, MOVE_DEFENSE_CURL),
     LEVEL_UP_MOVE( 3, MOVE_MIST),
