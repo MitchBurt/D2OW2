@@ -259,7 +259,7 @@ static const struct LevelUpMove sPainticLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sMyreseftLevelUpLearnset[] = {
+static const struct LevelUpMove sMyresftLevelUpLearnset[] = {
 	LEVEL_UP_MOVE(1, MOVE_STRING_SHOT),
 	LEVEL_UP_MOVE(1, MOVE_ABSORB),
 	LEVEL_UP_MOVE(1, MOVE_SPIDER_WEB),

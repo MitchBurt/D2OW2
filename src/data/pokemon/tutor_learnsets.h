@@ -382,7 +382,7 @@ static const u8 sPainticTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sMyreseftTutorLearnset[] =
+static const u8 sMyresftTutorLearnset[] =
 {
     0xFF,
 };
@@ -19735,7 +19735,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_LEGOOG] = sLegoogTutorLearnset,
     [SPECIES_FIROME] = sFiromeTutorLearnset,
     [SPECIES_PAINTIC] = sPainticTutorLearnset,
-    [SPECIES_MYRESEFT] = sMyreseftTutorLearnset,
+    [SPECIES_MYRESFT] = sMyresftTutorLearnset,
     [SPECIES_BERRORD] = sBerrordTutorLearnset,
     [SPECIES_EMELGY] = sEmelgyTutorLearnset,
     [SPECIES_FEDORHAWK] = sFedorhawkTutorLearnset,

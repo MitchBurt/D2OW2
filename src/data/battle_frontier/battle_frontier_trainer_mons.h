@@ -6108,7 +6108,7 @@ const u16 gBattleFrontierTrainerMons_Marisa[] =
 
 const u16 gBattleFrontierTrainerMons_Lewis[] = 
 {
-    FRONTIER_MONS_BUG_CATCHER_1_EXTRA(LEGOOG, MYRESEFT)
+    FRONTIER_MONS_BUG_CATCHER_1_EXTRA(LEGOOG, MYRESFT)
 };
 
 const u16 gBattleFrontierTrainerMons_Yoshi[] = 

@@ -129,7 +129,7 @@ static const union AnimCmd sAnim_PAINTIC_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_MYRESEFT_1[] =
+static const union AnimCmd sAnim_MYRESFT_1[] =
 {
     ANIMCMD_FRAME(0, 5),
     ANIMCMD_FRAME(1, 5),
@@ -9210,9 +9210,9 @@ static const union AnimCmd *const sAnims_PAINTIC[] ={
     sAnim_PAINTIC_1,
 };
 
-static const union AnimCmd *const sAnims_MYRESEFT[] ={
+static const union AnimCmd *const sAnims_MYRESFT[] ={
     sAnim_GeneralFrame0,
-    sAnim_MYRESEFT_1,
+    sAnim_MYRESFT_1,
 };
 
 static const union AnimCmd *const sAnims_BERRORD[] ={
@@ -14451,7 +14451,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(LEGOOG),
     ANIM_CMD(FIROME),
     ANIM_CMD(PAINTIC),
-    ANIM_CMD(MYRESEFT),
+    ANIM_CMD(MYRESFT),
     ANIM_CMD(BERRORD),
     ANIM_CMD(EMELGY),
     ANIM_CMD(FEDORHAWK),

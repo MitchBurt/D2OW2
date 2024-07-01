@@ -427,7 +427,7 @@ static const u8 sPainticTMHMLearnset[] =
 	0xFF,
 };
 
-static const u8 sMyreseftTMHMLearnset[] =
+static const u8 sMyresftTMHMLearnset[] =
 {
     TMHM(TM06_TOXIC),
     TMHM(TM10_HIDDEN_POWER),
@@ -36088,7 +36088,7 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_LEGOOG] = sLegoogTMHMLearnset,
     [SPECIES_FIROME] = sFiromeTMHMLearnset,
     [SPECIES_PAINTIC] = sPainticTMHMLearnset,
-    [SPECIES_MYRESEFT] = sMyreseftTMHMLearnset,
+    [SPECIES_MYRESFT] = sMyresftTMHMLearnset,
     [SPECIES_BERRORD] = sBerrordTMHMLearnset,
     [SPECIES_EMELGY] = sEmelgyTMHMLearnset,
     [SPECIES_FEDORHAWK] = sFedorhawkTMHMLearnset,

@@ -169,12 +169,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MYRESEFT] =
+    [NATIONAL_DEX_MYRESFT] =
     {
         .categoryName = _("Capullo"),
         .height = 6,
         .weight = 100,
-        .description = gMyreseftPokedexText,
+        .description = gMyresftPokedexText,
         .pokemonScale = 424,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -10959,12 +10959,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MYRESEFT] =
+    [NATIONAL_DEX_MYRESFT] =
     {
         .categoryName = _("Cocoon"),
         .height = 6,
         .weight = 100,
-        .description = gMyreseftPokedexText,
+        .description = gMyresftPokedexText,
         .pokemonScale = 424,
         .pokemonOffset = 17,
         .trainerScale = 256,

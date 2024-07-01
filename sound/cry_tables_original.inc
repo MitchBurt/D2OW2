@@ -14,7 +14,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Legoog  @ 869DD6C
 	cry Cry_Firome  @ 869DD78
 	cry Cry_Paintic  @ 869DD84
-	cry Cry_Myreseft  @ 869DD90
+	cry Cry_Myresft  @ 869DD90
 	cry Cry_Berrord  @ 869DD9C
 	cry Cry_Emelgy  @ 869DDA8
 	cry Cry_Fedorhawk  @ 869DDB4
@@ -1294,7 +1294,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Legoog  @ 869EF9C
 	cry2 Cry_Firome  @ 869EFA8
 	cry2 Cry_Paintic  @ 869EFB4
-	cry2 Cry_Myreseft  @ 869EFC0
+	cry2 Cry_Myresft  @ 869EFC0
 	cry2 Cry_Berrord  @ 869EFCC
 	cry2 Cry_Emelgy  @ 869EFD8
 	cry2 Cry_Fedorhawk  @ 869EFE4

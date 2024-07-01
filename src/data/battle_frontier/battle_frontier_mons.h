@@ -72,7 +72,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_TIMID,
 		.abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_MYRESEFT] = {
+    [FRONTIER_MON_MYRESFT] = {
         .species = SPECIES_COMFEY,//
         .moves = {MOVE_REST, MOVE_CALM_MIND, MOVE_DRAINING_KISS, MOVE_LEECH_SEED},
         .itemTableId = BATTLE_FRONTIER_ITEM_CHESTO_BERRY,

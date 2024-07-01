@@ -84,7 +84,7 @@ const u8 gPainticPokedexText[] = _(
     "le gustan de las que no olisqueándolas\n"
     "con su gran nariz roja.");
 
-const u8 gMyreseftPokedexText[] = _(
+const u8 gMyresftPokedexText[] = _(
     "Permanece casi inmóvil encaramado\n"
     "a los árboles, pero mantiene una actividad\n"
     "interna frenética para poder evolucionar.\n"
@@ -5437,7 +5437,7 @@ const u8 gPainticPokedexText[] = _(
     "kinds of leaves from those it dislikes by\n"
     "sniffing with its big red nose.");
 
-const u8 gMyreseftPokedexText[] = _(
+const u8 gMyresftPokedexText[] = _(
     "It remains virtually immobile while it\n"
     "clings to a tree. However, on the inside,\n"
     "it busily prepares for evolution. This is\n"

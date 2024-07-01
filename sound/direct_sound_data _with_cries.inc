@@ -439,8 +439,8 @@ Cry_Paintic::
 	.incbin "sound/direct_sound_samples/cries/cry_paintic.bin"
 
 	.align 2
-Cry_Myreseft::
-	.incbin "sound/direct_sound_samples/cries/cry_myreseft.bin"
+Cry_Myresft::
+	.incbin "sound/direct_sound_samples/cries/cry_myresft.bin"
 
 	.align 2
 Cry_Berrord::

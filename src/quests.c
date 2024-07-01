@@ -2167,7 +2167,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_CUBONE:
 				case SPECIES_CHIMECHO:
 				case SPECIES_SANDILE:
-				case SPECIES_MYRESEFT:
+				case SPECIES_MYRESFT:
 				case SPECIES_DEINO:
 				case SPECIES_ZWEILOUS:
 				case SPECIES_TURTWIG:

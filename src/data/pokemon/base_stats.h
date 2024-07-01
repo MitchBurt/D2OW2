@@ -345,7 +345,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_MYRESEFT] =
+    [SPECIES_MYRESFT] =
     {
         .baseHP        = 45,
         .baseAttack    = 25,
@@ -34450,7 +34450,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_MYRESEFT] =
+    [SPECIES_MYRESFT] =
     {
         .baseHP        = 45,
         .baseAttack    = 25,

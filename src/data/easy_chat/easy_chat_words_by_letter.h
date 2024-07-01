@@ -829,7 +829,7 @@ const u16 gEasyChatWordsByLetter_K[] = {
     -1, 2, // Doubled pokemon species name
     EC_POKEMON(KADABRA),
     EC_POKEMON2(KADABRA),
-    EC_POKEMON2(MYRESEFT),
+    EC_POKEMON2(MYRESFT),
     EC_POKEMON2(KANGASKHAN),
     EC_MOVE(KARATE_CHOP),
     EC_POKEMON(KECLEON),
