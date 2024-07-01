@@ -509,7 +509,7 @@ struct BattleStruct
     u16 changedItems[MAX_BATTLERS_COUNT];
     u8 intimidateBattler;
     u8 switchInItemsCounter;
-    u8 arenaTurnCounter;
+    u8 arepuckidrnCounter;
     u8 turnSideTracker;
     u8 givenExpMons; // Bits for enemy party's pokemon that gave exp to player's party.
     u16 lastTakenMoveFrom[MAX_BATTLERS_COUNT][MAX_BATTLERS_COUNT]; // a 2-D array [target][attacker]

@@ -3,7 +3,7 @@
   "name": "Digglets_Cave",
   "layout": "LAYOUT_DIGGLETS_CAVE",
   "music": "MUS_RG_VIRIDIAN_FOREST",
-  "region_map_section": "MAPSEC_DIGLETTS_CAVE",
+  "region_map_section": "MAPSEC_NONONMONS_CAVE",
   "requires_flash": false,
   "weather": "WEATHER_SHADE",
   "map_type": "MAP_TYPE_UNDERGROUND",
@@ -21,14 +21,14 @@
       "x": 3,
       "y": 3,
       "elevation": 0,
-      "dest_map": "MAP_DIGLETTS_CAVE_NORTH_ENTRANCE",
+      "dest_map": "MAP_NONONMONS_CAVE_NORTH_ENTRANCE",
       "dest_warp_id": 0
     },
     {
       "x": 82,
       "y": 71,
       "elevation": 0,
-      "dest_map": "MAP_DIGLETTS_CAVE_SOUTH_ENTRANCE",
+      "dest_map": "MAP_NONONMONS_CAVE_SOUTH_ENTRANCE",
       "dest_warp_id": 0
     }
   ],

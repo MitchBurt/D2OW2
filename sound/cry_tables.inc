@@ -22,7 +22,7 @@ gCryTable::
 	cry Cry_Egg_Group_Human_Like
 	cry Cry_Egg_Group_Amorphous
 	cry Cry_Egg_Group_Fairy
-	cry Cry_Egg_Group_Ditto
+	cry Cry_Egg_Group_Nyankat
 
 	.align 2
 gCryTable2::
@@ -48,4 +48,4 @@ gCryTable2::
 	cry Cry_Egg_Group_Human_Like
 	cry Cry_Egg_Group_Amorphous
 	cry Cry_Egg_Group_Fairy
-	cry Cry_Egg_Group_Ditto
+	cry Cry_Egg_Group_Nyankat

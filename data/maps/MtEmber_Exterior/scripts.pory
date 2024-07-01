@@ -70,10 +70,10 @@ MtEmber_Exterior_Text_WhatsPasswordAgain:: @ 817A8EE
     .string "…Oh, and what're the passwords?\n"
     .string "At the ROCKET WAREHOUSE, I mean.$"
 
-MtEmber_Exterior_Text_FirstPasswordGoldeen:: @ 817A970
+MtEmber_Exterior_Text_FirstPasswordCighted:: @ 817A970
     .string "What, you forgot the password?\n"
     .string "There're actually two.\p"
-    .string "The first one's “GOLDEEN need\n"
+    .string "The first one's “CIGHTED need\n"
     .string "log.”\p"
     .string "And the second one is…$"
 

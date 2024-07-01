@@ -388,7 +388,7 @@ DirectSoundWaveData_8745A7C::
 
 	.align 2
 Cry_Generic::
-	.incbin "sound/direct_sound_samples/cries/cry_rhydon.bin"
+	.incbin "sound/direct_sound_samples/cries/cry_yeesaur.bin"
 	
 	.align 2
 Cry_Kyogre::
@@ -424,15 +424,15 @@ Cry_Manaphy::
 	
 	.align 2
 Cry_Egg_Group_Water_1::
-	.incbin "sound/direct_sound_samples/cries/cry_seel.bin"
+	.incbin "sound/direct_sound_samples/cries/cry_dabboi.bin"
 	
 	.align 2
 Cry_Egg_Group_Water_2::
-	.incbin "sound/direct_sound_samples/cries/cry_seel.bin"
+	.incbin "sound/direct_sound_samples/cries/cry_dabboi.bin"
 
 	.align 2
 Cry_Egg_Group_Water_3::
-	.incbin "sound/direct_sound_samples/cries/cry_seel.bin"
+	.incbin "sound/direct_sound_samples/cries/cry_dabboi.bin"
 
 	.align 2
 Cry_Egg_Group_Dragon::
@@ -448,15 +448,15 @@ Cry_Egg_Group_Monster:
 
 	.align 2
 Cry_Egg_Group_Grass:
-	.incbin "sound/direct_sound_samples/cries/cry_oddish.bin"
+	.incbin "sound/direct_sound_samples/cries/cry_bongstard.bin"
 
 	.align 2
 Cry_Egg_Group_Bug:
-	.incbin "sound/direct_sound_samples/cries/cry_venomoth.bin"
+	.incbin "sound/direct_sound_samples/cries/cry_senketula.bin"
 
 	.align 2
 Cry_Egg_Group_Mineral:
-	.incbin "sound/direct_sound_samples/cries/cry_geodude.bin"
+	.incbin "sound/direct_sound_samples/cries/cry_rock.bin"
 
 	.align 2
 Cry_Egg_Group_Field:
@@ -468,15 +468,15 @@ Cry_Egg_Group_Human_Like:
 
 	.align 2
 Cry_Egg_Group_Amorphous:
-	.incbin "sound/direct_sound_samples/cries/cry_koffing.bin"
+	.incbin "sound/direct_sound_samples/cries/cry_fennaf.bin"
 
 	.align 2
 Cry_Egg_Group_Fairy:
 	.incbin "sound/direct_sound_samples/cries/cry_skitty.bin"
 
 	.align 2
-Cry_Egg_Group_Ditto:
-	.incbin "sound/direct_sound_samples/cries/cry_ditto.bin"
+Cry_Egg_Group_Nyankat:
+	.incbin "sound/direct_sound_samples/cries/cry_nyankat.bin"
 
 	.align 2
 DirectSoundWaveData_register_noise::

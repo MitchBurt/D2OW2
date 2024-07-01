@@ -240,7 +240,7 @@ gBattleScriptsForMoveEffects:: @ 82D86A8
 	.4byte BattleScript_EffectHex
 	.4byte BattleScript_EffectAssurance
 	.4byte BattleScript_EffectTrump_card
-	.4byte BattleScript_EffectAcrobatics
+	.4byte BattleScript_EffectAluisics
 	.4byte BattleScript_EffectHeatCrash
 	.4byte BattleScript_EffectPunishment
 	.4byte BattleScript_EffectStoredPower
@@ -2227,7 +2227,7 @@ BattleScript_EffectWringOut:
 BattleScript_EffectHex:
 BattleScript_EffectAssurance:
 BattleScript_EffectTrump_card:
-BattleScript_EffectAcrobatics:
+BattleScript_EffectAluisics:
 BattleScript_EffectHeatCrash:
 BattleScript_EffectPunishment:
 BattleScript_EffectStoredPower:
@@ -8324,7 +8324,7 @@ BattleScript_PalaceEndFlavorText::
 	setbyte gBattleCommunication + 1, 0
 	end2
 
-BattleScript_ArenaTurnBeginning::
+BattleScript_ArepuckidrnBeginning::
 	waitcry BS_ATTACKER
 	volumedown
 	playse SE_ARENA_TIMEUP1

@@ -453,7 +453,7 @@ $(MID_SUBDIR)/mus_rg_poke_flute.s: %.s: %.mid
 $(MID_SUBDIR)/mus_rg_poke_mansion.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G148 -V090
 
-$(MID_SUBDIR)/mus_rg_jigglypuff.s: %.s: %.mid
+$(MID_SUBDIR)/mus_rg_sneddit.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G135 -V068 -P5
 
 $(MID_SUBDIR)/mus_rg_encounter_rival.s: %.s: %.mid
@@ -528,7 +528,7 @@ $(MID_SUBDIR)/mus_rg_vs_gym_leader.s: %.s: %.mid
 $(MID_SUBDIR)/mus_rg_vs_champion.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090
 
-$(MID_SUBDIR)/mus_rg_vs_mewtwo.s: %.s: %.mid
+$(MID_SUBDIR)/mus_rg_vs_god.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G157 -V090
 
 $(MID_SUBDIR)/mus_rg_vs_trainer.s: %.s: %.mid

@@ -530,7 +530,7 @@ gBattleAnims_Moves::
 	.4byte Move_CIRCLE_THROW
 	.4byte Move_INCINERATE
 	.4byte Move_QUASH
-	.4byte Move_ACROBATICS
+	.4byte Move_ALUISICS
 	.4byte Move_REFLECT_TYPE
 	.4byte Move_RETALITATE
 	.4byte Move_FINAL_GAMBIT
@@ -708,7 +708,7 @@ gBattleAnims_Moves::
 	.4byte Move_SAPPY_SEED
 	.4byte Move_FREEZY_FROST
 	.4byte Move_SPARKLY_SWIRL
-	.4byte Move_VEEVEE_VOLLEY
+	.4byte Move_VEEMOJEE_VOLLEY
 	.4byte Move_DOUBLE_IRON_BASH
 @@@@@@@@@@@@ GEN 8 @@@@@@@@@@@@
 	.4byte Move_DYNAMAX_CANNON
@@ -5570,7 +5570,7 @@ Move_QUASH:
 	waitbgfadein
 	end
 
-Move_ACROBATICS:
+Move_ALUISICS:
 	loadspritegfx ANIM_TAG_ROUND_SHADOW
 	loadspritegfx ANIM_TAG_IMPACT
 	monbg ANIM_TARGET
@@ -13134,7 +13134,7 @@ Move_FREEZY_FROST::
 Move_SPARKLY_SWIRL::
 	end @to do:
 
-Move_VEEVEE_VOLLEY::
+Move_VEEMOJEE_VOLLEY::
 	end @to do:
 
 Move_DOUBLE_IRON_BASH::

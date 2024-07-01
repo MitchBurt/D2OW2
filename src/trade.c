@@ -2522,10 +2522,10 @@ int GetUnionRoomTradeMessageId(struct GFtgtGnameSub rfuPlayer, struct GFtgtGname
 	u8 i;
 	
 	static const u16 LegendaryPokemon[] = {
-		SPECIES_ZAPDOS,
-		SPECIES_MOLTRES,
-		SPECIES_ARTICUNO,
-		SPECIES_MEWTWO,
+		SPECIES_ZERUEL,
+		SPECIES_REMIEL,
+		SPECIES_LEGEND,
+		SPECIES_GOD,
 		SPECIES_MEW,
 		SPECIES_SUICUNE,
 		SPECIES_RAIKOU,
@@ -4931,192 +4931,192 @@ u16 getWonderTradePokemonFormID(u16 species)
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_SANDSHREW:
+		case SPECIES_JAFEET:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_SANDSHREW,
-					SPECIES_SANDSHREW_ALOLAN,
+					SPECIES_JAFEET,
+					SPECIES_JAFEET_ALOLAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_SANDSLASH:
+		case SPECIES_TOYUTA:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_SANDSLASH,
-					SPECIES_SANDSLASH_ALOLAN,
+					SPECIES_TOYUTA,
+					SPECIES_TOYUTA_ALOLAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_VULPIX:
+		case SPECIES_SAUCIE:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_VULPIX,
-					SPECIES_VULPIX_ALOLAN,
+					SPECIES_SAUCIE,
+					SPECIES_SAUCIE_ALOLAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_NINETALES:
+		case SPECIES_SAWSBAWS:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_NINETALES,
-					SPECIES_NINETALES_ALOLAN,
+					SPECIES_SAWSBAWS,
+					SPECIES_SAWSBAWS_ALOLAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_DIGLETT:
+		case SPECIES_NONONMON:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_DIGLETT,
-					SPECIES_DIGLETT_ALOLAN,
+					SPECIES_NONONMON,
+					SPECIES_NONONMON_ALOLAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_DUGTRIO:
+		case SPECIES_GHOMA:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_DUGTRIO,
-					SPECIES_DUGTRIO_ALOLAN,
+					SPECIES_GHOMA,
+					SPECIES_GHOMA_ALOLAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_MEOWTH:
+		case SPECIES_GARFEL:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_MEOWTH,
-					SPECIES_MEOWTH_ALOLAN,
-					SPECIES_MEOWTH_GALARIAN,
+					SPECIES_GARFEL,
+					SPECIES_GARFEL_ALOLAN,
+					SPECIES_GARFEL_GALARIAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_PERSIAN:
+		case SPECIES_GOREFIELD:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_PERSIAN,
-					SPECIES_PERSIAN_ALOLAN,
+					SPECIES_GOREFIELD,
+					SPECIES_GOREFIELD_ALOLAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_GEODUDE:
+		case SPECIES_ROCK:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_GEODUDE,
-					SPECIES_GEODUDE_ALOLAN,
+					SPECIES_ROCK,
+					SPECIES_ROCK_ALOLAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_GRAVELER:
+		case SPECIES_TONCRETE:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_GRAVELER,
-					SPECIES_GRAVELER_ALOLAN,
+					SPECIES_TONCRETE,
+					SPECIES_TONCRETE_ALOLAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_GOLEM:
+		case SPECIES_LOSSILITH:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_GOLEM,
-					SPECIES_GOLEM_ALOLAN,
+					SPECIES_LOSSILITH,
+					SPECIES_LOSSILITH_ALOLAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_GRIMER:
+		case SPECIES_GUMMI:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_GRIMER,
-					SPECIES_GRIMER_ALOLAN,
+					SPECIES_GUMMI,
+					SPECIES_GUMMI_ALOLAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_MUK:
+		case SPECIES_RIMESLANCH:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_MUK,
-					SPECIES_MUK_ALOLAN,
+					SPECIES_RIMESLANCH,
+					SPECIES_RIMESLANCH_ALOLAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_EXEGGUTOR:
+		case SPECIES_CIPHRON:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_EXEGGUTOR,
-					SPECIES_EXEGGUTOR_ALOLAN,
+					SPECIES_CIPHRON,
+					SPECIES_CIPHRON_ALOLAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_MAROWAK:
+		case SPECIES_AMAZULK:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_MAROWAK,
-					SPECIES_MAROWAK_ALOLAN,
+					SPECIES_AMAZULK,
+					SPECIES_AMAZULK_ALOLAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_PONYTA:
+		case SPECIES_DEBEGUCK:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_PONYTA,
-					SPECIES_PONYTA_GALARIAN,
+					SPECIES_DEBEGUCK,
+					SPECIES_DEBEGUCK_GALARIAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_RAPIDASH:
+		case SPECIES_LONKY:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_RAPIDASH,
-					SPECIES_RAPIDASH_GALARIAN,
+					SPECIES_LONKY,
+					SPECIES_LONKY_GALARIAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_FARFETCHD:
+		case SPECIES_IMPOSTOWN:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_FARFETCHD,
-					SPECIES_FARFETCHD_GALARIAN,
+					SPECIES_IMPOSTOWN,
+					SPECIES_IMPOSTOWN_GALARIAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_WEEZING:
+		case SPECIES_BIPHARMA:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_WEEZING,
-					SPECIES_WEEZING_GALARIAN,
+					SPECIES_BIPHARMA,
+					SPECIES_BIPHARMA_GALARIAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
@@ -5192,21 +5192,21 @@ u16 getWonderTradePokemonFormID(u16 species)
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_SLOWPOKE:
+		case SPECIES_BASSHOP:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_SLOWPOKE,
-					SPECIES_SLOWPOKE_GALARIAN,
+					SPECIES_BASSHOP,
+					SPECIES_BASSHOP_GALARIAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_SLOWBRO:
+		case SPECIES_SHEMUE:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_SLOWBRO,
-					SPECIES_SLOWBRO_GALARIAN,
+					SPECIES_SHEMUE,
+					SPECIES_SHEMUE_GALARIAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];

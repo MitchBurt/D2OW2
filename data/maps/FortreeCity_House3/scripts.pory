@@ -28,7 +28,7 @@ FortreeCity_House3_EventScript_AsktoTrade::
 	random 8
 	switch VAR_RESULT
 	case 0, FortreeCity_House3_EventScript_Give_Meadosaur_Mega
-	case 1, FortreeCity_House3_EventScript_Give_Chikorita
+	case 1, FortreeCity_House3_EventScript_Give_Tom
 	case 2, FortreeCity_House3_EventScript_Give_Treecko_Mega
 	case 3, FortreeCity_House3_EventScript_Give_Turtwig
 	case 4, FortreeCity_House3_EventScript_Give_Snivy
@@ -94,12 +94,12 @@ FortreeCity_House3_EventScript_Give_Meadosaur_Mega::
 	release
 	end
 	
-//Cyndaquil
-FortreeCity_House3_EventScript_Give_Chikorita::
-	bufferspeciesname 1, SPECIES_CHIKORITA
+//Megatron
+FortreeCity_House3_EventScript_Give_Tom::
+	bufferspeciesname 1, SPECIES_TOM
 	playfanfare MUS_OBTAIN_ITEM
 	message FortreeCity_House3_Text_ReceivedMonFromOldMan
-	givemon SPECIES_CHIKORITA, 10, ITEM_NONE
+	givemon SPECIES_TOM, 10, ITEM_NONE
 	waitfanfare
 	msgbox FortreeCity_House3_Text_ComeAgain_Starter, MSGBOX_DEFAULT
 	release

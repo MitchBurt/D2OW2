@@ -24,8 +24,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "CeruleanCave_3F_EventScript_Mewtwo",
-      "flag": "FLAG_DEFEATED_MEWTWO"
+      "script": "CeruleanCave_3F_EventScript_God",
+      "flag": "FLAG_DEFEATED_GOD"
     }
   ],
   "warp_events": [

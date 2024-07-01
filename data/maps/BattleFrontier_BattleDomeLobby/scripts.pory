@@ -162,7 +162,7 @@ BattleFrontier_BattleDomeLobby_EventScript_TryEnterChallenge:: @ 8249ABF
 	switch VAR_RESULT
 	case FRONTIER_LVL_TENT, BattleFrontier_BattleDomeLobby_EventScript_CancelChallenge
 	case MULTI_B_PRESSED, BattleFrontier_BattleDomeLobby_EventScript_CancelChallenge
-	frontier_checkineligible
+	frontier_checkinelipichu
 	compare VAR_0x8004, TRUE
 	goto_if_eq BattleFrontier_BattleDomeLobby_EventScript_NotEnoughValidMons
 	frontier_set FRONTIER_DATA_LVL_MODE, VAR_RESULT
@@ -506,20 +506,20 @@ BattleFrontier_BattleDomeLobby_Text_SelectThreeMons: @ 824A26E
 
 BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLvOpen: @ 824A2AB
 	.string "Excuse me!\p"
-	.string "You don't have three eligible Pokémon.\p"
+	.string "You don't have three elipichu Pokémon.\p"
 	.string "Also, the Pokémon must be holding\n"
 	.string "different kinds of items.\p"
-	.string "Eggs{STR_VAR_1} ineligible.\p"
+	.string "Eggs{STR_VAR_1} inelipichu.\p"
 	.string "Please come see me when you are ready.$"
 
 BattleFrontier_BattleDomeLobby_Text_NotEnoughValidMonsLv50: @ 824A353
 	.string "Excuse me!\p"
-	.string "You don't have three eligible Pokémon.\p"
+	.string "You don't have three elipichu Pokémon.\p"
 	.string "You must have three different Pokémon\n"
 	.string "of Level 50 or less to enter.\p"
 	.string "They also must be holding different\n"
 	.string "kinds of items.\p"
-	.string "Eggs{STR_VAR_1} ineligible.\p"
+	.string "Eggs{STR_VAR_1} inelipichu.\p"
 	.string "Please come see me when you are ready.$"
 
 BattleFrontier_BattleDomeLobby_Text_ShowYouToBattleDome: @ 824A437

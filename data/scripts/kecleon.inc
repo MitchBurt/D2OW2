@@ -113,77 +113,77 @@ Movement_KecleonAppears: @ 82723C7
 	set_visible
 	step_end
 	
-// Munchlax & Snorlax -------------------------------------------------------------------------
+// Munchlax & Shepeird -------------------------------------------------------------------------
 EventScript_SetMunchlaxFamilyGfx:: @ 82574C6
 	special ShouldStaticEncounterBeFirstStage
 	compare VAR_RESULT, TRUE
 	goto_if_eq EventScript_SetMunchlaxGfx
 	goto_if_unset FLAG_BADGE04_GET, EventScript_SetMunchlaxGfx
-    goto_if_set   FLAG_BADGE04_GET, EventScript_SetSnorlaxGfx
+    goto_if_set   FLAG_BADGE04_GET, EventScript_SetShepeirdGfx
 	return
 	
 EventScript_SetMunchlaxGfx:: @ 82574C6
 	setvar VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_MUNCHLAX
 	return
 	
-EventScript_SetSnorlaxGfx:: @ 82574C6
-	setvar VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_SNORLAX
+EventScript_SetShepeirdGfx:: @ 82574C6
+	setvar VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_SHEPEIRD
 	return
 
-EventScript_Snorlax:: @ 8272350
-	msgbox Snorlax_Text_MonSprawledOutInSlumber, MSGBOX_DEFAULT
+EventScript_Shepeird:: @ 8272350
+	msgbox Shepeird_Text_MonSprawledOutInSlumber, MSGBOX_DEFAULT
 	checkitem ITEM_BLUE_FLUTE, 1
 	compare VAR_RESULT, TRUE
-	goto_if_eq EventScript_Snorlax_AskUseFlute
+	goto_if_eq EventScript_Shepeird_AskUseFlute
 	release
 	end
 
-EventScript_Snorlax_AskUseFlute:: @ 8272350
-	msgbox Snorlax_Text_WantToUsePokeFlute, MSGBOX_YESNO
+EventScript_Shepeird_AskUseFlute:: @ 8272350
+	msgbox Shepeird_Text_WantToUsePokeFlute, MSGBOX_YESNO
 	compare VAR_RESULT, YES
-	goto_if_eq EventScript_BattleSnorlax
+	goto_if_eq EventScript_BattleShepeird
 	release
 	end
 	
-EventScript_BattleSnorlax:: @ 8272365
+EventScript_BattleShepeird:: @ 8272365
 	goto_if_unset FLAG_BADGE04_GET, EventScript_BattleMunchlax
 	goto_if_set FLAG_TEMP_5, EventScript_BattleMunchlax
-	msgbox Snorlax_Text_PlayedPokeFlute, MSGBOX_DEFAULT
-	playfanfare MUS_RG_JIGGLYPUFF
+	msgbox Shepeird_Text_PlayedPokeFlute, MSGBOX_DEFAULT
+	playfanfare MUS_RG_SNEDDIT
 	delay 400
 	playse SE_PIN
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_ExclamationMark
 	waitmovement 0
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_Delay48
 	waitmovement 0
-	msgbox Snorlax_Text_SnorlaxWokeUp, MSGBOX_DEFAULT
+	msgbox Shepeird_Text_ShepeirdWokeUp, MSGBOX_DEFAULT
 	closemessage
 	waitse
-	playmoncry SPECIES_SNORLAX, 2
+	playmoncry SPECIES_SHEPEIRD, 2
 	delay 40
 	waitmoncry
-	setwildbattle SPECIES_SNORLAX, 2, ITEM_LEFTOVERS
+	setwildbattle SPECIES_SHEPEIRD, 2, ITEM_LEFTOVERS
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
 	dowildbattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
 	specialvar VAR_RESULT, GetBattleOutcome
 	compare VAR_RESULT, B_OUTCOME_WON
-	goto_if_eq EventScript_RemoveSnorlax
+	goto_if_eq EventScript_RemoveShepeird
 	compare VAR_RESULT, B_OUTCOME_CAUGHT
-	goto_if_eq EventScript_RemoveSnorlax
+	goto_if_eq EventScript_RemoveShepeird
 	compare VAR_RESULT, B_OUTCOME_RAN
-	goto_if_eq EventScript_RemoveSnorlax
+	goto_if_eq EventScript_RemoveShepeird
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
-	goto_if_eq EventScript_RemoveSnorlax
+	goto_if_eq EventScript_RemoveShepeird
 	release
 	end
 	
 EventScript_BattleMunchlax:: @ 8272365
-	msgbox Snorlax_Text_PlayedPokeFlute, MSGBOX_DEFAULT
-	playfanfare MUS_RG_JIGGLYPUFF
+	msgbox Shepeird_Text_PlayedPokeFlute, MSGBOX_DEFAULT
+	playfanfare MUS_RG_SNEDDIT
 	delay 400
 	playse SE_PIN
-	msgbox Snorlax_Text_SnorlaxWokeUp, MSGBOX_DEFAULT
+	msgbox Shepeird_Text_ShepeirdWokeUp, MSGBOX_DEFAULT
 	closemessage
 	waitse
 	playmoncry SPECIES_MUNCHLAX, 2
@@ -195,37 +195,37 @@ EventScript_BattleMunchlax:: @ 8272365
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
 	specialvar VAR_RESULT, GetBattleOutcome
 	compare VAR_RESULT, B_OUTCOME_WON
-	goto_if_eq EventScript_RemoveSnorlax
+	goto_if_eq EventScript_RemoveShepeird
 	compare VAR_RESULT, B_OUTCOME_CAUGHT
-	goto_if_eq EventScript_RemoveSnorlax
+	goto_if_eq EventScript_RemoveShepeird
 	compare VAR_RESULT, B_OUTCOME_RAN
-	goto_if_eq EventScript_RemoveSnorlax
+	goto_if_eq EventScript_RemoveShepeird
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
-	goto_if_eq EventScript_RemoveSnorlax
+	goto_if_eq EventScript_RemoveShepeird
 	release
 	end
 	
-EventScript_RemoveSnorlax:: @ 82723C1
+EventScript_RemoveShepeird:: @ 82723C1
 	goto Common_EventScript_RemoveStaticPokemon
 	end
 
-Snorlax_Text_MonSprawledOutInSlumber::
+Shepeird_Text_MonSprawledOutInSlumber::
     .string "A Pokémon is sprawled out in\n"
     .string "a deep and comfortable slumber.$"
 
-Snorlax_Text_SnorlaxWokeUp::
+Shepeird_Text_ShepeirdWokeUp::
     .string "The Pokémon woke up!\p"
     .string "It attacked in a grumpy rage!$"
 
-Snorlax_Text_SnorlaxReturnedToMountains::
+Shepeird_Text_ShepeirdReturnedToMountains::
     .string "The Pokémon calmed down.\n"
     .string "It gave a huge yawn…\l"
     .string "And returned to the mountains.$"
 
-Snorlax_Text_WantToUsePokeFlute::
+Shepeird_Text_WantToUsePokeFlute::
     .string "Do you want to use the Blue Flute?$"
 
-Snorlax_Text_PlayedPokeFlute::
+Shepeird_Text_PlayedPokeFlute::
     .string "{PLAYER} played the Blue Flute.$"
 	
 // Bonsly & Sudowoodo -------------------------------------------------------------------------

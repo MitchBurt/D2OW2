@@ -63,7 +63,7 @@ static const struct Fanfare sFanfares[] = {
     [FANFARE_SLOTS_JACKPOT]           = { MUS_SLOTS_JACKPOT,         250 },
     [FANFARE_SLOTS_WIN]               = { MUS_SLOTS_WIN,             150 },
     [FANFARE_TOO_BAD]                 = { MUS_TOO_BAD,               160 },
-    [FANFARE_RG_JIGGLYPUFF]           = { MUS_RG_JIGGLYPUFF,         400 },
+    [FANFARE_RG_SNEDDIT]           = { MUS_RG_SNEDDIT,         400 },
     [FANFARE_RG_DEX_RATING]           = { MUS_RG_DEX_RATING,         196 },
     [FANFARE_RG_OBTAIN_KEY_ITEM]      = { MUS_RG_OBTAIN_KEY_ITEM,    170 },
     [FANFARE_RG_CAUGHT_INTRO]         = { MUS_RG_CAUGHT_INTRO,       231 },
@@ -104,8 +104,8 @@ static const struct Fanfare sFanfares[] = {
     [FANFARE_HG_EVOLVED]              = { HG_SEQ_ME_SHINKAOME,       240 },
     [FANFARE_HG_OBTAIN_BADGE]         = { HG_SEQ_ME_BADGE,           340 },
     [FANFARE_HG_OBTAIN_TMHM]          = { HG_SEQ_ME_WAZA,            220 },
-    [FANFARE_HG_VOLTORB_FLIP_1]       = { HG_SEQ_ME_CARDGAME1,       195 },
-    [FANFARE_HG_VOLTORB_FLIP_2]       = { HG_SEQ_ME_CARDGAME2,       240 },
+    [FANFARE_HG_AWMANE_FLIP_1]       = { HG_SEQ_ME_CARDGAME1,       195 },
+    [FANFARE_HG_AWMANE_FLIP_2]       = { HG_SEQ_ME_CARDGAME2,       240 },
     [FANFARE_HG_ACCESSORY]            = { HG_SEQ_ME_ACCE,            160 },
     [FANFARE_HG_REGISTER_POKEGEAR]    = { HG_SEQ_ME_POKEGEAR_REGIST, 185 },
     [FANFARE_HG_OBTAIN_BERRY]         = { HG_SEQ_ME_KINOMI,          120 },
@@ -470,7 +470,7 @@ enum{
     CRY_EGG_GROUP_HUMAN_LIKE,
     CRY_EGG_GROUP_AMORPHOUS,
     CRY_EGG_GROUP_FAIRY,
-    CRY_EGG_GROUP_DITTO,
+    CRY_EGG_GROUP_NYANKAT,
 };
 
 void PlayCryInternal(u16 species, s8 pan, s8 volume, u8 priority, u8 mode)
@@ -630,8 +630,8 @@ void PlayGenericCry(u16 species, bool32 v0){
         case SPECIES_ROTOM_FAN:
             gMPlay_PokemonCry = SetPokemonCryTone(v0 ? &gCryTable2[CRY_ROTOM] : &gCryTable[CRY_ROTOM]);
         break;
-        case SPECIES_DITTO:
-            gMPlay_PokemonCry = SetPokemonCryTone(v0 ? &gCryTable2[CRY_EGG_GROUP_DITTO] : &gCryTable[CRY_EGG_GROUP_DITTO]);
+        case SPECIES_NYANKAT:
+            gMPlay_PokemonCry = SetPokemonCryTone(v0 ? &gCryTable2[CRY_EGG_GROUP_NYANKAT] : &gCryTable[CRY_EGG_GROUP_NYANKAT]);
         break;
         case SPECIES_MEW:
         case SPECIES_CELEBI:
@@ -683,8 +683,8 @@ void PlayGenericCry(u16 species, bool32 v0){
                 gMPlay_PokemonCry = SetPokemonCryTone(v0 ? &gCryTable2[CRY_EGG_GROUP_AMORPHOUS] : &gCryTable[CRY_EGG_GROUP_AMORPHOUS]);
             else if(gBaseStats[species].eggGroup2 == EGG_GROUP_FAIRY)
                 gMPlay_PokemonCry = SetPokemonCryTone(v0 ? &gCryTable2[CRY_EGG_GROUP_FAIRY] : &gCryTable[CRY_EGG_GROUP_FAIRY]);
-            else if(gBaseStats[species].eggGroup2 == EGG_GROUP_DITTO)
-                gMPlay_PokemonCry = SetPokemonCryTone(v0 ? &gCryTable2[CRY_EGG_GROUP_DITTO] : &gCryTable[CRY_EGG_GROUP_DITTO]);
+            else if(gBaseStats[species].eggGroup2 == EGG_GROUP_NYANKAT)
+                gMPlay_PokemonCry = SetPokemonCryTone(v0 ? &gCryTable2[CRY_EGG_GROUP_NYANKAT] : &gCryTable[CRY_EGG_GROUP_NYANKAT]);
             else if(gBaseStats[species].eggGroup2 == EGG_GROUP_GRASS)
                 gMPlay_PokemonCry = SetPokemonCryTone(v0 ? &gCryTable2[CRY_EGG_GROUP_GRASS] : &gCryTable[CRY_EGG_GROUP_GRASS]);
             else

@@ -1326,26 +1326,26 @@ BattleFrontier_BattleTowerMultiPartnerRoom_Text_NinjaBoyReject:: @ 82475D5
 	.string "You'll regret not having my tough\n"
 	.string "Pokémon on your side!$"
 
-BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyIntro:: @ 824760D
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_GoofshrumolLadyIntro:: @ 824760D
 	.string "Hello!\n"
-	.string "I'm Parasol Lady {STR_VAR_1}!$"
+	.string "I'm Goofshrumol Lady {STR_VAR_1}!$"
 
-BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyMon1:: @ 8247629
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_GoofshrumolLadyMon1:: @ 8247629
 	.string "Escorting me now are my {STR_VAR_2}\n"
 	.string "that uses {STR_VAR_1} and$"
 
-BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyMon2Ask:: @ 8247655
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_GoofshrumolLadyMon2Ask:: @ 8247655
 	.string "one {STR_VAR_2} that uses\n"
 	.string "{STR_VAR_1}.\p"
 	.string "Aren't they nice?\n"
 	.string "Care to join us in a tag team?$"
 
-BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyAccept:: @ 824769B
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_GoofshrumolLadyAccept:: @ 824769B
 	.string "Thanks a bunch!\p"
 	.string "I'll go register at the counter.\n"
 	.string "Let's not disappoint each other!$"
 
-BattleFrontier_BattleTowerMultiPartnerRoom_Text_ParasolLadyReject:: @ 82476ED
+BattleFrontier_BattleTowerMultiPartnerRoom_Text_GoofshrumolLadyReject:: @ 82476ED
 	.string "My Pokémon are tremendously strong.\n"
 	.string "How disappointing…$"
 

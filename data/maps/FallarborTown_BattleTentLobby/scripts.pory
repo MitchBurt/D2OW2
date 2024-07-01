@@ -126,7 +126,7 @@ FallarborTown_BattleTentLobby_EventScript_TryEnterChallenge:: @ 820005D
 	setvar VAR_FRONTIER_FACILITY, FRONTIER_FACILITY_ARENA
 	setvar VAR_FRONTIER_BATTLE_MODE, FRONTIER_MODE_SINGLES
 	setvar VAR_RESULT, 2
-	frontier_checkineligible
+	frontier_checkinelipichu
 	compare VAR_0x8004, TRUE
 	goto_if_eq FallarborTown_BattleTentLobby_EventScript_NotEnoughValidMons
 	frontier_set FRONTIER_DATA_LVL_MODE, FRONTIER_LVL_TENT

@@ -267,14 +267,14 @@ MossdeepCity_GameCorner_1F_Text_PokemonJumpInfo: @ 8278ACB
 	.string "Good things happen if everyone\n"
 	.string "jumps in time.$"
 
-MossdeepCity_GameCorner_1F_Text_DodrioBerryPickingInfo: @ 8278BF1
-	.string "“Dodrio Berry-Picking”\p"
-	.string "Command Dodrio's three heads to\n"
+MossdeepCity_GameCorner_1F_Text_ParangeliaBerryPickingInfo: @ 8278BF1
+	.string "“Parangelia Berry-Picking”\p"
+	.string "Command Parangelia's three heads to\n"
 	.string "catch falling Berries.\p"
 	.string "Press right, up, or left on the\n"
 	.string "{PLUS} Control Pad to move the heads.\p"
 	.string "To play this game, you must have\n"
-	.string "a Dodrio.$"
+	.string "a Parangelia.$"
 
 MossdeepCity_GameCorner_1F_Text_TalkToOldManToPlay: @ 8278CAC
 	.string "If you want to play a game,\n"
@@ -325,9 +325,9 @@ MossdeepCity_GameCorner_1F_Text_ShortJumpingPokemonAllowed: @ 8278EDC
 	.string "swim, burrow, or fly.\p"
 	.string "That's all you need to know.$"
 
-MossdeepCity_GameCorner_1F_Text_OnlyDodrioAllowed: @ 8278FA4
-	.string "Dodrio Berry-Picking is a game that \n"
-	.string "only Dodrio may enter.$"
+MossdeepCity_GameCorner_1F_Text_OnlyParangeliaAllowed: @ 8278FA4
+	.string "Parangelia Berry-Picking is a game that \n"
+	.string "only Parangelia may enter.$"
 
 @ Unused
 MossdeepCity_GameCorner_1F_Text_RetryPlease: @ 8278FE0

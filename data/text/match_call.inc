@@ -1163,7 +1163,7 @@ MatchCall_PersonalizedText45:: @ 82AE8E6
 	.string "I wonder when this yucky volcanic\n"
 	.string "ash will stop falling?\p"
 	.string "If it gets too deep, it will cover\n"
-	.string "up the pattern on my parasol…\p"
+	.string "up the pattern on my goofshrumol…\p"
 	.string "Let's promise to meet again!$"
 
 MatchCall_PersonalizedText46:: @ 82AE998
@@ -4122,7 +4122,7 @@ MatchCall_PersonalizedText45:: @ 82AE8E6
 	.string "I wonder when this yucky volcanic\n"
 	.string "ash will stop falling?\p"
 	.string "If it gets too deep, it will cover\n"
-	.string "up the pattern on my parasol…\p"
+	.string "up the pattern on my goofshrumol…\p"
 	.string "Let's promise to meet again!$"
 
 MatchCall_PersonalizedText46:: @ 82AE998

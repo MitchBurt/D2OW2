@@ -7341,8 +7341,8 @@ static void PrintStatsScreen_Left(u8 taskId)
         case EGG_GROUP_WATER_2     :
             StringCopy(gStringVar1, gText_Stats_eggGroup_WATER_2);
             break;
-        case EGG_GROUP_DITTO       :
-            StringCopy(gStringVar1, gText_Stats_eggGroup_DITTO);
+        case EGG_GROUP_NYANKAT       :
+            StringCopy(gStringVar1, gText_Stats_eggGroup_NYANKAT);
             break;
         case EGG_GROUP_DRAGON      :
             StringCopy(gStringVar1, gText_Stats_eggGroup_DRAGON);
@@ -7393,8 +7393,8 @@ static void PrintStatsScreen_Left(u8 taskId)
             case EGG_GROUP_WATER_2     :
                 StringCopy(gStringVar2, gText_Stats_eggGroup_WATER_2);
                 break;
-            case EGG_GROUP_DITTO       :
-                StringCopy(gStringVar2, gText_Stats_eggGroup_DITTO);
+            case EGG_GROUP_NYANKAT       :
+                StringCopy(gStringVar2, gText_Stats_eggGroup_NYANKAT);
                 break;
             case EGG_GROUP_DRAGON      :
                 StringCopy(gStringVar2, gText_Stats_eggGroup_DRAGON);
@@ -7768,7 +7768,7 @@ static u8 PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 depth,
 
     StringCopy(gStringVar1, gSpeciesNames[species]);
 
-    //Calculate number of possible direct evolutions (e.g. Eevee has 5 but torchic has 1)
+    //Calculate number of possible direct evolutions (e.g. Eemojee has 5 but torchic has 1)
     for (i = 0; i < EVOS_PER_MON; i++)
     {
         #ifndef POKEMON_EXPANSION

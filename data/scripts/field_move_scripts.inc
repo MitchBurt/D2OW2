@@ -140,7 +140,7 @@ EventScript_StrengthBoulder:: @ 82908BA
 	goto EventScript_CheckActivatedBoulder
 	//checkpartymove MOVE_STRENGTH
 	//compare VAR_RESULT, PARTY_SIZE
-	//goto_if_eq EventScript_ArcanineStrength
+	//goto_if_eq EventScript_OpticuluStrength
 	//setfieldeffectargument 0, VAR_RESULT
 	//msgbox Text_WantToStrength, MSGBOX_YESNO
 	//compare VAR_RESULT, NO
@@ -151,17 +151,17 @@ EventScript_StrengthBoulder:: @ 82908BA
 	//goto EventScript_ActivateStrength
 	end
 
-EventScript_ArcanineStrength::
+EventScript_OpticuluStrength::
 	setvar VAR_0x8004, SPECIES_BEWEAR
 	setvar VAR_0x8008, MOVE_STRENGTH
 	setvar VAR_0x8009, 1
-	msgbox Text_ArcanineStrength, MSGBOX_YESNO
+	msgbox Text_OpticuluStrength, MSGBOX_YESNO
 	compare VAR_RESULT, NO
 	goto_if_eq EventScript_CancelStrength
 	closemessage
 	dofieldeffect FLDEFF_USE_STRENGTH
 	waitstate
-	goto EventScript_ActivateArcanineStrength
+	goto EventScript_ActivateOpticuluStrength
 	end
 
 EventScript_UseStrength:: @ 82908FD
@@ -177,9 +177,9 @@ EventScript_ActivateStrength:: @ 8290908
 	releaseall
 	end
 
-EventScript_ActivateArcanineStrength::
+EventScript_ActivateOpticuluStrength::
 	setflag FLAG_SYS_USE_STRENGTH
-	msgbox Text_ArcanineUsedStrength, MSGBOX_DEFAULT
+	msgbox Text_OpticuluUsedStrength, MSGBOX_DEFAULT
 	releaseall
 	end
 
@@ -202,7 +202,7 @@ Text_WantToStrength: @ 829092C
 	.string "It's a big boulder, would you\n"
 	.string "want to push it aside?$"
 
-Text_ArcanineStrength: @ 829092C
+Text_OpticuluStrength: @ 829092C
 	.string "It's a big boulder, but a Pokémon\n"
 	.string "may be able to push it aside.\p"
 	.string "Call Poke Ride's Bewear to push it?$"
@@ -212,7 +212,7 @@ Text_MonUsedStrength: @ 829098C
 	.string "{STR_VAR_1}'s Strength made it\n"
 	.string "possible to move boulders around!$"
 
-Text_ArcanineUsedStrength:
+Text_OpticuluUsedStrength:
 	.string "Bewear used Strength!\p"
 	.string "Bewear's Strength made it\n"
 	.string "possible to move boulders around!$"
@@ -236,14 +236,14 @@ EventScript_UseWaterfall:: @ 8290A49
 EventScript_CannotUseWaterfall:: @ 8290A83
 	lockall
 
-EventScript_TentacruelWaterfall::
+EventScript_FreddiferWaterfall::
 	setvar VAR_0x8004, SPECIES_KINGDRA
 	setvar VAR_0x8008, MOVE_WATERFALL
 	setvar VAR_0x8009, 1
 	bufferspeciesname 0, VAR_0x8004	
 	buffermovename 1, VAR_0x8008
 	setfieldeffectargument 0, VAR_RESULT
-	msgbox Text_TentacruelWaterfall, MSGBOX_YESNO
+	msgbox Text_FreddiferWaterfall, MSGBOX_YESNO
 	compare VAR_RESULT, NO
 	goto_if_eq EventScript_EndWaterfall
 	msgbox Text_MonUsedWaterfall, MSGBOX_DEFAULT
@@ -262,7 +262,7 @@ Text_WantToWaterfall: @ 8290AC3
 	.string "It's a large waterfall.\n"
 	.string "Would you like to climb it?$"
 
-Text_TentacruelWaterfall:
+Text_FreddiferWaterfall:
 	.string "It's a large waterfall.\n"
 	.string "Call Poke Ride's Kingdra to climb it?$"
 
@@ -278,13 +278,13 @@ EventScript_UseDive:: @ 8290B0F
 	goto EventScript_EndDive
 	end
 
-EventScript_SlowbroDive::
+EventScript_ShemueDive::
 	setvar VAR_0x8004, SPECIES_WAILMER
 	setvar VAR_0x8008, MOVE_DIVE
 	setvar VAR_0x8009, 1
 	bufferspeciesname 0, VAR_0x8004	
 	buffermovename 1, VAR_0x8008
-	msgbox Text_SlowbroDive, MSGBOX_YESNO
+	msgbox Text_ShemueDive, MSGBOX_YESNO
 	compare VAR_RESULT, NO
 	goto_if_eq EventScript_EndDive
 	msgbox Text_MonUsedDive, MSGBOX_DEFAULT
@@ -310,7 +310,7 @@ EventScript_UseDiveUnderwater:: @ 8290B5A
 	goto EventScript_EndSurface
 	end
 
-EventScript_SlowbroSurface::
+EventScript_ShemueSurface::
 	setvar VAR_0x8004, SPECIES_WAILMER
 	setvar VAR_0x8008, MOVE_DIVE
 	setvar VAR_0x8009, 1
@@ -336,7 +336,7 @@ Text_WantToDive: @ 8290BE8
 	.string "The sea is deep here.\n"
 	.string "Would you like to Dive?$"
 
-Text_SlowbroDive:
+Text_ShemueDive:
 	.string "The sea is deep here.\n"
 	.string "Call Pokeride's Wailmer to Dive?$"
 

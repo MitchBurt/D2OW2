@@ -4,10 +4,10 @@ MagmaHideout_3F_2R_MapScripts:: @ 823A3D4
 	.byte 0
 	
 MagmaHideout_3F_2R_OnLoad::
-	call_if_unset FLAG_DEFEATED_RAYQUAZA, MagmaHideout_3F_2R_EventScript_OpenMoltresCave
+	call_if_unset FLAG_DEFEATED_RAYQUAZA, MagmaHideout_3F_2R_EventScript_OpenRemielCave
 	end
 	
-MagmaHideout_3F_2R_EventScript_OpenMoltresCave:: @ 81EC3AE
+MagmaHideout_3F_2R_EventScript_OpenRemielCave:: @ 81EC3AE
 	setmetatile 13, 1, METATILE_Lavaridge_RockWall, 1
 	setmetatile 13, 0, METATILE_Lavaridge_RockWall, 1
 	return

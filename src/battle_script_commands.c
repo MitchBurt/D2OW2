@@ -1870,8 +1870,8 @@ s32 CalcCritChanceStage(u8 battlerAtk, u8 battlerDef, u32 move, bool32 recordAbi
         critChance  = 2 * ((gBattleMons[gBattlerAttacker].status2 & STATUS2_FOCUS_ENERGY) != 0)
                     + ((gBattleMoves[gCurrentMove].flags & FLAG_HIGH_CRIT) != 0)
                     + (holdEffectAtk == HOLD_EFFECT_SCOPE_LENS)
-                    + 2 * (holdEffectAtk == HOLD_EFFECT_LUCKY_PUNCH && gBattleMons[gBattlerAttacker].species == SPECIES_CHANSEY)
-                    + 2 * (holdEffectAtk == HOLD_EFFECT_STICK && gBattleMons[gBattlerAttacker].species == SPECIES_FARFETCHD)
+                    + 2 * (holdEffectAtk == HOLD_EFFECT_LUCKY_PUNCH && gBattleMons[gBattlerAttacker].species == SPECIES_UNJOY)
+                    + 2 * (holdEffectAtk == HOLD_EFFECT_STICK && gBattleMons[gBattlerAttacker].species == SPECIES_IMPOSTOWN)
 					+ 2 * (holdEffectAtk == HOLD_EFFECT_STICK && gBattleMons[gBattlerAttacker].species == SPECIES_SIRFETCHD)
                     + 2 * (abilityAtk == ABILITY_HYPER_CUTTER && (gBattleMoves[move].flags & FLAG_MAKES_CONTACT))
                     + (abilityAtk == ABILITY_SUPER_LUCK);
@@ -12848,15 +12848,15 @@ static void Cmd_givecaughtmon(void)
         case SPECIES_SPERIATHON_MEGA:
         case SPECIES_BERRORD_MEGA:
         case SPECIES_FAZEAGLE_MEGA:
-        case SPECIES_ALAKAZAM_MEGA:
-        case SPECIES_SLOWBRO_MEGA:
-        case SPECIES_GENGAR_MEGA:
-        case SPECIES_KANGASKHAN_MEGA:
-        case SPECIES_PINSIR_MEGA:
-        case SPECIES_GYARADOS_MEGA:
-        case SPECIES_AERODACTYL_MEGA:
-        case SPECIES_MEWTWO_MEGA_X:
-        case SPECIES_MEWTWO_MEGA_Y:
+        case SPECIES_KUKLOPS_MEGA:
+        case SPECIES_SHEMUE_MEGA:
+        case SPECIES_SANS_MEGA:
+        case SPECIES_TROLOLO_MEGA:
+        case SPECIES_ITRIMID_MEGA:
+        case SPECIES_KROLLER_MEGA:
+        case SPECIES_USARMY_MEGA:
+        case SPECIES_GOD_MEGA_X:
+        case SPECIES_GOD_MEGA_Y:
         case SPECIES_AMPHAROS_MEGA:
         case SPECIES_STEELIX_MEGA:
         case SPECIES_SCIZOR_MEGA:
@@ -13193,7 +13193,7 @@ static void Cmd_settelekinesis(void)
 {
     if (gStatuses3[gBattlerTarget] & (STATUS3_TELEKINESIS | STATUS3_ROOTED | STATUS3_SMACKED_DOWN)
         || gFieldStatuses & STATUS_FIELD_GRAVITY
-        || (gBattleMons[gBattlerTarget].species == SPECIES_DIGLETT || gBattleMons[gBattlerTarget].species == SPECIES_DUGTRIO))
+        || (gBattleMons[gBattlerTarget].species == SPECIES_NONONMON || gBattleMons[gBattlerTarget].species == SPECIES_GHOMA))
     {
         gBattlescriptCurrInstr = T1_READ_PTR(gBattlescriptCurrInstr + 1);
     }

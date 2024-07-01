@@ -235,10 +235,10 @@ const u8 gText_MatchCallBattleGirl_Cyndy_Pokemon[] = _("Los veloces de tipo Luch
 const u8 gText_MatchCallBattleGirl_Cyndy_Intro1[] = _("¡Si mis Pokémon pierden,");
 const u8 gText_MatchCallBattleGirl_Cyndy_Intro2[] = _("yo sigo luchando!");
 
-const u8 gText_MatchCallParasolLady_Madeline_Strategy[] = _("¡Animar a mis Pokémon!");
-const u8 gText_MatchCallParasolLady_Madeline_Pokemon[] = _("Entrenaria cualquier tipo.");
-const u8 gText_MatchCallParasolLady_Madeline_Intro1[] = _("Los rayos UVA dañan la");
-const u8 gText_MatchCallParasolLady_Madeline_Intro2[] = _("piel. ¡Mejor protegerse!");
+const u8 gText_MatchCallGoofshrumolLady_Madeline_Strategy[] = _("¡Animar a mis Pokémon!");
+const u8 gText_MatchCallGoofshrumolLady_Madeline_Pokemon[] = _("Entrenaria cualquier tipo.");
+const u8 gText_MatchCallGoofshrumolLady_Madeline_Intro1[] = _("Los rayos UVA dañan la");
+const u8 gText_MatchCallGoofshrumolLady_Madeline_Intro2[] = _("piel. ¡Mejor protegerse!");
 
 const u8 gText_MatchCallSwimmer_Jenny_Strategy[] = _("¡No tener piedad!");
 const u8 gText_MatchCallSwimmer_Jenny_Pokemon[] = _("Los dulces de tipo Agua.");
@@ -627,10 +627,10 @@ const u8 gText_MatchCallBattleGirl_Cyndy_Pokemon[] = _("Speedy Fighting type.");
 const u8 gText_MatchCallBattleGirl_Cyndy_Intro1[] = _("If my Pokémon lose,");
 const u8 gText_MatchCallBattleGirl_Cyndy_Intro2[] = _("I'll carry on the fight!");
 
-const u8 gText_MatchCallParasolLady_Madeline_Strategy[] = _("Go, go, my Pokémon!");
-const u8 gText_MatchCallParasolLady_Madeline_Pokemon[] = _("I'll raise anything.");
-const u8 gText_MatchCallParasolLady_Madeline_Intro1[] = _("UV rays are your skin's");
-const u8 gText_MatchCallParasolLady_Madeline_Intro2[] = _("enemy. Get protected.");
+const u8 gText_MatchCallGoofshrumolLady_Madeline_Strategy[] = _("Go, go, my Pokémon!");
+const u8 gText_MatchCallGoofshrumolLady_Madeline_Pokemon[] = _("I'll raise anything.");
+const u8 gText_MatchCallGoofshrumolLady_Madeline_Intro1[] = _("UV rays are your skin's");
+const u8 gText_MatchCallGoofshrumolLady_Madeline_Intro2[] = _("enemy. Get protected.");
 
 const u8 gText_MatchCallSwimmer_Jenny_Strategy[] = _("No mercy!");
 const u8 gText_MatchCallSwimmer_Jenny_Pokemon[] = _("Cute Water Pokémon.");
@@ -833,7 +833,7 @@ const u8 *const gMatchCallFlavorTexts[REMATCH_TABLE_ENTRIES][CHECK_PAGE_ENTRY_CO
     [REMATCH_ROBERT] = MCFLAVOR(BirdKeeper_Robert),
     [REMATCH_LAO] = MCFLAVOR(NinjaBoy_Lao),
     [REMATCH_CYNDY] = MCFLAVOR(BattleGirl_Cyndy),
-    [REMATCH_MADELINE] = MCFLAVOR(ParasolLady_Madeline),
+    [REMATCH_MADELINE] = MCFLAVOR(GoofshrumolLady_Madeline),
     [REMATCH_JENNY] = MCFLAVOR(Swimmer_Jenny),
     [REMATCH_DIANA] = MCFLAVOR(Picnicker_Diana),
     [REMATCH_AMY_AND_LIV] = MCFLAVOR(Twins_AmyAndLiv),

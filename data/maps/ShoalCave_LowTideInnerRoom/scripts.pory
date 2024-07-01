@@ -17,11 +17,11 @@ ShoalCave_LowTideInnerRoom_EventScript_SetLowTide:: @ 8236F12
 	end
 
 ShoalCave_LowTideInnerRoom_OnLoad: @ 8236F16
-	goto_if_set FLAG_SYS_GAME_CLEAR, ShoalCave_LowTideInnerRoom_EventScript_OpenArticunoCave
-	//call ShoalCave_LowTideInnerRoom_EventScript_OpenArticunoCave
+	goto_if_set FLAG_SYS_GAME_CLEAR, ShoalCave_LowTideInnerRoom_EventScript_OpenLegendCave
+	//call ShoalCave_LowTideInnerRoom_EventScript_OpenLegendCave
 	end
 	
-ShoalCave_LowTideInnerRoom_EventScript_OpenArticunoCave:
+ShoalCave_LowTideInnerRoom_EventScript_OpenLegendCave:
 	setmetatile 17, 8, METATILE_SeafoamIslands_Normal_Tile, 0
 	setmetatile 17, 7, METATILE_SeafoamIslands_Escalator_Tile, 0
 	//setmetatile 21, 9, METATILE_SeafoamIslands_Ice_Rock, 0
