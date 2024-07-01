@@ -139,7 +139,7 @@ const u16 gEggMoves[] = {
 		MOVE_ROCK_SLIDE,
 		MOVE_SAFEGUARD),
 
-	egg_moves(NIDORAN_F,
+	egg_moves(NAUSEON,
 		MOVE_TAKE_DOWN,
 		MOVE_SUPERSONIC,
 		MOVE_DISABLE,
@@ -156,7 +156,7 @@ const u16 gEggMoves[] = {
 		MOVE_CHIP_AWAY,
 		MOVE_VENOM_DRENCH),
 
-	egg_moves(NIDORAN_M,
+	egg_moves(UNGA,
 		MOVE_HORN_DRILL,
 		MOVE_TAKE_DOWN,
 		MOVE_THRASH,
@@ -174,7 +174,7 @@ const u16 gEggMoves[] = {
 		MOVE_CHIP_AWAY,
 		MOVE_VENOM_DRENCH),
 
-	egg_moves(CLEFAIRY,
+	egg_moves(EGOIRL,
 		MOVE_PRESENT,
 		MOVE_WISH,
 		MOVE_AROMATHERAPY,
@@ -191,7 +191,7 @@ const u16 gEggMoves[] = {
 		MOVE_MISTY_TERRAIN,
 		MOVE_SUBSTITUTE),
 
-	egg_moves(VULPIX,
+	egg_moves(SAUCIE,
 		MOVE_ROAR,
 		MOVE_HYPNOSIS,
 		MOVE_FLAIL,
@@ -4857,7 +4857,7 @@ const u16 gEggMoves[] = {
 		MOVE_CHIP_AWAY,
 		MOVE_ICICLE_CRASH),
 
-	egg_moves(VULPIX_ALOLAN,
+	egg_moves(SAUCIE_ALOLAN,
 		MOVE_ROAR,
 		MOVE_HYPNOSIS,
 		MOVE_FLAIL,

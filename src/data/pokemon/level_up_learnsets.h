@@ -546,7 +546,7 @@ static const struct LevelUpMove sJafeetLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sSandslashLevelUpLearnset[] = {
+static const struct LevelUpMove sToyutaLevelUpLearnset[] = {
 	LEVEL_UP_MOVE(1, MOVE_GEAR_GRIND),
 	LEVEL_UP_MOVE(12, MOVE_BIND),
 	LEVEL_UP_MOVE(15, MOVE_AUTOTOMIZE),
@@ -577,7 +577,7 @@ static const struct LevelUpMove sNidoranFLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sNidorinaLevelUpLearnset[] = {
+static const struct LevelUpMove sHazmateLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 1, MOVE_QUICK_GUARD),
 	LEVEL_UP_MOVE( 1, MOVE_WIDE_GUARD),
 	LEVEL_UP_MOVE( 1, MOVE_SMOG),
@@ -598,7 +598,7 @@ static const struct LevelUpMove sNidorinaLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sNidoqueenLevelUpLearnset[] = {
+static const struct LevelUpMove sEbolableLevelUpLearnset[] = {
 	LEVEL_UP_MOVE(1, MOVE_SMOG),
 	LEVEL_UP_MOVE(1, MOVE_WRING_OUT),
 	LEVEL_UP_MOVE(1, MOVE_POISON_GAS),
@@ -642,7 +642,7 @@ static const struct LevelUpMove sNidoranMLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sNidorinoLevelUpLearnset[] = {
+static const struct LevelUpMove sBungaLevelUpLearnset[] = {
 	LEVEL_UP_MOVE(1, MOVE_GROWL),
 	LEVEL_UP_MOVE(1, MOVE_TAIL_WHIP),
 	LEVEL_UP_MOVE(1, MOVE_BONE_CLUB),
@@ -664,7 +664,7 @@ static const struct LevelUpMove sNidorinoLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sNidokingLevelUpLearnset[] = {
+static const struct LevelUpMove sOogaboogaLevelUpLearnset[] = {
 	LEVEL_UP_MOVE(1, MOVE_BONE_CLUB),
 	LEVEL_UP_MOVE(1, MOVE_HEADBUTT),
 	LEVEL_UP_MOVE(7, MOVE_BONE_CLUB),
@@ -682,7 +682,7 @@ static const struct LevelUpMove sNidokingLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sClefairyLevelUpLearnset[] = {
+static const struct LevelUpMove sEgoirlLevelUpLearnset[] = {
 	LEVEL_UP_MOVE(1, MOVE_FAKE_TEARS),
 	LEVEL_UP_MOVE(1, MOVE_DISABLE),
 	LEVEL_UP_MOVE( 1, MOVE_POUND),
@@ -704,7 +704,7 @@ static const struct LevelUpMove sClefairyLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sClefableLevelUpLearnset[] = {
+static const struct LevelUpMove sGothotLevelUpLearnset[] = {
 	LEVEL_UP_MOVE(1, MOVE_FAKE_TEARS),
 	LEVEL_UP_MOVE(1, MOVE_DISABLE),
 	LEVEL_UP_MOVE(1, MOVE_POUND),
@@ -725,7 +725,7 @@ static const struct LevelUpMove sClefableLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sVulpixLevelUpLearnset[] = {
+static const struct LevelUpMove sSaucieLevelUpLearnset[] = {
 	LEVEL_UP_MOVE(1, MOVE_POUND),
 	LEVEL_UP_MOVE(1, MOVE_SNAP_TRAP),
 	LEVEL_UP_MOVE(4, MOVE_HARDEN),
@@ -743,7 +743,7 @@ static const struct LevelUpMove sVulpixLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sNinetalesLevelUpLearnset[] = {
+static const struct LevelUpMove sSawsbawsLevelUpLearnset[] = {
 	LEVEL_UP_MOVE(0, MOVE_VENOM_DRENCH),
 	LEVEL_UP_MOVE(1, MOVE_VENOM_DRENCH),
 	LEVEL_UP_MOVE(1, MOVE_POUND),
@@ -20247,7 +20247,7 @@ static const struct LevelUpMove sJafeetAlolanLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sSandslashAlolanLevelUpLearnset[] = {
+static const struct LevelUpMove sToyutaAlolanLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_ICICLE_SPEAR),
 	LEVEL_UP_MOVE( 1, MOVE_SPIKY_SHIELD),
     LEVEL_UP_MOVE( 1, MOVE_ICICLE_SPEAR),
@@ -20277,7 +20277,7 @@ static const struct LevelUpMove sSandslashAlolanLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sVulpixAlolanLevelUpLearnset[] = {
+static const struct LevelUpMove sSaucieAlolanLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_POWDER_SNOW),
     LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
@@ -20307,7 +20307,7 @@ static const struct LevelUpMove sVulpixAlolanLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sNinetalesAlolanLevelUpLearnset[] = {
+static const struct LevelUpMove sSawsbawsAlolanLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_DAZZLING_GLEAM),
     LEVEL_UP_MOVE( 1, MOVE_DAZZLING_GLEAM),
     LEVEL_UP_MOVE( 1, MOVE_NASTY_PLOT),

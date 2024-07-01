@@ -28,17 +28,17 @@ gCryTable:: @ 869DCF4
 	cry Cry_Skippa  @ 869DE14
 	cry Cry_Disheats  @ 869DE20
 	cry Cry_Jafeet  @ 869DE2C
-	cry Cry_Sandslash  @ 869DE38
+	cry Cry_Toyuta  @ 869DE38
 	cry Cry_NidoranF  @ 869DE44
-	cry Cry_Nidorina  @ 869DE50
-	cry Cry_Nidoqueen  @ 869DE5C
+	cry Cry_Hazmate  @ 869DE50
+	cry Cry_Ebolable  @ 869DE5C
 	cry Cry_NidoranM  @ 869DE68
-	cry Cry_Nidorino  @ 869DE74
-	cry Cry_Nidoking  @ 869DE80
-	cry Cry_Clefairy  @ 869DE8C
-	cry Cry_Clefable  @ 869DE98
-	cry Cry_Vulpix  @ 869DEA4
-	cry Cry_Ninetales  @ 869DEB0
+	cry Cry_Bunga  @ 869DE74
+	cry Cry_Oogabooga  @ 869DE80
+	cry Cry_Egoirl  @ 869DE8C
+	cry Cry_Gothot  @ 869DE98
+	cry Cry_Saucie  @ 869DEA4
+	cry Cry_Sawsbaws  @ 869DEB0
 	cry Cry_Jigglypuff  @ 869DEBC
 	cry Cry_Wigglytuff  @ 869DEC8
 	cry Cry_Zubat  @ 869DED4
@@ -962,9 +962,9 @@ gCryTable:: @ 869DCF4
 	cry Cry_Gawdamster
 	cry Cry_Disheats
 	cry Cry_Jafeet
-	cry Cry_Sandslash
-	cry Cry_Vulpix
-	cry Cry_Ninetales
+	cry Cry_Toyuta
+	cry Cry_Saucie
+	cry Cry_Sawsbaws
 	cry Cry_Diglett
 	cry Cry_Dugtrio
 	cry Cry_Meowth
@@ -1308,17 +1308,17 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Skippa  @ 869F044
 	cry2 Cry_Disheats  @ 869F050
 	cry2 Cry_Jafeet  @ 869F05C
-	cry2 Cry_Sandslash  @ 869F068
+	cry2 Cry_Toyuta  @ 869F068
 	cry2 Cry_NidoranF  @ 869F074
-	cry2 Cry_Nidorina  @ 869F080
-	cry2 Cry_Nidoqueen  @ 869F08C
+	cry2 Cry_Hazmate  @ 869F080
+	cry2 Cry_Ebolable  @ 869F08C
 	cry2 Cry_NidoranM  @ 869F098
-	cry2 Cry_Nidorino  @ 869F0A4
-	cry2 Cry_Nidoking  @ 869F0B0
-	cry2 Cry_Clefairy  @ 869F0BC
-	cry2 Cry_Clefable  @ 869F0C8
-	cry2 Cry_Vulpix  @ 869F0D4
-	cry2 Cry_Ninetales  @ 869F0E0
+	cry2 Cry_Bunga  @ 869F0A4
+	cry2 Cry_Oogabooga  @ 869F0B0
+	cry2 Cry_Egoirl  @ 869F0BC
+	cry2 Cry_Gothot  @ 869F0C8
+	cry2 Cry_Saucie  @ 869F0D4
+	cry2 Cry_Sawsbaws  @ 869F0E0
 	cry2 Cry_Jigglypuff  @ 869F0EC
 	cry2 Cry_Wigglytuff  @ 869F0F8
 	cry2 Cry_Zubat  @ 869F104
@@ -2240,9 +2240,9 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Gawdamster
 	cry2 Cry_Disheats
 	cry2 Cry_Jafeet
-	cry2 Cry_Sandslash
-	cry2 Cry_Vulpix
-	cry2 Cry_Ninetales
+	cry2 Cry_Toyuta
+	cry2 Cry_Saucie
+	cry2 Cry_Sawsbaws
 	cry2 Cry_Diglett
 	cry2 Cry_Dugtrio
 	cry2 Cry_Meowth

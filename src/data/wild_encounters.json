@@ -1603,7 +1603,7 @@
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_NIDORAN_F"
+                "species": "SPECIES_NAUSEON"
               },
               {
                 "min_level": 16,
@@ -1668,7 +1668,7 @@
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_NIDORAN_M"
+                "species": "SPECIES_UNGA"
               },
               {
                 "min_level": 16,
@@ -5551,7 +5551,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_VULPIX"
+                "species": "SPECIES_SAUCIE"
               },
               {
                 "min_level": 27,
@@ -5620,7 +5620,7 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_VULPIX"
+                "species": "SPECIES_SAUCIE"
               },
               {
                 "min_level": 29,
@@ -8112,12 +8112,12 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_NIDORAN_M"
+                "species": "SPECIES_UNGA"
               },
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_NIDORAN_F"
+                "species": "SPECIES_NAUSEON"
               },
               {
                 "min_level": 25,
@@ -11154,7 +11154,7 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_VULPIX"
+                "species": "SPECIES_SAUCIE"
               },
               {
                 "min_level": 28,
@@ -11223,7 +11223,7 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_VULPIX"
+                "species": "SPECIES_SAUCIE"
               },
               {
                 "min_level": 28,
@@ -11292,7 +11292,7 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_VULPIX"
+                "species": "SPECIES_SAUCIE"
               },
               {
                 "min_level": 28,
@@ -11361,7 +11361,7 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_VULPIX"
+                "species": "SPECIES_SAUCIE"
               },
               {
                 "min_level": 28,
@@ -11430,7 +11430,7 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_VULPIX"
+                "species": "SPECIES_SAUCIE"
               },
               {
                 "min_level": 28,
@@ -11568,7 +11568,7 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_VULPIX"
+                "species": "SPECIES_SAUCIE"
               },
               {
                 "min_level": 28,
@@ -11637,7 +11637,7 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_VULPIX"
+                "species": "SPECIES_SAUCIE"
               },
               {
                 "min_level": 28,
@@ -12155,7 +12155,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_VULPIX"
+                "species": "SPECIES_SAUCIE"
               },
               {
                 "min_level": 23,
@@ -12507,7 +12507,7 @@
               {
                 "min_level": 23,
                 "max_level": 23,
-                "species": "SPECIES_VULPIX"
+                "species": "SPECIES_SAUCIE"
               },
               {
                 "min_level": 23,
@@ -13911,7 +13911,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_NIDORAN_M"
+                "species": "SPECIES_UNGA"
               },
               {
                 "min_level": 5,
@@ -13931,7 +13931,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_NIDORAN_M"
+                "species": "SPECIES_UNGA"
               },
               {
                 "min_level": 5,
@@ -13941,7 +13941,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_NIDORAN_M"
+                "species": "SPECIES_UNGA"
               },
               {
                 "min_level": 5,
@@ -13965,7 +13965,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_NIDORAN_F"
+                "species": "SPECIES_NAUSEON"
               },
               {
                 "min_level": 6,
@@ -14030,7 +14030,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_NIDORAN_M"
+                "species": "SPECIES_UNGA"
               },
               {
                 "min_level": 5,
@@ -14436,7 +14436,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_NIDORAN_M"
+                "species": "SPECIES_UNGA"
               },
               {
                 "min_level": 5,
@@ -14586,7 +14586,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_NIDORAN_F"
+                "species": "SPECIES_NAUSEON"
               },
               {
                 "min_level": 5,
@@ -17858,12 +17858,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_VULPIX_ALOLAN"
+                "species": "SPECIES_SAUCIE_ALOLAN"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_VULPIX_ALOLAN"
+                "species": "SPECIES_SAUCIE_ALOLAN"
               },
               {
                 "min_level": 5,
@@ -18111,7 +18111,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_VULPIX_ALOLAN"
+                "species": "SPECIES_SAUCIE_ALOLAN"
               },
               {
                 "min_level": 5,
@@ -18121,7 +18121,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_VULPIX_ALOLAN"
+                "species": "SPECIES_SAUCIE_ALOLAN"
               },
               {
                 "min_level": 5,

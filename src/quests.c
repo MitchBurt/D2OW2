@@ -2157,7 +2157,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_DRUDDIGON:
 				case SPECIES_KINGLER:
 				case SPECIES_LEAFEON:
-				case SPECIES_NIDOQUEEN:
+				case SPECIES_EBOLABLE:
 				case SPECIES_REGISTEEL:
 				case SPECIES_STANTLER:
 				case SPECIES_URSARING:

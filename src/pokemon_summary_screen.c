@@ -2377,7 +2377,7 @@ static void PrintMiddleLeftPart(void)
 	GetMonNickname(mon, gStringVar1);
 	
 	//Pokemon Gender
-	if (summary->species2 != SPECIES_NIDORAN_M && summary->species2 != SPECIES_NIDORAN_F)
+	if (summary->species2 != SPECIES_UNGA && summary->species2 != SPECIES_NAUSEON)
     {
         switch (GetMonGender(mon))
         {
@@ -3919,7 +3919,7 @@ static void PrintEggInfo(void)
 
 static void PrintGenderSymbol(struct Pokemon *mon, u16 species)
 {
-    if (species != SPECIES_NIDORAN_M && species != SPECIES_NIDORAN_F)
+    if (species != SPECIES_UNGA && species != SPECIES_NAUSEON)
     {
         switch (GetMonGender(mon))
         {

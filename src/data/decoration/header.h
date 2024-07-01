@@ -766,14 +766,14 @@ const struct Decoration gDecorations[] = {
         DecorDesc_MEOWTH_DOLL,
         DecorGfx_MEOWTH_DOLL
     }, {
-        DECOR_CLEFAIRY_DOLL,
-        _("Muñeco Clefairy"),
+        DECOR_EGOIRL_DOLL,
+        _("Muñeco Egoirl"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_DOLL,
         3000,
-        DecorDesc_CLEFAIRY_DOLL,
-        DecorGfx_CLEFAIRY_DOLL
+        DecorDesc_EGOIRL_DOLL,
+        DecorGfx_EGOIRL_DOLL
     }, {
         DECOR_DITTO_DOLL,
         _("Muñeco Ditto"),
@@ -1856,14 +1856,14 @@ const struct Decoration gDecorations[] = {
         DecorDesc_MEOWTH_DOLL,
         DecorGfx_MEOWTH_DOLL
     }, {
-        DECOR_CLEFAIRY_DOLL,
-        _("Clefairy Doll"),
+        DECOR_EGOIRL_DOLL,
+        _("Egoirl Doll"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_DOLL,
         3000,
-        DecorDesc_CLEFAIRY_DOLL,
-        DecorGfx_CLEFAIRY_DOLL
+        DecorDesc_EGOIRL_DOLL,
+        DecorGfx_EGOIRL_DOLL
     }, {
         DECOR_DITTO_DOLL,
         _("Ditto Doll"),

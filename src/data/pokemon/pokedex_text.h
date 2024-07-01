@@ -167,7 +167,7 @@ const u8 gJafeetPokedexText[] = _(
     "cualquier ataque. Como vive en el\n"
     "desierto, tiene una piel tosca y dura.");
 
-const u8 gSandslashPokedexText[] = _(
+const u8 gToyutaPokedexText[] = _(
     "Se enrosca para protegerse del enemigo\n"
     "y de los golpes de calor que hay durante\n"
     "el día, cuando aumenta la temperatura.");
@@ -178,13 +178,13 @@ const u8 gNidoranFPokedexText[] = _(
     "protección. Cuando se enfada, libera una\n"
     "horrible sustancia tóxica por el cuerno.");
 
-const u8 gNidorinaPokedexText[] = _(
+const u8 gHazmatePokedexText[] = _(
     "Cuando está en familia o con sus amigos,\n"
     "retrae las púas para no herir a nadie.\n"
     "Según parece, si se la separa de su grupo,\n"
     "se pone muy nerviosa.");
 
-const u8 gNidoqueenPokedexText[] = _(
+const u8 gEbolablePokedexText[] = _(
     "Está recubierta de escamas durísimas.\n"
     "Suele lanzar por los aires a sus rivales\n"
     "golpeándolos con violencia. Defiende\n"
@@ -196,40 +196,40 @@ const u8 gNidoranMPokedexText[] = _(
     "cualquier dirección. De este modo, es capaz\n"
     "de captar hasta el sonido más leve.");
 
-const u8 gNidorinoPokedexText[] = _(
+const u8 gBungaPokedexText[] = _(
     "Tiene un cuerno de dureza superior a la del\n"
     "diamante. Si siente una presencia hostil,\n"
     "se le erizan las púas del lomo y hace\n"
     "frente al enemigo con todas sus fuerzas.");
 
-const u8 gNidokingPokedexText[] = _(
-    "La gruesa cola de Nidoking resulta\n"
+const u8 gOogaboogaPokedexText[] = _(
+    "La gruesa cola de Oogabooga resulta\n"
     "destructora. Con agitarla una vez, puede\n"
     "tumbar hasta una torre de transmisión.\n"
     "Cuando se desboca, no hay quien lo pare.");
 
-const u8 gClefairyPokedexText[] = _(
+const u8 gEgoirlPokedexText[] = _(
     "Cuando hay luna llena, salen en grupo para\n"
-    "jugar. Al amanecer, los Clefairy, agotados,\n"
+    "jugar. Al amanecer, los Egoirl, agotados,\n"
     "regresan a sus refugios de montaña para\n"
     "dormir acurrucados unos contra otros.");
 
-const u8 gClefablePokedexText[] = _(
+const u8 gGothotPokedexText[] = _(
     "Usa las alas para dar saltitos y poder\n"
     "caminar por el agua, pero no llega a volar.\n"
     "Se sabe que le encanta pasear por los\n"
     "lagos en tranquilas noches de luna llena.");
 
-const u8 gVulpixPokedexText[] = _(
+const u8 gSauciePokedexText[] = _(
     "Puede controlar el fuego a su antojo\n"
     "y libera llamas por la boca. Tiene seis\n"
     "colas cuya temperatura sube de forma\n"
     "radical justo antes de evolucionar.");
 
-const u8 gNinetalesPokedexText[] = _(
+const u8 gSawsbawsPokedexText[] = _(
     "Dicen que cada una de sus nueve colas\n"
     "tiene poderes mágicos. Con el paso del\n"
-    "tiempo, el pelaje de Ninetales\n"
+    "tiempo, el pelaje de Sawsbaws\n"
     "adquiere un tono dorado.");
 
 const u8 gJigglypuffPokedexText[] = _(
@@ -5521,7 +5521,7 @@ const u8 gJafeetPokedexText[] = _(
     "turned tough and solid as a result of\n"
     "living in the desert.");
 
-const u8 gSandslashPokedexText[] = _(
+const u8 gToyutaPokedexText[] = _(
     "It curls up in a ball to protect itself from\n"
     "enemy attacks. It also curls up to prevent\n"
     "heatstroke during the daytime when\n"
@@ -5533,13 +5533,13 @@ const u8 gNidoranFPokedexText[] = _(
     "bodied Pokémon. When enraged, it releases\n"
     "a horrible toxin from its horn.");
 
-const u8 gNidorinaPokedexText[] = _(
+const u8 gHazmatePokedexText[] = _(
     "When it is with its friends or\n"
     "family, its barbs are tucked away to\n"
     "prevent injury. It appears to become\n"
     "nervous if separated from the others.");
 
-const u8 gNidoqueenPokedexText[] = _(
+const u8 gEbolablePokedexText[] = _(
     "It is adept at sending foes flying with\n"
     "harsh tackles using its tough, scaly body.\n"
     "This Pokémon is at its strongest when\n"
@@ -5551,40 +5551,40 @@ const u8 gNidoranMPokedexText[] = _(
     "Even the slightest sound does not escape\n"
     "this Pokémon's notice.");
 
-const u8 gNidorinoPokedexText[] = _(
+const u8 gBungaPokedexText[] = _(
     "Its horn is harder than a diamond.\n"
     "If it senses a hostile presence, all the\n"
     "barbs on its back bristle up at once, and it\n"
     "challenges the foe with all its might.");
 
-const u8 gNidokingPokedexText[] = _(
-    "A Nidoking's thick tail packs enormously\n"
+const u8 gOogaboogaPokedexText[] = _(
+    "A Oogabooga's thick tail packs enormously\n"
     "destructive power capable of toppling\n"
     "a metal transmission tower. Once it goes\n"
     "on a rampage, there is no stopping it.");
 
-const u8 gClefairyPokedexText[] = _(
+const u8 gEgoirlPokedexText[] = _(
     "On every night of a full moon, they come\n"
     "out to play. When dawn arrives, the tired\n"
-    "Clefairy go to sleep nestled up against\n"
+    "Egoirl go to sleep nestled up against\n"
     "each other in deep and quiet mountains.");
 
-const u8 gClefablePokedexText[] = _(
-    "A Clefable uses its wings to skip lightly \n"
+const u8 gGothotPokedexText[] = _(
+    "A Gothot uses its wings to skip lightly \n"
     "as if it were flying. Its bouncy step\n"
     "lets it even walk on water. On quiet,\n"
     "moonlit nights, it strolls on lakes.");
 
-const u8 gVulpixPokedexText[] = _(
+const u8 gSauciePokedexText[] = _(
     "It can freely control fire, making fiery\n"
     "orbs fly like will-o'-the-wisps. Just\n"
     "before evolution, its six tails grow hot \n"
     "as if on fire.");
 
-const u8 gNinetalesPokedexText[] = _(
+const u8 gSawsbawsPokedexText[] = _(
     "It has long been said that each of the\n"
     "nine tails embody an enchanted power.\n"
-    "A long-lived Ninetales will have fur that\n"
+    "A long-lived Sawsbaws will have fur that\n"
     "shines like gold.");
 
 const u8 gJigglypuffPokedexText[] = _(

@@ -373,9 +373,9 @@ const u8 DecorDesc_MEOWTH_DOLL[] = _(
         "Ponlo en una\n"
         "mesa o tapete.");
 
-const u8 DecorDesc_CLEFAIRY_DOLL[] = _(
+const u8 DecorDesc_EGOIRL_DOLL[] = _(
     "Muñeco de\n"
-        "Clefairy. Ponlo en\n"
+        "Egoirl. Ponlo en\n"
         "una mesa o tapete.");
 
 const u8 DecorDesc_DITTO_DOLL[] = _(
@@ -949,8 +949,8 @@ const u8 DecorDesc_MEOWTH_DOLL[] = _(
         "Place it on a mat\n"
         "or a desk.");
 
-const u8 DecorDesc_CLEFAIRY_DOLL[] = _(
-    "A Clefairy doll.\n"
+const u8 DecorDesc_EGOIRL_DOLL[] = _(
+    "A Egoirl doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 

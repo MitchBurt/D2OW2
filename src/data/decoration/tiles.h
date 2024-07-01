@@ -498,8 +498,8 @@ const u16 DecorGfx_MEOWTH_DOLL[] = {
     OBJ_EVENT_GFX_MEOWTH_DOLL
 };
 
-const u16 DecorGfx_CLEFAIRY_DOLL[] = {
-    OBJ_EVENT_GFX_CLEFAIRY_DOLL
+const u16 DecorGfx_EGOIRL_DOLL[] = {
+    OBJ_EVENT_GFX_EGOIRL_DOLL
 };
 
 const u16 DecorGfx_DITTO_DOLL[] = {

@@ -616,7 +616,7 @@ const struct BattleFrontierTrainer gSlateportBattleTentTrainers[NUM_BATTLE_TENT_
     [SLATEPORT_TENT_TRAINER_MAGGIE] = {
         .facilityClass = FACILITY_CLASS_SCHOOL_KID_F,
         .trainerName = _("Maggie"),
-        .speechBefore = {EC_POKEMON(VULPIX), EC_POKEMON(XATU), EC_POKEMON2(UMBREON), EC_WORD_ELLIPSIS, EC_WORD_UM, EC_WORD_ELLIPSIS},
+        .speechBefore = {EC_POKEMON(SAUCIE), EC_POKEMON(XATU), EC_POKEMON2(UMBREON), EC_WORD_ELLIPSIS, EC_WORD_UM, EC_WORD_ELLIPSIS},
         .speechWin = {EC_POKEMON(NOSEPASS), EC_WORD_ELLIPSIS, EC_WORD_UM, EC_POKEMON(SEVIPER), EC_WORD_EXCL, -1},
         .speechLose = {EC_POKEMON(NOSEPASS), EC_WORD_ELLIPSIS, EC_WORD_UM, EC_POKEMON2(SNORLAX), EC_WORD_ELLIPSIS, EC_WORD_UH_OH},
         .monSet = gSlateportBattleTentTrainerMons_Maggie
@@ -845,7 +845,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_JOLLY
     },
     [SLATEPORT_TENT_MON_NUZLEAF] = {
-        .species = SPECIES_NINETALES,
+        .species = SPECIES_SAWSBAWS,
         .moves = {MOVE_SHADOW_BALL, MOVE_FIRE_BLAST, MOVE_WILL_O_WISP, MOVE_SUNNY_DAY},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
@@ -908,7 +908,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_CALM
     },
     [SLATEPORT_TENT_MON_ELECTRIKE_1] = {
-        .species = SPECIES_NIDOQUEEN,
+        .species = SPECIES_EBOLABLE,
         .moves = {MOVE_EARTH_POWER, MOVE_SLUDGE_BOMB, MOVE_ICE_BEAM, MOVE_THUNDERBOLT},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_SP_ATTACK,

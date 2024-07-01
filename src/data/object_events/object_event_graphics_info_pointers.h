@@ -150,7 +150,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ChikoritaDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TotodileDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_JigglypuffDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MeowthDoll;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ClefairyDoll;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_EgoirlDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DittoDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SmoochumDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TreeckoDoll;
@@ -1246,7 +1246,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_TOTODILE_DOLL] =            &gObjectEventGraphicsInfo_TotodileDoll,
     [OBJ_EVENT_GFX_JIGGLYPUFF_DOLL] =          &gObjectEventGraphicsInfo_JigglypuffDoll,
     [OBJ_EVENT_GFX_MEOWTH_DOLL] =              &gObjectEventGraphicsInfo_MeowthDoll,
-    [OBJ_EVENT_GFX_CLEFAIRY_DOLL] =            &gObjectEventGraphicsInfo_ClefairyDoll,
+    [OBJ_EVENT_GFX_EGOIRL_DOLL] =            &gObjectEventGraphicsInfo_EgoirlDoll,
     [OBJ_EVENT_GFX_DITTO_DOLL] =               &gObjectEventGraphicsInfo_DittoDoll,
     [OBJ_EVENT_GFX_SMOOCHUM_DOLL] =            &gObjectEventGraphicsInfo_SmoochumDoll,
     [OBJ_EVENT_GFX_TREECKO_DOLL] =             &gObjectEventGraphicsInfo_TreeckoDoll,

@@ -327,7 +327,7 @@ static const union AnimCmd sAnim_JAFEET_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_SANDSLASH_1[] =
+static const union AnimCmd sAnim_TOYUTA_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(1, 10),
@@ -337,7 +337,7 @@ static const union AnimCmd sAnim_SANDSLASH_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_SANDSLASH_2[] =
+static const union AnimCmd sAnim_TOYUTA_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -346,7 +346,7 @@ static const union AnimCmd sAnim_SANDSLASH_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_NIDORAN_F_1[] =
+static const union AnimCmd sAnim_NAUSEON_1[] =
 {
     ANIMCMD_FRAME(0, 5),
     ANIMCMD_FRAME(1, 5),
@@ -360,21 +360,21 @@ static const union AnimCmd sAnim_NIDORAN_F_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_NIDORINA_1[] =
+static const union AnimCmd sAnim_HAZMATE_1[] =
 {
     ANIMCMD_FRAME(1, 40),
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_NIDOQUEEN_1[] =
+static const union AnimCmd sAnim_EBOLABLE_1[] =
 {
     ANIMCMD_FRAME(1, 45),
     ANIMCMD_FRAME(0, 5),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_NIDORAN_M_1[] =
+static const union AnimCmd sAnim_UNGA_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(1, 15),
@@ -382,7 +382,7 @@ static const union AnimCmd sAnim_NIDORAN_M_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_NIDORINO_1[] =
+static const union AnimCmd sAnim_BUNGA_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(1, 15),
@@ -390,7 +390,7 @@ static const union AnimCmd sAnim_NIDORINO_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_NIDOKING_1[] =
+static const union AnimCmd sAnim_OOGABOOGA_1[] =
 {
     ANIMCMD_FRAME(1, 10),
     ANIMCMD_FRAME(0, 15),
@@ -399,7 +399,7 @@ static const union AnimCmd sAnim_NIDOKING_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_CLEFAIRY_1[] =
+static const union AnimCmd sAnim_EGOIRL_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(1, 15),
@@ -407,7 +407,7 @@ static const union AnimCmd sAnim_CLEFAIRY_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_CLEFABLE_1[] =
+static const union AnimCmd sAnim_GOTHOT_1[] =
 {
     ANIMCMD_FRAME(1, 27),
     ANIMCMD_FRAME(0, 27),
@@ -418,7 +418,7 @@ static const union AnimCmd sAnim_CLEFABLE_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_VULPIX_1[] =
+static const union AnimCmd sAnim_SAUCIE_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(1, 20),
@@ -428,7 +428,7 @@ static const union AnimCmd sAnim_VULPIX_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_VULPIX_2[] =
+static const union AnimCmd sAnim_SAUCIE_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -437,7 +437,7 @@ static const union AnimCmd sAnim_VULPIX_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_NINETALES_1[] =
+static const union AnimCmd sAnim_SAWSBAWS_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(1, 20),
@@ -447,7 +447,7 @@ static const union AnimCmd sAnim_NINETALES_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_NINETALES_2[] =
+static const union AnimCmd sAnim_SAWSBAWS_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -8772,19 +8772,19 @@ static const union AnimCmd sAnim_JAFEET_ALOLAN_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_SANDSLASH_ALOLAN_1[] =
+static const union AnimCmd sAnim_TOYUTA_ALOLAN_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_VULPIX_ALOLAN_1[] =
+static const union AnimCmd sAnim_SAUCIE_ALOLAN_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_NINETALES_ALOLAN_1[] =
+static const union AnimCmd sAnim_SAWSBAWS_ALOLAN_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
@@ -9283,62 +9283,62 @@ static const union AnimCmd *const sAnims_JAFEET[] ={
     sAnim_JAFEET_2,
 };
 
-static const union AnimCmd *const sAnims_SANDSLASH[] ={
+static const union AnimCmd *const sAnims_TOYUTA[] ={
     sAnim_GeneralFrame0,
-    sAnim_SANDSLASH_1,
-    sAnim_SANDSLASH_2,
+    sAnim_TOYUTA_1,
+    sAnim_TOYUTA_2,
 };
 
-static const union AnimCmd *const sAnims_NIDORAN_F[] ={
+static const union AnimCmd *const sAnims_NAUSEON[] ={
     sAnim_GeneralFrame0,
-    sAnim_NIDORAN_F_1,
+    sAnim_NAUSEON_1,
 };
 
-static const union AnimCmd *const sAnims_NIDORINA[] ={
+static const union AnimCmd *const sAnims_HAZMATE[] ={
     sAnim_GeneralFrame0,
-    sAnim_NIDORINA_1,
+    sAnim_HAZMATE_1,
 };
 
-static const union AnimCmd *const sAnims_NIDOQUEEN[] ={
+static const union AnimCmd *const sAnims_EBOLABLE[] ={
     sAnim_GeneralFrame0,
-    sAnim_NIDOQUEEN_1,
+    sAnim_EBOLABLE_1,
 };
 
-static const union AnimCmd *const sAnims_NIDORAN_M[] ={
+static const union AnimCmd *const sAnims_UNGA[] ={
     sAnim_GeneralFrame0,
-    sAnim_NIDORAN_M_1,
+    sAnim_UNGA_1,
 };
 
-static const union AnimCmd *const sAnims_NIDORINO[] ={
+static const union AnimCmd *const sAnims_BUNGA[] ={
     sAnim_GeneralFrame0,
-    sAnim_NIDORINO_1,
+    sAnim_BUNGA_1,
 };
 
-static const union AnimCmd *const sAnims_NIDOKING[] ={
+static const union AnimCmd *const sAnims_OOGABOOGA[] ={
     sAnim_GeneralFrame0,
-    sAnim_NIDOKING_1,
+    sAnim_OOGABOOGA_1,
 };
 
-static const union AnimCmd *const sAnims_CLEFAIRY[] ={
+static const union AnimCmd *const sAnims_EGOIRL[] ={
     sAnim_GeneralFrame0,
-    sAnim_CLEFAIRY_1,
+    sAnim_EGOIRL_1,
 };
 
-static const union AnimCmd *const sAnims_CLEFABLE[] ={
+static const union AnimCmd *const sAnims_GOTHOT[] ={
     sAnim_GeneralFrame0,
-    sAnim_CLEFABLE_1,
+    sAnim_GOTHOT_1,
 };
 
-static const union AnimCmd *const sAnims_VULPIX[] ={
+static const union AnimCmd *const sAnims_SAUCIE[] ={
     sAnim_GeneralFrame0,
-    sAnim_VULPIX_1,
-    sAnim_VULPIX_2,
+    sAnim_SAUCIE_1,
+    sAnim_SAUCIE_2,
 };
 
-static const union AnimCmd *const sAnims_NINETALES[] ={
+static const union AnimCmd *const sAnims_SAWSBAWS[] ={
     sAnim_GeneralFrame0,
-    sAnim_NINETALES_1,
-    sAnim_NINETALES_2,
+    sAnim_SAWSBAWS_1,
+    sAnim_SAWSBAWS_2,
 };
 
 static const union AnimCmd *const sAnims_JIGGLYPUFF[] ={
@@ -14154,19 +14154,19 @@ static const union AnimCmd *const sAnims_JAFEET_ALOLAN[] ={
     sAnim_JAFEET_ALOLAN_1,
 };
 
-static const union AnimCmd *const sAnims_SANDSLASH_ALOLAN[] ={
+static const union AnimCmd *const sAnims_TOYUTA_ALOLAN[] ={
     sAnim_GeneralFrame0,
-    sAnim_SANDSLASH_ALOLAN_1,
+    sAnim_TOYUTA_ALOLAN_1,
 };
 
-static const union AnimCmd *const sAnims_VULPIX_ALOLAN[] ={
+static const union AnimCmd *const sAnims_SAUCIE_ALOLAN[] ={
     sAnim_GeneralFrame0,
-    sAnim_VULPIX_ALOLAN_1,
+    sAnim_SAUCIE_ALOLAN_1,
 };
 
-static const union AnimCmd *const sAnims_NINETALES_ALOLAN[] ={
+static const union AnimCmd *const sAnims_SAWSBAWS_ALOLAN[] ={
     sAnim_GeneralFrame0,
-    sAnim_NINETALES_ALOLAN_1,
+    sAnim_SAWSBAWS_ALOLAN_1,
 };
 
 static const union AnimCmd *const sAnims_DIGLETT_ALOLAN[] ={
@@ -14465,17 +14465,17 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(SKIPPA),
     ANIM_CMD(DISHEATS),
     ANIM_CMD(JAFEET),
-    ANIM_CMD(SANDSLASH),
-    ANIM_CMD(NIDORAN_F),
-    ANIM_CMD(NIDORINA),
-    ANIM_CMD(NIDOQUEEN),
-    ANIM_CMD(NIDORAN_M),
-    ANIM_CMD(NIDORINO),
-    ANIM_CMD(NIDOKING),
-    ANIM_CMD(CLEFAIRY),
-    ANIM_CMD(CLEFABLE),
-    ANIM_CMD(VULPIX),
-    ANIM_CMD(NINETALES),
+    ANIM_CMD(TOYUTA),
+    ANIM_CMD(NAUSEON),
+    ANIM_CMD(HAZMATE),
+    ANIM_CMD(EBOLABLE),
+    ANIM_CMD(UNGA),
+    ANIM_CMD(BUNGA),
+    ANIM_CMD(OOGABOOGA),
+    ANIM_CMD(EGOIRL),
+    ANIM_CMD(GOTHOT),
+    ANIM_CMD(SAUCIE),
+    ANIM_CMD(SAWSBAWS),
     ANIM_CMD(JIGGLYPUFF),
     ANIM_CMD(WIGGLYTUFF),
     ANIM_CMD(ZUBAT),
@@ -15391,9 +15391,9 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(GAWDAMSTER_ALOLAN),
     ANIM_CMD(DISHEATS_ALOLAN),
     ANIM_CMD(JAFEET_ALOLAN),
-    ANIM_CMD(SANDSLASH_ALOLAN),
-    ANIM_CMD(VULPIX_ALOLAN),
-    ANIM_CMD(NINETALES_ALOLAN),
+    ANIM_CMD(TOYUTA_ALOLAN),
+    ANIM_CMD(SAUCIE_ALOLAN),
+    ANIM_CMD(SAWSBAWS_ALOLAN),
     ANIM_CMD(DIGLETT_ALOLAN),
     ANIM_CMD(DUGTRIO_ALOLAN),
     ANIM_CMD(MEOWTH_ALOLAN),

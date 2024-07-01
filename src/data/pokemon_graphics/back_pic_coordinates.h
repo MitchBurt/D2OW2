@@ -140,57 +140,57 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x65,
         .y_offset = 13,
     },
-    [SPECIES_SANDSLASH] =
+    [SPECIES_TOYUTA] =
     {
         .size = 0x86,
         .y_offset = 11,
     },
-    [SPECIES_NIDORAN_F] =
+    [SPECIES_NAUSEON] =
     {
         .size = 0x65,
         .y_offset = 13,
     },
-    [SPECIES_NIDORINA] =
+    [SPECIES_HAZMATE] =
     {
         .size = 0x77,
         .y_offset = 5,
     },
-    [SPECIES_NIDOQUEEN] =
+    [SPECIES_EBOLABLE] =
     {
         .size = 0x87,
         .y_offset = 5,
     },
-    [SPECIES_NIDORAN_M] =
+    [SPECIES_UNGA] =
     {
         .size = 0x66,
         .y_offset = 9,
     },
-    [SPECIES_NIDORINO] =
+    [SPECIES_BUNGA] =
     {
         .size = 0x87,
         .y_offset = 8,
     },
-    [SPECIES_NIDOKING] =
+    [SPECIES_OOGABOOGA] =
     {
         .size = 0x88,
         .y_offset = 2,
     },
-    [SPECIES_CLEFAIRY] =
+    [SPECIES_EGOIRL] =
     {
         .size = 0x75,
         .y_offset = 14,
     },
-    [SPECIES_CLEFABLE] =
+    [SPECIES_GOTHOT] =
     {
         .size = 0x86,
         .y_offset = 10,
     },
-    [SPECIES_VULPIX] =
+    [SPECIES_SAUCIE] =
     {
         .size = 0x86,
         .y_offset = 9,
     },
-    [SPECIES_NINETALES] =
+    [SPECIES_SAWSBAWS] =
     {
         .size = 0x87,
         .y_offset = 5,
@@ -4773,17 +4773,17 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x65,
         .y_offset = 13,
     },
-    [SPECIES_SANDSLASH_ALOLAN] =
+    [SPECIES_TOYUTA_ALOLAN] =
     {
         .size = 0x86,
         .y_offset = 6,
     },
-    [SPECIES_VULPIX_ALOLAN] =
+    [SPECIES_SAUCIE_ALOLAN] =
     {
         .size = 0x76,
         .y_offset = 5,
     },
-    [SPECIES_NINETALES_ALOLAN] =
+    [SPECIES_SAWSBAWS_ALOLAN] =
     {
         .size = 0x77,
         .y_offset = 5,

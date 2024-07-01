@@ -71,21 +71,21 @@ static const u16 sJafeetFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sSandslashFormSpeciesIdTable[] = {
-    SPECIES_SANDSLASH,
-    SPECIES_SANDSLASH_ALOLAN,
+static const u16 sToyutaFormSpeciesIdTable[] = {
+    SPECIES_TOYUTA,
+    SPECIES_TOYUTA_ALOLAN,
     0xFFFF,
 };
 
-static const u16 sVulpixFormSpeciesIdTable[] = {
-    SPECIES_VULPIX,
-    SPECIES_VULPIX_ALOLAN,
+static const u16 sSaucieFormSpeciesIdTable[] = {
+    SPECIES_SAUCIE,
+    SPECIES_SAUCIE_ALOLAN,
     0xFFFF,
 };
 
-static const u16 sNinetalesFormSpeciesIdTable[] = {
-    SPECIES_NINETALES,
-    SPECIES_NINETALES_ALOLAN,
+static const u16 sSawsbawsFormSpeciesIdTable[] = {
+    SPECIES_SAWSBAWS,
+    SPECIES_SAWSBAWS_ALOLAN,
     0xFFFF,
 };
 

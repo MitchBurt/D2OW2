@@ -7241,7 +7241,7 @@ static void SetCursorMonData(void *pokemon, u8 mode)
     }
     else
     {
-        if (sStorage->cursorMonSpecies == SPECIES_NIDORAN_F || sStorage->cursorMonSpecies == SPECIES_NIDORAN_M)
+        if (sStorage->cursorMonSpecies == SPECIES_NAUSEON || sStorage->cursorMonSpecies == SPECIES_UNGA)
             gender = MON_GENDERLESS;
 		
 		 #ifdef POKEMON_EXPANSION

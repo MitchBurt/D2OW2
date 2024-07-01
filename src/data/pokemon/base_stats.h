@@ -738,7 +738,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_SANDSLASH] =
+    [SPECIES_TOYUTA] =
     {
         .baseHP        = 75,
         .baseAttack    = 110,// 100 -> 110
@@ -768,7 +768,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_NIDORAN_F] =
+    [SPECIES_NAUSEON] =
     {
         .baseHP        = 55,
         .baseAttack    = 47,
@@ -797,7 +797,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_NIDORINA] =
+    [SPECIES_HAZMATE] =
     {
         .baseHP        = 70,
         .baseAttack    = 62,
@@ -826,7 +826,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_NIDOQUEEN] =
+    [SPECIES_EBOLABLE] =
     {
         .baseHP        = 90,
         .baseDefense   = 87,
@@ -859,7 +859,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_NIDORAN_M] =
+    [SPECIES_UNGA] =
     {
         .baseHP        = 46,
         .baseAttack    = 57,
@@ -888,7 +888,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_NIDORINO] =
+    [SPECIES_BUNGA] =
     {
         .baseHP        = 61,
         .baseAttack    = 72,
@@ -917,7 +917,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_NIDOKING] =
+    [SPECIES_OOGABOOGA] =
     {
         .baseHP        = 81,
         .baseDefense   = 77,
@@ -950,7 +950,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_CLEFAIRY] =
+    [SPECIES_EGOIRL] =
     {
         .baseHP        = 70,
         .baseAttack    = 45,
@@ -986,7 +986,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_CLEFABLE] =
+    [SPECIES_GOTHOT] =
     {
         .baseHP        = 95,
         .baseAttack    = 70,
@@ -1026,7 +1026,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_VULPIX] =
+    [SPECIES_SAUCIE] =
     {
         .baseHP        = 38,
         .baseAttack    = 41,
@@ -1053,7 +1053,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_NINETALES] =
+    [SPECIES_SAWSBAWS] =
     {
         .baseHP        = 73,
         .baseAttack    = 76,
@@ -26790,7 +26790,7 @@ const struct BaseStats gBaseStats[] =
         .flags = F_ALOLAN_FORM,
     },
 
-    [SPECIES_SANDSLASH_ALOLAN] =
+    [SPECIES_TOYUTA_ALOLAN] =
     {
         .baseHP        = 75,
         .baseAttack    = 110, //100 -> 110
@@ -26821,7 +26821,7 @@ const struct BaseStats gBaseStats[] =
         .flags = F_ALOLAN_FORM,
     },
 
-    [SPECIES_VULPIX_ALOLAN] =
+    [SPECIES_SAUCIE_ALOLAN] =
     {
         .baseHP        = 38,
         .baseAttack    = 41,
@@ -26854,7 +26854,7 @@ const struct BaseStats gBaseStats[] =
         .flags = F_ALOLAN_FORM,
     },
 
-    [SPECIES_NINETALES_ALOLAN] =
+    [SPECIES_SAWSBAWS_ALOLAN] =
     {
         .baseHP        = 73,
         .baseAttack    = 67,
@@ -34852,7 +34852,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_SANDSLASH] =
+    [SPECIES_TOYUTA] =
     {
         .baseHP        = 75,
         .baseAttack    = 100,
@@ -34882,7 +34882,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_NIDORAN_F] =
+    [SPECIES_NAUSEON] =
     {
         .baseHP        = 55,
         .baseAttack    = 47,
@@ -34911,7 +34911,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_NIDORINA] =
+    [SPECIES_HAZMATE] =
     {
         .baseHP        = 70,
         .baseAttack    = 62,
@@ -34940,7 +34940,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_NIDOQUEEN] =
+    [SPECIES_EBOLABLE] =
     {
         .baseHP        = 90,
         .baseDefense   = 87,
@@ -34973,7 +34973,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_NIDORAN_M] =
+    [SPECIES_UNGA] =
     {
         .baseHP        = 46,
         .baseAttack    = 57,
@@ -35002,7 +35002,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_NIDORINO] =
+    [SPECIES_BUNGA] =
     {
         .baseHP        = 61,
         .baseAttack    = 72,
@@ -35031,7 +35031,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_NIDOKING] =
+    [SPECIES_OOGABOOGA] =
     {
         .baseHP        = 81,
         .baseDefense   = 77,
@@ -35064,7 +35064,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_CLEFAIRY] =
+    [SPECIES_EGOIRL] =
     {
         .baseHP        = 70,
         .baseAttack    = 45,
@@ -35099,7 +35099,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_CLEFABLE] =
+    [SPECIES_GOTHOT] =
     {
         .baseHP        = 95,
         .baseAttack    = 70,
@@ -35138,7 +35138,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_VULPIX] =
+    [SPECIES_SAUCIE] =
     {
         .baseHP        = 38,
         .baseAttack    = 41,
@@ -35164,7 +35164,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_NINETALES] =
+    [SPECIES_SAWSBAWS] =
     {
         .baseHP        = 73,
         .baseAttack    = 76,
@@ -61219,7 +61219,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .flags = F_ALOLAN_FORM,
     },
 
-    [SPECIES_SANDSLASH_ALOLAN] =
+    [SPECIES_TOYUTA_ALOLAN] =
     {
         .baseHP        = 75,
         .baseAttack    = 100,
@@ -61249,7 +61249,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .flags = F_ALOLAN_FORM,
     },
 
-    [SPECIES_VULPIX_ALOLAN] =
+    [SPECIES_SAUCIE_ALOLAN] =
     {
         .baseHP        = 38,
         .baseAttack    = 41,
@@ -61282,7 +61282,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .flags = F_ALOLAN_FORM,
     },
 
-    [SPECIES_NINETALES_ALOLAN] =
+    [SPECIES_SAWSBAWS_ALOLAN] =
     {
         .baseHP        = 73,
         .baseAttack    = 67,

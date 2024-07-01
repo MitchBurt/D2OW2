@@ -495,48 +495,48 @@ Cry_Jafeet::
 	.incbin "sound/direct_sound_samples/cries/cry_jafeet.bin"
 
 	.align 2
-Cry_Sandslash::
-	.incbin "sound/direct_sound_samples/cries/cry_sandslash.bin"
+Cry_Toyuta::
+	.incbin "sound/direct_sound_samples/cries/cry_toyuta.bin"
 
 	.align 2
 Cry_NidoranF::
-	.incbin "sound/direct_sound_samples/cries/cry_nidoran_f.bin"
+	.incbin "sound/direct_sound_samples/cries/cry_nauseon.bin"
 
 	.align 2
-Cry_Nidorina::
-	.incbin "sound/direct_sound_samples/cries/cry_nidorina.bin"
+Cry_Hazmate::
+	.incbin "sound/direct_sound_samples/cries/cry_hazmate.bin"
 
 	.align 2
-Cry_Nidoqueen::
-	.incbin "sound/direct_sound_samples/cries/cry_nidoqueen.bin"
+Cry_Ebolable::
+	.incbin "sound/direct_sound_samples/cries/cry_ebolable.bin"
 
 	.align 2
 Cry_NidoranM::
-	.incbin "sound/direct_sound_samples/cries/cry_nidoran_m.bin"
+	.incbin "sound/direct_sound_samples/cries/cry_unga.bin"
 
 	.align 2
-Cry_Nidorino::
-	.incbin "sound/direct_sound_samples/cries/cry_nidorino.bin"
+Cry_Bunga::
+	.incbin "sound/direct_sound_samples/cries/cry_bunga.bin"
 
 	.align 2
-Cry_Nidoking::
-	.incbin "sound/direct_sound_samples/cries/cry_nidoking.bin"
+Cry_Oogabooga::
+	.incbin "sound/direct_sound_samples/cries/cry_oogabooga.bin"
 
 	.align 2
-Cry_Clefairy::
-	.incbin "sound/direct_sound_samples/cries/cry_clefairy.bin"
+Cry_Egoirl::
+	.incbin "sound/direct_sound_samples/cries/cry_egoirl.bin"
 
 	.align 2
-Cry_Clefable::
-	.incbin "sound/direct_sound_samples/cries/cry_clefable.bin"
+Cry_Gothot::
+	.incbin "sound/direct_sound_samples/cries/cry_gothot.bin"
 
 	.align 2
-Cry_Vulpix::
-	.incbin "sound/direct_sound_samples/cries/cry_vulpix.bin"
+Cry_Saucie::
+	.incbin "sound/direct_sound_samples/cries/cry_saucie.bin"
 
 	.align 2
-Cry_Ninetales::
-	.incbin "sound/direct_sound_samples/cries/cry_ninetales.bin"
+Cry_Sawsbaws::
+	.incbin "sound/direct_sound_samples/cries/cry_sawsbaws.bin"
 
 	.align 2
 Cry_Jigglypuff::

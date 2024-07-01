@@ -337,19 +337,19 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SANDSLASH] =
+    [NATIONAL_DEX_TOYUTA] =
     {
         .categoryName = _("Ratón"),
         .height = 10,
         .weight = 295,
-        .description = gSandslashPokedexText,
+        .description = gToyutaPokedexText,
         .pokemonScale = 341,
         .pokemonOffset = 11,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_NIDORAN_F] =
+    [NATIONAL_DEX_NAUSEON] =
     {
         .categoryName = _("Pin Veneno"),
         .height = 4,
@@ -361,31 +361,31 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_NIDORINA] =
+    [NATIONAL_DEX_HAZMATE] =
     {
         .categoryName = _("Pin Veneno"),
         .height = 8,
         .weight = 200,
-        .description = gNidorinaPokedexText,
+        .description = gHazmatePokedexText,
         .pokemonScale = 381,
         .pokemonOffset = 15,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_NIDOQUEEN] =
+    [NATIONAL_DEX_EBOLABLE] =
     {
         .categoryName = _("Taladro"),
         .height = 13,
         .weight = 600,
-        .description = gNidoqueenPokedexText,
+        .description = gEbolablePokedexText,
         .pokemonScale = 293,
         .pokemonOffset = 4,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_NIDORAN_M] =
+    [NATIONAL_DEX_UNGA] =
     {
         .categoryName = _("Pin Veneno"),
         .height = 5,
@@ -397,72 +397,72 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_NIDORINO] =
+    [NATIONAL_DEX_BUNGA] =
     {
         .categoryName = _("Pin Veneno"),
         .height = 9,
         .weight = 195,
-        .description = gNidorinoPokedexText,
+        .description = gBungaPokedexText,
         .pokemonScale = 408,
         .pokemonOffset = 15,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_NIDOKING] =
+    [NATIONAL_DEX_OOGABOOGA] =
     {
         .categoryName = _("Taladro"),
         .height = 14,
         .weight = 620,
-        .description = gNidokingPokedexText,
+        .description = gOogaboogaPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_CLEFAIRY] =
+    [NATIONAL_DEX_EGOIRL] =
     {
         .categoryName = _("Hada"),
         .height = 6,
         .weight = 75,
-        .description = gClefairyPokedexText,
+        .description = gEgoirlPokedexText,
         .pokemonScale = 441,
         .pokemonOffset = 20,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_CLEFABLE] =
+    [NATIONAL_DEX_GOTHOT] =
     {
         .categoryName = _("Hada"),
         .height = 13,
         .weight = 400,
-        .description = gClefablePokedexText,
+        .description = gGothotPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 5,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_VULPIX] =
+    [NATIONAL_DEX_SAUCIE] =
     {
         .categoryName = _("Zorro"),
         .height = 6,
         .weight = 99,
-        .description = gVulpixPokedexText,
+        .description = gSauciePokedexText,
         .pokemonScale = 542,
         .pokemonOffset = 19,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_NINETALES] =
+    [NATIONAL_DEX_SAWSBAWS] =
     {
         .categoryName = _("Zorro"),
         .height = 11,
         .weight = 199,
-        .description = gNinetalesPokedexText,
+        .description = gSawsbawsPokedexText,
         .pokemonScale = 339,
         .pokemonOffset = 10,
         .trainerScale = 256,
@@ -11127,19 +11127,19 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SANDSLASH] =
+    [NATIONAL_DEX_TOYUTA] =
     {
         .categoryName = _("Mouse"),
         .height = 10,
         .weight = 295,
-        .description = gSandslashPokedexText,
+        .description = gToyutaPokedexText,
         .pokemonScale = 341,
         .pokemonOffset = 11,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_NIDORAN_F] =
+    [NATIONAL_DEX_NAUSEON] =
     {
         .categoryName = _("Poison Pin"),
         .height = 4,
@@ -11151,31 +11151,31 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_NIDORINA] =
+    [NATIONAL_DEX_HAZMATE] =
     {
         .categoryName = _("Poison Pin"),
         .height = 8,
         .weight = 200,
-        .description = gNidorinaPokedexText,
+        .description = gHazmatePokedexText,
         .pokemonScale = 381,
         .pokemonOffset = 15,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_NIDOQUEEN] =
+    [NATIONAL_DEX_EBOLABLE] =
     {
         .categoryName = _("Drill"),
         .height = 13,
         .weight = 600,
-        .description = gNidoqueenPokedexText,
+        .description = gEbolablePokedexText,
         .pokemonScale = 293,
         .pokemonOffset = 4,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_NIDORAN_M] =
+    [NATIONAL_DEX_UNGA] =
     {
         .categoryName = _("Poison Pin"),
         .height = 5,
@@ -11187,72 +11187,72 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_NIDORINO] =
+    [NATIONAL_DEX_BUNGA] =
     {
         .categoryName = _("Poison Pin"),
         .height = 9,
         .weight = 195,
-        .description = gNidorinoPokedexText,
+        .description = gBungaPokedexText,
         .pokemonScale = 408,
         .pokemonOffset = 15,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_NIDOKING] =
+    [NATIONAL_DEX_OOGABOOGA] =
     {
         .categoryName = _("Drill"),
         .height = 14,
         .weight = 620,
-        .description = gNidokingPokedexText,
+        .description = gOogaboogaPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_CLEFAIRY] =
+    [NATIONAL_DEX_EGOIRL] =
     {
         .categoryName = _("Fairy"),
         .height = 6,
         .weight = 75,
-        .description = gClefairyPokedexText,
+        .description = gEgoirlPokedexText,
         .pokemonScale = 441,
         .pokemonOffset = 20,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_CLEFABLE] =
+    [NATIONAL_DEX_GOTHOT] =
     {
         .categoryName = _("Fairy"),
         .height = 13,
         .weight = 400,
-        .description = gClefablePokedexText,
+        .description = gGothotPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 5,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_VULPIX] =
+    [NATIONAL_DEX_SAUCIE] =
     {
         .categoryName = _("Fox"),
         .height = 6,
         .weight = 99,
-        .description = gVulpixPokedexText,
+        .description = gSauciePokedexText,
         .pokemonScale = 542,
         .pokemonOffset = 19,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_NINETALES] =
+    [NATIONAL_DEX_SAWSBAWS] =
     {
         .categoryName = _("Fox"),
         .height = 11,
         .weight = 199,
-        .description = gNinetalesPokedexText,
+        .description = gSawsbawsPokedexText,
         .pokemonScale = 339,
         .pokemonOffset = 10,
         .trainerScale = 256,
