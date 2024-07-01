@@ -448,11 +448,11 @@ Cry_Egg_Group_Monster:
 
 	.align 2
 Cry_Egg_Group_Grass:
-	.incbin "sound/direct_sound_samples/cries/cry_oddish.bin"
+	.incbin "sound/direct_sound_samples/cries/cry_bongstard.bin"
 
 	.align 2
 Cry_Egg_Group_Bug:
-	.incbin "sound/direct_sound_samples/cries/cry_venomoth.bin"
+	.incbin "sound/direct_sound_samples/cries/cry_senketula.bin"
 
 	.align 2
 Cry_Egg_Group_Mineral:

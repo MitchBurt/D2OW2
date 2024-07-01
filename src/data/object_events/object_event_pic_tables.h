@@ -2163,12 +2163,12 @@ const struct SpriteFrameImage gObjectEventPicTable_TotodileDoll[] = {
     obj_frame_tiles(gObjectEventPic_TotodileDoll),
 };
 
-const struct SpriteFrameImage gObjectEventPicTable_JigglypuffDoll[] = {
-    obj_frame_tiles(gObjectEventPic_JigglypuffDoll),
+const struct SpriteFrameImage gObjectEventPicTable_SnedditDoll[] = {
+    obj_frame_tiles(gObjectEventPic_SnedditDoll),
 };
 
-const struct SpriteFrameImage gObjectEventPicTable_MeowthDoll[] = {
-    obj_frame_tiles(gObjectEventPic_MeowthDoll),
+const struct SpriteFrameImage gObjectEventPicTable_GarfelDoll[] = {
+    obj_frame_tiles(gObjectEventPic_GarfelDoll),
 };
 
 const struct SpriteFrameImage gObjectEventPicTable_EgoirlDoll[] = {

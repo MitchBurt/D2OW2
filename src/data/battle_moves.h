@@ -11598,7 +11598,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_MEOWTH] =
+    [SPECIES_GARFEL] =
     {
         .move = MOVE_PAY_DAY,
         .modification = SIGNATURE_MOD_POWER,
@@ -11606,7 +11606,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_PERSIAN] =
+    [SPECIES_GOREFIELD] =
     {
         .move = MOVE_PAY_DAY,
         .modification = SIGNATURE_MOD_POWER,
@@ -11614,17 +11614,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_MEOWTH_ALOLAN] =
-    {
-        .move = MOVE_PAY_DAY,
-        .modification = SIGNATURE_MOD_POWER,
-        .variable = 80,
-        .modification2 = SIGNATURE_MOD_TYPE,
-        .variable2 = TYPE_DARK,
-        .differentDescription = FALSE,
-        .description = _("Default Description"),
-    },
-    [SPECIES_PERSIAN_ALOLAN] =
+    [SPECIES_GARFEL_ALOLAN] =
     {
         .move = MOVE_PAY_DAY,
         .modification = SIGNATURE_MOD_POWER,
@@ -11634,7 +11624,17 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_MEOWTH_GALARIAN] =
+    [SPECIES_GOREFIELD_ALOLAN] =
+    {
+        .move = MOVE_PAY_DAY,
+        .modification = SIGNATURE_MOD_POWER,
+        .variable = 80,
+        .modification2 = SIGNATURE_MOD_TYPE,
+        .variable2 = TYPE_DARK,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+    [SPECIES_GARFEL_GALARIAN] =
     {
         .move = MOVE_PAY_DAY,
         .modification = SIGNATURE_MOD_POWER,
@@ -11654,7 +11654,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_PARASECT] =
+    [SPECIES_DUSHROOM] =
     {
         .move = MOVE_LEECH_LIFE,
         .modification = SIGNATURE_MOD_SECOND_TYPE,

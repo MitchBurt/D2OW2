@@ -39,21 +39,21 @@ gCryTable:: @ 869DCF4
 	cry Cry_Gothot  @ 869DE98
 	cry Cry_Saucie  @ 869DEA4
 	cry Cry_Sawsbaws  @ 869DEB0
-	cry Cry_Jigglypuff  @ 869DEBC
-	cry Cry_Wigglytuff  @ 869DEC8
-	cry Cry_Zubat  @ 869DED4
-	cry Cry_Golbat  @ 869DEE0
-	cry Cry_Oddish  @ 869DEEC
-	cry Cry_Gloom  @ 869DEF8
-	cry Cry_Vileplume  @ 869DF04
-	cry Cry_Paras  @ 869DF10
-	cry Cry_Parasect  @ 869DF1C
-	cry Cry_Venonat  @ 869DF28
-	cry Cry_Venomoth  @ 869DF34
+	cry Cry_Sneddit  @ 869DEBC
+	cry Cry_Cosmie  @ 869DEC8
+	cry Cry_Batanarf  @ 869DED4
+	cry Cry_Anivenom  @ 869DEE0
+	cry Cry_Bongstard  @ 869DEEC
+	cry Cry_Smogas  @ 869DEF8
+	cry Cry_Ganjaze  @ 869DF04
+	cry Cry_Goofshrum  @ 869DF10
+	cry Cry_Dushroom  @ 869DF1C
+	cry Cry_Araketsu  @ 869DF28
+	cry Cry_Senketula  @ 869DF34
 	cry Cry_Diglett  @ 869DF40
-	cry Cry_Dugtrio  @ 869DF4C
-	cry Cry_Meowth  @ 869DF58
-	cry Cry_Persian  @ 869DF64
+	cry Cry_Ghoma  @ 869DF4C
+	cry Cry_Garfel  @ 869DF58
+	cry Cry_Gorefield  @ 869DF64
 	cry Cry_Psyduck  @ 869DF70
 	cry Cry_Golduck  @ 869DF7C
 	cry Cry_Mankey  @ 869DF88
@@ -966,9 +966,9 @@ gCryTable:: @ 869DCF4
 	cry Cry_Saucie
 	cry Cry_Sawsbaws
 	cry Cry_Diglett
-	cry Cry_Dugtrio
-	cry Cry_Meowth
-	cry Cry_Persian
+	cry Cry_Ghoma
+	cry Cry_Garfel
+	cry Cry_Gorefield
 	cry Cry_Geodude
 	cry Cry_Graveler
 	cry Cry_Golem
@@ -977,7 +977,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Exeggutor
 	cry Cry_Marowak
 	@ Galarian Forms
-	cry Cry_Meowth
+	cry Cry_Garfel
 	cry Cry_Ponyta
 	cry Cry_Rapidash
 	cry_not Cry_Slowpoke_Galarian
@@ -1319,21 +1319,21 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Gothot  @ 869F0C8
 	cry2 Cry_Saucie  @ 869F0D4
 	cry2 Cry_Sawsbaws  @ 869F0E0
-	cry2 Cry_Jigglypuff  @ 869F0EC
-	cry2 Cry_Wigglytuff  @ 869F0F8
-	cry2 Cry_Zubat  @ 869F104
-	cry2 Cry_Golbat  @ 869F110
-	cry2 Cry_Oddish  @ 869F11C
-	cry2 Cry_Gloom  @ 869F128
-	cry2 Cry_Vileplume  @ 869F134
-	cry2 Cry_Paras  @ 869F140
-	cry2 Cry_Parasect  @ 869F14C
-	cry2 Cry_Venonat  @ 869F158
-	cry2 Cry_Venomoth  @ 869F164
+	cry2 Cry_Sneddit  @ 869F0EC
+	cry2 Cry_Cosmie  @ 869F0F8
+	cry2 Cry_Batanarf  @ 869F104
+	cry2 Cry_Anivenom  @ 869F110
+	cry2 Cry_Bongstard  @ 869F11C
+	cry2 Cry_Smogas  @ 869F128
+	cry2 Cry_Ganjaze  @ 869F134
+	cry2 Cry_Goofshrum  @ 869F140
+	cry2 Cry_Dushroom  @ 869F14C
+	cry2 Cry_Araketsu  @ 869F158
+	cry2 Cry_Senketula  @ 869F164
 	cry2 Cry_Diglett  @ 869F170
-	cry2 Cry_Dugtrio  @ 869F17C
-	cry2 Cry_Meowth  @ 869F188
-	cry2 Cry_Persian  @ 869F194
+	cry2 Cry_Ghoma  @ 869F17C
+	cry2 Cry_Garfel  @ 869F188
+	cry2 Cry_Gorefield  @ 869F194
 	cry2 Cry_Psyduck  @ 869F1A0
 	cry2 Cry_Golduck  @ 869F1AC
 	cry2 Cry_Mankey  @ 869F1B8
@@ -2244,9 +2244,9 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Saucie
 	cry2 Cry_Sawsbaws
 	cry2 Cry_Diglett
-	cry2 Cry_Dugtrio
-	cry2 Cry_Meowth
-	cry2 Cry_Persian
+	cry2 Cry_Ghoma
+	cry2 Cry_Garfel
+	cry2 Cry_Gorefield
 	cry2 Cry_Geodude
 	cry2 Cry_Graveler
 	cry2 Cry_Golem
@@ -2255,7 +2255,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Exeggutor
 	cry2 Cry_Marowak
 	@ Galarian Forms
-	cry2 Cry_Meowth
+	cry2 Cry_Garfel
 	cry2 Cry_Ponyta
 	cry2 Cry_Rapidash
 	cry2_not Cry_Slowpoke_Galarian

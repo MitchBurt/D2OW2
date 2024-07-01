@@ -1056,7 +1056,7 @@ static const struct InGameTrade sIngameTrades[] =
         .sheen = 10,
         .requestedSpecies = SPECIES_APPLETUN
     }, 
-    [INGAME_TRADE_MEOWTH] = 
+    [INGAME_TRADE_GARFEL] = 
     {
         .nickname = _("Dracozolt"),
         .species = SPECIES_DRACOZOLT,
@@ -1116,7 +1116,7 @@ static const u16 sIngameTradeMail[][MAIL_WORDS_COUNT + 1] =
         EC_WORD_THANK_YOU,
         EC_WORD_FOR,
         EC_POKEMON(SKITTY),
-        EC_POKEMON2(MEOWTH),
+        EC_POKEMON2(GARFEL),
         EC_WORD_CRIES,
         EC_WORD_IN,
         EC_WORD_A,

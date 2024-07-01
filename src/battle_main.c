@@ -5999,7 +5999,7 @@ u8 getSignatureMoveType(u16 move, u16 speciesId, u16 ability){
 
     //Special Cases
     switch(speciesId){
-		case SPECIES_PARASECT:
+		case SPECIES_DUSHROOM:
 			if(gSignatureMoveList[speciesId].move == move && ability == ABILITY_POSSESSED)
 				MoveType = TYPE_GHOST;
 		break;

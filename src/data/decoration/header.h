@@ -748,23 +748,23 @@ const struct Decoration gDecorations[] = {
         DecorDesc_TOTODILE_DOLL,
         DecorGfx_TOTODILE_DOLL
     }, {
-        DECOR_JIGGLYPUFF_DOLL,
-        _("Muñ. Jigglypuff"),
+        DECOR_SNEDDIT_DOLL,
+        _("Muñ. Sneddit"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_DOLL,
         3000,
-        DecorDesc_JIGGLYPUFF_DOLL,
-        DecorGfx_JIGGLYPUFF_DOLL
+        DecorDesc_SNEDDIT_DOLL,
+        DecorGfx_SNEDDIT_DOLL
     }, {
-        DECOR_MEOWTH_DOLL,
-        _("Muñeco Meowth"),
+        DECOR_GARFEL_DOLL,
+        _("Muñeco Garfel"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_DOLL,
         3000,
-        DecorDesc_MEOWTH_DOLL,
-        DecorGfx_MEOWTH_DOLL
+        DecorDesc_GARFEL_DOLL,
+        DecorGfx_GARFEL_DOLL
     }, {
         DECOR_EGOIRL_DOLL,
         _("Muñeco Egoirl"),
@@ -1838,23 +1838,23 @@ const struct Decoration gDecorations[] = {
         DecorDesc_TOTODILE_DOLL,
         DecorGfx_TOTODILE_DOLL
     }, {
-        DECOR_JIGGLYPUFF_DOLL,
-        _("Jigglypuff Doll"),
+        DECOR_SNEDDIT_DOLL,
+        _("Sneddit Doll"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_DOLL,
         3000,
-        DecorDesc_JIGGLYPUFF_DOLL,
-        DecorGfx_JIGGLYPUFF_DOLL
+        DecorDesc_SNEDDIT_DOLL,
+        DecorGfx_SNEDDIT_DOLL
     }, {
-        DECOR_MEOWTH_DOLL,
-        _("Meowth Doll"),
+        DECOR_GARFEL_DOLL,
+        _("Garfel Doll"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_DOLL,
         3000,
-        DecorDesc_MEOWTH_DOLL,
-        DecorGfx_MEOWTH_DOLL
+        DecorDesc_GARFEL_DOLL,
+        DecorGfx_GARFEL_DOLL
     }, {
         DECOR_EGOIRL_DOLL,
         _("Egoirl Doll"),

@@ -95,22 +95,22 @@ static const u16 sDiglettFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sDugtrioFormSpeciesIdTable[] = {
-    SPECIES_DUGTRIO,
-    SPECIES_DUGTRIO_ALOLAN,
+static const u16 sGhomaFormSpeciesIdTable[] = {
+    SPECIES_GHOMA,
+    SPECIES_GHOMA_ALOLAN,
     0xFFFF,
 };
 
-static const u16 sMeowthFormSpeciesIdTable[] = {
-    SPECIES_MEOWTH,
-    SPECIES_MEOWTH_ALOLAN,
-	SPECIES_MEOWTH_GALARIAN,
+static const u16 sGarfelFormSpeciesIdTable[] = {
+    SPECIES_GARFEL,
+    SPECIES_GARFEL_ALOLAN,
+	SPECIES_GARFEL_GALARIAN,
     0xFFFF,
 };
 
-static const u16 sPersianFormSpeciesIdTable[] = {
-    SPECIES_PERSIAN,
-    SPECIES_PERSIAN_ALOLAN,
+static const u16 sGorefieldFormSpeciesIdTable[] = {
+    SPECIES_GOREFIELD,
+    SPECIES_GOREFIELD_ALOLAN,
     0xFFFF,
 };
 

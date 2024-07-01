@@ -149,7 +149,7 @@ EventScript_BattleSnorlax:: @ 8272365
 	goto_if_unset FLAG_BADGE04_GET, EventScript_BattleMunchlax
 	goto_if_set FLAG_TEMP_5, EventScript_BattleMunchlax
 	msgbox Snorlax_Text_PlayedPokeFlute, MSGBOX_DEFAULT
-	playfanfare MUS_RG_JIGGLYPUFF
+	playfanfare MUS_RG_SNEDDIT
 	delay 400
 	playse SE_PIN
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_ExclamationMark
@@ -180,7 +180,7 @@ EventScript_BattleSnorlax:: @ 8272365
 	
 EventScript_BattleMunchlax:: @ 8272365
 	msgbox Snorlax_Text_PlayedPokeFlute, MSGBOX_DEFAULT
-	playfanfare MUS_RG_JIGGLYPUFF
+	playfanfare MUS_RG_SNEDDIT
 	delay 400
 	playse SE_PIN
 	msgbox Snorlax_Text_SnorlaxWokeUp, MSGBOX_DEFAULT

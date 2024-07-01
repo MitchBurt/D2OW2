@@ -883,10 +883,10 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_GLOOM:
+		case SPECIES_SMOGAS:
 			if(level >= 36){
 				u16 PossibleEvo[] = {
-					SPECIES_VILEPLUME,
+					SPECIES_GANJAZE,
 					SPECIES_BELLOSSOM,
 				};
 				

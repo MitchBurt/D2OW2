@@ -980,16 +980,16 @@ Start_EvenScript_Flagset_Difficulty::
 	
 //Starter Scripts
 
-//Meowth
+//Garfel
 Script_Give_Starter1::
 	lock
 	faceplayer
-	showmonpic SPECIES_MEOWTH, 10, 3
+	showmonpic SPECIES_GARFEL, 10, 3
 	msgbox Text_Take_Starter1, MSGBOX_YESNO
 	hidemonpic
 	compare VAR_RESULT, NO
 	goto_if_eq Start_EventScript_Chose_Starter
-	givecustommon SPECIES_MEOWTH, 10, ITEM_NONE, ITEM_POKE_BALL, NATURE_JOLLY, 1, 0, 0, 0, 0, 0, 0, 15, 31, 15, 31, 15, 15, MOVE_FAKE_OUT, MOVE_SCRATCH, MOVE_HONE_CLAWS, MOVE_HYPNOSIS
+	givecustommon SPECIES_GARFEL, 10, ITEM_NONE, ITEM_POKE_BALL, NATURE_JOLLY, 1, 0, 0, 0, 0, 0, 0, 15, 31, 15, 31, 15, 15, MOVE_FAKE_OUT, MOVE_SCRATCH, MOVE_HONE_CLAWS, MOVE_HYPNOSIS
 	msgbox Text_Received_Starter1, MSGBOX_DEFAULT
 	setflag FLAG_SYS_POKEMON_GET
 	waitfanfare
@@ -998,10 +998,10 @@ Script_Give_Starter1::
 
 Text_Take_Starter1:
 	.string "Do you want the Scratch Cat Pokémon\n"
-	.string "Meowth?$"
+	.string "Garfel?$"
 
 Text_Received_Starter1:
-	.string "{PLAYER} received a Meowth!$"
+	.string "{PLAYER} received a Garfel!$"
 	
 //Slugma
 Script_Give_Starter2:

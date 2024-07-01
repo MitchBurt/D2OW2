@@ -363,13 +363,13 @@ const u8 DecorDesc_TOTODILE_DOLL[] = _(
         "Totodile. Ponlo en\n"
         "una mesa o tapete.");
 
-const u8 DecorDesc_JIGGLYPUFF_DOLL[] = _(
+const u8 DecorDesc_SNEDDIT_DOLL[] = _(
     "Muñeco de Jiggly-\n"
         "puff. Ponlo en una\n"
         "mesa o tapete.");
 
-const u8 DecorDesc_MEOWTH_DOLL[] = _(
-    "Muñeco de Meowth.\n"
+const u8 DecorDesc_GARFEL_DOLL[] = _(
+    "Muñeco de Garfel.\n"
         "Ponlo en una\n"
         "mesa o tapete.");
 
@@ -939,13 +939,13 @@ const u8 DecorDesc_TOTODILE_DOLL[] = _(
         "Place it on a mat\n"
         "or a desk.");
 
-const u8 DecorDesc_JIGGLYPUFF_DOLL[] = _(
-    "A Jigglypuff doll.\n"
+const u8 DecorDesc_SNEDDIT_DOLL[] = _(
+    "A Sneddit doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
-const u8 DecorDesc_MEOWTH_DOLL[] = _(
-    "A Meowth doll.\n"
+const u8 DecorDesc_GARFEL_DOLL[] = _(
+    "A Garfel doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 

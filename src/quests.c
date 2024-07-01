@@ -2130,8 +2130,8 @@ static void UnlockQuestMenu(void)
 				case SPECIES_TANGELA:
 				case SPECIES_MEWTWO:
 				case SPECIES_POLIWRATH:
-				case SPECIES_ZUBAT:
-				case SPECIES_GOLBAT:
+				case SPECIES_BATANARF:
+				case SPECIES_ANIVENOM:
 				case SPECIES_SPINDA:
 				case SPECIES_TORTERRA:
 				case SPECIES_HOPPIP:

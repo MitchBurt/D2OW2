@@ -195,57 +195,57 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x88,
         .y_offset = 3,
     },
-    [SPECIES_JIGGLYPUFF] =
+    [SPECIES_SNEDDIT] =
     {
         .size = 0x45,
         .y_offset = 14,
     },
-    [SPECIES_WIGGLYTUFF] =
+    [SPECIES_COSMIE] =
     {
         .size = 0x67,
         .y_offset = 4,
     },
-    [SPECIES_ZUBAT] =
+    [SPECIES_BATANARF] =
     {
         .size = 0x67,
         .y_offset = 16,
     },
-    [SPECIES_GOLBAT] =
+    [SPECIES_ANIVENOM] =
     {
         .size = 0x88,
         .y_offset = 7,
     },
-    [SPECIES_ODDISH] =
+    [SPECIES_BONGSTARD] =
     {
         .size = 0x45,
         .y_offset = 14,
     },
-    [SPECIES_GLOOM] =
+    [SPECIES_SMOGAS] =
     {
         .size = 0x66,
         .y_offset = 11,
     },
-    [SPECIES_VILEPLUME] =
+    [SPECIES_GANJAZE] =
     {
         .size = 0x77,
         .y_offset = 7,
     },
-    [SPECIES_PARAS] =
+    [SPECIES_GOOFSHRUM] =
     {
         .size = 0x55,
         .y_offset = 14,
     },
-    [SPECIES_PARASECT] =
+    [SPECIES_DUSHROOM] =
     {
         .size = 0x86,
         .y_offset = 7,
     },
-    [SPECIES_VENONAT] =
+    [SPECIES_ARAKETSU] =
     {
         .size = 0x66,
         .y_offset = 8,
     },
-    [SPECIES_VENOMOTH] =
+    [SPECIES_SENKETULA] =
     {
         .size = 0x88,
         .y_offset = 9,
@@ -255,17 +255,17 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x54,
         .y_offset = 17,
     },
-    [SPECIES_DUGTRIO] =
+    [SPECIES_GHOMA] =
     {
         .size = 0x75,
         .y_offset = 11,
     },
-    [SPECIES_MEOWTH] =
+    [SPECIES_GARFEL] =
     {
         .size = 0x55,
         .y_offset = 10,
     },
-    [SPECIES_PERSIAN] =
+    [SPECIES_GOREFIELD] =
     {
         .size = 0x77,
         .y_offset = 4,
@@ -4794,17 +4794,17 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x54,
         .y_offset = 17,
     },
-    [SPECIES_DUGTRIO_ALOLAN] =
+    [SPECIES_GHOMA_ALOLAN] =
     {
         .size = 0x75,
         .y_offset = 11,
     },
-    [SPECIES_MEOWTH_ALOLAN] =
+    [SPECIES_GARFEL_ALOLAN] =
     {
         .size = 0x55,
         .y_offset = 10,
     },
-    [SPECIES_PERSIAN_ALOLAN] =
+    [SPECIES_GOREFIELD_ALOLAN] =
     {
         .size = 0x77,
         .y_offset = 4,
@@ -4845,7 +4845,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .y_offset = 8,
     },
     // Galarian Forms
-    [SPECIES_MEOWTH_GALARIAN] =
+    [SPECIES_GARFEL_GALARIAN] =
     {
         .size = 0x66,
         .y_offset = 9,

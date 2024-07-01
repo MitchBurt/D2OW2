@@ -4981,32 +4981,32 @@ u16 getWonderTradePokemonFormID(u16 species)
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_DUGTRIO:
+		case SPECIES_GHOMA:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_DUGTRIO,
-					SPECIES_DUGTRIO_ALOLAN,
+					SPECIES_GHOMA,
+					SPECIES_GHOMA_ALOLAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_MEOWTH:
+		case SPECIES_GARFEL:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_MEOWTH,
-					SPECIES_MEOWTH_ALOLAN,
-					SPECIES_MEOWTH_GALARIAN,
+					SPECIES_GARFEL,
+					SPECIES_GARFEL_ALOLAN,
+					SPECIES_GARFEL_GALARIAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_PERSIAN:
+		case SPECIES_GOREFIELD:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_PERSIAN,
-					SPECIES_PERSIAN_ALOLAN,
+					SPECIES_GOREFIELD,
+					SPECIES_GOREFIELD_ALOLAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];

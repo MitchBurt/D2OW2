@@ -508,7 +508,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_MEOWTH"
+                "species": "SPECIES_GARFEL"
               },
               {
                 "min_level": 2,
@@ -523,7 +523,7 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_MEOWTH"
+                "species": "SPECIES_GARFEL"
               },
               {
                 "min_level": 4,
@@ -658,7 +658,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_MEOWTH_ALOLAN"
+                "species": "SPECIES_GARFEL_ALOLAN"
               },
               {
                 "min_level": 2,
@@ -673,7 +673,7 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_MEOWTH_ALOLAN"
+                "species": "SPECIES_GARFEL_ALOLAN"
               },
               {
                 "min_level": 4,
@@ -1717,7 +1717,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_MEOWTH"
+                "species": "SPECIES_GARFEL"
               },
               {
                 "min_level": 5,
@@ -1782,7 +1782,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_MEOWTH_GALARIAN"
+                "species": "SPECIES_GARFEL_GALARIAN"
               },
               {
                 "min_level": 5,
@@ -2110,12 +2110,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_VENONAT"
+                "species": "SPECIES_ARAKETSU"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_VENONAT"
+                "species": "SPECIES_ARAKETSU"
               }
             ]
           }
@@ -2229,7 +2229,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_ODDISH"
+                "species": "SPECIES_BONGSTARD"
               },
               {
                 "min_level": 5,
@@ -2314,7 +2314,7 @@
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_ODDISH"
+                "species": "SPECIES_BONGSTARD"
               },
               {
                 "min_level": 15,
@@ -2721,7 +2721,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_VENONAT"
+                "species": "SPECIES_ARAKETSU"
               },
               {
                 "min_level": 5,
@@ -2883,7 +2883,7 @@
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 8,
@@ -2952,7 +2952,7 @@
               {
                 "min_level": 9,
                 "max_level": 9,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 10,
@@ -3351,7 +3351,7 @@
               {
                 "min_level": 10,
                 "max_level": 10,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 11,
@@ -3539,7 +3539,7 @@
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 35,
@@ -3549,7 +3549,7 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_PARAS"
+                "species": "SPECIES_GOOFSHRUM"
               },
               {
                 "min_level": 35,
@@ -4520,7 +4520,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_ODDISH"
+                "species": "SPECIES_BONGSTARD"
               },
               {
                 "min_level": 27,
@@ -4674,7 +4674,7 @@
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_PARAS"
+                "species": "SPECIES_GOOFSHRUM"
               },
               {
                 "min_level": 28,
@@ -7025,7 +7025,7 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 31,
@@ -7094,7 +7094,7 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 31,
@@ -7302,22 +7302,22 @@
               {
                 "min_level": 5,
                 "max_level": 35,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               }
             ]
           },
@@ -7391,7 +7391,7 @@
               {
                 "min_level": 31,
                 "max_level": 31,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 32,
@@ -7698,7 +7698,7 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 31,
@@ -7767,7 +7767,7 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 31,
@@ -7836,17 +7836,17 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 31,
                 "max_level": 31,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 30,
@@ -7866,32 +7866,32 @@
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 34,
                 "max_level": 34,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 34,
                 "max_level": 34,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 36,
                 "max_level": 36,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               }
             ]
           }
@@ -7905,17 +7905,17 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 31,
                 "max_level": 31,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 30,
@@ -7935,32 +7935,32 @@
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 34,
                 "max_level": 34,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 34,
                 "max_level": 34,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 36,
                 "max_level": 36,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               }
             ]
           }
@@ -7974,17 +7974,17 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 31,
                 "max_level": 31,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 30,
@@ -8004,32 +8004,32 @@
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 34,
                 "max_level": 34,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 34,
                 "max_level": 34,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 36,
                 "max_level": 36,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               }
             ]
           }
@@ -8122,12 +8122,12 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_PARAS"
+                "species": "SPECIES_GOOFSHRUM"
               },
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_VENONAT"
+                "species": "SPECIES_ARAKETSU"
               },
               {
                 "min_level": 25,
@@ -8772,7 +8772,7 @@
               {
                 "min_level": 14,
                 "max_level": 18,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 17,
@@ -8807,7 +8807,7 @@
               {
                 "min_level": 14,
                 "max_level": 14,
-                "species": "SPECIES_PARAS"
+                "species": "SPECIES_GOOFSHRUM"
               },
               {
                 "min_level": 19,
@@ -8837,7 +8837,7 @@
               {
                 "min_level": 5,
                 "max_level": 35,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 30,
@@ -8946,7 +8946,7 @@
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 35,
@@ -9011,7 +9011,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 30,
@@ -9120,7 +9120,7 @@
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 35,
@@ -9150,12 +9150,12 @@
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_PARAS"
+                "species": "SPECIES_GOOFSHRUM"
               },
               {
                 "min_level": 39,
                 "max_level": 39,
-                "species": "SPECIES_PARAS"
+                "species": "SPECIES_GOOFSHRUM"
               },
               {
                 "min_level": 38,
@@ -9185,12 +9185,12 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 25,
@@ -9656,7 +9656,7 @@
               {
                 "min_level": 5,
                 "max_level": 35,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 25,
@@ -10619,7 +10619,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_VENONAT"
+                "species": "SPECIES_ARAKETSU"
               },
               {
                 "min_level": 5,
@@ -10704,7 +10704,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_VENONAT"
+                "species": "SPECIES_ARAKETSU"
               },
               {
                 "min_level": 5,
@@ -10733,12 +10733,12 @@
               {
                 "min_level": 34,
                 "max_level": 34,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 34,
@@ -10802,12 +10802,12 @@
               {
                 "min_level": 34,
                 "max_level": 34,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 34,
@@ -12135,7 +12135,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 23,
@@ -12284,7 +12284,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 23,
@@ -12349,7 +12349,7 @@
               {
                 "min_level": 5,
                 "max_level": 35,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 10,
@@ -12433,7 +12433,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 23,
@@ -13678,7 +13678,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 5,
@@ -13936,7 +13936,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_JIGGLYPUFF"
+                "species": "SPECIES_SNEDDIT"
               },
               {
                 "min_level": 5,
@@ -13995,7 +13995,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_VENONAT"
+                "species": "SPECIES_ARAKETSU"
               },
               {
                 "min_level": 5,
@@ -14055,12 +14055,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_ODDISH"
+                "species": "SPECIES_BONGSTARD"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_VENONAT"
+                "species": "SPECIES_ARAKETSU"
               },
               {
                 "min_level": 5,
@@ -14282,7 +14282,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_ODDISH"
+                "species": "SPECIES_BONGSTARD"
               },
               {
                 "min_level": 5,
@@ -14715,7 +14715,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_MEOWTH"
+                "species": "SPECIES_GARFEL"
               },
               {
                 "min_level": 5,
@@ -14895,7 +14895,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_MEOWTH"
+                "species": "SPECIES_GARFEL"
               },
               {
                 "min_level": 5,
@@ -15083,7 +15083,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 5,
@@ -15257,7 +15257,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 5,
@@ -15431,7 +15431,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 5,
@@ -15793,7 +15793,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_MEOWTH_ALOLAN"
+                "species": "SPECIES_GARFEL_ALOLAN"
               },
               {
                 "min_level": 5,
@@ -15952,7 +15952,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_MEOWTH_ALOLAN"
+                "species": "SPECIES_GARFEL_ALOLAN"
               },
               {
                 "min_level": 5,
@@ -16537,12 +16537,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 5,
@@ -16557,7 +16557,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 5,
@@ -16567,7 +16567,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 5,
@@ -16591,12 +16591,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_ODDISH"
+                "species": "SPECIES_BONGSTARD"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_MEOWTH_ALOLAN"
+                "species": "SPECIES_GARFEL_ALOLAN"
               },
               {
                 "min_level": 5,
@@ -16770,7 +16770,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_PARAS"
+                "species": "SPECIES_GOOFSHRUM"
               },
               {
                 "min_level": 5,
@@ -16944,7 +16944,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_VENONAT"
+                "species": "SPECIES_ARAKETSU"
               },
               {
                 "min_level": 5,
@@ -17158,7 +17158,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 5,
@@ -17411,7 +17411,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 5,
@@ -17570,7 +17570,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BATANARF"
               },
               {
                 "min_level": 5,
