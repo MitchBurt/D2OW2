@@ -10,8 +10,8 @@ Route2_EventScript_RouteSign:: @ 8167F65
 	msgbox Route2_Text_RouteSign, MSGBOX_SIGN
 	end
 
-Route2_EventScript_NononmonsCaveSign:: @ 8167F6E
-	msgbox Route2_Text_NononmonsCave, MSGBOX_SIGN
+Route2_EventScript_DiglettsCaveSign:: @ 8167F6E
+	msgbox Route2_Text_DiglettsCave, MSGBOX_SIGN
 	end
 	
 Route2_EventScript_DancingBoy::
@@ -32,8 +32,8 @@ Route2_Text_RouteSign:: @ 818345E
     .string "Route 2\n"
     .string "Viridian City - Pewter City$"
 
-Route2_Text_NononmonsCave:: @ 8183482
-    .string "Nononmon's Cave$"
+Route2_Text_DiglettsCave:: @ 8183482
+    .string "Diglett's Cave$"
 	
 Route2_Text_ClosedDoor:: @ 8183482
     .string "The door is closed$"

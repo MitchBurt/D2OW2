@@ -79,7 +79,7 @@ static u32 GetNumRegisteredNPCs(void);
 static u32 GetActiveMatchCallTrainerId(u32);
 static int GetTrainerMatchCallId(int);
 static u16 GetRematchTrainerLocation(int);
-static bool32 TrainerIsElipichuForRematch(int);
+static bool32 TrainerIsEligibleForRematch(int);
 static void StartMatchCall(void);
 static void ExecuteMatchCall(u8);
 static void DrawMatchCallTextBoxBorder(u32, u32, u32);
@@ -1050,7 +1050,7 @@ static bool32 SelectMatchCallTrainer(void)
         return FALSE;
 
     matchCallId = GetTrainerMatchCallId(gMatchCallState.trainerId);
-    if (GetRematchTrainerLocation(matchCallId) == gMapHeader.regionMapSectionId && !TrainerIsElipichuForRematch(matchCallId))
+    if (GetRematchTrainerLocation(matchCallId) == gMapHeader.regionMapSectionId && !TrainerIsEligibleForRematch(matchCallId))
         return FALSE;
 
     return TRUE;
@@ -1369,7 +1369,7 @@ static void sub_8196694(u8 taskId)
     }
 }
 
-static bool32 TrainerIsElipichuForRematch(int matchCallId)
+static bool32 TrainerIsEligibleForRematch(int matchCallId)
 {
     return gSaveBlock1Ptr->trainerRematches[matchCallId] > 0;
 }
@@ -1418,7 +1418,7 @@ bool32 SelectMatchCallMessage(int trainerId, u8 *str)
 
     matchCallId = GetTrainerMatchCallId(trainerId);
     gBattleFrontierStreakInfo.facilityId = 0;
-    if (TrainerIsElipichuForRematch(matchCallId)
+    if (TrainerIsEligibleForRematch(matchCallId)
      && GetRematchTrainerLocation(matchCallId) == gMapHeader.regionMapSectionId)
     {
         matchCallText = GetSameRouteMatchCallText(matchCallId, str);

@@ -1239,12 +1239,12 @@ static void CreateDexNavWildMon(u16 species, u8 potential, u8 level, u8 abilityN
 	u8 iv[6] = {0,0,0,0,0,0};
     if (DexNavTryMakeShinyMon()     && 
 		species != SPECIES_AUDINO   &&
-		species != SPECIES_GARFEL   &&
-		species != SPECIES_GOREFIELD  &&
+		species != SPECIES_MEOWTH   &&
+		species != SPECIES_PERSIAN  &&
 		species != SPECIES_SKITTY   &&
 		species != SPECIES_DELCATTY &&
 		species != SPECIES_HAPPINY  &&
-		species != SPECIES_UNJOY  &&
+		species != SPECIES_CHANSEY  &&
 		species != SPECIES_BLISSEY) {
 		FlagSet(FLAG_SHINY_CREATION); // just easier this way
         VarSet(VAR_DEXNAV_CHAIN, 0);

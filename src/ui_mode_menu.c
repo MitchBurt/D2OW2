@@ -148,7 +148,7 @@ EWRAM_DATA static bool8 Mode_Selection 			  = FALSE;
 EWRAM_DATA static u8 StarterSpriteId = 0;
 
 static const u16 StarterPokemon[] = {
-	SPECIES_GARFEL,
+	SPECIES_MEOWTH,
 	SPECIES_SLUGMA,
 	SPECIES_BARBOACH,
 	SPECIES_KRICKETOT,

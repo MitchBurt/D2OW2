@@ -1,9 +1,9 @@
 {
-  "id": "MAP_NONONMONS_CAVE_NORTH_ENTRANCE",
-  "name": "NononmonsCave_NorthEntrance",
-  "layout": "LAYOUT_NONONMONS_CAVE_NORTH_ENTRANCE",
+  "id": "MAP_DIGLETTS_CAVE_NORTH_ENTRANCE",
+  "name": "DiglettsCave_NorthEntrance",
+  "layout": "LAYOUT_DIGLETTS_CAVE_NORTH_ENTRANCE",
   "music": "MUS_RG_VIRIDIAN_FOREST",
-  "region_map_section": "MAPSEC_NONONMONS_CAVE",
+  "region_map_section": "MAPSEC_DIGLETTS_CAVE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_UNDERGROUND",

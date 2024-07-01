@@ -1,5 +1,5 @@
-gTrickHouse_Mechadoll_Bongstard:: @ 27ECBC
-	.string "Bongstard$"
+gTrickHouse_Mechadoll_Oddish:: @ 27ECBC
+	.string "Oddish$"
 
 gTrickHouse_Mechadoll_Poochyena:: @ 27ECC3
 	.string "Poochyena$"
@@ -19,8 +19,8 @@ gTrickHouse_Mechadoll_Wingull:: @ 27ECE3
 gTrickHouse_Mechadoll_Dustox:: @ 27ECEB
 	.string "Dustox$"
 
-gTrickHouse_Mechadoll_Batanarf:: @ 27ECF2
-	.string "Batanarf$"
+gTrickHouse_Mechadoll_Zubat:: @ 27ECF2
+	.string "Zubat$"
 
 gTrickHouse_Mechadoll_Nincada:: @ 27ECF8
 	.string "Nincada$"
@@ -46,8 +46,8 @@ gTrickHouse_Mechadoll_Zigzagoon2:: @ 27ED2C
 gTrickHouse_Mechadoll_Poochyena3:: @ 27ED36
 	.string "Poochyena$"
 
-gTrickHouse_Mechadoll_Batanarf2:: @ 27ED40
-	.string "Batanarf$"
+gTrickHouse_Mechadoll_Zubat2:: @ 27ED40
+	.string "Zubat$"
 
 gTrickHouse_Mechadoll_Carvanha:: @ 27ED46
 	.string "Carvanha$"

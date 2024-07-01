@@ -467,7 +467,7 @@ DewfordTown_Hall_EventScript_SassyMint::
 //Lonely
 DewfordTown_Hall_EventScript_TimidMint::
 	msgbox Route114_FossilManiacsTunnel_Text_HereYoGo, MSGBOX_DEFAULT
-	giveitem ITEM_ENDMYSUFFIZER
+	giveitem ITEM_MAGMARIZER
 	setflag FLAG_DAILY_EVOLUTION_ITEM
 	waitfanfare
 	msgbox DewfordTown_Hall_Text_LoveMintsButTrendInToo, MSGBOX_DEFAULT
@@ -779,7 +779,7 @@ script DewfordTown_Hall_EventScript_EvolutionManiac{
 			case 14:
 				giveitem(ITEM_KINGS_ROCK)
 			case 15:
-				giveitem(ITEM_ENDMYSUFFIZER)
+				giveitem(ITEM_MAGMARIZER)
 			case 16:
 				giveitem(ITEM_OVAL_STONE)
 			case 17:

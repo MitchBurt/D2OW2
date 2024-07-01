@@ -35,7 +35,7 @@ ShoalCave_LowTideEntranceRoom_Text_ExplainShellBell: @ 82A8012
 	.string "so I can make you more.$"
 	
 ShoalCave_LowTideEntranceRoom_Text_ExplainMegaStone:
-	.string "Have a Normal Shemue hold it.\n"
+	.string "Have a Normal Slowbro hold it.\n"
 	.string "It'll love it, that's for certain.\p"
 	.string "Why, this item will make it evolve\n"
 	.string "It's simply sublime!\p"
@@ -46,7 +46,7 @@ ShoalCave_LowTideEntranceRoom_Text_WantedToMakeShellBell: @ 82A80C6
 	.string "Oh… Is that so…\n"
 	.string "I wanted to make a Shell Bell…$"
 	
-ShoalCave_LowTideEntranceRoom_Text_WantedToGiveShemueite:
+ShoalCave_LowTideEntranceRoom_Text_WantedToGiveSlowbroite:
 	.string "Oh… Is that so…\n"
 	.string "I wanted to give you a Mega Stone…$"
 

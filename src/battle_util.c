@@ -2809,7 +2809,7 @@ bool8 HandleWishPerishSongOnTurnEnd(void)
         // fall through
     case 2:
         if ((gBattleTypeFlags & BATTLE_TYPE_ARENA)
-         && gBattleStruct->arepuckidrnCounter == 2
+         && gBattleStruct->arenaTurnCounter == 2
          && gBattleMons[0].hp != 0 && gBattleMons[1].hp != 0)
         {
             s32 i;
@@ -7928,7 +7928,7 @@ static u16 CalcMoveBasePower(u16 move, u8 battlerAtk, u8 battlerDef)
                 basePower = sTrumpCardPowerTable[i];
         }
         break;
-    case EFFECT_ALUISICS:
+    case EFFECT_ACROBATICS:
         if (gBattleMons[battlerAtk].item == ITEM_NONE
             // Edge case, because removal of items happens after damage calculation.
             || (gSpecialStatuses[battlerAtk].gemBoost && GetBattlerHoldEffect(battlerAtk, FALSE) == HOLD_EFFECT_GEMS))
@@ -7963,7 +7963,7 @@ static u16 CalcMoveBasePower(u16 move, u8 battlerAtk, u8 battlerDef)
         basePower += (CountBattlerStatIncreases(battlerAtk, TRUE) * 20);
         break;
     case EFFECT_ELECTRO_BALL:
-		if(gBattleMons[battlerAtk].species != SPECIES_ENDERMON){
+		if(gBattleMons[battlerAtk].species != SPECIES_ELECTRODE){
         speed = GetBattlerTotalSpeedStat(battlerAtk) / GetBattlerTotalSpeedStat(battlerDef);
         if (speed >= ARRAY_COUNT(sSpeedDiffPowerTable))
             speed = ARRAY_COUNT(sSpeedDiffPowerTable) - 1;
@@ -8019,7 +8019,7 @@ static u16 CalcMoveBasePower(u16 move, u8 battlerAtk, u8 battlerDef)
 
     //For Special Cases
     switch(speciesId){
-        case SPECIES_RICKLE:
+        case SPECIES_TYPHLOSION:
             if(60 > basePower)
                 basePower = 60;
         break;
@@ -8564,7 +8564,7 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
     switch (GetBattlerHoldEffect(battlerAtk, TRUE))
     {
     case HOLD_EFFECT_THICK_CLUB:
-        if ((gBattleMons[battlerAtk].species == SPECIES_SURBSQUACH || gBattleMons[battlerAtk].species == SPECIES_AMAZULK) && IS_BATTLER_MOVE_PHYSICAL(move, battlerAtk) && !(FlagGet(FLAG_LEVELESS_MODE) && FlagGet(FLAG_NO_EVOLUTION_MODE)))
+        if ((gBattleMons[battlerAtk].species == SPECIES_CUBONE || gBattleMons[battlerAtk].species == SPECIES_MAROWAK) && IS_BATTLER_MOVE_PHYSICAL(move, battlerAtk) && !(FlagGet(FLAG_LEVELESS_MODE) && FlagGet(FLAG_NO_EVOLUTION_MODE)))
             MulModifier(&modifier, UQ_4_12(2.0));
         break;
     case HOLD_EFFECT_DEEP_SEA_TOOTH:
@@ -8807,7 +8807,7 @@ static u32 CalcDefenseStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, 
             MulModifier(&modifier, UQ_4_12(1.5));
         break;
     case HOLD_EFFECT_METAL_POWDER:
-        if (gBattleMons[battlerDef].species == SPECIES_NYANKAT && usesDefStat)
+        if (gBattleMons[battlerDef].species == SPECIES_DITTO && usesDefStat)
             MulModifier(&modifier, UQ_4_12(1.5));
         else if (gBattleMons[battlerDef].status2 & STATUS2_TRANSFORMED && usesDefStat)
             MulModifier(&modifier, UQ_4_12(1.25));

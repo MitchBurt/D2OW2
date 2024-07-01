@@ -16,7 +16,7 @@ EventScript_EndUseSurf:: @ 8271ED6
 	end
 
 EventScript_ExploudSurf::
-	setvar VAR_0x8004, SPECIES_JEBONY
+	setvar VAR_0x8004, SPECIES_LAPRAS
 	setvar VAR_0x8008, MOVE_SURF
 	setvar VAR_0x8009, 1
 	bufferspeciesname 0, VAR_0x8004	

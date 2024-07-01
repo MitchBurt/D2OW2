@@ -2642,7 +2642,7 @@ bool8 FldEff_FieldMoveShowMonInit(void)
             gFieldEffectArguments[0] = SPECIES_BEWEAR;
             break;
         case MOVE_SURF:
-            gFieldEffectArguments[0] = SPECIES_JEBONY;
+            gFieldEffectArguments[0] = SPECIES_LAPRAS;
             break;
         case MOVE_DIVE:
             gFieldEffectArguments[0] = SPECIES_WAILMER;

@@ -16,12 +16,12 @@ ThreeIsland_EventScript_LittleBoy:: @ 8167C80
 	msgbox ThreeIsland_Text_WhenDodouEvolvesGoingToPlayGame, MSGBOX_NPC
 	end
 
-ThreeIsland_EventScript_Divini:: @ 8167C89
+ThreeIsland_EventScript_Doduo:: @ 8167C89
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_PARANGELIA, 0
-	msgbox ThreeIsland_Text_Divini
+	playmoncry SPECIES_DODRIO, 0
+	msgbox ThreeIsland_Text_Doduo
 	waitmoncry
 	release
 	end
@@ -193,12 +193,12 @@ ThreeIsland_Text_WouldntWantToSeeBikersHereAgain:: @ 81828EB
     .string "like those Bikers here again.$"
 
 ThreeIsland_Text_WhenDodouEvolvesGoingToPlayGame:: @ 818298A
-    .string "After training my Divini in the\n"
+    .string "After training my Doduo in the\n"
     .string "Berry Forest it evolved!\p"
     .string "I will go to Two Island and play\n"
     .string "a game when I get there.$"
 
-ThreeIsland_Text_Divini:: @ 81829F4
-    .string "Parangelia: Gigiih!$"
+ThreeIsland_Text_Doduo:: @ 81829F4
+    .string "Dodrio: Gigiih!$"
 
 `

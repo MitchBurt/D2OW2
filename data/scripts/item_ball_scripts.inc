@@ -722,12 +722,12 @@ MegaStone_EventScript_ItemSkorpyrosite_X::
 	addscaleditem ITEM_SKORPYROSITE_X
 	end
 	
-MegaStone_EventScript_ItemSansite::
-	addscaleditem ITEM_SANSITE
+MegaStone_EventScript_ItemGengarite::
+	addscaleditem ITEM_GENGARITE
 	end
 	
-MegaStone_EventScript_ItemKrollerite::
-	addscaleditem ITEM_KROLLERITE
+MegaStone_EventScript_ItemGyaradosite::
+	addscaleditem ITEM_GYARADOSITE
 	end
 	
 MegaStone_EventScript_ItemManectricite::
@@ -758,8 +758,8 @@ MegaStone_EventScript_Absolite::
 	addscaleditem ITEM_ABSOLITE
 	end	
 
-MegaStone_EventScript_Itrimidite::
-	addscaleditem ITEM_ITRIMIDITE
+MegaStone_EventScript_Pinsirite::
+	addscaleditem ITEM_PINSIRITE
 	end	
 	
 MegaStone_EventScript_Scizorite::
@@ -774,8 +774,8 @@ MegaStone_EventScript_Alakazite::
 	addscaleditem ITEM_ALAKAZITE
 	end
 	
-MegaStone_EventScript_Godnite_Y::
-	addscaleditem ITEM_GODNITE_Y
+MegaStone_EventScript_Mewtwonite_Y::
+	addscaleditem ITEM_MEWTWONITE_Y
 	end	
 	
 PrimevalForest_EventScript_ItemGrassKnot::

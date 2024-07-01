@@ -4512,24 +4512,24 @@
       "blockdata_filepath": "data/layouts/SeafoamIslands_B4F/map.bin"
     },
     {
-      "id": "LAYOUT_NONONMONS_CAVE_NORTH_ENTRANCE",
-      "name": "NononmonsCave_NorthEntrance_Layout",
+      "id": "LAYOUT_DIGLETTS_CAVE_NORTH_ENTRANCE",
+      "name": "DiglettsCave_NorthEntrance_Layout",
       "width": 10,
       "height": 8,
       "primary_tileset": "gTileset_General_FRLG",
       "secondary_tileset": "gTileset_Digglets_Cave",
-      "border_filepath": "data/layouts/NononmonsCave_NorthEntrance/border.bin",
-      "blockdata_filepath": "data/layouts/NononmonsCave_NorthEntrance/map.bin"
+      "border_filepath": "data/layouts/DiglettsCave_NorthEntrance/border.bin",
+      "blockdata_filepath": "data/layouts/DiglettsCave_NorthEntrance/map.bin"
     },
     {
-      "id": "LAYOUT_NONONMONS_CAVE_SOUTH_ENTRANCE",
-      "name": "NononmonsCave_SouthEntrance_Layout",
+      "id": "LAYOUT_DIGLETTS_CAVE_SOUTH_ENTRANCE",
+      "name": "DiglettsCave_SouthEntrance_Layout",
       "width": 10,
       "height": 8,
       "primary_tileset": "gTileset_General_FRLG",
       "secondary_tileset": "gTileset_Digglets_Cave",
-      "border_filepath": "data/layouts/NononmonsCave_SouthEntrance/border.bin",
-      "blockdata_filepath": "data/layouts/NononmonsCave_SouthEntrance/map.bin"
+      "border_filepath": "data/layouts/DiglettsCave_SouthEntrance/border.bin",
+      "blockdata_filepath": "data/layouts/DiglettsCave_SouthEntrance/map.bin"
     },
     {
       "id": "LAYOUT_MT_MOON_B1F",

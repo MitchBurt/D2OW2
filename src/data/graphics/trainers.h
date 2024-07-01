@@ -193,8 +193,8 @@ const u16 gTrainerPalette_NinjaBoy[] = INCBIN_U16("graphics/trainers/palettes/ni
 const u32 gTrainerFrontPic_BattleGirl[] = INCBIN_U32("graphics/trainers/front_pics/battle_girl_front_pic.4bpp.lz");
 const u16 gTrainerPalette_BattleGirl[] = INCBIN_U16("graphics/trainers/palettes/battle_girl.gbapal");
 
-const u32 gTrainerFrontPic_GoofshrumolLady[] = INCBIN_U32("graphics/trainers/front_pics/goofshrumol_lady_front_pic.4bpp.lz");
-const u16 gTrainerPalette_GoofshrumolLady[] = INCBIN_U16("graphics/trainers/palettes/goofshrumol_lady.gbapal");
+const u32 gTrainerFrontPic_ParasolLady[] = INCBIN_U32("graphics/trainers/front_pics/parasol_lady_front_pic.4bpp.lz");
+const u16 gTrainerPalette_ParasolLady[] = INCBIN_U16("graphics/trainers/palettes/parasol_lady.gbapal");
 
 const u32 gTrainerFrontPic_SwimmerF[] = INCBIN_U32("graphics/trainers/front_pics/swimmer_f_front_pic.4bpp.lz");
 const u16 gTrainerPalette_SwimmerF[] = INCBIN_U16("graphics/trainers/palettes/swimmer_f.gbapal");

@@ -453,7 +453,7 @@
 #define MUS_RG_GAME_CORNER            439 // MUS_RG_SLOT
 #define MUS_RG_ROCKET_HIDEOUT         440 // MUS_RG_AJITO
 #define MUS_RG_GYM                    441 // MUS_RG_GYM
-#define MUS_RG_SNEDDIT             442 // MUS_RG_PURIN
+#define MUS_RG_JIGGLYPUFF             442 // MUS_RG_PURIN
 #define MUS_RG_INTRO_FIGHT            443 // MUS_RG_DEMO
 #define MUS_RG_TITLE                  444 // MUS_RG_TITLE
 #define MUS_RG_CINNABAR               445 // MUS_RG_GUREN
@@ -517,7 +517,7 @@
 #define MUS_RG_SEVII_67               503 // MUS_RG_NANA67
 #define MUS_RG_POKE_FLUTE             504 // MUS_RG_POKEFUE
 #define MUS_RG_VS_DEOXYS              505 // MUS_RG_VS_DEO
-#define MUS_RG_VS_GOD              506 // MUS_RG_VS_MYU2
+#define MUS_RG_VS_MEWTWO              506 // MUS_RG_VS_MYU2
 #define MUS_RG_VS_LEGEND              507 // MUS_RG_VS_DEN
 #define MUS_RG_ENCOUNTER_GYM_LEADER   508 // MUS_RG_EXEYE
 #define MUS_RG_ENCOUNTER_DEOXYS       509 // MUS_RG_DEOEYE
@@ -550,8 +550,8 @@
 #define DP_SEQ_TITLE00                531 // Opening Movie (Part 1)
 #define DP_SEQ_TITLE01                532 // Opening Movie (Part 2)
 #define DP_SEQ_OPENING                533 // Introduction
-#define DP_SEQ_TV_HOUSOU              534 // Special Report "Search for the Red Kroller!" (Part 1)
-#define DP_SEQ_TV_END                 535 // Special Report "Search for the Red Kroller!" (Part 2)
+#define DP_SEQ_TV_HOUSOU              534 // Special Report "Search for the Red Gyarados!" (Part 1)
+#define DP_SEQ_TV_END                 535 // Special Report "Search for the Red Gyarados!" (Part 2)
 #define DP_SEQ_TOWN01_D               536 // Twinleaf Town (Day)
 #define DP_SEQ_TOWN01_N               537 // Twinleaf Town (Night)
 #define DP_SEQ_THE_RIV                538 // Rival
@@ -792,8 +792,8 @@
 #define HG_SEQ_ME_WAZA                769 // Received a TM!
 #define HG_SEQ_GS_GAME                770 // Goldenrod Game Corner
 #define HG_SEQ_GS_GAMEATARI           771 // You're a Winner!
-#define HG_SEQ_ME_CARDGAME1           772 // Awmane Flip: Is this what you're expecting?!
-#define HG_SEQ_ME_CARDGAME2           773 // Awmane Flip: Game Over
+#define HG_SEQ_ME_CARDGAME1           772 // Voltorb Flip: Is this what you're expecting?!
+#define HG_SEQ_ME_CARDGAME2           773 // Voltorb Flip: Game Over
 #define HG_SEQ_ME_ACCE                774 // Obtained an Accessory
 #define HG_SEQ_GS_WIFITOWER           775 // Global Terminal
 #define HG_SEQ_GS_BLD_GTC             776 // GTS

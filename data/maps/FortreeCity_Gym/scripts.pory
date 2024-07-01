@@ -93,12 +93,12 @@ FortreeCity_Gym_EventScript_Start_Rematch_2::
 	
 FortreeCity_Gym_EventScript_Start_Rematch_3::
 	goto_if_unset FLAG_RECEIVED_TM42 FortreeCity_Gym_EventScript_Start_Rematch_Party_2
-	checkitem ITEM_TM62_ALUISICS, 1
+	checkitem ITEM_TM62_ACROBATICS, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq FortreeCity_Gym_EventScript_Start_Rematch_4
 	trainerbattle_no_intro TRAINER_WINONA_3, FortreeCity_Gym_Text_WinonaRematchDefeat
 	msgbox FortreeCity_Gym_Text_GetTM, MSGBOX_DEFAULT
-	giveitem ITEM_TM62_ALUISICS
+	giveitem ITEM_TM62_ACROBATICS
 	goto FortreeCity_Gym_EventScript_WinonaRematchEnd
 	end
 	
@@ -748,9 +748,9 @@ script FortreeCity_Gym_EventScript_Winona_Give_Gifts{
 	}
 
 	//Give Fly
-	checkitem(ITEM_TM62_ALUISICS, 1)
+	checkitem(ITEM_TM62_ACROBATICS, 1)
 	if(var(VAR_NUM_BADGES) >= 4 && var(VAR_RESULT) == FALSE){
-		giveitem(ITEM_TM62_ALUISICS)
+		giveitem(ITEM_TM62_ACROBATICS)
 		msgbox(format("Winona: This move inflicts double the damage if its used by a Pokémon without a held item."), MSGBOX_NPC)
 		setflag(FLAG_TEMP_9) //To check if you have been given multiple items
 	}

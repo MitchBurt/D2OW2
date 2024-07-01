@@ -310,7 +310,7 @@ const union AnimCmd *const gUnknown_082FF70C[] =
 
 const bool8 SpeciesHasGenderDifference[NUM_SPECIES] =
 {
-    [SPECIES_EEMOJEE] = TRUE,
+    [SPECIES_EEVEE] = TRUE,
     //[SPECIES_STARLY] = TRUE,
     //[SPECIES_STARAVIA] = TRUE,
     //[SPECIES_STARAPTOR] = TRUE,

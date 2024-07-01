@@ -21,7 +21,7 @@ ShoalCave_LowTideEntranceRoom_EventScript_ShellBellExpert:: @ 8236DD9
 	lock
 	faceplayer
 	goto_if_set FLAG_TEMP_1, ShoalCave_LowTideEntranceRoom_EventScript_Take_Good_Care
-	goto_if_unset FLAG_GOT_SHEMUEITE, ShoalCave_LowTideEntranceRoom_EventScript_ShellBellExpert_MegaStone
+	goto_if_unset FLAG_GOT_SLOWBROITE, ShoalCave_LowTideEntranceRoom_EventScript_ShellBellExpert_MegaStone
 	goto_if_set FLAG_RECEIVED_SHELL_BELL, ShoalCave_LowTideEntranceRoom_EventScript_Take_Good_Care
 	msgbox ShoalCave_LowTideEntranceRoom_Text_ShellBell, MSGBOX_DEFAULT
 	giveitem ITEM_SHELL_BELL
@@ -32,9 +32,9 @@ ShoalCave_LowTideEntranceRoom_EventScript_ShellBellExpert:: @ 8236DD9
 	
 ShoalCave_LowTideEntranceRoom_EventScript_ShellBellExpert_MegaStone::	
 	goto_if_unset FLAG_RECEIVED_BADGE_07, ShoalCave_LowTideEntranceRoom_EventScript_ShellBellExpert_2
-	msgbox ShoalCave_LowTideEntranceRoom_Text_Shemueite, MSGBOX_DEFAULT
-	giveitem ITEM_SHEMUENITE
-	setflag FLAG_GOT_SHEMUEITE
+	msgbox ShoalCave_LowTideEntranceRoom_Text_Slowbroite, MSGBOX_DEFAULT
+	giveitem ITEM_SLOWBRONITE
+	setflag FLAG_GOT_SLOWBROITE
 	setflag FLAG_TEMP_1
 	goto ShoalCave_LowTideEntranceRoom_EventScript_Take_Good_Care
 	end
@@ -60,7 +60,7 @@ ShoalCave_LowTideEntranceRoom_Text_ShellBell: @ 822056D
 	.string "Shells I only have one Shell Bell left,\l"
 	.string "I want you to take it, Here you go!$"
 	
-ShoalCave_LowTideEntranceRoom_Text_Shemueite: @ 822056D
+ShoalCave_LowTideEntranceRoom_Text_Slowbroite: @ 822056D
 	.string "I found this strange stone further into\n"
 	.string "this cave, it is really heavy for my\l"
 	.string "old bones to carry so please take it.$"
@@ -106,7 +106,7 @@ ShoalCave_LowTideEntranceRoom_EventScript_NotEnoughShoalSaltOrShells:: @ 8236E9B
 	end
 
 ShoalCave_LowTideEntranceRoom_EventScript_HasSomeShoalSaltOrShell:: @ 8236EC5
-	call_if_unset FLAG_GOT_SHEMUEITE, ShoalCave_LowTideEntranceRoom_EventScript_HasSomeShoalSaltOrShell_Megastone
+	call_if_unset FLAG_GOT_SLOWBROITE, ShoalCave_LowTideEntranceRoom_EventScript_HasSomeShoalSaltOrShell_Megastone
 	msgbox ShoalCave_LowTideEntranceRoom_Text_BringMe4ShoalSaltAndShells, MSGBOX_DEFAULT
 	release
 	end
@@ -117,13 +117,13 @@ ShoalCave_LowTideEntranceRoom_EventScript_HasSomeShoalSaltOrShell_Megastone::
 	end
 
 ShoalCave_LowTideEntranceRoom_EventScript_DeclineShellBell:: @ 8236ECF
-	call_if_unset FLAG_GOT_SHEMUEITE, ShoalCave_LowTideEntranceRoom_EventScript_DeclineMegaStone
+	call_if_unset FLAG_GOT_SLOWBROITE, ShoalCave_LowTideEntranceRoom_EventScript_DeclineMegaStone
 	msgbox ShoalCave_LowTideEntranceRoom_Text_WantedToMakeShellBell, MSGBOX_DEFAULT
 	release
 	end
 	
 ShoalCave_LowTideEntranceRoom_EventScript_DeclineMegaStone::
-	msgbox ShoalCave_LowTideEntranceRoom_Text_WantedToGiveShemueite, MSGBOX_DEFAULT
+	msgbox ShoalCave_LowTideEntranceRoom_Text_WantedToGiveSlowbroite, MSGBOX_DEFAULT
 	release
 	end
 

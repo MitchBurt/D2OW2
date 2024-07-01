@@ -369,7 +369,7 @@ static const struct SideQuest sSideQuests[SIDE_QUEST_COUNT] =
     side_quest(gText_SideQuestName_5,  gText_SideQuestDesc_5,  ITEM_SWAMPERTITE		, 1, 	gText_SideQuestHint_5,  FLAG_ACHIEVEMENT_REWARD_05),
     side_quest(gText_SideQuestName_6,  gText_SideQuestDesc_6,  ITEM_LATIOSITE		, 1, 	gText_SideQuestHint_6,  FLAG_ACHIEVEMENT_REWARD_06),
     side_quest(gText_SideQuestName_7,  gText_SideQuestDesc_7,  ITEM_ALAKAZITE		, 1, 	gText_SideQuestHint_7,  FLAG_ACHIEVEMENT_REWARD_07),
-    side_quest(gText_SideQuestName_8,  gText_SideQuestDesc_8,  ITEM_USARMYITE	, 1, 	gText_SideQuestHint_8,  FLAG_ACHIEVEMENT_REWARD_08),
+    side_quest(gText_SideQuestName_8,  gText_SideQuestDesc_8,  ITEM_AERODACTYLITE	, 1, 	gText_SideQuestHint_8,  FLAG_ACHIEVEMENT_REWARD_08),
     side_quest(gText_SideQuestName_9,  gText_SideQuestDesc_9,  ITEM_SOOTHE_BELL		, 6, 	gText_SideQuestHint_9,  FLAG_ACHIEVEMENT_REWARD_09),
     side_quest(gText_SideQuestName_10, gText_SideQuestDesc_10, ITEM_RARE_CANDY		, 10, 	gText_SideQuestHint_10, FLAG_ACHIEVEMENT_REWARD_10),
     side_quest(gText_SideQuestName_11, gText_SideQuestDesc_11, ITEM_JOLLY_MINT		, 6, 	gText_SideQuestHint_11, FLAG_ACHIEVEMENT_REWARD_11),
@@ -1995,11 +1995,11 @@ static void UnlockQuestMenu(void)
 	//Achievement 8
 	//Unlocked after you have 1 fossil marked as caught
 	//Completed after you have all the fossils marked as caught
-	if(	GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ATTACO), 	FLAG_GET_CAUGHT)	||
-		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_GAISER), 	FLAG_GET_CAUGHT)	||
-		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_CORORK), 		FLAG_GET_CAUGHT)	||
-		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_BIGOBEET), 	FLAG_GET_CAUGHT)	||
-		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_USARMY), 	FLAG_GET_CAUGHT)	||
+	if(	GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_OMANYTE), 	FLAG_GET_CAUGHT)	||
+		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_OMASTAR), 	FLAG_GET_CAUGHT)	||
+		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_KABUTO), 		FLAG_GET_CAUGHT)	||
+		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_KABUTOPS), 	FLAG_GET_CAUGHT)	||
+		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_AERODACTYL), 	FLAG_GET_CAUGHT)	||
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_LILEEP), 		FLAG_GET_CAUGHT)	||
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ANORITH), 	FLAG_GET_CAUGHT)	||
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ARMALDO), 	FLAG_GET_CAUGHT)	||
@@ -2022,11 +2022,11 @@ static void UnlockQuestMenu(void)
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_RELICANTH), 	FLAG_GET_CAUGHT))
 			GetSetQuestFlag(SIDE_QUEST_8, FLAG_SET_UNLOCKED);
 			
-	if(	GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ATTACO), 	FLAG_GET_CAUGHT)	&&
-		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_GAISER), 	FLAG_GET_CAUGHT)	&&
-		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_CORORK), 		FLAG_GET_CAUGHT)	&&
-		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_BIGOBEET), 	FLAG_GET_CAUGHT)	&&
-		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_USARMY), 	FLAG_GET_CAUGHT)	&&
+	if(	GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_OMANYTE), 	FLAG_GET_CAUGHT)	&&
+		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_OMASTAR), 	FLAG_GET_CAUGHT)	&&
+		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_KABUTO), 		FLAG_GET_CAUGHT)	&&
+		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_KABUTOPS), 	FLAG_GET_CAUGHT)	&&
+		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_AERODACTYL), 	FLAG_GET_CAUGHT)	&&
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_LILEEP), 		FLAG_GET_CAUGHT)	&&
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ANORITH), 	FLAG_GET_CAUGHT)	&&
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ARMALDO), 	FLAG_GET_CAUGHT)	&&
@@ -2108,63 +2108,63 @@ static void UnlockQuestMenu(void)
 		
 		if(IsMonShiny(&gPlayerParty[i]) && GetMonData(&gPlayerParty[i], MON_DATA_POKEBALL, NULL) != ITEM_CHERISH_BALL){
 			switch(GetMonData(&gPlayerParty[i], MON_DATA_SPECIES2)){
-				case SPECIES_AGANDA:
+				case SPECIES_MANKEY:
 				case SPECIES_MARILL:
 				case SPECIES_SWELLOW:
 				case SPECIES_ESPEON:
 				case SPECIES_BERRORD:
-				case SPECIES_PARANGELIA:
-				case SPECIES_KILLWORU:
+				case SPECIES_DODRIO:
+				case SPECIES_DRAGONITE:
 				case SPECIES_HUNTAIL:
 				case SPECIES_SUDOWOODO:
 				case SPECIES_YGGDRACON:
-				case SPECIES_BIREMIC:
-				case SPECIES_RIMESLANCH:
-				case SPECIES_GUMMI:
+				case SPECIES_HITMONCHAN:
+				case SPECIES_MUK:
+				case SPECIES_GRIMER:
 				case SPECIES_BRONZONG:
 				case SPECIES_CRUSTLE:
 				case SPECIES_HYDREIGON:
 				case SPECIES_KARRABLAST:
 				case SPECIES_SKARMORY:
 				case SPECIES_TANGROWTH:
-				case SPECIES_BANANACE:
-				case SPECIES_GOD:
-				case SPECIES_RENAGEDE:
-				case SPECIES_BATANARF:
-				case SPECIES_ANIVENOM:
+				case SPECIES_TANGELA:
+				case SPECIES_MEWTWO:
+				case SPECIES_POLIWRATH:
+				case SPECIES_ZUBAT:
+				case SPECIES_GOLBAT:
 				case SPECIES_SPINDA:
 				case SPECIES_TORTERRA:
 				case SPECIES_HOPPIP:
-				case SPECIES_JAFEET:
+				case SPECIES_SANDSHREW:
 				case SPECIES_MR_MIME:
 				case SPECIES_WOOBAT:
 				case SPECIES_SWOOBAT:
 				case SPECIES_KELDEO:
 				case SPECIES_DIALGA:
-				case SPECIES_LONGIFER:
+				case SPECIES_MACHAMP:
 				case SPECIES_PELIPPER:
 				case SPECIES_WINGULL:
 				case SPECIES_SALAMENCE:
 				case SPECIES_BAGON:
 				case SPECIES_SCIZOR:
-				case SPECIES_SUGREIVOUS:
-				case SPECIES_AMAZULK:
-				case SPECIES_REPLITOR:
-				case SPECIES_GROX:
-				case SPECIES_CORORK:
-				case SPECIES_BIGOBEET:
-				case SPECIES_XOKKEON:
+				case SPECIES_PRIMEAPE:
+				case SPECIES_MAROWAK:
+				case SPECIES_HITMONLEE:
+				case SPECIES_TAUROS:
+				case SPECIES_KABUTO:
+				case SPECIES_KABUTOPS:
+				case SPECIES_JOLTEON:
 				case SPECIES_DRUDDIGON:
-				case SPECIES_CREEPA:
+				case SPECIES_KINGLER:
 				case SPECIES_LEAFEON:
-				case SPECIES_EBOLABLE:
+				case SPECIES_NIDOQUEEN:
 				case SPECIES_REGISTEEL:
 				case SPECIES_STANTLER:
 				case SPECIES_URSARING:
 				case SPECIES_TEDDIURSA:
 				case SPECIES_LARVITAR:
 				case SPECIES_AZURILL:
-				case SPECIES_SURBSQUACH:
+				case SPECIES_CUBONE:
 				case SPECIES_CHIMECHO:
 				case SPECIES_SANDILE:
 				case SPECIES_MYRESEFT:
@@ -2173,13 +2173,13 @@ static void UnlockQuestMenu(void)
 				case SPECIES_TURTWIG:
 				case SPECIES_LURANTIS:
 				case SPECIES_BRONZOR:
-				case SPECIES_DIVINI:
+				case SPECIES_DODUO:
 				case SPECIES_TAILLOW:
 				case SPECIES_MIMEJR:
 				case SPECIES_NINCADA:
-				case SPECIES_FURBOIS:
-				case SPECIES_MARLEYZARD:
-				case SPECIES_UNJOY:
+				case SPECIES_MACHOKE:
+				case SPECIES_VICTREEBEL:
+				case SPECIES_CHANSEY:
 				case SPECIES_SILCOON:
 				case SPECIES_MINUN:
 				case SPECIES_LILEEP:
@@ -2391,11 +2391,11 @@ static void Task_QuestMenuProgress(u8 taskId)
 		case SIDE_QUEST_8:
 			if(TRUE){
 			u16 fossilMons[] = {
-				SPECIES_ATTACO,
-				SPECIES_GAISER,
-				SPECIES_CORORK,
-				SPECIES_BIGOBEET,
-				SPECIES_USARMY,
+				SPECIES_OMANYTE,
+				SPECIES_OMASTAR,
+				SPECIES_KABUTO,
+				SPECIES_KABUTOPS,
+				SPECIES_AERODACTYL,
 				SPECIES_LILEEP,
 				SPECIES_ANORITH,
 				SPECIES_ARMALDO,
