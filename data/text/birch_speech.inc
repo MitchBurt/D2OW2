@@ -110,13 +110,6 @@ gText_Birch_YourePlayer:: @ 82C8C2A
 
 gText_Birch_AreYouReady:: @ 82C8C7A
 	.string "All right, are you ready?\p"
-	.string "Your very own adventure is about\n"
-	.string "to begin!\p"
-	.string "Choose your starting location and\n"
-	.string "explore this world as you want.\l"
-	.string "A different aventure awaits!\p"
-	.string "Well, if you have any questions,\n"
-	.string "I'll be expecting them on\l"
-	.string "PokéCommunity.$"
+	.string "$"
 
 #endif
