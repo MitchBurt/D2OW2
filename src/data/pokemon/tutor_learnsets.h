@@ -2606,7 +2606,7 @@ static const u8 sFennafTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sWeezingTutorLearnset[] =
+static const u8 sBipharmaTutorLearnset[] =
 {
     TUTOR(MOVE_MIMIC),
     TUTOR(MOVE_SUBSTITUTE),
@@ -19149,7 +19149,7 @@ static const u8 sImpostownGalarianTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sWeezingGalarianTutorLearnset[] =
+static const u8 sBipharmaGalarianTutorLearnset[] =
 {
     TUTOR(MOVE_SUBSTITUTE),
     TUTOR(MOVE_SNORE),
@@ -19831,7 +19831,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_BIREMIC] = sBiremicTutorLearnset,
     [SPECIES_CAPFALCO] = sCapfalcoTutorLearnset,
     [SPECIES_FENNAF] = sFennafTutorLearnset,
-    [SPECIES_WEEZING] = sWeezingTutorLearnset,
+    [SPECIES_BIPHARMA] = sBipharmaTutorLearnset,
     [SPECIES_POTOGREED] = sPotogreedTutorLearnset,
     [SPECIES_YEESAUR] = sYeesaurTutorLearnset,
     [SPECIES_UNJOY] = sUnjoyTutorLearnset,
@@ -20663,7 +20663,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_BASSHOP_GALARIAN] = sBasshopGalarianTutorLearnset,
     [SPECIES_SHEMUE_GALARIAN] = sShemueGalarianTutorLearnset,
     [SPECIES_IMPOSTOWN_GALARIAN] = sImpostownGalarianTutorLearnset,
-    [SPECIES_WEEZING_GALARIAN] = sWeezingGalarianTutorLearnset,
+    [SPECIES_BIPHARMA_GALARIAN] = sBipharmaGalarianTutorLearnset,
     [SPECIES_ALIEN_GALARIAN] = sAlienGalarianTutorLearnset,
     [SPECIES_ARTICUNO_GALARIAN] = sArticunoGalarianTutorLearnset,
     [SPECIES_ZAPDOS_GALARIAN] = sZapdosGalarianTutorLearnset,

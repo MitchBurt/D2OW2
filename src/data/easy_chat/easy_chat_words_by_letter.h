@@ -1855,8 +1855,8 @@ const u16 gEasyChatWordsByLetter_W[] = {
     EC_WORD_WEEK,
     EC_POKEMON2(MARIGUANA),
     -1, 2, // Doubled pokemon species name
-    EC_POKEMON(WEEZING),
-    EC_POKEMON2(WEEZING),
+    EC_POKEMON(BIPHARMA),
+    EC_POKEMON2(BIPHARMA),
     EC_WORD_WEIRD,
     EC_WORD_WELCOME,
     EC_WORD_WELL,
@@ -2216,8 +2216,8 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseMa[] = {
     EC_WORD_LIKE,
     EC_POKEMON2(BONGECKO),
     -1, 2, // Doubled pokemon species name
-    EC_POKEMON2(WEEZING),
-    EC_POKEMON(WEEZING),
+    EC_POKEMON2(BIPHARMA),
+    EC_POKEMON(BIPHARMA),
     EC_WORD_SMELL,
     EC_WORD_YET,
     EC_WORD_MISTAKE,

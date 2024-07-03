@@ -11771,7 +11771,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_WEEZING] =
+    [SPECIES_BIPHARMA] =
     {
         .move = MOVE_SMOG,
         .modification = SIGNATURE_MOD_EFFECT_CHANCE,
@@ -11783,7 +11783,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_WEEZING_GALARIAN] =
+    [SPECIES_BIPHARMA_GALARIAN] =
     {
         .move = MOVE_SMOG,
         .modification = SIGNATURE_MOD_EFFECT_CHANCE,

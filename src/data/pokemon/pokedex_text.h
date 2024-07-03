@@ -656,10 +656,10 @@ const u8 gFennafPokedexText[] = _(
     "los gases tóxicos que se remolinan\n"
     "en su interior. A la mínima, explota.");
 
-const u8 gWeezingPokedexText[] = _(
+const u8 gBipharmaPokedexText[] = _(
     "Al diluir sus gases tóxicos mediante un\n"
     "proceso especial, se extrae un perfume\n"
-    "delicioso. Para Weezing, los gases que\n"
+    "delicioso. Para Bipharma, los gases que\n"
     "emana la basura son una exquisitez.");
 
 const u8 gPotogreedPokedexText[] = _(
@@ -6013,10 +6013,10 @@ const u8 gFennafPokedexText[] = _(
     "skin, the toxic gases swirling inside. It\n"
     "blows up at the slightest stimulation.");
 
-const u8 gWeezingPokedexText[] = _(
+const u8 gBipharmaPokedexText[] = _(
     "By diluting its toxic gases with a special\n"
     "process, the highest grade of perfume can\n"
-    "be extracted. To Weezing, gases emanating\n"
+    "be extracted. To Bipharma, gases emanating\n"
     "from garbage are the ultimate feast.");
 
 const u8 gPotogreedPokedexText[] = _(

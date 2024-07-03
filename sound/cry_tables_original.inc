@@ -110,7 +110,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Biremic  @ 869E1EC
 	cry Cry_Capfalco  @ 869E1F8
 	cry Cry_Fennaf  @ 869E204
-	cry Cry_Weezing  @ 869E210
+	cry Cry_Bipharma  @ 869E210
 	cry Cry_Potogreed  @ 869E21C
 	cry Cry_Yeesaur  @ 869E228
 	cry Cry_Unjoy  @ 869E234
@@ -983,7 +983,7 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Basshop_Galarian
 	cry Cry_Shemue
 	cry Cry_Impostown
-	cry Cry_Weezing
+	cry Cry_Bipharma
 	cry Cry_Alien
 	cry Cry_Articuno
 	cry Cry_Zapdos
@@ -1390,7 +1390,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Biremic  @ 869F41C
 	cry2 Cry_Capfalco  @ 869F428
 	cry2 Cry_Fennaf  @ 869F434
-	cry2 Cry_Weezing  @ 869F440
+	cry2 Cry_Bipharma  @ 869F440
 	cry2 Cry_Potogreed  @ 869F44C
 	cry2 Cry_Yeesaur  @ 869F458
 	cry2 Cry_Unjoy  @ 869F464
@@ -2261,7 +2261,7 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Basshop_Galarian
 	cry2 Cry_Shemue
 	cry2 Cry_Impostown
-	cry2 Cry_Weezing
+	cry2 Cry_Bipharma
 	cry2 Cry_Alien
 	cry2 Cry_Articuno
 	cry2 Cry_Zapdos

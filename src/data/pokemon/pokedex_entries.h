@@ -1321,12 +1321,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_WEEZING] =
+    [NATIONAL_DEX_BIPHARMA] =
     {
         .categoryName = _("Gas Veneno"),
         .height = 12,
         .weight = 95,
-        .description = gWeezingPokedexText,
+        .description = gBipharmaPokedexText,
         .pokemonScale = 305,
         .pokemonOffset = 3,
         .trainerScale = 256,
@@ -12111,12 +12111,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_WEEZING] =
+    [NATIONAL_DEX_BIPHARMA] =
     {
         .categoryName = _("Poison Gas"),
         .height = 12,
         .weight = 95,
-        .description = gWeezingPokedexText,
+        .description = gBipharmaPokedexText,
         .pokemonScale = 305,
         .pokemonOffset = 3,
         .trainerScale = 256,

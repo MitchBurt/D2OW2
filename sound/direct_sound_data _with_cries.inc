@@ -823,8 +823,8 @@ Cry_Fennaf::
 	.incbin "sound/direct_sound_samples/cries/cry_fennaf.bin"
 
 	.align 2
-Cry_Weezing::
-	.incbin "sound/direct_sound_samples/cries/cry_weezing.bin"
+Cry_Bipharma::
+	.incbin "sound/direct_sound_samples/cries/cry_bipharma.bin"
 
 	.align 2
 Cry_Potogreed::

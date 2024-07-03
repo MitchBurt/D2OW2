@@ -3069,7 +3069,7 @@ const struct BaseStats gBaseStats[] =
 		.flags = F_GROUND_INMUNITY,
     },
 
-    [SPECIES_WEEZING] =
+    [SPECIES_BIPHARMA] =
     {
         .baseHP        = 65,
         .baseAttack    = 90,
@@ -27407,7 +27407,7 @@ const struct BaseStats gBaseStats[] =
         .flags = F_GALARIAN_FORM,
     },
 
-    [SPECIES_WEEZING_GALARIAN] =
+    [SPECIES_BIPHARMA_GALARIAN] =
     {
         .baseHP        = 65,
         .baseAttack    = 90,
@@ -37236,7 +37236,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_WEEZING] =
+    [SPECIES_BIPHARMA] =
     {
         .baseHP        = 65,
         .baseAttack    = 90,
@@ -61833,7 +61833,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .flags = F_GALARIAN_FORM,
     },
 
-    [SPECIES_WEEZING_GALARIAN] =
+    [SPECIES_BIPHARMA_GALARIAN] =
     {
         .baseHP        = 65,
         .baseAttack    = 90,

@@ -17,7 +17,7 @@ const u8 gEnemyMonElevation[NUM_SPECIES] =
     [SPECIES_AWMANE] = 11,
     [SPECIES_ENDERMON] = 12,
     [SPECIES_FENNAF] = 14,
-    [SPECIES_WEEZING] = 6,
+    [SPECIES_BIPHARMA] = 6,
     [SPECIES_AERODACTYL] = 9,
     [SPECIES_ZAPDOS] = 8,
     [SPECIES_MEW] = 11,
@@ -126,7 +126,7 @@ const u8 gEnemyMonElevation[NUM_SPECIES] =
     [SPECIES_ITRIMID_MEGA] = 4,
     [SPECIES_KUKLOPS_MEGA] = 7,
     // Galarian Forms
-    [SPECIES_WEEZING_GALARIAN] = 3,
+    [SPECIES_BIPHARMA_GALARIAN] = 3,
     [SPECIES_YAMASK_GALARIAN] = 4,
     // Misc Forms
     [SPECIES_GIRATINA_ORIGIN] = 7,

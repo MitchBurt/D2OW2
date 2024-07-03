@@ -517,7 +517,7 @@ static const struct TrHillFloor sDataTagNormal_Floors[] =
                     },
                     [3] =
                     {
-                        .species = SPECIES_WEEZING,
+                        .species = SPECIES_BIPHARMA,
                         .heldItem = ITEM_SALAC_BERRY,
                         .moves = {MOVE_SLUDGE_BOMB, MOVE_SHADOW_BALL, MOVE_FRUSTRATION, MOVE_DESTINY_BOND},
                         .level = 0,
@@ -534,7 +534,7 @@ static const struct TrHillFloor sDataTagNormal_Floors[] =
                         .spDefenseIV = 24,
                         .abilityNum = 0,
                         .personality = 0x80,
-                        .nickname = _("Weezing"),
+                        .nickname = _("Bipharma"),
                         .friendship = 0,
                     },
                     [4] =
@@ -1553,7 +1553,7 @@ static const struct TrHillFloor sDataTagNormal_Floors[] =
                 {
                     [0] =
                     {
-                        .species = SPECIES_WEEZING,
+                        .species = SPECIES_BIPHARMA,
                         .heldItem = ITEM_POISON_BARB,
                         .moves = {MOVE_TOXIC, MOVE_SLUDGE_BOMB, MOVE_SMOKESCREEN, MOVE_HAZE},
                         .level = 0,
@@ -1569,7 +1569,7 @@ static const struct TrHillFloor sDataTagNormal_Floors[] =
                         .spDefenseIV = 15,
                         .abilityNum = 0,
                         .personality = 0x3,
-                        .nickname = _("Weezing"),
+                        .nickname = _("Bipharma"),
                         .friendship = 255,
                     },
                     [1] =

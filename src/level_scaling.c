@@ -1238,9 +1238,9 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 			else
 				return basespecies;
 		break;
-		case SPECIES_WEEZING:
+		case SPECIES_BIPHARMA:
 			if(gMapHeader.region == REGION_SEVII)
-				return SPECIES_WEEZING_GALARIAN;
+				return SPECIES_BIPHARMA_GALARIAN;
 			else
 				return basespecies;
 		break;

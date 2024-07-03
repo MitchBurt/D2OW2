@@ -4469,7 +4469,7 @@ static const u8 sFennafTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sWeezingTMHMLearnset[] =
+static const u8 sBipharmaTMHMLearnset[] =
 {
     TMHM(TM06_TOXIC),
     TMHM(TM10_HIDDEN_POWER),
@@ -36184,7 +36184,7 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_BIREMIC] = sBiremicTMHMLearnset,
     [SPECIES_CAPFALCO] = sCapfalcoTMHMLearnset,
     [SPECIES_FENNAF] = sFennafTMHMLearnset,
-    [SPECIES_WEEZING] = sWeezingTMHMLearnset,
+    [SPECIES_BIPHARMA] = sBipharmaTMHMLearnset,
     [SPECIES_POTOGREED] = sPotogreedTMHMLearnset,
     [SPECIES_YEESAUR] = sYeesaurTMHMLearnset,
     [SPECIES_UNJOY] = sUnjoyTMHMLearnset,

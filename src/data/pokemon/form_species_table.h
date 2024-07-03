@@ -855,9 +855,9 @@ static const u16 sImpostownFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sWeezingFormSpeciesIdTable[] = {
-    SPECIES_WEEZING,
-    SPECIES_WEEZING_GALARIAN,
+static const u16 sBipharmaFormSpeciesIdTable[] = {
+    SPECIES_BIPHARMA,
+    SPECIES_BIPHARMA_GALARIAN,
     0xFFFF,
 };
 

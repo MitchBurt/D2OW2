@@ -550,7 +550,7 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x88,
         .y_offset = 3,
     },
-    [SPECIES_WEEZING] =
+    [SPECIES_BIPHARMA] =
     {
         .size = 0x86,
         .y_offset = 9,
@@ -4874,7 +4874,7 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x86,
         .y_offset = 8,
     },
-    [SPECIES_WEEZING_GALARIAN] =
+    [SPECIES_BIPHARMA_GALARIAN] =
     {
         .size = 0x88,
         .y_offset = 0,

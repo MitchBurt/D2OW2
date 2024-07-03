@@ -1296,7 +1296,7 @@ static const union AnimCmd sAnim_FENNAF_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_WEEZING_1[] =
+static const union AnimCmd sAnim_BIPHARMA_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(1, 10),
@@ -1306,7 +1306,7 @@ static const union AnimCmd sAnim_WEEZING_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_WEEZING_2[] =
+static const union AnimCmd sAnim_BIPHARMA_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -8892,7 +8892,7 @@ static const union AnimCmd sAnim_IMPOSTOWN_GALARIAN_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_WEEZING_GALARIAN_1[] =
+static const union AnimCmd sAnim_BIPHARMA_GALARIAN_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
@@ -9703,10 +9703,10 @@ static const union AnimCmd *const sAnims_FENNAF[] ={
     sAnim_FENNAF_2,
 };
 
-static const union AnimCmd *const sAnims_WEEZING[] ={
+static const union AnimCmd *const sAnims_BIPHARMA[] ={
     sAnim_GeneralFrame0,
-    sAnim_WEEZING_1,
-    sAnim_WEEZING_2,
+    sAnim_BIPHARMA_1,
+    sAnim_BIPHARMA_2,
 };
 
 static const union AnimCmd *const sAnims_POTOGREED[] ={
@@ -14254,9 +14254,9 @@ static const union AnimCmd *const sAnims_IMPOSTOWN_GALARIAN[] ={
     sAnim_IMPOSTOWN_GALARIAN_1,
 };
 
-static const union AnimCmd *const sAnims_WEEZING_GALARIAN[] ={
+static const union AnimCmd *const sAnims_BIPHARMA_GALARIAN[] ={
     sAnim_GeneralFrame0,
-    sAnim_WEEZING_GALARIAN_1,
+    sAnim_BIPHARMA_GALARIAN_1,
 };
 
 static const union AnimCmd *const sAnims_ALIEN_GALARIAN[] ={
@@ -14547,7 +14547,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(BIREMIC),
     ANIM_CMD(CAPFALCO),
     ANIM_CMD(FENNAF),
-    ANIM_CMD(WEEZING),
+    ANIM_CMD(BIPHARMA),
     ANIM_CMD(POTOGREED),
     ANIM_CMD(YEESAUR),
     ANIM_CMD(UNJOY),
@@ -15411,7 +15411,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(BASSHOP_GALARIAN),
     ANIM_CMD(SHEMUE_GALARIAN),
     ANIM_CMD(IMPOSTOWN_GALARIAN),
-    ANIM_CMD(WEEZING_GALARIAN),
+    ANIM_CMD(BIPHARMA_GALARIAN),
     ANIM_CMD(ALIEN_GALARIAN),
     ANIM_CMD(ARTICUNO_GALARIAN),
     ANIM_CMD(ZAPDOS_GALARIAN),
