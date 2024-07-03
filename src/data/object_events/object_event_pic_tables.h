@@ -2590,16 +2590,16 @@ const struct SpriteFrameImage gObjectEventPicTable_Munchlax[] = {
 
 /*/
 
-const struct SpriteFrameImage gObjectEventPicTable_Mew[] = {
-    overworld_frame(gObjectEventPic_Mew, 4, 4, 0),
-    overworld_frame(gObjectEventPic_Mew, 4, 4, 1),
-    overworld_frame(gObjectEventPic_Mew, 4, 4, 2),
-    overworld_frame(gObjectEventPic_Mew, 4, 4, 3),
-    overworld_frame(gObjectEventPic_Mew, 4, 4, 4),
-    overworld_frame(gObjectEventPic_Mew, 4, 4, 5),
-    overworld_frame(gObjectEventPic_Mew, 4, 4, 6),
-    overworld_frame(gObjectEventPic_Mew, 4, 4, 7),
-    overworld_frame(gObjectEventPic_Mew, 4, 4, 8),
+const struct SpriteFrameImage gObjectEventPicTable_Thevoid[] = {
+    overworld_frame(gObjectEventPic_Thevoid, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Thevoid, 4, 4, 1),
+    overworld_frame(gObjectEventPic_Thevoid, 4, 4, 2),
+    overworld_frame(gObjectEventPic_Thevoid, 4, 4, 3),
+    overworld_frame(gObjectEventPic_Thevoid, 4, 4, 4),
+    overworld_frame(gObjectEventPic_Thevoid, 4, 4, 5),
+    overworld_frame(gObjectEventPic_Thevoid, 4, 4, 6),
+    overworld_frame(gObjectEventPic_Thevoid, 4, 4, 7),
+    overworld_frame(gObjectEventPic_Thevoid, 4, 4, 8),
 };
 /*/
 const struct SpriteFrameImage gObjectEventPicTable_Red[] = {

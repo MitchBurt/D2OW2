@@ -1595,7 +1595,7 @@ static u8 CheckValidityOfTradeMons(u8 *aliveMons, u8 playerPartyCount, u8 player
         return PARTNER_MON_INVALID;
 
     // Partner cant trade illegitimate Deoxys or Thevoid
-    if (partnerSpecies == SPECIES_DEOXYS || partnerSpecies == SPECIES_MEW)
+    if (partnerSpecies == SPECIES_DEOXYS || partnerSpecies == SPECIES_THEVOID)
     {
         if (!GetMonData(&gEnemyParty[partnerMonIdx], MON_DATA_OBEDIENCE))
             return PARTNER_MON_INVALID;
@@ -2435,7 +2435,7 @@ static u32 CanTradeSelectedMon(struct Pokemon *playerParty, int partyCount, int 
         }
     }
 
-    if (species[monIdx] == SPECIES_DEOXYS || species[monIdx] == SPECIES_MEW)
+    if (species[monIdx] == SPECIES_DEOXYS || species[monIdx] == SPECIES_THEVOID)
     {
         if (!GetMonData(&playerParty[monIdx], MON_DATA_OBEDIENCE))
             return CANT_TRADE_INVALID_MON;
@@ -2504,7 +2504,7 @@ s32 GetGameProgressForLinkTrade(void)
 
 static bool32 IsDeoxysOrMewUntradable(u16 species, bool8 isObedientBitSet)
 {
-    if (species == SPECIES_DEOXYS || species == SPECIES_MEW)
+    if (species == SPECIES_DEOXYS || species == SPECIES_THEVOID)
     {
         if (!isObedientBitSet)
             return TRUE;
@@ -2526,7 +2526,7 @@ int GetUnionRoomTradeMessageId(struct GFtgtGnameSub rfuPlayer, struct GFtgtGname
 		SPECIES_REMIEL,
 		SPECIES_LEGEND,
 		SPECIES_GOD,
-		SPECIES_MEW,
+		SPECIES_THEVOID,
 		SPECIES_SUICUNE,
 		SPECIES_RAIKOU,
 		SPECIES_ENTEI,

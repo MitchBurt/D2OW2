@@ -512,8 +512,8 @@ const u16 gObjectEventPalette_Zeruel[] = INCBIN_U16("graphics/object_events/pics
 const u32 gObjectEventPic_Remiel[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/146.4bpp");
 const u16 gObjectEventPalette_Remiel[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/146.gbapal");
 //151 - Thevoid
-const u32 gObjectEventPic_Mew[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/151.4bpp");
-const u16 gObjectEventPalette_Mew[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/151.gbapal");
+const u32 gObjectEventPic_Thevoid[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/151.4bpp");
+const u16 gObjectEventPalette_Thevoid[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/151.gbapal");
 //184 - Azumarill
 const u32 gObjectEventPic_Azumarill[] = INCBIN_U32("graphics/object_events/pics/pokemon/azumarill.4bpp");
 const u16 gObjectEventPalette_Azumarill[] = INCBIN_U16("graphics/object_events/pics/pokemon/azumarill.gbapal");

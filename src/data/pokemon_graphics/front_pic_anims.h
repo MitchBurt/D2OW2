@@ -1786,7 +1786,7 @@ static const union AnimCmd sAnim_GOD_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_MEW_1[] =
+static const union AnimCmd sAnim_THEVOID_1[] =
 {
     ANIMCMD_FRAME(1, 50),
     ANIMCMD_FRAME(1, 40),
@@ -9916,9 +9916,9 @@ static const union AnimCmd *const sAnims_GOD[] ={
     sAnim_GOD_1,
 };
 
-static const union AnimCmd *const sAnims_MEW[] ={
+static const union AnimCmd *const sAnims_THEVOID[] ={
     sAnim_GeneralFrame0,
-    sAnim_MEW_1,
+    sAnim_THEVOID_1,
 };
 
 static const union AnimCmd *const sAnims_CHIKORITA[] ={

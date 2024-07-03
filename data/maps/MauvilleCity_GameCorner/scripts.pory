@@ -685,7 +685,7 @@ MauvilleCity_GameCorner_EventScript_Gachamon::
 	playfanfare MUS_OBTAIN_ITEM
 	msgbox Text_Received_Starter10, MSGBOX_DEFAULT
 	waitfanfare
-	givemon SPECIES_MEW, 1, ITEM_NONE
+	givemon SPECIES_THEVOID, 1, ITEM_NONE
 	compare VAR_RESULT, 0
 	goto_if_eq MauvilleCity_GameCorner_EventScript_Gachamon_2
 	compare VAR_RESULT, 1

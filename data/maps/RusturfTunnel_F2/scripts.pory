@@ -5,7 +5,7 @@ RusturfTunnel_F2_MapScripts::
 	
 RusturfTunnel_F2_OnLoad: @ 8236F16
 	setflag FLAG_DISABLE_PORTALS
-	goto_if_set   FLAG_CAUGHT_MEW, RusturfTunnel_F2_EventScript_EnablePortal
+	goto_if_set   FLAG_CAUGHT_THEVOID, RusturfTunnel_F2_EventScript_EnablePortal
 	end
 	
 RusturfTunnel_F2_EventScript_EnablePortal::

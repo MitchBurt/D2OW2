@@ -1813,7 +1813,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 4,
     },
 
-    [NATIONAL_DEX_MEW] =
+    [NATIONAL_DEX_THEVOID] =
     {
         .categoryName = _("N. Especie"),
         .height = 4,
@@ -12603,7 +12603,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 4,
     },
 
-    [NATIONAL_DEX_MEW] =
+    [NATIONAL_DEX_THEVOID] =
     {
         .categoryName = _("New Species"),
         .height = 4,

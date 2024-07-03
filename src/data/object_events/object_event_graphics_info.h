@@ -307,7 +307,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Zeruel = {0xFFFF, 
 //146 - Remiel
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Remiel = {0xFFFF, OBJ_EVENT_PAL_REMIEL, OBJ_EVENT_PAL_TAG_NONE, 512, 32, 32, 2, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_32x32, gObjectEventSpriteOamTables_32x32, gObjectEventImageAnimTable_Standard, gObjectEventPicTable_Remiel, gDummySpriteAffineAnimTable};
 //151 - Thevoid
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mew = {0xFFFF, OBJ_EVENT_PAL_MEW, OBJ_EVENT_PAL_TAG_NONE, 512, 32, 32, 2, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_32x32, gObjectEventSpriteOamTables_32x32, gObjectEventImageAnimTable_Standard, gObjectEventPicTable_Mew, gDummySpriteAffineAnimTable};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Thevoid = {0xFFFF, OBJ_EVENT_PAL_THEVOID, OBJ_EVENT_PAL_TAG_NONE, 512, 32, 32, 2, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_32x32, gObjectEventSpriteOamTables_32x32, gObjectEventImageAnimTable_Standard, gObjectEventPicTable_Thevoid, gDummySpriteAffineAnimTable};
 //184 - Azumarill
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Azumarill = {0xFFFF, OBJ_EVENT_PAL_AZUMARILL, OBJ_EVENT_PAL_TAG_NONE, 512, 32, 32, 3, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_32x32, gObjectEventSpriteOamTables_32x32, gObjectEventImageAnimTable_Standard, gObjectEventPicTable_Azumarill, gDummySpriteAffineAnimTable};
 /*/

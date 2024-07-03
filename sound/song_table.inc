@@ -530,7 +530,7 @@ gSongTable::
 	song mus_b_factory, 0, 0
 	song mus_vs_kyogre_groudon, 0, 0
 	song mus_vs_frontier_brain, 0, 0
-	song mus_vs_mew, 0, 0
+	song mus_vs_thevoid, 0, 0
 	song mus_b_dome_lobby, 0, 0
 	song dp_seq_title00, 0, 0
 	song dp_seq_title01, 0, 0

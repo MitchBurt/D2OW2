@@ -542,7 +542,7 @@
 #define MUS_B_FACTORY                 526 // MUS_B_FACTORY
 #define MUS_VS_RAYQUAZA               527 // MUS_VS_REKKU (Identical to MUS_VS_KYOGRE_GROUDON)
 #define MUS_VS_FRONTIER_BRAIN         528 // MUS_VS_FRONT
-#define MUS_VS_MEW                    529 // MUS_VS_MEW
+#define MUS_VS_THEVOID                    529 // MUS_VS_THEVOID
 #define MUS_B_DOME_LOBBY              530 // MUS_B_DOME1
 
  

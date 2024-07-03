@@ -151,7 +151,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Wooptret  @ 869E3D8
 	cry Cry_Killworu  @ 869E3E4
 	cry Cry_God  @ 869E3F0
-	cry Cry_Mew  @ 869E3FC
+	cry Cry_Thevoid  @ 869E3FC
 	@ Gen 2
 	cry Cry_Chikorita  @ 869E408
 	cry Cry_Bayleef  @ 869E414
@@ -1431,7 +1431,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Wooptret  @ 869F608
 	cry2 Cry_Killworu  @ 869F614
 	cry2 Cry_God  @ 869F620
-	cry2 Cry_Mew  @ 869F62C
+	cry2 Cry_Thevoid  @ 869F62C
 	cry2 Cry_Chikorita  @ 869F638
 	cry2 Cry_Bayleef  @ 869F644
 	cry2 Cry_Meganium  @ 869F650

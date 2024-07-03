@@ -1,5 +1,5 @@
 raw `
-.set LOCALID_MEW, 1
+.set LOCALID_THEVOID, 1
 
 FarawayIsland_Interior_MapScripts:: @ 8267CFA
 	map_script MAP_SCRIPT_ON_RESUME, FarawayIsland_Interior_OnResume
@@ -43,12 +43,12 @@ FarawayIsland_Interior_EventScript_TryRemoveMew:: @ 8267D5E
 FarawayIsland_Interior_OnTransition: @ 8267D72
 	setvar VAR_FARAWAY_ISLAND_STEP_COUNTER, 0
 	setvar VAR_TEMP_1, 1
-	call_if_unset FLAG_CAUGHT_MEW, FarawayIsland_Interior_EventScript_TryShowMew
+	call_if_unset FLAG_CAUGHT_THEVOID, FarawayIsland_Interior_EventScript_TryShowMew
 	end
 
 FarawayIsland_Interior_EventScript_TryShowMew:: @ 8267D86
-	goto_if_set FLAG_DEFEATED_MEW, Common_EventScript_NopReturn
-	clearflag FLAG_HIDE_MEW
+	goto_if_set FLAG_DEFEATED_THEVOID, Common_EventScript_NopReturn
+	clearflag FLAG_HIDE_THEVOID
 	setvar VAR_TEMP_1, 0
 	return
 
@@ -59,18 +59,18 @@ FarawayIsland_Interior_OnFrame: @ 8267D98
 FarawayIsland_Interior_EventScript_FindMew:: @ 8267DA2
 	lockall
 	playse SE_PIN
-	applymovement LOCALID_MEW, Common_Movement_ExclamationMark
+	applymovement LOCALID_THEVOID, Common_Movement_ExclamationMark
 	waitmovement 0
-	applymovement LOCALID_MEW, Common_Movement_Delay48
+	applymovement LOCALID_THEVOID, Common_Movement_Delay48
 	waitmovement 0
-	applymovement LOCALID_MEW, FarawayIsland_Interior_Movement_MewMoveAndHide
+	applymovement LOCALID_THEVOID, FarawayIsland_Interior_Movement_ThevoidMoveAndHide
 	waitmovement 0
-	copyobjectxytoperm LOCALID_MEW
+	copyobjectxytoperm LOCALID_THEVOID
 	setvar VAR_TEMP_1, 1
 	releaseall
 	end
 
-FarawayIsland_Interior_Movement_MewMoveAndHide: @ 8267DCE
+FarawayIsland_Interior_Movement_ThevoidMoveAndHide: @ 8267DCE
 	walk_up
 	walk_up
 	walk_up
@@ -78,11 +78,11 @@ FarawayIsland_Interior_Movement_MewMoveAndHide: @ 8267DCE
 	set_invisible
 	step_end
 
-FarawayIsland_Interior_Movement_MewAppear: @ 8267DD4
+FarawayIsland_Interior_Movement_ThevoidAppear: @ 8267DD4
 	set_visible
 	step_end
 
-FarawayIsland_Interior_Movement_MewFloatUpNorth: @ 8267DD6
+FarawayIsland_Interior_Movement_ThevoidFloatUpNorth: @ 8267DD6
 	lock_facing_direction
 	walk_fast_up
 	walk_fast_up
@@ -91,7 +91,7 @@ FarawayIsland_Interior_Movement_MewFloatUpNorth: @ 8267DD6
 	walk_in_place_down
 	step_end
 
-FarawayIsland_Interior_Movement_MewFloatUpSouth: @ 8267DDD
+FarawayIsland_Interior_Movement_ThevoidFloatUpSouth: @ 8267DDD
 	lock_facing_direction
 	walk_fast_up
 	walk_fast_up
@@ -100,7 +100,7 @@ FarawayIsland_Interior_Movement_MewFloatUpSouth: @ 8267DDD
 	walk_in_place_up
 	step_end
 
-FarawayIsland_Interior_Movement_MewFloatUpWest: @ 8267DE4
+FarawayIsland_Interior_Movement_ThevoidFloatUpWest: @ 8267DE4
 	lock_facing_direction
 	walk_fast_up
 	walk_fast_up
@@ -109,7 +109,7 @@ FarawayIsland_Interior_Movement_MewFloatUpWest: @ 8267DE4
 	walk_in_place_right
 	step_end
 
-FarawayIsland_Interior_Movement_MewFloatUpEast: @ 8267DEB
+FarawayIsland_Interior_Movement_ThevoidFloatUpEast: @ 8267DEB
 	lock_facing_direction
 	walk_fast_up
 	walk_fast_up
@@ -118,16 +118,16 @@ FarawayIsland_Interior_Movement_MewFloatUpEast: @ 8267DEB
 	walk_in_place_left
 	step_end
 
-FarawayIsland_Interior_EventScript_Mew:: @ 8267DF2
+FarawayIsland_Interior_EventScript_Thevoid:: @ 8267DF2
 	lock
 	faceplayer
-	applymovement LOCALID_MEW, FarawayIsland_Interior_Movement_MewAppear
+	applymovement LOCALID_THEVOID, FarawayIsland_Interior_Movement_ThevoidAppear
 	waitmovement 0
 	setvar VAR_0x8004, 0
 	special SetMewAboveGrass
-	message FarawayIsland_Interior_Text_Mew
+	message FarawayIsland_Interior_Text_Thevoid
 	waitse
-	playmoncry SPECIES_MEW, 2
+	playmoncry SPECIES_THEVOID, 2
 	compare VAR_FACING, DIR_NORTH
 	call_if_eq FarawayIsland_Interior_EventScript_FoundMewNorth
 	compare VAR_FACING, DIR_SOUTH
@@ -141,60 +141,60 @@ FarawayIsland_Interior_EventScript_Mew:: @ 8267DF2
 	waitmoncry
 	setflag FLAG_TOTEM_BATTLE
 	setvar VAR_NUM_WILD_POKEMON_STAT_BOOST, 2
-	setwildbattlewithcustommoves SPECIES_MEW, 70, ITEM_NONE, MOVE_PSYSHOCK, MOVE_AURA_SPHERE, MOVE_DAZZLING_GLEAM, MOVE_SCALD, 0, NATURE_TIMID
-	setvar VAR_0x8004, SPECIES_MEW
+	setwildbattlewithcustommoves SPECIES_THEVOID, 70, ITEM_NONE, MOVE_PSYSHOCK, MOVE_AURA_SPHERE, MOVE_DAZZLING_GLEAM, MOVE_SCALD, 0, NATURE_TIMID
+	setvar VAR_0x8004, SPECIES_THEVOID
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
 	dowildbattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
 	specialvar VAR_RESULT, GetBattleOutcome
 	compare VAR_RESULT, B_OUTCOME_WON
-	goto_if_eq FarawayIsland_Interior_EventScript_MewDefeated
+	goto_if_eq FarawayIsland_Interior_EventScript_ThevoidDefeated
 	compare VAR_RESULT, B_OUTCOME_RAN
 	goto_if_eq FarawayIsland_Interior_EventScript_PlayerOrMewRan
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
 	goto_if_eq FarawayIsland_Interior_EventScript_PlayerOrMewRan
 	compare VAR_RESULT, B_OUTCOME_MON_TELEPORTED
 	goto_if_eq FarawayIsland_Interior_EventScript_PlayerOrMewRan
-	setflag FLAG_CAUGHT_MEW
+	setflag FLAG_CAUGHT_THEVOID
 	release
 	end
 
-FarawayIsland_Interior_EventScript_MewDefeated:: @ 8267E96
-	setflag FLAG_DEFEATED_MEW
-	setvar VAR_0x8004, SPECIES_MEW
+FarawayIsland_Interior_EventScript_ThevoidDefeated:: @ 8267E96
+	setflag FLAG_DEFEATED_THEVOID
+	setvar VAR_0x8004, SPECIES_THEVOID
 	goto Common_EventScript_LegendaryFlewAway
 	end
 
 FarawayIsland_Interior_EventScript_PlayerOrMewRan:: @ 8267EA4
-	setvar VAR_0x8004, SPECIES_MEW
+	setvar VAR_0x8004, SPECIES_THEVOID
 	goto Common_EventScript_LegendaryFlewAway
 	end
 
 FarawayIsland_Interior_EventScript_FoundMewNorth:: @ 8267EAF
-	applymovement LOCALID_MEW, FarawayIsland_Interior_Movement_MewFloatUpNorth
+	applymovement LOCALID_THEVOID, FarawayIsland_Interior_Movement_ThevoidFloatUpNorth
 	waitmovement 0
 	return
 
 FarawayIsland_Interior_EventScript_FoundMewSouth:: @ 8267EBA
-	applymovement LOCALID_MEW, FarawayIsland_Interior_Movement_MewFloatUpSouth
+	applymovement LOCALID_THEVOID, FarawayIsland_Interior_Movement_ThevoidFloatUpSouth
 	waitmovement 0
 	return
 
 FarawayIsland_Interior_EventScript_FoundMewWest:: @ 8267EC5
-	applymovement LOCALID_MEW, FarawayIsland_Interior_Movement_MewFloatUpWest
+	applymovement LOCALID_THEVOID, FarawayIsland_Interior_Movement_ThevoidFloatUpWest
 	waitmovement 0
 	return
 
 FarawayIsland_Interior_EventScript_FoundMewEast:: @ 8267ED0
-	applymovement LOCALID_MEW, FarawayIsland_Interior_Movement_MewFloatUpEast
+	applymovement LOCALID_THEVOID, FarawayIsland_Interior_Movement_ThevoidFloatUpEast
 	waitmovement 0
 	return
 
 FarawayIsland_Interior_EventScript_HideMewWhenGrassCut:: @ 8267EDB
 	lockall
 	fadescreenswapbuffers FADE_TO_BLACK
-	setflag FLAG_HIDE_MEW
-	removeobject LOCALID_MEW
+	setflag FLAG_HIDE_THEVOID
+	removeobject LOCALID_THEVOID
 	fadescreenswapbuffers FADE_FROM_BLACK
 	msgbox FarawayIsland_Interior_Text_TheFeelingOfBeingWatchedFaded, MSGBOX_DEFAULT
 	closemessage

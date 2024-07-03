@@ -938,8 +938,8 @@ void BattleSetup_StartScriptedWildBattle(void)
     case SPECIES_HO_OH:
         CreateBattleStartTask(B_TRANSITION_BLUR, MUS_RG_VS_LEGEND);
         break;
-    case SPECIES_MEW:
-        CreateBattleStartTask(B_TRANSITION_GRID_SQUARES, MUS_VS_MEW);
+    case SPECIES_THEVOID:
+        CreateBattleStartTask(B_TRANSITION_GRID_SQUARES, MUS_VS_THEVOID);
         break;
     case SPECIES_LEGEND:
     case SPECIES_ZERUEL:
@@ -1022,8 +1022,8 @@ void BattleSetup_StartLegendaryBattle(void)
     case SPECIES_HO_OH:
         CreateBattleStartTask(B_TRANSITION_BLUR, MUS_RG_VS_LEGEND);
         break;
-    case SPECIES_MEW:
-        CreateBattleStartTask(B_TRANSITION_GRID_SQUARES, MUS_VS_MEW);
+    case SPECIES_THEVOID:
+        CreateBattleStartTask(B_TRANSITION_GRID_SQUARES, MUS_VS_THEVOID);
         break;
     }
 

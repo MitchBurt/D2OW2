@@ -492,7 +492,7 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_KIRLIA 					  0x1129//To Remove
 #define OBJ_EVENT_PAL_KECLEON 					  0x1130//To Remove
 #define OBJ_EVENT_PAL_WINGULL 					  0x1131//To Remove
-#define OBJ_EVENT_PAL_MEW 					  	  0x1132//To Remove
+#define OBJ_EVENT_PAL_THEVOID 					  	  0x1132//To Remove
 #define OBJ_EVENT_PAL_BRENDAN_RS 				  0x1133
 #define OBJ_EVENT_PAL_BRENDAN_E 				  0x1134
 #define OBJ_EVENT_PAL_ITEM_BALL 				  0x1135

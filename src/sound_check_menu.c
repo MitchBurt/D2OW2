@@ -1228,7 +1228,7 @@ static void DestroyWindow(u8 windowId) // sub_080E9750
     X(MUS_B_FACTORY, "MUS-B-FACTORY") \
     X(MUS_VS_RAYQUAZA, "MUS-VS-RAYQUAZA") \
     X(MUS_VS_FRONTIER_BRAIN, "MUS-VS-FRONTIER-BRAIN") \
-    X(MUS_VS_MEW, "MUS-VS-THEVOID") \
+    X(MUS_VS_THEVOID, "MUS-VS-THEVOID") \
     X(MUS_B_DOME_LOBBY, "MUS-B-DOME-LOBBY") \
     X(DP_SEQ_TITLE00               , "DP-SEQ-TITLE00") \
     X(DP_SEQ_TITLE01               , "DP-SEQ-TITLE01") \

@@ -987,8 +987,8 @@ Cry_God::
 	.incbin "sound/direct_sound_samples/cries/cry_god.bin"
 
 	.align 2
-Cry_Mew::
-	.incbin "sound/direct_sound_samples/cries/cry_mew.bin"
+Cry_Thevoid::
+	.incbin "sound/direct_sound_samples/cries/cry_thevoid.bin"
 
 	.align 2
 Cry_Chikorita::

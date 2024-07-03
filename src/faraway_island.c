@@ -344,7 +344,7 @@ bool8 ObjectEventIsFarawayIslandMew(struct ObjectEvent *objectEvent)
     if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(FARAWAY_ISLAND_INTERIOR)
      && gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(FARAWAY_ISLAND_INTERIOR))
     {
-        if (objectEvent->graphicsId == OBJ_EVENT_GFX_MEW)
+        if (objectEvent->graphicsId == OBJ_EVENT_GFX_THEVOID)
             return TRUE;
     }
 
@@ -356,7 +356,7 @@ bool8 IsMewPlayingHideAndSeek(void)
     if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(FARAWAY_ISLAND_INTERIOR)
      && gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(FARAWAY_ISLAND_INTERIOR))
     {
-        if (FlagGet(FLAG_CAUGHT_MEW) != TRUE && FlagGet(FLAG_HIDE_MEW) != TRUE)
+        if (FlagGet(FLAG_CAUGHT_THEVOID) != TRUE && FlagGet(FLAG_HIDE_THEVOID) != TRUE)
             return TRUE;
     }
 

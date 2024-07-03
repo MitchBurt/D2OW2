@@ -95,7 +95,7 @@ u8 ScriptGiveMon(u16 species, u8 level, u16 item, u32 ability, u32 unused2, u8 u
 	if(Specie == SPECIES_NONE)
 		Specie = SPECIES_DITTO;
 
-	if(baseSpecies != SPECIES_MEW)
+	if(baseSpecies != SPECIES_THEVOID)
 		CreateMon(&mon, baseSpecies, scaledlevel, 32, 0, 0, OT_ID_PLAYER_ID, 0, formId);
 	else{
 		CreateMon(&mon, Specie, scaledlevel, 32, 0, 0, OT_ID_PLAYER_ID, 0, formId);

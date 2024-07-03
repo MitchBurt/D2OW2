@@ -218,7 +218,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kirlia;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Dusclops;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnionRoomAttendant;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sudowoodo;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mew;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Thevoid;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Red;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Leaf;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BirthIslandStone;
@@ -1370,7 +1370,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_VIGOROTH_FACING_AWAY] =     &gObjectEventGraphicsInfo_Pokemon_Species_151,
     [OBJ_EVENT_GFX_ZIGZAGOON_1] =              &gObjectEventGraphicsInfo_Pokemon_Species_263,
 	[OBJ_EVENT_GFX_POOCHYENA] =                &gObjectEventGraphicsInfo_Pokemon_Species_262,
-    [OBJ_EVENT_GFX_MEW] =                      &gObjectEventGraphicsInfo_Pokemon_Species_151,
+    [OBJ_EVENT_GFX_THEVOID] =                      &gObjectEventGraphicsInfo_Pokemon_Species_151,
 	[OBJ_EVENT_GFX_KIRLIA] =                   &gObjectEventGraphicsInfo_Pokemon_Species_282,
 	[OBJ_EVENT_GFX_LATIAS] =                   &gObjectEventGraphicsInfo_Pokemon_Species_380,
     [OBJ_EVENT_GFX_LATIOS] =                   &gObjectEventGraphicsInfo_Pokemon_Species_381,

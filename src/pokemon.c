@@ -2055,7 +2055,7 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_WOOPTRET - 1] = 0x10,
     [SPECIES_KILLWORU - 1] = 0x47,
     [SPECIES_GOD - 1] = 0x09,
-    [SPECIES_MEW - 1] = 0x0d,
+    [SPECIES_THEVOID - 1] = 0x0d,
     [SPECIES_CHIKORITA - 1] = 0x00,
     [SPECIES_BAYLEEF - 1] = 0x00,
     [SPECIES_MEGANIUM - 1] = 0x17,
@@ -8138,8 +8138,8 @@ u16 GetBattleBGM(void)
         case SPECIES_GOD_MEGA_X:
         case SPECIES_GOD_MEGA_Y:
             return MUS_RG_VS_GOD;
-        case SPECIES_MEW:
-            return MUS_VS_MEW;
+        case SPECIES_THEVOID:
+            return MUS_VS_THEVOID;
         case SPECIES_RAIKOU:
             return HG_SEQ_GS_VS_RAIKOU;
         case SPECIES_ENTEI:
