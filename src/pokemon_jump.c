@@ -316,7 +316,7 @@ static const struct PokemonJumpMons gPkmnJumpSpecies[] =
     { .species = SPECIES_BONGSTARD,     .unk2 = 2, },
     { .species = SPECIES_GOOFSHRUM,      .unk2 = 1, },
     { .species = SPECIES_GARFEL,     .unk2 = 0, },
-    { .species = SPECIES_PSYDUCK,    .unk2 = 2, },
+    { .species = SPECIES_DUGGAME,    .unk2 = 2, },
     { .species = SPECIES_AGANDA,     .unk2 = 1, },
     { .species = SPECIES_CTHEYE,  .unk2 = 1, },
     { .species = SPECIES_OOTLAW,    .unk2 = 2, },
