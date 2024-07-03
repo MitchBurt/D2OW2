@@ -1998,7 +1998,7 @@ static void UnlockQuestMenu(void)
 	if(	GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ATTACO), 	FLAG_GET_CAUGHT)	||
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_GAISER), 	FLAG_GET_CAUGHT)	||
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_CORORK), 		FLAG_GET_CAUGHT)	||
-		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_CORORKPS), 	FLAG_GET_CAUGHT)	||
+		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_BIGOBEET), 	FLAG_GET_CAUGHT)	||
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_AERODACTYL), 	FLAG_GET_CAUGHT)	||
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_LILEEP), 		FLAG_GET_CAUGHT)	||
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ANORITH), 	FLAG_GET_CAUGHT)	||
@@ -2025,7 +2025,7 @@ static void UnlockQuestMenu(void)
 	if(	GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ATTACO), 	FLAG_GET_CAUGHT)	&&
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_GAISER), 	FLAG_GET_CAUGHT)	&&
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_CORORK), 		FLAG_GET_CAUGHT)	&&
-		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_CORORKPS), 	FLAG_GET_CAUGHT)	&&
+		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_BIGOBEET), 	FLAG_GET_CAUGHT)	&&
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_AERODACTYL), 	FLAG_GET_CAUGHT)	&&
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_LILEEP), 		FLAG_GET_CAUGHT)	&&
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ANORITH), 	FLAG_GET_CAUGHT)	&&
@@ -2152,7 +2152,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_REPLITOR:
 				case SPECIES_GROX:
 				case SPECIES_CORORK:
-				case SPECIES_CORORKPS:
+				case SPECIES_BIGOBEET:
 				case SPECIES_XOKKEON:
 				case SPECIES_DRUDDIGON:
 				case SPECIES_CREEPA:
@@ -2394,7 +2394,7 @@ static void Task_QuestMenuProgress(u8 taskId)
 				SPECIES_ATTACO,
 				SPECIES_GAISER,
 				SPECIES_CORORK,
-				SPECIES_CORORKPS,
+				SPECIES_BIGOBEET,
 				SPECIES_AERODACTYL,
 				SPECIES_LILEEP,
 				SPECIES_ANORITH,
