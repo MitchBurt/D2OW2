@@ -871,21 +871,21 @@ static u8 GetMonFormId(u16 *species, struct DayCare *daycare){
 			if(motherSpecies == SPECIES_RUNERIGUS || (fatherSpecies == SPECIES_RUNERIGUS && motherSpecies == SPECIES_DITTO))
 				return GetFormIdFromFormSpeciesId(SPECIES_YAMASK_GALARIAN);
 		break;
-		case SPECIES_FARFETCHD:
-		case SPECIES_FARFETCHD_GALARIAN:
+		case SPECIES_IMPOSTOWN:
+		case SPECIES_IMPOSTOWN_GALARIAN:
 			if(motherSpecies == SPECIES_SIRFETCHD || (fatherSpecies == SPECIES_SIRFETCHD && motherSpecies == SPECIES_DITTO))
-				return GetFormIdFromFormSpeciesId(SPECIES_FARFETCHD_GALARIAN);
+				return GetFormIdFromFormSpeciesId(SPECIES_IMPOSTOWN_GALARIAN);
 		break;
 		case SPECIES_CORSOLA:
 		case SPECIES_CORSOLA_GALARIAN:
 			if(motherSpecies == SPECIES_CURSOLA || (fatherSpecies == SPECIES_CURSOLA && motherSpecies == SPECIES_DITTO))
 				return GetFormIdFromFormSpeciesId(SPECIES_CORSOLA_GALARIAN);
 		break;
-		case SPECIES_PONYTA:
-		case SPECIES_PONYTA_GALARIAN:
-			if(motherSpecies == SPECIES_PONYTA_GALARIAN   || (fatherSpecies == SPECIES_PONYTA_GALARIAN   && motherSpecies == SPECIES_DITTO) ||
-			   motherSpecies == SPECIES_RAPIDASH_GALARIAN || (fatherSpecies == SPECIES_RAPIDASH_GALARIAN && motherSpecies == SPECIES_DITTO))
-				return GetFormIdFromFormSpeciesId(SPECIES_PONYTA_GALARIAN);
+		case SPECIES_DEBEGUCK:
+		case SPECIES_DEBEGUCK_GALARIAN:
+			if(motherSpecies == SPECIES_DEBEGUCK_GALARIAN   || (fatherSpecies == SPECIES_DEBEGUCK_GALARIAN   && motherSpecies == SPECIES_DITTO) ||
+			   motherSpecies == SPECIES_LONKY_GALARIAN || (fatherSpecies == SPECIES_LONKY_GALARIAN && motherSpecies == SPECIES_DITTO))
+				return GetFormIdFromFormSpeciesId(SPECIES_DEBEGUCK_GALARIAN);
 		break;
 	}
 	

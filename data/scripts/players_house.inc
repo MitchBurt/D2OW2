@@ -429,7 +429,7 @@ PlayersHouse_1F_Movement_MovePlayerAwayFromDoor: @ 8292AF0
 	walk_up
 	step_end
 
-PlayersHouse_1F_EventScript_GetSSTicketAndSeeLatiTV:: @ 8292AF2
+PlayersHouse_1F_EventScript_GetSSTicketAndDabboiatiTV:: @ 8292AF2
 	lockall
 	checkplayergender
 	compare VAR_RESULT, MALE

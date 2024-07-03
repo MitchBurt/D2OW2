@@ -424,15 +424,15 @@ Cry_Manaphy::
 	
 	.align 2
 Cry_Egg_Group_Water_1::
-	.incbin "sound/direct_sound_samples/cries/cry_seel.bin"
+	.incbin "sound/direct_sound_samples/cries/cry_dabboi.bin"
 	
 	.align 2
 Cry_Egg_Group_Water_2::
-	.incbin "sound/direct_sound_samples/cries/cry_seel.bin"
+	.incbin "sound/direct_sound_samples/cries/cry_dabboi.bin"
 
 	.align 2
 Cry_Egg_Group_Water_3::
-	.incbin "sound/direct_sound_samples/cries/cry_seel.bin"
+	.incbin "sound/direct_sound_samples/cries/cry_dabboi.bin"
 
 	.align 2
 Cry_Egg_Group_Dragon::
@@ -456,7 +456,7 @@ Cry_Egg_Group_Bug:
 
 	.align 2
 Cry_Egg_Group_Mineral:
-	.incbin "sound/direct_sound_samples/cries/cry_geodude.bin"
+	.incbin "sound/direct_sound_samples/cries/cry_rock.bin"
 
 	.align 2
 Cry_Egg_Group_Field:

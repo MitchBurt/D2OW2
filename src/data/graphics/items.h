@@ -1387,8 +1387,8 @@ const u32 gItemIconPalette_Metagrossite[] = INCBIN_U32("graphics/items/icon_pale
 const u32 gItemIcon_Sharpedonite[] = INCBIN_U32("graphics/items/icons/sharpedonite.4bpp.lz");
 const u32 gItemIconPalette_Sharpedonite[] = INCBIN_U32("graphics/items/icon_palettes/sharpedonite.gbapal.lz");
 
-const u32 gItemIcon_Slowbronite[] = INCBIN_U32("graphics/items/icons/slowbronite.4bpp.lz");
-const u32 gItemIconPalette_Slowbronite[] = INCBIN_U32("graphics/items/icon_palettes/slowbronite.gbapal.lz");
+const u32 gItemIcon_Shemuenite[] = INCBIN_U32("graphics/items/icons/shemuenite.4bpp.lz");
+const u32 gItemIconPalette_Shemuenite[] = INCBIN_U32("graphics/items/icon_palettes/shemuenite.gbapal.lz");
 
 const u32 gItemIcon_Steelixite[] = INCBIN_U32("graphics/items/icons/steelixite.4bpp.lz");
 const u32 gItemIconPalette_Steelixite[] = INCBIN_U32("graphics/items/icon_palettes/steelixite.gbapal.lz");

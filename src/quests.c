@@ -2108,12 +2108,12 @@ static void UnlockQuestMenu(void)
 		
 		if(IsMonShiny(&gPlayerParty[i]) && GetMonData(&gPlayerParty[i], MON_DATA_POKEBALL, NULL) != ITEM_CHERISH_BALL){
 			switch(GetMonData(&gPlayerParty[i], MON_DATA_SPECIES2)){
-				case SPECIES_MANKEY:
+				case SPECIES_AGANDA:
 				case SPECIES_MARILL:
 				case SPECIES_SWELLOW:
 				case SPECIES_ESPEON:
 				case SPECIES_BERRORD:
-				case SPECIES_DODRIO:
+				case SPECIES_PARANGELIA:
 				case SPECIES_DRAGONITE:
 				case SPECIES_HUNTAIL:
 				case SPECIES_SUDOWOODO:
@@ -2129,7 +2129,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_TANGROWTH:
 				case SPECIES_TANGELA:
 				case SPECIES_MEWTWO:
-				case SPECIES_POLIWRATH:
+				case SPECIES_RENAGEDE:
 				case SPECIES_BATANARF:
 				case SPECIES_ANIVENOM:
 				case SPECIES_SPINDA:
@@ -2141,13 +2141,13 @@ static void UnlockQuestMenu(void)
 				case SPECIES_SWOOBAT:
 				case SPECIES_KELDEO:
 				case SPECIES_DIALGA:
-				case SPECIES_MACHAMP:
+				case SPECIES_LONGIFER:
 				case SPECIES_PELIPPER:
 				case SPECIES_WINGULL:
 				case SPECIES_SALAMENCE:
 				case SPECIES_BAGON:
 				case SPECIES_SCIZOR:
-				case SPECIES_PRIMEAPE:
+				case SPECIES_SUGREIVOUS:
 				case SPECIES_MAROWAK:
 				case SPECIES_HITMONLEE:
 				case SPECIES_TAUROS:
@@ -2173,11 +2173,11 @@ static void UnlockQuestMenu(void)
 				case SPECIES_TURTWIG:
 				case SPECIES_LURANTIS:
 				case SPECIES_BRONZOR:
-				case SPECIES_DODUO:
+				case SPECIES_DIVINI:
 				case SPECIES_TAILLOW:
 				case SPECIES_MIMEJR:
 				case SPECIES_NINCADA:
-				case SPECIES_MACHOKE:
+				case SPECIES_FURBOIS:
 				case SPECIES_VICTREEBEL:
 				case SPECIES_CHANSEY:
 				case SPECIES_SILCOON:

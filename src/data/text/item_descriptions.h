@@ -616,7 +616,7 @@ static const u8 sGlitterMailDesc[] = _(
     "un Pokémon.");
 
 static const u8 sMechMailDesc[] = _(
-    "Sale Magnemite.\n"
+    "Sale Desquared.\n"
     "Debe llevarla\n"
     "un Pokémon.");
 
@@ -2605,7 +2605,7 @@ static const u8 sAbsoliteDesc[] = _(
 static const u8 sAlakaziteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Alakazam.");
+    "Kuklops.");
 
 static const u8 sHeracroniteDesc[] = _(
     "Piedra que permite\n"
@@ -2677,10 +2677,10 @@ static const u8 sSharpedoniteDesc[] = _(
     "megaevolucionar a\n"
     "Sharpedo.");
 
-static const u8 sSlowbroniteDesc[] = _(
+static const u8 sShemueniteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Slowbro.");
+    "Shemue.");
 
 static const u8 sSteelixiteDesc[] = _(
     "Piedra que permite\n"
@@ -3487,7 +3487,7 @@ static const u8 sGlitterMailDesc[] = _(
     "a Pokémon.");
 
 static const u8 sMechMailDesc[] = _(
-    "A Magnemite-print\n"
+    "A Desquared-print\n"
     "Mail to be held by\n"
     "a Pokémon.");
 
@@ -5837,7 +5837,7 @@ static const u8 sAbsoliteDesc[] = _(
 
 static const u8 sAlakaziteDesc[] = _(
     "This stone enables\n"
-    "Alakazam to Mega\n"
+    "Kuklops to Mega\n"
     "Evolve in battle.");
 
 static const u8 sHeracroniteDesc[] = _(
@@ -5910,9 +5910,9 @@ static const u8 sSharpedoniteDesc[] = _(
     "Sharpedo to Mega\n"
     "Evolve in battle.");
 
-static const u8 sSlowbroniteDesc[] = _(
+static const u8 sShemueniteDesc[] = _(
     "This stone enables\n"
-    "Slowbro to Mega\n"
+    "Shemue to Mega\n"
     "Evolve in battle.");
 
 static const u8 sSteelixiteDesc[] = _(

@@ -1871,7 +1871,7 @@ s32 CalcCritChanceStage(u8 battlerAtk, u8 battlerDef, u32 move, bool32 recordAbi
                     + ((gBattleMoves[gCurrentMove].flags & FLAG_HIGH_CRIT) != 0)
                     + (holdEffectAtk == HOLD_EFFECT_SCOPE_LENS)
                     + 2 * (holdEffectAtk == HOLD_EFFECT_LUCKY_PUNCH && gBattleMons[gBattlerAttacker].species == SPECIES_CHANSEY)
-                    + 2 * (holdEffectAtk == HOLD_EFFECT_STICK && gBattleMons[gBattlerAttacker].species == SPECIES_FARFETCHD)
+                    + 2 * (holdEffectAtk == HOLD_EFFECT_STICK && gBattleMons[gBattlerAttacker].species == SPECIES_IMPOSTOWN)
 					+ 2 * (holdEffectAtk == HOLD_EFFECT_STICK && gBattleMons[gBattlerAttacker].species == SPECIES_SIRFETCHD)
                     + 2 * (abilityAtk == ABILITY_HYPER_CUTTER && (gBattleMoves[move].flags & FLAG_MAKES_CONTACT))
                     + (abilityAtk == ABILITY_SUPER_LUCK);
@@ -12848,8 +12848,8 @@ static void Cmd_givecaughtmon(void)
         case SPECIES_SPERIATHON_MEGA:
         case SPECIES_BERRORD_MEGA:
         case SPECIES_FAZEAGLE_MEGA:
-        case SPECIES_ALAKAZAM_MEGA:
-        case SPECIES_SLOWBRO_MEGA:
+        case SPECIES_KUKLOPS_MEGA:
+        case SPECIES_SHEMUE_MEGA:
         case SPECIES_GENGAR_MEGA:
         case SPECIES_KANGASKHAN_MEGA:
         case SPECIES_PINSIR_MEGA:

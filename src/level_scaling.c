@@ -852,10 +852,10 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 		case SPECIES_EEVEE:
 			
 		break;
-		case SPECIES_POLIWHIRL:
+		case SPECIES_SHERRIF:
 			if(level >= 38){
 				u16 PossibleEvo[] = {
-					SPECIES_POLIWRATH,
+					SPECIES_RENAGEDE,
 					SPECIES_POLITOED,
 				};
 				
@@ -873,10 +873,10 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_SLOWPOKE:
+		case SPECIES_BASSHOP:
 			if(level >= 37){
 				u16 PossibleEvo[] = {
-					SPECIES_SLOWBRO,
+					SPECIES_SHEMUE,
 					SPECIES_SLOWKING,
 				};
 				
@@ -2367,8 +2367,8 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 		case SPECIES_PLUSLE:
 			item = ITEM_LIGHT_BALL;
 		break;
-		case SPECIES_FARFETCHD:
-		case SPECIES_FARFETCHD_GALARIAN:
+		case SPECIES_IMPOSTOWN:
+		case SPECIES_IMPOSTOWN_GALARIAN:
 		case SPECIES_SIRFETCHD:
 			item = ITEM_STICK;
 		break;
@@ -2396,7 +2396,7 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_AGGRONITE;
 		break;
-		case SPECIES_ALAKAZAM:
+		case SPECIES_KUKLOPS:
 			if(canMega)
 				item = ITEM_ALAKAZITE;
 		break;
@@ -2524,9 +2524,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_SHARPEDONITE;
 		break;
-		case SPECIES_SLOWBRO:
+		case SPECIES_SHEMUE:
 			if(canMega)
-				item = ITEM_SLOWBRONITE;
+				item = ITEM_SHEMUENITE;
 		break;
 		case SPECIES_STEELIX:
 			if(canMega)
@@ -2603,7 +2603,7 @@ bool8 canPokemonLearnMove(u16 species, u8 formId, u16 move){
 			   move == MOVE_FREEZE_DRY)
 				return TRUE;
 		break;
-		case SPECIES_MACHAMP:
+		case SPECIES_LONGIFER:
 			if(move == MOVE_FISSURE)
 				return TRUE;
 		break;

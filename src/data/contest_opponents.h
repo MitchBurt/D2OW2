@@ -747,7 +747,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_CAITLIN] = {
-        .species = SPECIES_POLIWAG,
+        .species = SPECIES_OOTLAW,
         .nickname = _("Wagil"),
         .trainerName = _("Caitlin"),
         .trainerGfxId = OBJ_EVENT_GFX_TUBER_F,
@@ -915,7 +915,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_BOBBY] = {
-        .species = SPECIES_DODRIO,
+        .species = SPECIES_PARANGELIA,
         .nickname = _("Duodo"),
         .trainerName = _("Bobby"),
         .trainerGfxId = OBJ_EVENT_GFX_RUNNING_TRIATHLETE_M,
@@ -1307,7 +1307,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_LUKE] = {
-        .species = SPECIES_SLOWBRO,
+        .species = SPECIES_SHEMUE,
         .nickname = _("Browlo"),
         .trainerName = _("Luke"),
         .trainerGfxId = OBJ_EVENT_GFX_FAT_MAN,
@@ -1335,7 +1335,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_RAUL] = {
-        .species = SPECIES_FARFETCHD,
+        .species = SPECIES_IMPOSTOWN,
         .nickname = _("Fetchin"),
         .trainerName = _("Raul"),
         .trainerGfxId = OBJ_EVENT_GFX_MAN_5,
@@ -1363,8 +1363,8 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_JADA] = {
-        .species = SPECIES_SEEL,
-        .nickname = _("Seeley"),
+        .species = SPECIES_DABBOI,
+        .nickname = _("Dabboiey"),
         .trainerName = _("Jada"),
         .trainerGfxId = OBJ_EVENT_GFX_WOMAN_2,
         .aiFlags = CONTEST_AI_SET_3,
@@ -1783,7 +1783,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_EMILIO] = {
-        .species = SPECIES_MACHOKE,
+        .species = SPECIES_FURBOIS,
         .nickname = _("Chokem"),
         .trainerName = _("Emilio"),
         .trainerGfxId = OBJ_EVENT_GFX_SCHOOL_KID_M,

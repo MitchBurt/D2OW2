@@ -703,7 +703,7 @@
 #define FLAG_UNUSED_0x291  0x291 // Abomasite*
 #define FLAG_GOT_HERACRONITE  0x292 // Heracronite*
 #define FLAG_GOT_GYARADOSITE  0x293 // Gyaradosite*
-#define FLAG_GOT_SLOWBROITE  0x294 // Slowbroite
+#define FLAG_GOT_SHEMUEITE  0x294 // Shemueite
 #define FLAG_UNUSED_0x295  0x295 // Portal Stuff
 #define FLAG_UNUSED_0x296  0x296 // Unused Flag
 #define FLAG_UNUSED_0x297  0x297 // Unused Flag

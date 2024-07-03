@@ -5012,31 +5012,31 @@ u16 getWonderTradePokemonFormID(u16 species)
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_GEODUDE:
+		case SPECIES_ROCK:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_GEODUDE,
-					SPECIES_GEODUDE_ALOLAN,
+					SPECIES_ROCK,
+					SPECIES_ROCK_ALOLAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_GRAVELER:
+		case SPECIES_TONCRETE:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_GRAVELER,
-					SPECIES_GRAVELER_ALOLAN,
+					SPECIES_TONCRETE,
+					SPECIES_TONCRETE_ALOLAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_GOLEM:
+		case SPECIES_LOSSILITH:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_GOLEM,
-					SPECIES_GOLEM_ALOLAN,
+					SPECIES_LOSSILITH,
+					SPECIES_LOSSILITH_ALOLAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
@@ -5082,31 +5082,31 @@ u16 getWonderTradePokemonFormID(u16 species)
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_PONYTA:
+		case SPECIES_DEBEGUCK:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_PONYTA,
-					SPECIES_PONYTA_GALARIAN,
+					SPECIES_DEBEGUCK,
+					SPECIES_DEBEGUCK_GALARIAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_RAPIDASH:
+		case SPECIES_LONKY:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_RAPIDASH,
-					SPECIES_RAPIDASH_GALARIAN,
+					SPECIES_LONKY,
+					SPECIES_LONKY_GALARIAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_FARFETCHD:
+		case SPECIES_IMPOSTOWN:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_FARFETCHD,
-					SPECIES_FARFETCHD_GALARIAN,
+					SPECIES_IMPOSTOWN,
+					SPECIES_IMPOSTOWN_GALARIAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
@@ -5192,21 +5192,21 @@ u16 getWonderTradePokemonFormID(u16 species)
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_SLOWPOKE:
+		case SPECIES_BASSHOP:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_SLOWPOKE,
-					SPECIES_SLOWPOKE_GALARIAN,
+					SPECIES_BASSHOP,
+					SPECIES_BASSHOP_GALARIAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_SLOWBRO:
+		case SPECIES_SHEMUE:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_SLOWBRO,
-					SPECIES_SLOWBRO_GALARIAN,
+					SPECIES_SHEMUE,
+					SPECIES_SHEMUE_GALARIAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];

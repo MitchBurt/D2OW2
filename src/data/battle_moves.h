@@ -11582,7 +11582,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_GOLEM] =
+    [SPECIES_LOSSILITH] =
     {
         .move = MOVE_EXPLOSION,
         .modification = SIGNATURE_MOD_MODIFY_FIELD,
@@ -11590,7 +11590,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_GOLEM_ALOLAN] =
+    [SPECIES_LOSSILITH_ALOLAN] =
     {
         .move = MOVE_EXPLOSION,
         .modification = SIGNATURE_MOD_MODIFY_FIELD,
@@ -11699,7 +11699,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_MACHAMP] =
+    [SPECIES_LONGIFER] =
     {
         .move = MOVE_STRENGTH,
         .modification = SIGNATURE_MOD_POWER,

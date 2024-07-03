@@ -259,7 +259,7 @@ static s8 GetNewSlotDoubleLayout(s8, s8);
 static void PartyMenuPrintText(const u8*);
 static void Task_PrintAndWaitForText(u8);
 static bool16 IsMonAllowedInPokemonJump(struct Pokemon*);
-static bool16 IsMonAllowedInDodrioBerryPicking(struct Pokemon*);
+static bool16 IsMonAllowedInParangeliaBerryPicking(struct Pokemon*);
 static void Task_CancelParticipationYesNo(u8);
 static void Task_HandleCancelParticipationYesNoInput(u8);
 // static bool8 CanLearnTutorMove(u16, u8);
@@ -2125,7 +2125,7 @@ static void SetPartyMonsAllowedInMinigame(void)
         else
         {
             for (i = 0; i < gPlayerPartyCount; i++)
-                *ptr += IsMonAllowedInDodrioBerryPicking(&gPlayerParty[i]) << i;
+                *ptr += IsMonAllowedInParangeliaBerryPicking(&gPlayerParty[i]) << i;
         }
     }
 }
@@ -2138,9 +2138,9 @@ static bool16 IsMonAllowedInPokemonJump(struct Pokemon *mon)
 }
 
 
-static bool16 IsMonAllowedInDodrioBerryPicking(struct Pokemon *mon)
+static bool16 IsMonAllowedInParangeliaBerryPicking(struct Pokemon *mon)
 {
-    if (GetMonData(mon, MON_DATA_IS_EGG) != TRUE && GetMonData(mon, MON_DATA_SPECIES) == SPECIES_DODRIO)
+    if (GetMonData(mon, MON_DATA_IS_EGG) != TRUE && GetMonData(mon, MON_DATA_SPECIES) == SPECIES_PARANGELIA)
         return TRUE;
     return FALSE;
 }

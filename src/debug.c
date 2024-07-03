@@ -50,7 +50,7 @@
 #include "level_scaling.h"
 #include "party_menu.h"
 #include "union_room.h"
-#include "dodrio_berry_picking.h"
+#include "parangelia_berry_picking.h"
 #include "pokemon_summary_screen.h"
 #include "constants/abilities.h"
 #include "constants/flags.h"

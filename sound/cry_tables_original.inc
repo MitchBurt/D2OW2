@@ -54,40 +54,40 @@ gCryTable:: @ 869DCF4
 	cry Cry_Ghoma  @ 869DF4C
 	cry Cry_Garfel  @ 869DF58
 	cry Cry_Gorefield  @ 869DF64
-	cry Cry_Psyduck  @ 869DF70
-	cry Cry_Golduck  @ 869DF7C
-	cry Cry_Mankey  @ 869DF88
-	cry Cry_Primeape  @ 869DF94
-	cry Cry_Growlithe  @ 869DFA0
-	cry Cry_Arcanine  @ 869DFAC
-	cry Cry_Poliwag  @ 869DFB8
-	cry Cry_Poliwhirl  @ 869DFC4
-	cry Cry_Poliwrath  @ 869DFD0
+	cry Cry_Duggame  @ 869DF70
+	cry Cry_Perripus  @ 869DF7C
+	cry Cry_Aganda  @ 869DF88
+	cry Cry_Sugreivous  @ 869DF94
+	cry Cry_Ctheye  @ 869DFA0
+	cry Cry_Opticulu  @ 869DFAC
+	cry Cry_Ootlaw  @ 869DFB8
+	cry Cry_Sherrif  @ 869DFC4
+	cry Cry_Renagede  @ 869DFD0
 	cry Cry_Abra  @ 869DFDC
-	cry Cry_Kadabra  @ 869DFE8
-	cry Cry_Alakazam  @ 869DFF4
-	cry Cry_Machop  @ 869E000
-	cry Cry_Machoke  @ 869E00C
-	cry Cry_Machamp  @ 869E018
-	cry Cry_Bellsprout  @ 869E024
-	cry Cry_Weepinbell  @ 869E030
+	cry Cry_Kuklan  @ 869DFE8
+	cry Cry_Kuklops  @ 869DFF4
+	cry Cry_Farby  @ 869E000
+	cry Cry_Furbois  @ 869E00C
+	cry Cry_Longifer  @ 869E018
+	cry Cry_Bongecko  @ 869E024
+	cry Cry_Mariguana  @ 869E030
 	cry Cry_Victreebel  @ 869E03C
-	cry Cry_Tentacool  @ 869E048
-	cry Cry_Tentacruel  @ 869E054
-	cry Cry_Geodude  @ 869E060
-	cry Cry_Graveler  @ 869E06C
-	cry Cry_Golem  @ 869E078
-	cry Cry_Ponyta  @ 869E084
-	cry Cry_Rapidash  @ 869E090
-	cry Cry_Slowpoke  @ 869E09C
-	cry Cry_Slowbro  @ 869E0A8
-	cry Cry_Magnemite  @ 869E0B4
-	cry Cry_Magneton  @ 869E0C0
-	cry Cry_Farfetchd  @ 869E0CC
-	cry Cry_Doduo  @ 869E0D8
-	cry Cry_Dodrio  @ 869E0E4
-	cry Cry_Seel  @ 869E0F0
-	cry Cry_Dewgong  @ 869E0FC
+	cry Cry_Flootey  @ 869E048
+	cry Cry_Freddifer  @ 869E054
+	cry Cry_Rock  @ 869E060
+	cry Cry_Toncrete  @ 869E06C
+	cry Cry_Lossilith  @ 869E078
+	cry Cry_Debeguck  @ 869E084
+	cry Cry_Lonky  @ 869E090
+	cry Cry_Basshop  @ 869E09C
+	cry Cry_Shemue  @ 869E0A8
+	cry Cry_Desquared  @ 869E0B4
+	cry Cry_Deathcubed  @ 869E0C0
+	cry Cry_Impostown  @ 869E0CC
+	cry Cry_Divini  @ 869E0D8
+	cry Cry_Parangelia  @ 869E0E4
+	cry Cry_Dabboi  @ 869E0F0
+	cry Cry_Titenic  @ 869E0FC
 	cry Cry_Grimer  @ 869E108
 	cry Cry_Muk  @ 869E114
 	cry Cry_Shellder  @ 869E120
@@ -608,7 +608,7 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Klinklang
 	cry_not Cry_Tynamo
 	cry_not Cry_Eelektrik
-	cry_not Cry_Eelektross
+	cry_not Cry_Elektross
 	cry_not Cry_Elgyem
 	cry_not Cry_Beheeyem
 	cry_not Cry_Litwick
@@ -912,8 +912,8 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Speriathon_Mega
 	cry_not Cry_Berrord_Mega
 	cry_not Cry_Fazeagle_Mega
-	cry_not Cry_Alakazam_Mega
-	cry_not Cry_Slowbro_Mega
+	cry_not Cry_Kuklops_Mega
+	cry_not Cry_Shemue_Mega
 	cry_not Cry_Gengar_Mega
 	cry_not Cry_Kangaskhan_Mega
 	cry_not Cry_Pinsir_Mega
@@ -969,20 +969,20 @@ gCryTable:: @ 869DCF4
 	cry Cry_Ghoma
 	cry Cry_Garfel
 	cry Cry_Gorefield
-	cry Cry_Geodude
-	cry Cry_Graveler
-	cry Cry_Golem
+	cry Cry_Rock
+	cry Cry_Toncrete
+	cry Cry_Lossilith
 	cry Cry_Grimer
 	cry Cry_Muk
 	cry Cry_Exeggutor
 	cry Cry_Marowak
 	@ Galarian Forms
 	cry Cry_Garfel
-	cry Cry_Ponyta
-	cry Cry_Rapidash
-	cry_not Cry_Slowpoke_Galarian
-	cry Cry_Slowbro
-	cry Cry_Farfetchd
+	cry Cry_Debeguck
+	cry Cry_Lonky
+	cry_not Cry_Basshop_Galarian
+	cry Cry_Shemue
+	cry Cry_Impostown
 	cry Cry_Weezing
 	cry Cry_MrMime
 	cry Cry_Articuno
@@ -1334,40 +1334,40 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Ghoma  @ 869F17C
 	cry2 Cry_Garfel  @ 869F188
 	cry2 Cry_Gorefield  @ 869F194
-	cry2 Cry_Psyduck  @ 869F1A0
-	cry2 Cry_Golduck  @ 869F1AC
-	cry2 Cry_Mankey  @ 869F1B8
-	cry2 Cry_Primeape  @ 869F1C4
-	cry2 Cry_Growlithe  @ 869F1D0
-	cry2 Cry_Arcanine  @ 869F1DC
-	cry2 Cry_Poliwag  @ 869F1E8
-	cry2 Cry_Poliwhirl  @ 869F1F4
-	cry2 Cry_Poliwrath  @ 869F200
+	cry2 Cry_Duggame  @ 869F1A0
+	cry2 Cry_Perripus  @ 869F1AC
+	cry2 Cry_Aganda  @ 869F1B8
+	cry2 Cry_Sugreivous  @ 869F1C4
+	cry2 Cry_Ctheye  @ 869F1D0
+	cry2 Cry_Opticulu  @ 869F1DC
+	cry2 Cry_Ootlaw  @ 869F1E8
+	cry2 Cry_Sherrif  @ 869F1F4
+	cry2 Cry_Renagede  @ 869F200
 	cry2 Cry_Abra  @ 869F20C
-	cry2 Cry_Kadabra  @ 869F218
-	cry2 Cry_Alakazam  @ 869F224
-	cry2 Cry_Machop  @ 869F230
-	cry2 Cry_Machoke  @ 869F23C
-	cry2 Cry_Machamp  @ 869F248
-	cry2 Cry_Bellsprout  @ 869F254
-	cry2 Cry_Weepinbell  @ 869F260
+	cry2 Cry_Kuklan  @ 869F218
+	cry2 Cry_Kuklops  @ 869F224
+	cry2 Cry_Farby  @ 869F230
+	cry2 Cry_Furbois  @ 869F23C
+	cry2 Cry_Longifer  @ 869F248
+	cry2 Cry_Bongecko  @ 869F254
+	cry2 Cry_Mariguana  @ 869F260
 	cry2 Cry_Victreebel  @ 869F26C
-	cry2 Cry_Tentacool  @ 869F278
-	cry2 Cry_Tentacruel  @ 869F284
-	cry2 Cry_Geodude  @ 869F290
-	cry2 Cry_Graveler  @ 869F29C
-	cry2 Cry_Golem  @ 869F2A8
-	cry2 Cry_Ponyta  @ 869F2B4
-	cry2 Cry_Rapidash  @ 869F2C0
-	cry2 Cry_Slowpoke  @ 869F2CC
-	cry2 Cry_Slowbro  @ 869F2D8
-	cry2 Cry_Magnemite  @ 869F2E4
-	cry2 Cry_Magneton  @ 869F2F0
-	cry2 Cry_Farfetchd  @ 869F2FC
-	cry2 Cry_Doduo  @ 869F308
-	cry2 Cry_Dodrio  @ 869F314
-	cry2 Cry_Seel  @ 869F320
-	cry2 Cry_Dewgong  @ 869F32C
+	cry2 Cry_Flootey  @ 869F278
+	cry2 Cry_Freddifer  @ 869F284
+	cry2 Cry_Rock  @ 869F290
+	cry2 Cry_Toncrete  @ 869F29C
+	cry2 Cry_Lossilith  @ 869F2A8
+	cry2 Cry_Debeguck  @ 869F2B4
+	cry2 Cry_Lonky  @ 869F2C0
+	cry2 Cry_Basshop  @ 869F2CC
+	cry2 Cry_Shemue  @ 869F2D8
+	cry2 Cry_Desquared  @ 869F2E4
+	cry2 Cry_Deathcubed  @ 869F2F0
+	cry2 Cry_Impostown  @ 869F2FC
+	cry2 Cry_Divini  @ 869F308
+	cry2 Cry_Parangelia  @ 869F314
+	cry2 Cry_Dabboi  @ 869F320
+	cry2 Cry_Titenic  @ 869F32C
 	cry2 Cry_Grimer  @ 869F338
 	cry2 Cry_Muk  @ 869F344
 	cry2 Cry_Shellder  @ 869F350
@@ -1886,7 +1886,7 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Klinklang
 	cry2_not Cry_Tynamo
 	cry2_not Cry_Eelektrik
-	cry2_not Cry_Eelektross
+	cry2_not Cry_Elektross
 	cry2_not Cry_Elgyem
 	cry2_not Cry_Beheeyem
 	cry2_not Cry_Litwick
@@ -2190,8 +2190,8 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Speriathon_Mega
 	cry2_not Cry_Berrord_Mega
 	cry2_not Cry_Fazeagle_Mega
-	cry2_not Cry_Alakazam_Mega
-	cry2_not Cry_Slowbro_Mega
+	cry2_not Cry_Kuklops_Mega
+	cry2_not Cry_Shemue_Mega
 	cry2_not Cry_Gengar_Mega
 	cry2_not Cry_Kangaskhan_Mega
 	cry2_not Cry_Pinsir_Mega
@@ -2247,20 +2247,20 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Ghoma
 	cry2 Cry_Garfel
 	cry2 Cry_Gorefield
-	cry2 Cry_Geodude
-	cry2 Cry_Graveler
-	cry2 Cry_Golem
+	cry2 Cry_Rock
+	cry2 Cry_Toncrete
+	cry2 Cry_Lossilith
 	cry2 Cry_Grimer
 	cry2 Cry_Muk
 	cry2 Cry_Exeggutor
 	cry2 Cry_Marowak
 	@ Galarian Forms
 	cry2 Cry_Garfel
-	cry2 Cry_Ponyta
-	cry2 Cry_Rapidash
-	cry2_not Cry_Slowpoke_Galarian
-	cry2 Cry_Slowbro
-	cry2 Cry_Farfetchd
+	cry2 Cry_Debeguck
+	cry2 Cry_Lonky
+	cry2_not Cry_Basshop_Galarian
+	cry2 Cry_Shemue
+	cry2 Cry_Impostown
 	cry2 Cry_Weezing
 	cry2 Cry_MrMime
 	cry2 Cry_Articuno

@@ -9856,7 +9856,7 @@ const struct Item gItems[] =
     [ITEM_ALAKAZITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Alakazamita"),
+        .name = _("Kuklopsita"),
 #else
         .name = _("Alakazite"),
 #endif
@@ -10108,17 +10108,17 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_SLOWBRONITE] =
+    [ITEM_SHEMUENITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Slowbronita"),
+        .name = _("Shemuenita"),
 #else
-        .name = _("Slowbronite"),
+        .name = _("Shemuenite"),
 #endif
-        .itemId = ITEM_SLOWBRONITE,
+        .itemId = ITEM_SHEMUENITE,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sSlowbroniteDesc,
+        .description = sShemueniteDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,

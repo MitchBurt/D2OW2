@@ -1661,8 +1661,8 @@ const struct SpriteFrameImage gObjectEventPicTable_UnusedNatuDoll[] = {
     obj_frame_tiles(gObjectEventPic_UnusedNatuDoll),
 };
 
-const struct SpriteFrameImage gObjectEventPicTable_UnusedMagnemiteDoll[] = {
-    obj_frame_tiles(gObjectEventPic_UnusedMagnemiteDoll),
+const struct SpriteFrameImage gObjectEventPicTable_UnusedDesquaredDoll[] = {
+    obj_frame_tiles(gObjectEventPic_UnusedDesquaredDoll),
 };
 
 const struct SpriteFrameImage gObjectEventPicTable_UnusedJissmDoll[] = {

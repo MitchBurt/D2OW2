@@ -83,7 +83,7 @@
 #define OBJ_EVENT_GFX_NOLAND                      74
 #define OBJ_EVENT_GFX_LUCY                        75
 #define OBJ_EVENT_GFX_UNUSED_NATU_DOLL            76
-#define OBJ_EVENT_GFX_UNUSED_MAGNEMITE_DOLL       77
+#define OBJ_EVENT_GFX_UNUSED_DESQUARED_DOLL       77
 #define OBJ_EVENT_GFX_UNUSED_JISSM_DOLL        78
 #define OBJ_EVENT_GFX_UNUSED_WOOPER_DOLL          79
 #define OBJ_EVENT_GFX_UNUSED_SKIPPA_DOLL         80

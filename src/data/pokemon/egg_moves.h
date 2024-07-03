@@ -330,7 +330,7 @@ const u16 gEggMoves[] = {
 		MOVE_FOUL_PLAY,
 		MOVE_PSYCH_UP),
 
-	egg_moves(PSYDUCK,
+	egg_moves(DUGGAME,
 		MOVE_PSYBEAM,
 		MOVE_HYPNOSIS,
 		MOVE_CONFUSE_RAY,
@@ -352,7 +352,7 @@ const u16 gEggMoves[] = {
 		MOVE_PETAL_DANCE,
 		MOVE_ICE_BEAM),
 
-	egg_moves(MANKEY,
+	egg_moves(AGANDA,
 		MOVE_COUNTER,
 		MOVE_MEDITATE,
 		MOVE_REVERSAL,
@@ -368,7 +368,7 @@ const u16 gEggMoves[] = {
 		MOVE_POWER_TRIP,
 		MOVE_ROCK_SLIDE),
 
-	egg_moves(GROWLITHE,
+	egg_moves(CTHEYE,
 		MOVE_DOUBLE_KICK,
 		MOVE_THRASH,
 		MOVE_DOUBLE_EDGE,
@@ -385,7 +385,7 @@ const u16 gEggMoves[] = {
 		MOVE_BURN_UP,
 		MOVE_SAFEGUARD),
 
-	egg_moves(POLIWAG,
+	egg_moves(OOTLAW,
 		MOVE_MIST,
 		MOVE_HAZE,
 		MOVE_SPLASH,
@@ -419,7 +419,7 @@ const u16 gEggMoves[] = {
 		MOVE_PSYCHIC_TERRAIN,
 		MOVE_LIGHT_SCREEN),
 
-	egg_moves(MACHOP,
+	egg_moves(FARBY,
 		MOVE_SUBMISSION,
 		MOVE_COUNTER,
 		MOVE_TICKLE,
@@ -439,7 +439,7 @@ const u16 gEggMoves[] = {
 		MOVE_LIGHT_SCREEN,
 		MOVE_ROCK_SLIDE),
 
-	egg_moves(BELLSPROUT,
+	egg_moves(BONGECKO,
 		MOVE_LEECH_LIFE,
 		MOVE_GIGA_DRAIN,
 		MOVE_ENCORE,
@@ -459,7 +459,7 @@ const u16 gEggMoves[] = {
 		MOVE_SWORDS_DANCE,
 		MOVE_REFLECT),
 
-	egg_moves(TENTACOOL,
+	egg_moves(FLOOTEY,
 		MOVE_AURORA_BEAM,
 		MOVE_CONFUSE_RAY,
 		MOVE_HAZE,
@@ -473,7 +473,7 @@ const u16 gEggMoves[] = {
 		MOVE_MUDDY_WATER,
 		MOVE_SAFEGUARD),
 
-	egg_moves(GEODUDE,
+	egg_moves(ROCK,
 		MOVE_MEGA_PUNCH,
 		MOVE_CURSE,
 		MOVE_FLAIL,
@@ -487,7 +487,7 @@ const u16 gEggMoves[] = {
 		MOVE_RAPID_SPIN,
 		MOVE_ROCK_SLIDE),
 
-	egg_moves(PONYTA,
+	egg_moves(DEBEGUCK,
 		MOVE_DOUBLE_KICK,
 		MOVE_HORN_DRILL,
 		MOVE_THRASH,
@@ -502,7 +502,7 @@ const u16 gEggMoves[] = {
 		MOVE_HIGH_HORSEPOWER,
 		MOVE_QUICK_ATTACK),
 
-	egg_moves(SLOWPOKE,
+	egg_moves(BASSHOP,
 		MOVE_STOMP,
 		MOVE_TELEPORT,
 		MOVE_BELLY_DRUM,
@@ -517,7 +517,7 @@ const u16 gEggMoves[] = {
 		MOVE_WONDER_ROOM,
 		MOVE_SAFEGUARD),
 
-	egg_moves(FARFETCHD,
+	egg_moves(IMPOSTOWN,
 		MOVE_GUST,
 		MOVE_DOUBLE_EDGE,
 		MOVE_COUNTER,
@@ -542,7 +542,7 @@ const u16 gEggMoves[] = {
 		MOVE_YAWN,
 		MOVE_TRUMP_CARD),
 
-	egg_moves(DODUO,
+	egg_moves(DIVINI,
 		MOVE_SUPERSONIC,
 		MOVE_QUICK_ATTACK,
 		MOVE_HAZE,
@@ -555,7 +555,7 @@ const u16 gEggMoves[] = {
 		MOVE_LOW_KICK,
 		MOVE_BRAVE_BIRD),
 
-	egg_moves(SEEL,
+	egg_moves(DABBOI,
 		MOVE_SLAM,
 		MOVE_HORN_DRILL,
 		MOVE_DISABLE,
@@ -4903,7 +4903,7 @@ const u16 gEggMoves[] = {
 		MOVE_PUNISHMENT,
 		MOVE_FOUL_PLAY),
 
-	egg_moves(GEODUDE_ALOLAN,
+	egg_moves(ROCK_ALOLAN,
 		MOVE_COUNTER,
 		MOVE_SCREECH,
 		MOVE_CURSE,
