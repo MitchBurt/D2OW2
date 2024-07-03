@@ -3514,8 +3514,10 @@ static void Cmd_tryfaintmon(void)
             if (GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER)
             {
                 //Nuzlocke
-                bool8 dead = TRUE;
-                SetMonData(&gPlayerParty[gBattlerPartyIndexes[gActiveBattler]], MON_DATA_DEAD, &dead);
+                if (FlagGet(FLAG_HARD_MODE)){
+                    bool8 dead = TRUE;
+                    SetMonData(&gPlayerParty[gBattlerPartyIndexes[gActiveBattler]], MON_DATA_DEAD, &dead);
+                }
                 gHitMarker |= HITMARKER_x400000;
                 if (gBattleResults.playerFaintCounter < 0xFF)
                     gBattleResults.playerFaintCounter++;

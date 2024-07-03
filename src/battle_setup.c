@@ -410,14 +410,14 @@ void BattleSetup_StartWildBattle(void)
     VAR_WILD_PKMN_ROUTE_SEEN_4,
     };
     currLocation = currLocConvertForNuzlocke(currLocation);
-/*     if (!FlagGet(FLAG_NUZLOCKE) || !FlagGet(FLAG_SYS_POKEDEX_GET)){
+    if (!FlagGet(FLAG_HARD_MODE) || !FlagGet(FLAG_SYS_POKEDEX_GET)){
         VarSet(VAR_WILD_PKMN_ROUTE_SEEN_0, 0);
         VarSet(VAR_WILD_PKMN_ROUTE_SEEN_1, 0);
         VarSet(VAR_WILD_PKMN_ROUTE_SEEN_2, 0);
         VarSet(VAR_WILD_PKMN_ROUTE_SEEN_3, 0);
         VarSet(VAR_WILD_PKMN_ROUTE_SEEN_4, 0);
         return 0;
-    } */
+    } 
     switch (currLocation)
     {
     case MAPSEC_LITTLEROOT_TOWN:

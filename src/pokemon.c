@@ -4201,7 +4201,7 @@ void BoxMonToMon(const struct BoxPokemon *src, struct Pokemon *dest)
     value = 255;
     SetMonData(dest, MON_DATA_MAIL, &value);
     CalculateMonStats(dest);
-    if (GetMonData(dest, MON_DATA_DEAD))
+    if (GetMonData(dest, MON_DATA_DEAD) && FlagGet(FLAG_HARD_MODE))
     {
         value = 0;
         SetMonData(dest, MON_DATA_HP, &value);
