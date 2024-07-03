@@ -3962,7 +3962,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_AERODACTYL] =
+    [SPECIES_USARMY] =
     {
         .baseHP        = 80,
         .baseAttack    = 105,
@@ -3989,7 +3989,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_SNORLAX] =
+    [SPECIES_SHEPEIRD] =
     {
         .baseHP        = 160,
         .baseAttack    = 110,
@@ -4018,7 +4018,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_ARTICUNO] =
+    [SPECIES_LEGEND] =
     {
         .baseHP        = 90,
         .baseAttack    = 70,  //85 -> 70
@@ -4045,7 +4045,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_ZAPDOS] =
+    [SPECIES_ZERUEL] =
     {
         .baseHP        = 90,
         .baseAttack    = 90,
@@ -4070,7 +4070,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_MOLTRES] =
+    [SPECIES_REMIEL] =
     {
         .baseHP        = 90,
         .baseAttack    = 100,
@@ -4095,7 +4095,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_DRATINI] =
+    [SPECIES_AMONSUS] =
     {
         .baseHP        = 41,
         .baseAttack    = 64,
@@ -4121,7 +4121,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_DRAGONAIR] =
+    [SPECIES_WOOPTRET] =
     {
         .baseHP        = 61,
         .baseAttack    = 84,
@@ -4147,7 +4147,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_DRAGONITE] =
+    [SPECIES_KILLWORU] =
     {
         .baseHP        = 91,
         .baseAttack    = 134,
@@ -4175,7 +4175,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_MEWTWO] =
+    [SPECIES_GOD] =
     {
         .baseHP        = 106,
         .baseAttack    = 110,
@@ -4185,8 +4185,8 @@ const struct BaseStats gBaseStats[] =
         .baseSpDefense = 90,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_PSYCHIC,
-        .item1 = ITEM_MEWTWONITE_Y,
-        .item2 = ITEM_MEWTWONITE_Y,
+        .item1 = ITEM_GODNITE_Y,
+        .item2 = ITEM_GODNITE_Y,
         .catchRate = 3,
         .expYield = 306,
         .evYield_SpAttack  = 3,
@@ -25698,7 +25698,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_AERODACTYL_MEGA] =
+    [SPECIES_USARMY_MEGA] =
     {
         .baseHP        = 80,
         .baseAttack    = 135,
@@ -25723,7 +25723,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_MEWTWO_MEGA_X] =
+    [SPECIES_GOD_MEGA_X] =
     {
         .baseHP        = 106,
         .baseAttack    = 190,
@@ -25748,7 +25748,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_MEWTWO_MEGA_Y] =
+    [SPECIES_GOD_MEGA_Y] =
     {
         .baseHP        = 106,
         .baseAttack    = 150,
@@ -27466,7 +27466,7 @@ const struct BaseStats gBaseStats[] =
         .flags = F_GALARIAN_FORM,
     },
 
-    [SPECIES_ARTICUNO_GALARIAN] =
+    [SPECIES_LEGEND_GALARIAN] =
     {
         .baseHP        = 90,
         .baseAttack    = 85,
@@ -27495,7 +27495,7 @@ const struct BaseStats gBaseStats[] =
         .flags = F_GALARIAN_FORM | F_UNOBTAINABLE_FORM,
     },
 
-    [SPECIES_ZAPDOS_GALARIAN] =
+    [SPECIES_ZERUEL_GALARIAN] =
     {
         .baseHP        = 90,
         .baseAttack    = 125,
@@ -27524,7 +27524,7 @@ const struct BaseStats gBaseStats[] =
         .flags = F_GALARIAN_FORM | F_UNOBTAINABLE_FORM,
     },
 
-    [SPECIES_MOLTRES_GALARIAN] =
+    [SPECIES_REMIEL_GALARIAN] =
     {
         .baseHP        = 90,
         .baseAttack    = 85,
@@ -38143,7 +38143,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_AERODACTYL] =
+    [SPECIES_USARMY] =
     {
         .baseHP        = 80,
         .baseAttack    = 105,
@@ -38170,7 +38170,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_SNORLAX] =
+    [SPECIES_SHEPEIRD] =
     {
         .baseHP        = 160,
         .baseAttack    = 110,
@@ -38199,7 +38199,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_ARTICUNO] =
+    [SPECIES_LEGEND] =
     {
         .baseHP        = 90,
         .baseAttack    = 85,
@@ -38226,7 +38226,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_ZAPDOS] =
+    [SPECIES_ZERUEL] =
     {
         .baseHP        = 90,
         .baseAttack    = 90,
@@ -38255,7 +38255,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_MOLTRES] =
+    [SPECIES_REMIEL] =
     {
         .baseHP        = 90,
         .baseAttack    = 100,
@@ -38280,7 +38280,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_DRATINI] =
+    [SPECIES_AMONSUS] =
     {
         .baseHP        = 41,
         .baseAttack    = 64,
@@ -38306,7 +38306,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_DRAGONAIR] =
+    [SPECIES_WOOPTRET] =
     {
         .baseHP        = 61,
         .baseAttack    = 84,
@@ -38332,7 +38332,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_DRAGONITE] =
+    [SPECIES_KILLWORU] =
     {
         .baseHP        = 91,
         .baseAttack    = 134,
@@ -38360,7 +38360,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_MEWTWO] =
+    [SPECIES_GOD] =
     {
         .baseHP        = 106,
         .baseAttack    = 110,
@@ -60059,7 +60059,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_AERODACTYL_MEGA] =
+    [SPECIES_USARMY_MEGA] =
     {
         .baseHP        = 80,
         .baseAttack    = 135,
@@ -60087,7 +60087,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_MEWTWO_MEGA_X] =
+    [SPECIES_GOD_MEGA_X] =
     {
         .baseHP        = 106,
         .baseAttack    = 190,
@@ -60115,7 +60115,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_MEWTWO_MEGA_Y] =
+    [SPECIES_GOD_MEGA_Y] =
     {
         .baseHP        = 106,
         .baseAttack    = 150,
@@ -61896,7 +61896,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .flags = F_GALARIAN_FORM,
     },
 
-    [SPECIES_ARTICUNO_GALARIAN] =
+    [SPECIES_LEGEND_GALARIAN] =
     {
         .baseHP        = 90,
         .baseAttack    = 85,
@@ -61925,7 +61925,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .flags = F_GALARIAN_FORM,
     },
 
-    [SPECIES_ZAPDOS_GALARIAN] =
+    [SPECIES_ZERUEL_GALARIAN] =
     {
         .baseHP        = 90,
         .baseAttack    = 125,
@@ -61954,7 +61954,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .flags = F_GALARIAN_FORM,
     },
 
-    [SPECIES_MOLTRES_GALARIAN] =
+    [SPECIES_REMIEL_GALARIAN] =
     {
         .baseHP        = 90,
         .baseAttack    = 85,

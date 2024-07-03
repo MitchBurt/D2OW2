@@ -774,8 +774,8 @@ MegaStone_EventScript_Alakazite::
 	addscaleditem ITEM_ALAKAZITE
 	end
 	
-MegaStone_EventScript_Mewtwonite_Y::
-	addscaleditem ITEM_MEWTWONITE_Y
+MegaStone_EventScript_Godnite_Y::
+	addscaleditem ITEM_GODNITE_Y
 	end	
 	
 PrimevalForest_EventScript_ItemGrassKnot::

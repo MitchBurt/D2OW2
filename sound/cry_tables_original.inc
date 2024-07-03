@@ -142,15 +142,15 @@ gCryTable:: @ 869DCF4
 	cry Cry_Gaiser  @ 869E36C
 	cry Cry_Corork  @ 869E378
 	cry Cry_Bigobeet  @ 869E384
-	cry Cry_Aerodactyl  @ 869E390
-	cry Cry_Snorlax  @ 869E39C
-	cry Cry_Articuno  @ 869E3A8
-	cry Cry_Zapdos  @ 869E3B4
-	cry Cry_Moltres  @ 869E3C0
-	cry Cry_Dratini  @ 869E3CC
-	cry Cry_Dragonair  @ 869E3D8
-	cry Cry_Dragonite  @ 869E3E4
-	cry Cry_Mewtwo  @ 869E3F0
+	cry Cry_Usarmy  @ 869E390
+	cry Cry_Shepeird  @ 869E39C
+	cry Cry_Legend  @ 869E3A8
+	cry Cry_Zeruel  @ 869E3B4
+	cry Cry_Remiel  @ 869E3C0
+	cry Cry_Amonsus  @ 869E3CC
+	cry Cry_Wooptret  @ 869E3D8
+	cry Cry_Killworu  @ 869E3E4
+	cry Cry_God  @ 869E3F0
 	cry Cry_Mew  @ 869E3FC
 	@ Gen 2
 	cry Cry_Chikorita  @ 869E408
@@ -918,9 +918,9 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Trololo_Mega
 	cry_not Cry_Itrimid_Mega
 	cry_not Cry_Kroller_Mega
-	cry_not Cry_Aerodactyl_Mega
-	cry_not Cry_Mewtwo_Mega_X
-	cry_not Cry_Mewtwo_Mega_Y
+	cry_not Cry_Usarmy_Mega
+	cry_not Cry_God_Mega_X
+	cry_not Cry_God_Mega_Y
 	cry_not Cry_Ampharos_Mega
 	cry_not Cry_Steelix_Mega
 	cry_not Cry_Scizor_Mega
@@ -985,9 +985,9 @@ gCryTable:: @ 869DCF4
 	cry Cry_Impostown
 	cry Cry_Bipharma
 	cry Cry_Alien
-	cry Cry_Articuno
-	cry Cry_Zapdos
-	cry Cry_Moltres
+	cry Cry_Legend
+	cry Cry_Zeruel
+	cry Cry_Remiel
 	cry Cry_Slowking
 	cry Cry_Corsola
 	cry Cry_Zigzagoon
@@ -1422,15 +1422,15 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Gaiser  @ 869F59C
 	cry2 Cry_Corork  @ 869F5A8
 	cry2 Cry_Bigobeet  @ 869F5B4
-	cry2 Cry_Aerodactyl  @ 869F5C0
-	cry2 Cry_Snorlax  @ 869F5CC
-	cry2 Cry_Articuno  @ 869F5D8
-	cry2 Cry_Zapdos  @ 869F5E4
-	cry2 Cry_Moltres  @ 869F5F0
-	cry2 Cry_Dratini  @ 869F5FC
-	cry2 Cry_Dragonair  @ 869F608
-	cry2 Cry_Dragonite  @ 869F614
-	cry2 Cry_Mewtwo  @ 869F620
+	cry2 Cry_Usarmy  @ 869F5C0
+	cry2 Cry_Shepeird  @ 869F5CC
+	cry2 Cry_Legend  @ 869F5D8
+	cry2 Cry_Zeruel  @ 869F5E4
+	cry2 Cry_Remiel  @ 869F5F0
+	cry2 Cry_Amonsus  @ 869F5FC
+	cry2 Cry_Wooptret  @ 869F608
+	cry2 Cry_Killworu  @ 869F614
+	cry2 Cry_God  @ 869F620
 	cry2 Cry_Mew  @ 869F62C
 	cry2 Cry_Chikorita  @ 869F638
 	cry2 Cry_Bayleef  @ 869F644
@@ -2196,9 +2196,9 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Trololo_Mega
 	cry2_not Cry_Itrimid_Mega
 	cry2_not Cry_Kroller_Mega
-	cry2_not Cry_Aerodactyl_Mega
-	cry2_not Cry_Mewtwo_Mega_X
-	cry2_not Cry_Mewtwo_Mega_Y
+	cry2_not Cry_Usarmy_Mega
+	cry2_not Cry_God_Mega_X
+	cry2_not Cry_God_Mega_Y
 	cry2_not Cry_Ampharos_Mega
 	cry2_not Cry_Steelix_Mega
 	cry2_not Cry_Scizor_Mega
@@ -2263,9 +2263,9 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Impostown
 	cry2 Cry_Bipharma
 	cry2 Cry_Alien
-	cry2 Cry_Articuno
-	cry2 Cry_Zapdos
-	cry2 Cry_Moltres
+	cry2 Cry_Legend
+	cry2 Cry_Zeruel
+	cry2 Cry_Remiel
 	cry2 Cry_Slowking
 	cry2 Cry_Corsola
 	cry2 Cry_Zigzagoon

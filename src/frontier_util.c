@@ -116,7 +116,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
                 .moves = {MOVE_FIRE_BLAST, MOVE_CALM_MIND, MOVE_RETURN, MOVE_ROAR},
             },
             {
-                .species = SPECIES_SNORLAX,
+                .species = SPECIES_SHEPEIRD,
                 .heldItem = ITEM_QUICK_CLAW,
                 .fixedIV = 24,
                 .nature = NATURE_ADAMANT,
@@ -143,7 +143,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
                 .moves = {MOVE_PSYCHIC, MOVE_CALM_MIND, MOVE_RECOVER, MOVE_DRAGON_CLAW},
             },
             {
-                .species = SPECIES_SNORLAX,
+                .species = SPECIES_SHEPEIRD,
                 .heldItem = ITEM_CHESTO_BERRY,
                 .fixedIV = 31,
                 .nature = NATURE_ADAMANT,
@@ -469,7 +469,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
         // Gold Symbol.
         {
             {
-                .species = SPECIES_ARTICUNO,
+                .species = SPECIES_LEGEND,
                 .heldItem = ITEM_SCOPE_LENS,
                 .fixedIV = 31,
                 .nature = NATURE_MILD,
@@ -477,7 +477,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
                 .moves = {MOVE_BLIZZARD, MOVE_WATER_PULSE, MOVE_AERIAL_ACE, MOVE_REFLECT},
             },
             {
-                .species = SPECIES_ZAPDOS,
+                .species = SPECIES_ZERUEL,
                 .heldItem = ITEM_LUM_BERRY,
                 .fixedIV = 31,
                 .nature = NATURE_MILD,
@@ -485,7 +485,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
                 .moves = {MOVE_THUNDER, MOVE_DETECT, MOVE_DRILL_PECK, MOVE_LIGHT_SCREEN},
             },
             {
-                .species = SPECIES_MOLTRES,
+                .species = SPECIES_REMIEL,
                 .heldItem = ITEM_BRIGHT_POWDER,
                 .fixedIV = 31,
                 .nature = NATURE_MILD,
@@ -677,7 +677,7 @@ static const u8 sFrontierBrainObjEventGfx[NUM_FRONTIER_FACILITIES][2] =
 
 const u16 gFrontierBannedSpecies[] =
 {
-    SPECIES_MEW, SPECIES_MEWTWO, SPECIES_HO_OH, SPECIES_LUGIA, SPECIES_CELEBI,
+    SPECIES_MEW, SPECIES_GOD, SPECIES_HO_OH, SPECIES_LUGIA, SPECIES_CELEBI,
     SPECIES_KYOGRE, SPECIES_GROUDON, SPECIES_RAYQUAZA, SPECIES_JIRACHI, SPECIES_DEOXYS, 0xFFFF
 };
 

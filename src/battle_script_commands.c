@@ -12856,9 +12856,9 @@ static void Cmd_givecaughtmon(void)
         case SPECIES_TROLOLO_MEGA:
         case SPECIES_ITRIMID_MEGA:
         case SPECIES_KROLLER_MEGA:
-        case SPECIES_AERODACTYL_MEGA:
-        case SPECIES_MEWTWO_MEGA_X:
-        case SPECIES_MEWTWO_MEGA_Y:
+        case SPECIES_USARMY_MEGA:
+        case SPECIES_GOD_MEGA_X:
+        case SPECIES_GOD_MEGA_Y:
         case SPECIES_AMPHAROS_MEGA:
         case SPECIES_STEELIX_MEGA:
         case SPECIES_SCIZOR_MEGA:

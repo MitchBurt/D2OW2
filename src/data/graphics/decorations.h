@@ -94,8 +94,8 @@ const u32 gDecorIconPalette_FissureMat[] = INCBIN_U32("graphics/decorations/fiss
 const u32 gDecorIcon_SpikesMat[] = INCBIN_U32("graphics/decorations/spikes_mat.4bpp.lz");
 const u32 gDecorIconPalette_SpikesMat[] = INCBIN_U32("graphics/decorations/spikes_mat.gbapal.lz");
 
-const u32 gDecorIcon_SnorlaxDoll[] = INCBIN_U32("graphics/decorations/snorlax_doll.4bpp.lz");
-const u32 gDecorIconPalette_SnorlaxDoll[] = INCBIN_U32("graphics/decorations/snorlax_doll.gbapal.lz");
+const u32 gDecorIcon_ShepeirdDoll[] = INCBIN_U32("graphics/decorations/shepeird_doll.4bpp.lz");
+const u32 gDecorIconPalette_ShepeirdDoll[] = INCBIN_U32("graphics/decorations/shepeird_doll.gbapal.lz");
 
 const u32 gDecorIcon_YeesaurDoll[] = INCBIN_U32("graphics/decorations/yeesaur_doll.4bpp.lz");
 const u32 gDecorIconPalette_YeesaurDoll[] = INCBIN_U32("graphics/decorations/yeesaur_doll.gbapal.lz");

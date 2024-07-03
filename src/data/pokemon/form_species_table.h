@@ -193,16 +193,16 @@ static const u16 sKrollerFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sAerodactylFormSpeciesIdTable[] = {
-    SPECIES_AERODACTYL,
-    SPECIES_AERODACTYL_MEGA,
+static const u16 sUsarmyFormSpeciesIdTable[] = {
+    SPECIES_USARMY,
+    SPECIES_USARMY_MEGA,
     0xFFFF,
 };
 
-static const u16 sMewtwoFormSpeciesIdTable[] = {
-    SPECIES_MEWTWO,
-    SPECIES_MEWTWO_MEGA_X,
-    SPECIES_MEWTWO_MEGA_Y,
+static const u16 sGodFormSpeciesIdTable[] = {
+    SPECIES_GOD,
+    SPECIES_GOD_MEGA_X,
+    SPECIES_GOD_MEGA_Y,
     0xFFFF,
 };
 
@@ -867,21 +867,21 @@ static const u16 sAlienFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sArticunoFormSpeciesIdTable[] = {
-    SPECIES_ARTICUNO,
-    SPECIES_ARTICUNO_GALARIAN,
+static const u16 sLegendFormSpeciesIdTable[] = {
+    SPECIES_LEGEND,
+    SPECIES_LEGEND_GALARIAN,
     0xFFFF,
 };
 
-static const u16 sMoltresFormSpeciesIdTable[] = {
-    SPECIES_MOLTRES,
-    SPECIES_MOLTRES_GALARIAN,
+static const u16 sRemielFormSpeciesIdTable[] = {
+    SPECIES_REMIEL,
+    SPECIES_REMIEL_GALARIAN,
     0xFFFF,
 };
 
-static const u16 sZapdosFormSpeciesIdTable[] = {
-    SPECIES_ZAPDOS,
-    SPECIES_ZAPDOS_GALARIAN,
+static const u16 sZeruelFormSpeciesIdTable[] = {
+    SPECIES_ZERUEL,
+    SPECIES_ZERUEL_GALARIAN,
     0xFFFF,
 };
 

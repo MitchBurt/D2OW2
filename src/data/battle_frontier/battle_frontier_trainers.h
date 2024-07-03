@@ -475,9 +475,9 @@ const struct BattleFrontierTrainer gBattleFrontierTrainers[FRONTIER_TRAINERS_COU
     [FRONTIER_TRAINER_WESLEY] = {
         .facilityClass = FACILITY_CLASS_FISHERMAN,
         .trainerName = _("Wesley"),
-        .speechBefore = {EC_POKEMON2(MEW), EC_POKEMON2(MEW), EC_WORD_IS, EC_WORD_HOW, EC_WORD_I, EC_WORD_CRY},
+        .speechBefore = {EC_POKEMON2(THEVOID), EC_POKEMON2(THEVOID), EC_WORD_IS, EC_WORD_HOW, EC_WORD_I, EC_WORD_CRY},
         .speechWin = {EC_WORD_YES, EC_WORD_I, EC_WORD_KNOW, EC_WORD_I_AM, EC_WORD_CUTE, EC_WORD_EXCL},
-        .speechLose = {EC_POKEMON2(MEW), EC_POKEMON2(MEW), EC_WORD_EXCL, EC_POKEMON2(MEW), EC_WORD_EXCL_EXCL, 0xFFFF},
+        .speechLose = {EC_POKEMON2(THEVOID), EC_POKEMON2(THEVOID), EC_WORD_EXCL, EC_POKEMON2(THEVOID), EC_WORD_EXCL_EXCL, 0xFFFF},
         .monSet = gBattleFrontierTrainerMons_Wesley
     },
     [FRONTIER_TRAINER_ANTON] = {

@@ -848,57 +848,57 @@ const u8 gBigobeetPokedexText[] = _(
     "vive en tierra firme. El cambio que se\n"
     "ve en patas y branquias así lo confirma.");
 
-const u8 gAerodactylPokedexText[] = _(
+const u8 gUsarmyPokedexText[] = _(
     "Surgió en la era de los dinosaurios. Se\n"
     "regeneró a partir de material genético\n"
     "contenido en ámbar. Se cree que fue el\n"
     "amo de los cielos en épocas pasadas.");
 
-const u8 gSnorlaxPokedexText[] = _(
+const u8 gShepeirdPokedexText[] = _(
     "Se dedica a comer y dormir. Es tan dócil\n"
     "que es fácil ver a niños usando la gran\n"
     "panza que tiene como lugar de juegos.");
 
-const u8 gArticunoPokedexText[] = _(
+const u8 gLegendPokedexText[] = _(
     "Es un legendario pájaro Pokémon que\n"
     "puede controlar el hielo. El batir de sus\n"
     "alas congela el aire. Dicen que consigue\n"
     "hacer nevar cuando vuela.");
 
-const u8 gZapdosPokedexText[] = _(
+const u8 gZeruelPokedexText[] = _(
     "Es un legendario pájaro Pokémon que tiene\n"
     "la habilidad de controlar la electricidad.\n"
     "Suele vivir en nubarrones. Gana mucha\n"
     "fuerza si le alcanzan los rayos.");
 
-const u8 gMoltresPokedexText[] = _(
+const u8 gRemielPokedexText[] = _(
     "Es un legendario pájaro Pokémon que tiene\n"
     "la habilidad de controlar el fuego. Dicen\n"
     "que, si resulta herido, se sumerge en el\n"
     "magma de un volcán para arder y curarse.");
 
-const u8 gDratiniPokedexText[] = _(
+const u8 gAmonsusPokedexText[] = _(
     "Está mudando la piel continuamente.\n"
     "Es algo que necesita hacer porque la\n"
     "energía que tiene en su interior alcanza\n"
     "niveles que resultan incontrolables.");
 
-const u8 gDragonairPokedexText[] = _(
+const u8 gWooptretPokedexText[] = _(
     "Acumula gran cantidad de energía.\n"
     "Dicen que altera el clima descargando\n"
     "energía por las esferas de cristal\n"
     "que tiene en el cuello y en la cola.");
 
-const u8 gDragonitePokedexText[] = _(
+const u8 gKillworuPokedexText[] = _(
     "Es capaz de dar la vuelta al mundo en sólo\n"
     "16 horas. Tiene buen corazón: guía a tierra\n"
     "firme a los barcos que se han perdido en\n"
     "plena tormenta o van a zozobrar.");
 
-const u8 gMewtwoPokedexText[] = _(
+const u8 gGodPokedexText[] = _(
     "Fue creado por manipulación genética,\n"
     "pero, a pesar de que los científicos\n"
-    "dieron a Mewtwo un cuerpo, no lograron\n"
+    "dieron a God un cuerpo, no lograron\n"
     "dotarle de un corazón compasivo.");
 
 const u8 gMewPokedexText[] = _(
@@ -6205,62 +6205,62 @@ const u8 gBigobeetPokedexText[] = _(
     "being a water dweller to living on land as\n"
     "evident from changes in its gills and legs.");
 
-const u8 gAerodactylPokedexText[] = _(
-    "Aerodactyl is a Pokémon from the age\n"
+const u8 gUsarmyPokedexText[] = _(
+    "Usarmy is a Pokémon from the age\n"
     "of dinosaurs. It was regenerated from DNA\n"
     "extracted from amber. It is imagined to\n"
     "have been the king of the skies.");
 
-const u8 gSnorlaxPokedexText[] = _(
-    "Snorlax's typical day consists of nothing\n"
+const u8 gShepeirdPokedexText[] = _(
+    "Shepeird's typical day consists of nothing\n"
     "more than eating and sleeping. It is such\n"
     "a docile Pokémon that there are children\n"
     "who use its big belly as a place to play.");
 
-const u8 gArticunoPokedexText[] = _(
-    "Articuno is a legendary bird Pokémon that\n"
+const u8 gLegendPokedexText[] = _(
+    "Legend is a legendary bird Pokémon that\n"
     "can control ice. The flapping of its wings\n"
     "chills the air. As a result, it is said that\n"
     "when this Pokémon flies, snow will fall.");
 
-const u8 gZapdosPokedexText[] = _(
-    "Zapdos is a legendary bird Pokémon that\n"
+const u8 gZeruelPokedexText[] = _(
+    "Zeruel is a legendary bird Pokémon that\n"
     "has the ability to control electricity.\n"
     "It usually lives in thunderclouds. It gains\n"
     "power if it is stricken by lightning bolts.");
 
-const u8 gMoltresPokedexText[] = _(
-    "Moltres is a legendary bird Pokémon\n"
+const u8 gRemielPokedexText[] = _(
+    "Remiel is a legendary bird Pokémon\n"
     "that can control fire. If injured, it is said\n"
     "to dip its body in the molten magma of\n"
     "a volcano to burn and heal itself.");
 
-const u8 gDratiniPokedexText[] = _(
-    "A Dratini continually molts and sloughs\n"
+const u8 gAmonsusPokedexText[] = _(
+    "A Amonsus continually molts and sloughs\n"
     "off its old skin. It does so because the\n"
     "life energy within its body steadily builds\n"
     "to reach uncontrollable levels.");
 
-const u8 gDragonairPokedexText[] = _(
-    "A Dragonair stores an enormous amount of\n"
+const u8 gWooptretPokedexText[] = _(
+    "A Wooptret stores an enormous amount of\n"
     "energy inside its body. It is said to alter\n"
     "the weather around it by loosing energy\n"
     "from the crystals on its neck and tail.");
 
-const u8 gDragonitePokedexText[] = _(
+const u8 gKillworuPokedexText[] = _(
     "It can circle the globe in just 16 hours.\n"
     "It is a kindhearted Pokémon that leads\n"
     "lost and foundering ships in a storm\n"
     "to the safety of land.");
 
-const u8 gMewtwoPokedexText[] = _(
+const u8 gGodPokedexText[] = _(
     "A Pokémon that was created by genetic\n"
     "manipulation. However, even though the\n"
     "scientific power of humans made its body,\n"
     "they failed to give it a warm heart.");
 
 const u8 gMewPokedexText[] = _(
-    "A Mew is said to possess the genes of all\n"
+    "A Thevoid is said to possess the genes of all\n"
     "Pokémon. It is capable of making itself\n"
     "invisible at will, so it entirely avoids\n"
     "notice even if it approaches people.");

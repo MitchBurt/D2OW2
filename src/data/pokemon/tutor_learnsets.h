@@ -3344,7 +3344,7 @@ static const u8 sBigobeetTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sAerodactylTutorLearnset[] =
+static const u8 sUsarmyTutorLearnset[] =
 {
     TUTOR(MOVE_DOUBLE_EDGE),
     TUTOR(MOVE_MIMIC),
@@ -3368,7 +3368,7 @@ static const u8 sAerodactylTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sSnorlaxTutorLearnset[] =
+static const u8 sShepeirdTutorLearnset[] =
 {
     TUTOR(MOVE_MEGA_KICK),
     TUTOR(MOVE_BODY_SLAM),
@@ -3406,7 +3406,7 @@ static const u8 sSnorlaxTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sArticunoTutorLearnset[] =
+static const u8 sLegendTutorLearnset[] =
 {
     TUTOR(MOVE_DOUBLE_EDGE),
     TUTOR(MOVE_MIMIC),
@@ -3426,7 +3426,7 @@ static const u8 sArticunoTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sZapdosTutorLearnset[] =
+static const u8 sZeruelTutorLearnset[] =
 {
     TUTOR(MOVE_DOUBLE_EDGE),
     TUTOR(MOVE_MIMIC),
@@ -3447,7 +3447,7 @@ static const u8 sZapdosTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sMoltresTutorLearnset[] =
+static const u8 sRemielTutorLearnset[] =
 {
     TUTOR(MOVE_DOUBLE_EDGE),
     TUTOR(MOVE_MIMIC),
@@ -3466,7 +3466,7 @@ static const u8 sMoltresTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sDratiniTutorLearnset[] =
+static const u8 sAmonsusTutorLearnset[] =
 {
     TUTOR(MOVE_BODY_SLAM),
     TUTOR(MOVE_DOUBLE_EDGE),
@@ -3487,7 +3487,7 @@ static const u8 sDratiniTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sDragonairTutorLearnset[] =
+static const u8 sWooptretTutorLearnset[] =
 {
     TUTOR(MOVE_BODY_SLAM),
     TUTOR(MOVE_DOUBLE_EDGE),
@@ -3508,7 +3508,7 @@ static const u8 sDragonairTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sDragoniteTutorLearnset[] =
+static const u8 sKillworuTutorLearnset[] =
 {
     TUTOR(MOVE_MEGA_KICK),
     TUTOR(MOVE_BODY_SLAM),
@@ -3546,7 +3546,7 @@ static const u8 sDragoniteTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sMewtwoTutorLearnset[] =
+static const u8 sGodTutorLearnset[] =
 {
     TUTOR(MOVE_MEGA_KICK),
     TUTOR(MOVE_BODY_SLAM),
@@ -19181,7 +19181,7 @@ static const u8 sAlienGalarianTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sArticunoGalarianTutorLearnset[] =
+static const u8 sLegendGalarianTutorLearnset[] =
 {
     TUTOR(MOVE_DREAM_EATER),
     TUTOR(MOVE_SUBSTITUTE),
@@ -19195,7 +19195,7 @@ static const u8 sArticunoGalarianTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sZapdosGalarianTutorLearnset[] =
+static const u8 sZeruelGalarianTutorLearnset[] =
 {
     TUTOR(MOVE_MEGA_KICK),
     TUTOR(MOVE_COUNTER),
@@ -19212,7 +19212,7 @@ static const u8 sZapdosGalarianTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sMoltresGalarianTutorLearnset[] =
+static const u8 sRemielGalarianTutorLearnset[] =
 {
     TUTOR(MOVE_SUBSTITUTE),
     TUTOR(MOVE_SNORE),
@@ -19863,15 +19863,15 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_GAISER] = sGaiserTutorLearnset,
     [SPECIES_CORORK] = sCororkTutorLearnset,
     [SPECIES_BIGOBEET] = sBigobeetTutorLearnset,
-    [SPECIES_AERODACTYL] = sAerodactylTutorLearnset,
-    [SPECIES_SNORLAX] = sSnorlaxTutorLearnset,
-    [SPECIES_ARTICUNO] = sArticunoTutorLearnset,
-    [SPECIES_ZAPDOS] = sZapdosTutorLearnset,
-    [SPECIES_MOLTRES] = sMoltresTutorLearnset,
-    [SPECIES_DRATINI] = sDratiniTutorLearnset,
-    [SPECIES_DRAGONAIR] = sDragonairTutorLearnset,
-    [SPECIES_DRAGONITE] = sDragoniteTutorLearnset,
-    [SPECIES_MEWTWO] = sMewtwoTutorLearnset,
+    [SPECIES_USARMY] = sUsarmyTutorLearnset,
+    [SPECIES_SHEPEIRD] = sShepeirdTutorLearnset,
+    [SPECIES_LEGEND] = sLegendTutorLearnset,
+    [SPECIES_ZERUEL] = sZeruelTutorLearnset,
+    [SPECIES_REMIEL] = sRemielTutorLearnset,
+    [SPECIES_AMONSUS] = sAmonsusTutorLearnset,
+    [SPECIES_WOOPTRET] = sWooptretTutorLearnset,
+    [SPECIES_KILLWORU] = sKillworuTutorLearnset,
+    [SPECIES_GOD] = sGodTutorLearnset,
     [SPECIES_MEW] = sMewTutorLearnset,
     [SPECIES_CHIKORITA] = sChikoritaTutorLearnset,
     [SPECIES_BAYLEEF] = sBayleefTutorLearnset,
@@ -20665,9 +20665,9 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_IMPOSTOWN_GALARIAN] = sImpostownGalarianTutorLearnset,
     [SPECIES_BIPHARMA_GALARIAN] = sBipharmaGalarianTutorLearnset,
     [SPECIES_ALIEN_GALARIAN] = sAlienGalarianTutorLearnset,
-    [SPECIES_ARTICUNO_GALARIAN] = sArticunoGalarianTutorLearnset,
-    [SPECIES_ZAPDOS_GALARIAN] = sZapdosGalarianTutorLearnset,
-    [SPECIES_MOLTRES_GALARIAN] = sMoltresGalarianTutorLearnset,
+    [SPECIES_LEGEND_GALARIAN] = sLegendGalarianTutorLearnset,
+    [SPECIES_ZERUEL_GALARIAN] = sZeruelGalarianTutorLearnset,
+    [SPECIES_REMIEL_GALARIAN] = sRemielGalarianTutorLearnset,
     [SPECIES_SLOWKING_GALARIAN] = sSlowkingGalarianTutorLearnset,
     [SPECIES_CORSOLA_GALARIAN] = sCorsolaGalarianTutorLearnset,
     [SPECIES_ZIGZAGOON_GALARIAN] = sZigzagoonGalarianTutorLearnset,

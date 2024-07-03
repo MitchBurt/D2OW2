@@ -2521,7 +2521,7 @@ static const u8 *const sScrollableMultichoiceOptions[][MAX_SCROLL_MULTI_LENGTH] 
     [SCROLL_MULTI_BF_EXCHANGE_CORNER_DECOR_VENDOR_2] =
     {
         gText_JebonyDoll128BP,
-        gText_SnorlaxDoll128BP,
+        gText_ShepeirdDoll128BP,
         gText_YggdraconDoll256BP,
         gText_SkorpyrosDoll256BP,
         gText_SperiathonDoll256BP,

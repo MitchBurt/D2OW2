@@ -14,51 +14,51 @@ ShoalCave_HighTideEntranceRoom_EventScript_OpenRedRoom:
 	setmetatile 17, 6, METATILE_SeafoamIslands_ArrowWrap, 0
 	end
 	
-ShoalCave_HighTideEntranceRoom_EventScript_Articuno::
+ShoalCave_HighTideEntranceRoom_EventScript_Legend::
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_ARTICUNO, 2
+	playmoncry SPECIES_LEGEND, 2
 	delay 40
 	waitmoncry
 	setflag FLAG_TOTEM_BATTLE
 	setvar VAR_NUM_WILD_POKEMON_STAT_BOOST, 2
-	setwildbattlewithcustommoves SPECIES_ARTICUNO, 70, ITEM_NONE, MOVE_BLIZZARD, MOVE_HURRICANE, MOVE_WATER_PULSE, MOVE_AURA_SPHERE, 1, NATURE_TIMID
+	setwildbattlewithcustommoves SPECIES_LEGEND, 70, ITEM_NONE, MOVE_BLIZZARD, MOVE_HURRICANE, MOVE_WATER_PULSE, MOVE_AURA_SPHERE, 1, NATURE_TIMID
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
 	dowildbattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
 	specialvar VAR_RESULT, GetBattleOutcome
 	compare VAR_RESULT, B_OUTCOME_CAUGHT
-	goto_if_eq ShoalCave_HighTideEntranceRoom_EventScript_CaughtArticuno
+	goto_if_eq ShoalCave_HighTideEntranceRoom_EventScript_CaughtLegend
 	compare VAR_RESULT, B_OUTCOME_WON
-	goto_if_eq ShoalCave_HighTideEntranceRoom_EventScript_RanFromArticuno
+	goto_if_eq ShoalCave_HighTideEntranceRoom_EventScript_RanFromLegend
 	compare VAR_RESULT, B_OUTCOME_RAN
-	goto_if_eq ShoalCave_HighTideEntranceRoom_EventScript_RanFromArticuno
+	goto_if_eq ShoalCave_HighTideEntranceRoom_EventScript_RanFromLegend
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
-	goto_if_eq ShoalCave_HighTideEntranceRoom_EventScript_RanFromArticuno
-	setflag FLAG_DEFEATED_ARTICUNO
+	goto_if_eq ShoalCave_HighTideEntranceRoom_EventScript_RanFromLegend
+	setflag FLAG_DEFEATED_LEGEND
 	release
 	end
 	
 //🐛🐞🐛🐞🐛🐞🐛🐞🐛🐞 found some bugs in the code
 
-ShoalCave_HighTideEntranceRoom_EventScript_CaughtArticuno::
-	setflag FLAG_DEFEATED_ARTICUNO
+ShoalCave_HighTideEntranceRoom_EventScript_CaughtLegend::
+	setflag FLAG_DEFEATED_LEGEND
 	fadescreenswapbuffers FADE_TO_BLACK
 	removeobject VAR_LAST_TALKED
 	fadescreenswapbuffers FADE_FROM_BLACK
 	release
 	end
 
-ShoalCave_HighTideEntranceRoom_EventScript_DefeatedArticuno::
+ShoalCave_HighTideEntranceRoom_EventScript_DefeatedLegend::
 	fadescreenswapbuffers FADE_TO_BLACK
 	removeobject VAR_LAST_TALKED
 	fadescreenswapbuffers FADE_FROM_BLACK
 	release
 	end
 
-ShoalCave_HighTideEntranceRoom_EventScript_RanFromArticuno::
-	setvar VAR_0x8004, SPECIES_ARTICUNO
+ShoalCave_HighTideEntranceRoom_EventScript_RanFromLegend::
+	setvar VAR_0x8004, SPECIES_LEGEND
 	fadescreenswapbuffers FADE_TO_BLACK
 	removeobject VAR_LAST_TALKED
 	fadescreenswapbuffers FADE_FROM_BLACK
@@ -67,6 +67,6 @@ ShoalCave_HighTideEntranceRoom_EventScript_RanFromArticuno::
 	release
 	end
 	
-ShoalCave_HighTideEntranceRoom_Text_Articuno::
+ShoalCave_HighTideEntranceRoom_Text_Legend::
 	.string "Gyaoo!$"
 `

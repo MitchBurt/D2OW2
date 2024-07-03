@@ -3614,7 +3614,7 @@
               {
                 "min_level": 25,
                 "max_level": 35,
-                "species": "SPECIES_DRATINI"
+                "species": "SPECIES_AMONSUS"
               },
               {
                 "min_level": 15,
@@ -3674,12 +3674,12 @@
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_DRATINI"
+                "species": "SPECIES_AMONSUS"
               },
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_DRATINI"
+                "species": "SPECIES_AMONSUS"
               }
             ]
           },
@@ -8197,7 +8197,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_DRATINI"
+                "species": "SPECIES_AMONSUS"
               }
             ]
           },
@@ -8252,7 +8252,7 @@
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_DRATINI"
+                "species": "SPECIES_AMONSUS"
               }
             ]
           }
@@ -9031,7 +9031,7 @@
               {
                 "min_level": 5,
                 "max_level": 15,
-                "species": "SPECIES_DRATINI"
+                "species": "SPECIES_AMONSUS"
               }
             ]
           },
@@ -9235,7 +9235,7 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_DRATINI"
+                "species": "SPECIES_AMONSUS"
               },
               {
                 "min_level": 25,
@@ -9255,12 +9255,12 @@
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_DRATINI"
+                "species": "SPECIES_AMONSUS"
               },
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_DRATINI"
+                "species": "SPECIES_AMONSUS"
               }
             ]
           },
@@ -12690,12 +12690,12 @@
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_AERODACTYL"
+                "species": "SPECIES_USARMY"
               },
               {
                 "min_level": 14,
                 "max_level": 14,
-                "species": "SPECIES_AERODACTYL"
+                "species": "SPECIES_USARMY"
               }
             ]
           }
@@ -15516,7 +15516,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_DRATINI"
+                "species": "SPECIES_AMONSUS"
               }
             ]
           },
@@ -15566,12 +15566,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_DRATINI"
+                "species": "SPECIES_AMONSUS"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_DRATINI"
+                "species": "SPECIES_AMONSUS"
               }
             ]
           },

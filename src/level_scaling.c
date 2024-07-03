@@ -1585,7 +1585,7 @@ u16 GetScaledItem(u16 itemId)
 	u16 sFossilItemList[] = {
 		ITEM_DOME_FOSSIL,			//Corork
 		ITEM_HELIX_FOSSIL,			//Attaco
-		ITEM_OLD_AMBER,				//Aerodactyl
+		ITEM_OLD_AMBER,				//Usarmy
 		ITEM_ROOT_FOSSIL,			//Lileep
 		ITEM_CLAW_FOSSIL,			//Anorith
 		ITEM_SKULL_FOSSIL,			//Cranidos
@@ -2388,9 +2388,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_ABSOLITE;
 		break;
-		case SPECIES_AERODACTYL:
+		case SPECIES_USARMY:
 			if(canMega)
-				item = ITEM_AERODACTYLITE;
+				item = ITEM_USARMYITE;
 		break;
 		case SPECIES_AGGRON:
 			if(canMega)

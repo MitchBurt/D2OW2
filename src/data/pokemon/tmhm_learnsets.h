@@ -5709,7 +5709,7 @@ static const u8 sBigobeetTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sAerodactylTMHMLearnset[] =
+static const u8 sUsarmyTMHMLearnset[] =
 {
     TMHM(TM02_DRAGON_CLAW),
     TMHM(TM05_ROAR),
@@ -5759,7 +5759,7 @@ static const u8 sAerodactylTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sSnorlaxTMHMLearnset[] =
+static const u8 sShepeirdTMHMLearnset[] =
 {
     TMHM(TM01_FOCUS_PUNCH),
     TMHM(TM03_WATER_PULSE),
@@ -5809,7 +5809,7 @@ static const u8 sSnorlaxTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sArticunoTMHMLearnset[] =
+static const u8 sLegendTMHMLearnset[] =
 {
     TMHM(TM03_WATER_PULSE),
     TMHM(TM04_CALM_MIND),//++
@@ -5850,7 +5850,7 @@ static const u8 sArticunoTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sZapdosTMHMLearnset[] =
+static const u8 sZeruelTMHMLearnset[] =
 {
     TMHM(TM05_ROAR),
     TMHM(TM06_TOXIC),
@@ -5891,7 +5891,7 @@ static const u8 sZapdosTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sMoltresTMHMLearnset[] =
+static const u8 sRemielTMHMLearnset[] =
 {
     TMHM(TM05_ROAR),
     TMHM(TM06_TOXIC),
@@ -5930,7 +5930,7 @@ static const u8 sMoltresTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sDratiniTMHMLearnset[] =
+static const u8 sAmonsusTMHMLearnset[] =
 {
     TMHM(TM03_WATER_PULSE),
     TMHM(TM06_TOXIC),
@@ -5972,7 +5972,7 @@ static const u8 sDratiniTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sDragonairTMHMLearnset[] =
+static const u8 sWooptretTMHMLearnset[] =
 {
     TMHM(TM03_WATER_PULSE),
     TMHM(TM06_TOXIC),
@@ -6014,7 +6014,7 @@ static const u8 sDragonairTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sDragoniteTMHMLearnset[] =
+static const u8 sKillworuTMHMLearnset[] =
 {
     TMHM(TM01_FOCUS_PUNCH),
     TMHM(TM02_DRAGON_CLAW),
@@ -6073,7 +6073,7 @@ static const u8 sDragoniteTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sMewtwoTMHMLearnset[] =
+static const u8 sGodTMHMLearnset[] =
 {
     TMHM(TM01_FOCUS_PUNCH),
     TMHM(TM03_WATER_PULSE),
@@ -36216,15 +36216,15 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_GAISER] = sGaiserTMHMLearnset,
     [SPECIES_CORORK] = sCororkTMHMLearnset,
     [SPECIES_BIGOBEET] = sBigobeetTMHMLearnset,
-    [SPECIES_AERODACTYL] = sAerodactylTMHMLearnset,
-    [SPECIES_SNORLAX] = sSnorlaxTMHMLearnset,
-    [SPECIES_ARTICUNO] = sArticunoTMHMLearnset,
-    [SPECIES_ZAPDOS] = sZapdosTMHMLearnset,
-    [SPECIES_MOLTRES] = sMoltresTMHMLearnset,
-    [SPECIES_DRATINI] = sDratiniTMHMLearnset,
-    [SPECIES_DRAGONAIR] = sDragonairTMHMLearnset,
-    [SPECIES_DRAGONITE] = sDragoniteTMHMLearnset,
-    [SPECIES_MEWTWO] = sMewtwoTMHMLearnset,
+    [SPECIES_USARMY] = sUsarmyTMHMLearnset,
+    [SPECIES_SHEPEIRD] = sShepeirdTMHMLearnset,
+    [SPECIES_LEGEND] = sLegendTMHMLearnset,
+    [SPECIES_ZERUEL] = sZeruelTMHMLearnset,
+    [SPECIES_REMIEL] = sRemielTMHMLearnset,
+    [SPECIES_AMONSUS] = sAmonsusTMHMLearnset,
+    [SPECIES_WOOPTRET] = sWooptretTMHMLearnset,
+    [SPECIES_KILLWORU] = sKillworuTMHMLearnset,
+    [SPECIES_GOD] = sGodTMHMLearnset,
     [SPECIES_MEW] = sMewTMHMLearnset,
     [SPECIES_CHIKORITA] = sChikoritaTMHMLearnset,
     [SPECIES_BAYLEEF] = sBayleefTMHMLearnset,

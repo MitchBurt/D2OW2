@@ -710,47 +710,47 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x87,
         .y_offset = 6,
     },
-    [SPECIES_AERODACTYL] =
+    [SPECIES_USARMY] =
     {
         .size = 0x86,
         .y_offset = 10,
     },
-    [SPECIES_SNORLAX] =
+    [SPECIES_SHEPEIRD] =
     {
         .size = 0x85,
         .y_offset = 13,
     },
-    [SPECIES_ARTICUNO] =
+    [SPECIES_LEGEND] =
     {
         .size = 0x87,
         .y_offset = 5,
     },
-    [SPECIES_ZAPDOS] =
+    [SPECIES_ZERUEL] =
     {
         .size = 0x85,
         .y_offset = 12,
     },
-    [SPECIES_MOLTRES] =
+    [SPECIES_REMIEL] =
     {
         .size = 0x87,
         .y_offset = 5,
     },
-    [SPECIES_DRATINI] =
+    [SPECIES_AMONSUS] =
     {
         .size = 0x76,
         .y_offset = 8,
     },
-    [SPECIES_DRAGONAIR] =
+    [SPECIES_WOOPTRET] =
     {
         .size = 0x57,
         .y_offset = 4,
     },
-    [SPECIES_DRAGONITE] =
+    [SPECIES_KILLWORU] =
     {
         .size = 0x88,
         .y_offset = 1,
     },
-    [SPECIES_MEWTWO] =
+    [SPECIES_GOD] =
     {
         .size = 0x88,
         .y_offset = 1,
@@ -4561,17 +4561,17 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0,
         .y_offset = 2,
     },
-    [SPECIES_AERODACTYL_MEGA] =
+    [SPECIES_USARMY_MEGA] =
     {
         .size = 0,
         .y_offset = 8,
     },
-    [SPECIES_MEWTWO_MEGA_X] =
+    [SPECIES_GOD_MEGA_X] =
     {
         .size = 0,
         .y_offset = 1,
     },
-    [SPECIES_MEWTWO_MEGA_Y] =
+    [SPECIES_GOD_MEGA_Y] =
     {
         .size = 0,
         .y_offset = 2,
@@ -4884,17 +4884,17 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x86,
         .y_offset = 8,
     },
-    [SPECIES_ARTICUNO_GALARIAN] =
+    [SPECIES_LEGEND_GALARIAN] =
     {
         .size = 0x87,
         .y_offset = 5,
     },
-    [SPECIES_ZAPDOS_GALARIAN] =
+    [SPECIES_ZERUEL_GALARIAN] =
     {
         .size = 0x76,
         .y_offset = 9,
     },
-    [SPECIES_MOLTRES_GALARIAN] =
+    [SPECIES_REMIEL_GALARIAN] =
     {
         .size = 0x77,
         .y_offset = 5,

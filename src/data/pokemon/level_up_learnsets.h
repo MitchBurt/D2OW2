@@ -2873,7 +2873,7 @@ static const struct LevelUpMove sBigobeetLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sAerodactylLevelUpLearnset[] = {
+static const struct LevelUpMove sUsarmyLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 1, MOVE_IRON_HEAD),
 	LEVEL_UP_MOVE( 1, MOVE_ICE_BEAM),
 	LEVEL_UP_MOVE( 1, MOVE_FIRE_BLAST),
@@ -2893,7 +2893,7 @@ static const struct LevelUpMove sAerodactylLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sSnorlaxLevelUpLearnset[] = {
+static const struct LevelUpMove sShepeirdLevelUpLearnset[] = {
 	LEVEL_UP_MOVE(1, MOVE_TACKLE),
 	LEVEL_UP_MOVE(1, MOVE_LEER),
 	LEVEL_UP_MOVE(5, MOVE_SAND_ATTACK),
@@ -2911,7 +2911,7 @@ static const struct LevelUpMove sSnorlaxLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sArticunoLevelUpLearnset[] = {
+static const struct LevelUpMove sLegendLevelUpLearnset[] = {
 	LEVEL_UP_MOVE(1, MOVE_OUTRAGE),
 	LEVEL_UP_MOVE(1, MOVE_SCRATCH),
 	LEVEL_UP_MOVE(1, MOVE_LEER),
@@ -2941,7 +2941,7 @@ static const struct LevelUpMove sArticunoLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sZapdosLevelUpLearnset[] = {
+static const struct LevelUpMove sZeruelLevelUpLearnset[] = {
 	LEVEL_UP_MOVE(1, MOVE_SEISMIC_TOSS),
 	LEVEL_UP_MOVE(1, MOVE_COSMIC_POWER),
 	LEVEL_UP_MOVE(1, MOVE_NATURAL_GIFT),
@@ -2960,7 +2960,7 @@ static const struct LevelUpMove sZapdosLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sMoltresLevelUpLearnset[] = {
+static const struct LevelUpMove sRemielLevelUpLearnset[] = {
 	LEVEL_UP_MOVE(1, MOVE_TACKLE),
 	LEVEL_UP_MOVE(1, MOVE_HARDEN),
 	LEVEL_UP_MOVE(1, MOVE_ROCK_THROW),
@@ -2982,7 +2982,7 @@ static const struct LevelUpMove sMoltresLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sDratiniLevelUpLearnset[] = {
+static const struct LevelUpMove sAmonsusLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 1, MOVE_DOUBLE_KICK),
 	LEVEL_UP_MOVE( 1, MOVE_LEER),
 	LEVEL_UP_MOVE( 5, MOVE_TACKLE),
@@ -3001,7 +3001,7 @@ static const struct LevelUpMove sDratiniLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sDragonairLevelUpLearnset[] = {
+static const struct LevelUpMove sWooptretLevelUpLearnset[] = {
 	LEVEL_UP_MOVE(1, MOVE_WATER_GUN),
 	LEVEL_UP_MOVE(1, MOVE_TAIL_WHIP),
 	LEVEL_UP_MOVE(5, MOVE_MUD_SPORT),
@@ -3017,7 +3017,7 @@ static const struct LevelUpMove sDragonairLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sDragoniteLevelUpLearnset[] = {
+static const struct LevelUpMove sKillworuLevelUpLearnset[] = {
 	LEVEL_UP_MOVE(1, MOVE_CRAFTY_SHIELD),
 	LEVEL_UP_MOVE(1, MOVE_GEAR_UP),
 	LEVEL_UP_MOVE(1, MOVE_SHIFT_GEAR),
@@ -3041,7 +3041,7 @@ static const struct LevelUpMove sDragoniteLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sMewtwoLevelUpLearnset[] = {
+static const struct LevelUpMove sGodLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 1, MOVE_LASER_FOCUS),
 	LEVEL_UP_MOVE( 1, MOVE_PSYWAVE),
 	LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
@@ -20836,7 +20836,7 @@ static const struct LevelUpMove sAlienGalarianLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sArticunoGalarianLevelUpLearnset[] = {
+static const struct LevelUpMove sLegendGalarianLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_GUST),
     LEVEL_UP_MOVE( 1, MOVE_PSYCHO_SHIFT),
     LEVEL_UP_MOVE( 5, MOVE_CONFUSION),
@@ -20856,7 +20856,7 @@ static const struct LevelUpMove sArticunoGalarianLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sZapdosGalarianLevelUpLearnset[] = {
+static const struct LevelUpMove sZeruelGalarianLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_PECK),
     LEVEL_UP_MOVE( 1, MOVE_FOCUS_ENERGY),
     LEVEL_UP_MOVE( 5, MOVE_ROCK_SMASH),
@@ -20876,7 +20876,7 @@ static const struct LevelUpMove sZapdosGalarianLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sMoltresGalarianLevelUpLearnset[] = {
+static const struct LevelUpMove sRemielGalarianLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_GUST),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 5, MOVE_PAYBACK),

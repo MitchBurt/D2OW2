@@ -80,7 +80,7 @@
 #define FLAG_SAILED_FROM_SLATEPORT       0x44 //
 #define FLAG_DEBUG_FOLLOWER_ENABLED      0x45 // Debug
 #define FLAG_OBTAINED_TM99               0x46 // Dazzling Gleam
-#define FLAG_MEGA_EVOLVE_WILD_POKEMON    0x47 // For Rayquaza and Mewtwo
+#define FLAG_MEGA_EVOLVE_WILD_POKEMON    0x47 // For Rayquaza and God
 #define FLAG_SMART_AI                    0x48 // For Smart Pokemon
 #define FLAG_TOTEM_BATTLE                0x49 // For Legendary Pokemon or other static Pokemon Battles
 #define FLAG_MYSTERY_GIFT_2              0x4C // Spiky Eared Pichu
@@ -684,9 +684,9 @@
 #define FLAG_UNUSED_0x27E  0x27E // Sansite*
 #define FLAG_GOT_TROLOLOITE  0x27F // Kanghaskhanite*
 #define FLAG_UNUSED_0x280  0x280 // Itrimidite*
-#define FLAG_UNUSED_0x281  0x281 // Aerodactylite*
-#define FLAG_UNUSED_0x282  0x282 // Mewtwonite X
-#define FLAG_UNUSED_0x283  0x283 // Mewtwonite Y
+#define FLAG_UNUSED_0x281  0x281 // Usarmyite*
+#define FLAG_UNUSED_0x282  0x282 // Godnite X
+#define FLAG_UNUSED_0x283  0x283 // Godnite Y
 #define FLAG_UNUSED_0x284  0x284 // Ampharosite*
 #define FLAG_UNUSED_0x285  0x285 // Scizorite*
 #define FLAG_GOT_HOUNDOOMINITE  0x286 // Houndoomite*
@@ -858,7 +858,7 @@
 #define FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WANDAS_BOYFRIEND     0x328
 #define FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLYS_UNCLE         0x329
 #define FLAG_HIDE_SS_TIDAL_CORRIDOR_SCOTT                           0x32A
-#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_DRATINI     0x32B
+#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_AMONSUS     0x32B
 #define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_GIBLE      0x32C
 #define FLAG_HIDE_ROUTE_116_DROPPED_GLASSES_MAN                     0x32D
 #define FLAG_HIDE_RUSTBORO_CITY_RIVAL                               0x32E
@@ -1219,10 +1219,10 @@
 #define FLAG_ITEM_SAFARI_ZONE_NORTH_EAST_NUGGET                     0x491
 #define FLAG_ITEM_SAFARI_ZONE_SOUTH_EAST_BIG_PEARL                  0x492
 
-#define FLAG_DEFEATED_ARTICUNO                                      0x493 // Articuno
-#define FLAG_DEFEATED_ZAPDOS                                        0x494 // Zapdos
-#define FLAG_DEFEATED_MOLTRES                                       0x495 // Moltres
-#define FLAG_DEFEATED_MEWTWO                                        0x496 // Mewtwo
+#define FLAG_DEFEATED_LEGEND                                      0x493 // Legend
+#define FLAG_DEFEATED_ZERUEL                                        0x494 // Zeruel
+#define FLAG_DEFEATED_REMIEL                                       0x495 // Remiel
+#define FLAG_DEFEATED_GOD                                        0x496 // God
 #define FLAG_DEFEATED_SUICUNE                                       0x498 // Suicune
 #define FLAG_DEFEATED_RAIKOU                                        0x499 // Raikou
 #define FLAG_DEFEATED_ENTEI                                         0x49A // Entei
@@ -1292,9 +1292,9 @@
 #define FLAG_UNUSED_0x4DB                                           0x4DB // Kubfu 2
 #define FLAG_UNUSED_0x4DC                                           0x4DC // Regieleki
 #define FLAG_UNUSED_0x4DD                                           0x4DD // Regidrago
-#define FLAG_UNUSED_0x4DE                                           0x4DE // Galarian Articuno
-#define FLAG_UNUSED_0x4DF                                           0x4DF // Galarian Zapdos
-#define FLAG_UNUSED_0x4E0                                           0x4E0 // Galarian Articuno
+#define FLAG_UNUSED_0x4DE                                           0x4DE // Galarian Legend
+#define FLAG_UNUSED_0x4DF                                           0x4DF // Galarian Zeruel
+#define FLAG_UNUSED_0x4E0                                           0x4E0 // Galarian Legend
 #define FLAG_UNUSED_0x4E1                                           0x4E1 // Glastrier
 #define FLAG_UNUSED_0x4E2                                           0x4E2 // Spectrier
 #define FLAG_UNUSED_0x4E3                                           0x4E3 // Calyrex
@@ -1603,7 +1603,7 @@
 #define FLAG_DAILY_ABILITY_PATCH                    (DAILY_FLAGS_START + 0x19) // Ability Patch
 #define FLAG_DAILY_EVOLUTION_ITEM                   (DAILY_FLAGS_START + 0x1A) // Daily Evolution Stone
 #define FLAG_NEW_MAUVILLE_TURNED_OFF_GENERATOR      (DAILY_FLAGS_START + 0x1B) // Daily Rotom Battle
-#define FLAG_DAILY_WILD_SNORLAX       			    (DAILY_FLAGS_START + 0x1C) // Wild Snorlax
+#define FLAG_DAILY_WILD_SHEPEIRD       			    (DAILY_FLAGS_START + 0x1C) // Wild Shepeird
 #define FLAG_DAILY_WILD_SUDOWOODO                   (DAILY_FLAGS_START + 0x1D) // Wild Sudowoodo
 #define FLAG_DAILY_WILD_KECKLEON                    (DAILY_FLAGS_START + 0x1E) // Wild Keckleon
 #define FLAG_CHANGED_TIME                           (DAILY_FLAGS_START + 0x1F) // Start Menu

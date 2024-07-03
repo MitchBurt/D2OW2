@@ -517,7 +517,7 @@
 #define MUS_RG_SEVII_67               503 // MUS_RG_NANA67
 #define MUS_RG_POKE_FLUTE             504 // MUS_RG_POKEFUE
 #define MUS_RG_VS_DEOXYS              505 // MUS_RG_VS_DEO
-#define MUS_RG_VS_MEWTWO              506 // MUS_RG_VS_MYU2
+#define MUS_RG_VS_GOD              506 // MUS_RG_VS_MYU2
 #define MUS_RG_VS_LEGEND              507 // MUS_RG_VS_DEN
 #define MUS_RG_ENCOUNTER_GYM_LEADER   508 // MUS_RG_EXEYE
 #define MUS_RG_ENCOUNTER_DEOXYS       509 // MUS_RG_DEOEYE

@@ -2,50 +2,50 @@ raw `
 MtEmber_Summit_MapScripts::
 	.byte 0
 
-//Moltres
-MtEmber_Summit_EventScript_Moltres::
+//Remiel
+MtEmber_Summit_EventScript_Remiel::
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_MOLTRES, 2
+	playmoncry SPECIES_REMIEL, 2
 	delay 40
 	waitmoncry
 	setflag FLAG_TOTEM_BATTLE
 	setvar VAR_NUM_WILD_POKEMON_STAT_BOOST, 2
-	setwildbattlewithcustommoves SPECIES_MOLTRES, 70, ITEM_NONE, MOVE_FIRE_BLAST, MOVE_HURRICANE, MOVE_EXTRASENSORY, MOVE_ROOST, 2, NATURE_TIMID
+	setwildbattlewithcustommoves SPECIES_REMIEL, 70, ITEM_NONE, MOVE_FIRE_BLAST, MOVE_HURRICANE, MOVE_EXTRASENSORY, MOVE_ROOST, 2, NATURE_TIMID
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
 	dowildbattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
 	specialvar VAR_RESULT, GetBattleOutcome
 	compare VAR_RESULT, B_OUTCOME_CAUGHT
-	goto_if_eq MtEmber_Summit_EventScript_CaughtMoltres
+	goto_if_eq MtEmber_Summit_EventScript_CaughtRemiel
 	compare VAR_RESULT, B_OUTCOME_WON
-	goto_if_eq MtEmber_Summit_EventScript_RanFromMoltres
+	goto_if_eq MtEmber_Summit_EventScript_RanFromRemiel
 	compare VAR_RESULT, B_OUTCOME_RAN
-	goto_if_eq MtEmber_Summit_EventScript_RanFromMoltres
+	goto_if_eq MtEmber_Summit_EventScript_RanFromRemiel
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
-	goto_if_eq MtEmber_Summit_EventScript_RanFromMoltres
-	setflag FLAG_DEFEATED_MOLTRES
+	goto_if_eq MtEmber_Summit_EventScript_RanFromRemiel
+	setflag FLAG_DEFEATED_REMIEL
 	release
 	end
 
-MtEmber_Summit_EventScript_CaughtMoltres::
-	setflag FLAG_DEFEATED_MOLTRES
+MtEmber_Summit_EventScript_CaughtRemiel::
+	setflag FLAG_DEFEATED_REMIEL
 	fadescreenswapbuffers FADE_TO_BLACK
 	removeobject VAR_LAST_TALKED
 	fadescreenswapbuffers FADE_FROM_BLACK
 	release
 	end
 
-MtEmber_Summit_EventScript_DefeatedMoltres::
+MtEmber_Summit_EventScript_DefeatedRemiel::
 	fadescreenswapbuffers FADE_TO_BLACK
 	removeobject VAR_LAST_TALKED
 	fadescreenswapbuffers FADE_FROM_BLACK
 	release
 	end
 
-MtEmber_Summit_EventScript_RanFromMoltres::
-	setvar VAR_0x8004, SPECIES_MOLTRES
+MtEmber_Summit_EventScript_RanFromRemiel::
+	setvar VAR_0x8004, SPECIES_REMIEL
 	fadescreenswapbuffers FADE_TO_BLACK
 	removeobject VAR_LAST_TALKED
 	fadescreenswapbuffers FADE_FROM_BLACK

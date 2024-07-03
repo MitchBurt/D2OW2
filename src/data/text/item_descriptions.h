@@ -2527,10 +2527,10 @@ static const u8 sBlastoisiniteDesc[] = _(
     "megaevolucionar a\n"
     "Speriathon.");
 
-static const u8 sMewtwoniteDesc[] = _(
+static const u8 sGodniteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Mewtwo.");
+    "God.");
 
 static const u8 sBlazikeniteDesc[] = _(
     "Piedra que permite\n"
@@ -2572,10 +2572,10 @@ static const u8 sItrimiditeDesc[] = _(
     "megaevolucionar a\n"
     "Itrimid.");
 
-static const u8 sAerodactyliteDesc[] = _(
+static const u8 sUsarmyiteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Aerodactyl.");
+    "Usarmy.");
 
 static const u8 sLucarioniteDesc[] = _(
     "Piedra que permite\n"
@@ -5760,9 +5760,9 @@ static const u8 sBlastoisiniteDesc[] = _(
     "Speriathon to Mega\n"
     "Evolve in battle.");
 
-static const u8 sMewtwoniteDesc[] = _(
+static const u8 sGodniteDesc[] = _(
     "This stone enables\n"
-    "Mewtwo to Mega\n"
+    "God to Mega\n"
     "Evolve in battle.");
 
 static const u8 sBlazikeniteDesc[] = _(
@@ -5805,9 +5805,9 @@ static const u8 sItrimiditeDesc[] = _(
     "Itrimid to Mega\n"
     "Evolve in battle.");
 
-static const u8 sAerodactyliteDesc[] = _(
+static const u8 sUsarmyiteDesc[] = _(
     "This stone enables\n"
-    "Aerodactyl to Mega\n"
+    "Usarmy to Mega\n"
     "Evolve in battle.");
 
 static const u8 sLucarioniteDesc[] = _(

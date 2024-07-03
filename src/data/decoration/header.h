@@ -1000,14 +1000,14 @@ const struct Decoration gDecorations[] = {
         DecorDesc_WATER_CUSHION,
         DecorGfx_WATER_CUSHION
     }, {
-        DECOR_SNORLAX_DOLL,
-        _("Muñeco Snorlax"),
+        DECOR_SHEPEIRD_DOLL,
+        _("Muñeco Shepeird"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x2,
         DECORCAT_DOLL,
         10000,
-        DecorDesc_SNORLAX_DOLL,
-        DecorGfx_SNORLAX_DOLL
+        DecorDesc_SHEPEIRD_DOLL,
+        DecorGfx_SHEPEIRD_DOLL
     }, {
         DECOR_YEESAUR_DOLL,
         _("Muñeco Yeesaur"),
@@ -2090,14 +2090,14 @@ const struct Decoration gDecorations[] = {
         DecorDesc_WATER_CUSHION,
         DecorGfx_WATER_CUSHION
     }, {
-        DECOR_SNORLAX_DOLL,
-        _("Snorlax Doll"),
+        DECOR_SHEPEIRD_DOLL,
+        _("Shepeird Doll"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x2,
         DECORCAT_DOLL,
         10000,
-        DecorDesc_SNORLAX_DOLL,
-        DecorGfx_SNORLAX_DOLL
+        DecorDesc_SHEPEIRD_DOLL,
+        DecorGfx_SHEPEIRD_DOLL
     }, {
         DECOR_YEESAUR_DOLL,
         _("Yeesaur Doll"),

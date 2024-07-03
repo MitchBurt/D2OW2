@@ -11835,7 +11835,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_MOLTRES] =
+    [SPECIES_REMIEL] =
     {
         .move = MOVE_HEAT_WAVE,
         .modification = SIGNATURE_MOD_SECOND_TYPE,

@@ -184,7 +184,7 @@
 #define OBJ_EVENT_GFX_GRASS_CUSHION              174
 #define OBJ_EVENT_GFX_FIRE_CUSHION               175
 #define OBJ_EVENT_GFX_WATER_CUSHION              176
-#define OBJ_EVENT_GFX_BIG_SNORLAX_DOLL           177
+#define OBJ_EVENT_GFX_BIG_SHEPEIRD_DOLL           177
 #define OBJ_EVENT_GFX_BIG_YEESAUR_DOLL            178
 #define OBJ_EVENT_GFX_BIG_JEBONY_DOLL            179
 #define OBJ_EVENT_GFX_BIG_YGGDRACON_DOLL          180
@@ -247,9 +247,9 @@
 #define OBJ_EVENT_GFX_LUGIA                      237
 #define OBJ_EVENT_GFX_HOOH                       238
 #define OBJ_EVENT_GFX_TM_BALL                    239
-#define OBJ_EVENT_GFX_ARTICUNO                   240
-#define OBJ_EVENT_GFX_ZAPDOS                     241
-#define OBJ_EVENT_GFX_MOLTRES                    242
+#define OBJ_EVENT_GFX_LEGEND                   240
+#define OBJ_EVENT_GFX_ZERUEL                     241
+#define OBJ_EVENT_GFX_REMIEL                    242
 
 #define OBJ_EVENT_GFX_BRENDAN_NORMAL_RS       	 243
 #define OBJ_EVENT_GFX_BRENDAN_MACH_BIKE_RS       244
@@ -302,7 +302,7 @@
 
 #define OBJ_EVENT_GFX_PORTAL			 	     286
 #define OBJ_EVENT_GFX_MUNCHLAX                   287
-#define OBJ_EVENT_GFX_SNORLAX                    288
+#define OBJ_EVENT_GFX_SHEPEIRD                    288
 #define OBJ_EVENT_GFX_BONSLY                     289
 
 #define OBJ_EVENT_GFX_POKEMON_000			 	 290

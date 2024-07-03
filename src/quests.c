@@ -369,7 +369,7 @@ static const struct SideQuest sSideQuests[SIDE_QUEST_COUNT] =
     side_quest(gText_SideQuestName_5,  gText_SideQuestDesc_5,  ITEM_SWAMPERTITE		, 1, 	gText_SideQuestHint_5,  FLAG_ACHIEVEMENT_REWARD_05),
     side_quest(gText_SideQuestName_6,  gText_SideQuestDesc_6,  ITEM_LATIOSITE		, 1, 	gText_SideQuestHint_6,  FLAG_ACHIEVEMENT_REWARD_06),
     side_quest(gText_SideQuestName_7,  gText_SideQuestDesc_7,  ITEM_ALAKAZITE		, 1, 	gText_SideQuestHint_7,  FLAG_ACHIEVEMENT_REWARD_07),
-    side_quest(gText_SideQuestName_8,  gText_SideQuestDesc_8,  ITEM_AERODACTYLITE	, 1, 	gText_SideQuestHint_8,  FLAG_ACHIEVEMENT_REWARD_08),
+    side_quest(gText_SideQuestName_8,  gText_SideQuestDesc_8,  ITEM_USARMYITE	, 1, 	gText_SideQuestHint_8,  FLAG_ACHIEVEMENT_REWARD_08),
     side_quest(gText_SideQuestName_9,  gText_SideQuestDesc_9,  ITEM_SOOTHE_BELL		, 6, 	gText_SideQuestHint_9,  FLAG_ACHIEVEMENT_REWARD_09),
     side_quest(gText_SideQuestName_10, gText_SideQuestDesc_10, ITEM_RARE_CANDY		, 10, 	gText_SideQuestHint_10, FLAG_ACHIEVEMENT_REWARD_10),
     side_quest(gText_SideQuestName_11, gText_SideQuestDesc_11, ITEM_JOLLY_MINT		, 6, 	gText_SideQuestHint_11, FLAG_ACHIEVEMENT_REWARD_11),
@@ -1999,7 +1999,7 @@ static void UnlockQuestMenu(void)
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_GAISER), 	FLAG_GET_CAUGHT)	||
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_CORORK), 		FLAG_GET_CAUGHT)	||
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_BIGOBEET), 	FLAG_GET_CAUGHT)	||
-		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_AERODACTYL), 	FLAG_GET_CAUGHT)	||
+		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_USARMY), 	FLAG_GET_CAUGHT)	||
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_LILEEP), 		FLAG_GET_CAUGHT)	||
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ANORITH), 	FLAG_GET_CAUGHT)	||
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ARMALDO), 	FLAG_GET_CAUGHT)	||
@@ -2026,7 +2026,7 @@ static void UnlockQuestMenu(void)
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_GAISER), 	FLAG_GET_CAUGHT)	&&
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_CORORK), 		FLAG_GET_CAUGHT)	&&
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_BIGOBEET), 	FLAG_GET_CAUGHT)	&&
-		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_AERODACTYL), 	FLAG_GET_CAUGHT)	&&
+		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_USARMY), 	FLAG_GET_CAUGHT)	&&
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_LILEEP), 		FLAG_GET_CAUGHT)	&&
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ANORITH), 	FLAG_GET_CAUGHT)	&&
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ARMALDO), 	FLAG_GET_CAUGHT)	&&
@@ -2114,7 +2114,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_ESPEON:
 				case SPECIES_BERRORD:
 				case SPECIES_PARANGELIA:
-				case SPECIES_DRAGONITE:
+				case SPECIES_KILLWORU:
 				case SPECIES_HUNTAIL:
 				case SPECIES_SUDOWOODO:
 				case SPECIES_YGGDRACON:
@@ -2128,7 +2128,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_SKARMORY:
 				case SPECIES_TANGROWTH:
 				case SPECIES_BANANACE:
-				case SPECIES_MEWTWO:
+				case SPECIES_GOD:
 				case SPECIES_RENAGEDE:
 				case SPECIES_BATANARF:
 				case SPECIES_ANIVENOM:
@@ -2395,7 +2395,7 @@ static void Task_QuestMenuProgress(u8 taskId)
 				SPECIES_GAISER,
 				SPECIES_CORORK,
 				SPECIES_BIGOBEET,
-				SPECIES_AERODACTYL,
+				SPECIES_USARMY,
 				SPECIES_LILEEP,
 				SPECIES_ANORITH,
 				SPECIES_ARMALDO,

@@ -176,7 +176,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BallCushion;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GrassCushion;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_FireCushion;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_WaterCushion;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigSnorlaxDoll;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigShepeirdDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigYeesaurDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigJebonyDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigYggdraconDoll;
@@ -235,9 +235,9 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Giddy;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMauvilleOldMan1;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMauvilleOldMan2;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TMBall;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Articuno;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Zapdos;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Moltres;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Legend;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Zeruel;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Remiel;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanNormalRS;
 
 //FRLG
@@ -1272,7 +1272,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_GRASS_CUSHION] =            &gObjectEventGraphicsInfo_GrassCushion,
     [OBJ_EVENT_GFX_FIRE_CUSHION] =             &gObjectEventGraphicsInfo_FireCushion,
     [OBJ_EVENT_GFX_WATER_CUSHION] =            &gObjectEventGraphicsInfo_WaterCushion,
-    [OBJ_EVENT_GFX_BIG_SNORLAX_DOLL] =         &gObjectEventGraphicsInfo_BigSnorlaxDoll,
+    [OBJ_EVENT_GFX_BIG_SHEPEIRD_DOLL] =         &gObjectEventGraphicsInfo_BigShepeirdDoll,
     [OBJ_EVENT_GFX_BIG_YEESAUR_DOLL] =          &gObjectEventGraphicsInfo_BigYeesaurDoll,
     [OBJ_EVENT_GFX_BIG_JEBONY_DOLL] =          &gObjectEventGraphicsInfo_BigJebonyDoll,
     [OBJ_EVENT_GFX_BIG_YGGDRACON_DOLL] =        &gObjectEventGraphicsInfo_BigYggdraconDoll,
@@ -1363,7 +1363,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
 	//Special Static Pokemon Sprites
 	[OBJ_EVENT_GFX_BONSLY] =                   &gObjectEventGraphicsInfo_Bonsly,
 	[OBJ_EVENT_GFX_SUDOWOODO] =                &gObjectEventGraphicsInfo_Sudowoodo,
-	[OBJ_EVENT_GFX_SNORLAX] =                  &gObjectEventGraphicsInfo_Snorlax,
+	[OBJ_EVENT_GFX_SHEPEIRD] =                  &gObjectEventGraphicsInfo_Shepeird,
 	[OBJ_EVENT_GFX_MUNCHLAX] =                 &gObjectEventGraphicsInfo_Munchlax,
 	
 	//[OBJ_EVENT_GFX_VIGOROTH_CARRYING_BOX] =    &gObjectEventGraphicsInfo_Pokemon_Species_151,
@@ -1396,9 +1396,9 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
 	[OBJ_EVENT_GFX_AZURILL] =                  &gObjectEventGraphicsInfo_Pokemon_Species_184,
 	[OBJ_EVENT_GFX_LUGIA] =                    &gObjectEventGraphicsInfo_Lugia,
     [OBJ_EVENT_GFX_HOOH] =                     &gObjectEventGraphicsInfo_HoOh,
-	[OBJ_EVENT_GFX_ARTICUNO] =             	   &gObjectEventGraphicsInfo_Pokemon_Species_144,
-	[OBJ_EVENT_GFX_ZAPDOS] =                   &gObjectEventGraphicsInfo_Pokemon_Species_145,
-	[OBJ_EVENT_GFX_MOLTRES] =                  &gObjectEventGraphicsInfo_Pokemon_Species_146,
+	[OBJ_EVENT_GFX_LEGEND] =             	   &gObjectEventGraphicsInfo_Pokemon_Species_144,
+	[OBJ_EVENT_GFX_ZERUEL] =                   &gObjectEventGraphicsInfo_Pokemon_Species_145,
+	[OBJ_EVENT_GFX_REMIEL] =                  &gObjectEventGraphicsInfo_Pokemon_Species_146,
 	
 	//Pokemon overworlds
 	[OBJ_EVENT_GFX_POKEMON_000] = 	&gObjectEventGraphicsInfo_Pokemon_Species_000,

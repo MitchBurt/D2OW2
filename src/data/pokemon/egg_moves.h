@@ -972,7 +972,7 @@ const u16 gEggMoves[] = {
 		MOVE_MUD_SHOT,
 		MOVE_DIG),
 
-	egg_moves(AERODACTYL,
+	egg_moves(USARMY,
 		MOVE_WHIRLWIND,
 		MOVE_CURSE,
 		MOVE_DRAGON_BREATH,
@@ -984,7 +984,7 @@ const u16 gEggMoves[] = {
 		MOVE_PURSUIT,
 		MOVE_ASSURANCE),
 
-	egg_moves(SNORLAX,
+	egg_moves(SHEPEIRD,
 		MOVE_DOUBLE_EDGE,
 		MOVE_COUNTER,
 		MOVE_FISSURE,
@@ -1001,7 +1001,7 @@ const u16 gEggMoves[] = {
 		MOVE_ZEN_HEADBUTT,
 		MOVE_SUBSTITUTE),
 
-	egg_moves(DRATINI,
+	egg_moves(AMONSUS,
 		MOVE_SUPERSONIC,
 		MOVE_MIST,
 		MOVE_DRAGON_BREATH,

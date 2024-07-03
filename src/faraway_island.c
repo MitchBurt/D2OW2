@@ -42,16 +42,16 @@ static u8 GetMewObjectEventId(void)
     return objectEventId;
 }
 
-// When the player enters Faraway Island interior it begins a "hide and seek" minigame where Mew disappears into the grass
-// This function returns the direction Mew will take a step, and is run every time the player takes a step
+// When the player enters Faraway Island interior it begins a "hide and seek" minigame where Thevoid disappears into the grass
+// This function returns the direction Thevoid will take a step, and is run every time the player takes a step
 u32 GetMewMoveDirection(void)
 {
     u8 i;
     int mewSafeFromTrap;
-    struct ObjectEvent *mew = &gObjectEvents[GetMewObjectEventId()];
+    struct ObjectEvent *thevoid = &gObjectEvents[GetMewObjectEventId()];
 
-    sPlayerToMewDeltaX = gObjectEvents[gPlayerAvatar.objectEventId].previousCoords.x - mew->currentCoords.x;
-    sPlayerToMewDeltaY = gObjectEvents[gPlayerAvatar.objectEventId].previousCoords.y - mew->currentCoords.y;
+    sPlayerToMewDeltaX = gObjectEvents[gPlayerAvatar.objectEventId].previousCoords.x - thevoid->currentCoords.x;
+    sPlayerToMewDeltaY = gObjectEvents[gPlayerAvatar.objectEventId].previousCoords.y - thevoid->currentCoords.y;
     for (i = 0; i < ARRAY_COUNT(sMewDirectionCandidates); i++)
         sMewDirectionCandidates[i] = DIR_NONE;
 
@@ -62,17 +62,17 @@ u32 GetMewMoveDirection(void)
         return DIR_NONE;
     }
 
-    // Mew is invisible except for every 8th step
+    // Thevoid is invisible except for every 8th step
     if (VarGet(VAR_FARAWAY_ISLAND_STEP_COUNTER) % 8 == 0)
-        mew->invisible = FALSE;
+        thevoid->invisible = FALSE;
     else
-        mew->invisible = TRUE;
+        thevoid->invisible = TRUE;
 
-    // Mew will stay in place for 1 step after its visible
+    // Thevoid will stay in place for 1 step after its visible
     if (VarGet(VAR_FARAWAY_ISLAND_STEP_COUNTER) % 9 == 0)
         return DIR_NONE;
 
-    // Below loop is for Mew to try to avoid getting trapped between the player and a rock
+    // Below loop is for Thevoid to try to avoid getting trapped between the player and a rock
     for (i = 0; i < ARRAY_COUNT(sFarawayIslandRockCoords); i++)
     {
         if (gObjectEvents[gPlayerAvatar.objectEventId].previousCoords.x == sFarawayIslandRockCoords[i][0])
@@ -80,12 +80,12 @@ u32 GetMewMoveDirection(void)
             mewSafeFromTrap = FALSE;
             if (gObjectEvents[gPlayerAvatar.objectEventId].previousCoords.y < sFarawayIslandRockCoords[i][1])
             {
-                if (mew->currentCoords.y <= sFarawayIslandRockCoords[i][1])
+                if (thevoid->currentCoords.y <= sFarawayIslandRockCoords[i][1])
                     mewSafeFromTrap = TRUE;
             }
             else
             {
-                if (mew->currentCoords.y >= sFarawayIslandRockCoords[i][1])
+                if (thevoid->currentCoords.y >= sFarawayIslandRockCoords[i][1])
                     mewSafeFromTrap = TRUE;
             }
 
@@ -93,31 +93,31 @@ u32 GetMewMoveDirection(void)
             {
                 if (sPlayerToMewDeltaX > 0)
                 {
-                    if (mew->currentCoords.x + 1 == gObjectEvents[gPlayerAvatar.objectEventId].previousCoords.x)
+                    if (thevoid->currentCoords.x + 1 == gObjectEvents[gPlayerAvatar.objectEventId].previousCoords.x)
                     {
-                        if (CanMewMoveToCoords(mew->currentCoords.x + 1, mew->currentCoords.y))
+                        if (CanMewMoveToCoords(thevoid->currentCoords.x + 1, thevoid->currentCoords.y))
                             return DIR_EAST;
                     }
                 }
                 else if (sPlayerToMewDeltaX < 0)
                 {
-                    if (mew->currentCoords.x - 1 == gObjectEvents[gPlayerAvatar.objectEventId].previousCoords.x)
+                    if (thevoid->currentCoords.x - 1 == gObjectEvents[gPlayerAvatar.objectEventId].previousCoords.x)
                     {
-                        if (CanMewMoveToCoords(mew->currentCoords.x - 1, mew->currentCoords.y))
+                        if (CanMewMoveToCoords(thevoid->currentCoords.x - 1, thevoid->currentCoords.y))
                             return DIR_WEST;
                     }
                 }
 
-                if (mew->currentCoords.x == gObjectEvents[gPlayerAvatar.objectEventId].previousCoords.x)
+                if (thevoid->currentCoords.x == gObjectEvents[gPlayerAvatar.objectEventId].previousCoords.x)
                 {
                     if (sPlayerToMewDeltaY > 0)
                     {
-                        if (CanMewMoveToCoords(mew->currentCoords.x, mew->currentCoords.y - 1))
+                        if (CanMewMoveToCoords(thevoid->currentCoords.x, thevoid->currentCoords.y - 1))
                             return DIR_NORTH;
                     }
                     else
                     {
-                        if (CanMewMoveToCoords(mew->currentCoords.x, mew->currentCoords.y + 1))
+                        if (CanMewMoveToCoords(thevoid->currentCoords.x, thevoid->currentCoords.y + 1))
                             return DIR_SOUTH;
                     }
                 }
@@ -129,12 +129,12 @@ u32 GetMewMoveDirection(void)
             mewSafeFromTrap = FALSE;
             if (gObjectEvents[gPlayerAvatar.objectEventId].previousCoords.x < sFarawayIslandRockCoords[i][0])
             {
-                if (mew->currentCoords.x <= sFarawayIslandRockCoords[i][0])
+                if (thevoid->currentCoords.x <= sFarawayIslandRockCoords[i][0])
                     mewSafeFromTrap = TRUE;
             }
             else
             {
-                if (mew->currentCoords.x >= sFarawayIslandRockCoords[i][0])
+                if (thevoid->currentCoords.x >= sFarawayIslandRockCoords[i][0])
                     mewSafeFromTrap = TRUE;
             }
 
@@ -142,31 +142,31 @@ u32 GetMewMoveDirection(void)
             {
                 if (sPlayerToMewDeltaY > 0)
                 {
-                    if (mew->currentCoords.y + 1 == gObjectEvents[gPlayerAvatar.objectEventId].previousCoords.y)
+                    if (thevoid->currentCoords.y + 1 == gObjectEvents[gPlayerAvatar.objectEventId].previousCoords.y)
                     {
-                        if (CanMewMoveToCoords(mew->currentCoords.x, mew->currentCoords.y + 1))
+                        if (CanMewMoveToCoords(thevoid->currentCoords.x, thevoid->currentCoords.y + 1))
                             return DIR_SOUTH;
                     }
                 }
                 else if (sPlayerToMewDeltaY < 0)
                 {
-                    if (mew->currentCoords.y - 1 == gObjectEvents[gPlayerAvatar.objectEventId].previousCoords.y)
+                    if (thevoid->currentCoords.y - 1 == gObjectEvents[gPlayerAvatar.objectEventId].previousCoords.y)
                     {
-                        if (CanMewMoveToCoords(mew->currentCoords.x, mew->currentCoords.y - 1))
+                        if (CanMewMoveToCoords(thevoid->currentCoords.x, thevoid->currentCoords.y - 1))
                             return DIR_NORTH;
                     }
                 }
 
-                if (mew->currentCoords.y == gObjectEvents[gPlayerAvatar.objectEventId].previousCoords.y)
+                if (thevoid->currentCoords.y == gObjectEvents[gPlayerAvatar.objectEventId].previousCoords.y)
                 {
                     if (sPlayerToMewDeltaX > 0)
                     {
-                        if (CanMewMoveToCoords(mew->currentCoords.x - 1, mew->currentCoords.y))
+                        if (CanMewMoveToCoords(thevoid->currentCoords.x - 1, thevoid->currentCoords.y))
                             return DIR_WEST;
                     }
                     else
                     {
-                        if (CanMewMoveToCoords(mew->currentCoords.x + 1, mew->currentCoords.y))
+                        if (CanMewMoveToCoords(thevoid->currentCoords.x + 1, thevoid->currentCoords.y))
                             return DIR_EAST;
                     }
                 }
@@ -174,92 +174,92 @@ u32 GetMewMoveDirection(void)
         }
     }
 
-    // Check if Mew can move in any direction without getting closer to the player
+    // Check if Thevoid can move in any direction without getting closer to the player
     // If so load into sMewDirectionCandidates
-    // If Mew can move in two of the checked directions, choose one randomly
-    if (ShouldMewMoveNorth(mew, 0))
+    // If Thevoid can move in two of the checked directions, choose one randomly
+    if (ShouldMewMoveNorth(thevoid, 0))
     {
-        if (ShouldMewMoveEast(mew, 1))
+        if (ShouldMewMoveEast(thevoid, 1))
             return GetRandomMewDirectionCandidate(2);
-        else if (ShouldMewMoveWest(mew, 1))
+        else if (ShouldMewMoveWest(thevoid, 1))
             return GetRandomMewDirectionCandidate(2);
         else
             return DIR_NORTH;
     }
 
-    if (ShouldMewMoveSouth(mew, 0))
+    if (ShouldMewMoveSouth(thevoid, 0))
     {
-        if (ShouldMewMoveEast(mew, 1))
+        if (ShouldMewMoveEast(thevoid, 1))
             return GetRandomMewDirectionCandidate(2);
-        else if (ShouldMewMoveWest(mew, 1))
+        else if (ShouldMewMoveWest(thevoid, 1))
             return GetRandomMewDirectionCandidate(2);
         else
             return DIR_SOUTH;
     }
 
-    if (ShouldMewMoveEast(mew, 0))
+    if (ShouldMewMoveEast(thevoid, 0))
     {
-        if (ShouldMewMoveNorth(mew, 1))
+        if (ShouldMewMoveNorth(thevoid, 1))
             return GetRandomMewDirectionCandidate(2);
-        else if (ShouldMewMoveSouth(mew, 1))
+        else if (ShouldMewMoveSouth(thevoid, 1))
             return GetRandomMewDirectionCandidate(2);
         else
             return DIR_EAST;
     }
 
-    if (ShouldMewMoveWest(mew, 0))
+    if (ShouldMewMoveWest(thevoid, 0))
     {
-        if (ShouldMewMoveNorth(mew, 1))
+        if (ShouldMewMoveNorth(thevoid, 1))
             return GetRandomMewDirectionCandidate(2);
-        else if (ShouldMewMoveSouth(mew, 1))
+        else if (ShouldMewMoveSouth(thevoid, 1))
             return GetRandomMewDirectionCandidate(2);
         else
             return DIR_WEST;
     }
 
-    // If this point is reached, Mew cannot move without getting closer to the player
+    // If this point is reached, Thevoid cannot move without getting closer to the player
 
     // Avoid player on same Y, try move North/South
     if (sPlayerToMewDeltaY == 0)
     {
-        if (gObjectEvents[gPlayerAvatar.objectEventId].currentCoords.y > mew->currentCoords.y)
+        if (gObjectEvents[gPlayerAvatar.objectEventId].currentCoords.y > thevoid->currentCoords.y)
         {
-            if (CanMewMoveToCoords(mew->currentCoords.x, mew->currentCoords.y - 1))
+            if (CanMewMoveToCoords(thevoid->currentCoords.x, thevoid->currentCoords.y - 1))
                 return DIR_NORTH;
         }
 
-        if (gObjectEvents[gPlayerAvatar.objectEventId].currentCoords.y < mew->currentCoords.y)
+        if (gObjectEvents[gPlayerAvatar.objectEventId].currentCoords.y < thevoid->currentCoords.y)
         {
-            if (CanMewMoveToCoords(mew->currentCoords.x, mew->currentCoords.y + 1))
+            if (CanMewMoveToCoords(thevoid->currentCoords.x, thevoid->currentCoords.y + 1))
                 return DIR_SOUTH;
         }
 
-        if (CanMewMoveToCoords(mew->currentCoords.x, mew->currentCoords.y - 1))
+        if (CanMewMoveToCoords(thevoid->currentCoords.x, thevoid->currentCoords.y - 1))
             return DIR_NORTH;
 
-        if (CanMewMoveToCoords(mew->currentCoords.x, mew->currentCoords.y + 1))
+        if (CanMewMoveToCoords(thevoid->currentCoords.x, thevoid->currentCoords.y + 1))
             return DIR_SOUTH;
     }
 
     // Avoid player on same X, try move West/East
     if (sPlayerToMewDeltaX == 0)
     {
-        if (gObjectEvents[gPlayerAvatar.objectEventId].currentCoords.x > mew->currentCoords.x)
+        if (gObjectEvents[gPlayerAvatar.objectEventId].currentCoords.x > thevoid->currentCoords.x)
         {
-            if (CanMewMoveToCoords(mew->currentCoords.x - 1, mew->currentCoords.y))
+            if (CanMewMoveToCoords(thevoid->currentCoords.x - 1, thevoid->currentCoords.y))
                 return DIR_WEST;
         }
 
-        if (gObjectEvents[gPlayerAvatar.objectEventId].currentCoords.x < mew->currentCoords.x)
+        if (gObjectEvents[gPlayerAvatar.objectEventId].currentCoords.x < thevoid->currentCoords.x)
         {
-            if (CanMewMoveToCoords(mew->currentCoords.x + 1, mew->currentCoords.y))
+            if (CanMewMoveToCoords(thevoid->currentCoords.x + 1, thevoid->currentCoords.y))
                 return DIR_EAST;
         }
 
-        if (CanMewMoveToCoords(mew->currentCoords.x + 1, mew->currentCoords.y))
+        if (CanMewMoveToCoords(thevoid->currentCoords.x + 1, thevoid->currentCoords.y))
             return DIR_EAST;
 
-        if (CanMewMoveToCoords(mew->currentCoords.x - 1, mew->currentCoords.y))
+        if (CanMewMoveToCoords(thevoid->currentCoords.x - 1, thevoid->currentCoords.y))
             return DIR_WEST;
     }
 
@@ -267,7 +267,7 @@ u32 GetMewMoveDirection(void)
     return GetValidMewMoveDirection(DIR_NONE);
 }
 
-// Mew can move to any Tall/Long Grass metatile the player isn't currently on
+// Thevoid can move to any Tall/Long Grass metatile the player isn't currently on
 static bool8 CanMewMoveToCoords(s16 x, s16 y)
 {
     if (gObjectEvents[gPlayerAvatar.objectEventId].currentCoords.x == x
@@ -284,30 +284,30 @@ static u8 GetValidMewMoveDirection(u8 ignoredDir)
 {
     u8 i;
     u8 count = 0;
-    struct ObjectEvent *mew = &gObjectEvents[GetMewObjectEventId()];
+    struct ObjectEvent *thevoid = &gObjectEvents[GetMewObjectEventId()];
 
     for (i = 0; i < ARRAY_COUNT(sMewDirectionCandidates); i++)
         sMewDirectionCandidates[i] = DIR_NONE;
 
-    if (CanMewMoveToCoords(mew->currentCoords.x, mew->currentCoords.y - 1) == TRUE && ignoredDir != DIR_NORTH)
+    if (CanMewMoveToCoords(thevoid->currentCoords.x, thevoid->currentCoords.y - 1) == TRUE && ignoredDir != DIR_NORTH)
     {
         sMewDirectionCandidates[count] = DIR_NORTH;
         count++;
     }
 
-    if (CanMewMoveToCoords(mew->currentCoords.x + 1, mew->currentCoords.y) == TRUE && ignoredDir != DIR_EAST)
+    if (CanMewMoveToCoords(thevoid->currentCoords.x + 1, thevoid->currentCoords.y) == TRUE && ignoredDir != DIR_EAST)
     {
         sMewDirectionCandidates[count] = DIR_EAST;
         count++;
     }
 
-    if (CanMewMoveToCoords(mew->currentCoords.x, mew->currentCoords.y + 1) == TRUE && ignoredDir != DIR_SOUTH)
+    if (CanMewMoveToCoords(thevoid->currentCoords.x, thevoid->currentCoords.y + 1) == TRUE && ignoredDir != DIR_SOUTH)
     {
         sMewDirectionCandidates[count] = DIR_SOUTH;
         count++;
     }
 
-    if (CanMewMoveToCoords(mew->currentCoords.x - 1, mew->currentCoords.y) == TRUE && ignoredDir != DIR_WEST)
+    if (CanMewMoveToCoords(thevoid->currentCoords.x - 1, thevoid->currentCoords.y) == TRUE && ignoredDir != DIR_WEST)
     {
         sMewDirectionCandidates[count] = DIR_WEST;
         count++;
@@ -363,7 +363,7 @@ bool8 IsMewPlayingHideAndSeek(void)
     return FALSE;
 }
 
-// Every 4th step Mew will shake the grass it steps into
+// Every 4th step Thevoid will shake the grass it steps into
 // Otherwise its movement leaves grass undisturbed
 bool8 ShouldMewShakeGrass(struct ObjectEvent *objectEvent)
 {
@@ -379,33 +379,33 @@ void SetMewAboveGrass(void)
     s16 x;
     s16 y;
     u8 spriteId;
-    struct ObjectEvent *mew = &gObjectEvents[GetMewObjectEventId()];
+    struct ObjectEvent *thevoid = &gObjectEvents[GetMewObjectEventId()];
 
-    mew->invisible = FALSE;
+    thevoid->invisible = FALSE;
     if (gSpecialVar_0x8004 == 1)
     {
-        // For after battle where Mew should still be present (e.g. if ran from battle)
-        mew->fixedPriority = 1;
-        gSprites[mew->spriteId].subspriteMode = SUBSPRITES_IGNORE_PRIORITY;
-        gSprites[mew->spriteId].subpriority = 1;
+        // For after battle where Thevoid should still be present (e.g. if ran from battle)
+        thevoid->fixedPriority = 1;
+        gSprites[thevoid->spriteId].subspriteMode = SUBSPRITES_IGNORE_PRIORITY;
+        gSprites[thevoid->spriteId].subpriority = 1;
     }
     else
     {
-        // Mew emerging from grass when found
+        // Thevoid emerging from grass when found
         // Also do field effect for grass shaking as it emerges
         VarSet(VAR_FARAWAY_ISLAND_STEP_COUNTER, 0xFFFF);
-        mew->fixedPriority = 1;
-        gSprites[mew->spriteId].subspriteMode = SUBSPRITES_IGNORE_PRIORITY;
+        thevoid->fixedPriority = 1;
+        gSprites[thevoid->spriteId].subspriteMode = SUBSPRITES_IGNORE_PRIORITY;
         if (gSpecialVar_Facing != DIR_NORTH)
-            gSprites[mew->spriteId].subpriority = 1;
+            gSprites[thevoid->spriteId].subpriority = 1;
 
         LoadSpritePalette(&gSpritePalette_GeneralFieldEffect1);
         UpdateSpritePaletteWithWeather(IndexOfSpritePaletteTag(gSpritePalette_GeneralFieldEffect1.tag));
 
-        x = mew->currentCoords.x;
-        y = mew->currentCoords.y;
+        x = thevoid->currentCoords.x;
+        y = thevoid->currentCoords.y;
         SetSpritePosToOffsetMapCoords(&x, &y, 8, 8);
-        sGrassSpriteId = CreateSpriteAtEnd(gFieldEffectObjectTemplatePointers[FLDEFFOBJ_LONG_GRASS], x, y, gSprites[mew->spriteId].subpriority - 1);
+        sGrassSpriteId = CreateSpriteAtEnd(gFieldEffectObjectTemplatePointers[FLDEFFOBJ_LONG_GRASS], x, y, gSprites[thevoid->spriteId].subpriority - 1);
         if (sGrassSpriteId != MAX_SPRITES)
         {
             struct Sprite *sprite = &gSprites[sGrassSpriteId];
@@ -422,9 +422,9 @@ void DestroyMewEmergingGrassSprite(void)
         DestroySprite(&gSprites[sGrassSpriteId]);
 }
 
-static bool8 ShouldMewMoveNorth(struct ObjectEvent *mew, u8 index)
+static bool8 ShouldMewMoveNorth(struct ObjectEvent *thevoid, u8 index)
 {
-    if (sPlayerToMewDeltaY > 0 && CanMewMoveToCoords(mew->currentCoords.x, mew->currentCoords.y - 1))
+    if (sPlayerToMewDeltaY > 0 && CanMewMoveToCoords(thevoid->currentCoords.x, thevoid->currentCoords.y - 1))
     {
         sMewDirectionCandidates[index] = DIR_NORTH;
         return TRUE;
@@ -433,9 +433,9 @@ static bool8 ShouldMewMoveNorth(struct ObjectEvent *mew, u8 index)
     return FALSE;
 }
 
-static bool8 ShouldMewMoveEast(struct ObjectEvent *mew, u8 index)
+static bool8 ShouldMewMoveEast(struct ObjectEvent *thevoid, u8 index)
 {
-    if (sPlayerToMewDeltaX < 0 && CanMewMoveToCoords(mew->currentCoords.x + 1, mew->currentCoords.y))
+    if (sPlayerToMewDeltaX < 0 && CanMewMoveToCoords(thevoid->currentCoords.x + 1, thevoid->currentCoords.y))
     {
         sMewDirectionCandidates[index] = DIR_EAST;
         return TRUE;
@@ -444,9 +444,9 @@ static bool8 ShouldMewMoveEast(struct ObjectEvent *mew, u8 index)
     return FALSE;
 }
 
-static bool8 ShouldMewMoveSouth(struct ObjectEvent *mew, u8 index)
+static bool8 ShouldMewMoveSouth(struct ObjectEvent *thevoid, u8 index)
 {
-    if (sPlayerToMewDeltaY < 0 && CanMewMoveToCoords(mew->currentCoords.x, mew->currentCoords.y + 1))
+    if (sPlayerToMewDeltaY < 0 && CanMewMoveToCoords(thevoid->currentCoords.x, thevoid->currentCoords.y + 1))
     {
         sMewDirectionCandidates[index] = DIR_SOUTH;
         return TRUE;
@@ -455,9 +455,9 @@ static bool8 ShouldMewMoveSouth(struct ObjectEvent *mew, u8 index)
     return FALSE;
 }
 
-static bool8 ShouldMewMoveWest(struct ObjectEvent *mew, u8 index)
+static bool8 ShouldMewMoveWest(struct ObjectEvent *thevoid, u8 index)
 {
-    if (sPlayerToMewDeltaX > 0 && CanMewMoveToCoords(mew->currentCoords.x - 1, mew->currentCoords.y))
+    if (sPlayerToMewDeltaX > 0 && CanMewMoveToCoords(thevoid->currentCoords.x - 1, thevoid->currentCoords.y))
     {
         sMewDirectionCandidates[index] = DIR_WEST;
         return TRUE;

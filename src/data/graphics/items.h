@@ -1291,11 +1291,11 @@ const u32 gItemIconPalette_SkorpyrositeX[] = INCBIN_U32("graphics/items/icon_pal
 const u32 gItemIcon_Blastoisinite[] = INCBIN_U32("graphics/items/icons/blastoisinite.4bpp.lz");
 const u32 gItemIconPalette_Blastoisinite[] = INCBIN_U32("graphics/items/icon_palettes/blastoisinite.gbapal.lz");
 
-const u32 gItemIcon_MewtwoniteX[] = INCBIN_U32("graphics/items/icons/mewtwonite_x.4bpp.lz");
-const u32 gItemIconPalette_MewtwoniteX[] = INCBIN_U32("graphics/items/icon_palettes/mewtwonite_x.gbapal.lz");
+const u32 gItemIcon_GodniteX[] = INCBIN_U32("graphics/items/icons/godnite_x.4bpp.lz");
+const u32 gItemIconPalette_GodniteX[] = INCBIN_U32("graphics/items/icon_palettes/godnite_x.gbapal.lz");
 
-const u32 gItemIcon_MewtwoniteY[] = INCBIN_U32("graphics/items/icons/mewtwonite_y.4bpp.lz");
-const u32 gItemIconPalette_MewtwoniteY[] = INCBIN_U32("graphics/items/icon_palettes/mewtwonite_y.gbapal.lz");
+const u32 gItemIcon_GodniteY[] = INCBIN_U32("graphics/items/icons/godnite_y.4bpp.lz");
+const u32 gItemIconPalette_GodniteY[] = INCBIN_U32("graphics/items/icon_palettes/godnite_y.gbapal.lz");
 
 const u32 gItemIcon_Blazikenite[] = INCBIN_U32("graphics/items/icons/blazikenite.4bpp.lz");
 const u32 gItemIconPalette_Blazikenite[] = INCBIN_U32("graphics/items/icon_palettes/blazikenite.gbapal.lz");
@@ -1321,8 +1321,8 @@ const u32 gItemIconPalette_Scizorite[] = INCBIN_U32("graphics/items/icon_palette
 const u32 gItemIcon_Itrimidite[] = INCBIN_U32("graphics/items/icons/itrimidite.4bpp.lz");
 const u32 gItemIconPalette_Itrimidite[] = INCBIN_U32("graphics/items/icon_palettes/itrimidite.gbapal.lz");
 
-const u32 gItemIcon_Aerodactylite[] = INCBIN_U32("graphics/items/icons/aerodactylite.4bpp.lz");
-const u32 gItemIconPalette_Aerodactylite[] = INCBIN_U32("graphics/items/icon_palettes/aerodactylite.gbapal.lz");
+const u32 gItemIcon_Usarmyite[] = INCBIN_U32("graphics/items/icons/usarmyite.4bpp.lz");
+const u32 gItemIconPalette_Usarmyite[] = INCBIN_U32("graphics/items/icon_palettes/usarmyite.gbapal.lz");
 
 const u32 gItemIcon_Lucarionite[] = INCBIN_U32("graphics/items/icons/lucarionite.4bpp.lz");
 const u32 gItemIconPalette_Lucarionite[] = INCBIN_U32("graphics/items/icon_palettes/lucarionite.gbapal.lz");

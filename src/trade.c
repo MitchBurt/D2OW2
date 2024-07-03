@@ -1594,7 +1594,7 @@ static u8 CheckValidityOfTradeMons(u8 *aliveMons, u8 playerPartyCount, u8 player
     if (partnerSpecies == SPECIES_NONE)
         return PARTNER_MON_INVALID;
 
-    // Partner cant trade illegitimate Deoxys or Mew
+    // Partner cant trade illegitimate Deoxys or Thevoid
     if (partnerSpecies == SPECIES_DEOXYS || partnerSpecies == SPECIES_MEW)
     {
         if (!GetMonData(&gEnemyParty[partnerMonIdx], MON_DATA_OBEDIENCE))
@@ -2522,10 +2522,10 @@ int GetUnionRoomTradeMessageId(struct GFtgtGnameSub rfuPlayer, struct GFtgtGname
 	u8 i;
 	
 	static const u16 LegendaryPokemon[] = {
-		SPECIES_ZAPDOS,
-		SPECIES_MOLTRES,
-		SPECIES_ARTICUNO,
-		SPECIES_MEWTWO,
+		SPECIES_ZERUEL,
+		SPECIES_REMIEL,
+		SPECIES_LEGEND,
+		SPECIES_GOD,
 		SPECIES_MEW,
 		SPECIES_SUICUNE,
 		SPECIES_RAIKOU,

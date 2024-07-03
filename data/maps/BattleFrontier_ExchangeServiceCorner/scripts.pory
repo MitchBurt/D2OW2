@@ -212,7 +212,7 @@ BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor2:: @ 825F38E
 	special CloseFrontierExchangeCornerItemIconWindow
 	switch VAR_RESULT
 	case 0, BattleFrontier_ExchangeServiceCorner_EventScript_JebonyDoll
-	case 1, BattleFrontier_ExchangeServiceCorner_EventScript_SnorlaxDoll
+	case 1, BattleFrontier_ExchangeServiceCorner_EventScript_ShepeirdDoll
 	case 2, BattleFrontier_ExchangeServiceCorner_EventScript_YggdraconDoll
 	case 3, BattleFrontier_ExchangeServiceCorner_EventScript_SkorpyrosDoll
 	case 4, BattleFrontier_ExchangeServiceCorner_EventScript_SperiathonDoll
@@ -229,12 +229,12 @@ BattleFrontier_ExchangeServiceCorner_EventScript_JebonyDoll:: @ 825F3F0
 	goto BattleFrontier_ExchangeServiceCorner_EventScript_TryPurchasePrize
 	end
 
-BattleFrontier_ExchangeServiceCorner_EventScript_SnorlaxDoll:: @ 825F413
-	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmSnorlaxDoll, MSGBOX_YESNO
+BattleFrontier_ExchangeServiceCorner_EventScript_ShepeirdDoll:: @ 825F413
+	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmShepeirdDoll, MSGBOX_YESNO
 	compare VAR_RESULT, NO
 	goto_if_eq BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor2
 	setvar VAR_0x8008, 128
-	setvar VAR_0x8009, DECOR_SNORLAX_DOLL
+	setvar VAR_0x8009, DECOR_SHEPEIRD_DOLL
 	goto BattleFrontier_ExchangeServiceCorner_EventScript_TryPurchasePrize
 	end
 
@@ -530,8 +530,8 @@ BattleFrontier_ExchangeServiceCorner_Text_ConfirmJebonyDoll: @ 825FAA2
 	.string "You've chosen the Jebony Doll.\n"
 	.string "Is that correct?$"
 
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmSnorlaxDoll: @ 825FAD2
-	.string "You've chosen the Snorlax Doll.\n"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmShepeirdDoll: @ 825FAD2
+	.string "You've chosen the Shepeird Doll.\n"
 	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmYggdraconDoll: @ 825FB03

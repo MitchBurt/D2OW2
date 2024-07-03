@@ -951,40 +951,40 @@ Cry_Bigobeet::
 	.incbin "sound/direct_sound_samples/cries/cry_bigobeet.bin"
 
 	.align 2
-Cry_Aerodactyl::
-	.incbin "sound/direct_sound_samples/cries/cry_aerodactyl.bin"
+Cry_Usarmy::
+	.incbin "sound/direct_sound_samples/cries/cry_usarmy.bin"
 
 	.align 2
-Cry_Snorlax::
-	.incbin "sound/direct_sound_samples/cries/cry_snorlax.bin"
+Cry_Shepeird::
+	.incbin "sound/direct_sound_samples/cries/cry_shepeird.bin"
 
 	.align 2
-Cry_Articuno::
-	.incbin "sound/direct_sound_samples/cries/cry_articuno.bin"
+Cry_Legend::
+	.incbin "sound/direct_sound_samples/cries/cry_legend.bin"
 
 	.align 2
-Cry_Zapdos::
-	.incbin "sound/direct_sound_samples/cries/cry_zapdos.bin"
+Cry_Zeruel::
+	.incbin "sound/direct_sound_samples/cries/cry_zeruel.bin"
 
 	.align 2
-Cry_Moltres::
-	.incbin "sound/direct_sound_samples/cries/cry_moltres.bin"
+Cry_Remiel::
+	.incbin "sound/direct_sound_samples/cries/cry_remiel.bin"
 
 	.align 2
-Cry_Dratini::
-	.incbin "sound/direct_sound_samples/cries/cry_dratini.bin"
+Cry_Amonsus::
+	.incbin "sound/direct_sound_samples/cries/cry_amonsus.bin"
 
 	.align 2
-Cry_Dragonair::
-	.incbin "sound/direct_sound_samples/cries/cry_dragonair.bin"
+Cry_Wooptret::
+	.incbin "sound/direct_sound_samples/cries/cry_wooptret.bin"
 
 	.align 2
-Cry_Dragonite::
-	.incbin "sound/direct_sound_samples/cries/cry_dragonite.bin"
+Cry_Killworu::
+	.incbin "sound/direct_sound_samples/cries/cry_killworu.bin"
 
 	.align 2
-Cry_Mewtwo::
-	.incbin "sound/direct_sound_samples/cries/cry_mewtwo.bin"
+Cry_God::
+	.incbin "sound/direct_sound_samples/cries/cry_god.bin"
 
 	.align 2
 Cry_Mew::
@@ -4027,16 +4027,16 @@ Cry_Kroller_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_kroller.bin"
 
 	.align 2
-Cry_Aerodactyl_Mega::
-	.incbin "sound/direct_sound_samples/cries/cry_aerodactyl.bin"
+Cry_Usarmy_Mega::
+	.incbin "sound/direct_sound_samples/cries/cry_usarmy.bin"
 
 	.align 2
-Cry_Mewtwo_Mega_X::
-	.incbin "sound/direct_sound_samples/cries/cry_mewtwo.bin"
+Cry_God_Mega_X::
+	.incbin "sound/direct_sound_samples/cries/cry_god.bin"
 
 	.align 2
-Cry_Mewtwo_Mega_Y::
-	.incbin "sound/direct_sound_samples/cries/cry_mewtwo.bin"
+Cry_God_Mega_Y::
+	.incbin "sound/direct_sound_samples/cries/cry_god.bin"
 
 	.align 2
 Cry_Ampharos_Mega::

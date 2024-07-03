@@ -2,7 +2,7 @@ raw `
 .set LOCALID_AIDE, 1
 .set LOCALID_BIRCH, 2
 .set LOCALID_RIVAL, 3
-.set LOCALID_BALL_DRATINI, 4
+.set LOCALID_BALL_AMONSUS, 4
 .set LOCALID_BALL_TOTODILE, 5
 .set LOCALID_BALL_AXEW, 6
 
@@ -91,12 +91,12 @@ LittlerootTown_ProfessorBirchsLab_EventScript_AddRivalObject:: @ 81F9D71
 	end
 
 LittlerootTown_ProfessorBirchsLab_EventScript_SetObjectPosForJohtoStarters:: @ 81F9D75
-	addobject LOCALID_BALL_DRATINI
+	addobject LOCALID_BALL_AMONSUS
 	addobject LOCALID_BALL_TOTODILE
 	addobject LOCALID_BALL_AXEW
 	addobject LOCALID_RIVAL
-	turnobject LOCALID_BALL_DRATINI, DIR_SOUTH
-	setobjectxy LOCALID_BALL_DRATINI, 8, 4
+	turnobject LOCALID_BALL_AMONSUS, DIR_SOUTH
+	setobjectxy LOCALID_BALL_AMONSUS, 8, 4
 	turnobject LOCALID_BALL_TOTODILE, DIR_SOUTH
 	setobjectxy LOCALID_BALL_TOTODILE, 9, 4
 	turnobject LOCALID_BALL_AXEW, DIR_SOUTH
@@ -308,45 +308,45 @@ LittlerootTown_ProfessorBirchsLab_EventScript_AlreadyChoseJohtoStarter:: @ 81FA0
 	releaseall
 	end
 
-LittlerootTown_ProfessorBirchsLab_EventScript_GiveDratini:: @ 81FA06C
-	bufferspeciesname 0, SPECIES_DRATINI
-	setvar VAR_TEMP_1, SPECIES_DRATINI
-	givemon SPECIES_DRATINI, 5, ITEM_NONE
+LittlerootTown_ProfessorBirchsLab_EventScript_GiveAmonsus:: @ 81FA06C
+	bufferspeciesname 0, SPECIES_AMONSUS
+	setvar VAR_TEMP_1, SPECIES_AMONSUS
+	givemon SPECIES_AMONSUS, 5, ITEM_NONE
 	compare VAR_RESULT, 0
-	goto_if_eq LittlerootTown_ProfessorBirchsLab_EventScript_SendDratiniToParty
+	goto_if_eq LittlerootTown_ProfessorBirchsLab_EventScript_SendAmonsusToParty
 	compare VAR_RESULT, 1
-	goto_if_eq LittlerootTown_ProfessorBirchsLab_EventScript_SendDratiniToPC
+	goto_if_eq LittlerootTown_ProfessorBirchsLab_EventScript_SendAmonsusToPC
 	hidemonpic
 	goto Common_EventScript_NoMoreRoomForPokemon
 	end
 
-LittlerootTown_ProfessorBirchsLab_EventScript_SendDratiniToParty:: @ 81FA0A1
+LittlerootTown_ProfessorBirchsLab_EventScript_SendAmonsusToParty:: @ 81FA0A1
 	call LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedJohtoStarter
-	removeobject LOCALID_BALL_DRATINI
+	removeobject LOCALID_BALL_AMONSUS
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
 	compare VAR_RESULT, NO
-	goto_if_eq LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedDratini
+	goto_if_eq LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedAmonsus
 	call Common_EventScript_GetGiftMonPartySlot
 	call Common_EventScript_NameReceivedPartyMon
-	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedDratini
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedAmonsus
 	end
 
-LittlerootTown_ProfessorBirchsLab_EventScript_SendDratiniToPC:: @ 81FA0CC
+LittlerootTown_ProfessorBirchsLab_EventScript_SendAmonsusToPC:: @ 81FA0CC
 	call LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedJohtoStarter
-	removeobject LOCALID_BALL_DRATINI
+	removeobject LOCALID_BALL_AMONSUS
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
 	compare VAR_RESULT, NO
-	goto_if_eq LittlerootTown_ProfessorBirchsLab_EventScript_DratiniTransferredToPC
+	goto_if_eq LittlerootTown_ProfessorBirchsLab_EventScript_AmonsusTransferredToPC
 	call Common_EventScript_NameReceivedBoxMon
-	goto LittlerootTown_ProfessorBirchsLab_EventScript_DratiniTransferredToPC
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_AmonsusTransferredToPC
 	end
 
-LittlerootTown_ProfessorBirchsLab_EventScript_DratiniTransferredToPC:: @ 81FA0F2
+LittlerootTown_ProfessorBirchsLab_EventScript_AmonsusTransferredToPC:: @ 81FA0F2
 	call Common_EventScript_TransferredToPC
-	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedDratini
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedAmonsus
 	end
 
-LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedDratini:: @ 81FA0FD
+LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedAmonsus:: @ 81FA0FD
 	hidemonpic
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting, MSGBOX_DEFAULT
 	setvar VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6
@@ -890,11 +890,11 @@ LittlerootTown_ProfessorBirchsLab_Text_CanHaveAnyOneOfRarePokemon: @ 81FB787
 	.string "de Pokémon raros de otra región!\p"
 	.string "¡Elige uno de los tres!$"
 
-LittlerootTown_ProfessorBirchsLab_Text_YoullTakeDratini: @ 81FB7F6
+LittlerootTown_ProfessorBirchsLab_Text_YoullTakeAmonsus: @ 81FB7F6
 	.string "Prof. Abedul: ¡Conque te has fijado\n"
-	.string "en el Pokémon Fuego Dratini!\p"
+	.string "en el Pokémon Fuego Amonsus!\p"
 	.string "¡Tan inteligente como siempre!\p"
-	.string "Entonces el Dratini, ¿no?$"
+	.string "Entonces el Amonsus, ¿no?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeGible: @ 81FB869
 	.string "Prof. Abedul: ¡Conque te has fijado\n"
@@ -1180,11 +1180,11 @@ LittlerootTown_ProfessorBirchsLab_Text_CanHaveAnyOneOfRarePokemon: @ 81FB787
 	.string "You can have any one of these\n"
 	.string "three Pokémon!$"
 
-LittlerootTown_ProfessorBirchsLab_Text_YoullTakeDratini: @ 81FB7F6
+LittlerootTown_ProfessorBirchsLab_Text_YoullTakeAmonsus: @ 81FB7F6
 	.string "Prof. Birch: The Fire Pokémon\n"
-	.string "Dratini caught your eye!\p"
+	.string "Amonsus caught your eye!\p"
 	.string "You're as sharp as ever!\p"
-	.string "So the Dratini is your choice?$"
+	.string "So the Amonsus is your choice?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeGible: @ 81FB869
 	.string "Prof. Birch: The Water Pokémon\n"
@@ -1380,23 +1380,23 @@ script LittlerootTown_ProfessorBirchsLab_EventScript_Axew{
 	end
 }
 
-script LittlerootTown_ProfessorBirchsLab_EventScript_Dratini{
+script LittlerootTown_ProfessorBirchsLab_EventScript_Amonsus{
 	if(var(VAR_DEX_UPGRADE_JOHTO_STARTER_STATE) == 6){
 		goto(LittlerootTown_ProfessorBirchsLab_EventScript_AlreadyChoseJohtoStarter)
 	}
 	applymovement(LOCALID_BIRCH, Common_Movement_WalkInPlaceFastestRight)
 	waitmovement(0)
-	showshinymonpic(SPECIES_DRATINI, 10, 3)
-	msgbox(format("Prof. Birch: The Dragon Pokémon Dratini is your choice! You sure know what you're doing. So, you'll take the Dratini?"), MSGBOX_YESNO)
+	showshinymonpic(SPECIES_AMONSUS, 10, 3)
+	msgbox(format("Prof. Birch: The Dragon Pokémon Amonsus is your choice! You sure know what you're doing. So, you'll take the Amonsus?"), MSGBOX_YESNO)
 	switch(var(VAR_RESULT)){
 		case YES:
-			bufferspeciesname(0, SPECIES_DRATINI)
-			setvar(VAR_TEMP_1, SPECIES_DRATINI)
-			givecustommon(SPECIES_DRATINI, 5, ITEM_SOOTHE_BELL, ITEM_CHERISH_BALL, NATURE_JOLLY, 2, 0, 0, 0, 0, 0, 0, 31, 31, 31, 31, 31, 31, MOVE_BARRIER, MOVE_DRAGON_RAGE, MOVE_WRAP, MOVE_LEER, TRUE)
+			bufferspeciesname(0, SPECIES_AMONSUS)
+			setvar(VAR_TEMP_1, SPECIES_AMONSUS)
+			givecustommon(SPECIES_AMONSUS, 5, ITEM_SOOTHE_BELL, ITEM_CHERISH_BALL, NATURE_JOLLY, 2, 0, 0, 0, 0, 0, 0, 31, 31, 31, 31, 31, 31, MOVE_BARRIER, MOVE_DRAGON_RAGE, MOVE_WRAP, MOVE_LEER, TRUE)
 			compare(VAR_RESULT, 0)
-			goto_if_eq(LittlerootTown_ProfessorBirchsLab_EventScript_SendDratiniToParty)
+			goto_if_eq(LittlerootTown_ProfessorBirchsLab_EventScript_SendAmonsusToParty)
 			compare(VAR_RESULT, 1)
-			goto_if_eq(LittlerootTown_ProfessorBirchsLab_EventScript_SendDratiniToPC)
+			goto_if_eq(LittlerootTown_ProfessorBirchsLab_EventScript_SendAmonsusToPC)
 			hidemonpic
 			goto(Common_EventScript_NoMoreRoomForPokemon)
 		break

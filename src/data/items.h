@@ -9564,34 +9564,34 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_MEWTWONITE_X] =
+    [ITEM_GODNITE_X] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Mewtwoita X"),
+        .name = _("Godita X"),
 #else
-        .name = _("Mewtwonite X"),
+        .name = _("Godnite X"),
 #endif
-        .itemId = ITEM_MEWTWONITE_X,
+        .itemId = ITEM_GODNITE_X,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sMewtwoniteDesc,
+        .description = sGodniteDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .secondaryId = 0,
     },
 
-    [ITEM_MEWTWONITE_Y] =
+    [ITEM_GODNITE_Y] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Mewtwoita Y"),
+        .name = _("Godita Y"),
 #else
-        .name = _("Mewtwonite Y"),
+        .name = _("Godnite Y"),
 #endif
-        .itemId = ITEM_MEWTWONITE_Y,
+        .itemId = ITEM_GODNITE_Y,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sMewtwoniteDesc,
+        .description = sGodniteDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -9734,17 +9734,17 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_AERODACTYLITE] =
+    [ITEM_USARMYITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Aerodactylita"),
+        .name = _("Usarmyita"),
 #else
-        .name = _("Aerodactylite"),
+        .name = _("Usarmyite"),
 #endif
-        .itemId = ITEM_AERODACTYLITE,
+        .itemId = ITEM_USARMYITE,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sAerodactyliteDesc,
+        .description = sUsarmyiteDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,

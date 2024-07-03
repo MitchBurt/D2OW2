@@ -349,7 +349,7 @@ const u32 gObjectEventPic_BallCushion[] = INCBIN_U32("graphics/object_events/pic
 const u32 gObjectEventPic_GrassCushion[] = INCBIN_U32("graphics/object_events/pics/cushions/grass_cushion.4bpp");
 const u32 gObjectEventPic_FireCushion[] = INCBIN_U32("graphics/object_events/pics/cushions/fire_cushion.4bpp");
 const u32 gObjectEventPic_WaterCushion[] = INCBIN_U32("graphics/object_events/pics/cushions/water_cushion.4bpp");
-const u32 gObjectEventPic_BigSnorlaxDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/big_snorlax_doll.4bpp");
+const u32 gObjectEventPic_BigShepeirdDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/big_shepeird_doll.4bpp");
 const u32 gObjectEventPic_BigYeesaurDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/big_yeesaur_doll.4bpp");
 const u32 gObjectEventPic_BigJebonyDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/big_jebony_doll.4bpp");
 const u32 gObjectEventPic_BigYggdraconDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/big_yggdracon_doll.4bpp");
@@ -496,22 +496,22 @@ const u16 gFieldEffectObjectPalette_CaveDust[] = INCBIN_U16("graphics/field_effe
 const u32 gObjectEventPic_Bonsly[] = INCBIN_U32("graphics/object_events/pics/pokemon/bonsly.4bpp");
 const u32 gObjectEventPic_Sudowoodo[] = INCBIN_U32("graphics/object_events/pics/pokemon/sudowoodo.4bpp");
 const u32 gObjectEventPic_Munchlax[] = INCBIN_U32("graphics/object_events/pics/pokemon/munchlax.4bpp");
-const u32 gObjectEventPic_Snorlax[] = INCBIN_U32("graphics/object_events/pics/pokemon/snorlax.4bpp");
+const u32 gObjectEventPic_Shepeird[] = INCBIN_U32("graphics/object_events/pics/pokemon/shepeird.4bpp");
 
 /*/Pokemon
 //025 - Skippa
 const u32 gObjectEventPic_Skippa[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/025.4bpp");
 const u16 gObjectEventPalette_Skippa[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/025.gbapal");
-//144 - Articuno
-const u32 gObjectEventPic_Articuno[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/144.4bpp");
-const u16 gObjectEventPalette_Articuno[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/144.gbapal");
-//145 - Zapdos
-const u32 gObjectEventPic_Zapdos[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/145.4bpp");
-const u16 gObjectEventPalette_Zapdos[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/145.gbapal");
-//146 - Moltres
-const u32 gObjectEventPic_Moltres[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/146.4bpp");
-const u16 gObjectEventPalette_Moltres[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/146.gbapal");
-//151 - Mew
+//144 - Legend
+const u32 gObjectEventPic_Legend[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/144.4bpp");
+const u16 gObjectEventPalette_Legend[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/144.gbapal");
+//145 - Zeruel
+const u32 gObjectEventPic_Zeruel[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/145.4bpp");
+const u16 gObjectEventPalette_Zeruel[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/145.gbapal");
+//146 - Remiel
+const u32 gObjectEventPic_Remiel[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/146.4bpp");
+const u16 gObjectEventPalette_Remiel[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/146.gbapal");
+//151 - Thevoid
 const u32 gObjectEventPic_Mew[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/151.4bpp");
 const u16 gObjectEventPalette_Mew[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/151.gbapal");
 //184 - Azumarill
