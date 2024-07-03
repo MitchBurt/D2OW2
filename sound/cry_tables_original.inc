@@ -1420,7 +1420,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Porygon  @ 869F584
 	cry2 Cry_Attaco  @ 869F590
 	cry2 Cry_Gaiser  @ 869F59C
-	cry2 Cry_Kabuto  @ 869F5A8
+	cry2 Cry_Corork  @ 869F5A8
 	cry2 Cry_Bigobeet  @ 869F5B4
 	cry2 Cry_Aerodactyl  @ 869F5C0
 	cry2 Cry_Snorlax  @ 869F5CC
