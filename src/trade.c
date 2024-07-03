@@ -5042,11 +5042,11 @@ u16 getWonderTradePokemonFormID(u16 species)
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_GRIMER:
+		case SPECIES_GUMMI:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_GRIMER,
-					SPECIES_GRIMER_ALOLAN,
+					SPECIES_GUMMI,
+					SPECIES_GUMMI_ALOLAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];

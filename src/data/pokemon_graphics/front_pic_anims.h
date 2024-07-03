@@ -1037,7 +1037,7 @@ static const union AnimCmd sAnim_TITENIC_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_GRIMER_1[] =
+static const union AnimCmd sAnim_GUMMI_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(1, 10),
@@ -1047,7 +1047,7 @@ static const union AnimCmd sAnim_GRIMER_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_GRIMER_2[] =
+static const union AnimCmd sAnim_GUMMI_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -8832,7 +8832,7 @@ static const union AnimCmd sAnim_LOSSILITH_ALOLAN_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_GRIMER_ALOLAN_1[] =
+static const union AnimCmd sAnim_GUMMI_ALOLAN_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
@@ -9590,10 +9590,10 @@ static const union AnimCmd *const sAnims_TITENIC[] ={
     sAnim_TITENIC_1,
 };
 
-static const union AnimCmd *const sAnims_GRIMER[] ={
+static const union AnimCmd *const sAnims_GUMMI[] ={
     sAnim_GeneralFrame0,
-    sAnim_GRIMER_1,
-    sAnim_GRIMER_2,
+    sAnim_GUMMI_1,
+    sAnim_GUMMI_2,
 };
 
 static const union AnimCmd *const sAnims_MUK[] ={
@@ -14204,9 +14204,9 @@ static const union AnimCmd *const sAnims_LOSSILITH_ALOLAN[] ={
     sAnim_LOSSILITH_ALOLAN_1,
 };
 
-static const union AnimCmd *const sAnims_GRIMER_ALOLAN[] ={
+static const union AnimCmd *const sAnims_GUMMI_ALOLAN[] ={
     sAnim_GeneralFrame0,
-    sAnim_GRIMER_ALOLAN_1,
+    sAnim_GUMMI_ALOLAN_1,
 };
 
 static const union AnimCmd *const sAnims_MUK_ALOLAN[] ={
@@ -14525,7 +14525,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(PARANGELIA),
     ANIM_CMD(DABBOI),
     ANIM_CMD(TITENIC),
-    ANIM_CMD(GRIMER),
+    ANIM_CMD(GUMMI),
     ANIM_CMD(MUK),
     ANIM_CMD(SHELLDER),
     ANIM_CMD(CLOYSTER),
@@ -15401,7 +15401,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(ROCK_ALOLAN),
     ANIM_CMD(TONCRETE_ALOLAN),
     ANIM_CMD(LOSSILITH_ALOLAN),
-    ANIM_CMD(GRIMER_ALOLAN),
+    ANIM_CMD(GUMMI_ALOLAN),
     ANIM_CMD(MUK_ALOLAN),
     ANIM_CMD(EXEGGUTOR_ALOLAN),
     ANIM_CMD(MAROWAK_ALOLAN),

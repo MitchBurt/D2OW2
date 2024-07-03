@@ -2093,7 +2093,7 @@ static const u8 sTitenicTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sGrimerTutorLearnset[] =
+static const u8 sGummiTutorLearnset[] =
 {
     TUTOR(MOVE_BODY_SLAM),
     TUTOR(MOVE_MIMIC),
@@ -18970,7 +18970,7 @@ static const u8 sLossilithAlolanTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sGrimerAlolanTutorLearnset[] =
+static const u8 sGummiAlolanTutorLearnset[] =
 {
     TUTOR(MOVE_ROCK_SLIDE),
     TUTOR(MOVE_SUBSTITUTE),
@@ -19809,7 +19809,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_PARANGELIA] = sParangeliaTutorLearnset,
     [SPECIES_DABBOI] = sDabboiTutorLearnset,
     [SPECIES_TITENIC] = sTitenicTutorLearnset,
-    [SPECIES_GRIMER] = sGrimerTutorLearnset,
+    [SPECIES_GUMMI] = sGummiTutorLearnset,
     [SPECIES_MUK] = sMukTutorLearnset,
     [SPECIES_SHELLDER] = sShellderTutorLearnset,
     [SPECIES_CLOYSTER] = sCloysterTutorLearnset,
@@ -20653,7 +20653,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_ROCK_ALOLAN] = sRockAlolanTutorLearnset,
     [SPECIES_TONCRETE_ALOLAN] = sToncreteAlolanTutorLearnset,
     [SPECIES_LOSSILITH_ALOLAN] = sLossilithAlolanTutorLearnset,
-    [SPECIES_GRIMER_ALOLAN] = sGrimerAlolanTutorLearnset,
+    [SPECIES_GUMMI_ALOLAN] = sGummiAlolanTutorLearnset,
     [SPECIES_MUK_ALOLAN] = sMukAlolanTutorLearnset,
     [SPECIES_EXEGGUTOR_ALOLAN] = sExeggutorAlolanTutorLearnset,
     [SPECIES_MAROWAK_ALOLAN] = sMarowakAlolanTutorLearnset,

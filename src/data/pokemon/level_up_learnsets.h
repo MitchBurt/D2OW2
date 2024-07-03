@@ -1778,7 +1778,7 @@ static const struct LevelUpMove sTitenicLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sGrimerLevelUpLearnset[] = {
+static const struct LevelUpMove sGummiLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 1, MOVE_POUND),
 	LEVEL_UP_MOVE( 1, MOVE_BOUNCE),
 	LEVEL_UP_MOVE( 4, MOVE_HARDEN),
@@ -20536,7 +20536,7 @@ static const struct LevelUpMove sLossilithAlolanLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sGrimerAlolanLevelUpLearnset[] = {
+static const struct LevelUpMove sGummiAlolanLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_POUND),
     LEVEL_UP_MOVE( 1, MOVE_POISON_GAS),
     LEVEL_UP_MOVE( 5, MOVE_HARDEN),

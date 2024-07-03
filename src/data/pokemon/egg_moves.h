@@ -576,7 +576,7 @@ const u16 gEggMoves[] = {
 		MOVE_BELCH,
 		MOVE_PECK),
 
-	egg_moves(GRIMER,
+	egg_moves(GUMMI,
 		MOVE_HAZE,
 		MOVE_LICK,
 		MOVE_CURSE,
@@ -4915,7 +4915,7 @@ const u16 gEggMoves[] = {
 		MOVE_WIDE_GUARD,
 		MOVE_AUTOTOMIZE),
 
-	egg_moves(GRIMER_ALOLAN,
+	egg_moves(GUMMI_ALOLAN,
 		MOVE_CURSE,
 		MOVE_SPITE,
 		MOVE_SCARY_FACE,

@@ -524,9 +524,9 @@ const u8 gTitenicPokedexText[] = _(
     "lo vio dormido sobre un glaciar\n"
     "lo confundió con una sirena.");
 
-const u8 gGrimerPokedexText[] = _(
+const u8 gGummiPokedexText[] = _(
     "Nacido del lodo contaminado del mar,\n"
-    "el alimento preferido de Grimer es la\n"
+    "el alimento preferido de Gummi es la\n"
     "basura. Se alimenta de lo que encuentra\n"
     "en las aguas residuales de las fábricas.");
 
@@ -5881,9 +5881,9 @@ const u8 gTitenicPokedexText[] = _(
     "a glacier was mistakenly thought to be\n"
     "a mermaid by a mariner long ago.");
 
-const u8 gGrimerPokedexText[] = _(
+const u8 gGummiPokedexText[] = _(
     "Born from polluted sludge in the sea,\n"
-    "Grimer's favorite food is anything filthy.\n"
+    "Gummi's favorite food is anything filthy.\n"
     "They feed on wastewater pumped out from\n"
     "factories.");
 

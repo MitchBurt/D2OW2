@@ -2466,7 +2466,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_GRIMER] =
+    [SPECIES_GUMMI] =
     {
         .baseHP        = 80,
         .baseAttack    = 80,
@@ -27100,7 +27100,7 @@ const struct BaseStats gBaseStats[] =
         .flags = F_ALOLAN_FORM,
     },
 
-    [SPECIES_GRIMER_ALOLAN] =
+    [SPECIES_GUMMI_ALOLAN] =
     {
         .baseHP        = 80,
         .baseAttack    = 80,
@@ -36607,7 +36607,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_GRIMER] =
+    [SPECIES_GUMMI] =
     {
         .baseHP        = 80,
         .baseAttack    = 80,
@@ -61527,7 +61527,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .flags = F_ALOLAN_FORM,
     },
 
-    [SPECIES_GRIMER_ALOLAN] =
+    [SPECIES_GUMMI_ALOLAN] =
     {
         .baseHP        = 80,
         .baseAttack    = 80,

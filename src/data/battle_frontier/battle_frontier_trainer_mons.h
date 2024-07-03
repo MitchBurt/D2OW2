@@ -138,7 +138,7 @@
     FRONTIER_MON_MEADOSAUR,      \
     FRONTIER_MON_BONGSTARD,         \
     FRONTIER_MON_NATU,           \
-    FRONTIER_MON_GRIMER,         \
+    FRONTIER_MON_GUMMI,         \
     FRONTIER_MON_EXEGGCUTE,      \
     FRONTIER_MON_DROWZEE,        \
     FRONTIER_MON_HOUNDOUR,       \
@@ -154,7 +154,7 @@
 
 // Also used by early Pkmn Breeder, Collector, and Beauty trainers
 #define FRONTIER_MONS_CAMPER_PICNICKER_1 \
-    FRONTIER_MON_GRIMER,        \
+    FRONTIER_MON_GUMMI,        \
     FRONTIER_MON_KRABBY,        \
     FRONTIER_MON_EXEGGCUTE,     \
     FRONTIER_MON_EEVEE,         \
@@ -515,7 +515,7 @@
     FRONTIER_MON_MEADOSAUR,     \
     FRONTIER_MON_BONGSTARD,        \
     FRONTIER_MON_NATU,          \
-    FRONTIER_MON_GRIMER,        \
+    FRONTIER_MON_GUMMI,        \
     FRONTIER_MON_EXEGGCUTE,     \
     FRONTIER_MON_DROWZEE,       \
     FRONTIER_MON_SPOINK,        \

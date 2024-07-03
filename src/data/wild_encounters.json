@@ -3460,7 +3460,7 @@
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_GRIMER"
+                "species": "SPECIES_GUMMI"
               },
               {
                 "min_level": 15,
@@ -3515,7 +3515,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_GRIMER_ALOLAN"
+                "species": "SPECIES_GUMMI_ALOLAN"
               },
               {
                 "min_level": 5,
@@ -16255,7 +16255,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_GRIMER_ALOLAN"
+                "species": "SPECIES_GUMMI_ALOLAN"
               },
               {
                 "min_level": 5,
@@ -16443,7 +16443,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_GRIMER_ALOLAN"
+                "species": "SPECIES_GUMMI_ALOLAN"
               },
               {
                 "min_level": 5,

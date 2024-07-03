@@ -351,7 +351,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntMuseum1[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_GRIMER,
+    .species = SPECIES_GUMMI,
     .formId = 1,
     }
 };
@@ -556,7 +556,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_ShellyWeatherInstitute[]
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_GRIMER,
+    .species = SPECIES_GUMMI,
     .formId = 1,
     },
     {
@@ -608,7 +608,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_ShellySeafloorCavern[] =
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_GRIMER,
+    .species = SPECIES_GUMMI,
     .formId = 1,
     },
     {

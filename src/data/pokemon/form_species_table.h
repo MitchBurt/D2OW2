@@ -145,9 +145,9 @@ static const u16 sShemueFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sGrimerFormSpeciesIdTable[] = {
-    SPECIES_GRIMER,
-    SPECIES_GRIMER_ALOLAN,
+static const u16 sGummiFormSpeciesIdTable[] = {
+    SPECIES_GUMMI,
+    SPECIES_GUMMI_ALOLAN,
     0xFFFF,
 };
 

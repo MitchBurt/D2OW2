@@ -2120,7 +2120,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_YGGDRACON:
 				case SPECIES_HITMONCHAN:
 				case SPECIES_MUK:
-				case SPECIES_GRIMER:
+				case SPECIES_GUMMI:
 				case SPECIES_BRONZONG:
 				case SPECIES_CRUSTLE:
 				case SPECIES_HYDREIGON:

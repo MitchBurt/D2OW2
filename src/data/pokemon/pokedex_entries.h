@@ -1057,12 +1057,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_GRIMER] =
+    [NATIONAL_DEX_GUMMI] =
     {
         .categoryName = _("Lodo"),
         .height = 9,
         .weight = 300,
-        .description = gGrimerPokedexText,
+        .description = gGummiPokedexText,
         .pokemonScale = 258,
         .pokemonOffset = 10,
         .trainerScale = 256,
@@ -11847,12 +11847,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_GRIMER] =
+    [NATIONAL_DEX_GUMMI] =
     {
         .categoryName = _("Sludge"),
         .height = 9,
         .weight = 300,
-        .description = gGrimerPokedexText,
+        .description = gGummiPokedexText,
         .pokemonScale = 258,
         .pokemonOffset = 10,
         .trainerScale = 256,

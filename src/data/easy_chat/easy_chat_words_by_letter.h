@@ -632,8 +632,8 @@ const u16 gEasyChatWordsByLetter_G[] = {
     EC_WORD_GREAT,
     EC_WORD_GREEN,
     -1, 2, // Doubled pokemon species name
-    EC_POKEMON(GRIMER),
-    EC_POKEMON2(GRIMER),
+    EC_POKEMON(GUMMI),
+    EC_POKEMON2(GUMMI),
     EC_POKEMON(GROUDON),
     EC_WORD_GROUND,
     EC_WORD_GROUP,
@@ -2098,8 +2098,8 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseHe[] = {
     EC_WORD_LOUSY,
     EC_WORD_HEHEHE,
     -1, 2, // Doubled pokemon species name
-    EC_POKEMON2(GRIMER),
-    EC_POKEMON(GRIMER),
+    EC_POKEMON2(GUMMI),
+    EC_POKEMON(GUMMI),
     -1, 2, // Doubled pokemon species name
     EC_POKEMON2(MUK),
     EC_POKEMON(MUK),

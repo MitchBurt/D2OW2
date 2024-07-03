@@ -880,7 +880,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_BOLD,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_GRIMER] = {
+    [FRONTIER_MON_GUMMI] = {
         .species = SPECIES_HITMONTOP,
         .moves = {MOVE_CLOSE_COMBAT, MOVE_RAPID_SPIN, MOVE_U_TURN, MOVE_FORESIGHT    },
         .itemTableId = BATTLE_FRONTIER_ITEM_LEFTOVERS,

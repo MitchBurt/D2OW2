@@ -3557,7 +3557,7 @@ static const u8 sTitenicTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sGrimerTMHMLearnset[] =
+static const u8 sGummiTMHMLearnset[] =
 {
     TMHM(TM06_TOXIC),
     TMHM(TM10_HIDDEN_POWER),
@@ -35121,7 +35121,7 @@ static const u8 sLossilithAlolanTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sGrimerAlolanTMHMLearnset[] =
+static const u8 sGummiAlolanTMHMLearnset[] =
 {
     TMHM(TM06_TOXIC),
     TMHM(TM10_HIDDEN_POWER),
@@ -36162,7 +36162,7 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_PARANGELIA] = sParangeliaTMHMLearnset,
     [SPECIES_DABBOI] = sDabboiTMHMLearnset,
     [SPECIES_TITENIC] = sTitenicTMHMLearnset,
-    [SPECIES_GRIMER] = sGrimerTMHMLearnset,
+    [SPECIES_GUMMI] = sGummiTMHMLearnset,
     [SPECIES_MUK] = sMukTMHMLearnset,
     [SPECIES_SHELLDER] = sShellderTMHMLearnset,
     [SPECIES_CLOYSTER] = sCloysterTMHMLearnset,
@@ -37027,7 +37027,7 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_ROCK_ALOLAN] = sRockAlolanTMHMLearnset,
     [SPECIES_TONCRETE_ALOLAN] = sToncreteAlolanTMHMLearnset,
     [SPECIES_LOSSILITH_ALOLAN] = sLossilithAlolanTMHMLearnset,
-    [SPECIES_GRIMER_ALOLAN] = sGrimerAlolanTMHMLearnset,
+    [SPECIES_GUMMI_ALOLAN] = sGummiAlolanTMHMLearnset,
     [SPECIES_MUK_ALOLAN] = sMukAlolanTMHMLearnset,
     [SPECIES_EXEGGUTOR_ALOLAN] = sExeggutorAlolanTMHMLearnset,
     [SPECIES_MAROWAK_ALOLAN] = sMarowakAlolanTMHMLearnset,
