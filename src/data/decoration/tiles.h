@@ -606,8 +606,8 @@ const u16 DecorGfx_SNORLAX_DOLL[] = {
     OBJ_EVENT_GFX_BIG_SNORLAX_DOLL
 };
 
-const u16 DecorGfx_RHYDON_DOLL[] = {
-    OBJ_EVENT_GFX_BIG_RHYDON_DOLL
+const u16 DecorGfx_YEESAUR_DOLL[] = {
+    OBJ_EVENT_GFX_BIG_YEESAUR_DOLL
 };
 
 const u16 DecorGfx_LAPRAS_DOLL[] = {

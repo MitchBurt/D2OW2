@@ -792,8 +792,8 @@
 #define HG_SEQ_ME_WAZA                769 // Received a TM!
 #define HG_SEQ_GS_GAME                770 // Goldenrod Game Corner
 #define HG_SEQ_GS_GAMEATARI           771 // You're a Winner!
-#define HG_SEQ_ME_CARDGAME1           772 // Voltorb Flip: Is this what you're expecting?!
-#define HG_SEQ_ME_CARDGAME2           773 // Voltorb Flip: Game Over
+#define HG_SEQ_ME_CARDGAME1           772 // Creepa Flip: Is this what you're expecting?!
+#define HG_SEQ_ME_CARDGAME2           773 // Creepa Flip: Game Over
 #define HG_SEQ_ME_ACCE                774 // Obtained an Accessory
 #define HG_SEQ_GS_WIFITOWER           775 // Global Terminal
 #define HG_SEQ_GS_BLD_GTC             776 // GTS

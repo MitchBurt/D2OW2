@@ -508,7 +508,7 @@ const u8 DecorDesc_SNORLAX_DOLL[] = _(
         "Ponlo en una mesa\n"
         "o tapete.");
 
-const u8 DecorDesc_RHYDON_DOLL[] = _(
+const u8 DecorDesc_YEESAUR_DOLL[] = _(
     "Muñeco grande.\n"
         "Ponlo en una mesa\n"
         "o tapete.");
@@ -1084,7 +1084,7 @@ const u8 DecorDesc_SNORLAX_DOLL[] = _(
         "Place it on a mat\n"
         "or a desk.");
 
-const u8 DecorDesc_RHYDON_DOLL[] = _(
+const u8 DecorDesc_YEESAUR_DOLL[] = _(
     "A large doll.\n"
         "Place it on a mat\n"
         "or a desk.");
