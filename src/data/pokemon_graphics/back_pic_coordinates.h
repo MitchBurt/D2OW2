@@ -3025,7 +3025,7 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x78,
         .y_offset = 4,
     },
-    [SPECIES_ELEKTROSS] =
+    [SPECIES_EELEKTROSS] =
     {
         .size = 0x88,
         .y_offset = 0,

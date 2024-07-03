@@ -13622,7 +13622,7 @@ static const struct LevelUpMove dabboiektrikLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sElektrossLevelUpLearnset[] = {
+static const struct LevelUpMove sEelektrossLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 0, MOVE_THUNDER_FANG),
 	LEVEL_UP_MOVE( 1, MOVE_BITE),
 	LEVEL_UP_MOVE( 1, MOVE_THUNDER_FANG),

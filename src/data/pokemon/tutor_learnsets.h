@@ -13647,7 +13647,7 @@ static const u8 dabboiektrikTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sElektrossTutorLearnset[] =
+static const u8 sEelektrossTutorLearnset[] =
 {
     TUTOR(MOVE_THUNDER_WAVE),
     TUTOR(MOVE_ROCK_SLIDE),
@@ -20325,7 +20325,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_KLINKLANG] = sKlinklangTutorLearnset,
     [SPECIES_TYNAMO] = sTynamoTutorLearnset,
     [SPECIES_EELEKTRIK] = dabboiektrikTutorLearnset,
-    [SPECIES_ELEKTROSS] = sElektrossTutorLearnset,
+    [SPECIES_EELEKTROSS] = sEelektrossTutorLearnset,
     [SPECIES_ELGYEM] = sElgyemTutorLearnset,
     [SPECIES_BEHEEYEM] = sBeheeyemTutorLearnset,
     [SPECIES_LITWICK] = sLitwickTutorLearnset,

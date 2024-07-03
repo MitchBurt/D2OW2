@@ -608,7 +608,7 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Klinklang
 	cry_not Cry_Tynamo
 	cry_not Cry_Eelektrik
-	cry_not Cry_Elektross
+	cry_not Cry_Eelektross
 	cry_not Cry_Elgyem
 	cry_not Cry_Beheeyem
 	cry_not Cry_Litwick
@@ -1886,7 +1886,7 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Klinklang
 	cry2_not Cry_Tynamo
 	cry2_not Cry_Eelektrik
-	cry2_not Cry_Elektross
+	cry2_not Cry_Eelektross
 	cry2_not Cry_Elgyem
 	cry2_not Cry_Beheeyem
 	cry2_not Cry_Litwick

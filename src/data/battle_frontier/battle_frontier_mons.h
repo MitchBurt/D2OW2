@@ -673,7 +673,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .abilitynum = ABILITY_RANDOM
     },
     [FRONTIER_MON_SMOOCHUM] = {
-        .species = SPECIES_ELEKTROSS,
+        .species = SPECIES_EELEKTROSS,
         .moves = {MOVE_COIL, MOVE_WILD_CHARGE, MOVE_FIRE_PUNCH, MOVE_AQUA_TAIL    },
         .itemTableId = BATTLE_FRONTIER_ITEM_SHELL_BELL,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_DEFENSE,

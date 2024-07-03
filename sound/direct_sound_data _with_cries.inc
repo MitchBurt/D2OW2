@@ -2799,8 +2799,8 @@ Cry_Eelektrik::
 	.incbin "sound/direct_sound_samples/cries/cry_not_eelektrik.bin"
 
 	.align 2
-Cry_Elektross::
-	.incbin "sound/direct_sound_samples/cries/cry_not_elektross.bin"
+Cry_Eelektross::
+	.incbin "sound/direct_sound_samples/cries/cry_not_eelektross.bin"
 
 	.align 2
 Cry_Elgyem::

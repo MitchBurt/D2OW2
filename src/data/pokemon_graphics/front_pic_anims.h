@@ -6598,7 +6598,7 @@ static const union AnimCmd sAnim_EELEKTRIK_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_ELEKTROSS_1[] =
+static const union AnimCmd sAnim_EELEKTROSS_1[] =
 {
     ANIMCMD_FRAME(0, 30),
     ANIMCMD_FRAME(1, 30),
@@ -12409,9 +12409,9 @@ static const union AnimCmd *const sAnims_EELEKTRIK[] ={
     sAnim_EELEKTRIK_1,
 };
 
-static const union AnimCmd *const sAnims_ELEKTROSS[] ={
+static const union AnimCmd *const sAnims_EELEKTROSS[] ={
     sAnim_GeneralFrame0,
-    sAnim_ELEKTROSS_1,
+    sAnim_EELEKTROSS_1,
 };
 
 static const union AnimCmd *const sAnims_ELGYEM[] ={
@@ -15042,7 +15042,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(KLINKLANG),
     ANIM_CMD(TYNAMO),
     ANIM_CMD(EELEKTRIK),
-    ANIM_CMD(ELEKTROSS),
+    ANIM_CMD(EELEKTROSS),
     ANIM_CMD(ELGYEM),
     ANIM_CMD(BEHEEYEM),
     ANIM_CMD(LITWICK),

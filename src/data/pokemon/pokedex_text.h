@@ -3621,7 +3621,7 @@ const u8 gEelektrikPokedexText[] = _(
     "paralyzes it with electricity from the\n"
     "round spots on its sides. Then it chomps.");
 
-const u8 gElektrossPokedexText[] = _(
+const u8 gEelektrossPokedexText[] = _(
     "They crawl out of the ocean using their\n"
     "arms. They will attack prey on shore and\n"
     "immediately drag it into the ocean, with\n"
@@ -8981,7 +8981,7 @@ const u8 gEelektrikPokedexText[] = _(
     "paralyzes it with electricity from the\n"
     "round spots on its sides. Then it chomps.");
 
-const u8 gElektrossPokedexText[] = _(
+const u8 gEelektrossPokedexText[] = _(
     "They crawl out of the ocean using their\n"
     "arms. They will attack prey on shore and\n"
     "immediately drag it into the ocean, with\n"

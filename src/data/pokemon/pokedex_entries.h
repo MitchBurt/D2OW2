@@ -7249,12 +7249,12 @@ const struct PokedexEntry gPokedexEntries[] =
 		.trainerOffset = 0,
 	},
 
-	[NATIONAL_DEX_ELEKTROSS] =
+	[NATIONAL_DEX_EELEKTROSS] =
 	{
 		.categoryName = _("EleFish"),
 		.height = 21,
 		.weight = 805,
-		.description = gElektrossPokedexText,
+		.description = gEelektrossPokedexText,
 		.pokemonScale = 356,
 		.pokemonOffset = 17,
 		.trainerScale = 256,
@@ -18039,12 +18039,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ELEKTROSS] =
+    [NATIONAL_DEX_EELEKTROSS] =
     {
         .categoryName = _("EleFish"),
         .height = 21,
         .weight = 805,
-        .description = gElektrossPokedexText,
+        .description = gEelektrossPokedexText,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,

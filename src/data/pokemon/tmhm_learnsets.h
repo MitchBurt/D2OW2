@@ -24267,7 +24267,7 @@ static const u8 dabboiektrikTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sElektrossTMHMLearnset[] =
+static const u8 sEelektrossTMHMLearnset[] =
 {
     TMHM(TM01_FOCUS_PUNCH),
     TMHM(TM02_DRAGON_CLAW),
@@ -36687,7 +36687,7 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_KLINKLANG] = sKlinklangTMHMLearnset,
     [SPECIES_TYNAMO] = sTynamoTMHMLearnset,
     [SPECIES_EELEKTRIK] = dabboiektrikTMHMLearnset,
-    [SPECIES_ELEKTROSS] = sElektrossTMHMLearnset,
+    [SPECIES_EELEKTROSS] = sEelektrossTMHMLearnset,
     [SPECIES_ELGYEM] = sElgyemTMHMLearnset,
     [SPECIES_BEHEEYEM] = sBeheeyemTMHMLearnset,
     [SPECIES_LITWICK] = sLitwickTMHMLearnset,

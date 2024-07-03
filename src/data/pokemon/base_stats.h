@@ -16987,7 +16987,7 @@ const struct BaseStats gBaseStats[] =
 		.flags = F_GROUND_INMUNITY,
     },
 
-    [SPECIES_ELEKTROSS] =
+    [SPECIES_EELEKTROSS] =
     {
         .baseHP        = 85,
         .baseAttack    = 115,
@@ -51274,7 +51274,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_ELEKTROSS] =
+    [SPECIES_EELEKTROSS] =
     {
         .baseHP        = 85,
         .baseAttack    = 115,
