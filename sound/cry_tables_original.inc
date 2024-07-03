@@ -109,28 +109,28 @@ gCryTable:: @ 869DCF4
 	cry Cry_Replitor  @ 869E1E0
 	cry Cry_Biremic  @ 869E1EC
 	cry Cry_Lickitung  @ 869E1F8
-	cry Cry_Koffing  @ 869E204
+	cry Cry_Fennaf  @ 869E204
 	cry Cry_Weezing  @ 869E210
-	cry Cry_Rhyhorn  @ 869E21C
-	cry Cry_Rhydon  @ 869E228
-	cry Cry_Chansey  @ 869E234
-	cry Cry_Tangela  @ 869E240
-	cry Cry_Kangaskhan  @ 869E24C
-	cry Cry_Horsea  @ 869E258
-	cry Cry_Seadra  @ 869E264
-	cry Cry_Goldeen  @ 869E270
-	cry Cry_Seaking  @ 869E27C
-	cry Cry_Staryu  @ 869E288
-	cry Cry_Starmie  @ 869E294
-	cry Cry_MrMime  @ 869E2A0
-	cry Cry_Scyther  @ 869E2AC
-	cry Cry_Jynx  @ 869E2B8
-	cry Cry_Electabuzz  @ 869E2C4
-	cry Cry_Magmar  @ 869E2D0
-	cry Cry_Pinsir  @ 869E2DC
-	cry Cry_Tauros  @ 869E2E8
-	cry Cry_Magikarp  @ 869E2F4
-	cry Cry_Gyarados  @ 869E300
+	cry Cry_Potogreed  @ 869E21C
+	cry Cry_Yeesaur  @ 869E228
+	cry Cry_Unjoy  @ 869E234
+	cry Cry_Bananace  @ 869E240
+	cry Cry_Trololo  @ 869E24C
+	cry Cry_Jank  @ 869E258
+	cry Cry_Swampogre  @ 869E264
+	cry Cry_Cighted  @ 869E270
+	cry Cry_Mongelord  @ 869E27C
+	cry Cry_Burik  @ 869E288
+	cry Cry_Bicyelion  @ 869E294
+	cry Cry_Alien  @ 869E2A0
+	cry Cry_Chuxkush  @ 869E2AC
+	cry Cry_Repsac  @ 869E2B8
+	cry Cry_Krafpunk  @ 869E2C4
+	cry Cry_Endmysuff  @ 869E2D0
+	cry Cry_Itrimid  @ 869E2DC
+	cry Cry_Grox  @ 869E2E8
+	cry Cry_Nushake  @ 869E2F4
+	cry Cry_Kroller  @ 869E300
 	cry Cry_Lapras  @ 869E30C
 	cry Cry_Ditto  @ 869E318
 	cry Cry_Eevee  @ 869E324
@@ -915,9 +915,9 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Kuklops_Mega
 	cry_not Cry_Shemue_Mega
 	cry_not Cry_Sans_Mega
-	cry_not Cry_Kangaskhan_Mega
-	cry_not Cry_Pinsir_Mega
-	cry_not Cry_Gyarados_Mega
+	cry_not Cry_Trololo_Mega
+	cry_not Cry_Itrimid_Mega
+	cry_not Cry_Kroller_Mega
 	cry_not Cry_Aerodactyl_Mega
 	cry_not Cry_Mewtwo_Mega_X
 	cry_not Cry_Mewtwo_Mega_Y
@@ -984,7 +984,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Shemue
 	cry Cry_Impostown
 	cry Cry_Weezing
-	cry Cry_MrMime
+	cry Cry_Alien
 	cry Cry_Articuno
 	cry Cry_Zapdos
 	cry Cry_Moltres
@@ -1389,28 +1389,28 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Replitor  @ 869F410
 	cry2 Cry_Biremic  @ 869F41C
 	cry2 Cry_Lickitung  @ 869F428
-	cry2 Cry_Koffing  @ 869F434
+	cry2 Cry_Fennaf  @ 869F434
 	cry2 Cry_Weezing  @ 869F440
-	cry2 Cry_Rhyhorn  @ 869F44C
-	cry2 Cry_Rhydon  @ 869F458
-	cry2 Cry_Chansey  @ 869F464
-	cry2 Cry_Tangela  @ 869F470
-	cry2 Cry_Kangaskhan  @ 869F47C
-	cry2 Cry_Horsea  @ 869F488
-	cry2 Cry_Seadra  @ 869F494
-	cry2 Cry_Goldeen  @ 869F4A0
-	cry2 Cry_Seaking  @ 869F4AC
-	cry2 Cry_Staryu  @ 869F4B8
-	cry2 Cry_Starmie  @ 869F4C4
-	cry2 Cry_MrMime  @ 869F4D0
-	cry2 Cry_Scyther  @ 869F4DC
-	cry2 Cry_Jynx  @ 869F4E8
-	cry2 Cry_Electabuzz  @ 869F4F4
-	cry2 Cry_Magmar  @ 869F500
-	cry2 Cry_Pinsir  @ 869F50C
-	cry2 Cry_Tauros  @ 869F518
-	cry2 Cry_Magikarp  @ 869F524
-	cry2 Cry_Gyarados  @ 869F530
+	cry2 Cry_Potogreed  @ 869F44C
+	cry2 Cry_Yeesaur  @ 869F458
+	cry2 Cry_Unjoy  @ 869F464
+	cry2 Cry_Bananace  @ 869F470
+	cry2 Cry_Trololo  @ 869F47C
+	cry2 Cry_Jank  @ 869F488
+	cry2 Cry_Swampogre  @ 869F494
+	cry2 Cry_Cighted  @ 869F4A0
+	cry2 Cry_Mongelord  @ 869F4AC
+	cry2 Cry_Burik  @ 869F4B8
+	cry2 Cry_Bicyelion  @ 869F4C4
+	cry2 Cry_Alien  @ 869F4D0
+	cry2 Cry_Chuxkush  @ 869F4DC
+	cry2 Cry_Repsac  @ 869F4E8
+	cry2 Cry_Krafpunk  @ 869F4F4
+	cry2 Cry_Endmysuff  @ 869F500
+	cry2 Cry_Itrimid  @ 869F50C
+	cry2 Cry_Grox  @ 869F518
+	cry2 Cry_Nushake  @ 869F524
+	cry2 Cry_Kroller  @ 869F530
 	cry2 Cry_Lapras  @ 869F53C
 	cry2 Cry_Ditto  @ 869F548
 	cry2 Cry_Eevee  @ 869F554
@@ -2193,9 +2193,9 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Kuklops_Mega
 	cry2_not Cry_Shemue_Mega
 	cry2_not Cry_Sans_Mega
-	cry2_not Cry_Kangaskhan_Mega
-	cry2_not Cry_Pinsir_Mega
-	cry2_not Cry_Gyarados_Mega
+	cry2_not Cry_Trololo_Mega
+	cry2_not Cry_Itrimid_Mega
+	cry2_not Cry_Kroller_Mega
 	cry2_not Cry_Aerodactyl_Mega
 	cry2_not Cry_Mewtwo_Mega_X
 	cry2_not Cry_Mewtwo_Mega_Y
@@ -2262,7 +2262,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Shemue
 	cry2 Cry_Impostown
 	cry2 Cry_Weezing
-	cry2 Cry_MrMime
+	cry2 Cry_Alien
 	cry2 Cry_Articuno
 	cry2 Cry_Zapdos
 	cry2 Cry_Moltres

@@ -1195,7 +1195,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_ASHTON] = {
-        .species = SPECIES_GOLDEEN,
+        .species = SPECIES_CIGHTED,
         .nickname = _("Golden"),
         .trainerName = _("Ashton"),
         .trainerGfxId = OBJ_EVENT_GFX_MAN_3,
@@ -1727,7 +1727,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_SAUL] = {
-        .species = SPECIES_SEAKING,
+        .species = SPECIES_MONGELORD,
         .nickname = _("Kingsea"),
         .trainerName = _("Saul"),
         .trainerGfxId = OBJ_EVENT_GFX_CAMPER,
@@ -1895,7 +1895,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_NOEL] = {
-        .species = SPECIES_MAGIKARP,
+        .species = SPECIES_NUSHAKE,
         .nickname = _("Karpag"),
         .trainerName = _("Noel"),
         .trainerGfxId = OBJ_EVENT_GFX_YOUNGSTER,
@@ -2091,7 +2091,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_KIARA] = {
-        .species = SPECIES_KANGASKHAN,
+        .species = SPECIES_TROLOLO,
         .nickname = _("Khankan"),
         .trainerName = _("Kiara"),
         .trainerGfxId = OBJ_EVENT_GFX_GIRL_3,
@@ -2231,7 +2231,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_JUSTINA] = {
-        .species = SPECIES_GYARADOS,
+        .species = SPECIES_KROLLER,
         .nickname = _("Rados"),
         .trainerName = _("Justina"),
         .trainerGfxId = OBJ_EVENT_GFX_PICNICKER,
@@ -2763,7 +2763,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_PERLA] = {
-        .species = SPECIES_JYNX,
+        .species = SPECIES_REPSAC,
         .nickname = _("Nyx"),
         .trainerName = _("Perla"),
         .trainerGfxId = OBJ_EVENT_GFX_BEAUTY,

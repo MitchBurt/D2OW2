@@ -1318,8 +1318,8 @@ const u32 gItemIconPalette_Tyranitarite[] = INCBIN_U32("graphics/items/icon_pale
 const u32 gItemIcon_Scizorite[] = INCBIN_U32("graphics/items/icons/scizorite.4bpp.lz");
 const u32 gItemIconPalette_Scizorite[] = INCBIN_U32("graphics/items/icon_palettes/scizorite.gbapal.lz");
 
-const u32 gItemIcon_Pinsirite[] = INCBIN_U32("graphics/items/icons/pinsirite.4bpp.lz");
-const u32 gItemIconPalette_Pinsirite[] = INCBIN_U32("graphics/items/icon_palettes/pinsirite.gbapal.lz");
+const u32 gItemIcon_Itrimidite[] = INCBIN_U32("graphics/items/icons/itrimidite.4bpp.lz");
+const u32 gItemIconPalette_Itrimidite[] = INCBIN_U32("graphics/items/icon_palettes/itrimidite.gbapal.lz");
 
 const u32 gItemIcon_Aerodactylite[] = INCBIN_U32("graphics/items/icons/aerodactylite.4bpp.lz");
 const u32 gItemIconPalette_Aerodactylite[] = INCBIN_U32("graphics/items/icon_palettes/aerodactylite.gbapal.lz");
@@ -1330,11 +1330,11 @@ const u32 gItemIconPalette_Lucarionite[] = INCBIN_U32("graphics/items/icon_palet
 const u32 gItemIcon_Abomasite[] = INCBIN_U32("graphics/items/icons/abomasite.4bpp.lz");
 const u32 gItemIconPalette_Abomasite[] = INCBIN_U32("graphics/items/icon_palettes/abomasite.gbapal.lz");
 
-const u32 gItemIcon_Kangaskhanite[] = INCBIN_U32("graphics/items/icons/kangaskhanite.4bpp.lz");
-const u32 gItemIconPalette_Kangaskhanite[] = INCBIN_U32("graphics/items/icon_palettes/kangaskhanite.gbapal.lz");
+const u32 gItemIcon_Trololoite[] = INCBIN_U32("graphics/items/icons/trololoite.4bpp.lz");
+const u32 gItemIconPalette_Trololoite[] = INCBIN_U32("graphics/items/icon_palettes/trololoite.gbapal.lz");
 
-const u32 gItemIcon_Gyaradosite[] = INCBIN_U32("graphics/items/icons/gyaradosite.4bpp.lz");
-const u32 gItemIconPalette_Gyaradosite[] = INCBIN_U32("graphics/items/icon_palettes/gyaradosite.gbapal.lz");
+const u32 gItemIcon_Krollerite[] = INCBIN_U32("graphics/items/icons/krollerite.4bpp.lz");
+const u32 gItemIconPalette_Krollerite[] = INCBIN_U32("graphics/items/icon_palettes/krollerite.gbapal.lz");
 
 const u32 gItemIcon_Absolite[] = INCBIN_U32("graphics/items/icons/absolite.4bpp.lz");
 const u32 gItemIconPalette_Absolite[] = INCBIN_U32("graphics/items/icon_palettes/absolite.gbapal.lz");

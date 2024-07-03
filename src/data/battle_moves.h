@@ -11759,7 +11759,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_KOFFING] =
+    [SPECIES_FENNAF] =
     {
         .move = MOVE_SMOG,
         .modification = SIGNATURE_MOD_EFFECT_CHANCE,
@@ -11808,7 +11808,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_GYARADOS] =
+    [SPECIES_KROLLER] =
     {
         .move = MOVE_THRASH,
         .modification = SIGNATURE_MOD_TYPE,
@@ -11816,7 +11816,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_GYARADOS_MEGA] =
+    [SPECIES_KROLLER_MEGA] =
     {
         .move = MOVE_THRASH,
         .modification = SIGNATURE_MOD_TYPE,

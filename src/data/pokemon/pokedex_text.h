@@ -650,8 +650,8 @@ const u8 gLickitungPokedexText[] = _(
     "Así memoriza las cosas: por la textura\n"
     "y el sabor. No soporta los sabores ácidos.");
 
-const u8 gKoffingPokedexText[] = _(
-    "Ver de cerca a un Koffing permite\n"
+const u8 gFennafPokedexText[] = _(
+    "Ver de cerca a un Fennaf permite\n"
     "observar, a través de su fina piel,\n"
     "los gases tóxicos que se remolinan\n"
     "en su interior. A la mínima, explota.");
@@ -662,121 +662,121 @@ const u8 gWeezingPokedexText[] = _(
     "delicioso. Para Weezing, los gases que\n"
     "emana la basura son una exquisitez.");
 
-const u8 gRhyhornPokedexText[] = _(
+const u8 gPotogreedPokedexText[] = _(
     "Una vez que comienza a correr, no para:\n"
     "su minúsculo cerebro lo hace tan bobo\n"
     "que ni siquiera es capaz de acordarse\n"
     "de por qué empezó a hacerlo.");
 
-const u8 gRhydonPokedexText[] = _(
+const u8 gYeesaurPokedexText[] = _(
     "Su cuerno, que gira como un taladro,\n"
     "destroza altos edificios de una pasada.\n"
     "Puede erguirse sobre las patas traseras\n"
     "y tiene un cerebro muy bien desarrollado.");
 
-const u8 gChanseyPokedexText[] = _(
+const u8 gUnjoyPokedexText[] = _(
     "Pone a diario huevos con un enorme valor\n"
     "nutritivo. Están tan ricos que hasta quien\n"
     "no tenga hambre se los comerá en un abrir\n"
     "y cerrar de ojos.");
 
-const u8 gTangelaPokedexText[] = _(
+const u8 gBananacePokedexText[] = _(
     "Se le desprenden los tentáculos en cuanto\n"
     "se los agarran. Y no sólo no le duele,\n"
     "sino que le permite huir rápidamente.\n"
     "Además, al día siguiente le crecen otros.");
 
-const u8 gKangaskhanPokedexText[] = _(
+const u8 gTrololoPokedexText[] = _(
     "Si te cruzas con uno que esté jugando, no\n"
     "lo molestes ni intentes atraparlo. Seguro\n"
     "que uno de sus progenitores anda cerca\n"
     "y reaccionará con enfado y violencia.");
 
-const u8 gHorseaPokedexText[] = _(
+const u8 gJankPokedexText[] = _(
     "Batiendo hábilmente las aletas que\n"
     "tiene en el lomo, se mueve en cualquier\n"
     "dirección al avanzar. Si detecta peligro,\n"
     "escupe tinta para escapar.");
 
-const u8 gSeadraPokedexText[] = _(
+const u8 gSwampogrePokedexText[] = _(
     "Las púas venenosas que cubren su cuerpo\n"
     "tienen mucho valor a la hora de preparar\n"
     "remedios de hierbas tradicionales. Como\n"
     "algo amenace su nido, atacará sin piedad.");
 
-const u8 gGoldeenPokedexText[] = _(
+const u8 gCightedPokedexText[] = _(
     "En primavera, se pueden ver bancos de\n"
-    "Goldeen remontando cascadas y ríos.\n"
+    "Cighted remontando cascadas y ríos.\n"
     "Causa mucho daño cuando embiste\n"
     "con su único cuerno.");
 
-const u8 gSeakingPokedexText[] = _(
+const u8 gMongelordPokedexText[] = _(
     "Perfora agujeros en los cantos rodados\n"
     "de las cuencas de los ríos. Así protege\n"
     "sus huevos de cualquier ataque y evita\n"
     "que los arrastre la corriente.");
 
-const u8 gStaryuPokedexText[] = _(
+const u8 gBurikPokedexText[] = _(
     "De noche, se agrupan y hacen brillar su\n"
     "núcleo rojo. Los destellos se intercalan\n"
     "con el centelleo estelar. Si les arrancan\n"
     "alguna parte del cuerpo, la regeneran.");
 
-const u8 gStarmiePokedexText[] = _(
-    "En otro tiempo, se pensaba que Starmie\n"
+const u8 gBicyelionPokedexText[] = _(
+    "En otro tiempo, se pensaba que Bicyelion\n"
     "era el resultado de los reflejos de las\n"
     "estrellas que centelleaban con suavidad\n"
     "en el cielo nocturno.");
 
-const u8 gMrmimePokedexText[] = _(
+const u8 gAlienPokedexText[] = _(
     "Domina la pantomima. Con sus gestos puede\n"
     "convencer a sus espectadores de la\n"
     "existencia de algo invisible y, cuando se lo\n"
     "creen, las ilusiones se hacen realidad.");
 
-const u8 gScytherPokedexText[] = _(
+const u8 gChuxkushPokedexText[] = _(
     "Es espectacular ver lo rápido que es. Su\n"
     "velocidad potencia las guadañas que tiene\n"
     "en los brazos, de por sí contundentes,\n"
     "pues rebanan gruesos troncos de un tajo.");
 
-const u8 gJynxPokedexText[] = _(
+const u8 gRepsacPokedexText[] = _(
     "Camina con ritmo, cimbreándose y\n"
     "balanceando las caderas como si bailara.\n"
     "Hace movimientos tan atractivos que no\n"
     "hay quien se resista a mover las caderas.");
 
-const u8 gElectabuzzPokedexText[] = _(
+const u8 gKrafpunkPokedexText[] = _(
     "Al desatarse una tormenta, se enfrenta\n"
     "a otros para ver quién alcanza antes los\n"
     "sitios altos en los que pueden caer rayos.\n"
     "Hay ciudades que los usan como pararrayos.");
 
-const u8 gMagmarPokedexText[] = _(
+const u8 gEndmysuffPokedexText[] = _(
     "Al luchar, expulsa violentas llamas para\n"
     "intimidar a su rival. Estos estallidos de\n"
     "fuego crean ondas de calor que abrasan\n"
     "la hierba y los árboles de la zona.");
 
-const u8 gPinsirPokedexText[] = _(
+const u8 gItrimidPokedexText[] = _(
     "Sus cuernos tienen fuerza para destrozar\n"
     "grandes troncos. Como tienen aversión al\n"
     "frío, cavan madrigueras bajo tierra donde\n"
     "duermen cuando bajan las temperaturas.");
 
-const u8 gTaurosPokedexText[] = _(
+const u8 gGroxPokedexText[] = _(
     "Le resulta imposible estarse quieto. Si\n"
     "no hay ningún rival que luche con él, se\n"
     "estampa contra árboles para calmarse\n"
     "y los embiste para echarlos abajo.");
 
-const u8 gMagikarpPokedexText[] = _(
+const u8 gNushakePokedexText[] = _(
     "Los músculos con los que nada son débiles,\n"
     "así que se lo lleva la corriente\n"
-    "con facilidad. Muchos Magikarp\n"
+    "con facilidad. Muchos Nushake\n"
     "van a parar a piscinas naturales.");
 
-const u8 gGyaradosPokedexText[] = _(
+const u8 gKrollerPokedexText[] = _(
     "Es extremadamente feroz y violento.\n"
     "Cuando las personas comienzan a luchar,\n"
     "aparece y reduce a cenizas todo lo que\n"
@@ -6007,8 +6007,8 @@ const u8 gLickitungPokedexText[] = _(
     "memorizes things by texture and taste.\n"
     "It is somewhat put off by sour things.");
 
-const u8 gKoffingPokedexText[] = _(
-    "Getting up close to a Koffing will give\n"
+const u8 gFennafPokedexText[] = _(
+    "Getting up close to a Fennaf will give\n"
     "you a chance to observe, through its thin\n"
     "skin, the toxic gases swirling inside. It\n"
     "blows up at the slightest stimulation.");
@@ -6019,121 +6019,121 @@ const u8 gWeezingPokedexText[] = _(
     "be extracted. To Weezing, gases emanating\n"
     "from garbage are the ultimate feast.");
 
-const u8 gRhyhornPokedexText[] = _(
+const u8 gPotogreedPokedexText[] = _(
     "Once it starts running, it doesn't stop.\n"
     "Its tiny brain makes it so stupid that it\n"
     "can't remember why it started running in\n"
     "the first place.");
 
-const u8 gRhydonPokedexText[] = _(
+const u8 gYeesaurPokedexText[] = _(
     "Its horn, which rotates like a drill,\n"
     "destroys tall buildings with one strike.\n"
     "It stands on its hind legs, and its brain\n"
     "is well developed.");
 
-const u8 gChanseyPokedexText[] = _(
-    "Chansey lay nutritionally excellent eggs\n"
+const u8 gUnjoyPokedexText[] = _(
+    "Unjoy lay nutritionally excellent eggs\n"
     "every day. The eggs are so delicious, they\n"
     "are eagerly devoured by even those people\n"
     "who have lost their appetite.");
 
-const u8 gTangelaPokedexText[] = _(
+const u8 gBananacePokedexText[] = _(
     "Its vines snap off easily and painlessly\n"
     "if they are grabbed, allowing it to make a\n"
     "quick getaway. The lost vines are replaced\n"
     "by new growth the very next day.");
 
-const u8 gKangaskhanPokedexText[] = _(
-    "If you come across a young Kangaskhan\n"
+const u8 gTrololoPokedexText[] = _(
+    "If you come across a young Trololo\n"
     "playing by itself, never try to catch it.\n"
     "The baby's parent is sure to be in the area,\n"
     "and it will become violently enraged.");
 
-const u8 gHorseaPokedexText[] = _(
+const u8 gJankPokedexText[] = _(
     "By cleverly flicking the fins on its back\n"
     "side to side, it moves in any direction\n"
     "while facing forward. It spits ink to\n"
     "escape if it senses danger.");
 
-const u8 gSeadraPokedexText[] = _(
+const u8 gSwampogrePokedexText[] = _(
     "The poisonous barbs all over its body are\n"
     "highly valued as ingredients for making\n"
     "traditional herbal medicine. It shows no\n"
     "mercy to anything approaching its nest.");
 
-const u8 gGoldeenPokedexText[] = _(
-    "In the springtime, schools of Goldeen\n"
+const u8 gCightedPokedexText[] = _(
+    "In the springtime, schools of Cighted\n"
     "can be seen swimming up falls and rivers.\n"
     "It metes out staggering damage with its\n"
     "single horn.");
 
-const u8 gSeakingPokedexText[] = _(
+const u8 gMongelordPokedexText[] = _(
     "It punches holes in boulders on stream-\n"
     "beds. This is a clever innovation that\n"
     "prevents its eggs from being attacked or\n"
     "washed away by the current.");
 
-const u8 gStaryuPokedexText[] = _(
+const u8 gBurikPokedexText[] = _(
     "It gathers with others in the night and\n"
     "makes its red core glow on and off with\n"
     "the twinkling stars. It can regenerate\n"
     "limbs if they are severed from its body.");
 
-const u8 gStarmiePokedexText[] = _(
+const u8 gBicyelionPokedexText[] = _(
     "People in ancient times imagined that\n"
-    "Starmie were transformed from the\n"
+    "Bicyelion were transformed from the\n"
     "reflections of stars that twinkled on\n"
     "gentle waves at night.");
 
-const u8 gMrmimePokedexText[] = _(
+const u8 gAlienPokedexText[] = _(
     "A Mr. Mime is a master of pantomime. It can\n"
     "convince others that something unseeable\n"
     "actually exists. Once believed, the\n"
     "imaginary object does become real.");
 
-const u8 gScytherPokedexText[] = _(
+const u8 gChuxkushPokedexText[] = _(
     "Its blindingly fast speed adds to the\n"
     "sharpness of its twin forearm scythes.\n"
     "The scythes can slice through thick logs\n"
     "in one wicked stroke.");
 
-const u8 gJynxPokedexText[] = _(
-    "A Jynx sashays rhythmically as if it were\n"
+const u8 gRepsacPokedexText[] = _(
+    "A Repsac sashays rhythmically as if it were\n"
     "dancing. Its motions are so bouncingly\n"
     "alluring, people seeing it are compelled to\n"
     "shake their hips without noticing.");
 
-const u8 gElectabuzzPokedexText[] = _(
+const u8 gKrafpunkPokedexText[] = _(
     "When a storm approaches, it competes with\n"
     "others to scale heights that are likely to\n"
     "be stricken by lightning. Some towns use\n"
-    "Electabuzz in place of lightning rods.");
+    "Krafpunk in place of lightning rods.");
 
-const u8 gMagmarPokedexText[] = _(
+const u8 gEndmysuffPokedexText[] = _(
     "In battle, it blows out intense flames from\n"
     "all over its body to intimidate its foe.\n"
     "These fiery bursts create heat waves that\n"
     "ignite grass and trees in the area.");
 
-const u8 gPinsirPokedexText[] = _(
+const u8 gItrimidPokedexText[] = _(
     "Their pincers are strong enough to\n"
     "shatter thick logs. Because they dislike\n"
-    "cold, Pinsir burrow and sleep under\n"
+    "cold, Itrimid burrow and sleep under\n"
     "the ground on chilly nights.");
 
-const u8 gTaurosPokedexText[] = _(
+const u8 gGroxPokedexText[] = _(
     "It is not satisfied unless it is rampaging\n"
     "at all times. If there is no opponent for\n"
-    "Tauros to battle, it will charge at thick\n"
+    "Grox to battle, it will charge at thick\n"
     "trees and knock them down to calm itself.");
 
-const u8 gMagikarpPokedexText[] = _(
+const u8 gNushakePokedexText[] = _(
     "Its swimming muscles are weak, so it is\n"
     "easily washed away by currents. In places\n"
     "where water pools, you can see many\n"
-    "Magikarp deposited there by the flow.");
+    "Nushake deposited there by the flow.");
 
-const u8 gGyaradosPokedexText[] = _(
+const u8 gKrollerPokedexText[] = _(
     "It is an extremely vicious and violent\n"
     "Pokémon. When humans begin to fight,\n"
     "it will appear and burn everything to the\n"

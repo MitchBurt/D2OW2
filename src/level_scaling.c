@@ -1232,9 +1232,9 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 			else
 				return SPECIES_AMAZULK;
 		break;
-		case SPECIES_MR_MIME:
+		case SPECIES_ALIEN:
 			if(gMapHeader.region == REGION_SEVII)
-				return SPECIES_MR_MIME_GALARIAN;
+				return SPECIES_ALIEN_GALARIAN;
 			else
 				return basespecies;
 		break;
@@ -2456,9 +2456,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_GLALITITE;
 		break;
-		case SPECIES_GYARADOS:
+		case SPECIES_KROLLER:
 			if(canMega)
-				item = ITEM_GYARADOSITE;
+				item = ITEM_KROLLERITE;
 		break;
 		case SPECIES_HERACROSS:
 			if(canMega)
@@ -2468,9 +2468,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_HOUNDOOMINITE;
 		break;
-		case SPECIES_KANGASKHAN:
+		case SPECIES_TROLOLO:
 			if(canMega)
-				item = ITEM_KANGASKHANITE;
+				item = ITEM_TROLOLOITE;
 		break;
 		case SPECIES_LOPUNNY:
 			if(canMega)
@@ -2500,9 +2500,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_FAZEAGLEITE;
 		break;
-		case SPECIES_PINSIR:
+		case SPECIES_ITRIMID:
 			if(canMega)
-				item = ITEM_PINSIRITE;
+				item = ITEM_ITRIMIDITE;
 		break;
 		case SPECIES_SABLEYE:
 			if(canMega)

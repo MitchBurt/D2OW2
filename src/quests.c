@@ -2127,7 +2127,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_KARRABLAST:
 				case SPECIES_SKARMORY:
 				case SPECIES_TANGROWTH:
-				case SPECIES_TANGELA:
+				case SPECIES_BANANACE:
 				case SPECIES_MEWTWO:
 				case SPECIES_RENAGEDE:
 				case SPECIES_BATANARF:
@@ -2136,7 +2136,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_TORTERRA:
 				case SPECIES_HOPPIP:
 				case SPECIES_JAFEET:
-				case SPECIES_MR_MIME:
+				case SPECIES_ALIEN:
 				case SPECIES_WOOBAT:
 				case SPECIES_SWOOBAT:
 				case SPECIES_KELDEO:
@@ -2150,7 +2150,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_SUGREIVOUS:
 				case SPECIES_AMAZULK:
 				case SPECIES_REPLITOR:
-				case SPECIES_TAUROS:
+				case SPECIES_GROX:
 				case SPECIES_KABUTO:
 				case SPECIES_KABUTOPS:
 				case SPECIES_JOLTEON:
@@ -2179,7 +2179,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_NINCADA:
 				case SPECIES_FURBOIS:
 				case SPECIES_VICTREEBEL:
-				case SPECIES_CHANSEY:
+				case SPECIES_UNJOY:
 				case SPECIES_SILCOON:
 				case SPECIES_MINUN:
 				case SPECIES_LILEEP:

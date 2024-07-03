@@ -424,7 +424,7 @@ Route104_Text_DarianDefeat: @ 8295CC9
 	.string "What the…$"
 
 Route104_Text_DarianPostBattle: @ 8295CD3
-	.string "Hey, Magikarp, you sure don't live up\n"
+	.string "Hey, Nushake, you sure don't live up\n"
 	.string "to your name, do you?$"
 
 Route105_Text_FosterIntro: @ 8295D0F
@@ -3800,7 +3800,7 @@ Route125_Text_StanDefeat: @ 82A15C7
 	.string "I floundered…$"
 
 Route125_Text_StanPostBattle: @ 82A15D5
-	.string "I was blown away by Horsea's charm,\n"
+	.string "I was blown away by Jank's charm,\n"
 	.string "so I started swimming, too.$"
 
 Route125_Text_TanyaIntro: @ 82A1615

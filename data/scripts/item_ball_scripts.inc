@@ -726,8 +726,8 @@ MegaStone_EventScript_ItemSansite::
 	addscaleditem ITEM_SANSITE
 	end
 	
-MegaStone_EventScript_ItemGyaradosite::
-	addscaleditem ITEM_GYARADOSITE
+MegaStone_EventScript_ItemKrollerite::
+	addscaleditem ITEM_KROLLERITE
 	end
 	
 MegaStone_EventScript_ItemManectricite::
@@ -758,8 +758,8 @@ MegaStone_EventScript_Absolite::
 	addscaleditem ITEM_ABSOLITE
 	end	
 
-MegaStone_EventScript_Pinsirite::
-	addscaleditem ITEM_PINSIRITE
+MegaStone_EventScript_Itrimidite::
+	addscaleditem ITEM_ITRIMIDITE
 	end	
 	
 MegaStone_EventScript_Scizorite::

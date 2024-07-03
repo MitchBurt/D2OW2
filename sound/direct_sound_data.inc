@@ -388,7 +388,7 @@ DirectSoundWaveData_8745A7C::
 
 	.align 2
 Cry_Generic::
-	.incbin "sound/direct_sound_samples/cries/cry_rhydon.bin"
+	.incbin "sound/direct_sound_samples/cries/cry_yeesaur.bin"
 	
 	.align 2
 Cry_Kyogre::
@@ -468,7 +468,7 @@ Cry_Egg_Group_Human_Like:
 
 	.align 2
 Cry_Egg_Group_Amorphous:
-	.incbin "sound/direct_sound_samples/cries/cry_koffing.bin"
+	.incbin "sound/direct_sound_samples/cries/cry_fennaf.bin"
 
 	.align 2
 Cry_Egg_Group_Fairy:

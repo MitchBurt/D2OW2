@@ -1022,7 +1022,7 @@ static const struct InGameTrade sIngameTrades[] =
         .otName = _("Kobe"), 
         .otGender = MALE, 
         .sheen = 10,
-        .requestedSpecies = SPECIES_SEADRA
+        .requestedSpecies = SPECIES_SWAMPOGRE
     }, 
     [INGAME_TRADE_PLUSLE] = 
     {
@@ -1040,7 +1040,7 @@ static const struct InGameTrade sIngameTrades[] =
         .sheen = 10,
         .requestedSpecies = SPECIES_FROSLASS
     }, 
-    [INGAME_TRADE_HORSEA] = 
+    [INGAME_TRADE_JANK] = 
     {
         .nickname = _("Dracovish"),
         .species = SPECIES_DRACOVISH,
@@ -1110,7 +1110,7 @@ static const u16 sIngameTradeMail[][MAIL_WORDS_COUNT + 1] =
         EC_WORD_TOUGH,
         EC_WORD_PLEASE,
         EC_WORD_TRAIN,
-        EC_POKEMON(HORSEA),
+        EC_POKEMON(JANK),
         EC_WORD_WELL
     }, {
         EC_WORD_THANK_YOU,

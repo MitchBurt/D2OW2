@@ -550,8 +550,8 @@
 #define DP_SEQ_TITLE00                531 // Opening Movie (Part 1)
 #define DP_SEQ_TITLE01                532 // Opening Movie (Part 2)
 #define DP_SEQ_OPENING                533 // Introduction
-#define DP_SEQ_TV_HOUSOU              534 // Special Report "Search for the Red Gyarados!" (Part 1)
-#define DP_SEQ_TV_END                 535 // Special Report "Search for the Red Gyarados!" (Part 2)
+#define DP_SEQ_TV_HOUSOU              534 // Special Report "Search for the Red Kroller!" (Part 1)
+#define DP_SEQ_TV_END                 535 // Special Report "Search for the Red Kroller!" (Part 2)
 #define DP_SEQ_TOWN01_D               536 // Twinleaf Town (Day)
 #define DP_SEQ_TOWN01_N               537 // Twinleaf Town (Night)
 #define DP_SEQ_THE_RIV                538 // Rival

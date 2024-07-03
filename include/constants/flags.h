@@ -682,8 +682,8 @@
 #define FLAG_UNUSED_0x27C  0x27C // Blastoisite*
 #define FLAG_UNUSED_0x27D  0x27D // Alakazite*
 #define FLAG_UNUSED_0x27E  0x27E // Sansite*
-#define FLAG_GOT_KANGASKHANITE  0x27F // Kanghaskhanite*
-#define FLAG_UNUSED_0x280  0x280 // Pinsirite*
+#define FLAG_GOT_TROLOLOITE  0x27F // Kanghaskhanite*
+#define FLAG_UNUSED_0x280  0x280 // Itrimidite*
 #define FLAG_UNUSED_0x281  0x281 // Aerodactylite*
 #define FLAG_UNUSED_0x282  0x282 // Mewtwonite X
 #define FLAG_UNUSED_0x283  0x283 // Mewtwonite Y
@@ -702,7 +702,7 @@
 #define FLAG_UNUSED_0x290  0x290 // Lucarionite*
 #define FLAG_UNUSED_0x291  0x291 // Abomasite*
 #define FLAG_GOT_HERACRONITE  0x292 // Heracronite*
-#define FLAG_GOT_GYARADOSITE  0x293 // Gyaradosite*
+#define FLAG_GOT_KROLLERITE  0x293 // Krollerite*
 #define FLAG_GOT_SHEMUEITE  0x294 // Shemueite
 #define FLAG_UNUSED_0x295  0x295 // Portal Stuff
 #define FLAG_UNUSED_0x296  0x296 // Unused Flag

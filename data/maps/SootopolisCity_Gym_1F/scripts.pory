@@ -180,11 +180,11 @@ SootopolisCity_Gym_1F_EventScript_Start_Rematch_4::
 	
 SootopolisCity_Gym_1F_EventScript_Start_Rematch_5::
 	goto_if_unset FLAG_RECEIVED_TM04 SootopolisCity_Gym_1F_EventScript_Start_Rematch_Party_4
-	goto_if_set FLAG_GOT_GYARADOSITE SootopolisCity_Gym_1F_EventScript_Start_Rematch_6
+	goto_if_set FLAG_GOT_KROLLERITE SootopolisCity_Gym_1F_EventScript_Start_Rematch_6
 	trainerbattle_no_intro TRAINER_JUAN_4, SootopolisCity_Gym_1F_Text_JuanRematchDefeat
 	msgbox SootopolisCity_Gym_Text_GetMegaStone, MSGBOX_DEFAULT
-	giveitem ITEM_GYARADOSITE
-	setflag FLAG_GOT_GYARADOSITE
+	giveitem ITEM_KROLLERITE
+	setflag FLAG_GOT_KROLLERITE
 	goto SootopolisCity_Gym_1F_EventScript_JuanRematchEnd
 	end
 	
@@ -256,7 +256,7 @@ SootopolisCity_Gym_Text_GetTM:
 SootopolisCity_Gym_Text_GetMegaStone:
 	.string "Juan: Please take this\n"
 	.string "Mega Stone, with you.\p"
-	.string "Make an Gyarados hold it to\n"
+	.string "Make an Kroller hold it to\n"
 	.string "unleash its Hidden Potential.$"
 	
 SootopolisCity_Gym_Text_GetReward:
@@ -762,11 +762,11 @@ script SootopolisCity_Gym_1F_EventScript_Juan_Give_Gifts{
 	}
 
 	//Give Megastone
-	if(var(VAR_NUM_BADGES) >= 7 && !flag(FLAG_GOT_GYARADOSITE)){
-		msgbox(format("Juan: Take this as an special gift from me, it's an Gyarados."), MSGBOX_NPC)
-		giveitem(ITEM_GYARADOSITE)
-		msgbox(format("Make an Gyarados hold it to unleash its real potential."), MSGBOX_NPC)
-		setflag(FLAG_GOT_GYARADOSITE)
+	if(var(VAR_NUM_BADGES) >= 7 && !flag(FLAG_GOT_KROLLERITE)){
+		msgbox(format("Juan: Take this as an special gift from me, it's an Kroller."), MSGBOX_NPC)
+		giveitem(ITEM_KROLLERITE)
+		msgbox(format("Make an Kroller hold it to unleash its real potential."), MSGBOX_NPC)
+		setflag(FLAG_GOT_KROLLERITE)
 		setflag(FLAG_TEMP_9) //To check if you have been given multiple items
 	}
 	elif(!flag(FLAG_TEMP_9)){
@@ -810,61 +810,61 @@ script SootopolisCity_Gym_1F_EventScript_GymGuide_New{
 	end
 }
 
-script SootopolisCity_Gym_1F_EventScript_Gym_Horsea{
+script SootopolisCity_Gym_1F_EventScript_Gym_Jank{
 	lock
 	faceplayer
 	switch(var(VAR_GYM_POKEMON_SPECIES)){
-		case SPECIES_HORSEA:
+		case SPECIES_JANK:
 			if (flag(FLAG_BADGE08_GET) && !flag(FLAG_JUAN_REMATCH)){
 				//Ready for a rematch
-				msgbox(format("Horsea: sea!"), MSGBOX_NPC)
+				msgbox(format("Jank: sea!"), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems like it wants a rematch with You, it looks really excited."), MSGBOX_SIGN)
 				waitmessage
 			}
 			elif(flag(FLAG_BADGE08_GET) && flag(FLAG_JUAN_REMATCH)){
 				//After a rematch
-				msgbox(format("Horsea: sea..."), MSGBOX_NPC)
+				msgbox(format("Jank: sea..."), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems tired after today's battle, its better to let it rest."), MSGBOX_SIGN)
 				waitmessage
 			}
 			else{
-				msgbox(format("Horsea: sea?"), MSGBOX_NPC)
+				msgbox(format("Jank: sea?"), MSGBOX_NPC)
 				msgbox(format("The Pokémon is currently looking shooting ink from its mouth."), MSGBOX_SIGN)
 				waitmessage
 			}
-		case SPECIES_SEADRA:
+		case SPECIES_SWAMPOGRE:
 			if (flag(FLAG_BADGE08_GET) && !flag(FLAG_JUAN_REMATCH)){
 				//Ready for a rematch
-				msgbox(format("Seadra: dra!"), MSGBOX_NPC)
+				msgbox(format("Swampogre: dra!"), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems like it wants a rematch with You, it looks really excited."), MSGBOX_SIGN)
 				waitmessage
 			}
 			elif(flag(FLAG_BADGE08_GET) && flag(FLAG_JUAN_REMATCH)){
-				msgbox(format("Seadra: dra..."), MSGBOX_NPC)
+				msgbox(format("Swampogre: dra..."), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems tired after today's battle, its better to let it rest."), MSGBOX_SIGN)
 				waitmessage
 			}
 			else{
-				msgbox(format("Seadra: dra?"), MSGBOX_NPC)
+				msgbox(format("Swampogre: dra?"), MSGBOX_NPC)
 				msgbox(format("The Pokémon is currently looking at some ring targets."), MSGBOX_SIGN)
 				waitmessage
 			}
 		case SPECIES_KINGDRA:
 			if (flag(FLAG_BADGE08_GET) && !flag(FLAG_JUAN_REMATCH)){
 				//Ready for a rematch
-				msgbox(format("Seaking: ron!"), MSGBOX_NPC)
+				msgbox(format("Mongelord: ron!"), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems like it wants a rematch with You, its skin look's really tought."), MSGBOX_SIGN)
 				waitmessage
 			}
 			elif(flag(FLAG_BADGE08_GET) && flag(FLAG_JUAN_REMATCH)){
 				//Defeated
-				msgbox(format("Seaking: king..."), MSGBOX_NPC)
+				msgbox(format("Mongelord: king..."), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems tired after today's battle, its better to let it rest."), MSGBOX_SIGN)
 				waitmessage
 			}
 			else{
 				//First time
-				msgbox(format("Seaking: king?"), MSGBOX_NPC)
+				msgbox(format("Mongelord: king?"), MSGBOX_NPC)
 				msgbox(format("The Pokémon is currently shooting some ring targets."), MSGBOX_SIGN)
 				waitmessage
 			}
@@ -875,11 +875,11 @@ script SootopolisCity_Gym_1F_EventScript_Gym_Horsea{
 
 script SootopolisCity_Gym_1F_EventScript_Set_Gym_Pokemon_Species{
 	switch (var(VAR_NUM_BADGES)) {
-		case 0: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_HORSEA) setvar(VAR_GYM_POKEMON_SPECIES,  SPECIES_HORSEA)  //Level 13 
-		case 1: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_HORSEA) setvar(VAR_GYM_POKEMON_SPECIES,  SPECIES_HORSEA)  //Level 19
-		case 2: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_HORSEA) setvar(VAR_GYM_POKEMON_SPECIES,  SPECIES_HORSEA)  //Level 25
-		case 3: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_SEADRA) setvar(VAR_GYM_POKEMON_SPECIES,  SPECIES_SEADRA)  //Level 31
-		case 4: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_SEADRA) setvar(VAR_GYM_POKEMON_SPECIES,  SPECIES_SEADRA)  //Level 38
+		case 0: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_JANK) setvar(VAR_GYM_POKEMON_SPECIES,  SPECIES_JANK)  //Level 13 
+		case 1: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_JANK) setvar(VAR_GYM_POKEMON_SPECIES,  SPECIES_JANK)  //Level 19
+		case 2: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_JANK) setvar(VAR_GYM_POKEMON_SPECIES,  SPECIES_JANK)  //Level 25
+		case 3: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_SWAMPOGRE) setvar(VAR_GYM_POKEMON_SPECIES,  SPECIES_SWAMPOGRE)  //Level 31
+		case 4: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_SWAMPOGRE) setvar(VAR_GYM_POKEMON_SPECIES,  SPECIES_SWAMPOGRE)  //Level 38
 		case 5: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_KINGDRA) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_KINGDRA) //Level 45
 		case 6: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_KINGDRA) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_KINGDRA) //Level 51
 		case 7: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_KINGDRA) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_KINGDRA) //Level 62
@@ -887,7 +887,7 @@ script SootopolisCity_Gym_1F_EventScript_Set_Gym_Pokemon_Species{
 	}
 
 	if(flag(FLAG_NO_EVOLUTION_MODE)){
-		setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_HORSEA) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_HORSEA)
+		setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_JANK) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_JANK)
 	}
 	return
 }

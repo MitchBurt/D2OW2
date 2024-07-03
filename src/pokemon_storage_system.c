@@ -1509,7 +1509,7 @@ static const u32 gWallpaperIcon_Maze[] = INCBIN_U32("graphics/pokemon_storage/ma
 static const u32 gWallpaperIcon_Footprint[] = INCBIN_U32("graphics/pokemon_storage/footprint_icon.4bpp.lz");
 static const u32 gWallpaperIcon_BigAsterisk[] = INCBIN_U32("graphics/pokemon_storage/big_asterisk_icon.4bpp.lz");
 static const u32 gWallpaperIcon_Circle[] = INCBIN_U32("graphics/pokemon_storage/circle_icon.4bpp.lz");
-static const u32 gWallpaperIcon_Koffing[] = INCBIN_U32("graphics/pokemon_storage/koffing_icon.4bpp.lz");
+static const u32 gWallpaperIcon_Fennaf[] = INCBIN_U32("graphics/pokemon_storage/fennaf_icon.4bpp.lz");
 static const u32 gWallpaperIcon_Ribbon[] = INCBIN_U32("graphics/pokemon_storage/ribbon_icon.4bpp.lz");
 static const u32 gWallpaperIcon_FourCircles[] = INCBIN_U32("graphics/pokemon_storage/four_circles_icon.4bpp.lz");
 static const u32 gWallpaperIcon_Lotad[] = INCBIN_U32("graphics/pokemon_storage/lotad_icon.4bpp.lz");
@@ -1560,7 +1560,7 @@ static const u32 *const gFriendsIcons[] =
     gWallpaperIcon_Footprint,
     gWallpaperIcon_BigAsterisk,
     gWallpaperIcon_Circle,
-    gWallpaperIcon_Koffing,
+    gWallpaperIcon_Fennaf,
     gWallpaperIcon_Ribbon,
     gWallpaperIcon_Bolt,
     gWallpaperIcon_FourCircles,
