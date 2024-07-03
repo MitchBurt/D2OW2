@@ -2671,8 +2671,8 @@ static const u8 sSPARKLY_SWIRLDescription[] = _(
     "Wrap foe with whirlwind of\n"
     "scent. Heals party's status.");
 
-static const u8 sVEEVEE_VOLLEYDescription[] = _(
-    "Eevee's love increases its\n"
+static const u8 sVEEMOJEE_VOLLEYDescription[] = _(
+    "Eemojee's love increases its\n"
     "power. It never misses.");
 
 static const u8 sDOUBLE_IRON_BASHDescription[] = _(
@@ -5620,8 +5620,8 @@ static const u8 sSPARKLY_SWIRLDescription[] = _(
     "Wrap foe with whirlwind of\n"
     "scent. Heals party's status.");
 
-static const u8 sVEEVEE_VOLLEYDescription[] = _(
-    "Eevee's love increases its\n"
+static const u8 sVEEMOJEE_VOLLEYDescription[] = _(
+    "Eemojee's love increases its\n"
     "power. It never misses.");
 
 static const u8 sDOUBLE_IRON_BASHDescription[] = _(
@@ -6584,7 +6584,7 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_SAPPY_SEED - 1] = sSAPPY_SEEDDescription,
     [MOVE_FREEZY_FROST - 1] = sFREEZY_FROSTDescription,
     [MOVE_SPARKLY_SWIRL - 1] = sSPARKLY_SWIRLDescription,
-    [MOVE_VEEVEE_VOLLEY - 1] = sVEEVEE_VOLLEYDescription,
+    [MOVE_VEEMOJEE_VOLLEY - 1] = sVEEMOJEE_VOLLEYDescription,
     [MOVE_DOUBLE_IRON_BASH - 1] = sDOUBLE_IRON_BASHDescription,
 
     //GEN 8

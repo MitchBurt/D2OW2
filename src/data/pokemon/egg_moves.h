@@ -900,7 +900,7 @@ const u16 gEggMoves[] = {
 		MOVE_ROCK_SLIDE,
 		MOVE_FALSE_SWIPE),
 
-	egg_moves(LAPRAS,
+	egg_moves(JEBONY,
 		MOVE_HORN_DRILL,
 		MOVE_FISSURE,
 		MOVE_CURSE,
@@ -919,7 +919,7 @@ const u16 gEggMoves[] = {
 		MOVE_SUBSTITUTE,
 		MOVE_AURORA_BEAM),
 
-	egg_moves(EEVEE,
+	egg_moves(EEMOJEE,
 		MOVE_DOUBLE_KICK,
 		MOVE_CURSE,
 		MOVE_FLAIL,
@@ -937,7 +937,7 @@ const u16 gEggMoves[] = {
 		MOVE_SYNCHRONOISE,
 		MOVE_STORED_POWER),
 
-	egg_moves(OMANYTE,
+	egg_moves(ATTACO,
 		MOVE_SLAM,
 		MOVE_BITE,
 		MOVE_SUPERSONIC,
@@ -956,7 +956,7 @@ const u16 gEggMoves[] = {
 		MOVE_TOXIC_SPIKES,
 		MOVE_ROCK_SLIDE),
 
-	egg_moves(KABUTO,
+	egg_moves(CORORK,
 		MOVE_TAKE_DOWN,
 		MOVE_BUBBLE_BEAM,
 		MOVE_AURORA_BEAM,

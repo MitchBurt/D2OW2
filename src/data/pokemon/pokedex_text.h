@@ -782,7 +782,7 @@ const u8 gKrollerPokedexText[] = _(
     "aparece y reduce a cenizas todo lo que\n"
     "pilla con intensas llamaradas.");
 
-const u8 gLaprasPokedexText[] = _(
+const u8 gJebonyPokedexText[] = _(
     "Por culpa de la gente, está en peligro de\n"
     "extinción. Dicen que, al anochecer, se pone\n"
     "a cantar quejicoso mientras busca a los\n"
@@ -794,25 +794,25 @@ const u8 gDittoPokedexText[] = _(
     "en algo según los datos que tenga en la\n"
     "memoria, habrá detalles que se le escapen.");
 
-const u8 gEeveePokedexText[] = _(
+const u8 gEemojeePokedexText[] = _(
     "Su configuración genérica le permite\n"
     "mutar y adaptarse enseguida a cualquier\n"
     "medio. Evoluciona gracias a las radiaciones\n"
     "emitidas por varias Piedras.");
 
-const u8 gVaporeonPokedexText[] = _(
+const u8 gStresseonPokedexText[] = _(
     "Sufrió una mutación repentina y desarrolló\n"
     "aletas y branquias que le permiten vivir\n"
     "bajo el agua. Asimismo, este Pokémon\n"
     "tiene la habilidad de controlar las aguas.");
 
-const u8 gJolteonPokedexText[] = _(
+const u8 gXokkeonPokedexText[] = _(
     "Crea algo de electricidad, cuya intensidad\n"
     "aumenta con la estática que acumula\n"
     "en un pelaje formado por agujas cargadas\n"
     "de energía Así puede lanzar rayos.");
 
-const u8 gFlareonPokedexText[] = _(
+const u8 gBabeyonPokedexText[] = _(
     "La suavidad de su pelaje tiene una función\n"
     "clara: liberar calor para que no se asfixie.\n"
     "La temperatura corporal puede alcanzar\n"
@@ -824,25 +824,25 @@ const u8 gPorygonPokedexText[] = _(
     "Tiene protección anti-copia, así que\n"
     "es imposible duplicarlo.");
 
-const u8 gOmanytePokedexText[] = _(
+const u8 gAttacoPokedexText[] = _(
     "Es un Pokémon ancestral que se extinguió\n"
     "hace mucho tiempo y se recuperó a partir\n"
     "de fósiles. Si le atacan, se esconderá\n"
     "dentro de su dura concha.");
 
-const u8 gOmastarPokedexText[] = _(
+const u8 gGaiserPokedexText[] = _(
     "Usa los tentáculos para cazar.\n"
     "Se cree que se ha extinguido debido\n"
     "al tamaño y al peso que alcanza su concha,\n"
     "que entorpece sus movimientos.");
 
-const u8 gKabutoPokedexText[] = _(
+const u8 gCororkPokedexText[] = _(
     "Lo han regenerado a partir de un fósil,\n"
     "pero aún queda algún raro ejemplar vivo.\n"
     "Aunque existe desde hace 300 millones de\n"
     "años, este Pokémon no ha cambiado nada.");
 
-const u8 gKabutopsPokedexText[] = _(
+const u8 gBigobeetPokedexText[] = _(
     "Antes buceaba para atrapar a su presa,\n"
     "pero evolucionó, cambió de hábitat y ahora\n"
     "vive en tierra firme. El cambio que se\n"
@@ -6139,8 +6139,8 @@ const u8 gKrollerPokedexText[] = _(
     "it will appear and burn everything to the\n"
     "ground with intensely hot flames.");
 
-const u8 gLaprasPokedexText[] = _(
-    "People have driven Lapras almost to the\n"
+const u8 gJebonyPokedexText[] = _(
+    "People have driven Jebony almost to the\n"
     "point of extinction. In the evenings,\n"
     "it is said to sing plaintively as it seeks\n"
     "what few others of its kind still remain.");
@@ -6151,26 +6151,26 @@ const u8 gDittoPokedexText[] = _(
     "change based on its memory, it will get\n"
     "details wrong.");
 
-const u8 gEeveePokedexText[] = _(
-    "An Eevee has an unstable genetic makeup\n"
+const u8 gEemojeePokedexText[] = _(
+    "An Eemojee has an unstable genetic makeup\n"
     "that suddenly mutates due to its\n"
     "environment. Radiation from various\n"
     "Stones causes this Pokémon to evolve.");
 
-const u8 gVaporeonPokedexText[] = _(
-    "Vaporeon underwent a spontaneous\n"
+const u8 gStresseonPokedexText[] = _(
+    "Stresseon underwent a spontaneous\n"
     "mutation and grew fins and gills that\n"
     "allow them to live underwater. They have\n"
     "the ability to freely control water.");
 
-const u8 gJolteonPokedexText[] = _(
+const u8 gXokkeonPokedexText[] = _(
     "Its cells generate weak power that is\n"
     "amplified by its fur's static electricity\n"
     "to drop thunderbolts. The bristling fur is\n"
     "made of electrically charged needles.");
 
-const u8 gFlareonPokedexText[] = _(
-    "Flareon's fluffy fur releases heat into\n"
+const u8 gBabeyonPokedexText[] = _(
+    "Babeyon's fluffy fur releases heat into\n"
     "the air so that its body does not get\n"
     "excessively hot. Its body temperature can\n"
     "rise to a maximum of 1,650 degrees F.");
@@ -6181,26 +6181,26 @@ const u8 gPorygonPokedexText[] = _(
     "cyberspace. A Porygon is copy-\n"
     "protected so it cannot be duplicated.");
 
-const u8 gOmanytePokedexText[] = _(
+const u8 gAttacoPokedexText[] = _(
     "One of the ancient and long-since-extinct\n"
     "Pokémon that have been regenerated\n"
     "from fossils by humans. If attacked,\n"
     "it withdraws into its hard shell.");
 
-const u8 gOmastarPokedexText[] = _(
-    "An Omastar uses its tentacles to capture\n"
+const u8 gGaiserPokedexText[] = _(
+    "An Gaiser uses its tentacles to capture\n"
     "its prey. It is believed to have become\n"
     "extinct because its shell grew too large,\n"
     "making its movements slow and ponderous.");
 
-const u8 gKabutoPokedexText[] = _(
+const u8 gCororkPokedexText[] = _(
     "It is a Pokémon that has been regenerated\n"
     "from a fossil. However, in rare cases, living\n"
-    "examples have been discovered. Kabuto\n"
+    "examples have been discovered. Corork\n"
     "have not changed for 300 million years.");
 
-const u8 gKabutopsPokedexText[] = _(
-    "Kabutops once swam underwater to hunt \n"
+const u8 gBigobeetPokedexText[] = _(
+    "Bigobeet once swam underwater to hunt \n"
     "for prey. It was apparently evolving from\n"
     "being a water dweller to living on land as\n"
     "evident from changes in its gills and legs.");

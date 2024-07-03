@@ -1018,14 +1018,14 @@ const struct Decoration gDecorations[] = {
         DecorDesc_YEESAUR_DOLL,
         DecorGfx_YEESAUR_DOLL
     }, {
-        DECOR_LAPRAS_DOLL,
-        _("Muñeco Lapras"),
+        DECOR_JEBONY_DOLL,
+        _("Muñeco Jebony"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x2,
         DECORCAT_DOLL,
         10000,
-        DecorDesc_LAPRAS_DOLL,
-        DecorGfx_LAPRAS_DOLL
+        DecorDesc_JEBONY_DOLL,
+        DecorGfx_JEBONY_DOLL
     }, {
         DECOR_YGGDRACON_DOLL,
         _("Muñeco Yggdracon"),
@@ -2108,14 +2108,14 @@ const struct Decoration gDecorations[] = {
         DecorDesc_YEESAUR_DOLL,
         DecorGfx_YEESAUR_DOLL
     }, {
-        DECOR_LAPRAS_DOLL,
-        _("Lapras Doll"),
+        DECOR_JEBONY_DOLL,
+        _("Jebony Doll"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x2,
         DECORCAT_DOLL,
         10000,
-        DecorDesc_LAPRAS_DOLL,
-        DecorGfx_LAPRAS_DOLL
+        DecorDesc_JEBONY_DOLL,
+        DecorGfx_JEBONY_DOLL
     }, {
         DECOR_YGGDRACON_DOLL,
         _("Yggdracon Doll"),

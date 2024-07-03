@@ -2075,7 +2075,7 @@
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_EEVEE"
+                "species": "SPECIES_EEMOJEE"
               },
               {
                 "min_level": 7,
@@ -7471,7 +7471,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_LAPRAS"
+                "species": "SPECIES_JEBONY"
               }
             ]
           },
@@ -7624,12 +7624,12 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_LAPRAS"
+                "species": "SPECIES_JEBONY"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_LAPRAS"
+                "species": "SPECIES_JEBONY"
               }
             ]
           },
@@ -8698,12 +8698,12 @@
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_LAPRAS"
+                "species": "SPECIES_JEBONY"
               },
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_LAPRAS"
+                "species": "SPECIES_JEBONY"
               }
             ]
           },
@@ -8753,12 +8753,12 @@
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_LAPRAS"
+                "species": "SPECIES_JEBONY"
               },
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_LAPRAS"
+                "species": "SPECIES_JEBONY"
               }
             ]
           }
@@ -15168,7 +15168,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_LAPRAS"
+                "species": "SPECIES_JEBONY"
               }
             ]
           },
@@ -15342,7 +15342,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_LAPRAS"
+                "species": "SPECIES_JEBONY"
               }
             ]
           },
@@ -15511,7 +15511,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_LAPRAS"
+                "species": "SPECIES_JEBONY"
               },
               {
                 "min_level": 5,
@@ -15818,7 +15818,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_EEVEE"
+                "species": "SPECIES_EEMOJEE"
               },
               {
                 "min_level": 5,
@@ -18225,7 +18225,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_LAPRAS"
+                "species": "SPECIES_JEBONY"
               }
             ]
           },

@@ -1661,7 +1661,7 @@ Start_Text_Starter_Text:
 Text_Start_Pokedex::
 	.string "{PLAYER} obtained the Pokedex.$"
 	
-Text_Start_Lapras::
+Text_Start_Jebony::
 	.string "{PLAYER} can now use Surf and Dive\n"
 	.string "thanks to the Pokeride.$"
 	
@@ -1764,7 +1764,7 @@ Script_PokeballGet::
 	setflag FLAG_SYS_B_DASH
 	setflag FLAG_SYS_POKENAV_GET
 	special SetUnlockedPokedexFlags
-	message Text_Start_Lapras
+	message Text_Start_Jebony
 	playfanfare MUS_OBTAIN_ITEM
 	waitfanfare
 	message Text_Start_Pokedex

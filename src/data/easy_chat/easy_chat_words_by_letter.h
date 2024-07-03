@@ -429,7 +429,7 @@ const u16 gEasyChatWordsByLetter_E[] = {
     EC_WORD_EAT,
     EC_WORD_EATS,
     EC_WORD_EEK,
-    EC_POKEMON2(EEVEE),
+    EC_POKEMON2(EEMOJEE),
     EC_WORD_EFFECT_SPORE,
     EC_WORD_EGG,
     EC_MOVE2(EGG_BOMB),
@@ -526,7 +526,7 @@ const u16 gEasyChatWordsByLetter_F[] = {
     EC_WORD_FLAME_BODY,
     EC_MOVE(FLAME_WHEEL),
     EC_MOVE(FLAMETHROWER),
-    EC_POKEMON2(FLAREON),
+    EC_POKEMON2(BABEYON),
     EC_MOVE2(FLASH),
     EC_WORD_FLASH_FIRE,
     EC_WORD_FLATTEN,
@@ -814,7 +814,7 @@ const u16 gEasyChatWordsByLetter_J[] = {
     EC_POKEMON2(SNEDDIT),
     EC_POKEMON(JIRACHI),
     EC_WORD_JOKING,
-    EC_POKEMON2(JOLTEON),
+    EC_POKEMON2(XOKKEON),
     EC_WORD_JOY,
     EC_WORD_JUDGE,
     EC_MOVE2(JUMP_KICK),
@@ -824,8 +824,8 @@ const u16 gEasyChatWordsByLetter_J[] = {
 };
 
 const u16 gEasyChatWordsByLetter_K[] = {
-    EC_POKEMON2(KABUTO),
-    EC_POKEMON2(KABUTOPS),
+    EC_POKEMON2(CORORK),
+    EC_POKEMON2(BIGOBEET),
     -1, 2, // Doubled pokemon species name
     EC_POKEMON(KUKLAN),
     EC_POKEMON2(KUKLAN),
@@ -865,7 +865,7 @@ const u16 gEasyChatWordsByLetter_L[] = {
     -1, 2, // Doubled pokemon species name
     EC_POKEMON(LANTURN),
     EC_POKEMON2(LANTURN),
-    EC_POKEMON2(LAPRAS),
+    EC_POKEMON2(JEBONY),
     EC_POKEMON2(LARVITAR),
     EC_WORD_LAST,
     EC_WORD_LATE,
@@ -1153,8 +1153,8 @@ const u16 gEasyChatWordsByLetter_O[] = {
     EC_WORD_OKAY,
     EC_WORD_OLD,
     EC_WORD_OLDEN,
-    EC_POKEMON2(OMANYTE),
-    EC_POKEMON2(OMASTAR),
+    EC_POKEMON2(ATTACO),
+    EC_POKEMON2(GAISER),
     EC_WORD_ON,
     EC_WORD_ONCE,
     EC_POKEMON2(ESCEEPEE),
@@ -1785,7 +1785,7 @@ const u16 gEasyChatWordsByLetter_U[] = {
 
 const u16 gEasyChatWordsByLetter_V[] = {
     EC_WORD_VACATION,
-    EC_POKEMON2(VAPOREON),
+    EC_POKEMON2(STRESSEON),
     EC_POKEMON2(SENKETULA),
     EC_POKEMON2(ARAKETSU),
     EC_POKEMON2(YGGDRACON),
@@ -2026,7 +2026,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseFu[] = {
     EC_WORD_FEAR,
     EC_WORD_FEVER,
     EC_MOVE2(IMPRISON),
-    EC_POKEMON2(FLAREON),
+    EC_POKEMON2(BABEYON),
     -1, 2, // Doubled pokemon species name
     EC_POKEMON2(KUKLOPS),
     EC_POKEMON(KUKLOPS),
@@ -2450,7 +2450,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseRa[] = {
     EC_POKEMON(LATIAS),
     EC_POKEMON(LATIOS),
     EC_POKEMON(LUVDISC),
-    EC_POKEMON2(LAPRAS),
+    EC_POKEMON2(JEBONY),
     EC_WORD_LOVEY_DOVEY,
     -1, 2, // Doubled pokemon species name
     EC_POKEMON2(GANJAZE),

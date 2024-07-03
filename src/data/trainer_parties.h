@@ -565,7 +565,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_ShellyWeatherInstitute[]
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LAPRAS,
+    .species = SPECIES_JEBONY,
     },
     {
     .iv = 50,
@@ -617,7 +617,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_ShellySeafloorCavern[] =
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LAPRAS,
+    .species = SPECIES_JEBONY,
     },
     {
     .iv = 100,
@@ -1049,7 +1049,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Foster[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_KABUTO,
+    .species = SPECIES_CORORK,
     }
 };
 
@@ -2382,7 +2382,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Warren[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_EEVEE,
+    .species = SPECIES_EEMOJEE,
     },
     {
     .iv = 100,
@@ -2689,7 +2689,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Hope[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_EEVEE,
+    .species = SPECIES_EEMOJEE,
     },
     {
     .iv = 100,
@@ -2797,7 +2797,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Julie[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LAPRAS,
+    .species = SPECIES_JEBONY,
     },
     {
     .iv = 100,
@@ -3243,7 +3243,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Cindy1[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_EEVEE,
+    .species = SPECIES_EEMOJEE,
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_NUGGET
     },
@@ -3319,7 +3319,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntSpaceCenter2[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_FLAREON,
+    .species = SPECIES_BABEYON,
     }
 };
 
@@ -3330,7 +3330,7 @@ static const struct TrainerMonItemCustomMoves sParty_Cindy2[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_EEVEE,
+    .species = SPECIES_EEMOJEE,
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_NUGGET,
     .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},
@@ -3403,7 +3403,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Cindy3[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_EEVEE,
+    .species = SPECIES_EEMOJEE,
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_NUGGET
     },
@@ -3437,7 +3437,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Cindy4[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_EEVEE,
+    .species = SPECIES_EEMOJEE,
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_NUGGET
     },
@@ -3481,7 +3481,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Cindy5[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_EEVEE,
+    .species = SPECIES_EEMOJEE,
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_NUGGET
     },
@@ -3527,7 +3527,7 @@ static const struct TrainerMonItemCustomMoves sParty_Cindy6[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_EEVEE,
+    .species = SPECIES_EEMOJEE,
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_NUGGET,
     .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},
@@ -6806,7 +6806,7 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
     .evs = {0, 252, 6, 0, 0, 252}, 
     .abilityNum = 2,
     .happiness = 252,
-    .species = SPECIES_KABUTO,
+    .species = SPECIES_CORORK,
     .postgameheldItem = ITEM_FOCUS_SASH,
     .heldItem = ITEM_NONE,
     .postgamemoves = {MOVE_RAZOR_SHELL, MOVE_STONE_EDGE, MOVE_SACRED_SWORD, MOVE_AQUA_JET},
@@ -8485,7 +8485,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Josh[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_KABUTO,
+    .species = SPECIES_CORORK,
     .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},
     .moves = {MOVE_TACKLE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
@@ -8833,7 +8833,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wallace[] = {
     .evs = {6, 252, 0, 0, 0, 252}, 
     .abilityNum = 0,
     .happiness = 255,
-    .species = SPECIES_KABUTOPS,
+    .species = SPECIES_BIGOBEET,
 	.ivs = {31, 31, 31, 31, 31, 31}, 
 	.isShiny = FALSE,
 	.pokeball = ITEM_HEAVY_BALL,
@@ -10105,7 +10105,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Aaron[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_EEVEE,
+    .species = SPECIES_EEMOJEE,
     .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},
     .moves = {MOVE_FAIRY_WIND, MOVE_TACKLE, MOVE_SWIFT, MOVE_IRON_TAIL}
     },
@@ -15074,7 +15074,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Tiana[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_EEVEE,
+    .species = SPECIES_EEMOJEE,
     },
     {
     .iv = 0,
@@ -18906,7 +18906,7 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne3[] = {
     .evs = {0, 0, 6, 252, 0, 252},
     .abilityNum = 2,
     .happiness = 0,
-    .species = SPECIES_OMANYTE,
+    .species = SPECIES_ATTACO,
     .postgameheldItem = ITEM_LEFTOVERS,
     .heldItem = ITEM_LEFTOVERS,
     .postgamemoves = {MOVE_SCALD, MOVE_POWER_GEM, MOVE_ICE_BEAM, MOVE_ROCK_POLISH},
@@ -19424,7 +19424,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wattson2[] = {
     .evs = {0, 0, 0, 252, 0, 252}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_JOLTEON,
+    .species = SPECIES_XOKKEON,
     .postgameheldItem = ITEM_ICE_GEM,
     .heldItem = ITEM_NONE,
     .postgamemoves = {MOVE_SHADOW_BALL, MOVE_THUNDERBOLT, MOVE_SIGNAL_BEAM, MOVE_HYPER_VOICE},

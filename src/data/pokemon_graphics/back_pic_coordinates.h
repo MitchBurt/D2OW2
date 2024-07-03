@@ -655,7 +655,7 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x88,
         .y_offset = 5,
     },
-    [SPECIES_LAPRAS] =
+    [SPECIES_JEBONY] =
     {
         .size = 0x78,
         .y_offset = 3,
@@ -665,22 +665,22 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x64,
         .y_offset = 17,
     },
-    [SPECIES_EEVEE] =
+    [SPECIES_EEMOJEE] =
     {
         .size = 0x76,
         .y_offset = 10,
     },
-    [SPECIES_VAPOREON] =
+    [SPECIES_STRESSEON] =
     {
         .size = 0x87,
         .y_offset = 5,
     },
-    [SPECIES_JOLTEON] =
+    [SPECIES_XOKKEON] =
     {
         .size = 0x77,
         .y_offset = 7,
     },
-    [SPECIES_FLAREON] =
+    [SPECIES_BABEYON] =
     {
         .size = 0x87,
         .y_offset = 9,
@@ -690,22 +690,22 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x75,
         .y_offset = 13,
     },
-    [SPECIES_OMANYTE] =
+    [SPECIES_ATTACO] =
     {
         .size = 0x65,
         .y_offset = 12,
     },
-    [SPECIES_OMASTAR] =
+    [SPECIES_GAISER] =
     {
         .size = 0x77,
         .y_offset = 7,
     },
-    [SPECIES_KABUTO] =
+    [SPECIES_CORORK] =
     {
         .size = 0x65,
         .y_offset = 13,
     },
-    [SPECIES_KABUTOPS] =
+    [SPECIES_BIGOBEET] =
     {
         .size = 0x87,
         .y_offset = 6,

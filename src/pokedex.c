@@ -7768,7 +7768,7 @@ static u8 PrintEvolutionTargetSpeciesAndMethod(u8 taskId, u16 species, u8 depth,
 
     StringCopy(gStringVar1, gSpeciesNames[species]);
 
-    //Calculate number of possible direct evolutions (e.g. Eevee has 5 but torchic has 1)
+    //Calculate number of possible direct evolutions (e.g. Eemojee has 5 but torchic has 1)
     for (i = 0; i < EVOS_PER_MON; i++)
     {
         #ifndef POKEMON_EXPANSION

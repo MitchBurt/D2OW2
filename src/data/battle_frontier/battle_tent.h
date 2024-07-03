@@ -1069,7 +1069,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_ADAMANT
     },
     [SLATEPORT_TENT_MON_SHROOMISH_1] = {
-        .species = SPECIES_VAPOREON,
+        .species = SPECIES_STRESSEON,
         .moves = {MOVE_SCALD, MOVE_ICE_BEAM, MOVE_REST, MOVE_TOXIC},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,

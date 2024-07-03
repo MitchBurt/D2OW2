@@ -131,17 +131,17 @@ gCryTable:: @ 869DCF4
 	cry Cry_Grox  @ 869E2E8
 	cry Cry_Nushake  @ 869E2F4
 	cry Cry_Kroller  @ 869E300
-	cry Cry_Lapras  @ 869E30C
+	cry Cry_Jebony  @ 869E30C
 	cry Cry_Ditto  @ 869E318
-	cry Cry_Eevee  @ 869E324
-	cry Cry_Vaporeon  @ 869E330
-	cry Cry_Jolteon  @ 869E33C
-	cry Cry_Flareon  @ 869E348
+	cry Cry_Eemojee  @ 869E324
+	cry Cry_Stresseon  @ 869E330
+	cry Cry_Xokkeon  @ 869E33C
+	cry Cry_Babeyon  @ 869E348
 	cry Cry_Porygon  @ 869E354
-	cry Cry_Omanyte  @ 869E360
-	cry Cry_Omastar  @ 869E36C
-	cry Cry_Kabuto  @ 869E378
-	cry Cry_Kabutops  @ 869E384
+	cry Cry_Attaco  @ 869E360
+	cry Cry_Gaiser  @ 869E36C
+	cry Cry_Corork  @ 869E378
+	cry Cry_Bigobeet  @ 869E384
 	cry Cry_Aerodactyl  @ 869E390
 	cry Cry_Snorlax  @ 869E39C
 	cry Cry_Articuno  @ 869E3A8
@@ -1411,17 +1411,17 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Grox  @ 869F518
 	cry2 Cry_Nushake  @ 869F524
 	cry2 Cry_Kroller  @ 869F530
-	cry2 Cry_Lapras  @ 869F53C
+	cry2 Cry_Jebony  @ 869F53C
 	cry2 Cry_Ditto  @ 869F548
-	cry2 Cry_Eevee  @ 869F554
-	cry2 Cry_Vaporeon  @ 869F560
-	cry2 Cry_Jolteon  @ 869F56C
-	cry2 Cry_Flareon  @ 869F578
+	cry2 Cry_Eemojee  @ 869F554
+	cry2 Cry_Stresseon  @ 869F560
+	cry2 Cry_Xokkeon  @ 869F56C
+	cry2 Cry_Babeyon  @ 869F578
 	cry2 Cry_Porygon  @ 869F584
-	cry2 Cry_Omanyte  @ 869F590
-	cry2 Cry_Omastar  @ 869F59C
+	cry2 Cry_Attaco  @ 869F590
+	cry2 Cry_Gaiser  @ 869F59C
 	cry2 Cry_Kabuto  @ 869F5A8
-	cry2 Cry_Kabutops  @ 869F5B4
+	cry2 Cry_Bigobeet  @ 869F5B4
 	cry2 Cry_Aerodactyl  @ 869F5C0
 	cry2 Cry_Snorlax  @ 869F5CC
 	cry2 Cry_Articuno  @ 869F5D8

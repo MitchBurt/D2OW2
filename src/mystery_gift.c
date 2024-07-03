@@ -63,7 +63,7 @@ enum {
 	CARD_AZ_FLOETTE,
 	CARD_SHINY_BELDUM,
 	CARD_DIANCIE,
-	CARD_SHINY_EEVEE,
+	CARD_SHINY_EEMOJEE,
 	CARD_BEE_ALTARIA,
     CARD_CHRISTMASS_DELIBIRD,
 	CARD_COSPLAY_SKIPPA_LIBRE,
@@ -1348,9 +1348,9 @@ struct MysteryGiftMonStructure gMysteryGiftMons[] =
 		.nickname 			= _("No Nickname"),
 		.isNicknamed		= FALSE,
 	},
-	[CARD_SHINY_EEVEE] =
+	[CARD_SHINY_EEMOJEE] =
     {
-		.species 			= SPECIES_EEVEE,
+		.species 			= SPECIES_EEMOJEE,
 		.helditem 			= ITEM_EXIOLITE,
 		.abilityNum 		= 0,
 		.level 				= 10,

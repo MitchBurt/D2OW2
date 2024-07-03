@@ -708,7 +708,7 @@ gBattleAnims_Moves::
 	.4byte Move_SAPPY_SEED
 	.4byte Move_FREEZY_FROST
 	.4byte Move_SPARKLY_SWIRL
-	.4byte Move_VEEVEE_VOLLEY
+	.4byte Move_VEEMOJEE_VOLLEY
 	.4byte Move_DOUBLE_IRON_BASH
 @@@@@@@@@@@@ GEN 8 @@@@@@@@@@@@
 	.4byte Move_DYNAMAX_CANNON
@@ -13134,7 +13134,7 @@ Move_FREEZY_FROST::
 Move_SPARKLY_SWIRL::
 	end @to do:
 
-Move_VEEVEE_VOLLEY::
+Move_VEEMOJEE_VOLLEY::
 	end @to do:
 
 Move_DOUBLE_IRON_BASH::

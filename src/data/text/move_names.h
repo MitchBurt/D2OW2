@@ -1434,7 +1434,7 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_SAPPY_SEED] = _("Sappy Seed"),
     [MOVE_FREEZY_FROST] = _("Freezy Frost"),
     [MOVE_SPARKLY_SWIRL] = _("Sparkly Swirl"),
-    [MOVE_VEEVEE_VOLLEY] = _("Veevee Volley"),
+    [MOVE_VEEMOJEE_VOLLEY] = _("Veemojee Volley"),
     [MOVE_DOUBLE_IRON_BASH] = _("Double Iron Bash"),
     //GEN 8
     [MOVE_DYNAMAX_CANNON] = _("Dynamax Cannon"),

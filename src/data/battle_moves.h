@@ -10490,7 +10490,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_SPECIAL,
     },
 
-    [MOVE_VEEVEE_VOLLEY] =
+    [MOVE_VEEMOJEE_VOLLEY] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_8
             .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED,
@@ -11824,7 +11824,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_LAPRAS] =
+    [SPECIES_JEBONY] =
     {
         .move = MOVE_SURF,
         .modification = SIGNATURE_MOD_SECONDARY_EFFECT,

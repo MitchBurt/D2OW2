@@ -1585,7 +1585,7 @@ static const union AnimCmd sAnim_KROLLER_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_LAPRAS_1[] =
+static const union AnimCmd sAnim_JEBONY_1[] =
 {
     ANIMCMD_FRAME(1, 30),
     ANIMCMD_FRAME(0, 10),
@@ -1601,28 +1601,28 @@ static const union AnimCmd sAnim_DITTO_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_EEVEE_1[] =
+static const union AnimCmd sAnim_EEMOJEE_1[] =
 {
     ANIMCMD_FRAME(1, 33),
     ANIMCMD_FRAME(0, 5),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_VAPOREON_1[] =
+static const union AnimCmd sAnim_STRESSEON_1[] =
 {
     ANIMCMD_FRAME(1, 40),
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_JOLTEON_1[] =
+static const union AnimCmd sAnim_XOKKEON_1[] =
 {
     ANIMCMD_FRAME(1, 15),
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_FLAREON_1[] =
+static const union AnimCmd sAnim_BABEYON_1[] =
 {
     ANIMCMD_FRAME(1, 30),
     ANIMCMD_FRAME(0, 30),
@@ -1638,7 +1638,7 @@ static const union AnimCmd sAnim_PORYGON_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_OMANYTE_1[] =
+static const union AnimCmd sAnim_ATTACO_1[] =
 {
     ANIMCMD_FRAME(1, 10),
     ANIMCMD_FRAME(0, 10),
@@ -1651,7 +1651,7 @@ static const union AnimCmd sAnim_OMANYTE_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_OMASTAR_1[] =
+static const union AnimCmd sAnim_GAISER_1[] =
 {
     ANIMCMD_FRAME(1, 10),
     ANIMCMD_FRAME(0, 10),
@@ -1660,7 +1660,7 @@ static const union AnimCmd sAnim_OMASTAR_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_KABUTO_1[] =
+static const union AnimCmd sAnim_CORORK_1[] =
 {
     ANIMCMD_FRAME(1, 8),
     ANIMCMD_FRAME(0, 8),
@@ -1673,7 +1673,7 @@ static const union AnimCmd sAnim_KABUTO_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_KABUTOPS_1[] =
+static const union AnimCmd sAnim_BIGOBEET_1[] =
 {
     ANIMCMD_FRAME(1, 10),
     ANIMCMD_FRAME(0, 10),
@@ -9816,9 +9816,9 @@ static const union AnimCmd *const sAnims_KROLLER[] ={
     sAnim_KROLLER_1,
 };
 
-static const union AnimCmd *const sAnims_LAPRAS[] ={
+static const union AnimCmd *const sAnims_JEBONY[] ={
     sAnim_GeneralFrame0,
-    sAnim_LAPRAS_1,
+    sAnim_JEBONY_1,
 };
 
 static const union AnimCmd *const sAnims_DITTO[] ={
@@ -9826,24 +9826,24 @@ static const union AnimCmd *const sAnims_DITTO[] ={
     sAnim_DITTO_1,
 };
 
-static const union AnimCmd *const sAnims_EEVEE[] ={
+static const union AnimCmd *const sAnims_EEMOJEE[] ={
     sAnim_GeneralFrame0,
-    sAnim_EEVEE_1,
+    sAnim_EEMOJEE_1,
 };
 
-static const union AnimCmd *const sAnims_VAPOREON[] ={
+static const union AnimCmd *const sAnims_STRESSEON[] ={
     sAnim_GeneralFrame0,
-    sAnim_VAPOREON_1,
+    sAnim_STRESSEON_1,
 };
 
-static const union AnimCmd *const sAnims_JOLTEON[] ={
+static const union AnimCmd *const sAnims_XOKKEON[] ={
     sAnim_GeneralFrame0,
-    sAnim_JOLTEON_1,
+    sAnim_XOKKEON_1,
 };
 
-static const union AnimCmd *const sAnims_FLAREON[] ={
+static const union AnimCmd *const sAnims_BABEYON[] ={
     sAnim_GeneralFrame0,
-    sAnim_FLAREON_1,
+    sAnim_BABEYON_1,
 };
 
 static const union AnimCmd *const sAnims_PORYGON[] ={
@@ -9851,24 +9851,24 @@ static const union AnimCmd *const sAnims_PORYGON[] ={
     sAnim_PORYGON_1,
 };
 
-static const union AnimCmd *const sAnims_OMANYTE[] ={
+static const union AnimCmd *const sAnims_ATTACO[] ={
     sAnim_GeneralFrame0,
-    sAnim_OMANYTE_1,
+    sAnim_ATTACO_1,
 };
 
-static const union AnimCmd *const sAnims_OMASTAR[] ={
+static const union AnimCmd *const sAnims_GAISER[] ={
     sAnim_GeneralFrame0,
-    sAnim_OMASTAR_1,
+    sAnim_GAISER_1,
 };
 
-static const union AnimCmd *const sAnims_KABUTO[] ={
+static const union AnimCmd *const sAnims_CORORK[] ={
     sAnim_GeneralFrame0,
-    sAnim_KABUTO_1,
+    sAnim_CORORK_1,
 };
 
-static const union AnimCmd *const sAnims_KABUTOPS[] ={
+static const union AnimCmd *const sAnims_BIGOBEET[] ={
     sAnim_GeneralFrame0,
-    sAnim_KABUTOPS_1,
+    sAnim_BIGOBEET_1,
 };
 
 static const union AnimCmd *const sAnims_AERODACTYL[] ={
@@ -14568,17 +14568,17 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(GROX),
     ANIM_CMD(NUSHAKE),
     ANIM_CMD(KROLLER),
-    ANIM_CMD(LAPRAS),
+    ANIM_CMD(JEBONY),
     ANIM_CMD(DITTO),
-    ANIM_CMD(EEVEE),
-    ANIM_CMD(VAPOREON),
-    ANIM_CMD(JOLTEON),
-    ANIM_CMD(FLAREON),
+    ANIM_CMD(EEMOJEE),
+    ANIM_CMD(STRESSEON),
+    ANIM_CMD(XOKKEON),
+    ANIM_CMD(BABEYON),
     ANIM_CMD(PORYGON),
-    ANIM_CMD(OMANYTE),
-    ANIM_CMD(OMASTAR),
-    ANIM_CMD(KABUTO),
-    ANIM_CMD(KABUTOPS),
+    ANIM_CMD(ATTACO),
+    ANIM_CMD(GAISER),
+    ANIM_CMD(CORORK),
+    ANIM_CMD(BIGOBEET),
     ANIM_CMD(AERODACTYL),
     ANIM_CMD(SNORLAX),
     ANIM_CMD(ARTICUNO),

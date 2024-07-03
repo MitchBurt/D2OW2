@@ -2447,10 +2447,10 @@ static void PrintInfoPage_Midde(void)
 	ConvertIntToDecimalStringN(gStringVar3, dexNum, STR_CONV_MODE_LEADING_ZEROS, 3);
 	
 	switch(summary->species){
-		case SPECIES_EEVEE:
+		case SPECIES_EEMOJEE:
 			if(exioliteStatus == 1 && summary->level >= 25){
 				exiolitedexNum  = SpeciesToPokedexNum(summary->species);
-				exioliteSpecies = SPECIES_JOLTEON;
+				exioliteSpecies = SPECIES_XOKKEON;
 			}
 			else
 				exioliteSpecies = summary->species;

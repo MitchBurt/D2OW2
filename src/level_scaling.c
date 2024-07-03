@@ -849,7 +849,7 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_EEVEE:
+		case SPECIES_EEMOJEE:
 			
 		break;
 		case SPECIES_SHERRIF:
@@ -1583,8 +1583,8 @@ u16 GetScaledItem(u16 itemId)
 	u16 newFossilId = ITEM_DOME_FOSSIL;
 	
 	u16 sFossilItemList[] = {
-		ITEM_DOME_FOSSIL,			//Kabuto
-		ITEM_HELIX_FOSSIL,			//Omanyte
+		ITEM_DOME_FOSSIL,			//Corork
+		ITEM_HELIX_FOSSIL,			//Attaco
 		ITEM_OLD_AMBER,				//Aerodactyl
 		ITEM_ROOT_FOSSIL,			//Lileep
 		ITEM_CLAW_FOSSIL,			//Anorith
@@ -2573,7 +2573,7 @@ bool8 canPokemonLearnMove(u16 species, u8 formId, u16 move){
 		case SPECIES_SMEARGLE:
 			return TRUE;
 		break;
-		case SPECIES_EEVEE:
+		case SPECIES_EEMOJEE:
 			if(move == MOVE_CELEBRATE || move == MOVE_HOLD_BACK)
 				return TRUE;
 		break;

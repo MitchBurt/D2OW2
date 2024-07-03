@@ -33,7 +33,7 @@ enum {
 	CARD_AZ_FLOETTE,
 	CARD_SHINY_BELDUM,
 	CARD_DIANCIE,
-	CARD_SHINY_EEVEE,
+	CARD_SHINY_EEMOJEE,
 	CARD_BEE_ALTARIA,
 	CARD_CHRISTMASS_DELIBIRD,
 	CARD_COSPLAY_SKIPPA_LIBRE,
@@ -227,20 +227,20 @@ struct WonderCard gSavedWonderCard[] =
 		.footerLine1Text 		= _("Please continue playing"),
 		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
 	},
-	[CARD_SHINY_EEVEE] =
+	[CARD_SHINY_EEMOJEE] =
     {
-		.flagId 				= FLAG_MYSTERY_GIFT_SHINY_EEVEE,
-		.iconSpecies 			= SPECIES_EEVEE,
-		.idNumber 				= CARD_SHINY_EEVEE,
+		.flagId 				= FLAG_MYSTERY_GIFT_SHINY_EEMOJEE,
+		.iconSpecies 			= SPECIES_EEMOJEE,
+		.idNumber 				= CARD_SHINY_EEMOJEE,
 		.type 					= 0,
 		.bgType 				= CARD_BG_SILVER,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
 		.titleText 				= _("Pokémon D.R.L.O."),
-		.subtitleText 			= _("It's a Shiny Eevee!"),
-		.bodyText 				= _("This Eevee is not only Shiny, it's also "
+		.subtitleText 			= _("It's a Shiny Eemojee!"),
+		.bodyText 				= _("This Eemojee is not only Shiny, it's also "
 									"holding an Exiolite, use it to stop     "
-									"Eevee from evolving but it will get an  "
+									"Eemojee from evolving but it will get an  "
 									"stats boost after level 25!"),
 		.footerLine1Text 		= _("Please continue playing"),
 		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
@@ -573,7 +573,7 @@ static const u16 sMysteryGiftFlags[] =
     FLAG_MYSTERY_GIFT_ETERNAL_FLOETTE,
     FLAG_MYSTERY_GIFT_SHINY_BELDUM,
     FLAG_MYSTERY_GIFT_DIANCIE,
-    FLAG_MYSTERY_GIFT_SHINY_EEVEE,
+    FLAG_MYSTERY_GIFT_SHINY_EEMOJEE,
     FLAG_MYSTERY_GIFT_BEES_ALTARIA,
     FLAG_MYSTERY_GIFT_CHRISTMAS_DELIBIRD,
     FLAG_MYSTERY_GIFT_COSPLAY_SKIPPA_LIBRE,

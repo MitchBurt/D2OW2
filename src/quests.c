@@ -1995,10 +1995,10 @@ static void UnlockQuestMenu(void)
 	//Achievement 8
 	//Unlocked after you have 1 fossil marked as caught
 	//Completed after you have all the fossils marked as caught
-	if(	GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_OMANYTE), 	FLAG_GET_CAUGHT)	||
-		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_OMASTAR), 	FLAG_GET_CAUGHT)	||
-		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_KABUTO), 		FLAG_GET_CAUGHT)	||
-		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_KABUTOPS), 	FLAG_GET_CAUGHT)	||
+	if(	GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ATTACO), 	FLAG_GET_CAUGHT)	||
+		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_GAISER), 	FLAG_GET_CAUGHT)	||
+		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_CORORK), 		FLAG_GET_CAUGHT)	||
+		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_CORORKPS), 	FLAG_GET_CAUGHT)	||
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_AERODACTYL), 	FLAG_GET_CAUGHT)	||
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_LILEEP), 		FLAG_GET_CAUGHT)	||
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ANORITH), 	FLAG_GET_CAUGHT)	||
@@ -2022,10 +2022,10 @@ static void UnlockQuestMenu(void)
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_RELICANTH), 	FLAG_GET_CAUGHT))
 			GetSetQuestFlag(SIDE_QUEST_8, FLAG_SET_UNLOCKED);
 			
-	if(	GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_OMANYTE), 	FLAG_GET_CAUGHT)	&&
-		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_OMASTAR), 	FLAG_GET_CAUGHT)	&&
-		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_KABUTO), 		FLAG_GET_CAUGHT)	&&
-		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_KABUTOPS), 	FLAG_GET_CAUGHT)	&&
+	if(	GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ATTACO), 	FLAG_GET_CAUGHT)	&&
+		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_GAISER), 	FLAG_GET_CAUGHT)	&&
+		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_CORORK), 		FLAG_GET_CAUGHT)	&&
+		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_CORORKPS), 	FLAG_GET_CAUGHT)	&&
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_AERODACTYL), 	FLAG_GET_CAUGHT)	&&
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_LILEEP), 		FLAG_GET_CAUGHT)	&&
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ANORITH), 	FLAG_GET_CAUGHT)	&&
@@ -2151,9 +2151,9 @@ static void UnlockQuestMenu(void)
 				case SPECIES_AMAZULK:
 				case SPECIES_REPLITOR:
 				case SPECIES_GROX:
-				case SPECIES_KABUTO:
-				case SPECIES_KABUTOPS:
-				case SPECIES_JOLTEON:
+				case SPECIES_CORORK:
+				case SPECIES_CORORKPS:
+				case SPECIES_XOKKEON:
 				case SPECIES_DRUDDIGON:
 				case SPECIES_CREEPA:
 				case SPECIES_LEAFEON:
@@ -2391,10 +2391,10 @@ static void Task_QuestMenuProgress(u8 taskId)
 		case SIDE_QUEST_8:
 			if(TRUE){
 			u16 fossilMons[] = {
-				SPECIES_OMANYTE,
-				SPECIES_OMASTAR,
-				SPECIES_KABUTO,
-				SPECIES_KABUTOPS,
+				SPECIES_ATTACO,
+				SPECIES_GAISER,
+				SPECIES_CORORK,
+				SPECIES_CORORKPS,
 				SPECIES_AERODACTYL,
 				SPECIES_LILEEP,
 				SPECIES_ANORITH,

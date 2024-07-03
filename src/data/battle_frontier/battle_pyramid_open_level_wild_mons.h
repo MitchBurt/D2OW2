@@ -43,7 +43,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round1[] =
         .moves = {MOVE_STUN_SPORE, MOVE_FOCUS_PUNCH, MOVE_GIGA_DRAIN, MOVE_MACH_PUNCH}
     },
     {
-        .species = SPECIES_JOLTEON,
+        .species = SPECIES_XOKKEON,
         .lvl = 6,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_THUNDER_WAVE, MOVE_THUNDER, MOVE_PIN_MISSILE, MOVE_QUICK_ATTACK}
@@ -355,7 +355,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round7[] =
         .moves = {MOVE_BLIZZARD, MOVE_BODY_SLAM, MOVE_SURF, MOVE_NONE}
     },
     {
-        .species = SPECIES_LAPRAS,
+        .species = SPECIES_JEBONY,
         .lvl = 5,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_SING, MOVE_BODY_SLAM, MOVE_ICE_BEAM, MOVE_PSYCHIC}
@@ -481,7 +481,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round10[] =
         .moves = {MOVE_IRON_TAIL, MOVE_CRUNCH, MOVE_EARTHQUAKE, MOVE_NONE}
     },
     {
-        .species = SPECIES_OMASTAR,
+        .species = SPECIES_GAISER,
         .lvl = 8,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_SURF, MOVE_MUD_SHOT, MOVE_ANCIENT_POWER, MOVE_NONE}
@@ -591,7 +591,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round12[] =
         .moves = {MOVE_SANDSTORM, MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_NONE}
     },
     {
-        .species = SPECIES_LAPRAS,
+        .species = SPECIES_JEBONY,
         .lvl = 8,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_HAIL, MOVE_ICE_BEAM, MOVE_NONE, MOVE_NONE}
@@ -603,7 +603,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round12[] =
         .moves = {MOVE_SANDSTORM, MOVE_GIGA_DRAIN, MOVE_SOLAR_BEAM, MOVE_NONE}
     },
     {
-        .species = SPECIES_FLAREON,
+        .species = SPECIES_BABEYON,
         .lvl = 6,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_SUNNY_DAY, MOVE_FLAMETHROWER, MOVE_PROTECT, MOVE_NONE}
@@ -955,19 +955,19 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round19[] =
         .moves = {MOVE_THUNDER, MOVE_THUNDER_WAVE, MOVE_SLAM, MOVE_NONE}
     },
     {
-        .species = SPECIES_VAPOREON,
+        .species = SPECIES_STRESSEON,
         .lvl = 8,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_NONE, MOVE_NONE}
     },
     {
-        .species = SPECIES_JOLTEON,
+        .species = SPECIES_XOKKEON,
         .lvl = 6,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_THUNDERBOLT, MOVE_PIN_MISSILE, MOVE_NONE, MOVE_NONE}
     },
     {
-        .species = SPECIES_FLAREON,
+        .species = SPECIES_BABEYON,
         .lvl = 6,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_FLAMETHROWER, MOVE_BITE, MOVE_NONE, MOVE_NONE}
