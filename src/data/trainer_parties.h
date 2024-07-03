@@ -835,7 +835,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Violet[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_EXEGGCUTE,
+    .species = SPECIES_BILLOMINAT,
     .formId = 1
     }
 };
@@ -944,7 +944,7 @@ static const struct TrainerMonNoItemDefaultMoves sTrainerMons_SwimmerMaleGarrett
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SHELLDER,
+    .species = SPECIES_COOLAR,
     },
     {
     .iv = 40,
@@ -952,7 +952,7 @@ static const struct TrainerMonNoItemDefaultMoves sTrainerMons_SwimmerMaleGarrett
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SHELLDER,
+    .species = SPECIES_COOLAR,
     },
     {
     .iv = 40,
@@ -1659,7 +1659,7 @@ static const struct TrainerMonNoItemCustomMoves sTrainerMons_PkmnRangerLogan[] =
 		.evs = {6, 252, 0, 0, 0, 252}, 
 		.abilityNum = 3,
 		.happiness = 0,
-        .species = SPECIES_EXEGGCUTE,
+        .species = SPECIES_BILLOMINAT,
         .moves = {MOVE_SLEEP_POWDER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
@@ -1698,7 +1698,7 @@ static const struct TrainerMonNoItemCustomMoves sTrainerMons_PkmnRangerJackson[]
 		.evs = {6, 252, 0, 0, 0, 252}, 
 		.abilityNum = 2,
 		.happiness = 252,
-        .species = SPECIES_EXEGGCUTE,
+        .species = SPECIES_BILLOMINAT,
         .moves = {MOVE_CONFUSION, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
@@ -2188,7 +2188,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Vito[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_VOLTORB,
+    .species = SPECIES_AWMANE,
     },
     {
     .iv = 100,
@@ -2347,7 +2347,7 @@ static const struct TrainerMonNoItemDefaultMoves sTrainerMons_TuberAlexis[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_KRABBY,
+    .species = SPECIES_STROLOKE,
     },
     {
     .iv = 140,
@@ -2832,7 +2832,7 @@ static const struct TrainerMonNoItemDefaultMoves sTrainerMons_SwimmerFemaleTisha
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_KRABBY,
+    .species = SPECIES_STROLOKE,
     },
     {
     .iv = 110,
@@ -3046,7 +3046,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Tammy[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_GASTLY,
+    .species = SPECIES_SKELEDOOT,
     },
     {
     .iv = 0,
@@ -4745,7 +4745,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Kirk[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_VOLTORB,
+    .species = SPECIES_AWMANE,
     .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},
     .moves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
@@ -6498,7 +6498,7 @@ static const struct TrainerMonItemCustomMoves sParty_Phoebe[] = {
     .evs = {0, 252, 252, 0, 6, 0}, 
     .abilityNum = 2,
     .happiness = 255,
-    .species = SPECIES_MAROWAK_ALOLAN,
+    .species = SPECIES_AMAZULK_ALOLAN,
 	.ivs = {31, 31, 31, 31, 31, 31}, 
 	.isShiny = FALSE,
 	.pokeball = ITEM_DUSK_BALL,
@@ -6613,7 +6613,7 @@ static const struct TrainerMonItemCustomMoves sParty_Glacia[] = {
     .evs = {6, 252, 0, 0, 0, 252}, 
     .abilityNum = 1,
     .happiness = 255,
-    .species = SPECIES_CLOYSTER,
+    .species = SPECIES_FRIDEGE,
 	.ivs = {31, 31, 31, 31, 31, 31}, 
 	.isShiny = FALSE,
 	.pokeball = ITEM_DIVE_BALL,
@@ -6780,7 +6780,7 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
     .evs = {6, 252, 252, 0, 0, 0}, 
     .abilityNum = 2,
     .happiness = 0,
-    .species = SPECIES_ONIX,
+    .species = SPECIES_ESCEEPEE,
     .postgameheldItem = ITEM_SMOOTH_ROCK,
     .heldItem = ITEM_SMOOTH_ROCK,
     .postgamemoves = {MOVE_DRAGON_TAIL, MOVE_STEALTH_ROCK, MOVE_EARTHQUAKE, MOVE_HEAVY_SLAM},
@@ -8466,7 +8466,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Billy[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_KRABBY,
+    .species = SPECIES_STROLOKE,
     },
     {
     .iv = 0,
@@ -8495,7 +8495,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Josh[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_ONIX,
+    .species = SPECIES_ESCEEPEE,
     .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},
     .moves = {MOVE_TACKLE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
@@ -8951,7 +8951,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Ivan[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_KRABBY,
+    .species = SPECIES_STROLOKE,
     },
     {
     .iv = 0,
@@ -9005,7 +9005,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Elliot1[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_KRABBY,
+    .species = SPECIES_STROLOKE,
     },
     {
     .iv = 40,
@@ -9148,7 +9148,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Wade[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SHELLDER,
+    .species = SPECIES_COOLAR,
     }
 };
 
@@ -9361,7 +9361,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jacob[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_VOLTORB,
+    .species = SPECIES_AWMANE,
     },
     {
     .iv = 20,
@@ -9489,7 +9489,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jasmine[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_VOLTORB,
+    .species = SPECIES_AWMANE,
     },
     {
     .iv = 80,
@@ -10506,7 +10506,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Beck[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_EXEGGCUTE,
+    .species = SPECIES_BILLOMINAT,
     },
 	{
     .iv = 0,
@@ -11521,7 +11521,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Kara[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SHELLDER,
+    .species = SPECIES_COOLAR,
     }
 };
 
@@ -12165,7 +12165,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_GinaAndMia2[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_GASTLY,
+    .species = SPECIES_SKELEDOOT,
     .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},
     .moves = {MOVE_NIGHT_SHADE, MOVE_DISABLE, MOVE_NONE, MOVE_NONE}
     },
@@ -17474,7 +17474,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Darian[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_KRABBY,
+    .species = SPECIES_STROLOKE,
     },
 	{
     .iv = 0,
@@ -17554,7 +17554,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Joseph[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_VOLTORB,
+    .species = SPECIES_AWMANE,
     }
 };
 
@@ -17576,7 +17576,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Marcos[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_VOLTORB,
+    .species = SPECIES_AWMANE,
     },
 	{
     .iv = 100,
@@ -18561,7 +18561,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Rachel[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_GASTLY,
+    .species = SPECIES_SKELEDOOT,
     },
     {
     .iv = 0,
@@ -18799,7 +18799,7 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne2[] = {
     .evs = {6, 252, 252, 0, 0, 0}, 
     .abilityNum = 2,
     .happiness = 0,
-    .species = SPECIES_ONIX,
+    .species = SPECIES_ESCEEPEE,
     .postgameheldItem = ITEM_LEFTOVERS,
     .heldItem = ITEM_NONE,
     .postgamemoves = {MOVE_DRAGON_TAIL, MOVE_STEALTH_ROCK, MOVE_EARTHQUAKE, MOVE_HEAVY_SLAM},
@@ -20899,7 +20899,7 @@ static const struct TrainerMonItemCustomMoves sParty_Juan2[] = {
 	.evs = {6, 252, 0, 0, 0, 252}, 
     .happiness = 255,
     .abilityNum = 1,
-	.species = SPECIES_KRABBY,
+	.species = SPECIES_STROLOKE,
     .postgameheldItem = ITEM_LIFE_ORB,
     .heldItem = ITEM_NONE,
     .postgamemoves = {MOVE_CRABHAMMER, MOVE_HAMMER_ARM, MOVE_X_SCISSOR, MOVE_KNOCK_OFF},
@@ -20911,7 +20911,7 @@ static const struct TrainerMonItemCustomMoves sParty_Juan2[] = {
 	.evs = {6, 252, 0, 0, 0, 252}, 
     .happiness = 255,
     .abilityNum = 1,
-	.species = SPECIES_SHELLDER,
+	.species = SPECIES_COOLAR,
     .postgameheldItem = ITEM_KINGS_ROCK,
     .heldItem = ITEM_NONE,
     .postgamemoves = {MOVE_ROCK_BLAST, MOVE_ICICLE_SPEAR, MOVE_SHELL_SMASH, MOVE_PIN_MISSILE},
@@ -21136,7 +21136,7 @@ static const struct TrainerMonItemCustomMoves sParty_Juan5[] = {
 	.evs = {6, 252, 0, 0, 0, 252}, 
     .happiness = 255,
     .abilityNum = 0,
-	.species = SPECIES_CLOYSTER,
+	.species = SPECIES_FRIDEGE,
     .postgameheldItem = ITEM_KINGS_ROCK,
     .heldItem = ITEM_KINGS_ROCK,
     .postgamemoves = {MOVE_ROCK_BLAST, MOVE_ICICLE_SPEAR, MOVE_SHELL_SMASH, MOVE_PIN_MISSILE},

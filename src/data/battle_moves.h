@@ -11662,7 +11662,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_CUBONE] =
+    [SPECIES_SURBSQUACH] =
     {
         .move = MOVE_BONE_CLUB,
         .modification = SIGNATURE_MOD_PRIORITY,
@@ -11671,7 +11671,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_MAROWAK] =
+    [SPECIES_AMAZULK] =
     {
         .move = MOVE_BONE_CLUB,
         .modification = SIGNATURE_MOD_PRIORITY,
@@ -11682,7 +11682,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_MAROWAK_ALOLAN] =
+    [SPECIES_AMAZULK_ALOLAN] =
     {
         .move = MOVE_SHADOW_BONE,
         .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
@@ -11691,7 +11691,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_EXEGGUTOR_ALOLAN] =
+    [SPECIES_CIPHRON_ALOLAN] =
     {
         .move = MOVE_DRAGON_HAMMER,
         .modification = SIGNATURE_MOD_POWER,
@@ -11725,7 +11725,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_HITMONLEE] =
+    [SPECIES_REPLITOR] =
     {
         .move = MOVE_HI_JUMP_KICK,
         .modification = SIGNATURE_MOD_ACCURACY,
@@ -11733,7 +11733,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_HITMONCHAN] =
+    [SPECIES_BIREMIC] =
     {
         .move = MOVE_MACH_PUNCH,
         .modification = SIGNATURE_MOD_POWER,
@@ -11749,7 +11749,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_ELECTRODE] =
+    [SPECIES_ENDERMON] =
     {
         .move = MOVE_ELECTRO_BALL,
         .modification = SIGNATURE_MOD_DAMAGE_STAT,
@@ -11797,7 +11797,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_CLOYSTER] =
+    [SPECIES_FRIDEGE] =
     {
         .move = MOVE_SPIKE_CANNON,
         .modification = SIGNATURE_MOD_MODIFY_FIELD,

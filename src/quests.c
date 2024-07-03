@@ -2118,7 +2118,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_HUNTAIL:
 				case SPECIES_SUDOWOODO:
 				case SPECIES_YGGDRACON:
-				case SPECIES_HITMONCHAN:
+				case SPECIES_BIREMIC:
 				case SPECIES_MUK:
 				case SPECIES_GUMMI:
 				case SPECIES_BRONZONG:
@@ -2148,14 +2148,14 @@ static void UnlockQuestMenu(void)
 				case SPECIES_BAGON:
 				case SPECIES_SCIZOR:
 				case SPECIES_SUGREIVOUS:
-				case SPECIES_MAROWAK:
-				case SPECIES_HITMONLEE:
+				case SPECIES_AMAZULK:
+				case SPECIES_REPLITOR:
 				case SPECIES_TAUROS:
 				case SPECIES_KABUTO:
 				case SPECIES_KABUTOPS:
 				case SPECIES_JOLTEON:
 				case SPECIES_DRUDDIGON:
-				case SPECIES_KINGLER:
+				case SPECIES_CREEPA:
 				case SPECIES_LEAFEON:
 				case SPECIES_EBOLABLE:
 				case SPECIES_REGISTEEL:
@@ -2164,7 +2164,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_TEDDIURSA:
 				case SPECIES_LARVITAR:
 				case SPECIES_AZURILL:
-				case SPECIES_CUBONE:
+				case SPECIES_SURBSQUACH:
 				case SPECIES_CHIMECHO:
 				case SPECIES_SANDILE:
 				case SPECIES_MYRESFT:

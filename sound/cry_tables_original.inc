@@ -88,26 +88,26 @@ gCryTable:: @ 869DCF4
 	cry Cry_Parangelia  @ 869E0E4
 	cry Cry_Dabboi  @ 869E0F0
 	cry Cry_Titenic  @ 869E0FC
-	cry Cry_Grimer  @ 869E108
+	cry Cry_Gummi  @ 869E108
 	cry Cry_Muk  @ 869E114
-	cry Cry_Shellder  @ 869E120
-	cry Cry_Cloyster  @ 869E12C
-	cry Cry_Gastly  @ 869E138
-	cry Cry_Haunter  @ 869E144
-	cry Cry_Gengar  @ 869E150
-	cry Cry_Onix  @ 869E15C
-	cry Cry_Drowzee  @ 869E168
+	cry Cry_Coolar  @ 869E120
+	cry Cry_Fridege  @ 869E12C
+	cry Cry_Skeledoot  @ 869E138
+	cry Cry_Beegmike  @ 869E144
+	cry Cry_Sans  @ 869E150
+	cry Cry_Esceepee  @ 869E15C
+	cry Cry_Shapipiz  @ 869E168
 	cry Cry_Hypno  @ 869E174
-	cry Cry_Krabby  @ 869E180
-	cry Cry_Kingler  @ 869E18C
-	cry Cry_Voltorb  @ 869E198
-	cry Cry_Electrode  @ 869E1A4
-	cry Cry_Exeggcute  @ 869E1B0
-	cry Cry_Exeggutor  @ 869E1BC
-	cry Cry_Cubone  @ 869E1C8
-	cry Cry_Marowak  @ 869E1D4
-	cry Cry_Hitmonlee  @ 869E1E0
-	cry Cry_Hitmonchan  @ 869E1EC
+	cry Cry_Stroloke  @ 869E180
+	cry Cry_Creepa  @ 869E18C
+	cry Cry_Awmane  @ 869E198
+	cry Cry_Endermon  @ 869E1A4
+	cry Cry_Billominat  @ 869E1B0
+	cry Cry_Ciphron  @ 869E1BC
+	cry Cry_Surbsquach  @ 869E1C8
+	cry Cry_Amazulk  @ 869E1D4
+	cry Cry_Replitor  @ 869E1E0
+	cry Cry_Biremic  @ 869E1EC
 	cry Cry_Lickitung  @ 869E1F8
 	cry Cry_Koffing  @ 869E204
 	cry Cry_Weezing  @ 869E210
@@ -914,7 +914,7 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Fazeagle_Mega
 	cry_not Cry_Kuklops_Mega
 	cry_not Cry_Shemue_Mega
-	cry_not Cry_Gengar_Mega
+	cry_not Cry_Sans_Mega
 	cry_not Cry_Kangaskhan_Mega
 	cry_not Cry_Pinsir_Mega
 	cry_not Cry_Gyarados_Mega
@@ -972,10 +972,10 @@ gCryTable:: @ 869DCF4
 	cry Cry_Rock
 	cry Cry_Toncrete
 	cry Cry_Lossilith
-	cry Cry_Grimer
+	cry Cry_Gummi
 	cry Cry_Muk
-	cry Cry_Exeggutor
-	cry Cry_Marowak
+	cry Cry_Ciphron
+	cry Cry_Amazulk
 	@ Galarian Forms
 	cry Cry_Garfel
 	cry Cry_Debeguck
@@ -1368,26 +1368,26 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Parangelia  @ 869F314
 	cry2 Cry_Dabboi  @ 869F320
 	cry2 Cry_Titenic  @ 869F32C
-	cry2 Cry_Grimer  @ 869F338
+	cry2 Cry_Gummi  @ 869F338
 	cry2 Cry_Muk  @ 869F344
-	cry2 Cry_Shellder  @ 869F350
-	cry2 Cry_Cloyster  @ 869F35C
-	cry2 Cry_Gastly  @ 869F368
-	cry2 Cry_Haunter  @ 869F374
-	cry2 Cry_Gengar  @ 869F380
-	cry2 Cry_Onix  @ 869F38C
-	cry2 Cry_Drowzee  @ 869F398
+	cry2 Cry_Coolar  @ 869F350
+	cry2 Cry_Fridege  @ 869F35C
+	cry2 Cry_Skeledoot  @ 869F368
+	cry2 Cry_Beegmike  @ 869F374
+	cry2 Cry_Sans  @ 869F380
+	cry2 Cry_Esceepee  @ 869F38C
+	cry2 Cry_Shapipiz  @ 869F398
 	cry2 Cry_Hypno  @ 869F3A4
-	cry2 Cry_Krabby  @ 869F3B0
-	cry2 Cry_Kingler  @ 869F3BC
-	cry2 Cry_Voltorb  @ 869F3C8
-	cry2 Cry_Electrode  @ 869F3D4
-	cry2 Cry_Exeggcute  @ 869F3E0
-	cry2 Cry_Exeggutor  @ 869F3EC
-	cry2 Cry_Cubone  @ 869F3F8
-	cry2 Cry_Marowak  @ 869F404
-	cry2 Cry_Hitmonlee  @ 869F410
-	cry2 Cry_Hitmonchan  @ 869F41C
+	cry2 Cry_Stroloke  @ 869F3B0
+	cry2 Cry_Creepa  @ 869F3BC
+	cry2 Cry_Awmane  @ 869F3C8
+	cry2 Cry_Endermon  @ 869F3D4
+	cry2 Cry_Billominat  @ 869F3E0
+	cry2 Cry_Ciphron  @ 869F3EC
+	cry2 Cry_Surbsquach  @ 869F3F8
+	cry2 Cry_Amazulk  @ 869F404
+	cry2 Cry_Replitor  @ 869F410
+	cry2 Cry_Biremic  @ 869F41C
 	cry2 Cry_Lickitung  @ 869F428
 	cry2 Cry_Koffing  @ 869F434
 	cry2 Cry_Weezing  @ 869F440
@@ -2192,7 +2192,7 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Fazeagle_Mega
 	cry2_not Cry_Kuklops_Mega
 	cry2_not Cry_Shemue_Mega
-	cry2_not Cry_Gengar_Mega
+	cry2_not Cry_Sans_Mega
 	cry2_not Cry_Kangaskhan_Mega
 	cry2_not Cry_Pinsir_Mega
 	cry2_not Cry_Gyarados_Mega
@@ -2250,10 +2250,10 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Rock
 	cry2 Cry_Toncrete
 	cry2 Cry_Lossilith
-	cry2 Cry_Grimer
+	cry2 Cry_Gummi
 	cry2 Cry_Muk
-	cry2 Cry_Exeggutor
-	cry2 Cry_Marowak
+	cry2 Cry_Ciphron
+	cry2 Cry_Amazulk
 	@ Galarian Forms
 	cry2 Cry_Garfel
 	cry2 Cry_Debeguck

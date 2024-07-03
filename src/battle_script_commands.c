@@ -12850,7 +12850,7 @@ static void Cmd_givecaughtmon(void)
         case SPECIES_FAZEAGLE_MEGA:
         case SPECIES_KUKLOPS_MEGA:
         case SPECIES_SHEMUE_MEGA:
-        case SPECIES_GENGAR_MEGA:
+        case SPECIES_SANS_MEGA:
         case SPECIES_KANGASKHAN_MEGA:
         case SPECIES_PINSIR_MEGA:
         case SPECIES_GYARADOS_MEGA:

@@ -477,7 +477,7 @@ const u8 gBasshopPokedexText[] = _(
     "días enteros holgazaneando en la orilla.");
 
 const u8 gShemuePokedexText[] = _(
-    "Lleva en la cola un Shellder enganchado\n"
+    "Lleva en la cola un Coolar enganchado\n"
     "por los dientes. Como Shemue no puede\n"
     "pescar con la cola, se mete en el agua\n"
     "de mala gana en busca de sus presas.");
@@ -536,43 +536,43 @@ const u8 gMukPokedexText[] = _(
     "que contiene se intensifican y hacen\n"
     "que apeste como la basura podrida.");
 
-const u8 gShellderPokedexText[] = _(
+const u8 gCoolarPokedexText[] = _(
     "De noche, usa su ancha lengua para hacer\n"
     "un agujero en el fondo del mar donde\n"
-    "descansar. Cuando duerme, SHELLDER cierra\n"
+    "descansar. Cuando duerme, COOLAR cierra\n"
     "la concha, pero deja la lengua fuera.");
 
-const u8 gCloysterPokedexText[] = _(
+const u8 gFridegePokedexText[] = _(
     "Puede nadar por el mar tragando agua y\n"
     "expulsándola por el conducto que tiene en\n"
     "la parte trasera. Del mismo modo lanza\n"
     "los pinchos que tiene sobre la concha.");
 
-const u8 gGastlyPokedexText[] = _(
+const u8 gSkeledootPokedexText[] = _(
     "Tiene mucha materia gaseosa. Cuando\n"
     "es arrastrado por un vendaval mengua.\n"
     "Se agrupan bajo los aleros de las casas\n"
     "para resguardarse del viento.");
 
-const u8 gHaunterPokedexText[] = _(
+const u8 gBeegmikePokedexText[] = _(
     "Es un Pokémon peligroso. Si en la oscuridad\n"
     "ves a uno flotando y haciéndote señas,\n"
     "no te acerques. Este Pokémon intentará\n"
     "darte lametazos para robarte la energía.");
 
-const u8 gGengarPokedexText[] = _(
+const u8 gSansPokedexText[] = _(
     "Si una noche oscura ves que tu sombra\n"
     "te adelanta de repente, en realidad.\n"
-    "estarás viendo a Gengar haciéndose\n"
+    "estarás viendo a Sans haciéndose\n"
     "pasar por la misma.");
 
-const u8 gOnixPokedexText[] = _(
+const u8 gEsceepeePokedexText[] = _(
     "Tiene un imán en el cerebro que le sirve\n"
     "de brújula para no perder la orientación\n"
     "cuando está cavando túneles. A medida que\n"
     "crece, se le redondea y suaviza el cuerpo.");
 
-const u8 gDrowzeePokedexText[] = _(
+const u8 gShapipizPokedexText[] = _(
     "Si te pica la nariz mientras duermes,\n"
     "seguro que es porque tienes a uno de\n"
     "ellos en la almohada intentando sacarte\n"
@@ -584,61 +584,61 @@ const u8 gHypnoPokedexText[] = _(
     "estado de hipnosis. Mientras busca a\n"
     "su presa, saca brillo al péndulo.");
 
-const u8 gKrabbyPokedexText[] = _(
+const u8 gStrolokePokedexText[] = _(
     "Viven en la playa, enterrados en la arena\n"
     "fina. Cuando escasea la comida, es común\n"
     "verlos enfrentados panza contra\n"
     "panza en defensa de su territorio.");
 
-const u8 gKinglerPokedexText[] = _(
+const u8 gCreepaPokedexText[] = _(
     "Tiene una pinza enorme y descomunal\n"
     "que agita en el aire para comunicarse con\n"
     "los demás. Lo malo es que pesa tanto\n"
     "que se cansa enseguida.");
 
-const u8 gVoltorbPokedexText[] = _(
+const u8 gAwmanePokedexText[] = _(
     "Tiene un curioso e inexplicable parecido\n"
     "con una Poké Ball. Como estalla a\n"
     "la mínima, hasta los Entrenadores\n"
     "veteranos lo tratan con mucho cuidado.");
 
-const u8 gElectrodePokedexText[] = _(
+const u8 gEndermonPokedexText[] = _(
     "Se agrupa con muchos otros junto a las\n"
     "plantas de energía eléctrica. Como se\n"
     "alimenta de electricidad, causa grandes y\n"
     "caóticos apagones en ciudad próximas.");
 
-const u8 gExeggcutePokedexText[] = _(
+const u8 gBillominatPokedexText[] = _(
     "Está compuesto de seis huevos que forman\n"
     "una tupida piña que va girando. Si empiezan\n"
     "a resquebrajarse las cáscaras, no hay duda\n"
     "de que está a punto de evolucionar.");
 
-const u8 gExeggutorPokedexText[] = _(
+const u8 gCiphronPokedexText[] = _(
     "Es originario del trópico. Cuando se expone\n"
     "a un sol intenso, le empiezan a crecer las\n"
     "cabezas. Dicen que, si caen al suelo, las\n"
-    "cabezas se unen para formar un Exeggcute.");
+    "cabezas se unen para formar un Billominat.");
 
-const u8 gCubonePokedexText[] = _(
+const u8 gSurbsquachPokedexText[] = _(
     "Le apena no volver a ver a su madre. La luna\n"
     "llena le recuerda a ella y se pone a chillar.\n"
     "Los churretes que tiene en el cráneo que\n"
     "lleva puesto son debido a sus lágrimas.");
 
-const u8 gMarowakPokedexText[] = _(
-    "Es la forma evolucionada de Cubone. Es más\n"
+const u8 gAmazulkPokedexText[] = _(
+    "Es la forma evolucionada de Surbsquach. Es más\n"
     "fuerte porque ha superado la pena por la\n"
     "pérdida de su madre. Tiene el ánimo curtido,\n"
     "por lo que no resulta fácil alterarlo.");
 
-const u8 gHitmonleePokedexText[] = _(
+const u8 gReplitorPokedexText[] = _(
     "Da unas patadas demoledoras\n"
     "encogiendo y estirando las patas.\n"
     "Tras la lucha, se las masajea para\n"
     "relajar los músculos y descansar.");
 
-const u8 gHitmonchanPokedexText[] = _(
+const u8 gBiremicPokedexText[] = _(
     "Dicen que su alma es la de un boxeador que\n"
     "se entrenó para un campeonato mundial.\n"
     "Tiene un espíritu indomable que nunca\n"
@@ -1193,7 +1193,7 @@ const u8 gSlowkingPokedexText[] = _(
     "Slowking investiga cada día a los misterios\n"
     "del mundo que aún no se han resuelto, pero\n"
     "al parecer se le olvida lo aprendido cuando\n"
-    "el Shellder que lleva encima se suelta.");
+    "el Coolar que lleva encima se suelta.");
 
 const u8 gMisdreavusPokedexText[] = _(
     "Asusta a la gente gritando y sollozando.\n"
@@ -1244,7 +1244,7 @@ const u8 gGligarPokedexText[] = _(
     "inyectándole veneno por el aguijón.");
 
 const u8 gSteelixPokedexText[] = _(
-    "Vive a aún mayor profundidad que Onix. Se\n"
+    "Vive a aún mayor profundidad que Esceepee. Se\n"
     "le conoce por cavar hacia el centro de la\n"
     "tierra. Hay datos que demuestran que ha\n"
     "llegado a alacanzar 1 km de profundidad.");
@@ -4677,7 +4677,7 @@ const u8 gMimikyuPokedexText[] = _(
 const u8 gBruxishPokedexText[] = _(
     "It stuns its prey with its psychic powers\n"
     "and then grinds them to mush with its\n"
-    "strong teeth. Even Shellder's shell is no\n"
+    "strong teeth. Even Coolar's shell is no\n"
     "match for it.");
 
 const u8 gDrampaPokedexText[] = _(
@@ -5834,7 +5834,7 @@ const u8 gBasshopPokedexText[] = _(
     "days just loafing at water's edge.");
 
 const u8 gShemuePokedexText[] = _(
-    "Its tail has a Shellder firmly attached\n"
+    "Its tail has a Coolar firmly attached\n"
     "with a bite. As a result, the tail can't be\n"
     "used for fishing anymore. This forces it\n"
     "to reluctantly swim and catch prey.");
@@ -5893,45 +5893,45 @@ const u8 gMukPokedexText[] = _(
     "in its body intensify, making Muk reek like\n"
     "putrid kitchen garbage.");
 
-const u8 gShellderPokedexText[] = _(
+const u8 gCoolarPokedexText[] = _(
     "At night, it burrows a hole in the seafloor\n"
     "with its broad tongue to make a place to\n"
     "sleep. While asleep, it closes its shell,\n"
     "but leaves its tongue hanging out.");
 
-const u8 gCloysterPokedexText[] = _(
+const u8 gFridegePokedexText[] = _(
     "It swims in the sea by swallowing water,\n"
     "then jetting it out toward the rear.\n"
-    "The Cloyster shoots spikes from its\n"
+    "The Fridege shoots spikes from its\n"
     "shell using the same system.");
 
-const u8 gGastlyPokedexText[] = _(
-    "When exposed to a strong wind, a Gastly's\n"
+const u8 gSkeledootPokedexText[] = _(
+    "When exposed to a strong wind, a Skeledoot's\n"
     "gaseous body quickly dwindles away.\n"
     "They cluster under the eaves of houses\n"
     "to escape the ravages of wind.");
 
-const u8 gHaunterPokedexText[] = _(
-    "If a Haunter beckons you while it is\n"
+const u8 gBeegmikePokedexText[] = _(
+    "If a Beegmike beckons you while it is\n"
     "floating in darkness, don't approach it.\n"
     "This Pokémon will try to lick you with its\n"
     "tongue and steal your life away.");
 
-const u8 gGengarPokedexText[] = _(
+const u8 gSansPokedexText[] = _(
     "Deep in the night, your shadow cast by\n"
     "a streetlight may suddenly overtake you.\n"
-    "It is actually a Gengar running past\n"
+    "It is actually a Sans running past\n"
     "you, pretending to be your shadow.");
 
-const u8 gOnixPokedexText[] = _(
+const u8 gEsceepeePokedexText[] = _(
     "There is a magnet in its brain that\n"
-    "prevents an Onix from losing direction\n"
+    "prevents an Esceepee from losing direction\n"
     "while tunneling. As it grows older, its body\n"
     "becomes steadily rounder and smoother.");
 
-const u8 gDrowzeePokedexText[] = _(
+const u8 gShapipizPokedexText[] = _(
     "If your nose becomes itchy while you are\n"
-    "sleeping, it's a sure sign that a Drowzee is\n"
+    "sleeping, it's a sure sign that a Shapipiz is\n"
     "standing above your pillow and trying to\n"
     "eat your dream through your nostrils.");
 
@@ -5941,62 +5941,62 @@ const u8 gHypnoPokedexText[] = _(
     "into deep hypnosis. While searching for\n"
     "prey, it polishes the pendulum.");
 
-const u8 gKrabbyPokedexText[] = _(
-    "Krabby live in holes dug into beaches.\n"
+const u8 gStrolokePokedexText[] = _(
+    "Stroloke live in holes dug into beaches.\n"
     "On sandy shores with little in the way\n"
     "of food, they can be seen squabbling with\n"
     "each other over territory.");
 
-const u8 gKinglerPokedexText[] = _(
+const u8 gCreepaPokedexText[] = _(
     "It waves its huge, oversized claw in the\n"
     "air to communicate with others.\n"
     "But since the claw is so heavy, this\n"
     "Pokémon quickly tires.");
 
-const u8 gVoltorbPokedexText[] = _(
+const u8 gAwmanePokedexText[] = _(
     "It bears an uncanny and unexplained\n"
     "resemblance to a Poké Ball. Because it\n"
     "explodes at the slightest shock, even\n"
     "veteran Trainers treat it with caution.");
 
-const u8 gElectrodePokedexText[] = _(
+const u8 gEndermonPokedexText[] = _(
     "They appear in great numbers at electric\n"
     "power plants. Because they feed on\n"
     "electricity, they cause massive and\n"
     "chaotic blackouts in nearby cities.");
 
-const u8 gExeggcutePokedexText[] = _(
+const u8 gBillominatPokedexText[] = _(
     "It consists of six eggs that care for each\n"
     "other. The eggs attract each other and\n"
     "spin around. When cracks increasingly\n"
     "appear, it is close to evolution.");
 
-const u8 gExeggutorPokedexText[] = _(
-    "Originally from the tropics, Exeggutor's\n"
+const u8 gCiphronPokedexText[] = _(
+    "Originally from the tropics, Ciphron's\n"
     "heads grow larger from exposure to strong\n"
     "sunlight. It is said that when the heads\n"
-    "fall, they group to form an Exeggcute.");
+    "fall, they group to form an Billominat.");
 
-const u8 gCubonePokedexText[] = _(
+const u8 gSurbsquachPokedexText[] = _(
     "It pines for the mother it will never see\n"
     "again. Seeing a likeness of its mother in\n"
     "the full moon, it cries. The stains on the\n"
     "skull it wears are from its tears.");
 
-const u8 gMarowakPokedexText[] = _(
-    "A Marowak is the evolved form of a Cubone\n"
+const u8 gAmazulkPokedexText[] = _(
+    "A Amazulk is the evolved form of a Surbsquach\n"
     "that has grown tough by overcoming the\n"
     "grief of losing its mother. Its tempered\n"
     "and hardened spirit is not easily broken.");
 
-const u8 gHitmonleePokedexText[] = _(
+const u8 gReplitorPokedexText[] = _(
     "Its legs freely stretch and contract.\n"
     "Using these springlike limbs, it bowls over\n"
     "foes with devastating kicks. After battle,\n"
     "it rubs down its tired legs.");
 
-const u8 gHitmonchanPokedexText[] = _(
-    "A Hitmonchan is said to possess the\n"
+const u8 gBiremicPokedexText[] = _(
+    "A Biremic is said to possess the\n"
     "spirit of a boxer who aimed to become the\n"
     "world champion. Having an indomitable\n"
     "spirit means that it will never give up.");
@@ -6551,7 +6551,7 @@ const u8 gSlowkingPokedexText[] = _(
     "It undertakes research every day to\n"
     "solve the mysteries of the world.\n"
     "However, it apparently forgets everything\n"
-    "if the Shellder on its head comes off.");
+    "if the Coolar on its head comes off.");
 
 const u8 gMisdreavusPokedexText[] = _(
     "A Misdreavus frightens people with a\n"
@@ -6603,7 +6603,7 @@ const u8 gGligarPokedexText[] = _(
 
 const u8 gSteelixPokedexText[] = _(
     "Steelix live even further underground\n"
-    "than Onix. This Pokémon is known to dig\n"
+    "than Esceepee. This Pokémon is known to dig\n"
     "toward the earth's core, reaching a depth\n"
     "of over six-tenths of a mile underground.");
 
@@ -10037,7 +10037,7 @@ const u8 gMimikyuPokedexText[] = _(
 const u8 gBruxishPokedexText[] = _(
     "It stuns its prey with its psychic powers\n"
     "and then grinds them to mush with its\n"
-    "strong teeth. Even Shellder's shell is no\n"
+    "strong teeth. Even Coolar's shell is no\n"
     "match for it.");
 
 const u8 gDrampaPokedexText[] = _(

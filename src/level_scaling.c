@@ -865,8 +865,8 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 		case SPECIES_TYROGUE:
 			if(level >= 20){
 				u16 PossibleEvo[] = {
-					SPECIES_HITMONLEE,
-					SPECIES_HITMONCHAN,
+					SPECIES_REPLITOR,
+					SPECIES_BIREMIC,
 					SPECIES_HITMONTOP,
 				};
 				
@@ -1220,17 +1220,17 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 			else
 				return basespecies;
 		break;
-		case SPECIES_EXEGGUTOR:
+		case SPECIES_CIPHRON:
 			if(gMapHeader.region == REGION_SEVII)
-				return SPECIES_EXEGGUTOR_ALOLAN;
+				return SPECIES_CIPHRON_ALOLAN;
 			else
 				return basespecies;
 		break;
-		case SPECIES_MAROWAK:
+		case SPECIES_AMAZULK:
 			if(gMapHeader.region == REGION_SEVII)
-				return SPECIES_MAROWAK_ALOLAN;
+				return SPECIES_AMAZULK_ALOLAN;
 			else
-				return SPECIES_MAROWAK;
+				return SPECIES_AMAZULK;
 		break;
 		case SPECIES_MR_MIME:
 			if(gMapHeader.region == REGION_SEVII)
@@ -2372,9 +2372,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 		case SPECIES_SIRFETCHD:
 			item = ITEM_STICK;
 		break;
-		case SPECIES_CUBONE:
-		case SPECIES_MAROWAK_ALOLAN:
-		case SPECIES_MAROWAK:
+		case SPECIES_SURBSQUACH:
+		case SPECIES_AMAZULK_ALOLAN:
+		case SPECIES_AMAZULK:
 			item = ITEM_THICK_CLUB;
 		break;
 		case SPECIES_DITTO:
@@ -2448,9 +2448,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_GARDEVOIRITE;
 		break;
-		case SPECIES_GENGAR:
+		case SPECIES_SANS:
 			if(canMega)
-				item = ITEM_GENGARITE;
+				item = ITEM_SANSITE;
 		break;
 		case SPECIES_GLALIE:
 			if(canMega)

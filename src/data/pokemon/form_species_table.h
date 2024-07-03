@@ -157,21 +157,21 @@ static const u16 sMukFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sGengarFormSpeciesIdTable[] = {
-    SPECIES_GENGAR,
-    SPECIES_GENGAR_MEGA,
+static const u16 sSansFormSpeciesIdTable[] = {
+    SPECIES_SANS,
+    SPECIES_SANS_MEGA,
     0xFFFF,
 };
 
-static const u16 sExeggutorFormSpeciesIdTable[] = {
-    SPECIES_EXEGGUTOR,
-    SPECIES_EXEGGUTOR_ALOLAN,
+static const u16 sCiphronFormSpeciesIdTable[] = {
+    SPECIES_CIPHRON,
+    SPECIES_CIPHRON_ALOLAN,
     0xFFFF,
 };
 
-static const u16 sMarowakFormSpeciesIdTable[] = {
-    SPECIES_MAROWAK,
-    SPECIES_MAROWAK_ALOLAN,
+static const u16 sAmazulkFormSpeciesIdTable[] = {
+    SPECIES_AMAZULK,
+    SPECIES_AMAZULK_ALOLAN,
     0xFFFF,
 };
 

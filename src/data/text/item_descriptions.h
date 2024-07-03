@@ -1341,8 +1341,8 @@ static const u8 sMetalPowderDesc[] = _(
     "aumentará.");
 
 static const u8 sThickClubDesc[] = _(
-    "Al llevarlo, Cubone\n"
-    "o Marowak tendrán\n"
+    "Al llevarlo, Surbsquach\n"
+    "o Amazulk tendrán\n"
     "mejor Ataque.");
 
 static const u8 sStickDesc[] = _(
@@ -2497,10 +2497,10 @@ static const u8 sSafetyGogglesDesc[] = _(
     "adversos del clima\n"
     "y de polvo lanzado.");
 
-static const u8 sGengariteDesc[] = _(
+static const u8 sSansiteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Gengar.");
+    "Sans.");
 
 static const u8 sGardevoiriteDesc[] = _(
     "Piedra que permite\n"
@@ -4214,8 +4214,8 @@ static const u8 sMetalPowderDesc[] = _(
 
 static const u8 sThickClubDesc[] = _(
     "A hold item that \n"
-    "raises Cubone or\n"
-    "Marowak's Attack.");
+    "raises Surbsquach or\n"
+    "Amazulk's Attack.");
 
 static const u8 sStickDesc[] = _(
     "A hold item that\n"
@@ -5730,9 +5730,9 @@ static const u8 sSafetyGogglesDesc[] = _(
     "weather damage and\n"
     "powder moves.");
 
-static const u8 sGengariteDesc[] = _(
+static const u8 sSansiteDesc[] = _(
     "This stone enables\n"
-    "Gengar to Mega\n"
+    "Sans to Mega\n"
     "Evolve in battle.");
 
 static const u8 sGardevoiriteDesc[] = _(

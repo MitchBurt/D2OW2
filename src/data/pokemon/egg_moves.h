@@ -592,7 +592,7 @@ const u16 gEggMoves[] = {
 		MOVE_POWER_UP_PUNCH,
 		MOVE_EXPLOSION),
 
-	egg_moves(SHELLDER,
+	egg_moves(COOLAR,
 		MOVE_BUBBLE_BEAM,
 		MOVE_WATER_PULSE,
 		MOVE_AQUA_RING,
@@ -607,7 +607,7 @@ const u16 gEggMoves[] = {
 		MOVE_ROCK_BLAST,
 		MOVE_AVALANCHE),
 
-	egg_moves(GASTLY,
+	egg_moves(SKELEDOOT,
 		MOVE_DISABLE,
 		MOVE_TOXIC,
 		MOVE_HAZE,
@@ -625,7 +625,7 @@ const u16 gEggMoves[] = {
 		MOVE_EXPLOSION,
 		MOVE_WILL_O_WISP),
 
-	egg_moves(ONIX,
+	egg_moves(ESCEEPEE,
 		MOVE_DEFENSE_CURL,
 		MOVE_FLAIL,
 		MOVE_ROLLOUT,
@@ -642,7 +642,7 @@ const u16 gEggMoves[] = {
 		MOVE_SHORE_UP,
 		MOVE_ROCK_SLIDE),
 
-	egg_moves(DROWZEE,
+	egg_moves(SHAPIPIZ,
 		MOVE_FIRE_PUNCH,
 		MOVE_ICE_PUNCH,
 		MOVE_THUNDER_PUNCH,
@@ -661,7 +661,7 @@ const u16 gEggMoves[] = {
 		MOVE_WISH,
 		MOVE_LIGHT_SCREEN),
 
-	egg_moves(KRABBY,
+	egg_moves(STROLOKE,
 		MOVE_SLASH,
 		MOVE_ANCIENT_POWER,
 		MOVE_KNOCK_OFF,
@@ -680,7 +680,7 @@ const u16 gEggMoves[] = {
 		MOVE_SWORDS_DANCE,
 		MOVE_DIG),
 
-	egg_moves(EXEGGCUTE,
+	egg_moves(BILLOMINAT,
 		MOVE_POISON_POWDER,
 		MOVE_STUN_SPORE,
 		MOVE_SLEEP_POWDER,
@@ -702,7 +702,7 @@ const u16 gEggMoves[] = {
 		MOVE_PSYCH_UP,
 		MOVE_MEGA_DRAIN),
 
-	egg_moves(CUBONE,
+	egg_moves(SURBSQUACH,
 		MOVE_SHADOW_BONE,
 		MOVE_DOUBLE_KICK,
 		MOVE_LEER,
