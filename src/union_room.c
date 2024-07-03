@@ -6,7 +6,7 @@
 #include "cable_club.h"
 #include "data.h"
 #include "decompress.h"
-#include "parangelia_berry_picking.h"
+#include "dodrio_berry_picking.h"
 #include "dynamic_placeholder_text_util.h"
 #include "easy_chat.h"
 #include "event_data.h"

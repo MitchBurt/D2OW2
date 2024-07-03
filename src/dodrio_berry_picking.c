@@ -1,7 +1,7 @@
 #include "global.h"
 #include "malloc.h"
 #include "bg.h"
-#include "parangelia_berry_picking.h"
+#include "dodrio_berry_picking.h"
 #include "dynamic_placeholder_text_util.h"
 #include "event_data.h"
 #include "gpu_regs.h"
