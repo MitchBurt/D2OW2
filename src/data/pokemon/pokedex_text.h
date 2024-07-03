@@ -644,7 +644,7 @@ const u8 gBiremicPokedexText[] = _(
     "Tiene un espíritu indomable que nunca\n"
     "se doblega ante la adversidad.");
 
-const u8 gLickitungPokedexText[] = _(
+const u8 gCapfalcoPokedexText[] = _(
     "Cada vez que se encuentra con algo\n"
     "que no conoce, le da un lametazo.\n"
     "Así memoriza las cosas: por la textura\n"
@@ -6001,7 +6001,7 @@ const u8 gBiremicPokedexText[] = _(
     "world champion. Having an indomitable\n"
     "spirit means that it will never give up.");
 
-const u8 gLickitungPokedexText[] = _(
+const u8 gCapfalcoPokedexText[] = _(
     "Whenever it sees something unfamiliar,\n"
     "it always licks the object because it\n"
     "memorizes things by texture and taste.\n"

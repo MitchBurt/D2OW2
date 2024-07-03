@@ -108,7 +108,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Amazulk  @ 869E1D4
 	cry Cry_Replitor  @ 869E1E0
 	cry Cry_Biremic  @ 869E1EC
-	cry Cry_Lickitung  @ 869E1F8
+	cry Cry_Capfalco  @ 869E1F8
 	cry Cry_Fennaf  @ 869E204
 	cry Cry_Weezing  @ 869E210
 	cry Cry_Potogreed  @ 869E21C
@@ -1388,7 +1388,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Amazulk  @ 869F404
 	cry2 Cry_Replitor  @ 869F410
 	cry2 Cry_Biremic  @ 869F41C
-	cry2 Cry_Lickitung  @ 869F428
+	cry2 Cry_Capfalco  @ 869F428
 	cry2 Cry_Fennaf  @ 869F434
 	cry2 Cry_Weezing  @ 869F440
 	cry2 Cry_Potogreed  @ 869F44C

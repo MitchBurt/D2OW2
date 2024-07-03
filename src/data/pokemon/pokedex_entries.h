@@ -1297,12 +1297,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 2,
     },
 
-    [NATIONAL_DEX_LICKITUNG] =
+    [NATIONAL_DEX_CAPFALCO] =
     {
         .categoryName = _("Lametazo"),
         .height = 12,
         .weight = 655,
-        .description = gLickitungPokedexText,
+        .description = gCapfalcoPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 4,
         .trainerScale = 256,
@@ -12087,12 +12087,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 2,
     },
 
-    [NATIONAL_DEX_LICKITUNG] =
+    [NATIONAL_DEX_CAPFALCO] =
     {
         .categoryName = _("Licking"),
         .height = 12,
         .weight = 655,
-        .description = gLickitungPokedexText,
+        .description = gCapfalcoPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 4,
         .trainerScale = 256,

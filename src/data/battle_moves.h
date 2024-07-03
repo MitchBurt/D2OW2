@@ -11707,7 +11707,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_LICKITUNG] =
+    [SPECIES_CAPFALCO] =
     {
         .move = MOVE_LICK,
         .modification = SIGNATURE_MOD_POWER,

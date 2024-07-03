@@ -815,8 +815,8 @@ Cry_Biremic::
 	.incbin "sound/direct_sound_samples/cries/cry_biremic.bin"
 
 	.align 2
-Cry_Lickitung::
-	.incbin "sound/direct_sound_samples/cries/cry_lickitung.bin"
+Cry_Capfalco::
+	.incbin "sound/direct_sound_samples/cries/cry_capfalco.bin"
 
 	.align 2
 Cry_Fennaf::

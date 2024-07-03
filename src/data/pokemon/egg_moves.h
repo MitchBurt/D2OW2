@@ -720,7 +720,7 @@ const u16 gEggMoves[] = {
 		MOVE_HEAD_SMASH,
 		MOVE_ROCK_SLIDE),
 
-	egg_moves(LICKITUNG,
+	egg_moves(CAPFALCO,
 		MOVE_THRASH,
 		MOVE_CURSE,
 		MOVE_HAMMER_ARM,

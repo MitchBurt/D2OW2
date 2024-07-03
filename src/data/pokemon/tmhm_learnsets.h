@@ -4381,7 +4381,7 @@ static const u8 sBiremicTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sLickitungTMHMLearnset[] =
+static const u8 sCapfalcoTMHMLearnset[] =
 {
     TMHM(TM01_FOCUS_PUNCH),
     TMHM(TM03_WATER_PULSE),
@@ -36182,7 +36182,7 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_AMAZULK] = sAmazulkTMHMLearnset,
     [SPECIES_REPLITOR] = sReplitorTMHMLearnset,
     [SPECIES_BIREMIC] = sBiremicTMHMLearnset,
-    [SPECIES_LICKITUNG] = sLickitungTMHMLearnset,
+    [SPECIES_CAPFALCO] = sCapfalcoTMHMLearnset,
     [SPECIES_FENNAF] = sFennafTMHMLearnset,
     [SPECIES_WEEZING] = sWeezingTMHMLearnset,
     [SPECIES_POTOGREED] = sPotogreedTMHMLearnset,

@@ -2557,7 +2557,7 @@ static const u8 sBiremicTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sLickitungTutorLearnset[] =
+static const u8 sCapfalcoTutorLearnset[] =
 {
     TUTOR(MOVE_SWORDS_DANCE),
     TUTOR(MOVE_MEGA_KICK),
@@ -19829,7 +19829,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_AMAZULK] = sAmazulkTutorLearnset,
     [SPECIES_REPLITOR] = sReplitorTutorLearnset,
     [SPECIES_BIREMIC] = sBiremicTutorLearnset,
-    [SPECIES_LICKITUNG] = sLickitungTutorLearnset,
+    [SPECIES_CAPFALCO] = sCapfalcoTutorLearnset,
     [SPECIES_FENNAF] = sFennafTutorLearnset,
     [SPECIES_WEEZING] = sWeezingTutorLearnset,
     [SPECIES_POTOGREED] = sPotogreedTutorLearnset,

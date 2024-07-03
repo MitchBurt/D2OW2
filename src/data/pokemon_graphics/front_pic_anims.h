@@ -1269,7 +1269,7 @@ static const union AnimCmd sAnim_BIREMIC_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_LICKITUNG_1[] =
+static const union AnimCmd sAnim_CAPFALCO_1[] =
 {
     ANIMCMD_FRAME(0, 28),
     ANIMCMD_FRAME(1, 32),
@@ -9692,9 +9692,9 @@ static const union AnimCmd *const sAnims_BIREMIC[] ={
     sAnim_BIREMIC_1,
 };
 
-static const union AnimCmd *const sAnims_LICKITUNG[] ={
+static const union AnimCmd *const sAnims_CAPFALCO[] ={
     sAnim_GeneralFrame0,
-    sAnim_LICKITUNG_1,
+    sAnim_CAPFALCO_1,
 };
 
 static const union AnimCmd *const sAnims_FENNAF[] ={
@@ -14545,7 +14545,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(AMAZULK),
     ANIM_CMD(REPLITOR),
     ANIM_CMD(BIREMIC),
-    ANIM_CMD(LICKITUNG),
+    ANIM_CMD(CAPFALCO),
     ANIM_CMD(FENNAF),
     ANIM_CMD(WEEZING),
     ANIM_CMD(POTOGREED),

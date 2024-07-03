@@ -3017,7 +3017,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_LICKITUNG] =
+    [SPECIES_CAPFALCO] =
     {
         .baseHP        = 90,
         .baseAttack    = 55,
@@ -37178,7 +37178,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_LICKITUNG] =
+    [SPECIES_CAPFALCO] =
     {
         .baseHP        = 90,
         .baseAttack    = 55,

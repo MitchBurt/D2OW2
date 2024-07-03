@@ -2151,7 +2151,7 @@ static const struct LevelUpMove sBiremicLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sLickitungLevelUpLearnset[] = {
+static const struct LevelUpMove sCapfalcoLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 1, MOVE_GROWL),
 	LEVEL_UP_MOVE( 5, MOVE_FIRE_PUNCH),
 	LEVEL_UP_MOVE( 9, MOVE_KARATE_CHOP),
