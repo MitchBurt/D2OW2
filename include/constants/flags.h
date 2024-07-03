@@ -484,11 +484,11 @@
 #define FLAG_DEFEATED_KYOGRE                 0x1BE
 #define FLAG_DEFEATED_GROUDON                0x1BF
 #define FLAG_DEFEATED_RAYQUAZA               0x1C0
-#define FLAG_DEFEATED_CREEPA_1_NEW_MAUVILLE 0x1C1
-#define FLAG_DEFEATED_CREEPA_2_NEW_MAUVILLE 0x1C2
-#define FLAG_DEFEATED_CREEPA_3_NEW_MAUVILLE 0x1C3
-#define FLAG_DEFEATED_ENDERMON_1_AQUA_HIDEOUT 0x1C4
-#define FLAG_DEFEATED_ENDERMON_2_AQUA_HIDEOUT 0x1C5
+#define FLAG_DEFEATED_VOLTORB_1_NEW_MAUVILLE 0x1C1
+#define FLAG_DEFEATED_VOLTORB_2_NEW_MAUVILLE 0x1C2
+#define FLAG_DEFEATED_VOLTORB_3_NEW_MAUVILLE 0x1C3
+#define FLAG_DEFEATED_ELECTRODE_1_AQUA_HIDEOUT 0x1C4
+#define FLAG_DEFEATED_ELECTRODE_2_AQUA_HIDEOUT 0x1C5
 #define FLAG_DEFEATED_SUDOWOODO              0x1C6
 #define FLAG_DEFEATED_MEW                    0x1C7
 #define FLAG_DEFEATED_LATIAS_OR_LATIOS       0x1C8
@@ -681,8 +681,8 @@
 #define FLAG_UNUSED_0x27B  0x27B // Skorpyrosite X*
 #define FLAG_UNUSED_0x27C  0x27C // Blastoisite*
 #define FLAG_UNUSED_0x27D  0x27D // Alakazite*
-#define FLAG_UNUSED_0x27E  0x27E // Sansite*
-#define FLAG_GOT_TROLOLOITE  0x27F // Kanghaskhanite*
+#define FLAG_UNUSED_0x27E  0x27E // Gengarite*
+#define FLAG_GOT_KANGASKHANITE  0x27F // Kanghaskhanite*
 #define FLAG_UNUSED_0x280  0x280 // Pinsirite*
 #define FLAG_UNUSED_0x281  0x281 // Aerodactylite*
 #define FLAG_UNUSED_0x282  0x282 // Mewtwonite X
@@ -1020,11 +1020,11 @@
 #define FLAG_HIDE_LILYCOVE_CITY_RIVAL                               0x3CB
 #define FLAG_HIDE_ROUTE_120_STEVEN                                  0x3CC
 #define FLAG_HIDE_SOOTOPOLIS_CITY_STEVEN                            0x3CD
-#define FLAG_HIDE_NEW_MAUVILLE_CREEPA_1                            0x3CE
-#define FLAG_HIDE_NEW_MAUVILLE_CREEPA_2                            0x3CF
-#define FLAG_HIDE_NEW_MAUVILLE_CREEPA_3                            0x3D0
-#define FLAG_HIDE_AQUA_HIDEOUT_B1F_ENDERMON_1                      0x3D1
-#define FLAG_HIDE_AQUA_HIDEOUT_B1F_ENDERMON_2                      0x3D2
+#define FLAG_HIDE_NEW_MAUVILLE_VOLTORB_1                            0x3CE
+#define FLAG_HIDE_NEW_MAUVILLE_VOLTORB_2                            0x3CF
+#define FLAG_HIDE_NEW_MAUVILLE_VOLTORB_3                            0x3D0
+#define FLAG_HIDE_AQUA_HIDEOUT_B1F_ELECTRODE_1                      0x3D1
+#define FLAG_HIDE_AQUA_HIDEOUT_B1F_ELECTRODE_2                      0x3D2
 #define FLAG_HIDE_OLDALE_TOWN_RIVAL                                 0x3D3
 #define FLAG_HIDE_UNDERWATER_SEA_FLOOR_CAVERN_STOLEN_SUBMARINE      0x3D4
 #define FLAG_HIDE_ROUTE_120_KECLEON_BRIDGE_VISIBLE                  0x3D5

@@ -5042,11 +5042,11 @@ u16 getWonderTradePokemonFormID(u16 species)
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_GUMMI:
+		case SPECIES_GRIMER:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_GUMMI,
-					SPECIES_GUMMI_ALOLAN,
+					SPECIES_GRIMER,
+					SPECIES_GRIMER_ALOLAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
@@ -5062,21 +5062,21 @@ u16 getWonderTradePokemonFormID(u16 species)
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_CIPHRON:
+		case SPECIES_EXEGGUTOR:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_CIPHRON,
-					SPECIES_CIPHRON_ALOLAN,
+					SPECIES_EXEGGUTOR,
+					SPECIES_EXEGGUTOR_ALOLAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_AMAZULK:
+		case SPECIES_MAROWAK:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_AMAZULK,
-					SPECIES_AMAZULK_ALOLAN,
+					SPECIES_MAROWAK,
+					SPECIES_MAROWAK_ALOLAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
@@ -5112,11 +5112,11 @@ u16 getWonderTradePokemonFormID(u16 species)
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_BIPHARMA:
+		case SPECIES_WEEZING:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_BIPHARMA,
-					SPECIES_BIPHARMA_GALARIAN,
+					SPECIES_WEEZING,
+					SPECIES_WEEZING_GALARIAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];

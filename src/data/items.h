@@ -9462,17 +9462,17 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_SANSITE] =
+    [ITEM_GENGARITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Sansita"),
+        .name = _("Gengarita"),
 #else
-        .name = _("Sansite"),
+        .name = _("Gengarite"),
 #endif
-        .itemId = ITEM_SANSITE,
+        .itemId = ITEM_GENGARITE,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sSansiteDesc,
+        .description = sGengariteDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -9785,17 +9785,17 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_TROLOLOITE] =
+    [ITEM_KANGASKHANITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Trololoita"),
+        .name = _("Kangaskhanita"),
 #else
-        .name = _("Trololoite"),
+        .name = _("Kangaskhanite"),
 #endif
-        .itemId = ITEM_TROLOLOITE,
+        .itemId = ITEM_KANGASKHANITE,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sTrololoiteDesc,
+        .description = sKangaskhaniteDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,

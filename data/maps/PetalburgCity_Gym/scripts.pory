@@ -482,11 +482,11 @@ PetalburgCity_Gym_EventScript_Start_Rematch_4::
 	
 PetalburgCity_Gym_EventScript_Start_Rematch_5::
 	goto_if_unset FLAG_RECEIVED_TM04 PetalburgCity_Gym_EventScript_Start_Rematch_Party_4
-	goto_if_set FLAG_GOT_TROLOLOITE PetalburgCity_Gym_EventScript_Start_Rematch_6
+	goto_if_set FLAG_GOT_KANGASKHANITE PetalburgCity_Gym_EventScript_Start_Rematch_6
 	trainerbattle_no_intro TRAINER_NORMAN_4, PetalburgCity_Gym_Text_NormanRematchDefeat
 	msgbox PetalburgCity_Gym_Text_GetMegaStone, MSGBOX_DEFAULT
-	giveitem ITEM_TROLOLOITE
-	setflag FLAG_GOT_TROLOLOITE
+	giveitem ITEM_KANGASKHANITE
+	setflag FLAG_GOT_KANGASKHANITE
 	goto PetalburgCity_Gym_EventScript_NormanRematchEnd
 	end
 	
@@ -558,7 +558,7 @@ PetalburgCity_Gym_Text_GetTM:
 PetalburgCity_Gym_Text_GetMegaStone:
 	.string "Dad: Please take this\n"
 	.string "Mega Stone, with you.\p"
-	.string "Make a Trololo hold it to\n"
+	.string "Make a Kangaskhan hold it to\n"
 	.string "unleash its Hidden Potential.$"
 	
 PetalburgCity_Gym_Text_GetReward:
@@ -2117,11 +2117,11 @@ script PetalburgCity_Gym_EventScript_Norman_Give_Gifts{
 	}
 
 	//Give Megastone
-	if(var(VAR_NUM_BADGES) >= 7 && !flag(FLAG_GOT_TROLOLOITE)){
-		msgbox(format("Dad: Take this as an special gift from me, it's a Trololoite."), MSGBOX_NPC)
-		giveitem(ITEM_TROLOLOITE)
-		msgbox(format("Make a Trololo hold it to unleash its real potential."), MSGBOX_NPC)
-		setflag(FLAG_GOT_TROLOLOITE)
+	if(var(VAR_NUM_BADGES) >= 7 && !flag(FLAG_GOT_KANGASKHANITE)){
+		msgbox(format("Dad: Take this as an special gift from me, it's a Kangaskhanite."), MSGBOX_NPC)
+		giveitem(ITEM_KANGASKHANITE)
+		msgbox(format("Make a Kangaskhan hold it to unleash its real potential."), MSGBOX_NPC)
+		setflag(FLAG_GOT_KANGASKHANITE)
 		setflag(FLAG_TEMP_9) //To check if you have been given multiple items
 	}
 	elif(!flag(FLAG_TEMP_9)){

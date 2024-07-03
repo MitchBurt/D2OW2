@@ -7963,7 +7963,7 @@ static u16 CalcMoveBasePower(u16 move, u8 battlerAtk, u8 battlerDef)
         basePower += (CountBattlerStatIncreases(battlerAtk, TRUE) * 20);
         break;
     case EFFECT_ELECTRO_BALL:
-		if(gBattleMons[battlerAtk].species != SPECIES_ENDERMON){
+		if(gBattleMons[battlerAtk].species != SPECIES_ELECTRODE){
         speed = GetBattlerTotalSpeedStat(battlerAtk) / GetBattlerTotalSpeedStat(battlerDef);
         if (speed >= ARRAY_COUNT(sSpeedDiffPowerTable))
             speed = ARRAY_COUNT(sSpeedDiffPowerTable) - 1;
@@ -8564,7 +8564,7 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
     switch (GetBattlerHoldEffect(battlerAtk, TRUE))
     {
     case HOLD_EFFECT_THICK_CLUB:
-        if ((gBattleMons[battlerAtk].species == SPECIES_SURBSQUACH || gBattleMons[battlerAtk].species == SPECIES_AMAZULK) && IS_BATTLER_MOVE_PHYSICAL(move, battlerAtk) && !(FlagGet(FLAG_LEVELESS_MODE) && FlagGet(FLAG_NO_EVOLUTION_MODE)))
+        if ((gBattleMons[battlerAtk].species == SPECIES_CUBONE || gBattleMons[battlerAtk].species == SPECIES_MAROWAK) && IS_BATTLER_MOVE_PHYSICAL(move, battlerAtk) && !(FlagGet(FLAG_LEVELESS_MODE) && FlagGet(FLAG_NO_EVOLUTION_MODE)))
             MulModifier(&modifier, UQ_4_12(2.0));
         break;
     case HOLD_EFFECT_DEEP_SEA_TOOTH:

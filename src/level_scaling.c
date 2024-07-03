@@ -865,8 +865,8 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 		case SPECIES_TYROGUE:
 			if(level >= 20){
 				u16 PossibleEvo[] = {
-					SPECIES_REPLITOR,
-					SPECIES_BIREMIC,
+					SPECIES_HITMONLEE,
+					SPECIES_HITMONCHAN,
 					SPECIES_HITMONTOP,
 				};
 				
@@ -1220,17 +1220,17 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 			else
 				return basespecies;
 		break;
-		case SPECIES_CIPHRON:
+		case SPECIES_EXEGGUTOR:
 			if(gMapHeader.region == REGION_SEVII)
-				return SPECIES_CIPHRON_ALOLAN;
+				return SPECIES_EXEGGUTOR_ALOLAN;
 			else
 				return basespecies;
 		break;
-		case SPECIES_AMAZULK:
+		case SPECIES_MAROWAK:
 			if(gMapHeader.region == REGION_SEVII)
-				return SPECIES_AMAZULK_ALOLAN;
+				return SPECIES_MAROWAK_ALOLAN;
 			else
-				return SPECIES_AMAZULK;
+				return SPECIES_MAROWAK;
 		break;
 		case SPECIES_MR_MIME:
 			if(gMapHeader.region == REGION_SEVII)
@@ -1238,9 +1238,9 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 			else
 				return basespecies;
 		break;
-		case SPECIES_BIPHARMA:
+		case SPECIES_WEEZING:
 			if(gMapHeader.region == REGION_SEVII)
-				return SPECIES_BIPHARMA_GALARIAN;
+				return SPECIES_WEEZING_GALARIAN;
 			else
 				return basespecies;
 		break;
@@ -2372,9 +2372,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 		case SPECIES_SIRFETCHD:
 			item = ITEM_STICK;
 		break;
-		case SPECIES_SURBSQUACH:
-		case SPECIES_AMAZULK_ALOLAN:
-		case SPECIES_AMAZULK:
+		case SPECIES_CUBONE:
+		case SPECIES_MAROWAK_ALOLAN:
+		case SPECIES_MAROWAK:
 			item = ITEM_THICK_CLUB;
 		break;
 		case SPECIES_DITTO:
@@ -2448,9 +2448,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_GARDEVOIRITE;
 		break;
-		case SPECIES_SANS:
+		case SPECIES_GENGAR:
 			if(canMega)
-				item = ITEM_SANSITE;
+				item = ITEM_GENGARITE;
 		break;
 		case SPECIES_GLALIE:
 			if(canMega)
@@ -2468,9 +2468,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_HOUNDOOMINITE;
 		break;
-		case SPECIES_TROLOLO:
+		case SPECIES_KANGASKHAN:
 			if(canMega)
-				item = ITEM_TROLOLOITE;
+				item = ITEM_KANGASKHANITE;
 		break;
 		case SPECIES_LOPUNNY:
 			if(canMega)

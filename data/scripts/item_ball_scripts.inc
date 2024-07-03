@@ -722,8 +722,8 @@ MegaStone_EventScript_ItemSkorpyrosite_X::
 	addscaleditem ITEM_SKORPYROSITE_X
 	end
 	
-MegaStone_EventScript_ItemSansite::
-	addscaleditem ITEM_SANSITE
+MegaStone_EventScript_ItemGengarite::
+	addscaleditem ITEM_GENGARITE
 	end
 	
 MegaStone_EventScript_ItemGyaradosite::

@@ -1391,7 +1391,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_ZEEK] = {
-        .species = SPECIES_SHAPIPIZ,
+        .species = SPECIES_DROWZEE,
         .nickname = _("Drowzin"),
         .trainerName = _("Zeek"),
         .trainerGfxId = OBJ_EVENT_GFX_PSYCHIC_M,
@@ -1419,7 +1419,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_DIEGO] = {
-        .species = SPECIES_BIREMIC,
+        .species = SPECIES_HITMONCHAN,
         .nickname = _("Hitemon"),
         .trainerName = _("Diego"),
         .trainerGfxId = OBJ_EVENT_GFX_EXPERT_M,
@@ -1979,7 +1979,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_GRACIE] = {
-        .species = SPECIES_CIPHRON,
+        .species = SPECIES_EXEGGUTOR,
         .nickname = _("Eggsor"),
         .trainerName = _("Gracie"),
         .trainerGfxId = OBJ_EVENT_GFX_PICNICKER,
@@ -2007,7 +2007,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_COLTIN] = {
-        .species = SPECIES_SURBSQUACH,
+        .species = SPECIES_CUBONE,
         .nickname = _("Cubin"),
         .trainerName = _("Coltin"),
         .trainerGfxId = OBJ_EVENT_GFX_MAN_4, 
@@ -2035,7 +2035,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_ELLIE] = {
-        .species = SPECIES_REPLITOR,
+        .species = SPECIES_HITMONLEE,
         .nickname = _("Hitmon"),
         .trainerName = _("Ellie"),
         .trainerGfxId = OBJ_EVENT_GFX_EXPERT_F,
@@ -2091,7 +2091,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_KIARA] = {
-        .species = SPECIES_TROLOLO,
+        .species = SPECIES_KANGASKHAN,
         .nickname = _("Khankan"),
         .trainerName = _("Kiara"),
         .trainerGfxId = OBJ_EVENT_GFX_GIRL_3,
@@ -2567,7 +2567,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_SASHA] = {
-        .species = SPECIES_ENDERMON,
+        .species = SPECIES_ELECTRODE,
         .nickname = _("Rodlect"),
         .trainerName = _("Sasha"),
         .trainerGfxId = OBJ_EVENT_GFX_TWIN,
@@ -2651,7 +2651,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_CAMILE] = {
-        .species = SPECIES_SANS,
+        .species = SPECIES_GENGAR,
         .nickname = _("Garen"),
         .trainerName = _("Camile"),
         .trainerGfxId = OBJ_EVENT_GFX_HEX_MANIAC,

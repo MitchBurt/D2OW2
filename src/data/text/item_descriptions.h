@@ -1331,7 +1331,7 @@ static const u8 sPureIncenseDesc[] = _(
     "Pokémon salvajes.");
 
 static const u8 sLuckyPunchDesc[] = _(
-    "Al llevarlo, Unjoy\n"
+    "Al llevarlo, Chansey\n"
     "dará posiblemente\n"
     "un golpe crítico.");
 
@@ -1341,8 +1341,8 @@ static const u8 sMetalPowderDesc[] = _(
     "aumentará.");
 
 static const u8 sThickClubDesc[] = _(
-    "Al llevarlo, Surbsquach\n"
-    "o Amazulk tendrán\n"
+    "Al llevarlo, Cubone\n"
+    "o Marowak tendrán\n"
     "mejor Ataque.");
 
 static const u8 sStickDesc[] = _(
@@ -2497,10 +2497,10 @@ static const u8 sSafetyGogglesDesc[] = _(
     "adversos del clima\n"
     "y de polvo lanzado.");
 
-static const u8 sSansiteDesc[] = _(
+static const u8 sGengariteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Sans.");
+    "Gengar.");
 
 static const u8 sGardevoiriteDesc[] = _(
     "Piedra que permite\n"
@@ -2587,10 +2587,10 @@ static const u8 sAbomasiteDesc[] = _(
     "megaevolucionar a\n"
     "Abomasnow.");
 
-static const u8 sTrololoiteDesc[] = _(
+static const u8 sKangaskhaniteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Trololo.");
+    "Kangaskhan.");
 
 static const u8 sGyaradositeDesc[] = _(
     "Piedra que permite\n"
@@ -4204,7 +4204,7 @@ static const u8 sPureIncenseDesc[] = _(
 
 static const u8 sLuckyPunchDesc[] = _(
     "A hold item that\n"
-    "raises Unjoy's\n"
+    "raises Chansey's\n"
     "critical-hit rate.");
 
 static const u8 sMetalPowderDesc[] = _(
@@ -4214,8 +4214,8 @@ static const u8 sMetalPowderDesc[] = _(
 
 static const u8 sThickClubDesc[] = _(
     "A hold item that \n"
-    "raises Surbsquach or\n"
-    "Amazulk's Attack.");
+    "raises Cubone or\n"
+    "Marowak's Attack.");
 
 static const u8 sStickDesc[] = _(
     "A hold item that\n"
@@ -5730,9 +5730,9 @@ static const u8 sSafetyGogglesDesc[] = _(
     "weather damage and\n"
     "powder moves.");
 
-static const u8 sSansiteDesc[] = _(
+static const u8 sGengariteDesc[] = _(
     "This stone enables\n"
-    "Sans to Mega\n"
+    "Gengar to Mega\n"
     "Evolve in battle.");
 
 static const u8 sGardevoiriteDesc[] = _(
@@ -5820,9 +5820,9 @@ static const u8 sAbomasiteDesc[] = _(
     "Abomasnow to Mega\n"
     "Evolve in battle.");
 
-static const u8 sTrololoiteDesc[] = _(
+static const u8 sKangaskhaniteDesc[] = _(
     "This stone enables\n"
-    "Trololo to Mega\n"
+    "Kangaskhan to Mega\n"
     "Evolve in battle.");
 
 static const u8 sGyaradositeDesc[] = _(
