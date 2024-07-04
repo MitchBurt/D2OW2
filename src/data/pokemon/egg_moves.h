@@ -1247,7 +1247,7 @@ const u16 gEggMoves[] = {
 		MOVE_TRI_ATTACK,
 		MOVE_PSYCH_UP),
 
-	egg_moves(NATU,
+	egg_moves(PUCKID,
 		MOVE_DRILL_PECK,
 		MOVE_QUICK_ATTACK,
 		MOVE_FEATHER_DANCE,
