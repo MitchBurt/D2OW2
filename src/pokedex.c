@@ -349,7 +349,7 @@ static void CreateTypeIconSprites(void);
 #define SCROLLING_MON_X 146
 #define HGSS_DECAPPED 0 //0 false, 1 true
 #define HGSS_DARK_MODE 1 //0 false, 1 true
-#define HGSS_HIDE_UNSEEN_EVOLUTION_NAMES 0 //0 false, 1 true
+#define HGSS_HIDE_UNSEEN_EVOLUTION_NAMES 1 //0 false, 1 true
 static void LoadTilesetTilemapHGSS(u8 page);
 static void Task_HandleStatsScreenInput(u8 taskId);
 static void Task_LoadStatsScreen(u8 taskId);
