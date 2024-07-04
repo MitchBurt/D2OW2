@@ -9660,8 +9660,8 @@ static void Cmd_setmultihitcounter(void)
 	
 	//Signature Moves
 	switch(GetFormSpeciesId(gBattleMons[gBattlerAttacker].species, gBattleMons[gBattlerAttacker].formId)){
-		case SPECIES_QWILFISH:
-		case SPECIES_QWILFISH_HUSIAN:
+		case SPECIES_DABBEATLE:
+		case SPECIES_DABBEATLE_HUSIAN:
 		case SPECIES_OVERQWIL:
 			if(gCurrentMove == MOVE_PIN_MISSILE && FlagGet(FLAG_RECEIVED_BADGE_08))
 				gMultiHitCounter = 4;
@@ -12194,7 +12194,7 @@ static void Cmd_pickup(void)
                 }
             }
             #endif
-            else if (species == SPECIES_SHUCKLE
+            else if (species == SPECIES_MCCHICKY
                 && heldItem >= FIRST_BERRY_INDEX
                 && heldItem <= LAST_BERRY_INDEX)
             {
@@ -12261,7 +12261,7 @@ static void Cmd_pickup(void)
                 }
             }
             #endif
-            else if (species == SPECIES_SHUCKLE
+            else if (species == SPECIES_MCCHICKY
                 && heldItem >= FIRST_BERRY_INDEX
                 && heldItem <= LAST_BERRY_INDEX)
             {
@@ -12860,9 +12860,9 @@ static void Cmd_givecaughtmon(void)
         case SPECIES_GOD_MEGA_X:
         case SPECIES_GOD_MEGA_Y:
         case SPECIES_BACID_MEGA:
-        case SPECIES_STEELIX_MEGA:
-        case SPECIES_SCIZOR_MEGA:
-        case SPECIES_HERACROSS_MEGA:
+        case SPECIES_HOLOCAST_MEGA:
+        case SPECIES_NUGGIE_MEGA:
+        case SPECIES_HAPPYMAUL_MEGA:
         case SPECIES_HOUNDOOM_MEGA:
         case SPECIES_TYRANITAR_MEGA:
         case SPECIES_SCEPTILE_MEGA:

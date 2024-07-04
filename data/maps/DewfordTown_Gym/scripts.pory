@@ -601,7 +601,7 @@ DewfordTown_Gym_Text_GetTM:
 DewfordTown_Gym_Text_GetMegaStone:
 	.string "Brawly: Please take this\n"
 	.string "Mega Stone, with you.\p"
-	.string "Make a Heracross hold it to\n"
+	.string "Make a Happymaul hold it to\n"
 	.string "unleash its Hidden Potential.$"
 	
 DewfordTown_Gym_Text_GetReward:
@@ -926,7 +926,7 @@ script DewfordTown_Gym_EventScript_Brawly_Give_Gifts{
 	if(var(VAR_NUM_BADGES) >= 7 && !flag(FLAG_GOT_HERACRONITE)){
 		msgbox(format("Brawly: Take this as an special gift from me, it's a Heracronite."), MSGBOX_NPC)
 		giveitem(ITEM_HERACRONITE)
-		msgbox(format("Make a Heracross hold it to unleash its real potential."), MSGBOX_NPC)
+		msgbox(format("Make a Happymaul hold it to unleash its real potential."), MSGBOX_NPC)
 		setflag(FLAG_GOT_HERACRONITE)
 		setflag(FLAG_TEMP_9) //To check if you have been given multiple items
 	}

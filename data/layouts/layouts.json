@@ -4672,14 +4672,14 @@
       "blockdata_filepath": "data/layouts/ThreeIsland_Port/map.bin"
     },
     {
-      "id": "LAYOUT_THREE_ISLAND_DUNSPARCE_TUNNEL_DUG_OUT",
-      "name": "ThreeIsland_DunsparceTunnel_DugOut_Layout",
+      "id": "LAYOUT_THREE_ISLAND_MOABY_TUNNEL_DUG_OUT",
+      "name": "ThreeIsland_MoabyTunnel_DugOut_Layout",
       "width": 30,
       "height": 15,
       "primary_tileset": "gTileset_General_FRLG",
       "secondary_tileset": "gTileset_Cave_FRLG",
-      "border_filepath": "data/layouts/ThreeIsland_DunsparceTunnel_DugOut/border.bin",
-      "blockdata_filepath": "data/layouts/ThreeIsland_DunsparceTunnel_DugOut/map.bin"
+      "border_filepath": "data/layouts/ThreeIsland_MoabyTunnel_DugOut/border.bin",
+      "blockdata_filepath": "data/layouts/ThreeIsland_MoabyTunnel_DugOut/map.bin"
     },
     {
       "id": "LAYOUT_ROCK_TUNNEL",

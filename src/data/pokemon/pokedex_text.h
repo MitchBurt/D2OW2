@@ -1183,19 +1183,19 @@ const u8 gLeavePokedexText[] = _(
     "en silencio y espera a que su presa se\n"
     "mueva. Cuando ataca, le brillan los anillos.");
 
-const u8 gMurkrowPokedexText[] = _(
-    "Murkrow ha sido temido y repudiado por\n"
+const u8 gGahblinPokedexText[] = _(
+    "Gahblin ha sido temido y repudiado por\n"
     "todos porque se cree que da mala suerte.\n"
     "Le encanta todo lo que resplandece.\n"
     "A las mujeres les roba los anillos.");
 
-const u8 gSlowkingPokedexText[] = _(
-    "Slowking investiga cada día a los misterios\n"
+const u8 gGooblanPokedexText[] = _(
+    "Gooblan investiga cada día a los misterios\n"
     "del mundo que aún no se han resuelto, pero\n"
     "al parecer se le olvida lo aprendido cuando\n"
     "el Coolar que lleva encima se suelta.");
 
-const u8 gMisdreavusPokedexText[] = _(
+const u8 gLilreaperPokedexText[] = _(
     "Asusta a la gente gritando y sollozando.\n"
     "Dicen que usa las esferas rojas para\n"
     "absorber los sentimientos de temor de\n"
@@ -1207,79 +1207,79 @@ const u8 gUnownPokedexText[] = _(
     "la escritura o los distintos Unown,\n"
     "pero se sigue investigando.");
 
-const u8 gWobbuffetPokedexText[] = _(
+const u8 gFirantPokedexText[] = _(
     "Generalmente es dócil, pero si recibe un\n"
-    "ataque en su cola negra, Wobbuffet se\n"
+    "ataque en su cola negra, Firant se\n"
     "defenderá con ferocidad. Se guarece\n"
     "en cuevas hasta que anochece.");
 
-const u8 gGirafarigPokedexText[] = _(
-    "Girafarig es herbívoro: come hierba\n"
+const u8 gBurnantPokedexText[] = _(
+    "Burnant es herbívoro: come hierba\n"
     "y brotes de los árboles. Mientras se\n"
     "alimenta, mueve la cola como si también\n"
     "masticara y tragara con ella.");
 
-const u8 gPinecoPokedexText[] = _(
+const u8 gAntinderPokedexText[] = _(
     "Permanece colgado de la rama de un árbol\n"
     "esperando a su presa. Si alguien sacude el\n"
     "árbol en el que está comiendo y le molesta,\n"
     "se tira al suelo y explota sin más.");
 
-const u8 gForretressPokedexText[] = _(
+const u8 gWailePokedexText[] = _(
     "Se esconde dentro de su concha de acero\n"
     "reforzado. Sólo la abre para atrapar a su\n"
     "presa, pero ocurre tan rápido que no da\n"
     "tiempo a ver su interior.");
 
-const u8 gDunsparcePokedexText[] = _(
+const u8 gMoabyPokedexText[] = _(
     "La cola es un taladro que usa para\n"
     "enterrarse de espaldas en el suelo.\n"
     "Se sabe que su nido tiene una forma muy\n"
     "compleja y está a gran profundidad.");
 
-const u8 gGligarPokedexText[] = _(
+const u8 gShawtPokedexText[] = _(
     "Planea por el aire sin hacer ruido.\n"
     "Se agarra a la cara del rival con las garras\n"
     "traseras y las pinzas delanteras,\n"
     "inyectándole veneno por el aguijón.");
 
-const u8 gSteelixPokedexText[] = _(
+const u8 gHolocastPokedexText[] = _(
     "Vive a aún mayor profundidad que Esceepee. Se\n"
     "le conoce por cavar hacia el centro de la\n"
     "tierra. Hay datos que demuestran que ha\n"
     "llegado a alacanzar 1 km de profundidad.");
 
-const u8 gSnubbullPokedexText[] = _(
-    "Al tener los colmillos por fuera, Snubbull\n"
+const u8 gGrubdabPokedexText[] = _(
+    "Al tener los colmillos por fuera, Grubdab\n"
     "da miedo y espanta, aterrados, a los\n"
     "Pokémon pequeños. Aunque a él parece que\n"
     "le da un poco de pena que salgan huyendo.");
 
-const u8 gGranbullPokedexText[] = _(
+const u8 gDabbugPokedexText[] = _(
     "Tiene una mandíbula inferior enorme y\n"
     "colmillos pesados que le hacen inclinar\n"
     "la cabeza hacia atrás para compensar\n"
     "el peso. Si no le asustan, no muerde.");
 
-const u8 gQwilfishPokedexText[] = _(
+const u8 gDabbeatlePokedexText[] = _(
     "Bebe agua, se hincha y usa la presión\n"
     "del agua que ha tragado para lanzar\n"
     "plumas tóxicas a través de la piel.\n"
-    "Para Qwilfish, nadar es todo un desafío.");
+    "Para Dabbeatle, nadar es todo un desafío.");
 
-const u8 gScizorPokedexText[] = _(
-    "Scizor tiene un cuerpo duro como el acero\n"
+const u8 gNuggiePokedexText[] = _(
+    "Nuggie tiene un cuerpo duro como el acero\n"
     "en el que los ataques comunes apenas\n"
     "hacen mella. Este Pokémon bate las alas\n"
     "para regular su temperatura corporal.");
 
-const u8 gShucklePokedexText[] = _(
+const u8 gMcchickyPokedexText[] = _(
     "Se esconde bajo las rocas, oculto en su\n"
     "caparazón, para comerse las bayas que ha\n"
     "recolectado. Las Bayas se mezclan con\n"
     "sus fluidos corporales y originan zumo.");
 
-const u8 gHeracrossPokedexText[] = _(
+const u8 gHappymaulPokedexText[] = _(
     "Va en grupo al bosque en busca de la dulce\n"
     "savia de los árboles. Cubierto con una\n"
     "coraza dura como el acero, luce su cuerno\n"
@@ -2576,7 +2576,7 @@ const u8 gMismagiusPokedexText[] = _(
 
 const u8 gHonchkrowPokedexText[] = _(
     "Becoming active at night, it is known\n"
-    "to swarm with numerous Murkrow in tow.\n"
+    "to swarm with numerous Gahblin in tow.\n"
     "It is said that it never forgives the\n"
     "mistakes of its cronies.");
 
@@ -4594,7 +4594,7 @@ const u8 gOranguruPokedexText[] = _(
     "Deep in the jungle, high in the lofty\n"
     "canopy, this Pokémon abides. On rare\n"
     "occasions, it shows up at the beach to\n"
-    "match wits with Slowking.");
+    "match wits with Gooblan.");
 
 const u8 gPassimianPokedexText[] = _(
     "They battle with hard berries for weapons.\n"
@@ -6541,20 +6541,20 @@ const u8 gLeavePokedexText[] = _(
     "and waits for its foes to move. The rings\n"
     "on its body glow when it leaps to attack.");
 
-const u8 gMurkrowPokedexText[] = _(
-    "Murkrow were feared as the alleged\n"
+const u8 gGahblinPokedexText[] = _(
+    "Gahblin were feared as the alleged\n"
     "bearers of ill fortune. It shows strong\n"
     "interest in anything that sparkles. It will\n"
     "even try to steal rings from women.");
 
-const u8 gSlowkingPokedexText[] = _(
+const u8 gGooblanPokedexText[] = _(
     "It undertakes research every day to\n"
     "solve the mysteries of the world.\n"
     "However, it apparently forgets everything\n"
     "if the Coolar on its head comes off.");
 
-const u8 gMisdreavusPokedexText[] = _(
-    "A Misdreavus frightens people with a\n"
+const u8 gLilreaperPokedexText[] = _(
+    "A Lilreaper frightens people with a\n"
     "creepy, sobbing cry. It apparently uses\n"
     "its red spheres to absorb the fear of foes\n"
     "as its nutrition.");
@@ -6565,79 +6565,79 @@ const u8 gUnownPokedexText[] = _(
     "it is a mystery as to which came first,\n"
     "the ancient writings or the various Unown.");
 
-const u8 gWobbuffetPokedexText[] = _(
-    "Usually docile, a Wobbuffet strikes back\n"
+const u8 gFirantPokedexText[] = _(
+    "Usually docile, a Firant strikes back\n"
     "ferociously if its black tail is attacked.\n"
     "It makes its lair in caves where it waits\n"
     "for nightfall.");
 
-const u8 gGirafarigPokedexText[] = _(
-    "A Girafarig is an herbivore--it eats\n"
+const u8 gBurnantPokedexText[] = _(
+    "A Burnant is an herbivore--it eats\n"
     "grass and tree shoots. While it is eating,\n"
     "its tail makes chewing and swallowing\n"
     "motions as if it were also eating.");
 
-const u8 gPinecoPokedexText[] = _(
-    "A Pineco hangs from a tree branch and\n"
+const u8 gAntinderPokedexText[] = _(
+    "A Antinder hangs from a tree branch and\n"
     "waits for prey. While eating, if it is\n"
     "disturbed by someone shaking its tree, it\n"
     "falls on the ground and suddenly explodes.");
 
-const u8 gForretressPokedexText[] = _(
+const u8 gWailePokedexText[] = _(
     "It keeps itself inside its steel shell.\n"
     "The shell is opened when it is catching\n"
     "prey, but it is so quick that the shell's\n"
     "inside cannot be seen.");
 
-const u8 gDunsparcePokedexText[] = _(
+const u8 gMoabyPokedexText[] = _(
     "Its drill-tipped tail is used to burrow into\n"
     "the ground backwards. This Pokémon is\n"
     "known to make its nest in complex shapes\n"
     "deep under the ground.");
 
-const u8 gGligarPokedexText[] = _(
+const u8 gShawtPokedexText[] = _(
     "It glides without making a single sound.\n"
     "It grasps the face of its foe using its\n"
     "hind and large front claws, then stabs\n"
     "with its poison barb.");
 
-const u8 gSteelixPokedexText[] = _(
-    "Steelix live even further underground\n"
+const u8 gHolocastPokedexText[] = _(
+    "Holocast live even further underground\n"
     "than Esceepee. This Pokémon is known to dig\n"
     "toward the earth's core, reaching a depth\n"
     "of over six-tenths of a mile underground.");
 
-const u8 gSnubbullPokedexText[] = _(
+const u8 gGrubdabPokedexText[] = _(
     "By baring its fangs and making a scary\n"
     "face, it sends smaller Pokémon scurrying\n"
-    "in terror. The Snubbull does seem a\n"
+    "in terror. The Grubdab does seem a\n"
     "little sad at making its foes flee.");
 
-const u8 gGranbullPokedexText[] = _(
+const u8 gDabbugPokedexText[] = _(
     "It has a particularly well-developed lower\n"
     "jaw. The huge fangs are heavy, causing\n"
     "it to tilt its head. Unless it is startled,\n"
     "it will not try to bite.");
 
-const u8 gQwilfishPokedexText[] = _(
-    "A Qwilfish uses the pressure of water\n"
+const u8 gDabbeatlePokedexText[] = _(
+    "A Dabbeatle uses the pressure of water\n"
     "it swallows to shoot toxic quills all at\n"
     "once from all over its body. It finds\n"
     "swimming to be somewhat challenging.");
 
-const u8 gScizorPokedexText[] = _(
-    "A Scizor has a body with the hardness of\n"
+const u8 gNuggiePokedexText[] = _(
+    "A Nuggie has a body with the hardness of\n"
     "steel. It is not easily fazed by ordinary\n"
     "sorts of attacks. It flaps its wings to\n"
     "regulate its body temperature.");
 
-const u8 gShucklePokedexText[] = _(
-    "A Shuckle hides under rocks, keeping its\n"
+const u8 gMcchickyPokedexText[] = _(
+    "A Mcchicky hides under rocks, keeping its\n"
     "body concealed inside its shell while\n"
     "eating stored berries. The berries mix with\n"
     "its body fluids to become a juice.");
 
-const u8 gHeracrossPokedexText[] = _(
+const u8 gHappymaulPokedexText[] = _(
     "They gather in forests seeking the sweet\n"
     "sap of trees. It is completely clad in a\n"
     "steel-hard shell. It is proud of its horn,\n"
@@ -7936,7 +7936,7 @@ const u8 gMismagiusPokedexText[] = _(
 
 const u8 gHonchkrowPokedexText[] = _(
     "Becoming active at night, it is known\n"
-    "to swarm with numerous Murkrow in tow.\n"
+    "to swarm with numerous Gahblin in tow.\n"
     "It is said that it never forgives the\n"
     "mistakes of its cronies.");
 
@@ -9954,7 +9954,7 @@ const u8 gOranguruPokedexText[] = _(
     "Deep in the jungle, high in the lofty\n"
     "canopy, this Pokémon abides. On rare\n"
     "occasions, it shows up at the beach to\n"
-    "match wits with Slowking.");
+    "match wits with Gooblan.");
 
 const u8 gPassimianPokedexText[] = _(
     "They battle with hard berries for weapons.\n"

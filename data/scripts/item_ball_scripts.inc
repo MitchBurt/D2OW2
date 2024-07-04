@@ -666,8 +666,8 @@ MegaStone_EventScript_ItemBerrordite::
 	addscaleditem ITEM_BERRORDITE
 	end
 	
-MegaStone_EventScript_ItemSteelixite::
-	addscaleditem ITEM_STEELIXITE
+MegaStone_EventScript_ItemHolocastite::
+	addscaleditem ITEM_HOLOCASTITE
 	end
 	
 MegaStone_EventScript_ItemSablenite::
@@ -762,8 +762,8 @@ MegaStone_EventScript_Itrimidite::
 	addscaleditem ITEM_ITRIMIDITE
 	end	
 	
-MegaStone_EventScript_Scizorite::
-	addscaleditem ITEM_SCIZORITE
+MegaStone_EventScript_Nuggieite::
+	addscaleditem ITEM_NUGGIEITE
 	end	
 	
 MegaStone_EventScript_Abomasite::

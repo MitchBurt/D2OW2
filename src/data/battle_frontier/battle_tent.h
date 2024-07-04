@@ -1863,7 +1863,7 @@ const struct FacilityMon gVerdanturfBattleTentMons[NUM_VERDANTURF_TENT_MONS] =
         .nature = NATURE_HASTY
     },
     [VERDANTURF_TENT_MON_WINGULL] = {
-        .species = SPECIES_MURKROW,
+        .species = SPECIES_GAHBLIN,
         .moves = {MOVE_NIGHT_SLASH, MOVE_WING_ATTACK, MOVE_HAZE, MOVE_CONFUSE_RAY},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_ATTACK,

@@ -199,23 +199,23 @@ gCryTable:: @ 869DCF4
 	cry Cry_Arealgun  @ 869E60C
 	cry Cry_Dont  @ 869E618
 	cry Cry_Leave  @ 869E624
-	cry Cry_Murkrow  @ 869E630
-	cry Cry_Slowking  @ 869E63C
-	cry Cry_Misdreavus  @ 869E648
+	cry Cry_Gahblin  @ 869E630
+	cry Cry_Gooblan  @ 869E63C
+	cry Cry_Lilreaper  @ 869E648
 	cry Cry_Unown  @ 869E654
-	cry Cry_Wobbuffet  @ 869E660
-	cry Cry_Girafarig  @ 869E66C
-	cry Cry_Pineco  @ 869E678
-	cry Cry_Forretress  @ 869E684
-	cry Cry_Dunsparce  @ 869E690
-	cry Cry_Gligar  @ 869E69C
-	cry Cry_Steelix  @ 869E6A8
-	cry Cry_Snubbull  @ 869E6B4
-	cry Cry_Granbull  @ 869E6C0
-	cry Cry_Qwilfish  @ 869E6CC
-	cry Cry_Scizor  @ 869E6D8
-	cry Cry_Shuckle  @ 869E6E4
-	cry Cry_Heracross  @ 869E6F0
+	cry Cry_Firant  @ 869E660
+	cry Cry_Burnant  @ 869E66C
+	cry Cry_Antinder  @ 869E678
+	cry Cry_Waile  @ 869E684
+	cry Cry_Moaby  @ 869E690
+	cry Cry_Shawt  @ 869E69C
+	cry Cry_Holocast  @ 869E6A8
+	cry Cry_Grubdab  @ 869E6B4
+	cry Cry_Dabbug  @ 869E6C0
+	cry Cry_Dabbeatle  @ 869E6CC
+	cry Cry_Nuggie  @ 869E6D8
+	cry Cry_Mcchicky  @ 869E6E4
+	cry Cry_Happymaul  @ 869E6F0
 	cry Cry_Sneasel  @ 869E6FC
 	cry Cry_Teddiursa  @ 869E708
 	cry Cry_Ursaring  @ 869E714
@@ -922,9 +922,9 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_God_Mega_X
 	cry_not Cry_God_Mega_Y
 	cry_not Cry_Bacid_Mega
-	cry_not Cry_Steelix_Mega
-	cry_not Cry_Scizor_Mega
-	cry_not Cry_Heracross_Mega
+	cry_not Cry_Holocast_Mega
+	cry_not Cry_Nuggie_Mega
+	cry_not Cry_Happymaul_Mega
 	cry_not Cry_Houndoom_Mega
 	cry_not Cry_Tyranitar_Mega
 	cry_not Cry_Sceptile_Mega
@@ -988,7 +988,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Legend
 	cry Cry_Zeruel
 	cry Cry_Remiel
-	cry Cry_Slowking
+	cry Cry_Gooblan
 	cry Cry_Corsola
 	cry Cry_Zigzagoon
 	cry Cry_Linoone
@@ -1478,23 +1478,23 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Arealgun  @ 869F83C
 	cry2 Cry_Dont  @ 869F848
 	cry2 Cry_Leave  @ 869F854
-	cry2 Cry_Murkrow  @ 869F860
-	cry2 Cry_Slowking  @ 869F86C
-	cry2 Cry_Misdreavus  @ 869F878
+	cry2 Cry_Gahblin  @ 869F860
+	cry2 Cry_Gooblan  @ 869F86C
+	cry2 Cry_Lilreaper  @ 869F878
 	cry2 Cry_Unown  @ 869F884
-	cry2 Cry_Wobbuffet  @ 869F890
-	cry2 Cry_Girafarig  @ 869F89C
-	cry2 Cry_Pineco  @ 869F8A8
-	cry2 Cry_Forretress  @ 869F8B4
-	cry2 Cry_Dunsparce  @ 869F8C0
-	cry2 Cry_Gligar  @ 869F8CC
-	cry2 Cry_Steelix  @ 869F8D8
-	cry2 Cry_Snubbull  @ 869F8E4
-	cry2 Cry_Granbull  @ 869F8F0
-	cry2 Cry_Qwilfish  @ 869F8FC
-	cry2 Cry_Scizor  @ 869F908
-	cry2 Cry_Shuckle  @ 869F914
-	cry2 Cry_Heracross  @ 869F920
+	cry2 Cry_Firant  @ 869F890
+	cry2 Cry_Burnant  @ 869F89C
+	cry2 Cry_Antinder  @ 869F8A8
+	cry2 Cry_Waile  @ 869F8B4
+	cry2 Cry_Moaby  @ 869F8C0
+	cry2 Cry_Shawt  @ 869F8CC
+	cry2 Cry_Holocast  @ 869F8D8
+	cry2 Cry_Grubdab  @ 869F8E4
+	cry2 Cry_Dabbug  @ 869F8F0
+	cry2 Cry_Dabbeatle  @ 869F8FC
+	cry2 Cry_Nuggie  @ 869F908
+	cry2 Cry_Mcchicky  @ 869F914
+	cry2 Cry_Happymaul  @ 869F920
 	cry2 Cry_Sneasel  @ 869F92C
 	cry2 Cry_Teddiursa  @ 869F938
 	cry2 Cry_Ursaring  @ 869F944
@@ -2200,9 +2200,9 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_God_Mega_X
 	cry2_not Cry_God_Mega_Y
 	cry2_not Cry_Bacid_Mega
-	cry2_not Cry_Steelix_Mega
-	cry2_not Cry_Scizor_Mega
-	cry2_not Cry_Heracross_Mega
+	cry2_not Cry_Holocast_Mega
+	cry2_not Cry_Nuggie_Mega
+	cry2_not Cry_Happymaul_Mega
 	cry2_not Cry_Houndoom_Mega
 	cry2_not Cry_Tyranitar_Mega
 	cry2_not Cry_Sceptile_Mega
@@ -2266,7 +2266,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Legend
 	cry2 Cry_Zeruel
 	cry2 Cry_Remiel
-	cry2 Cry_Slowking
+	cry2 Cry_Gooblan
 	cry2 Cry_Corsola
 	cry2 Cry_Zigzagoon
 	cry2 Cry_Linoone

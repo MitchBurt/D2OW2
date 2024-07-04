@@ -250,21 +250,21 @@ static const u16 sUnownFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sSteelixFormSpeciesIdTable[] = {
-    SPECIES_STEELIX,
-    SPECIES_STEELIX_MEGA,
+static const u16 sHolocastFormSpeciesIdTable[] = {
+    SPECIES_HOLOCAST,
+    SPECIES_HOLOCAST_MEGA,
     0xFFFF,
 };
 
-static const u16 sScizorFormSpeciesIdTable[] = {
-    SPECIES_SCIZOR,
-    SPECIES_SCIZOR_MEGA,
+static const u16 sNuggieFormSpeciesIdTable[] = {
+    SPECIES_NUGGIE,
+    SPECIES_NUGGIE_MEGA,
     0xFFFF,
 };
 
-static const u16 sHeracrossFormSpeciesIdTable[] = {
-    SPECIES_HERACROSS,
-    SPECIES_HERACROSS_MEGA,
+static const u16 sHappymaulFormSpeciesIdTable[] = {
+    SPECIES_HAPPYMAUL,
+    SPECIES_HAPPYMAUL_MEGA,
     0xFFFF,
 };
 
@@ -885,9 +885,9 @@ static const u16 sZeruelFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sSlowkingFormSpeciesIdTable[] = {
-    SPECIES_SLOWKING,
-    SPECIES_SLOWKING_GALARIAN,
+static const u16 sGooblanFormSpeciesIdTable[] = {
+    SPECIES_GOOBLAN,
+    SPECIES_GOOBLAN_GALARIAN,
     0xFFFF,
 };
 

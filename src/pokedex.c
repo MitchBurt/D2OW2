@@ -7600,7 +7600,7 @@ static void Task_LoadEvolutionScreen(u8 taskId)
             //Icon
             FreeMonIconPalettes(); //Free space for new pallete
             LoadMonIconPalette(GetFormSpeciesId(NationalPokedexNumToSpecies(sPokedexListItem->dexNum), formSpeciesId)); //Loads pallete for current mon
-            if (seen || !HGSS_HIDE_UNSEEN_EVOLUTION_NAMES){
+            //if (seen || !HGSS_HIDE_UNSEEN_EVOLUTION_NAMES){
                 #ifndef POKEMON_EXPANSION
                     gTasks[taskId].data[4] = CreateMonIcon(NationalPokedexNumToSpecies(sPokedexListItem->dexNum), SpriteCB_MonIcon, 18, 31, 4, 0, formSpeciesId); //Create pokemon sprite
                 #endif
@@ -7608,7 +7608,7 @@ static void Task_LoadEvolutionScreen(u8 taskId)
                     gTasks[taskId].data[4] = CreateMonIcon(NationalPokedexNumToSpecies(sPokedexListItem->dexNum), SpriteCB_MonIcon, 18, 31, 4, 0, formSpeciesId); //Create pokemon sprite
                     EvoFormsPage_PrintAToggleUpdownEvos(); //HGSS_Ui Navigation buttons
                 #endif
-            }
+           // }
             gSprites[gTasks[taskId].data[4]].oam.priority = 0;
         }
         gMain.state++;

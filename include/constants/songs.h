@@ -711,7 +711,7 @@
 #define PL_SEQ_PL_WIFITOWER           690 // Global Terminal
 #define PL_SEQ_PL_WIFIUNION           691 // Wi-Fi Plaza
 #define PL_SEQ_PL_WIFIGAME            692 // Wi-Fi Plaza: Mini-Games
-#define PL_SEQ_PL_WINMINI2            693 // Cleared Wobbuffet Pop!
+#define PL_SEQ_PL_WINMINI2            693 // Cleared Firant Pop!
 #define PL_SEQ_PL_WIFIPARADE          694 // Wi-Fi Plaza: Parade
 #define PL_SEQ_PL_EV_GIRA             695 // Giratina Appears!
 #define PL_SEQ_PL_EV_GIRA2            696 // Giratina Appears! Part 2
@@ -896,7 +896,7 @@
 #define HG_SEQ_GS_WIFI_ACCESS         873 // Nintendo Wi-Fi Connection
 #define HG_SEQ_GS_WIFIUNION           874 // Wi-Fi Plaza
 #define HG_SEQ_GS_WIFIGAME            875 // Wi-Fi Plaza: Plaza Games
-#define HG_SEQ_ME_MINIGAME            876 // Cleared Wobbuffet Pop!
+#define HG_SEQ_ME_MINIGAME            876 // Cleared Firant Pop!
 #define HG_SEQ_GS_WIFIPARADE          877 // Wi-Fi Plaza: Parade
 #define HG_SEQ_GS_RADIO_R_101         878 // Pokégear Radio: Route 101
 #define HG_SEQ_GS_RADIO_R_201         879 // Pokégear Radio: Route 201

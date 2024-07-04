@@ -990,17 +990,17 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x67,
         .y_offset = 9,
     },
-    [SPECIES_MURKROW] =
+    [SPECIES_GAHBLIN] =
     {
         .size = 0x66,
         .y_offset = 15,
     },
-    [SPECIES_SLOWKING] =
+    [SPECIES_GOOBLAN] =
     {
         .size = 0x58,
         .y_offset = 1,
     },
-    [SPECIES_MISDREAVUS] =
+    [SPECIES_LILREAPER] =
     {
         .size = 0x55,
         .y_offset = 13,
@@ -1010,72 +1010,72 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x35,
         .y_offset = 15,
     },
-    [SPECIES_WOBBUFFET] =
+    [SPECIES_FIRANT] =
     {
         .size = 0x77,
         .y_offset = 5,
     },
-    [SPECIES_GIRAFARIG] =
+    [SPECIES_BURNANT] =
     {
         .size = 0x88,
         .y_offset = 0,
     },
-    [SPECIES_PINECO] =
+    [SPECIES_ANTINDER] =
     {
         .size = 0x56,
         .y_offset = 12,
     },
-    [SPECIES_FORRETRESS] =
+    [SPECIES_WAILE] =
     {
         .size = 0x76,
         .y_offset = 8,
     },
-    [SPECIES_DUNSPARCE] =
+    [SPECIES_MOABY] =
     {
         .size = 0x74,
         .y_offset = 9,
     },
-    [SPECIES_GLIGAR] =
+    [SPECIES_SHAWT] =
     {
         .size = 0x78,
         .y_offset = 4,
     },
-    [SPECIES_STEELIX] =
+    [SPECIES_HOLOCAST] =
     {
         .size = 0x88,
         .y_offset = 0,
     },
-    [SPECIES_SNUBBULL] =
+    [SPECIES_GRUBDAB] =
     {
         .size = 0x55,
         .y_offset = 12,
     },
-    [SPECIES_GRANBULL] =
+    [SPECIES_DABBUG] =
     {
         .size = 0x57,
         .y_offset = 4,
     },
-    [SPECIES_QWILFISH] =
+    [SPECIES_DABBEATLE] =
     {
         .size = 0x56,
         .y_offset = 8,
     },
-	[SPECIES_QWILFISH_HUSIAN] =
+	[SPECIES_DABBEATLE_HUSIAN] =
     {
         .size = 0x56,
         .y_offset = 8,
     },
-    [SPECIES_SCIZOR] =
+    [SPECIES_NUGGIE] =
     {
         .size = 0x88,
         .y_offset = 2,
     },
-    [SPECIES_SHUCKLE] =
+    [SPECIES_MCCHICKY] =
     {
         .size = 0x66,
         .y_offset = 8,
     },
-    [SPECIES_HERACROSS] =
+    [SPECIES_HAPPYMAUL] =
     {
         .size = 0x88,
         .y_offset = 1,
@@ -4582,17 +4582,17 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0,
         .y_offset = 2,
     },
-    [SPECIES_STEELIX_MEGA] =
+    [SPECIES_HOLOCAST_MEGA] =
     {
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_SCIZOR_MEGA] =
+    [SPECIES_NUGGIE_MEGA] =
     {
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_HERACROSS_MEGA] =
+    [SPECIES_HAPPYMAUL_MEGA] =
     {
         .size = 0,
         .y_offset = 0,
@@ -4900,7 +4900,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x88,
         .y_offset = 1,
     },
-    [SPECIES_SLOWKING_GALARIAN] =
+    [SPECIES_GOOBLAN_GALARIAN] =
     {
         .size = 0x68,
         .y_offset = 0,

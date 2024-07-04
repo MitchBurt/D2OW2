@@ -2562,10 +2562,10 @@ static const u8 sTyranitariteDesc[] = _(
     "megaevolucionar a\n"
     "Tyranitar.");
 
-static const u8 sScizoriteDesc[] = _(
+static const u8 sNuggieiteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Scizor.");
+    "Nuggie.");
 
 static const u8 sItrimiditeDesc[] = _(
     "Piedra que permite\n"
@@ -2610,7 +2610,7 @@ static const u8 sAlakaziteDesc[] = _(
 static const u8 sHeracroniteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Heracross.");
+    "Happymaul.");
 
 static const u8 sMawiliteDesc[] = _(
     "Piedra que permite\n"
@@ -2682,10 +2682,10 @@ static const u8 sShemueniteDesc[] = _(
     "megaevolucionar a\n"
     "Shemue.");
 
-static const u8 sSteelixiteDesc[] = _(
+static const u8 sHolocastiteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Steelix.");
+    "Holocast.");
 
 static const u8 sFazeagleiteDesc[] = _(
     "Piedra que permite\n"
@@ -5795,9 +5795,9 @@ static const u8 sTyranitariteDesc[] = _(
     "Tyranitar to Mega\n"
     "Evolve in battle.");
 
-static const u8 sScizoriteDesc[] = _(
+static const u8 sNuggieiteDesc[] = _(
     "This stone enables\n"
-    "Scizor to Mega\n"
+    "Nuggie to Mega\n"
     "Evolve in battle.");
 
 static const u8 sItrimiditeDesc[] = _(
@@ -5842,7 +5842,7 @@ static const u8 sAlakaziteDesc[] = _(
 
 static const u8 sHeracroniteDesc[] = _(
     "This stone enables\n"
-    "Heracross to Mega\n"
+    "Happymaul to Mega\n"
     "Evolve in battle.");
 
 static const u8 sMawiliteDesc[] = _(
@@ -5915,9 +5915,9 @@ static const u8 sShemueniteDesc[] = _(
     "Shemue to Mega\n"
     "Evolve in battle.");
 
-static const u8 sSteelixiteDesc[] = _(
+static const u8 sHolocastiteDesc[] = _(
     "This stone enables\n"
-    "Steelix to Mega\n"
+    "Holocast to Mega\n"
     "Evolve in battle.");
 
 static const u8 sFazeagleiteDesc[] = _(

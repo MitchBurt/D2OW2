@@ -2146,7 +2146,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_WINGULL:
 				case SPECIES_SALAMENCE:
 				case SPECIES_BAGON:
-				case SPECIES_SCIZOR:
+				case SPECIES_NUGGIE:
 				case SPECIES_SUGREIVOUS:
 				case SPECIES_AMAZULK:
 				case SPECIES_REPLITOR:

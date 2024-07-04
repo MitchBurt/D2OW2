@@ -661,7 +661,7 @@
 #define FLAG_GOT_BERRORDITE  0x265
 #define FLAG_GOT_BLUE_ORB  	  0x266 
 #define FLAG_GOT_RED_ORB  	  0x267
-#define FLAG_UNUSED_0x268  0x268 // Steelixite*
+#define FLAG_UNUSED_0x268  0x268 // Holocastite*
 #define FLAG_UNUSED_0x269  0x269 // Sceptilite*
 #define FLAG_UNUSED_0x26A  0x26A // Swampertite*
 #define FLAG_UNUSED_0x26B  0x26B // Blazikenite*
@@ -688,7 +688,7 @@
 #define FLAG_UNUSED_0x282  0x282 // Godnite X
 #define FLAG_UNUSED_0x283  0x283 // Godnite Y
 #define FLAG_UNUSED_0x284  0x284 // Bacidite*
-#define FLAG_UNUSED_0x285  0x285 // Scizorite*
+#define FLAG_UNUSED_0x285  0x285 // Nuggieite*
 #define FLAG_GOT_HOUNDOOMINITE  0x286 // Houndoomite*
 #define FLAG_UNUSED_0x287  0x287 // Tyranitarite*
 #define FLAG_GOT_GARDEVOIRITE  0x288 // Gardevoirite*

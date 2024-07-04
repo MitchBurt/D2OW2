@@ -877,7 +877,7 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 			if(level >= 37){
 				u16 PossibleEvo[] = {
 					SPECIES_SHEMUE,
-					SPECIES_SLOWKING,
+					SPECIES_GOOBLAN,
 				};
 				
 				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
@@ -2460,7 +2460,7 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_KROLLERITE;
 		break;
-		case SPECIES_HERACROSS:
+		case SPECIES_HAPPYMAUL:
 			if(canMega)
 				item = ITEM_HERACRONITE;
 		break;
@@ -2516,9 +2516,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_SCEPTILITE;
 		break;
-		case SPECIES_SCIZOR:
+		case SPECIES_NUGGIE:
 			if(canMega)
-				item = ITEM_SCIZORITE;
+				item = ITEM_NUGGIEITE;
 		break;
 		case SPECIES_SHARPEDO:
 			if(canMega)
@@ -2528,9 +2528,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_SHEMUENITE;
 		break;
-		case SPECIES_STEELIX:
+		case SPECIES_HOLOCAST:
 			if(canMega)
-				item = ITEM_STEELIXITE;
+				item = ITEM_HOLOCASTITE;
 		break;
 		case SPECIES_SWAMPERT:
 			if(canMega)

@@ -9700,17 +9700,17 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_SCIZORITE] =
+    [ITEM_NUGGIEITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Scizorita"),
+        .name = _("Nuggieita"),
 #else
-        .name = _("Scizorite"),
+        .name = _("Nuggieite"),
 #endif
-        .itemId = ITEM_SCIZORITE,
+        .itemId = ITEM_NUGGIEITE,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sScizoriteDesc,
+        .description = sNuggieiteDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -9873,7 +9873,7 @@ const struct Item gItems[] =
     [ITEM_HERACRONITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Heracrossita"),
+        .name = _("Happymaulita"),
 #else
         .name = _("Heracronite"),
 #endif
@@ -10125,17 +10125,17 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_STEELIXITE] =
+    [ITEM_HOLOCASTITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Steelixita"),
+        .name = _("Holocastita"),
 #else
-        .name = _("Steelixite"),
+        .name = _("Holocastite"),
 #endif
-        .itemId = ITEM_STEELIXITE,
+        .itemId = ITEM_HOLOCASTITE,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sSteelixiteDesc,
+        .description = sHolocastiteDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
