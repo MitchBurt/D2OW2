@@ -2125,7 +2125,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_NATU] =
+    [NATIONAL_DEX_PUCKID] =
     {
         .categoryName = _("Pajarito"),
         .height = 2,
@@ -12915,7 +12915,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_NATU] =
+    [NATIONAL_DEX_PUCKID] =
     {
         .categoryName = _("Tiny Bird"),
         .height = 2,
