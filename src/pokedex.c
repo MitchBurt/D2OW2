@@ -7551,6 +7551,7 @@ static void EvoFormsPage_PrintAToggleUpdownEvos(void)
 
 static void Task_LoadEvolutionScreen(u8 taskId)
 {
+    bool8 seen = GetSetPokedexFlag(SpeciesToNationalPokedexNum(targetSpecies), FLAG_GET_SEEN);
 	u16 formSpeciesId = 0;
     switch (gMain.state)
     {
@@ -7600,6 +7601,7 @@ static void Task_LoadEvolutionScreen(u8 taskId)
             FreeMonIconPalettes(); //Free space for new pallete
             LoadMonIconPalette(GetFormSpeciesId(NationalPokedexNumToSpecies(sPokedexListItem->dexNum), formSpeciesId)); //Loads pallete for current mon
             #ifndef POKEMON_EXPANSION
+            if (seen || !HGSS_HIDE_UNSEEN_EVOLUTION_NAMES)
                 gTasks[taskId].data[4] = CreateMonIcon(NationalPokedexNumToSpecies(sPokedexListItem->dexNum), SpriteCB_MonIcon, 18, 31, 4, 0, formSpeciesId); //Create pokemon sprite
             #endif
             #ifdef POKEMON_EXPANSION
@@ -7612,9 +7614,11 @@ static void Task_LoadEvolutionScreen(u8 taskId)
         break;
     case 4:
         //Print evo info and icons
-        gTasks[taskId].data[3] = 0;
-        PrintEvolutionTargetSpeciesAndMethod(taskId, NationalPokedexNumToSpecies(sPokedexListItem->dexNum), 0, 0);
-		gMain.state++;
+        if (seen || !HGSS_HIDE_UNSEEN_EVOLUTION_NAMES){
+            gTasks[taskId].data[3] = 0;
+            PrintEvolutionTargetSpeciesAndMethod(taskId, NationalPokedexNumToSpecies(sPokedexListItem->dexNum), 0, 0);
+        }
+        gMain.state++;
         break;
     case 5:
         {
@@ -7718,15 +7722,15 @@ static void handleTargetSpeciesPrint(u8 taskId, u16 targetSpecies, u8 base_x, u8
 
     if(base_i < 6)
     {
-        LoadMonIconPalette(targetSpecies); //Loads pallete for current mon
-        #ifndef POKEMON_EXPANSION
-            gTasks[taskId].data[4+base_i] = CreateMonIcon(targetSpecies, SpriteCB_MonIcon, 50 + 32*base_i, 31, 4, 0, formId); //Create pokemon sprite
-        #endif
-        #ifdef POKEMON_EXPANSION
-            gTasks[taskId].data[4+base_i] = CreateMonIcon(targetSpecies, SpriteCB_MonIcon, 50 + 32*base_i, 31, 4, 0, formId); //Create pokemon sprite
-        #endif
         if (seen || !HGSS_HIDE_UNSEEN_EVOLUTION_NAMES){
-            gSprites[gTasks[taskId].data[4+base_i]].oam.priority = 0;
+            LoadMonIconPalette(targetSpecies); //Loads pallete for current mon
+            #ifndef POKEMON_EXPANSION
+                gTasks[taskId].data[4+base_i] = CreateMonIcon(targetSpecies, SpriteCB_MonIcon, 50 + 32*base_i, 31, 4, 0, formId); //Create pokemon sprite
+            #endif
+            #ifdef POKEMON_EXPANSION
+                gTasks[taskId].data[4+base_i] = CreateMonIcon(targetSpecies, SpriteCB_MonIcon, 50 + 32*base_i, 31, 4, 0, formId); //Create pokemon sprite
+            #endif
+                gSprites[gTasks[taskId].data[4+base_i]].oam.priority = 0;
         }
 
     }
