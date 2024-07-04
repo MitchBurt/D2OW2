@@ -3114,7 +3114,7 @@ static const struct TrHillFloor sDataTagUnique_Floors[] = {
                                             .spDefenseIV = 15,
                                             .abilityNum = 0,
                                             .personality = 0xF,
-                                            .nickname = _("Ouroboutlet"),
+                                            .nickname = _("Ourobo"),
                                             .friendship = 255,
                                         },
                                     [4] =
