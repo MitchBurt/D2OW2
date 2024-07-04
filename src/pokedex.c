@@ -7551,7 +7551,6 @@ static void EvoFormsPage_PrintAToggleUpdownEvos(void)
 
 static void Task_LoadEvolutionScreen(u8 taskId)
 {
-    bool8 seen = GetSetPokedexFlag(SpeciesToNationalPokedexNum(targetSpecies), FLAG_GET_SEEN);
 	u16 formSpeciesId = 0;
     switch (gMain.state)
     {
