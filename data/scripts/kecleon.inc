@@ -228,34 +228,34 @@ Shepeird_Text_WantToUsePokeFlute::
 Shepeird_Text_PlayedPokeFlute::
     .string "{PLAYER} played the Blue Flute.$"
 	
-// Bonsly & Sudowoodo -------------------------------------------------------------------------
-EventScript_SetSudowoodoFamilyGfx:: @ 82574C6
+// Bonsly & Breaddie -------------------------------------------------------------------------
+EventScript_SetBreaddieFamilyGfx:: @ 82574C6
 	special ShouldStaticEncounterBeFirstStage
 	compare VAR_RESULT, TRUE
 	goto_if_eq EventScript_SetBonslyGfx
 	goto_if_unset FLAG_BADGE03_GET, EventScript_SetBonslyGfx
-    goto_if_set   FLAG_BADGE03_GET, EventScript_SetSudowoodoGfx
+    goto_if_set   FLAG_BADGE03_GET, EventScript_SetBreaddieGfx
 	return
 	
 EventScript_SetBonslyGfx:: @ 82574C6
 	setvar VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_BONSLY
 	return
 	
-EventScript_SetSudowoodoGfx:: @ 82574C6
-	setvar VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_SUDOWOODO
+EventScript_SetBreaddieGfx:: @ 82574C6
+	setvar VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_BREADDIE
 	return
 
-EventScript_Sudowoodo::
+EventScript_Breaddie::
 	lock
 	faceplayer
 	waitse
-	playse SE_SUDOWOODO_SHAKE
-	applymovement VAR_LAST_TALKED, Sudowoodo_Movement_SudowoodoShake
+	playse SE_BREADDIE_SHAKE
+	applymovement VAR_LAST_TALKED, Breaddie_Movement_BreaddieShake
 	waitmovement 0
 	release
 	end
 
-EventScript_WaterSudowoodo::
+EventScript_WaterBreaddie::
 	lock
 	faceplayer
 	goto_if_unset FLAG_BADGE03_GET, EventScript_WaterBonsly
@@ -263,26 +263,26 @@ EventScript_WaterSudowoodo::
 	special DoWateringBerryTreeAnim
 	waitstate
 	waitse
-	playse SE_SUDOWOODO_SHAKE
-	applymovement VAR_LAST_TALKED, Sudowoodo_Movement_SudowoodoShake
+	playse SE_BREADDIE_SHAKE
+	applymovement VAR_LAST_TALKED, Breaddie_Movement_BreaddieShake
 	waitmovement 0
-	msgbox gText_Sudowoodo_Attacked, MSGBOX_DEFAULT
+	msgbox gText_Breaddie_Attacked, MSGBOX_DEFAULT
 	closemessage
 	waitse
-	playmoncry SPECIES_SUDOWOODO, 2
+	playmoncry SPECIES_BREADDIE, 2
 	delay 40
 	waitmoncry
-	setwildbattle SPECIES_SUDOWOODO, 1, ITEM_NONE
+	setwildbattle SPECIES_BREADDIE, 1, ITEM_NONE
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
 	dowildbattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
 	specialvar VAR_RESULT, GetBattleOutcome
 	compare VAR_RESULT, B_OUTCOME_WON
-	goto_if_eq EventScript_DefeatedSudowoodo
+	goto_if_eq EventScript_DefeatedBreaddie
 	compare VAR_RESULT, B_OUTCOME_RAN
-	goto_if_eq EventScript_DefeatedSudowoodo
+	goto_if_eq EventScript_DefeatedBreaddie
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
-	goto_if_eq EventScript_DefeatedSudowoodo
+	goto_if_eq EventScript_DefeatedBreaddie
 	release
 	end
 	
@@ -290,10 +290,10 @@ EventScript_WaterBonsly::
 	special DoWateringBerryTreeAnim
 	waitstate
 	waitse
-	playse SE_SUDOWOODO_SHAKE
-	applymovement VAR_LAST_TALKED, Sudowoodo_Movement_SudowoodoShake
+	playse SE_BREADDIE_SHAKE
+	applymovement VAR_LAST_TALKED, Breaddie_Movement_BreaddieShake
 	waitmovement 0
-	msgbox gText_Sudowoodo_Attacked, MSGBOX_DEFAULT
+	msgbox gText_Breaddie_Attacked, MSGBOX_DEFAULT
 	closemessage
 	waitse
 	playmoncry SPECIES_BONSLY, 2
@@ -305,19 +305,19 @@ EventScript_WaterBonsly::
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
 	specialvar VAR_RESULT, GetBattleOutcome
 	compare VAR_RESULT, B_OUTCOME_WON
-	goto_if_eq EventScript_DefeatedSudowoodo
+	goto_if_eq EventScript_DefeatedBreaddie
 	compare VAR_RESULT, B_OUTCOME_RAN
-	goto_if_eq EventScript_DefeatedSudowoodo
+	goto_if_eq EventScript_DefeatedBreaddie
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
-	goto_if_eq EventScript_DefeatedSudowoodo
+	goto_if_eq EventScript_DefeatedBreaddie
 	release
 	end
 
-EventScript_DefeatedSudowoodo:: @ 8242D60
+EventScript_DefeatedBreaddie:: @ 8242D60
 	goto Common_EventScript_RemoveStaticPokemon
 	end
 
-Sudowoodo_Movement_SudowoodoShake: @ 8242D69
+Breaddie_Movement_BreaddieShake: @ 8242D69
 	face_right
 	delay_8
 	face_down

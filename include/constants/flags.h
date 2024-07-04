@@ -489,7 +489,7 @@
 #define FLAG_DEFEATED_AWMANE_3_NEW_MAUVILLE 0x1C3
 #define FLAG_DEFEATED_ENDERMON_1_AQUA_HIDEOUT 0x1C4
 #define FLAG_DEFEATED_ENDERMON_2_AQUA_HIDEOUT 0x1C5
-#define FLAG_DEFEATED_SUDOWOODO              0x1C6
+#define FLAG_DEFEATED_BREADDIE              0x1C6
 #define FLAG_DEFEATED_THEVOID                    0x1C7
 #define FLAG_DEFEATED_LATIAS_OR_LATIOS       0x1C8
 #define FLAG_CAUGHT_LATIAS_OR_LATIOS         0x1C9
@@ -687,7 +687,7 @@
 #define FLAG_UNUSED_0x281  0x281 // Usarmyite*
 #define FLAG_UNUSED_0x282  0x282 // Godnite X
 #define FLAG_UNUSED_0x283  0x283 // Godnite Y
-#define FLAG_UNUSED_0x284  0x284 // Ampharosite*
+#define FLAG_UNUSED_0x284  0x284 // Bacidite*
 #define FLAG_UNUSED_0x285  0x285 // Scizorite*
 #define FLAG_GOT_HOUNDOOMINITE  0x286 // Houndoomite*
 #define FLAG_UNUSED_0x287  0x287 // Tyranitarite*
@@ -888,7 +888,7 @@
 #define FLAG_HIDE_SOOTOPOLIS_CITY_MAN_1                             0x347
 #define FLAG_HIDE_SLATEPORT_CITY_CAPTAIN_STERN                      0x348
 #define FLAG_HIDE_SLATEPORT_CITY_HARBOR_CAPTAIN_STERN               0x349
-#define FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO                         0x34A
+#define FLAG_HIDE_BATTLE_FRONTIER_BREADDIE                         0x34A
 #define FLAG_HIDE_ROUTE_111_ROCK_SMASH_TIP_GUY                      0x34B
 #define FLAG_HIDE_RUSTBORO_CITY_SCIENTIST                           0x34C
 #define FLAG_HIDE_SLATEPORT_CITY_HARBOR_AQUA_GRUNT                  0x34D
@@ -1604,7 +1604,7 @@
 #define FLAG_DAILY_EVOLUTION_ITEM                   (DAILY_FLAGS_START + 0x1A) // Daily Evolution Stone
 #define FLAG_NEW_MAUVILLE_TURNED_OFF_GENERATOR      (DAILY_FLAGS_START + 0x1B) // Daily Rotom Battle
 #define FLAG_DAILY_WILD_SHEPEIRD       			    (DAILY_FLAGS_START + 0x1C) // Wild Shepeird
-#define FLAG_DAILY_WILD_SUDOWOODO                   (DAILY_FLAGS_START + 0x1D) // Wild Sudowoodo
+#define FLAG_DAILY_WILD_BREADDIE                   (DAILY_FLAGS_START + 0x1D) // Wild Breaddie
 #define FLAG_DAILY_WILD_KECKLEON                    (DAILY_FLAGS_START + 0x1E) // Wild Keckleon
 #define FLAG_CHANGED_TIME                           (DAILY_FLAGS_START + 0x1F) // Start Menu
 #define FLAG_UNUSED_0x940                           (DAILY_FLAGS_START + 0x20) // Unused Flag

@@ -895,97 +895,97 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x47,
         .y_offset = 5,
     },
-    [SPECIES_MAREEP] =
+    [SPECIES_BADDERY] =
     {
         .size = 0x55,
         .y_offset = 12,
     },
-    [SPECIES_FLAAFFY] =
+    [SPECIES_DURASHELL] =
     {
         .size = 0x56,
         .y_offset = 9,
     },
-    [SPECIES_AMPHAROS] =
+    [SPECIES_BACID] =
     {
         .size = 0x77,
         .y_offset = 2,
     },
-    [SPECIES_BELLOSSOM] =
+    [SPECIES_SEAWEE] =
     {
         .size = 0x45,
         .y_offset = 12,
     },
-    [SPECIES_MARILL] =
+    [SPECIES_TADPAL] =
     {
         .size = 0x65,
         .y_offset = 14,
     },
-    [SPECIES_AZUMARILL] =
+    [SPECIES_ANGLERNOM] =
     {
         .size = 0x76,
         .y_offset = 6,
     },
-    [SPECIES_SUDOWOODO] =
+    [SPECIES_BREADDIE] =
     {
         .size = 0x67,
         .y_offset = 7,
     },
-    [SPECIES_POLITOED] =
+    [SPECIES_TOASTEM] =
     {
         .size = 0x67,
         .y_offset = 4,
     },
-    [SPECIES_HOPPIP] =
+    [SPECIES_DOGEASTER] =
     {
         .size = 0x66,
         .y_offset = 14,
     },
-    [SPECIES_SKIPLOOM] =
+    [SPECIES_ANOOBIS] =
     {
         .size = 0x55,
         .y_offset = 15,
     },
-    [SPECIES_JUMPLUFF] =
+    [SPECIES_NIGHTWAVE] =
     {
         .size = 0x77,
         .y_offset = 9,
     },
-    [SPECIES_AIPOM] =
+    [SPECIES_CHARLES] =
     {
         .size = 0x58,
         .y_offset = 1,
     },
-    [SPECIES_SUNKERN] =
+    [SPECIES_MELARICK] =
     {
         .size = 0x44,
         .y_offset = 17,
     },
-    [SPECIES_SUNFLORA] =
+    [SPECIES_WRECKFAST] =
     {
         .size = 0x56,
         .y_offset = 8,
     },
-    [SPECIES_YANMA] =
+    [SPECIES_SHARCRUSH] =
     {
         .size = 0x86,
         .y_offset = 14,
     },
-    [SPECIES_WOOPER] =
+    [SPECIES_MEGALADETH] =
     {
         .size = 0x54,
         .y_offset = 16,
     },
-    [SPECIES_QUAGSIRE] =
+    [SPECIES_AREALGUN] =
     {
         .size = 0x77,
         .y_offset = 5,
     },
-    [SPECIES_ESPEON] =
+    [SPECIES_DONT] =
     {
         .size = 0x66,
         .y_offset = 8,
     },
-    [SPECIES_UMBREON] =
+    [SPECIES_LEAVE] =
     {
         .size = 0x67,
         .y_offset = 9,
@@ -4577,7 +4577,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_AMPHAROS_MEGA] =
+    [SPECIES_BACID_MEGA] =
     {
         .size = 0,
         .y_offset = 2,

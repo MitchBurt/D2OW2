@@ -66,8 +66,8 @@ static void ItemUseOnFieldCB_Rod(u8);
 static void ItemUseOnFieldCB_Itemfinder(u8);
 static void ItemUseOnFieldCB_Berry(u8 taskId);
 static void ItemUseOnFieldCB_WailmerPailBerry(u8 taskId);
-static void ItemUseOnFieldCB_WailmerPailSudowoodo(u8 taskId);
-static bool8 TryToWaterSudowoodo(void);
+static void ItemUseOnFieldCB_WailmerPailBreaddie(u8 taskId);
+static bool8 TryToWaterBreaddie(void);
 static void BootUpSoundTMHM(u8 taskId);
 static void Task_ShowTMHMContainedMessage(u8 taskId);
 static void UseTMHMYesNo(u8 taskId);
@@ -706,9 +706,9 @@ static void ItemUseOnFieldCB_Berry(u8 taskId)
 
 void ItemUseOutOfBattle_WailmerPail(u8 taskId)
 {
-    if (TryToWaterSudowoodo() == TRUE)
+    if (TryToWaterBreaddie() == TRUE)
     {
-        sItemUseOnFieldCB = ItemUseOnFieldCB_WailmerPailSudowoodo;
+        sItemUseOnFieldCB = ItemUseOnFieldCB_WailmerPailBreaddie;
         SetUpItemUseOnFieldCallback(taskId);
     }
     else if (TryToWaterBerryTree() == TRUE)
@@ -729,7 +729,7 @@ static void ItemUseOnFieldCB_WailmerPailBerry(u8 taskId)
     DestroyTask(taskId);
 }
 
-static bool8 TryToWaterSudowoodo(void)
+static bool8 TryToWaterBreaddie(void)
 {
     u16 x, y;
     u8 z;
@@ -738,7 +738,7 @@ static bool8 TryToWaterSudowoodo(void)
     z = PlayerGetZCoord();
     objId = GetObjectEventIdByXYZ(x, y, z);
 	
-	if(gObjectEvents[objId].graphicsId == OBJ_EVENT_GFX_SUDOWOODO || gObjectEvents[objId].graphicsId == OBJ_EVENT_GFX_BONSLY){
+	if(gObjectEvents[objId].graphicsId == OBJ_EVENT_GFX_BREADDIE || gObjectEvents[objId].graphicsId == OBJ_EVENT_GFX_BONSLY){
 		VarSet(VAR_LAST_TALKED, 34);
         return TRUE;
 	}
@@ -746,10 +746,10 @@ static bool8 TryToWaterSudowoodo(void)
 		return FALSE;
 }
 
-static void ItemUseOnFieldCB_WailmerPailSudowoodo(u8 taskId)
+static void ItemUseOnFieldCB_WailmerPailBreaddie(u8 taskId)
 {
     ScriptContext2_Enable();
-    ScriptContext1_SetupScript(EventScript_WaterSudowoodo);
+    ScriptContext1_SetupScript(EventScript_WaterBreaddie);
     DestroyTask(taskId);
 }
 

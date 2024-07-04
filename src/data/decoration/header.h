@@ -236,7 +236,7 @@ const struct Decoration gDecorations[] = {
         DecorGfx_RED_BRICK
     }, {
         DECOR_YELLOW_BRICK,
-        _("Ladr. Amarillo"),
+        _("Ladr. Atadpalo"),
         DECORPERM_SOLID_FLOOR,
         DECORSHAPE_1x2,
         DECORCAT_ORNAMENT,
@@ -272,7 +272,7 @@ const struct Decoration gDecorations[] = {
         DecorGfx_BLUE_BALLOON
     }, {
         DECOR_YELLOW_BALLOON,
-        _("Globo Amarillo"),
+        _("Globo Atadpalo"),
         DECORPERM_PASS_FLOOR,
         DECORSHAPE_1x1,
         DECORCAT_ORNAMENT,
@@ -703,14 +703,14 @@ const struct Decoration gDecorations[] = {
         DecorDesc_SKIPPA_DOLL,
         DecorGfx_SKIPPA_DOLL
     }, {
-        DECOR_MARILL_DOLL,
-        _("Muñeco Marill"),
+        DECOR_TADPAL_DOLL,
+        _("Muñeco Tadpal"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_DOLL,
         3000,
-        DecorDesc_MARILL_DOLL,
-        DecorGfx_MARILL_DOLL
+        DecorDesc_TADPAL_DOLL,
+        DecorGfx_TADPAL_DOLL
     }, {
         DECOR_VIPII_DOLL,
         _("Muñeco Vipii"),
@@ -1793,14 +1793,14 @@ const struct Decoration gDecorations[] = {
         DecorDesc_SKIPPA_DOLL,
         DecorGfx_SKIPPA_DOLL
     }, {
-        DECOR_MARILL_DOLL,
-        _("Marill Doll"),
+        DECOR_TADPAL_DOLL,
+        _("Tadpal Doll"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_DOLL,
         3000,
-        DecorDesc_MARILL_DOLL,
-        DecorGfx_MARILL_DOLL
+        DecorDesc_TADPAL_DOLL,
+        DecorGfx_TADPAL_DOLL
     }, {
         DECOR_VIPII_DOLL,
         _("Vipii Doll"),

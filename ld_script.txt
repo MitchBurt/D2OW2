@@ -1001,7 +1001,7 @@ SECTIONS {
         sound/songs/midi/se_arena_timeup2.o(.rodata);
         sound/songs/midi/se_pike_curtain_close.o(.rodata);
         sound/songs/midi/se_pike_curtain_open.o(.rodata);
-        sound/songs/midi/se_sudowoodo_shake.o(.rodata);
+        sound/songs/midi/se_breaddie_shake.o(.rodata);
         sound/songs/midi/ph_trap_blend.o(.rodata);
         sound/songs/midi/ph_trap_held.o(.rodata);
         sound/songs/midi/ph_trap_solo.o(.rodata);

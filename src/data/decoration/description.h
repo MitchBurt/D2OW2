@@ -107,7 +107,7 @@ const u8 DecorDesc_RED_BRICK[] = _(
 
 const u8 DecorDesc_YELLOW_BRICK[] = _(
     "Ladrillo de color\n"
-        "amarillo. Ponle\n"
+        "atadpalo. Ponle\n"
         "cosas encima.");
 
 const u8 DecorDesc_BLUE_BRICK[] = _(
@@ -124,7 +124,7 @@ const u8 DecorDesc_BLUE_BALLOON[] = _(
         "Si lo pisas, explota.");
 
 const u8 DecorDesc_YELLOW_BALLOON[] = _(
-    "Globo amarillo de\n"
+    "Globo atadpalo de\n"
         "agua. Si lo pisas,\n"
         "explota.");
 
@@ -338,8 +338,8 @@ const u8 DecorDesc_SKIPPA_DOLL[] = _(
         "Ponlo en una\n"
         "mesa o tapete.");
 
-const u8 DecorDesc_MARILL_DOLL[] = _(
-    "Muñeco de Marill.\n"
+const u8 DecorDesc_TADPAL_DOLL[] = _(
+    "Muñeco de Tadpal.\n"
         "Ponlo en una\n"
         "mesa o tapete.");
 
@@ -459,7 +459,7 @@ const u8 DecorDesc_PIKA_CUSHION[] = _(
         "o tapete.");
 
 const u8 DecorDesc_ROUND_CUSHION[] = _(
-    "Cojín de Marill.\n"
+    "Cojín de Tadpal.\n"
         "Ponlo en una mesa\n"
         "o tapete.");
 
@@ -914,8 +914,8 @@ const u8 DecorDesc_SKIPPA_DOLL[] = _(
         "Place it on a mat\n"
         "or a desk.");
 
-const u8 DecorDesc_MARILL_DOLL[] = _(
-    "A Marill doll.\n"
+const u8 DecorDesc_TADPAL_DOLL[] = _(
+    "A Tadpal doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
@@ -1035,7 +1035,7 @@ const u8 DecorDesc_PIKA_CUSHION[] = _(
         "or a desk.");
 
 const u8 DecorDesc_ROUND_CUSHION[] = _(
-    "A Marill cushion.\n"
+    "A Tadpal cushion.\n"
         "Place it on a mat\n"
         "or a desk.");
 

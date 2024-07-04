@@ -988,7 +988,7 @@ const struct Item gItems[] =
     [ITEM_YELLOW_FLUTE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Flauta Amarilla"),
+        .name = _("Flauta Atadpala"),
 #else
         .name = _("Yellow Flute"),
 #endif
@@ -1215,7 +1215,7 @@ const struct Item gItems[] =
     [ITEM_YELLOW_SHARD] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Parte Amarilla"),
+        .name = _("Parte Atadpala"),
 #else
         .name = _("Yellow Shard"),
 #endif
@@ -1889,7 +1889,7 @@ const struct Item gItems[] =
     [ITEM_YELLOW_APRICORN] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Bonguri Amarillo"),
+        .name = _("Bonguri Atadpalo"),
 #else
         .name = _("Yellow Apricorn"),
 #endif
@@ -2115,7 +2115,7 @@ const struct Item gItems[] =
     [ITEM_YELLOW_NECTAR] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Néctar Amarillo"),
+        .name = _("Néctar Atadpalo"),
 #else
         .name = _("Yellow Nectar"),
 #endif
@@ -4840,7 +4840,7 @@ const struct Item gItems[] =
     [ITEM_YELLOW_SCARF] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Pañuelo Amarillo"),
+        .name = _("Pañuelo Atadpalo"),
 #else
         .name = _("Yellow Scarf"),
 #endif
@@ -9496,17 +9496,17 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_AMPHAROSITE] =
+    [ITEM_BACIDITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Ampharosita"),
+        .name = _("Bacidita"),
 #else
-        .name = _("Ampharosite"),
+        .name = _("Bacidite"),
 #endif
-        .itemId = ITEM_AMPHAROSITE,
+        .itemId = ITEM_BACIDITE,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sAmpharositeDesc,
+        .description = sBaciditeDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,

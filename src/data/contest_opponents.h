@@ -2399,7 +2399,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_AUBREY] = {
-        .species = SPECIES_BELLOSSOM,
+        .species = SPECIES_SEAWEE,
         .nickname = _("Blossom"),
         .trainerName = _("Aubrey"),
         .trainerGfxId = OBJ_EVENT_GFX_WOMAN_4,
@@ -2819,7 +2819,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_JAKOB] = {
-        .species = SPECIES_ESPEON,
+        .species = SPECIES_DONT,
         .nickname = _("Speon"),
         .trainerName = _("Jakob"),
         .trainerGfxId = OBJ_EVENT_GFX_PSYCHIC_M,

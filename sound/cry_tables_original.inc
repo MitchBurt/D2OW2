@@ -180,25 +180,25 @@ gCryTable:: @ 869DCF4
 	cry Cry_Togetic  @ 869E528
 	cry Cry_Puckid  @ 869E534
 	cry Cry_Goalem  @ 869E540
-	cry Cry_Mareep  @ 869E54C
-	cry Cry_Flaaffy  @ 869E558
-	cry Cry_Ampharos  @ 869E564
-	cry Cry_Bellossom  @ 869E570
-	cry Cry_Marill  @ 869E57C
-	cry Cry_Azumarill  @ 869E588
-	cry Cry_Sudowoodo  @ 869E594
-	cry Cry_Politoed  @ 869E5A0
-	cry Cry_Hoppip  @ 869E5AC
-	cry Cry_Skiploom  @ 869E5B8
-	cry Cry_Jumpluff  @ 869E5C4
-	cry Cry_Aipom  @ 869E5D0
-	cry Cry_Sunkern  @ 869E5DC
-	cry Cry_Sunflora  @ 869E5E8
-	cry Cry_Yanma  @ 869E5F4
-	cry Cry_Wooper  @ 869E600
-	cry Cry_Quagsire  @ 869E60C
-	cry Cry_Espeon  @ 869E618
-	cry Cry_Umbreon  @ 869E624
+	cry Cry_Baddery  @ 869E54C
+	cry Cry_Durashell  @ 869E558
+	cry Cry_Bacid  @ 869E564
+	cry Cry_Seawee  @ 869E570
+	cry Cry_Tadpal  @ 869E57C
+	cry Cry_Anglernom  @ 869E588
+	cry Cry_Breaddie  @ 869E594
+	cry Cry_Toastem  @ 869E5A0
+	cry Cry_Dogeaster  @ 869E5AC
+	cry Cry_Anoobis  @ 869E5B8
+	cry Cry_Nightwave  @ 869E5C4
+	cry Cry_Charles  @ 869E5D0
+	cry Cry_Melarick  @ 869E5DC
+	cry Cry_Wreckfast  @ 869E5E8
+	cry Cry_Sharcrush  @ 869E5F4
+	cry Cry_Megaladeth  @ 869E600
+	cry Cry_Arealgun  @ 869E60C
+	cry Cry_Dont  @ 869E618
+	cry Cry_Leave  @ 869E624
 	cry Cry_Murkrow  @ 869E630
 	cry Cry_Slowking  @ 869E63C
 	cry Cry_Misdreavus  @ 869E648
@@ -921,7 +921,7 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Usarmy_Mega
 	cry_not Cry_God_Mega_X
 	cry_not Cry_God_Mega_Y
-	cry_not Cry_Ampharos_Mega
+	cry_not Cry_Bacid_Mega
 	cry_not Cry_Steelix_Mega
 	cry_not Cry_Scizor_Mega
 	cry_not Cry_Heracross_Mega
@@ -1459,25 +1459,25 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Togetic  @ 869F758
 	cry2 Cry_Puckid  @ 869F764
 	cry2 Cry_Goalem  @ 869F770
-	cry2 Cry_Mareep  @ 869F77C
-	cry2 Cry_Flaaffy  @ 869F788
-	cry2 Cry_Ampharos  @ 869F794
-	cry2 Cry_Bellossom  @ 869F7A0
-	cry2 Cry_Marill  @ 869F7AC
-	cry2 Cry_Azumarill  @ 869F7B8
-	cry2 Cry_Sudowoodo  @ 869F7C4
-	cry2 Cry_Politoed  @ 869F7D0
-	cry2 Cry_Hoppip  @ 869F7DC
-	cry2 Cry_Skiploom  @ 869F7E8
-	cry2 Cry_Jumpluff  @ 869F7F4
-	cry2 Cry_Aipom  @ 869F800
-	cry2 Cry_Sunkern  @ 869F80C
-	cry2 Cry_Sunflora  @ 869F818
-	cry2 Cry_Yanma  @ 869F824
-	cry2 Cry_Wooper  @ 869F830
-	cry2 Cry_Quagsire  @ 869F83C
-	cry2 Cry_Espeon  @ 869F848
-	cry2 Cry_Umbreon  @ 869F854
+	cry2 Cry_Baddery  @ 869F77C
+	cry2 Cry_Durashell  @ 869F788
+	cry2 Cry_Bacid  @ 869F794
+	cry2 Cry_Seawee  @ 869F7A0
+	cry2 Cry_Tadpal  @ 869F7AC
+	cry2 Cry_Anglernom  @ 869F7B8
+	cry2 Cry_Breaddie  @ 869F7C4
+	cry2 Cry_Toastem  @ 869F7D0
+	cry2 Cry_Dogeaster  @ 869F7DC
+	cry2 Cry_Anoobis  @ 869F7E8
+	cry2 Cry_Nightwave  @ 869F7F4
+	cry2 Cry_Charles  @ 869F800
+	cry2 Cry_Melarick  @ 869F80C
+	cry2 Cry_Wreckfast  @ 869F818
+	cry2 Cry_Sharcrush  @ 869F824
+	cry2 Cry_Megaladeth  @ 869F830
+	cry2 Cry_Arealgun  @ 869F83C
+	cry2 Cry_Dont  @ 869F848
+	cry2 Cry_Leave  @ 869F854
 	cry2 Cry_Murkrow  @ 869F860
 	cry2 Cry_Slowking  @ 869F86C
 	cry2 Cry_Misdreavus  @ 869F878
@@ -2199,7 +2199,7 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Usarmy_Mega
 	cry2_not Cry_God_Mega_X
 	cry2_not Cry_God_Mega_Y
-	cry2_not Cry_Ampharos_Mega
+	cry2_not Cry_Bacid_Mega
 	cry2_not Cry_Steelix_Mega
 	cry2_not Cry_Scizor_Mega
 	cry2_not Cry_Heracross_Mega

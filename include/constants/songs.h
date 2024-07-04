@@ -275,7 +275,7 @@
 #define SE_ARENA_TIMEUP2              266 // SE_HANTEI2
 #define SE_PIKE_CURTAIN_CLOSE         267 // SE_CURTAIN
 #define SE_PIKE_CURTAIN_OPEN          268 // SE_CURTAIN1
-#define SE_SUDOWOODO_SHAKE            269 // SE_USSOKI
+#define SE_BREADDIE_SHAKE            269 // SE_USSOKI
 // Bard SFX
 #define PH_TRAP_BLEND                 270
 #define PH_TRAP_HELD                  271

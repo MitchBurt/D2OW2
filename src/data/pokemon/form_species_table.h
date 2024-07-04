@@ -212,9 +212,9 @@ static const u16 sPichuFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sAmpharosFormSpeciesIdTable[] = {
-    SPECIES_AMPHAROS,
-    SPECIES_AMPHAROS_MEGA,
+static const u16 sBacidFormSpeciesIdTable[] = {
+    SPECIES_BACID,
+    SPECIES_BACID_MEGA,
     0xFFFF,
 };
 

@@ -85,7 +85,7 @@
 #define OBJ_EVENT_GFX_UNUSED_NATU_DOLL            76
 #define OBJ_EVENT_GFX_UNUSED_DESQUARED_DOLL       77
 #define OBJ_EVENT_GFX_UNUSED_JISSM_DOLL        78
-#define OBJ_EVENT_GFX_UNUSED_WOOPER_DOLL          79
+#define OBJ_EVENT_GFX_UNUSED_MEGALADETH_DOLL          79
 #define OBJ_EVENT_GFX_UNUSED_SKIPPA_DOLL         80
 #define OBJ_EVENT_GFX_UNUSED_PORYGON2_DOLL        81
 #define OBJ_EVENT_GFX_CUTTABLE_TREE               82
@@ -151,7 +151,7 @@
 #define OBJ_EVENT_GFX_SUBMARINE_SHADOW           141
 #define OBJ_EVENT_GFX_PICHU_DOLL                 142
 #define OBJ_EVENT_GFX_SKIPPA_DOLL               143
-#define OBJ_EVENT_GFX_MARILL_DOLL                144
+#define OBJ_EVENT_GFX_TADPAL_DOLL                144
 #define OBJ_EVENT_GFX_VIPII_DOLL                145
 #define OBJ_EVENT_GFX_MEGATRON_DOLL             146
 #define OBJ_EVENT_GFX_TOM_DOLL             147
@@ -217,7 +217,7 @@
 #define OBJ_EVENT_GFX_RAYQUAZA_2                 207
 #define OBJ_EVENT_GFX_ZIGZAGOON_2                208
 #define OBJ_EVENT_GFX_SKIPPA                    209
-#define OBJ_EVENT_GFX_AZUMARILL                  210
+#define OBJ_EVENT_GFX_ANGLERNOM                  210
 #define OBJ_EVENT_GFX_WINGULL                    211
 #define OBJ_EVENT_GFX_KECLEON_2                  212
 #define OBJ_EVENT_GFX_TUBER_M_SWIMMING           213
@@ -235,7 +235,7 @@
 #define OBJ_EVENT_GFX_KIRLIA                     225
 #define OBJ_EVENT_GFX_DUSCLOPS                   226
 #define OBJ_EVENT_GFX_UNION_ROOM_NURSE           227
-#define OBJ_EVENT_GFX_SUDOWOODO                  228
+#define OBJ_EVENT_GFX_BREADDIE                  228
 #define OBJ_EVENT_GFX_THEVOID                        229
 #define OBJ_EVENT_GFX_RED                        230
 #define OBJ_EVENT_GFX_LEAF                       231

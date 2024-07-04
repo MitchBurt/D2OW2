@@ -11891,7 +11891,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
             "its Attack, Defense and Speed\n" 
             "stats as well as its accuracy."),
     },
-    [SPECIES_AMPHAROS] =
+    [SPECIES_BACID] =
     {
         .move = MOVE_DISCHARGE,
         .modification = SIGNATURE_MOD_POWER,
@@ -11902,7 +11902,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_AMPHAROS_MEGA] =
+    [SPECIES_BACID_MEGA] =
     {
         .move = MOVE_DISCHARGE,
         .modification = SIGNATURE_MOD_POWER,
@@ -12024,7 +12024,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_BELLOSSOM] =
+    [SPECIES_SEAWEE] =
     {
         .move = MOVE_PETAL_DANCE,
         .modification = SIGNATURE_MOD_ATTACKER_STAT_UP,

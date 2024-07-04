@@ -78,7 +78,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lucy;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedNatuDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedDesquaredDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedJissmDoll;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedWooperDoll;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMegaladethDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedSkippaDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedPorygon2Doll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CuttableTree;
@@ -143,7 +143,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SSTidal;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SubmarineShadow;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PichuDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SkippaDoll;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MarillDoll;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TadpalDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_VipiiDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MegatronDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TomDoll;
@@ -201,7 +201,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Skitty;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kecleon1;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Zigzagoon;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Skippa;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Azumarill;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Anglernom;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wingull;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kecleon2;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TuberMSwimming;
@@ -217,7 +217,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Statue;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kirlia;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Dusclops;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnionRoomAttendant;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sudowoodo;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Breaddie;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Thevoid;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Red;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Leaf;
@@ -1177,7 +1177,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_UNUSED_NATU_DOLL] =         &gObjectEventGraphicsInfo_UnusedNatuDoll,
     [OBJ_EVENT_GFX_UNUSED_DESQUARED_DOLL] =    &gObjectEventGraphicsInfo_UnusedDesquaredDoll,
     [OBJ_EVENT_GFX_UNUSED_JISSM_DOLL] =     &gObjectEventGraphicsInfo_UnusedJissmDoll,
-    [OBJ_EVENT_GFX_UNUSED_WOOPER_DOLL] =       &gObjectEventGraphicsInfo_UnusedWooperDoll,
+    [OBJ_EVENT_GFX_UNUSED_MEGALADETH_DOLL] =       &gObjectEventGraphicsInfo_UnusedMegaladethDoll,
     [OBJ_EVENT_GFX_UNUSED_SKIPPA_DOLL] =      &gObjectEventGraphicsInfo_UnusedSkippaDoll,
     [OBJ_EVENT_GFX_UNUSED_PORYGON2_DOLL] =     &gObjectEventGraphicsInfo_UnusedPorygon2Doll,
     [OBJ_EVENT_GFX_CUTTABLE_TREE] =            &gObjectEventGraphicsInfo_CuttableTree,
@@ -1239,7 +1239,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_SUBMARINE_SHADOW] =         &gObjectEventGraphicsInfo_SubmarineShadow,
     [OBJ_EVENT_GFX_PICHU_DOLL] =               &gObjectEventGraphicsInfo_PichuDoll,
     [OBJ_EVENT_GFX_SKIPPA_DOLL] =             &gObjectEventGraphicsInfo_SkippaDoll,
-    [OBJ_EVENT_GFX_MARILL_DOLL] =              &gObjectEventGraphicsInfo_MarillDoll,
+    [OBJ_EVENT_GFX_TADPAL_DOLL] =              &gObjectEventGraphicsInfo_TadpalDoll,
     [OBJ_EVENT_GFX_VIPII_DOLL] =              &gObjectEventGraphicsInfo_VipiiDoll,
     [OBJ_EVENT_GFX_MEGATRON_DOLL] =           &gObjectEventGraphicsInfo_MegatronDoll,
     [OBJ_EVENT_GFX_TOM_DOLL] =           &gObjectEventGraphicsInfo_TomDoll,
@@ -1362,7 +1362,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
 	
 	//Special Static Pokemon Sprites
 	[OBJ_EVENT_GFX_BONSLY] =                   &gObjectEventGraphicsInfo_Bonsly,
-	[OBJ_EVENT_GFX_SUDOWOODO] =                &gObjectEventGraphicsInfo_Sudowoodo,
+	[OBJ_EVENT_GFX_BREADDIE] =                &gObjectEventGraphicsInfo_Breaddie,
 	[OBJ_EVENT_GFX_SHEPEIRD] =                  &gObjectEventGraphicsInfo_Shepeird,
 	[OBJ_EVENT_GFX_MUNCHLAX] =                 &gObjectEventGraphicsInfo_Munchlax,
 	
@@ -1390,7 +1390,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
 	[OBJ_EVENT_GFX_DEOXYS] =                   &gObjectEventGraphicsInfo_Pokemon_Species_386,
 	[OBJ_EVENT_GFX_KECLEON_1] =                &gObjectEventGraphicsInfo_Pokemon_Species_352,
     [OBJ_EVENT_GFX_ZIGZAGOON_2] =              &gObjectEventGraphicsInfo_Pokemon_Species_263,
-    [OBJ_EVENT_GFX_AZUMARILL] =                &gObjectEventGraphicsInfo_Pokemon_Species_184,
+    [OBJ_EVENT_GFX_ANGLERNOM] =                &gObjectEventGraphicsInfo_Pokemon_Species_184,
     [OBJ_EVENT_GFX_WINGULL] =                  &gObjectEventGraphicsInfo_Pokemon_Species_279,
     [OBJ_EVENT_GFX_KECLEON_2] =                &gObjectEventGraphicsInfo_Pokemon_Species_352,
 	[OBJ_EVENT_GFX_AZURILL] =                  &gObjectEventGraphicsInfo_Pokemon_Species_184,

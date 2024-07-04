@@ -1279,8 +1279,8 @@ const u32 gItemIconPalette_Sansite[] = INCBIN_U32("graphics/items/icon_palettes/
 const u32 gItemIcon_Gardevoirite[] = INCBIN_U32("graphics/items/icons/gardevoirite.4bpp.lz");
 const u32 gItemIconPalette_Gardevoirite[] = INCBIN_U32("graphics/items/icon_palettes/gardevoirite.gbapal.lz");
 
-const u32 gItemIcon_Ampharosite[] = INCBIN_U32("graphics/items/icons/ampharosite.4bpp.lz");
-const u32 gItemIconPalette_Ampharosite[] = INCBIN_U32("graphics/items/icon_palettes/ampharosite.gbapal.lz");
+const u32 gItemIcon_Bacidite[] = INCBIN_U32("graphics/items/icons/bacidite.4bpp.lz");
+const u32 gItemIconPalette_Bacidite[] = INCBIN_U32("graphics/items/icon_palettes/bacidite.gbapal.lz");
 
 const u32 gItemIcon_Yggdraconite[] = INCBIN_U32("graphics/items/icons/yggdraconite.4bpp.lz");
 const u32 gItemIconPalette_Yggdraconite[] = INCBIN_U32("graphics/items/icon_palettes/yggdraconite.gbapal.lz");

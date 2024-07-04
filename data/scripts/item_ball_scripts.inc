@@ -738,8 +738,8 @@ MegaStone_EventScript_ItemBanetite::
 	addscaleditem ITEM_BANETTITE
 	end
 	
-MegaStone_EventScript_Ampharosite::
-	addscaleditem ITEM_AMPHAROSITE
+MegaStone_EventScript_Bacidite::
+	addscaleditem ITEM_BACIDITE
 	end
 	
 MegaStone_EventScript_Lucarionite::

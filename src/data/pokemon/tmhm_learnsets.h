@@ -7300,7 +7300,7 @@ static const u8 sGoalemTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sMareepTMHMLearnset[] =
+static const u8 sBadderyTMHMLearnset[] =
 {
     TMHM(TM06_TOXIC),
     TMHM(TM10_HIDDEN_POWER),
@@ -7331,7 +7331,7 @@ static const u8 sMareepTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sFlaaffyTMHMLearnset[] =
+static const u8 sDurashellTMHMLearnset[] =
 {
     TMHM(TM01_FOCUS_PUNCH),
     TMHM(TM06_TOXIC),
@@ -7366,7 +7366,7 @@ static const u8 sFlaaffyTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sAmpharosTMHMLearnset[] =
+static const u8 sBacidTMHMLearnset[] =
 {
     TMHM(TM01_FOCUS_PUNCH),
     TMHM(TM06_TOXIC),
@@ -7406,7 +7406,7 @@ static const u8 sAmpharosTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sBellossomTMHMLearnset[] =
+static const u8 sSeaweeTMHMLearnset[] =
 {
     TMHM(TM06_TOXIC),
     TMHM(TM09_BULLET_SEED),
@@ -7442,7 +7442,7 @@ static const u8 sBellossomTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sMarillTMHMLearnset[] =
+static const u8 sTadpalTMHMLearnset[] =
 {
     TMHM(TM01_FOCUS_PUNCH),
     TMHM(TM03_WATER_PULSE),
@@ -7478,7 +7478,7 @@ static const u8 sMarillTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sAzumarillTMHMLearnset[] =
+static const u8 sAnglernomTMHMLearnset[] =
 {
     TMHM(TM01_FOCUS_PUNCH),
     TMHM(TM03_WATER_PULSE),
@@ -7519,7 +7519,7 @@ static const u8 sAzumarillTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sSudowoodoTMHMLearnset[] =
+static const u8 sBreaddieTMHMLearnset[] =
 {
     TMHM(TM01_FOCUS_PUNCH),
     TMHM(TM04_CALM_MIND),
@@ -7559,7 +7559,7 @@ static const u8 sSudowoodoTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sPolitoedTMHMLearnset[] =
+static const u8 sToastemTMHMLearnset[] =
 {
     TMHM(TM01_FOCUS_PUNCH),
     TMHM(TM03_WATER_PULSE),
@@ -7600,7 +7600,7 @@ static const u8 sPolitoedTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sHoppipTMHMLearnset[] =
+static const u8 sDogeasterTMHMLearnset[] =
 {
     TMHM(TM06_TOXIC),
     TMHM(TM09_BULLET_SEED),
@@ -7633,7 +7633,7 @@ static const u8 sHoppipTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sSkiploomTMHMLearnset[] =
+static const u8 sAnoobisTMHMLearnset[] =
 {
     TMHM(TM06_TOXIC),
     TMHM(TM09_BULLET_SEED),
@@ -7666,7 +7666,7 @@ static const u8 sSkiploomTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sJumpluffTMHMLearnset[] =
+static const u8 sNightwaveTMHMLearnset[] =
 {
     TMHM(TM06_TOXIC),
     TMHM(TM09_BULLET_SEED),
@@ -7701,7 +7701,7 @@ static const u8 sJumpluffTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sAipomTMHMLearnset[] =
+static const u8 sCharlesTMHMLearnset[] =
 {
     TMHM(TM01_FOCUS_PUNCH),
     TMHM(TM03_WATER_PULSE),
@@ -7747,7 +7747,7 @@ static const u8 sAipomTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sSunkernTMHMLearnset[] =
+static const u8 sMelarickTMHMLearnset[] =
 {
     TMHM(TM06_TOXIC),
     TMHM(TM09_BULLET_SEED),
@@ -7778,7 +7778,7 @@ static const u8 sSunkernTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sSunfloraTMHMLearnset[] =
+static const u8 sWreckfastTMHMLearnset[] =
 {
     TMHM(TM06_TOXIC),
     TMHM(TM09_BULLET_SEED),
@@ -7811,7 +7811,7 @@ static const u8 sSunfloraTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sYanmaTMHMLearnset[] =
+static const u8 sSharcrushTMHMLearnset[] =
 {
     TMHM(TM06_TOXIC),
     TMHM(TM10_HIDDEN_POWER),
@@ -7842,7 +7842,7 @@ static const u8 sYanmaTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sWooperTMHMLearnset[] =
+static const u8 sMegaladethTMHMLearnset[] =
 {
     TMHM(TM03_WATER_PULSE),
     TMHM(TM06_TOXIC),
@@ -7879,7 +7879,7 @@ static const u8 sWooperTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sQuagsireTMHMLearnset[] =
+static const u8 sArealgunTMHMLearnset[] =
 {
     TMHM(TM01_FOCUS_PUNCH),
     TMHM(TM03_WATER_PULSE),
@@ -7927,7 +7927,7 @@ static const u8 sQuagsireTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sEspeonTMHMLearnset[] =
+static const u8 sDontTMHMLearnset[] =
 {
     TMHM(TM04_CALM_MIND),
     TMHM(TM06_TOXIC),
@@ -7964,7 +7964,7 @@ static const u8 sEspeonTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sUmbreonTMHMLearnset[] =
+static const u8 sLeaveTMHMLearnset[] =
 {
     TMHM(TM06_TOXIC),
     TMHM(TM10_HIDDEN_POWER),
@@ -36254,25 +36254,25 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_TOGETIC] = sTogeticTMHMLearnset,
     [SPECIES_PUCKID] = sNatuTMHMLearnset,
     [SPECIES_GOALEM] = sGoalemTMHMLearnset,
-    [SPECIES_MAREEP] = sMareepTMHMLearnset,
-    [SPECIES_FLAAFFY] = sFlaaffyTMHMLearnset,
-    [SPECIES_AMPHAROS] = sAmpharosTMHMLearnset,
-    [SPECIES_BELLOSSOM] = sBellossomTMHMLearnset,
-    [SPECIES_MARILL] = sMarillTMHMLearnset,
-    [SPECIES_AZUMARILL] = sAzumarillTMHMLearnset,
-    [SPECIES_SUDOWOODO] = sSudowoodoTMHMLearnset,
-    [SPECIES_POLITOED] = sPolitoedTMHMLearnset,
-    [SPECIES_HOPPIP] = sHoppipTMHMLearnset,
-    [SPECIES_SKIPLOOM] = sSkiploomTMHMLearnset,
-    [SPECIES_JUMPLUFF] = sJumpluffTMHMLearnset,
-    [SPECIES_AIPOM] = sAipomTMHMLearnset,
-    [SPECIES_SUNKERN] = sSunkernTMHMLearnset,
-    [SPECIES_SUNFLORA] = sSunfloraTMHMLearnset,
-    [SPECIES_YANMA] = sYanmaTMHMLearnset,
-    [SPECIES_WOOPER] = sWooperTMHMLearnset,
-    [SPECIES_QUAGSIRE] = sQuagsireTMHMLearnset,
-    [SPECIES_ESPEON] = sEspeonTMHMLearnset,
-    [SPECIES_UMBREON] = sUmbreonTMHMLearnset,
+    [SPECIES_BADDERY] = sBadderyTMHMLearnset,
+    [SPECIES_DURASHELL] = sDurashellTMHMLearnset,
+    [SPECIES_BACID] = sBacidTMHMLearnset,
+    [SPECIES_SEAWEE] = sSeaweeTMHMLearnset,
+    [SPECIES_TADPAL] = sTadpalTMHMLearnset,
+    [SPECIES_ANGLERNOM] = sAnglernomTMHMLearnset,
+    [SPECIES_BREADDIE] = sBreaddieTMHMLearnset,
+    [SPECIES_TOASTEM] = sToastemTMHMLearnset,
+    [SPECIES_DOGEASTER] = sDogeasterTMHMLearnset,
+    [SPECIES_ANOOBIS] = sAnoobisTMHMLearnset,
+    [SPECIES_NIGHTWAVE] = sNightwaveTMHMLearnset,
+    [SPECIES_CHARLES] = sCharlesTMHMLearnset,
+    [SPECIES_MELARICK] = sMelarickTMHMLearnset,
+    [SPECIES_WRECKFAST] = sWreckfastTMHMLearnset,
+    [SPECIES_SHARCRUSH] = sSharcrushTMHMLearnset,
+    [SPECIES_MEGALADETH] = sMegaladethTMHMLearnset,
+    [SPECIES_AREALGUN] = sArealgunTMHMLearnset,
+    [SPECIES_DONT] = sDontTMHMLearnset,
+    [SPECIES_LEAVE] = sLeaveTMHMLearnset,
     [SPECIES_MURKROW] = sMurkrowTMHMLearnset,
     [SPECIES_SLOWKING] = sSlowkingTMHMLearnset,
     [SPECIES_MISDREAVUS] = sMisdreavusTMHMLearnset,

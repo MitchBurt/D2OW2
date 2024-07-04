@@ -1,5 +1,5 @@
 raw `
-.set LOCALID_SUDOWOODO, 14
+.set LOCALID_BREADDIE, 14
 
 BattleFrontier_OutsideEast_MapScripts:: @ 8242C04
 	map_script MAP_SCRIPT_ON_RESUME, BattleFrontier_OutsideEast_OnResume
@@ -7,10 +7,10 @@ BattleFrontier_OutsideEast_MapScripts:: @ 8242C04
 	.byte 0
 
 BattleFrontier_OutsideEast_OnResume: @ 8242C0F
-	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, BattleFrontier_OutsideEast_EventScript_TryRemoveSudowoodo
+	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, BattleFrontier_OutsideEast_EventScript_TryRemoveBreaddie
 	end
 
-BattleFrontier_OutsideEast_EventScript_TryRemoveSudowoodo:: @ 8242C19
+BattleFrontier_OutsideEast_EventScript_TryRemoveBreaddie:: @ 8242C19
 	specialvar VAR_RESULT, GetBattleOutcome
 	compare VAR_RESULT, B_OUTCOME_CAUGHT
 	goto_if_ne Common_EventScript_NopReturn
@@ -20,12 +20,12 @@ BattleFrontier_OutsideEast_EventScript_TryRemoveSudowoodo:: @ 8242C19
 BattleFrontier_OutsideEast_OnTransition: @ 8242C2D
 	setvar VAR_BRAVO_TRAINER_BATTLE_TOWER_ON, 0
 	setflag FLAG_HIDE_BATTLE_TOWER_REPORTER
-	call_if_unset FLAG_DEFEATED_SUDOWOODO, BattleFrontier_OutsideEast_EventScript_ShowSudowoodo
-	call EventScript_SetSudowoodoFamilyGfx
+	call_if_unset FLAG_DEFEATED_BREADDIE, BattleFrontier_OutsideEast_EventScript_ShowBreaddie
+	call EventScript_SetBreaddieFamilyGfx
 	end
 
-BattleFrontier_OutsideEast_EventScript_ShowSudowoodo:: @ 8242C3F
-	clearflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+BattleFrontier_OutsideEast_EventScript_ShowBreaddie:: @ 8242C3F
+	clearflag FLAG_HIDE_BATTLE_FRONTIER_BREADDIE
 	return
 
 BattleFrontier_OutsideEast_EventScript_BattleTowerSign:: @ 8242C43
@@ -161,12 +161,12 @@ BattleFrontier_OutsideEast_EventScript_Gentleman:: @ 8242DE0
 BattleFrontier_OutsideEast_EventScript_OldWoman:: @ 8242DE9
 	lock
 	faceplayer
-	goto_if_set FLAG_DEFEATED_SUDOWOODO, BattleFrontier_OutsideEast_EventScript_OldWomanSudowoodoGone
+	goto_if_set FLAG_DEFEATED_BREADDIE, BattleFrontier_OutsideEast_EventScript_OldWomanBreaddieGone
 	msgbox BattleFrontier_OutsideEast_Text_OddTreeHereSeemsToWiggle, MSGBOX_DEFAULT
 	release
 	end
 
-BattleFrontier_OutsideEast_EventScript_OldWomanSudowoodoGone:: @ 8242DFE
+BattleFrontier_OutsideEast_EventScript_OldWomanBreaddieGone:: @ 8242DFE
 	msgbox BattleFrontier_OutsideEast_Text_OnceAnOddTreePastHere, MSGBOX_DEFAULT
 	release
 	end

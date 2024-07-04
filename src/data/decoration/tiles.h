@@ -470,8 +470,8 @@ const u16 DecorGfx_SKIPPA_DOLL[] = {
     OBJ_EVENT_GFX_SKIPPA_DOLL
 };
 
-const u16 DecorGfx_MARILL_DOLL[] = {
-    OBJ_EVENT_GFX_MARILL_DOLL
+const u16 DecorGfx_TADPAL_DOLL[] = {
+    OBJ_EVENT_GFX_TADPAL_DOLL
 };
 
 const u16 DecorGfx_VIPII_DOLL[] = {

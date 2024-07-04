@@ -641,7 +641,7 @@ static const u8 sShadowMailDesc[] = _(
     "un Pokémon.");
 
 static const u8 sTropicMailDesc[] = _(
-    "Sale Bellossom.\n"
+    "Sale Seawee.\n"
     "Debe llevarla\n"
     "un Pokémon.");
 
@@ -2507,10 +2507,10 @@ static const u8 sGardevoiriteDesc[] = _(
     "megaevolucionar a\n"
     "Gardevoir.");
 
-static const u8 sAmpharositeDesc[] = _(
+static const u8 sBaciditeDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Ampharos.");
+    "Bacid.");
 
 static const u8 sYggdraconiteDesc[] = _(
     "Piedra que permite\n"
@@ -3512,7 +3512,7 @@ static const u8 sShadowMailDesc[] = _(
     "a Pokémon.");
 
 static const u8 sTropicMailDesc[] = _(
-    "A Bellossom-print\n"
+    "A Seawee-print\n"
     "Mail to be held by\n"
     "a Pokémon.");
 
@@ -5740,9 +5740,9 @@ static const u8 sGardevoiriteDesc[] = _(
     "Gardevoir to Mega\n"
     "Evolve in battle.");
 
-static const u8 sAmpharositeDesc[] = _(
+static const u8 sBaciditeDesc[] = _(
     "This stone enables\n"
-    "Ampharos to Mega\n"
+    "Bacid to Mega\n"
     "Evolve in battle.");
 
 static const u8 sYggdraconiteDesc[] = _(

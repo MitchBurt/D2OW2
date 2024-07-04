@@ -589,7 +589,7 @@ extern const u8 TrainerHill_EventScript_TrainerBattle[];
 // Item Use
 extern u8 BerryTree_EventScript_ItemUsePlantBerry[];
 extern u8 BerryTree_EventScript_ItemUseWailmerPail[];
-extern u8 EventScript_WaterSudowoodo[];
+extern u8 EventScript_WaterBreaddie[];
 
 // Dexnav
 extern const u8 EventScript_StartDexNavBattle[];

@@ -856,7 +856,7 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 			if(level >= 38){
 				u16 PossibleEvo[] = {
 					SPECIES_RENAGEDE,
-					SPECIES_POLITOED,
+					SPECIES_TOASTEM,
 				};
 				
 				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
@@ -887,7 +887,7 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 			if(level >= 36){
 				u16 PossibleEvo[] = {
 					SPECIES_GANJAZE,
-					SPECIES_BELLOSSOM,
+					SPECIES_SEAWEE,
 				};
 				
 				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
@@ -2404,9 +2404,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_ALTARIANITE;
 		break;
-		case SPECIES_AMPHAROS:
+		case SPECIES_BACID:
 			if(canMega)
-				item = ITEM_AMPHAROSITE;
+				item = ITEM_BACIDITE;
 		break;
 		case SPECIES_AUDINO:
 			if(canMega)

@@ -1264,7 +1264,7 @@ const u16 gEggMoves[] = {
 		MOVE_ALLY_SWITCH,
 		MOVE_PSYCH_UP),
 
-	egg_moves(MAREEP,
+	egg_moves(BADDERY,
 		MOVE_SAND_ATTACK,
 		MOVE_BODY_SLAM,
 		MOVE_TAKE_DOWN,
@@ -1281,7 +1281,7 @@ const u16 gEggMoves[] = {
 		MOVE_SAFEGUARD,
 		MOVE_THUNDERBOLT),
 
-	egg_moves(MARILL,
+	egg_moves(TADPAL,
 		MOVE_SING,
 		MOVE_SUPERSONIC,
 		MOVE_BELLY_DRUM,
@@ -1303,7 +1303,7 @@ const u16 gEggMoves[] = {
 		MOVE_SUBSTITUTE,
 		MOVE_FORESIGHT),
 
-	egg_moves(SUDOWOODO,
+	egg_moves(BREADDIE,
 		MOVE_HEADBUTT,
 		MOVE_HARDEN,
 		MOVE_DEFENSE_CURL,
@@ -1315,7 +1315,7 @@ const u16 gEggMoves[] = {
 		MOVE_SAND_TOMB,
 		MOVE_STEALTH_ROCK),
 
-	egg_moves(HOPPIP,
+	egg_moves(DOGEASTER,
 		MOVE_AGILITY,
 		MOVE_DOUBLE_EDGE,
 		MOVE_CONFUSION,
@@ -1335,7 +1335,7 @@ const u16 gEggMoves[] = {
 		MOVE_BOUNCE,
 		MOVE_GROWL),
 
-	egg_moves(AIPOM,
+	egg_moves(CHARLES,
 		MOVE_DOUBLE_SLAP,
 		MOVE_SLAM,
 		MOVE_COUNTER,
@@ -1352,7 +1352,7 @@ const u16 gEggMoves[] = {
 		MOVE_QUICK_GUARD,
 		MOVE_TAIL_SLAP),
 
-	egg_moves(SUNKERN,
+	egg_moves(MELARICK,
 		MOVE_LEECH_SEED,
 		MOVE_BIDE,
 		MOVE_CURSE,
@@ -1369,7 +1369,7 @@ const u16 gEggMoves[] = {
 		MOVE_CAMOUFLAGE,
 		MOVE_GRASSY_TERRAIN),
 
-	egg_moves(YANMA,
+	egg_moves(SHARCRUSH,
 		MOVE_WHIRLWIND,
 		MOVE_DOUBLE_EDGE,
 		MOVE_LEECH_LIFE,
@@ -1381,7 +1381,7 @@ const u16 gEggMoves[] = {
 		MOVE_SIGNAL_BEAM,
 		MOVE_FEINT),
 
-	egg_moves(WOOPER,
+	egg_moves(MEGALADETH,
 		MOVE_DOUBLE_KICK,
 		MOVE_COUNTER,
 		MOVE_RECOVER,

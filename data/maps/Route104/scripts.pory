@@ -1,5 +1,5 @@
 raw `
-.set LOCALID_SUDOWOODO, 34
+.set LOCALID_BREADDIE, 34
 
 Route104_MapScripts:: @ 81ECC32
 	map_script MAP_SCRIPT_ON_FRAME_TABLE, Route104_OnFrame
@@ -19,7 +19,7 @@ Route104_OnTransition: @ 81ECC4E
 	call Common_EventScript_SetupRivalGfxId
 	call Route104_EventScript_TrySetRivalPos
 	call Route104_EventScript_ShowOrHideWhiteHerbFlorist
-	call EventScript_SetSudowoodoFamilyGfx
+	call EventScript_SetBreaddieFamilyGfx
 	end
 
 Route104_EventScript_ShowOrHideWhiteHerbFlorist:: @ 81ECC5E

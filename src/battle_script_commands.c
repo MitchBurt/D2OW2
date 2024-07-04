@@ -12859,7 +12859,7 @@ static void Cmd_givecaughtmon(void)
         case SPECIES_USARMY_MEGA:
         case SPECIES_GOD_MEGA_X:
         case SPECIES_GOD_MEGA_Y:
-        case SPECIES_AMPHAROS_MEGA:
+        case SPECIES_BACID_MEGA:
         case SPECIES_STEELIX_MEGA:
         case SPECIES_SCIZOR_MEGA:
         case SPECIES_HERACROSS_MEGA:

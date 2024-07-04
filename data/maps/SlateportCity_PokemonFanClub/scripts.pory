@@ -257,12 +257,12 @@ SlateportCity_PokemonFanClub_EventScript_Zigzagoon:: @ 820A20D
 	release
 	end
 
-SlateportCity_PokemonFanClub_EventScript_Azumarill:: @ 820A220
+SlateportCity_PokemonFanClub_EventScript_Anglernom:: @ 820A220
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_AZUMARILL, 0
-	msgbox SlateportCity_PokemonFanClub_Text_Azumarill, MSGBOX_DEFAULT
+	playmoncry SPECIES_ANGLERNOM, 0
+	msgbox SlateportCity_PokemonFanClub_Text_Anglernom, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
@@ -410,7 +410,7 @@ SlateportCity_PokemonFanClub_Text_Skitty: @ 820AD5A
 SlateportCity_PokemonFanClub_Text_Zigzagoon: @ 820AD6E
 	.string "Zigzagoon: Kyuuu…$"
 
-SlateportCity_PokemonFanClub_Text_Azumarill: @ 820AD80
-	.string "Azumarill: Marimari?$"
+SlateportCity_PokemonFanClub_Text_Anglernom: @ 820AD80
+	.string "Anglernom: Marimari?$"
 
 `

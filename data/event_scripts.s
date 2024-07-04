@@ -1033,7 +1033,7 @@ gText_ThankYouForAccessingMysteryGift:: @ 8273178
 gText_PlayerFoundOneTMHM:: @ 82731A9
 	.string "{PLAYER} found {STR_VAR_1}!$"
 
-gText_Sudowoodo_Attacked:: @ 82731BD
+gText_Breaddie_Attacked:: @ 82731BD
 	.string "The weird tree doesn't like the\n"
 	.string "Wailmer Pail!\p"
 	.string "The weird tree attacked!$"

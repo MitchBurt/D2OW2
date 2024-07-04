@@ -2109,14 +2109,14 @@ static void UnlockQuestMenu(void)
 		if(IsMonShiny(&gPlayerParty[i]) && GetMonData(&gPlayerParty[i], MON_DATA_POKEBALL, NULL) != ITEM_CHERISH_BALL){
 			switch(GetMonData(&gPlayerParty[i], MON_DATA_SPECIES2)){
 				case SPECIES_AGANDA:
-				case SPECIES_MARILL:
+				case SPECIES_TADPAL:
 				case SPECIES_SWELLOW:
-				case SPECIES_ESPEON:
+				case SPECIES_DONT:
 				case SPECIES_BERRORD:
 				case SPECIES_PARANGELIA:
 				case SPECIES_KILLWORU:
 				case SPECIES_HUNTAIL:
-				case SPECIES_SUDOWOODO:
+				case SPECIES_BREADDIE:
 				case SPECIES_YGGDRACON:
 				case SPECIES_BIREMIC:
 				case SPECIES_MUK:
@@ -2134,7 +2134,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_ANIVENOM:
 				case SPECIES_SPINDA:
 				case SPECIES_TORTERRA:
-				case SPECIES_HOPPIP:
+				case SPECIES_DOGEASTER:
 				case SPECIES_JAFEET:
 				case SPECIES_ALIEN:
 				case SPECIES_WOOBAT:

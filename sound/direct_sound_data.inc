@@ -460,7 +460,7 @@ Cry_Egg_Group_Mineral:
 
 	.align 2
 Cry_Egg_Group_Field:
-	.incbin "sound/direct_sound_samples/cries/cry_aipom.bin"
+	.incbin "sound/direct_sound_samples/cries/cry_charles.bin"
 
 	.align 2
 Cry_Egg_Group_Human_Like:
