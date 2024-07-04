@@ -848,7 +848,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_TIMID,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_NATU] = {
+    [FRONTIER_MON_PUCKID] = {
         .species = SPECIES_SKORPYROS,
         .moves = {MOVE_FLAMETHROWER, MOVE_SOLAR_BEAM, MOVE_AIR_SLASH, MOVE_DRAGON_PULSE    },
         .itemTableId = BATTLE_FRONTIER_ITEM_SKORPYROSITE_Y,

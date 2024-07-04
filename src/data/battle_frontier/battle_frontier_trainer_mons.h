@@ -106,7 +106,7 @@
     FRONTIER_MON_DUGGAME,       \
     FRONTIER_MON_SURBSQUACH,        \
     FRONTIER_MON_CIGHTED,       \
-    FRONTIER_MON_NATU,          \
+    FRONTIER_MON_PUCKID,          \
     FRONTIER_MON_EGOIRL,      \
     FRONTIER_MON_DESQUARED,     \
     FRONTIER_MON_DABBOI,          \
@@ -137,7 +137,7 @@
     FRONTIER_MON_BASSHOP,       \
     FRONTIER_MON_MEADOSAUR,      \
     FRONTIER_MON_BONGSTARD,         \
-    FRONTIER_MON_NATU,           \
+    FRONTIER_MON_PUCKID,           \
     FRONTIER_MON_GUMMI,         \
     FRONTIER_MON_BILLOMINAT,      \
     FRONTIER_MON_SHAPIPIZ,        \
@@ -235,7 +235,7 @@
     FRONTIER_MON_BASSHOP,      \
     FRONTIER_MON_DUGGAME,       \
     FRONTIER_MON_CIGHTED,       \
-    FRONTIER_MON_NATU,          \
+    FRONTIER_MON_PUCKID,          \
     FRONTIER_MON_DABBOI,          \
     FRONTIER_MON_BILLOMINAT,     \
     FRONTIER_MON_SHAPIPIZ,       \
@@ -363,7 +363,7 @@
     FRONTIER_MON_BONGSTARD,        \
     FRONTIER_MON_DUGGAME,       \
     FRONTIER_MON_CIGHTED,       \
-    FRONTIER_MON_NATU,          \
+    FRONTIER_MON_PUCKID,          \
     FRONTIER_MON_EGOIRL,      \
     FRONTIER_MON_DABBOI,          \
     FRONTIER_MON_BILLOMINAT,     \
@@ -514,7 +514,7 @@
     FRONTIER_MON_BASSHOP,      \
     FRONTIER_MON_MEADOSAUR,     \
     FRONTIER_MON_BONGSTARD,        \
-    FRONTIER_MON_NATU,          \
+    FRONTIER_MON_PUCKID,          \
     FRONTIER_MON_GUMMI,        \
     FRONTIER_MON_BILLOMINAT,     \
     FRONTIER_MON_SHAPIPIZ,       \
@@ -654,7 +654,7 @@
     FRONTIER_MON_MEADOSAUR,     \
     FRONTIER_MON_TOM,     \
     FRONTIER_MON_BONGSTARD,        \
-    FRONTIER_MON_NATU,          \
+    FRONTIER_MON_PUCKID,          \
     FRONTIER_MON_BILLOMINAT,     \
     FRONTIER_MON_SHAPIPIZ,       \
     FRONTIER_MON_SPOINK,        \
@@ -685,7 +685,7 @@
     FRONTIER_MON_ABRA,          \
     FRONTIER_MON_SKELEDOOT,        \
     FRONTIER_MON_BASSHOP,      \
-    FRONTIER_MON_NATU,          \
+    FRONTIER_MON_PUCKID,          \
     FRONTIER_MON_DESQUARED,     \
     FRONTIER_MON_BILLOMINAT,     \
     FRONTIER_MON_SHAPIPIZ,       \
@@ -724,7 +724,7 @@
     FRONTIER_MON_DIVINI,         \
     FRONTIER_MON_SWABLU,        \
     FRONTIER_MON_TORCHIC,       \
-    FRONTIER_MON_NATU,          \
+    FRONTIER_MON_PUCKID,          \
     FRONTIER_MON_EGOIRL,      \
     FRONTIER_MON_EEMOJEE,         \
     FRONTIER_MON_TEDDIURSA,     \
