@@ -7720,7 +7720,8 @@ static void handleTargetSpeciesPrint(u8 taskId, u16 targetSpecies, u8 base_x, u8
     {
         LoadMonIconPalette(targetSpecies); //Loads pallete for current mon
         #ifndef POKEMON_EXPANSION
-            gTasks[taskId].data[4+base_i] = CreateMonIcon(targetSpecies, SpriteCB_MonIcon, 50 + 32*base_i, 31, 4, 0, formId); //Create pokemon sprite
+            if (seen || !HGSS_HIDE_UNSEEN_EVOLUTION_NAMES)
+                gTasks[taskId].data[4+base_i] = CreateMonIcon(targetSpecies, SpriteCB_MonIcon, 50 + 32*base_i, 31, 4, 0, formId); //Create pokemon sprite
         #endif
         #ifdef POKEMON_EXPANSION
             gTasks[taskId].data[4+base_i] = CreateMonIcon(targetSpecies, SpriteCB_MonIcon, 50 + 32*base_i, 31, 4, 0, formId); //Create pokemon sprite
