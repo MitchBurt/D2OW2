@@ -7608,8 +7608,8 @@ static void Task_LoadEvolutionScreen(u8 taskId)
                     gTasks[taskId].data[4] = CreateMonIcon(NationalPokedexNumToSpecies(sPokedexListItem->dexNum), SpriteCB_MonIcon, 18, 31, 4, 0, formSpeciesId); //Create pokemon sprite
                     EvoFormsPage_PrintAToggleUpdownEvos(); //HGSS_Ui Navigation buttons
                 #endif
-                gSprites[gTasks[taskId].data[4]].oam.priority = 0;
             }
+            gSprites[gTasks[taskId].data[4]].oam.priority = 0;
         }
         gMain.state++;
         break;
