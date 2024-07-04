@@ -1080,8 +1080,8 @@ const u16 gEasyChatWordsByLetter_N[] = {
     EC_WORD_NAME,
     EC_WORD_NAP,
     -1, 2, // Doubled pokemon species name
-    EC_POKEMON(NATU),
-    EC_POKEMON2(NATU),
+    EC_POKEMON(PUCKID),
+    EC_POKEMON2(PUCKID),
     EC_WORD_NATURAL,
     EC_WORD_NATURAL_CURE,
     EC_WORD_NATURALLY,
