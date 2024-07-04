@@ -929,7 +929,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .abilitynum = ABILITY_RANDOM
     },
     [FRONTIER_MON_LOVLILAD] = {
-        .species = SPECIES_OUROBOUTLET,
+        .species = SPECIES_OUROBOLET,
         .moves = {MOVE_TAIL_GLOW, MOVE_SCALD, MOVE_THUNDERBOLT, MOVE_SIGNAL_BEAM    },
         .itemTableId = BATTLE_FRONTIER_ITEM_LIFE_ORB,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_HP,
@@ -3048,8 +3048,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_RELAXED,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_OUROBOUTLET_1] = {
-        .species = SPECIES_OUROBOUTLET,
+    [FRONTIER_MON_OUROBOLET_1] = {
+        .species = SPECIES_OUROBOLET,
         .moves = {MOVE_SURF, MOVE_CONFUSE_RAY, MOVE_ATTRACT, MOVE_THUNDER_WAVE    },
         .itemTableId = BATTLE_FRONTIER_ITEM_CHERI_BERRY,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_DEFENSE,
@@ -3832,8 +3832,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_ADAMANT,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_OUROBOUTLET_2] = {
-        .species = SPECIES_OUROBOUTLET,
+    [FRONTIER_MON_OUROBOLET_2] = {
+        .species = SPECIES_OUROBOLET,
         .moves = {MOVE_FLAIL, MOVE_ENDURE, MOVE_THUNDERBOLT, MOVE_SURF    },
         .itemTableId = BATTLE_FRONTIER_ITEM_SALAC_BERRY,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK,
@@ -4584,8 +4584,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_MODEST,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_OUROBOUTLET_3] = {
-        .species = SPECIES_OUROBOUTLET,
+    [FRONTIER_MON_OUROBOLET_3] = {
+        .species = SPECIES_OUROBOLET,
         .moves = {MOVE_HYDRO_PUMP, MOVE_THUNDER, MOVE_CONFUSE_RAY, MOVE_RAIN_DANCE    },
         .itemTableId = BATTLE_FRONTIER_ITEM_BRIGHT_POWDER,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
@@ -5352,8 +5352,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_MODEST,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_OUROBOUTLET_4] = {
-        .species = SPECIES_OUROBOUTLET,
+    [FRONTIER_MON_OUROBOLET_4] = {
+        .species = SPECIES_OUROBOLET,
         .moves = {MOVE_SURF, MOVE_THUNDERBOLT, MOVE_ICE_BEAM, MOVE_CONFUSE_RAY    },
         .itemTableId = BATTLE_FRONTIER_ITEM_LUM_BERRY,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,

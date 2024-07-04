@@ -3098,7 +3098,7 @@ static const struct TrHillFloor sDataTagUnique_Floors[] = {
                                         },
                                     [3] =
                                         {
-                                            .species = SPECIES_OUROBOUTLET,
+                                            .species = SPECIES_OUROBOLET,
                                             .heldItem = ITEM_PERSIM_BERRY,
                                             .moves = {MOVE_SPARK, MOVE_WATER_PULSE, MOVE_CONFUSE_RAY, MOVE_RAIN_DANCE},
                                             .level = 0,

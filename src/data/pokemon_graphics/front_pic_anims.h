@@ -2008,7 +2008,7 @@ static const union AnimCmd sAnim_LOVLILAD_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_OUROBOUTLET_1[] =
+static const union AnimCmd sAnim_OUROBOLET_1[] =
 {
     ANIMCMD_FRAME(0, 11),
     ANIMCMD_FRAME(1, 10),
@@ -2018,7 +2018,7 @@ static const union AnimCmd sAnim_OUROBOUTLET_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_OUROBOUTLET_2[] =
+static const union AnimCmd sAnim_OUROBOLET_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -10017,10 +10017,10 @@ static const union AnimCmd *const sAnims_LOVLILAD[] ={
     sAnim_LOVLILAD_2,
 };
 
-static const union AnimCmd *const sAnims_OUROBOUTLET[] ={
+static const union AnimCmd *const sAnims_OUROBOLET[] ={
     sAnim_GeneralFrame0,
-    sAnim_OUROBOUTLET_1,
-    sAnim_OUROBOUTLET_2,
+    sAnim_OUROBOLET_1,
+    sAnim_OUROBOLET_2,
 };
 
 static const union AnimCmd *const sAnims_PICHU[] ={
@@ -14608,7 +14608,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(GLUERILLA),
     ANIM_CMD(CROBAT),
     ANIM_CMD(LOVLILAD),
-    ANIM_CMD(OUROBOUTLET),
+    ANIM_CMD(OUROBOLET),
     ANIM_CMD(PICHU),
     ANIM_CMD(POOPRAT),
     ANIM_CMD(VCRBRAIN),

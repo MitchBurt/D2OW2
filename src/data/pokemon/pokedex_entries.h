@@ -2053,12 +2053,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_OUROBOUTLET] =
+    [NATIONAL_DEX_OUROBOLET] =
     {
         .categoryName = _("Luz"),
         .height = 12,
         .weight = 225,
-        .description = gOuroboutletPokedexText,
+        .description = gOuroboletPokedexText,
         .pokemonScale = 269,
         .pokemonOffset = 6,
         .trainerScale = 256,
@@ -12843,12 +12843,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_OUROBOUTLET] =
+    [NATIONAL_DEX_OUROBOLET] =
     {
         .categoryName = _("Light"),
         .height = 12,
         .weight = 225,
-        .description = gOuroboutletPokedexText,
+        .description = gOuroboletPokedexText,
         .pokemonScale = 269,
         .pokemonOffset = 6,
         .trainerScale = 256,

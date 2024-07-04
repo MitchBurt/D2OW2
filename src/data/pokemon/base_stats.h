@@ -4742,7 +4742,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_OUROBOUTLET] =
+    [SPECIES_OUROBOLET] =
     {
         .baseHP        = 125,
         .baseAttack    = 50,	//58 - >50
@@ -38932,7 +38932,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_OUROBOUTLET] =
+    [SPECIES_OUROBOLET] =
     {
         .baseHP        = 125,
         .baseAttack    = 58,

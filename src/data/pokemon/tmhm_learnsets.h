@@ -6970,7 +6970,7 @@ static const u8 sLovliladTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sOuroboutletTMHMLearnset[] =
+static const u8 sOuroboletTMHMLearnset[] =
 {
     TMHM(TM03_WATER_PULSE),
     TMHM(TM06_TOXIC),
@@ -36245,7 +36245,7 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_GLUERILLA] = sGluerillaTMHMLearnset,
     [SPECIES_CROBAT] = sCrobatTMHMLearnset,
     [SPECIES_LOVLILAD] = sLovliladTMHMLearnset,
-    [SPECIES_OUROBOUTLET] = sOuroboutletTMHMLearnset,
+    [SPECIES_OUROBOLET] = sOuroboletTMHMLearnset,
     [SPECIES_PICHU] = sPichuTMHMLearnset,
 	[SPECIES_PICHU_SPIKY_EARED] = sPichuTMHMLearnset,
     [SPECIES_POOPRAT] = sPoopratTMHMLearnset,

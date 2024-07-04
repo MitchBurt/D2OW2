@@ -172,7 +172,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Gluerilla  @ 869E4C8
 	cry Cry_Crobat  @ 869E4D4
 	cry Cry_Lovlilad  @ 869E4E0
-	cry Cry_Ouroboutlet  @ 869E4EC
+	cry Cry_Ourobolet  @ 869E4EC
 	cry Cry_Pichu  @ 869E4F8
 	cry Cry_Pooprat  @ 869E504
 	cry Cry_Vcrbrain  @ 869E510
@@ -1451,7 +1451,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Gluerilla  @ 869F6F8
 	cry2 Cry_Crobat  @ 869F704
 	cry2 Cry_Lovlilad  @ 869F710
-	cry2 Cry_Ouroboutlet  @ 869F71C
+	cry2 Cry_Ourobolet  @ 869F71C
 	cry2 Cry_Pichu  @ 869F728
 	cry2 Cry_Pooprat  @ 869F734
 	cry2 Cry_Vcrbrain  @ 869F740

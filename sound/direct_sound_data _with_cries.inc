@@ -1067,8 +1067,8 @@ Cry_Lovlilad::
 	.incbin "sound/direct_sound_samples/cries/cry_lovlilad.bin"
 
 	.align 2
-Cry_Ouroboutlet::
-	.incbin "sound/direct_sound_samples/cries/cry_ouroboutlet.bin"
+Cry_Ourobolet::
+	.incbin "sound/direct_sound_samples/cries/cry_ourobolet.bin"
 
 	.align 2
 Cry_Pichu::

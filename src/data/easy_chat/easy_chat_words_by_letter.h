@@ -863,8 +863,8 @@ const u16 gEasyChatWordsByLetter_L[] = {
     EC_POKEMON(LAIRON),
     EC_WORD_LALALA,
     -1, 2, // Doubled pokemon species name
-    EC_POKEMON(OUROBOUTLET),
-    EC_POKEMON2(OUROBOUTLET),
+    EC_POKEMON(OUROBOLET),
+    EC_POKEMON2(OUROBOLET),
     EC_POKEMON2(JEBONY),
     EC_POKEMON2(LARVITAR),
     EC_WORD_LAST,
@@ -2461,8 +2461,8 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseRa[] = {
     EC_WORD_APPEARS,
     EC_WORD_RANK,
     -1, 2, // Doubled pokemon species name
-    EC_POKEMON2(OUROBOUTLET),
-    EC_POKEMON(OUROBOUTLET),
+    EC_POKEMON2(OUROBOLET),
+    EC_POKEMON(OUROBOLET),
 };
 
 const u16 gEasyChatWordsByLetter_UnusedJapaneseRi[] = {

@@ -1021,7 +1021,7 @@ const u8 gLovliladPokedexText[] = _(
     "dos antenas. Vive en zonas profundas\n"
     "a las que no llega la luz del sol.");
 
-const u8 gOuroboutletPokedexText[] = _(
+const u8 gOuroboletPokedexText[] = _(
     "Las esferas brillantes que tiene en la\n"
     "cabeza emiten luz y se forman a partir de\n"
     "su aleta dorsal. Este Pokémon logra\n"
@@ -2740,7 +2740,7 @@ const u8 gLumineonPokedexText[] = _(
     "Lumineon swimming in the darkness\n"
     "of the deep sea look like stars shining\n"
     "in the night sky. It competes for food\n"
-    "with Ouroboutlet.");
+    "with Ourobolet.");
 
 const u8 gMantykePokedexText[] = _(
     "When it swims close to the surface\n"
@@ -6379,7 +6379,7 @@ const u8 gLovliladPokedexText[] = _(
     "two antennae. It lives in depths beyond\n"
     "sunlight's reach.");
 
-const u8 gOuroboutletPokedexText[] = _(
+const u8 gOuroboletPokedexText[] = _(
     "The light-emitting orbs on its back are\n"
     "very bright. They are formed from a part of\n"
     "its dorsal fin. This Pokémon illuminates\n"
@@ -8100,7 +8100,7 @@ const u8 gLumineonPokedexText[] = _(
     "Lumineon swimming in the darkness\n"
     "of the deep sea look like stars shining\n"
     "in the night sky. It competes for food\n"
-    "with Ouroboutlet.");
+    "with Ourobolet.");
 
 const u8 gMantykePokedexText[] = _(
     "When it swims close to the surface\n"

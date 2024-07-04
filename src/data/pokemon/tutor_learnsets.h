@@ -4089,7 +4089,7 @@ static const u8 sLovliladTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sOuroboutletTutorLearnset[] =
+static const u8 sOuroboletTutorLearnset[] =
 {
     TUTOR(MOVE_DOUBLE_EDGE),
     TUTOR(MOVE_MIMIC),
@@ -19892,7 +19892,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_GLUERILLA] = sGluerillaTutorLearnset,
     [SPECIES_CROBAT] = sCrobatTutorLearnset,
     [SPECIES_LOVLILAD] = sLovliladTutorLearnset,
-    [SPECIES_OUROBOUTLET] = sOuroboutletTutorLearnset,
+    [SPECIES_OUROBOLET] = sOuroboletTutorLearnset,
     [SPECIES_PICHU] = sPichuTutorLearnset,
     [SPECIES_POOPRAT] = sPoopratTutorLearnset,
     [SPECIES_VCRBRAIN] = sVcrbrainTutorLearnset,

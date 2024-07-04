@@ -3466,7 +3466,7 @@ static const struct LevelUpMove sLovliladLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sOuroboutletLevelUpLearnset[] = {
+static const struct LevelUpMove sOuroboletLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 1, MOVE_SPARK),
 	LEVEL_UP_MOVE( 1, MOVE_CHARGE),
 	LEVEL_UP_MOVE( 1, MOVE_WRAP),
