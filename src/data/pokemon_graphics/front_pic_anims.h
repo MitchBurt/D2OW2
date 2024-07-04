@@ -2090,7 +2090,7 @@ static const union AnimCmd sAnim_TOGETIC_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_NATU_1[] =
+static const union AnimCmd sAnim_PUCKID_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(1, 20),
@@ -2100,7 +2100,7 @@ static const union AnimCmd sAnim_NATU_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_NATU_2[] =
+static const union AnimCmd sAnim_PUCKID_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -10050,10 +10050,10 @@ static const union AnimCmd *const sAnims_TOGETIC[] ={
     sAnim_TOGETIC_1,
 };
 
-static const union AnimCmd *const sAnims_NATU[] ={
+static const union AnimCmd *const sAnims_PUCKID[] ={
     sAnim_GeneralFrame0,
-    sAnim_NATU_1,
-    sAnim_NATU_2,
+    sAnim_PUCKID_1,
+    sAnim_PUCKID_2,
 };
 
 static const union AnimCmd *const sAnims_GOALEM[] ={
@@ -14614,7 +14614,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(VCRBRAIN),
     ANIM_CMD(VIPII),
     ANIM_CMD(TOGETIC),
-    ANIM_CMD(NATU),
+    ANIM_CMD(PUCKID),
     ANIM_CMD(GOALEM),
     ANIM_CMD(MAREEP),
     ANIM_CMD(FLAAFFY),
