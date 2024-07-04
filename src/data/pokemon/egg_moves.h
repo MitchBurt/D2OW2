@@ -1015,7 +1015,7 @@ const u16 gEggMoves[] = {
 		MOVE_DRAGON_RUSH,
 		MOVE_LIGHT_SCREEN),
 
-	egg_moves(CHIKORITA,
+	egg_moves(TOM,
 		MOVE_VINE_WHIP,
 		MOVE_BODY_SLAM,
 		MOVE_COUNTER,
@@ -1033,7 +1033,7 @@ const u16 gEggMoves[] = {
 		MOVE_GRASSY_TERRAIN,
 		MOVE_SWORDS_DANCE),
 
-	egg_moves(CYNDAQUIL,
+	egg_moves(MEGATRON,
 		MOVE_DOUBLE_KICK,
 		MOVE_THRASH,
 		MOVE_DOUBLE_EDGE,
@@ -1050,7 +1050,7 @@ const u16 gEggMoves[] = {
 		MOVE_FLAME_BURST,
 		MOVE_SUBMISSION),
 
-	egg_moves(TOTODILE,
+	egg_moves(KORBIE,
 		MOVE_ICE_PUNCH,
 		MOVE_THRASH,
 		MOVE_HYDRO_PUMP,
@@ -1069,7 +1069,7 @@ const u16 gEggMoves[] = {
 		MOVE_DRAGON_CLAW,
 		MOVE_RAZOR_WIND),
 
-	egg_moves(SENTRET,
+	egg_moves(GONCARICIV,
 		MOVE_SING,//++
 		MOVE_DOUBLE_EDGE,
 		MOVE_FOCUS_ENERGY,
@@ -1090,7 +1090,7 @@ const u16 gEggMoves[] = {
 		MOVE_POWER_UP_PUNCH,
 		MOVE_EXTREME_SPEED),
 
-	egg_moves(HOOTHOOT,
+	egg_moves(WORMADAMT,
 		MOVE_WING_ATTACK,
 		MOVE_WHIRLWIND,
 		MOVE_SUPERSONIC,
@@ -1106,7 +1106,7 @@ const u16 gEggMoves[] = {
 		MOVE_CHATTER,
 		MOVE_TAILWIND),
 
-	egg_moves(LEDYBA,
+	egg_moves(ABOMINATION,
 		MOVE_PSYBEAM,
 		MOVE_COUNTER,
 		MOVE_SCREECH,
@@ -1126,7 +1126,7 @@ const u16 gEggMoves[] = {
 		MOVE_TAILWIND,
 		MOVE_LIGHT_SCREEN),
 
-	egg_moves(SPINARAK,
+	egg_moves(PHRACER,
 		MOVE_TWINEEDLE,
 		MOVE_SONIC_BOOM,
 		MOVE_DISABLE,
@@ -1142,7 +1142,7 @@ const u16 gEggMoves[] = {
 		MOVE_LUNGE,
 		MOVE_POISON_JAB),
 
-	egg_moves(CHINCHOU,
+	egg_moves(LOVLILAD,
 		MOVE_MIST,
 		MOVE_PSYBEAM,
 		MOVE_WATER_PULSE,
@@ -1194,7 +1194,7 @@ const u16 gEggMoves[] = {
 		MOVE_ZING_ZAP,
 		MOVE_ELECTRIC_TERRAIN),
 
-	egg_moves(CLEFFA,
+	egg_moves(POOPRAT,
 		MOVE_PRESENT,
 		MOVE_WISH,
 		MOVE_AROMATHERAPY,
@@ -1212,7 +1212,7 @@ const u16 gEggMoves[] = {
 		MOVE_MISTY_TERRAIN,
 		MOVE_SUBSTITUTE),
 
-	egg_moves(IGGLYBUFF,
+	egg_moves(VCRBRAIN,
 		MOVE_PERISH_SONG,
 		MOVE_ROLLOUT,
 		MOVE_PRESENT,
@@ -1228,7 +1228,7 @@ const u16 gEggMoves[] = {
 		MOVE_CAPTIVATE,
 		MOVE_MISTY_TERRAIN),
 
-	egg_moves(TOGEPI,
+	egg_moves(VIPII,
 		MOVE_PECK,
 		MOVE_MORNING_SUN,
 		MOVE_TICKLE,

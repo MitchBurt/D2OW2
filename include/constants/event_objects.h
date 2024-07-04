@@ -152,10 +152,10 @@
 #define OBJ_EVENT_GFX_PICHU_DOLL                 142
 #define OBJ_EVENT_GFX_SKIPPA_DOLL               143
 #define OBJ_EVENT_GFX_MARILL_DOLL                144
-#define OBJ_EVENT_GFX_TOGEPI_DOLL                145
-#define OBJ_EVENT_GFX_CYNDAQUIL_DOLL             146
-#define OBJ_EVENT_GFX_CHIKORITA_DOLL             147
-#define OBJ_EVENT_GFX_TOTODILE_DOLL              148
+#define OBJ_EVENT_GFX_VIPII_DOLL                145
+#define OBJ_EVENT_GFX_MEGATRON_DOLL             146
+#define OBJ_EVENT_GFX_TOM_DOLL             147
+#define OBJ_EVENT_GFX_KORBIE_DOLL              148
 #define OBJ_EVENT_GFX_SNEDDIT_DOLL            149
 #define OBJ_EVENT_GFX_GARFEL_DOLL                150
 #define OBJ_EVENT_GFX_EGOIRL_DOLL              151

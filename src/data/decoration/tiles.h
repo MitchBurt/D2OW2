@@ -474,20 +474,20 @@ const u16 DecorGfx_MARILL_DOLL[] = {
     OBJ_EVENT_GFX_MARILL_DOLL
 };
 
-const u16 DecorGfx_TOGEPI_DOLL[] = {
-    OBJ_EVENT_GFX_TOGEPI_DOLL
+const u16 DecorGfx_VIPII_DOLL[] = {
+    OBJ_EVENT_GFX_VIPII_DOLL
 };
 
-const u16 DecorGfx_CYNDAQUIL_DOLL[] = {
-    OBJ_EVENT_GFX_CYNDAQUIL_DOLL
+const u16 DecorGfx_MEGATRON_DOLL[] = {
+    OBJ_EVENT_GFX_MEGATRON_DOLL
 };
 
-const u16 DecorGfx_CHIKORITA_DOLL[] = {
-    OBJ_EVENT_GFX_CHIKORITA_DOLL
+const u16 DecorGfx_TOM_DOLL[] = {
+    OBJ_EVENT_GFX_TOM_DOLL
 };
 
-const u16 DecorGfx_TOTODILE_DOLL[] = {
-    OBJ_EVENT_GFX_TOTODILE_DOLL
+const u16 DecorGfx_KORBIE_DOLL[] = {
+    OBJ_EVENT_GFX_KORBIE_DOLL
 };
 
 const u16 DecorGfx_SNEDDIT_DOLL[] = {

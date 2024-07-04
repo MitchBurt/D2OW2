@@ -314,7 +314,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_LEDYBA"
+                "species": "SPECIES_ABOMINATION"
               },
               {
                 "min_level": 4,
@@ -454,7 +454,7 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_HOOTHOOT"
+                "species": "SPECIES_WORMADAMT"
               },
               {
                 "min_level": 3,
@@ -464,7 +464,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_SPINARAK"
+                "species": "SPECIES_PHRACER"
               },
               {
                 "min_level": 4,
@@ -648,7 +648,7 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_HOOTHOOT"
+                "species": "SPECIES_WORMADAMT"
               },
               {
                 "min_level": 3,
@@ -902,7 +902,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_HOOTHOOT"
+                "species": "SPECIES_WORMADAMT"
               },
               {
                 "min_level": 5,
@@ -957,7 +957,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_HOOTHOOT"
+                "species": "SPECIES_WORMADAMT"
               },
               {
                 "min_level": 5,
@@ -1140,7 +1140,7 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_CHINCHOU"
+                "species": "SPECIES_LOVLILAD"
               },
               {
                 "min_level": 15,
@@ -1170,7 +1170,7 @@
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_CHINCHOU"
+                "species": "SPECIES_LOVLILAD"
               },
               {
                 "min_level": 10,
@@ -1180,7 +1180,7 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_CHINCHOU"
+                "species": "SPECIES_LOVLILAD"
               },
               {
                 "min_level": 10,
@@ -1195,7 +1195,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_CHINCHOU"
+                "species": "SPECIES_LOVLILAD"
               },
               {
                 "min_level": 20,
@@ -1916,7 +1916,7 @@
               {
                 "min_level": 10,
                 "max_level": 20,
-                "species": "SPECIES_CHINCHOU"
+                "species": "SPECIES_LOVLILAD"
               },
               {
                 "min_level": 30,
@@ -2011,12 +2011,12 @@
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_CHINCHOU"
+                "species": "SPECIES_LOVLILAD"
               },
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_CHINCHOU"
+                "species": "SPECIES_LOVLILAD"
               }
             ]
           }
@@ -2060,7 +2060,7 @@
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_SENTRET"
+                "species": "SPECIES_GONCARICIV"
               },
               {
                 "min_level": 8,
@@ -2224,7 +2224,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_HOOTHOOT"
+                "species": "SPECIES_WORMADAMT"
               },
               {
                 "min_level": 5,
@@ -2309,7 +2309,7 @@
               {
                 "min_level": 10,
                 "max_level": 15,
-                "species": "SPECIES_HOOTHOOT"
+                "species": "SPECIES_WORMADAMT"
               },
               {
                 "min_level": 5,
@@ -2373,7 +2373,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_SENTRET"
+                "species": "SPECIES_GONCARICIV"
               },
               {
                 "min_level": 25,
@@ -2408,7 +2408,7 @@
               {
                 "min_level": 5,
                 "max_level": 35,
-                "species": "SPECIES_CHINCHOU"
+                "species": "SPECIES_LOVLILAD"
               },
               {
                 "min_level": 10,
@@ -2780,7 +2780,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CHIKORITA"
+                "species": "SPECIES_TOM"
               }
             ]
           }
@@ -3564,7 +3564,7 @@
               {
                 "min_level": 37,
                 "max_level": 37,
-                "species": "SPECIES_CLEFFA"
+                "species": "SPECIES_POOPRAT"
               },
               {
                 "min_level": 25,
@@ -4148,12 +4148,12 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_IGGLYBUFF"
+                "species": "SPECIES_VCRBRAIN"
               },
               {
                 "min_level": 24,
                 "max_level": 24,
-                "species": "SPECIES_CLEFFA"
+                "species": "SPECIES_POOPRAT"
               },
               {
                 "min_level": 25,
@@ -4213,7 +4213,7 @@
               {
                 "min_level": 15,
                 "max_level": 25,
-                "species": "SPECIES_CHINCHOU"
+                "species": "SPECIES_LOVLILAD"
               },
               {
                 "min_level": 25,
@@ -4436,7 +4436,7 @@
               {
                 "min_level": 15,
                 "max_level": 25,
-                "species": "SPECIES_CHINCHOU"
+                "species": "SPECIES_LOVLILAD"
               },
               {
                 "min_level": 25,
@@ -4739,7 +4739,7 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_CHINCHOU"
+                "species": "SPECIES_LOVLILAD"
               },
               {
                 "min_level": 15,
@@ -4883,7 +4883,7 @@
               {
                 "min_level": 5,
                 "max_level": 35,
-                "species": "SPECIES_CHINCHOU"
+                "species": "SPECIES_LOVLILAD"
               },
               {
                 "min_level": 10,
@@ -6293,7 +6293,7 @@
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_TOGEPI"
+                "species": "SPECIES_VIPII"
               },
               {
                 "min_level": 25,
@@ -6303,7 +6303,7 @@
               {
                 "min_level": 40,
                 "max_level": 40,
-                "species": "SPECIES_TOGEPI"
+                "species": "SPECIES_VIPII"
               },
               {
                 "min_level": 20,
@@ -6313,7 +6313,7 @@
               {
                 "min_level": 45,
                 "max_level": 45,
-                "species": "SPECIES_TOGEPI"
+                "species": "SPECIES_VIPII"
               },
               {
                 "min_level": 15,
@@ -6625,7 +6625,7 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_CHINCHOU"
+                "species": "SPECIES_LOVLILAD"
               },
               {
                 "min_level": 15,
@@ -8797,12 +8797,12 @@
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_CLEFFA"
+                "species": "SPECIES_POOPRAT"
               },
               {
                 "min_level": 18,
                 "max_level": 18,
-                "species": "SPECIES_IGGLYBUFF"
+                "species": "SPECIES_VCRBRAIN"
               },
               {
                 "min_level": 14,
@@ -8976,7 +8976,7 @@
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_CLEFFA"
+                "species": "SPECIES_POOPRAT"
               },
               {
                 "min_level": 39,
@@ -9250,7 +9250,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_CHINCHOU"
+                "species": "SPECIES_LOVLILAD"
               },
               {
                 "min_level": 35,
@@ -9770,7 +9770,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_TOTODILE"
+                "species": "SPECIES_KORBIE"
               }
             ]
           }
@@ -10407,7 +10407,7 @@
               {
                 "min_level": 20,
                 "max_level": 30,
-                "species": "SPECIES_CHINCHOU"
+                "species": "SPECIES_LOVLILAD"
               },
               {
                 "min_level": 20,
@@ -10584,7 +10584,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CHINCHOU"
+                "species": "SPECIES_LOVLILAD"
               },
               {
                 "min_level": 5,
@@ -11130,12 +11130,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_HOOTHOOT"
+                "species": "SPECIES_WORMADAMT"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_HOOTHOOT"
+                "species": "SPECIES_WORMADAMT"
               }
             ]
           }
@@ -13926,7 +13926,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_IGGLYBUFF"
+                "species": "SPECIES_VCRBRAIN"
               },
               {
                 "min_level": 5,
@@ -13946,7 +13946,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_IGGLYBUFF"
+                "species": "SPECIES_VCRBRAIN"
               }
             ]
           }
@@ -13970,7 +13970,7 @@
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_LEDYBA"
+                "species": "SPECIES_ABOMINATION"
               },
               {
                 "min_level": 5,
@@ -14035,7 +14035,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_SPINARAK"
+                "species": "SPECIES_PHRACER"
               },
               {
                 "min_level": 5,
@@ -14045,7 +14045,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_HOOTHOOT"
+                "species": "SPECIES_WORMADAMT"
               },
               {
                 "min_level": 5,
@@ -14090,17 +14090,17 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_HOOTHOOT"
+                "species": "SPECIES_WORMADAMT"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_LEDYBA"
+                "species": "SPECIES_ABOMINATION"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_SPINARAK"
+                "species": "SPECIES_PHRACER"
               },
               {
                 "min_level": 5,
@@ -14277,7 +14277,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_SENTRET"
+                "species": "SPECIES_GONCARICIV"
               },
               {
                 "min_level": 5,
@@ -14327,7 +14327,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_HOOTHOOT"
+                "species": "SPECIES_WORMADAMT"
               },
               {
                 "min_level": 5,
@@ -14342,7 +14342,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_SENTRET"
+                "species": "SPECIES_GONCARICIV"
               },
               {
                 "min_level": 5,
@@ -14392,12 +14392,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_SPINARAK"
+                "species": "SPECIES_PHRACER"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_LEDYBA"
+                "species": "SPECIES_ABOMINATION"
               },
               {
                 "min_level": 5,
@@ -14461,7 +14461,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_LEDYBA"
+                "species": "SPECIES_ABOMINATION"
               },
               {
                 "min_level": 5,
@@ -14576,7 +14576,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_SENTRET"
+                "species": "SPECIES_GONCARICIV"
               },
               {
                 "min_level": 5,
@@ -14611,7 +14611,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_SPINARAK"
+                "species": "SPECIES_PHRACER"
               },
               {
                 "min_level": 5,
@@ -14661,17 +14661,17 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_HOOTHOOT"
+                "species": "SPECIES_WORMADAMT"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_SPINARAK"
+                "species": "SPECIES_PHRACER"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_LEDYBA"
+                "species": "SPECIES_ABOMINATION"
               },
               {
                 "min_level": 5,
@@ -14760,7 +14760,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CHINCHOU"
+                "species": "SPECIES_LOVLILAD"
               },
               {
                 "min_level": 5,
@@ -14825,7 +14825,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CHINCHOU"
+                "species": "SPECIES_LOVLILAD"
               },
               {
                 "min_level": 5,
@@ -14840,12 +14840,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CHINCHOU"
+                "species": "SPECIES_LOVLILAD"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CHINCHOU"
+                "species": "SPECIES_LOVLILAD"
               },
               {
                 "min_level": 5,
@@ -14965,7 +14965,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_HOOTHOOT"
+                "species": "SPECIES_WORMADAMT"
               },
               {
                 "min_level": 5,
@@ -15093,7 +15093,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CLEFFA"
+                "species": "SPECIES_POOPRAT"
               },
               {
                 "min_level": 5,
@@ -15267,7 +15267,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CLEFFA"
+                "species": "SPECIES_POOPRAT"
               },
               {
                 "min_level": 5,
@@ -15441,7 +15441,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CLEFFA"
+                "species": "SPECIES_POOPRAT"
               },
               {
                 "min_level": 5,

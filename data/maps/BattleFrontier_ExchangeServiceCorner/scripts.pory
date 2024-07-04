@@ -95,13 +95,13 @@ BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor1:: @ 825F185
 	case 0, BattleFrontier_ExchangeServiceCorner_EventScript_KissPoster
 	case 1, BattleFrontier_ExchangeServiceCorner_EventScript_KissCushion
 	case 2, BattleFrontier_ExchangeServiceCorner_EventScript_SmoochumDoll
-	case 3, BattleFrontier_ExchangeServiceCorner_EventScript_TogepiDoll
+	case 3, BattleFrontier_ExchangeServiceCorner_EventScript_VipiiDoll
 	case 4, BattleFrontier_ExchangeServiceCorner_EventScript_GarfelDoll
 	case 5, BattleFrontier_ExchangeServiceCorner_EventScript_EgoirlDoll
 	case 6, BattleFrontier_ExchangeServiceCorner_EventScript_DittoDoll
-	case 7, BattleFrontier_ExchangeServiceCorner_EventScript_CyndaquilDoll
-	case 8, BattleFrontier_ExchangeServiceCorner_EventScript_ChikoritaDoll
-	case 9, BattleFrontier_ExchangeServiceCorner_EventScript_TotodileDoll
+	case 7, BattleFrontier_ExchangeServiceCorner_EventScript_MegatronDoll
+	case 8, BattleFrontier_ExchangeServiceCorner_EventScript_TomDoll
+	case 9, BattleFrontier_ExchangeServiceCorner_EventScript_KorbieDoll
 	case 10, BattleFrontier_ExchangeServiceCorner_EventScript_ClerkGoodbye
 	case MULTI_B_PRESSED, BattleFrontier_ExchangeServiceCorner_EventScript_ClerkGoodbye
 	end
@@ -133,12 +133,12 @@ BattleFrontier_ExchangeServiceCorner_EventScript_SmoochumDoll:: @ 825F264
 	goto BattleFrontier_ExchangeServiceCorner_EventScript_TryPurchasePrize
 	end
 
-BattleFrontier_ExchangeServiceCorner_EventScript_TogepiDoll:: @ 825F287
-	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmTogepiDoll, MSGBOX_YESNO
+BattleFrontier_ExchangeServiceCorner_EventScript_VipiiDoll:: @ 825F287
+	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmVipiiDoll, MSGBOX_YESNO
 	compare VAR_RESULT, NO
 	goto_if_eq BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor1
 	setvar VAR_0x8008, 48
-	setvar VAR_0x8009, DECOR_TOGEPI_DOLL
+	setvar VAR_0x8009, DECOR_VIPII_DOLL
 	goto BattleFrontier_ExchangeServiceCorner_EventScript_TryPurchasePrize
 	end
 
@@ -169,30 +169,30 @@ BattleFrontier_ExchangeServiceCorner_EventScript_DittoDoll:: @ 825F2F0
 	goto BattleFrontier_ExchangeServiceCorner_EventScript_TryPurchasePrize
 	end
 
-BattleFrontier_ExchangeServiceCorner_EventScript_CyndaquilDoll:: @ 825F313
-	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmCyndaquilDoll, MSGBOX_YESNO
+BattleFrontier_ExchangeServiceCorner_EventScript_MegatronDoll:: @ 825F313
+	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmMegatronDoll, MSGBOX_YESNO
 	compare VAR_RESULT, NO
 	goto_if_eq BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor1
 	setvar VAR_0x8008, 80
-	setvar VAR_0x8009, DECOR_CYNDAQUIL_DOLL
+	setvar VAR_0x8009, DECOR_MEGATRON_DOLL
 	goto BattleFrontier_ExchangeServiceCorner_EventScript_TryPurchasePrize
 	end
 
-BattleFrontier_ExchangeServiceCorner_EventScript_ChikoritaDoll:: @ 825F336
-	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmChikoritaDoll, MSGBOX_YESNO
+BattleFrontier_ExchangeServiceCorner_EventScript_TomDoll:: @ 825F336
+	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmTomDoll, MSGBOX_YESNO
 	compare VAR_RESULT, NO
 	goto_if_eq BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor1
 	setvar VAR_0x8008, 80
-	setvar VAR_0x8009, DECOR_CHIKORITA_DOLL
+	setvar VAR_0x8009, DECOR_TOM_DOLL
 	goto BattleFrontier_ExchangeServiceCorner_EventScript_TryPurchasePrize
 	end
 
-BattleFrontier_ExchangeServiceCorner_EventScript_TotodileDoll:: @ 825F359
-	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmTotodileDoll, MSGBOX_YESNO
+BattleFrontier_ExchangeServiceCorner_EventScript_KorbieDoll:: @ 825F359
+	msgbox BattleFrontier_ExchangeServiceCorner_Text_ConfirmKorbieDoll, MSGBOX_YESNO
 	compare VAR_RESULT, NO
 	goto_if_eq BattleFrontier_ExchangeServiceCorner_EventScript_ChooseDecor1
 	setvar VAR_0x8008, 80
-	setvar VAR_0x8009, DECOR_TOTODILE_DOLL
+	setvar VAR_0x8009, DECOR_KORBIE_DOLL
 	goto BattleFrontier_ExchangeServiceCorner_EventScript_TryPurchasePrize
 	end
 
@@ -498,8 +498,8 @@ BattleFrontier_ExchangeServiceCorner_Text_ConfirmSmoochumDoll: @ 825F917
 	.string "You've chosen the Smoochum Doll.\n"
 	.string "Is that correct?$"
 
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmTogepiDoll: @ 825F949
-	.string "You've chosen the Togepi Doll.\n"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmVipiiDoll: @ 825F949
+	.string "You've chosen the Vipii Doll.\n"
 	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmGarfelDoll: @ 825F979
@@ -514,16 +514,16 @@ BattleFrontier_ExchangeServiceCorner_Text_ConfirmDittoDoll: @ 825F9DB
 	.string "You've chosen the Ditto Doll.\n"
 	.string "Is that correct?$"
 
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmCyndaquilDoll: @ 825FA0A
-	.string "You've chosen the Cyndaquil Doll.\n"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmMegatronDoll: @ 825FA0A
+	.string "You've chosen the Megatron Doll.\n"
 	.string "Is that correct?$"
 
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmChikoritaDoll: @ 825FA3D
-	.string "You've chosen the Chikorita Doll.\n"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmTomDoll: @ 825FA3D
+	.string "You've chosen the Tom Doll.\n"
 	.string "Is that correct?$"
 
-BattleFrontier_ExchangeServiceCorner_Text_ConfirmTotodileDoll: @ 825FA70
-	.string "You've chosen the Totodile Doll.\n"
+BattleFrontier_ExchangeServiceCorner_Text_ConfirmKorbieDoll: @ 825FA70
+	.string "You've chosen the Korbie Doll.\n"
 	.string "Is that correct?$"
 
 BattleFrontier_ExchangeServiceCorner_Text_ConfirmJebonyDoll: @ 825FAA2
@@ -674,8 +674,8 @@ BattleFrontier_ExchangeServiceCorner_Text_SmoochumDollDesc:: @ 8260201
 	.string "A Smoochum Doll.\n"
 	.string "Place it on a mat or a desk.$"
 
-BattleFrontier_ExchangeServiceCorner_Text_TogepiDollDesc:: @ 826022F
-	.string "A Togepi Doll.\n"
+BattleFrontier_ExchangeServiceCorner_Text_VipiiDollDesc:: @ 826022F
+	.string "A Vipii Doll.\n"
 	.string "Place it on a mat or a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_GarfelDollDesc:: @ 826025B
@@ -690,16 +690,16 @@ BattleFrontier_ExchangeServiceCorner_Text_DittoDollDesc:: @ 82602B5
 	.string "A Ditto Doll.\n"
 	.string "Place it on a mat or a desk.$"
 
-BattleFrontier_ExchangeServiceCorner_Text_CyndaquilDollDesc:: @ 82602E0
-	.string "A Cyndaquil Doll.\n"
+BattleFrontier_ExchangeServiceCorner_Text_MegatronDollDesc:: @ 82602E0
+	.string "A Megatron Doll.\n"
 	.string "Place it on a mat or a desk.$"
 
-BattleFrontier_ExchangeServiceCorner_Text_ChikoritaDollDesc:: @ 826030F
-	.string "A Chikorita Doll.\n"
+BattleFrontier_ExchangeServiceCorner_Text_TomDollDesc:: @ 826030F
+	.string "A Tom Doll.\n"
 	.string "Place it on a mat or a desk.$"
 
-BattleFrontier_ExchangeServiceCorner_Text_TotodileDollDesc:: @ 826033E
-	.string "A Totodile Doll.\n"
+BattleFrontier_ExchangeServiceCorner_Text_KorbieDollDesc:: @ 826033E
+	.string "A Korbie Doll.\n"
 	.string "Place it on a mat or a desk.$"
 
 BattleFrontier_ExchangeServiceCorner_Text_LargeDollDesc:: @ 826036C

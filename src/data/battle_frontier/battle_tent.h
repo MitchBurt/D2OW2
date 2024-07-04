@@ -616,7 +616,7 @@ const struct BattleFrontierTrainer gSlateportBattleTentTrainers[NUM_BATTLE_TENT_
     [SLATEPORT_TENT_TRAINER_MAGGIE] = {
         .facilityClass = FACILITY_CLASS_SCHOOL_KID_F,
         .trainerName = _("Maggie"),
-        .speechBefore = {EC_POKEMON(SAUCIE), EC_POKEMON(XATU), EC_POKEMON2(UMBREON), EC_WORD_ELLIPSIS, EC_WORD_UM, EC_WORD_ELLIPSIS},
+        .speechBefore = {EC_POKEMON(SAUCIE), EC_POKEMON(GOALEM), EC_POKEMON2(UMBREON), EC_WORD_ELLIPSIS, EC_WORD_UM, EC_WORD_ELLIPSIS},
         .speechWin = {EC_POKEMON(NOSEPASS), EC_WORD_ELLIPSIS, EC_WORD_UM, EC_POKEMON(SEVIPER), EC_WORD_EXCL, -1},
         .speechLose = {EC_POKEMON(NOSEPASS), EC_WORD_ELLIPSIS, EC_WORD_UM, EC_POKEMON2(SHEPEIRD), EC_WORD_ELLIPSIS, EC_WORD_UH_OH},
         .monSet = gSlateportBattleTentTrainerMons_Maggie
@@ -810,7 +810,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_TIMID
     },
     [SLATEPORT_TENT_MON_PELIPPER_1] = {
-        .species = SPECIES_MEGANIUM,
+        .species = SPECIES_RAMMET,
         .moves = {MOVE_GIGA_DRAIN, MOVE_EARTH_POWER, MOVE_DRAGON_PULSE, MOVE_SYNTHESIS},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
@@ -838,7 +838,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_JOLLY
     },
     [SLATEPORT_TENT_MON_SEEDOT] = {
-        .species = SPECIES_FERALIGATR,
+        .species = SPECIES_TEED,
         .moves = {MOVE_LIQUIDATION, MOVE_ICE_PUNCH, MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,
@@ -1849,7 +1849,7 @@ const struct FacilityMon gVerdanturfBattleTentMons[NUM_VERDANTURF_TENT_MONS] =
         .nature = NATURE_TIMID
     },
     [VERDANTURF_TENT_MON_NUSHAKE] = {
-        .species = SPECIES_SPINARAK,
+        .species = SPECIES_PHRACER,
         .moves = {MOVE_GLARE, MOVE_LEECH_LIFE, MOVE_CROSS_POISON, MOVE_NONE},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_SPEED,
@@ -2094,7 +2094,7 @@ const struct FacilityMon gVerdanturfBattleTentMons[NUM_VERDANTURF_TENT_MONS] =
         .nature = NATURE_CAREFUL
     },
     [VERDANTURF_TENT_MON_ILLUMISE] = {
-        .species = SPECIES_CHINCHOU,
+        .species = SPECIES_LOVLILAD,
         .moves = {MOVE_SURF, MOVE_SHOCK_WAVE, MOVE_ICY_WIND, MOVE_GROWL},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,

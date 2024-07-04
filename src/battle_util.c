@@ -8019,7 +8019,7 @@ static u16 CalcMoveBasePower(u16 move, u8 battlerAtk, u8 battlerDef)
 
     //For Special Cases
     switch(speciesId){
-        case SPECIES_TYPHLOSION:
+        case SPECIES_RICKLE:
             if(60 > basePower)
                 basePower = 60;
         break;

@@ -1521,7 +1521,7 @@ static const u32 gWallpaperIcon_StarInCircle[] = INCBIN_U32("graphics/pokemon_st
 static const u32 gWallpaperIcon_Spinda[] = INCBIN_U32("graphics/pokemon_storage/spinda_icon.4bpp.lz");
 static const u32 gWallpaperIcon_Latis[] = INCBIN_U32("graphics/pokemon_storage/latis_icon.4bpp.lz");
 static const u32 gWallpaperIcon_Minun[] = INCBIN_U32("graphics/pokemon_storage/minun_icon.4bpp.lz");
-static const u32 gWallpaperIcon_Togepi[] = INCBIN_U32("graphics/pokemon_storage/togepi_icon.4bpp.lz");
+static const u32 gWallpaperIcon_Vipii[] = INCBIN_U32("graphics/pokemon_storage/vipii_icon.4bpp.lz");
 static const u32 gWallpaperIcon_Magma[] = INCBIN_U32("graphics/pokemon_storage/magma_icon.4bpp.lz");
 
 static const struct WallpaperTable gFriendsWallpaperTable[] =
@@ -1574,7 +1574,7 @@ static const u32 *const gFriendsIcons[] =
     gWallpaperIcon_Latis,
     gWallpaperIcon_Plusle,
     gWallpaperIcon_Minun,
-    gWallpaperIcon_Togepi,
+    gWallpaperIcon_Vipii,
     gWallpaperIcon_Magma,
 };
 

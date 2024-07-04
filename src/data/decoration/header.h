@@ -712,41 +712,41 @@ const struct Decoration gDecorations[] = {
         DecorDesc_MARILL_DOLL,
         DecorGfx_MARILL_DOLL
     }, {
-        DECOR_TOGEPI_DOLL,
-        _("Muñeco Togepi"),
+        DECOR_VIPII_DOLL,
+        _("Muñeco Vipii"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_DOLL,
         3000,
-        DecorDesc_TOGEPI_DOLL,
-        DecorGfx_TOGEPI_DOLL
+        DecorDesc_VIPII_DOLL,
+        DecorGfx_VIPII_DOLL
     }, {
-        DECOR_CYNDAQUIL_DOLL,
-        _("Muñ. Cyndaquil"),
+        DECOR_MEGATRON_DOLL,
+        _("Muñ. Megatron"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_DOLL,
         3000,
-        DecorDesc_CYNDAQUIL_DOLL,
-        DecorGfx_CYNDAQUIL_DOLL
+        DecorDesc_MEGATRON_DOLL,
+        DecorGfx_MEGATRON_DOLL
     }, {
-        DECOR_CHIKORITA_DOLL,
-        _("Muñ. Chikorita"),
+        DECOR_TOM_DOLL,
+        _("Muñ. Tom"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_DOLL,
         3000,
-        DecorDesc_CHIKORITA_DOLL,
-        DecorGfx_CHIKORITA_DOLL
+        DecorDesc_TOM_DOLL,
+        DecorGfx_TOM_DOLL
     }, {
-        DECOR_TOTODILE_DOLL,
-        _("Muñ. Totodile"),
+        DECOR_KORBIE_DOLL,
+        _("Muñ. Korbie"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_DOLL,
         3000,
-        DecorDesc_TOTODILE_DOLL,
-        DecorGfx_TOTODILE_DOLL
+        DecorDesc_KORBIE_DOLL,
+        DecorGfx_KORBIE_DOLL
     }, {
         DECOR_SNEDDIT_DOLL,
         _("Muñ. Sneddit"),
@@ -1802,41 +1802,41 @@ const struct Decoration gDecorations[] = {
         DecorDesc_MARILL_DOLL,
         DecorGfx_MARILL_DOLL
     }, {
-        DECOR_TOGEPI_DOLL,
-        _("Togepi Doll"),
+        DECOR_VIPII_DOLL,
+        _("Vipii Doll"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_DOLL,
         3000,
-        DecorDesc_TOGEPI_DOLL,
-        DecorGfx_TOGEPI_DOLL
+        DecorDesc_VIPII_DOLL,
+        DecorGfx_VIPII_DOLL
     }, {
-        DECOR_CYNDAQUIL_DOLL,
-        _("Cyndaquil Doll"),
+        DECOR_MEGATRON_DOLL,
+        _("Megatron Doll"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_DOLL,
         3000,
-        DecorDesc_CYNDAQUIL_DOLL,
-        DecorGfx_CYNDAQUIL_DOLL
+        DecorDesc_MEGATRON_DOLL,
+        DecorGfx_MEGATRON_DOLL
     }, {
-        DECOR_CHIKORITA_DOLL,
-        _("Chikorita Doll"),
+        DECOR_TOM_DOLL,
+        _("Tom Doll"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_DOLL,
         3000,
-        DecorDesc_CHIKORITA_DOLL,
-        DecorGfx_CHIKORITA_DOLL
+        DecorDesc_TOM_DOLL,
+        DecorGfx_TOM_DOLL
     }, {
-        DECOR_TOTODILE_DOLL,
-        _("Totodile Doll"),
+        DECOR_KORBIE_DOLL,
+        _("Korbie Doll"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_DOLL,
         3000,
-        DecorDesc_TOTODILE_DOLL,
-        DecorGfx_TOTODILE_DOLL
+        DecorDesc_KORBIE_DOLL,
+        DecorGfx_KORBIE_DOLL
     }, {
         DECOR_SNEDDIT_DOLL,
         _("Sneddit Doll"),

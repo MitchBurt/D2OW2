@@ -1024,7 +1024,7 @@ static const struct TrHillFloor sDataTagNormal_Floors[] =
                     },
                     [5] =
                     {
-                        .species = SPECIES_TOGEPI,
+                        .species = SPECIES_VIPII,
                         .heldItem = ITEM_SITRUS_BERRY,
                         .moves = {MOVE_LIGHT_SCREEN, MOVE_REFLECT, MOVE_FOLLOW_ME, MOVE_METRONOME},
                         .level = 0,
@@ -1041,7 +1041,7 @@ static const struct TrHillFloor sDataTagNormal_Floors[] =
                         .spDefenseIV = 15,
                         .abilityNum = 1,
                         .personality = 0x37,
-                        .nickname = _("Togepi"),
+                        .nickname = _("Vipii"),
                         .friendship = 255,
                     },
                 },
@@ -1659,7 +1659,7 @@ static const struct TrHillFloor sDataTagNormal_Floors[] =
                     },
                     [5] =
                     {
-                        .species = SPECIES_MEGANIUM,
+                        .species = SPECIES_RAMMET,
                         .heldItem = ITEM_MIRACLE_SEED,
                         .moves = {MOVE_RAZOR_LEAF, MOVE_BODY_SLAM, MOVE_LEECH_SEED, MOVE_SYNTHESIS},
                         .level = 0,
@@ -1676,7 +1676,7 @@ static const struct TrHillFloor sDataTagNormal_Floors[] =
                         .spDefenseIV = 15,
                         .abilityNum = 0,
                         .personality = 0x1F,
-                        .nickname = _("Meganium"),
+                        .nickname = _("Rammet"),
                         .friendship = 255,
                     },
                 },
@@ -3098,7 +3098,7 @@ static const struct TrHillFloor sDataTagUnique_Floors[] = {
                                         },
                                     [3] =
                                         {
-                                            .species = SPECIES_LANTURN,
+                                            .species = SPECIES_OUROBOUTLET,
                                             .heldItem = ITEM_PERSIM_BERRY,
                                             .moves = {MOVE_SPARK, MOVE_WATER_PULSE, MOVE_CONFUSE_RAY, MOVE_RAIN_DANCE},
                                             .level = 0,
@@ -3114,7 +3114,7 @@ static const struct TrHillFloor sDataTagUnique_Floors[] = {
                                             .spDefenseIV = 15,
                                             .abilityNum = 0,
                                             .personality = 0xF,
-                                            .nickname = _("Lanturn"),
+                                            .nickname = _("Ouroboutlet"),
                                             .friendship = 255,
                                         },
                                     [4] =
@@ -3732,7 +3732,7 @@ static const struct TrHillFloor sDataTagUnique_Floors[] = {
                                         },
                                     [3] =
                                         {
-                                            .species = SPECIES_BAYLEEF,
+                                            .species = SPECIES_ZACTORY,
                                             .heldItem = ITEM_MIRACLE_SEED,
                                             .moves = {MOVE_SOLAR_BEAM, MOVE_SAFEGUARD, MOVE_LIGHT_SCREEN, MOVE_BODY_SLAM},
                                             .level = 0,
@@ -3749,12 +3749,12 @@ static const struct TrHillFloor sDataTagUnique_Floors[] = {
                                             .spDefenseIV = 25,
                                             .abilityNum = 0,
                                             .personality = 0x32,
-                                            .nickname = _("Bayleef"),
+                                            .nickname = _("Zactory"),
                                             .friendship = 100,
                                         },
                                     [4] =
                                         {
-                                            .species = SPECIES_CROCONAW,
+                                            .species = SPECIES_JEWIS,
                                             .heldItem = ITEM_MYSTIC_WATER,
                                             .moves = {MOVE_SCARY_FACE, MOVE_SLASH, MOVE_HYDRO_PUMP, MOVE_SCREECH},
                                             .level = 0,
@@ -3771,12 +3771,12 @@ static const struct TrHillFloor sDataTagUnique_Floors[] = {
                                             .spDefenseIV = 25,
                                             .abilityNum = 0,
                                             .personality = 0x3,
-                                            .nickname = _("Croconaw"),
+                                            .nickname = _("Jewis"),
                                             .friendship = 100,
                                         },
                                     [5] =
                                         {
-                                            .species = SPECIES_QUILAVA,
+                                            .species = SPECIES_RIGAMORT,
                                             .heldItem = ITEM_CHARCOAL,
                                             .moves = {MOVE_QUICK_ATTACK, MOVE_FLAMETHROWER, MOVE_FLAME_WHEEL, MOVE_SWIFT},
                                             .level = 0,
@@ -3793,7 +3793,7 @@ static const struct TrHillFloor sDataTagUnique_Floors[] = {
                                             .spDefenseIV = 15,
                                             .abilityNum = 0,
                                             .personality = 0x28,
-                                            .nickname = _("Quilava"),
+                                            .nickname = _("Rigamort"),
                                             .friendship = 100,
                                         },
                                 },
@@ -3877,7 +3877,7 @@ static const struct TrHillFloor sDataTagUnique_Floors[] = {
                                         },
                                     [3] =
                                         {
-                                            .species = SPECIES_CLEFFA,
+                                            .species = SPECIES_POOPRAT,
                                             .heldItem = ITEM_QUICK_CLAW,
                                             .moves = {MOVE_MEGA_KICK, MOVE_SWEET_KISS, MOVE_SING, MOVE_METRONOME},
                                             .level = 0,
@@ -3894,7 +3894,7 @@ static const struct TrHillFloor sDataTagUnique_Floors[] = {
                                             .spDefenseIV = 31,
                                             .abilityNum = 0,
                                             .personality = 0x0,
-                                            .nickname = _("Cleffa"),
+                                            .nickname = _("Pooprat"),
                                             .friendship = 50,
                                         },
                                     [4] =

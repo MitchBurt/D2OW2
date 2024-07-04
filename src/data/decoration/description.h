@@ -343,24 +343,24 @@ const u8 DecorDesc_MARILL_DOLL[] = _(
         "Ponlo en una\n"
         "mesa o tapete.");
 
-const u8 DecorDesc_TOGEPI_DOLL[] = _(
-    "Muñeco de Togepi.\n"
+const u8 DecorDesc_VIPII_DOLL[] = _(
+    "Muñeco de Vipii.\n"
         "Ponlo en una\n"
         "mesa o tapete.");
 
-const u8 DecorDesc_CYNDAQUIL_DOLL[] = _(
+const u8 DecorDesc_MEGATRON_DOLL[] = _(
     "Muñeco de\n"
-        "Cyndaquil. Ponlo en\n"
+        "Megatron. Ponlo en\n"
         "una mesa o tapete.");
 
-const u8 DecorDesc_CHIKORITA_DOLL[] = _(
+const u8 DecorDesc_TOM_DOLL[] = _(
     "Muñeco de\n"
-        "Chikorita. Ponlo en\n"
+        "Tom. Ponlo en\n"
         "una mesa o tapete.");
 
-const u8 DecorDesc_TOTODILE_DOLL[] = _(
+const u8 DecorDesc_KORBIE_DOLL[] = _(
     "Muñeco de\n"
-        "Totodile. Ponlo en\n"
+        "Korbie. Ponlo en\n"
         "una mesa o tapete.");
 
 const u8 DecorDesc_SNEDDIT_DOLL[] = _(
@@ -919,23 +919,23 @@ const u8 DecorDesc_MARILL_DOLL[] = _(
         "Place it on a mat\n"
         "or a desk.");
 
-const u8 DecorDesc_TOGEPI_DOLL[] = _(
-    "A Togepi doll.\n"
+const u8 DecorDesc_VIPII_DOLL[] = _(
+    "A Vipii doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
-const u8 DecorDesc_CYNDAQUIL_DOLL[] = _(
-    "A Cyndaquil doll.\n"
+const u8 DecorDesc_MEGATRON_DOLL[] = _(
+    "A Megatron doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
-const u8 DecorDesc_CHIKORITA_DOLL[] = _(
-    "A Chikorita doll.\n"
+const u8 DecorDesc_TOM_DOLL[] = _(
+    "A Tom doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
-const u8 DecorDesc_TOTODILE_DOLL[] = _(
-    "A Totodile doll.\n"
+const u8 DecorDesc_KORBIE_DOLL[] = _(
+    "A Korbie doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 

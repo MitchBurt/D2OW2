@@ -3,13 +3,13 @@ static const u16 sFrontierExchangeCorner_Decor1[] =
     DECOR_KISS_POSTER, 
     DECOR_KISS_CUSHION, 
     DECOR_SMOOCHUM_DOLL, 
-    DECOR_TOGEPI_DOLL, 
+    DECOR_VIPII_DOLL, 
     DECOR_GARFEL_DOLL, 
     DECOR_EGOIRL_DOLL, 
     DECOR_DITTO_DOLL, 
-    DECOR_CYNDAQUIL_DOLL, 
-    DECOR_CHIKORITA_DOLL, 
-    DECOR_TOTODILE_DOLL, 
+    DECOR_MEGATRON_DOLL, 
+    DECOR_TOM_DOLL, 
+    DECOR_KORBIE_DOLL, 
     0xFFFF 
 };
 
@@ -53,13 +53,13 @@ static const u8 *const sFrontierExchangeCorner_Decor1Descriptions[] =
     BattleFrontier_ExchangeServiceCorner_Text_KissPosterDesc,
     BattleFrontier_ExchangeServiceCorner_Text_KissCushionDesc,
     BattleFrontier_ExchangeServiceCorner_Text_SmoochumDollDesc,
-    BattleFrontier_ExchangeServiceCorner_Text_TogepiDollDesc,
+    BattleFrontier_ExchangeServiceCorner_Text_VipiiDollDesc,
     BattleFrontier_ExchangeServiceCorner_Text_GarfelDollDesc,
     BattleFrontier_ExchangeServiceCorner_Text_EgoirlDollDesc,
     BattleFrontier_ExchangeServiceCorner_Text_DittoDollDesc,
-    BattleFrontier_ExchangeServiceCorner_Text_CyndaquilDollDesc,
-    BattleFrontier_ExchangeServiceCorner_Text_ChikoritaDollDesc,
-    BattleFrontier_ExchangeServiceCorner_Text_TotodileDollDesc,
+    BattleFrontier_ExchangeServiceCorner_Text_MegatronDollDesc,
+    BattleFrontier_ExchangeServiceCorner_Text_TomDollDesc,
+    BattleFrontier_ExchangeServiceCorner_Text_KorbieDollDesc,
     gText_Exit,
 };
 

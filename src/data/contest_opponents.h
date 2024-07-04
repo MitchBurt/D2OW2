@@ -159,7 +159,7 @@ const struct ContestWinner gDefaultContestWinners[] =
     {
         .personality = 0,
         .trainerId = 0xFFFF,
-        .species = SPECIES_XATU,
+        .species = SPECIES_GOALEM,
         .contestCategory = CONTEST_CATEGORY_BEAUTY,
         .monName = _("Tuxa"),
         .trainerName = _("Juliet"),
@@ -775,7 +775,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_COLBY] = {
-        .species = SPECIES_TOTODILE,
+        .species = SPECIES_KORBIE,
         .nickname = _("Totdil"),
         .trainerName = _("Colby"),
         .trainerGfxId = OBJ_EVENT_GFX_NINJA_BOY,
@@ -803,7 +803,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_KYLIE] = {
-        .species = SPECIES_LEDYBA,
+        .species = SPECIES_ABOMINATION,
         .nickname = _("Baledy"),
         .trainerName = _("Kylie"),
         .trainerGfxId = OBJ_EVENT_GFX_BEAUTY,
@@ -2791,7 +2791,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_CLARA] = {
-        .species = SPECIES_TOGEPI,
+        .species = SPECIES_VIPII,
         .nickname = _("Gepito"),
         .trainerName = _("Clara"),
         .trainerGfxId = OBJ_EVENT_GFX_WOMAN_2,

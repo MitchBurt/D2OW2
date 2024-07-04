@@ -144,10 +144,10 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SubmarineShadow;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PichuDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SkippaDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MarillDoll;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TogepiDoll;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CyndaquilDoll;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ChikoritaDoll;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TotodileDoll;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_VipiiDoll;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MegatronDoll;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TomDoll;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KorbieDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SnedditDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GarfelDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_EgoirlDoll;
@@ -1240,10 +1240,10 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_PICHU_DOLL] =               &gObjectEventGraphicsInfo_PichuDoll,
     [OBJ_EVENT_GFX_SKIPPA_DOLL] =             &gObjectEventGraphicsInfo_SkippaDoll,
     [OBJ_EVENT_GFX_MARILL_DOLL] =              &gObjectEventGraphicsInfo_MarillDoll,
-    [OBJ_EVENT_GFX_TOGEPI_DOLL] =              &gObjectEventGraphicsInfo_TogepiDoll,
-    [OBJ_EVENT_GFX_CYNDAQUIL_DOLL] =           &gObjectEventGraphicsInfo_CyndaquilDoll,
-    [OBJ_EVENT_GFX_CHIKORITA_DOLL] =           &gObjectEventGraphicsInfo_ChikoritaDoll,
-    [OBJ_EVENT_GFX_TOTODILE_DOLL] =            &gObjectEventGraphicsInfo_TotodileDoll,
+    [OBJ_EVENT_GFX_VIPII_DOLL] =              &gObjectEventGraphicsInfo_VipiiDoll,
+    [OBJ_EVENT_GFX_MEGATRON_DOLL] =           &gObjectEventGraphicsInfo_MegatronDoll,
+    [OBJ_EVENT_GFX_TOM_DOLL] =           &gObjectEventGraphicsInfo_TomDoll,
+    [OBJ_EVENT_GFX_KORBIE_DOLL] =            &gObjectEventGraphicsInfo_KorbieDoll,
     [OBJ_EVENT_GFX_SNEDDIT_DOLL] =          &gObjectEventGraphicsInfo_SnedditDoll,
     [OBJ_EVENT_GFX_GARFEL_DOLL] =              &gObjectEventGraphicsInfo_GarfelDoll,
     [OBJ_EVENT_GFX_EGOIRL_DOLL] =            &gObjectEventGraphicsInfo_EgoirlDoll,
