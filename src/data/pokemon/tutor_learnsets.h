@@ -4253,7 +4253,7 @@ static const u8 sTogeticTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sNatuTutorLearnset[] =
+static const u8 sPuckidTutorLearnset[] =
 {
     TUTOR(MOVE_DOUBLE_EDGE),
     TUTOR(MOVE_MIMIC),
@@ -19898,7 +19898,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_VCRBRAIN] = sVcrbrainTutorLearnset,
     [SPECIES_VIPII] = sVipiiTutorLearnset,
     [SPECIES_TOGETIC] = sTogeticTutorLearnset,
-    [SPECIES_NATU] = sNatuTutorLearnset,
+    [SPECIES_PUCKID] = sPuckidTutorLearnset,
     [SPECIES_GOALEM] = sGoalemTutorLearnset,
     [SPECIES_MAREEP] = sMareepTutorLearnset,
     [SPECIES_FLAAFFY] = sFlaaffyTutorLearnset,

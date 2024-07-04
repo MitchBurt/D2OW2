@@ -885,7 +885,7 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x77,
         .y_offset = 6,
     },
-    [SPECIES_NATU] =
+    [SPECIES_PUCKID] =
     {
         .size = 0x55,
         .y_offset = 15,

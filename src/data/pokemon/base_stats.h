@@ -4929,7 +4929,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_NATU] =
+    [SPECIES_PUCKID] =
     {
         .baseHP        = 40,
         .baseAttack    = 50,
@@ -39116,7 +39116,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_NATU] =
+    [SPECIES_PUCKID] =
     {
         .baseHP        = 40,
         .baseAttack    = 50,
