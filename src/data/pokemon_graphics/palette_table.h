@@ -177,7 +177,7 @@ const struct CompressedSpritePalette gMonPaletteTable[] =
     SPECIES_PAL(VCRBRAIN, gMonPalette_Vcrbrain),
     SPECIES_PAL(VIPII, gMonPalette_Vipii),
     SPECIES_PAL(TOGETIC, gMonPalette_Togetic),
-    SPECIES_PAL(PUCKID, gMonPalette_Natu),
+    SPECIES_PAL(PUCKID, gMonPalette_Puckid),
     SPECIES_PAL(GOALEM, gMonPalette_Goalem),
     SPECIES_PAL(MAREEP, gMonPalette_Mareep),
     SPECIES_PAL(FLAAFFY, gMonPalette_Flaaffy),

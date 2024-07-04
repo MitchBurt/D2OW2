@@ -1388,7 +1388,7 @@ extern const u32 gMonBackPic_Pooprat[];
 extern const u32 gMonBackPic_Vcrbrain[];
 extern const u32 gMonBackPic_Vipii[];
 extern const u32 gMonBackPic_Togetic[];
-extern const u32 gMonBackPic_Natu[];
+extern const u32 gMonBackPic_Puckid[];
 extern const u32 gMonBackPic_Goalem[];
 extern const u32 gMonBackPic_Mareep[];
 extern const u32 gMonBackPic_Flaaffy[];
