@@ -1043,8 +1043,8 @@ Cry_Rocco::
 	.incbin "sound/direct_sound_samples/cries/cry_rocco.bin"
 
 	.align 2
-Cry_Abomination::
-	.incbin "sound/direct_sound_samples/cries/cry_abomination.bin"
+Cry_Abominaton::
+	.incbin "sound/direct_sound_samples/cries/cry_abominaton.bin"
 
 	.align 2
 Cry_Wurm::

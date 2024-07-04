@@ -166,7 +166,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Deepfrieon  @ 869E480
 	cry Cry_Wormadamt  @ 869E48C
 	cry Cry_Rocco  @ 869E498
-	cry Cry_Abomination  @ 869E4A4
+	cry Cry_Abominaton  @ 869E4A4
 	cry Cry_Wurm  @ 869E4B0
 	cry Cry_Phracer  @ 869E4BC
 	cry Cry_Gluerilla  @ 869E4C8
@@ -1445,7 +1445,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Deepfrieon  @ 869F6B0
 	cry2 Cry_Wormadamt  @ 869F6BC
 	cry2 Cry_Rocco  @ 869F6C8
-	cry2 Cry_Abomination  @ 869F6D4
+	cry2 Cry_Abominaton  @ 869F6D4
 	cry2 Cry_Wurm  @ 869F6E0
 	cry2 Cry_Phracer  @ 869F6EC
 	cry2 Cry_Gluerilla  @ 869F6F8

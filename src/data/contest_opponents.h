@@ -803,7 +803,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_KYLIE] = {
-        .species = SPECIES_ABOMINATION,
+        .species = SPECIES_ABOMINATON,
         .nickname = _("Baledy"),
         .trainerName = _("Kylie"),
         .trainerGfxId = OBJ_EVENT_GFX_BEAUTY,

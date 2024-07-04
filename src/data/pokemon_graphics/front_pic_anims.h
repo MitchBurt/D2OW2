@@ -1905,7 +1905,7 @@ static const union AnimCmd sAnim_ROCCO_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_ABOMINATION_1[] =
+static const union AnimCmd sAnim_ABOMINATON_1[] =
 {
     ANIMCMD_FRAME(1, 10),
     ANIMCMD_FRAME(0, 10),
@@ -9986,9 +9986,9 @@ static const union AnimCmd *const sAnims_ROCCO[] ={
     sAnim_ROCCO_1,
 };
 
-static const union AnimCmd *const sAnims_ABOMINATION[] ={
+static const union AnimCmd *const sAnims_ABOMINATON[] ={
     sAnim_GeneralFrame0,
-    sAnim_ABOMINATION_1,
+    sAnim_ABOMINATON_1,
 };
 
 static const union AnimCmd *const sAnims_WURM[] ={
@@ -14602,7 +14602,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(DEEPFRIEON),
     ANIM_CMD(WORMADAMT),
     ANIM_CMD(ROCCO),
-    ANIM_CMD(ABOMINATION),
+    ANIM_CMD(ABOMINATON),
     ANIM_CMD(WURM),
     ANIM_CMD(PHRACER),
     ANIM_CMD(GLUERILLA),

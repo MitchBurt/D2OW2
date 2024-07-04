@@ -985,7 +985,7 @@ const u8 gRoccoPokedexText[] = _(
     "sin apenas luz. Posee unas alas ligeras y\n"
     "flexibles que casi no hacen ruido al volar.");
 
-const u8 gAbominationPokedexText[] = _(
+const u8 gAbominatonPokedexText[] = _(
     "Segrega un fluido por los seis puntos de\n"
     "unión que tiene entre patas y cuerpo.\n"
     "Al variar la escencia de éste, consigue\n"
@@ -6343,8 +6343,8 @@ const u8 gRoccoPokedexText[] = _(
     "vision that allows them to see in minimal\n"
     "light, and to their supple and silent wings.");
 
-const u8 gAbominationPokedexText[] = _(
-    "Abomination communicate using a fluid that\n"
+const u8 gAbominatonPokedexText[] = _(
+    "Abominaton communicate using a fluid that\n"
     "they secrete from where the legs join the\n"
     "body. They are said to convey feelings to\n"
     "others by altering the fluid's scent.");

@@ -825,7 +825,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x58,
         .y_offset = 2,
     },
-    [SPECIES_ABOMINATION] =
+    [SPECIES_ABOMINATON] =
     {
         .size = 0x56,
         .y_offset = 10,

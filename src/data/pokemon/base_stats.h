@@ -4583,7 +4583,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_ABOMINATION] =
+    [SPECIES_ABOMINATON] =
     {//275
         .baseHP        = 45,//40  -> 45
         .baseAttack    = 50,//20  -> 50
@@ -38767,7 +38767,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_ABOMINATION] =
+    [SPECIES_ABOMINATON] =
     {
         .baseHP        = 40,
         .baseAttack    = 50,

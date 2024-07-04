@@ -1106,7 +1106,7 @@ const u16 gEggMoves[] = {
 		MOVE_CHATTER,
 		MOVE_TAILWIND),
 
-	egg_moves(ABOMINATION,
+	egg_moves(ABOMINATON,
 		MOVE_PSYBEAM,
 		MOVE_COUNTER,
 		MOVE_SCREECH,

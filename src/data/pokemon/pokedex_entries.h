@@ -1981,12 +1981,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ABOMINATION] =
+    [NATIONAL_DEX_ABOMINATON] =
     {
         .categoryName = _("5Estrellas"),
         .height = 10,
         .weight = 108,
-        .description = gAbominationPokedexText,
+        .description = gAbominatonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 4,
         .trainerScale = 256,
@@ -12771,12 +12771,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ABOMINATION] =
+    [NATIONAL_DEX_ABOMINATON] =
     {
         .categoryName = _("Five Star"),
         .height = 10,
         .weight = 108,
-        .description = gAbominationPokedexText,
+        .description = gAbominatonPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 4,
         .trainerScale = 256,

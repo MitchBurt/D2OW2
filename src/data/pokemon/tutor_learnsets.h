@@ -3973,7 +3973,7 @@ static const u8 sRoccoTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sAbominationTutorLearnset[] =
+static const u8 sAbominatonTutorLearnset[] =
 {
     TUTOR(MOVE_SWORDS_DANCE),
     TUTOR(MOVE_DOUBLE_EDGE),
@@ -19886,7 +19886,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_DEEPFRIEON] = sDeepfrieonTutorLearnset,
     [SPECIES_WORMADAMT] = sWormadamtTutorLearnset,
     [SPECIES_ROCCO] = sRoccoTutorLearnset,
-    [SPECIES_ABOMINATION] = sAbominationTutorLearnset,
+    [SPECIES_ABOMINATON] = sAbominatonTutorLearnset,
     [SPECIES_WURM] = sWurmTutorLearnset,
     [SPECIES_PHRACER] = sPhracerTutorLearnset,
     [SPECIES_GLUERILLA] = sGluerillaTutorLearnset,

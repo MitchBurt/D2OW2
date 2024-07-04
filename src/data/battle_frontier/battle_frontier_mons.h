@@ -320,7 +320,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_JOLLY,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_ABOMINATION] = {
+    [FRONTIER_MON_ABOMINATON] = {
         .species = SPECIES_AURORUS,
         .moves = {MOVE_AURORA_VEIL, MOVE_FREEZE_DRY, MOVE_STEALTH_ROCK, MOVE_POWER_GEM},
         .itemTableId = BATTLE_FRONTIER_ITEM_ICY_ROCK,

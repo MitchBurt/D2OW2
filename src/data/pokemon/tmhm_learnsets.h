@@ -6751,7 +6751,7 @@ static const u8 sRoccoTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sAbominationTMHMLearnset[] =
+static const u8 sAbominatonTMHMLearnset[] =
 {
     TMHM(TM01_FOCUS_PUNCH),
     TMHM(TM06_TOXIC),
@@ -36239,7 +36239,7 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_DEEPFRIEON] = sDeepfrieonTMHMLearnset,
     [SPECIES_WORMADAMT] = sWormadamtTMHMLearnset,
     [SPECIES_ROCCO] = sRoccoTMHMLearnset,
-    [SPECIES_ABOMINATION] = sAbominationTMHMLearnset,
+    [SPECIES_ABOMINATON] = sAbominatonTMHMLearnset,
     [SPECIES_WURM] = sWurmTMHMLearnset,
     [SPECIES_PHRACER] = sPhracerTMHMLearnset,
     [SPECIES_GLUERILLA] = sGluerillaTMHMLearnset,

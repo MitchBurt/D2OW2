@@ -3344,7 +3344,7 @@ static const struct LevelUpMove sRoccoLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sAbominationLevelUpLearnset[] = {
+static const struct LevelUpMove sAbominatonLevelUpLearnset[] = {
 	LEVEL_UP_MOVE(1, MOVE_TACKLE),
 	LEVEL_UP_MOVE(1, MOVE_LEER),
 	LEVEL_UP_MOVE(1, MOVE_PROTECT),

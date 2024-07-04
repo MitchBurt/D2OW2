@@ -15342,7 +15342,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Rick[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_ABOMINATION,
+    .species = SPECIES_ABOMINATON,
     },
 	{
     .iv = 0,

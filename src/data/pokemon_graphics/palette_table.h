@@ -165,7 +165,7 @@ const struct CompressedSpritePalette gMonPaletteTable[] =
     SPECIES_PAL(DEEPFRIEON, gMonPalette_Deepfrieon),
     SPECIES_PAL(WORMADAMT, gMonPalette_Wormadamt),
     SPECIES_PAL(ROCCO, gMonPalette_Rocco),
-    SPECIES_PAL(ABOMINATION, gMonPalette_Abomination),
+    SPECIES_PAL(ABOMINATON, gMonPalette_Abominaton),
     SPECIES_PAL(WURM, gMonPalette_Wurm),
     SPECIES_PAL(PHRACER, gMonPalette_Phracer),
     SPECIES_PAL(GLUERILLA, gMonPalette_Gluerilla),
