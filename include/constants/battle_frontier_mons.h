@@ -107,7 +107,7 @@
 #define FRONTIER_MON_DUGGAME        103
 #define FRONTIER_MON_SURBSQUACH         104
 #define FRONTIER_MON_CIGHTED        105
-#define FRONTIER_MON_NATU           106
+#define FRONTIER_MON_PUCKID           106
 #define FRONTIER_MON_EGOIRL       107
 #define FRONTIER_MON_DESQUARED      108
 #define FRONTIER_MON_DABBOI           109

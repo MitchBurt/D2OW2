@@ -178,7 +178,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Vcrbrain  @ 869E510
 	cry Cry_Vipii  @ 869E51C
 	cry Cry_Togetic  @ 869E528
-	cry Cry_Natu  @ 869E534
+	cry Cry_Puckid  @ 869E534
 	cry Cry_Goalem  @ 869E540
 	cry Cry_Mareep  @ 869E54C
 	cry Cry_Flaaffy  @ 869E558
@@ -1457,7 +1457,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Vcrbrain  @ 869F740
 	cry2 Cry_Vipii  @ 869F74C
 	cry2 Cry_Togetic  @ 869F758
-	cry2 Cry_Natu  @ 869F764
+	cry2 Cry_Puckid  @ 869F764
 	cry2 Cry_Goalem  @ 869F770
 	cry2 Cry_Mareep  @ 869F77C
 	cry2 Cry_Flaaffy  @ 869F788

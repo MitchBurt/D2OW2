@@ -1091,8 +1091,8 @@ Cry_Togetic::
 	.incbin "sound/direct_sound_samples/cries/cry_togetic.bin"
 
 	.align 2
-Cry_Natu::
-	.incbin "sound/direct_sound_samples/cries/cry_natu.bin"
+Cry_Puckid::
+	.incbin "sound/direct_sound_samples/cries/cry_puckid.bin"
 
 	.align 2
 Cry_Goalem::
