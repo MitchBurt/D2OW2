@@ -2161,7 +2161,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_REGISTEEL:
 				case SPECIES_GNORB:
 				case SPECIES_MAURRICE:
-				case SPECIES_TEDDIURSA:
+				case SPECIES_VIVAPINAUT:
 				case SPECIES_FROSLING:
 				case SPECIES_AZURILL:
 				case SPECIES_SURBSQUACH:
