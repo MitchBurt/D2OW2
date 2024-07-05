@@ -1,6 +1,6 @@
 {
   "id": "MAP_THREE_ISLAND_DUNSPARCE_TUNNEL_DUG_OUT",
-  "name": "ThreeIsland_Dunsparcetunnel_DugOut",
+  "name": "ThreeIsland_DunsparceTunnel_DugOut",
   "layout": "LAYOUT_THREE_ISLAND_DUNSPARCE_TUNNEL_DUG_OUT",
   "music": "MUS_RG_VIRIDIAN_FOREST",
   "region_map_section": "MAPSEC_THREE_ISLE_PORT",
