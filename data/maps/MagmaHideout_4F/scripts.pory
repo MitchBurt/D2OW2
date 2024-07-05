@@ -2,51 +2,51 @@ raw `
 MagmaHideout_4F_MapScripts::
 	.byte 0
 	
-//Entei
+//Heattar
 
-MagmaHideout_4F_EventScript_Entei::
+MagmaHideout_4F_EventScript_Heattar::
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_ENTEI, 2
+	playmoncry SPECIES_HEATTAR, 2
 	delay 40
 	waitmoncry
 	setflag FLAG_TOTEM_BATTLE
 	setvar VAR_NUM_WILD_POKEMON_STAT_BOOST, 2
-	setwildbattlewithcustommoves SPECIES_ENTEI, 75, ITEM_NONE, MOVE_SACRED_FIRE, MOVE_IRON_HEAD, MOVE_EARTHQUAKE, MOVE_CLOSE_COMBAT, 0, NATURE_ADAMANT
+	setwildbattlewithcustommoves SPECIES_HEATTAR, 75, ITEM_NONE, MOVE_SACRED_FIRE, MOVE_IRON_HEAD, MOVE_EARTHQUAKE, MOVE_CLOSE_COMBAT, 0, NATURE_ADAMANT
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
 	dowildbattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
 	specialvar VAR_RESULT, GetBattleOutcome
 	compare VAR_RESULT, B_OUTCOME_CAUGHT
-	goto_if_eq MagmaHideout_4F_EventScript_CaughtEntei
+	goto_if_eq MagmaHideout_4F_EventScript_CaughtHeattar
 	compare VAR_RESULT, B_OUTCOME_WON
-	goto_if_eq MagmaHideout_4F_EventScript_RanFromEntei
+	goto_if_eq MagmaHideout_4F_EventScript_RanFromHeattar
 	compare VAR_RESULT, B_OUTCOME_RAN
-	goto_if_eq MagmaHideout_4F_EventScript_RanFromEntei
+	goto_if_eq MagmaHideout_4F_EventScript_RanFromHeattar
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
-	goto_if_eq MagmaHideout_4F_EventScript_RanFromEntei
-	setflag FLAG_DEFEATED_ENTEI
+	goto_if_eq MagmaHideout_4F_EventScript_RanFromHeattar
+	setflag FLAG_DEFEATED_HEATTAR
 	release
 	end
 
-MagmaHideout_4F_EventScript_CaughtEntei::
-	setflag FLAG_DEFEATED_ENTEI
+MagmaHideout_4F_EventScript_CaughtHeattar::
+	setflag FLAG_DEFEATED_HEATTAR
 	fadescreenswapbuffers FADE_TO_BLACK
 	removeobject VAR_LAST_TALKED
 	fadescreenswapbuffers FADE_FROM_BLACK
 	release
 	end
 
-MagmaHideout_4F_EventScript_DefeatedEntei::
+MagmaHideout_4F_EventScript_DefeatedHeattar::
 	fadescreenswapbuffers FADE_TO_BLACK
 	removeobject VAR_LAST_TALKED
 	fadescreenswapbuffers FADE_FROM_BLACK
 	release
 	end
 
-MagmaHideout_4F_EventScript_RanFromEntei::
-	setvar VAR_0x8004, SPECIES_ENTEI
+MagmaHideout_4F_EventScript_RanFromHeattar::
+	setvar VAR_0x8004, SPECIES_HEATTAR
 	fadescreenswapbuffers FADE_TO_BLACK
 	removeobject VAR_LAST_TALKED
 	fadescreenswapbuffers FADE_FROM_BLACK

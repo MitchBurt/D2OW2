@@ -2010,7 +2010,7 @@ $(MID_SUBDIR)/hg_seq_gs_r_6_38.s: %.s: %.mid
 $(MID_SUBDIR)/hg_seq_gs_radio_march.s: %.s: %.mid
 	$(MID) $< $@ -E -R5 -G229 -V082
 
-$(MID_SUBDIR)/hg_seq_gs_vs_raikou.s: %.s: %.mid
+$(MID_SUBDIR)/hg_seq_gs_vs_shockitty.s: %.s: %.mid
 	$(MID) $< $@ -E -R5 -G229 -V098
 
 $(MID_SUBDIR)/hg_seq_gs_to_toudai.s: %.s: %.mid
@@ -2055,7 +2055,7 @@ $(MID_SUBDIR)/hg_seq_gs_ryuunoana.s: %.s: %.mid
 $(MID_SUBDIR)/hg_seq_gs_ibuki.s: %.s: %.mid
 	$(MID) $< $@ -E -R5 -G229 -V089
 
-$(MID_SUBDIR)/hg_seq_gs_vs_entei.s: %.s: %.mid
+$(MID_SUBDIR)/hg_seq_gs_vs_heattar.s: %.s: %.mid
 	$(MID) $< $@ -E -R5 -G229 -V098
 
 $(MID_SUBDIR)/hg_seq_gs_to_suzu.s: %.s: %.mid
@@ -2106,7 +2106,7 @@ $(MID_SUBDIR)/hg_seq_gs_e_linear.s: %.s: %.mid
 $(MID_SUBDIR)/hg_seq_gs_radio_komoriuta.s: %.s: %.mid
 	$(MID) $< $@ -E -R5 -G229 -V082
 
-$(MID_SUBDIR)/hg_seq_gs_vs_suicune.s: %.s: %.mid
+$(MID_SUBDIR)/hg_seq_gs_vs_reingeer.s: %.s: %.mid
 	$(MID) $< $@ -E -R5 -G229 -V098
 
 $(MID_SUBDIR)/hg_seq_gs_c_tamamushi.s: %.s: %.mid
@@ -2286,10 +2286,10 @@ $(MID_SUBDIR)/hg_seq_gs_e_g_pichu.s: %.s: %.mid
 $(MID_SUBDIR)/hg_seq_gs_eye_maiko.s: %.s: %.mid
 	$(MID) $< $@ -E -R5 -G229 -V084
 
-$(MID_SUBDIR)/hg_seq_gs_e_lugia.s: %.s: %.mid
+$(MID_SUBDIR)/hg_seq_gs_e_helpme.s: %.s: %.mid
 	$(MID) $< $@ -E -R5 -G229 -V092
 
-$(MID_SUBDIR)/hg_seq_gs_vs_lugia.s: %.s: %.mid
+$(MID_SUBDIR)/hg_seq_gs_vs_helpme.s: %.s: %.mid
 	$(MID) $< $@ -E -R5 -G229 -V102
 
 $(MID_SUBDIR)/hg_seq_gs_d_champroad.s: %.s: %.mid

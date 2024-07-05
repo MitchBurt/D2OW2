@@ -768,7 +768,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_JOLLY
     },
     [SLATEPORT_TENT_MON_BEAUTIFLY] = {
-        .species = SPECIES_MILTANK,
+        .species = SPECIES_PANTS,
         .moves = {MOVE_RETURN, MOVE_EARTHQUAKE, MOVE_MILK_DRINK, MOVE_ROLLOUT},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,
@@ -1006,7 +1006,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_TIMID
     },
     [SLATEPORT_TENT_MON_NUMEL_1] = {
-        .species = SPECIES_KINGDRA,
+        .species = SPECIES_DISMALO,
         .moves = {MOVE_DRAGON_PULSE, MOVE_HYDRO_PUMP, MOVE_ICE_BEAM, MOVE_FOCUS_ENERGY},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
@@ -1104,7 +1104,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_TIMID
     },
     [SLATEPORT_TENT_MON_PELIPPER_2] = {
-        .species = SPECIES_DONPHAN,
+        .species = SPECIES_COFFICRAB,
         .moves = {MOVE_PLAY_ROUGH, MOVE_EARTHQUAKE, MOVE_ICE_SHARD, MOVE_HEAD_SMASH},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,
@@ -1223,7 +1223,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_TIMID
     },
     [SLATEPORT_TENT_MON_SWABLU] = {
-        .species = SPECIES_MAGCARGO,
+        .species = SPECIES_SUGMABALLS,
         .moves = {MOVE_SHELL_SMASH, MOVE_POWER_GEM, MOVE_FIRE_BLAST, MOVE_GIGA_DRAIN},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
@@ -1292,7 +1292,7 @@ const u16 gVerdanturfBattleTentTrainerMons_Caitlyn[] =
     VERDANTURF_TENT_MON_KECLEON,
     VERDANTURF_TENT_MON_ELECTRIKE,
     VERDANTURF_TENT_MON_MIGHTYENA,
-    VERDANTURF_TENT_MON_SKARMORY,
+    VERDANTURF_TENT_MON_LEGEARTH,
     VERDANTURF_TENT_MON_CACNEA,
     -1
 };
@@ -1302,7 +1302,7 @@ const u16 gVerdanturfBattleTentTrainerMons_Desiree[] =
     VERDANTURF_TENT_MON_WINGULL,
     VERDANTURF_TENT_MON_KECLEON,
     VERDANTURF_TENT_MON_SEVIPER,
-    VERDANTURF_TENT_MON_SKARMORY,
+    VERDANTURF_TENT_MON_LEGEARTH,
     VERDANTURF_TENT_MON_KUKLAN,
     -1
 };
@@ -1361,7 +1361,7 @@ const u16 gVerdanturfBattleTentTrainerMons_Prestin[] =
 {
     VERDANTURF_TENT_MON_KUKLAN,
     VERDANTURF_TENT_MON_MIGHTYENA,
-    VERDANTURF_TENT_MON_SKARMORY,
+    VERDANTURF_TENT_MON_LEGEARTH,
     VERDANTURF_TENT_MON_ELECTRIKE,
     VERDANTURF_TENT_MON_CACNEA,
     VERDANTURF_TENT_MON_WHISMUR,
@@ -1438,7 +1438,7 @@ const u16 gVerdanturfBattleTentTrainerMons_Tyson[] =
 {
     VERDANTURF_TENT_MON_FARBY,
     VERDANTURF_TENT_MON_MAKUHITA,
-    VERDANTURF_TENT_MON_SKARMORY,
+    VERDANTURF_TENT_MON_LEGEARTH,
     VERDANTURF_TENT_MON_TONCRETE,
     VERDANTURF_TENT_MON_SWABLU,
     VERDANTURF_TENT_MON_VIGOROTH,
@@ -1960,15 +1960,15 @@ const struct FacilityMon gVerdanturfBattleTentMons[NUM_VERDANTURF_TENT_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_LONELY
     },
-    [VERDANTURF_TENT_MON_SKARMORY] = {
-        .species = SPECIES_SKARMORY,
+    [VERDANTURF_TENT_MON_LEGEARTH] = {
+        .species = SPECIES_LEGEARTH,
         .moves = {MOVE_AIR_CUTTER, MOVE_SANDSTORM, MOVE_LEER, MOVE_AGILITY},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_ATTACK,
         .nature = NATURE_BASHFUL
     },
     [VERDANTURF_TENT_MON_SWELLOW] = {
-        .species = SPECIES_SMEARGLE,
+        .species = SPECIES_GAHNOMED,
         .moves = {MOVE_BATON_PASS, MOVE_BULK_UP, MOVE_BODY_SLAM, MOVE_NIGHT_SLASH},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,
@@ -1996,7 +1996,7 @@ const struct FacilityMon gVerdanturfBattleTentMons[NUM_VERDANTURF_TENT_MONS] =
         .nature = NATURE_BOLD
     },
     [VERDANTURF_TENT_MON_ARON_2] = {
-        .species = SPECIES_PILOSWINE,
+        .species = SPECIES_SCRAPCHAT,
         .moves = {MOVE_TAKE_DOWN, MOVE_ICICLE_CRASH, MOVE_MUD_SLAP, MOVE_ATTRACT},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
@@ -2080,7 +2080,7 @@ const struct FacilityMon gVerdanturfBattleTentMons[NUM_VERDANTURF_TENT_MONS] =
         .nature = NATURE_RELAXED
     },
     [VERDANTURF_TENT_MON_VIGOROTH] = {
-        .species = SPECIES_SNEASEL,
+        .species = SPECIES_PINATI,
         .moves = {MOVE_ICE_SHARD, MOVE_METAL_CLAW, MOVE_ICY_WIND, MOVE_SLASH},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_ATTACK,
@@ -2359,7 +2359,7 @@ const u16 gFallarborBattleTentTrainerMons_Tannor[] =
 const u16 gFallarborBattleTentTrainerMons_Benji[] = 
 {
     FALLARBOR_TENT_MON_SWABLU,
-    FALLARBOR_TENT_MON_SKARMORY,
+    FALLARBOR_TENT_MON_LEGEARTH,
     FALLARBOR_TENT_MON_ANIVENOM,
     FALLARBOR_TENT_MON_WINGULL,
     FALLARBOR_TENT_MON_PELIPPER,
@@ -2434,7 +2434,7 @@ const u16 gFallarborBattleTentTrainerMons_Kianna[] =
 {
     FALLARBOR_TENT_MON_LOUDRED,
     FALLARBOR_TENT_MON_MIGHTYENA,
-    FALLARBOR_TENT_MON_SKARMORY,
+    FALLARBOR_TENT_MON_LEGEARTH,
     FALLARBOR_TENT_MON_ANIVENOM,
     FALLARBOR_TENT_MON_CIGHTED_2,
     FALLARBOR_TENT_MON_TONCRETE,
@@ -2869,8 +2869,8 @@ const struct FacilityMon gFallarborBattleTentMons[NUM_FALLARBOR_TENT_MONS] =
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
         .nature = NATURE_QUIRKY
     },
-    [FALLARBOR_TENT_MON_SKARMORY] = {
-        .species = SPECIES_SKARMORY,
+    [FALLARBOR_TENT_MON_LEGEARTH] = {
+        .species = SPECIES_LEGEARTH,
         .moves = {MOVE_AGILITY, MOVE_STEEL_WING, MOVE_SAND_ATTACK, MOVE_TORMENT},
         .itemTableId = BATTLE_FRONTIER_ITEM_METAL_COAT,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,

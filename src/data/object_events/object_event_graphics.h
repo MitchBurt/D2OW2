@@ -313,7 +313,7 @@ const u32 gObjectEventPic_UnusedDesquaredDoll[] = INCBIN_U32("graphics/object_ev
 const u32 gObjectEventPic_UnusedJissmDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/unused_jissm_doll.4bpp");
 const u32 gObjectEventPic_UnusedMegaladethDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/unused_megaladeth_doll.4bpp");
 const u32 gObjectEventPic_UnusedSkippaDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/unused_skippa_doll.4bpp");
-const u32 gObjectEventPic_UnusedPorygon2Doll[] = INCBIN_U32("graphics/object_events/pics/dolls/unused_porygon2_doll.4bpp");
+const u32 gObjectEventPic_UnusedCraberaveDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/unused_craberave_doll.4bpp");
 const u32 gObjectEventPic_PichuDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/pichu_doll.4bpp");
 const u32 gObjectEventPic_SkippaDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/skippa_doll.4bpp");
 const u32 gObjectEventPic_TadpalDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/tadpal_doll.4bpp");
@@ -325,7 +325,7 @@ const u32 gObjectEventPic_SnedditDoll[] = INCBIN_U32("graphics/object_events/pic
 const u32 gObjectEventPic_GarfelDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/garfel_doll.4bpp");
 const u32 gObjectEventPic_EgoirlDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/egoirl_doll.4bpp");
 const u32 gObjectEventPic_DittoDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/ditto_doll.4bpp");
-const u32 gObjectEventPic_SmoochumDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/smoochum_doll.4bpp");
+const u32 gObjectEventPic_BurntonionDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/burntonion_doll.4bpp");
 const u32 gObjectEventPic_TreeckoDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/treecko_doll.4bpp");
 const u32 gObjectEventPic_TorchicDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/torchic_doll.4bpp");
 const u32 gObjectEventPic_MudkipDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/mudkip_doll.4bpp");
@@ -517,14 +517,14 @@ const u16 gObjectEventPalette_Thevoid[] = INCBIN_U16("graphics/object_events/pic
 //184 - Anglernom
 const u32 gObjectEventPic_Anglernom[] = INCBIN_U32("graphics/object_events/pics/pokemon/anglernom.4bpp");
 const u16 gObjectEventPalette_Anglernom[] = INCBIN_U16("graphics/object_events/pics/pokemon/anglernom.gbapal");
-//249 - Lugia
-//const u32 gObjectEventPic_Lugia[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/249.4bpp");
-//const u16 gObjectEventPalette_Lugia[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/249.gbapal");
-const u32 gObjectEventPic_Lugia[] = INCBIN_U32("graphics/object_events/pics/pokemon/lugia.4bpp");
-const u16 gObjectEventPalette_Lugia[] = INCBIN_U16("graphics/object_events/pics/pokemon/lugia.gbapal");
-//250 - Ho-Oh
-const u32 gObjectEventPic_HoOh[] = INCBIN_U32("graphics/object_events/pics/pokemon/ho_oh.4bpp");
-const u16 gObjectEventPalette_Ho_oh[] = INCBIN_U16("graphics/object_events/pics/pokemon/ho_oh.gbapal");
+//249 - Helpme
+//const u32 gObjectEventPic_Helpme[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/249.4bpp");
+//const u16 gObjectEventPalette_Helpme[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/249.gbapal");
+const u32 gObjectEventPic_Helpme[] = INCBIN_U32("graphics/object_events/pics/pokemon/helpme.4bpp");
+const u16 gObjectEventPalette_Helpme[] = INCBIN_U16("graphics/object_events/pics/pokemon/helpme.gbapal");
+//250 - Suffer
+const u32 gObjectEventPic_Suffer[] = INCBIN_U32("graphics/object_events/pics/pokemon/suffer.4bpp");
+const u16 gObjectEventPalette_Suffer[] = INCBIN_U16("graphics/object_events/pics/pokemon/suffer.gbapal");
 //261 - Poochyena
 const u32 gObjectEventPic_Poochyena[] = INCBIN_U32("graphics/object_events/pics/pokemon/poochyena.4bpp");
 //288 - Vigoroth

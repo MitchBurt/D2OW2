@@ -1,62 +1,62 @@
 raw `
-.equ LOCALID_CELEBI, 1
+.equ LOCALID_LILGUY, 1
 
 ThreeIsland_BerryForest_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, ThreeIsland_BerryForest_MapScripts_OnLoad
 	.byte 0
 	
 ThreeIsland_BerryForest_MapScripts_OnLoad: @ 8236F16
-	goto_if_unset FLAG_SYS_GAME_CLEAR, ThreeIsland_BerryForest_MapScripts_RemoveCelebi
+	goto_if_unset FLAG_SYS_GAME_CLEAR, ThreeIsland_BerryForest_MapScripts_RemoveLilguy
 	end
 	
-ThreeIsland_BerryForest_MapScripts_RemoveCelebi: @ 8236F16
-	removeobject LOCALID_CELEBI
-	setobjectxyperm LOCALID_CELEBI, 1, 1
+ThreeIsland_BerryForest_MapScripts_RemoveLilguy: @ 8236F16
+	removeobject LOCALID_LILGUY
+	setobjectxyperm LOCALID_LILGUY, 1, 1
 	end
 
-ThreeIsland_BerryForest_EventScript_Celebi::
+ThreeIsland_BerryForest_EventScript_Lilguy::
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_CELEBI, 2
+	playmoncry SPECIES_LILGUY, 2
 	delay 40
 	waitmoncry
 	setflag FLAG_TOTEM_BATTLE
 	setvar VAR_NUM_WILD_POKEMON_STAT_BOOST, 2
-	setwildbattlewithcustommoves SPECIES_CELEBI, 70, ITEM_NONE, MOVE_GIGA_DRAIN, MOVE_PSYCHIC, MOVE_POLLEN_PUFF, MOVE_EARTH_POWER, 0, NATURE_TIMID
+	setwildbattlewithcustommoves SPECIES_LILGUY, 70, ITEM_NONE, MOVE_GIGA_DRAIN, MOVE_PSYCHIC, MOVE_POLLEN_PUFF, MOVE_EARTH_POWER, 0, NATURE_TIMID
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
 	dowildbattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
 	specialvar VAR_RESULT, GetBattleOutcome
 	compare VAR_RESULT, B_OUTCOME_CAUGHT
-	goto_if_eq ThreeIsland_BerryForest_EventScript_CaughtCelebi
+	goto_if_eq ThreeIsland_BerryForest_EventScript_CaughtLilguy
 	compare VAR_RESULT, B_OUTCOME_WON
-	goto_if_eq ThreeIsland_BerryForest_EventScript_RanFromCelebi
+	goto_if_eq ThreeIsland_BerryForest_EventScript_RanFromLilguy
 	compare VAR_RESULT, B_OUTCOME_RAN
-	goto_if_eq ThreeIsland_BerryForest_EventScript_RanFromCelebi
+	goto_if_eq ThreeIsland_BerryForest_EventScript_RanFromLilguy
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
-	goto_if_eq ThreeIsland_BerryForest_EventScript_RanFromCelebi
-	setflag FLAG_DEFEATED_CELEBI
+	goto_if_eq ThreeIsland_BerryForest_EventScript_RanFromLilguy
+	setflag FLAG_DEFEATED_LILGUY
 	release
 	end
 	
-ThreeIsland_BerryForest_EventScript_CaughtCelebi::
-	setflag FLAG_DEFEATED_CELEBI
+ThreeIsland_BerryForest_EventScript_CaughtLilguy::
+	setflag FLAG_DEFEATED_LILGUY
 	fadescreenswapbuffers FADE_TO_BLACK
 	removeobject VAR_LAST_TALKED
 	fadescreenswapbuffers FADE_FROM_BLACK
 	release
 	end
 
-ThreeIsland_BerryForest_EventScript_DefeatedCelebi::
+ThreeIsland_BerryForest_EventScript_DefeatedLilguy::
 	fadescreenswapbuffers FADE_TO_BLACK
 	removeobject VAR_LAST_TALKED
 	fadescreenswapbuffers FADE_FROM_BLACK
 	release
 	end
 
-ThreeIsland_BerryForest_EventScript_RanFromCelebi::
-	setvar VAR_0x8004, SPECIES_CELEBI
+ThreeIsland_BerryForest_EventScript_RanFromLilguy::
+	setvar VAR_0x8004, SPECIES_LILGUY
 	fadescreenswapbuffers FADE_TO_BLACK
 	removeobject VAR_LAST_TALKED
 	fadescreenswapbuffers FADE_FROM_BLACK

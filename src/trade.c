@@ -2527,12 +2527,12 @@ int GetUnionRoomTradeMessageId(struct GFtgtGnameSub rfuPlayer, struct GFtgtGname
 		SPECIES_LEGEND,
 		SPECIES_GOD,
 		SPECIES_THEVOID,
-		SPECIES_SUICUNE,
-		SPECIES_RAIKOU,
-		SPECIES_ENTEI,
-		SPECIES_LUGIA,
-		SPECIES_HO_OH,
-		SPECIES_CELEBI,
+		SPECIES_REINGEER,
+		SPECIES_SHOCKITTY,
+		SPECIES_HEATTAR,
+		SPECIES_HELPME,
+		SPECIES_SUFFER,
+		SPECIES_LILGUY,
 		SPECIES_REGIROCK,
 		SPECIES_REGISTEEL,
 		SPECIES_REGICE,
@@ -5132,11 +5132,11 @@ u16 getWonderTradePokemonFormID(u16 species)
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_CORSOLA:
+		case SPECIES_SETRONIC:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_CORSOLA,
-					SPECIES_CORSOLA_GALARIAN,
+					SPECIES_SETRONIC,
+					SPECIES_SETRONIC_GALARIAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];

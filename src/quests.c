@@ -2125,7 +2125,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_CRUSTLE:
 				case SPECIES_HYDREIGON:
 				case SPECIES_KARRABLAST:
-				case SPECIES_SKARMORY:
+				case SPECIES_LEGEARTH:
 				case SPECIES_TANGROWTH:
 				case SPECIES_BANANACE:
 				case SPECIES_GOD:
@@ -2159,10 +2159,10 @@ static void UnlockQuestMenu(void)
 				case SPECIES_LEAFEON:
 				case SPECIES_EBOLABLE:
 				case SPECIES_REGISTEEL:
-				case SPECIES_STANTLER:
-				case SPECIES_URSARING:
+				case SPECIES_GNORB:
+				case SPECIES_MAURRICE:
 				case SPECIES_TEDDIURSA:
-				case SPECIES_LARVITAR:
+				case SPECIES_FROSLING:
 				case SPECIES_AZURILL:
 				case SPECIES_SURBSQUACH:
 				case SPECIES_CHIMECHO:

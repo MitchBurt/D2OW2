@@ -23,7 +23,7 @@ PacifidlogTown_PokemonCenter_1F_EventScript_Girl:: @ 82034C4
 	end
 
 PacifidlogTown_PokemonCenter_1F_EventScript_Woman:: @ 82034CD
-	msgbox PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfCorsola, MSGBOX_NPC
+	msgbox PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfSetronic, MSGBOX_NPC
 	end
 
 PacifidlogTown_PokemonCenter_1F_EventScript_OldMan:: @ 82034D6
@@ -34,9 +34,9 @@ PacifidlogTown_PokemonCenter_1F_Text_WhatColorTrainerCard: @ 82034DF
 	.string "What color is your Trainer Card?\n"
 	.string "Mine's copper!$"
 
-PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfCorsola: @ 820350F
+PacifidlogTown_PokemonCenter_1F_Text_OnColonyOfSetronic: @ 820350F
 	.string "Pacifidlog Town floats on top of\n"
-	.string "a colony of Corsola.\p"
+	.string "a colony of Setronic.\p"
 	.string "If I told you that, would you believe\n"
 	.string "me?$"
 

@@ -889,7 +889,7 @@ static const u8 sText_Starter_5[] = _("Cubchoo");
 static const u8 sText_Starter_6[] = _("Skorchi");
 static const u8 sText_Starter_7[] = _("Sandygast");
 static const u8 sText_Starter_8[] = _("Cufant");
-static const u8 sText_Starter_9[] = _("Smeargle");
+static const u8 sText_Starter_9[] = _("Gahnomed");
 
 
 static const struct ListMenuItem sSet1[] =

@@ -2524,14 +2524,14 @@ bool8 ScrFunc_getfolloweraction(struct ScriptContext *ctx) // Essentially a big 
 	  }
 	  // 3. Health & status-based messages
 	  health_percent = mon->hp * 100 / mon->maxHP;
-	  if (health_percent <= 20 && species == SPECIES_DELIBIRD && rand == 10)
+	  if (health_percent <= 20 && species == SPECIES_ABSTRATIC && rand == 10)
 		message_choices[n_choices++] = EventScript_FollowerPresent_2;
 	  else if (health_percent <= 20)
 		message_choices[n_choices++] = EventScript_FollowerAboutToFall;
 	  else if (health_percent < 50 || mon->status & 0x40) // STATUS1_PARALYSIS
 		message_choices[n_choices++] = EventScript_FollowerTryingToKeepUp;
 	  // 4. More status messages
-	  if (((mon->status & (0x20 | 0x8))||(mon->status & 0x10)) && species == SPECIES_DELIBIRD && rand == 10)
+	  if (((mon->status & (0x20 | 0x8))||(mon->status & 0x10)) && species == SPECIES_ABSTRATIC && rand == 10)
 		message_choices[n_choices++] = EventScript_FollowerPresent_2;
 	  if (mon->status & (0x20 | 0x8)) // STATUS1_FREEZE | STATUS1_POISON
 		message_choices[n_choices++] = EventScript_FollowerIsShivering;
@@ -2548,7 +2548,7 @@ bool8 ScrFunc_getfolloweraction(struct ScriptContext *ctx) // Essentially a big 
 		  message_choices[n_choices++] = EventScript_FollowerHoldingItem;
 	  // 7. Friendship-based messages
 	  friendship = GetMonData(mon, MON_DATA_FRIENDSHIP);
-	  if (friendship <= 20 && species == SPECIES_DELIBIRD && rand == 10)
+	  if (friendship <= 20 && species == SPECIES_ABSTRATIC && rand == 10)
 		message_choices[n_choices++] = EventScript_FollowerPresent_2;
 	  else if (friendship <= 80)
 		message_choices[n_choices++] = EventScript_FollowerSkeptical;
@@ -2556,7 +2556,7 @@ bool8 ScrFunc_getfolloweraction(struct ScriptContext *ctx) // Essentially a big 
 		message_choices[n_choices++] = EventScript_FollowerAppraising;
 	  else if (friendship < 255)
 		message_choices[n_choices++] = EventScript_FollowerHappyWalk;
-	  else if (species == SPECIES_DELIBIRD && rand == 10)
+	  else if (species == SPECIES_ABSTRATIC && rand == 10)
 		 message_choices[n_choices++] = EventScript_FollowerPresent_1; 
 	  else // Max friendship
 		message_choices[n_choices++] = EventScript_FollowerLovesYou;

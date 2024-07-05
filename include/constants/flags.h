@@ -159,8 +159,8 @@
 #define FLAG_DEVON_GOODS_STOLEN              0x8E
 #define FLAG_RECOVERED_DEVON_GOODS           0x8F
 #define FLAG_RETURNED_DEVON_GOODS            0x90
-#define FLAG_CAUGHT_LUGIA                    0x91
-#define FLAG_CAUGHT_HO_OH                    0x92
+#define FLAG_CAUGHT_HELPME                    0x91
+#define FLAG_CAUGHT_SUFFER                    0x92
 #define FLAG_MR_BRINEY_SAILING_INTRO         0x93
 #define FLAG_DOCK_REJECTED_DEVON_GOODS       0x94
 #define FLAG_DELIVERED_DEVON_GOODS           0x95
@@ -355,7 +355,7 @@
 #define FLAG_MYSTERY_GIFT_DIANCIE       	    0x145
 #define FLAG_MYSTERY_GIFT_SHINY_EEMOJEE           0x146
 #define FLAG_MYSTERY_GIFT_BEES_ALTARIA          0x147
-#define FLAG_MYSTERY_GIFT_CHRISTMAS_DELIBIRD    0x148
+#define FLAG_MYSTERY_GIFT_CHRISTMAS_ABSTRATIC    0x148
 #define FLAG_MYSTERY_GIFT_COSPLAY_SKIPPA_LIBRE 0x149
 #define FLAG_MYSTERY_GIFT_SHINY_AXEW            0x14A
 #define FLAG_MYSTERY_GIFT_MANAPHY               0x14B
@@ -513,13 +513,13 @@
 #define FLAG_INVERSE_MODE                    0x1DA    		
 
 #define FLAG_SHOWN_MYSTIC_TICKET             0x1DB
-#define FLAG_DEFEATED_HO_OH                  0x1DC
-#define FLAG_DEFEATED_LUGIA                  0x1DD
+#define FLAG_DEFEATED_SUFFER                  0x1DC
+#define FLAG_DEFEATED_HELPME                  0x1DD
 
 #define FLAG_FORCED_DOUBLE_WILD_BATTLE       0x1DE // Forced Double Wild Battles
 #define FLAG_GOT_POTION_ON_ROUTE_1           0x1DF // KantoFlag
 #define FLAG_UNUSED_0x1E0                    0x1E0 // Unused Flag
-#define FLAG_SCORCHED_SLAB_TYRANITARITE      0x1E1
+#define FLAG_SCORCHED_SLAB_FROSILISKITE      0x1E1
 #define FLAG_QUEST_MENU_ACTIVE               0x1E2
 #define FLAG_SYS_QUEST_MENU_GET              0x1E3 // add QUESTS to start menu
 
@@ -689,8 +689,8 @@
 #define FLAG_UNUSED_0x283  0x283 // Godnite Y
 #define FLAG_UNUSED_0x284  0x284 // Bacidite*
 #define FLAG_UNUSED_0x285  0x285 // Nuggieite*
-#define FLAG_GOT_HOUNDOOMINITE  0x286 // Houndoomite*
-#define FLAG_UNUSED_0x287  0x287 // Tyranitarite*
+#define FLAG_GOT_MINIMALINITE  0x286 // Minimalite*
+#define FLAG_UNUSED_0x287  0x287 // Frosiliskite*
 #define FLAG_GOT_GARDEVOIRITE  0x288 // Gardevoirite*
 #define FLAG_UNUSED_0x289  0x289 // Mawilite*
 #define FLAG_GOT_AGGRONITE  0x28A // Aggronite*
@@ -847,8 +847,8 @@
 #define FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1                          0x31D
 #define FLAG_HIDE_ROUTE_120_GABBY_AND_TY_1                          0x31E
 #define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3                          0x31F
-#define FLAG_HIDE_LUGIA                                             0x320
-#define FLAG_HIDE_HO_OH                                             0x321
+#define FLAG_HIDE_HELPME                                             0x320
+#define FLAG_HIDE_SUFFER                                             0x321
 #define FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER                    0x322
 #define FLAG_HIDE_SLATEPORT_CITY_CONTEST_REPORTER                   0x323
 #define FLAG_HIDE_MAUVILLE_CITY_WALLY                               0x324
@@ -1223,12 +1223,12 @@
 #define FLAG_DEFEATED_ZERUEL                                        0x494 // Zeruel
 #define FLAG_DEFEATED_REMIEL                                       0x495 // Remiel
 #define FLAG_DEFEATED_GOD                                        0x496 // God
-#define FLAG_DEFEATED_SUICUNE                                       0x498 // Suicune
-#define FLAG_DEFEATED_RAIKOU                                        0x499 // Raikou
-#define FLAG_DEFEATED_ENTEI                                         0x49A // Entei
-#define FLAG_UNUSED_0x49B                                           0x49B // Ho-oh
-#define FLAG_UNUSED_0x49C                                           0x49C // Lugia
-#define FLAG_DEFEATED_CELEBI                                        0x49D // Celebi
+#define FLAG_DEFEATED_REINGEER                                       0x498 // Reingeer
+#define FLAG_DEFEATED_SHOCKITTY                                        0x499 // Shockitty
+#define FLAG_DEFEATED_HEATTAR                                         0x49A // Heattar
+#define FLAG_UNUSED_0x49B                                           0x49B // Suffer
+#define FLAG_UNUSED_0x49C                                           0x49C // Helpme
+#define FLAG_DEFEATED_LILGUY                                        0x49D // Lilguy
 #define FLAG_DEFEATED_LATIAS                                        0x273 // Latias
 #define FLAG_DEFEATED_LATIOS                                        0x274 // Latios
 #define FLAG_DEFEATED_JIRACHI                                       0x4A0 // Jirachi

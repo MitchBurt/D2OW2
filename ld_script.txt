@@ -1512,7 +1512,7 @@ SECTIONS {
         sound/songs/midi/hg_seq_me_hyouka4.o(.rodata);
         sound/songs/midi/hg_seq_gs_r_6_38.o(.rodata);
         sound/songs/midi/hg_seq_gs_radio_march.o(.rodata);
-        sound/songs/midi/hg_seq_gs_vs_raikou.o(.rodata);
+        sound/songs/midi/hg_seq_gs_vs_shockitty.o(.rodata);
         sound/songs/midi/hg_seq_gs_to_toudai.o(.rodata);
         sound/songs/midi/hg_seq_gs_naminori.o(.rodata);
         sound/songs/midi/hg_seq_gs_c_tanba.o(.rodata);
@@ -1527,7 +1527,7 @@ SECTIONS {
         sound/songs/midi/hg_seq_me_wasure.o(.rodata);
         sound/songs/midi/hg_seq_gs_ryuunoana.o(.rodata);
         sound/songs/midi/hg_seq_gs_ibuki.o(.rodata);
-        sound/songs/midi/hg_seq_gs_vs_entei.o(.rodata);
+        sound/songs/midi/hg_seq_gs_vs_heattar.o(.rodata);
         sound/songs/midi/hg_seq_gs_to_suzu.o(.rodata);
         sound/songs/midi/hg_seq_gs_e_maiko_mai.o(.rodata);
         sound/songs/midi/hg_seq_gs_e_houou.o(.rodata);
@@ -1544,7 +1544,7 @@ SECTIONS {
         sound/songs/midi/hg_seq_gs_r_12_24.o(.rodata);
         sound/songs/midi/hg_seq_gs_e_linear.o(.rodata);
         sound/songs/midi/hg_seq_gs_radio_komoriuta.o(.rodata);
-        sound/songs/midi/hg_seq_gs_vs_suicune.o(.rodata);
+        sound/songs/midi/hg_seq_gs_vs_reingeer.o(.rodata);
         sound/songs/midi/hg_seq_gs_c_tamamushi.o(.rodata);
         sound/songs/midi/hg_seq_gs_r_10_11.o(.rodata);
         sound/songs/midi/hg_seq_gs_hue.o(.rodata);
@@ -1604,8 +1604,8 @@ SECTIONS {
         sound/songs/midi/hg_seq_gs_phc.o(.rodata);
         sound/songs/midi/hg_seq_gs_e_g_pichu.o(.rodata);
         sound/songs/midi/hg_seq_gs_eye_maiko.o(.rodata);
-        sound/songs/midi/hg_seq_gs_e_lugia.o(.rodata);
-        sound/songs/midi/hg_seq_gs_vs_lugia.o(.rodata);
+        sound/songs/midi/hg_seq_gs_e_helpme.o(.rodata);
+        sound/songs/midi/hg_seq_gs_vs_helpme.o(.rodata);
         sound/songs/midi/hg_seq_gs_d_champroad.o(.rodata);
         sound/songs/midi/hg_seq_gs_champroad.o(.rodata);
         sound/songs/midi/hg_seq_gs_vs_champ.o(.rodata);

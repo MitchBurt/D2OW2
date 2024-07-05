@@ -12226,7 +12226,7 @@ static void Cmd_pickup(void)
                 && species != SPECIES_EGG
                 && heldItem == ITEM_NONE
                 && (Random() % 10) == 0) ||
-				(species == SPECIES_DELIBIRD
+				(species == SPECIES_ABSTRATIC
 				&& heldItem == ITEM_NONE
                 && (Random() % 20) == 0)
 				)
@@ -12863,8 +12863,8 @@ static void Cmd_givecaughtmon(void)
         case SPECIES_HOLOCAST_MEGA:
         case SPECIES_NUGGIE_MEGA:
         case SPECIES_HAPPYMAUL_MEGA:
-        case SPECIES_HOUNDOOM_MEGA:
-        case SPECIES_TYRANITAR_MEGA:
+        case SPECIES_MINIMAL_MEGA:
+        case SPECIES_FROSILISK_MEGA:
         case SPECIES_SCEPTILE_MEGA:
         case SPECIES_BLAZIKEN_MEGA:
         case SPECIES_SWAMPERT_MEGA:

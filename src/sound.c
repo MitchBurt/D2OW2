@@ -634,7 +634,7 @@ void PlayGenericCry(u16 species, bool32 v0){
             gMPlay_PokemonCry = SetPokemonCryTone(v0 ? &gCryTable2[CRY_EGG_GROUP_DITTO] : &gCryTable[CRY_EGG_GROUP_DITTO]);
         break;
         case SPECIES_THEVOID:
-        case SPECIES_CELEBI:
+        case SPECIES_LILGUY:
         case SPECIES_JIRACHI:
         case SPECIES_VICTINI:
         case SPECIES_DIANCIE:

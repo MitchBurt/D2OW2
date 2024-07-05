@@ -780,7 +780,7 @@ const union AffineAnimCmd gObjectEventRotScalAnim_8509078[] =
     AFFINEANIMCMD_END,
 };
 
-const union AnimCmd gObjectEventImageAnim_HoOhFlapWings[] =
+const union AnimCmd gObjectEventImageAnim_SufferFlapWings[] =
 {
     ANIMCMD_FRAME(3, 8),
     ANIMCMD_FRAME(4, 8),
@@ -789,7 +789,7 @@ const union AnimCmd gObjectEventImageAnim_HoOhFlapWings[] =
     ANIMCMD_JUMP(0),
 };
 
-const union AnimCmd gObjectEventImageAnim_HoOhStayStill[] =
+const union AnimCmd gObjectEventImageAnim_SufferStayStill[] =
 {
     ANIMCMD_FRAME(3, 16),
     ANIMCMD_JUMP(0),
@@ -845,13 +845,13 @@ const union AnimCmd *const gObjectEventImageAnimTable_Standard[] = {
     gObjectEventImageAnim_GoFastestEast,
 };
 
-const union AnimCmd *const gObjectEventImageAnimTable_HoOh[] = {
+const union AnimCmd *const gObjectEventImageAnimTable_Suffer[] = {
     gObjectEventImageAnim_FaceSouth,
     gObjectEventImageAnim_FaceNorth,
     gObjectEventImageAnim_FaceWest,
     gObjectEventImageAnim_FaceEast,
-    gObjectEventImageAnim_HoOhFlapWings,
-    gObjectEventImageAnim_HoOhStayStill,
+    gObjectEventImageAnim_SufferFlapWings,
+    gObjectEventImageAnim_SufferStayStill,
     gObjectEventImageAnim_GoWest,
     gObjectEventImageAnim_GoEast,
     gObjectEventImageAnim_GoFastSouth,

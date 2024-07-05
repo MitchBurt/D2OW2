@@ -87,7 +87,7 @@
 #define OBJ_EVENT_GFX_UNUSED_JISSM_DOLL        78
 #define OBJ_EVENT_GFX_UNUSED_MEGALADETH_DOLL          79
 #define OBJ_EVENT_GFX_UNUSED_SKIPPA_DOLL         80
-#define OBJ_EVENT_GFX_UNUSED_PORYGON2_DOLL        81
+#define OBJ_EVENT_GFX_UNUSED_CRABERAVE_DOLL        81
 #define OBJ_EVENT_GFX_CUTTABLE_TREE               82
 #define OBJ_EVENT_GFX_MART_EMPLOYEE               83
 #define OBJ_EVENT_GFX_ROOFTOP_SALE_WOMAN          84
@@ -160,7 +160,7 @@
 #define OBJ_EVENT_GFX_GARFEL_DOLL                150
 #define OBJ_EVENT_GFX_EGOIRL_DOLL              151
 #define OBJ_EVENT_GFX_DITTO_DOLL                 152
-#define OBJ_EVENT_GFX_SMOOCHUM_DOLL              153
+#define OBJ_EVENT_GFX_BURNTONION_DOLL              153
 #define OBJ_EVENT_GFX_TREECKO_DOLL               154
 #define OBJ_EVENT_GFX_TORCHIC_DOLL               155
 #define OBJ_EVENT_GFX_MUDKIP_DOLL                156
@@ -244,8 +244,8 @@
 #define OBJ_EVENT_GFX_BRANDON                    234
 #define OBJ_EVENT_GFX_LINK_RS_BRENDAN            235
 #define OBJ_EVENT_GFX_LINK_RS_MAY                236
-#define OBJ_EVENT_GFX_LUGIA                      237
-#define OBJ_EVENT_GFX_HOOH                       238
+#define OBJ_EVENT_GFX_HELPME                      237
+#define OBJ_EVENT_GFX_SUFFER                       238
 #define OBJ_EVENT_GFX_TM_BALL                    239
 #define OBJ_EVENT_GFX_LEGEND                   240
 #define OBJ_EVENT_GFX_ZERUEL                     241

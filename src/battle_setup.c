@@ -934,8 +934,8 @@ void BattleSetup_StartScriptedWildBattle(void)
     case SPECIES_DEOXYS:
         CreateBattleStartTask(B_TRANSITION_BLUR, MUS_RG_VS_DEOXYS);
         break;
-    case SPECIES_LUGIA:
-    case SPECIES_HO_OH:
+    case SPECIES_HELPME:
+    case SPECIES_SUFFER:
         CreateBattleStartTask(B_TRANSITION_BLUR, MUS_RG_VS_LEGEND);
         break;
     case SPECIES_THEVOID:
@@ -945,7 +945,7 @@ void BattleSetup_StartScriptedWildBattle(void)
     case SPECIES_ZERUEL:
     case SPECIES_REMIEL:
     case SPECIES_GOD:
-    case SPECIES_ENTEI:
+    case SPECIES_HEATTAR:
     case SPECIES_JIRACHI:
     case SPECIES_AZELF:
     case SPECIES_HEATRAN:
@@ -1018,8 +1018,8 @@ void BattleSetup_StartLegendaryBattle(void)
     case SPECIES_DEOXYS:
         CreateBattleStartTask(B_TRANSITION_BLUR, MUS_RG_VS_DEOXYS);
         break;
-    case SPECIES_LUGIA:
-    case SPECIES_HO_OH:
+    case SPECIES_HELPME:
+    case SPECIES_SUFFER:
         CreateBattleStartTask(B_TRANSITION_BLUR, MUS_RG_VS_LEGEND);
         break;
     case SPECIES_THEVOID:

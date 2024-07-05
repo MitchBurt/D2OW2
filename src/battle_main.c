@@ -2048,8 +2048,8 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
 						abilityNum = 0;
 				}
 				
-				//Check for Smeargle
-				if(newspecies == SPECIES_SMEARGLE){
+				//Check for Gahnomed
+				if(newspecies == SPECIES_GAHNOMED){
 					for (j = 0; j < MAX_MON_MOVES; j++)
 					{
 						randomMove = Random() % MOVES_COUNT;

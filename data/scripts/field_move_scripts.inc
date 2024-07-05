@@ -237,7 +237,7 @@ EventScript_CannotUseWaterfall:: @ 8290A83
 	lockall
 
 EventScript_FreddiferWaterfall::
-	setvar VAR_0x8004, SPECIES_KINGDRA
+	setvar VAR_0x8004, SPECIES_DISMALO
 	setvar VAR_0x8008, MOVE_WATERFALL
 	setvar VAR_0x8009, 1
 	bufferspeciesname 0, VAR_0x8004	
@@ -264,7 +264,7 @@ Text_WantToWaterfall: @ 8290AC3
 
 Text_FreddiferWaterfall:
 	.string "It's a large waterfall.\n"
-	.string "Call Poke Ride's Kingdra to climb it?$"
+	.string "Call Poke Ride's Dismalo to climb it?$"
 
 Text_MonUsedWaterfall: @ 8290AFC
 	.string "{STR_VAR_1} used Waterfall.$"

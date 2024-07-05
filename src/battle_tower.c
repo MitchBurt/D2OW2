@@ -176,7 +176,7 @@ const u16 gBattleFrontierHeldItems[] =
 	ITEM_IRON_BALL,
 	ITEM_WISE_GLASSES,
 	ITEM_WIDE_LENS,
-	ITEM_TYRANITARITE,
+	ITEM_FROSILISKITE,
 	ITEM_AGGRONITE,
 	ITEM_SHEMUENITE,
 	ITEM_SKORPYROSITE_Y,
@@ -826,7 +826,7 @@ struct
         .moves = {MOVE_LIGHT_SCREEN, MOVE_PSYCHIC, MOVE_REFLECT, MOVE_METAL_CLAW}
     },
     {
-        .species = SPECIES_SKARMORY,
+        .species = SPECIES_LEGEARTH,
         .fixedIV = 31,
         .level = 43,
         .nature = NATURE_IMPISH,

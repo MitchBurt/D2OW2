@@ -1987,8 +1987,8 @@ DirectSoundWaveData_hg_jinglebell::
 	.incbin "sound/direct_sound_samples/hg_jinglebell.bin"
 
 	.align 2
-DirectSoundWaveData_hg_hoohclap::
-	.incbin "sound/direct_sound_samples/hg_hoohclap.bin"
+DirectSoundWaveData_hg_sufferclap::
+	.incbin "sound/direct_sound_samples/hg_sufferclap.bin"
 
 	.align 2
 DirectSoundWaveData_hg_choirc5::

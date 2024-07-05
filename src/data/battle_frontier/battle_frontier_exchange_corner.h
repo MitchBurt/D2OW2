@@ -2,7 +2,7 @@ static const u16 sFrontierExchangeCorner_Decor1[] =
 { 
     DECOR_KISS_POSTER, 
     DECOR_KISS_CUSHION, 
-    DECOR_SMOOCHUM_DOLL, 
+    DECOR_BURNTONION_DOLL, 
     DECOR_VIPII_DOLL, 
     DECOR_GARFEL_DOLL, 
     DECOR_EGOIRL_DOLL, 
@@ -52,7 +52,7 @@ static const u8 *const sFrontierExchangeCorner_Decor1Descriptions[] =
 {
     BattleFrontier_ExchangeServiceCorner_Text_KissPosterDesc,
     BattleFrontier_ExchangeServiceCorner_Text_KissCushionDesc,
-    BattleFrontier_ExchangeServiceCorner_Text_SmoochumDollDesc,
+    BattleFrontier_ExchangeServiceCorner_Text_BurntonionDollDesc,
     BattleFrontier_ExchangeServiceCorner_Text_VipiiDollDesc,
     BattleFrontier_ExchangeServiceCorner_Text_GarfelDollDesc,
     BattleFrontier_ExchangeServiceCorner_Text_EgoirlDollDesc,

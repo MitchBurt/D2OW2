@@ -791,7 +791,7 @@ extern const u8 gText_QuestionMark[];
 
 extern const u8 gText_KissPoster16BP[];
 extern const u8 gText_KissCushion32BP[];
-extern const u8 gText_SmoochumDoll32BP[];
+extern const u8 gText_BurntonionDoll32BP[];
 extern const u8 gText_VipiiDoll48BP[];
 extern const u8 gText_GarfelDoll48BP[];
 extern const u8 gText_EgoirlDoll48BP[];
@@ -964,7 +964,7 @@ extern const u8 gText_BP[];
 // Battle Frontier Exchange Corner
 extern const u8 BattleFrontier_ExchangeServiceCorner_Text_KissPosterDesc[];
 extern const u8 BattleFrontier_ExchangeServiceCorner_Text_KissCushionDesc[];
-extern const u8 BattleFrontier_ExchangeServiceCorner_Text_SmoochumDollDesc[];
+extern const u8 BattleFrontier_ExchangeServiceCorner_Text_BurntonionDollDesc[];
 extern const u8 BattleFrontier_ExchangeServiceCorner_Text_VipiiDollDesc[];
 extern const u8 BattleFrontier_ExchangeServiceCorner_Text_GarfelDollDesc[];
 extern const u8 BattleFrontier_ExchangeServiceCorner_Text_EgoirlDollDesc[];

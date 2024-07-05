@@ -9632,17 +9632,17 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_HOUNDOOMINITE] =
+    [ITEM_MINIMALINITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Houndoomita"),
+        .name = _("Minimalita"),
 #else
-        .name = _("Houndoominite"),
+        .name = _("Minimalinite"),
 #endif
-        .itemId = ITEM_HOUNDOOMINITE,
+        .itemId = ITEM_MINIMALINITE,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sHoundoominiteDesc,
+        .description = sMinimaliniteDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -9683,17 +9683,17 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_TYRANITARITE] =
+    [ITEM_FROSILISKITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Tyranitarita"),
+        .name = _("Frosiliskita"),
 #else
-        .name = _("Tyranitarite"),
+        .name = _("Frosiliskite"),
 #endif
-        .itemId = ITEM_TYRANITARITE,
+        .itemId = ITEM_FROSILISKITE,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sTyranitariteDesc,
+        .description = sFrosiliskiteDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,

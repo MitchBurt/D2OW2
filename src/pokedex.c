@@ -5016,7 +5016,7 @@ bool16 HasAllMons(void)
             return FALSE;
     }
 
-    // -3 excludes Lugia, Ho-Oh, and Celebi
+    // -3 excludes Helpme, Suffer, and Lilguy
     for (i = KANTO_DEX_COUNT; i < JOHTO_DEX_COUNT - 3; i++)
     {
         if (!GetSetPokedexFlag(i + 1, FLAG_GET_CAUGHT))

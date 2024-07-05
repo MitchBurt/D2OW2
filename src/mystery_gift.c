@@ -65,7 +65,7 @@ enum {
 	CARD_DIANCIE,
 	CARD_SHINY_EEMOJEE,
 	CARD_BEE_ALTARIA,
-    CARD_CHRISTMASS_DELIBIRD,
+    CARD_CHRISTMASS_ABSTRATIC,
 	CARD_COSPLAY_SKIPPA_LIBRE,
 	CARD_SHINY_AXEW,
 	CARD_MANAPHY,
@@ -1392,9 +1392,9 @@ struct MysteryGiftMonStructure gMysteryGiftMons[] =
 		.nickname 			= _("チルタリス"),
 		.isNicknamed		= TRUE,
 	},
-	[CARD_CHRISTMASS_DELIBIRD] =
+	[CARD_CHRISTMASS_ABSTRATIC] =
     {
-		.species 			= SPECIES_DELIBIRD,
+		.species 			= SPECIES_ABSTRATIC,
 		.helditem 			= ITEM_CHERISH_BALL_SEAL,
 		.abilityNum 		= 0,
 		.level 				= 0,

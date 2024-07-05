@@ -658,8 +658,8 @@ MagmaHideout_3F_3R_EventScript_ItemEscapeRope:: @ 829152C
 	addscaleditem ITEM_ESCAPE_ROPE
 	end
 
-ScorchedSlab_EventScript_ItemTyranitarite::
-	addscaleditem ITEM_TYRANITARITE
+ScorchedSlab_EventScript_ItemFrosiliskite::
+	addscaleditem ITEM_FROSILISKITE
 	end
 	
 MegaStone_EventScript_ItemBerrordite::

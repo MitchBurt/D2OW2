@@ -792,7 +792,7 @@ gSongTable::
 	song hg_seq_me_hyouka4, 2, 2
 	song hg_seq_gs_r_6_38, 0, 0
 	song hg_seq_gs_radio_march, 0, 0
-	song hg_seq_gs_vs_raikou, 0, 0
+	song hg_seq_gs_vs_shockitty, 0, 0
 	song hg_seq_gs_to_toudai, 0, 0
 	song hg_seq_gs_naminori, 0, 0
 	song hg_seq_gs_c_tanba, 0, 0
@@ -807,7 +807,7 @@ gSongTable::
 	song hg_seq_me_wasure, 2, 2
 	song hg_seq_gs_ryuunoana, 0, 0
 	song hg_seq_gs_ibuki, 0, 0
-	song hg_seq_gs_vs_entei, 0, 0
+	song hg_seq_gs_vs_heattar, 0, 0
 	song hg_seq_gs_to_suzu, 0, 0
 	song hg_seq_gs_e_maiko_mai, 0, 0
 	song hg_seq_gs_e_houou, 0, 0
@@ -824,7 +824,7 @@ gSongTable::
 	song hg_seq_gs_r_12_24, 0, 0
 	song hg_seq_gs_e_linear, 0, 0
 	song hg_seq_gs_radio_komoriuta, 0, 0
-	song hg_seq_gs_vs_suicune, 0, 0
+	song hg_seq_gs_vs_reingeer, 0, 0
 	song hg_seq_gs_c_tamamushi, 0, 0
 	song hg_seq_gs_r_10_11, 0, 0
 	song hg_seq_gs_hue, 0, 0
@@ -884,8 +884,8 @@ gSongTable::
 	song hg_seq_gs_phc, 0, 0
 	song hg_seq_gs_e_g_pichu, 0, 0
 	song hg_seq_gs_eye_maiko, 0, 0
-	song hg_seq_gs_e_lugia, 0, 0
-	song hg_seq_gs_vs_lugia, 0, 0
+	song hg_seq_gs_e_helpme, 0, 0
+	song hg_seq_gs_vs_helpme, 0, 0
 	song hg_seq_gs_d_champroad, 0, 0
 	song hg_seq_gs_champroad, 0, 0
 	song hg_seq_gs_vs_champ, 0, 0

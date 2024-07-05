@@ -1677,8 +1677,8 @@ const struct SpriteFrameImage gObjectEventPicTable_UnusedSkippaDoll[] = {
     obj_frame_tiles(gObjectEventPic_UnusedSkippaDoll),
 };
 
-const struct SpriteFrameImage gObjectEventPicTable_UnusedPorygon2Doll[] = {
-    obj_frame_tiles(gObjectEventPic_UnusedPorygon2Doll),
+const struct SpriteFrameImage gObjectEventPicTable_UnusedCraberaveDoll[] = {
+    obj_frame_tiles(gObjectEventPic_UnusedCraberaveDoll),
 };
 
 const struct SpriteFrameImage gObjectEventPicTable_CuttableTree[] = {
@@ -2179,8 +2179,8 @@ const struct SpriteFrameImage gObjectEventPicTable_DittoDoll[] = {
     obj_frame_tiles(gObjectEventPic_DittoDoll),
 };
 
-const struct SpriteFrameImage gObjectEventPicTable_SmoochumDoll[] = {
-    obj_frame_tiles(gObjectEventPic_SmoochumDoll),
+const struct SpriteFrameImage gObjectEventPicTable_BurntonionDoll[] = {
+    obj_frame_tiles(gObjectEventPic_BurntonionDoll),
 };
 
 const struct SpriteFrameImage gObjectEventPicTable_TreeckoDoll[] = {
@@ -2714,7 +2714,7 @@ const struct SpriteFrameImage gObjectEventPicTable_Brandon[] = {
     overworld_frame(gObjectEventPic_Brandon, 2, 4, 8),
 };
 
-const struct SpriteFrameImage gObjectEventPicTable_Lugia[] = {
+const struct SpriteFrameImage gObjectEventPicTable_Helpme[] = {
     overworld_frame(gObjectEventPic_Pokemon_Species_249, 4, 4, 0),
     overworld_frame(gObjectEventPic_Pokemon_Species_249, 4, 4, 0),
     overworld_frame(gObjectEventPic_Pokemon_Species_249, 4, 4, 0),
@@ -2726,7 +2726,7 @@ const struct SpriteFrameImage gObjectEventPicTable_Lugia[] = {
     overworld_frame(gObjectEventPic_Pokemon_Species_249, 4, 4, 1),
 };
 
-const struct SpriteFrameImage gObjectEventPicTable_HoOh[] = {
+const struct SpriteFrameImage gObjectEventPicTable_Suffer[] = {
     overworld_frame(gObjectEventPic_Pokemon_Species_250, 4, 4, 0),
     overworld_frame(gObjectEventPic_Pokemon_Species_250, 4, 4, 0),
     overworld_frame(gObjectEventPic_Pokemon_Species_250, 4, 4, 0),

@@ -11,7 +11,7 @@ voicegroup230:: @
 	voice_directsound 60, 0, DirectSoundWaveData_hg_ecruteaklow, 255, 0, 255, 171
 	voice_directsound 60, 0, DirectSoundWaveData_hg_tsuzumi, 255, 0, 255, 171
 	voice_directsound 60, 0, DirectSoundWaveData_hg_jinglebell, 255, 0, 255, 171
-	voice_directsound 60, 0, DirectSoundWaveData_hg_hoohclap, 255, 0, 255, 0
+	voice_directsound 60, 0, DirectSoundWaveData_hg_sufferclap, 255, 0, 255, 0
 	voice_directsound 60, 0, DirectSoundWaveData_dp_tenorchoir48, 255, 197, 255, 171
 	voice_directsound 60, 0, DirectSoundWaveData_dp_sopranochoir60, 255, 197, 255, 171
 	voice_directsound 60, 0, DirectSoundWaveData_hg_choirc5, 255, 197, 255, 171 @ 1 octave too low

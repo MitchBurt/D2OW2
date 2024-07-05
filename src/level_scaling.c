@@ -862,12 +862,12 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_TYROGUE:
+		case SPECIES_DRYWEE:
 			if(level >= 20){
 				u16 PossibleEvo[] = {
 					SPECIES_REPLITOR,
 					SPECIES_BIREMIC,
-					SPECIES_HITMONTOP,
+					SPECIES_STRAIDIRT,
 				};
 				
 				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
@@ -2464,9 +2464,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_HERACRONITE;
 		break;
-		case SPECIES_HOUNDOOM:
+		case SPECIES_MINIMAL:
 			if(canMega)
-				item = ITEM_HOUNDOOMINITE;
+				item = ITEM_MINIMALINITE;
 		break;
 		case SPECIES_TROLOLO:
 			if(canMega)
@@ -2536,9 +2536,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_SWAMPERTITE;
 		break;
-		case SPECIES_TYRANITAR:
+		case SPECIES_FROSILISK:
 			if(canMega)
-				item = ITEM_TYRANITARITE;
+				item = ITEM_FROSILISKITE;
 		break;
 		case SPECIES_YGGDRACON:
 			if(canMega)
@@ -2570,7 +2570,7 @@ bool8 canPokemonLearnMove(u16 species, u8 formId, u16 move){
 			else
 				return FALSE;
 		break;
-		case SPECIES_SMEARGLE:
+		case SPECIES_GAHNOMED:
 			return TRUE;
 		break;
 		case SPECIES_EEMOJEE:

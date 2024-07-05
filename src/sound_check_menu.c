@@ -1490,7 +1490,7 @@ static void DestroyWindow(u8 windowId) // sub_080E9750
     X(HG_SEQ_ME_HYOUKA4            , "HG-SEQ-ME-HYOUKA4") \
     X(HG_SEQ_GS_R_6_38             , "HG-SEQ-GS-R-6-38") \
     X(HG_SEQ_GS_RADIO_MARCH        , "HG-SEQ-GS-RADIO-MARCH") \
-    X(HG_SEQ_GS_VS_RAIKOU          , "HG-SEQ-GS-VS-RAIKOU") \
+    X(HG_SEQ_GS_VS_SHOCKITTY          , "HG-SEQ-GS-VS-SHOCKITTY") \
     X(HG_SEQ_GS_TO_TOUDAI          , "HG-SEQ-GS-TO-TOUDAI") \
     X(HG_SEQ_GS_NAMINORI           , "HG-SEQ-GS-NAMINORI") \
     X(HG_SEQ_GS_C_TANBA            , "HG-SEQ-GS-C-TANBA") \
@@ -1505,7 +1505,7 @@ static void DestroyWindow(u8 windowId) // sub_080E9750
     X(HG_SEQ_ME_WASURE             , "HG-SEQ-ME-WASURE") \
     X(HG_SEQ_GS_RYUUNOANA          , "HG-SEQ-GS-RYUUNOANA") \
     X(HG_SEQ_GS_IBUKI              , "HG-SEQ-GS-IBUKI") \
-    X(HG_SEQ_GS_VS_ENTEI           , "HG-SEQ-GS-VS-ENTEI") \
+    X(HG_SEQ_GS_VS_HEATTAR           , "HG-SEQ-GS-VS-HEATTAR") \
     X(HG_SEQ_GS_TO_SUZU            , "HG-SEQ-GS-TO-SUZU") \
     X(HG_SEQ_GS_E_MAIKO_MAI        , "HG-SEQ-GS-E-MAIKO-MAI") \
     X(HG_SEQ_GS_E_HOUOU            , "HG-SEQ-GS-E-HOUOU") \
@@ -1522,7 +1522,7 @@ static void DestroyWindow(u8 windowId) // sub_080E9750
     X(HG_SEQ_GS_R_12_24            , "HG-SEQ-GS-R-12-24") \
     X(HG_SEQ_GS_E_LINEAR           , "HG-SEQ-GS-E-LINEAR") \
     X(HG_SEQ_GS_RADIO_KOMORIUTA    , "HG-SEQ-GS-RADIO-KOMORIUTA") \
-    X(HG_SEQ_GS_VS_SUICUNE         , "HG-SEQ-GS-VS-SUICUNE") \
+    X(HG_SEQ_GS_VS_REINGEER         , "HG-SEQ-GS-VS-REINGEER") \
     X(HG_SEQ_GS_C_TAMAMUSHI        , "HG-SEQ-GS-C-TAMAMUSHI") \
     X(HG_SEQ_GS_R_10_11            , "HG-SEQ-GS-R-10-11") \
     X(HG_SEQ_GS_HUE                , "HG-SEQ-GS-HUE") \
@@ -1582,8 +1582,8 @@ static void DestroyWindow(u8 windowId) // sub_080E9750
     X(HG_SEQ_GS_PHC                , "HG-SEQ-GS-PHC") \
     X(HG_SEQ_GS_E_G_PICHU          , "HG-SEQ-GS-E-G-PICHU") \
     X(HG_SEQ_GS_EYE_MAIKO          , "HG-SEQ-GS-EYE-MAIKO") \
-    X(HG_SEQ_GS_E_LUGIA            , "HG-SEQ-GS-E-LUGIA") \
-    X(HG_SEQ_GS_VS_LUGIA           , "HG-SEQ-GS-VS-LUGIA") \
+    X(HG_SEQ_GS_E_HELPME            , "HG-SEQ-GS-E-HELPME") \
+    X(HG_SEQ_GS_VS_HELPME           , "HG-SEQ-GS-VS-HELPME") \
     X(HG_SEQ_GS_D_CHAMPROAD        , "HG-SEQ-GS-D-CHAMPROAD") \
     X(HG_SEQ_GS_CHAMPROAD          , "HG-SEQ-GS-CHAMPROAD") \
     X(HG_SEQ_GS_VS_CHAMP           , "HG-SEQ-GS-VS-CHAMP") \

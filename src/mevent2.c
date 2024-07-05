@@ -35,7 +35,7 @@ enum {
 	CARD_DIANCIE,
 	CARD_SHINY_EEMOJEE,
 	CARD_BEE_ALTARIA,
-	CARD_CHRISTMASS_DELIBIRD,
+	CARD_CHRISTMASS_ABSTRATIC,
 	CARD_COSPLAY_SKIPPA_LIBRE,
 	CARD_SHINY_AXEW,
     CARD_MANAPHY,
@@ -262,18 +262,18 @@ struct WonderCard gSavedWonderCard[] =
 		.footerLine1Text 		= _("To give our most sincere"),
 		.footerLine2Text 		= _("thanks to Bee as our Admin!"),
 	},
-	[CARD_CHRISTMASS_DELIBIRD] =
+	[CARD_CHRISTMASS_ABSTRATIC] =
     {
-		.flagId 				= FLAG_MYSTERY_GIFT_CHRISTMAS_DELIBIRD,
-		.iconSpecies 			= SPECIES_DELIBIRD,
-		.idNumber 				= CARD_CHRISTMASS_DELIBIRD,
+		.flagId 				= FLAG_MYSTERY_GIFT_CHRISTMAS_ABSTRATIC,
+		.iconSpecies 			= SPECIES_ABSTRATIC,
+		.idNumber 				= CARD_CHRISTMASS_ABSTRATIC,
 		.type 					= 0,
 		.bgType 				= CARD_BG_RED,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
 		.titleText 				= _("Merry Christmas!"),
-		.subtitleText 			= _("It's Shiny Delibird!"),
-		.bodyText 				= _("This Delibird is not only Shiny, it's   "
+		.subtitleText 			= _("It's Shiny Abstratic!"),
+		.bodyText 				= _("This Abstratic is not only Shiny, it's   "
 									"also holding an special item, that will "
 									"help you in your adventure!"),
 		.footerLine1Text 		= _("Please continue playing"),
@@ -575,7 +575,7 @@ static const u16 sMysteryGiftFlags[] =
     FLAG_MYSTERY_GIFT_DIANCIE,
     FLAG_MYSTERY_GIFT_SHINY_EEMOJEE,
     FLAG_MYSTERY_GIFT_BEES_ALTARIA,
-    FLAG_MYSTERY_GIFT_CHRISTMAS_DELIBIRD,
+    FLAG_MYSTERY_GIFT_CHRISTMAS_ABSTRATIC,
     FLAG_MYSTERY_GIFT_COSPLAY_SKIPPA_LIBRE,
     FLAG_MYSTERY_GIFT_SHINY_AXEW,
     FLAG_MYSTERY_GIFT_MANAPHY,

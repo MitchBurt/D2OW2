@@ -811,7 +811,7 @@
 #define HG_SEQ_ME_HYOUKA4             788 // Pokédex Evaluation... Not Bad!
 #define HG_SEQ_GS_R_6_38              789 // Route 38
 #define HG_SEQ_GS_RADIO_MARCH         790 // Pokégear Radio: Pokémon March
-#define HG_SEQ_GS_VS_RAIKOU           791 // Battle! (Raikou)
+#define HG_SEQ_GS_VS_SHOCKITTY           791 // Battle! (Shockitty)
 #define HG_SEQ_GS_TO_TOUDAI           792 // Olivine Lighthouse
 #define HG_SEQ_GS_NAMINORI            793 // Surf
 #define HG_SEQ_GS_C_TANBA             794 // Cianwood City
@@ -826,11 +826,11 @@
 #define HG_SEQ_ME_WASURE              803 // Move Deleted
 #define HG_SEQ_GS_RYUUNOANA           804 // Dragon's Den
 #define HG_SEQ_GS_IBUKI               805 // Clair
-#define HG_SEQ_GS_VS_ENTEI            806 // Battle! (Entei)
+#define HG_SEQ_GS_VS_HEATTAR            806 // Battle! (Heattar)
 #define HG_SEQ_GS_TO_SUZU             807 // Bell Tower
 #define HG_SEQ_GS_E_MAIKO_MAI         808 // The Dance of Ecruteak
-#define HG_SEQ_GS_E_HOUOU             809 // Ho-Oh Appears!
-#define HG_SEQ_GS_VS_HOUOU            810 // Battle! (Ho-Oh)
+#define HG_SEQ_GS_E_HOUOU             809 // Suffer Appears!
+#define HG_SEQ_GS_VS_HOUOU            810 // Battle! (Suffer)
 #define HG_SEQ_GS_R_1_26              811 // Route 26
 #define HG_SEQ_GS_KOUSOKUSEN          812 // S.S. Aqua
 #define HG_SEQ_GS_C_KUCHIBA           813 // Vermilion City
@@ -843,7 +843,7 @@
 #define HG_SEQ_GS_R_12_24             820 // Route 24
 #define HG_SEQ_GS_E_LINEAR            821 // Magnet Train
 #define HG_SEQ_GS_RADIO_KOMORIUTA     822 // Pokégear Radio: Pokémon Lullaby
-#define HG_SEQ_GS_VS_SUICUNE          823 // Battle! (Suicune)
+#define HG_SEQ_GS_VS_REINGEER          823 // Battle! (Reingeer)
 #define HG_SEQ_GS_C_TAMAMUSHI         824 // Celadon City
 #define HG_SEQ_GS_R_10_11             825 // Route 11
 #define HG_SEQ_GS_HUE                 826 // Pokégear Radio: Poké Flute
@@ -903,8 +903,8 @@
 #define HG_SEQ_GS_PHC                 880 // Pokéwalker
 #define HG_SEQ_GS_E_G_PICHU           881 // Spiky-Eared Pichu Appears!
 #define HG_SEQ_GS_EYE_MAIKO           882 // Trainers' Eyes Meet (Kimono Girl)
-#define HG_SEQ_GS_E_LUGIA             883 // Lugia Appears!
-#define HG_SEQ_GS_VS_LUGIA            884 // Battle! (Lugia)
+#define HG_SEQ_GS_E_HELPME             883 // Helpme Appears!
+#define HG_SEQ_GS_VS_HELPME            884 // Battle! (Helpme)
 #define HG_SEQ_GS_D_CHAMPROAD         885 // Victory Road
 #define HG_SEQ_GS_CHAMPROAD           886 // The Pokémon League
 #define HG_SEQ_GS_VS_CHAMP            887 // Battle! (Champion)

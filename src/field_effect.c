@@ -2648,7 +2648,7 @@ bool8 FldEff_FieldMoveShowMonInit(void)
             gFieldEffectArguments[0] = SPECIES_WAILMER;
             break;
         case MOVE_WATERFALL:
-            gFieldEffectArguments[0] = SPECIES_KINGDRA;
+            gFieldEffectArguments[0] = SPECIES_DISMALO;
             break;                   
         default:
             break;

@@ -268,15 +268,15 @@ static const u16 sHappymaulFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sHoundoomFormSpeciesIdTable[] = {
-    SPECIES_HOUNDOOM,
-    SPECIES_HOUNDOOM_MEGA,
+static const u16 sMinimalFormSpeciesIdTable[] = {
+    SPECIES_MINIMAL,
+    SPECIES_MINIMAL_MEGA,
     0xFFFF,
 };
 
-static const u16 sTyranitarFormSpeciesIdTable[] = {
-    SPECIES_TYRANITAR,
-    SPECIES_TYRANITAR_MEGA,
+static const u16 sFrosiliskFormSpeciesIdTable[] = {
+    SPECIES_FROSILISK,
+    SPECIES_FROSILISK_MEGA,
     0xFFFF,
 };
 
@@ -891,9 +891,9 @@ static const u16 sGooblanFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sCorsolaFormSpeciesIdTable[] = {
-    SPECIES_CORSOLA,
-    SPECIES_CORSOLA_GALARIAN,
+static const u16 sSetronicFormSpeciesIdTable[] = {
+    SPECIES_SETRONIC,
+    SPECIES_SETRONIC_GALARIAN,
     0xFFFF,
 };
 

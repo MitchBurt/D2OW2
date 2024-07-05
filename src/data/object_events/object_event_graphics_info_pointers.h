@@ -80,7 +80,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedDesquaredDol
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedJissmDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMegaladethDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedSkippaDoll;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedPorygon2Doll;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedCraberaveDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CuttableTree;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MartEmployee;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RooftopSaleWoman;
@@ -152,7 +152,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SnedditDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GarfelDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_EgoirlDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DittoDoll;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SmoochumDoll;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BurntonionDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TreeckoDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TorchicDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MudkipDoll;
@@ -225,8 +225,8 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BirthIslandStone;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Brandon;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RubySapphireBrendan;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RubySapphireMay;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lugia;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_HoOh;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Helpme;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Suffer;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Bard;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Hipster;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Trader;
@@ -1179,7 +1179,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_UNUSED_JISSM_DOLL] =     &gObjectEventGraphicsInfo_UnusedJissmDoll,
     [OBJ_EVENT_GFX_UNUSED_MEGALADETH_DOLL] =       &gObjectEventGraphicsInfo_UnusedMegaladethDoll,
     [OBJ_EVENT_GFX_UNUSED_SKIPPA_DOLL] =      &gObjectEventGraphicsInfo_UnusedSkippaDoll,
-    [OBJ_EVENT_GFX_UNUSED_PORYGON2_DOLL] =     &gObjectEventGraphicsInfo_UnusedPorygon2Doll,
+    [OBJ_EVENT_GFX_UNUSED_CRABERAVE_DOLL] =     &gObjectEventGraphicsInfo_UnusedCraberaveDoll,
     [OBJ_EVENT_GFX_CUTTABLE_TREE] =            &gObjectEventGraphicsInfo_CuttableTree,
     [OBJ_EVENT_GFX_MART_EMPLOYEE] =            &gObjectEventGraphicsInfo_MartEmployee,
     [OBJ_EVENT_GFX_ROOFTOP_SALE_WOMAN] =       &gObjectEventGraphicsInfo_RooftopSaleWoman,
@@ -1248,7 +1248,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_GARFEL_DOLL] =              &gObjectEventGraphicsInfo_GarfelDoll,
     [OBJ_EVENT_GFX_EGOIRL_DOLL] =            &gObjectEventGraphicsInfo_EgoirlDoll,
     [OBJ_EVENT_GFX_DITTO_DOLL] =               &gObjectEventGraphicsInfo_DittoDoll,
-    [OBJ_EVENT_GFX_SMOOCHUM_DOLL] =            &gObjectEventGraphicsInfo_SmoochumDoll,
+    [OBJ_EVENT_GFX_BURNTONION_DOLL] =            &gObjectEventGraphicsInfo_BurntonionDoll,
     [OBJ_EVENT_GFX_TREECKO_DOLL] =             &gObjectEventGraphicsInfo_TreeckoDoll,
     [OBJ_EVENT_GFX_TORCHIC_DOLL] =             &gObjectEventGraphicsInfo_TorchicDoll,
     [OBJ_EVENT_GFX_MUDKIP_DOLL] =              &gObjectEventGraphicsInfo_MudkipDoll,
@@ -1394,8 +1394,8 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_WINGULL] =                  &gObjectEventGraphicsInfo_Pokemon_Species_279,
     [OBJ_EVENT_GFX_KECLEON_2] =                &gObjectEventGraphicsInfo_Pokemon_Species_352,
 	[OBJ_EVENT_GFX_AZURILL] =                  &gObjectEventGraphicsInfo_Pokemon_Species_184,
-	[OBJ_EVENT_GFX_LUGIA] =                    &gObjectEventGraphicsInfo_Lugia,
-    [OBJ_EVENT_GFX_HOOH] =                     &gObjectEventGraphicsInfo_HoOh,
+	[OBJ_EVENT_GFX_HELPME] =                    &gObjectEventGraphicsInfo_Helpme,
+    [OBJ_EVENT_GFX_SUFFER] =                     &gObjectEventGraphicsInfo_Suffer,
 	[OBJ_EVENT_GFX_LEGEND] =             	   &gObjectEventGraphicsInfo_Pokemon_Species_144,
 	[OBJ_EVENT_GFX_ZERUEL] =                   &gObjectEventGraphicsInfo_Pokemon_Species_145,
 	[OBJ_EVENT_GFX_REMIEL] =                  &gObjectEventGraphicsInfo_Pokemon_Species_146,

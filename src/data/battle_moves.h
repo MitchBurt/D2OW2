@@ -11741,7 +11741,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_HITMONTOP] =
+    [SPECIES_STRAIDIRT] =
     {
         .move = MOVE_TRIPLE_KICK,
         .modification = SIGNATURE_MOD_POWER,
@@ -11995,7 +11995,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_OCTILLERY] =
+    [SPECIES_SYSTANIC] =
     {
         .move = MOVE_OCTAZOOKA,
         .modification = SIGNATURE_MOD_POWER,
@@ -12014,7 +12014,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_DELIBIRD] =
+    [SPECIES_ABSTRATIC] =
     {
         .move = MOVE_PRESENT,
         .modification = SIGNATURE_MOD_TYPE,

@@ -2542,10 +2542,10 @@ static const u8 sMedichamiteDesc[] = _(
     "megaevolucionar a\n"
     "Medicham.");
 
-static const u8 sHoundoominiteDesc[] = _(
+static const u8 sMinimaliniteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Houndoom.");
+    "Minimal.");
 
 static const u8 sAggroniteDesc[] = _(
     "Piedra que permite\n"
@@ -2557,10 +2557,10 @@ static const u8 sBanettiteDesc[] = _(
     "megaevolucionar a\n"
     "Banette.");
 
-static const u8 sTyranitariteDesc[] = _(
+static const u8 sFrosiliskiteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Tyranitar.");
+    "Frosilisk.");
 
 static const u8 sNuggieiteDesc[] = _(
     "Piedra que permite\n"
@@ -5775,9 +5775,9 @@ static const u8 sMedichamiteDesc[] = _(
     "Medicham to Mega\n"
     "Evolve in battle.");
 
-static const u8 sHoundoominiteDesc[] = _(
+static const u8 sMinimaliniteDesc[] = _(
     "This stone enables\n"
-    "Houndoom to Mega\n"
+    "Minimal to Mega\n"
     "Evolve in battle.");
 
 static const u8 sAggroniteDesc[] = _(
@@ -5790,9 +5790,9 @@ static const u8 sBanettiteDesc[] = _(
     "Banette to Mega\n"
     "Evolve in battle.");
 
-static const u8 sTyranitariteDesc[] = _(
+static const u8 sFrosiliskiteDesc[] = _(
     "This stone enables\n"
-    "Tyranitar to Mega\n"
+    "Frosilisk to Mega\n"
     "Evolve in battle.");
 
 static const u8 sNuggieiteDesc[] = _(

@@ -836,7 +836,7 @@ static void AlterEggSpeciesWithIncenseItem(u16 *species, struct DayCare *daycare
     #endif
     #ifdef SPECIES_MANTYKE
         else if (*species == SPECIES_MANTYKE && motherItem != ITEM_WAVE_INCENSE && fatherItem != ITEM_WAVE_INCENSE)
-            *species = SPECIES_MANTINE;
+            *species = SPECIES_FLOOTICORN;
     #endif
 }
 
@@ -876,10 +876,10 @@ static u8 GetMonFormId(u16 *species, struct DayCare *daycare){
 			if(motherSpecies == SPECIES_SIRFETCHD || (fatherSpecies == SPECIES_SIRFETCHD && motherSpecies == SPECIES_DITTO))
 				return GetFormIdFromFormSpeciesId(SPECIES_IMPOSTOWN_GALARIAN);
 		break;
-		case SPECIES_CORSOLA:
-		case SPECIES_CORSOLA_GALARIAN:
+		case SPECIES_SETRONIC:
+		case SPECIES_SETRONIC_GALARIAN:
 			if(motherSpecies == SPECIES_CURSOLA || (fatherSpecies == SPECIES_CURSOLA && motherSpecies == SPECIES_DITTO))
-				return GetFormIdFromFormSpeciesId(SPECIES_CORSOLA_GALARIAN);
+				return GetFormIdFromFormSpeciesId(SPECIES_SETRONIC_GALARIAN);
 		break;
 		case SPECIES_DEBEGUCK:
 		case SPECIES_DEBEGUCK_GALARIAN:

@@ -146,11 +146,11 @@ LavaridgeTown_Gym_1F_EventScript_Start_Rematch_4::
 	
 LavaridgeTown_Gym_1F_EventScript_Start_Rematch_5::
 	goto_if_unset FLAG_RECEIVED_TM04 LavaridgeTown_Gym_1F_EventScript_Start_Rematch_Party_4
-	goto_if_set FLAG_GOT_HOUNDOOMINITE LavaridgeTown_Gym_1F_EventScript_Start_Rematch_6
+	goto_if_set FLAG_GOT_MINIMALINITE LavaridgeTown_Gym_1F_EventScript_Start_Rematch_6
 	trainerbattle_no_intro TRAINER_FLANNERY_4, LavaridgeTown_Gym_1F_Text_FlanneryRematchDefeat
 	msgbox LavaridgeTown_Gym_1F_Text_GetMegaStone, MSGBOX_DEFAULT
-	giveitem ITEM_HOUNDOOMINITE
-	setflag FLAG_GOT_HOUNDOOMINITE
+	giveitem ITEM_MINIMALINITE
+	setflag FLAG_GOT_MINIMALINITE
 	goto LavaridgeTown_Gym_1F_EventScript_FlanneryRematchEnd
 	end
 	
@@ -857,11 +857,11 @@ script LavaridgeTown_Gym_1F_EventScript_Flannery_Give_Gifts{
 	}
 
 	//Give Megastone
-	if(var(VAR_NUM_BADGES) >= 7 && !flag(FLAG_GOT_HOUNDOOMINITE)){
-		msgbox(format("Flannery: Take this as an special gift from me, it's a Houndoomite."), MSGBOX_NPC)
-		giveitem(ITEM_HOUNDOOMINITE)
-		msgbox(format("Make a Houndoom hold it to unleash its real potential."), MSGBOX_NPC)
-		setflag(FLAG_GOT_HOUNDOOMINITE)
+	if(var(VAR_NUM_BADGES) >= 7 && !flag(FLAG_GOT_MINIMALINITE)){
+		msgbox(format("Flannery: Take this as an special gift from me, it's a Minimalite."), MSGBOX_NPC)
+		giveitem(ITEM_MINIMALINITE)
+		msgbox(format("Make a Minimal hold it to unleash its real potential."), MSGBOX_NPC)
+		setflag(FLAG_GOT_MINIMALINITE)
 		setflag(FLAG_TEMP_9) //To check if you have been given multiple items
 	}
 	elif(!flag(FLAG_TEMP_9)){
