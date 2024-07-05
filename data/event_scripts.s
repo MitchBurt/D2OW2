@@ -596,7 +596,7 @@ gStdScripts_End:: @ 81DC2CC
 	.include "data/maps/ThreeIsland/scripts.inc"
 	.include "data/maps/ThreeIsland_BondBridge/scripts.inc"
 	.include "data/maps/ThreeIsland_Port/scripts.inc"
-	.include "data/maps/ThreeIsland_MoabyTunnel_DugOut/scripts.inc"
+	.include "data/maps/ThreeIsland_Dunsparcetunnel_DugOut/scripts.inc"
 	.include "data/scripts/std_msgbox.inc"
 	.include "data/scripts/trainer_battle.inc"
 	.include "data/scripts/new_game.inc"

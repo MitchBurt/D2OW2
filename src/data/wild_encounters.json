@@ -17130,8 +17130,8 @@
           }
         },
         {
-          "map": "MAP_THREE_ISLAND_MOABY_TUNNEL_DUG_OUT",
-          "base_label": "gThreeIsland_MoabyTunnel_DugOut0",
+          "map": "MAP_THREE_ISLAND_DUNSPARCE_TUNNEL_DUG_OUT",
+          "base_label": "gThreeIsland_Dunsparcetunnel_DugOut0",
           "land_mons": {
             "encounter_rate": 5,
             "mons": [

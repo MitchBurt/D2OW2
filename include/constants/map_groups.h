@@ -86,7 +86,7 @@
 #define MAP_THREE_ISLAND                          (77 | (0 << 8))
 #define MAP_THREE_ISLAND_BOND_BRIDGE              (78 | (0 << 8))
 #define MAP_THREE_ISLAND_PORT                     (79 | (0 << 8))
-#define MAP_THREE_ISLAND_MOABY_TUNNEL_DUG_OUT (80 | (0 << 8))
+#define MAP_THREE_ISLAND_DUNSPARCE_TUNNEL_DUG_OUT (80 | (0 << 8))
 #define MAP_ROCK_TUNNEL                           (81 | (0 << 8))
 #define MAP_ROCK_TUNNEL_B1F                       (82 | (0 << 8))
 #define MAP_HAUNTED_HOUSE                         (83 | (0 << 8))
