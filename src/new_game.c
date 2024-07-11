@@ -440,14 +440,14 @@ void NewGameInitData(void)
     ClearPlayerLinkBattleRecords();
     InitSeedotSizeRecord();
     InitLotadSizeRecord();
-    //ClearBag();
+    ClearBag();
     if(!newgameplus){
         gPlayerPartyCount = 0;
         ZeroPlayerPartyMons();
         ResetGameStats();
         ResetPokedex();
         ClearPokedexFlags();
-        //SetMoney(&gSaveBlock1Ptr->money, 3000); 
+        SetMoney(&gSaveBlock1Ptr->money, 3000);
         SetCoins(0);
         ResetPokemonStorageSystem();
         NewGameInitPCItems();
