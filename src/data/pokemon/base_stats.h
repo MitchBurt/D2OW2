@@ -4805,27 +4805,32 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_VCRBRAIN] =
     {
-        .baseHP        = 20,
+        .baseHP        = 70,
         .baseAttack    = 40,
-        .baseDefense   = 15,
+        .baseDefense   = 100,
         .baseSpeed     = 60,
-        .baseSpAttack  = 35,
-        .baseSpDefense = 35,
-        .type1 = TYPE_ELECTRIC,
-        .type2 = TYPE_PSYCHIC,
-        .catchRate = 190,
-        .expYield = 41,
-        .evYield_Speed     = 1,
+        .baseSpAttack  = 150,
+        .baseSpDefense = 100,
+        #if P_UPDATED_TYPES >= GEN_6
+            .type1 = TYPE_PSYCHIC,
+            .type2 = TYPE_ELECTRIC,
+        #else
+            .type1 = TYPE_PSYCHIC,
+            .type2 = TYPE_ELECTRIC,
+        #endif
+        .catchRate = 170,
+        .expYield = 42,
+        .evYield_HP = 1,
         .item1 = ITEM_ORAN_BERRY,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 10,
         .friendship = 70,
-        .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroup1 = EGG_GROUP_UNDISCOVERED,
-        .eggGroup2 = EGG_GROUP_UNDISCOVERED,
-        .abilities = {ABILITY_STATIC, ABILITY_NONE},
-        .abilityHidden = ABILITY_LIGHTNING_ROD,
-        .bodyColor = BODY_COLOR_YELLOW,
+        .growthRate = GROWTH_FAST,
+        .eggGroup1 = EGG_GROUP_MINERAL,
+        .eggGroup2 = EGG_GROUP_MINERAL,
+        .abilities = {ABILITY_KEEN_EYE, ABILITY_ANALYTIC},
+        .abilityHidden = ABILITY_ELECTRIC_SURGE,
+        .bodyColor = BODY_COLOR_PINK,
         .noFlip = FALSE,
     },
 
@@ -5200,8 +5205,8 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_SERENEGRACE, ABILITY_RUNAWAY},
-            .abilityHidden = ABILITY_SERENEGRACE,
+            .abilities = {ABILITY_SERENE_GRACE, ABILITY_RUN_AWAY},
+            .abilityHidden = ABILITY_SERENE_GRACE,
         #else
             .abilities = {ABILITY_RUN_AWAY, ABILITY_NONE},
         #endif
