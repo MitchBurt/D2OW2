@@ -4820,9 +4820,9 @@ const struct BaseStats gBaseStats[] =
         #endif
         .catchRate = 170,
         .expYield = 42,
-        .evYield_HP        = 1,
+        .evYield_HP = 1,
         .item1 = ITEM_ORAN_BERRY,
-        .genderRatio = PERCENT_FEMALE(75),
+        .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 10,
         .friendship = 70,
         .growthRate = GROWTH_FAST,
