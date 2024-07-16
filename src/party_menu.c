@@ -2937,7 +2937,7 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
 	
 	//tx_pokemon_follower
     ailment = GetMonAilment(&mons[slotId]); 
-    if (GetMonData(&mons[slotId], MON_DATA_HP) > 0 && (ailment == AILMENT_NONE || ailment == AILMENT_PKRS) 
+/*     if (GetMonData(&mons[slotId], MON_DATA_HP) > 0 && (ailment == AILMENT_NONE || ailment == AILMENT_PKRS) 
 		&& CanMonFollow(GetMonData(&mons[slotId], MON_DATA_SPECIES))
 		&& gSaveBlock2Ptr->optionsAutomaticFollower != 0
 		&& !(gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_SURFING))
@@ -2946,7 +2946,7 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
             AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_UNFOLLOW);
         else
             AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_FOLLOW);
-    }
+    } */
 	
     AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_CANCEL1);
 }
@@ -8268,7 +8268,7 @@ void CursorCb_PkmAutomaticFollow(void)
     u16 playerX = gObjectEvents[playerObjId].currentCoords.x;
     u16 playerY = gObjectEvents[playerObjId].currentCoords.y;
 	
-	if(gSaveBlock2Ptr->optionsAutomaticFollower == 0 && gSaveBlock2Ptr->pokemonFollower.partySlotId != POF_ChoseAutomaticFollower() + 1){
+/* 	if(gSaveBlock2Ptr->optionsAutomaticFollower == 0 && gSaveBlock2Ptr->pokemonFollower.partySlotId != POF_ChoseAutomaticFollower() + 1){
 		if(gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_ON_FOOT && POF_ChoseAutomaticFollower() < PARTY_SIZE){
 			gSaveBlock2Ptr->pokemonFollower.partySlotId = 0;
 			POF_DestroyFollower();
@@ -8277,7 +8277,7 @@ void CursorCb_PkmAutomaticFollow(void)
 		}
 		else
 			POF_DestroyFollower();
-	}
+	} */
 	
 	//FollowerIntoPlayer();
 	//gObjectEvents[followerObjid].currentCoords.y = playerY - 5;

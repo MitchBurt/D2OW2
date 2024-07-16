@@ -52,8 +52,8 @@ enum
     MENUITEM_CUSTOM_TITLE_SCREEN,
     MENUITEM_CUSTOM_TRANSITION,
 	MENUITEM_CUSTOM_SHOW_DAMAGE,
-	MENUITEM_CUSTOM_AUTOMATIC_FOLLOWER,
-	MENUITEM_CUSTOM_ROWECRIES,
+//	MENUITEM_CUSTOM_AUTOMATIC_FOLLOWER,
+//	MENUITEM_CUSTOM_ROWECRIES,
     MENUITEM_CUSTOM_CANCEL,
     MENUITEM_CUSTOM_COUNT,
 };
@@ -246,8 +246,8 @@ struct // MENU_CUSTOM
     [MENUITEM_CUSTOM_TITLE_SCREEN]        = {DrawChoices_Title_Screen_Mon,      ProcessInput_Options_Three},
     [MENUITEM_CUSTOM_TRANSITION]          = {DrawChoices_Transition,            ProcessInput_Options_Two},
 	[MENUITEM_CUSTOM_SHOW_DAMAGE]         = {DrawChoices_EnabledDisabledCustom, ProcessInput_Options_Two},
-	[MENUITEM_CUSTOM_AUTOMATIC_FOLLOWER]  = {DrawChoices_EnabledDisabledCustom, ProcessInput_Options_Two},
-	[MENUITEM_CUSTOM_ROWECRIES]           = {DrawChoices_RoweCries,             ProcessInput_Options_Four},
+//	[MENUITEM_CUSTOM_AUTOMATIC_FOLLOWER]  = {DrawChoices_EnabledDisabledCustom, ProcessInput_Options_Two},
+//	[MENUITEM_CUSTOM_ROWECRIES]           = {DrawChoices_RoweCries,             ProcessInput_Options_Four},
     [MENUITEM_CUSTOM_CANCEL]              = {NULL, NULL},
 };
 
@@ -277,8 +277,8 @@ static const u8 sText_GreenColor[]          = _("Green Color");
 static const u8 sText_TitleScreen[]         = _("Title Screen");
 static const u8 sText_Transition[]          = _("Transition Speed");
 static const u8 sText_ShowDamage[]          = _("Show Damage Done");
-static const u8 sText_AutomaticFollowers[]  = _("Auto Followers");
-static const u8 sText_ROWECries[]           = _("Cry Type");
+//static const u8 sText_AutomaticFollowers[]  = _("Auto Followers");
+//static const u8 sText_ROWECries[]           = _("Cry Type");
 static const u8 sText_UnitSystem[]          = _("UNIT SYSTEM");
 static const u8 *const sOptionMenuItemsNamesCustom[MENUITEM_CUSTOM_COUNT] =
 {
@@ -290,8 +290,8 @@ static const u8 *const sOptionMenuItemsNamesCustom[MENUITEM_CUSTOM_COUNT] =
     [MENUITEM_CUSTOM_TITLE_SCREEN]        = sText_TitleScreen,
     [MENUITEM_CUSTOM_TRANSITION]          = sText_Transition,
 	[MENUITEM_CUSTOM_SHOW_DAMAGE]         = sText_ShowDamage,
-	[MENUITEM_CUSTOM_AUTOMATIC_FOLLOWER]  = sText_AutomaticFollowers,
-	[MENUITEM_CUSTOM_ROWECRIES]           = sText_ROWECries,
+//	[MENUITEM_CUSTOM_AUTOMATIC_FOLLOWER]  = sText_AutomaticFollowers,
+//	[MENUITEM_CUSTOM_ROWECRIES]           = sText_ROWECries,
     [MENUITEM_CUSTOM_CANCEL]              = gText_OptionMenuSave,
 };
 
@@ -339,8 +339,8 @@ static bool8 CheckConditions(int selection)
         case MENUITEM_CUSTOM_TITLE_SCREEN:        return TRUE;
         case MENUITEM_CUSTOM_TRANSITION:          return TRUE;
 	    case MENUITEM_CUSTOM_SHOW_DAMAGE:         return TRUE;
-	    case MENUITEM_CUSTOM_AUTOMATIC_FOLLOWER:  return TRUE;
-	    case MENUITEM_CUSTOM_ROWECRIES:           return TRUE;
+//	    case MENUITEM_CUSTOM_AUTOMATIC_FOLLOWER:  return TRUE;
+//	    case MENUITEM_CUSTOM_ROWECRIES:           return TRUE;
         case MENUITEM_CUSTOM_CANCEL:              return TRUE;
         case MENUITEM_CUSTOM_COUNT:               return TRUE;
         }
@@ -395,8 +395,8 @@ static const u8 sText_Desc_Color[]              = _("Choose the color intensity 
 static const u8 sText_Desc_TitleScreen[]        = _("Choose the Pokémon on the title\nscreen.");
 static const u8 sText_Desc_Transition[]         = _("Choose the Battle transition\nspeed.");
 static const u8 sText_Desc_ShowDamageDone[]     = _("Show the exact damage done in\nbattle.");
-static const u8 sText_Desc_AutomaticFollow[]    = _("Make the game chose your follower\nPokémon automatically.");
-static const u8 sText_Desc_RoweCries[]          = _("Make sure you are using the custom\nmgba before using mgba options.");
+//static const u8 sText_Desc_AutomaticFollow[]    = _("Make the game chose your follower\nPokémon automatically.");
+//static const u8 sText_Desc_RoweCries[]          = _("Make sure you are using the custom\nmgba before using mgba options.");
 static const u8 *const sOptionMenuItemDescriptionsCustom[MENUITEM_CUSTOM_COUNT][2] =
 {
     [MENUITEM_CUSTOM_HP_BAR]             = {sText_Desc_BattleHPBar,        sText_Empty},
@@ -407,8 +407,8 @@ static const u8 *const sOptionMenuItemDescriptionsCustom[MENUITEM_CUSTOM_COUNT][
     [MENUITEM_CUSTOM_TITLE_SCREEN]       = {sText_Desc_TitleScreen,        sText_Empty},
     [MENUITEM_CUSTOM_TRANSITION]         = {sText_Desc_Transition,         sText_Empty},
 	[MENUITEM_CUSTOM_SHOW_DAMAGE]        = {sText_Desc_ShowDamageDone,     sText_Empty},
-	[MENUITEM_CUSTOM_AUTOMATIC_FOLLOWER] = {sText_Desc_AutomaticFollow,    sText_Empty},
-	[MENUITEM_CUSTOM_ROWECRIES]          = {sText_Desc_RoweCries,          sText_Empty},
+//	[MENUITEM_CUSTOM_AUTOMATIC_FOLLOWER] = {sText_Desc_AutomaticFollow,    sText_Empty},
+//	[MENUITEM_CUSTOM_ROWECRIES]          = {sText_Desc_RoweCries,          sText_Empty},
     [MENUITEM_CUSTOM_CANCEL]             = {sText_Desc_Save,               sText_Empty},
 };
 
@@ -712,8 +712,8 @@ void CB2_InitOptionPlusMenu(void)
         sOptions->sel_custom[MENUITEM_CUSTOM_TITLE_SCREEN]       = gSaveBlock2Ptr->titleScreen;
         sOptions->sel_custom[MENUITEM_CUSTOM_TRANSITION]         = gSaveBlock2Ptr->optionsTransitionSpeed;
 	    sOptions->sel_custom[MENUITEM_CUSTOM_SHOW_DAMAGE]        = gSaveBlock2Ptr->optionsDamageDoneMessageEnabled;
-	    sOptions->sel_custom[MENUITEM_CUSTOM_AUTOMATIC_FOLLOWER] = gSaveBlock2Ptr->optionsAutomaticFollower;
-	    sOptions->sel_custom[MENUITEM_CUSTOM_ROWECRIES]          = VarGet(VAR_CRY_SPECIES);
+	//    sOptions->sel_custom[MENUITEM_CUSTOM_AUTOMATIC_FOLLOWER] = gSaveBlock2Ptr->optionsAutomaticFollower;
+	 //   sOptions->sel_custom[MENUITEM_CUSTOM_ROWECRIES]          = VarGet(VAR_CRY_SPECIES);
 
         sOptions->submenu = MENU_MAIN;
 
@@ -912,8 +912,8 @@ static void Task_OptionMenuSave(u8 taskId)
     gSaveBlock2Ptr->titleScreen                     = sOptions->sel_custom[MENUITEM_CUSTOM_TITLE_SCREEN];
     gSaveBlock2Ptr->optionsTransitionSpeed          = sOptions->sel_custom[MENUITEM_CUSTOM_TRANSITION];
 	gSaveBlock2Ptr->optionsDamageDoneMessageEnabled = sOptions->sel_custom[MENUITEM_CUSTOM_SHOW_DAMAGE];
-	gSaveBlock2Ptr->optionsAutomaticFollower        = sOptions->sel_custom[MENUITEM_CUSTOM_AUTOMATIC_FOLLOWER];
-	VarSet(VAR_CRY_SPECIES, sOptions->sel_custom[MENUITEM_CUSTOM_ROWECRIES]);
+	//gSaveBlock2Ptr->optionsAutomaticFollower        = sOptions->sel_custom[MENUITEM_CUSTOM_AUTOMATIC_FOLLOWER];
+	//VarSet(VAR_CRY_SPECIES, sOptions->sel_custom[MENUITEM_CUSTOM_ROWECRIES]);
 
     BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 0x10, RGB_BLACK);
     gTasks[taskId].func = Task_OptionMenuFadeOut;

@@ -538,7 +538,7 @@ struct SaveBlock2
 			 u16 optionsExpBarSpeed:4;
 			 u16 optionsDifficulty:2;//Music Expansion
 			 u16 optionsTransitionSpeed:2;
-			 u16 optionsAutomaticFollower:1;//Followers
+			 u16 optionsAutomaticFollower:0;//Followers
 	/*0x18*/ struct Pokedex pokedex;
 	/*0x90*/ u16 lastUsedBall;
 	/*0x92*/ u8 playerRGB[0x6];
