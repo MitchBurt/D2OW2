@@ -339,7 +339,7 @@ static bool8 CheckConditions(int selection)
         case MENUITEM_CUSTOM_TITLE_SCREEN:        return TRUE;
         case MENUITEM_CUSTOM_TRANSITION:          return TRUE;
 	    case MENUITEM_CUSTOM_SHOW_DAMAGE:         return TRUE;
-	    case MENUITEM_CUSTOM_AUTOMATIC_FOLLOWER:  return TRUE;
+	    case MENUITEM_CUSTOM_AUTOMATIC_FOLLOWER:  return FALSE;
 	    case MENUITEM_CUSTOM_ROWECRIES:           return TRUE;
         case MENUITEM_CUSTOM_CANCEL:              return TRUE;
         case MENUITEM_CUSTOM_COUNT:               return TRUE;
