@@ -602,7 +602,7 @@ void NewGameInitData(void)
     gSaveBlock1Ptr->registeredItemSelect = 0;
     gSaveBlock1Ptr->registeredItemL = 0;
     gSaveBlock1Ptr->registeredItemR = 0;
-	gSaveBlock2Ptr->optionsAutomaticFollower = 0;
+	gSaveBlock2Ptr->optionsAutomaticFollower = 1;
 
     memset(gSaveBlock1Ptr->dexNavSearchLevels, 0, sizeof(gSaveBlock1Ptr->dexNavSearchLevels));
     gSaveBlock1Ptr->dexNavChain = 0;
