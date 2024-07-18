@@ -757,7 +757,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ABRA] =
+    [NATIONAL_DEX_KUKLUX] =
     {
         .categoryName = _("PSI"),
         .height = 9,
@@ -11547,7 +11547,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ABRA] =
+    [NATIONAL_DEX_KUKLUX] =
     {
         .categoryName = _("PSI"),
         .height = 9,

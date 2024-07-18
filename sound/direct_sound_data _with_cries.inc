@@ -635,8 +635,8 @@ Cry_Renagede::
 	.incbin "sound/direct_sound_samples/cries/cry_renagede.bin"
 
 	.align 2
-Cry_Abra::
-	.incbin "sound/direct_sound_samples/cries/cry_abra.bin"
+Cry_Kuklux::
+	.incbin "sound/direct_sound_samples/cries/cry_kuklux.bin"
 
 	.align 2
 Cry_Kuklan::

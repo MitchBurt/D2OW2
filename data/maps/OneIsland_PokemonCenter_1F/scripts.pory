@@ -319,13 +319,13 @@ OneIsland_PokemonCenter_1F_Text_CelioHearingRumorsAboutYou:: @ 81A1EBD
     .string "{PLAYER}, I've been hearing rumors\n"
     .string "about you.$"
 
-OneIsland_PokemonCenter_1F_Text_BillsFirstMonWasAbra:: @ 81A1EF3
+OneIsland_PokemonCenter_1F_Text_BillsFirstMonWasKuklux:: @ 81A1EF3
     .string "{PLAYER}, what's your favorite kind\n"
     .string "of Pokémon?\p"
     .string "Bill is a POKéManiac, so he loves\n"
     .string "every kind.\p"
     .string "Apparently, the first one he caught\n"
-    .string "was an Abra.$"
+    .string "was an Kuklux.$"
 
 OneIsland_PokemonCenter_1F_Text_BillsHometownInGoldenrod:: @ 81A1F7C
     .string "By the way, {PLAYER}, you're from\n"

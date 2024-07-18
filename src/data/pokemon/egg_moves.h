@@ -401,7 +401,7 @@ const u16 gEggMoves[] = {
 		MOVE_WHIRLPOOL,
 		MOVE_WATER_SPORT),
 
-	egg_moves(ABRA,
+	egg_moves(KUKLUX,
 		MOVE_CONFUSION,
 		MOVE_MAGIC_COAT,
 		MOVE_GUARD_SPLIT,

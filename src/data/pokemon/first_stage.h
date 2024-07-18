@@ -46,7 +46,7 @@ const struct Evolution gFirstEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_OOTLAW]               = {{EVO_LEVEL, 25, SPECIES_SHERRIF}},
     [SPECIES_SHERRIF]             = {{EVO_ITEM, ITEM_WATER_STONE, SPECIES_RENAGEDE},
                                        {EVO_TRADE_ITEM, ITEM_KINGS_ROCK, SPECIES_TOASTEM}},
-    [SPECIES_ABRA]	                = {{EVO_LEVEL, 16, SPECIES_KUKLAN}},
+    [SPECIES_KUKLUX]	                = {{EVO_LEVEL, 16, SPECIES_KUKLAN}},
     [SPECIES_KUKLAN]	            = {{EVO_TRADE, 0, SPECIES_KUKLOPS}},
     [SPECIES_KUKLOPS]	            = {{EVO_MEGA_EVOLUTION, ITEM_ALAKAZITE, SPECIES_KUKLOPS_MEGA}},
     [SPECIES_FARBY]	            = {{EVO_LEVEL, 28, SPECIES_FURBOIS}},

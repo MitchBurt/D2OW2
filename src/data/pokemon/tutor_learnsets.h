@@ -1518,7 +1518,7 @@ static const u8 sRenagedeTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sAbraTutorLearnset[] =
+static const u8 sKukluxTutorLearnset[] =
 {
     TUTOR(MOVE_MEGA_KICK),
     TUTOR(MOVE_BODY_SLAM),
@@ -19784,7 +19784,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_OOTLAW] = sOotlawTutorLearnset,
     [SPECIES_SHERRIF] = sSherrifTutorLearnset,
     [SPECIES_RENAGEDE] = sRenagedeTutorLearnset,
-    [SPECIES_ABRA] = sAbraTutorLearnset,
+    [SPECIES_KUKLUX] = sKukluxTutorLearnset,
     [SPECIES_KUKLAN] = sKuklanTutorLearnset,
     [SPECIES_KUKLOPS] = sKuklopsTutorLearnset,
     [SPECIES_FARBY] = sFarbyTutorLearnset,

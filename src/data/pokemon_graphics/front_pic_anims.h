@@ -784,7 +784,7 @@ static const union AnimCmd sAnim_RENAGEDE_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_ABRA_1[] =
+static const union AnimCmd sAnim_KUKLUX_1[] =
 {
     ANIMCMD_FRAME(0, 7),
     ANIMCMD_FRAME(1, 21),
@@ -9465,9 +9465,9 @@ static const union AnimCmd *const sAnims_RENAGEDE[] ={
     sAnim_RENAGEDE_1,
 };
 
-static const union AnimCmd *const sAnims_ABRA[] ={
+static const union AnimCmd *const sAnims_KUKLUX[] ={
     sAnim_GeneralFrame0,
-    sAnim_ABRA_1,
+    sAnim_KUKLUX_1,
 };
 
 static const union AnimCmd *const sAnims_KUKLAN[] ={
@@ -14500,7 +14500,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(OOTLAW),
     ANIM_CMD(SHERRIF),
     ANIM_CMD(RENAGEDE),
-    ANIM_CMD(ABRA),
+    ANIM_CMD(KUKLUX),
     ANIM_CMD(KUKLAN),
     ANIM_CMD(KUKLOPS),
     ANIM_CMD(FARBY),

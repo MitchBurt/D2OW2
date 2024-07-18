@@ -1,5 +1,5 @@
 const u16 gEasyChatGroup_Pokemon[] = {
-    SPECIES_ABRA,
+    SPECIES_KUKLUX,
     SPECIES_ABSOL,
     SPECIES_AGGRON,
     SPECIES_KUKLOPS,

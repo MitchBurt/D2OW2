@@ -63,7 +63,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Ootlaw  @ 869DFB8
 	cry Cry_Sherrif  @ 869DFC4
 	cry Cry_Renagede  @ 869DFD0
-	cry Cry_Abra  @ 869DFDC
+	cry Cry_Kuklux  @ 869DFDC
 	cry Cry_Kuklan  @ 869DFE8
 	cry Cry_Kuklops  @ 869DFF4
 	cry Cry_Farby  @ 869E000
@@ -1343,7 +1343,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Ootlaw  @ 869F1E8
 	cry2 Cry_Sherrif  @ 869F1F4
 	cry2 Cry_Renagede  @ 869F200
-	cry2 Cry_Abra  @ 869F20C
+	cry2 Cry_Kuklux  @ 869F20C
 	cry2 Cry_Kuklan  @ 869F218
 	cry2 Cry_Kuklops  @ 869F224
 	cry2 Cry_Farby  @ 869F230

@@ -22,8 +22,8 @@ const u16 gEasyChatWordsByLetter_A[] = {
     EC_WORD_ABOUT,
     EC_WORD_ABOVE,
     -1, 2, // Doubled pokemon species name
-    EC_POKEMON(ABRA),
-    EC_POKEMON2(ABRA),
+    EC_POKEMON(KUKLUX),
+    EC_POKEMON2(KUKLUX),
     EC_WORD_ABSENT,
     EC_POKEMON(ABSOL),
     EC_WORD_ABSOLUTELY,

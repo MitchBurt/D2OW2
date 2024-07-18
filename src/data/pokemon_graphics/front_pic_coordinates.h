@@ -315,7 +315,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x76,
         .y_offset = 6,
     },
-    [SPECIES_ABRA] =
+    [SPECIES_KUKLUX] =
     {
         .size = 0x66,
         .y_offset = 10,

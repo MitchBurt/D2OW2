@@ -2388,7 +2388,7 @@ static const u8 sRenagedeTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sAbraTMHMLearnset[] =
+static const u8 sKukluxTMHMLearnset[] =
 {
     TMHM(TM01_FOCUS_PUNCH),
     TMHM(TM04_CALM_MIND),
@@ -36137,7 +36137,7 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_OOTLAW] = sOotlawTMHMLearnset,
     [SPECIES_SHERRIF] = sSherrifTMHMLearnset,
     [SPECIES_RENAGEDE] = sRenagedeTMHMLearnset,
-    [SPECIES_ABRA] = sAbraTMHMLearnset,
+    [SPECIES_KUKLUX] = sKukluxTMHMLearnset,
     [SPECIES_KUKLAN] = sKuklanTMHMLearnset,
     [SPECIES_KUKLOPS] = sKuklopsTMHMLearnset,
     [SPECIES_FARBY] = sFarbyTMHMLearnset,

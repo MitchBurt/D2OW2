@@ -91,7 +91,7 @@
 #define FRONTIER_MON_CORPHISH       87
 #define FRONTIER_MON_SKORCHI     88
 #define FRONTIER_MON_MEGATRON      89
-#define FRONTIER_MON_ABRA           90
+#define FRONTIER_MON_KUKLUX           90
 #define FRONTIER_MON_DIVINI          91
 #define FRONTIER_MON_SKELEDOOT         92
 #define FRONTIER_MON_SWABLU         93

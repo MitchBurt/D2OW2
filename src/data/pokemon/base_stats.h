@@ -1771,7 +1771,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_ABRA] =
+    [SPECIES_KUKLUX] =
     {
         .baseHP        = 50,
         .baseAttack    = 20,
@@ -35761,7 +35761,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_ABRA] =
+    [SPECIES_KUKLUX] =
     {
         .baseHP        = 25,
         .baseAttack    = 20,

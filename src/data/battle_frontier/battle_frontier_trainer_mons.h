@@ -90,7 +90,7 @@
     FRONTIER_MON_CORPHISH,      \
     FRONTIER_MON_SKORCHI,    \
     FRONTIER_MON_MEGATRON,     \
-    FRONTIER_MON_ABRA,          \
+    FRONTIER_MON_KUKLUX,          \
     FRONTIER_MON_DIVINI,         \
     FRONTIER_MON_SKELEDOOT,        \
     FRONTIER_MON_SWABLU,        \
@@ -132,7 +132,7 @@
     FRONTIER_MON_GULPIN,         \
     FRONTIER_MON_ARAKETSU,        \
     FRONTIER_MON_BURNTONION,       \
-    FRONTIER_MON_ABRA,           \
+    FRONTIER_MON_KUKLUX,           \
     FRONTIER_MON_SKELEDOOT,         \
     FRONTIER_MON_BASSHOP,       \
     FRONTIER_MON_MEADOSAUR,      \
@@ -228,7 +228,7 @@
     FRONTIER_MON_BURNTONION,      \
     FRONTIER_MON_CARVANHA,      \
     FRONTIER_MON_CORPHISH,      \
-    FRONTIER_MON_ABRA,          \
+    FRONTIER_MON_KUKLUX,          \
     FRONTIER_MON_MUDKIP,        \
     FRONTIER_MON_JISSM,      \
     FRONTIER_MON_KORBIE,      \
@@ -509,7 +509,7 @@
     FRONTIER_MON_GULPIN,        \
     FRONTIER_MON_ARAKETSU,       \
     FRONTIER_MON_BURNTONION,      \
-    FRONTIER_MON_ABRA,          \
+    FRONTIER_MON_KUKLUX,          \
     FRONTIER_MON_SKELEDOOT,        \
     FRONTIER_MON_BASSHOP,      \
     FRONTIER_MON_MEADOSAUR,     \
@@ -648,7 +648,7 @@
     FRONTIER_MON_BALTOY,        \
     FRONTIER_MON_BELDUM,        \
     FRONTIER_MON_BURNTONION,      \
-    FRONTIER_MON_ABRA,          \
+    FRONTIER_MON_KUKLUX,          \
     FRONTIER_MON_TREECKO,       \
     FRONTIER_MON_BASSHOP,      \
     FRONTIER_MON_MEADOSAUR,     \
@@ -682,7 +682,7 @@
     FRONTIER_MON_BAGON,         \
     FRONTIER_MON_BELDUM,        \
     FRONTIER_MON_BURNTONION,      \
-    FRONTIER_MON_ABRA,          \
+    FRONTIER_MON_KUKLUX,          \
     FRONTIER_MON_SKELEDOOT,        \
     FRONTIER_MON_BASSHOP,      \
     FRONTIER_MON_PUCKID,          \
