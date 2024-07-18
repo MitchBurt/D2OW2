@@ -862,7 +862,7 @@ static const union AnimCmd sAnim_MARIGUANA_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_VICTREEBEL_1[] =
+static const union AnimCmd sAnim_MARLEYZARD_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(1, 10),
@@ -1150,7 +1150,7 @@ static const union AnimCmd sAnim_SHAPIPIZ_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_HYPNO_1[] =
+static const union AnimCmd sAnim_SHAPOOPYZ_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(1, 15),
@@ -9505,9 +9505,9 @@ static const union AnimCmd *const sAnims_MARIGUANA[] ={
     sAnim_MARIGUANA_1,
 };
 
-static const union AnimCmd *const sAnims_VICTREEBEL[] ={
+static const union AnimCmd *const sAnims_MARLEYZARD[] ={
     sAnim_GeneralFrame0,
-    sAnim_VICTREEBEL_1,
+    sAnim_MARLEYZARD_1,
 };
 
 static const union AnimCmd *const sAnims_FLOOTEY[] ={
@@ -9637,9 +9637,9 @@ static const union AnimCmd *const sAnims_SHAPIPIZ[] ={
     sAnim_SHAPIPIZ_1,
 };
 
-static const union AnimCmd *const sAnims_HYPNO[] ={
+static const union AnimCmd *const sAnims_SHAPOOPYZ[] ={
     sAnim_GeneralFrame0,
-    sAnim_HYPNO_1,
+    sAnim_SHAPOOPYZ_1,
 };
 
 static const union AnimCmd *const sAnims_STROLOKE[] ={
@@ -14508,7 +14508,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(LONGIFER),
     ANIM_CMD(BONGECKO),
     ANIM_CMD(MARIGUANA),
-    ANIM_CMD(VICTREEBEL),
+    ANIM_CMD(MARLEYZARD),
     ANIM_CMD(FLOOTEY),
     ANIM_CMD(FREDDIFER),
     ANIM_CMD(ROCK),
@@ -14534,7 +14534,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(SANS),
     ANIM_CMD(ESCEEPEE),
     ANIM_CMD(SHAPIPIZ),
-    ANIM_CMD(HYPNO),
+    ANIM_CMD(SHAPOOPYZ),
     ANIM_CMD(STROLOKE),
     ANIM_CMD(CREEPA),
     ANIM_CMD(AWMANE),

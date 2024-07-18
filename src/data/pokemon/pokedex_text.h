@@ -422,7 +422,7 @@ const u8 gMariguanaPokedexText[] = _(
     "colgarse de una rama y dormir. Si se mueve\n"
     "mientras duerme, puede acabar en el suelo.");
 
-const u8 gVictreebelPokedexText[] = _(
+const u8 gMarleyzardPokedexText[] = _(
     "Tiene una enredadera que le sale de la\n"
     "cabeza. Cuando la agita y colea, recuerda\n"
     "a un animal y así consigue atraer a sus\n"
@@ -578,7 +578,7 @@ const u8 gShapipizPokedexText[] = _(
     "ellos en la almohada intentando sacarte\n"
     "los sueños por la nariz para comérselos.");
 
-const u8 gHypnoPokedexText[] = _(
+const u8 gShapoopyzPokedexText[] = _(
     "Lleva un péndulo en la mano cuyo balanceo\n"
     "y brillo sumen a su rival en un profundo\n"
     "estado de hipnosis. Mientras busca a\n"
@@ -5779,7 +5779,7 @@ const u8 gMariguanaPokedexText[] = _(
     "If it moves around in its sleep, it may\n"
     "wake up to find itself on the ground.");
 
-const u8 gVictreebelPokedexText[] = _(
+const u8 gMarleyzardPokedexText[] = _(
     "The long vine extending from its head is\n"
     "waved about as if it were a living thing to\n"
     "attract prey. When an unsuspecting victim\n"
@@ -5935,9 +5935,9 @@ const u8 gShapipizPokedexText[] = _(
     "standing above your pillow and trying to\n"
     "eat your dream through your nostrils.");
 
-const u8 gHypnoPokedexText[] = _(
+const u8 gShapoopyzPokedexText[] = _(
     "The arcing movement and glitter of the\n"
-    "pendulum in a Hypno's hand lull the foe\n"
+    "pendulum in a Shapoopyz's hand lull the foe\n"
     "into deep hypnosis. While searching for\n"
     "prey, it polishes the pendulum.");
 

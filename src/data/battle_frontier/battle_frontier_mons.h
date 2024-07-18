@@ -3160,8 +3160,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_IMPISH,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_VICTREEBEL_1] = {
-        .species = SPECIES_VICTREEBEL,
+    [FRONTIER_MON_MARLEYZARD_1] = {
+        .species = SPECIES_MARLEYZARD,
         .moves = {MOVE_GIGA_DRAIN, MOVE_SLEEP_POWDER, MOVE_SWEET_SCENT, MOVE_SYNTHESIS    },
         .itemTableId = BATTLE_FRONTIER_ITEM_SITRUS_BERRY,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE,
@@ -3208,8 +3208,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_TIMID,
 		.abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_HYPNO_1] = {
-        .species = SPECIES_HYPNO,
+    [FRONTIER_MON_SHAPOOPYZ_1] = {
+        .species = SPECIES_SHAPOOPYZ,
         .moves = {MOVE_THUNDER_PUNCH, MOVE_FIRE_PUNCH, MOVE_ICE_PUNCH, MOVE_HYPNOSIS    },
         .itemTableId = BATTLE_FRONTIER_ITEM_TWISTED_SPOON,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_DEFENSE,
@@ -3928,8 +3928,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_BOLD,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_VICTREEBEL_2] = {
-        .species = SPECIES_VICTREEBEL,
+    [FRONTIER_MON_MARLEYZARD_2] = {
+        .species = SPECIES_MARLEYZARD,
         .moves = {MOVE_GIGA_DRAIN, MOVE_SLUDGE_BOMB, MOVE_SLEEP_POWDER, MOVE_ATTRACT    },
         .itemTableId = BATTLE_FRONTIER_ITEM_LEFTOVERS,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK,
@@ -3976,8 +3976,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_TIMID,
 		.abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_HYPNO_2] = {
-        .species = SPECIES_HYPNO,
+    [FRONTIER_MON_SHAPOOPYZ_2] = {
+        .species = SPECIES_SHAPOOPYZ,
         .moves = {MOVE_HYPNOSIS, MOVE_NIGHTMARE, MOVE_DREAM_EATER, MOVE_PSYCHIC    },
         .itemTableId = BATTLE_FRONTIER_ITEM_TWISTED_SPOON,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE,
@@ -4696,8 +4696,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_QUIRKY,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_VICTREEBEL_3] = {
-        .species = SPECIES_VICTREEBEL,
+    [FRONTIER_MON_MARLEYZARD_3] = {
+        .species = SPECIES_MARLEYZARD,
         .moves = {MOVE_STUN_SPORE, MOVE_INGRAIN, MOVE_GIGA_DRAIN, MOVE_SLUDGE_BOMB    },
         .itemTableId = BATTLE_FRONTIER_ITEM_BRIGHT_POWDER,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK,
@@ -4744,8 +4744,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_TIMID,
 		.abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_HYPNO_3] = {
-        .species = SPECIES_HYPNO,
+    [FRONTIER_MON_SHAPOOPYZ_3] = {
+        .species = SPECIES_SHAPOOPYZ,
         .moves = {MOVE_PSYCH_UP, MOVE_SWAGGER, MOVE_MEGA_KICK, MOVE_SHADOW_BALL    },
         .itemTableId = BATTLE_FRONTIER_ITEM_LUM_BERRY,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
@@ -5464,8 +5464,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_QUIET,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_VICTREEBEL_4] = {
-        .species = SPECIES_VICTREEBEL,
+    [FRONTIER_MON_MARLEYZARD_4] = {
+        .species = SPECIES_MARLEYZARD,
         .moves = {MOVE_GIGA_DRAIN, MOVE_DOUBLE_EDGE, MOVE_SLUDGE_BOMB, MOVE_SYNTHESIS    },
         .itemTableId = BATTLE_FRONTIER_ITEM_BRIGHT_POWDER,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK,
@@ -5512,8 +5512,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_TIMID,
 		.abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_HYPNO_4] = {
-        .species = SPECIES_HYPNO,
+    [FRONTIER_MON_SHAPOOPYZ_4] = {
+        .species = SPECIES_SHAPOOPYZ,
         .moves = {MOVE_PSYCHIC, MOVE_THUNDER_PUNCH, MOVE_FIRE_PUNCH, MOVE_ICE_PUNCH    },
         .itemTableId = BATTLE_FRONTIER_ITEM_LUM_BERRY,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,

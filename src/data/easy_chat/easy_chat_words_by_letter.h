@@ -754,7 +754,7 @@ const u16 gEasyChatWordsByLetter_H[] = {
     EC_WORD_HYPER_CUTTER,
     EC_MOVE2(HYPER_FANG),
     EC_MOVE2(HYPER_VOICE),
-    EC_POKEMON2(HYPNO),
+    EC_POKEMON2(SHAPOOPYZ),
     EC_MOVE(HYPNOSIS),
 };
 
@@ -1795,7 +1795,7 @@ const u16 gEasyChatWordsByLetter_V[] = {
     EC_POKEMON(VIBRAVA),
     EC_MOVE2(VICE_GRIP),
     EC_WORD_VICTORY,
-    EC_POKEMON2(VICTREEBEL),
+    EC_POKEMON2(MARLEYZARD),
     EC_WORD_VIEWING,
     EC_POKEMON(VIGOROTH),
     -1, 2, // Doubled pokemon species name

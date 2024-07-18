@@ -2178,7 +2178,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_MIMEJR:
 				case SPECIES_NINCADA:
 				case SPECIES_FURBOIS:
-				case SPECIES_VICTREEBEL:
+				case SPECIES_MARLEYZARD:
 				case SPECIES_UNJOY:
 				case SPECIES_SILCOON:
 				case SPECIES_MINUN:

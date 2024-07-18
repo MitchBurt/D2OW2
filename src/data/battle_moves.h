@@ -11574,7 +11574,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_HYPNO] =
+    [SPECIES_SHAPOOPYZ] =
     {
         .move = MOVE_HYPNOSIS,
         .modification = SIGNATURE_MOD_ACCURACY,

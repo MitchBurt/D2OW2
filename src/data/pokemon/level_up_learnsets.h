@@ -1432,7 +1432,7 @@ static const struct LevelUpMove sMariguanaLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sVictreebelLevelUpLearnset[] = {
+static const struct LevelUpMove sMarleyzardLevelUpLearnset[] = {
 	LEVEL_UP_MOVE(1, MOVE_ABSORB),
 	LEVEL_UP_MOVE(1, MOVE_SMOKESCREEN),
 	LEVEL_UP_MOVE(5, MOVE_EMBER),
@@ -1967,7 +1967,7 @@ static const struct LevelUpMove sShapipizLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sHypnoLevelUpLearnset[] = {
+static const struct LevelUpMove sShapoopyzLevelUpLearnset[] = {
 	LEVEL_UP_MOVE(1, MOVE_POUND),
 	LEVEL_UP_MOVE(1, MOVE_MEAN_LOOK),
 	LEVEL_UP_MOVE(5, MOVE_DISABLE),

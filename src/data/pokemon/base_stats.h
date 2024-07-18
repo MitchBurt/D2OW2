@@ -2000,7 +2000,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_VICTREEBEL] =
+    [SPECIES_MARLEYZARD] =
     {
         .baseHP        = 130,
         .baseAttack    = 55,
@@ -2704,7 +2704,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_HYPNO] =
+    [SPECIES_SHAPOOPYZ] =
     {
         .baseHP        = 85,
         .baseAttack    = 73,
@@ -35993,7 +35993,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_VICTREEBEL] =
+    [SPECIES_MARLEYZARD] =
     {
         .baseHP        = 80,
         .baseAttack    = 105,
@@ -36732,7 +36732,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_HYPNO] =
+    [SPECIES_SHAPOOPYZ] =
     {
         .baseHP        = 85,
         .baseAttack    = 73,

@@ -71,7 +71,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Longifer  @ 869E018
 	cry Cry_Bongecko  @ 869E024
 	cry Cry_Mariguana  @ 869E030
-	cry Cry_Victreebel  @ 869E03C
+	cry Cry_Marleyzard  @ 869E03C
 	cry Cry_Flootey  @ 869E048
 	cry Cry_Freddifer  @ 869E054
 	cry Cry_Rock  @ 869E060
@@ -97,7 +97,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Sans  @ 869E150
 	cry Cry_Esceepee  @ 869E15C
 	cry Cry_Shapipiz  @ 869E168
-	cry Cry_Hypno  @ 869E174
+	cry Cry_Shapoopyz  @ 869E174
 	cry Cry_Stroloke  @ 869E180
 	cry Cry_Creepa  @ 869E18C
 	cry Cry_Awmane  @ 869E198
@@ -1351,7 +1351,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Longifer  @ 869F248
 	cry2 Cry_Bongecko  @ 869F254
 	cry2 Cry_Mariguana  @ 869F260
-	cry2 Cry_Victreebel  @ 869F26C
+	cry2 Cry_Marleyzard  @ 869F26C
 	cry2 Cry_Flootey  @ 869F278
 	cry2 Cry_Freddifer  @ 869F284
 	cry2 Cry_Rock  @ 869F290
@@ -1377,7 +1377,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Sans  @ 869F380
 	cry2 Cry_Esceepee  @ 869F38C
 	cry2 Cry_Shapipiz  @ 869F398
-	cry2 Cry_Hypno  @ 869F3A4
+	cry2 Cry_Shapoopyz  @ 869F3A4
 	cry2 Cry_Stroloke  @ 869F3B0
 	cry2 Cry_Creepa  @ 869F3BC
 	cry2 Cry_Awmane  @ 869F3C8

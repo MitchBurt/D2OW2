@@ -667,8 +667,8 @@ Cry_Mariguana::
 	.incbin "sound/direct_sound_samples/cries/cry_mariguana.bin"
 
 	.align 2
-Cry_Victreebel::
-	.incbin "sound/direct_sound_samples/cries/cry_victreebel.bin"
+Cry_Marleyzard::
+	.incbin "sound/direct_sound_samples/cries/cry_marleyzard.bin"
 
 	.align 2
 Cry_Flootey::
@@ -771,8 +771,8 @@ Cry_Shapipiz::
 	.incbin "sound/direct_sound_samples/cries/cry_shapipiz.bin"
 
 	.align 2
-Cry_Hypno::
-	.incbin "sound/direct_sound_samples/cries/cry_hypno.bin"
+Cry_Shapoopyz::
+	.incbin "sound/direct_sound_samples/cries/cry_shapoopyz.bin"
 
 	.align 2
 Cry_Stroloke::

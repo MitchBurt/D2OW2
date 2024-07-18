@@ -1729,7 +1729,7 @@ static const u8 sMariguanaTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sVictreebelTutorLearnset[] =
+static const u8 sMarleyzardTutorLearnset[] =
 {
     TUTOR(MOVE_SWORDS_DANCE),
     TUTOR(MOVE_BODY_SLAM),
@@ -2289,7 +2289,7 @@ static const u8 sShapipizTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sHypnoTutorLearnset[] =
+static const u8 sShapoopyzTutorLearnset[] =
 {
     TUTOR(MOVE_MEGA_KICK),
     TUTOR(MOVE_BODY_SLAM),
@@ -19792,7 +19792,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_LONGIFER] = sLongiferTutorLearnset,
     [SPECIES_BONGECKO] = sBongeckoTutorLearnset,
     [SPECIES_MARIGUANA] = sMariguanaTutorLearnset,
-    [SPECIES_VICTREEBEL] = sVictreebelTutorLearnset,
+    [SPECIES_MARLEYZARD] = sMarleyzardTutorLearnset,
     [SPECIES_FLOOTEY] = sFlooteyTutorLearnset,
     [SPECIES_FREDDIFER] = sFreddiferTutorLearnset,
     [SPECIES_ROCK] = sRockTutorLearnset,
@@ -19818,7 +19818,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_SANS] = sSansTutorLearnset,
     [SPECIES_ESCEEPEE] = sEsceepeeTutorLearnset,
     [SPECIES_SHAPIPIZ] = sShapipizTutorLearnset,
-    [SPECIES_HYPNO] = sHypnoTutorLearnset,
+    [SPECIES_SHAPOOPYZ] = sShapoopyzTutorLearnset,
     [SPECIES_STROLOKE] = sStrolokeTutorLearnset,
     [SPECIES_CREEPA] = sCreepaTutorLearnset,
     [SPECIES_AWMANE] = sAwmaneTutorLearnset,

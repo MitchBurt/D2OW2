@@ -853,12 +853,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_VICTREEBEL] =
+    [NATIONAL_DEX_MARLEYZARD] =
     {
         .categoryName = _("Matamoscas"),
         .height = 17,
         .weight = 155,
-        .description = gVictreebelPokedexText,
+        .description = gMarleyzardPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 1,
         .trainerScale = 312,
@@ -1165,12 +1165,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_HYPNO] =
+    [NATIONAL_DEX_SHAPOOPYZ] =
     {
         .categoryName = _("Hipnosis"),
         .height = 16,
         .weight = 756,
-        .description = gHypnoPokedexText,
+        .description = gShapoopyzPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 3,
         .trainerScale = 257,
@@ -11643,12 +11643,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_VICTREEBEL] =
+    [NATIONAL_DEX_MARLEYZARD] =
     {
         .categoryName = _("Flycatcher"),
         .height = 17,
         .weight = 155,
-        .description = gVictreebelPokedexText,
+        .description = gMarleyzardPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 1,
         .trainerScale = 312,
@@ -11955,12 +11955,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_HYPNO] =
+    [NATIONAL_DEX_SHAPOOPYZ] =
     {
         .categoryName = _("Hypnosis"),
         .height = 16,
         .weight = 756,
-        .description = gHypnoPokedexText,
+        .description = gShapoopyzPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 3,
         .trainerScale = 257,

@@ -2722,7 +2722,7 @@ static const u8 sMariguanaTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sVictreebelTMHMLearnset[] =
+static const u8 sMarleyzardTMHMLearnset[] =
 {
     TMHM(TM06_TOXIC),
     TMHM(TM09_BULLET_SEED),
@@ -3950,7 +3950,7 @@ static const u8 sShapipizTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sHypnoTMHMLearnset[] =
+static const u8 sShapoopyzTMHMLearnset[] =
 {
     TMHM(TM01_FOCUS_PUNCH),
     TMHM(TM04_CALM_MIND),
@@ -36145,7 +36145,7 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_LONGIFER] = sLongiferTMHMLearnset,
     [SPECIES_BONGECKO] = sBongeckoTMHMLearnset,
     [SPECIES_MARIGUANA] = sMariguanaTMHMLearnset,
-    [SPECIES_VICTREEBEL] = sVictreebelTMHMLearnset,
+    [SPECIES_MARLEYZARD] = sMarleyzardTMHMLearnset,
     [SPECIES_FLOOTEY] = sFlooteyTMHMLearnset,
     [SPECIES_FREDDIFER] = sFreddiferTMHMLearnset,
     [SPECIES_ROCK] = sRockTMHMLearnset,
@@ -36171,7 +36171,7 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_SANS] = sSansTMHMLearnset,
     [SPECIES_ESCEEPEE] = sEsceepeeTMHMLearnset,
     [SPECIES_SHAPIPIZ] = sShapipizTMHMLearnset,
-    [SPECIES_HYPNO] = sHypnoTMHMLearnset,
+    [SPECIES_SHAPOOPYZ] = sShapoopyzTMHMLearnset,
     [SPECIES_STROLOKE] = sStrolokeTMHMLearnset,
     [SPECIES_CREEPA] = sCreepaTMHMLearnset,
     [SPECIES_AWMANE] = sAwmaneTMHMLearnset,
