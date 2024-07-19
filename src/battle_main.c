@@ -330,6 +330,7 @@ const u8 gTypeNames[NUMBER_OF_MON_TYPES][TYPE_NAME_LENGTH + 1] =
     _("Dragón"),
     _("Sinie."),
     _("Hada"),
+    _("Cosmic"),
 #else
     _("Normal"),
     _("Fight"),
@@ -350,6 +351,7 @@ const u8 gTypeNames[NUMBER_OF_MON_TYPES][TYPE_NAME_LENGTH + 1] =
     _("Dragon"),
     _("Dark"),
     _("Fairy"),
+    _("Cosmic"),    
 #endif
 
 };

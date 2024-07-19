@@ -1686,6 +1686,7 @@ static const struct SearchOptionText sDexSearchTypeOptions[] =
     {gText_DexEmptyString, gTypeNames[TYPE_DARK]},
     #ifdef BATTLE_ENGINE
     {gText_DexEmptyString, gTypeNames[TYPE_FAIRY]},
+    {gText_DexEmptyString, gTypeNames[TYPE_COSMIC]},
     #endif
     {},
 };
@@ -1723,6 +1724,7 @@ static const u8 sDexSearchTypeIds[] =
     TYPE_DARK,
     #ifdef BATTLE_ENGINE
     TYPE_FAIRY,
+    TYPE_COSMIC,
     #endif
 };
 

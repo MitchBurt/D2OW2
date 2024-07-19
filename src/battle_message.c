@@ -2412,6 +2412,7 @@ static const u8 sATypeMove_Table[][17] =
     [TYPE_DRAGON]   = _("a Dragon move"),
     [TYPE_DARK]     = _("a Dark move"),
     [TYPE_FAIRY]    = _("a Fairy move"),
+    [TYPE_COSMIC]    = _("a Cosmic move"),
 };
 
 const u8 gText_BattleTourney[] = _("Battle Tourney");
