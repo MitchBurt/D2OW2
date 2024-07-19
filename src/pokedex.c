@@ -4644,6 +4644,7 @@ static const u8 sMoveTypeToOamPaletteNum[NUMBER_OF_MON_TYPES + CONTEST_CATEGORIE
     [NUMBER_OF_MON_TYPES + CONTEST_CATEGORY_TOUGH] = TYPE_ICON_PAL_NUM_0,
     #ifdef TYPE_FAIRY
     [TYPE_FAIRY] = TYPE_ICON_PAL_NUM_1, //based on battle_engine
+    [TYPE_COSMIC] = TYPE_ICON_PAL_NUM_2,
     #endif
 };
 static void SetTypeIconPosAndPal(u8 typeId, u8 x, u8 y, u8 spriteArrayId)
