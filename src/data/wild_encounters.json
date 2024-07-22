@@ -180,7 +180,8 @@
             ]
           },
           "land_mons_night": {
-        "mons": [
+            "encounter_rate": 20,
+            "mons": [
               {
                 "min_level": 2,
                 "max_level": 2,
