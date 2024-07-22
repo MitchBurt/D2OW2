@@ -45,7 +45,7 @@ void HealPlayerParty(void)
         
         if (GetMonData(&gPlayerParty[i], MON_DATA_DEAD))
 	{
-        if (!FlagGet(FLAG_HARD_MODE) || !FlagGet(FLAG_SYS_POKEDEX_GET)){
+        if (!FlagGet(FLAG_NUZLOCKE) || !FlagGet(FLAG_SYS_POKEDEX_GET)){
                 	bool8 dead = FALSE;
                 	SetMonData(&gPlayerParty[i], MON_DATA_DEAD, &dead);
         	}

@@ -46,14 +46,15 @@ Start_EventScript_Game_Level_Easy::
 	msgbox Game_Start_Text_Difficulty_Easy, MSGBOX_YESNO
 	compare VAR_RESULT, NO
 	goto_if_eq Start_EventScript_Game_Level
-	setflag FLAG_EASY_MODE
-	clearflag FLAG_NORMAL_MODE
+	setflag FLAG_NORMAL_MODE
+	clearflag FLAG_EASY_MODE
 	clearflag FLAG_HARD_MODE
+	clearflag FLAG_NUZLOCKE
 	goto Start_EventScript_Difficulty_Save
 	end
 	
 Game_Start_Text_Difficulty_Easy:
-	.string "Do you want to play on {COLOR GREEN}Easy mode{COLOR DARK_GREY}?\n"
+	.string "Do you want to play on {COLOR GREEN}Normal mode{COLOR DARK_GREY}?\n"
 	.string "This can't be changed later!$"
 	
 Start_EventScript_Game_Level_Normal::
@@ -62,8 +63,9 @@ Start_EventScript_Game_Level_Normal::
 	compare VAR_RESULT, NO
 	goto_if_eq Start_EventScript_Game_Level
 	clearflag FLAG_EASY_MODE
-	setflag FLAG_NORMAL_MODE
-	clearflag FLAG_HARD_MODE
+	clearflag FLAG_NORMAL_MODE
+	setflag FLAG_HARD_MODE
+	clearflag FLAG_NUZLOCKE
 	goto Start_EventScript_Difficulty_Save
 	end
 	
@@ -79,6 +81,7 @@ Start_EventScript_Game_Level_Hard::
 	clearflag FLAG_EASY_MODE
 	clearflag FLAG_NORMAL_MODE
 	setflag FLAG_HARD_MODE
+	setflag FLAG_NUZLOCKE
 	goto Start_EventScript_Difficulty_Save
 	end
 	
@@ -975,6 +978,7 @@ Start_EvenScript_Flagset_Difficulty::
 	goto_if_set FLAG_NORMAL_MODE, Start_EventScript_Give_Items
 	goto_if_set FLAG_HARD_MODE, Start_EventScript_Give_Items
 	setflag FLAG_HARD_MODE
+	setflag FLAG_NUZLOCKE
 	goto Start_EventScript_Give_Items
 	end
 	

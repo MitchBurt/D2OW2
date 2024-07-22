@@ -3514,7 +3514,7 @@ static void Cmd_tryfaintmon(void)
             if (GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER)
             {
                 //Nuzlocke
-                if (FlagGet(FLAG_HARD_MODE)){
+                if (FlagGet(FLAG_NUZLOCKE)){
                     bool8 dead = TRUE;
                     SetMonData(&gPlayerParty[gBattlerPartyIndexes[gActiveBattler]], MON_DATA_DEAD, &dead);
                 }
