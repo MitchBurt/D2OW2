@@ -1075,7 +1075,7 @@
               {
                 "min_level": 12,
                 "max_level": 12,
-                "species": "SPECIES_BADDERYE"
+                "species": "SPECIES_BADDERY"
               },
               {
                 "min_level": 12,
@@ -1225,7 +1225,7 @@
               {
                 "min_level": 12,
                 "max_level": 12,
-                "species": "SPECIES_BADDERYE"
+                "species": "SPECIES_BADDERY"
               },
               {
                 "min_level": 12,
@@ -2348,7 +2348,7 @@
               {
                 "min_level": 24,
                 "max_level": 24,
-                "species": "SPECIES_BADDERYE"
+                "species": "SPECIES_BADDERY"
               },
               {
                 "min_level": 26,
@@ -8063,7 +8063,7 @@
               {
                 "min_level": 23,
                 "max_level": 23,
-                "species": "SPECIES_BADDERYE"
+                "species": "SPECIES_BADDERY"
               },
               {
                 "min_level": 23,
@@ -15228,12 +15228,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BASSHOP_BLUE_STRIPED"
+                "species": "SPECIES_BASSHOP"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BASSHOP_BLUE_STRIPED"
+                "species": "SPECIES_BASSHOP"
               }
             ]
           },
@@ -15402,12 +15402,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BASSHOP_BLUE_STRIPED"
+                "species": "SPECIES_BASSHOP"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BASSHOP_BLUE_STRIPED"
+                "species": "SPECIES_BASSHOP"
               }
             ]
           },
@@ -15888,7 +15888,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BASSHOP_GALARIAN"
+                "species": "SPECIES_BASSHOP"
               },
               {
                 "min_level": 5,
@@ -15903,7 +15903,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BASSHOP_GALARIAN"
+                "species": "SPECIES_BASSHOP"
               },
               {
                 "min_level": 5,
@@ -15913,7 +15913,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BASSHOP_GALARIAN"
+                "species": "SPECIES_BASSHOP"
               },
               {
                 "min_level": 5,
@@ -15972,7 +15972,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BASSHOP_GALARIAN"
+                "species": "SPECIES_BASSHOP"
               },
               {
                 "min_level": 5,
@@ -16022,7 +16022,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BASSHOP_GALARIAN"
+                "species": "SPECIES_BASSHOP"
               },
               {
                 "min_level": 5,
@@ -16077,7 +16077,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BASSHOP_GALARIAN"
+                "species": "SPECIES_BASSHOP"
               },
               {
                 "min_level": 5,
@@ -16087,7 +16087,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BASSHOP_GALARIAN"
+                "species": "SPECIES_BASSHOP"
               },
               {
                 "min_level": 5,
@@ -16097,7 +16097,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BASSHOP_GALARIAN"
+                "species": "SPECIES_BASSHOP"
               },
               {
                 "min_level": 5,
@@ -16666,7 +16666,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BASSHOP_GALARIAN"
+                "species": "SPECIES_BASSHOP"
               },
               {
                 "min_level": 5,
@@ -16696,7 +16696,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BASSHOP_GALARIAN"
+                "species": "SPECIES_BASSHOP"
               },
               {
                 "min_level": 5,
@@ -16706,7 +16706,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BASSHOP_GALARIAN"
+                "species": "SPECIES_BASSHOP"
               },
               {
                 "min_level": 5,
@@ -16721,7 +16721,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BASSHOP_GALARIAN"
+                "species": "SPECIES_BASSHOP"
               },
               {
                 "min_level": 5,
@@ -17645,7 +17645,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BASSHOP_BLUE_STRIPED"
+                "species": "SPECIES_BASSHOP"
               },
               {
                 "min_level": 5,
@@ -17670,7 +17670,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BASSHOP_BLUE_STRIPED"
+                "species": "SPECIES_BASSHOP"
               },
               {
                 "min_level": 5,
@@ -17680,7 +17680,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BASSHOP_BLUE_STRIPED"
+                "species": "SPECIES_BASSHOP"
               },
               {
                 "min_level": 5,
@@ -17695,7 +17695,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BASSHOP_BLUE_STRIPED"
+                "species": "SPECIES_BASSHOP"
               },
               {
                 "min_level": 5,
