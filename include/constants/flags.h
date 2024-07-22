@@ -1304,8 +1304,8 @@
 
 #define FLAG_NEW_GAME_PLUS                                          0x49E
 #define FLAG_SYS_MOVE_INFO                                          0x49F
-//#define FLAG_NUZLOCKE                                               0x4A1
-#define FLAG_UNUSED_0x4A1                                           0x4A1 // Unused
+#define FLAG_NUZLOCKE                                               0x4A1
+//#define FLAG_UNUSED_0x4A1                                           0x4A1 // Unused
 
 #define FLAG_DEFEATED_RUSTBORO_GYM                                  0x4F0
 #define FLAG_DEFEATED_DEWFORD_GYM                                   0x4F1
