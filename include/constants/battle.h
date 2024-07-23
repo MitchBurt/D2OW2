@@ -139,8 +139,6 @@
 #define STATUS2_FORESIGHT             (1 << 29)
 #define STATUS2_DEFENSE_CURL          (1 << 30)
 #define STATUS2_TORMENT               (1 << 31)
-#define STATUS2_INTOXICATE            (1 << 32)
-#define STATUS2_INTOXICATE_TURN(num)  ((num) << 32)
 
 #define STATUS3_LEECHSEED_BATTLER       (1 << 0 | 1 << 1) // The battler to receive HP from Leech Seed
 #define STATUS3_LEECHSEED               (1 << 2)
@@ -177,6 +175,8 @@
 
 
 #define STATUS4_COILED_UP               (1 << 0)
+#define STATUS4_INTOXICATE            (1 << 1 | 1 << 2 | 1 << 3)
+#define STATUS4_INTOXICATE_TURN(num)  ((num) << 0)
 
 #define HITMARKER_x10                   (1 << 4)
 #define HITMARKER_x20                   (1 << 5)

@@ -3179,10 +3179,10 @@ u8 AtkCanceller_UnableToUseMove(void)
             gBattleStruct->atkCancellerTracker++;
             break;
         case CANCELLER_INTOXICATE: // intoxicate
-            if (gBattleMons[gBattlerAttacker].status2 & STATUS2_INTOXICATE)
+            if (gBattleMons[gBattlerAttacker].status4 & STATUS4_INTOXICATE)
             {
-                gBattleMons[gBattlerAttacker].status2 -= STATUS2_INTOXICATE_TURN(1);
-                if (gBattleMons[gBattlerAttacker].status2 & STATUS2_INTOXICATE)
+                gBattleMons[gBattlerAttacker].status4 -= STATUS4_INTOXICATE_TURN(1);
+                if (gBattleMons[gBattlerAttacker].status4 & STATUS4_INTOXICATE)
                 {
                     if (Random() % ((B_CONFUSION_SELF_DMG_CHANCE >= GEN_7) ? 3 : 2) == 0) // intoxicate dmg
                     {
