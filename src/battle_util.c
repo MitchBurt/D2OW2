@@ -2962,6 +2962,7 @@ enum
     CANCELLER_POWDER_MOVE,
     CANCELLER_POWDER_STATUS,
     CANCELLER_THROAT_CHOP,
+    CANCELLER_INTOXICATE,
     CANCELLER_END,
     CANCELLER_PSYCHIC_TERRAIN,
     CANCELLER_END2,
@@ -3177,7 +3178,7 @@ u8 AtkCanceller_UnableToUseMove(void)
             }
             gBattleStruct->atkCancellerTracker++;
             break;
-             case CANCELLER_CONFUSED: // intoxicate
+        case CANCELLER_INTOXICATE: // intoxicate
             if (gBattleMons[gBattlerAttacker].status2 & STATUS2_INTOXICATE)
             {
                 gBattleMons[gBattlerAttacker].status2 -= STATUS2_INTOXICATE_TURN(1);
