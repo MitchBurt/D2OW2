@@ -738,8 +738,6 @@ static const u8 sChapsnatTMHMLearnset[] =
 
 static const u8 sAlcooTMHMLearnset[] =
 {
-static const u8 sAlcooTMHMLearnset[] =
-{
     TMHM(TM03_WATER_PULSE),
     TMHM(TM06_TOXIC),
     TMHM(TM10_HIDDEN_POWER),
@@ -2183,7 +2181,7 @@ static const u8 sRenagedeTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sKlukluxTMHMLearnset[] =
+static const u8 sKukluxTMHMLearnset[] =
 {
     TMHM(TM04_CALM_MIND),
     TMHM(TM06_TOXIC),
@@ -2581,7 +2579,7 @@ static const u8 sFlooteyTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sFlooteyTMHMLearnset[] =
+static const u8 sFreddiferTMHMLearnset[] =
 {
     TMHM(TM03_WATER_PULSE),
     TMHM(TM04_CALM_MIND),
@@ -4121,7 +4119,7 @@ static const u8 sBiremicTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sBiremicTMHMLearnset[] =
+static const u8 sCapfalcoTMHMLearnset[] =
 {
     TMHM(TM01_FOCUS_PUNCH),
     TMHM(TM05_ROAR),
