@@ -560,7 +560,7 @@ static const struct LevelUpMove sToyutaLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sNidoranFLevelUpLearnset[] = {
+static const struct LevelUpMove sNauseonLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 1, MOVE_SMOG),
 	LEVEL_UP_MOVE( 1, MOVE_GROWL),
 	LEVEL_UP_MOVE( 1, MOVE_POISON_GAS),
@@ -623,7 +623,7 @@ static const struct LevelUpMove sEbolableLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sNidoranMLevelUpLearnset[] = {
+static const struct LevelUpMove sUngaLevelUpLearnset[] = {
 	LEVEL_UP_MOVE(1, MOVE_GROWL),
 	LEVEL_UP_MOVE(3, MOVE_TAIL_WHIP),
 	LEVEL_UP_MOVE(7, MOVE_TACKLE),

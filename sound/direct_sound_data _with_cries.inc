@@ -499,7 +499,7 @@ Cry_Toyuta::
 	.incbin "sound/direct_sound_samples/cries/cry_toyuta.bin"
 
 	.align 2
-Cry_NidoranF::
+Cry_Nauseon::
 	.incbin "sound/direct_sound_samples/cries/cry_nauseon.bin"
 
 	.align 2
@@ -511,7 +511,7 @@ Cry_Ebolable::
 	.incbin "sound/direct_sound_samples/cries/cry_ebolable.bin"
 
 	.align 2
-Cry_NidoranM::
+Cry_Unga::
 	.incbin "sound/direct_sound_samples/cries/cry_unga.bin"
 
 	.align 2

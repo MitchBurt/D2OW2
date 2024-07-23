@@ -172,7 +172,7 @@ const u8 gToyutaPokedexText[] = _(
     "y de los golpes de calor que hay durante\n"
     "el día, cuando aumenta la temperatura.");
 
-const u8 gNidoranFPokedexText[] = _(
+const u8 gNauseonPokedexText[] = _(
     "Dado su pequeño tamaño, se cree que\n"
     "desarrolló las púas venenosas a modo de\n"
     "protección. Cuando se enfada, libera una\n"
@@ -190,7 +190,7 @@ const u8 gEbolablePokedexText[] = _(
     "golpeándolos con violencia. Defiende\n"
     "a sus crías con gran ferocidad.");
 
-const u8 gNidoranMPokedexText[] = _(
+const u8 gUngaPokedexText[] = _(
     "El Nidoran macho ha desarrollado músculos\n"
     "para mover las orejas y orientarlas en\n"
     "cualquier dirección. De este modo, es capaz\n"
@@ -5527,7 +5527,7 @@ const u8 gToyutaPokedexText[] = _(
     "heatstroke during the daytime when\n"
     "temperatures rise sharply.");
 
-const u8 gNidoranFPokedexText[] = _(
+const u8 gNauseonPokedexText[] = _(
     "Its highly toxic barbs are thought to have\n"
     "developed as protection for this small-\n"
     "bodied Pokémon. When enraged, it releases\n"
@@ -5545,7 +5545,7 @@ const u8 gEbolablePokedexText[] = _(
     "This Pokémon is at its strongest when\n"
     "it is defending its young.");
 
-const u8 gNidoranMPokedexText[] = _(
+const u8 gUngaPokedexText[] = _(
     "The male Nidoran has developed muscles\n"
     "that freely move its ears in any direction.\n"
     "Even the slightest sound does not escape\n"

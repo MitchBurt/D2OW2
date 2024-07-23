@@ -696,7 +696,7 @@ static const u8 sToyutaTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sNidoranFTutorLearnset[] =
+static const u8 sNauseonTutorLearnset[] =
 {
     TUTOR(MOVE_BODY_SLAM),
     TUTOR(MOVE_DOUBLE_EDGE),
@@ -772,7 +772,7 @@ static const u8 sEbolableTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sNidoranMTutorLearnset[] =
+static const u8 sUngaTutorLearnset[] =
 {
     TUTOR(MOVE_BODY_SLAM),
     TUTOR(MOVE_DOUBLE_EDGE),
@@ -19750,10 +19750,10 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_DISHEATS] = sDisheatsTutorLearnset,
     [SPECIES_JAFEET] = sJafeetTutorLearnset,
     [SPECIES_TOYUTA] = sToyutaTutorLearnset,
-    [SPECIES_NAUSEON] = sNidoranFTutorLearnset,
+    [SPECIES_NAUSEON] = sNauseonTutorLearnset,
     [SPECIES_HAZMATE] = sHazmateTutorLearnset,
     [SPECIES_EBOLABLE] = sEbolableTutorLearnset,
-    [SPECIES_UNGA] = sNidoranMTutorLearnset,
+    [SPECIES_UNGA] = sUngaTutorLearnset,
     [SPECIES_BUNGA] = sBungaTutorLearnset,
     [SPECIES_OOGABOOGA] = sOogaboogaTutorLearnset,
     [SPECIES_EGOIRL] = sEgoirlTutorLearnset,

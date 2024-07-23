@@ -29,10 +29,10 @@ gCryTable:: @ 869DCF4
 	cry Cry_Disheats  @ 869DE20
 	cry Cry_Jafeet  @ 869DE2C
 	cry Cry_Toyuta  @ 869DE38
-	cry Cry_NidoranF  @ 869DE44
+	cry Cry_Nauseon  @ 869DE44
 	cry Cry_Hazmate  @ 869DE50
 	cry Cry_Ebolable  @ 869DE5C
-	cry Cry_NidoranM  @ 869DE68
+	cry Cry_Unga  @ 869DE68
 	cry Cry_Bunga  @ 869DE74
 	cry Cry_Oogabooga  @ 869DE80
 	cry Cry_Egoirl  @ 869DE8C
@@ -1309,10 +1309,10 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Disheats  @ 869F050
 	cry2 Cry_Jafeet  @ 869F05C
 	cry2 Cry_Toyuta  @ 869F068
-	cry2 Cry_NidoranF  @ 869F074
+	cry2 Cry_Nauseon  @ 869F074
 	cry2 Cry_Hazmate  @ 869F080
 	cry2 Cry_Ebolable  @ 869F08C
-	cry2 Cry_NidoranM  @ 869F098
+	cry2 Cry_Unga  @ 869F098
 	cry2 Cry_Bunga  @ 869F0A4
 	cry2 Cry_Oogabooga  @ 869F0B0
 	cry2 Cry_Egoirl  @ 869F0BC
