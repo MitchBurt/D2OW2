@@ -1383,10 +1383,10 @@ static const u8 sText_PastelVeilProtected[] = _("{B_DEF_NAME_WITH_PREFIX} is pro
 static const u8 sText_TargetStatsWereReset[] = _("{B_DEF_NAME_WITH_PREFIX}'s stat changes were\nall reset!");
 static const u8 sText_TargetGotCursed[] = _("{B_DEF_NAME_WITH_PREFIX} was cursed!");
 static const u8 sText_BattlerBecameXType[] = _("{B_DEF_NAME_WITH_PREFIX} became a {B_BUFF1}-type!");
-sText_PkmnWasIntoxicate[] = _("{B_ATK_NAME_WITH_PREFIX} was intoxicated!");
-sText_ItHurtIntoxicate[] = _("It's too drunk.");
-sText_PkmnAlreadyIntoxicate[] = _("{B_ATK_NAME_WITH_PREFIX} is already drunk!");
-sText_PkmnIsIntoxicat[] = _("{B_ATK_NAME_WITH_PREFIX} is drunk!");
+static const u8 sText_PkmnWasIntoxicate[] = _("{B_ATK_NAME_WITH_PREFIX} was intoxicated!");
+static const u8 sText_ItHurtIntoxicate[] = _("It's too drunk.");
+static const u8 sText_PkmnAlreadyIntoxicate[] = _("{B_ATK_NAME_WITH_PREFIX} is already drunk!");
+static const u8 sText_PkmnIsIntoxicat[] = _("{B_ATK_NAME_WITH_PREFIX} is drunk!");
 };
 #endif
 
