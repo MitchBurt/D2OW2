@@ -1383,6 +1383,11 @@ static const u8 sText_PastelVeilProtected[] = _("{B_DEF_NAME_WITH_PREFIX} is pro
 static const u8 sText_TargetStatsWereReset[] = _("{B_DEF_NAME_WITH_PREFIX}'s stat changes were\nall reset!");
 static const u8 sText_TargetGotCursed[] = _("{B_DEF_NAME_WITH_PREFIX} was cursed!");
 static const u8 sText_BattlerBecameXType[] = _("{B_DEF_NAME_WITH_PREFIX} became a {B_BUFF1}-type!");
+sText_PkmnWasIntoxicate[] = _("{B_ATK_NAME_WITH_PREFIX} was intoxicated!");
+sText_ItHurtIntoxicate[] = _("It's too drunk.");
+sText_PkmnAlreadyIntoxicate[] = _("{B_ATK_NAME_WITH_PREFIX} is already drunk!");
+sText_PkmnIsIntoxicat[] = _("{B_ATK_NAME_WITH_PREFIX} is drunk!");
+};
 #endif
 
 const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
@@ -1975,6 +1980,10 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     [STRINGID_PASTELVEILENTERS - 12] = sText_PastelVeilEnters,
     [STRINGID_PASTELVEILPROTECTED -12] = sText_PastelVeilProtected,
     [STRINGID_TARGETSTATSWERERESET -12] = sText_TargetStatsWereReset,
+    [STRINGID_PKMNWASINOXICATE -12] = sText_PkmnWasIntoxicate,
+    [STRINGID_ITHURTINTOXICATE -12] = sText_ItHurtIntoxicate,
+    [STRINGID_PKMNALREADYINTOXICATE -12] = sText_PkmnAlreadyIntoxicate,
+    [STRINGID_PKMNISINTOXICATE -12] = sText_PkmnIsIntoxicate
 };
 
 const u16 gItemDroppedStringIds[] =

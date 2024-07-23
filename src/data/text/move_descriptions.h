@@ -2940,6 +2940,10 @@ static const u8 sEERIE_SPELLDescription[] = _(
     "Attacks with psychic power.\n"
     "Foe's last move has 3 PP cut.");
 
+static const u8 sShotDescription[] = _(
+    "Foe takes a shot.\n"
+    "May intoxicate the foe.");
+
 static const u8 sNotDoneYetDescription[] = _(
 	"Not done yet.");
 
@@ -5888,6 +5892,10 @@ static const u8 sASTRAL_BARRAGEDescription[] = _(
 static const u8 sEERIE_SPELLDescription[] = _(
     "Attacks with psychic power.\n"
     "Foe's last move has 3 PP cut.");
+
+static const u8 sShotDescription[] = _(
+    "Foe takes a shot.\n"
+    "May intoxicate the foe.");
 
 static const u8 sNotDoneYetDescription[] = _(
     "Not done yet.");
