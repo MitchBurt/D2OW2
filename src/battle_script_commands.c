@@ -894,6 +894,7 @@ static const u32 sStatusFlagsForMoveEffects[NUM_MOVE_EFFECTS] =
     [MOVE_EFFECT_PREVENT_ESCAPE] = STATUS2_ESCAPE_PREVENTION,
     [MOVE_EFFECT_NIGHTMARE]      = STATUS2_NIGHTMARE,
     [MOVE_EFFECT_THRASH]         = STATUS2_LOCK_CONFUSE,
+    [MOVE_EFFECT_INTOXICATE]     = STATUS2_INTOXICATE,
 };
 
 static const u8* const sMoveEffectBS_Ptrs[] =
@@ -910,6 +911,7 @@ static const u8* const sMoveEffectBS_Ptrs[] =
     [MOVE_EFFECT_WRAP] = BattleScript_MoveEffectWrap,
     [MOVE_EFFECT_RECOIL_25] = BattleScript_MoveEffectRecoil,
     [MOVE_EFFECT_RECOIL_33] = BattleScript_MoveEffectRecoil,
+    [MOVE_EFFECT_INTOXICATE] = BattleScript_MoveEffectIntoxicate,
 };
 
 static const struct WindowTemplate sUnusedWinTemplate = {0, 1, 3, 7, 0xF, 0x1F, 0x3F};
@@ -2887,6 +2889,20 @@ void SetMoveEffect(bool32 primary, u32 certain)
                 else
                 {
                     gBattleMons[gEffectBattler].status2 |= STATUS2_CONFUSION_TURN(((Random()) % 4) + 2); // 2-5 turns
+
+                    BattleScriptPush(gBattlescriptCurrInstr + 1);
+                    gBattlescriptCurrInstr = sMoveEffectBS_Ptrs[gBattleScripting.moveEffect];
+                }
+                break;
+            case MOVE_EFFECT_INTOXICATE:
+                if (GetBattlerAbility(gEffectBattler) == ABILITY_OWN_TEMPO
+                    || gBattleMons[gEffectBattler].status2 & STATUS2_INTOXICATE) //TODO TOLERNACE ABILTIY
+                {
+                    gBattlescriptCurrInstr++;
+                }
+                else
+                {
+                    gBattleMons[gEffectBattler].status2 |= STATUS2_INTOXICATE_TURN(((Random()) % 4) + 2); // 2-5 turns
 
                     BattleScriptPush(gBattlescriptCurrInstr + 1);
                     gBattlescriptCurrInstr = sMoveEffectBS_Ptrs[gBattleScripting.moveEffect];

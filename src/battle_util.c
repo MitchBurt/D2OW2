@@ -3177,6 +3177,36 @@ u8 AtkCanceller_UnableToUseMove(void)
             }
             gBattleStruct->atkCancellerTracker++;
             break;
+             case CANCELLER_CONFUSED: // intoxicate
+            if (gBattleMons[gBattlerAttacker].status2 & STATUS2_INTOXICATE)
+            {
+                gBattleMons[gBattlerAttacker].status2 -= STATUS2_INTOXICATE_TURN(1);
+                if (gBattleMons[gBattlerAttacker].status2 & STATUS2_INTOXICATE)
+                {
+                    if (Random() % ((B_CONFUSION_SELF_DMG_CHANCE >= GEN_7) ? 3 : 2) == 0) // confusion dmg
+                    {
+                        gBattleCommunication[MULTISTRING_CHOOSER] = 1;
+                        gBattlerTarget = gBattlerAttacker;
+                        gBattleMoveDamage = CalculateMoveDamage(MOVE_NONE, gBattlerAttacker, gBattlerAttacker, TYPE_MYSTERY, 40, FALSE, FALSE, TRUE);
+                        gProtectStructs[gBattlerAttacker].confusionSelfDmg = 1;
+                        gHitMarker |= HITMARKER_UNABLE_TO_USE_MOVE;
+                    }
+                    else
+                    {
+                        gBattleCommunication[MULTISTRING_CHOOSER] = 0;
+                        BattleScriptPushCursor();
+                    }
+                    gBattlescriptCurrInstr = BattleScript_MoveUsedIsConfused;
+                }
+                else // snapped out of confusion
+                {
+                    BattleScriptPushCursor();
+                    gBattlescriptCurrInstr = BattleScript_MoveUsedIsConfusedNoMore;
+                }
+                effect = 1;
+            }
+            gBattleStruct->atkCancellerTracker++;
+            break;
         case CANCELLER_PARALYSED: // paralysis
             if ((gBattleMons[gBattlerAttacker].status1 & STATUS1_PARALYSIS) && (Random() % 4) == 0)
             {

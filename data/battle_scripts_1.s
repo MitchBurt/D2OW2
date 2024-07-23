@@ -378,6 +378,7 @@ gBattleScriptsForMoveEffects:: @ 82D86A8
 	.4byte BattleScript_EffectRisingVoltage				@ EFFECT_RISING_VOLTAGE 			357
 	.4byte BattleScript_EffectNoRetreat 				@ EFFECT_NO_RETREAT					358
 	.4byte BattleScript_EffectJawLock 					@ EFFECT_JAW_LOCK					359
+	.4byte BattleScript_EffectIntoxicate				@ EFFECT_INTOXICATE					360
 
 BattleScript_EffectJawLock:
 	setmoveeffect MOVE_EFFECT_TRAP_BOTH | MOVE_EFFECT_CERTAIN
@@ -8463,3 +8464,57 @@ BattleScript_WildTotemBoostActivated::
 	printstring STRINGID_ALLOFATTACKERSTATSRISED
 	waitmessage 0x40
 	end3
+
+BattleScript_EffectIntoxicate:
+	attackcanceler
+	attackstring
+	ppreduce
+	jumpifsubstituteblocks BattleScript_ButItFailed
+	jumpifstatus2 BS_TARGET, STATUS2_INTOXICATE, BattleScript_AlreadyIntoxicate
+	accuracycheck BattleScript_ButItFailed, ACC_CURR_MOVE
+	jumpifsafeguard BattleScript_SafeguardProtected
+	attackanimation
+	waitanimation
+	setmoveeffect MOVE_EFFECT_INTOXICATE
+	seteffectprimary
+	resultmessage
+	waitmessage 0x40
+	goto BattleScript_MoveEnd
+
+BattleScript_EffectIntoxicateHit::
+	setmoveeffect MOVE_EFFECT_INTOXICATE
+	goto BattleScript_EffectHit
+
+BattleScript_AlreadyIntoxicate::
+	setalreadystatusedmoveattempt BS_ATTACKER
+	pause 0x20
+	printstring STRINGID_PKMNALREADYINTOXICATE
+	waitmessage 0x40
+	goto BattleScript_MoveEnd
+
+BattleScript_MoveUsedIsIntoxicate::
+	printstring STRINGID_PKMNISINTOXICATE
+	waitmessage 0x40
+	status2animation BS_ATTACKER, STATUS2_INTOXICATE
+	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, 0x0, BattleScript_MoveUsedIsConfusedRet
+BattleScript_DoSelfIntoxicateDmg::
+	cancelmultiturnmoves BS_ATTACKER
+	adjustdamage
+	printstring STRINGID_ITHURTINTOXICATE
+	waitmessage 0x40
+	effectivenesssound
+	hitanimation BS_ATTACKER
+	waitstate
+	orword gHitMarker, HITMARKER_IGNORE_SUBSTITUTE | HITMARKER_x100000
+	healthbarupdate BS_ATTACKER
+	datahpupdate BS_ATTACKER
+	resultmessage
+	waitmessage 0x40
+	tryfaintmon BS_ATTACKER, FALSE, NULL
+	goto BattleScript_MoveEnd
+
+BattleScript_MoveEffectIntoxicate::
+	chosenstatus2animation BS_EFFECT_BATTLER, STATUS2_INTOXICATE
+	printstring STRINGID_PKMNWASINOXICATE
+	waitmessage 0x40
+	return

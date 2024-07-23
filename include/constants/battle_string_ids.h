@@ -613,7 +613,13 @@
 #define STRINGID_TARGETGOTCURSED                 609
 #define STRINGID_BATTLERBECAMEXTYPE 		     610
 
-#define BATTLESTRINGS_COUNT                      (STRINGID_BATTLERBECAMEXTYPE + 1)
+#define STRINGID_PKMNWASINOXICATE                611
+#define STRINGID_ITHURTINTOXICATE                612
+#define STRINGID_PKMNALREADYINTOXICATE 		     613
+#define STRINGID_PKMNISINTOXICATE                614
+
+
+#define BATTLESTRINGS_COUNT                      (STRINGID_PKMNISINTOXICATE + 1)
 
 //// multichoice message IDs
 // switch in ability message

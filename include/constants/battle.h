@@ -139,6 +139,8 @@
 #define STATUS2_FORESIGHT             (1 << 29)
 #define STATUS2_DEFENSE_CURL          (1 << 30)
 #define STATUS2_TORMENT               (1 << 31)
+#define STATUS2_INTOXICATE            (1 << 32)
+#define STATUS2_INTOXICATE_TURN(num)   ((num) << 32)
 
 #define STATUS3_LEECHSEED_BATTLER       (1 << 0 | 1 << 1) // The battler to receive HP from Leech Seed
 #define STATUS3_LEECHSEED               (1 << 2)
@@ -359,7 +361,8 @@
 #define MOVE_EFFECT_SPD_PLUS_1_DEF_MINUS_1 0x46
 #define MOVE_EFFECT_RECOIL            	0x47
 #define MOVE_EFFECT_TRAP_BOTH           0x48
-#define NUM_MOVE_EFFECTS                0x49
+#define MOVE_EFFECT_INTOXICATE           0x49
+#define NUM_MOVE_EFFECTS                0x50
 
 #define MOVE_EFFECT_AFFECTS_USER        0x4000
 #define MOVE_EFFECT_CERTAIN             0x8000

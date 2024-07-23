@@ -3669,7 +3669,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_MOONLIGHT] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_6
-            .type = TYPE_FAIRY,
+            .type = TYPE_COSMIC,
         #else
             .type = TYPE_NORMAL,
         #endif
@@ -4801,7 +4801,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
             .accuracy = 85,
         #endif
         .effect = EFFECT_ATTACK_UP_HIT,
-        .type = TYPE_STEEL,
+        .type = TYPE_COSMIC,
         .pp = 10,
         .secondaryEffectChance = 20,
         .target = MOVE_TARGET_SELECTED,
@@ -5001,7 +5001,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     {
         .effect = EFFECT_COSMIC_POWER,
         .power = 0,
-        .type = TYPE_PSYCHIC,
+        .type = TYPE_COSMIC,
         .accuracy = 0,
         .pp = 20,
         .secondaryEffectChance = 0,
@@ -5525,7 +5525,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     {
         .effect = EFFECT_GRAVITY,
         .power = 0,
-        .type = TYPE_PSYCHIC,
+        .type = TYPE_COSMIC,
         .accuracy = 0,
         .pp = 5,
         .secondaryEffectChance = 0,
@@ -6376,7 +6376,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     {
         .effect = EFFECT_HIT,
         .power = 40,
-        .type = TYPE_FIGHTING,
+        .type = TYPE_COSMIC,
         .accuracy = 100,
         .pp = 30,
         .secondaryEffectChance = 0,
@@ -7104,7 +7104,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     {
         .effect = EFFECT_HIT,
         .power = 100,
-        .type = TYPE_DRAGON,
+        .type = TYPE_COSMIC,
         .accuracy = 95,
         .pp = 5,
         .secondaryEffectChance = 0,
@@ -7123,7 +7123,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         #endif
         .effect = EFFECT_HEALING_WISH,
         .power = 0,
-        .type = TYPE_PSYCHIC,
+        .type = TYPE_COSMIC,
         .accuracy = 0,
         .pp = 10,
         .secondaryEffectChance = 0,
@@ -8963,7 +8963,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     {
         .effect = EFFECT_SPECIAL_ATTACK_DOWN_HIT,
         .power = 95,
-        .type = TYPE_FAIRY,
+        .type = TYPE_COSMIC,
         .accuracy = 100,
         .pp = 15,
         .secondaryEffectChance = 30,
@@ -9079,7 +9079,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     {
         .effect = EFFECT_FEINT,
         .power = 80,
-        .type = TYPE_PSYCHIC,
+        .type = TYPE_COSMIC,
         .accuracy = 0,
         .pp = 5,
         .secondaryEffectChance = 0,
@@ -10975,7 +10975,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     {
         .effect = EFFECT_RECHARGE,
         .power = 150,
-        .type = TYPE_FIGHTING,
+        .type = TYPE_COSMIC,
         .accuracy = 100,
         .pp = 5,
         .secondaryEffectChance = 0,
@@ -11059,7 +11059,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     {
         .effect = EFFECT_HIT,   //TODO
         .power = 85,
-        .type = TYPE_ROCK,
+        .type = TYPE_COSMIC,
         .accuracy = 90,
         .pp = 10,
         .secondaryEffectChance = 0,
@@ -11429,6 +11429,20 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED | FLAG_SOUND,
+        .split = SPLIT_SPECIAL,
+    },
+
+    [MOVE_SHOT] =
+    {
+        .effect = EFFECT_INTOXICATE,
+        .power = 20,
+        .type = TYPE_POISON,
+        .accuracy = 90,
+        .pp = 20,
+        .secondaryEffectChance = 100,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED | FLAG_SHEER_FORCE_BOOST | FLAG_ALCOHOL,
         .split = SPLIT_SPECIAL,
     },
 };

@@ -1112,7 +1112,7 @@ Script_Give_Starter6::
 	hidemonpic
 	compare VAR_RESULT, NO
 	goto_if_eq Start_EventScript_Chose_Starter
-	givecustommon SPECIES_ALCOO, 10, ITEM_NONE, ITEM_POKE_BALL, NATURE_ADAMANT, 1, 0, 0, 0, 0, 0, 0, 31, 31, 15, 15, 15, 15, MOVE_TACKLE, MOVE_GROWL, MOVE_EMBER, MOVE_TWINEEDLE
+	givecustommon SPECIES_ALCOO, 10, ITEM_NONE, ITEM_POKE_BALL, NATURE_ADAMANT, 1, 0, 0, 0, 0, 0, 0, 31, 31, 15, 15, 15, 15, MOVE_TACKLE, MOVE_GROWL, MOVE_SHOT, MOVE_TWINEEDLE
 	playfanfare MUS_OBTAIN_ITEM
 	msgbox Text_Received_Starter6, MSGBOX_DEFAULT
 	setflag FLAG_SYS_POKEMON_GET
