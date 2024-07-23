@@ -4174,7 +4174,7 @@ static const u8 sFennafTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sBiphamaTMHMLearnset[] =
+static const u8 sBipharmaTMHMLearnset[] =
 {
     TMHM(TM06_TOXIC),
     TMHM(TM10_HIDDEN_POWER),
@@ -4617,7 +4617,7 @@ static const u8 sMongelordTMHMLearnset[] =
 };
 
 
-static const u8 sMongelordTMHMLearnset[] =
+static const u8 sBurikTMHMLearnset[] =
 {
     TMHM(TM03_WATER_PULSE),
     TMHM(TM05_ROAR),
