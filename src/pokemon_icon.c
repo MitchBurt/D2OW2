@@ -1245,7 +1245,7 @@ const u8 *const gMonIconTableFemale[] =
 	[SPECIES_JELLICENT] = gMonIcon_JellicentF,
 	[SPECIES_PYROAR] = gMonIcon_PyroarF,
 };
-
+//TODO
 const u8 gMonIconPaletteIndices[] =
 {
 	[SPECIES_MEADOSAUR] = 4,
@@ -1254,7 +1254,7 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_SKORCHI] = 0,
     [SPECIES_SKOMAD] = 0,
     [SPECIES_SKORPYROS] = 0,
-    [SPECIES_JISSM] = 0,
+    [SPECIES_JISSM] = 2,
     [SPECIES_SPLOOGER] = 2,
     [SPECIES_SPERIATHON] = 2,
     [SPECIES_BUG] = 1,

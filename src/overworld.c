@@ -368,7 +368,7 @@ static EWRAM_DATA bool8 anyPokemonLeft = FALSE;
 void DoWhiteOut(void)
 {
 
-    if ((anyPokemonLeft == FALSE) && FlagGet(FLAG_HARD_MODE))
+    if ((anyPokemonLeft == FALSE) && FlagGet(FLAG_NUZLOCKE))
     {
         ClearSaveData();
         ResetSafariZoneFlag();
