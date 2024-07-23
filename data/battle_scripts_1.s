@@ -8470,7 +8470,7 @@ BattleScript_EffectIntoxicate:
 	attackstring
 	ppreduce
 	jumpifsubstituteblocks BattleScript_ButItFailed
-	jumpifstatus2 BS_TARGET, STATUS2_INTOXICATE, BattleScript_AlreadyIntoxicate
+	jumpifstatus2 BS_TARGET, STATUS4_INTOXICATE, BattleScript_AlreadyIntoxicate
 	accuracycheck BattleScript_ButItFailed, ACC_CURR_MOVE
 	jumpifsafeguard BattleScript_SafeguardProtected
 	attackanimation
@@ -8495,7 +8495,7 @@ BattleScript_AlreadyIntoxicate::
 BattleScript_MoveUsedIsIntoxicate::
 	printstring STRINGID_PKMNISINTOXICATE
 	waitmessage 0x40
-	status2animation BS_ATTACKER, STATUS2_INTOXICATE
+	status2animation BS_ATTACKER, STATUS4_INTOXICATE
 	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, 0x0, BattleScript_MoveUsedIsConfusedRet
 BattleScript_DoSelfIntoxicateDmg::
 	cancelmultiturnmoves BS_ATTACKER
@@ -8514,7 +8514,7 @@ BattleScript_DoSelfIntoxicateDmg::
 	goto BattleScript_MoveEnd
 
 BattleScript_MoveEffectIntoxicate::
-	chosenstatus2animation BS_EFFECT_BATTLER, STATUS2_INTOXICATE
+	chosenstatus2animation BS_EFFECT_BATTLER, STATUS4_INTOXICATE
 	printstring STRINGID_PKMNWASINOXICATE
 	waitmessage 0x40
 	return
