@@ -8496,7 +8496,7 @@ BattleScript_MoveUsedIsIntoxicate::
 	printstring STRINGID_PKMNISINTOXICATE
 	waitmessage 0x40
 	status2animation BS_ATTACKER, STATUS4_INTOXICATE
-	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, 0x0, BattleScript_MoveUsedIsConfusedRet
+	jumpifbyte CMP_EQUAL, cMULTISTRING_CHOOSER, 0x0, BattleScript_MoveUsedIsIntoxRet
 BattleScript_DoSelfIntoxicateDmg::
 	cancelmultiturnmoves BS_ATTACKER
 	adjustdamage
@@ -8512,6 +8512,8 @@ BattleScript_DoSelfIntoxicateDmg::
 	waitmessage 0x40
 	tryfaintmon BS_ATTACKER, FALSE, NULL
 	goto BattleScript_MoveEnd
+BattleScript_MoveUsedIsIntoxRet::
+	return
 
 BattleScript_MoveEffectIntoxicate::
 	chosenstatus2animation BS_EFFECT_BATTLER, STATUS4_INTOXICATE
