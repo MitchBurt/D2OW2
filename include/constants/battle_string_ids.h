@@ -616,7 +616,8 @@
 #define STRINGID_PKMNWASINOXICATE                611
 #define STRINGID_ITHURTINTOXICATE                612
 #define STRINGID_PKMNALREADYINTOXICATE 		     613
-#define STRINGID_PKMNISINTOXICATE                614
+#define STRINGID_PKMNSOBERED                     614
+#define STRINGID_PKMNISINTOXICATE                615
 
 
 #define BATTLESTRINGS_COUNT                      (STRINGID_PKMNISINTOXICATE + 1)

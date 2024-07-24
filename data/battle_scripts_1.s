@@ -8520,3 +8520,8 @@ BattleScript_MoveEffectIntoxicate::
 	printstring STRINGID_PKMNWASINOXICATE
 	waitmessage 0x40
 	return
+	
+BattleScript_MoveIsIntoxicateNoMore::
+	printstring STRINGID_PKMNSOBERED
+	waitmessage 0x40
+	return

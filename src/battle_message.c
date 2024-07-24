@@ -1387,6 +1387,7 @@ static const u8 sText_PkmnWasIntoxicate[] = _("{B_ATK_NAME_WITH_PREFIX} was into
 static const u8 sText_ItHurtIntoxicate[] = _("It's too drunk.");
 static const u8 sText_PkmnAlreadyIntoxicate[] = _("{B_ATK_NAME_WITH_PREFIX} is already drunk!");
 static const u8 sText_PkmnIsIntoxicate[] = _("{B_ATK_NAME_WITH_PREFIX} is drunk!");
+static const u8 sText_PkmnIsSober[] = _("{B_ATK_NAME_WITH_PREFIX} sobered up!");
 
 #endif
 
@@ -1984,6 +1985,7 @@ const u8 *const gBattleStringsTable[BATTLESTRINGS_COUNT] =
     [STRINGID_ITHURTINTOXICATE -12] = sText_ItHurtIntoxicate,
     [STRINGID_PKMNALREADYINTOXICATE -12] = sText_PkmnAlreadyIntoxicate,
     [STRINGID_PKMNISINTOXICATE -12] = sText_PkmnIsIntoxicate,
+    [STRINGID_PKMNSOBERED -12] = sText_PkmnIsSober,
 };
 
 const u16 gItemDroppedStringIds[] =

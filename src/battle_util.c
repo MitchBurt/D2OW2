@@ -3197,12 +3197,12 @@ u8 AtkCanceller_UnableToUseMove(void)
                         gBattleCommunication[MULTISTRING_CHOOSER] = 0;
                         BattleScriptPushCursor();
                     }
-                    gBattlescriptCurrInstr = BattleScript_MoveUsedIsConfused;
+                    gBattlescriptCurrInstr = BattleScript_MoveUsedIsIntoxicate;
                 }
                 else // snapped out of confusion
                 {
                     BattleScriptPushCursor();
-                    gBattlescriptCurrInstr = BattleScript_MoveUsedIsConfusedNoMore;
+                    gBattlescriptCurrInstr = BattleScript_MoveIsIntoxicateNoMore;
                 }
                 effect = 1;
             }
