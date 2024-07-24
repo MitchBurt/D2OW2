@@ -2402,16 +2402,18 @@ u8 DoBattlerEndTurnEffects(void)
             {
                 if (Random() % 8)
                     {
-                        gBattleStruct->turnEffectsTracker++;
-                        break;
+/*                         gBattleStruct->turnEffectsTracker++;
+                        break; */
+                        effect++;
                     }
-                else // sober
+                else // Sober
                     {
                         gBattleMons[gActiveBattler].status1 &= ~(STATUS1_INTOXICATE);
                         BattleScriptExecute(BattleScript_MoveSober);
+                        effect++;
                     }
-                //effect++;
             }
+            gBattleStruct->turnEffectsTracker++;
             break;
         case ENDTURN_NIGHTMARES:  // spooky nightmares
             if ((gBattleMons[gActiveBattler].status2 & STATUS2_NIGHTMARE)
