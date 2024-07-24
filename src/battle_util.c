@@ -2396,24 +2396,24 @@ u8 DoBattlerEndTurnEffects(void)
             }
             gBattleStruct->turnEffectsTracker++;
             break;
-        case ENDTURN_INTOXICATE:  // burn
+        case ENDTURN_INTOXICATE:  // drunk
             if ((gBattleMons[gActiveBattler].status1 & STATUS1_INTOXICATE)
                 && gBattleMons[gActiveBattler].hp != 0)
             {
-            if (Random() % 5)
-                {
+                if (Random() % 8)
+                    {
+                        gBattleStruct->turnEffectsTracker++;
                         break;
-                }
+                    }
                 else // sober
-                {
-                    gBattleMons[gBattlerAttacker].status1 &= ~(STATUS1_INTOXICATE);
-                    BattleScriptPushCursor();
-                    gBattlescriptCurrInstr = BattleScript_MoveSober;
-                    gBattleCommunication[MULTISTRING_CHOOSER] = 0;
-                }
-                effect++;
+                    {
+                        gBattleMons[gBattlerAttacker].status1 &= ~(STATUS1_INTOXICATE);
+                        BattleScriptPushCursor();
+                        gBattlescriptCurrInstr = BattleScript_MoveSober;
+                        gBattleCommunication[MULTISTRING_CHOOSER] = 0;
+                    }
+                 effect = 2;
             }
-            gBattleStruct->turnEffectsTracker++;
             break;
         case ENDTURN_NIGHTMARES:  // spooky nightmares
             if ((gBattleMons[gActiveBattler].status2 & STATUS2_NIGHTMARE)

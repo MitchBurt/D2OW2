@@ -1714,9 +1714,9 @@ u32 GetTotalAccuracy(u32 battlerAtk, u32 battlerDef, u32 move)
     else if (atkHoldEffect == HOLD_EFFECT_ZOOM_LENS && GetBattlerTurnOrderNum(battlerAtk) > GetBattlerTurnOrderNum(battlerDef));
         calc = (calc * (100 + atkParam)) / 100;
 
-    if (gBattleMons[battlerAtk].status1 & STATUS1_INTOXICATE)
-        calc = (calc * 50) / 100; // 1.5 intoxicate loss
-
+    if (gBattleMons[battlerAtk].status1 & STATUS1_INTOXICATE){
+        calc = (calc * 25) / 100; // 1.5 intoxicate loss
+    }
     return calc;
 }
 
@@ -2642,7 +2642,6 @@ void SetMoveEffect(bool32 primary, u32 certain)
             statusChanged = TRUE;
             break;
         case STATUS1_INTOXICATE:
-
             gActiveBattler = gBattlersCount;
 
             if (gBattleMons[gEffectBattler].status1)
@@ -2653,7 +2652,6 @@ void SetMoveEffect(bool32 primary, u32 certain)
                 //|| GetBattlerAbility(gEffectBattler) == Tolerance
                 || IsAbilityStatusProtected(gEffectBattler))
                 break; 
-
             CancelMultiTurnMoves(gEffectBattler);
             statusChanged = TRUE;
             break;
