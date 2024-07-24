@@ -2408,11 +2408,9 @@ u8 DoBattlerEndTurnEffects(void)
                 else // sober
                     {
                         gBattleMons[gActiveBattler].status1 &= ~(STATUS1_INTOXICATE);
-                        BattleScriptPushCursor();
-                        gBattlescriptCurrInstr = BattleScript_MoveSober;
-                        //gBattleCommunication[MULTISTRING_CHOOSER] = 0;
+                        BattleScriptExecute(BattleScript_MoveSober);
                     }
-                effect++;
+                //effect++;
             }
             break;
         case ENDTURN_NIGHTMARES:  // spooky nightmares
