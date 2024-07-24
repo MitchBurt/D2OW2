@@ -2409,7 +2409,7 @@ u8 DoBattlerEndTurnEffects(void)
                 else // Sober
                     {
                         gBattleMons[gActiveBattler].status1 &= ~(STATUS1_INTOXICATE);
-                        gBattleMons[gActiveBattler].status1 == (STATUS1_SLEEP)
+                        gBattleMons[gActiveBattler].status1 == (STATUS1_SLEEP);
                         BattleScriptExecute(BattleScript_MoveSober);
                         effect++;
                     }
