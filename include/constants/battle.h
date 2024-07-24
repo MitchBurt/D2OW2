@@ -107,8 +107,10 @@
 #define STATUS1_TOXIC_POISON     (1 << 7)
 #define STATUS1_TOXIC_COUNTER    (1 << 8 | 1 << 9 | 1 << 10 | 1 << 11)
 #define STATUS1_TOXIC_TURN(num)  ((num) << 8)
-#define STATUS1_PSN_ANY          (STATUS1_POISON | STATUS1_TOXIC_POISON)
-#define STATUS1_ANY              (STATUS1_SLEEP | STATUS1_POISON | STATUS1_BURN | STATUS1_FREEZE | STATUS1_PARALYSIS | STATUS1_TOXIC_POISON)
+#define STATUS1_PSN_ANY          (STATUS1_POISON | STATUS1_TOXIC_POISON | STATUS1_INTOXICATE)
+#define STATUS1_INTOXICATE            (1 << 12 | 1 << 13 | 1 << 14)
+#define STATUS1_INTOXICATE_TURN(num)  ((num) << 12)
+#define STATUS1_ANY              (STATUS1_SLEEP | STATUS1_POISON | STATUS1_BURN | STATUS1_FREEZE | STATUS1_PARALYSIS | STATUS1_TOXIC_POISON | STATUS1_INTOXICATE)
 
 // Volatile status ailments
 // These are removed after exiting the battle or switching out
@@ -175,8 +177,6 @@
 
 
 #define STATUS4_COILED_UP               (1 << 0)
-#define STATUS4_INTOXICATE            (1 << 1 | 1 << 2 | 1 << 3)
-#define STATUS4_INTOXICATE_TURN(num)  ((num) << 0)
 
 #define HITMARKER_x10                   (1 << 4)
 #define HITMARKER_x20                   (1 << 5)

@@ -885,6 +885,7 @@ static const u32 sStatusFlagsForMoveEffects[NUM_MOVE_EFFECTS] =
     [MOVE_EFFECT_FREEZE]         = STATUS1_FREEZE,
     [MOVE_EFFECT_PARALYSIS]      = STATUS1_PARALYSIS,
     [MOVE_EFFECT_TOXIC]          = STATUS1_TOXIC_POISON,
+    [MOVE_EFFECT_INTOXICATE]     = STATUS1_INTOXICATE,
     [MOVE_EFFECT_CONFUSION]      = STATUS2_CONFUSION,
     [MOVE_EFFECT_FLINCH]         = STATUS2_FLINCHED,
     [MOVE_EFFECT_UPROAR]         = STATUS2_UPROAR,
@@ -894,7 +895,6 @@ static const u32 sStatusFlagsForMoveEffects[NUM_MOVE_EFFECTS] =
     [MOVE_EFFECT_PREVENT_ESCAPE] = STATUS2_ESCAPE_PREVENTION,
     [MOVE_EFFECT_NIGHTMARE]      = STATUS2_NIGHTMARE,
     [MOVE_EFFECT_THRASH]         = STATUS2_LOCK_CONFUSE,
-    [MOVE_EFFECT_INTOXICATE]     = STATUS4_INTOXICATE,
 };
 
 static const u8* const sMoveEffectBS_Ptrs[] =
@@ -2608,7 +2608,7 @@ void SetMoveEffect(bool32 primary, u32 certain)
     if (DoesSubstituteBlockMove(gBattlerAttacker, gEffectBattler, gCurrentMove) && affectsUser != MOVE_EFFECT_AFFECTS_USER)
         INCREMENT_RESET_RETURN
 
-    if (gBattleScripting.moveEffect <= PRIMARY_STATUS_MOVE_EFFECT) // status change
+     if (gBattleScripting.moveEffect <= PRIMARY_STATUS_MOVE_EFFECT || gBattleScripting.moveEffect >= MOVE_EFFECT_INTOXICATE) // status change
     {
         switch (sStatusFlagsForMoveEffects[gBattleScripting.moveEffect])
         {
@@ -2634,6 +2634,22 @@ void SetMoveEffect(bool32 primary, u32 certain)
                 || IsAbilityOnSide(gEffectBattler, ABILITY_SWEET_VEIL)
                 || IsAbilityStatusProtected(gEffectBattler))
                 break;
+
+            CancelMultiTurnMoves(gEffectBattler);
+            statusChanged = TRUE;
+            break;
+        case STATUS1_INTOXICATE:
+
+            gActiveBattler = gBattlersCount;
+
+            if (gBattleMons[gEffectBattler].status1)
+                break;
+            if (gActiveBattler != gBattlersCount)
+                break;
+             if (GetBattlerAbility(gEffectBattler) == ABILITY_COMATOSE
+                //|| GetBattlerAbility(gEffectBattler) == Tolerance
+                || IsAbilityStatusProtected(gEffectBattler))
+                break; 
 
             CancelMultiTurnMoves(gEffectBattler);
             statusChanged = TRUE;
@@ -2889,20 +2905,6 @@ void SetMoveEffect(bool32 primary, u32 certain)
                 else
                 {
                     gBattleMons[gEffectBattler].status2 |= STATUS2_CONFUSION_TURN(((Random()) % 4) + 2); // 2-5 turns
-
-                    BattleScriptPush(gBattlescriptCurrInstr + 1);
-                    gBattlescriptCurrInstr = sMoveEffectBS_Ptrs[gBattleScripting.moveEffect];
-                }
-                break;
-            case MOVE_EFFECT_INTOXICATE:
-                if (GetBattlerAbility(gEffectBattler) == ABILITY_OWN_TEMPO
-                    || gBattleMons[gEffectBattler].status2 & STATUS4_INTOXICATE) //TODO TOLERNACE ABILTIY
-                {
-                    gBattlescriptCurrInstr++;
-                }
-                else
-                {
-                    gBattleMons[gEffectBattler].status2 |= STATUS4_INTOXICATE_TURN(((Random()) % 4) + 2); // 2-5 turns
 
                     BattleScriptPush(gBattlescriptCurrInstr + 1);
                     gBattlescriptCurrInstr = sMoveEffectBS_Ptrs[gBattleScripting.moveEffect];

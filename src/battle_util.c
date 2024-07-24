@@ -1228,8 +1228,7 @@ bool8 WasUnableToUseMove(u8 battler)
         || gProtectStructs[battler].flinchImmobility
         || gProtectStructs[battler].confusionSelfDmg
         || gProtectStructs[battler].powderSelfDmg
-        || gProtectStructs[battler].usedThroatChopPreventedMove
-        || gProtectStructs[battler].intoxSelfDmg)
+        || gProtectStructs[battler].usedThroatChopPreventedMove)
         return TRUE;
     else
         return FALSE;
@@ -2186,6 +2185,7 @@ enum
     ENDTURN_POWDER,
     ENDTURN_THROAT_CHOP,
     ENDTURN_SLOW_START,
+    ENDTURN_INTOXICATE,
     ENDTURN_BATTLER_COUNT
 };
 
@@ -2394,6 +2394,24 @@ u8 DoBattlerEndTurnEffects(void)
                 BattleScriptExecute(BattleScript_BurnTurnDmg);
                 effect++;
             }
+            gBattleStruct->turnEffectsTracker++;
+            break;
+        case ENDTURN_INTOXICATE:  // burn
+            if ((gBattleMons[gActiveBattler].status1 & STATUS1_INTOXICATE)
+                && gBattleMons[gActiveBattler].hp != 0)
+            {
+            if (Random() % 5)
+                {
+                        break;
+                }
+                else // sober
+                {
+                    gBattleMons[gBattlerAttacker].status1 &= ~(STATUS1_INTOXICATE);
+                    BattleScriptPushCursor();
+                    gBattlescriptCurrInstr = BattleScript_MoveSober;
+                    gBattleCommunication[MULTISTRING_CHOOSER] = 0;
+                }
+                effect++;
             gBattleStruct->turnEffectsTracker++;
             break;
         case ENDTURN_NIGHTMARES:  // spooky nightmares
@@ -2956,7 +2974,6 @@ enum
     CANCELLER_TAUNTED,
     CANCELLER_IMPRISONED,
     CANCELLER_CONFUSED,
-    CANCELLER_INTOXICATE,
     CANCELLER_PARALYSED,
     CANCELLER_IN_LOVE,
     CANCELLER_BIDE,
@@ -3174,36 +3191,6 @@ u8 AtkCanceller_UnableToUseMove(void)
                 {
                     BattleScriptPushCursor();
                     gBattlescriptCurrInstr = BattleScript_MoveUsedIsConfusedNoMore;
-                }
-                effect = 1;
-            }
-            gBattleStruct->atkCancellerTracker++;
-            break;
-        case CANCELLER_INTOXICATE: // intoxicate
-            if (gBattleMons[gBattlerAttacker].status2 & STATUS4_INTOXICATE)
-            {
-                gBattleMons[gBattlerAttacker].status2 -= STATUS4_INTOXICATE_TURN(1);
-                if (gBattleMons[gBattlerAttacker].status2 & STATUS4_INTOXICATE)
-                {
-                    if (Random() % ((B_CONFUSION_SELF_DMG_CHANCE >= GEN_7) ? 3 : 2) == 0) // intoxicate dmg
-                    {
-                        gBattleCommunication[MULTISTRING_CHOOSER] = 1;
-                        gBattlerTarget = gBattlerAttacker;
-                        gBattleMoveDamage = CalculateMoveDamage(MOVE_NONE, gBattlerAttacker, gBattlerAttacker, TYPE_MYSTERY, 40, FALSE, FALSE, TRUE);
-                        gProtectStructs[gBattlerAttacker].intoxSelfDmg = 1;
-                        gHitMarker |= HITMARKER_UNABLE_TO_USE_MOVE;
-                    }
-                    else
-                    {
-                        gBattleCommunication[MULTISTRING_CHOOSER] = 0;
-                        BattleScriptPushCursor();
-                    }
-                    gBattlescriptCurrInstr = BattleScript_MoveUsedIsIntoxicate;
-                }
-                else // snapped out of confusion
-                {
-                    BattleScriptPushCursor();
-                    gBattlescriptCurrInstr = BattleScript_MoveIsIntoxicateNoMore;
                 }
                 effect = 1;
             }
@@ -4503,7 +4490,7 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u16 ability, u8 special, u16 move
                 if ((gBattleMons[battler].status1 & STATUS1_ANY) && (Random() % 3) == 0)
                 {
                 ABILITY_HEAL_MON_STATUS:
-                    if (gBattleMons[battler].status1 & (STATUS1_POISON | STATUS1_TOXIC_POISON))
+                    if (gBattleMons[battler].status1 & (STATUS1_POISON | STATUS1_TOXIC_POISON | STATUS1_INTOXICATE))
                         StringCopy(gBattleTextBuff1, gStatusConditionString_PoisonJpn);
                     if (gBattleMons[battler].status1 & STATUS1_SLEEP)
                         StringCopy(gBattleTextBuff1, gStatusConditionString_SleepJpn);

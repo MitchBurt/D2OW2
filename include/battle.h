@@ -129,6 +129,7 @@ struct ProtectStruct
     u32 bounceMove:1;
     u32 stealMove:1;
     u32 prlzImmobility:1;
+    u32 intoxSelfDmg:1;
     u32 confusionSelfDmg:1;
     u32 targetNotAffected:1;
     u32 chargingTurn:1;
@@ -151,7 +152,6 @@ struct ProtectStruct
     u32 specialDmg;
     u8 physicalBattlerId;
     u8 specialBattlerId;
-    u32 intoxSelfDmg:1;
 };
 
 struct SpecialStatus

@@ -400,7 +400,7 @@ void InitAndLaunchChosenStatusAnimation(bool8 isStatus2, u32 status)
     {
         if (status == STATUS1_FREEZE)
             LaunchStatusAnimation(gActiveBattler, B_ANIM_STATUS_FRZ);
-        else if (status == STATUS1_POISON || status & STATUS1_TOXIC_POISON)
+        else if (status == STATUS1_POISON || status & STATUS1_TOXIC_POISON || status & STATUS1_INTOXICATE)
             LaunchStatusAnimation(gActiveBattler, B_ANIM_STATUS_PSN);
         else if (status == STATUS1_BURN)
             LaunchStatusAnimation(gActiveBattler, B_ANIM_STATUS_BRN);
