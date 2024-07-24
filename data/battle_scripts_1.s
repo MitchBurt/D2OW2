@@ -8508,10 +8508,4 @@ BattleScript_MoveSober::
 	printfromtable STRINGID_PKMNSOBERED
 	waitmessage 0x40
 	updatestatusicon BS_ATTACKER
-	statusanimation BS_EFFECT_BATTLER
-	printstring STRINGID_PKMNFELLASLEEP
-	waitmessage 0x40
-	updatestatusicon BS_EFFECT_BATTLER
-	waitstate
-	makevisible BS_EFFECT_BATTLER
-	end2
+	goto BattleScript_YawnMakesAsleep
