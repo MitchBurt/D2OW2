@@ -8488,7 +8488,7 @@ BattleScript_EffectIntoxicate::
 	waitmessage 0x40
 	goto BattleScript_MoveEnd
 
-BattleScript_AlreadyIntoxicate
+BattleScript_AlreadyIntoxicate::
 	accuracycheck BattleScript_ButItFailed, ACC_CURR_MOVE
 	jumpifsafeguard BattleScript_SafeguardProtected
 	attackanimation
