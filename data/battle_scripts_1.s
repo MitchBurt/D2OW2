@@ -8499,7 +8499,6 @@ BattleScript_AlreadyIntoxicate::
 	waitmessage 0x40
 	goto BattleScript_MoveEnd
 
-
 BattleScript_EffectIntoxicateHit::
 	setmoveeffect MOVE_EFFECT_INTOXICATE
 	goto BattleScript_EffectHit

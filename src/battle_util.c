@@ -2400,15 +2400,16 @@ u8 DoBattlerEndTurnEffects(void)
             if ((gBattleMons[gActiveBattler].status1 & STATUS1_INTOXICATE)
                 && gBattleMons[gActiveBattler].hp != 0)
             {
-                if (Random() % 8)
+                if (Random() % 5)
                     {
-/*                         gBattleStruct->turnEffectsTracker++;
+                    /*  gBattleStruct->turnEffectsTracker++;
                         break; */
                         effect++;
                     }
                 else // Sober
                     {
                         gBattleMons[gActiveBattler].status1 &= ~(STATUS1_INTOXICATE);
+                        gBattleMons[gActiveBattler].status1 == (STATUS1_SLEEP)
                         BattleScriptExecute(BattleScript_MoveSober);
                         effect++;
                     }
