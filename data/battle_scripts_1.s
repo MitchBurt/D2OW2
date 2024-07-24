@@ -8506,5 +8506,5 @@ BattleScript_EffectIntoxicateHit::
 BattleScript_MoveSober::
 	printfromtable STRINGID_PKMNSOBERED
 	waitmessage 0x40
-	updatestatusicon BS_ATTACKER
+	updatestatusicon BS_EFFECT_BATTLER
 	goto BattleScript_YawnMakesAsleep
