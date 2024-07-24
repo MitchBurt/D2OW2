@@ -2412,6 +2412,7 @@ u8 DoBattlerEndTurnEffects(void)
                     gBattleCommunication[MULTISTRING_CHOOSER] = 0;
                 }
                 effect++;
+            }
             gBattleStruct->turnEffectsTracker++;
             break;
         case ENDTURN_NIGHTMARES:  // spooky nightmares
