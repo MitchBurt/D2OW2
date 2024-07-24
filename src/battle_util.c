@@ -2412,7 +2412,7 @@ u8 DoBattlerEndTurnEffects(void)
                         gBattlescriptCurrInstr = BattleScript_MoveSober;
                         gBattleCommunication[MULTISTRING_CHOOSER] = 0;
                     }
-                 effect = 2;
+                effect++;
             }
             break;
         case ENDTURN_NIGHTMARES:  // spooky nightmares
