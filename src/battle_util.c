@@ -2407,10 +2407,10 @@ u8 DoBattlerEndTurnEffects(void)
                     }
                 else // sober
                     {
-                        gBattleMons[gBattlerAttacker].status1 &= ~(STATUS1_INTOXICATE);
+                        gBattleMons[gActiveBattler].status1 &= ~(STATUS1_INTOXICATE);
                         BattleScriptPushCursor();
                         gBattlescriptCurrInstr = BattleScript_MoveSober;
-                        gBattleCommunication[MULTISTRING_CHOOSER] = 0;
+                        //gBattleCommunication[MULTISTRING_CHOOSER] = 0;
                     }
                 effect++;
             }
