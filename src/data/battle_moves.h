@@ -11434,8 +11434,8 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_SHOT] =
     {
-        .effect = EFFECT_INTOXICATE,
-        .power = 20,
+        .effect = EFFECT_INTOXICATE_HIT,
+        .power = 40,
         .type = TYPE_POISON,
         .accuracy = 90,
         .pp = 20,

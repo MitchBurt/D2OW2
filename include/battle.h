@@ -151,6 +151,7 @@ struct ProtectStruct
     u32 specialDmg;
     u8 physicalBattlerId;
     u8 specialBattlerId;
+    u32 intoxSelfDmg:1;
 };
 
 struct SpecialStatus
