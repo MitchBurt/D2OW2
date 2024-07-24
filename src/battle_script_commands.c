@@ -1714,6 +1714,9 @@ u32 GetTotalAccuracy(u32 battlerAtk, u32 battlerDef, u32 move)
     else if (atkHoldEffect == HOLD_EFFECT_ZOOM_LENS && GetBattlerTurnOrderNum(battlerAtk) > GetBattlerTurnOrderNum(battlerDef));
         calc = (calc * (100 + atkParam)) / 100;
 
+    if (gBattleMons[battlerAtk].status1 & STATUS1_INTOXICATE)
+        calc = (calc * 50) / 100; // 1.5 intoxicate loss
+
     return calc;
 }
 

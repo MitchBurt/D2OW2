@@ -6102,10 +6102,6 @@ u8 getMoveAccuracy(u16 move, u16 speciesId){
         else if (gSignatureMoveList[speciesId].modification6 == SIGNATURE_MOD_ACCURACY)
             Accuracy = gSignatureMoveList[speciesId].variable6;
     }
-    //Intox drop
-    if (gBattleMons[battlerId].status1 & STATUS1_INTOXICATE && ability != ABILITY_NO_GUARD)
-        Accuracy /= 2;
-
     return Accuracy;
 }
 
