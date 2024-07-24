@@ -417,5 +417,6 @@ extern const u8 BattleScript_SetMistyTerrain[];
 extern const u8 BattleScript_SetGrassyTerrain[];
 extern const u8 BattleScript_MoveEffectIntoxicate[];
 extern const u8 BattleScript_MoveIsIntoxicateNoMore[];
+extern const u8 BattleScript_MoveUsedIsIntoxicate[];
 
 #endif // GUARD_BATTLE_SCRIPTS_H
