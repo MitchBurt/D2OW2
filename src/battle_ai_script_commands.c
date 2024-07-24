@@ -3332,6 +3332,7 @@ static u8 AI_CheckBadMove(u8 battlerAtk, u8 battlerDef, u16 move, u8 score)
         case EFFECT_FREEZE_HIT:
         case EFFECT_PARALYZE_HIT:
         case EFFECT_CONFUSE_HIT:
+        case EFFECT_INTOXICATE_HIT:
         default:
             break;  // check move damage
         case EFFECT_SLEEP:

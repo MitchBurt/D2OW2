@@ -379,6 +379,7 @@ gBattleScriptsForMoveEffects:: @ 82D86A8
 	.4byte BattleScript_EffectNoRetreat 				@ EFFECT_NO_RETREAT					358
 	.4byte BattleScript_EffectJawLock 					@ EFFECT_JAW_LOCK					359
 	.4byte BattleScript_EffectIntoxicate				@ EFFECT_INTOXICATE					360
+	.4byte BattleScript_EffectIntoxicate				@ EFFECT_INTOXICATEHIT					361
 
 BattleScript_EffectJawLock:
 	setmoveeffect MOVE_EFFECT_TRAP_BOTH | MOVE_EFFECT_CERTAIN
