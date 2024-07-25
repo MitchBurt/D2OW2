@@ -2409,6 +2409,8 @@ u8 DoBattlerEndTurnEffects(void)
                 else // Sober
                     {
                         gBattleMons[gActiveBattler].status1 &= ~(STATUS1_INTOXICATE);
+                        BattleScriptPushCursor();
+                        gBattleCommunication[MULTISTRING_CHOOSER] = 1;
                         gBattleMons[gActiveBattler].status1 &= (STATUS1_SLEEP);
                         BattleScriptExecute(BattleScript_MoveSober);
                         effect++;
