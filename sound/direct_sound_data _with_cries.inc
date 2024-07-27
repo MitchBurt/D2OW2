@@ -1351,8 +1351,8 @@ Cry_Pants::
 	.incbin "sound/direct_sound_samples/cries/cry_pants.bin"
 
 	.align 2
-Cry_Blissey::
-	.incbin "sound/direct_sound_samples/cries/cry_blissey.bin"
+Cry_REAPCHARGE::
+	.incbin "sound/direct_sound_samples/cries/cry_reapcharge.bin"
 
 	.align 2
 Cry_Shockitty::

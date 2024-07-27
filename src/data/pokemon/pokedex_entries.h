@@ -2905,12 +2905,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_BLISSEY] =
+    [NATIONAL_DEX_REAPCHARGE] =
     {
         .categoryName = _("Felicidad"),
         .height = 15,
         .weight = 468,
-        .description = gBlisseyPokedexText,
+        .description = gReapchargePokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 4,
         .trainerScale = 310,
@@ -13695,12 +13695,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_BLISSEY] =
+    [NATIONAL_DEX_REAPCHARGE] =
     {
         .categoryName = _("Happiness"),
         .height = 15,
         .weight = 468,
-        .description = gBlisseyPokedexText,
+        .description = gReapchargePokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 4,
         .trainerScale = 310,

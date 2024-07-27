@@ -9652,7 +9652,7 @@ static const u8 sPantsTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sBlisseyTMHMLearnset[] =
+static const u8 sReapchargeTMHMLearnset[] =
 {
     TMHM(TM01_FOCUS_PUNCH),
     TMHM(TM03_WATER_PULSE),
@@ -36155,7 +36155,7 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_ELEKID] = sElekidTMHMLearnset,
     [SPECIES_MAGBY] = sMagbyTMHMLearnset,
     [SPECIES_PANTS] = sPantsTMHMLearnset,
-    [SPECIES_BLISSEY] = sBlisseyTMHMLearnset,
+    [SPECIES_REAPCHARGE] = sReapchargeTMHMLearnset,
     [SPECIES_SHOCKITTY] = sShockittyTMHMLearnset,
     [SPECIES_HEATTAR] = sHeattarTMHMLearnset,
     [SPECIES_REINGEER] = sReingeerTMHMLearnset,

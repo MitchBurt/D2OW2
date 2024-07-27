@@ -2840,7 +2840,7 @@ static const union AnimCmd sAnim_PANTS_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_BLISSEY_1[] =
+static const union AnimCmd sAnim_REAPCHARGE_1[] =
 {
     ANIMCMD_FRAME(1, 20),
     ANIMCMD_FRAME(0, 15),
@@ -10392,9 +10392,9 @@ static const union AnimCmd *const sAnims_PANTS[] ={
     sAnim_PANTS_1,
 };
 
-static const union AnimCmd *const sAnims_BLISSEY[] ={
+static const union AnimCmd *const sAnims_REAPCHARGE[] ={
     sAnim_GeneralFrame0,
-    sAnim_BLISSEY_1,
+    sAnim_REAPCHARGE_1,
 };
 
 static const union AnimCmd *const sAnims_SHOCKITTY[] ={
@@ -14680,7 +14680,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(ELEKID),
     ANIM_CMD(MAGBY),
     ANIM_CMD(PANTS),
-    ANIM_CMD(BLISSEY),
+    ANIM_CMD(REAPCHARGE),
     ANIM_CMD(SHOCKITTY),
     ANIM_CMD(HEATTAR),
     ANIM_CMD(REINGEER),

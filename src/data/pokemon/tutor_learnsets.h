@@ -5791,7 +5791,7 @@ static const u8 sPantsTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sBlisseyTutorLearnset[] =
+static const u8 sREAPCHARGETutorLearnset[] =
 {
     TUTOR(MOVE_MEGA_KICK),
     TUTOR(MOVE_BODY_SLAM),
@@ -19963,7 +19963,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_ELEKID] = sElekidTutorLearnset,
     [SPECIES_MAGBY] = sMagbyTutorLearnset,
     [SPECIES_PANTS] = sPantsTutorLearnset,
-    [SPECIES_BLISSEY] = sBlisseyTutorLearnset,
+    [SPECIES_REAPCHARGE] = sReapchargeTutorLearnset,
     [SPECIES_SHOCKITTY] = sShockittyTutorLearnset,
     [SPECIES_HEATTAR] = sHeattarTutorLearnset,
     [SPECIES_REINGEER] = sReingeerTutorLearnset,

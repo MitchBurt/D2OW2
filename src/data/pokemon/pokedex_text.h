@@ -1447,7 +1447,7 @@ const u8 gPantsPokedexText[] = _(
     "Aquellos a los que no les agrada la leche,\n"
     "la toman en forma de yogur.");
 
-const u8 gBlisseyPokedexText[] = _(
+const u8 gReapchargePokedexText[] = _(
     "Percibe la tristeza a través de su sedoso\n"
     "pelaje. Si ve que alguien está apenado,\n"
     "acudirá a su lado y compartirá un\n"
@@ -6805,9 +6805,9 @@ const u8 gPantsPokedexText[] = _(
     "grown-ups alike. People who can't drink\n"
     "milk turn it into yogurt and eat it instead.");
 
-const u8 gBlisseyPokedexText[] = _(
+const u8 gReapchargePokedexText[] = _(
     "If it senses sadness with its fluffy fur,\n"
-    "a Blissey will rush over to the sad person,\n"
+    "a REAPCHARGE will rush over to the sad person,\n"
     "however far away, to share an egg of\n"
     "happiness that brings a smile to any face.");
 

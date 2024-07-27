@@ -8208,6 +8208,10 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
         if (gBattleMoves[move].flags & FLAG_SOUND)
             MulModifier(&modifier, UQ_4_12(1.3));
         break;
+    case ABILITY_COOKING:
+        if (moveType == TYPE_FLYING && gBattleMons[battlerDef].flags & F_FOOD)
+            MulModifier(&modifier, UQ_4_12(1.3));
+        break;
     }
 
     // field abilities
@@ -8411,6 +8415,13 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
         MulModifier(&modifier, (B_TERRAIN_TYPE_BOOST >= GEN_8) ? UQ_4_12(1.3) : UQ_4_12(1.5));
     if (gFieldStatuses & STATUS_FIELD_PSYCHIC_TERRAIN && moveType == TYPE_PSYCHIC && IsBattlerGrounded(battlerAtk) && !(gStatuses3[battlerAtk] & STATUS3_SEMI_INVULNERABLE))
         MulModifier(&modifier, (B_TERRAIN_TYPE_BOOST >= GEN_8) ? UQ_4_12(1.3) : UQ_4_12(1.5));
+
+    //New
+     if (gBattleMoves[move].flags & FLAG_STRONG_JAW_BOOST && gBattleMons[battlerDef].flags & F_FOOD){
+        MulModifier(&modifier, UQ_4_12(1.5));
+     }
+           
+
 
     return ApplyModifier(modifier, basePower);
 }

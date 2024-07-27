@@ -1167,7 +1167,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_IMPISH
     },
     [SLATEPORT_TENT_MON_VOLBEAT] = {
-        .species = SPECIES_BLISSEY,
+        .species = SPECIES_REAPCHARGE,
         .moves = {MOVE_WISH, MOVE_TOXIC, MOVE_PROTECT, MOVE_SEISMIC_TOSS},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE,

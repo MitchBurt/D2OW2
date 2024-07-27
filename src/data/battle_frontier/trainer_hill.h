@@ -1433,7 +1433,7 @@ static const struct TrHillFloor sDataTagNormal_Floors[] =
                     },
                     [1] =
                     {
-                        .species = SPECIES_BLISSEY,
+                        .species = SPECIES_REAPCHARGE,
                         .heldItem = ITEM_LEFTOVERS,
                         .moves = {MOVE_SKILL_SWAP, MOVE_EGG_BOMB, MOVE_THUNDERBOLT, MOVE_SING},
                         .level = 0,
@@ -1450,7 +1450,7 @@ static const struct TrHillFloor sDataTagNormal_Floors[] =
                         .spDefenseIV = 5,
                         .abilityNum = 1,
                         .personality = 0xF,
-                        .nickname = _("Blissey"),
+                        .nickname = _("REAPCHARGE"),
                         .friendship = 255,
                     },
                     [2] =

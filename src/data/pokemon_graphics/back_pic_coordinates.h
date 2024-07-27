@@ -1215,7 +1215,7 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x87,
         .y_offset = 6,
     },
-    [SPECIES_BLISSEY] =
+    [SPECIES_REAPCHARGE] =
     {
         .size = 0x84,
         .y_offset = 16,

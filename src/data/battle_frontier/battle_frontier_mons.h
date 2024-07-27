@@ -3696,8 +3696,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_MODEST,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_BLISSEY_1] = {
-        .species = SPECIES_BLISSEY,
+    [FRONTIER_MON_REAPCHARGE_1] = {
+        .species = SPECIES_REAPCHARGE,
         .moves = {MOVE_TOXIC, MOVE_DOUBLE_TEAM, MOVE_SING, MOVE_SOFT_BOILED    },
         .itemTableId = BATTLE_FRONTIER_ITEM_BRIGHT_POWDER,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE,
@@ -4464,8 +4464,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_MODEST,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_BLISSEY_2] = {
-        .species = SPECIES_BLISSEY,
+    [FRONTIER_MON_REAPCHARGE_2] = {
+        .species = SPECIES_REAPCHARGE,
         .moves = {MOVE_SEISMIC_TOSS, MOVE_SING, MOVE_ATTRACT, MOVE_SUBSTITUTE    },
         .itemTableId = BATTLE_FRONTIER_ITEM_LEFTOVERS,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE,
@@ -5232,8 +5232,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_ADAMANT,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_BLISSEY_3] = {
-        .species = SPECIES_BLISSEY,
+    [FRONTIER_MON_REAPCHARGE_3] = {
+        .species = SPECIES_REAPCHARGE,
         .moves = {MOVE_FIRE_BLAST, MOVE_BLIZZARD, MOVE_CALM_MIND, MOVE_SOFT_BOILED    },
         .itemTableId = BATTLE_FRONTIER_ITEM_FOCUS_BAND,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE,
@@ -6000,8 +6000,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_HARDY,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_BLISSEY_4] = {
-        .species = SPECIES_BLISSEY,
+    [FRONTIER_MON_REAPCHARGE_4] = {
+        .species = SPECIES_REAPCHARGE,
         .moves = {MOVE_ICE_BEAM, MOVE_CALM_MIND, MOVE_COUNTER, MOVE_SOFT_BOILED    },
         .itemTableId = BATTLE_FRONTIER_ITEM_FOCUS_BAND,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE,
