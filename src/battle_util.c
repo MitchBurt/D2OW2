@@ -8209,8 +8209,8 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
             MulModifier(&modifier, UQ_4_12(1.3));
         break;
     case ABILITY_COOKING:
-        if (moveType == TYPE_FLYING && gBattleMons[battlerDef].flags & F_FOOD)
-            MulModifier(&modifier, UQ_4_12(1.3));
+        if (moveType == TYPE_FIRE && gBaseStats[gBattleMons[battlerDef].species].flags & F_FOOD)
+            MulModifier(&modifier, UQ_4_12(2));
         break;
     }
 
@@ -8417,7 +8417,7 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
         MulModifier(&modifier, (B_TERRAIN_TYPE_BOOST >= GEN_8) ? UQ_4_12(1.3) : UQ_4_12(1.5));
 
     //New
-     if (gBattleMoves[move].flags & FLAG_STRONG_JAW_BOOST && gBattleMons[battlerDef].flags & F_FOOD){
+     if (gBattleMoves[move].flags & FLAG_STRONG_JAW_BOOST && gBaseStats[gBattleMons[battlerDef].species].flags & F_FOOD){
         MulModifier(&modifier, UQ_4_12(1.5));
      }
            
