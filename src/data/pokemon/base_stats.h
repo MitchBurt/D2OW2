@@ -1050,7 +1050,7 @@ const struct BaseStats gBaseStats[] =
         .abilityHidden = ABILITY_DAMP,
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
-        .flag = F_FOOD,
+        .flags = F_FOOD,
     },
 
     [SPECIES_SAWSBAWS] =
@@ -1077,7 +1077,7 @@ const struct BaseStats gBaseStats[] =
         .abilityHidden = ABILITY_DAMP,
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
-        .flag = F_FOOD,
+        .flags = F_FOOD,
     },
 
     [SPECIES_SNEDDIT] =
@@ -1150,7 +1150,7 @@ const struct BaseStats gBaseStats[] =
         #endif
         .bodyColor = BODY_COLOR_PINK,
         .noFlip = FALSE,
-        .flag = F_FOOD,
+        .flags = F_FOOD,
     },
 
     [SPECIES_BATANARF] =
@@ -1257,7 +1257,7 @@ const struct BaseStats gBaseStats[] =
         .abilityHidden = ABILITY_ILLUMINATE,
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
-        .flag = F_GROUND_INMUNITY,
+        .flags = F_GROUND_INMUNITY,
     },
 
     [SPECIES_GANJAZE] =
@@ -1288,7 +1288,7 @@ const struct BaseStats gBaseStats[] =
         .abilityHidden = ABILITY_ILLUMINATE,
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
-        .flag = F_GROUND_INMUNITY,
+        .flags = F_GROUND_INMUNITY,
     },
 
     [SPECIES_GOOFSHRUM] =
@@ -1805,7 +1805,7 @@ const struct BaseStats gBaseStats[] =
         #endif
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
-        .flag = F_GROUND_INMUNITY,
+        .flags = F_GROUND_INMUNITY,
     },
 
     [SPECIES_KUKLAN] =
@@ -1834,7 +1834,7 @@ const struct BaseStats gBaseStats[] =
         #endif
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
-        .flag = F_GROUND_INMUNITY,
+        .flags = F_GROUND_INMUNITY,
     },
 
     [SPECIES_KUKLOPS] =
@@ -1867,7 +1867,7 @@ const struct BaseStats gBaseStats[] =
         #endif
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
-        .flag = F_GROUND_INMUNITY,
+        .flags = F_GROUND_INMUNITY,
     },
 
     [SPECIES_FARBY] =
@@ -2870,7 +2870,7 @@ const struct BaseStats gBaseStats[] =
         #endif
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
-        .flag = F_GROUND_INMUNITY,
+        .flags = F_GROUND_INMUNITY,
     },
 
     [SPECIES_CIPHRON] =
@@ -2898,7 +2898,7 @@ const struct BaseStats gBaseStats[] =
         #endif
         .bodyColor = BODY_COLOR_YELLOW,
         .noFlip = FALSE,
-        .flag = F_GROUND_INMUNITY,
+        .flags = F_GROUND_INMUNITY,
     },
 
     [SPECIES_SURBSQUACH] =
@@ -6351,7 +6351,7 @@ const struct BaseStats gBaseStats[] =
         #endif
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
-        .flag = F_FOOD,
+        .flags = F_FOOD,
     },
 
     [SPECIES_DISMALO] =
@@ -6381,7 +6381,7 @@ const struct BaseStats gBaseStats[] =
         #endif
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
-        .flag = F_FOOD,
+        .flags = F_FOOD,
     },
 
     [SPECIES_MORTARMALO] =
@@ -6409,7 +6409,7 @@ const struct BaseStats gBaseStats[] =
         #endif
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
-        .flag = F_FOOD,
+        .flags = F_FOOD,
     },
 
     [SPECIES_COFFICRAB] =
@@ -38453,7 +38453,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .abilityHidden = ABILITY_ADAPTABILITY,
         .bodyColor = BODY_COLOR_YELLOW,
         .noFlip = FALSE,
-        .flag = F_FOOD,
+        .flags = F_FOOD,
     },
 
     [SPECIES_KORBIE] =
@@ -39463,7 +39463,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .abilityHidden = ABILITY_EARLY_BIRD,
         .bodyColor = BODY_COLOR_YELLOW,
         .noFlip = FALSE,
-        .flag = F_FOOD,
+        .flags = F_FOOD,
     },
 
     [SPECIES_SHARCRUSH] =
