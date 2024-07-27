@@ -5791,7 +5791,7 @@ static const u8 sPantsTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sREAPCHARGETutorLearnset[] =
+static const u8 sReapchargeTutorLearnset[] =
 {
     TUTOR(MOVE_MEGA_KICK),
     TUTOR(MOVE_BODY_SLAM),
