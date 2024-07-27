@@ -1522,7 +1522,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Elekid  @ 869FA4C
 	cry2 Cry_Magby  @ 869FA58
 	cry2 Cry_Pants  @ 869FA64
-	cry2 Cry_REAPCHARGE  @ 869FA70
+	cry2 Cry_Reapcharge  @ 869FA70
 	cry2 Cry_Shockitty  @ 869FA7C
 	cry2 Cry_Heattar  @ 869FA88
 	cry2 Cry_Reingeer  @ 869FA94

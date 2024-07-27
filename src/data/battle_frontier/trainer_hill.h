@@ -1450,7 +1450,7 @@ static const struct TrHillFloor sDataTagNormal_Floors[] =
                         .spDefenseIV = 5,
                         .abilityNum = 1,
                         .personality = 0xF,
-                        .nickname = _("REAPCHARGE"),
+                        .nickname = _("Reapcharge"),
                         .friendship = 255,
                     },
                     [2] =
