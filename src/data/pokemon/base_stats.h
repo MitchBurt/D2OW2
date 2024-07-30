@@ -41496,6 +41496,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
         .flags = F_FOOD,
+    },
 
     [SPECIES_NYANTIGER] =
     {
