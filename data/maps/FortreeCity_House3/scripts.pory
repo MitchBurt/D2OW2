@@ -122,7 +122,7 @@ FortreeCity_House3_EventScript_Give_Berryalen_Mega::
 	bufferspeciesname 1, SPECIES_BERRYALEN
 	playfanfare MUS_OBTAIN_ITEM
 	message FortreeCity_House3_Text_ReceivedMonFromOldMan
-	givemon SPECIES_BERRYALEN, 30, ITEM_SCEPTILITE
+	givemon SPECIES_BERRYALEN, 30, ITEM_INCREDALENITE
 	setflag FLAG_UNUSED_0x269
 	waitfanfare
 	msgbox FortreeCity_House3_Text_ComeAgain_Starter, MSGBOX_DEFAULT
