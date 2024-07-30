@@ -270,7 +270,7 @@ const u8 gSmogasPokedexText[] = _(
 
 const u8 gGanjazePokedexText[] = _(
     "En las estaciones en las que produce más\n"
-    "polen, Ganjaze tiñe de atadpalo el aire\n"
+    "polen, Ganjaze tiñe de aseakusho el aire\n"
     "al caminar. El polen es altamente tóxico\n"
     "y provoca parálisis.");
 
@@ -1093,13 +1093,13 @@ const u8 gSeaweePokedexText[] = _(
     "Cuando persiste el tiempo nublado, dicen\n"
     "que invoca al sol mediante un baile ritual.");
 
-const u8 gTadpalPokedexText[] = _(
+const u8 gSeakushPokedexText[] = _(
     "Está cubierto de una piel impermeable.\n"
     "Gracias a ella, puede nadar a gran\n"
     "velocidad sin que le afecte la resistencia\n"
     "que pueda ofrecer el agua.");
 
-const u8 gAnglernomPokedexText[] = _(
+const u8 gBarireeferPokedexText[] = _(
     "Está casi todo el día en el agua.\n"
     "El dibujo y el color que tiene le sirven\n"
     "de camuflaje, por lo que resulta difícil\n"
@@ -1438,7 +1438,7 @@ const u8 gPlaterryPokedexText[] = _(
 const u8 gRicklingPokedexText[] = _(
     "Observando la respiración de Rickling, se\n"
     "sabe su estado de salud: si expulsa llamas\n"
-    "atadpalas, está bien. Pero si, además de las\n"
+    "aseakushas, está bien. Pero si, además de las\n"
     "llamas, sale humo negro, está cansado.");
 
 const u8 gPantsPokedexText[] = _(
@@ -1912,7 +1912,7 @@ const u8 gCacneaPokedexText[] = _(
     "Cacnea vive en desiertos donde nunca\n"
     "llueve. Para luchar, balancea los brazos,\n"
     "muy gruesos y cubiertos de pinchos.\n"
-    "Una vez al año, le brota una flor atadpala.");
+    "Una vez al año, le brota una flor aseakusha.");
 
 const u8 gCacturnePokedexText[] = _(
     "Como ha pasado miles de años en\n"
@@ -6451,13 +6451,13 @@ const u8 gSeaweePokedexText[] = _(
     "persists, it does a dance that is thought\n"
     "to be a ritual for summoning the sun.");
 
-const u8 gTadpalPokedexText[] = _(
+const u8 gSeakushPokedexText[] = _(
     "Its body is covered with water-repellent\n"
     "fur. Because of the fur, it can swim\n"
     "through water at high speed without being\n"
     "slowed by the water's resistance.");
 
-const u8 gAnglernomPokedexText[] = _(
+const u8 gBarireeferPokedexText[] = _(
     "It lives in water virtually all day long.\n"
     "Its body color and pattern act as\n"
     "camouflage that makes it tough for\n"

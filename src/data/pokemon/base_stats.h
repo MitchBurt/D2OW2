@@ -628,8 +628,8 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_BEVRAGON] =
     {
-        .baseHP        = 108,// 60 -> 75
-        .baseDefense   = 95,// 69 -> 75
+        .baseHP        = 108,
+        .baseDefense   = 95,
         .baseSpeed     = 102,
         .baseSpAttack  = 80,
         .baseSpDefense = 85,
@@ -5031,27 +5031,23 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_SEAWEE] =
     {
-        .baseHP        = 75,	//75 -> 85
-        .baseAttack    = 70,	//80 -> 70
-        .baseSpeed     = 40,
-        .baseSpAttack  = 77,
-        .baseSpDefense = 90,
-        #if P_UPDATED_STATS >= GEN_6
-            .baseDefense   = 77,
-        #else
-            .baseDefense   = 77,
-        #endif
-        .type1 = TYPE_GRASS,
-        .type2 = TYPE_WATER,
-        .catchRate = 45,
-        .expYield = 221,
-        .evYield_SpDefense = 3,
-        .item2 = ITEM_ABSORB_BULB,
+        .baseHP        = 40,
+        .baseAttack    = 30,
+        .baseDefense   = 30,
+        .baseSpeed     = 30,
+        .baseSpAttack  = 40,
+        .baseSpDefense = 50,
+        .type1 = TYPE_WATER,
+        .type2 = TYPE_GRASS,
+        .catchRate = 255,
+        .expYield = 44,
+        .evYield_SpDefense = 1,
+        .item2 = ITEM_MENTAL_HERB,
         .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = 20,
+        .eggCycles = 15,
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_SLOW,
-        .eggGroup1 = EGG_GROUP_GRASS,
+        .eggGroup1 = EGG_GROUP_WATER_1,
         .eggGroup2 = EGG_GROUP_GRASS,
         .abilities = {ABILITY_ROOTED, ABILITY_NONE},
         #ifdef BATTLE_ENGINE
@@ -5061,7 +5057,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_TADPAL] =
+    [SPECIES_SEAKUSH] =
     {
         .baseHP        = 70,
         .baseAttack    = 20,
@@ -5093,7 +5089,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_ANGLERNOM] =
+    [SPECIES_BARIREEFER] =
     {
         .baseHP        = 100,
         .baseAttack    = 110,
@@ -34579,8 +34575,8 @@ const struct BaseStats gVanillaBaseStats[] =
 
     [SPECIES_BEVRAGON] =
     {
-        .baseHP        = 108,// 60 -> 75
-        .baseDefense   = 95,// 69 -> 75
+        .baseHP        = 108,
+        .baseDefense   = 95,
         .baseSpeed     = 102,
         .baseSpAttack  = 80,
         .baseSpDefense = 85,
@@ -39012,30 +39008,26 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_TADPAL] =
+    [SPECIES_SEAKUSH] =
     {
-        .baseHP        = 70,
-        .baseAttack    = 20,
-        .baseDefense   = 50,
-        .baseSpeed     = 40,
-        .baseSpAttack  = 20,
-        .baseSpDefense = 50,
-        #if P_UPDATED_TYPES >= GEN_6
-            .type1 = TYPE_WATER,
-            .type2 = TYPE_FAIRY,
-        #else
-            .type1 = TYPE_WATER,
-            .type2 = TYPE_WATER,
-        #endif
-        .catchRate = 190,
-        .expYield = 88,
-        .evYield_HP        = 2,
+        .baseHP        = 60,
+        .baseAttack    = 50,
+        .baseDefense   = 70,
+        .baseSpeed     = 50,
+        .baseSpAttack  = 50,
+        .baseSpDefense = 70,
+        .type1 = TYPE_WATER,
+        .type2 = TYPE_GRASS,
+        .catchRate = 120,
+        .expYield = 119,
+        .evYield_SpDefense = 2,
+        .item2 = ITEM_MENTAL_HERB,
         .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = 10,
+        .eggCycles = 15,
         .friendship = 70,
-        .growthRate = GROWTH_FAST,
+        .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroup1 = EGG_GROUP_WATER_1,
-        .eggGroup2 = EGG_GROUP_FAIRY,
+        .eggGroup2 = EGG_GROUP_GRASS,
         .abilities = {ABILITY_THICK_FAT, ABILITY_HUGE_POWER},
         #ifdef BATTLE_ENGINE
             .abilityHidden = ABILITY_SAP_SIPPER,
@@ -39044,34 +39036,26 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_ANGLERNOM] =
+    [SPECIES_BARIREEFER] =
     {
         .baseHP        = 100,
-        .baseAttack    = 110,
-        .baseDefense   = 100,
-        .baseSpeed     = 45,
-        .baseSpDefense = 75,
-        #if P_UPDATED_STATS >= GEN_6
-            .baseSpAttack  = 60,
-        #else
-            .baseSpAttack  = 50,
-        #endif
-        #if P_UPDATED_TYPES >= GEN_6
-            .type1 = TYPE_WATER,
-            .type2 = TYPE_FAIRY,
-        #else
-            .type1 = TYPE_WATER,
-            .type2 = TYPE_WATER,
-        #endif
-        .catchRate = 75,
-        .expYield = 189,
-        .evYield_HP        = 3,
+        .baseAttack    = 65,
+        .baseDefense   = 90,
+        .baseSpeed     = 65,
+        .baseSpAttack  = 70,
+        .baseSpDefense = 110,
+        .type1 = TYPE_WATER,
+        .type2 = TYPE_GRASS,
+        .catchRate = 45,
+        .expYield = 216,
+        .evYield_SpDefense = 3,
+        .item2 = ITEM_MENTAL_HERB,
         .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = 10,
+        .eggCycles = 15,
         .friendship = 70,
-        .growthRate = GROWTH_FAST,
+        .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroup1 = EGG_GROUP_WATER_1,
-        .eggGroup2 = EGG_GROUP_FAIRY,
+        .eggGroup2 = EGG_GROUP_GRASS,
         .abilities = {ABILITY_THICK_FAT, ABILITY_HUGE_POWER},
         #ifdef BATTLE_ENGINE
             .abilityHidden = ABILITY_SAP_SIPPER,

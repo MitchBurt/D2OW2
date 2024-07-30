@@ -7304,7 +7304,7 @@ static const u8 sSeaweeTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sTadpalTMHMLearnset[] =
+static const u8 sSeakushTMHMLearnset[] =
 {
     TMHM(TM01_FOCUS_PUNCH),
     TMHM(TM03_WATER_PULSE),
@@ -7340,7 +7340,7 @@ static const u8 sTadpalTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sAnglernomTMHMLearnset[] =
+static const u8 sBarireeferTMHMLearnset[] =
 {
     TMHM(TM01_FOCUS_PUNCH),
     TMHM(TM03_WATER_PULSE),
@@ -36096,8 +36096,8 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_DURASHELL] = sDurashellTMHMLearnset,
     [SPECIES_BACID] = sBacidTMHMLearnset,
     [SPECIES_SEAWEE] = sSeaweeTMHMLearnset,
-    [SPECIES_TADPAL] = sTadpalTMHMLearnset,
-    [SPECIES_ANGLERNOM] = sAnglernomTMHMLearnset,
+    [SPECIES_SEAKUSH] = sSeakushTMHMLearnset,
+    [SPECIES_BARIREEFER] = sBarireeferTMHMLearnset,
     [SPECIES_BREADDIE] = sBreaddieTMHMLearnset,
     [SPECIES_TOASTEM] = sToastemTMHMLearnset,
     [SPECIES_DOGEASTER] = sDogeasterTMHMLearnset,

@@ -1080,7 +1080,7 @@ Text_Take_Starter4:
 Text_Received_Starter4:
 	.string "{PLAYER} received a Garfel!$"
 
-//Filbrain
+//Filmbrain
 Script_Give_Starter5::
 	lock
 	faceplayer

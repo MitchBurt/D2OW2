@@ -1800,7 +1800,7 @@ static const struct TrHillFloor sDataTagVariety_Floors[] = {
                                         },
                                     [3] =
                                         {
-                                            .species = SPECIES_TADPAL,
+                                            .species = SPECIES_SEAKUSH,
                                             .heldItem = ITEM_SITRUS_BERRY,
                                             .moves = {MOVE_PRESENT, MOVE_DEFENSE_CURL, MOVE_TAIL_WHIP, MOVE_ENDURE},
                                             .level = 0,
@@ -1816,7 +1816,7 @@ static const struct TrHillFloor sDataTagVariety_Floors[] = {
                                             .spDefenseIV = 15,
                                             .abilityNum = 1,
                                             .personality = 0x8A,
-                                            .nickname = _("Tadpal"),
+                                            .nickname = _("Seakush"),
                                             .friendship = 255,
                                         },
                                     [4] =

@@ -915,12 +915,12 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x66,
         .y_offset = 11,
     },
-    [SPECIES_TADPAL] =
+    [SPECIES_SEAKUSH] =
     {
         .size = 0x85,
         .y_offset = 13,
     },
-    [SPECIES_ANGLERNOM] =
+    [SPECIES_BARIREEFER] =
     {
         .size = 0x88,
         .y_offset = 3,

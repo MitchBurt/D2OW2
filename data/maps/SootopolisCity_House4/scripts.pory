@@ -10,12 +10,12 @@ SootopolisCity_House4_EventScript_Woman:: @ 8226D1F
 	msgbox SootopolisCity_House4_Text_StrollUnderwaterWithPokemon, MSGBOX_NPC
 	end
 
-SootopolisCity_House4_EventScript_Anglernom:: @ 8226D28
+SootopolisCity_House4_EventScript_Barireefer:: @ 8226D28
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_ANGLERNOM, 0
-	msgbox SootopolisCity_House4_Text_Anglernom, MSGBOX_DEFAULT
+	playmoncry SPECIES_BARIREEFER, 0
+	msgbox SootopolisCity_House4_Text_Barireefer, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
@@ -35,7 +35,7 @@ SootopolisCity_House4_Text_StrollUnderwaterWithPokemon: @ 8226DEA
 	.string "beautiful to take an underwater\l"
 	.string "stroll with my Pokémon.$"
 
-SootopolisCity_House4_Text_Anglernom: @ 8226E7F
-	.string "Anglernom: Marurii.$"
+SootopolisCity_House4_Text_Barireefer: @ 8226E7F
+	.string "Barireefer: Marurii.$"
 
 `

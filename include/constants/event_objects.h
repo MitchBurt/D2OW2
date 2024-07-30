@@ -151,7 +151,7 @@
 #define OBJ_EVENT_GFX_SUBMARINE_SHADOW           141
 #define OBJ_EVENT_GFX_PICHU_DOLL                 142
 #define OBJ_EVENT_GFX_SKIPPA_DOLL               143
-#define OBJ_EVENT_GFX_TADPAL_DOLL                144
+#define OBJ_EVENT_GFX_SEAKUSH_DOLL                144
 #define OBJ_EVENT_GFX_FILMBRAIN_DOLL                145
 #define OBJ_EVENT_GFX_MEGATRON_DOLL             146
 #define OBJ_EVENT_GFX_TOM_DOLL             147
@@ -217,7 +217,7 @@
 #define OBJ_EVENT_GFX_RAYQUAZA_2                 207
 #define OBJ_EVENT_GFX_MEOWRRIOR_2                208
 #define OBJ_EVENT_GFX_SKIPPA                    209
-#define OBJ_EVENT_GFX_ANGLERNOM                  210
+#define OBJ_EVENT_GFX_BARIREEFER                  210
 #define OBJ_EVENT_GFX_WINGULL                    211
 #define OBJ_EVENT_GFX_KECLEON_2                  212
 #define OBJ_EVENT_GFX_TUBER_M_SWIMMING           213

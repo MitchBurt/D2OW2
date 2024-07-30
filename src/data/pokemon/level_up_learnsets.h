@@ -3717,7 +3717,7 @@ static const struct LevelUpMove sSeaweeLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sTadpalLevelUpLearnset[] = {
+static const struct LevelUpMove sSeakushLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 1, MOVE_TACKLE),
 	LEVEL_UP_MOVE( 1, MOVE_WATER_GUN),
 	LEVEL_UP_MOVE( 2, MOVE_TAIL_WHIP),
@@ -3737,7 +3737,7 @@ static const struct LevelUpMove sTadpalLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sAnglernomLevelUpLearnset[] = {
+static const struct LevelUpMove sBarireeferLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 1, MOVE_TACKLE),
 	LEVEL_UP_MOVE( 1, MOVE_WATER_GUN),
 	LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),

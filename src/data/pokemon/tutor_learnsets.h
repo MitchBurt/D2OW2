@@ -4391,7 +4391,7 @@ static const u8 sSeaweeTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sTadpalTutorLearnset[] =
+static const u8 sSeakushTutorLearnset[] =
 {
     TUTOR(MOVE_MEGA_KICK),
     TUTOR(MOVE_BODY_SLAM),
@@ -4419,7 +4419,7 @@ static const u8 sTadpalTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sAnglernomTutorLearnset[] =
+static const u8 sBarireeferTutorLearnset[] =
 {
     TUTOR(MOVE_MEGA_KICK),
     TUTOR(MOVE_BODY_SLAM),
@@ -19904,8 +19904,8 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_DURASHELL] = sDurashellTutorLearnset,
     [SPECIES_BACID] = sBacidTutorLearnset,
     [SPECIES_SEAWEE] = sSeaweeTutorLearnset,
-    [SPECIES_TADPAL] = sTadpalTutorLearnset,
-    [SPECIES_ANGLERNOM] = sAnglernomTutorLearnset,
+    [SPECIES_SEAKUSH] = sSeakushTutorLearnset,
+    [SPECIES_BARIREEFER] = sBarireeferTutorLearnset,
     [SPECIES_BREADDIE] = sBreaddieTutorLearnset,
     [SPECIES_TOASTEM] = sToastemTutorLearnset,
     [SPECIES_DOGEASTER] = sDogeasterTutorLearnset,

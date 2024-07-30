@@ -2170,7 +2170,7 @@ static const union AnimCmd sAnim_SEAWEE_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_TADPAL_1[] =
+static const union AnimCmd sAnim_SEAKUSH_1[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(1, 44),
@@ -2180,7 +2180,7 @@ static const union AnimCmd sAnim_TADPAL_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_ANGLERNOM_1[] =
+static const union AnimCmd sAnim_BARIREEFER_1[] =
 {
     ANIMCMD_FRAME(0, 22),
     ANIMCMD_FRAME(1, 22),
@@ -10082,14 +10082,14 @@ static const union AnimCmd *const sAnims_SEAWEE[] ={
     sAnim_SEAWEE_1,
 };
 
-static const union AnimCmd *const sAnims_TADPAL[] ={
+static const union AnimCmd *const sAnims_SEAKUSH[] ={
     sAnim_GeneralFrame0,
-    sAnim_TADPAL_1,
+    sAnim_SEAKUSH_1,
 };
 
-static const union AnimCmd *const sAnims_ANGLERNOM[] ={
+static const union AnimCmd *const sAnims_BARIREEFER[] ={
     sAnim_GeneralFrame0,
-    sAnim_ANGLERNOM_1,
+    sAnim_BARIREEFER_1,
 };
 
 static const union AnimCmd *const sAnims_BREADDIE[] ={
@@ -14620,8 +14620,8 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(DURASHELL),
     ANIM_CMD(BACID),
     ANIM_CMD(SEAWEE),
-    ANIM_CMD(TADPAL),
-    ANIM_CMD(ANGLERNOM),
+    ANIM_CMD(SEAKUSH),
+    ANIM_CMD(BARIREEFER),
     ANIM_CMD(BREADDIE),
     ANIM_CMD(TOASTEM),
     ANIM_CMD(DOGEASTER),

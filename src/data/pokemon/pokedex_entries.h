@@ -2197,24 +2197,24 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_TADPAL] =
+    [NATIONAL_DEX_SEAKUSH] =
     {
         .categoryName = _("Ratón Agua"),
         .height = 4,
         .weight = 85,
-        .description = gTadpalPokedexText,
+        .description = gSeakushPokedexText,
         .pokemonScale = 476,
         .pokemonOffset = 20,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ANGLERNOM] =
+    [NATIONAL_DEX_BARIREEFER] =
     {
         .categoryName = _("Conejoagua"),
         .height = 8,
         .weight = 285,
-        .description = gAnglernomPokedexText,
+        .description = gBarireeferPokedexText,
         .pokemonScale = 448,
         .pokemonOffset = 16,
         .trainerScale = 256,
@@ -12987,24 +12987,24 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_TADPAL] =
+    [NATIONAL_DEX_SEAKUSH] =
     {
         .categoryName = _("Aqua Mouse"),
         .height = 4,
         .weight = 85,
-        .description = gTadpalPokedexText,
+        .description = gSeakushPokedexText,
         .pokemonScale = 476,
         .pokemonOffset = 20,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ANGLERNOM] =
+    [NATIONAL_DEX_BARIREEFER] =
     {
         .categoryName = _("Aqua Rabbit"),
         .height = 8,
         .weight = 285,
-        .description = gAnglernomPokedexText,
+        .description = gBarireeferPokedexText,
         .pokemonScale = 448,
         .pokemonOffset = 16,
         .trainerScale = 256,

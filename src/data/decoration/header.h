@@ -236,7 +236,7 @@ const struct Decoration gDecorations[] = {
         DecorGfx_RED_BRICK
     }, {
         DECOR_YELLOW_BRICK,
-        _("Ladr. Atadpalo"),
+        _("Ladr. Aseakusho"),
         DECORPERM_SOLID_FLOOR,
         DECORSHAPE_1x2,
         DECORCAT_ORNAMENT,
@@ -272,7 +272,7 @@ const struct Decoration gDecorations[] = {
         DecorGfx_BLUE_BALLOON
     }, {
         DECOR_YELLOW_BALLOON,
-        _("Globo Atadpalo"),
+        _("Globo Aseakusho"),
         DECORPERM_PASS_FLOOR,
         DECORSHAPE_1x1,
         DECORCAT_ORNAMENT,
@@ -703,14 +703,14 @@ const struct Decoration gDecorations[] = {
         DecorDesc_SKIPPA_DOLL,
         DecorGfx_SKIPPA_DOLL
     }, {
-        DECOR_TADPAL_DOLL,
-        _("Muñeco Tadpal"),
+        DECOR_SEAKUSH_DOLL,
+        _("Muñeco Seakush"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_DOLL,
         3000,
-        DecorDesc_TADPAL_DOLL,
-        DecorGfx_TADPAL_DOLL
+        DecorDesc_SEAKUSH_DOLL,
+        DecorGfx_SEAKUSH_DOLL
     }, {
         DECOR_FILMBRAIN_DOLL,
         _("Muñeco Filmbrain"),
@@ -1793,14 +1793,14 @@ const struct Decoration gDecorations[] = {
         DecorDesc_SKIPPA_DOLL,
         DecorGfx_SKIPPA_DOLL
     }, {
-        DECOR_TADPAL_DOLL,
-        _("Tadpal Doll"),
+        DECOR_SEAKUSH_DOLL,
+        _("Seakush Doll"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_DOLL,
         3000,
-        DecorDesc_TADPAL_DOLL,
-        DecorGfx_TADPAL_DOLL
+        DecorDesc_SEAKUSH_DOLL,
+        DecorGfx_SEAKUSH_DOLL
     }, {
         DECOR_FILMBRAIN_DOLL,
         _("Filmbrain Doll"),

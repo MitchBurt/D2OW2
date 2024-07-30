@@ -224,7 +224,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_ADAMANT,
 		.abilitynum = 2
     },
-    [FRONTIER_MON_TADPAL] = {
+    [FRONTIER_MON_SEAKUSH] = {
         .species = SPECIES_CRYOGONAL,//TO MOVE
         .moves = {MOVE_FREEZE_DRY, MOVE_RECOVER, MOVE_FLASH_CANNON, MOVE_SIGNAL_BEAM},
         .itemTableId = BATTLE_FRONTIER_ITEM_LIFE_ORB,
@@ -1536,8 +1536,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_HARDY,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_ANGLERNOM_1] = {
-        .species = SPECIES_ANGLERNOM,
+    [FRONTIER_MON_BARIREEFER_1] = {
+        .species = SPECIES_BARIREEFER,
         .moves = {MOVE_LIQUIDATION, MOVE_PLAY_ROUGH, MOVE_ICE_PUNCH, MOVE_AQUA_JET},
         .itemTableId = BATTLE_FRONTIER_ITEM_ASSAULT_VEST,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
@@ -2376,8 +2376,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_QUIRKY,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_ANGLERNOM_2] = {
-        .species = SPECIES_ANGLERNOM,//TO REMOVE
+    [FRONTIER_MON_BARIREEFER_2] = {
+        .species = SPECIES_BARIREEFER,//TO REMOVE
         .moves = {MOVE_LIQUIDATION, MOVE_PLAY_ROUGH, MOVE_ICE_PUNCH, MOVE_AQUA_JET},
         .itemTableId = BATTLE_FRONTIER_ITEM_ASSAULT_VEST,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,

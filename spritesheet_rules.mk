@@ -566,7 +566,7 @@ $(OBJEVENTGFXDIR)/people/frlg/rocket_m.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/frlg/rocket_f.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
-$(OBJEVENTGFXDIR)/pokemon/anglernom.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/pokemon/barireefer.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
 $(OBJEVENTGFXDIR)/pokemon/azurill.4bpp: %.4bpp: %.png

@@ -184,8 +184,8 @@ gCryTable:: @ 869DCF4
 	cry Cry_Durashell  @ 869E558
 	cry Cry_Bacid  @ 869E564
 	cry Cry_Seawee  @ 869E570
-	cry Cry_Tadpal  @ 869E57C
-	cry Cry_Anglernom  @ 869E588
+	cry Cry_Seakush  @ 869E57C
+	cry Cry_Barireefer  @ 869E588
 	cry Cry_Breaddie  @ 869E594
 	cry Cry_Toastem  @ 869E5A0
 	cry Cry_Dogeaster  @ 869E5AC
@@ -1463,8 +1463,8 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Durashell  @ 869F788
 	cry2 Cry_Bacid  @ 869F794
 	cry2 Cry_Seawee  @ 869F7A0
-	cry2 Cry_Tadpal  @ 869F7AC
-	cry2 Cry_Anglernom  @ 869F7B8
+	cry2 Cry_Seakush  @ 869F7AC
+	cry2 Cry_Barireefer  @ 869F7B8
 	cry2 Cry_Breaddie  @ 869F7C4
 	cry2 Cry_Toastem  @ 869F7D0
 	cry2 Cry_Dogeaster  @ 869F7DC

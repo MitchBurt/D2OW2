@@ -988,7 +988,7 @@ const struct Item gItems[] =
     [ITEM_YELLOW_FLUTE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Flauta Atadpala"),
+        .name = _("Flauta Aseakusha"),
 #else
         .name = _("Yellow Flute"),
 #endif
@@ -1215,7 +1215,7 @@ const struct Item gItems[] =
     [ITEM_YELLOW_SHARD] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Parte Atadpala"),
+        .name = _("Parte Aseakusha"),
 #else
         .name = _("Yellow Shard"),
 #endif
@@ -1889,7 +1889,7 @@ const struct Item gItems[] =
     [ITEM_YELLOW_APRICORN] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Bonguri Atadpalo"),
+        .name = _("Bonguri Aseakusho"),
 #else
         .name = _("Yellow Apricorn"),
 #endif
@@ -2115,7 +2115,7 @@ const struct Item gItems[] =
     [ITEM_YELLOW_NECTAR] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Néctar Atadpalo"),
+        .name = _("Néctar Aseakusho"),
 #else
         .name = _("Yellow Nectar"),
 #endif
@@ -4840,7 +4840,7 @@ const struct Item gItems[] =
     [ITEM_YELLOW_SCARF] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Pañuelo Atadpalo"),
+        .name = _("Pañuelo Aseakusho"),
 #else
         .name = _("Yellow Scarf"),
 #endif

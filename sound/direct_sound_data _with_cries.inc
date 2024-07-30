@@ -1115,12 +1115,12 @@ Cry_Seawee::
 	.incbin "sound/direct_sound_samples/cries/cry_seawee.bin"
 
 	.align 2
-Cry_Tadpal::
-	.incbin "sound/direct_sound_samples/cries/cry_tadpal.bin"
+Cry_Seakush::
+	.incbin "sound/direct_sound_samples/cries/cry_seakush.bin"
 
 	.align 2
-Cry_Anglernom::
-	.incbin "sound/direct_sound_samples/cries/cry_anglernom.bin"
+Cry_Barireefer::
+	.incbin "sound/direct_sound_samples/cries/cry_barireefer.bin"
 
 	.align 2
 Cry_Breaddie::

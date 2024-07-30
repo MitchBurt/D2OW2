@@ -115,8 +115,8 @@ const u16 gEasyChatWordsByLetter_A[] = {
     EC_WORD_AWFULLY,
     EC_WORD_AWW,
     -1, 2, // Doubled pokemon species name
-    EC_POKEMON(ANGLERNOM),
-    EC_POKEMON2(ANGLERNOM),
+    EC_POKEMON(BARIREEFER),
+    EC_POKEMON2(BARIREEFER),
     EC_POKEMON(AZURILL),
 };
 
@@ -982,8 +982,8 @@ const u16 gEasyChatWordsByLetter_M[] = {
     EC_POKEMON2(FLOOTICORN),
     EC_POKEMON2(BADDERY),
     -1, 2, // Doubled pokemon species name
-    EC_POKEMON(TADPAL),
-    EC_POKEMON2(TADPAL),
+    EC_POKEMON(SEAKUSH),
+    EC_POKEMON2(SEAKUSH),
     EC_POKEMON2(AMAZULK),
     EC_POKEMON(BAITERROR),
     EC_WORD_MARVEL_SCALE,
@@ -2232,11 +2232,11 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseMa[] = {
     EC_MOVE2(PROTECT),
     EC_POKEMON(MECHDUCK),
     -1, 2, // Doubled pokemon species name
-    EC_POKEMON2(TADPAL),
-    EC_POKEMON(TADPAL),
+    EC_POKEMON2(SEAKUSH),
+    EC_POKEMON(SEAKUSH),
     -1, 2, // Doubled pokemon species name
-    EC_POKEMON2(ANGLERNOM),
-    EC_POKEMON(ANGLERNOM),
+    EC_POKEMON2(BARIREEFER),
+    EC_POKEMON(BARIREEFER),
     EC_MOVE2(DEFENSE_CURL),
     EC_WORD_AS_IF,
     EC_POKEMON(CARNIGORE),

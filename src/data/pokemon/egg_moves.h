@@ -1281,7 +1281,7 @@ const u16 gEggMoves[] = {
 		MOVE_SAFEGUARD,
 		MOVE_THUNDERBOLT),
 
-	egg_moves(TADPAL,
+	egg_moves(SEAKUSH,
 		MOVE_SING,
 		MOVE_SUPERSONIC,
 		MOVE_BELLY_DRUM,

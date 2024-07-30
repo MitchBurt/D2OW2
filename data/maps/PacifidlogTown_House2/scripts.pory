@@ -85,7 +85,7 @@ PacifidlogTown_House2_EventScript_HappyAzurill:: @ 8203891
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_ANGLERNOM, 0
+	playmoncry SPECIES_BARIREEFER, 0
 	msgbox PacifidlogTown_House2_Text_Rurii, MSGBOX_DEFAULT
 	waitmoncry
 	msgbox PacifidlogTown_House2_Text_VeryFriendlyWithTrainer, MSGBOX_DEFAULT
@@ -96,7 +96,7 @@ PacifidlogTown_House2_EventScript_UnhappyAzurill:: @ 82038AC
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_ANGLERNOM, 2
+	playmoncry SPECIES_BARIREEFER, 2
 	msgbox PacifidlogTown_House2_Text_Rururi, MSGBOX_DEFAULT
 	waitmoncry
 	msgbox PacifidlogTown_House2_Text_DoesntLikeTrainerVeryMuch, MSGBOX_DEFAULT
@@ -144,14 +144,14 @@ PacifidlogTown_House2_Text_ExplainReturnFrustration: @ 8203A85
 	.string "power goes up.$"
 
 PacifidlogTown_House2_Text_Rurii: @ 8203B8D
-	.string "Anglernom: Rurii.$"
+	.string "Barireefer: Rurii.$"
 
 PacifidlogTown_House2_Text_VeryFriendlyWithTrainer: @ 8203B9D
 	.string "It appears to be very friendly with the\n"
 	.string "Trainer.$"
 
 PacifidlogTown_House2_Text_Rururi: @ 8203BCE
-	.string "Anglernom: Rururi!$"
+	.string "Barireefer: Rururi!$"
 
 PacifidlogTown_House2_Text_DoesntLikeTrainerVeryMuch: @ 8203BDF
 	.string "It doesn't appear to like the Trainer\n"

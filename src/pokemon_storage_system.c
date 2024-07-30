@@ -519,7 +519,7 @@ enum
     FRIENDS_FRAME,
     FRIENDS_BLANK,
     FRIENDS_CIRCLES,
-    FRIENDS_ANGLERNOM,
+    FRIENDS_BARIREEFER,
     FRIENDS_SKIPPA,
     FRIENDS_LEGENDARY,
     FRIENDS_HUGEMAN,
@@ -1448,13 +1448,13 @@ static const u16 gWallpaperPalettes_Circles[][16] =
 static const u32 gWallpaperTiles_Circles[] = INCBIN_U32("graphics/pokemon_storage/circles.4bpp.lz");
 static const u32 gWallpaperTilemap_Circles[] = INCBIN_U32("graphics/pokemon_storage/circles.bin.lz");
 
-static const u16 gWallpaperPalettes_Anglernom[][16] =
+static const u16 gWallpaperPalettes_Barireefer[][16] =
 {
     INCBIN_U16("graphics/pokemon_storage/friends_frame2.gbapal"),
-    INCBIN_U16("graphics/pokemon_storage/anglernom_bg.gbapal"),
+    INCBIN_U16("graphics/pokemon_storage/barireefer_bg.gbapal"),
 };
-static const u32 gWallpaperTiles_Anglernom[] = INCBIN_U32("graphics/pokemon_storage/anglernom.4bpp.lz");
-static const u32 gWallpaperTilemap_Anglernom[] = INCBIN_U32("graphics/pokemon_storage/anglernom.bin.lz");
+static const u32 gWallpaperTiles_Barireefer[] = INCBIN_U32("graphics/pokemon_storage/barireefer.4bpp.lz");
+static const u32 gWallpaperTilemap_Barireefer[] = INCBIN_U32("graphics/pokemon_storage/barireefer.bin.lz");
 
 static const u16 gWallpaperPalettes_Skippa[][16] =
 {
@@ -1536,7 +1536,7 @@ static const struct WallpaperTable gFriendsWallpaperTable[] =
     WALLPAPER_ENTRY(Frame),
     WALLPAPER_ENTRY(Blank),
     WALLPAPER_ENTRY(Circles),
-    WALLPAPER_ENTRY(Anglernom),
+    WALLPAPER_ENTRY(Barireefer),
     WALLPAPER_ENTRY(Skippa),
     WALLPAPER_ENTRY(Legendary),
     WALLPAPER_ENTRY(Hugeman),
