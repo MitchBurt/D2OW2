@@ -46,7 +46,7 @@ LilycoveCity_MoveDeletersHouse_EventScript_AsktoTrade::
 	switch VAR_RESULT
 	case 0, LilycoveCity_MoveDeletersHouse_EventScript_Give_Jissm_Mega
 	case 1, LilycoveCity_MoveDeletersHouse_EventScript_Give_Korbie
-	case 2, LilycoveCity_MoveDeletersHouse_EventScript_Give_Mudkip_Mega
+	case 2, LilycoveCity_MoveDeletersHouse_EventScript_Give_Baitord_Mega
 	case 3, LilycoveCity_MoveDeletersHouse_EventScript_Give_Piplup
 	case 4, LilycoveCity_MoveDeletersHouse_EventScript_Give_Oshawott
 	case 5, LilycoveCity_MoveDeletersHouse_EventScript_Give_Froakie
@@ -105,24 +105,24 @@ LilycoveCity_MoveDeletersHouse_EventScript_Give_Korbie::
 	release
 	end
 	
-//Mudkip
-LilycoveCity_MoveDeletersHouse_EventScript_Give_Mudkip::
-	bufferspeciesname 1, SPECIES_MUDKIP
+//Baitord
+LilycoveCity_MoveDeletersHouse_EventScript_Give_Baitord::
+	bufferspeciesname 1, SPECIES_BAITORD
 	playfanfare MUS_OBTAIN_ITEM
 	message LilycoveCity_MoveDeletersHouse_Text_ReceivedMonFromOldMan
-	givemon SPECIES_MUDKIP, 10, ITEM_NONE
+	givemon SPECIES_BAITORD, 10, ITEM_NONE
 	waitfanfare
 	msgbox LilycoveCity_MoveDeletersHouse_Text_ComeAgain_Starter, MSGBOX_DEFAULT
 	release
 	end
 	
-LilycoveCity_MoveDeletersHouse_EventScript_Give_Mudkip_Mega::
-	goto_if_unset FLAG_RECEIVED_TM04 LilycoveCity_MoveDeletersHouse_EventScript_Give_Mudkip
-	goto_if_set FLAG_UNUSED_0x26A LilycoveCity_MoveDeletersHouse_EventScript_Give_Mudkip
-	bufferspeciesname 1, SPECIES_MUDKIP
+LilycoveCity_MoveDeletersHouse_EventScript_Give_Baitord_Mega::
+	goto_if_unset FLAG_RECEIVED_TM04 LilycoveCity_MoveDeletersHouse_EventScript_Give_Baitord
+	goto_if_set FLAG_UNUSED_0x26A LilycoveCity_MoveDeletersHouse_EventScript_Give_Baitord
+	bufferspeciesname 1, SPECIES_BAITORD
 	playfanfare MUS_OBTAIN_ITEM
 	message LilycoveCity_MoveDeletersHouse_Text_ReceivedMonFromOldMan
-	givemon SPECIES_MUDKIP, 30, ITEM_SWAMPERTITE
+	givemon SPECIES_BAITORD, 30, ITEM_BAITANKITE
 	setflag FLAG_UNUSED_0x26A
 	waitfanfare
 	msgbox LilycoveCity_MoveDeletersHouse_Text_ComeAgain_Starter, MSGBOX_DEFAULT

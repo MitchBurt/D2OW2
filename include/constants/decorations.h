@@ -80,7 +80,7 @@
 #define DECOR_PICHU_DOLL       76
 #define DECOR_SKIPPA_DOLL     77
 #define DECOR_TADPAL_DOLL      78
-#define DECOR_VIPII_DOLL      79
+#define DECOR_FILMBRAIN_DOLL      79
 #define DECOR_MEGATRON_DOLL   80
 #define DECOR_TOM_DOLL   81
 #define DECOR_KORBIE_DOLL    82
@@ -89,9 +89,9 @@
 #define DECOR_EGOIRL_DOLL    85
 #define DECOR_DITTO_DOLL       86
 #define DECOR_BURNTONION_DOLL    87
-#define DECOR_TREECKO_DOLL     88
-#define DECOR_TORCHIC_DOLL     89
-#define DECOR_MUDKIP_DOLL      90
+#define DECOR_BERRYALEN_DOLL     88
+#define DECOR_COOKLET_DOLL     89
+#define DECOR_BAITORD_DOLL      90
 #define DECOR_DUSKULL_DOLL     91
 #define DECOR_WYNAUT_DOLL      92
 #define DECOR_BALTOY_DOLL      93
@@ -99,9 +99,9 @@
 #define DECOR_AZURILL_DOLL     95
 #define DECOR_SKITTY_DOLL      96
 #define DECOR_SWABLU_DOLL      97
-#define DECOR_GULPIN_DOLL      98
+#define DECOR_SYMBITE_DOLL      98
 #define DECOR_LOTAD_DOLL       99
-#define DECOR_SEEDOT_DOLL      100
+#define DECOR_SOBBLEAF_DOLL      100
 #define DECOR_PIKA_CUSHION     101
 #define DECOR_ROUND_CUSHION    102
 #define DECOR_KISS_CUSHION     103

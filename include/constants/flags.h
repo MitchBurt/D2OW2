@@ -663,8 +663,8 @@
 #define FLAG_GOT_RED_ORB  	  0x267
 #define FLAG_UNUSED_0x268  0x268 // Holocastite*
 #define FLAG_UNUSED_0x269  0x269 // Sceptilite*
-#define FLAG_UNUSED_0x26A  0x26A // Swampertite*
-#define FLAG_UNUSED_0x26B  0x26B // Blazikenite*
+#define FLAG_UNUSED_0x26A  0x26A // Baitankite*
+#define FLAG_UNUSED_0x26B  0x26B // Gourmasterite*
 #define FLAG_UNUSED_0x26C  0x26C // Sablenite*
 #define FLAG_UNUSED_0x26D  0x26D // Sharpedite*
 #define FLAG_UNUSED_0x26E  0x26E // Cameruptite*
@@ -691,10 +691,10 @@
 #define FLAG_UNUSED_0x285  0x285 // Nuggieite*
 #define FLAG_GOT_MINIMALINITE  0x286 // Minimalite*
 #define FLAG_UNUSED_0x287  0x287 // Frosiliskite*
-#define FLAG_GOT_GARDEVOIRITE  0x288 // Gardevoirite*
+#define FLAG_GOT_THATSFURRYITE  0x288 // Thatsfurryite*
 #define FLAG_UNUSED_0x289  0x289 // Mawilite*
 #define FLAG_GOT_AGGRONITE  0x28A // Aggronite*
-#define FLAG_UNUSED_0x28B  0x28B // Medichamite*
+#define FLAG_UNUSED_0x28B  0x28B // Lonkestite*
 #define FLAG_GOT_MANECTITE  0x28C // Manectrite*
 #define FLAG_UNUSED_0x28D  0x28D // Banettite*
 #define FLAG_UNUSED_0x28E  0x28E // Absolite*
@@ -765,7 +765,7 @@
 #define FLAG_HIDE_SAFARI_ZONE_WORKER_WITHOUT_PASS                   0x2CD
 #define FLAG_HIDE_THEVOID                                               0x2CE
 #define FLAG_HIDE_ROUTE_104_RIVAL                                   0x2CF
-#define FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE                  0x2D0
+#define FLAG_HIDE_ROUTE_101_BIRCH_MEOWRRIOR_BATTLE                  0x2D0
 #define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH                  0x2D1
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM          0x2D2
 #define FLAG_HIDE_ROUTE_103_RIVAL                                   0x2D3
@@ -797,7 +797,7 @@
 #define FLAG_SHOWN_SAFARI_PASS                                      0x2EB
 #define FLAG_HIDE_LILYCOVE_HARBOR_EVENT_TICKET_TAKER                0x2EC
 #define FLAG_HIDE_SLATEPORT_CITY_SCOTT                              0x2ED
-#define FLAG_HIDE_ROUTE_101_ZIGZAGOON                               0x2EE
+#define FLAG_HIDE_ROUTE_101_MEOWRRIOR                               0x2EE
 #define FLAG_HIDE_VICTORY_ROAD_EXIT_WALLY                           0x2EF
 #define FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE                       0x2F0
 #define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_STEVEN              0x2F1

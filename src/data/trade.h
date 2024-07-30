@@ -1008,7 +1008,7 @@ static const union AffineAnimCmd *const gSpriteAffineAnimTable_8338ECC[] =
 
 static const struct InGameTrade sIngameTrades[] =
 {
-    [INGAME_TRADE_SEEDOT] = 
+    [INGAME_TRADE_SOBBLEAF] = 
     {
         .nickname = _("Arctovish"), 
         .species = SPECIES_ARCTOVISH,

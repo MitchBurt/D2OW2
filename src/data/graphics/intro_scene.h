@@ -2,12 +2,12 @@ const u16 gIntro1GameFreakTextFadePal[] = INCBIN_U16("graphics/intro/intro1_text
 const u16 gIntro2BrendanNoTurnPal[] = INCBIN_U16("graphics/intro/intro2_brendan_noturn.gbapal");
 const u16 gIntro3BgPal[] = INCBIN_U16("graphics/intro/intro3.gbapal");
 const u16 gIntro2VolbeatPal[] = INCBIN_U16("graphics/intro/intro2_volbeat.gbapal");
-const u16 gIntro2TorchicPal[] = INCBIN_U16("graphics/intro/intro2_torchic.gbapal");
+const u16 gIntro2CookletPal[] = INCBIN_U16("graphics/intro/intro2_cooklet.gbapal");
 const u16 gIntro2ManectricPal[] = INCBIN_U16("graphics/intro/intro2_manectric.gbapal");
 const u16 gIntro2FlygonPal[] = INCBIN_U16("graphics/intro/intro2_flygon.gbapal");
 
 const u32 gIntro2VolbeatGfx[] = INCBIN_U32("graphics/intro/intro2_volbeat.4bpp.lz");
-const u32 gIntro2TorchicGfx[] = INCBIN_U32("graphics/intro/intro2_torchic.4bpp.lz");
+const u32 gIntro2CookletGfx[] = INCBIN_U32("graphics/intro/intro2_cooklet.4bpp.lz");
 const u32 gIntro2ManectricGfx[] = INCBIN_U32("graphics/intro/intro2_manectric.4bpp.lz");
 const u32 gIntro2FlygonGfx[] = INCBIN_U32("graphics/intro/intro2_flygon.4bpp.lz");
 const u32 gIntro2BrendanNoTurnGfx[] = INCBIN_U32("graphics/intro/intro2_brendan_noturn.4bpp.lz");

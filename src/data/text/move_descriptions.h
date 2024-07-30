@@ -5897,6 +5897,10 @@ static const u8 sShotDescription[] = _(
     "Foe takes a shot.\n"
     "May intoxicate the foe.");
 
+static const u8 sSEED_FORCEDescription[] = _(
+	"Hurls seeds that do more\n"
+	"damage to slower foes.");
+
 static const u8 sNotDoneYetDescription[] = _(
     "Not done yet.");
 
@@ -6662,4 +6666,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_ASTRAL_BARRAGE - 1] = sASTRAL_BARRAGEDescription,
     [MOVE_EERIE_SPELL - 1] = sEERIE_SPELLDescription,
     [MOVE_SHOT - 1] = sShotDescription,
+    [MOVE_SEED_FORCE - 1] = sSEED_FORCEDescription,
 };

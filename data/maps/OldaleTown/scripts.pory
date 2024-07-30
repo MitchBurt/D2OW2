@@ -54,7 +54,7 @@ OldaleTown_EventScript_MartEmployee:: @ 81E8EFC
 	case DIR_EAST, OldaleTown_EventScript_GoToMartEast
 	end
 	
-EventScript_Flying_Zigzagoon::
+EventScript_Flying_Meowrrior::
 	lockall
 	call Common_EventScript_FlyingTaxi
 	waitstate

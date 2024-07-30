@@ -10,7 +10,7 @@ RustboroCity_Flat2_1F_EventScript_Skitty:: @ 8215F80
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_DELCATTY, 0
+	playmoncry SPECIES_NYANCAT, 0
 	msgbox RustboroCity_Flat2_1F_Text_Skitty, MSGBOX_DEFAULT
 	waitmoncry
 	release
@@ -21,6 +21,6 @@ RustboroCity_Flat2_1F_Text_DevonWorkersLiveHere: @ 8215F93
 	.string "this building.$"
 
 RustboroCity_Flat2_1F_Text_Skitty: @ 8215FC6
-	.string "Delcatty: Gyaaaah!$"
+	.string "Nyancat: Gyaaaah!$"
 
 `

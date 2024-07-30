@@ -35,7 +35,7 @@ MossdeepCity_House4_EventScript_Skitty:: @ 8222E1E
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_DELCATTY, 0
+	playmoncry SPECIES_NYANCAT, 0
 	msgbox MossdeepCity_House4_Text_Skitty, MSGBOX_DEFAULT
 	waitmoncry
 	release
@@ -59,6 +59,6 @@ MossdeepCity_House4_Text_MakeSecretBase: @ 8222EF7
 	.string "somewhere. I'll go find it!$"
 
 MossdeepCity_House4_Text_Skitty: @ 8222F31
-	.string "Delcatty: Miyaan?$"
+	.string "Nyancat: Miyaan?$"
 
 `

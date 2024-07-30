@@ -537,23 +537,23 @@ LilycoveCity_PokemonCenter_1F_EventScript_ContestLadyMon:: @ 82A89C7
     special Script_BufferContestLadyCategoryAndMonName
     special GetContestLadyMonSpecies
     compare VAR_RESULT, CONTEST_CATEGORY_COOL
-    goto_if_eq LilycoveCity_PokemonCenter_1F_EventScript_Zigzagoon
+    goto_if_eq LilycoveCity_PokemonCenter_1F_EventScript_Meowrrior
     compare VAR_RESULT, CONTEST_CATEGORY_BEAUTY
     goto_if_eq LilycoveCity_PokemonCenter_1F_EventScript_Skitty
     compare VAR_RESULT, CONTEST_CATEGORY_CUTE
-    goto_if_eq LilycoveCity_PokemonCenter_1F_EventScript_Poochyena
+    goto_if_eq LilycoveCity_PokemonCenter_1F_EventScript_Duplicat
     compare VAR_RESULT, CONTEST_CATEGORY_SMART
     goto_if_eq LilycoveCity_PokemonCenter_1F_EventScript_Kecleon
     compare VAR_RESULT, CONTEST_CATEGORY_TOUGH
     goto_if_eq LilycoveCity_PokemonCenter_1F_EventScript_Skippa
     end
 
-LilycoveCity_PokemonCenter_1F_EventScript_Zigzagoon:: @ 82A8A0A
+LilycoveCity_PokemonCenter_1F_EventScript_Meowrrior:: @ 82A8A0A
     lock
     faceplayer
     waitse
     playmoncry VAR_0x8005, 0
-    msgbox LilycoveCity_PokemonCenter_1F_Text_Zigzagoon, MSGBOX_DEFAULT
+    msgbox LilycoveCity_PokemonCenter_1F_Text_Meowrrior, MSGBOX_DEFAULT
     waitmoncry
     release
     end
@@ -568,12 +568,12 @@ LilycoveCity_PokemonCenter_1F_EventScript_Skitty:: @ 82A8A1D
     release
     end
 
-LilycoveCity_PokemonCenter_1F_EventScript_Poochyena:: @ 82A8A30
+LilycoveCity_PokemonCenter_1F_EventScript_Duplicat:: @ 82A8A30
     lock
     faceplayer
     waitse
     playmoncry VAR_0x8005, 0
-    msgbox LilycoveCity_PokemonCenter_1F_Text_Poochyena, MSGBOX_DEFAULT
+    msgbox LilycoveCity_PokemonCenter_1F_Text_Duplicat, MSGBOX_DEFAULT
     waitmoncry
     release
     end
@@ -843,13 +843,13 @@ LilycoveCity_PokemonCenter_1F_Text_ReadyToEnterContests: @ 82A9669
     .string "If you see us in one somewhere,\n"
     .string "I hope you'll cheer for us.$"
 
-LilycoveCity_PokemonCenter_1F_Text_Zigzagoon: @ 82A96DA
+LilycoveCity_PokemonCenter_1F_Text_Meowrrior: @ 82A96DA
     .string "{STR_VAR_1}: Guguuh!$"
 
 LilycoveCity_PokemonCenter_1F_Text_Kecleon: @ 82A96E6
     .string "{STR_VAR_1}: Igigigiiih!$"
 
-LilycoveCity_PokemonCenter_1F_Text_Poochyena: @ 82A96F6
+LilycoveCity_PokemonCenter_1F_Text_Duplicat: @ 82A96F6
     .string "{STR_VAR_1}: Baaarun…$"
 
 LilycoveCity_PokemonCenter_1F_Text_Skippa: @ 82A9703

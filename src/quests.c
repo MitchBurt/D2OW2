@@ -366,7 +366,7 @@ static const struct SideQuest sSideQuests[SIDE_QUEST_COUNT] =
     side_quest(gText_SideQuestName_2,  gText_SideQuestDesc_2,  ITEM_DESTINY_KNOT	, 1, 	gText_SideQuestHint_2,  FLAG_ACHIEVEMENT_REWARD_02),
     side_quest(gText_SideQuestName_3,  gText_SideQuestDesc_3,  ITEM_POWER_CANDY		, 6, 	gText_SideQuestHint_3,  FLAG_ACHIEVEMENT_REWARD_03),
     side_quest(gText_SideQuestName_4,  gText_SideQuestDesc_4,  ITEM_GALLADITE		, 1, 	gText_SideQuestHint_4,  FLAG_ACHIEVEMENT_REWARD_04),
-    side_quest(gText_SideQuestName_5,  gText_SideQuestDesc_5,  ITEM_SWAMPERTITE		, 1, 	gText_SideQuestHint_5,  FLAG_ACHIEVEMENT_REWARD_05),
+    side_quest(gText_SideQuestName_5,  gText_SideQuestDesc_5,  ITEM_BAITANKITE		, 1, 	gText_SideQuestHint_5,  FLAG_ACHIEVEMENT_REWARD_05),
     side_quest(gText_SideQuestName_6,  gText_SideQuestDesc_6,  ITEM_LATIOSITE		, 1, 	gText_SideQuestHint_6,  FLAG_ACHIEVEMENT_REWARD_06),
     side_quest(gText_SideQuestName_7,  gText_SideQuestDesc_7,  ITEM_ALAKAZITE		, 1, 	gText_SideQuestHint_7,  FLAG_ACHIEVEMENT_REWARD_07),
     side_quest(gText_SideQuestName_8,  gText_SideQuestDesc_8,  ITEM_USARMYITE	, 1, 	gText_SideQuestHint_8,  FLAG_ACHIEVEMENT_REWARD_08),
@@ -392,7 +392,7 @@ static const struct SideQuest sSideQuests[SIDE_QUEST_COUNT] =
     side_quest(gText_SideQuestName_28, gText_SideQuestDesc_28, ITEM_UP_GRADE		, 1, 	gText_SideQuestHint_28, FLAG_ACHIEVEMENT_REWARD_28),
     side_quest(gText_SideQuestName_29, gText_SideQuestDesc_29, ITEM_CHERISH_BALL_SEAL, 1, 	gText_SideQuestHint_29, FLAG_ACHIEVEMENT_REWARD_29),
     side_quest(gText_SideQuestName_30, gText_SideQuestDesc_30, ITEM_PRETTY_WING		, 20, 	gText_SideQuestHint_30, FLAG_ACHIEVEMENT_REWARD_30),
-	side_quest(gText_SideQuestName_31, gText_SideQuestDesc_31, ITEM_GARDEVOIRITE	, 1,    gText_SideQuestHint_31, FLAG_ACHIEVEMENT_REWARD_31),
+	side_quest(gText_SideQuestName_31, gText_SideQuestDesc_31, ITEM_THATSFURRYITE	, 1,    gText_SideQuestHint_31, FLAG_ACHIEVEMENT_REWARD_31),
     side_quest(gText_SideQuestName_32, gText_SideQuestDesc_32, ITEM_EXP_CHARM		, 1, 	gText_SideQuestHint_32, FLAG_ACHIEVEMENT_REWARD_32),
     side_quest(gText_SideQuestName_00, gText_SideQuestDesc_00, ITEM_POKE_BALL		, 1, 	gText_SideQuestHint_00, FLAG_ACHIEVEMENT_REWARD_01),
     side_quest(gText_SideQuestName_00, gText_SideQuestDesc_00, ITEM_POKE_BALL		, 1, 	gText_SideQuestHint_00, FLAG_ACHIEVEMENT_REWARD_01),
@@ -2180,7 +2180,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_FURBOIS:
 				case SPECIES_MARLEYZARD:
 				case SPECIES_UNJOY:
-				case SPECIES_SILCOON:
+				case SPECIES_NYANKITTY:
 				case SPECIES_MINUN:
 				case SPECIES_LILEEP:
 				case SPECIES_TROPIUS:

@@ -193,25 +193,25 @@ static const struct {
     u8 location;
 } sPokeOutbreakSpeciesList[] = {
     {
-        .species = SPECIES_SEEDOT,
+        .species = SPECIES_SOBBLEAF,
         .moves = {MOVE_BIDE, MOVE_HARDEN, MOVE_LEECH_SEED},
         .level = 3, 
         .location = MAP_NUM(ROUTE102)
     },
     {
-        .species = SPECIES_NUZLEAF,
+        .species = SPECIES_HEROKKU,
         .moves = {MOVE_HARDEN, MOVE_GROWTH, MOVE_NATURE_POWER, MOVE_LEECH_SEED},
         .level = 15, 
         .location = MAP_NUM(ROUTE114),
     },
     {
-        .species = SPECIES_SEEDOT,
+        .species = SPECIES_SOBBLEAF,
         .moves = {MOVE_HARDEN, MOVE_GROWTH, MOVE_NATURE_POWER, MOVE_LEECH_SEED},
         .level = 13, 
         .location = MAP_NUM(ROUTE117),
     },
     {
-        .species = SPECIES_SEEDOT,
+        .species = SPECIES_SOBBLEAF,
         .moves = {MOVE_GIGA_DRAIN, MOVE_FRUSTRATION, MOVE_SOLAR_BEAM, MOVE_LEECH_SEED},
         .level = 25, 
         .location = MAP_NUM(ROUTE120),

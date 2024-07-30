@@ -980,7 +980,7 @@ const struct BattleFrontierTrainer gBattleFrontierTrainers[FRONTIER_TRAINERS_COU
         .facilityClass = FACILITY_CLASS_PSYCHIC_M,
         .trainerName = _("Zach"),
         .speechBefore = {EC_WORD_I_AM, EC_WORD_AN, EC_WORD_EXCELLENT, EC_MOVE2(MIMIC), EC_WORD_OF, EC_WORD_POKEMON},
-        .speechWin = {EC_WORD_I_AM, EC_WORD_HAPPY, EC_WORD_LIKE, EC_WORD_A_LITTLE, EC_POKEMON2(VIPII), EC_WORD_EXCL},
+        .speechWin = {EC_WORD_I_AM, EC_WORD_HAPPY, EC_WORD_LIKE, EC_WORD_A_LITTLE, EC_POKEMON2(FILMBRAIN), EC_WORD_EXCL},
         .speechLose = {EC_WORD_I_AM, EC_WORD_ANGRY, EC_WORD_LIKE, EC_WORD_A, EC_POKEMON2(AGANDA), EC_WORD_EXCL},
         .monSet = gBattleFrontierTrainerMons_Zach
     },
@@ -1755,7 +1755,7 @@ const struct BattleFrontierTrainer gBattleFrontierTrainers[FRONTIER_TRAINERS_COU
     [FRONTIER_TRAINER_TESS] = {
         .facilityClass = FACILITY_CLASS_PKMN_BREEDER_F,
         .trainerName = _("Tess"),
-        .speechBefore = {EC_WORD_WANT, EC_WORD_SOME, EC_POKEMON(GULPIN), EC_WORD_DESIGN, EC_WORD_SWEETS, EC_WORD_QUES},
+        .speechBefore = {EC_WORD_WANT, EC_WORD_SOME, EC_POKEMON(SYMBITE), EC_WORD_DESIGN, EC_WORD_SWEETS, EC_WORD_QUES},
         .speechWin = {EC_WORD_THEY_RE, EC_WORD_A, EC_WORD_SECRET, EC_WORD_POKEMON, EC_WORD_GOURMET, EC_WORD_ITEM},
         .speechLose = {EC_WORD_THEY_RE, EC_WORD_TASTY, EC_WORD_EXCL, EC_WORD_REFRESHING, EC_WORD_TOO, EC_WORD_EXCL},
         .monSet = gBattleFrontierTrainerMons_Tess

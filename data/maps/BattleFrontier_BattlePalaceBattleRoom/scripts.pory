@@ -2,7 +2,7 @@ raw `
 .set LOCALID_PLAYER, 1
 .set LOCALID_OPPONENT, 2
 .set LOCALID_ATTENDANT, 3
-.set LOCALID_DUSCLOPS, 4
+.set LOCALID_HUGEMAN, 4
 .set LOCALID_AZURILL, 5
 
 BattleFrontier_BattlePalaceBattleRoom_MapScripts:: @ 824F815
@@ -217,7 +217,7 @@ BattleFrontier_BattlePalaceBattleRoom_EventScript_BattleSpenser:: @ 824FC06
 	hideobjectat LOCALID_OPPONENT, MAP_BATTLE_FRONTIER_BATTLE_PALACE_BATTLE_ROOM
 	setobjectxy LOCALID_OPPONENT, 13, 1
 	setobjectxyperm LOCALID_OPPONENT, 13, 1
-	applymovement LOCALID_DUSCLOPS, BattleFrontier_BattlePalaceBattleRoom_Movement_DusclopsEnter
+	applymovement LOCALID_HUGEMAN, BattleFrontier_BattlePalaceBattleRoom_Movement_HugemanEnter
 	applymovement LOCALID_AZURILL, BattleFrontier_BattlePalaceBattleRoom_Movement_AzurillEnter
 	applymovement LOCALID_OPPONENT, BattleFrontier_BattlePalaceBattleRoom_Movement_SpenserEnter
 	waitmovement 0
@@ -318,7 +318,7 @@ BattleFrontier_BattlePalaceBattleRoom_EventScript_SetUpRoomObjects:: @ 824FE3E
 	setvar VAR_TEMP_1, 1
 	applymovement OBJ_EVENT_ID_PLAYER, BattleFrontier_BattlePalaceBattleRoom_Movement_SetInvisible
 	removeobject LOCALID_OPPONENT
-	applymovement LOCALID_DUSCLOPS, BattleFrontier_BattlePalaceBattleRoom_Movement_SetInvisible
+	applymovement LOCALID_HUGEMAN, BattleFrontier_BattlePalaceBattleRoom_Movement_SetInvisible
 	applymovement LOCALID_AZURILL, BattleFrontier_BattlePalaceBattleRoom_Movement_SetInvisible
 	end
 
@@ -429,7 +429,7 @@ BattleFrontier_BattlePalaceBattleRoom_EventScript_WarpToLobbyDoubles:: @ 824FED5
 	waitstate
 	end
 
-BattleFrontier_BattlePalaceBattleRoom_Movement_DusclopsEnter: @ 824FEDF
+BattleFrontier_BattlePalaceBattleRoom_Movement_HugemanEnter: @ 824FEDF
 	delay_16
 	delay_16
 	set_visible

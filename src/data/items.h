@@ -9479,17 +9479,17 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_GARDEVOIRITE] =
+    [ITEM_THATSFURRYITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Gardevoirita"),
+        .name = _("Thatsfurryita"),
 #else
-        .name = _("Gardevoirite"),
+        .name = _("Thatsfurryite"),
 #endif
-        .itemId = ITEM_GARDEVOIRITE,
+        .itemId = ITEM_THATSFURRYITE,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sGardevoiriteDesc,
+        .description = sThatsfurryiteDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -9598,34 +9598,34 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_BLAZIKENITE] =
+    [ITEM_GOURMASTERITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Blazikenita"),
+        .name = _("Gourmasterita"),
 #else
-        .name = _("Blazikenite"),
+        .name = _("Gourmasterite"),
 #endif
-        .itemId = ITEM_BLAZIKENITE,
+        .itemId = ITEM_GOURMASTERITE,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sBlazikeniteDesc,
+        .description = sGourmasteriteDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .secondaryId = 0,
     },
 
-    [ITEM_MEDICHAMITE] =
+    [ITEM_LONKESTITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Medichamita"),
+        .name = _("Lonkestita"),
 #else
-        .name = _("Medichamite"),
+        .name = _("Lonkestite"),
 #endif
-        .itemId = ITEM_MEDICHAMITE,
+        .itemId = ITEM_LONKESTITE,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sMedichamiteDesc,
+        .description = sLonkestiteDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -9972,17 +9972,17 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_SWAMPERTITE] =
+    [ITEM_BAITANKITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Swampertita"),
+        .name = _("Baitankita"),
 #else
-        .name = _("Swampertite"),
+        .name = _("Baitankite"),
 #endif
-        .itemId = ITEM_SWAMPERTITE,
+        .itemId = ITEM_BAITANKITE,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sSwampertiteDesc,
+        .description = sBaitankiteDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -9992,7 +9992,7 @@ const struct Item gItems[] =
     [ITEM_SCEPTILITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Sceptileita"),
+        .name = _("Incredalenita"),
 #else
         .name = _("Sceptilite"),
 #endif

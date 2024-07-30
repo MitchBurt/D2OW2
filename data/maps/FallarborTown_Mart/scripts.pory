@@ -43,7 +43,7 @@ FallarborTown_Mart_EventScript_Skitty:: @ 81FFD06
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_DELCATTY, 0
+	playmoncry SPECIES_NYANCAT, 0
 	msgbox FallarborTown_Mart_Text_Skitty, MSGBOX_DEFAULT
 	waitmoncry
 	release
@@ -51,10 +51,10 @@ FallarborTown_Mart_EventScript_Skitty:: @ 81FFD06
 
 FallarborTown_Mart_Text_DecidingSkittyEvolve: @ 81FFD19
 	.string "I recently evolved my Skitty into\n"
-	.string "a Delcatty with a Moon Stone.$"
+	.string "a Nyancat with a Moon Stone.$"
 
 FallarborTown_Mart_Text_Skitty: @ 81FFDFA
-	.string "Delcatty: Miyao?$"
+	.string "Nyancat: Miyao?$"
 
 FallarborTown_Mart_Text_SellNuggetIFound: @ 81FFE09
 	.string "This Nugget I found here…\n"

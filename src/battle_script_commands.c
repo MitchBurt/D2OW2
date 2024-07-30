@@ -9685,7 +9685,7 @@ static void Cmd_setmultihitcounter(void)
 			if(gCurrentMove == MOVE_PIN_MISSILE && FlagGet(FLAG_RECEIVED_BADGE_08))
 				gMultiHitCounter = 4;
 		break;
-		case SPECIES_HARIYAMA:
+		case SPECIES_GANGBEATS:
 			if(gCurrentMove == MOVE_ARM_THRUST)
 				gMultiHitCounter = 5;
 		break;
@@ -12884,14 +12884,14 @@ static void Cmd_givecaughtmon(void)
         case SPECIES_HAPPYMAUL_MEGA:
         case SPECIES_MINIMAL_MEGA:
         case SPECIES_FROSILISK_MEGA:
-        case SPECIES_SCEPTILE_MEGA:
-        case SPECIES_BLAZIKEN_MEGA:
-        case SPECIES_SWAMPERT_MEGA:
-        case SPECIES_GARDEVOIR_MEGA:
+        case SPECIES_INCREDALEN_MEGA:
+        case SPECIES_GOURMASTER_MEGA:
+        case SPECIES_BAITANK_MEGA:
+        case SPECIES_THATSFURRY_MEGA:
         case SPECIES_SABLEYE_MEGA:
         case SPECIES_MAWILE_MEGA:
         case SPECIES_AGGRON_MEGA:
-        case SPECIES_MEDICHAM_MEGA:
+        case SPECIES_LONKEST_MEGA:
         case SPECIES_MANECTRIC_MEGA:
         case SPECIES_SHARPEDO_MEGA:
         case SPECIES_CAMERUPT_MEGA:

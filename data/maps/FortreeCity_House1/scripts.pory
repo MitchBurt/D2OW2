@@ -54,12 +54,12 @@ FortreeCity_House1_EventScript_ExpertF:: @ 821635F
 	msgbox FortreeCity_House1_Text_TradingMemoriesWithOthers, MSGBOX_NPC
 	end
 
-FortreeCity_House1_EventScript_Zigzagoon:: @ 8216368
+FortreeCity_House1_EventScript_Meowrrior:: @ 8216368
 	lock
 	faceplayer
 	waitse
 	playmoncry SPECIES_DUSKNOIR, 0
-	msgbox FortreeCity_House1_Text_Zigzagoon, MSGBOX_DEFAULT
+	msgbox FortreeCity_House1_Text_Meowrrior, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
@@ -97,7 +97,7 @@ FortreeCity_House1_Text_TradingMemoriesWithOthers: @ 821653B
 	.string "It's as if you're trading your own\n"
 	.string "memories with other people.$"
 
-FortreeCity_House1_Text_Zigzagoon: @ 8216597
+FortreeCity_House1_Text_Meowrrior: @ 8216597
 	.string "Dusknoir: Gumomoh?$"
 
 `

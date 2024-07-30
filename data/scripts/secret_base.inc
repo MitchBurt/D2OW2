@@ -795,8 +795,8 @@ SecretBase_Text_ToyTV: @ 8276974
 	.string "A realistic toy TV. It could be easily\n"
 	.string "mistaken for the real thing.$"
 
-SecretBase_Text_SeedotTV: @ 82769B8
-	.string "A toy TV shaped like a Seedot.\n"
+SecretBase_Text_SobbleafTV: @ 82769B8
+	.string "A toy TV shaped like a Sobbleaf.\n"
 	.string "It looks ready to roll away on its own…$"
 
 SecretBase_Text_SkittyTV: @ 82769FF

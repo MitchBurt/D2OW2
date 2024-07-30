@@ -438,7 +438,7 @@ void NewGameInitData(void)
     ResetLinkContestBoolean();
     ClearAllContestWinnerPics();
     ClearPlayerLinkBattleRecords();
-    InitSeedotSizeRecord();
+    InitSobbleafSizeRecord();
     InitLotadSizeRecord();
     ClearBag();
     if(!newgameplus){

@@ -11445,6 +11445,20 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED | FLAG_SHEER_FORCE_BOOST | FLAG_ALCOHOL,
         .split = SPLIT_SPECIAL,
     },
+
+    [MOVE_SEED_FORCE] =
+    {
+        .effect = EFFECT_ELECTRO_BALL,
+        .power = 1,
+        .type = TYPE_GRASS,
+        .accuracy = 100,
+        .pp = 10,
+        .secondaryEffectChance = 0,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED | FLAG_BALLISTIC,
+        .split = SPLIT_PHYSICAL,
+    },
 };
 
 const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
@@ -12058,7 +12072,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_SCEPTILE] =
+    [SPECIES_INCREDALEN] =
     {
         .move = MOVE_LEAF_BLADE,
         .modification = SIGNATURE_MOD_PSS_CHANGE,
@@ -12066,7 +12080,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_SCEPTILE_MEGA] =
+    [SPECIES_INCREDALEN_MEGA] =
     {
         .move = MOVE_LEAF_BLADE,
         .modification = SIGNATURE_MOD_PSS_CHANGE,
@@ -12074,7 +12088,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_BLAZIKEN] =
+    [SPECIES_GOURMASTER] =
     {
         .move = MOVE_BLAZE_KICK,
         .modification = SIGNATURE_MOD_POWER,
@@ -12082,7 +12096,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_BLAZIKEN_MEGA] =
+    [SPECIES_GOURMASTER_MEGA] =
     {
         .move = MOVE_BLAZE_KICK,
         .modification = SIGNATURE_MOD_POWER,
@@ -12090,7 +12104,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_SWAMPERT] =
+    [SPECIES_BAITANK] =
     {
         .move = MOVE_MUDDY_WATER,
         .modification = SIGNATURE_MOD_PSS_CHANGE,
@@ -12100,7 +12114,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_SWAMPERT_MEGA] =
+    [SPECIES_BAITANK_MEGA] =
     {
         .move = MOVE_MUDDY_WATER,
         .modification = SIGNATURE_MOD_PSS_CHANGE,
@@ -12110,7 +12124,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_MIGHTYENA] =
+    [SPECIES_FURRLEAD] =
     {
         .move = MOVE_BITE,
         .modification = SIGNATURE_MOD_POWER,
@@ -12118,7 +12132,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_LINOONE] =
+    [SPECIES_ZEPPUR] =
     {
         .move = MOVE_EXTREME_SPEED,
         .modification = SIGNATURE_MOD_ATTACKER_STAT_UP,
@@ -12126,7 +12140,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_BEAUTIFLY] =
+    [SPECIES_NYANTIGER] =
     {
         .move = MOVE_SILVER_WIND,
         .modification = SIGNATURE_MOD_EFFECT_CHANCE,
@@ -12134,7 +12148,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_DUSTOX] =
+    [SPECIES_DUCKERTRON] =
     {
         .move = MOVE_OMINOUS_WIND,
         .modification = SIGNATURE_MOD_EFFECT_CHANCE,
@@ -12155,7 +12169,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_SHIFTRY] =
+    [SPECIES_SHADEKU] =
     {
         .move = MOVE_LEAF_TORNADO,
         .modification = SIGNATURE_MOD_POWER,
@@ -12196,7 +12210,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_HARIYAMA] =
+    [SPECIES_GANGBEATS] =
     {
         .move = MOVE_ARM_THRUST,
         .modification = SIGNATURE_MOD_SECONDARY_EFFECT,

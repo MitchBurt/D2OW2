@@ -1,8 +1,8 @@
 gTrickHouse_Mechadoll_Bongstard:: @ 27ECBC
 	.string "Bongstard$"
 
-gTrickHouse_Mechadoll_Poochyena:: @ 27ECC3
-	.string "Poochyena$"
+gTrickHouse_Mechadoll_Duplicat:: @ 27ECC3
+	.string "Duplicat$"
 
 gTrickHouse_Mechadoll_Taillow:: @ 27ECCD
 	.string "Taillow$"
@@ -16,8 +16,8 @@ gTrickHouse_Mechadoll_Lotad:: @ 27ECDD
 gTrickHouse_Mechadoll_Wingull:: @ 27ECE3
 	.string "Wingull$"
 
-gTrickHouse_Mechadoll_Dustox:: @ 27ECEB
-	.string "Dustox$"
+gTrickHouse_Mechadoll_Duckertron:: @ 27ECEB
+	.string "Duckertron$"
 
 gTrickHouse_Mechadoll_Batanarf:: @ 27ECF2
 	.string "Batanarf$"
@@ -25,26 +25,26 @@ gTrickHouse_Mechadoll_Batanarf:: @ 27ECF2
 gTrickHouse_Mechadoll_Nincada:: @ 27ECF8
 	.string "Nincada$"
 
-gTrickHouse_Mechadoll_Ralts:: @ 27ED00
-	.string "Ralts$"
+gTrickHouse_Mechadoll_Notafurry:: @ 27ED00
+	.string "Notafurry$"
 
-gTrickHouse_Mechadoll_Zigzagoon:: @ 27ED06
-	.string "Zigzagoon$"
+gTrickHouse_Mechadoll_Meowrrior:: @ 27ED06
+	.string "Meowrrior$"
 
 gTrickHouse_Mechadoll_Slakoth:: @ 27ED10
 	.string "Slakoth$"
 
-gTrickHouse_Mechadoll_Poochyena2:: @ 27ED18
-	.string "Poochyena$"
+gTrickHouse_Mechadoll_Duplicat2:: @ 27ED18
+	.string "Duplicat$"
 
 gTrickHouse_Mechadoll_Shroomish:: @ 27ED22
 	.string "Shroomish$"
 
-gTrickHouse_Mechadoll_Zigzagoon2:: @ 27ED2C
-	.string "Zigzagoon$"
+gTrickHouse_Mechadoll_Meowrrior2:: @ 27ED2C
+	.string "Meowrrior$"
 
-gTrickHouse_Mechadoll_Poochyena3:: @ 27ED36
-	.string "Poochyena$"
+gTrickHouse_Mechadoll_Duplicat3:: @ 27ED36
+	.string "Duplicat$"
 
 gTrickHouse_Mechadoll_Batanarf2:: @ 27ED40
 	.string "Batanarf$"

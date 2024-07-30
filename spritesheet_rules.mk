@@ -575,10 +575,10 @@ $(OBJEVENTGFXDIR)/pokemon/azurill.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/pokemon/deoxys.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
-$(OBJEVENTGFXDIR)/pokemon/dusclops.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/pokemon/hugeman.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
-$(OBJEVENTGFXDIR)/pokemon/enemy_zigzagoon.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/pokemon/enemy_meowrrior.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
 $(OBJEVENTGFXDIR)/pokemon/groudon.4bpp: %.4bpp: %.png
@@ -590,7 +590,7 @@ $(OBJEVENTGFXDIR)/pokemon/suffer.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/pokemon/kecleon.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
-$(OBJEVENTGFXDIR)/pokemon/kirlia.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/pokemon/sortafurry.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
 $(OBJEVENTGFXDIR)/pokemon/kyogre.4bpp: %.4bpp: %.png
@@ -608,7 +608,7 @@ $(OBJEVENTGFXDIR)/pokemon/thevoid.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/pokemon/skippa.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
-$(OBJEVENTGFXDIR)/pokemon/poochyena.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/pokemon/duplicat.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
 $(OBJEVENTGFXDIR)/pokemon/rayquaza.4bpp: %.4bpp: %.png
@@ -635,7 +635,7 @@ $(OBJEVENTGFXDIR)/pokemon/vigoroth.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/pokemon/wingull.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
-$(OBJEVENTGFXDIR)/pokemon/zigzagoon.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/pokemon/meowrrior.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
 $(OBJEVENTGFXDIR)/berry_trees/aguav.4bpp: %.4bpp: %.png

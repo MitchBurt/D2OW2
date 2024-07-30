@@ -1,9 +1,9 @@
 #ifndef GUARD_POKEMON_SIZE_RECORD_H
 #define GUARD_POKEMON_SIZE_RECORD_H
 
-void InitSeedotSizeRecord(void);
-void GetSeedotSizeRecordInfo(void);
-void CompareSeedotSize(void);
+void InitSobbleafSizeRecord(void);
+void GetSobbleafSizeRecordInfo(void);
+void CompareSobbleafSize(void);
 
 void InitLotadSizeRecord(void);
 void GetLotadSizeRecordInfo(void);

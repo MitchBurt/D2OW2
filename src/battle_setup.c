@@ -890,10 +890,10 @@ static void sub_80B0828(void)
     TryUpdateGymLeaderRematchFromTrainer();
 }
 
-// Initiates battle where Wally catches Ralts
+// Initiates battle where Wally catches Notafurry
 void StartWallyTutorialBattle(void)
 {
-    CreateMaleMon(&gEnemyParty[0], SPECIES_RALTS, 5, 0);
+    CreateMaleMon(&gEnemyParty[0], SPECIES_NOTAFURRY, 5, 0);
     ScriptContext2_Enable();
     gMain.savedCallback = CB2_ReturnToFieldContinueScriptPlayMapMusic;
     gBattleTypeFlags = BATTLE_TYPE_WALLY_TUTORIAL;

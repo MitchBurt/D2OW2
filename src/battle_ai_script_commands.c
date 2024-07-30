@@ -3062,9 +3062,9 @@ static u8 AI_CheckBadMove(u8 battlerAtk, u8 battlerDef, u16 move, u8 score)
                     score += 10;
                 break;
             case ABILITY_SLIMY:
-                if (IsMoveMakingContact(move, battlerAtk) && moveType != TYPE_WATER)
+                if (IsMoveMakingContact(move, battlerAtk) && moveType != TYPE_FIRE)
                     score -= 10;
-                else if(moveType == TYPE_WATER)
+                else if(moveType == TYPE_FIRE)
                     score += 10;
                 break;
             case ABILITY_DAMP:

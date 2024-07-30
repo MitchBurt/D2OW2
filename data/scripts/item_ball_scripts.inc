@@ -714,8 +714,8 @@ MegaStone_EventScript_ItemAudinite::
 	addscaleditem ITEM_AUDINITE
 	end
 	
-MegaStone_EventScript_ItemGardevoirite::
-	addscaleditem ITEM_GARDEVOIRITE
+MegaStone_EventScript_ItemThatsfurryite::
+	addscaleditem ITEM_THATSFURRYITE
 	end
 	
 MegaStone_EventScript_ItemSkorpyrosite_X::
@@ -750,8 +750,8 @@ MegaStone_EventScript_Garchompite::
 	addscaleditem ITEM_GARCHOMPITE
 	end
 	
-MegaStone_EventScript_Medichamite::
-	addscaleditem ITEM_MEDICHAMITE
+MegaStone_EventScript_Lonkestite::
+	addscaleditem ITEM_LONKESTITE
 	end	
 	
 MegaStone_EventScript_Absolite::

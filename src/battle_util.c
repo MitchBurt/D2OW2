@@ -8281,7 +8281,7 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
             if (updateFlags)
                 RecordAbilityBattle(battlerDef, ability);
         }
-        if (moveType == TYPE_WATER)
+        if (moveType == TYPE_FIRE || gBattleMoves[move].flags & FLAG_SOUND)
             MulModifier(&modifier, UQ_4_12(2.0));
         break;
     case ABILITY_DAMP:

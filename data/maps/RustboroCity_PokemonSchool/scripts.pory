@@ -56,7 +56,7 @@ RustboroCity_PokemonSchool_EventScript_GameboyKid1:: @ 8213F5F
 	end
 
 RustboroCity_PokemonSchool_EventScript_GameboyKid2:: @ 8213F68
-	msgbox RustboroCity_PokemonSchool_Text_AlwaysWantedSeedot, MSGBOX_NPC
+	msgbox RustboroCity_PokemonSchool_Text_AlwaysWantedSobbleaf, MSGBOX_NPC
 	end
 
 RustboroCity_PokemonSchool_EventScript_RichBoy:: @ 8213F71
@@ -267,8 +267,8 @@ RustboroCity_PokemonSchool_Text_TradingRightNow: @ 821459F
 	.string "I'm trading Pokémon with my friend\n"
 	.string "right now.$"
 
-RustboroCity_PokemonSchool_Text_AlwaysWantedSeedot: @ 82145CD
-	.string "I always wanted a Seedot, and\n"
+RustboroCity_PokemonSchool_Text_AlwaysWantedSobbleaf: @ 82145CD
+	.string "I always wanted a Sobbleaf, and\n"
 	.string "I'm finally getting one!$"
 
 RustboroCity_PokemonSchool_Text_PokemontCantUseManMadeItems: @ 8214604

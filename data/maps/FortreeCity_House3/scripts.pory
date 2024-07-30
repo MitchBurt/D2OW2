@@ -29,7 +29,7 @@ FortreeCity_House3_EventScript_AsktoTrade::
 	switch VAR_RESULT
 	case 0, FortreeCity_House3_EventScript_Give_Meadosaur_Mega
 	case 1, FortreeCity_House3_EventScript_Give_Tom
-	case 2, FortreeCity_House3_EventScript_Give_Treecko_Mega
+	case 2, FortreeCity_House3_EventScript_Give_Berryalen_Mega
 	case 3, FortreeCity_House3_EventScript_Give_Turtwig
 	case 4, FortreeCity_House3_EventScript_Give_Snivy
 	case 5, FortreeCity_House3_EventScript_Give_Chespin
@@ -105,24 +105,24 @@ FortreeCity_House3_EventScript_Give_Tom::
 	release
 	end
 	
-//Torchic
-FortreeCity_House3_EventScript_Give_Treecko::
-	bufferspeciesname 1, SPECIES_TREECKO
+//Cooklet
+FortreeCity_House3_EventScript_Give_Berryalen::
+	bufferspeciesname 1, SPECIES_BERRYALEN
 	playfanfare MUS_OBTAIN_ITEM
 	message FortreeCity_House3_Text_ReceivedMonFromOldMan
-	givemon SPECIES_TREECKO, 10, ITEM_NONE
+	givemon SPECIES_BERRYALEN, 10, ITEM_NONE
 	waitfanfare
 	msgbox FortreeCity_House3_Text_ComeAgain_Starter, MSGBOX_DEFAULT
 	release
 	end
 	
-FortreeCity_House3_EventScript_Give_Treecko_Mega::
-	goto_if_unset FLAG_RECEIVED_TM04 FortreeCity_House3_EventScript_Give_Treecko
-	goto_if_set FLAG_UNUSED_0x269 FortreeCity_House3_EventScript_Give_Treecko
-	bufferspeciesname 1, SPECIES_TREECKO
+FortreeCity_House3_EventScript_Give_Berryalen_Mega::
+	goto_if_unset FLAG_RECEIVED_TM04 FortreeCity_House3_EventScript_Give_Berryalen
+	goto_if_set FLAG_UNUSED_0x269 FortreeCity_House3_EventScript_Give_Berryalen
+	bufferspeciesname 1, SPECIES_BERRYALEN
 	playfanfare MUS_OBTAIN_ITEM
 	message FortreeCity_House3_Text_ReceivedMonFromOldMan
-	givemon SPECIES_TREECKO, 30, ITEM_SCEPTILITE
+	givemon SPECIES_BERRYALEN, 30, ITEM_SCEPTILITE
 	setflag FLAG_UNUSED_0x269
 	waitfanfare
 	msgbox FortreeCity_House3_Text_ComeAgain_Starter, MSGBOX_DEFAULT

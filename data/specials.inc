@@ -130,8 +130,8 @@ gSpecials:: @ 81DBA64
 	def_special ScrSpecial_IsDecorationFull
 	def_special ScrSpecial_TraderMenuGiveDecoration
 	def_special ScrSpecial_TraderDoDecorationTrade
-	def_special GetSeedotSizeRecordInfo
-	def_special CompareSeedotSize
+	def_special GetSobbleafSizeRecordInfo
+	def_special CompareSobbleafSize
 	def_special GetLotadSizeRecordInfo
 	def_special CompareLotadSize
 	def_special TryPutNameRaterShowOnTheAir
@@ -311,7 +311,7 @@ gSpecials:: @ 81DBA64
 	def_special TryUpdateRusturfTunnelState
 	def_special IsGrassTypeInParty
 	def_special DoContestHallWarp
-	def_special PutZigzagoonInPlayerParty
+	def_special PutMeowrriorInPlayerParty
 	def_special IsStarterInParty
 	def_special CopyCurSecretBaseOwnerName_StrVar1
 	def_special ScriptCheckFreePokemonStorageSpace

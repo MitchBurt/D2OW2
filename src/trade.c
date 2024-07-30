@@ -5142,21 +5142,21 @@ u16 getWonderTradePokemonFormID(u16 species)
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_ZIGZAGOON:
+		case SPECIES_MEOWRRIOR:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_ZIGZAGOON,
-					SPECIES_ZIGZAGOON_GALARIAN,
+					SPECIES_MEOWRRIOR,
+					SPECIES_MEOWRRIOR_GALARIAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_LINOONE:
+		case SPECIES_ZEPPUR:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_LINOONE,
-					SPECIES_LINOONE_GALARIAN,
+					SPECIES_ZEPPUR,
+					SPECIES_ZEPPUR_GALARIAN,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
@@ -5472,7 +5472,7 @@ void CreateInGameTradePokemon(void)
     else if(gSpecialVar_0x8004 == 7) // Version 2 Step 1 (trade your pokemon for the defined pokemon below and saves your pokemon data to the trader)
     {
         struct Pokemon *pokemon = &gEnemyParty[0];
-        CreateMon(pokemon, SPECIES_WURMPLE, 10, 32, FALSE, 0, OT_ID_PRESET, 0, 0); // (After the trade this pokemon is set as "Seen and caught" in the players pokedex!)
+        CreateMon(pokemon, SPECIES_ZEPURRINE, 10, 32, FALSE, 0, OT_ID_PRESET, 0, 0); // (After the trade this pokemon is set as "Seen and caught" in the players pokedex!)
         gEnemyParty[1] = gPlayerParty[gSpecialVar_0x8005];
     }
     else if(gSpecialVar_0x8004 == 8) // Version 2 Step 2 (trades your saved pokemon from the trader back to you)
@@ -5488,7 +5488,7 @@ void CreateInGameWonderTradePokemon(void)
     else if(gSpecialVar_0x8004 == 7) // Version 2 Step 1 (trade your pokemon for the defined pokemon below and saves your pokemon data to the trader)
     {
         struct Pokemon *pokemon = &gEnemyParty[0];
-        CreateMon(pokemon, SPECIES_WURMPLE, 10, 32, FALSE, 0, OT_ID_PRESET, 0, 0); // (After the trade this pokemon is set as "Seen and caught" in the players pokedex!)
+        CreateMon(pokemon, SPECIES_ZEPURRINE, 10, 32, FALSE, 0, OT_ID_PRESET, 0, 0); // (After the trade this pokemon is set as "Seen and caught" in the players pokedex!)
         gEnemyParty[1] = gPlayerParty[gSpecialVar_0x8005];
     }
     else if(gSpecialVar_0x8004 == 8) // Version 2 Step 2 (trades your saved pokemon from the trader back to you)

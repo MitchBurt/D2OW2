@@ -241,18 +241,18 @@ SlateportCity_PokemonFanClub_EventScript_Skitty:: @ 820A1FA
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_DELCATTY, 0
+	playmoncry SPECIES_NYANCAT, 0
 	msgbox SlateportCity_PokemonFanClub_Text_Skitty, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
 
-SlateportCity_PokemonFanClub_EventScript_Zigzagoon:: @ 820A20D
+SlateportCity_PokemonFanClub_EventScript_Meowrrior:: @ 820A20D
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_ZIGZAGOON, 0
-	msgbox SlateportCity_PokemonFanClub_Text_Zigzagoon, MSGBOX_DEFAULT
+	playmoncry SPECIES_MEOWRRIOR, 0
+	msgbox SlateportCity_PokemonFanClub_Text_Meowrrior, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
@@ -405,10 +405,10 @@ SlateportCity_PokemonFanClub_Text_MonEnjoyedProtein: @ 820ACF9
 	.string "it some Protein.$"
 
 SlateportCity_PokemonFanClub_Text_Skitty: @ 820AD5A
-	.string "Delcatty: Fffnyaaaah…$"
+	.string "Nyancat: Fffnyaaaah…$"
 
-SlateportCity_PokemonFanClub_Text_Zigzagoon: @ 820AD6E
-	.string "Zigzagoon: Kyuuu…$"
+SlateportCity_PokemonFanClub_Text_Meowrrior: @ 820AD6E
+	.string "Meowrrior: Kyuuu…$"
 
 SlateportCity_PokemonFanClub_Text_Anglernom: @ 820AD80
 	.string "Anglernom: Marimari?$"

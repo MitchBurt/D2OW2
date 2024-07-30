@@ -464,7 +464,7 @@ Cry_Egg_Group_Field:
 
 	.align 2
 Cry_Egg_Group_Human_Like:
-	.incbin "sound/direct_sound_samples/cries/cry_meditite.bin"
+	.incbin "sound/direct_sound_samples/cries/cry_lonk.bin"
 
 	.align 2
 Cry_Egg_Group_Amorphous:

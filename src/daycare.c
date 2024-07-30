@@ -861,10 +861,10 @@ static u8 GetMonFormId(u16 *species, struct DayCare *daycare){
 			if(motherSpecies == SPECIES_PERRSERKER || (fatherSpecies == SPECIES_PERRSERKER && motherSpecies == SPECIES_DITTO))
 				return GetFormIdFromFormSpeciesId(SPECIES_GARFEL_GALARIAN);
 		break;
-		case SPECIES_ZIGZAGOON:
-		case SPECIES_ZIGZAGOON_GALARIAN:
+		case SPECIES_MEOWRRIOR:
+		case SPECIES_MEOWRRIOR_GALARIAN:
 			if(motherSpecies == SPECIES_OBSTAGOON || (fatherSpecies == SPECIES_OBSTAGOON && motherSpecies == SPECIES_DITTO))
-				return GetFormIdFromFormSpeciesId(SPECIES_ZIGZAGOON_GALARIAN);
+				return GetFormIdFromFormSpeciesId(SPECIES_MEOWRRIOR_GALARIAN);
 		break;
 		case SPECIES_YAMASK:
 		case SPECIES_YAMASK_GALARIAN:

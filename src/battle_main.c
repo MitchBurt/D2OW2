@@ -576,7 +576,7 @@ static void CB2_InitBattleInternal(void)
     FreeAllSpritePalettes();
     gReservedSpritePaletteCount = 4;
     SetVBlankCallback(VBlankCB_Battle);
-    SetUpBattleVarsAndBirchZigzagoon();
+    SetUpBattleVarsAndBirchMeowrrior();
 	
 	if(FlagGet(FLAG_FULL_RANDOMIZED_MODE))
 		RandomizeParty();

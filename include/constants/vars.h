@@ -49,7 +49,7 @@
 #define VAR_RECYCLE_GOODS                    0x4020
 #define VAR_REPEL_STEP_COUNT                 0x4021
 #define VAR_ICE_STEP_COUNT                   0x4022
-#define VAR_STARTER_MON                      0x4023 // 0=Treecko, 1=Torchic, 2=Mudkip
+#define VAR_STARTER_MON                      0x4023 // 0=Berryalen, 1=Cooklet, 2=Baitord
 #define VAR_MIRAGE_RND_H                     0x4024
 #define VAR_MIRAGE_RND_L                     0x4025
 #define VAR_SECRET_BASE_MAP                  0x4026
@@ -87,7 +87,7 @@
 #define VAR_TRICK_HOUSE_LEVEL                0x4044
 #define VAR_POKELOT_PRIZE_ITEM               0x4045
 #define VAR_NATIONAL_DEX                     0x4046
-#define VAR_SEEDOT_SIZE_RECORD               0x4047
+#define VAR_SOBBLEAF_SIZE_RECORD               0x4047
 #define VAR_ASH_GATHER_COUNT                 0x4048
 #define VAR_BIRCH_STATE                      0x4049
 #define VAR_CRUISE_STEP_COUNT                0x404A

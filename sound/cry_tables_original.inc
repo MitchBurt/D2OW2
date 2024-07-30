@@ -176,8 +176,8 @@ gCryTable:: @ 869DCF4
 	cry Cry_Pichu  @ 869E4F8
 	cry Cry_Pooprat  @ 869E504
 	cry Cry_Vcrbrain  @ 869E510
-	cry Cry_Vipii  @ 869E51C
-	cry Cry_Togetic  @ 869E528
+	cry Cry_Filmbrain  @ 869E51C
+	cry Cry_Blurabrain  @ 869E528
 	cry Cry_Puckid  @ 869E534
 	cry Cry_Goalem  @ 869E540
 	cry Cry_Baddery  @ 869E54C
@@ -240,8 +240,8 @@ gCryTable:: @ 869DCF4
 	cry Cry_Drywee  @ 869E7F8
 	cry Cry_Straidirt  @ 869E804
 	cry Cry_Burntonion  @ 869E810
-	cry Cry_Elekid  @ 869E81C
-	cry Cry_Magby  @ 869E828
+	cry Cry_Platerry  @ 869E81C
+	cry Cry_Rickling  @ 869E828
 	cry Cry_Pants  @ 869E834
 	cry Cry_Reapcharge  @ 869E840
 	cry Cry_Shockitty  @ 869E84C
@@ -254,37 +254,37 @@ gCryTable:: @ 869DCF4
 	cry Cry_Suffer  @ 869E8A0
 	cry Cry_Lilguy  @ 869E8AC
 	@ Gen 3
-	cry Cry_Treecko
-	cry Cry_Grovyle
-	cry Cry_Sceptile
-	cry Cry_Torchic
-	cry Cry_Combusken
-	cry Cry_Blaziken
-	cry Cry_Mudkip
-	cry Cry_Marshtomp
-	cry Cry_Swampert
-	cry Cry_Poochyena
-	cry Cry_Mightyena
-	cry Cry_Zigzagoon
-	cry Cry_Linoone
-	cry Cry_Wurmple
-	cry Cry_Silcoon
-	cry Cry_Beautifly
-	cry Cry_Cascoon
-	cry Cry_Dustox
+	cry Cry_Berryalen
+	cry Cry_Veryberry
+	cry Cry_Incredalen
+	cry Cry_Cooklet
+	cry Cry_Chefure
+	cry Cry_Gourmaster
+	cry Cry_Baitord
+	cry Cry_Baiterror
+	cry Cry_Baitank
+	cry Cry_Duplicat
+	cry Cry_Furrlead
+	cry Cry_Meowrrior
+	cry Cry_Zeppur
+	cry Cry_Zepurrine
+	cry Cry_Nyankitty
+	cry Cry_Nyantiger
+	cry Cry_Mechduck
+	cry Cry_Duckertron
 	cry Cry_Lotad
 	cry Cry_Lombre
 	cry Cry_Ludicolo
-	cry Cry_Seedot
-	cry Cry_Nuzleaf
-	cry Cry_Shiftry
+	cry Cry_Sobbleaf
+	cry Cry_Herokku
+	cry Cry_Shadeku
 	cry Cry_Taillow
 	cry Cry_Swellow
 	cry Cry_Wingull
 	cry Cry_Pelipper
-	cry Cry_Ralts
-	cry Cry_Kirlia
-	cry Cry_Gardevoir
+	cry Cry_Notafurry
+	cry Cry_Sortafurry
+	cry Cry_Thatsfurry
 	cry Cry_Surskit
 	cry Cry_Masquerain
 	cry Cry_Shroomish
@@ -298,19 +298,19 @@ gCryTable:: @ 869DCF4
 	cry Cry_Whismur
 	cry Cry_Loudred
 	cry Cry_Exploud
-	cry Cry_Makuhita
-	cry Cry_Hariyama
+	cry Cry_Angbeast
+	cry Cry_Gangbeats
 	cry Cry_Azurill
 	cry Cry_Nosepass
 	cry Cry_Skitty
-	cry Cry_Delcatty
+	cry Cry_Nyancat
 	cry Cry_Sableye
 	cry Cry_Mawile
 	cry Cry_Aron
 	cry Cry_Lairon
 	cry Cry_Aggron
-	cry Cry_Meditite
-	cry Cry_Medicham
+	cry Cry_Lonk
+	cry Cry_Lonkest
 	cry Cry_Electrike
 	cry Cry_Manectric
 	cry Cry_Plusle
@@ -318,8 +318,8 @@ gCryTable:: @ 869DCF4
 	cry Cry_Volbeat
 	cry Cry_Illumise
 	cry Cry_Roselia
-	cry Cry_Gulpin
-	cry Cry_Swalot
+	cry Cry_Symbite
+	cry Cry_Carnigore
 	cry Cry_Carvanha
 	cry Cry_Sharpedo
 	cry Cry_Wailmer
@@ -358,7 +358,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Shuppet
 	cry Cry_Banette
 	cry Cry_Duskull
-	cry Cry_Dusclops
+	cry Cry_Hugeman
 	cry Cry_Tropius
 	cry Cry_Chimecho
 	cry Cry_Absol
@@ -927,14 +927,14 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Happymaul_Mega
 	cry_not Cry_Minimal_Mega
 	cry_not Cry_Frosilisk_Mega
-	cry_not Cry_Sceptile_Mega
-	cry_not Cry_Blaziken_Mega
-	cry_not Cry_Swampert_Mega
-	cry_not Cry_Gardevoir_Mega
+	cry_not Cry_Incredalen_Mega
+	cry_not Cry_Gourmaster_Mega
+	cry_not Cry_Baitank_Mega
+	cry_not Cry_Thatsfurry_Mega
 	cry_not Cry_Sableye_Mega
 	cry_not Cry_Mawile_Mega
 	cry_not Cry_Aggron_Mega
-	cry_not Cry_Medicham_Mega
+	cry_not Cry_Lonkest_Mega
 	cry_not Cry_Manectric_Mega
 	cry_not Cry_Sharpedo_Mega
 	cry_not Cry_Camerupt_Mega
@@ -990,8 +990,8 @@ gCryTable:: @ 869DCF4
 	cry Cry_Remiel
 	cry Cry_Gooblan
 	cry Cry_Setronic
-	cry Cry_Zigzagoon
-	cry Cry_Linoone
+	cry Cry_Meowrrior
+	cry Cry_Zeppur
 	cry_not Cry_Darumaka
 	cry_not Cry_Darmanitan
 	cry_not Cry_Yamask
@@ -1455,8 +1455,8 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Pichu  @ 869F728
 	cry2 Cry_Pooprat  @ 869F734
 	cry2 Cry_Vcrbrain  @ 869F740
-	cry2 Cry_Vipii  @ 869F74C
-	cry2 Cry_Togetic  @ 869F758
+	cry2 Cry_Filmbrain  @ 869F74C
+	cry2 Cry_Blurabrain  @ 869F758
 	cry2 Cry_Puckid  @ 869F764
 	cry2 Cry_Goalem  @ 869F770
 	cry2 Cry_Baddery  @ 869F77C
@@ -1519,8 +1519,8 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Drywee  @ 869FA28
 	cry2 Cry_Straidirt  @ 869FA34
 	cry2 Cry_Burntonion  @ 869FA40
-	cry2 Cry_Elekid  @ 869FA4C
-	cry2 Cry_Magby  @ 869FA58
+	cry2 Cry_Platerry  @ 869FA4C
+	cry2 Cry_Rickling  @ 869FA58
 	cry2 Cry_Pants  @ 869FA64
 	cry2 Cry_Reapcharge  @ 869FA70
 	cry2 Cry_Shockitty  @ 869FA7C
@@ -1532,37 +1532,37 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Helpme  @ 869FAC4
 	cry2 Cry_Suffer  @ 869FAD0
 	cry2 Cry_Lilguy  @ 869FADC
-	cry2 Cry_Treecko
-	cry2 Cry_Grovyle
-	cry2 Cry_Sceptile
-	cry2 Cry_Torchic
-	cry2 Cry_Combusken
-	cry2 Cry_Blaziken
-	cry2 Cry_Mudkip
-	cry2 Cry_Marshtomp
-	cry2 Cry_Swampert
-	cry2 Cry_Poochyena
-	cry2 Cry_Mightyena
-	cry2 Cry_Zigzagoon
-	cry2 Cry_Linoone
-	cry2 Cry_Wurmple
-	cry2 Cry_Silcoon
-	cry2 Cry_Beautifly
-	cry2 Cry_Cascoon
-	cry2 Cry_Dustox
+	cry2 Cry_Berryalen
+	cry2 Cry_Veryberry
+	cry2 Cry_Incredalen
+	cry2 Cry_Cooklet
+	cry2 Cry_Chefure
+	cry2 Cry_Gourmaster
+	cry2 Cry_Baitord
+	cry2 Cry_Baiterror
+	cry2 Cry_Baitank
+	cry2 Cry_Duplicat
+	cry2 Cry_Furrlead
+	cry2 Cry_Meowrrior
+	cry2 Cry_Zeppur
+	cry2 Cry_Zepurrine
+	cry2 Cry_Nyankitty
+	cry2 Cry_Nyantiger
+	cry2 Cry_Mechduck
+	cry2 Cry_Duckertron
 	cry2 Cry_Lotad
 	cry2 Cry_Lombre
 	cry2 Cry_Ludicolo
-	cry2 Cry_Seedot
-	cry2 Cry_Nuzleaf
-	cry2 Cry_Shiftry
+	cry2 Cry_Sobbleaf
+	cry2 Cry_Herokku
+	cry2 Cry_Shadeku
 	cry2 Cry_Taillow
 	cry2 Cry_Swellow
 	cry2 Cry_Wingull
 	cry2 Cry_Pelipper
-	cry2 Cry_Ralts
-	cry2 Cry_Kirlia
-	cry2 Cry_Gardevoir
+	cry2 Cry_Notafurry
+	cry2 Cry_Sortafurry
+	cry2 Cry_Thatsfurry
 	cry2 Cry_Surskit
 	cry2 Cry_Masquerain
 	cry2 Cry_Shroomish
@@ -1576,19 +1576,19 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Whismur
 	cry2 Cry_Loudred
 	cry2 Cry_Exploud
-	cry2 Cry_Makuhita
-	cry2 Cry_Hariyama
+	cry2 Cry_Angbeast
+	cry2 Cry_Gangbeats
 	cry2 Cry_Azurill
 	cry2 Cry_Nosepass
 	cry2 Cry_Skitty
-	cry2 Cry_Delcatty
+	cry2 Cry_Nyancat
 	cry2 Cry_Sableye
 	cry2 Cry_Mawile
 	cry2 Cry_Aron
 	cry2 Cry_Lairon
 	cry2 Cry_Aggron
-	cry2 Cry_Meditite
-	cry2 Cry_Medicham
+	cry2 Cry_Lonk
+	cry2 Cry_Lonkest
 	cry2 Cry_Electrike
 	cry2 Cry_Manectric
 	cry2 Cry_Plusle
@@ -1596,8 +1596,8 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Volbeat
 	cry2 Cry_Illumise
 	cry2 Cry_Roselia
-	cry2 Cry_Gulpin
-	cry2 Cry_Swalot
+	cry2 Cry_Symbite
+	cry2 Cry_Carnigore
 	cry2 Cry_Carvanha
 	cry2 Cry_Sharpedo
 	cry2 Cry_Wailmer
@@ -1636,7 +1636,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Shuppet
 	cry2 Cry_Banette
 	cry2 Cry_Duskull
-	cry2 Cry_Dusclops
+	cry2 Cry_Hugeman
 	cry2 Cry_Tropius
 	cry2 Cry_Chimecho
 	cry2 Cry_Absol
@@ -2205,14 +2205,14 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Happymaul_Mega
 	cry2_not Cry_Minimal_Mega
 	cry2_not Cry_Frosilisk_Mega
-	cry2_not Cry_Sceptile_Mega
-	cry2_not Cry_Blaziken_Mega
-	cry2_not Cry_Swampert_Mega
-	cry2_not Cry_Gardevoir_Mega
+	cry2_not Cry_Incredalen_Mega
+	cry2_not Cry_Gourmaster_Mega
+	cry2_not Cry_Baitank_Mega
+	cry2_not Cry_Thatsfurry_Mega
 	cry2_not Cry_Sableye_Mega
 	cry2_not Cry_Mawile_Mega
 	cry2_not Cry_Aggron_Mega
-	cry2_not Cry_Medicham_Mega
+	cry2_not Cry_Lonkest_Mega
 	cry2_not Cry_Manectric_Mega
 	cry2_not Cry_Sharpedo_Mega
 	cry2_not Cry_Camerupt_Mega
@@ -2268,8 +2268,8 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Remiel
 	cry2 Cry_Gooblan
 	cry2 Cry_Setronic
-	cry2 Cry_Zigzagoon
-	cry2 Cry_Linoone
+	cry2 Cry_Meowrrior
+	cry2 Cry_Zeppur
 	cry2_not Cry_Darumaka
 	cry2_not Cry_Darmanitan
 	cry2_not Cry_Yamask

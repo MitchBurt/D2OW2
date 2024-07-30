@@ -2630,7 +2630,7 @@ MatchCall_Text_Wally4:: @ 2B4F41
 
 MatchCall_Text_Wally5:: @ 2B4FF3
 	.string "Wally: {PLAYER}? It's awesome!\n"
-	.string "That Ralts we caught together?\l"
+	.string "That Notafurry we caught together?\l"
 	.string "It evolved, {PLAYER}!\p"
 	.string "Maybe I'm talented…\p"
 	.string "Oh, but I shouldn't get a big head\n"
@@ -5584,7 +5584,7 @@ MatchCall_Text_Wally4:: @ 2B4F41
 
 MatchCall_Text_Wally5:: @ 2B4FF3
 	.string "Wally: {PLAYER}? It's awesome!\n"
-	.string "That Ralts we caught together?\l"
+	.string "That Notafurry we caught together?\l"
 	.string "It evolved, {PLAYER}!\p"
 	.string "Maybe I'm talented…\p"
 	.string "Oh, but I shouldn't get a big head\n"

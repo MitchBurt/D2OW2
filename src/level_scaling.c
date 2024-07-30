@@ -839,11 +839,11 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 	bool8 disablealternateforms = FALSE;
 	
 	switch(basespecies){
-		case SPECIES_WURMPLE:
+		case SPECIES_ZEPURRINE:
 			if(level >= 7){
 				u16 PossibleEvo[] = {
-					SPECIES_CASCOON,
-					SPECIES_SILCOON,
+					SPECIES_MECHDUCK,
+					SPECIES_NYANKITTY,
 				};
 				
 				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
@@ -893,10 +893,10 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_KIRLIA:
+		case SPECIES_SORTAFURRY:
 			if(level >= 30){
 				u16 PossibleEvo[] = {
-					SPECIES_GARDEVOIR,
+					SPECIES_THATSFURRY,
 					SPECIES_GALLADE,
 				};
 				
@@ -2424,9 +2424,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_BLASTOISINITE;
 		break;
-		case SPECIES_BLAZIKEN:
+		case SPECIES_GOURMASTER:
 			if(canMega)
-				item = ITEM_BLAZIKENITE;
+				item = ITEM_GOURMASTERITE;
 		break;
 		case SPECIES_CAMERUPT:
 			if(canMega)
@@ -2444,9 +2444,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_GARCHOMPITE;
 		break;
-		case SPECIES_GARDEVOIR:
+		case SPECIES_THATSFURRY:
 			if(canMega)
-				item = ITEM_GARDEVOIRITE;
+				item = ITEM_THATSFURRYITE;
 		break;
 		case SPECIES_SANS:
 			if(canMega)
@@ -2488,9 +2488,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_MAWILITE;
 		break;
-		case SPECIES_MEDICHAM:
+		case SPECIES_LONKEST:
 			if(canMega)
-				item = ITEM_MEDICHAMITE;
+				item = ITEM_LONKESTITE;
 		break;
 		case SPECIES_METAGROSS:
 			if(canMega)
@@ -2512,7 +2512,7 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_SALAMENCITE;
 		break;
-		case SPECIES_SCEPTILE:
+		case SPECIES_INCREDALEN:
 			if(canMega)
 				item = ITEM_SCEPTILITE;
 		break;
@@ -2532,9 +2532,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_HOLOCASTITE;
 		break;
-		case SPECIES_SWAMPERT:
+		case SPECIES_BAITANK:
 			if(canMega)
-				item = ITEM_SWAMPERTITE;
+				item = ITEM_BAITANKITE;
 		break;
 		case SPECIES_FROSILISK:
 			if(canMega)

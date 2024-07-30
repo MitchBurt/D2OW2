@@ -65,12 +65,12 @@ Route114_EventScript_ReceivedRoar:: @ 81F2608
 	release
 	end
 
-Route114_EventScript_Poochyena:: @ 81F2612
+Route114_EventScript_Duplicat:: @ 81F2612
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_POOCHYENA, 2
-	msgbox Route114_Text_Poochyena, MSGBOX_DEFAULT
+	playmoncry SPECIES_DUPLICAT, 2
+	msgbox Route114_Text_Duplicat, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
@@ -196,7 +196,7 @@ Route114_Text_ExplainRoar: @ 81F2872
 	.string "TM05 contains Roar.\n"
 	.string "A Roar sends Pokémon scurrying.$"
 
-Route114_Text_Poochyena: @ 81F28A6
+Route114_Text_Duplicat: @ 81F28A6
 	.string "Bow! Bowwow!$"
 
 Route114_Text_MeteorFallsSign: @ 81F28B3

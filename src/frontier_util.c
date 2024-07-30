@@ -157,7 +157,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
         // Silver Symbol.
         {
             {
-                .species = SPECIES_SWAMPERT,
+                .species = SPECIES_BAITANK,
                 .heldItem = ITEM_FOCUS_BAND,
                 .fixedIV = 20,
                 .nature = NATURE_BRAVE,
@@ -184,7 +184,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
         // Gold Symbol.
         {
             {
-                .species = SPECIES_SWAMPERT,
+                .species = SPECIES_BAITANK,
                 .heldItem = ITEM_LEFTOVERS,
                 .fixedIV = 31,
                 .nature = NATURE_BRAVE,

@@ -509,7 +509,7 @@ enum {
 
 enum
 {
-    FRIENDS_ZIGZAGOON,
+    FRIENDS_MEOWRRIOR,
     FRIENDS_SCREEN,
     FRIENDS_HORIZONTAL,
     FRIENDS_DIAGONAL,
@@ -522,7 +522,7 @@ enum
     FRIENDS_ANGLERNOM,
     FRIENDS_SKIPPA,
     FRIENDS_LEGENDARY,
-    FRIENDS_DUSCLOPS,
+    FRIENDS_HUGEMAN,
     FRIENDS_LUDICOLO,
     FRIENDS_WHISCASH,
     FRIENDS_WALLPAPERS_COUNT
@@ -1384,13 +1384,13 @@ static const struct WallpaperTable gWallpaperTable[] =
 
 static const u8 gPCGfx_Arrow[] = INCBIN_U8("graphics/pokemon_storage/arrow.4bpp");
 
-static const u16 gWallpaperPalettes_Zigzagoon[][16] =
+static const u16 gWallpaperPalettes_Meowrrior[][16] =
 {
     INCBIN_U16("graphics/pokemon_storage/friends_frame1.gbapal"),
-    INCBIN_U16("graphics/pokemon_storage/zigzagoon_bg.gbapal"),
+    INCBIN_U16("graphics/pokemon_storage/meowrrior_bg.gbapal"),
 };
-static const u32 gWallpaperTiles_Zigzagoon[] = INCBIN_U32("graphics/pokemon_storage/zigzagoon.4bpp.lz");
-static const u32 gWallpaperTilemap_Zigzagoon[] = INCBIN_U32("graphics/pokemon_storage/zigzagoon.bin.lz");
+static const u32 gWallpaperTiles_Meowrrior[] = INCBIN_U32("graphics/pokemon_storage/meowrrior.4bpp.lz");
+static const u32 gWallpaperTilemap_Meowrrior[] = INCBIN_U32("graphics/pokemon_storage/meowrrior.bin.lz");
 
 static const u16 gWallpaperPalettes_Screen[][16] =
 {
@@ -1435,7 +1435,7 @@ static const u32 gWallpaperTilemap_Frame[] = INCBIN_U32("graphics/pokemon_storag
 static const u16 gWallpaperPalettes_Blank[][16] =
 {
     INCBIN_U16("graphics/pokemon_storage/friends_frame1.gbapal"),
-    INCBIN_U16("graphics/pokemon_storage/zigzagoon_bg.gbapal"),
+    INCBIN_U16("graphics/pokemon_storage/meowrrior_bg.gbapal"),
 };
 static const u32 gWallpaperTiles_Blank[] = INCBIN_U32("graphics/pokemon_storage/blank.4bpp.lz");
 static const u32 gWallpaperTilemap_Blank[] = INCBIN_U32("graphics/pokemon_storage/blank.bin.lz");
@@ -1472,13 +1472,13 @@ static const u16 gWallpaperPalettes_Legendary[][16] =
 static const u32 gWallpaperTiles_Legendary[] = INCBIN_U32("graphics/pokemon_storage/legendary.4bpp.lz");
 static const u32 gWallpaperTilemap_Legendary[] = INCBIN_U32("graphics/pokemon_storage/legendary.bin.lz");
 
-static const u16 gWallpaperPalettes_Dusclops[][16] =
+static const u16 gWallpaperPalettes_Hugeman[][16] =
 {
     INCBIN_U16("graphics/pokemon_storage/friends_frame2.gbapal"),
-    INCBIN_U16("graphics/pokemon_storage/dusclops_bg.gbapal"),
+    INCBIN_U16("graphics/pokemon_storage/hugeman_bg.gbapal"),
 };
-static const u32 gWallpaperTiles_Dusclops[] = INCBIN_U32("graphics/pokemon_storage/dusclops.4bpp.lz");
-static const u32 gWallpaperTilemap_Dusclops[] = INCBIN_U32("graphics/pokemon_storage/dusclops.bin.lz");
+static const u32 gWallpaperTiles_Hugeman[] = INCBIN_U32("graphics/pokemon_storage/hugeman.4bpp.lz");
+static const u32 gWallpaperTilemap_Hugeman[] = INCBIN_U32("graphics/pokemon_storage/hugeman.bin.lz");
 
 static const u16 gWallpaperPalettes_Ludicolo[][16] =
 {
@@ -1521,12 +1521,12 @@ static const u32 gWallpaperIcon_StarInCircle[] = INCBIN_U32("graphics/pokemon_st
 static const u32 gWallpaperIcon_Spinda[] = INCBIN_U32("graphics/pokemon_storage/spinda_icon.4bpp.lz");
 static const u32 gWallpaperIcon_Latis[] = INCBIN_U32("graphics/pokemon_storage/latis_icon.4bpp.lz");
 static const u32 gWallpaperIcon_Minun[] = INCBIN_U32("graphics/pokemon_storage/minun_icon.4bpp.lz");
-static const u32 gWallpaperIcon_Vipii[] = INCBIN_U32("graphics/pokemon_storage/vipii_icon.4bpp.lz");
+static const u32 gWallpaperIcon_Filmbrain[] = INCBIN_U32("graphics/pokemon_storage/filmbrain_icon.4bpp.lz");
 static const u32 gWallpaperIcon_Magma[] = INCBIN_U32("graphics/pokemon_storage/magma_icon.4bpp.lz");
 
 static const struct WallpaperTable gFriendsWallpaperTable[] =
 {
-    WALLPAPER_ENTRY(Zigzagoon),
+    WALLPAPER_ENTRY(Meowrrior),
     WALLPAPER_ENTRY(Screen),
     WALLPAPER_ENTRY(Horizontal),
     WALLPAPER_ENTRY(Diagonal),
@@ -1539,7 +1539,7 @@ static const struct WallpaperTable gFriendsWallpaperTable[] =
     WALLPAPER_ENTRY(Anglernom),
     WALLPAPER_ENTRY(Skippa),
     WALLPAPER_ENTRY(Legendary),
-    WALLPAPER_ENTRY(Dusclops),
+    WALLPAPER_ENTRY(Hugeman),
     WALLPAPER_ENTRY(Ludicolo),
     WALLPAPER_ENTRY(Whiscash),
 };
@@ -1574,7 +1574,7 @@ static const u32 *const gFriendsIcons[] =
     gWallpaperIcon_Latis,
     gWallpaperIcon_Plusle,
     gWallpaperIcon_Minun,
-    gWallpaperIcon_Vipii,
+    gWallpaperIcon_Filmbrain,
     gWallpaperIcon_Magma,
 };
 

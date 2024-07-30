@@ -34,7 +34,7 @@ BattleFrontier_PokemonCenter_1F_EventScript_Skitty:: @ 8267931
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_DELCATTY, 0
+	playmoncry SPECIES_NYANCAT, 0
 	msgbox BattleFrontier_PokemonCenter_1F_Text_Skitty, MSGBOX_DEFAULT
 	waitmoncry
 	release
@@ -58,6 +58,6 @@ BattleFrontier_PokemonCenter_1F_Text_GoingThroughEveryChallenge: @ 8267A4B
 	.string "challenge with just this baby!$"
 
 BattleFrontier_PokemonCenter_1F_Text_Skitty: @ 8267A90
-	.string "Delcatty: Mya myaaah!$"
+	.string "Nyancat: Mya myaaah!$"
 
 `

@@ -601,7 +601,7 @@ static const u8 sRareBoneDesc[] = _(
 
 // Mail
 static const u8 sOrangeMailDesc[] = _(
-    "Sale Zigzagoon.\n"
+    "Sale Meowrrior.\n"
     "Debe llevarla\n"
     "un Pokémon.");
 
@@ -2502,10 +2502,10 @@ static const u8 sSansiteDesc[] = _(
     "megaevolucionar a\n"
     "Sans.");
 
-static const u8 sGardevoiriteDesc[] = _(
+static const u8 sThatsfurryiteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Gardevoir.");
+    "Thatsfurry.");
 
 static const u8 sBaciditeDesc[] = _(
     "Piedra que permite\n"
@@ -2532,15 +2532,15 @@ static const u8 sGodniteDesc[] = _(
     "megaevolucionar a\n"
     "God.");
 
-static const u8 sBlazikeniteDesc[] = _(
+static const u8 sGourmasteriteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Blaziken.");
+    "Gourmaster.");
 
-static const u8 sMedichamiteDesc[] = _(
+static const u8 sLonkestiteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Medicham.");
+    "Lonkest.");
 
 static const u8 sMinimaliniteDesc[] = _(
     "Piedra que permite\n"
@@ -2637,15 +2637,15 @@ static const u8 sLatiositeDesc[] = _(
     "megaevolucionar a\n"
     "Latios.");
 
-static const u8 sSwampertiteDesc[] = _(
+static const u8 sBaitankiteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Swampert.");
+    "Baitank.");
 
 static const u8 sSceptiliteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Sceptile.");
+    "Incredalen.");
 
 static const u8 sSableniteDesc[] = _(
     "Piedra que permite\n"
@@ -3472,7 +3472,7 @@ static const u8 sRareBoneDesc[] = _(
 
 // Mail
 static const u8 sOrangeMailDesc[] = _(
-    "A Zigzagoon-print\n"
+    "A Meowrrior-print\n"
     "Mail to be held by\n"
     "a Pokémon.");
 
@@ -5735,9 +5735,9 @@ static const u8 sSansiteDesc[] = _(
     "Sans to Mega\n"
     "Evolve in battle.");
 
-static const u8 sGardevoiriteDesc[] = _(
+static const u8 sThatsfurryiteDesc[] = _(
     "This stone enables\n"
-    "Gardevoir to Mega\n"
+    "Thatsfurry to Mega\n"
     "Evolve in battle.");
 
 static const u8 sBaciditeDesc[] = _(
@@ -5765,14 +5765,14 @@ static const u8 sGodniteDesc[] = _(
     "God to Mega\n"
     "Evolve in battle.");
 
-static const u8 sBlazikeniteDesc[] = _(
+static const u8 sGourmasteriteDesc[] = _(
     "This stone enables\n"
-    "Blaziken to Mega\n"
+    "Gourmaster to Mega\n"
     "Evolve in battle.");
 
-static const u8 sMedichamiteDesc[] = _(
+static const u8 sLonkestiteDesc[] = _(
     "This stone enables\n"
-    "Medicham to Mega\n"
+    "Lonkest to Mega\n"
     "Evolve in battle.");
 
 static const u8 sMinimaliniteDesc[] = _(
@@ -5870,14 +5870,14 @@ static const u8 sLatiositeDesc[] = _(
     "Latios to Mega\n"
     "Evolve in battle.");
 
-static const u8 sSwampertiteDesc[] = _(
+static const u8 sBaitankiteDesc[] = _(
     "This stone enables\n"
-    "Swampert to Mega\n"
+    "Baitank to Mega\n"
     "Evolve in battle.");
 
 static const u8 sSceptiliteDesc[] = _(
     "This stone enables\n"
-    "Sceptile to Mega\n"
+    "Incredalen to Mega\n"
     "Evolve in battle.");
 
 static const u8 sSableniteDesc[] = _(

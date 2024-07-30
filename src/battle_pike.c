@@ -105,7 +105,7 @@ static const struct PikeWildMon sLvl50_Mons1[] =
         .moves = {MOVE_TOXIC, MOVE_HYPNOSIS, MOVE_BODY_SLAM, MOVE_SURF}
     },
     {
-        .species = SPECIES_DUSCLOPS,
+        .species = SPECIES_HUGEMAN,
         .levelDelta = 5,
         .moves = {MOVE_WILL_O_WISP, MOVE_MEAN_LOOK, MOVE_TOXIC, MOVE_SHADOW_PUNCH}
     }
@@ -189,7 +189,7 @@ static const struct PikeWildMon sLvlOpen_Mons1[] =
         .moves = {MOVE_TOXIC, MOVE_HYPNOSIS, MOVE_BODY_SLAM, MOVE_ICE_BEAM}
     },
     {
-        .species = SPECIES_DUSCLOPS,
+        .species = SPECIES_HUGEMAN,
         .levelDelta = 5,
         .moves = {MOVE_WILL_O_WISP, MOVE_MEAN_LOOK, MOVE_TOXIC, MOVE_ICE_BEAM}
     }
@@ -559,7 +559,7 @@ static void SetupRoomObjectEvents(void)
     u16 objGfx2;
 
     VarSet(VAR_OBJ_GFX_ID_0, OBJ_EVENT_GFX_LINK_RECEPTIONIST);
-    VarSet(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_DUSCLOPS);
+    VarSet(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_HUGEMAN);
     setObjGfx1 = TRUE;
     setObjGfx2 = FALSE;
     objGfx1 = 0;
@@ -579,10 +579,10 @@ static void SetupRoomObjectEvents(void)
         break;
     case PIKE_ROOM_STATUS:
         objGfx1 = OBJ_EVENT_GFX_GENTLEMAN;
-        if (sStatusMon == PIKE_STATUSMON_DUSCLOPS)
-            objGfx2 = OBJ_EVENT_GFX_DUSCLOPS;
+        if (sStatusMon == PIKE_STATUSMON_HUGEMAN)
+            objGfx2 = OBJ_EVENT_GFX_HUGEMAN;
         else
-            objGfx2 = OBJ_EVENT_GFX_KIRLIA;
+            objGfx2 = OBJ_EVENT_GFX_SORTAFURRY;
         setObjGfx2 = TRUE;
         break;
     case PIKE_ROOM_HEAL_PART:
@@ -947,19 +947,19 @@ static bool8 TryInflictRandomStatus(void)
     switch (sStatusFlags)
     {
     case STATUS1_FREEZE:
-        sStatusMon = PIKE_STATUSMON_DUSCLOPS;
+        sStatusMon = PIKE_STATUSMON_HUGEMAN;
         break;
     case STATUS1_BURN:
         if (Random() % 2 != 0)
-            sStatusMon = PIKE_STATUSMON_DUSCLOPS;
+            sStatusMon = PIKE_STATUSMON_HUGEMAN;
         else
-            sStatusMon = PIKE_STATUSMON_KIRLIA;
+            sStatusMon = PIKE_STATUSMON_SORTAFURRY;
         break;
     case STATUS1_PARALYSIS:
     case STATUS1_SLEEP:
     case STATUS1_TOXIC_POISON:
     default:
-        sStatusMon = PIKE_STATUSMON_KIRLIA;
+        sStatusMon = PIKE_STATUSMON_SORTAFURRY;
         break;
     }
 

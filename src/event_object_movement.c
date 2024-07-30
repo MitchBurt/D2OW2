@@ -469,7 +469,7 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_QUINTY_PLUMP_REFLECTION 0x110C
 #define OBJ_EVENT_PAL_TAG_TRUCK                   0x110D
 #define OBJ_EVENT_PAL_TAG_VIGOROTH                0x110E
-#define OBJ_EVENT_PAL_TAG_ZIGZAGOON               0x110F
+#define OBJ_EVENT_PAL_TAG_MEOWRRIOR               0x110F
 #define OBJ_EVENT_PAL_TAG_MAY                     0x1110
 #define OBJ_EVENT_PAL_TAG_MAY_REFLECTION          0x1111
 #define OBJ_EVENT_PAL_TAG_MOVING_BOX              0x1112
@@ -489,7 +489,7 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_AQUA_F 					  0x1126
 #define OBJ_EVENT_PAL_ARCHIE 					  0x1127
 #define OBJ_EVENT_PAL_SURF_BLOB 				  0x1128 //Anglernom
-#define OBJ_EVENT_PAL_KIRLIA 					  0x1129//To Remove
+#define OBJ_EVENT_PAL_SORTAFURRY 					  0x1129//To Remove
 #define OBJ_EVENT_PAL_KECLEON 					  0x1130//To Remove
 #define OBJ_EVENT_PAL_WINGULL 					  0x1131//To Remove
 #define OBJ_EVENT_PAL_THEVOID 					  	  0x1132//To Remove

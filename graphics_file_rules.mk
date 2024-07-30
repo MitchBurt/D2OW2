@@ -467,7 +467,7 @@ $(ROULETTEGFXDIR)/roulette_tilt.4bpp: $(ROULETTEGFXDIR)/shroomish.4bpp \
 $(ROULETTEGFXDIR)/wheel_icons.4bpp: $(ROULETTEGFXDIR)/wynaut.4bpp \
 									$(ROULETTEGFXDIR)/azurill.4bpp \
 									$(ROULETTEGFXDIR)/skitty.4bpp \
-									$(ROULETTEGFXDIR)/makuhita.4bpp
+									$(ROULETTEGFXDIR)/angbeast.4bpp
 	@cat $^ >$@
 
 $(BATTRANSGFXDIR)/regis.4bpp: %.4bpp: %.png
@@ -611,7 +611,7 @@ $(PSSGFXDIR)/friends_frame1.4bpp: %.4bpp: %.png
 $(PSSGFXDIR)/friends_frame2.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 57
 
-$(PSSGFXDIR)/zigzagoon.4bpp: $(PSSGFXDIR)/friends_frame1.4bpp $(PSSGFXDIR)/zigzagoon_bg.4bpp
+$(PSSGFXDIR)/meowrrior.4bpp: $(PSSGFXDIR)/friends_frame1.4bpp $(PSSGFXDIR)/meowrrior_bg.4bpp
 	@cat $^ >$@
 
 $(PSSGFXDIR)/screen.4bpp: $(PSSGFXDIR)/friends_frame1.4bpp $(PSSGFXDIR)/screen_bg.4bpp
@@ -650,7 +650,7 @@ $(PSSGFXDIR)/skippa.4bpp: $(PSSGFXDIR)/friends_frame2.4bpp $(PSSGFXDIR)/skippa_b
 $(PSSGFXDIR)/legendary.4bpp: $(PSSGFXDIR)/friends_frame2.4bpp $(PSSGFXDIR)/legendary_bg.4bpp
 	@cat $^ >$@
 
-$(PSSGFXDIR)/dusclops.4bpp: $(PSSGFXDIR)/friends_frame2.4bpp $(PSSGFXDIR)/dusclops_bg.4bpp
+$(PSSGFXDIR)/hugeman.4bpp: $(PSSGFXDIR)/friends_frame2.4bpp $(PSSGFXDIR)/hugeman_bg.4bpp
 	@cat $^ >$@
 
 $(PSSGFXDIR)/ludicolo.4bpp: $(PSSGFXDIR)/friends_frame2.4bpp $(PSSGFXDIR)/ludicolo_bg.4bpp

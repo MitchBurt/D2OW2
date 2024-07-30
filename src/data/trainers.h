@@ -7286,7 +7286,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_WallyVR1},
     },
 
-    [TRAINER_BRENDAN_ROUTE_103_MUDKIP] =
+    [TRAINER_BRENDAN_ROUTE_103_BAITORD] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -7300,11 +7300,11 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_BrendanRoute103Mudkip),
-        .party = {.NoItemCustomMoves = sParty_BrendanRoute103Mudkip},
+        .partySize = ARRAY_COUNT(sParty_BrendanRoute103Baitord),
+        .party = {.NoItemCustomMoves = sParty_BrendanRoute103Baitord},
     },
 
-    [TRAINER_BRENDAN_ROUTE_110_MUDKIP] =
+    [TRAINER_BRENDAN_ROUTE_110_BAITORD] =
     {
         .partyFlags = 0,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -7318,11 +7318,11 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_BrendanRoute110Mudkip),
-        .party = {.NoItemDefaultMoves = sParty_BrendanRoute110Mudkip},
+        .partySize = ARRAY_COUNT(sParty_BrendanRoute110Baitord),
+        .party = {.NoItemDefaultMoves = sParty_BrendanRoute110Baitord},
     },
 
-    [TRAINER_BRENDAN_ROUTE_119_MUDKIP] =
+    [TRAINER_BRENDAN_ROUTE_119_BAITORD] =
     {
         .partyFlags = 0,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -7336,11 +7336,11 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_BrendanRoute119Mudkip),
-        .party = {.NoItemDefaultMoves = sParty_BrendanRoute119Mudkip},
+        .partySize = ARRAY_COUNT(sParty_BrendanRoute119Baitord),
+        .party = {.NoItemDefaultMoves = sParty_BrendanRoute119Baitord},
     },
 
-    [TRAINER_BRENDAN_ROUTE_103_TREECKO] =
+    [TRAINER_BRENDAN_ROUTE_103_BERRYALEN] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -7354,11 +7354,11 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_SETUP_FIRST_TURN,
-        .partySize = ARRAY_COUNT(sParty_BrendanRoute103Treecko),
-        .party = {.NoItemCustomMoves = sParty_BrendanRoute103Treecko},
+        .partySize = ARRAY_COUNT(sParty_BrendanRoute103Berryalen),
+        .party = {.NoItemCustomMoves = sParty_BrendanRoute103Berryalen},
     },
 
-    [TRAINER_BRENDAN_ROUTE_110_TREECKO] =
+    [TRAINER_BRENDAN_ROUTE_110_BERRYALEN] =
     {
         .partyFlags = 0,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -7372,11 +7372,11 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_BrendanRoute110Treecko),
-        .party = {.NoItemDefaultMoves = sParty_BrendanRoute110Treecko},
+        .partySize = ARRAY_COUNT(sParty_BrendanRoute110Berryalen),
+        .party = {.NoItemDefaultMoves = sParty_BrendanRoute110Berryalen},
     },
 
-    [TRAINER_BRENDAN_ROUTE_119_TREECKO] =
+    [TRAINER_BRENDAN_ROUTE_119_BERRYALEN] =
     {
         .partyFlags = 0,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -7390,11 +7390,11 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_BrendanRoute119Treecko),
-        .party = {.NoItemDefaultMoves = sParty_BrendanRoute119Treecko},
+        .partySize = ARRAY_COUNT(sParty_BrendanRoute119Berryalen),
+        .party = {.NoItemDefaultMoves = sParty_BrendanRoute119Berryalen},
     },
 
-    [TRAINER_BRENDAN_ROUTE_103_TORCHIC] =
+    [TRAINER_BRENDAN_ROUTE_103_COOKLET] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -7408,11 +7408,11 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_BrendanRoute103Torchic),
-        .party = {.NoItemCustomMoves = sParty_BrendanRoute103Torchic},
+        .partySize = ARRAY_COUNT(sParty_BrendanRoute103Cooklet),
+        .party = {.NoItemCustomMoves = sParty_BrendanRoute103Cooklet},
     },
 
-    [TRAINER_BRENDAN_ROUTE_110_TORCHIC] =
+    [TRAINER_BRENDAN_ROUTE_110_COOKLET] =
     {
         .partyFlags = 0,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -7426,11 +7426,11 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_BrendanRoute110Torchic),
-        .party = {.NoItemDefaultMoves = sParty_BrendanRoute110Torchic},
+        .partySize = ARRAY_COUNT(sParty_BrendanRoute110Cooklet),
+        .party = {.NoItemDefaultMoves = sParty_BrendanRoute110Cooklet},
     },
 
-    [TRAINER_BRENDAN_ROUTE_119_TORCHIC] =
+    [TRAINER_BRENDAN_ROUTE_119_COOKLET] =
     {
         .partyFlags = 0,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -7444,11 +7444,11 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_BrendanRoute119Torchic),
-        .party = {.NoItemDefaultMoves = sParty_BrendanRoute119Torchic},
+        .partySize = ARRAY_COUNT(sParty_BrendanRoute119Cooklet),
+        .party = {.NoItemDefaultMoves = sParty_BrendanRoute119Cooklet},
     },
 
-    [TRAINER_MAY_ROUTE_103_MUDKIP] =
+    [TRAINER_MAY_ROUTE_103_BAITORD] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -7462,11 +7462,11 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_MayRoute103Mudkip),
-        .party = {.NoItemCustomMoves = sParty_MayRoute103Mudkip},
+        .partySize = ARRAY_COUNT(sParty_MayRoute103Baitord),
+        .party = {.NoItemCustomMoves = sParty_MayRoute103Baitord},
     },
 
-    [TRAINER_MAY_ROUTE_110_MUDKIP] =
+    [TRAINER_MAY_ROUTE_110_BAITORD] =
     {
         .partyFlags = 0,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -7480,11 +7480,11 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_MayRoute110Mudkip),
-        .party = {.NoItemDefaultMoves = sParty_MayRoute110Mudkip},
+        .partySize = ARRAY_COUNT(sParty_MayRoute110Baitord),
+        .party = {.NoItemDefaultMoves = sParty_MayRoute110Baitord},
     },
 
-    [TRAINER_MAY_ROUTE_119_MUDKIP] =
+    [TRAINER_MAY_ROUTE_119_BAITORD] =
     {
         .partyFlags = 0,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -7498,11 +7498,11 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_MayRoute119Mudkip),
-        .party = {.NoItemDefaultMoves = sParty_MayRoute119Mudkip},
+        .partySize = ARRAY_COUNT(sParty_MayRoute119Baitord),
+        .party = {.NoItemDefaultMoves = sParty_MayRoute119Baitord},
     },
 
-    [TRAINER_MAY_ROUTE_103_TREECKO] =
+    [TRAINER_MAY_ROUTE_103_BERRYALEN] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -7516,11 +7516,11 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_MayRoute103Treecko),
-        .party = {.NoItemCustomMoves = sParty_MayRoute103Treecko},
+        .partySize = ARRAY_COUNT(sParty_MayRoute103Berryalen),
+        .party = {.NoItemCustomMoves = sParty_MayRoute103Berryalen},
     },
 
-    [TRAINER_MAY_ROUTE_110_TREECKO] =
+    [TRAINER_MAY_ROUTE_110_BERRYALEN] =
     {
         .partyFlags = 0,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -7534,11 +7534,11 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_MayRoute110Treecko),
-        .party = {.NoItemDefaultMoves = sParty_MayRoute110Treecko},
+        .partySize = ARRAY_COUNT(sParty_MayRoute110Berryalen),
+        .party = {.NoItemDefaultMoves = sParty_MayRoute110Berryalen},
     },
 
-    [TRAINER_MAY_ROUTE_119_TREECKO] =
+    [TRAINER_MAY_ROUTE_119_BERRYALEN] =
     {
         .partyFlags = 0,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -7552,11 +7552,11 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_MayRoute119Treecko),
-        .party = {.NoItemDefaultMoves = sParty_MayRoute119Treecko},
+        .partySize = ARRAY_COUNT(sParty_MayRoute119Berryalen),
+        .party = {.NoItemDefaultMoves = sParty_MayRoute119Berryalen},
     },
 
-    [TRAINER_MAY_ROUTE_103_TORCHIC] =
+    [TRAINER_MAY_ROUTE_103_COOKLET] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -7570,11 +7570,11 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_MayRoute103Torchic),
-        .party = {.NoItemCustomMoves = sParty_MayRoute103Torchic},
+        .partySize = ARRAY_COUNT(sParty_MayRoute103Cooklet),
+        .party = {.NoItemCustomMoves = sParty_MayRoute103Cooklet},
     },
 
-    [TRAINER_MAY_ROUTE_110_TORCHIC] =
+    [TRAINER_MAY_ROUTE_110_COOKLET] =
     {
         .partyFlags = 0,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -7588,11 +7588,11 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_MayRoute110Torchic),
-        .party = {.NoItemDefaultMoves = sParty_MayRoute110Torchic},
+        .partySize = ARRAY_COUNT(sParty_MayRoute110Cooklet),
+        .party = {.NoItemDefaultMoves = sParty_MayRoute110Cooklet},
     },
 
-    [TRAINER_MAY_ROUTE_119_TORCHIC] =
+    [TRAINER_MAY_ROUTE_119_COOKLET] =
     {
         .partyFlags = 0,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -7606,8 +7606,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_MayRoute119Torchic),
-        .party = {.NoItemDefaultMoves = sParty_MayRoute119Torchic},
+        .partySize = ARRAY_COUNT(sParty_MayRoute119Cooklet),
+        .party = {.NoItemDefaultMoves = sParty_MayRoute119Cooklet},
     },
 
     [TRAINER_ISAAC_1] =
@@ -8352,7 +8352,7 @@ const struct Trainer gTrainers[] = {
         .party = {.NoItemDefaultMoves = sParty_Macey},
     },
 
-    [TRAINER_BRENDAN_RUSTBORO_TREECKO] =
+    [TRAINER_BRENDAN_RUSTBORO_BERRYALEN] =
     {
         .partyFlags = 0,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -8366,11 +8366,11 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .partySize = ARRAY_COUNT(sParty_BrendanRustboroTreecko),
-        .party = {.NoItemDefaultMoves = sParty_BrendanRustboroTreecko},
+        .partySize = ARRAY_COUNT(sParty_BrendanRustboroBerryalen),
+        .party = {.NoItemDefaultMoves = sParty_BrendanRustboroBerryalen},
     },
 
-    [TRAINER_BRENDAN_RUSTBORO_MUDKIP] =
+    [TRAINER_BRENDAN_RUSTBORO_BAITORD] =
     {
         .partyFlags = 0,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -8384,8 +8384,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .partySize = ARRAY_COUNT(sParty_BrendanRustboroMudkip),
-        .party = {.NoItemDefaultMoves = sParty_BrendanRustboroMudkip},
+        .partySize = ARRAY_COUNT(sParty_BrendanRustboroBaitord),
+        .party = {.NoItemDefaultMoves = sParty_BrendanRustboroBaitord},
     },
 
     [TRAINER_PAXTON] =
@@ -8458,7 +8458,7 @@ const struct Trainer gTrainers[] = {
         .party = {.NoItemDefaultMoves = sParty_Jonathan},
     },
 
-    [TRAINER_BRENDAN_RUSTBORO_TORCHIC] =
+    [TRAINER_BRENDAN_RUSTBORO_COOKLET] =
     {
         .partyFlags = 0,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -8472,11 +8472,11 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_BrendanRustboroTorchic),
-        .party = {.NoItemDefaultMoves = sParty_BrendanRustboroTorchic},
+        .partySize = ARRAY_COUNT(sParty_BrendanRustboroCooklet),
+        .party = {.NoItemDefaultMoves = sParty_BrendanRustboroCooklet},
     },
 
-    [TRAINER_MAY_RUSTBORO_MUDKIP] =
+    [TRAINER_MAY_RUSTBORO_BAITORD] =
     {
         .partyFlags = 0,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -8490,8 +8490,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_SETUP_FIRST_TURN,
-        .partySize = ARRAY_COUNT(sParty_MayRustboroMudkip),
-        .party = {.NoItemDefaultMoves = sParty_MayRustboroMudkip},
+        .partySize = ARRAY_COUNT(sParty_MayRustboroBaitord),
+        .party = {.NoItemDefaultMoves = sParty_MayRustboroBaitord},
     },
 
     [TRAINER_MAXIE_MAGMA_HIDEOUT] =
@@ -9335,7 +9335,7 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_WallyVR5},
     },
 
-    [TRAINER_BRENDAN_LILYCOVE_MUDKIP] =
+    [TRAINER_BRENDAN_LILYCOVE_BAITORD] =
     {
         .partyFlags = 0,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -9349,11 +9349,11 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_BrendanLilycoveMudkip),
-        .party = {.NoItemDefaultMoves = sParty_BrendanLilycoveMudkip},
+        .partySize = ARRAY_COUNT(sParty_BrendanLilycoveBaitord),
+        .party = {.NoItemDefaultMoves = sParty_BrendanLilycoveBaitord},
     },
 
-    [TRAINER_BRENDAN_LILYCOVE_TREECKO] =
+    [TRAINER_BRENDAN_LILYCOVE_BERRYALEN] =
     {
         .partyFlags = 0,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -9367,11 +9367,11 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_BrendanLilycoveTreecko),
-        .party = {.NoItemDefaultMoves = sParty_BrendanLilycoveTreecko},
+        .partySize = ARRAY_COUNT(sParty_BrendanLilycoveBerryalen),
+        .party = {.NoItemDefaultMoves = sParty_BrendanLilycoveBerryalen},
     },
 
-    [TRAINER_BRENDAN_LILYCOVE_TORCHIC] =
+    [TRAINER_BRENDAN_LILYCOVE_COOKLET] =
     {
         .partyFlags = 0,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -9385,11 +9385,11 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_BrendanLilycoveTorchic),
-        .party = {.NoItemDefaultMoves = sParty_BrendanLilycoveTorchic},
+        .partySize = ARRAY_COUNT(sParty_BrendanLilycoveCooklet),
+        .party = {.NoItemDefaultMoves = sParty_BrendanLilycoveCooklet},
     },
 
-    [TRAINER_MAY_LILYCOVE_MUDKIP] =
+    [TRAINER_MAY_LILYCOVE_BAITORD] =
     {
         .partyFlags = 0,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -9403,11 +9403,11 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_MayLilycoveMudkip),
-        .party = {.NoItemDefaultMoves = sParty_MayLilycoveMudkip},
+        .partySize = ARRAY_COUNT(sParty_MayLilycoveBaitord),
+        .party = {.NoItemDefaultMoves = sParty_MayLilycoveBaitord},
     },
 
-    [TRAINER_MAY_LILYCOVE_TREECKO] =
+    [TRAINER_MAY_LILYCOVE_BERRYALEN] =
     {
         .partyFlags = 0,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -9421,11 +9421,11 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_MayLilycoveTreecko),
-        .party = {.NoItemDefaultMoves = sParty_MayLilycoveTreecko},
+        .partySize = ARRAY_COUNT(sParty_MayLilycoveBerryalen),
+        .party = {.NoItemDefaultMoves = sParty_MayLilycoveBerryalen},
     },
 
-    [TRAINER_MAY_LILYCOVE_TORCHIC] =
+    [TRAINER_MAY_LILYCOVE_COOKLET] =
     {
         .partyFlags = 0,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -9439,8 +9439,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_MayLilycoveTorchic),
-        .party = {.NoItemDefaultMoves = sParty_MayLilycoveTorchic},
+        .partySize = ARRAY_COUNT(sParty_MayLilycoveCooklet),
+        .party = {.NoItemDefaultMoves = sParty_MayLilycoveCooklet},
     },
 
     [TRAINER_JONAH] =
@@ -10857,7 +10857,7 @@ const struct Trainer gTrainers[] = {
         .party = {.NoItemDefaultMoves = sParty_Cristin1},
     },
 
-    [TRAINER_MAY_RUSTBORO_TREECKO] =
+    [TRAINER_MAY_RUSTBORO_BERRYALEN] =
     {
         .partyFlags = 0,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -10871,11 +10871,11 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_MayRustboroTreecko),
-        .party = {.NoItemDefaultMoves = sParty_MayRustboroTreecko},
+        .partySize = ARRAY_COUNT(sParty_MayRustboroBerryalen),
+        .party = {.NoItemDefaultMoves = sParty_MayRustboroBerryalen},
     },
 
-    [TRAINER_MAY_RUSTBORO_TORCHIC] =
+    [TRAINER_MAY_RUSTBORO_COOKLET] =
     {
         .partyFlags = 0,
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
@@ -10889,8 +10889,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_MayRustboroTorchic),
-        .party = {.NoItemDefaultMoves = sParty_MayRustboroTorchic},
+        .partySize = ARRAY_COUNT(sParty_MayRustboroCooklet),
+        .party = {.NoItemDefaultMoves = sParty_MayRustboroCooklet},
     },
 
     [TRAINER_ROXANNE_2] =
