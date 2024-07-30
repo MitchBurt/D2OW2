@@ -484,12 +484,8 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroup1 = EGG_GROUP_FLYING,
         .eggGroup2 = EGG_GROUP_FLYING,
-        #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_KEEN_EYE, ABILITY_SNIPER},
-            .abilityHidden = ABILITY_SNIPER,
-        #else
-            .abilities = {ABILITY_NO_GUARD, ABILITY_SNIPER,
-        #endif
+        .abilities = {ABILITY_NO_GUARD, ABILITY_SNIPER},
+        .abilityHidden = ABILITY_SNIPER,
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
     },
@@ -852,12 +848,8 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
-        #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_POISON_POINT, ABILITY_LIQUID_OOZE},
-            .abilityHidden = ABILITY_LIQUID_OOZE,
-        #else
-            .abilities = {ABILITY_POISON_POINT, ABILITY_LIQUID_OOZE,
-        #endif
+        .abilities = {ABILITY_POISON_POINT, ABILITY_LIQUID_OOZE},
+        .abilityHidden = ABILITY_LIQUID_OOZE,
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
     },
@@ -7753,6 +7745,7 @@ const struct BaseStats gBaseStats[] =
         .abilityHidden = ABILITY_MOXIE,
         .bodyColor = BODY_COLOR_PINK,
         .noFlip = FALSE,
+    },
 
     [SPECIES_SURSKIT] =
     {
