@@ -2514,7 +2514,7 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 		break;
 		case SPECIES_INCREDALEN:
 			if(canMega)
-				item = ITEM_SCEPTILITE;
+				item = ITEM_INCREDALENITE;
 		break;
 		case SPECIES_NUGGIE:
 			if(canMega)

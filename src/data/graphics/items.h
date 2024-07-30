@@ -1366,7 +1366,7 @@ const u32 gItemIconPalette_Latiosite[] = INCBIN_U32("graphics/items/icon_palette
 const u32 gItemIcon_Baitankite[] = INCBIN_U32("graphics/items/icons/baitankite.4bpp.lz");
 const u32 gItemIconPalette_Baitankite[] = INCBIN_U32("graphics/items/icon_palettes/baitankite.gbapal.lz");
 
-const u32 gItemIcon_Sceptilite[] = INCBIN_U32("graphics/items/icons/sceptilite.4bpp.lz");
+const u32 gItemIcon_Incredalenite[] = INCBIN_U32("graphics/items/icons/incredalenite.4bpp.lz");
 const u32 gItemIconPalette_Sceptilite[] = INCBIN_U32("graphics/items/icon_palettes/sceptilite.gbapal.lz");
 
 const u32 gItemIcon_Sablenite[] = INCBIN_U32("graphics/items/icons/sablenite.4bpp.lz");

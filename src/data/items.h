@@ -9989,17 +9989,17 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_SCEPTILITE] =
+    [ITEM_INCREDALENITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
         .name = _("Incredalenita"),
 #else
-        .name = _("Sceptilite"),
+        .name = _("Incredalenite"),
 #endif
-        .itemId = ITEM_SCEPTILITE,
+        .itemId = ITEM_INCREDALENITE,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sSceptiliteDesc,
+        .description = sIncredaleniteDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,

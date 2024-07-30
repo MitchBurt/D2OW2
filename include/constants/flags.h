@@ -662,7 +662,7 @@
 #define FLAG_GOT_BLUE_ORB  	  0x266 
 #define FLAG_GOT_RED_ORB  	  0x267
 #define FLAG_UNUSED_0x268  0x268 // Holocastite*
-#define FLAG_UNUSED_0x269  0x269 // Sceptilite*
+#define FLAG_UNUSED_0x269  0x269 // Incredalenite*
 #define FLAG_UNUSED_0x26A  0x26A // Baitankite*
 #define FLAG_UNUSED_0x26B  0x26B // Gourmasterite*
 #define FLAG_UNUSED_0x26C  0x26C // Sablenite*

@@ -2642,7 +2642,7 @@ static const u8 sBaitankiteDesc[] = _(
     "megaevolucionar a\n"
     "Baitank.");
 
-static const u8 sSceptiliteDesc[] = _(
+static const u8 sIncredaleniteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
     "Incredalen.");
@@ -5875,7 +5875,7 @@ static const u8 sBaitankiteDesc[] = _(
     "Baitank to Mega\n"
     "Evolve in battle.");
 
-static const u8 sSceptiliteDesc[] = _(
+static const u8 sIncredaleniteDesc[] = _(
     "This stone enables\n"
     "Incredalen to Mega\n"
     "Evolve in battle.");
