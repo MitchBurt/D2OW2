@@ -15,9 +15,9 @@ Start_EventScript_Starter_Chose::
     waitmessage
 	multichoice 0, 0, MULTI_NEW_GAME_QUESTIONS, 0
 	switch VAR_RESULT
-    case 0, Start_EventScript_Game_Level
+    case 0, Start_EventScript_Game_Start
 	case 1, Start_EventScript_Game_Modes
-    case 2, Start_EventScript_Game_Start
+    case 2, Start_EventScript_Game_Level
 	case MULTI_B_PRESSED, Start_EventScript_Starter_Chose
 	end
 	
@@ -1126,8 +1126,7 @@ Text_Take_Starter6:
 	.string "Alcoo?$"
 
 Text_Received_Starter6:
-	.string "{PLAYER} received a Alcoo!$"
-	
+	.string "{PLAYER} received a Alcoo!$"	
 	
 //Skorchi
 Script_Give_Starter7:
