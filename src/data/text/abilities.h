@@ -255,6 +255,7 @@ static const u8 sChillingNeighDescription[] = _("KOs boost Attack stat.");
 static const u8 sGrimNeighDescription[] = _("KOs boost Sp. Atk stat.");
 static const u8 sAsOneIceRiderDescription[] = _("Unnerve and Chilling Neigh.");
 static const u8 sAsOneShadowRiderDescription[] = _("Unnerve and Grim Neigh.");
+static const u8 sCookingDescription[]      =  _("Boosts Fire moves against Food Pokémon.");
 #else
 static const u8 sNoneDescription[] = _("No special ability.");
 static const u8 sStenchDescription[] = _("Helps repel wild Pokémon.");
@@ -546,6 +547,7 @@ static const u8 sInsectEaterDescription[]  =  _("Boost Attack when hit by a Bug-
 static const u8 sEarthEaterDescription[]   =  _("Changes Ground-type moves into HP.");
 static const u8 sSteelEaterDescription[]   =  _("Boost Defense when hit by a Steel-Type move.");
 static const u8 sWindRiderDescription[]    =  _("Boost Atk when hit by a Wind move, does not get damaged.");
+static const u8 sCookingDescription[]      =  _("Boosts Fire moves against Food Pokémon.");
 #endif
 
 const u8 gAbilityNames[ABILITIES_COUNT_GEN8][ABILITY_NAME_LENGTH + 1] =
@@ -785,6 +787,7 @@ const u8 gAbilityNames[ABILITIES_COUNT_GEN8][ABILITY_NAME_LENGTH + 1] =
     [ABILITY_SHADOW_SHIELD] = _("Gua. Espect."),
     [ABILITY_PRISM_ARMOR]   = _("Arm. Prisma"),
     [ABILITY_NEUROFORCE]    = _("F. Cerebral"),
+    [ABILITY_COOKING]           = _("Overcook"),
 #else
     [ABILITY_NONE]              = _("-------"),
     [ABILITY_STENCH]            = _("Stench"),
@@ -1089,6 +1092,7 @@ const u8 gAbilityNames[ABILITIES_COUNT_GEN8][ABILITY_NAME_LENGTH + 1] =
     [ABILITY_EARTH_EATER]       = _("Earth Eater"),
     [ABILITY_STEEL_EATER]       = _("Steel Eater"),
     [ABILITY_WIND_RIDER]        = _("Wind Rider"),
+    [ABILITY_COOKING]           = _("Overcook"),
 #endif
 };
 
@@ -1397,4 +1401,5 @@ const u8 *const gAbilityDescriptionPointers[ABILITIES_COUNT_GEN8] =
     [ABILITY_EARTH_EATER] = sEarthEaterDescription,
     [ABILITY_STEEL_EATER] = sSteelEaterDescription,
     [ABILITY_WIND_RIDER] = sWindRiderDescription,
+    [ABILITY_COOKING] = sCookingDescription,
 };
