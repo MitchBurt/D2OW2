@@ -11436,7 +11436,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     {
         .effect = EFFECT_INTOXICATE_HIT,
         .power = 40,
-        .type = TYPE_POISON,
+        .type = TYPE_ALCOHOL,
         .accuracy = 90,
         .pp = 20,
         .secondaryEffectChance = 100,

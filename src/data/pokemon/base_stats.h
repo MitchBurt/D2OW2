@@ -1118,13 +1118,8 @@ const struct BaseStats gBaseStats[] =
         #else
             .baseSpAttack  = 100,
         #endif
-        #if P_UPDATED_TYPES >= GEN_6
-            .type1 = TYPE_COSMIC,
-            .type2 = TYPE_COSMIC,
-        #else
-            .type1 = TYPE_COSMIC,
-            .type2 = TYPE_COSMIC,
-        #endif
+        .type1 = TYPE_COSMIC,
+        .type2 = TYPE_COSMIC,
         .catchRate = 50,
         .expYield = 196,
         .evYield_HP        = 3,
