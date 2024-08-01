@@ -1687,6 +1687,7 @@ static const struct SearchOptionText sDexSearchTypeOptions[] =
     #ifdef BATTLE_ENGINE
     {gText_DexEmptyString, gTypeNames[TYPE_FAIRY]},
     {gText_DexEmptyString, gTypeNames[TYPE_COSMIC]},
+    {gText_DexEmptyString, gTypeNames[TYPE_ALCOHOL]},
     #endif
     {},
 };
