@@ -1687,12 +1687,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_OOTLAW] =
     {
-        .baseHP        = 40,
-        .baseAttack    = 50,
-        .baseDefense   = 40,
-        .baseSpeed     = 90,
-        .baseSpAttack  = 40,
-        .baseSpDefense = 40,
+        .baseHP        = 50,
+        .baseAttack    = 65,
+        .baseDefense   = 45,
+        .baseSpeed     = 65,
+        .baseSpAttack  = 30,
+        .baseSpDefense = 35,
         .type1 = TYPE_GROUND,
         .type2 = TYPE_GROUND,
         .catchRate = 255,
@@ -1712,18 +1712,17 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_SHERRIF] =
     {
-        .baseHP        = 65,
-        .baseAttack    = 65,
-        .baseDefense   = 65,
-        .baseSpeed     = 90,
-        .baseSpAttack  = 50,
+        .baseHP        = 60,
+        .baseAttack    = 90,
+        .baseDefense   = 60,
+        .baseSpeed     = 80,
+        .baseSpAttack  = 40,
         .baseSpDefense = 50,
         .type1 = TYPE_GROUND,
         .type2 = TYPE_GROUND,
         .catchRate = 120,
         .expYield = 135,
         .evYield_Speed     = 2,
-        .item2 = ITEM_KINGS_ROCK,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
         .friendship = 70,
@@ -1738,16 +1737,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_RENAGEDE] =
     {
-        .baseHP        = 90,
-        .baseDefense   = 65,
-        .baseSpeed     = 90,
-        .baseSpAttack  = 95,
-        .baseSpDefense = 80,
-        #if P_UPDATED_STATS >= GEN_6
-            .baseAttack    = 100,
-        #else
-            .baseAttack    = 100,
-        #endif
+        .baseHP        = 110,
+        .baseDefense   = 75,
+        .baseSpeed     = 100,
+        .baseSpAttack  = 65,
+        .baseSpDefense = 70,
+        .baseAttack    = 115,
         .type1 = TYPE_GROUND,
         .type2 = TYPE_DARK,
         .catchRate = 45,
@@ -35634,12 +35629,12 @@ const struct BaseStats gVanillaBaseStats[] =
 
     [SPECIES_OOTLAW] =
     {
-        .baseHP        = 40,
-        .baseAttack    = 50,
-        .baseDefense   = 40,
-        .baseSpeed     = 90,
-        .baseSpAttack  = 40,
-        .baseSpDefense = 40,
+        .baseHP        = 50,
+        .baseAttack    = 65,
+        .baseDefense   = 45,
+        .baseSpeed     = 65,
+        .baseSpAttack  = 30,
+        .baseSpDefense = 35,
         .type1 = TYPE_GROUND,
         .type2 = TYPE_GROUND,
         .catchRate = 255,
@@ -35659,18 +35654,17 @@ const struct BaseStats gVanillaBaseStats[] =
 
     [SPECIES_SHERRIF] =
     {
-        .baseHP        = 65,
-        .baseAttack    = 65,
-        .baseDefense   = 65,
-        .baseSpeed     = 90,
-        .baseSpAttack  = 50,
+        .baseHP        = 60,
+        .baseAttack    = 90,
+        .baseDefense   = 60,
+        .baseSpeed     = 80,
+        .baseSpAttack  = 40,
         .baseSpDefense = 50,
         .type1 = TYPE_GROUND,
         .type2 = TYPE_GROUND,
         .catchRate = 120,
         .expYield = 135,
         .evYield_Speed     = 2,
-        .item2 = ITEM_KINGS_ROCK,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
         .friendship = 70,
@@ -35685,16 +35679,12 @@ const struct BaseStats gVanillaBaseStats[] =
 
     [SPECIES_RENAGEDE] =
     {
-        .baseHP        = 90,
-        .baseDefense   = 65,
-        .baseSpeed     = 90,
-        .baseSpAttack  = 95,
-        .baseSpDefense = 80,
-        #if P_UPDATED_STATS >= GEN_6
-            .baseAttack    = 100,
-        #else
-            .baseAttack    = 100,
-        #endif
+        .baseHP        = 110,
+        .baseDefense   = 75,
+        .baseSpeed     = 100,
+        .baseSpAttack  = 65,
+        .baseSpDefense = 70,
+        .baseAttack    = 115,
         .type1 = TYPE_GROUND,
         .type2 = TYPE_DARK,
         .catchRate = 45,
