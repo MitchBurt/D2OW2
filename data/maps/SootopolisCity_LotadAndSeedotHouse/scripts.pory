@@ -38,7 +38,7 @@ SootopolisCity_LotadAndSeedotHouse_EventScript_SmallSobbleaf:: @ 8227286
 	end
 
 SootopolisCity_LotadAndSeedotHouse_EventScript_BigSobbleaf:: @ 8227290
-	msgbox SootopolisCity_LotadAndSeedotHouse_Text_GoshMightBeBiggerThanLotad, MSGBOX_DEFAULT
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_GoshMightBeBiggerThanScubite, MSGBOX_DEFAULT
 	giveitem ITEM_ELIXIR
 	compare VAR_RESULT, FALSE
 	goto_if_eq SootopolisCity_LotadAndSeedotHouse_EventScript_NoRoomForElixir1
@@ -51,42 +51,42 @@ SootopolisCity_LotadAndSeedotHouse_EventScript_NoRoomForElixir1:: @ 82272B2
 	release
 	end
 
-SootopolisCity_LotadAndSeedotHouse_EventScript_LotadBrother:: @ 82272BC
-	special GetLotadSizeRecordInfo
+SootopolisCity_LotadAndSeedotHouse_EventScript_ScubiteBrother:: @ 82272BC
+	special GetScubiteSizeRecordInfo
 	lock
 	faceplayer
-	msgbox SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigLotad, MSGBOX_DEFAULT
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigScubite, MSGBOX_DEFAULT
 	special ChoosePartyMon
 	waitstate
 	copyvar VAR_RESULT, VAR_0x8004
 	compare VAR_RESULT, 255
-	goto_if_eq SootopolisCity_LotadAndSeedotHouse_EventScript_CancelShowLotad
-	special CompareLotadSize
+	goto_if_eq SootopolisCity_LotadAndSeedotHouse_EventScript_CancelShowScubite
+	special CompareScubiteSize
 	compare VAR_RESULT, 1
-	goto_if_eq SootopolisCity_LotadAndSeedotHouse_EventScript_NotLotad
+	goto_if_eq SootopolisCity_LotadAndSeedotHouse_EventScript_NotScubite
 	compare VAR_RESULT, 2
-	goto_if_eq SootopolisCity_LotadAndSeedotHouse_EventScript_SmallLotad
+	goto_if_eq SootopolisCity_LotadAndSeedotHouse_EventScript_SmallScubite
 	compare VAR_RESULT, 3
-	goto_if_eq SootopolisCity_LotadAndSeedotHouse_EventScript_BigLotad
+	goto_if_eq SootopolisCity_LotadAndSeedotHouse_EventScript_BigScubite
 	release
 	end
 
-SootopolisCity_LotadAndSeedotHouse_EventScript_CancelShowLotad:: @ 8227303
-	msgbox SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigLotad, MSGBOX_DEFAULT
+SootopolisCity_LotadAndSeedotHouse_EventScript_CancelShowScubite:: @ 8227303
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigScubite, MSGBOX_DEFAULT
 	release
 	end
 
-SootopolisCity_LotadAndSeedotHouse_EventScript_NotLotad:: @ 822730D
-	msgbox SootopolisCity_LotadAndSeedotHouse_Text_ThatsNotLotad, MSGBOX_DEFAULT
+SootopolisCity_LotadAndSeedotHouse_EventScript_NotScubite:: @ 822730D
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_ThatsNotScubite, MSGBOX_DEFAULT
 	release
 	end
 
-SootopolisCity_LotadAndSeedotHouse_EventScript_SmallLotad:: @ 8227317
-	msgbox SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerLotad, MSGBOX_DEFAULT
+SootopolisCity_LotadAndSeedotHouse_EventScript_SmallScubite:: @ 8227317
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerScubite, MSGBOX_DEFAULT
 	release
 	end
 
-SootopolisCity_LotadAndSeedotHouse_EventScript_BigLotad:: @ 8227321
+SootopolisCity_LotadAndSeedotHouse_EventScript_BigScubite:: @ 8227321
 	msgbox SootopolisCity_LotadAndSeedotHouse_Text_WowMightBeBiggerThanSobbleaf, MSGBOX_DEFAULT
 	giveitem ITEM_ELIXIR
 	compare VAR_RESULT, FALSE
@@ -107,10 +107,10 @@ SootopolisCity_LotadAndSeedotHouse_EventScript_SobbleafSizeRecord:: @ 822734D
 	releaseall
 	end
 
-SootopolisCity_LotadAndSeedotHouse_EventScript_LotadSizeRecord:: @ 822735B
-	special GetLotadSizeRecordInfo
+SootopolisCity_LotadAndSeedotHouse_EventScript_ScubiteSizeRecord:: @ 822735B
+	special GetScubiteSizeRecordInfo
 	lockall
-	msgbox SootopolisCity_LotadAndSeedotHouse_Text_BiggestLotadInHistory, MSGBOX_DEFAULT
+	msgbox SootopolisCity_LotadAndSeedotHouse_Text_BiggestScubiteInHistory, MSGBOX_DEFAULT
 	releaseall
 	end
 
@@ -120,16 +120,16 @@ SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigSobbleaf: @ 8227369
 	.string "Anyway, I love big Sobbleaf.\n"
 	.string "The bigger the better.\p"
 	.string "But my younger brother, he says that\n"
-	.string "Lotad is bigger.\p"
+	.string "Scubite is bigger.\p"
 	.string "That's silly.\n"
 	.string "Sobbleaf has to be bigger than that!\p"
 	.string "Huh? Do you have a Sobbleaf with you?\n"
 	.string "P-p-please, show me!$"
 
-SootopolisCity_LotadAndSeedotHouse_Text_GoshMightBeBiggerThanLotad: @ 8227480
+SootopolisCity_LotadAndSeedotHouse_Text_GoshMightBeBiggerThanScubite: @ 8227480
 	.string "{STR_VAR_2} inches!\n"
 	.string "Oh, my gosh, this is a big one!\p"
-	.string "It might even beat the big Lotad\n"
+	.string "It might even beat the big Scubite\n"
 	.string "my younger brother saw!\p"
 	.string "Thanks for showing me.\n"
 	.string "This is my thanks!$"
@@ -160,18 +160,18 @@ SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigSobbleaf: @ 82275BC
 SootopolisCity_LotadAndSeedotHouse_Text_BiggestSobbleafInHistory: @ 8227617
 	.string "The biggest Sobbleaf in history!\n"
 	.string "{STR_VAR_2}'s {STR_VAR_3}-inch giant!\p"
-	.string "A Sobbleaf bigger than a Lotad\n"
+	.string "A Sobbleaf bigger than a Scubite\n"
 	.string "always wanted!$"
 
-SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigLotad: @ 8227676
-	.string "Do you know the Pokémon Lotad?\n"
+SootopolisCity_LotadAndSeedotHouse_Text_PleaseShowMeBigScubite: @ 8227676
+	.string "Do you know the Pokémon Scubite?\n"
 	.string "It's rarely seen in Sootopolis.\p"
-	.string "I love, I mean love, big Lotad!\p"
+	.string "I love, I mean love, big Scubite!\p"
 	.string "My big brother says that Sobbleaf is\n"
 	.string "bigger.\p"
 	.string "But that's wrong! Everyone knows that\n"
-	.string "Lotad is a lot bigger.\p"
-	.string "Hunh? Do you have a Lotad?\n"
+	.string "Scubite is a lot bigger.\p"
+	.string "Hunh? Do you have a Scubite?\n"
 	.string "P-p-please show me!$"
 
 SootopolisCity_LotadAndSeedotHouse_Text_WowMightBeBiggerThanSobbleaf: @ 822776C
@@ -190,25 +190,25 @@ SootopolisCity_LotadAndSeedotHouse_Text_BagCrammedFull2: @ 822780A
 	.string "Hunh?\n"
 	.string "Your Bag is crammed full.$"
 
-SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerLotad: @ 822782A
+SootopolisCity_LotadAndSeedotHouse_Text_SeenBiggerScubite: @ 822782A
 	.string "{STR_VAR_2} inches?\p"
-	.string "Hmm… I've seen a bigger Lotad\n"
+	.string "Hmm… I've seen a bigger Scubite\n"
 	.string "than this one here.$"
 
-SootopolisCity_LotadAndSeedotHouse_Text_ThatsNotLotad: @ 8227867
+SootopolisCity_LotadAndSeedotHouse_Text_ThatsNotScubite: @ 8227867
 	.string "Well, isn't this something!\n"
-	.string "But it's no Lotad!$"
+	.string "But it's no Scubite!$"
 
-SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigLotad: @ 8227896
-	.string "Don't you have a big Lotad?\n"
+SootopolisCity_LotadAndSeedotHouse_Text_DontHaveBigScubite: @ 8227896
+	.string "Don't you have a big Scubite?\n"
 	.string "How disappointing…\p"
-	.string "If you get a big Lotad, please\n"
+	.string "If you get a big Scubite, please\n"
 	.string "come show me!$"
 
-SootopolisCity_LotadAndSeedotHouse_Text_BiggestLotadInHistory: @ 82278F2
-	.string "The biggest Lotad in history!\n"
+SootopolisCity_LotadAndSeedotHouse_Text_BiggestScubiteInHistory: @ 82278F2
+	.string "The biggest Scubite in history!\n"
 	.string "{STR_VAR_2}'s {STR_VAR_3}-inch colossus!\p"
-	.string "A Lotad bigger than a Sobbleaf\n"
+	.string "A Scubite bigger than a Sobbleaf\n"
 	.string "always wanted!$"
 
 `
