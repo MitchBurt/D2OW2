@@ -37,7 +37,7 @@
 // Lucky Flags
 #define LUCKY_BIAS_REPLAY    (1 << 0)
 #define LUCKY_BIAS_CHERRY    (1 << 1)
-#define LUCKY_BIAS_LOTAD     (1 << 2)
+#define LUCKY_BIAS_SCUBITE     (1 << 2)
 #define LUCKY_BIAS_AZURILL   (1 << 3)
 #define LUCKY_BIAS_POWER     (1 << 4)
 #define LUCKY_BIAS_REELTIME  (1 << 5)
@@ -48,7 +48,7 @@ enum {
     GFXTAG_7_RED,
     GFXTAG_7_BLUE,
     GFXTAG_AZURILL,
-    GFXTAG_LOTAD,
+    GFXTAG_SCUBITE,
     GFXTAG_CHERRY,
     GFXTAG_POWER,
     GFXTAG_REPLAY,
@@ -87,7 +87,7 @@ enum {
     MATCHED_1CHERRY,
     MATCHED_2CHERRY,
     MATCHED_REPLAY,
-    MATCHED_LOTAD,
+    MATCHED_SCUBITE,
     MATCHED_AZURILL,
     MATCHED_POWER,
     MATCHED_777_MIXED,
@@ -4732,43 +4732,43 @@ static const u8 sReelSymbolTileTags[NUM_REELS][SYMBOLS_PER_REEL] =
         GFXTAG_AZURILL,
         GFXTAG_REPLAY,
         GFXTAG_POWER,
-        GFXTAG_LOTAD,
+        GFXTAG_SCUBITE,
         GFXTAG_7_BLUE,
-        GFXTAG_LOTAD,
+        GFXTAG_SCUBITE,
         GFXTAG_CHERRY,
         GFXTAG_POWER,
         GFXTAG_REPLAY,
         GFXTAG_AZURILL,
         GFXTAG_7_RED,
         GFXTAG_POWER,
-        GFXTAG_LOTAD,
+        GFXTAG_SCUBITE,
         GFXTAG_REPLAY,
         GFXTAG_AZURILL,
         GFXTAG_7_BLUE,
         GFXTAG_POWER,
-        GFXTAG_LOTAD,
+        GFXTAG_SCUBITE,
         GFXTAG_REPLAY
     },
     [MIDDLE_REEL] = {
         GFXTAG_7_RED,
         GFXTAG_CHERRY,
         GFXTAG_REPLAY,
-        GFXTAG_LOTAD,
+        GFXTAG_SCUBITE,
         GFXTAG_AZURILL,
         GFXTAG_CHERRY,
         GFXTAG_REPLAY,
         GFXTAG_POWER,
         GFXTAG_POWER,
-        GFXTAG_LOTAD,
+        GFXTAG_SCUBITE,
         GFXTAG_7_BLUE,
-        GFXTAG_LOTAD,
+        GFXTAG_SCUBITE,
         GFXTAG_REPLAY,
         GFXTAG_CHERRY,
         GFXTAG_AZURILL,
-        GFXTAG_LOTAD,
+        GFXTAG_SCUBITE,
         GFXTAG_REPLAY,
         GFXTAG_CHERRY,
-        GFXTAG_LOTAD,
+        GFXTAG_SCUBITE,
         GFXTAG_REPLAY,
         GFXTAG_CHERRY
     },
@@ -4777,22 +4777,22 @@ static const u8 sReelSymbolTileTags[NUM_REELS][SYMBOLS_PER_REEL] =
         GFXTAG_POWER,
         GFXTAG_7_BLUE,
         GFXTAG_REPLAY,
-        GFXTAG_LOTAD,
+        GFXTAG_SCUBITE,
         GFXTAG_AZURILL,
         GFXTAG_REPLAY,
-        GFXTAG_LOTAD,
+        GFXTAG_SCUBITE,
         GFXTAG_POWER,
         GFXTAG_AZURILL,
         GFXTAG_REPLAY,
-        GFXTAG_LOTAD,
+        GFXTAG_SCUBITE,
         GFXTAG_AZURILL,
         GFXTAG_POWER,
         GFXTAG_REPLAY,
-        GFXTAG_LOTAD,
+        GFXTAG_SCUBITE,
         GFXTAG_AZURILL,
         GFXTAG_POWER,
         GFXTAG_REPLAY,
-        GFXTAG_LOTAD,
+        GFXTAG_SCUBITE,
         GFXTAG_CHERRY
     },
 };
@@ -4866,7 +4866,7 @@ static const u16 sReelTimeBonusIncrementTable[] = {
 
 // tentative name
 static const u8 sBiasTags[] = {
-  GFXTAG_REPLAY, GFXTAG_CHERRY, GFXTAG_LOTAD, GFXTAG_AZURILL, GFXTAG_POWER, GFXTAG_7_RED, GFXTAG_7_RED, GFXTAG_7_RED
+  GFXTAG_REPLAY, GFXTAG_CHERRY, GFXTAG_SCUBITE, GFXTAG_AZURILL, GFXTAG_POWER, GFXTAG_7_RED, GFXTAG_7_RED, GFXTAG_7_RED
 };
 
 static const u16 sLuckyFlagSettings_Top3[] = {
@@ -4874,14 +4874,14 @@ static const u16 sLuckyFlagSettings_Top3[] = {
 };
 
 static const u16 sLuckyFlagSettings_NotTop3[] = {
-    LUCKY_BIAS_POWER, LUCKY_BIAS_AZURILL, LUCKY_BIAS_LOTAD, LUCKY_BIAS_CHERRY, LUCKY_BIAS_REPLAY
+    LUCKY_BIAS_POWER, LUCKY_BIAS_AZURILL, LUCKY_BIAS_SCUBITE, LUCKY_BIAS_CHERRY, LUCKY_BIAS_REPLAY
 };
 
 static const u8 sSymToMatch[] = {
     [GFXTAG_7_RED]   = MATCHED_777_RED,
     [GFXTAG_7_BLUE]  = MATCHED_777_BLUE,
     [GFXTAG_AZURILL] = MATCHED_AZURILL,
-    [GFXTAG_LOTAD]   = MATCHED_LOTAD,
+    [GFXTAG_SCUBITE]   = MATCHED_SCUBITE,
     [GFXTAG_CHERRY]  = MATCHED_1CHERRY,
     [GFXTAG_POWER]   = MATCHED_POWER,
     [GFXTAG_REPLAY]  = MATCHED_REPLAY
@@ -4891,7 +4891,7 @@ static const u16 sSlotMatchFlags[] = {
     [MATCHED_1CHERRY]   = 1 << MATCHED_1CHERRY,
     [MATCHED_2CHERRY]   = 1 << MATCHED_2CHERRY,
     [MATCHED_REPLAY]    = 1 << MATCHED_REPLAY,
-    [MATCHED_LOTAD]     = 1 << MATCHED_LOTAD,
+    [MATCHED_SCUBITE]     = 1 << MATCHED_SCUBITE,
     [MATCHED_AZURILL]   = 1 << MATCHED_AZURILL,
     [MATCHED_POWER]     = 1 << MATCHED_POWER,
     [MATCHED_777_MIXED] = 1 << MATCHED_777_MIXED,
@@ -4903,7 +4903,7 @@ static const u16 sSlotPayouts[] = {
     [MATCHED_1CHERRY]   = 2, 
     [MATCHED_2CHERRY]   = 4, 
     [MATCHED_REPLAY]    = 0, 
-    [MATCHED_LOTAD]     = 6, 
+    [MATCHED_SCUBITE]     = 6, 
     [MATCHED_AZURILL]   = 12, 
     [MATCHED_POWER]     = 3, 
     [MATCHED_777_MIXED] = 90, 
@@ -7077,7 +7077,7 @@ static const struct SpriteSheet sSlotMachineSpriteSheets[22] =
     { .data = gSlotMachineReelSymbol1Tiles, .size = 0x200, .tag = GFXTAG_7_RED },
     { .data = gSlotMachineReelSymbol2Tiles, .size = 0x200, .tag = GFXTAG_7_BLUE },
     { .data = gSlotMachineReelSymbol3Tiles, .size = 0x200, .tag = GFXTAG_AZURILL },
-    { .data = gSlotMachineReelSymbol4Tiles, .size = 0x200, .tag = GFXTAG_LOTAD },
+    { .data = gSlotMachineReelSymbol4Tiles, .size = 0x200, .tag = GFXTAG_SCUBITE },
     { .data = gSlotMachineReelSymbol5Tiles, .size = 0x200, .tag = GFXTAG_CHERRY },
     { .data = gSlotMachineReelSymbol6Tiles, .size = 0x200, .tag = GFXTAG_POWER },
     { .data = gSlotMachineReelSymbol7Tiles, .size = 0x200, .tag = GFXTAG_REPLAY },

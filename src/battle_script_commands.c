@@ -12895,7 +12895,7 @@ static void Cmd_givecaughtmon(void)
         case SPECIES_MANECTRIC_MEGA:
         case SPECIES_SHARPEDO_MEGA:
         case SPECIES_CAMERUPT_MEGA:
-        case SPECIES_ALTARIA_MEGA:
+        case SPECIES_UNSC_MEGA:
         case SPECIES_BANETTE_MEGA:
         case SPECIES_ABSOL_MEGA:
         case SPECIES_GLALIE_MEGA:

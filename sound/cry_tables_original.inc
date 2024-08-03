@@ -272,9 +272,9 @@ gCryTable:: @ 869DCF4
 	cry Cry_Nyantiger
 	cry Cry_Mechduck
 	cry Cry_Duckertron
-	cry Cry_Lotad
-	cry Cry_Lombre
-	cry Cry_Ludicolo
+	cry Cry_Scubite
+	cry Cry_Quackshot
+	cry Cry_Quacknator
 	cry Cry_Sobbleaf
 	cry Cry_Herokku
 	cry Cry_Shadeku
@@ -335,8 +335,8 @@ gCryTable:: @ 869DCF4
 	cry Cry_Flygon
 	cry Cry_Yolkanner
 	cry Cry_Aconeggs
-	cry Cry_Swablu
-	cry Cry_Altaria
+	cry Cry_Armydrone
+	cry Cry_UNSC
 	cry Cry_Zangoose
 	cry Cry_Seviper
 	cry Cry_Lunatone
@@ -357,7 +357,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Kecleon
 	cry Cry_Shuppet
 	cry Cry_Banette
-	cry Cry_Duskull
+	cry Cry_Ratman
 	cry Cry_Hugeman
 	cry Cry_Tropius
 	cry Cry_Chimecho
@@ -938,7 +938,7 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Manectric_Mega
 	cry_not Cry_Sharpedo_Mega
 	cry_not Cry_Camerupt_Mega
-	cry_not Cry_Altaria_Mega
+	cry_not Cry_UNSC_Mega
 	cry_not Cry_Banette_Mega
 	cry_not Cry_Absol_Mega
 	cry_not Cry_Glalie_Mega
@@ -1550,9 +1550,9 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Nyantiger
 	cry2 Cry_Mechduck
 	cry2 Cry_Duckertron
-	cry2 Cry_Lotad
-	cry2 Cry_Lombre
-	cry2 Cry_Ludicolo
+	cry2 Cry_Scubite
+	cry2 Cry_Quackshot
+	cry2 Cry_Quacknator
 	cry2 Cry_Sobbleaf
 	cry2 Cry_Herokku
 	cry2 Cry_Shadeku
@@ -1613,8 +1613,8 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Flygon
 	cry2 Cry_Yolkanner
 	cry2 Cry_Aconeggs
-	cry2 Cry_Swablu
-	cry2 Cry_Altaria
+	cry2 Cry_Armydrone
+	cry2 Cry_UNSC
 	cry2 Cry_Zangoose
 	cry2 Cry_Seviper
 	cry2 Cry_Lunatone
@@ -1635,7 +1635,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Kecleon
 	cry2 Cry_Shuppet
 	cry2 Cry_Banette
-	cry2 Cry_Duskull
+	cry2 Cry_Ratman
 	cry2 Cry_Hugeman
 	cry2 Cry_Tropius
 	cry2 Cry_Chimecho
@@ -2216,7 +2216,7 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Manectric_Mega
 	cry2_not Cry_Sharpedo_Mega
 	cry2_not Cry_Camerupt_Mega
-	cry2_not Cry_Altaria_Mega
+	cry2_not Cry_UNSC_Mega
 	cry2_not Cry_Banette_Mega
 	cry2_not Cry_Absol_Mega
 	cry2_not Cry_Glalie_Mega

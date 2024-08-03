@@ -2400,9 +2400,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_ALAKAZITE;
 		break;
-		case SPECIES_ALTARIA:
+		case SPECIES_UNSC:
 			if(canMega)
-				item = ITEM_ALTARIANITE;
+				item = ITEM_UNSCNITE;
 		break;
 		case SPECIES_BACID:
 			if(canMega)

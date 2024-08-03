@@ -2713,7 +2713,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Hope[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_DUSKULL,
+    .species = SPECIES_RATMAN,
     },
     {
     .iv = 100,
@@ -3073,7 +3073,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Valerie1[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_DUSKULL,
+    .species = SPECIES_RATMAN,
     },
     {
     .iv = 0,
@@ -3111,7 +3111,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Valerie2[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_DUSKULL,
+    .species = SPECIES_RATMAN,
     },
     {
     .iv = 10,
@@ -3138,7 +3138,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Valerie3[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_DUSKULL,
+    .species = SPECIES_RATMAN,
     },
     {
     .iv = 20,
@@ -3173,7 +3173,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Valerie4[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_DUSKULL,
+    .species = SPECIES_RATMAN,
     },
     {
     .iv = 30,
@@ -3208,7 +3208,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Valerie5[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_DUSKULL,
+    .species = SPECIES_RATMAN,
     },
     {
     .iv = 40,
@@ -3707,7 +3707,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Olivia[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},
     .moves = {MOVE_UPROAR, MOVE_FURY_SWIPES, MOVE_FAKE_OUT, MOVE_WATER_PULSE}
     }
@@ -7218,9 +7218,9 @@ static const struct TrainerMonItemCustomMoves sParty_Winona1[] = {
 	.evs = {6, 0, 0, 252, 0, 252}, 
     .abilityNum = 3,
     .happiness = 255,
-    .species = SPECIES_SWABLU,
-    .postgameheldItem = ITEM_ALTARIANITE,
-    .heldItem = ITEM_ALTARIANITE,
+    .species = SPECIES_ARMYDRONE,
+    .postgameheldItem = ITEM_UNSCNITE,
+    .heldItem = ITEM_UNSCNITE,
     .postgamemoves = {MOVE_HYPER_VOICE, MOVE_DRAGON_PULSE, MOVE_ICE_BEAM, MOVE_FLAMETHROWER},
     .moves = {MOVE_DRAGON_BREATH, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
@@ -7332,7 +7332,7 @@ static const struct TrainerMonItemCustomMoves sParty_Juan1[] = {
 	.evs = {6, 0, 0, 252, 0, 252}, 
     .happiness = 255,
     .abilityNum = 0,
-	.species = SPECIES_LOTAD,
+	.species = SPECIES_SCUBITE,
     .postgameheldItem = ITEM_NORMAL_GEM,
     .heldItem = ITEM_BIG_ROOT,
     .postgamemoves = {MOVE_SURF, MOVE_GIGA_DRAIN, MOVE_ICE_BEAM, MOVE_FAKE_OUT},
@@ -8602,7 +8602,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Quincy[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_DUSKULL,
+    .species = SPECIES_RATMAN,
     .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},
     .moves = {MOVE_SKILL_SWAP, MOVE_PROTECT, MOVE_WILL_O_WISP, MOVE_TOXIC}
     }
@@ -8817,7 +8817,7 @@ static const struct TrainerMonItemCustomMoves sParty_Wallace[] = {
     .evs = {6, 0, 0, 252, 0, 252}, 
     .abilityNum = 0,
     .happiness = 255,
-    .species = SPECIES_LUDICOLO,
+    .species = SPECIES_QUACKNATOR,
 	.ivs = {31, 0, 31, 31, 31, 31}, 
 	.isShiny = FALSE,
 	.pokeball = ITEM_FRIEND_BALL,
@@ -9980,7 +9980,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Nicolas1[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_ARMYDRONE,
     },
     {
     .iv = 100,
@@ -10007,7 +10007,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Nicolas2[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_ARMYDRONE,
     },
     {
     .iv = 110,
@@ -10015,7 +10015,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Nicolas2[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_ARMYDRONE,
     }
 };
 
@@ -10026,7 +10026,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Nicolas3[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_ARMYDRONE,
     },
     {
     .iv = 120,
@@ -10034,7 +10034,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Nicolas3[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_ARMYDRONE,
     }
 };
 
@@ -10053,7 +10053,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Nicolas4[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_ARMYDRONE,
     },
     {
     .iv = 130,
@@ -10061,7 +10061,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Nicolas4[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_ARMYDRONE,
     }
 };
 
@@ -10072,7 +10072,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Nicolas5[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_ARMYDRONE,
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_NONE
     },
@@ -10082,7 +10082,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Nicolas5[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_ARMYDRONE,
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_NONE
     },
@@ -10346,7 +10346,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Robert1[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_ARMYDRONE,
     },
 	{
     .iv = 0,
@@ -10419,7 +10419,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Robert2[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_ARMYDRONE,
     }
 };
 
@@ -10438,7 +10438,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Robert3[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_ARMYDRONE,
     }
 };
 
@@ -10457,7 +10457,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Robert4[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_ARMYDRONE,
     }
 };
 
@@ -10468,7 +10468,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Robert5[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_ARMYDRONE,
     },
     {
     .iv = 40,
@@ -11080,7 +11080,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Angelica[] = {
     .evs = {6, 0, 0, 252, 0, 252}, 
     .abilityNum = 0,
     .happiness = 252,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     .postgamemoves = {MOVE_HYDRO_PUMP, MOVE_GIGA_DRAIN, MOVE_ICE_BEAM, MOVE_FAKE_OUT},
     .moves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
@@ -11787,7 +11787,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Carol[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     }
 };
 
@@ -11806,7 +11806,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Nancy[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     }
 };
 
@@ -11929,7 +11929,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Diana2[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_ARMYDRONE,
     }
 };
 
@@ -11983,7 +11983,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Diana4[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_ARMYDRONE,
     }
 };
 
@@ -12010,7 +12010,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Diana5[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_ARMYDRONE,
     }
 };
 
@@ -12100,7 +12100,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GinaAndMia1[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
 	{
     .iv = 0,
@@ -12780,7 +12780,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Edwin1[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 0,
@@ -12845,7 +12845,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Edwin2[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 0,
@@ -12864,7 +12864,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Edwin3[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 0,
@@ -12883,7 +12883,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Edwin4[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 0,
@@ -12902,7 +12902,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Edwin5[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 0,
@@ -13108,7 +13108,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute110Berryalen
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 100,
@@ -13135,7 +13135,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute119Berryalen
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 150,
@@ -13167,7 +13167,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute110Cooklet[]
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 50,
@@ -13194,7 +13194,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRoute119Cooklet[]
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 100,
@@ -13269,7 +13269,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute119Baitord[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 150,
@@ -13309,7 +13309,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute110Berryalen[] =
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 100,
@@ -13336,7 +13336,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute119Berryalen[] =
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 150,
@@ -13368,7 +13368,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute110Cooklet[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 50,
@@ -13395,7 +13395,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRoute119Cooklet[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 100,
@@ -14039,7 +14039,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lorenzo[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 50,
@@ -14156,7 +14156,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jenna[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 50,
@@ -14164,7 +14164,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jenna[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 50,
@@ -14183,7 +14183,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Sophia[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_ARMYDRONE,
     },
     {
     .iv = 50,
@@ -14817,7 +14817,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanRustboroBerryalen
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 50,
@@ -15185,7 +15185,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Haley3[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 20,
@@ -15204,7 +15204,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Haley4[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 30,
@@ -15231,7 +15231,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Haley5[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 40,
@@ -16215,7 +16215,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Ashley[] = {
     .evs = {0, 0, 0, 252, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_ARMYDRONE,
     }
 };
 
@@ -16684,7 +16684,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanLilycoveBerryalen
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 200,
@@ -16711,7 +16711,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_BrendanLilycoveCooklet[]
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 150,
@@ -16789,7 +16789,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLilycoveBerryalen[] =
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 200,
@@ -16816,7 +16816,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayLilycoveCooklet[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 150,
@@ -17068,7 +17068,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_KimAndIris[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SWABLU,
+    .species = SPECIES_ARMYDRONE,
     .postgamemoves = {MOVE_DRAGON_PULSE, MOVE_MOONBLAST, MOVE_NONE, MOVE_NONE},
     .moves = {MOVE_AERIAL_ACE, MOVE_FURY_ATTACK, MOVE_NONE, MOVE_NONE}
     },
@@ -17443,7 +17443,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Sarah[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_NONE
     },
@@ -17666,7 +17666,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Sophie[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     }
 };
 
@@ -17734,7 +17734,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Angelina[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 0,
@@ -18259,7 +18259,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Celia[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     }
 };
 
@@ -18468,7 +18468,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Johnson[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     }
 };
 
@@ -18760,7 +18760,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRustboroBerryalen[] =
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 50,
@@ -20369,9 +20369,9 @@ static const struct TrainerMonItemCustomMoves sParty_Winona2[] = {
 	.evs = {6, 0, 0, 252, 0, 252}, 
     .abilityNum = 3,
     .happiness = 255,
-    .species = SPECIES_SWABLU,
-    .postgameheldItem = ITEM_ALTARIANITE,
-    .heldItem = ITEM_ALTARIANITE,
+    .species = SPECIES_ARMYDRONE,
+    .postgameheldItem = ITEM_UNSCNITE,
+    .heldItem = ITEM_UNSCNITE,
     .postgamemoves = {MOVE_HYPER_VOICE, MOVE_DRAGON_PULSE, MOVE_ICE_BEAM, MOVE_FLAMETHROWER},
     .moves = {MOVE_AERIAL_ACE, MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE}
     }
@@ -20441,9 +20441,9 @@ static const struct TrainerMonItemCustomMoves sParty_Winona3[] = {
 	.evs = {6, 0, 0, 252, 0, 252}, 
     .abilityNum = 2,
     .happiness = 255,
-    .species = SPECIES_SWABLU,
-    .postgameheldItem = ITEM_ALTARIANITE,
-    .heldItem = ITEM_ALTARIANITE,
+    .species = SPECIES_ARMYDRONE,
+    .postgameheldItem = ITEM_UNSCNITE,
+    .heldItem = ITEM_UNSCNITE,
     .postgamemoves = {MOVE_HYPER_VOICE, MOVE_DRAGON_PULSE, MOVE_ICE_BEAM, MOVE_FLAMETHROWER},
     .moves = {MOVE_HYPER_VOICE, MOVE_DRAGON_PULSE, MOVE_FLAMETHROWER, MOVE_NONE}
     }
@@ -20512,9 +20512,9 @@ static const struct TrainerMonItemCustomMoves sParty_Winona4[] = {
 	.evs = {6, 0, 0, 252, 0, 252}, 
     .abilityNum = 2,
     .happiness = 255,
-    .species = SPECIES_SWABLU,
-    .postgameheldItem = ITEM_ALTARIANITE,
-    .heldItem = ITEM_ALTARIANITE,
+    .species = SPECIES_ARMYDRONE,
+    .postgameheldItem = ITEM_UNSCNITE,
+    .heldItem = ITEM_UNSCNITE,
     .postgamemoves = {MOVE_HYPER_VOICE, MOVE_DRAGON_PULSE, MOVE_ICE_BEAM, MOVE_FLAMETHROWER},
     .moves = {MOVE_HYPER_VOICE, MOVE_DRAGON_PULSE, MOVE_ICE_BEAM, MOVE_FLAMETHROWER},
     }
@@ -20585,9 +20585,9 @@ static const struct TrainerMonItemCustomMoves sParty_Winona5[] = {
 	.evs = {6, 0, 0, 252, 0, 252}, 
     .abilityNum = 3,
     .happiness = 255,
-    .species = SPECIES_SWABLU,
-    .postgameheldItem = ITEM_ALTARIANITE,
-    .heldItem = ITEM_ALTARIANITE,
+    .species = SPECIES_ARMYDRONE,
+    .postgameheldItem = ITEM_UNSCNITE,
+    .heldItem = ITEM_UNSCNITE,
     .postgamemoves = {MOVE_HYPER_VOICE, MOVE_DRAGON_PULSE, MOVE_ICE_BEAM, MOVE_FLAMETHROWER},
     .moves = {MOVE_HYPER_VOICE, MOVE_DRAGON_PULSE, MOVE_ICE_BEAM, MOVE_FLAMETHROWER},
     }
@@ -22142,7 +22142,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Gabrielle2[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 10,
@@ -22193,7 +22193,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Gabrielle3[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 20,
@@ -22244,7 +22244,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Gabrielle4[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 30,
@@ -22295,7 +22295,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Gabrielle5[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_LOTAD,
+    .species = SPECIES_SCUBITE,
     },
     {
     .iv = 40,
@@ -22742,7 +22742,7 @@ static const struct TrainerMonItemCustomMoves sParty_Leader_Grass[] = {
     .evs = {0, 0, 0, 252, 6, 252}, 
     .abilityNum = 0,
     .happiness = 255,
-    .species = SPECIES_LOMBRE,
+    .species = SPECIES_QUACKSHOT,
     .postgameheldItem = ITEM_WATER_GEM,
     .heldItem = ITEM_NORMAL_GEM,
     .postgamemoves = {MOVE_ENERGY_BALL, MOVE_HYDRO_PUMP, MOVE_ICE_BEAM, MOVE_TEETER_DANCE},

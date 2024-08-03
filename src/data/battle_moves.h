@@ -12174,7 +12174,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_LUDICOLO] =
+    [SPECIES_QUACKNATOR] =
     {
         .move = MOVE_TEETER_DANCE,
         .modification = SIGNATURE_MOD_MODIFY_FIELD,

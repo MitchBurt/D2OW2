@@ -653,7 +653,7 @@ $(PSSGFXDIR)/legendary.4bpp: $(PSSGFXDIR)/friends_frame2.4bpp $(PSSGFXDIR)/legen
 $(PSSGFXDIR)/hugeman.4bpp: $(PSSGFXDIR)/friends_frame2.4bpp $(PSSGFXDIR)/hugeman_bg.4bpp
 	@cat $^ >$@
 
-$(PSSGFXDIR)/ludicolo.4bpp: $(PSSGFXDIR)/friends_frame2.4bpp $(PSSGFXDIR)/ludicolo_bg.4bpp
+$(PSSGFXDIR)/quacknator.4bpp: $(PSSGFXDIR)/friends_frame2.4bpp $(PSSGFXDIR)/quacknator_bg.4bpp
 	@cat $^ >$@
 
 $(PSSGFXDIR)/whiscash.4bpp: $(PSSGFXDIR)/friends_frame2.4bpp $(PSSGFXDIR)/whiscash_bg.4bpp

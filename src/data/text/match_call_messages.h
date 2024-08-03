@@ -18,12 +18,12 @@ const u8 gText_MatchCallRuinManiac_Dusty_Intro2[] = _("de ruinas ancestrales.");
 const u8 gText_MatchCallTuber_Lola_Strategy[] = _("¡Dar lo mejor de mi misma!");
 const u8 gText_MatchCallTuber_Lola_Pokemon[] = _("Los que nadan bien.");
 const u8 gText_MatchCallTuber_Lola_Intro1[] = _("¡Ojalá pudiese nadar sin");
-const u8 gText_MatchCallTuber_Lola_Intro2[] = _("tener que usar flotador!");
+const u8 gText_MatchCallTuber_Lola_Intro2[] = _("tener que usar fscubiteor!");
 
 const u8 gText_MatchCallTuber_Ricky_Strategy[] = _("No sé, me esfuerzo mucho.");
 const u8 gText_MatchCallTuber_Ricky_Pokemon[] = _("Prefiero los de tipo Agua.");
 const u8 gText_MatchCallTuber_Ricky_Intro1[] = _("No es que no sepa nadar,");
-const u8 gText_MatchCallTuber_Ricky_Intro2[] = _("¡me gusta mi flotador!");
+const u8 gText_MatchCallTuber_Ricky_Intro2[] = _("¡me gusta mi fscubiteor!");
 
 const u8 gText_MatchCallSisAndBro_LilaAndRoy_Strategy[] = _("Nos repartimos las tareas.");
 const u8 gText_MatchCallSisAndBro_LilaAndRoy_Pokemon[] = _("Preferimos los cariñosos.");

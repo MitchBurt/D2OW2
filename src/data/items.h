@@ -10023,17 +10023,17 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_ALTARIANITE] =
+    [ITEM_UNSCNITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Altarianita"),
+        .name = _("UNSCnita"),
 #else
-        .name = _("Altarianite"),
+        .name = _("UNSCnite"),
 #endif
-        .itemId = ITEM_ALTARIANITE,
+        .itemId = ITEM_UNSCNITE,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sAltarianiteDesc,
+        .description = sUNSCniteDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,

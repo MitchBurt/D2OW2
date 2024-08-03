@@ -1846,7 +1846,7 @@
               {
                 "min_level": 16,
                 "max_level": 16,
-                "species": "SPECIES_SWABLU"
+                "species": "SPECIES_ARMYDRONE"
               },
               {
                 "min_level": 16,
@@ -4138,7 +4138,7 @@
               {
                 "min_level": 23,
                 "max_level": 23,
-                "species": "SPECIES_SWABLU"
+                "species": "SPECIES_ARMYDRONE"
               },
               {
                 "min_level": 23,
@@ -10842,17 +10842,17 @@
               {
                 "min_level": 38,
                 "max_level": 38,
-                "species": "SPECIES_SWABLU"
+                "species": "SPECIES_ARMYDRONE"
               },
               {
                 "min_level": 39,
                 "max_level": 39,
-                "species": "SPECIES_SWABLU"
+                "species": "SPECIES_ARMYDRONE"
               },
               {
                 "min_level": 39,
                 "max_level": 39,
-                "species": "SPECIES_SWABLU"
+                "species": "SPECIES_ARMYDRONE"
               }
             ]
           }
@@ -13296,7 +13296,7 @@
               {
                 "min_level": 37,
                 "max_level": 37,
-                "species": "SPECIES_SWABLU"
+                "species": "SPECIES_ARMYDRONE"
               },
               {
                 "min_level": 35,

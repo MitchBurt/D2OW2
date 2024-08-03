@@ -1355,17 +1355,17 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x86,
         .y_offset = 12,
     },
-    [SPECIES_LOTAD] =
+    [SPECIES_SCUBITE] =
     {
         .size = 0x65,
         .y_offset = 13,
     },
-    [SPECIES_LOMBRE] =
+    [SPECIES_QUACKSHOT] =
     {
         .size = 0x66,
         .y_offset = 8,
     },
-    [SPECIES_LUDICOLO] =
+    [SPECIES_QUACKNATOR] =
     {
         .size = 0x88,
         .y_offset = 0,
@@ -1670,12 +1670,12 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x68,
         .y_offset = 0,
     },
-    [SPECIES_SWABLU] =
+    [SPECIES_ARMYDRONE] =
     {
         .size = 0x76,
         .y_offset = 14,
     },
-    [SPECIES_ALTARIA] =
+    [SPECIES_UNSC] =
     {
         .size = 0x88,
         .y_offset = 1,
@@ -1685,7 +1685,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x55,
         .y_offset = 12,
     },
-    [SPECIES_DUSKULL] =
+    [SPECIES_RATMAN] =
     {
         .size = 0x66,
         .y_offset = 12,
@@ -4662,7 +4662,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0,
         .y_offset = 6,
     },
-    [SPECIES_ALTARIA_MEGA] =
+    [SPECIES_UNSC_MEGA] =
     {
         .size = 0,
         .y_offset = 0,

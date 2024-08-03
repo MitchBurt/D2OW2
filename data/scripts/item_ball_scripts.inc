@@ -686,8 +686,8 @@ MegaStone_EventScript_ItemCameruptite::
 	addscaleditem ITEM_CAMERUPTITE
 	end
 	
-MegaStone_EventScript_ItemAltarianite::
-	addscaleditem ITEM_ALTARIANITE
+MegaStone_EventScript_ItemUNSCnite::
+	addscaleditem ITEM_UNSCNITE
 	end
 	
 MegaStone_EventScript_ItemGlailite::

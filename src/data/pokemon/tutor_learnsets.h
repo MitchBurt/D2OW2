@@ -6467,7 +6467,7 @@ static const u8 sDuckertronTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sLotadTutorLearnset[] =
+static const u8 sScubiteTutorLearnset[] =
 {
     TUTOR(MOVE_SWORDS_DANCE),
     TUTOR(MOVE_BODY_SLAM),
@@ -6487,7 +6487,7 @@ static const u8 sLotadTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sLombreTutorLearnset[] =
+static const u8 sQuackshotTutorLearnset[] =
 {
     TUTOR(MOVE_SWORDS_DANCE),
     TUTOR(MOVE_MEGA_KICK),
@@ -6517,7 +6517,7 @@ static const u8 sLombreTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sLudicoloTutorLearnset[] =
+static const u8 sQuacknatorTutorLearnset[] =
 {
     TUTOR(MOVE_SWORDS_DANCE),
     TUTOR(MOVE_MEGA_KICK),
@@ -8087,7 +8087,7 @@ static const u8 sAconeggsTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sSwabluTutorLearnset[] =
+static const u8 sArmydroneTutorLearnset[] =
 {
     TUTOR(MOVE_BODY_SLAM),
     TUTOR(MOVE_DOUBLE_EDGE),
@@ -8112,7 +8112,7 @@ static const u8 sSwabluTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sAltariaTutorLearnset[] =
+static const u8 sUNSCTutorLearnset[] =
 {
     TUTOR(MOVE_BODY_SLAM),
     TUTOR(MOVE_DOUBLE_EDGE),
@@ -8604,7 +8604,7 @@ static const u8 sBanetteTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sDuskullTutorLearnset[] =
+static const u8 sRatmanTutorLearnset[] =
 {
     TUTOR(MOVE_BODY_SLAM),
     TUTOR(MOVE_DOUBLE_EDGE),
@@ -19991,9 +19991,9 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_NYANTIGER] = sNyantigerTutorLearnset,
     [SPECIES_MECHDUCK] = sMechduckTutorLearnset,
     [SPECIES_DUCKERTRON] = sDuckertronTutorLearnset,
-    [SPECIES_LOTAD] = sLotadTutorLearnset,
-    [SPECIES_LOMBRE] = sLombreTutorLearnset,
-    [SPECIES_LUDICOLO] = sLudicoloTutorLearnset,
+    [SPECIES_SCUBITE] = sScubiteTutorLearnset,
+    [SPECIES_QUACKSHOT] = sQuackshotTutorLearnset,
+    [SPECIES_QUACKNATOR] = sQuacknatorTutorLearnset,
     [SPECIES_SOBBLEAF] = sSobbleafTutorLearnset,
     [SPECIES_HEROKKU] = sHerokkuTutorLearnset,
     [SPECIES_SHADEKU] = sShadekuTutorLearnset,
@@ -20054,8 +20054,8 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_FLYGON] = sFlygonTutorLearnset,
     [SPECIES_YOLKANNER] = sYolkannerTutorLearnset,
     [SPECIES_ACONEGGS] = sAconeggsTutorLearnset,
-    [SPECIES_SWABLU] = sSwabluTutorLearnset,
-    [SPECIES_ALTARIA] = sAltariaTutorLearnset,
+    [SPECIES_ARMYDRONE] = sArmydroneTutorLearnset,
+    [SPECIES_UNSC] = sUNSCTutorLearnset,
     [SPECIES_ZANGOOSE] = sZangooseTutorLearnset,
     [SPECIES_SEVIPER] = sSeviperTutorLearnset,
     [SPECIES_LUNATONE] = sLunatoneTutorLearnset,
@@ -20076,7 +20076,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_KECLEON] = sKecleonTutorLearnset,
     [SPECIES_SHUPPET] = sShuppetTutorLearnset,
     [SPECIES_BANETTE] = sBanetteTutorLearnset,
-    [SPECIES_DUSKULL] = sDuskullTutorLearnset,
+    [SPECIES_RATMAN] = sRatmanTutorLearnset,
     [SPECIES_HUGEMAN] = sHugemanTutorLearnset,
     [SPECIES_TROPIUS] = sTropiusTutorLearnset,
     [SPECIES_CHIMECHO] = sChimechoTutorLearnset,

@@ -1111,7 +1111,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_AUDREY] = {
-        .species = SPECIES_SWABLU,
+        .species = SPECIES_ARMYDRONE,
         .nickname = _("Swaby"),
         .trainerName = _("Audrey"),
         .trainerGfxId = OBJ_EVENT_GFX_LASS,
@@ -1279,7 +1279,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_KATRINA] = {
-        .species = SPECIES_LOTAD,
+        .species = SPECIES_SCUBITE,
         .nickname = _("Tado"),
         .trainerName = _("Katrina"),
         .trainerGfxId = OBJ_EVENT_GFX_WOMAN_1,
@@ -1811,7 +1811,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_KARLA] = {
-        .species = SPECIES_LOMBRE,
+        .species = SPECIES_QUACKSHOT,
         .nickname = _("Lombe"),
         .trainerName = _("Karla"),
         .trainerGfxId = OBJ_EVENT_GFX_GIRL_2,
@@ -2343,7 +2343,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_MAYRA] = {
-        .species = SPECIES_ALTARIA,
+        .species = SPECIES_UNSC,
         .nickname = _("Taria"),
         .trainerName = _("Mayra"),
         .trainerGfxId = OBJ_EVENT_GFX_POKEFAN_F,

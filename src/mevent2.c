@@ -34,7 +34,7 @@ enum {
 	CARD_SHINY_BELDUM,
 	CARD_DIANCIE,
 	CARD_SHINY_EEMOJEE,
-	CARD_BEE_ALTARIA,
+	CARD_BEE_UNSC,
 	CARD_CHRISTMASS_ABSTRATIC,
 	CARD_COSPLAY_SKIPPA_LIBRE,
 	CARD_SHINY_AXEW,
@@ -245,18 +245,18 @@ struct WonderCard gSavedWonderCard[] =
 		.footerLine1Text 		= _("Please continue playing"),
 		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
 	},
-	[CARD_BEE_ALTARIA] =
+	[CARD_BEE_UNSC] =
     {
-		.flagId 				= FLAG_MYSTERY_GIFT_BEES_ALTARIA,
-		.iconSpecies 			= SPECIES_ALTARIA,
-		.idNumber 				= CARD_BEE_ALTARIA,
+		.flagId 				= FLAG_MYSTERY_GIFT_BEES_UNSC,
+		.iconSpecies 			= SPECIES_UNSC,
+		.idNumber 				= CARD_BEE_UNSC,
 		.type 					= 0,
 		.bgType 				= CARD_BG_YELLOW,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
 		.titleText 				= _("Pokémon D.R.L.O."),
-		.subtitleText 			= _("It's Bee's Altaria!"),
-		.bodyText 				= _("This Altaria is not only Shiny, it's    "
+		.subtitleText 			= _("It's Bee's UNSC!"),
+		.bodyText 				= _("This UNSC is not only Shiny, it's    "
 									"also holding a Mega Stone, so it will   "
 									"bee able to Mega Evolve in battle!"),
 		.footerLine1Text 		= _("To give our most sincere"),
@@ -574,7 +574,7 @@ static const u16 sMysteryGiftFlags[] =
     FLAG_MYSTERY_GIFT_SHINY_BELDUM,
     FLAG_MYSTERY_GIFT_DIANCIE,
     FLAG_MYSTERY_GIFT_SHINY_EEMOJEE,
-    FLAG_MYSTERY_GIFT_BEES_ALTARIA,
+    FLAG_MYSTERY_GIFT_BEES_UNSC,
     FLAG_MYSTERY_GIFT_CHRISTMAS_ABSTRATIC,
     FLAG_MYSTERY_GIFT_COSPLAY_SKIPPA_LIBRE,
     FLAG_MYSTERY_GIFT_SHINY_AXEW,

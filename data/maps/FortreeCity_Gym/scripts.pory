@@ -115,11 +115,11 @@ FortreeCity_Gym_EventScript_Start_Rematch_4::
 	
 FortreeCity_Gym_EventScript_Start_Rematch_5::
 	goto_if_unset FLAG_RECEIVED_TM04 FortreeCity_Gym_EventScript_Start_Rematch_Party_4
-	goto_if_set FLAG_GOT_ALTARIANITE FortreeCity_Gym_EventScript_Start_Rematch_6
+	goto_if_set FLAG_GOT_UNSCNITE FortreeCity_Gym_EventScript_Start_Rematch_6
 	trainerbattle_no_intro TRAINER_WINONA_4, FortreeCity_Gym_Text_WinonaRematchDefeat
 	msgbox FortreeCity_Gym_Text_GetMegaStone, MSGBOX_DEFAULT
-	giveitem ITEM_ALTARIANITE
-	setflag FLAG_GOT_ALTARIANITE
+	giveitem ITEM_UNSCNITE
+	setflag FLAG_GOT_UNSCNITE
 	goto FortreeCity_Gym_EventScript_WinonaRematchEnd
 	end
 	
@@ -772,11 +772,11 @@ script FortreeCity_Gym_EventScript_Winona_Give_Gifts{
 	}
 
 	//Give Megastone
-	if(var(VAR_NUM_BADGES) >= 7 && !flag(FLAG_GOT_ALTARIANITE)){
-		msgbox(format("Winona: Take this as an special gift from me, it's a Altaria."), MSGBOX_NPC)
-		giveitem(ITEM_ALTARIANITE)
-		msgbox(format("Make a Altaria hold it to unleash its real potential."), MSGBOX_NPC)
-		setflag(FLAG_GOT_ALTARIANITE)
+	if(var(VAR_NUM_BADGES) >= 7 && !flag(FLAG_GOT_UNSCNITE)){
+		msgbox(format("Winona: Take this as an special gift from me, it's a UNSC."), MSGBOX_NPC)
+		giveitem(ITEM_UNSCNITE)
+		msgbox(format("Make a UNSC hold it to unleash its real potential."), MSGBOX_NPC)
+		setflag(FLAG_GOT_UNSCNITE)
 		setflag(FLAG_TEMP_9) //To check if you have been given multiple items
 	}
 	elif(!flag(FLAG_TEMP_9)){

@@ -636,7 +636,7 @@ static const u8 sBeadMailDesc[] = _(
     "lleva.");
 
 static const u8 sShadowMailDesc[] = _(
-    "Sale Duskull.\n"
+    "Sale Ratman.\n"
     "Debe llevarla\n"
     "un Pokémon.");
 
@@ -2652,10 +2652,10 @@ static const u8 sSableniteDesc[] = _(
     "megaevolucionar a\n"
     "Sableye.");
 
-static const u8 sAltarianiteDesc[] = _(
+static const u8 sUNSCniteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Altaria.");
+    "UNSC.");
 
 static const u8 sGalladiteDesc[] = _(
     "Piedra que permite\n"
@@ -3507,7 +3507,7 @@ static const u8 sBeadMailDesc[] = _(
     "holding Pokémon.");
 
 static const u8 sShadowMailDesc[] = _(
-    "A Duskull-print\n"
+    "A Ratman-print\n"
     "Mail to be held by\n"
     "a Pokémon.");
 
@@ -5885,9 +5885,9 @@ static const u8 sSableniteDesc[] = _(
     "Sableye to Mega\n"
     "Evolve in battle.");
 
-static const u8 sAltarianiteDesc[] = _(
+static const u8 sUNSCniteDesc[] = _(
     "This stone enables\n"
-    "Altaria to Mega\n"
+    "UNSC to Mega\n"
     "Evolve in battle.");
 
 static const u8 sGalladiteDesc[] = _(

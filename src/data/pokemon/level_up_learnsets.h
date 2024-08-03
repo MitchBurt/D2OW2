@@ -5602,7 +5602,7 @@ static const struct LevelUpMove sDuckertronLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sLotadLevelUpLearnset[] = {
+static const struct LevelUpMove sScubiteLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_ASTONISH),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 3, MOVE_GROWL),
@@ -5622,7 +5622,7 @@ static const struct LevelUpMove sLotadLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sLombreLevelUpLearnset[] = {
+static const struct LevelUpMove sQuackshotLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_TEETER_DANCE),
     LEVEL_UP_MOVE( 1, MOVE_FAKE_OUT),
     LEVEL_UP_MOVE( 1, MOVE_KNOCK_OFF),
@@ -5652,7 +5652,7 @@ static const struct LevelUpMove sLombreLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sLudicoloLevelUpLearnset[] = {
+static const struct LevelUpMove sQuacknatorLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 0, MOVE_RAIN_DANCE),
 	LEVEL_UP_MOVE( 1, MOVE_GRASS_WHISTLE),
 	LEVEL_UP_MOVE( 1, MOVE_TEETER_DANCE),
@@ -7183,7 +7183,7 @@ static const struct LevelUpMove sAconeggsLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sSwabluLevelUpLearnset[] = {
+static const struct LevelUpMove sArmydroneLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_PECK),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 4, MOVE_ASTONISH),
@@ -7205,7 +7205,7 @@ static const struct LevelUpMove sSwabluLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sAltariaLevelUpLearnset[] = {
+static const struct LevelUpMove sUNSCLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_DRAGON_PULSE),
     LEVEL_UP_MOVE( 0, MOVE_DRAGON_BREATH),
     LEVEL_UP_MOVE( 1, MOVE_DRAGON_PULSE),
@@ -7742,7 +7742,7 @@ static const struct LevelUpMove sBanetteLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sDuskullLevelUpLearnset[] = {
+static const struct LevelUpMove sRatmanLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_ASTONISH),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_NIGHT_SHADE),

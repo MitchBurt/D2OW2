@@ -439,7 +439,7 @@ void NewGameInitData(void)
     ClearAllContestWinnerPics();
     ClearPlayerLinkBattleRecords();
     InitSobbleafSizeRecord();
-    InitLotadSizeRecord();
+    InitScubiteSizeRecord();
     ClearBag();
     if(!newgameplus){
         gPlayerPartyCount = 0;

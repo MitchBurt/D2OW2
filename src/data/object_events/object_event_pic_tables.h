@@ -2195,8 +2195,8 @@ const struct SpriteFrameImage gObjectEventPicTable_BaitordDoll[] = {
     obj_frame_tiles(gObjectEventPic_BaitordDoll),
 };
 
-const struct SpriteFrameImage gObjectEventPicTable_DuskullDoll[] = {
-    obj_frame_tiles(gObjectEventPic_DuskullDoll),
+const struct SpriteFrameImage gObjectEventPicTable_RatmanDoll[] = {
+    obj_frame_tiles(gObjectEventPic_RatmanDoll),
 };
 
 const struct SpriteFrameImage gObjectEventPicTable_WynautDoll[] = {
@@ -2219,16 +2219,16 @@ const struct SpriteFrameImage gObjectEventPicTable_SkittyDoll[] = {
     obj_frame_tiles(gObjectEventPic_SkittyDoll),
 };
 
-const struct SpriteFrameImage gObjectEventPicTable_SwabluDoll[] = {
-    obj_frame_tiles(gObjectEventPic_SwabluDoll),
+const struct SpriteFrameImage gObjectEventPicTable_ArmydroneDoll[] = {
+    obj_frame_tiles(gObjectEventPic_ArmydroneDoll),
 };
 
 const struct SpriteFrameImage gObjectEventPicTable_SymbiteDoll[] = {
     obj_frame_tiles(gObjectEventPic_SymbiteDoll),
 };
 
-const struct SpriteFrameImage gObjectEventPicTable_LotadDoll[] = {
-    obj_frame_tiles(gObjectEventPic_LotadDoll),
+const struct SpriteFrameImage gObjectEventPicTable_ScubiteDoll[] = {
+    obj_frame_tiles(gObjectEventPic_ScubiteDoll),
 };
 
 const struct SpriteFrameImage gObjectEventPicTable_SobbleafDoll[] = {

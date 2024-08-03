@@ -604,7 +604,7 @@ void PlayGenericCry(u16 species, bool32 v0){
         case SPECIES_HOOPA_UNBOUND:
             gMPlay_PokemonCry = SetPokemonCryTone(v0 ? &gCryTable2[CRY_HOOPA] : &gCryTable[CRY_HOOPA]);
         break;
-        case SPECIES_SWABLU:
+        case SPECIES_ARMYDRONE:
             gMPlay_PokemonCry = SetPokemonCryTone(v0 ? &gCryTable2[CRY_EGG_GROUP_FLYING] : &gCryTable[CRY_EGG_GROUP_FLYING]);
         break;
         case SPECIES_PICHU_SPIKY_EARED:

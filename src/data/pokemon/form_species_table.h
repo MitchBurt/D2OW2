@@ -346,9 +346,9 @@ static const u16 sCameruptFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sAltariaFormSpeciesIdTable[] = {
-    SPECIES_ALTARIA,
-    SPECIES_ALTARIA_MEGA,
+static const u16 sUNSCFormSpeciesIdTable[] = {
+    SPECIES_UNSC,
+    SPECIES_UNSC_MEGA,
     0xFFFF,
 };
 

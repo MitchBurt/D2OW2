@@ -1615,19 +1615,19 @@ const u8 gDuckertronPokedexText[] = _(
     "montañas atraído por las luces. Al batir\n"
     "las alas, libera un polvillo muy tóxico.");
 
-const u8 gLotadPokedexText[] = _(
+const u8 gScubitePokedexText[] = _(
     "Vive en charcas de agua clara. Se le\n"
     "conoce por ayudar a Pokémon pequeños\n"
     "a cruzar las charcas transportándolos\n"
     "sobre la hoja que tiene en la cabeza.");
 
-const u8 gLombrePokedexText[] = _(
+const u8 gQuackshotPokedexText[] = _(
     "De noche, le encanta surgir de repente\n"
     "del río para asustar a la gente.\n"
     "Se alimenta del musgo que crece en\n"
     "las rocas de las cuentas de los ríos.");
 
-const u8 gLudicoloPokedexText[] = _(
+const u8 gQuacknatorPokedexText[] = _(
     "Cuando oye música festiva, las células\n"
     "se le revolucionan y comienza a bailar\n"
     "con mucho ritmo. No se acobarda\n"
@@ -1992,13 +1992,13 @@ const u8 gLonkestPokedexText[] = _(
     "acciones del enemigo. Lucha realizando\n"
     "movimientos elegantes y rítmicos.");
 
-const u8 gSwabluPokedexText[] = _(
+const u8 gArmydronePokedexText[] = _(
     "Tiene unas alas como nubes de algodón.\n"
     "Transcurrido el invierno, en el que la\n"
-    "comida escasea, bandadas de Swablu\n"
+    "comida escasea, bandadas de Armydrone\n"
     "migran a los pueblos en primavera.");
 
-const u8 gAltariaPokedexText[] = _(
+const u8 gUNSCPokedexText[] = _(
     "Canturrea con una bella voz de soprano.\n"
     "Vuela entre las nubes blancas del cielo\n"
     "azul. Lanza ardientes bolas de fuego\n"
@@ -2016,7 +2016,7 @@ const u8 gWynautPokedexText[] = _(
     "de oreja que tiene. Se reúne con otros en\n"
     "huertos frutales, atraído por el aroma.");
 
-const u8 gDuskullPokedexText[] = _(
+const u8 gRatmanPokedexText[] = _(
     "Una única mirada lanzada por su ojo\n"
     "escarlata basta para dejar petrificado\n"
     "de miedo al rival más fuerte. Deambula\n"
@@ -6973,19 +6973,19 @@ const u8 gDuckertronPokedexText[] = _(
     "streetlights at night. It looses highly\n"
     "toxic powder from its wings.");
 
-const u8 gLotadPokedexText[] = _(
+const u8 gScubitePokedexText[] = _(
     "This Pokémon lives in ponds with clean\n"
     "water. It is known to ferry small Pokémon\n"
     "across ponds by carrying them on the\n"
     "broad leaf on its head.");
 
-const u8 gLombrePokedexText[] = _(
+const u8 gQuackshotPokedexText[] = _(
     "In the evening, it takes great delight in\n"
     "popping out of rivers and startling people.\n"
     "It feeds on aquatic moss that grows on\n"
     "rocks in the riverbed.");
 
-const u8 gLudicoloPokedexText[] = _(
+const u8 gQuacknatorPokedexText[] = _(
     "When it hears festive music, all the cells\n"
     "in its body become stimulated, and it\n"
     "begins moving in rhythm. It does not\n"
@@ -7351,13 +7351,13 @@ const u8 gLonkestPokedexText[] = _(
     "actions. It battles with elegant, dance-\n"
     "like movement.");
 
-const u8 gSwabluPokedexText[] = _(
+const u8 gArmydronePokedexText[] = _(
     "A Pokémon that has wings like cottony\n"
     "clouds. After enduring winter, in which\n"
-    "little food is available, Swablu flocks\n"
+    "little food is available, Armydrone flocks\n"
     "move closer to towns in the spring.");
 
-const u8 gAltariaPokedexText[] = _(
+const u8 gUNSCPokedexText[] = _(
     "It hums in a beautiful soprano voice.\n"
     "It flies among white clouds in the blue\n"
     "sky. It launches intensely hot fireballs\n"
@@ -7369,7 +7369,7 @@ const u8 gWynautPokedexText[] = _(
     "arms. They gather in fruit gardens, drawn\n"
     "by the fragrance.");
 
-const u8 gDuskullPokedexText[] = _(
+const u8 gRatmanPokedexText[] = _(
     "A glare from its single scarlet eye makes\n"
     "even burly grown-ups freeze in utter fear.\n"
     "It is a nocturnal Pokémon that roams\n"

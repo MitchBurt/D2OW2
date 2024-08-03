@@ -2172,7 +2172,7 @@ static const struct TrHillFloor sDataTagVariety_Floors[] = {
                                         },
                                     [5] =
                                         {
-                                            .species = SPECIES_ALTARIA,
+                                            .species = SPECIES_UNSC,
                                             .heldItem = ITEM_BRIGHT_POWDER,
                                             .moves = {MOVE_DRAGON_DANCE, MOVE_AERIAL_ACE, MOVE_ATTRACT, MOVE_NONE},
                                             .level = 0,
@@ -2192,7 +2192,7 @@ static const struct TrHillFloor sDataTagVariety_Floors[] = {
                                             .spDefenseIV = 5,
                                             .abilityNum = 0,
                                             .personality = 0x0,
-                                            .nickname = _("Altaria"),
+                                            .nickname = _("UNSC"),
                                             .friendship = 255,
                                         },
                                 },
@@ -5143,7 +5143,7 @@ static const struct TrHillFloor sDataTagExpert_Floors[] = {
                                         },
                                     [2] =
                                         {
-                                            .species = SPECIES_ALTARIA,
+                                            .species = SPECIES_UNSC,
                                             .heldItem = ITEM_KINGS_ROCK,
                                             .moves = {MOVE_PERISH_SONG, MOVE_PROTECT, MOVE_DRAGON_CLAW, MOVE_FIRE_BLAST},
                                             .level = 0,
@@ -5160,7 +5160,7 @@ static const struct TrHillFloor sDataTagExpert_Floors[] = {
                                             .spDefenseIV = 31,
                                             .abilityNum = 0,
                                             .personality = 0x0,
-                                            .nickname = _("Altaria"),
+                                            .nickname = _("UNSC"),
                                             .friendship = 0,
                                         },
                                     [3] =

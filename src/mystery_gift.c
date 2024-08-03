@@ -64,7 +64,7 @@ enum {
 	CARD_SHINY_BELDUM,
 	CARD_DIANCIE,
 	CARD_SHINY_EEMOJEE,
-	CARD_BEE_ALTARIA,
+	CARD_BEE_UNSC,
     CARD_CHRISTMASS_ABSTRATIC,
 	CARD_COSPLAY_SKIPPA_LIBRE,
 	CARD_SHINY_AXEW,
@@ -1370,10 +1370,10 @@ struct MysteryGiftMonStructure gMysteryGiftMons[] =
 		.nickname 			= _("No Nickname"),
 		.isNicknamed		= FALSE,
 	},
-	[CARD_BEE_ALTARIA] =
+	[CARD_BEE_UNSC] =
     {
-		.species 			= SPECIES_ALTARIA,
-		.helditem 			= ITEM_ALTARIANITE,
+		.species 			= SPECIES_UNSC,
+		.helditem 			= ITEM_UNSCNITE,
 		.abilityNum 		= 2,
 		.level 				= 0,
 		.nature				= NATURE_MODEST,

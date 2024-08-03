@@ -3241,36 +3241,36 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_LOTAD] =
+    [NATIONAL_DEX_SCUBITE] =
     {
         .categoryName = _("Alga"),
         .height = 5,
         .weight = 26,
-        .description = gLotadPokedexText,
+        .description = gScubitePokedexText,
         .pokemonScale = 406,
         .pokemonOffset = 19,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_LOMBRE] =
+    [NATIONAL_DEX_QUACKSHOT] =
     {
         .categoryName = _("Alegre"),
         .height = 12,
         .weight = 325,
-        .description = gLombrePokedexText,
+        .description = gQuackshotPokedexText,
         .pokemonScale = 277,
         .pokemonOffset = 9,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_LUDICOLO] =
+    [NATIONAL_DEX_QUACKNATOR] =
     {
         .categoryName = _("Optimista"),
         .height = 15,
         .weight = 550,
-        .description = gLudicoloPokedexText,
+        .description = gQuacknatorPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 268,
@@ -3997,24 +3997,24 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SWABLU] =
+    [NATIONAL_DEX_ARMYDRONE] =
     {
         .categoryName = _("Ave Algodón"),
         .height = 4,
         .weight = 12,
-        .description = gSwabluPokedexText,
+        .description = gArmydronePokedexText,
         .pokemonScale = 422,
         .pokemonOffset = -8,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ALTARIA] =
+    [NATIONAL_DEX_UNSC] =
     {
         .categoryName = _("Cantor"),
         .height = 11,
         .weight = 206,
-        .description = gAltariaPokedexText,
+        .description = gUNSCPokedexText,
         .pokemonScale = 327,
         .pokemonOffset = 0,
         .trainerScale = 256,
@@ -4261,12 +4261,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_DUSKULL] =
+    [NATIONAL_DEX_RATMAN] =
     {
         .categoryName = _("Réquiem"),
         .height = 8,
         .weight = 150,
-        .description = gDuskullPokedexText,
+        .description = gRatmanPokedexText,
         .pokemonScale = 406,
         .pokemonOffset = -4,
         .trainerScale = 256,
@@ -14031,36 +14031,36 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_LOTAD] =
+    [NATIONAL_DEX_SCUBITE] =
     {
         .categoryName = _("Water Weed"),
         .height = 5,
         .weight = 26,
-        .description = gLotadPokedexText,
+        .description = gScubitePokedexText,
         .pokemonScale = 406,
         .pokemonOffset = 19,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_LOMBRE] =
+    [NATIONAL_DEX_QUACKSHOT] =
     {
         .categoryName = _("Jolly"),
         .height = 12,
         .weight = 325,
-        .description = gLombrePokedexText,
+        .description = gQuackshotPokedexText,
         .pokemonScale = 277,
         .pokemonOffset = 9,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_LUDICOLO] =
+    [NATIONAL_DEX_QUACKNATOR] =
     {
         .categoryName = _("Carefree"),
         .height = 15,
         .weight = 550,
-        .description = gLudicoloPokedexText,
+        .description = gQuacknatorPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 268,
@@ -14787,24 +14787,24 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SWABLU] =
+    [NATIONAL_DEX_ARMYDRONE] =
     {
         .categoryName = _("Cotton Bird"),
         .height = 4,
         .weight = 12,
-        .description = gSwabluPokedexText,
+        .description = gArmydronePokedexText,
         .pokemonScale = 422,
         .pokemonOffset = -8,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_ALTARIA] =
+    [NATIONAL_DEX_UNSC] =
     {
         .categoryName = _("Humming"),
         .height = 11,
         .weight = 206,
-        .description = gAltariaPokedexText,
+        .description = gUNSCPokedexText,
         .pokemonScale = 327,
         .pokemonOffset = 0,
         .trainerScale = 256,
@@ -15051,12 +15051,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_DUSKULL] =
+    [NATIONAL_DEX_RATMAN] =
     {
         .categoryName = _("Requiem"),
         .height = 8,
         .weight = 150,
-        .description = gDuskullPokedexText,
+        .description = gRatmanPokedexText,
         .pokemonScale = 406,
         .pokemonOffset = -4,
         .trainerScale = 256,

@@ -440,7 +440,7 @@ Cry_Egg_Group_Dragon::
 
 	.align 2
 Cry_Egg_Group_Flying:
-	.incbin "sound/direct_sound_samples/cries/cry_swablu.bin"
+	.incbin "sound/direct_sound_samples/cries/cry_armydrone.bin"
 
 	.align 2
 Cry_Egg_Group_Monster:

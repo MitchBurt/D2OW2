@@ -132,8 +132,8 @@ gSpecials:: @ 81DBA64
 	def_special ScrSpecial_TraderDoDecorationTrade
 	def_special GetSobbleafSizeRecordInfo
 	def_special CompareSobbleafSize
-	def_special GetLotadSizeRecordInfo
-	def_special CompareLotadSize
+	def_special GetScubiteSizeRecordInfo
+	def_special CompareScubiteSize
 	def_special TryPutNameRaterShowOnTheAir
 	def_special BufferMonNickname
 	def_special IsMonOTIDNotPlayers

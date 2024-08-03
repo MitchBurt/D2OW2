@@ -5,9 +5,9 @@ void InitSobbleafSizeRecord(void);
 void GetSobbleafSizeRecordInfo(void);
 void CompareSobbleafSize(void);
 
-void InitLotadSizeRecord(void);
-void GetLotadSizeRecordInfo(void);
-void CompareLotadSize(void);
+void InitScubiteSizeRecord(void);
+void GetScubiteSizeRecordInfo(void);
+void CompareScubiteSize(void);
 
 void GiveGiftRibbonToParty(u8 index, u8 ribbonId);
 

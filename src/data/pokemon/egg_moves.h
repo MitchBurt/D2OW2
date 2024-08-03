@@ -1967,7 +1967,7 @@ const u16 gEggMoves[] = {
 		MOVE_FLAME_CHARGE,
 		MOVE_SUBSTITUTE),
 
-	egg_moves(LOTAD,
+	egg_moves(SCUBITE,
 		MOVE_COUNTER,
 		MOVE_LEECH_SEED,
 		MOVE_RAZOR_LEAF,
@@ -2468,7 +2468,7 @@ const u16 gEggMoves[] = {
 		MOVE_FELL_STINGER,
 		MOVE_POWER_UP_PUNCH),
 
-	egg_moves(SWABLU,
+	egg_moves(ARMYDRONE,
 		MOVE_HAZE,
 		MOVE_FEATHER_DANCE,
 		MOVE_ASTONISH,
@@ -2636,7 +2636,7 @@ const u16 gEggMoves[] = {
 		MOVE_PHANTOM_FORCE,
 		MOVE_PAYBACK),
 
-	egg_moves(DUSKULL,
+	egg_moves(RATMAN,
 		MOVE_HAZE,
 		MOVE_PAIN_SPLIT,
 		MOVE_MEMENTO,
