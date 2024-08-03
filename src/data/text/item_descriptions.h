@@ -606,7 +606,7 @@ static const u8 sOrangeMailDesc[] = _(
     "un Pokémon.");
 
 static const u8 sHarborMailDesc[] = _(
-    "Sale Wingull.\n"
+    "Sale Batcardi.\n"
     "Debe llevarla\n"
     "un Pokémon.");
 
@@ -2615,7 +2615,7 @@ static const u8 sHeracroniteDesc[] = _(
 static const u8 sMawiliteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Mawile.");
+    "Minitron.");
 
 static const u8 sManectiteDesc[] = _(
     "Piedra que permite\n"
@@ -3477,7 +3477,7 @@ static const u8 sOrangeMailDesc[] = _(
     "a Pokémon.");
 
 static const u8 sHarborMailDesc[] = _(
-    "A Wingull-print\n"
+    "A Batcardi-print\n"
     "Mail to be held by\n"
     "a Pokémon.");
 
@@ -5847,7 +5847,7 @@ static const u8 sHeracroniteDesc[] = _(
 
 static const u8 sMawiliteDesc[] = _(
     "This stone enables\n"
-    "Mawile to Mega\n"
+    "Minitron to Mega\n"
     "Evolve in battle.");
 
 static const u8 sManectiteDesc[] = _(

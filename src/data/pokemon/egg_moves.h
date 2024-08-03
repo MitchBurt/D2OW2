@@ -2012,7 +2012,7 @@ const u16 gEggMoves[] = {
 		MOVE_BOOMBURST,
 		MOVE_OMINOUS_WIND),
 
-	egg_moves(WINGULL,
+	egg_moves(BATCARDI,
 		MOVE_GUST,
 		MOVE_TWISTER,
 		MOVE_KNOCK_OFF,
@@ -2189,7 +2189,7 @@ const u16 gEggMoves[] = {
 		MOVE_OCTAZOOKA,
 		MOVE_PSYCH_UP),
 
-	egg_moves(MAWILE,
+	egg_moves(MINITRON,
 		MOVE_SLAM,
 		MOVE_SEISMIC_TOSS,
 		MOVE_ANCIENT_POWER,
@@ -2398,7 +2398,7 @@ const u16 gEggMoves[] = {
 		MOVE_POWER_GEM,
 		MOVE_HEAVY_SLAM),
 
-	egg_moves(SPOINK,
+	egg_moves(FIZZCUB,
 		MOVE_WHIRLWIND,
 		MOVE_AMNESIA,
 		MOVE_ENDURE,
@@ -2448,7 +2448,7 @@ const u16 gEggMoves[] = {
 		MOVE_MUD_SHOT,
 		MOVE_EARTH_POWER),
 
-	egg_moves(CACNEA,
+	egg_moves(YOLKANNER,
 		MOVE_DISABLE,
 		MOVE_ACID,
 		MOVE_LOW_KICK,

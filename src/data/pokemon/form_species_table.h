@@ -310,9 +310,9 @@ static const u16 sSableyeFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sMawileFormSpeciesIdTable[] = {
-    SPECIES_MAWILE,
-    SPECIES_MAWILE_MEGA,
+static const u16 sMinitronFormSpeciesIdTable[] = {
+    SPECIES_MINITRON,
+    SPECIES_MINITRON_MEGA,
     0xFFFF,
 };
 

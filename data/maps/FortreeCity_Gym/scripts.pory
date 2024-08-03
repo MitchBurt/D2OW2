@@ -842,20 +842,20 @@ script FortreeCity_Gym_EventScript_Gym_Taillow{
 				msgbox(format("The Pokémon is looking confused on how you finished the puzzle."), MSGBOX_SIGN)
 				waitmessage
 			}
-		case SPECIES_SWELLOW:
+		case SPECIES_XAPP:
 			if (flag(FLAG_BADGE06_GET) && !flag(FLAG_WINONA_REMATCH)){
 				//Ready for a rematch
-				msgbox(format("Swellow: low!"), MSGBOX_NPC)
+				msgbox(format("Xapp: low!"), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems like it wants a rematch, it is flying really fast."), MSGBOX_SIGN)
 				waitmessage
 			}
 			elif(flag(FLAG_BADGE06_GET) && flag(FLAG_WINONA_REMATCH)){
-				msgbox(format("Swellow: low..."), MSGBOX_NPC)
+				msgbox(format("Xapp: low..."), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems tired after today's battle, it may want to rest a little more."), MSGBOX_SIGN)
 				waitmessage
 			}
 			else{
-				msgbox(format("Swellow: low?"), MSGBOX_NPC)
+				msgbox(format("Xapp: low?"), MSGBOX_NPC)
 				msgbox(format("The Pokémon is currently looking at you while flying."), MSGBOX_SIGN)
 				waitmessage
 			}
@@ -869,12 +869,12 @@ script FortreeCity_Gym_EventScript_Set_Gym_Pokemon_Species{
 		case 0: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_TAILLOW) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_TAILLOW) //Level 13 
 		case 1: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_TAILLOW) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_TAILLOW) //Level 19
 		case 2: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_TAILLOW) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_TAILLOW) //Level 25
-		case 3: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_SWELLOW) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_SWELLOW) //Level 31
-		case 4: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_SWELLOW) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_SWELLOW) //Level 38
-		case 5: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_SWELLOW) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_SWELLOW) //Level 45
-		case 6: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_SWELLOW) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_SWELLOW) //Level 51
-		case 7: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_SWELLOW) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_SWELLOW) //Level 62
-		case 8: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_SWELLOW) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_SWELLOW) //Level 70
+		case 3: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_XAPP) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_XAPP) //Level 31
+		case 4: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_XAPP) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_XAPP) //Level 38
+		case 5: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_XAPP) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_XAPP) //Level 45
+		case 6: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_XAPP) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_XAPP) //Level 51
+		case 7: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_XAPP) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_XAPP) //Level 62
+		case 8: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_XAPP) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_XAPP) //Level 70
 	}
 
 	if(flag(FLAG_NO_EVOLUTION_MODE)){

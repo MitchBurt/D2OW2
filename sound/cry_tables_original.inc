@@ -279,9 +279,9 @@ gCryTable:: @ 869DCF4
 	cry Cry_Herokku
 	cry Cry_Shadeku
 	cry Cry_Taillow
-	cry Cry_Swellow
-	cry Cry_Wingull
-	cry Cry_Pelipper
+	cry Cry_Xapp
+	cry Cry_Batcardi
+	cry Cry_Noctrum
 	cry Cry_Notafurry
 	cry Cry_Sortafurry
 	cry Cry_Thatsfurry
@@ -305,9 +305,9 @@ gCryTable:: @ 869DCF4
 	cry Cry_Skitty
 	cry Cry_Nyancat
 	cry Cry_Sableye
-	cry Cry_Mawile
+	cry Cry_Minitron
 	cry Cry_Aron
-	cry Cry_Lairon
+	cry Cry_Galvatron
 	cry Cry_Aggron
 	cry Cry_Lonk
 	cry Cry_Lonkest
@@ -327,14 +327,14 @@ gCryTable:: @ 869DCF4
 	cry Cry_Numel
 	cry Cry_Camerupt
 	cry Cry_Torkoal
-	cry Cry_Spoink
-	cry Cry_Grumpig
+	cry Cry_Fizzcub
+	cry Cry_Seltclaw
 	cry Cry_Spinda
 	cry Cry_Trapinch
 	cry Cry_Vibrava
 	cry Cry_Flygon
-	cry Cry_Cacnea
-	cry Cry_Cacturne
+	cry Cry_Yolkanner
+	cry Cry_Aconeggs
 	cry Cry_Swablu
 	cry Cry_Altaria
 	cry Cry_Zangoose
@@ -932,7 +932,7 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Baitank_Mega
 	cry_not Cry_Thatsfurry_Mega
 	cry_not Cry_Sableye_Mega
-	cry_not Cry_Mawile_Mega
+	cry_not Cry_Minitron_Mega
 	cry_not Cry_Aggron_Mega
 	cry_not Cry_Lonkest_Mega
 	cry_not Cry_Manectric_Mega
@@ -1557,9 +1557,9 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Herokku
 	cry2 Cry_Shadeku
 	cry2 Cry_Taillow
-	cry2 Cry_Swellow
-	cry2 Cry_Wingull
-	cry2 Cry_Pelipper
+	cry2 Cry_Xapp
+	cry2 Cry_Batcardi
+	cry2 Cry_Noctrum
 	cry2 Cry_Notafurry
 	cry2 Cry_Sortafurry
 	cry2 Cry_Thatsfurry
@@ -1583,9 +1583,9 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Skitty
 	cry2 Cry_Nyancat
 	cry2 Cry_Sableye
-	cry2 Cry_Mawile
+	cry2 Cry_Minitron
 	cry2 Cry_Aron
-	cry2 Cry_Lairon
+	cry2 Cry_Galvatron
 	cry2 Cry_Aggron
 	cry2 Cry_Lonk
 	cry2 Cry_Lonkest
@@ -1605,14 +1605,14 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Numel
 	cry2 Cry_Camerupt
 	cry2 Cry_Torkoal
-	cry2 Cry_Spoink
-	cry2 Cry_Grumpig
+	cry2 Cry_Fizzcub
+	cry2 Cry_Seltclaw
 	cry2 Cry_Spinda
 	cry2 Cry_Trapinch
 	cry2 Cry_Vibrava
 	cry2 Cry_Flygon
-	cry2 Cry_Cacnea
-	cry2 Cry_Cacturne
+	cry2 Cry_Yolkanner
+	cry2 Cry_Aconeggs
 	cry2 Cry_Swablu
 	cry2 Cry_Altaria
 	cry2 Cry_Zangoose
@@ -2210,7 +2210,7 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Baitank_Mega
 	cry2_not Cry_Thatsfurry_Mega
 	cry2_not Cry_Sableye_Mega
-	cry2_not Cry_Mawile_Mega
+	cry2_not Cry_Minitron_Mega
 	cry2_not Cry_Aggron_Mega
 	cry2_not Cry_Lonkest_Mega
 	cry2_not Cry_Manectric_Mega

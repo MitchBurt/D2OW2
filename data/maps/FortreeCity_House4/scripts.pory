@@ -60,7 +60,7 @@ FortreeCity_House4_EventScript_Wingull:: @ 8217D20
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_PELIPPER, 0
+	playmoncry SPECIES_NOCTRUM, 0
 	msgbox FortreeCity_House4_Text_Wingull, MSGBOX_DEFAULT
 	waitmoncry
 	release
@@ -77,12 +77,12 @@ FortreeCity_House4_Text_GoBirdPokemon: @ 8217DB9
 	.string "Go, Bird Pokémon!$"
 
 FortreeCity_House4_Text_AskedWingullToRunErrand: @ 8217DD2
-	.string "Heheh, I asked my Pelipper to run\n"
+	.string "Heheh, I asked my Noctrum to run\n"
 	.string "an errand for me.$"
 
 FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb: @ 8217E05
 	.string "Good!\n"
-	.string "Welcome back, Pelipper!\p"
+	.string "Welcome back, Noctrum!\p"
 	.string "Huh? What is this?\n"
 	.string "What is it holding?\p"
 	.string "A Mental Herb?\n"
@@ -91,10 +91,10 @@ FortreeCity_House4_Text_WelcomeWingullTakeMentalHerb: @ 8217E05
 	.string "have it.$"
 
 FortreeCity_House4_Text_FriendsFarAwayThanksToWingull: @ 8217EA8
-	.string "Thanks to my Pelipper, I have friends\n"
+	.string "Thanks to my Noctrum, I have friends\n"
 	.string "who live far away.$"
 
 FortreeCity_House4_Text_Wingull: @ 8217EE0
-	.string "Pelipper: Pihyoh!$"
+	.string "Noctrum: Pihyoh!$"
 
 `

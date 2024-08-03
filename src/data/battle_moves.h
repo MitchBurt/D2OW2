@@ -11432,6 +11432,8 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_SPECIAL,
     },
 
+
+//New moves
     [MOVE_SHOT] =
     {
         .effect = EFFECT_INTOXICATE_HIT,
@@ -11459,10 +11461,24 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED | FLAG_BALLISTIC,
         .split = SPLIT_PHYSICAL,
     },
+
+    [MOVE_SIZZLE_SLAM] =
+    {
+        .effect = EFFECT_BURN_HIT,
+        .power = 50,
+        .type = TYPE_FIRE,
+        .accuracy = 100,
+        .pp = 15,
+        .secondaryEffectChance = 10,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_IRON_FIST_BOOST | FLAG_SHEER_FORCE_BOOST,
+        .split = SPLIT_PHYSICAL,
+    },
 };
 
 const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
-    [SPECIES_YGGDRACON] =
+   /* [SPECIES_YGGDRACON] =
     {
         .move = MOVE_SOLAR_BEAM,
         .modification = SIGNATURE_MOD_OTHER,
@@ -12393,7 +12409,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .variable4 = SPLIT_PHYSICAL,
         .differentDescription = FALSE,
         .description = _("Default Description"),
-    },
+  */  },
     [SPECIES_TORTERRA] =
     {
         .move = MOVE_WOOD_HAMMER,

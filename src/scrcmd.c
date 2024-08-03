@@ -2517,8 +2517,8 @@ bool8 ScrFunc_getfolloweraction(struct ScriptContext *ctx) // Essentially a big 
 			  ability == ABILITY_SAND_FORCE			||
 			  ability == ABILITY_SAND_RUSH			||
 			  ability == ABILITY_SAND_VEIL			||
-			  species == SPECIES_CACNEA				||
-			  species == SPECIES_CACTURNE			||
+			  species == SPECIES_YOLKANNER				||
+			  species == SPECIES_ACONEGGS			||
 			  species == SPECIES_MARACTUS			)
 		  message_choices[n_choices++] = EventScript_FollowerLikesThisPlace;
 	  }

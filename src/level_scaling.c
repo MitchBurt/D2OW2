@@ -2484,7 +2484,7 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_MANECTITE;
 		break;
-		case SPECIES_MAWILE:
+		case SPECIES_MINITRON:
 			if(canMega)
 				item = ITEM_MAWILITE;
 		break;

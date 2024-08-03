@@ -10,7 +10,7 @@ Route119_House_EventScript_Wingull:: @ 827096F
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_PELIPPER, 0
+	playmoncry SPECIES_NOCTRUM, 0
 	msgbox Route119_House_Text_Wingull, MSGBOX_DEFAULT
 	waitmoncry
 	release
@@ -24,6 +24,6 @@ Route119_House_Text_RumorAboutCaveOfOrigin: @ 8270982
 	.string "something like that really happen?$"
 
 Route119_House_Text_Wingull: @ 8270A17
-	.string "Pelipper: Pihyoh!$"
+	.string "Noctrum: Pihyoh!$"
 
 `

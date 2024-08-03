@@ -5901,6 +5901,10 @@ static const u8 sSEED_FORCEDescription[] = _(
 	"Hurls seeds that do more\n"
 	"damage to slower foes.");
 
+static const u8 sSIZZLE_SLAMDescription[] = _(
+    "A fiery headbutt that may\n"
+    "burn the foe.");
+
 static const u8 sNotDoneYetDescription[] = _(
     "Not done yet.");
 
@@ -6667,4 +6671,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_EERIE_SPELL - 1] = sEERIE_SPELLDescription,
     [MOVE_SHOT - 1] = sShotDescription,
     [MOVE_SEED_FORCE - 1] = sSEED_FORCEDescription,
+    [MOVE_SIZZLE_SLAM - 1] = sSIZZLE_SLAMDescription,
 };

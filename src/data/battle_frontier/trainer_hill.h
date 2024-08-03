@@ -118,7 +118,7 @@ static const struct TrHillFloor sDataTagJPDefault_Floors[] = {
                     [1] = NULL_BATTLE_TOWER_POKEMON,
                     [2] = NULL_BATTLE_TOWER_POKEMON,
                     [3] = {
-                        .species = SPECIES_WINGULL,
+                        .species = SPECIES_BATCARDI,
                         .heldItem = ITEM_CHERI_BERRY,
                         .moves = { MOVE_WATER_GUN, MOVE_WING_ATTACK, MOVE_GROWL, MOVE_SUPERSONIC },
                         .level = 0,
@@ -344,7 +344,7 @@ static const struct TrHillFloor sDataTagJPDefault_Floors[] = {
                         .friendship = 255
                     },
                     [4] = {
-                        .species = SPECIES_SPOINK,
+                        .species = SPECIES_FIZZCUB,
                         .heldItem = ITEM_PERSIM_BERRY,
                         .moves = { MOVE_PSYWAVE, MOVE_FUTURE_SIGHT, MOVE_CONFUSE_RAY, MOVE_MAGIC_COAT },
                         .level = 0,
@@ -1455,7 +1455,7 @@ static const struct TrHillFloor sDataTagNormal_Floors[] =
                     },
                     [2] =
                     {
-                        .species = SPECIES_GRUMPIG,
+                        .species = SPECIES_SELTCLAW,
                         .heldItem = ITEM_TWISTED_SPOON,
                         .moves = {MOVE_SKILL_SWAP, MOVE_PSYCHIC, MOVE_CONFUSE_RAY, MOVE_REST},
                         .level = 0,
@@ -1472,7 +1472,7 @@ static const struct TrHillFloor sDataTagNormal_Floors[] =
                         .spDefenseIV = 5,
                         .abilityNum = 0,
                         .personality = 0x8C,
-                        .nickname = _("Grumpig"),
+                        .nickname = _("Seltclaw"),
                         .friendship = 255,
                     },
                     [3] =
@@ -1918,7 +1918,7 @@ static const struct TrHillFloor sDataTagVariety_Floors[] = {
                                         },
                                     [2] =
                                         {
-                                            .species = SPECIES_GRUMPIG,
+                                            .species = SPECIES_SELTCLAW,
                                             .heldItem = ITEM_SILK_SCARF,
                                             .moves = {MOVE_PSYBEAM, MOVE_MAGIC_COAT, MOVE_BOUNCE, MOVE_FUTURE_SIGHT},
                                             .level = 0,
@@ -1934,7 +1934,7 @@ static const struct TrHillFloor sDataTagVariety_Floors[] = {
                                             .spDefenseIV = 5,
                                             .abilityNum = 0,
                                             .personality = 0xA,
-                                            .nickname = _("Grumpig"),
+                                            .nickname = _("Seltclaw"),
                                             .friendship = 255,
                                         },
                                     [3] =
@@ -4632,7 +4632,7 @@ static const struct TrHillFloor sDataTagExpert_Floors[] = {
                                 {
                                     [0] =
                                         {
-                                            .species = SPECIES_SWELLOW,
+                                            .species = SPECIES_XAPP,
                                             .heldItem = ITEM_LEFTOVERS,
                                             .moves = {MOVE_AERIAL_ACE, MOVE_AGILITY, MOVE_FACADE, MOVE_ATTRACT},
                                             .level = 0,
@@ -4649,7 +4649,7 @@ static const struct TrHillFloor sDataTagExpert_Floors[] = {
                                             .spDefenseIV = 31,
                                             .abilityNum = 0,
                                             .personality = 0x3,
-                                            .nickname = _("Swellow"),
+                                            .nickname = _("Xapp"),
                                             .friendship = 255,
                                         },
                                     [1] =

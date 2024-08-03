@@ -1405,7 +1405,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x64,
         .y_offset = 11,
     },
-    [SPECIES_SWELLOW] =
+    [SPECIES_XAPP] =
     {
         .size = 0x87,
         .y_offset = 5,
@@ -1425,12 +1425,12 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x68,
         .y_offset = 8,
     },
-    [SPECIES_WINGULL] =
+    [SPECIES_BATCARDI] =
     {
         .size = 0x84,
         .y_offset = 11,
     },
-    [SPECIES_PELIPPER] =
+    [SPECIES_NOCTRUM] =
     {
         .size = 0x77,
         .y_offset = 2,
@@ -1600,12 +1600,12 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x88,
         .y_offset = 1,
     },
-    [SPECIES_CACNEA] =
+    [SPECIES_YOLKANNER] =
     {
         .size = 0x74,
         .y_offset = 13,
     },
-    [SPECIES_CACTURNE] =
+    [SPECIES_ACONEGGS] =
     {
         .size = 0x88,
         .y_offset = 0,
@@ -1635,12 +1635,12 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x55,
         .y_offset = 11,
     },
-    [SPECIES_SPOINK] =
+    [SPECIES_FIZZCUB] =
     {
         .size = 0x46,
         .y_offset = 9,
     },
-    [SPECIES_GRUMPIG] =
+    [SPECIES_SELTCLAW] =
     {
         .size = 0x77,
         .y_offset = 2,
@@ -1655,7 +1655,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x66,
         .y_offset = 11,
     },
-    [SPECIES_MAWILE] =
+    [SPECIES_MINITRON] =
     {
         .size = 0x76,
         .y_offset = 8,
@@ -1795,7 +1795,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x43,
         .y_offset = 14,
     },
-    [SPECIES_LAIRON] =
+    [SPECIES_GALVATRON] =
     {
         .size = 0x75,
         .y_offset = 8,
@@ -4632,7 +4632,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0,
         .y_offset = 7,
     },
-    [SPECIES_MAWILE_MEGA] =
+    [SPECIES_MINITRON_MEGA] =
     {
         .size = 0,
         .y_offset = 5,

@@ -2110,7 +2110,7 @@ static void UnlockQuestMenu(void)
 			switch(GetMonData(&gPlayerParty[i], MON_DATA_SPECIES2)){
 				case SPECIES_AGANDA:
 				case SPECIES_SEAKUSH:
-				case SPECIES_SWELLOW:
+				case SPECIES_XAPP:
 				case SPECIES_DONT:
 				case SPECIES_BERRORD:
 				case SPECIES_PARANGELIA:
@@ -2142,8 +2142,8 @@ static void UnlockQuestMenu(void)
 				case SPECIES_KELDEO:
 				case SPECIES_DIALGA:
 				case SPECIES_LONGIFER:
-				case SPECIES_PELIPPER:
-				case SPECIES_WINGULL:
+				case SPECIES_NOCTRUM:
+				case SPECIES_BATCARDI:
 				case SPECIES_SALAMENCE:
 				case SPECIES_BAGON:
 				case SPECIES_NUGGIE:

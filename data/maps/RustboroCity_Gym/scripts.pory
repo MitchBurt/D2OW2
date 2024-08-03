@@ -944,20 +944,20 @@ script RustboroCity_Gym_EventScript_Gym_Aaron{
 				msgbox(format("The Pokémon is currently eating a little chunk of metal."), MSGBOX_SIGN)
 				waitmessage
 			}
-		case SPECIES_LAIRON:
+		case SPECIES_GALVATRON:
 			if (flag(FLAG_BADGE01_GET) && !flag(FLAG_ROXANNE_REMATCH)){
 				//Ready for a rematch
-				msgbox(format("Lairon: ron!"), MSGBOX_NPC)
+				msgbox(format("Galvatron: ron!"), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems like it wants a rematch with You, its skin look's really shiny."), MSGBOX_SIGN)
 				waitmessage
 			}
 			elif(flag(FLAG_BADGE01_GET) && flag(FLAG_ROXANNE_REMATCH)){
-				msgbox(format("Lairon: ron..."), MSGBOX_NPC)
+				msgbox(format("Galvatron: ron..."), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems tired after today's battle, its better to let it rest."), MSGBOX_SIGN)
 				waitmessage
 			}
 			else{
-				msgbox(format("Lairon: ron?"), MSGBOX_NPC)
+				msgbox(format("Galvatron: ron?"), MSGBOX_NPC)
 				msgbox(format("The Pokémon is currently eating a chunk of metal."), MSGBOX_SIGN)
 				waitmessage
 			}
@@ -996,8 +996,8 @@ script RustboroCity_Gym_EventScript_Set_Gym_Pokemon_Species{
 		case 0: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_ARON)   setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_ARON)   //Level 13 
 		case 1: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_ARON)   setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_ARON)   //Level 19
 		case 2: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_ARON)   setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_ARON)   //Level 25
-		case 3: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_LAIRON) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_LAIRON) //Level 31
-		case 4: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_LAIRON) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_LAIRON) //Level 38
+		case 3: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_GALVATRON) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_GALVATRON) //Level 31
+		case 4: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_GALVATRON) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_GALVATRON) //Level 38
 		case 5: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_AGGRON) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_AGGRON) //Level 45
 		case 6: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_AGGRON) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_AGGRON) //Level 51
 		case 7: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_AGGRON) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_AGGRON) //Level 62

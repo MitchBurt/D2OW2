@@ -493,7 +493,7 @@
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               },
               {
                 "min_level": 3,
@@ -643,7 +643,7 @@
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               },
               {
                 "min_level": 3,
@@ -797,7 +797,7 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               },
               {
                 "min_level": 15,
@@ -981,7 +981,7 @@
               {
                 "min_level": 5,
                 "max_level": 35,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               },
               {
                 "min_level": 10,
@@ -2967,7 +2967,7 @@
               {
                 "min_level": 11,
                 "max_level": 11,
-                "species": "SPECIES_MAWILE"
+                "species": "SPECIES_MINITRON"
               },
               {
                 "min_level": 10,
@@ -3204,12 +3204,12 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_SPOINK"
+                "species": "SPECIES_FIZZCUB"
               },
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_SPOINK"
+                "species": "SPECIES_FIZZCUB"
               },
               {
                 "min_level": 29,
@@ -3376,7 +3376,7 @@
               {
                 "min_level": 10,
                 "max_level": 10,
-                "species": "SPECIES_MAWILE"
+                "species": "SPECIES_MINITRON"
               },
               {
                 "min_level": 10,
@@ -3723,7 +3723,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_SPOINK"
+                "species": "SPECIES_FIZZCUB"
               },
               {
                 "min_level": 5,
@@ -3881,7 +3881,7 @@
               {
                 "min_level": 15,
                 "max_level": 25,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               },
               {
                 "min_level": 25,
@@ -5694,7 +5694,7 @@
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_MAWILE"
+                "species": "SPECIES_MINITRON"
               },
               {
                 "min_level": 7,
@@ -7718,7 +7718,7 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_MAWILE"
+                "species": "SPECIES_MINITRON"
               },
               {
                 "min_level": 29,
@@ -7787,7 +7787,7 @@
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_MAWILE"
+                "species": "SPECIES_MINITRON"
               },
               {
                 "min_level": 34,
@@ -8564,7 +8564,7 @@
               {
                 "min_level": 38,
                 "max_level": 38,
-                "species": "SPECIES_MAWILE"
+                "species": "SPECIES_MINITRON"
               },
               {
                 "min_level": 42,
@@ -8574,7 +8574,7 @@
               {
                 "min_level": 38,
                 "max_level": 38,
-                "species": "SPECIES_MAWILE"
+                "species": "SPECIES_MINITRON"
               }
             ]
           },
@@ -9878,22 +9878,22 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               },
               {
                 "min_level": 15,
                 "max_level": 25,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               },
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               },
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               }
             ]
           },
@@ -9967,22 +9967,22 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               },
               {
                 "min_level": 15,
                 "max_level": 25,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               },
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               },
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               }
             ]
           },
@@ -10056,22 +10056,22 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               },
               {
                 "min_level": 15,
                 "max_level": 25,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               },
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               },
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               }
             ]
           },
@@ -10145,22 +10145,22 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               },
               {
                 "min_level": 15,
                 "max_level": 25,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               },
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               },
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               }
             ]
           },
@@ -10234,22 +10234,22 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               },
               {
                 "min_level": 15,
                 "max_level": 25,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               },
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               },
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               }
             ]
           },
@@ -10515,7 +10515,7 @@
               {
                 "min_level": 34,
                 "max_level": 34,
-                "species": "SPECIES_MAWILE"
+                "species": "SPECIES_MINITRON"
               },
               {
                 "min_level": 35,
@@ -13286,7 +13286,7 @@
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_MAWILE"
+                "species": "SPECIES_MINITRON"
               },
               {
                 "min_level": 33,
@@ -15858,7 +15858,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               },
               {
                 "min_level": 5,
@@ -16671,7 +16671,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               },
               {
                 "min_level": 5,
@@ -16785,7 +16785,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_WINGULL"
+                "species": "SPECIES_BATCARDI"
               },
               {
                 "min_level": 5,
