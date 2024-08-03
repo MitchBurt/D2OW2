@@ -1204,7 +1204,7 @@ extern const u8 gTrickHouse_Mechadoll_Bongstard[];
 extern const u8 gTrickHouse_Mechadoll_Duplicat[];
 extern const u8 gTrickHouse_Mechadoll_Taillow[];
 extern const u8 gTrickHouse_Mechadoll_Azurill[];
-extern const u8 gTrickHouse_Mechadoll_Lotad[];
+extern const u8 gTrickHouse_Mechadoll_Scubite[];
 extern const u8 gTrickHouse_Mechadoll_Wingull[];
 extern const u8 gTrickHouse_Mechadoll_Duckertron[];
 extern const u8 gTrickHouse_Mechadoll_Batanarf[];

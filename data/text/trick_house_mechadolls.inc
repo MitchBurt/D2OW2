@@ -10,8 +10,8 @@ gTrickHouse_Mechadoll_Taillow:: @ 27ECCD
 gTrickHouse_Mechadoll_Azurill:: @ 27ECD5
 	.string "Azurill$"
 
-gTrickHouse_Mechadoll_Lotad:: @ 27ECDD
-	.string "Lotad$"
+gTrickHouse_Mechadoll_Scubite:: @ 27ECDD
+	.string "Scubite$"
 
 gTrickHouse_Mechadoll_Wingull:: @ 27ECE3
 	.string "Wingull$"
