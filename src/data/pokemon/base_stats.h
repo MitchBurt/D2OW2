@@ -42839,7 +42839,6 @@ const struct BaseStats gVanillaBaseStats[] =
         #endif
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
-        .noFlip = FALSE,
     },
 
     [SPECIES_SPINDA] =
