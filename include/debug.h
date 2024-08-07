@@ -9,4 +9,7 @@ void Debug_ShowMainMenu(void);
 
 void CB2_StartSoundCheckMenu(void);
 
+#define DEBUG_POKEMON_SPRITE_VISUALIZER TRUE
+#define DEBUG_BATTLE_MENU
+
 #endif // GUARD_DEBUG_H

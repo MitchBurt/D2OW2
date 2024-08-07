@@ -431,14 +431,14 @@ static void HandleInputChooseAction(void)
 			PlayerBufferExecCompleted();
 		}/*/
     }
-/*     else if (JOY_NEW(L_BUTTON))
+    else if (JOY_NEW(L_BUTTON))
     {
         PlaySE(SE_SELECT);
 		TryHideLastUsedBall();
 		BtlController_EmitTwoReturnValues(1, B_ACTION_RUN, 0);
 		PlayerBufferExecCompleted();
-    } */
-    else if (USE_BATTLE_DEBUG && JOY_NEW(L_BUTTON))
+    }
+    else if (USE_BATTLE_DEBUG && gMain.newKeys & SELECT_BUTTON)
     {
         BtlController_EmitTwoReturnValues(1, B_ACTION_DEBUG, 0);
         PlayerBufferExecCompleted();
