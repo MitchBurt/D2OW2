@@ -103,7 +103,7 @@
 #define OBJ_EVENT_GFX_MAY_FIELD_MOVE              93
 #define OBJ_EVENT_GFX_TRUCK                       94
 #define OBJ_EVENT_GFX_BLUE_NURSE       			  95
-#define OBJ_EVENT_GFX_VIGOROTH_FACING_AWAY        96
+#define OBJ_EVENT_GFX_DOODOOBOB_FACING_AWAY        96
 #define OBJ_EVENT_GFX_BIRCHS_BAG                  97
 #define OBJ_EVENT_GFX_MEOWRRIOR_1                 98
 #define OBJ_EVENT_GFX_ARTIST                      99

@@ -667,7 +667,7 @@
 #define FLAG_UNUSED_0x26B  0x26B // Gourmasterite*
 #define FLAG_UNUSED_0x26C  0x26C // Sablenite*
 #define FLAG_UNUSED_0x26D  0x26D // Sharpedite*
-#define FLAG_UNUSED_0x26E  0x26E // Cameruptite*
+#define FLAG_UNUSED_0x26E  0x26E // Errorineite*
 #define FLAG_GOT_UNSCNITE  0x26F // UNSCnite*
 #define FLAG_UNUSED_0x270  0x270 // Glalinite*
 #define FLAG_UNUSED_0x271  0x271 // Slamancite*
@@ -693,7 +693,7 @@
 #define FLAG_UNUSED_0x287  0x287 // Frosiliskite*
 #define FLAG_GOT_THATSFURRYITE  0x288 // Thatsfurryite*
 #define FLAG_UNUSED_0x289  0x289 // Mawilite*
-#define FLAG_GOT_AGGRONITE  0x28A // Aggronite*
+#define FLAG_GOT_MURPHIREITE  0x28A // Murphireite*
 #define FLAG_UNUSED_0x28B  0x28B // Lonkestite*
 #define FLAG_GOT_MANECTITE  0x28C // Manectrite*
 #define FLAG_UNUSED_0x28D  0x28D // Banettite*
@@ -801,8 +801,8 @@
 #define FLAG_HIDE_VICTORY_ROAD_EXIT_WALLY                           0x2EF
 #define FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE                       0x2F0
 #define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_STEVEN              0x2F1
-#define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_1          0x2F2
-#define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_2          0x2F3
+#define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_DOODOOBOB_1          0x2F2
+#define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_DOODOOBOB_2          0x2F3
 #define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA          0x2F4
 #define FLAG_HIDE_LITTLE_ROOT_TOWN_PLAYERS_BEDROOM_MOM              0x2F5
 #define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM                0x2F6

@@ -66,8 +66,8 @@ PlayersHouse_2F_EventScript_WallClock:: @ 8292799
 	delay 30
 	setvar VAR_LITTLEROOT_INTRO_STATE, 6
 	setflag FLAG_SET_WALL_CLOCK
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_1
-	setflag FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_2
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_DOODOOBOB_1
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_DOODOOBOB_2
 	checkplayergender
 	//compare VAR_RESULT, MALE
 	//call_if_eq PlayersHouse_2F_EventScript_MomComesUpstairsMale
@@ -381,22 +381,22 @@ PlayersHouse_1F_EventScript_DidYouMeetProfBirch:: @ 8292AB0
 	release
 	end
 
-PlayersHouse_1F_EventScript_Vigoroth1:: @ 8292ABA
+PlayersHouse_1F_EventScript_Doodoobob1:: @ 8292ABA
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_VIGOROTH, 0
-	msgbox PlayersHouse_1F_Text_Vigoroth1, MSGBOX_DEFAULT
+	playmoncry SPECIES_DOODOOBOB, 0
+	msgbox PlayersHouse_1F_Text_Doodoobob1, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
 
-PlayersHouse_1F_EventScript_Vigoroth2:: @ 8292ACD
+PlayersHouse_1F_EventScript_Doodoobob2:: @ 8292ACD
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_VIGOROTH, 0
-	msgbox PlayersHouse_1F_Text_Vigoroth2, MSGBOX_DEFAULT
+	playmoncry SPECIES_DOODOOBOB, 0
+	msgbox PlayersHouse_1F_Text_Doodoobob2, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end

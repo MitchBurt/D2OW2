@@ -126,7 +126,7 @@
 #define PALTAG_BALL_COUNTER 3
 #define PALTAG_CURSOR 4
 #define PALTAG_INTERFACE 5
-#define PALTAG_SHROOMISH 6
+#define PALTAG_BLINKY 6
 #define PALTAG_TAILLOW   7
 #define PALTAG_GRID_ICONS 8
 #define PALTAG_WYNAUT    9
@@ -144,16 +144,16 @@
 #define GFXTAG_BALL_COUNTER 10
 #define GFXTAG_CURSOR 11
 #define GFXTAG_BALL 12
-#define GFXTAG_SHROOMISH_TAILLOW 13
+#define GFXTAG_BLINKY_TAILLOW 13
 #define GFXTAG_SHADOW 14
 
 // 2 different Roulette tables with 2 different rates (normal vs service day special)
 // & 1 gets which table, >> 7 gets if ROULETTE_SPECIAL_RATE is set 
 #define GET_MIN_BET_ID(var)(((var) & 1) + (((var) >> 7) * 2))
 
-// Having Shroomish or Taillow in the party can make rolls more consistent in length
+// Having Blinky or Taillow in the party can make rolls more consistent in length
 // It also increases the likelihood that, if they appear to unstick a ball, they'll move it to a slot the player bet on
-#define HAS_SHROOMISH  (1 << 0)
+#define HAS_BLINKY  (1 << 0)
 #define HAS_TAILLOW    (1 << 1)
 
 #define NO_DELAY 0xFFFF
@@ -229,7 +229,7 @@ enum {
     SPR_GRID_BALL_4,
     SPR_GRID_BALL_5,
     SPR_GRID_BALL_6,
-    SPR_CLEAR_MON, // Shroomish/Taillow
+    SPR_CLEAR_MON, // Blinky/Taillow
     SPR_CLEAR_MON_SHADOW_1,
     SPR_CLEAR_MON_SHADOW_2,
     SPR_58, // Here below unused
@@ -250,7 +250,7 @@ enum {
 #define SPR_COLOR_HEADERS SPR_COLOR_HEADER_1
 #define SPR_GRID_BALLS SPR_GRID_BALL_1
 
-struct Shroomish
+struct Blinky
 {
     u16 startAngle;
     u16 dropAngle;
@@ -271,7 +271,7 @@ struct RouletteTable
     u8 randDistanceLow;
     u8 wheelSpeed;
     u8 wheelDelay;
-    struct Shroomish shroomish;
+    struct Blinky blinky;
     struct Taillow taillow;
     u16 ballSpeed;
     u16 baseTravelDist;
@@ -304,7 +304,7 @@ struct RouletteSlot
 static EWRAM_DATA struct Roulette
 {
     u8 unk0; // Never read
-    u8 shroomishShadowTimer;
+    u8 blinkyShadowTimer;
     u8 partySpeciesFlags;
     bool8 useTaillow:5;
     bool8 ballStuck:1;
@@ -329,7 +329,7 @@ static EWRAM_DATA struct Roulette
     s16 selectionRectDrawState;
     s16 updateGridHighlight;
     struct OamMatrix wheelRotation;
-    u16 shroomishShadowAlpha;
+    u16 blinkyShadowAlpha;
     struct Sprite *ball;
     u8 spriteIds[MAX_SPRITES];
     u8 curBallSpriteId;
@@ -410,10 +410,10 @@ static void SpriteCB_WheelCenter(struct Sprite *);
 static void CreateWheelBallSprites(void);
 static void HideWheelBalls(void);
 static void SpriteCB_RollBall_Start(struct Sprite *);
-static void CreateShroomishSprite(struct Sprite *);
+static void CreateBlinkySprite(struct Sprite *);
 static void CreateTaillowSprite(struct Sprite *);
 static void SetBallStuck(struct Sprite *);
-static void SpriteCB_Shroomish(struct Sprite *);
+static void SpriteCB_Blinky(struct Sprite *);
 static void SpriteCB_Taillow(struct Sprite *);
 
 static const u16 sWheel_Pal[] = INCBIN_U16("graphics/roulette/wheel.gbapal"); // also palette for grid
@@ -817,7 +817,7 @@ static const struct RouletteTable sRouletteTables[] =
         .randDistanceLow = DEGREES_PER_SLOT,
         .wheelSpeed = 1,
         .wheelDelay = 1,
-        .shroomish = {
+        .blinky = {
             .startAngle = 45,
             .dropAngle = 30,
             .fallSlowdown = 1,
@@ -838,7 +838,7 @@ static const struct RouletteTable sRouletteTables[] =
         .randDistanceLow = DEGREES_PER_SLOT / 2,
         .wheelSpeed = 1,
         .wheelDelay = 0,
-        .shroomish = {
+        .blinky = {
             .startAngle = 75,
             .dropAngle = 60,
             .fallSlowdown = 2,
@@ -1054,8 +1054,8 @@ static void VBlankCB_Roulette(void)
     UpdateWheelPosition();
     SetGpuReg(REG_OFFSET_BG1HOFS, 0x200 - sRoulette->gridX);
 
-    if (sRoulette->shroomishShadowTimer)
-        SetGpuReg(REG_OFFSET_BLDALPHA, sRoulette->shroomishShadowAlpha);
+    if (sRoulette->blinkyShadowTimer)
+        SetGpuReg(REG_OFFSET_BLDALPHA, sRoulette->blinkyShadowAlpha);
 
     if (sRoulette->updateGridHighlight)
     {
@@ -1145,8 +1145,8 @@ static void InitRouletteTableData(void)
     {
         switch (GetMonData(&gPlayerParty[i], MON_DATA_SPECIES2))
         {
-        case SPECIES_SHROOMISH:
-            sRoulette->partySpeciesFlags |= HAS_SHROOMISH;
+        case SPECIES_BLINKY:
+            sRoulette->partySpeciesFlags |= HAS_BLINKY;
             break;
         case SPECIES_TAILLOW:
             sRoulette->partySpeciesFlags |= HAS_TAILLOW;
@@ -1552,12 +1552,12 @@ static void Task_SlideGridOffscreen(u8 taskId)
 // Each roll a random value is generated to add onto this distance
 // Half the value returned by this function is the max distance that can be added on per roll
 // i.e. the lower this value is, the closer the roll will be to a consistent distance
-// Odds of a lower value increase as play continues, if the player has Shroomish and/or Taillow in the party, and dependent on the time
+// Odds of a lower value increase as play continues, if the player has Blinky and/or Taillow in the party, and dependent on the time
 static u8 GetRandomForBallTravelDistance(u16 ballNum, u16 rand)
 {
     switch (sRoulette->partySpeciesFlags)
     {
-    case HAS_SHROOMISH:
+    case HAS_BLINKY:
     case HAS_TAILLOW:
         // one of the two is in party
         if (gLocalTime.hours > 3 && gLocalTime.hours < 10)
@@ -1576,7 +1576,7 @@ static u8 GetRandomForBallTravelDistance(u16 ballNum, u16 rand)
             return sRouletteTables[sRoulette->tableId].randDistanceLow;
         }
         break;
-    case HAS_SHROOMISH | HAS_TAILLOW:
+    case HAS_BLINKY | HAS_TAILLOW:
         // both are in party
         if (gLocalTime.hours > 3 && gLocalTime.hours < 11)
         {
@@ -2327,7 +2327,7 @@ static const u16 sBall_Pal[] = INCBIN_U16("graphics/roulette/ball.gbapal");
 static const u16 sBallCounter_Pal[] = INCBIN_U16("graphics/roulette/ball_counter.gbapal");
 static const u16 sCursor_Pal[] = INCBIN_U16("graphics/roulette/cursor.gbapal");
 static const u16 sCredit_Pal[] = INCBIN_U16("graphics/roulette/credit.gbapal");
-static const u16 sShroomish_Pal[] = INCBIN_U16("graphics/roulette/shroomish.gbapal");
+static const u16 sBlinky_Pal[] = INCBIN_U16("graphics/roulette/blinky.gbapal");
 static const u16 sTaillow_Pal[] = INCBIN_U16("graphics/roulette/tailow.gbapal");
 static const u16 sGridIcons_Pal[] = INCBIN_U16("graphics/roulette/grid_icons.gbapal");
 static const u16 sWynaut_Pal[] = INCBIN_U16("graphics/roulette/wynaut.gbapal");
@@ -2340,7 +2340,7 @@ static const u16 sUnused3_Pal[] = INCBIN_U16("graphics/roulette/unused_3.gbapal"
 static const u16 sUnused4_Pal[] = INCBIN_U16("graphics/roulette/unused_4.gbapal");
 static const u32 sBall_Gfx[] = INCBIN_U32("graphics/roulette/ball.4bpp.lz");
 static const u32 sBallCounter_Gfx[] = INCBIN_U32("graphics/roulette/ball_counter.4bpp.lz");
-static const u32 sShroomishTaillow_Gfx[] = INCBIN_U32("graphics/roulette/roulette_tilt.4bpp.lz");
+static const u32 sBlinkyTaillow_Gfx[] = INCBIN_U32("graphics/roulette/roulette_tilt.4bpp.lz");
 static const u32 sGridIcons_Gfx[] = INCBIN_U32("graphics/roulette/grid_icons.4bpp.lz");
 static const u32 sWheelIcons_Gfx[] = INCBIN_U32("graphics/roulette/wheel_icons.4bpp.lz");
 static const u32 sShadow_Gfx[] = INCBIN_U32("graphics/roulette/shadow.4bpp.lz");
@@ -2353,7 +2353,7 @@ static const struct SpritePalette sSpritePalettes[] =
     { .data = sBallCounter_Pal, .tag = PALTAG_BALL_COUNTER },
     { .data = sCursor_Pal,      .tag = PALTAG_CURSOR },
     { .data = sCredit_Pal,      .tag = PALTAG_INTERFACE },
-    { .data = sShroomish_Pal,   .tag = PALTAG_SHROOMISH },
+    { .data = sBlinky_Pal,   .tag = PALTAG_BLINKY },
     { .data = sTaillow_Pal,     .tag = PALTAG_TAILLOW },
     { .data = sGridIcons_Pal,   .tag = PALTAG_GRID_ICONS },
     { .data = sWynaut_Pal,      .tag = PALTAG_WYNAUT },
@@ -3126,7 +3126,7 @@ static const struct SpriteTemplate sSpriteTemplate_WheelCenter =
     .callback = SpriteCB_WheelCenter
 };
 
-static const struct OamData sOam_Shroomish =
+static const struct OamData sOam_Blinky =
 {
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -3144,14 +3144,14 @@ static const struct OamData sOam_Taillow =
     .priority = 2,
 };
 
-static const struct CompressedSpriteSheet sSpriteSheet_ShroomishTaillow =
+static const struct CompressedSpriteSheet sSpriteSheet_BlinkyTaillow =
 {
-    .data = sShroomishTaillow_Gfx,
+    .data = sBlinkyTaillow_Gfx,
     .size = 0xE00,
-    .tag = GFXTAG_SHROOMISH_TAILLOW
+    .tag = GFXTAG_BLINKY_TAILLOW
 };
 
-static const union AnimCmd sAnim_Shroomish[] =
+static const union AnimCmd sAnim_Blinky[] =
 {
     ANIMCMD_FRAME(0, 6),
     ANIMCMD_FRAME(16, 6),
@@ -3202,9 +3202,9 @@ static const union AnimCmd sAnim_Taillow_FlapFast_Right[] =
     ANIMCMD_JUMP(0)
 };
 
-static const union AnimCmd *const sAnims_Shroomish[] =
+static const union AnimCmd *const sAnims_Blinky[] =
 {
-    sAnim_Shroomish
+    sAnim_Blinky
 };
 
 static const union AnimCmd *const sAnims_Taillow[] =
@@ -3217,12 +3217,12 @@ static const union AnimCmd *const sAnims_Taillow[] =
     sAnim_Taillow_FlapFast_Right
 };
 
-static const struct SpriteTemplate sSpriteTemplate_Shroomish =
+static const struct SpriteTemplate sSpriteTemplate_Blinky =
 {
-    .tileTag = GFXTAG_SHROOMISH_TAILLOW,
-    .paletteTag = PALTAG_SHROOMISH,
-    .oam = &sOam_Shroomish,
-    .anims = sAnims_Shroomish,
+    .tileTag = GFXTAG_BLINKY_TAILLOW,
+    .paletteTag = PALTAG_BLINKY,
+    .oam = &sOam_Blinky,
+    .anims = sAnims_Blinky,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCallbackDummy
@@ -3230,7 +3230,7 @@ static const struct SpriteTemplate sSpriteTemplate_Shroomish =
 
 static const struct SpriteTemplate sSpriteTemplate_Taillow =
 {
-    .tileTag = GFXTAG_SHROOMISH_TAILLOW,
+    .tileTag = GFXTAG_BLINKY_TAILLOW,
     .paletteTag = PALTAG_TAILLOW,
     .oam = &sOam_Taillow,
     .anims = sAnims_Taillow,
@@ -3239,7 +3239,7 @@ static const struct SpriteTemplate sSpriteTemplate_Taillow =
     .callback = SpriteCB_Taillow
 };
 
-static const struct OamData sOam_ShroomishBallShadow =
+static const struct OamData sOam_BlinkyBallShadow =
 {
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -3248,7 +3248,7 @@ static const struct OamData sOam_ShroomishBallShadow =
     .priority = 2,
 };
 
-static const struct OamData sOam_ShroomishShadow =
+static const struct OamData sOam_BlinkyShadow =
 {
     .affineMode = ST_OAM_AFFINE_OFF,
     .objMode = ST_OAM_OBJ_NORMAL,
@@ -3310,7 +3310,7 @@ static const union AffineAnimCmd *const sAffineAnims_Unused4[] =
     sAffineAnim_Unused4
 };
 
-static const union AnimCmd sAnim_ShroomishBallShadow[] =
+static const union AnimCmd sAnim_BlinkyBallShadow[] =
 {
     ANIMCMD_FRAME(0, 0),
     ANIMCMD_END
@@ -3322,9 +3322,9 @@ static const union AnimCmd sAnim_UnstickMonShadow[] =
     ANIMCMD_END
 };
 
-static const union AnimCmd *const sAnims_ShroomishBallShadow[] =
+static const union AnimCmd *const sAnims_BlinkyBallShadow[] =
 {
-    sAnim_ShroomishBallShadow
+    sAnim_BlinkyBallShadow
 };
 
 static const union AnimCmd *const sAnims_UnstickMonShadow[] =
@@ -3332,27 +3332,27 @@ static const union AnimCmd *const sAnims_UnstickMonShadow[] =
     sAnim_UnstickMonShadow
 };
 
-static const struct SpriteTemplate sSpriteTemplate_ShroomishShadow[] =
+static const struct SpriteTemplate sSpriteTemplate_BlinkyShadow[] =
 {
     // Ball's shadow as it flies up
     {
         .tileTag = GFXTAG_SHADOW,
         .paletteTag = PALTAG_SHADOW,
-        .oam = &sOam_ShroomishBallShadow,
-        .anims = sAnims_ShroomishBallShadow,
+        .oam = &sOam_BlinkyBallShadow,
+        .anims = sAnims_BlinkyBallShadow,
         .images = NULL,
         .affineAnims = gDummySpriteAffineAnimTable,
         .callback = SpriteCallbackDummy
     },
-    // Shroomish's Shadow
+    // Blinky's Shadow
     {
         .tileTag = GFXTAG_SHADOW,
         .paletteTag = PALTAG_SHADOW,
-        .oam = &sOam_ShroomishShadow,
+        .oam = &sOam_BlinkyShadow,
         .anims = sAnims_UnstickMonShadow,
         .images = NULL,
         .affineAnims = gDummySpriteAffineAnimTable,
-        .callback = SpriteCB_Shroomish
+        .callback = SpriteCB_Blinky
     }
 };
 
@@ -3485,14 +3485,14 @@ static void LoadOrFreeMiscSpritePalettesAndSheets(bool8 free)
         FreeAllSpritePalettes();
         LoadSpritePalettes(sSpritePalettes);
         LoadCompressedSpriteSheet(&sSpriteSheet_Ball);
-        LoadCompressedSpriteSheet(&sSpriteSheet_ShroomishTaillow);
+        LoadCompressedSpriteSheet(&sSpriteSheet_BlinkyTaillow);
         LoadCompressedSpriteSheet(&sSpriteSheet_Shadow);
     }
     else
     {
         // Unused
         FreeSpriteTilesByTag(GFXTAG_SHADOW);
-        FreeSpriteTilesByTag(GFXTAG_SHROOMISH_TAILLOW);
+        FreeSpriteTilesByTag(GFXTAG_BLINKY_TAILLOW);
         FreeSpriteTilesByTag(GFXTAG_BALL);
         FreeAllSpritePalettes();
     }
@@ -4015,7 +4015,7 @@ static void SpriteCB_BallLandInSlot(struct Sprite *sprite)
     sprite->pos2.y += gSpriteCoordOffsetY;
 }
 
-static void SpriteCB_UnstickBall_ShroomishBallFall(struct Sprite *sprite)
+static void SpriteCB_UnstickBall_BlinkyBallFall(struct Sprite *sprite)
 {
     UpdateBallPos(sprite);
     sprite->data[2]++;
@@ -4047,7 +4047,7 @@ static void SpriteCB_UnstickBall_ShroomishBallFall(struct Sprite *sprite)
     }
 }
 
-static void SpriteCB_UnstickBall_Shroomish(struct Sprite *sprite)
+static void SpriteCB_UnstickBall_Blinky(struct Sprite *sprite)
 {
     float slotOffset, ballFallDist, ballFallSpeed;
     UpdateBallPos(sprite);
@@ -4059,7 +4059,7 @@ static void SpriteCB_UnstickBall_Shroomish(struct Sprite *sprite)
         {
             slotOffset = sprite->data[7];
             ballFallDist = (slotOffset * sRouletteTables[sRoulette->tableId].randDistanceHigh + (sRouletteTables[sRoulette->tableId].randDistanceLow - 1));
-            ballFallSpeed = (slotOffset / sRouletteTables[sRoulette->tableId].shroomish.fallSlowdown);
+            ballFallSpeed = (slotOffset / sRouletteTables[sRoulette->tableId].blinky.fallSlowdown);
         }
         else
         {
@@ -4071,7 +4071,7 @@ static void SpriteCB_UnstickBall_Shroomish(struct Sprite *sprite)
         {
             slotOffset = sprite->data[7];
             ballFallDist = (slotOffset * sRouletteTables[sRoulette->tableId].randDistanceHigh + (sRouletteTables[sRoulette->tableId].randDistanceLow - 1));
-            ballFallSpeed = -(slotOffset / sRouletteTables[sRoulette->tableId].shroomish.fallSlowdown);
+            ballFallSpeed = -(slotOffset / sRouletteTables[sRoulette->tableId].blinky.fallSlowdown);
         }
         else
         {
@@ -4089,7 +4089,7 @@ static void SpriteCB_UnstickBall_Shroomish(struct Sprite *sprite)
     sprite->animNum = 0;
     sprite->animBeginning = TRUE;
     sprite->animEnded = FALSE;
-    sprite->callback = SpriteCB_UnstickBall_ShroomishBallFall;
+    sprite->callback = SpriteCB_UnstickBall_BlinkyBallFall;
     sprite->data[2] = 0;
 }
 
@@ -4163,8 +4163,8 @@ static void SpriteCB_UnstickBall_Taillow(struct Sprite *sprite)
     }
 }
 
-// The below SpriteCB_UnstickBall_* callbacks handle the ball while its being cleared by Shroomish/Taillow
-// For what Shroomish/Taillow do during this sequence, see SpriteCB_Shroomish / SpriteCB_Taillow
+// The below SpriteCB_UnstickBall_* callbacks handle the ball while its being cleared by Blinky/Taillow
+// For what Blinky/Taillow do during this sequence, see SpriteCB_Blinky / SpriteCB_Taillow
 static void SpriteCB_UnstickBall(struct Sprite *sprite)
 {
     UpdateBallPos(sprite);
@@ -4172,8 +4172,8 @@ static void SpriteCB_UnstickBall(struct Sprite *sprite)
     {
     default:
     case FALSE:
-        CreateShroomishSprite(sprite);
-        sprite->callback = SpriteCB_UnstickBall_Shroomish;
+        CreateBlinkySprite(sprite);
+        sprite->callback = SpriteCB_UnstickBall_Blinky;
         break;
     case TRUE:
         CreateTaillowSprite(sprite);
@@ -4200,7 +4200,7 @@ static void SpriteCB_RollBall_TryLandAdjacent(struct Sprite *sprite)
         }
         else
         {
-            // Ball is stuck, need Shroomish/Taillow to clear ball
+            // Ball is stuck, need Blinky/Taillow to clear ball
             sprite->animPaused = TRUE;
             m4aSongNumStart(SE_BALL_BOUNCE_1);
             SetBallStuck(sprite);
@@ -4337,12 +4337,12 @@ static void SpriteCB_RollBall_Start(struct Sprite *sprite)
     sprite->callback = SpriteCB_RollBall_Fast;
 }
 
-// Sprite data for Shroomish / its shadows
+// Sprite data for Blinky / its shadows
 #define sMonSpriteId        data[4]
 #define sBallShadowSpriteId data[5]
 #define sMonShadowSpriteId  data[6]
 
-static void CreateShroomishSprite(struct Sprite *ball)
+static void CreateBlinkySprite(struct Sprite *ball)
 {
     u16 t;
     u8 i;
@@ -4354,9 +4354,9 @@ static void CreateShroomishSprite(struct Sprite *ball)
 
     t = ball->data[7] - 2;
     roulette = sRoulette;  // Unnecessary, needed to match
-    sRoulette->spriteIds[SPR_CLEAR_MON] = CreateSprite(&sSpriteTemplate_Shroomish, 36, -12, 50);
-    sRoulette->spriteIds[SPR_CLEAR_MON_SHADOW_1] = CreateSprite(&sSpriteTemplate_ShroomishShadow[0], coords[ball->sStuckOnWheelLeft][0], coords[ball->sStuckOnWheelLeft][1], 59);
-    sRoulette->spriteIds[SPR_CLEAR_MON_SHADOW_2] = CreateSprite(&sSpriteTemplate_ShroomishShadow[1], 36, 140, 51);
+    sRoulette->spriteIds[SPR_CLEAR_MON] = CreateSprite(&sSpriteTemplate_Blinky, 36, -12, 50);
+    sRoulette->spriteIds[SPR_CLEAR_MON_SHADOW_1] = CreateSprite(&sSpriteTemplate_BlinkyShadow[0], coords[ball->sStuckOnWheelLeft][0], coords[ball->sStuckOnWheelLeft][1], 59);
+    sRoulette->spriteIds[SPR_CLEAR_MON_SHADOW_2] = CreateSprite(&sSpriteTemplate_BlinkyShadow[1], 36, 140, 51);
     gSprites[sRoulette->spriteIds[SPR_CLEAR_MON_SHADOW_2]].oam.objMode = ST_OAM_OBJ_BLEND;
     for (i = 0; i < 3; i++)
     {
@@ -4425,7 +4425,7 @@ static void SetBallStuck(struct Sprite *sprite)
     angle = (sRoulette->tableId * DEGREES_PER_SLOT + 33) + (1 - sRoulette->useTaillow) * 15;
 
     // Determine which quadrant the ball got stuck in
-    // Use either Shroomish or Taillow to clear the ball depending on where it's stuck
+    // Use either Blinky or Taillow to clear the ball depending on where it's stuck
     for (i = 0; i < 4; i++)
     {
         if (angle < sprite->sBallAngle && sprite->sBallAngle <= angle + 90)
@@ -4452,7 +4452,7 @@ static void SetBallStuck(struct Sprite *sprite)
     }
     else
     {
-        PlayCry1(SPECIES_SHROOMISH, -63);
+        PlayCry1(SPECIES_BLINKY, -63);
     }
 
     slotsToSkip = 2;
@@ -4479,7 +4479,7 @@ static void SetBallStuck(struct Sprite *sprite)
     // The below slot ids are relative to the slot the ball got stuck on
     if ((sRoulette->useTaillow + 1) & sRoulette->partySpeciesFlags)
     {
-        // If the player has the corresponding pokemon in their party (HAS_SHROOMISH or HAS_TAILLOW),
+        // If the player has the corresponding pokemon in their party (HAS_BLINKY or HAS_TAILLOW),
         // there's a 75% chance that the ball will be moved to a spot they bet on
         // assuming it was one of the slots identified as a candidate
         if (betSlotId && (rand % 256) < 192)
@@ -4495,7 +4495,7 @@ static void SetBallStuck(struct Sprite *sprite)
     sprite->callback = SpriteCB_UnstickBall;
 }
 
-static const u16 sShroomishShadowAlphas[] = {
+static const u16 sBlinkyShadowAlphas[] = {
     0x907,
     0x808,
     0x709,
@@ -4508,7 +4508,7 @@ static const u16 sShroomishShadowAlphas[] = {
     0x010,
 };
 
-static void SpriteCB_ShroomishExit(struct Sprite *sprite)
+static void SpriteCB_BlinkyExit(struct Sprite *sprite)
 {
     // Delay for screen shaking, then exit left
     if (sprite->data[1]++ >= sprite->data[3])
@@ -4519,14 +4519,14 @@ static void SpriteCB_ShroomishExit(struct Sprite *sprite)
             if (!sRoulette->ballUnstuck)
                 sRoulette->ballUnstuck = TRUE;
             DestroySprite(sprite);
-            sRoulette->shroomishShadowTimer = 0;
-            sRoulette->shroomishShadowAlpha = sShroomishShadowAlphas[0];
+            sRoulette->blinkyShadowTimer = 0;
+            sRoulette->blinkyShadowAlpha = sBlinkyShadowAlphas[0];
         }
     }
 }
 
-// Handles both the screen shake and ball shadow effect for when Shroomish unsticks the ball
-static void SpriteCB_ShroomishShakeScreen(struct Sprite *sprite)
+// Handles both the screen shake and ball shadow effect for when Blinky unsticks the ball
+static void SpriteCB_BlinkyShakeScreen(struct Sprite *sprite)
 {
     int screenShakeIdx;
     u16 screenShakeOffsets[][4] = {
@@ -4555,71 +4555,71 @@ static void SpriteCB_ShroomishShakeScreen(struct Sprite *sprite)
     }
 }
 
-static void SpriteCB_ShroomishFall(struct Sprite *sprite)
+static void SpriteCB_BlinkyFall(struct Sprite *sprite)
 {
     float timer;
     sprite->data[1]++;
     timer = sprite->data[1];
     sprite->pos2.y = timer * 0.039f * timer;
-    sRoulette->shroomishShadowAlpha = sShroomishShadowAlphas[(sRoulette->shroomishShadowTimer - 1) / 2];
-    if (sRoulette->shroomishShadowTimer < ARRAY_COUNT(sShroomishShadowAlphas) * 2 - 1)
-        sRoulette->shroomishShadowTimer++;
+    sRoulette->blinkyShadowAlpha = sBlinkyShadowAlphas[(sRoulette->blinkyShadowTimer - 1) / 2];
+    if (sRoulette->blinkyShadowTimer < ARRAY_COUNT(sBlinkyShadowAlphas) * 2 - 1)
+        sRoulette->blinkyShadowTimer++;
     if (sprite->data[1] > 60)
     {
         sprite->data[1] = 0;
-        sprite->callback = SpriteCB_ShroomishExit;
-        gSprites[sprite->sMonShadowSpriteId].callback  = SpriteCB_ShroomishExit;
+        sprite->callback = SpriteCB_BlinkyExit;
+        gSprites[sprite->sMonShadowSpriteId].callback  = SpriteCB_BlinkyExit;
         gSprites[sprite->sMonShadowSpriteId].data[1] = -2;
         gSprites[sprite->sBallShadowSpriteId].invisible = FALSE;
-        gSprites[sprite->sBallShadowSpriteId].callback  = SpriteCB_ShroomishShakeScreen;
+        gSprites[sprite->sBallShadowSpriteId].callback  = SpriteCB_BlinkyShakeScreen;
         m4aSongNumStart(SE_M_STRENGTH);
     }
 }
 
-static void SpriteCB_Shroomish(struct Sprite *sprite)
+static void SpriteCB_Blinky(struct Sprite *sprite)
 {
     if (sprite->data[7] == 0)
     {
         // Wait for the ball to be a specific angle (or its 180 degree opposite) specified by the table
-        // Once it is, reveal the shadow for Shroomish falling in
+        // Once it is, reveal the shadow for Blinky falling in
         if (!sRoulette->ball->sStuckOnWheelLeft)
         {
-            if (sRoulette->ball->sBallAngle != sRouletteTables[sRoulette->tableId].shroomish.startAngle)
+            if (sRoulette->ball->sBallAngle != sRouletteTables[sRoulette->tableId].blinky.startAngle)
                 return;
         }
         else
         {
-            if (sRoulette->ball->sBallAngle != sRouletteTables[sRoulette->tableId].shroomish.startAngle + 180)
+            if (sRoulette->ball->sBallAngle != sRouletteTables[sRoulette->tableId].blinky.startAngle + 180)
                 return;
         }
 
         sprite->invisible = FALSE;
         sprite->data[7]++;
         m4aSongNumStart(SE_FALL);
-        sRoulette->shroomishShadowTimer = 1;
-        sRoulette->shroomishShadowAlpha = sShroomishShadowAlphas[0];
+        sRoulette->blinkyShadowTimer = 1;
+        sRoulette->blinkyShadowAlpha = sBlinkyShadowAlphas[0];
     }
     else
     {
-        sRoulette->shroomishShadowAlpha = sShroomishShadowAlphas[(sRoulette->shroomishShadowTimer - 1) / 2];
-        if (sRoulette->shroomishShadowTimer < 19)
-            sRoulette->shroomishShadowTimer++;
+        sRoulette->blinkyShadowAlpha = sBlinkyShadowAlphas[(sRoulette->blinkyShadowTimer - 1) / 2];
+        if (sRoulette->blinkyShadowTimer < 19)
+            sRoulette->blinkyShadowTimer++;
 
         // Wait for the ball to be a specific angle (or its 180 degree opposite) specified by the table
-        // Once it is, have Shroomish begin to fall in
+        // Once it is, have Blinky begin to fall in
         // On both tables this angle is 15 degrees off the "start" angle
         if (!sRoulette->ball->sStuckOnWheelLeft)
         {
-            if (sRoulette->ball->sBallAngle != sRouletteTables[sRoulette->tableId].shroomish.dropAngle)
+            if (sRoulette->ball->sBallAngle != sRouletteTables[sRoulette->tableId].blinky.dropAngle)
                 return;
         }
         else
         {
-            if (sRoulette->ball->sBallAngle != sRouletteTables[sRoulette->tableId].shroomish.dropAngle + 180)
+            if (sRoulette->ball->sBallAngle != sRouletteTables[sRoulette->tableId].blinky.dropAngle + 180)
                 return;
         }
 
-        gSprites[sprite->sMonSpriteId].callback  = SpriteCB_ShroomishFall;
+        gSprites[sprite->sMonSpriteId].callback  = SpriteCB_BlinkyFall;
         gSprites[sprite->sMonSpriteId].invisible = FALSE;
         sprite->callback  = &SpriteCallbackDummy;
         sprite->data[7] = 0;

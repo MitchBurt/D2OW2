@@ -15,13 +15,13 @@ EventScript_ReleaseUseSurf:: @ 8271ED5
 EventScript_EndUseSurf:: @ 8271ED6
 	end
 
-EventScript_ExploudSurf::
+EventScript_GigalphaSurf::
 	setvar VAR_0x8004, SPECIES_JEBONY
 	setvar VAR_0x8008, MOVE_SURF
 	setvar VAR_0x8009, 1
 	bufferspeciesname 0, VAR_0x8004	
 	buffermovename 1, VAR_0x8008
-	msgbox Text_ExploudSurf, MSGBOX_YESNO
+	msgbox Text_GigalphaSurf, MSGBOX_YESNO
 	compare VAR_RESULT, NO
 	goto_if_eq EventScript_ReleaseUseSurf
 	msgbox Text_MonUsedFieldMove, MSGBOX_DEFAULT

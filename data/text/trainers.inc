@@ -1639,7 +1639,7 @@ Route113_Text_DillonPostBattle: @ 8299E38
 Route113_Text_MadelineIntro: @ 8299EA6
 	.string "I use this parasol to ward off this\n"
 	.string "filthy, yucky volcanic ash from\l"
-	.string "my dear Numel.$"
+	.string "my dear Vulpointer.$"
 
 Route113_Text_MadelineDefeat: @ 8299EF9
 	.string "Huff, huff…\n"

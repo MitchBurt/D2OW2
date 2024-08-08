@@ -380,10 +380,10 @@ PlayersHouse_1F_Text_RegisteredMom: @ 81F7E89
 	.string "Acabas de registrar a Mamá\n"
 	.string "en el PokéNav.$"
 
-PlayersHouse_1F_Text_Vigoroth1: @ 81F7EA8
+PlayersHouse_1F_Text_Doodoobob1: @ 81F7EA8
 	.string "¡Vigoró, vigoró!$"
 
-PlayersHouse_1F_Text_Vigoroth2: @ 81F7EB3
+PlayersHouse_1F_Text_Doodoobob2: @ 81F7EB3
 	.string "Goro, goro-goro…$"
 
 PlayersHouse_1F_Text_ReportFromPetalburgGym: @ 81F7EC6
@@ -532,10 +532,10 @@ PlayersHouse_1F_Text_RegisteredMom: @ 81F7E89
 	.string "Registered Mom\n"
 	.string "in the Pokénav.$"
 
-PlayersHouse_1F_Text_Vigoroth1: @ 81F7EA8
+PlayersHouse_1F_Text_Doodoobob1: @ 81F7EA8
 	.string "Fugiiiiih!$"
 
-PlayersHouse_1F_Text_Vigoroth2: @ 81F7EB3
+PlayersHouse_1F_Text_Doodoobob2: @ 81F7EB3
 	.string "Huggoh, uggo uggo…$"
 
 PlayersHouse_1F_Text_ReportFromPetalburgGym: @ 81F7EC6

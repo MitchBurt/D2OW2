@@ -12890,11 +12890,11 @@ static void Cmd_givecaughtmon(void)
         case SPECIES_THATSFURRY_MEGA:
         case SPECIES_SABLEYE_MEGA:
         case SPECIES_MINITRON_MEGA:
-        case SPECIES_AGGRON_MEGA:
+        case SPECIES_MURPHIRE_MEGA:
         case SPECIES_LONKEST_MEGA:
-        case SPECIES_MANECTRIC_MEGA:
+        case SPECIES_AUXILISK_MEGA:
         case SPECIES_SHARPEDO_MEGA:
-        case SPECIES_CAMERUPT_MEGA:
+        case SPECIES_ERRORINE_MEGA:
         case SPECIES_UNSC_MEGA:
         case SPECIES_BANETTE_MEGA:
         case SPECIES_ABSOL_MEGA:

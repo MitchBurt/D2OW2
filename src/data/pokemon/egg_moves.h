@@ -2058,7 +2058,7 @@ const u16 gEggMoves[] = {
 		MOVE_MUD_SPORT,
 		MOVE_LUNGE),
 
-	egg_moves(SHROOMISH,
+	egg_moves(BLINKY,
 		MOVE_CHARM,
 		MOVE_FOCUS_PUNCH,
 		MOVE_HELPING_HAND,
@@ -2072,7 +2072,7 @@ const u16 gEggMoves[] = {
 		MOVE_FALSE_SWIPE,
 		MOVE_SWAGGER),
 
-	egg_moves(SLAKOTH,
+	egg_moves(DOOBOB,
 		MOVE_BODY_SLAM,
 		MOVE_SLASH,
 		MOVE_SNORE,
@@ -2096,7 +2096,7 @@ const u16 gEggMoves[] = {
 		MOVE_SILVER_WIND,
 		MOVE_BUG_BUZZ),
 
-	egg_moves(WHISMUR,
+	egg_moves(COWERLIN,
 		MOVE_WHIRLWIND,
 		MOVE_TAKE_DOWN,
 		MOVE_SMOKESCREEN,
@@ -2240,7 +2240,7 @@ const u16 gEggMoves[] = {
 		MOVE_PSYCHO_CUT,
 		MOVE_QUICK_GUARD),
 
-	egg_moves(ELECTRIKE,
+	egg_moves(CORDRA,
 		MOVE_HEADBUTT,
 		MOVE_CURSE,
 		MOVE_SPARK,
@@ -2363,7 +2363,7 @@ const u16 gEggMoves[] = {
 		MOVE_CLEAR_SMOG,
 		MOVE_SWAGGER),
 
-	egg_moves(NUMEL,
+	egg_moves(VULPOINTER,
 		MOVE_STOMP,
 		MOVE_BODY_SLAM,
 		MOVE_GROWTH,
@@ -2382,7 +2382,7 @@ const u16 gEggMoves[] = {
 		MOVE_IRON_HEAD,
 		MOVE_HEAVY_SLAM),
 
-	egg_moves(TORKOAL,
+	egg_moves(HELLAPHANT,
 		MOVE_FISSURE,
 		MOVE_SKULL_BASH,
 		MOVE_FLAIL,

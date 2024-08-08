@@ -191,7 +191,7 @@ FortreeCity_Gym_Text_GetTM:
 FortreeCity_Gym_Text_GetMegaStone:
 	.string "Winona: Please take this\n"
 	.string "Mega Stone, with you.\p"
-	.string "Make an Aggron hold it to\n"
+	.string "Make an Murphire hold it to\n"
 	.string "unleash its Hidden Potential.$"
 	
 FortreeCity_Gym_Text_GetReward:

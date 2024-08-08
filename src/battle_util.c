@@ -4596,7 +4596,7 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u16 ability, u8 special, u16 move
                 }
                 break;
             case ABILITY_TRUANT:
-                if(gBattleMons[battler].species == SPECIES_SLAKING || gBattleMons[battler].species == SPECIES_SLAKOTH){
+                if(gBattleMons[battler].species == SPECIES_UGADOOBA || gBattleMons[battler].species == SPECIES_DOOBOB){
                     if(gLastMoves[gBattlerAttacker]!= MOVE_SLACK_OFF &&
                     !(gStatuses3[gBattlerAttacker] & STATUS3_GASTRO_ACID))
                         gDisableStructs[gBattlerAttacker].truantCounter ^= 1;

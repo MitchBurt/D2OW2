@@ -254,7 +254,7 @@ MauvilleCity_Gym_Text_GetTM:
 MauvilleCity_Gym_Text_GetMegaStone:
 	.string "Wattson: Please take this\n"
 	.string "Mega Stone, with you.\p"
-	.string "Make an Aggron hold it to\n"
+	.string "Make an Murphire hold it to\n"
 	.string "unleash its Hidden Potential.$"
 	
 MauvilleCity_Gym_Text_GetReward:
@@ -878,7 +878,7 @@ script MauvilleCity_Gym_EventScript_Wattson_Give_Gifts{
 	if(var(VAR_NUM_BADGES) >= 6 && !flag(FLAG_GOT_MANECTITE)){
 		msgbox(format("Wattson: Take this as an special gift from me, it's a Manectite."), MSGBOX_NPC)
 		giveitem(ITEM_MANECTITE)
-		msgbox(format("Make a Manectric hold it to unleash its real potential."), MSGBOX_NPC)
+		msgbox(format("Make a Auxilisk hold it to unleash its real potential."), MSGBOX_NPC)
 		setflag(FLAG_GOT_MANECTITE)
 		setflag(FLAG_TEMP_9) //To check if you have been given multiple items
 	}
@@ -923,48 +923,48 @@ script MauvilleCity_Gym_EventScript_GymGuide_New{
 	end
 }
 
-script MauvilleCity_Gym_EventScript_Gym_Electrike{
+script MauvilleCity_Gym_EventScript_Gym_Cordra{
 	lock
 	faceplayer
 	switch(var(VAR_GYM_POKEMON_SPECIES)){
-		case SPECIES_ELECTRIKE:
+		case SPECIES_CORDRA:
 			if (flag(FLAG_BADGE03_GET) && !flag(FLAG_WATTSON_REMATCH)){
 				//Ready for a rematch
-				msgbox(format("Electrike: trike!"), MSGBOX_NPC)
+				msgbox(format("Cordra: trike!"), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems like it wants a rematch with You, its fur looks like it has a lot of electricity."), MSGBOX_SIGN)
 				waitmessage
 			}
 			elif(flag(FLAG_BADGE03_GET) && flag(FLAG_WATTSON_REMATCH)){
 				//After a rematch
-				msgbox(format("Electrike: trike..."), MSGBOX_NPC)
+				msgbox(format("Cordra: trike..."), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems tired after today's battle, it let out a loud yawn."), MSGBOX_SIGN)
 				waitmessage
 			}
 			else{
-				msgbox(format("Electrike: trike?"), MSGBOX_NPC)
+				msgbox(format("Cordra: trike?"), MSGBOX_NPC)
 				msgbox(format("The Pokémon is chewing on a little toy."), MSGBOX_SIGN)
 				waitmessage
 			}
-		case SPECIES_MANECTRIC:
+		case SPECIES_AUXILISK:
 			if (flag(FLAG_BADGE03_GET) && !flag(FLAG_WATTSON_REMATCH)){
 				//Ready for a rematch
-				msgbox(format("Manectric: tric!"), MSGBOX_NPC)
+				msgbox(format("Auxilisk: tric!"), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems like it wants a rematch, it may even create thunderclouds."), MSGBOX_SIGN)
 				waitmessage
 			}
 			elif(flag(FLAG_BADGE03_GET) && flag(FLAG_WATTSON_REMATCH)){
-				msgbox(format("Manectric: tric..."), MSGBOX_NPC)
+				msgbox(format("Auxilisk: tric..."), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems tired after today's battle, but it is still alert."), MSGBOX_SIGN)
 				waitmessage
 			}
 			elif(var(VAR_NUM_BADGES) >= 6 && !flag(FLAG_GOT_MANECTITE)){
 				//Mega Stone
-				msgbox(format("Manectric: ron!"), MSGBOX_NPC)
+				msgbox(format("Auxilisk: ron!"), MSGBOX_NPC)
 				msgbox(format("The Pokémon is proudly wearing a collar with an stone attatched to it."), MSGBOX_SIGN)
 				waitmessage
 			}
 			else{
-				msgbox(format("Manectric: tric?"), MSGBOX_NPC)
+				msgbox(format("Auxilisk: tric?"), MSGBOX_NPC)
 				msgbox(format("The Pokémon is currently eating something."), MSGBOX_SIGN)
 				waitmessage
 			}
@@ -975,19 +975,19 @@ script MauvilleCity_Gym_EventScript_Gym_Electrike{
 
 script MauvilleCity_Gym_EventScript_Set_Gym_Pokemon_Species{
 	switch (var(VAR_NUM_BADGES)) {
-		case 0: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_ELECTRIKE) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_ELECTRIKE) //Level 13 
-		case 1: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_ELECTRIKE) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_ELECTRIKE) //Level 19
-		case 2: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_MANECTRIC) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_MANECTRIC) //Level 25
-		case 3: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_MANECTRIC) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_MANECTRIC) //Level 31
-		case 4: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_MANECTRIC) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_MANECTRIC) //Level 38
-		case 5: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_MANECTRIC) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_MANECTRIC) //Level 45
-		case 6: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_MANECTRIC) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_MANECTRIC) //Level 51
-		case 7: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_MANECTRIC) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_MANECTRIC) //Level 62
-		case 8: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_MANECTRIC) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_MANECTRIC) //Level 70
+		case 0: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_CORDRA) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_CORDRA) //Level 13 
+		case 1: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_CORDRA) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_CORDRA) //Level 19
+		case 2: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_AUXILISK) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_AUXILISK) //Level 25
+		case 3: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_AUXILISK) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_AUXILISK) //Level 31
+		case 4: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_AUXILISK) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_AUXILISK) //Level 38
+		case 5: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_AUXILISK) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_AUXILISK) //Level 45
+		case 6: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_AUXILISK) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_AUXILISK) //Level 51
+		case 7: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_AUXILISK) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_AUXILISK) //Level 62
+		case 8: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_AUXILISK) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_AUXILISK) //Level 70
 	}
 
 	if(flag(FLAG_NO_EVOLUTION_MODE)){
-		setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_ELECTRIKE) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_ELECTRIKE)
+		setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_CORDRA) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_CORDRA)
 	}
 	return
 }

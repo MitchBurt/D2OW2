@@ -682,8 +682,8 @@ MegaStone_EventScript_ItemSharpedoite::
 	addscaleditem ITEM_SHARPEDONITE
 	end
 	
-MegaStone_EventScript_ItemCameruptite::
-	addscaleditem ITEM_CAMERUPTITE
+MegaStone_EventScript_ItemErrorineite::
+	addscaleditem ITEM_ERRORINEITE
 	end
 	
 MegaStone_EventScript_ItemUNSCnite::
@@ -730,7 +730,7 @@ MegaStone_EventScript_ItemKrollerite::
 	addscaleditem ITEM_KROLLERITE
 	end
 	
-MegaStone_EventScript_ItemManectricite::
+MegaStone_EventScript_ItemAuxiliskite::
 	addscaleditem ITEM_MANECTITE
 	end
 	

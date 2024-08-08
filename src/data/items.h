@@ -9649,17 +9649,17 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_AGGRONITE] =
+    [ITEM_MURPHIREITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Aggronita"),
+        .name = _("Murphireita"),
 #else
-        .name = _("Aggronite"),
+        .name = _("Murphireite"),
 #endif
-        .itemId = ITEM_AGGRONITE,
+        .itemId = ITEM_MURPHIREITE,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sAggroniteDesc,
+        .description = sMurphireiteDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -9907,7 +9907,7 @@ const struct Item gItems[] =
     [ITEM_MANECTITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Manectricita"),
+        .name = _("Auxiliskita"),
 #else
         .name = _("Manectite"),
 #endif
@@ -10193,17 +10193,17 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_CAMERUPTITE] =
+    [ITEM_ERRORINEITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Cameruptita"),
+        .name = _("Errorineita"),
 #else
-        .name = _("Cameruptite"),
+        .name = _("Errorineite"),
 #endif
-        .itemId = ITEM_CAMERUPTITE,
+        .itemId = ITEM_ERRORINEITE,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sCameruptiteDesc,
+        .description = sErrorineiteDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,

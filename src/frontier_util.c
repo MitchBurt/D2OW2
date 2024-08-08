@@ -222,7 +222,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
                 .moves = {MOVE_CONFUSE_RAY, MOVE_DOUBLE_TEAM, MOVE_TOXIC, MOVE_FLY},
             },
             {
-                .species = SPECIES_SLAKING,
+                .species = SPECIES_UGADOOBA,
                 .heldItem = ITEM_SCOPE_LENS,
                 .fixedIV = 16,
                 .nature = NATURE_HARDY,
@@ -249,7 +249,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
                 .moves = {MOVE_OVERHEAT, MOVE_EXTREME_SPEED, MOVE_ROAR, MOVE_PROTECT},
             },
             {
-                .species = SPECIES_SLAKING,
+                .species = SPECIES_UGADOOBA,
                 .heldItem = ITEM_SCOPE_LENS,
                 .fixedIV = 31,
                 .nature = NATURE_HARDY,
@@ -314,7 +314,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
                 .moves = {MOVE_PSYCHIC, MOVE_HYPNOSIS, MOVE_DREAM_EATER, MOVE_DESTINY_BOND},
             },
             {
-                .species = SPECIES_BRELOOM,
+                .species = SPECIES_DOUBLINKER,
                 .heldItem = ITEM_LUM_BERRY,
                 .fixedIV = 31,
                 .nature = NATURE_JOLLY,
@@ -345,7 +345,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
                 .moves = {MOVE_TOXIC, MOVE_AERIAL_ACE, MOVE_PROTECT, MOVE_STEEL_WING},
             },
             {
-                .species = SPECIES_AGGRON,
+                .species = SPECIES_MURPHIRE,
                 .heldItem = ITEM_SITRUS_BERRY,
                 .fixedIV = 31,
                 .nature = NATURE_ADAMANT,
@@ -371,7 +371,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
                 .moves = {MOVE_TOXIC, MOVE_AERIAL_ACE, MOVE_PROTECT, MOVE_STEEL_WING},
             },
             {
-                .species = SPECIES_AGGRON,
+                .species = SPECIES_MURPHIRE,
                 .heldItem = ITEM_SITRUS_BERRY,
                 .fixedIV = 31,
                 .nature = NATURE_ADAMANT,
@@ -2017,7 +2017,7 @@ static void CheckPartyIneligibility(void)
     s32 monIdLooper;
 
     // count is re-used, define for clarity
-    #define numEligibleMons count
+    #define vulpointerigibleMons count
 
     switch (battleMode)
     {
@@ -2040,7 +2040,7 @@ static void CheckPartyIneligibility(void)
     do
     {
         monId = monIdLooper;
-        numEligibleMons = 0;
+        vulpointerigibleMons = 0;
         do
         {
             u16 species = GetMonData(&gPlayerParty[monId], MON_DATA_SPECIES2);
@@ -2050,11 +2050,11 @@ static void CheckPartyIneligibility(void)
             if (VarGet(VAR_FRONTIER_FACILITY) == FRONTIER_FACILITY_PYRAMID)
             {
                 if (heldItem == ITEM_NONE)
-                    AppendIfValid(species, heldItem, hp, gSpecialVar_Result, level, speciesArray, itemArray, &numEligibleMons);
+                    AppendIfValid(species, heldItem, hp, gSpecialVar_Result, level, speciesArray, itemArray, &vulpointerigibleMons);
             }
             else
             {
-                AppendIfValid(species, heldItem, hp, gSpecialVar_Result, level, speciesArray, itemArray, &numEligibleMons);
+                AppendIfValid(species, heldItem, hp, gSpecialVar_Result, level, speciesArray, itemArray, &vulpointerigibleMons);
             }
             monId++;
             if (monId >= PARTY_SIZE)
@@ -2062,9 +2062,9 @@ static void CheckPartyIneligibility(void)
         } while (monId != monIdLooper);
 
         monIdLooper++;
-    } while (monIdLooper < PARTY_SIZE && numEligibleMons < toChoose);
+    } while (monIdLooper < PARTY_SIZE && vulpointerigibleMons < toChoose);
 
-    if (numEligibleMons < toChoose)
+    if (vulpointerigibleMons < toChoose)
     {
         s32 i;
         s32 caughtBannedMons = 0;
@@ -2099,7 +2099,7 @@ static void CheckPartyIneligibility(void)
         gSpecialVar_0x8004 = FALSE;
         gSaveBlock2Ptr->frontier.lvlMode = gSpecialVar_Result;
     }
-    #undef numEligibleMons
+    #undef vulpointerigibleMons
 }
 
 static void ValidateVisitingTrainer(void)

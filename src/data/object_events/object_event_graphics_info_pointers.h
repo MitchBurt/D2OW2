@@ -94,8 +94,8 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayAcroBike;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MaySurfing;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayFieldMove;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Truck;
-//const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_VigorothCarryingBox;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_VigorothFacingAway;
+//const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DoodoobobCarryingBox;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DoodoobobFacingAway;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BirchsBag;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_EnemyMeowrrior;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Artist;
@@ -1366,8 +1366,8 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
 	[OBJ_EVENT_GFX_SHEPEIRD] =                  &gObjectEventGraphicsInfo_Shepeird,
 	[OBJ_EVENT_GFX_MUNCHLAX] =                 &gObjectEventGraphicsInfo_Munchlax,
 	
-	//[OBJ_EVENT_GFX_VIGOROTH_CARRYING_BOX] =    &gObjectEventGraphicsInfo_Pokemon_Species_151,
-    [OBJ_EVENT_GFX_VIGOROTH_FACING_AWAY] =     &gObjectEventGraphicsInfo_Pokemon_Species_151,
+	//[OBJ_EVENT_GFX_DOODOOBOB_CARRYING_BOX] =    &gObjectEventGraphicsInfo_Pokemon_Species_151,
+    [OBJ_EVENT_GFX_DOODOOBOB_FACING_AWAY] =     &gObjectEventGraphicsInfo_Pokemon_Species_151,
     [OBJ_EVENT_GFX_MEOWRRIOR_1] =              &gObjectEventGraphicsInfo_Pokemon_Species_263,
 	[OBJ_EVENT_GFX_DUPLICAT] =                &gObjectEventGraphicsInfo_Pokemon_Species_262,
     [OBJ_EVENT_GFX_THEVOID] =                      &gObjectEventGraphicsInfo_Pokemon_Species_151,

@@ -31,14 +31,14 @@ gTrickHouse_Mechadoll_Notafurry:: @ 27ED00
 gTrickHouse_Mechadoll_Meowrrior:: @ 27ED06
 	.string "Meowrrior$"
 
-gTrickHouse_Mechadoll_Slakoth:: @ 27ED10
-	.string "Slakoth$"
+gTrickHouse_Mechadoll_Doobob:: @ 27ED10
+	.string "Doobob$"
 
 gTrickHouse_Mechadoll_Duplicat2:: @ 27ED18
 	.string "Duplicat$"
 
-gTrickHouse_Mechadoll_Shroomish:: @ 27ED22
-	.string "Shroomish$"
+gTrickHouse_Mechadoll_Blinky:: @ 27ED22
+	.string "Blinky$"
 
 gTrickHouse_Mechadoll_Meowrrior2:: @ 27ED2C
 	.string "Meowrrior$"

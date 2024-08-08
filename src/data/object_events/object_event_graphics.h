@@ -527,8 +527,8 @@ const u32 gObjectEventPic_Suffer[] = INCBIN_U32("graphics/object_events/pics/pok
 const u16 gObjectEventPalette_Suffer[] = INCBIN_U16("graphics/object_events/pics/pokemon/suffer.gbapal");
 //261 - Duplicat
 const u32 gObjectEventPic_Duplicat[] = INCBIN_U32("graphics/object_events/pics/pokemon/duplicat.4bpp");
-//288 - Vigoroth
-const u32 gObjectEventPic_Vigoroth[] = INCBIN_U32("graphics/object_events/pics/pokemon/vigoroth.4bpp");
+//288 - Doodoobob
+const u32 gObjectEventPic_Doodoobob[] = INCBIN_U32("graphics/object_events/pics/pokemon/doodoobob.4bpp");
 //263 - Meowrrior
 const u32 gObjectEventPic_Meowrrior[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/263.4bpp");
 const u32 gObjectEventPic_EnemyMeowrrior[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/263.4bpp");

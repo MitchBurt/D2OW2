@@ -31,13 +31,13 @@ static const struct PyramidWildMon sLevel50WildMons_Round1[] =
         .moves = {MOVE_STUN_SPORE, MOVE_GIGA_DRAIN, MOVE_PROTECT, MOVE_NONE}
     },
     {
-        .species = SPECIES_MANECTRIC,
+        .species = SPECIES_AUXILISK,
         .lvl = 39,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_THUNDER_WAVE, MOVE_THUNDER, MOVE_QUICK_ATTACK, MOVE_NONE}
     },
     {
-        .species = SPECIES_BRELOOM,
+        .species = SPECIES_DOUBLINKER,
         .lvl = 40,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_STUN_SPORE, MOVE_FOCUS_PUNCH, MOVE_GIGA_DRAIN, MOVE_MACH_PUNCH}
@@ -533,7 +533,7 @@ static const struct PyramidWildMon sLevel50WildMons_Round11[] =
         .moves = {MOVE_FAKE_OUT, MOVE_SURF, MOVE_FOCUS_PUNCH, MOVE_NONE}
     },
     {
-        .species = SPECIES_BRELOOM,
+        .species = SPECIES_DOUBLINKER,
         .lvl = 42,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_SPORE, MOVE_FOCUS_PUNCH, MOVE_PROTECT, MOVE_NONE}
@@ -869,7 +869,7 @@ static const struct PyramidWildMon sLevel50WildMons_Round17[] =
         .moves = {MOVE_STEEL_WING, MOVE_TOXIC, MOVE_FLY, MOVE_PROTECT}
     },
     {
-        .species = SPECIES_AGGRON,
+        .species = SPECIES_MURPHIRE,
         .lvl = 50,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_EARTHQUAKE, MOVE_TAKE_DOWN, MOVE_SURF, MOVE_ICE_BEAM}
@@ -1031,7 +1031,7 @@ static const struct PyramidWildMon sLevel50WildMons_Round20[] =
         .moves = {MOVE_HYPER_BEAM, MOVE_BODY_SLAM, MOVE_SHADOW_BALL, MOVE_EARTHQUAKE}
     },
     {
-        .species = SPECIES_SLAKING,
+        .species = SPECIES_UGADOOBA,
         .lvl = 50,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_HYPER_BEAM, MOVE_EARTHQUAKE, MOVE_SHADOW_BALL, MOVE_ICE_BEAM}

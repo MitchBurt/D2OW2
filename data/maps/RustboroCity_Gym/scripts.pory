@@ -113,11 +113,11 @@ RustboroCity_Gym_EventScript_Start_Rematch_4::
 	
 RustboroCity_Gym_EventScript_Start_Rematch_5::
 	goto_if_unset FLAG_RECEIVED_TM04 RustboroCity_Gym_EventScript_Start_Rematch_Party_4
-	goto_if_set FLAG_GOT_AGGRONITE RustboroCity_Gym_EventScript_Start_Rematch_6
+	goto_if_set FLAG_GOT_MURPHIREITE RustboroCity_Gym_EventScript_Start_Rematch_6
 	trainerbattle_no_intro TRAINER_ROXANNE_4, RustboroCity_Gym_Text_RoxanneRematchDefeat
 	msgbox RustboroCity_Gym_Text_GetMegaStone, MSGBOX_DEFAULT
-	giveitem ITEM_AGGRONITE
-	setflag FLAG_GOT_AGGRONITE
+	giveitem ITEM_MURPHIREITE
+	setflag FLAG_GOT_MURPHIREITE
 	goto RustboroCity_Gym_EventScript_RoxanneRematchEnd
 	end
 	
@@ -462,7 +462,7 @@ RustboroCity_Gym_Text_GetTM:
 RustboroCity_Gym_Text_GetMegaStone:
 	.string "Roxanne: Please take this\n"
 	.string "Mega Stone, with you.\p"
-	.string "Make an Aggron hold it to\n"
+	.string "Make an Murphire hold it to\n"
 	.string "unleash its Hidden Potential.$"
 	
 RustboroCity_Gym_Text_GetReward:
@@ -874,11 +874,11 @@ script RustboroCity_Gym_EventScript_Roxanne_Give_Gifts{
 	}
 
 	//Give Megastone
-	if(var(VAR_NUM_BADGES) >= 7 && !flag(FLAG_GOT_AGGRONITE)){
-		msgbox(format("Roxanne: Take this as an special gift from me, it's an Aggronite."), MSGBOX_NPC)
-		giveitem(ITEM_AGGRONITE)
-		msgbox(format("Make an Aggron hold it to unleash its real potential."), MSGBOX_NPC)
-		setflag(FLAG_GOT_AGGRONITE)
+	if(var(VAR_NUM_BADGES) >= 7 && !flag(FLAG_GOT_MURPHIREITE)){
+		msgbox(format("Roxanne: Take this as an special gift from me, it's an Murphireite."), MSGBOX_NPC)
+		giveitem(ITEM_MURPHIREITE)
+		msgbox(format("Make an Murphire hold it to unleash its real potential."), MSGBOX_NPC)
+		setflag(FLAG_GOT_MURPHIREITE)
 		setflag(FLAG_TEMP_9) //To check if you have been given multiple items
 	}
 	elif(!flag(FLAG_TEMP_9)){
@@ -961,28 +961,28 @@ script RustboroCity_Gym_EventScript_Gym_Aaron{
 				msgbox(format("The Pokémon is currently eating a chunk of metal."), MSGBOX_SIGN)
 				waitmessage
 			}
-		case SPECIES_AGGRON:
+		case SPECIES_MURPHIRE:
 			if (flag(FLAG_BADGE01_GET) && !flag(FLAG_ROXANNE_REMATCH)){
 				//Ready for a rematch
-				msgbox(format("Aggron: ron!"), MSGBOX_NPC)
+				msgbox(format("Murphire: ron!"), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems like it wants a rematch with You, its skin look's really tought."), MSGBOX_SIGN)
 				waitmessage
 			}
 			elif(flag(FLAG_BADGE01_GET) && flag(FLAG_ROXANNE_REMATCH)){
 				//Defeated
-				msgbox(format("Aggron: ron..."), MSGBOX_NPC)
+				msgbox(format("Murphire: ron..."), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems tired after today's battle, its better to let it rest."), MSGBOX_SIGN)
 				waitmessage
 			}
-			elif(var(VAR_NUM_BADGES) >= 6 && !flag(FLAG_GOT_AGGRONITE)){
+			elif(var(VAR_NUM_BADGES) >= 6 && !flag(FLAG_GOT_MURPHIREITE)){
 				//Mega Stone
-				msgbox(format("Aggron: ron!"), MSGBOX_NPC)
+				msgbox(format("Murphire: ron!"), MSGBOX_NPC)
 				msgbox(format("The Pokémon is currently looking at a shiny rock on its arm with determination."), MSGBOX_SIGN)
 				waitmessage
 			}
 			else{
 				//First time
-				msgbox(format("Aggron: ron?"), MSGBOX_NPC)
+				msgbox(format("Murphire: ron?"), MSGBOX_NPC)
 				msgbox(format("The Pokémon is currently eating what it looks to be a big rock."), MSGBOX_SIGN)
 				waitmessage
 			}
@@ -998,10 +998,10 @@ script RustboroCity_Gym_EventScript_Set_Gym_Pokemon_Species{
 		case 2: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_ARON)   setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_ARON)   //Level 25
 		case 3: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_GALVATRON) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_GALVATRON) //Level 31
 		case 4: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_GALVATRON) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_GALVATRON) //Level 38
-		case 5: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_AGGRON) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_AGGRON) //Level 45
-		case 6: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_AGGRON) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_AGGRON) //Level 51
-		case 7: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_AGGRON) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_AGGRON) //Level 62
-		case 8: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_AGGRON) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_AGGRON) //Level 70
+		case 5: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_MURPHIRE) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_MURPHIRE) //Level 45
+		case 6: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_MURPHIRE) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_MURPHIRE) //Level 51
+		case 7: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_MURPHIRE) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_MURPHIRE) //Level 62
+		case 8: setvar(VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_POKEMON_000 + SPECIES_MURPHIRE) setvar(VAR_GYM_POKEMON_SPECIES, SPECIES_MURPHIRE) //Level 70
 	}
 
 	if(flag(FLAG_NO_EVOLUTION_MODE)){

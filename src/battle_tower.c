@@ -177,7 +177,7 @@ const u16 gBattleFrontierHeldItems[] =
 	ITEM_WISE_GLASSES,
 	ITEM_WIDE_LENS,
 	ITEM_FROSILISKITE,
-	ITEM_AGGRONITE,
+	ITEM_MURPHIREITE,
 	ITEM_SHEMUENITE,
 	ITEM_SKORPYROSITE_Y,
 	ITEM_AIR_BALLOON,
@@ -188,7 +188,7 @@ const u16 gBattleFrontierHeldItems[] =
 	ITEM_LOPUNNITE,
 	ITEM_MAWILITE,
 	ITEM_HOLOCASTITE,
-	ITEM_CAMERUPTITE,
+	ITEM_ERRORINEITE,
 	ITEM_SHARPEDONITE
 };
 
@@ -834,7 +834,7 @@ struct
         .moves = {MOVE_TOXIC, MOVE_AERIAL_ACE, MOVE_PROTECT, MOVE_STEEL_WING}
     },
     {
-        .species = SPECIES_AGGRON,
+        .species = SPECIES_MURPHIRE,
         .fixedIV = 31,
         .level = 44,
         .nature = NATURE_ADAMANT,

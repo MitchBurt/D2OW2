@@ -2392,9 +2392,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_USARMYITE;
 		break;
-		case SPECIES_AGGRON:
+		case SPECIES_MURPHIRE:
 			if(canMega)
-				item = ITEM_AGGRONITE;
+				item = ITEM_MURPHIREITE;
 		break;
 		case SPECIES_KUKLOPS:
 			if(canMega)
@@ -2428,9 +2428,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_GOURMASTERITE;
 		break;
-		case SPECIES_CAMERUPT:
+		case SPECIES_ERRORINE:
 			if(canMega)
-				item = ITEM_CAMERUPTITE;
+				item = ITEM_ERRORINEITE;
 		break;
 		case SPECIES_SKORPYROS:
 			if(canMega)
@@ -2480,7 +2480,7 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_LUCARIONITE;
 		break;
-		case SPECIES_MANECTRIC:
+		case SPECIES_AUXILISK:
 			if(canMega)
 				item = ITEM_MANECTITE;
 		break;

@@ -222,7 +222,7 @@ LavaridgeTown_Gym_1F_Text_GetTM:
 LavaridgeTown_Gym_1F_Text_GetMegaStone:
 	.string "Flannery: Please take this\n"
 	.string "Mega Stone, with you.\p"
-	.string "Make an Aggron hold it to\n"
+	.string "Make an Murphire hold it to\n"
 	.string "unleash its Hidden Potential.$"
 	
 LavaridgeTown_Gym_1F_Text_GetReward:
@@ -836,7 +836,7 @@ script LavaridgeTown_Gym_1F_EventScript_Flannery_Give_Gifts{
 	checkitem(ITEM_TM111_HEAT_CRASH, 1)
 	if(var(VAR_NUM_BADGES) >= 4 && var(VAR_RESULT) == FALSE){
 		giveitem(ITEM_TM111_HEAT_CRASH)
-		msgbox(format("Flannery: This move inflicts damage depending on the user's weight, use it with Pokémon like my Torkoal."), MSGBOX_NPC)
+		msgbox(format("Flannery: This move inflicts damage depending on the user's weight, use it with Pokémon like my Hellaphant."), MSGBOX_NPC)
 		setflag(FLAG_TEMP_9) //To check if you have been given multiple items
 	}
 
@@ -905,22 +905,22 @@ script LavaridgeTown_Gym_1F_EventScript_GymGuide_New{
 	end
 }
 
-script LavaridgeTown_Gym_1F_EventScript_Gym_Torkoal{
+script LavaridgeTown_Gym_1F_EventScript_Gym_Hellaphant{
 	lock
 	faceplayer
 	if (flag(FLAG_BADGE04_GET) && !flag(FLAG_FLANNERY_REMATCH)){
 		//Ready for a rematch
-		msgbox(format("Torkoal: koal!"), MSGBOX_NPC)
+		msgbox(format("Hellaphant: koal!"), MSGBOX_NPC)
 		msgbox(format("The Pokémon seems like it wants a rematch with You, the smoke on its back its really hot."), MSGBOX_SIGN)
 		waitmessage
 	}
 	elif(flag(FLAG_BADGE04_GET) && flag(FLAG_FLANNERY_REMATCH)){
-		msgbox(format("Torkoal: koal..."), MSGBOX_NPC)
+		msgbox(format("Hellaphant: koal..."), MSGBOX_NPC)
 		msgbox(format("The Pokémon seems tired after today's battle, its better to leave it rest"), MSGBOX_SIGN)
 		waitmessage
 	}
 	else{
-		msgbox(format("Torkoal: koal?"), MSGBOX_NPC)
+		msgbox(format("Hellaphant: koal?"), MSGBOX_NPC)
 		msgbox(format("The Pokémon seems curious about how strong you are."), MSGBOX_SIGN)
 		waitmessage
 	}

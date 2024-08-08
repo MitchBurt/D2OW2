@@ -621,7 +621,7 @@ static const u8 sMechMailDesc[] = _(
     "un Pokémon.");
 
 static const u8 sWoodMailDesc[] = _(
-    "Sale Slakoth.\n"
+    "Sale Doobob.\n"
     "Debe llevarla\n"
     "un Pokémon.");
 
@@ -2547,10 +2547,10 @@ static const u8 sMinimaliniteDesc[] = _(
     "megaevolucionar a\n"
     "Minimal.");
 
-static const u8 sAggroniteDesc[] = _(
+static const u8 sMurphireiteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Aggron.");
+    "Murphire.");
 
 static const u8 sBanettiteDesc[] = _(
     "Piedra que permite\n"
@@ -2620,7 +2620,7 @@ static const u8 sMawiliteDesc[] = _(
 static const u8 sManectiteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Manectric.");
+    "Auxilisk.");
 
 static const u8 sGarchompiteDesc[] = _(
     "Piedra que permite\n"
@@ -2702,10 +2702,10 @@ static const u8 sDianciteDesc[] = _(
     "megaevolucionar a\n"
     "Diancie.");
 
-static const u8 sCameruptiteDesc[] = _(
+static const u8 sErrorineiteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Camerupt.");
+    "Errorine.");
 
 static const u8 sLopunniteDesc[] = _(
     "Piedra que permite\n"
@@ -3492,7 +3492,7 @@ static const u8 sMechMailDesc[] = _(
     "a Pokémon.");
 
 static const u8 sWoodMailDesc[] = _(
-    "A Slakoth-print\n"
+    "A Doobob-print\n"
     "Mail to be held by\n"
     "a Pokémon.");
 
@@ -5780,9 +5780,9 @@ static const u8 sMinimaliniteDesc[] = _(
     "Minimal to Mega\n"
     "Evolve in battle.");
 
-static const u8 sAggroniteDesc[] = _(
+static const u8 sMurphireiteDesc[] = _(
     "This stone enables\n"
-    "Aggron to Mega\n"
+    "Murphire to Mega\n"
     "Evolve in battle.");
 
 static const u8 sBanettiteDesc[] = _(
@@ -5852,7 +5852,7 @@ static const u8 sMawiliteDesc[] = _(
 
 static const u8 sManectiteDesc[] = _(
     "This stone enables\n"
-    "Manectric to Mega\n"
+    "Auxilisk to Mega\n"
     "Evolve in battle.");
 
 static const u8 sGarchompiteDesc[] = _(
@@ -5935,9 +5935,9 @@ static const u8 sDianciteDesc[] = _(
     "Diancie to Mega\n"
     "Evolve in battle.");
 
-static const u8 sCameruptiteDesc[] = _(
+static const u8 sErrorineiteDesc[] = _(
     "This stone enables\n"
-    "Camerupt to Mega\n"
+    "Errorine to Mega\n"
     "Evolve in battle.");
 
 static const u8 sLopunniteDesc[] = _(

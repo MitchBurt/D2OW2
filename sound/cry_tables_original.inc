@@ -287,17 +287,17 @@ gCryTable:: @ 869DCF4
 	cry Cry_Thatsfurry
 	cry Cry_Surskit
 	cry Cry_Masquerain
-	cry Cry_Shroomish
-	cry Cry_Breloom
-	cry Cry_Slakoth
-	cry Cry_Vigoroth
-	cry Cry_Slaking
+	cry Cry_Blinky
+	cry Cry_Doublinker
+	cry Cry_Doobob
+	cry Cry_Doodoobob
+	cry Cry_Ugadooba
 	cry Cry_Nincada
 	cry Cry_Ninjask
 	cry Cry_Shedinja
-	cry Cry_Whismur
-	cry Cry_Loudred
-	cry Cry_Exploud
+	cry Cry_Cowerlin
+	cry Cry_Bravogor
+	cry Cry_Gigalpha
 	cry Cry_Angbeast
 	cry Cry_Gangbeats
 	cry Cry_Azurill
@@ -308,11 +308,11 @@ gCryTable:: @ 869DCF4
 	cry Cry_Minitron
 	cry Cry_Aron
 	cry Cry_Galvatron
-	cry Cry_Aggron
+	cry Cry_Murphire
 	cry Cry_Lonk
 	cry Cry_Lonkest
-	cry Cry_Electrike
-	cry Cry_Manectric
+	cry Cry_Cordra
+	cry Cry_Auxilisk
 	cry Cry_Plusle
 	cry Cry_Minun
 	cry Cry_Volbeat
@@ -324,9 +324,9 @@ gCryTable:: @ 869DCF4
 	cry Cry_Sharpedo
 	cry Cry_Wailmer
 	cry Cry_Wailord
-	cry Cry_Numel
-	cry Cry_Camerupt
-	cry Cry_Torkoal
+	cry Cry_Vulpointer
+	cry Cry_Errorine
+	cry Cry_Hellaphant
 	cry Cry_Fizzcub
 	cry Cry_Seltclaw
 	cry Cry_Spinda
@@ -933,11 +933,11 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Thatsfurry_Mega
 	cry_not Cry_Sableye_Mega
 	cry_not Cry_Minitron_Mega
-	cry_not Cry_Aggron_Mega
+	cry_not Cry_Murphire_Mega
 	cry_not Cry_Lonkest_Mega
-	cry_not Cry_Manectric_Mega
+	cry_not Cry_Auxilisk_Mega
 	cry_not Cry_Sharpedo_Mega
-	cry_not Cry_Camerupt_Mega
+	cry_not Cry_Errorine_Mega
 	cry_not Cry_UNSC_Mega
 	cry_not Cry_Banette_Mega
 	cry_not Cry_Absol_Mega
@@ -1565,17 +1565,17 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Thatsfurry
 	cry2 Cry_Surskit
 	cry2 Cry_Masquerain
-	cry2 Cry_Shroomish
-	cry2 Cry_Breloom
-	cry2 Cry_Slakoth
-	cry2 Cry_Vigoroth
-	cry2 Cry_Slaking
+	cry2 Cry_Blinky
+	cry2 Cry_Doublinker
+	cry2 Cry_Doobob
+	cry2 Cry_Doodoobob
+	cry2 Cry_Ugadooba
 	cry2 Cry_Nincada
 	cry2 Cry_Ninjask
 	cry2 Cry_Shedinja
-	cry2 Cry_Whismur
-	cry2 Cry_Loudred
-	cry2 Cry_Exploud
+	cry2 Cry_Cowerlin
+	cry2 Cry_Bravogor
+	cry2 Cry_Gigalpha
 	cry2 Cry_Angbeast
 	cry2 Cry_Gangbeats
 	cry2 Cry_Azurill
@@ -1586,11 +1586,11 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Minitron
 	cry2 Cry_Aron
 	cry2 Cry_Galvatron
-	cry2 Cry_Aggron
+	cry2 Cry_Murphire
 	cry2 Cry_Lonk
 	cry2 Cry_Lonkest
-	cry2 Cry_Electrike
-	cry2 Cry_Manectric
+	cry2 Cry_Cordra
+	cry2 Cry_Auxilisk
 	cry2 Cry_Plusle
 	cry2 Cry_Minun
 	cry2 Cry_Volbeat
@@ -1602,9 +1602,9 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Sharpedo
 	cry2 Cry_Wailmer
 	cry2 Cry_Wailord
-	cry2 Cry_Numel
-	cry2 Cry_Camerupt
-	cry2 Cry_Torkoal
+	cry2 Cry_Vulpointer
+	cry2 Cry_Errorine
+	cry2 Cry_Hellaphant
 	cry2 Cry_Fizzcub
 	cry2 Cry_Seltclaw
 	cry2 Cry_Spinda
@@ -2211,11 +2211,11 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Thatsfurry_Mega
 	cry2_not Cry_Sableye_Mega
 	cry2_not Cry_Minitron_Mega
-	cry2_not Cry_Aggron_Mega
+	cry2_not Cry_Murphire_Mega
 	cry2_not Cry_Lonkest_Mega
-	cry2_not Cry_Manectric_Mega
+	cry2_not Cry_Auxilisk_Mega
 	cry2_not Cry_Sharpedo_Mega
-	cry2_not Cry_Camerupt_Mega
+	cry2_not Cry_Errorine_Mega
 	cry2_not Cry_UNSC_Mega
 	cry2_not Cry_Banette_Mega
 	cry2_not Cry_Absol_Mega

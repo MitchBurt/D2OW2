@@ -53,7 +53,7 @@ static const struct TrHillFloor sDataTagJPDefault_Floors[] = {
                         .friendship = 255
                     },
                     [1] = {
-                        .species = SPECIES_SHROOMISH,
+                        .species = SPECIES_BLINKY,
                         .heldItem = ITEM_PECHA_BERRY,
                         .moves = { MOVE_MEGA_DRAIN, MOVE_LEECH_SEED, MOVE_POISON_POWDER, MOVE_GROWTH },
                         .level = 0,
@@ -142,7 +142,7 @@ static const struct TrHillFloor sDataTagJPDefault_Floors[] = {
                         .friendship = 255
                     },
                     [4] = {
-                        .species = SPECIES_NUMEL,
+                        .species = SPECIES_VULPOINTER,
                         .heldItem = ITEM_FOCUS_BAND,
                         .moves = { MOVE_EMBER, MOVE_DIG, MOVE_TACKLE, MOVE_FOCUS_ENERGY },
                         .level = 0,
@@ -231,7 +231,7 @@ static const struct TrHillFloor sDataTagJPDefault_Floors[] = {
                 .speechAfter = { EC_WORD_HUH_QUES, EC_WORD_TOMORROW, EC_WORD_SMELL, EC_WORD_ABSOLUTELY, EC_WORD_THOSE, EC_WORD_EXCL_EXCL },
                 .mons = {
                     [0] = {
-                        .species = SPECIES_ELECTRIKE,
+                        .species = SPECIES_CORDRA,
                         .heldItem = ITEM_CHERI_BERRY,
                         .moves = { MOVE_SPARK, MOVE_THUNDER_WAVE, MOVE_QUICK_ATTACK, MOVE_ROAR },
                         .level = 0,
@@ -2097,7 +2097,7 @@ static const struct TrHillFloor sDataTagVariety_Floors[] = {
                                         },
                                     [2] =
                                         {
-                                            .species = SPECIES_EXPLOUD,
+                                            .species = SPECIES_GIGALPHA,
                                             .heldItem = ITEM_BRIGHT_POWDER,
                                             .moves = {MOVE_HOWL, MOVE_HYPER_VOICE, MOVE_ATTRACT, MOVE_NONE},
                                             .level = 0,
@@ -2117,7 +2117,7 @@ static const struct TrHillFloor sDataTagVariety_Floors[] = {
                                             .spDefenseIV = 5,
                                             .abilityNum = 0,
                                             .personality = 0x96,
-                                            .nickname = _("Exploud"),
+                                            .nickname = _("Gigalpha"),
                                             .friendship = 255,
                                         },
                                     [3] =
@@ -2232,7 +2232,7 @@ static const struct TrHillFloor sDataTagVariety_Floors[] = {
                                         },
                                     [1] =
                                         {
-                                            .species = SPECIES_WHISMUR,
+                                            .species = SPECIES_COWERLIN,
                                             .heldItem = ITEM_FOCUS_BAND,
                                             .moves = {MOVE_UPROAR, MOVE_ATTRACT, MOVE_NONE, MOVE_NONE},
                                             .level = 0,
@@ -2249,7 +2249,7 @@ static const struct TrHillFloor sDataTagVariety_Floors[] = {
                                             .spDefenseIV = 5,
                                             .abilityNum = 0,
                                             .personality = 0xD,
-                                            .nickname = _("Whismur"),
+                                            .nickname = _("Cowerlin"),
                                             .friendship = 255,
                                         },
                                     [2] =
@@ -2320,7 +2320,7 @@ static const struct TrHillFloor sDataTagVariety_Floors[] = {
                                         },
                                     [5] =
                                         {
-                                            .species = SPECIES_VIGOROTH,
+                                            .species = SPECIES_DOODOOBOB,
                                             .heldItem = ITEM_FOCUS_BAND,
                                             .moves = {MOVE_ENCORE, MOVE_ATTRACT, MOVE_NONE, MOVE_NONE},
                                             .level = 0,
@@ -2337,7 +2337,7 @@ static const struct TrHillFloor sDataTagVariety_Floors[] = {
                                             .spDefenseIV = 5,
                                             .abilityNum = 0,
                                             .personality = 0x87,
-                                            .nickname = _("Vigoroth"),
+                                            .nickname = _("Doodoobob"),
                                             .friendship = 255,
                                         },
                                 },
@@ -3119,7 +3119,7 @@ static const struct TrHillFloor sDataTagUnique_Floors[] = {
                                         },
                                     [4] =
                                         {
-                                            .species = SPECIES_MANECTRIC,
+                                            .species = SPECIES_AUXILISK,
                                             .heldItem = ITEM_FOCUS_BAND,
                                             .moves = {MOVE_THUNDERBOLT, MOVE_HEADBUTT, MOVE_BITE, MOVE_RAIN_DANCE},
                                             .level = 0,
@@ -3135,7 +3135,7 @@ static const struct TrHillFloor sDataTagUnique_Floors[] = {
                                             .spDefenseIV = 15,
                                             .abilityNum = 1,
                                             .personality = 0xF,
-                                            .nickname = _("Manectric"),
+                                            .nickname = _("Auxilisk"),
                                             .friendship = 255,
                                         },
                                     [5] =
@@ -4376,7 +4376,7 @@ static const struct TrHillFloor sDataTagExpert_Floors[] = {
                                         },
                                     [3] =
                                         {
-                                            .species = SPECIES_SLAKING,
+                                            .species = SPECIES_UGADOOBA,
                                             .heldItem = ITEM_CHESTO_BERRY,
                                             .moves = {MOVE_HYPER_BEAM, MOVE_SHADOW_BALL, MOVE_BRICK_BREAK, MOVE_REST},
                                             .level = 0,
@@ -4393,7 +4393,7 @@ static const struct TrHillFloor sDataTagExpert_Floors[] = {
                                             .spDefenseIV = 31,
                                             .abilityNum = 0,
                                             .personality = 0x80,
-                                            .nickname = _("Slaking"),
+                                            .nickname = _("Ugadooba"),
                                             .friendship = 255,
                                         },
                                     [4] =
@@ -4976,7 +4976,7 @@ static const struct TrHillFloor sDataTagExpert_Floors[] = {
                                         },
                                     [1] =
                                         {
-                                            .species = SPECIES_EXPLOUD,
+                                            .species = SPECIES_GIGALPHA,
                                             .heldItem = ITEM_CHESTO_BERRY,
                                             .moves = {MOVE_HYPER_VOICE, MOVE_COUNTER, MOVE_REST, MOVE_ROCK_SLIDE},
                                             .level = 0,
@@ -4993,7 +4993,7 @@ static const struct TrHillFloor sDataTagExpert_Floors[] = {
                                             .spDefenseIV = 31,
                                             .abilityNum = 0,
                                             .personality = 0x85,
-                                            .nickname = _("Exploud"),
+                                            .nickname = _("Gigalpha"),
                                             .friendship = 0,
                                         },
                                     [2] =

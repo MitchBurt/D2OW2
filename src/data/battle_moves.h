@@ -12202,14 +12202,14 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_SLAKOTH] =
+    [SPECIES_DOOBOB] =
     {
         .move = MOVE_SLACK_OFF,
         .modification = SIGNATURE_MOD_OTHER,
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_SLAKING] =
+    [SPECIES_UGADOOBA] =
     {
         .move = MOVE_SLACK_OFF,
         .modification = SIGNATURE_MOD_OTHER,

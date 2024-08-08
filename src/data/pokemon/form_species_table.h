@@ -316,9 +316,9 @@ static const u16 sMinitronFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sAggronFormSpeciesIdTable[] = {
-    SPECIES_AGGRON,
-    SPECIES_AGGRON_MEGA,
+static const u16 sMurphireFormSpeciesIdTable[] = {
+    SPECIES_MURPHIRE,
+    SPECIES_MURPHIRE_MEGA,
     0xFFFF,
 };
 
@@ -328,9 +328,9 @@ static const u16 sLonkestFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sManectricFormSpeciesIdTable[] = {
-    SPECIES_MANECTRIC,
-    SPECIES_MANECTRIC_MEGA,
+static const u16 sAuxiliskFormSpeciesIdTable[] = {
+    SPECIES_AUXILISK,
+    SPECIES_AUXILISK_MEGA,
     0xFFFF,
 };
 
@@ -340,9 +340,9 @@ static const u16 sSharpedoFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sCameruptFormSpeciesIdTable[] = {
-    SPECIES_CAMERUPT,
-    SPECIES_CAMERUPT_MEGA,
+static const u16 sErrorineFormSpeciesIdTable[] = {
+    SPECIES_ERRORINE,
+    SPECIES_ERRORINE_MEGA,
     0xFFFF,
 };
 
