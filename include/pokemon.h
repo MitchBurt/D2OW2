@@ -450,7 +450,7 @@ struct SignatureMove
     u8  chance6;
 };
 
-struct YeltzerSpot
+struct SpindaSpot
 {
     u8 x, y;
     u16 image[16];
