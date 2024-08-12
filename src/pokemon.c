@@ -7144,7 +7144,7 @@ u16 HoennToNationalOrder(u16 hoennNum)
 
 void sub_806D544(u16 species, u32 personality, u8 *dest)
 {
-/*     if (species == SPECIES_YELTZER
+     if (species == SPECIES_YELTZER
         && dest != gMonSpritesGfxPtr->sprites[0]
         && dest != gMonSpritesGfxPtr->sprites[2])
     {
@@ -7186,12 +7186,12 @@ void sub_806D544(u16 species, u32 personality, u8 *dest)
 
             personality >>= 8;
         }
-    } */
+    }
 }
 
 void DrawSpindaSpots(u16 species, u32 personality, u8 *dest, u8 a4)
 {
-/*     if (species == SPECIES_YELTZER && a4)
+     if (species == SPECIES_FROSMOTH && a4)
     {
         int i;
         for (i = 0; i < 4; i++)
@@ -7231,7 +7231,7 @@ void DrawSpindaSpots(u16 species, u32 personality, u8 *dest, u8 a4)
 
             personality >>= 8;
         }
-    } */
+    } 
 }
 
 void EvolutionRenameMon(struct Pokemon *mon, u16 oldSpecies, u16 newSpecies)
@@ -8749,7 +8749,7 @@ void HandleSetPokedexFlag(u16 nationalNum, u8 caseId, u32 personality)
         GetSetPokedexFlag(nationalNum, caseId);
         if (NationalPokedexNumToSpecies(nationalNum) == SPECIES_UNOWN)
             gSaveBlock2Ptr->pokedex.unownPersonality = personality;
-        if (NationalPokedexNumToSpecies(nationalNum) == SPECIES_YELTZER)
+        if (NationalPokedexNumToSpecies(nationalNum) == SPECIES_FROSMOTH)
             gSaveBlock2Ptr->pokedex.yeltzerPersonality = personality;
     }
 }
