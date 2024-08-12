@@ -1808,12 +1808,12 @@ const u16 gHoennToNationalOrder[HOENN_DEX_COUNT] = // Assigns Hoenn Dex Pokémon
     HOENN_TO_NATIONAL(DEOXYS),
 };
 
-const struct YeltzerSpot gYeltzerSpotGraphics[] =
+const struct SpindaSpot gSpindaSpotGraphics[] =
 {
-    {16, 7, INCBIN_U16("graphics/yeltzer_spots/spot_0.bin")},
-    {40, 8, INCBIN_U16("graphics/yeltzer_spots/spot_1.bin")},
-    {22, 25, INCBIN_U16("graphics/yeltzer_spots/spot_2.bin")},
-    {34, 26, INCBIN_U16("graphics/yeltzer_spots/spot_3.bin")}
+    {16, 7, INCBIN_U16("graphics/spinda_spots/spot_0.bin")},
+    {40, 8, INCBIN_U16("graphics/spinda_spots/spot_1.bin")},
+    {22, 25, INCBIN_U16("graphics/spinda_spots/spot_2.bin")},
+    {34, 26, INCBIN_U16("graphics/spinda_spots/spot_3.bin")}
 };
 
 void GetHpIV(void)
@@ -7152,13 +7152,13 @@ void sub_806D544(u16 species, u32 personality, u8 *dest)
         for (i = 0; i < 4; i++)
         {
             int j;
-            u8 x = gYeltzerSpotGraphics[i].x + ((personality & 0x0F) - 8);
-            u8 y = gYeltzerSpotGraphics[i].y + (((personality & 0xF0) >> 4) - 8);
+            u8 x = gSpindaSpotGraphics[i].x + ((personality & 0x0F) - 8);
+            u8 y = gSpindaSpotGraphics[i].y + (((personality & 0xF0) >> 4) - 8);
 
             for (j = 0; j < 16; j++)
             {
                 int k;
-                s32 row = gYeltzerSpotGraphics[i].image[j];
+                s32 row = gSpindaSpotGraphics[i].image[j];
 
                 for (k = x; k < x + 16; k++)
                 {
@@ -7189,21 +7189,21 @@ void sub_806D544(u16 species, u32 personality, u8 *dest)
     }
 }
 
-void DrawYeltzerSpots(u16 species, u32 personality, u8 *dest, u8 a4)
+void DrawSpindaSpots(u16 species, u32 personality, u8 *dest, u8 a4)
 {
-    if (species == SPECIES_YELTZER && a4)
+/*     if (species == SPECIES_YELTZER && a4)
     {
         int i;
         for (i = 0; i < 4; i++)
         {
             int j;
-            u8 x = gYeltzerSpotGraphics[i].x + ((personality & 0x0F) - 8);
-            u8 y = gYeltzerSpotGraphics[i].y + (((personality & 0xF0) >> 4) - 8);
+            u8 x = gSpindaSpotGraphics[i].x + ((personality & 0x0F) - 8);
+            u8 y = gSpindaSpotGraphics[i].y + (((personality & 0xF0) >> 4) - 8);
 
             for (j = 0; j < 16; j++)
             {
                 int k;
-                s32 row = gYeltzerSpotGraphics[i].image[j];
+                s32 row = gSpindaSpotGraphics[i].image[j];
 
                 for (k = x; k < x + 16; k++)
                 {
@@ -7231,7 +7231,7 @@ void DrawYeltzerSpots(u16 species, u32 personality, u8 *dest, u8 a4)
 
             personality >>= 8;
         }
-    }
+    } */
 }
 
 void EvolutionRenameMon(struct Pokemon *mon, u16 oldSpecies, u16 newSpecies)
@@ -8770,7 +8770,7 @@ const u8 *GetTrainerNameFromId(u16 trainerId)
 
 bool8 HasTwoFramesAnimation(u16 species)
 {
-    return (species != SPECIES_YELTZER
+    return (species != SPECIES_UNOWN
             && species != SPECIES_UNOWN);
 }
 

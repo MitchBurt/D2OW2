@@ -122,7 +122,7 @@ void LoadSpecialPokePic(const struct CompressedSpriteSheet *src, void *dest, s32
     else
         LZ77UnCompWram(src->data, dest);
 
-    DrawYeltzerSpots(species, personality, dest, isFrontPic);
+    DrawSpindaSpots(species, personality, dest, isFrontPic);
 }
 
 void Unused_LZDecompressWramIndirect(const void **src, void *dest)
