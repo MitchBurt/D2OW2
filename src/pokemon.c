@@ -7144,7 +7144,7 @@ u16 HoennToNationalOrder(u16 hoennNum)
 
 void sub_806D544(u16 species, u32 personality, u8 *dest)
 {
-    if (species == SPECIES_YELTZER
+/*     if (species == SPECIES_YELTZER
         && dest != gMonSpritesGfxPtr->sprites[0]
         && dest != gMonSpritesGfxPtr->sprites[2])
     {
@@ -7186,7 +7186,7 @@ void sub_806D544(u16 species, u32 personality, u8 *dest)
 
             personality >>= 8;
         }
-    }
+    } */
 }
 
 void DrawSpindaSpots(u16 species, u32 personality, u8 *dest, u8 a4)
