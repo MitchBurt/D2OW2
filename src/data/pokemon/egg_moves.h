@@ -2306,7 +2306,7 @@ const u16 gEggMoves[] = {
 		MOVE_BUG_BUZZ,
 		MOVE_CAPTIVATE),
 
-	egg_moves(ROSELIA,
+	egg_moves(ALIEON,
 		MOVE_RAZOR_LEAF,
 		MOVE_SLEEP_POWDER,
 		MOVE_COTTON_SPORE,
@@ -2412,7 +2412,7 @@ const u16 gEggMoves[] = {
 		MOVE_SIMPLE_BEAM,
 		MOVE_SUBSTITUTE),
 
-	egg_moves(SPINDA,
+	egg_moves(YELTZER,
 		MOVE_CLOSE_COMBAT,
 		MOVE_DISABLE,
 		MOVE_ICY_WIND,
@@ -2434,7 +2434,7 @@ const u16 gEggMoves[] = {
 		MOVE_SLACK_OFF,
 		MOVE_ROCK_SLIDE),
 
-	egg_moves(TRAPINCH,
+	egg_moves(METIORE,
 		MOVE_GUST,
 		MOVE_QUICK_ATTACK,
 		MOVE_FLAIL,
@@ -2544,7 +2544,7 @@ const u16 gEggMoves[] = {
 		MOVE_TRUMP_CARD,
 		MOVE_CHIP_AWAY),
 
-	egg_moves(LILEEP,
+	egg_moves(ODOSAUR,
 		MOVE_BIND,
 		MOVE_CAMOUFLAGE,
 		MOVE_STRENGTH_SAP,
@@ -2560,7 +2560,7 @@ const u16 gEggMoves[] = {
 		MOVE_STEALTH_ROCK,
 		MOVE_ROCK_SLIDE),
 
-	egg_moves(ANORITH,
+	egg_moves(TRICERAS,
 		MOVE_SAND_ATTACK,
 		MOVE_CURSE,
 		MOVE_RAPID_SPIN,
@@ -2622,7 +2622,7 @@ const u16 gEggMoves[] = {
 		MOVE_FLAME_CHARGE,//++
 		MOVE_POWER_UP_PUNCH),
 
-	egg_moves(SHUPPET,
+	egg_moves(TICKTOWEL,
 		MOVE_DISABLE,
 		MOVE_CONFUSE_RAY,
 		MOVE_FORESIGHT,
@@ -2699,7 +2699,7 @@ const u16 gEggMoves[] = {
 		MOVE_PLAY_ROUGH,
 		MOVE_SUBSTITUTE),
 
-	egg_moves(SNORUNT,
+	egg_moves(CHAIROLD,
 		MOVE_DISABLE,
 		MOVE_ROLLOUT,
 		MOVE_BLOCK,
@@ -2712,7 +2712,7 @@ const u16 gEggMoves[] = {
 		MOVE_AVALANCHE,
 		MOVE_HEX),
 
-	egg_moves(SPHEAL,
+	egg_moves(PIRAGHOUL,
 		MOVE_FISSURE,
 		MOVE_CURSE,
 		MOVE_BELLY_DRUM,

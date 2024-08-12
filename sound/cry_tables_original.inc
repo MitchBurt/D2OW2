@@ -317,7 +317,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Minun
 	cry Cry_Volbeat
 	cry Cry_Illumise
-	cry Cry_Roselia
+	cry Cry_Alieon
 	cry Cry_Symbite
 	cry Cry_Carnigore
 	cry Cry_Carvanha
@@ -329,10 +329,10 @@ gCryTable:: @ 869DCF4
 	cry Cry_Hellaphant
 	cry Cry_Fizzcub
 	cry Cry_Seltclaw
-	cry Cry_Spinda
-	cry Cry_Trapinch
-	cry Cry_Vibrava
-	cry Cry_Flygon
+	cry Cry_Yeltzer
+	cry Cry_Metiore
+	cry Cry_Cometide
+	cry Cry_Galadrake
 	cry Cry_Yolkanner
 	cry Cry_Aconeggs
 	cry Cry_Armydrone
@@ -347,27 +347,27 @@ gCryTable:: @ 869DCF4
 	cry Cry_Crawdaunt
 	cry Cry_Baltoy
 	cry Cry_Claydol
-	cry Cry_Lileep
+	cry Cry_Odosaur
 	cry Cry_Cradily
-	cry Cry_Anorith
-	cry Cry_Armaldo
+	cry Cry_Triceras
+	cry Cry_Xenotops
 	cry Cry_Feebas
-	cry Cry_Milotic
+	cry Cry_Nutvalanche
 	cry Cry_Castform
 	cry Cry_Kecleon
-	cry Cry_Shuppet
-	cry Cry_Banette
+	cry Cry_Ticktowel
+	cry Cry_Tocktower
 	cry Cry_Ratman
 	cry Cry_Hugeman
 	cry Cry_Tropius
 	cry Cry_Chimecho
 	cry Cry_Absol
 	cry Cry_Wynaut
-	cry Cry_Snorunt
-	cry Cry_Glalie
-	cry Cry_Spheal
-	cry Cry_Sealeo
-	cry Cry_Walrein
+	cry Cry_Chairold
+	cry Cry_Elechair
+	cry Cry_Piraghoul
+	cry Cry_Morghost
+	cry Cry_Phasmorgan
 	cry Cry_Clamperl
 	cry Cry_Huntail
 	cry Cry_Gorebyss
@@ -939,9 +939,9 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Sharpedo_Mega
 	cry_not Cry_Errorine_Mega
 	cry_not Cry_UNSC_Mega
-	cry_not Cry_Banette_Mega
+	cry_not Cry_Tocktower_Mega
 	cry_not Cry_Absol_Mega
-	cry_not Cry_Glalie_Mega
+	cry_not Cry_Elechair_Mega
 	cry_not Cry_Salamence_Mega
 	cry_not Cry_Metagross_Mega
 	cry_not Cry_Latias_Mega
@@ -1595,7 +1595,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Minun
 	cry2 Cry_Volbeat
 	cry2 Cry_Illumise
-	cry2 Cry_Roselia
+	cry2 Cry_Alieon
 	cry2 Cry_Symbite
 	cry2 Cry_Carnigore
 	cry2 Cry_Carvanha
@@ -1607,10 +1607,10 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Hellaphant
 	cry2 Cry_Fizzcub
 	cry2 Cry_Seltclaw
-	cry2 Cry_Spinda
-	cry2 Cry_Trapinch
-	cry2 Cry_Vibrava
-	cry2 Cry_Flygon
+	cry2 Cry_Yeltzer
+	cry2 Cry_Metiore
+	cry2 Cry_Cometide
+	cry2 Cry_Galadrake
 	cry2 Cry_Yolkanner
 	cry2 Cry_Aconeggs
 	cry2 Cry_Armydrone
@@ -1625,27 +1625,27 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Crawdaunt
 	cry2 Cry_Baltoy
 	cry2 Cry_Claydol
-	cry2 Cry_Lileep
+	cry2 Cry_Odosaur
 	cry2 Cry_Cradily
-	cry2 Cry_Anorith
-	cry2 Cry_Armaldo
+	cry2 Cry_Triceras
+	cry2 Cry_Xenotops
 	cry2 Cry_Feebas
-	cry2 Cry_Milotic
+	cry2 Cry_Nutvalanche
 	cry2 Cry_Castform
 	cry2 Cry_Kecleon
-	cry2 Cry_Shuppet
-	cry2 Cry_Banette
+	cry2 Cry_Ticktowel
+	cry2 Cry_Tocktower
 	cry2 Cry_Ratman
 	cry2 Cry_Hugeman
 	cry2 Cry_Tropius
 	cry2 Cry_Chimecho
 	cry2 Cry_Absol
 	cry2 Cry_Wynaut
-	cry2 Cry_Snorunt
-	cry2 Cry_Glalie
-	cry2 Cry_Spheal
-	cry2 Cry_Sealeo
-	cry2 Cry_Walrein
+	cry2 Cry_Chairold
+	cry2 Cry_Elechair
+	cry2 Cry_Piraghoul
+	cry2 Cry_Morghost
+	cry2 Cry_Phasmorgan
 	cry2 Cry_Clamperl
 	cry2 Cry_Huntail
 	cry2 Cry_Gorebyss
@@ -2217,9 +2217,9 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Sharpedo_Mega
 	cry2_not Cry_Errorine_Mega
 	cry2_not Cry_UNSC_Mega
-	cry2_not Cry_Banette_Mega
+	cry2_not Cry_Tocktower_Mega
 	cry2_not Cry_Absol_Mega
-	cry2_not Cry_Glalie_Mega
+	cry2_not Cry_Elechair_Mega
 	cry2_not Cry_Salamence_Mega
 	cry2_not Cry_Metagross_Mega
 	cry2_not Cry_Latias_Mega

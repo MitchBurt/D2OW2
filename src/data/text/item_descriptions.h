@@ -2555,7 +2555,7 @@ static const u8 sMurphireiteDesc[] = _(
 static const u8 sBanettiteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Banette.");
+    "Tocktower.");
 
 static const u8 sFrosiliskiteDesc[] = _(
     "Piedra que permite\n"
@@ -2695,7 +2695,7 @@ static const u8 sFazeagleiteDesc[] = _(
 static const u8 sGlalititeDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Glalie.");
+    "Elechair.");
 
 static const u8 sDianciteDesc[] = _(
     "Piedra que permite\n"
@@ -5787,7 +5787,7 @@ static const u8 sMurphireiteDesc[] = _(
 
 static const u8 sBanettiteDesc[] = _(
     "This stone enables\n"
-    "Banette to Mega\n"
+    "Tocktower to Mega\n"
     "Evolve in battle.");
 
 static const u8 sFrosiliskiteDesc[] = _(
@@ -5927,7 +5927,7 @@ static const u8 sFazeagleiteDesc[] = _(
 
 static const u8 sGlalititeDesc[] = _(
     "This stone enables\n"
-    "Glalie to Mega\n"
+    "Elechair to Mega\n"
     "Evolve in battle.");
 
 static const u8 sDianciteDesc[] = _(

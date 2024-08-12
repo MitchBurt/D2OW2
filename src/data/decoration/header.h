@@ -947,7 +947,7 @@ const struct Decoration gDecorations[] = {
         DecorGfx_ZIGZAG_CUSHION
     }, {
         DECOR_SPIN_CUSHION,
-        _("Cojín Spinda"),
+        _("Cojín Yeltzer"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_CUSHION,

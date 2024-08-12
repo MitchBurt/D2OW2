@@ -177,7 +177,7 @@ const struct ContestWinner gDefaultContestWinners[] =
     {
         .personality = 0,
         .trainerId = 0xFFFF,
-        .species = SPECIES_SHUPPET,
+        .species = SPECIES_TICKTOWEL,
         .contestCategory = CONTEST_CATEGORY_SMART,
         .monName = _("Shupup"),
         .trainerName = _("Melany"),
@@ -411,7 +411,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_PAIGE] = {
-        .species = SPECIES_SPHEAL,
+        .species = SPECIES_PIRAGHOUL,
         .nickname = _("Sleal"),
         .trainerName = _("Paige"),
         .trainerGfxId = OBJ_EVENT_GFX_WOMAN_4,
@@ -887,7 +887,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_KARINA] = {
-        .species = SPECIES_ROSELIA,
+        .species = SPECIES_ALIEON,
         .nickname = _("Relia"),
         .trainerName = _("Karina"),
         .trainerGfxId = OBJ_EVENT_GFX_PICNICKER,
@@ -943,7 +943,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_CLAIRE] = {
-        .species = SPECIES_TRAPINCH,
+        .species = SPECIES_METIORE,
         .nickname = _("Pinchin"),
         .trainerName = _("Claire"),
         .trainerGfxId = OBJ_EVENT_GFX_GIRL_1,
@@ -1083,7 +1083,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_MILES] = {
-        .species = SPECIES_SPINDA,
+        .species = SPECIES_YELTZER,
         .nickname = _("Spinin"),
         .trainerName = _("Miles"),
         .trainerGfxId = OBJ_EVENT_GFX_CAMPER,

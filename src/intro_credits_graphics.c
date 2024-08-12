@@ -590,29 +590,29 @@ const struct CompressedSpriteSheet gIntro2BicycleSpriteSheet[] =
 static const struct CompressedSpriteSheet gUnknown_085F52EC[] =
 {
     {
-        .data = gIntro2FlygonGfx,
+        .data = gIntro2GaladrakeGfx,
         .size = 0x1000,
         .tag = 1004
     },
     {}
 };
 
-const struct CompressedSpriteSheet gIntro2FlygonSpriteSheet[] =
+const struct CompressedSpriteSheet gIntro2GaladrakeSpriteSheet[] =
 {
     {
-        .data = gIntro2FlygonGfx,
+        .data = gIntro2GaladrakeGfx,
         .size = 0x1000,
         .tag = 1005
     },
     {}
 };
 
-const struct SpritePalette gIntroBikeAndFlygonPalette[] =
+const struct SpritePalette gIntroBikeAndGaladrakePalette[] =
 {
     { .data = gIntro2BrendanNoTurnPal, .tag = 1002 },
     { .data = gIntro2BrendanNoTurnPal, .tag = 1003 },
-    { .data = gIntro2FlygonPal,        .tag = 1004 },
-    { .data = gIntro2FlygonPal,        .tag = 1005 },
+    { .data = gIntro2GaladrakePal,        .tag = 1004 },
+    { .data = gIntro2GaladrakePal,        .tag = 1005 },
     {}
 };
 
@@ -1105,12 +1105,12 @@ static u8 sub_817B948(s16 a, s16 b)
     return sprite;
 }
 
-u8 intro_create_flygon_sprite(s16 a, s16 b)
+u8 intro_create_galadrake_sprite(s16 a, s16 b)
 {
     u8 sprite = CreateSprite(&gUnknown_085F52A4, a - 32, b, 5);
-    u8 flygon = CreateSprite(&gUnknown_085F52A4, a + 32, b, 6);
-    gSprites[flygon].data[0] = sprite;
-    StartSpriteAnim(&gSprites[flygon], 1);
-    gSprites[flygon].callback = &sub_817B8E8;
+    u8 galadrake = CreateSprite(&gUnknown_085F52A4, a + 32, b, 6);
+    gSprites[galadrake].data[0] = sprite;
+    StartSpriteAnim(&gSprites[galadrake], 1);
+    gSprites[galadrake].callback = &sub_817B8E8;
     return sprite;
 }

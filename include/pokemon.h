@@ -450,7 +450,7 @@ struct SignatureMove
     u8  chance6;
 };
 
-struct SpindaSpot
+struct YeltzerSpot
 {
     u8 x, y;
     u16 image[16];
@@ -596,7 +596,7 @@ u16 SpeciesToNationalPokedexNum(u16 species);
 u16 SpeciesToHoennPokedexNum(u16 species);
 u16 HoennToNationalOrder(u16 hoennNum);
 void sub_806D544(u16 species, u32 personality, u8 *dest);
-void DrawSpindaSpots(u16 species, u32 personality, u8 *dest, u8 a4);
+void DrawYeltzerSpots(u16 species, u32 personality, u8 *dest, u8 a4);
 void EvolutionRenameMon(struct Pokemon *mon, u16 oldSpecies, u16 newSpecies);
 u8 GetPlayerFlankId(void);
 u16 GetLinkTrainerFlankId(u8 id);

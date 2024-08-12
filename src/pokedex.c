@@ -1810,7 +1810,7 @@ void ResetPokedex(void)
     gSaveBlock2Ptr->pokedex.nationalMagic = 0;
     gSaveBlock2Ptr->pokedex.unknown2 = 0;
     gSaveBlock2Ptr->pokedex.unownPersonality = 0;
-    gSaveBlock2Ptr->pokedex.spindaPersonality = 0;
+    gSaveBlock2Ptr->pokedex.yeltzerPersonality = 0;
     gSaveBlock2Ptr->pokedex.unknown3 = 0;
     //DisableNationalPokedex();
     for (i = 0; i < DEX_FLAGS_NO; i++)
@@ -5238,16 +5238,16 @@ static u16 GetNextPosition(u8 direction, u16 position, u16 min, u16 max)
     return position;
 }
 
-// Unown and Spinda use the personality of the first seen individual of that species
+// Unown and Yeltzer use the personality of the first seen individual of that species
 // All others use personality 0
 static u32 GetPokedexMonPersonality(u16 species)
 {
-    if (species == SPECIES_UNOWN || species == SPECIES_SPINDA)
+    if (species == SPECIES_UNOWN || species == SPECIES_YELTZER)
     {
         if (species == SPECIES_UNOWN)
             return gSaveBlock2Ptr->pokedex.unownPersonality;
         else
-            return gSaveBlock2Ptr->pokedex.spindaPersonality;
+            return gSaveBlock2Ptr->pokedex.yeltzerPersonality;
     }
     else
     {

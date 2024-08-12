@@ -2043,7 +2043,7 @@ gTVWhatsNo1InHoennTodayText04:: @ 082882BE
 	.string "Toward the end, even {STR_VAR_1}\n"
 	.string "seemed to get dizzy.\p"
 	.string "The Trainer appeared to totter\n"
-	.string "around like a Spinda!$"
+	.string "around like a Yeltzer!$"
 
 gTVWhatsNo1InHoennTodayText05:: @ 08288355
 	.string "In just one day, {STR_VAR_1} planted\n"

@@ -2000,9 +2000,9 @@ static void UnlockQuestMenu(void)
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_CORORK), 		FLAG_GET_CAUGHT)	||
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_BIGOBEET), 	FLAG_GET_CAUGHT)	||
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_USARMY), 	FLAG_GET_CAUGHT)	||
-		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_LILEEP), 		FLAG_GET_CAUGHT)	||
-		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ANORITH), 	FLAG_GET_CAUGHT)	||
-		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ARMALDO), 	FLAG_GET_CAUGHT)	||
+		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ODOSAUR), 		FLAG_GET_CAUGHT)	||
+		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_TRICERAS), 	FLAG_GET_CAUGHT)	||
+		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_XENOTOPS), 	FLAG_GET_CAUGHT)	||
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_CRANIDOS), 	FLAG_GET_CAUGHT)	||
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_RAMPARDOS), 	FLAG_GET_CAUGHT)	||
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_SHIELDON), 	FLAG_GET_CAUGHT)	||
@@ -2027,9 +2027,9 @@ static void UnlockQuestMenu(void)
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_CORORK), 		FLAG_GET_CAUGHT)	&&
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_BIGOBEET), 	FLAG_GET_CAUGHT)	&&
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_USARMY), 	FLAG_GET_CAUGHT)	&&
-		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_LILEEP), 		FLAG_GET_CAUGHT)	&&
-		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ANORITH), 	FLAG_GET_CAUGHT)	&&
-		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ARMALDO), 	FLAG_GET_CAUGHT)	&&
+		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ODOSAUR), 		FLAG_GET_CAUGHT)	&&
+		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_TRICERAS), 	FLAG_GET_CAUGHT)	&&
+		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_XENOTOPS), 	FLAG_GET_CAUGHT)	&&
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_CRANIDOS), 	FLAG_GET_CAUGHT)	&&
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_RAMPARDOS), 	FLAG_GET_CAUGHT)	&&
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_SHIELDON), 	FLAG_GET_CAUGHT)	&&
@@ -2132,7 +2132,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_RENAGEDE:
 				case SPECIES_BATANARF:
 				case SPECIES_ANIVENOM:
-				case SPECIES_SPINDA:
+				case SPECIES_YELTZER:
 				case SPECIES_TORTERRA:
 				case SPECIES_DOGEASTER:
 				case SPECIES_JAFEET:
@@ -2182,7 +2182,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_UNJOY:
 				case SPECIES_NYANKITTY:
 				case SPECIES_MINUN:
-				case SPECIES_LILEEP:
+				case SPECIES_ODOSAUR:
 				case SPECIES_TROPIUS:
 				case SPECIES_SHELGON:
 				case SPECIES_MUNNA:
@@ -2396,9 +2396,9 @@ static void Task_QuestMenuProgress(u8 taskId)
 				SPECIES_CORORK,
 				SPECIES_BIGOBEET,
 				SPECIES_USARMY,
-				SPECIES_LILEEP,
-				SPECIES_ANORITH,
-				SPECIES_ARMALDO,
+				SPECIES_ODOSAUR,
+				SPECIES_TRICERAS,
+				SPECIES_XENOTOPS,
 				SPECIES_CRANIDOS,
 				SPECIES_RAMPARDOS,
 				SPECIES_SHIELDON,

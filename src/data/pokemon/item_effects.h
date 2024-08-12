@@ -532,6 +532,7 @@ const u8 *const gItemEffectTable[ITEMS_COUNT] =
     [ITEM_DUSK_STONE] = gItemEffect_EvoStone,
     [ITEM_SHINY_STONE] = gItemEffect_EvoStone,
     [ITEM_ICE_STONE] = gItemEffect_EvoStone,
+    [ITEM_COSMIC_STONE] = gItemEffect_EvoStone,
     [ITEM_CHERI_BERRY] = gItemEffect_CheriBerry,
     [ITEM_CHESTO_BERRY] = gItemEffect_ChestoBerry,
     [ITEM_PECHA_BERRY] = gItemEffect_PechaBerry,

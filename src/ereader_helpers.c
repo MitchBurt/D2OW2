@@ -253,7 +253,7 @@ static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
                 .friendship = 255
             },
             [4] = {
-                .species = SPECIES_ROSELIA,
+                .species = SPECIES_ALIEON,
                 .heldItem = ITEM_LEFTOVERS,
                 .moves = { MOVE_GIGA_DRAIN, MOVE_GRASS_WHISTLE, MOVE_TOXIC, MOVE_LEECH_SEED },
                 .level = 0,
@@ -363,7 +363,7 @@ static const struct TrainerHillTrainer sTrainerHillTrainerTemplates_JP[] = {
                 .friendship = 255
             },
             [5] = {
-                .species = SPECIES_BANETTE,
+                .species = SPECIES_TOCKTOWER,
                 .heldItem = ITEM_LUM_BERRY,
                 .moves = { MOVE_PSYCHIC, MOVE_SHADOW_BALL, MOVE_THUNDERBOLT, MOVE_WILL_O_WISP },
                 .level = 0,

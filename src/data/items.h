@@ -11308,4 +11308,17 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .secondaryId = 0,
     },
+
+//New
+    [ITEM_COSMIC_STONE] =
+    {
+        .name = _("Cosmic Stone"),
+        .itemId = ITEM_COSMIC_STONE,
+        .price = 2100,
+        .description = sFireStoneDesc,
+        .pocket = POCKET_POWER_UP,
+        .type = 1,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+        .secondaryId = 0,
+    },
 };

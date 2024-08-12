@@ -360,9 +360,9 @@ static const u16 sCastformFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sBanetteFormSpeciesIdTable[] = {
-    SPECIES_BANETTE,
-    SPECIES_BANETTE_MEGA,
+static const u16 sTocktowerFormSpeciesIdTable[] = {
+    SPECIES_TOCKTOWER,
+    SPECIES_TOCKTOWER_MEGA,
     0xFFFF,
 };
 
@@ -372,9 +372,9 @@ static const u16 sAbsolFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sGlalieFormSpeciesIdTable[] = {
-    SPECIES_GLALIE,
-    SPECIES_GLALIE_MEGA,
+static const u16 sElechairFormSpeciesIdTable[] = {
+    SPECIES_ELECHAIR,
+    SPECIES_ELECHAIR_MEGA,
     0xFFFF,
 };
 

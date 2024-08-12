@@ -941,7 +941,10 @@
 #define ITEM_EXP_CHARM            775
 #define ITEM_CATCHING_CHARM       776
 
-#define ITEMS_COUNT 778
+//New
+#define ITEM_COSMIC_STONE       777
+
+#define ITEMS_COUNT 779
 #define ITEM_FIELD_ARROW ITEMS_COUNT
 
 #define FIRST_BERRY_INDEX             ITEM_CHERI_BERRY

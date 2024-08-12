@@ -8,8 +8,8 @@ extern s16 gUnknown_0203BD28;
 extern const struct CompressedSpriteSheet gIntro2BrendanSpriteSheet[];
 extern const struct CompressedSpriteSheet gIntro2MaySpriteSheet[];
 extern const struct CompressedSpriteSheet gIntro2BicycleSpriteSheet[];
-extern const struct CompressedSpriteSheet gIntro2FlygonSpriteSheet[];
-extern const struct SpritePalette gIntroBikeAndFlygonPalette[];
+extern const struct CompressedSpriteSheet gIntro2GaladrakeSpriteSheet[];
+extern const struct SpritePalette gIntroBikeAndGaladrakePalette[];
 extern const struct CompressedSpriteSheet gUnknown_085F5334[];
 extern const struct CompressedSpriteSheet gUnknown_085F5344[];
 extern const struct CompressedSpriteSheet gUnknown_085F5354[];
@@ -25,6 +25,6 @@ u8 CreateBicycleAnimationTask(u8 a, u16 b, u16 c, u16 d);
 void sub_817B540(u8);
 u8 intro_create_brendan_sprite(s16 a, s16 b);
 u8 intro_create_may_sprite(s16 a, s16 b);
-u8 intro_create_flygon_sprite(s16 a, s16 b);
+u8 intro_create_galadrake_sprite(s16 a, s16 b);
 
 #endif // GUARD_INTRO_CREDITS_GRAPHICS_H

@@ -3668,11 +3668,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_MOONLIGHT] =
     {
-        #if B_UPDATED_MOVE_DATA >= GEN_6
-            .type = TYPE_COSMIC,
-        #else
-            .type = TYPE_NORMAL,
-        #endif
+        .type = TYPE_COSMIC,
         .effect = EFFECT_MOONLIGHT,
         .power = 0,
         .accuracy = 0,
@@ -11475,8 +11471,85 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_IRON_FIST_BOOST | FLAG_SHEER_FORCE_BOOST,
         .split = SPLIT_PHYSICAL,
     },
+//TODO
+    //Banana Bomb - everyone target, grass type
+
+    //Funnel - Wrap
+    
+    //Ferment - calm mind
+/* 
+Booze Bash
+
+    Type: Alcohol
+    Category: Physical
+    Power: 75
+    Accuracy: 100%
+    PP: 15
+    Effect: The user slams into the target while intoxicated, potentially causing the target to flinch.
+    Similar to: Iron Head
+
+
+Moonshine Blast
+
+    Type: Alcohol
+    Category: Special
+    Power: 110
+    Accuracy: 85%
+    PP: 10
+    Effect: A powerful blast of homemade alcohol. This move has a 20% chance to lower the targets Defense.
+    Similar to: Focus Blast
+
+Fizz Cannon
+
+    Type: Alcohol
+    Category: Special
+    Power: 90
+    Accuracy: 100%
+    PP: 10
+    Effect: The user fires a highly pressurized burst of fizzy alcohol at the target. This move has a 20% chance to lower the targets Speed.
+    Similar to: Steam Eruption
+
+bottle smash - recoil
+
+Molotov Cocktail
+
+    Type: Alcohol
+    Category: Special
+    Power: 110
+    Accuracy: 85%
+    PP: 5
+    Effect: The user hurls a volatile mixture that explodes on impact, dealing heavy damage and having a 30% chance to burn the target.
+    Similar to: Fire Blast
+
+Spiked- Turns water into alcohol?
+ */
+
+
+//Falcon punch
 };
 
+
+//TODO CLICK TOWEL SCARY FACE FAILS
+//White claw 
+//Mega Awmane Explosion Recoil
+//Cordra line electric wrap
+//Headbutt signature for Gang
+//Shawt line shot attack increased chance
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
    /* [SPECIES_YGGDRACON] =
     {
@@ -12255,7 +12328,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_SPINDA] =
+    [SPECIES_YELTZER] =
     {
         .move = MOVE_DIZZY_PUNCH,
         .modification = SIGNATURE_MOD_PRIORITY,
@@ -12291,7 +12364,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_GLALIE] =
+    [SPECIES_ELECHAIR] =
     {
         .move = MOVE_ICE_FANG,
         .modification = SIGNATURE_MOD_POWER,
@@ -12301,7 +12374,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_GLALIE_MEGA] =
+    [SPECIES_ELECHAIR_MEGA] =
     {
         .move = MOVE_ICE_FANG,
         .modification = SIGNATURE_MOD_POWER,
@@ -12311,7 +12384,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_ANORITH] =
+    [SPECIES_TRICERAS] =
     {
         .move = MOVE_FURY_CUTTER,
         .modification = SIGNATURE_MOD_POWER,
@@ -12324,7 +12397,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_ARMALDO] =
+    [SPECIES_XENOTOPS] =
     {
         .move = MOVE_FURY_CUTTER,
         .modification = SIGNATURE_MOD_POWER,
@@ -12337,7 +12410,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_LILEEP] =
+    [SPECIES_ODOSAUR] =
     {
         .move = MOVE_MEGA_DRAIN,
         .modification = SIGNATURE_MOD_POWER,

@@ -204,7 +204,7 @@ const u16 gSpeciesToHoennPokedexNum[NUM_SPECIES] = // Assigns all species to the
     SPECIES_TO_HOENN(DIVINI),
     SPECIES_TO_HOENN(PARANGELIA),
     SPECIES_TO_HOENN(BUDEW),
-    SPECIES_TO_HOENN(ROSELIA),
+    SPECIES_TO_HOENN(ALIEON),
     SPECIES_TO_HOENN(ROSERADE),
     SPECIES_TO_HOENN(SYMBITE),
     SPECIES_TO_HOENN(CARNIGORE),
@@ -225,11 +225,11 @@ const u16 gSpeciesToHoennPokedexNum[NUM_SPECIES] = // Assigns all species to the
     SPECIES_TO_HOENN(SELTCLAW),
     SPECIES_TO_HOENN(JAFEET),
     SPECIES_TO_HOENN(TOYUTA),
-    SPECIES_TO_HOENN(SPINDA),
+    SPECIES_TO_HOENN(YELTZER),
     SPECIES_TO_HOENN(LEGEARTH),
-    SPECIES_TO_HOENN(TRAPINCH),
-    SPECIES_TO_HOENN(VIBRAVA),
-    SPECIES_TO_HOENN(FLYGON),
+    SPECIES_TO_HOENN(METIORE),
+    SPECIES_TO_HOENN(COMETIDE),
+    SPECIES_TO_HOENN(GALADRAKE),
     SPECIES_TO_HOENN(YOLKANNER),
     SPECIES_TO_HOENN(ACONEGGS),
     SPECIES_TO_HOENN(ARMYDRONE),
@@ -244,21 +244,21 @@ const u16 gSpeciesToHoennPokedexNum[NUM_SPECIES] = // Assigns all species to the
     SPECIES_TO_HOENN(CRAWDAUNT),
     SPECIES_TO_HOENN(BALTOY),
     SPECIES_TO_HOENN(CLAYDOL),
-    SPECIES_TO_HOENN(LILEEP),
+    SPECIES_TO_HOENN(ODOSAUR),
     SPECIES_TO_HOENN(CRADILY),
-    SPECIES_TO_HOENN(ANORITH),
-    SPECIES_TO_HOENN(ARMALDO),
+    SPECIES_TO_HOENN(TRICERAS),
+    SPECIES_TO_HOENN(XENOTOPS),
     SPECIES_TO_HOENN(VCRBRAIN),
     SPECIES_TO_HOENN(SNEDDIT),
     SPECIES_TO_HOENN(COSMIE),
     SPECIES_TO_HOENN(FEEBAS),
-    SPECIES_TO_HOENN(MILOTIC),
+    SPECIES_TO_HOENN(NUTVALANCHE),
     SPECIES_TO_HOENN(CASTFORM),
     SPECIES_TO_HOENN(BURIK),
     SPECIES_TO_HOENN(BICYELION),
     SPECIES_TO_HOENN(KECLEON),
-    SPECIES_TO_HOENN(SHUPPET),
-    SPECIES_TO_HOENN(BANETTE),
+    SPECIES_TO_HOENN(TICKTOWEL),
+    SPECIES_TO_HOENN(TOCKTOWER),
     SPECIES_TO_HOENN(RATMAN),
     SPECIES_TO_HOENN(HUGEMAN),
     SPECIES_TO_HOENN(DUSKNOIR),
@@ -285,12 +285,12 @@ const u16 gSpeciesToHoennPokedexNum[NUM_SPECIES] = // Assigns all species to the
     SPECIES_TO_HOENN(POTOGREED),
     SPECIES_TO_HOENN(YEESAUR),
     SPECIES_TO_HOENN(RHYPERIOR),
-    SPECIES_TO_HOENN(SNORUNT),
-    SPECIES_TO_HOENN(GLALIE),
+    SPECIES_TO_HOENN(CHAIROLD),
+    SPECIES_TO_HOENN(ELECHAIR),
     SPECIES_TO_HOENN(FROSLASS),
-    SPECIES_TO_HOENN(SPHEAL),
-    SPECIES_TO_HOENN(SEALEO),
-    SPECIES_TO_HOENN(WALREIN),
+    SPECIES_TO_HOENN(PIRAGHOUL),
+    SPECIES_TO_HOENN(MORGHOST),
+    SPECIES_TO_HOENN(PHASMORGAN),
     SPECIES_TO_HOENN(CLAMPERL),
     SPECIES_TO_HOENN(HUNTAIL),
     SPECIES_TO_HOENN(GOREBYSS),
@@ -636,7 +636,7 @@ const u16 gSpeciesToNationalPokedexNum[NUM_SPECIES] = // Assigns all species to 
     SPECIES_TO_NATIONAL(MINUN),
     SPECIES_TO_NATIONAL(VOLBEAT),
     SPECIES_TO_NATIONAL(ILLUMISE),
-    SPECIES_TO_NATIONAL(ROSELIA),
+    SPECIES_TO_NATIONAL(ALIEON),
     SPECIES_TO_NATIONAL(SYMBITE),
     SPECIES_TO_NATIONAL(CARNIGORE),
     SPECIES_TO_NATIONAL(CARVANHA),
@@ -648,10 +648,10 @@ const u16 gSpeciesToNationalPokedexNum[NUM_SPECIES] = // Assigns all species to 
     SPECIES_TO_NATIONAL(HELLAPHANT),
     SPECIES_TO_NATIONAL(FIZZCUB),
     SPECIES_TO_NATIONAL(SELTCLAW),
-    SPECIES_TO_NATIONAL(SPINDA),
-    SPECIES_TO_NATIONAL(TRAPINCH),
-    SPECIES_TO_NATIONAL(VIBRAVA),
-    SPECIES_TO_NATIONAL(FLYGON),
+    SPECIES_TO_NATIONAL(YELTZER),
+    SPECIES_TO_NATIONAL(METIORE),
+    SPECIES_TO_NATIONAL(COMETIDE),
+    SPECIES_TO_NATIONAL(GALADRAKE),
     SPECIES_TO_NATIONAL(YOLKANNER),
     SPECIES_TO_NATIONAL(ACONEGGS),
     SPECIES_TO_NATIONAL(ARMYDRONE),
@@ -666,27 +666,27 @@ const u16 gSpeciesToNationalPokedexNum[NUM_SPECIES] = // Assigns all species to 
     SPECIES_TO_NATIONAL(CRAWDAUNT),
     SPECIES_TO_NATIONAL(BALTOY),
     SPECIES_TO_NATIONAL(CLAYDOL),
-    SPECIES_TO_NATIONAL(LILEEP),
+    SPECIES_TO_NATIONAL(ODOSAUR),
     SPECIES_TO_NATIONAL(CRADILY),
-    SPECIES_TO_NATIONAL(ANORITH),
-    SPECIES_TO_NATIONAL(ARMALDO),
+    SPECIES_TO_NATIONAL(TRICERAS),
+    SPECIES_TO_NATIONAL(XENOTOPS),
     SPECIES_TO_NATIONAL(FEEBAS),
-    SPECIES_TO_NATIONAL(MILOTIC),
+    SPECIES_TO_NATIONAL(NUTVALANCHE),
     SPECIES_TO_NATIONAL(CASTFORM),
     SPECIES_TO_NATIONAL(KECLEON),
-    SPECIES_TO_NATIONAL(SHUPPET),
-    SPECIES_TO_NATIONAL(BANETTE),
+    SPECIES_TO_NATIONAL(TICKTOWEL),
+    SPECIES_TO_NATIONAL(TOCKTOWER),
     SPECIES_TO_NATIONAL(RATMAN),
     SPECIES_TO_NATIONAL(HUGEMAN),
     SPECIES_TO_NATIONAL(TROPIUS),
     SPECIES_TO_NATIONAL(CHIMECHO),
     SPECIES_TO_NATIONAL(ABSOL),
     SPECIES_TO_NATIONAL(WYNAUT),
-    SPECIES_TO_NATIONAL(SNORUNT),
-    SPECIES_TO_NATIONAL(GLALIE),
-    SPECIES_TO_NATIONAL(SPHEAL),
-    SPECIES_TO_NATIONAL(SEALEO),
-    SPECIES_TO_NATIONAL(WALREIN),
+    SPECIES_TO_NATIONAL(CHAIROLD),
+    SPECIES_TO_NATIONAL(ELECHAIR),
+    SPECIES_TO_NATIONAL(PIRAGHOUL),
+    SPECIES_TO_NATIONAL(MORGHOST),
+    SPECIES_TO_NATIONAL(PHASMORGAN),
     SPECIES_TO_NATIONAL(CLAMPERL),
     SPECIES_TO_NATIONAL(HUNTAIL),
     SPECIES_TO_NATIONAL(GOREBYSS),
@@ -1255,9 +1255,9 @@ const u16 gSpeciesToNationalPokedexNum[NUM_SPECIES] = // Assigns all species to 
     [SPECIES_SHARPEDO_MEGA - 1] = NATIONAL_DEX_SHARPEDO,
     [SPECIES_ERRORINE_MEGA - 1] = NATIONAL_DEX_ERRORINE,
     [SPECIES_UNSC_MEGA - 1] = NATIONAL_DEX_UNSC,
-    [SPECIES_BANETTE_MEGA - 1] = NATIONAL_DEX_BANETTE,
+    [SPECIES_TOCKTOWER_MEGA - 1] = NATIONAL_DEX_TOCKTOWER,
     [SPECIES_ABSOL_MEGA - 1] = NATIONAL_DEX_ABSOL,
-    [SPECIES_GLALIE_MEGA - 1] = NATIONAL_DEX_GLALIE,
+    [SPECIES_ELECHAIR_MEGA - 1] = NATIONAL_DEX_ELECHAIR,
     [SPECIES_SALAMENCE_MEGA - 1] = NATIONAL_DEX_SALAMENCE,
     [SPECIES_METAGROSS_MEGA - 1] = NATIONAL_DEX_METAGROSS,
     [SPECIES_LATIAS_MEGA - 1] = NATIONAL_DEX_LATIAS,
@@ -1692,7 +1692,7 @@ const u16 gHoennToNationalOrder[HOENN_DEX_COUNT] = // Assigns Hoenn Dex Pokémon
     HOENN_TO_NATIONAL(DIVINI),
     HOENN_TO_NATIONAL(PARANGELIA),
     HOENN_TO_NATIONAL(BUDEW),
-    HOENN_TO_NATIONAL(ROSELIA),
+    HOENN_TO_NATIONAL(ALIEON),
     HOENN_TO_NATIONAL(ROSERADE),
     HOENN_TO_NATIONAL(SYMBITE),
     HOENN_TO_NATIONAL(CARNIGORE),
@@ -1713,11 +1713,11 @@ const u16 gHoennToNationalOrder[HOENN_DEX_COUNT] = // Assigns Hoenn Dex Pokémon
     HOENN_TO_NATIONAL(SELTCLAW),
     HOENN_TO_NATIONAL(JAFEET),
     HOENN_TO_NATIONAL(TOYUTA),
-    HOENN_TO_NATIONAL(SPINDA),
+    HOENN_TO_NATIONAL(YELTZER),
     HOENN_TO_NATIONAL(LEGEARTH),
-    HOENN_TO_NATIONAL(TRAPINCH),
-    HOENN_TO_NATIONAL(VIBRAVA),
-    HOENN_TO_NATIONAL(FLYGON),
+    HOENN_TO_NATIONAL(METIORE),
+    HOENN_TO_NATIONAL(COMETIDE),
+    HOENN_TO_NATIONAL(GALADRAKE),
     HOENN_TO_NATIONAL(YOLKANNER),
     HOENN_TO_NATIONAL(ACONEGGS),
     HOENN_TO_NATIONAL(ARMYDRONE),
@@ -1732,21 +1732,21 @@ const u16 gHoennToNationalOrder[HOENN_DEX_COUNT] = // Assigns Hoenn Dex Pokémon
     HOENN_TO_NATIONAL(CRAWDAUNT),
     HOENN_TO_NATIONAL(BALTOY),
     HOENN_TO_NATIONAL(CLAYDOL),
-    HOENN_TO_NATIONAL(LILEEP),
+    HOENN_TO_NATIONAL(ODOSAUR),
     HOENN_TO_NATIONAL(CRADILY),
-    HOENN_TO_NATIONAL(ANORITH),
-    HOENN_TO_NATIONAL(ARMALDO),
+    HOENN_TO_NATIONAL(TRICERAS),
+    HOENN_TO_NATIONAL(XENOTOPS),
     HOENN_TO_NATIONAL(VCRBRAIN),
     HOENN_TO_NATIONAL(SNEDDIT),
     HOENN_TO_NATIONAL(COSMIE),
     HOENN_TO_NATIONAL(FEEBAS),
-    HOENN_TO_NATIONAL(MILOTIC),
+    HOENN_TO_NATIONAL(NUTVALANCHE),
     HOENN_TO_NATIONAL(CASTFORM),
     HOENN_TO_NATIONAL(BURIK),
     HOENN_TO_NATIONAL(BICYELION),
     HOENN_TO_NATIONAL(KECLEON),
-    HOENN_TO_NATIONAL(SHUPPET),
-    HOENN_TO_NATIONAL(BANETTE),
+    HOENN_TO_NATIONAL(TICKTOWEL),
+    HOENN_TO_NATIONAL(TOCKTOWER),
     HOENN_TO_NATIONAL(RATMAN),
     HOENN_TO_NATIONAL(HUGEMAN),
     HOENN_TO_NATIONAL(DUSKNOIR),
@@ -1773,12 +1773,12 @@ const u16 gHoennToNationalOrder[HOENN_DEX_COUNT] = // Assigns Hoenn Dex Pokémon
     HOENN_TO_NATIONAL(POTOGREED),
     HOENN_TO_NATIONAL(YEESAUR),
     HOENN_TO_NATIONAL(RHYPERIOR),
-    HOENN_TO_NATIONAL(SNORUNT),
-    HOENN_TO_NATIONAL(GLALIE),
+    HOENN_TO_NATIONAL(CHAIROLD),
+    HOENN_TO_NATIONAL(ELECHAIR),
     HOENN_TO_NATIONAL(FROSLASS),
-    HOENN_TO_NATIONAL(SPHEAL),
-    HOENN_TO_NATIONAL(SEALEO),
-    HOENN_TO_NATIONAL(WALREIN),
+    HOENN_TO_NATIONAL(PIRAGHOUL),
+    HOENN_TO_NATIONAL(MORGHOST),
+    HOENN_TO_NATIONAL(PHASMORGAN),
     HOENN_TO_NATIONAL(CLAMPERL),
     HOENN_TO_NATIONAL(HUNTAIL),
     HOENN_TO_NATIONAL(GOREBYSS),
@@ -1808,12 +1808,12 @@ const u16 gHoennToNationalOrder[HOENN_DEX_COUNT] = // Assigns Hoenn Dex Pokémon
     HOENN_TO_NATIONAL(DEOXYS),
 };
 
-const struct SpindaSpot gSpindaSpotGraphics[] =
+const struct YeltzerSpot gYeltzerSpotGraphics[] =
 {
-    {16, 7, INCBIN_U16("graphics/spinda_spots/spot_0.bin")},
-    {40, 8, INCBIN_U16("graphics/spinda_spots/spot_1.bin")},
-    {22, 25, INCBIN_U16("graphics/spinda_spots/spot_2.bin")},
-    {34, 26, INCBIN_U16("graphics/spinda_spots/spot_3.bin")}
+    {16, 7, INCBIN_U16("graphics/yeltzer_spots/spot_0.bin")},
+    {40, 8, INCBIN_U16("graphics/yeltzer_spots/spot_1.bin")},
+    {22, 25, INCBIN_U16("graphics/yeltzer_spots/spot_2.bin")},
+    {34, 26, INCBIN_U16("graphics/yeltzer_spots/spot_3.bin")}
 };
 
 void GetHpIV(void)
@@ -2187,7 +2187,7 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_XAPP - 1] = 0x01,
     [SPECIES_BLINKY - 1] = 0x00,
     [SPECIES_DOUBLINKER - 1] = 0x00,
-    [SPECIES_SPINDA - 1] = 0x31,
+    [SPECIES_YELTZER - 1] = 0x31,
     [SPECIES_BATCARDI - 1] = 0x1b,
     [SPECIES_NOCTRUM - 1] = 0x1c,
     [SPECIES_SURSKIT - 1] = 0x00,
@@ -2208,25 +2208,25 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_CORPHISH - 1] = 0x10,
     [SPECIES_CRAWDAUNT - 1] = 0x09,
     [SPECIES_FEEBAS - 1] = 0x49,
-    [SPECIES_MILOTIC - 1] = 0x22,
+    [SPECIES_NUTVALANCHE - 1] = 0x22,
     [SPECIES_CARVANHA - 1] = 0x49,
     [SPECIES_SHARPEDO - 1] = 0x56,
-    [SPECIES_TRAPINCH - 1] = 0x10,
-    [SPECIES_VIBRAVA - 1] = 0x0f,
-    [SPECIES_FLYGON - 1] = 0x4b,
+    [SPECIES_METIORE - 1] = 0x10,
+    [SPECIES_COMETIDE - 1] = 0x0f,
+    [SPECIES_GALADRAKE - 1] = 0x4b,
     [SPECIES_ANGBEAST - 1] = 0x0b,
     [SPECIES_GANGBEATS - 1] = 0x34,
     [SPECIES_CORDRA - 1] = 0x00,
     [SPECIES_AUXILISK - 1] = 0x00,
     [SPECIES_VULPOINTER - 1] = 0x04,
     [SPECIES_ERRORINE - 1] = 0x10,
-    [SPECIES_SPHEAL - 1] = 0x53,
-    [SPECIES_SEALEO - 1] = 0x17,
-    [SPECIES_WALREIN - 1] = 0x0f,
+    [SPECIES_PIRAGHOUL - 1] = 0x53,
+    [SPECIES_MORGHOST - 1] = 0x17,
+    [SPECIES_PHASMORGAN - 1] = 0x0f,
     [SPECIES_YOLKANNER - 1] = 0x49,
     [SPECIES_ACONEGGS - 1] = 0x04,
-    [SPECIES_SNORUNT - 1] = 0x45,
-    [SPECIES_GLALIE - 1] = 0x0a,
+    [SPECIES_CHAIROLD - 1] = 0x45,
+    [SPECIES_ELECHAIR - 1] = 0x0a,
     [SPECIES_LUNATONE - 1] = 0x0e,
     [SPECIES_SOLROCK - 1] = 0x08,
     [SPECIES_AZURILL - 1] = 0x00,
@@ -2242,7 +2242,7 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_WYNAUT - 1] = 0x32,
     [SPECIES_RATMAN - 1] = 0x0a,
     [SPECIES_HUGEMAN - 1] = 0x02,
-    [SPECIES_ROSELIA - 1] = 0x45,
+    [SPECIES_ALIEON - 1] = 0x45,
     [SPECIES_DOOBOB - 1] = 0x45,
     [SPECIES_DOODOOBOB - 1] = 0x31,
     [SPECIES_UGADOOBA - 1] = 0x45,
@@ -2256,8 +2256,8 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_HUNTAIL - 1] = 0x09,
     [SPECIES_GOREBYSS - 1] = 0x1c,
     [SPECIES_ABSOL - 1] = 0x11,
-    [SPECIES_SHUPPET - 1] = 0x1c,
-    [SPECIES_BANETTE - 1] = 0x0d,
+    [SPECIES_TICKTOWEL - 1] = 0x1c,
+    [SPECIES_TOCKTOWER - 1] = 0x0d,
     [SPECIES_SEVIPER - 1] = 0x17,
     [SPECIES_ZANGOOSE - 1] = 0x09,
     [SPECIES_RELICANTH - 1] = 0x1a,
@@ -2267,10 +2267,10 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_CASTFORM - 1] = 0x1d,
     [SPECIES_VOLBEAT - 1] = 0x00,
     [SPECIES_ILLUMISE - 1] = 0x05,
-    [SPECIES_LILEEP - 1] = 0x17,
+    [SPECIES_ODOSAUR - 1] = 0x17,
     [SPECIES_CRADILY - 1] = 0x19,
-    [SPECIES_ANORITH - 1] = 0x12,
-    [SPECIES_ARMALDO - 1] = 0x10,
+    [SPECIES_TRICERAS - 1] = 0x12,
+    [SPECIES_XENOTOPS - 1] = 0x10,
     [SPECIES_NOTAFURRY - 1] = 0x45,
     [SPECIES_SORTAFURRY - 1] = 0x00,
     [SPECIES_THATSFURRY - 1] = 0x00,
@@ -2714,9 +2714,9 @@ static const u8 sMonAnimationDelayTable[NUM_SPECIES - 1] =
     [SPECIES_HELPME - 1] = 0x14,
     [SPECIES_WAILORD - 1] = 0x0a,
     [SPECIES_KECLEON - 1] = 0x1e,
-    [SPECIES_MILOTIC - 1] = 0x2d,
-    [SPECIES_SPHEAL - 1] = 0x0f,
-    [SPECIES_SNORUNT - 1] = 0x14,
+    [SPECIES_NUTVALANCHE - 1] = 0x2d,
+    [SPECIES_PIRAGHOUL - 1] = 0x0f,
+    [SPECIES_CHAIROLD - 1] = 0x14,
     [SPECIES_SELTCLAW - 1] = 0x0f,
     [SPECIES_WYNAUT - 1] = 0x0f,
     [SPECIES_HUGEMAN - 1] = 0x1e,
@@ -7144,7 +7144,7 @@ u16 HoennToNationalOrder(u16 hoennNum)
 
 void sub_806D544(u16 species, u32 personality, u8 *dest)
 {
-    if (species == SPECIES_SPINDA
+    if (species == SPECIES_YELTZER
         && dest != gMonSpritesGfxPtr->sprites[0]
         && dest != gMonSpritesGfxPtr->sprites[2])
     {
@@ -7152,13 +7152,13 @@ void sub_806D544(u16 species, u32 personality, u8 *dest)
         for (i = 0; i < 4; i++)
         {
             int j;
-            u8 x = gSpindaSpotGraphics[i].x + ((personality & 0x0F) - 8);
-            u8 y = gSpindaSpotGraphics[i].y + (((personality & 0xF0) >> 4) - 8);
+            u8 x = gYeltzerSpotGraphics[i].x + ((personality & 0x0F) - 8);
+            u8 y = gYeltzerSpotGraphics[i].y + (((personality & 0xF0) >> 4) - 8);
 
             for (j = 0; j < 16; j++)
             {
                 int k;
-                s32 row = gSpindaSpotGraphics[i].image[j];
+                s32 row = gYeltzerSpotGraphics[i].image[j];
 
                 for (k = x; k < x + 16; k++)
                 {
@@ -7189,21 +7189,21 @@ void sub_806D544(u16 species, u32 personality, u8 *dest)
     }
 }
 
-void DrawSpindaSpots(u16 species, u32 personality, u8 *dest, u8 a4)
+void DrawYeltzerSpots(u16 species, u32 personality, u8 *dest, u8 a4)
 {
-    if (species == SPECIES_SPINDA && a4)
+    if (species == SPECIES_YELTZER && a4)
     {
         int i;
         for (i = 0; i < 4; i++)
         {
             int j;
-            u8 x = gSpindaSpotGraphics[i].x + ((personality & 0x0F) - 8);
-            u8 y = gSpindaSpotGraphics[i].y + (((personality & 0xF0) >> 4) - 8);
+            u8 x = gYeltzerSpotGraphics[i].x + ((personality & 0x0F) - 8);
+            u8 y = gYeltzerSpotGraphics[i].y + (((personality & 0xF0) >> 4) - 8);
 
             for (j = 0; j < 16; j++)
             {
                 int k;
-                s32 row = gSpindaSpotGraphics[i].image[j];
+                s32 row = gYeltzerSpotGraphics[i].image[j];
 
                 for (k = x; k < x + 16; k++)
                 {
@@ -8749,8 +8749,8 @@ void HandleSetPokedexFlag(u16 nationalNum, u8 caseId, u32 personality)
         GetSetPokedexFlag(nationalNum, caseId);
         if (NationalPokedexNumToSpecies(nationalNum) == SPECIES_UNOWN)
             gSaveBlock2Ptr->pokedex.unownPersonality = personality;
-        if (NationalPokedexNumToSpecies(nationalNum) == SPECIES_SPINDA)
-            gSaveBlock2Ptr->pokedex.spindaPersonality = personality;
+        if (NationalPokedexNumToSpecies(nationalNum) == SPECIES_YELTZER)
+            gSaveBlock2Ptr->pokedex.yeltzerPersonality = personality;
     }
 }
 
@@ -8770,7 +8770,7 @@ const u8 *GetTrainerNameFromId(u16 trainerId)
 
 bool8 HasTwoFramesAnimation(u16 species)
 {
-    return (species != SPECIES_SPINDA
+    return (species != SPECIES_YELTZER
             && species != SPECIES_UNOWN);
 }
 

@@ -923,10 +923,10 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_SNORUNT:
+		case SPECIES_CHAIROLD:
 			if(level >= 42){
 				u16 PossibleEvo[] = {
-					SPECIES_GLALIE,
+					SPECIES_ELECHAIR,
 					SPECIES_FROSLASS,
 				};
 				
@@ -1586,8 +1586,8 @@ u16 GetScaledItem(u16 itemId)
 		ITEM_DOME_FOSSIL,			//Corork
 		ITEM_HELIX_FOSSIL,			//Attaco
 		ITEM_OLD_AMBER,				//Usarmy
-		ITEM_ROOT_FOSSIL,			//Lileep
-		ITEM_CLAW_FOSSIL,			//Anorith
+		ITEM_ROOT_FOSSIL,			//Odosaur
+		ITEM_CLAW_FOSSIL,			//Triceras
 		ITEM_SKULL_FOSSIL,			//Cranidos
 		ITEM_ARMOR_FOSSIL,			//Shieldon
 		ITEM_COVER_FOSSIL,			//Tirtuga
@@ -2412,7 +2412,7 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_AUDINITE;
 		break;
-		case SPECIES_BANETTE:
+		case SPECIES_TOCKTOWER:
 			if(canMega)
 				item = ITEM_BANETTITE;
 		break;
@@ -2452,7 +2452,7 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_SANSITE;
 		break;
-		case SPECIES_GLALIE:
+		case SPECIES_ELECHAIR:
 			if(canMega)
 				item = ITEM_GLALITITE;
 		break;

@@ -401,7 +401,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
                 .moves = {MOVE_TOXIC, MOVE_SANDSTORM, MOVE_PROTECT, MOVE_REST},
             },
             {
-                .species = SPECIES_MILOTIC,
+                .species = SPECIES_NUTVALANCHE,
                 .heldItem = ITEM_LEFTOVERS,
                 .fixedIV = 16,
                 .nature = NATURE_MODEST,

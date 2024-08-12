@@ -474,7 +474,7 @@ const u8 DecorDesc_ZIGZAG_CUSHION[] = _(
         "una mesa o tapete.");
 
 const u8 DecorDesc_SPIN_CUSHION[] = _(
-    "Cojín de Spinda.\n"
+    "Cojín de Yeltzer.\n"
         "Ponlo en una mesa\n"
         "o tapete.");
 
@@ -1050,7 +1050,7 @@ const u8 DecorDesc_ZIGZAG_CUSHION[] = _(
         "a mat or a desk.");
 
 const u8 DecorDesc_SPIN_CUSHION[] = _(
-    "A Spinda cushion.\n"
+    "A Yeltzer cushion.\n"
         "Place it on a mat\n"
         "or a desk.");
 

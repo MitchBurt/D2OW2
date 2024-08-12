@@ -199,7 +199,7 @@ struct Pokedex
     /*0x02*/ u8 nationalMagic; // must equal 0xDA in order to have National mode
     /*0x03*/ u8 unknown2;
     /*0x04*/ u32 unownPersonality; // set when you first see Unown
-    /*0x08*/ u32 spindaPersonality; // set when you first see Spinda
+    /*0x08*/ u32 yeltzerPersonality; // set when you first see Yeltzer
     /*0x0C*/ u32 unknown3;
 };
 

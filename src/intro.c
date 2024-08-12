@@ -54,12 +54,12 @@
  *  - At frame 128 of this state, spawn Task_IntroWaterDrops_1
  *  - At frame 256 of this state, spawn Task_IntroWaterDrops_2
  *  - At frame 560 of this state, spawn Task_IntroWaterDrops_3
- * Task_IntroScrollDownAndShowFlygon
+ * Task_IntroScrollDownAndShowGaladrake
  * Task_IntroWaitToSetupPart2
  * Task_IntroLoadPart2Graphics
  * Task_IntroStartBikeRide
  *  - Spawn Task_AdvanceBicycleAnimation
- * Task_IntroHandleBikeAndFlygonMovement
+ * Task_IntroHandleBikeAndGaladrakeMovement
  *  - At frame 1856, kills the bicycle animation task
  * Task_IntroWaitToSetupPart3
  * Task_IntroLoadPart3Graphics (frame counter resets to 0 here)
@@ -95,7 +95,7 @@ extern const struct SpriteTemplate gAncientPowerRockSpriteTemplate[];
 //ewram
 EWRAM_DATA u16 gIntroCharacterGender = 0;
 EWRAM_DATA u16 gUnknown_0203BCCA = 0;
-EWRAM_DATA u16 gIntroGraphicsFlygonYOffset = 0;
+EWRAM_DATA u16 gIntroGraphicsGaladrakeYOffset = 0;
 
 //iwram
 u32 gIntroFrameCounter;
@@ -120,7 +120,7 @@ static const u32 gIntro3Streaks_Tilemap_Unused[] = INCBIN_U32("graphics/intro/in
 static const u16 gIntro3Misc1Palette[] = INCBIN_U16("graphics/intro/intro3_misc1.gbapal");
 static const u16 gIntro3Misc2Palette_Unused[] = INCBIN_U16("graphics/intro/intro3_misc2.gbapal");
 static const u32 gIntro3MiscTiles[] = INCBIN_U32("graphics/intro/intro3_misc.4bpp.lz");
-static const u16 gIntro1FlygonPalette[] = INCBIN_U16("graphics/intro/intro1_flygon.gbapal");
+static const u16 gIntro1GaladrakePalette[] = INCBIN_U16("graphics/intro/intro1_galadrake.gbapal");
 static const u32 gIntro1EonTiles_Unused[] = INCBIN_U32("graphics/intro/intro1_eon.4bpp.lz");
 static const u8 sUnknownBytes[] = {
     0x02, 0x03, 0x04, 0x05, 0x01, 0x01, 0x01, 0x06, 0x07, 0x08, 0x09, 0x0A, 0x0B, 0x0C, 0x02, 0x0D,
@@ -838,16 +838,16 @@ static const struct CompressedSpriteSheet gIntroSpriteSheet_WaterDropAndLogo[] =
     {gIntroTiles, 0x1400, 2000},
     {NULL},
 };
-static const struct CompressedSpriteSheet gIntroSpriteSheet_Flygon[] =
+static const struct CompressedSpriteSheet gIntroSpriteSheet_Galadrake[] =
 {
-    {gIntro1FlygonGfx, 0x400, 2002},
+    {gIntro1GaladrakeGfx, 0x400, 2002},
     {NULL},
 };
-static const struct SpritePalette gIntroPalette_DropLogoFlygon[] =
+static const struct SpritePalette gIntroPalette_DropLogoGaladrake[] =
 {
     {gIntro1DropsPal, 2000},
     {gIntro1GFLogoPal, 2001},
-    {gIntro1FlygonPalette, 2002},
+    {gIntro1GaladrakePalette, 2002},
     {NULL},
 };
 static const struct OamData gUnknown_085E501C =
@@ -907,11 +907,11 @@ static void Task_IntroWaterDrops(u8);
 static void Task_IntroWaterDrops_1(u8);
 static void Task_IntroWaterDrops_2(u8);
 static void Task_IntroWaterDrops_3(u8);
-static void Task_IntroScrollDownAndShowFlygon(u8);
+static void Task_IntroScrollDownAndShowGaladrake(u8);
 static void Task_IntroWaitToSetupPart2(u8);
 static void Task_IntroLoadPart2Graphics(u8);
 static void Task_IntroStartBikeRide(u8);
-static void Task_IntroHandleBikeAndFlygonMovement(u8);
+static void Task_IntroHandleBikeAndGaladrakeMovement(u8);
 static void Task_IntroWaitToSetupPart3(u8);
 static void Task_IntroLoadPart3Graphics(u8);
 static void Task_IntroSpinAndZoomPokeball(u8);
@@ -944,7 +944,7 @@ static void sub_816F660(struct Sprite *);
 static void SpriteCB_WaterDropFall(struct Sprite *);
 static void sub_816F318(struct Sprite *);
 static void SpriteCB_IntroGraphicsBicycle(struct Sprite *);
-static void SpriteCB_IntroGraphicsFlygon(struct Sprite *);
+static void SpriteCB_IntroGraphicsGaladrake(struct Sprite *);
 static u8 CreatePart1Animations(s16, s16, s16);
 
 static void VBlankCB_Intro(void)
@@ -1110,8 +1110,8 @@ void Task_IntroLoadPart1Graphics(u8 taskId)
     SetGpuReg(REG_OFFSET_BG1CNT, BGCNT_PRIORITY(1) | BGCNT_CHARBASE(0) | BGCNT_SCREENBASE(18) | BGCNT_16COLOR | BGCNT_TXT256x512);
     SetGpuReg(REG_OFFSET_BG0CNT, BGCNT_PRIORITY(0) | BGCNT_CHARBASE(0) | BGCNT_SCREENBASE(16) | BGCNT_16COLOR | BGCNT_TXT256x512);
     LoadCompressedSpriteSheet(gIntroSpriteSheet_WaterDropAndLogo);
-    LoadCompressedSpriteSheet(gIntroSpriteSheet_Flygon);
-    LoadSpritePalettes(gIntroPalette_DropLogoFlygon);
+    LoadCompressedSpriteSheet(gIntroSpriteSheet_Galadrake);
+    LoadSpritePalettes(gIntroPalette_DropLogoGaladrake);
     LoadCompressedSpriteSheet(gIntroSpriteSheet_Sparkle);
     LoadSpritePalettes(gIntroPalette_Lightning);
     CpuCopy16(gPlttBufferUnfaded + 0x100, gPlttBufferUnfaded + 0x1F0, 0x20);
@@ -1170,7 +1170,7 @@ static void Task_IntroWaterDrops(u8 taskId)
         gTasks[taskId].data[4] = 0;
         gTasks[taskId].data[5] = 0x28;
         gTasks[taskId].data[6] = 0;
-        gTasks[taskId].func = Task_IntroScrollDownAndShowFlygon;
+        gTasks[taskId].func = Task_IntroScrollDownAndShowGaladrake;
     }
 }
 
@@ -1204,7 +1204,7 @@ static void sub_816D338(struct Sprite *sprite)
         DestroySprite(sprite);
 }
 
-static void Task_IntroScrollDownAndShowFlygon(u8 taskId)
+static void Task_IntroScrollDownAndShowGaladrake(u8 taskId)
 {
     if (gIntroFrameCounter < 904)
     {
@@ -1227,7 +1227,7 @@ static void Task_IntroScrollDownAndShowFlygon(u8 taskId)
         gTasks[taskId].data[6] = r2;
         SetGpuReg(REG_OFFSET_BG0VOFS, gTasks[taskId].data[5]);
 
-        //show Flygon sprite
+        //show Galadrake sprite
         if (gIntroFrameCounter == 832)
         {
             u8 spriteId = CreateSprite(&gUnknown_085E4FC4, 120, 160, 10);
@@ -1259,7 +1259,7 @@ static void Task_IntroLoadPart2Graphics(u8 taskId)
     FreeAllSpritePalettes();
     gUnknown_0203BD24 = 0;
     gUnknown_0203BD26 = 0;
-    gIntroGraphicsFlygonYOffset = 0;
+    gIntroGraphicsGaladrakeYOffset = 0;
     load_intro_part2_graphics(1);
     gTasks[taskId].func = Task_IntroStartBikeRide;
 }
@@ -1274,14 +1274,14 @@ static void Task_IntroStartBikeRide(u8 taskId)
         LoadCompressedSpriteSheet(gIntro2MaySpriteSheet);
 
     LoadCompressedSpriteSheet(gIntro2BicycleSpriteSheet);
-    LoadCompressedSpriteSheet(gIntro2FlygonSpriteSheet);
+    LoadCompressedSpriteSheet(gIntro2GaladrakeSpriteSheet);
 
     for (spriteId = 0; spriteId < 3; spriteId++)
     {
         LoadCompressedSpriteSheet(&gIntroPokemonRunningSpriteSheet[spriteId]);
     }
 
-    LoadSpritePalettes(gIntroBikeAndFlygonPalette);
+    LoadSpritePalettes(gIntroBikeAndGaladrakePalette);
     LoadSpritePalettes(gIntroPokemonRunningPalette);
     CreateSprite(&gUnknown_085E4BDC, 0x110, 0x80, 0);
     CreateSprite(&gUnknown_085E4BA4, 0x120, 0x6E, 1);
@@ -1295,17 +1295,17 @@ static void Task_IntroStartBikeRide(u8 taskId)
     gSprites[spriteId].anims = gIntroBicycleAnimationCommands;
     gTasks[taskId].data[1] = spriteId;
     CreateSprite(&gUnknown_085E4B40, 0x110, 0x50, 0x4);
-    spriteId = intro_create_flygon_sprite(-0x40, 0x3C);
-    gSprites[spriteId].callback = SpriteCB_IntroGraphicsFlygon;
+    spriteId = intro_create_galadrake_sprite(-0x40, 0x3C);
+    gSprites[spriteId].callback = SpriteCB_IntroGraphicsGaladrake;
     gTasks[taskId].data[2] = spriteId;
     BeginNormalPaletteFade(0xFFFFFFFF, 0, 16, 0, RGB_WHITEALPHA);
     SetVBlankCallback(VBlankCB_Intro);
     gTasks[taskId].data[0] = CreateBicycleAnimationTask(1, 0x4000, 0x400, 0x10);
     sub_817B150(1);
-    gTasks[taskId].func = Task_IntroHandleBikeAndFlygonMovement;
+    gTasks[taskId].func = Task_IntroHandleBikeAndGaladrakeMovement;
 }
 
-static void Task_IntroHandleBikeAndFlygonMovement(u8 taskId)
+static void Task_IntroHandleBikeAndGaladrakeMovement(u8 taskId)
 {
     s16 a;
     u16 offset;
@@ -1335,7 +1335,7 @@ static void Task_IntroHandleBikeAndFlygonMovement(u8 taskId)
         gSprites[gTasks[taskId].data[1]].data[0] = 4;
 
     offset = Sin(gTasks[taskId].data[3] >> 2 & 0x7F, 48);
-    gIntroGraphicsFlygonYOffset = offset;
+    gIntroGraphicsGaladrakeYOffset = offset;
     if (gTasks[taskId].data[3] < 512)
         gTasks[taskId].data[3]++;
     sub_817B540(0);
@@ -2829,7 +2829,7 @@ static void SpriteCB_IntroGraphicsBicycle(struct Sprite *sprite)
     }
 }
 
-static void SpriteCB_IntroGraphicsFlygon(struct Sprite *sprite)
+static void SpriteCB_IntroGraphicsGaladrake(struct Sprite *sprite)
 {
     switch (sprite->data[0])
     {
@@ -2852,7 +2852,7 @@ static void SpriteCB_IntroGraphicsFlygon(struct Sprite *sprite)
             sprite->pos2.x -= 2;
         break;
     }
-    sprite->pos2.y = Sin((u8)sprite->data[1], 8) - gIntroGraphicsFlygonYOffset;
+    sprite->pos2.y = Sin((u8)sprite->data[1], 8) - gIntroGraphicsGaladrakeYOffset;
     sprite->data[1] += 4;
 }
 

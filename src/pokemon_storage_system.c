@@ -1518,7 +1518,7 @@ static const u32 gWallpaperIcon_Pichu[] = INCBIN_U32("graphics/pokemon_storage/p
 static const u32 gWallpaperIcon_Diglett[] = INCBIN_U32("graphics/pokemon_storage/diglett_icon.4bpp.lz");
 static const u32 gWallpaperIcon_Luvdisc[] = INCBIN_U32("graphics/pokemon_storage/luvdisc_icon.4bpp.lz");
 static const u32 gWallpaperIcon_StarInCircle[] = INCBIN_U32("graphics/pokemon_storage/star_in_circle_icon.4bpp.lz");
-static const u32 gWallpaperIcon_Spinda[] = INCBIN_U32("graphics/pokemon_storage/spinda_icon.4bpp.lz");
+static const u32 gWallpaperIcon_Yeltzer[] = INCBIN_U32("graphics/pokemon_storage/yeltzer_icon.4bpp.lz");
 static const u32 gWallpaperIcon_Latis[] = INCBIN_U32("graphics/pokemon_storage/latis_icon.4bpp.lz");
 static const u32 gWallpaperIcon_Minun[] = INCBIN_U32("graphics/pokemon_storage/minun_icon.4bpp.lz");
 static const u32 gWallpaperIcon_Filmbrain[] = INCBIN_U32("graphics/pokemon_storage/filmbrain_icon.4bpp.lz");
@@ -1570,7 +1570,7 @@ static const u32 *const gFriendsIcons[] =
     gWallpaperIcon_Diglett,
     gWallpaperIcon_Luvdisc,
     gWallpaperIcon_StarInCircle,
-    gWallpaperIcon_Spinda,
+    gWallpaperIcon_Yeltzer,
     gWallpaperIcon_Latis,
     gWallpaperIcon_Plusle,
     gWallpaperIcon_Minun,
