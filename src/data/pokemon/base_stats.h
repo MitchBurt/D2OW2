@@ -7714,7 +7714,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_SURSKIT] =
+    [SPECIES_WHISKBALL] =
     {
         .baseHP        = 40,
         .baseAttack    = 30,
@@ -7740,7 +7740,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_MASQUERAIN] =
+    [SPECIES_CINAMANCER] =
     {
         .baseHP        = 70,
         .baseAttack    = 60,
@@ -41549,7 +41549,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_SURSKIT] =
+    [SPECIES_WHISKBALL] =
     {
         .baseHP        = 40,
         .baseAttack    = 30,
@@ -41575,7 +41575,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_MASQUERAIN] =
+    [SPECIES_CINAMANCER] =
     {
         .baseHP        = 70,
         .baseAttack    = 60,

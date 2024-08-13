@@ -11513,7 +11513,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED,
         .split = SPLIT_PHYSICAL,
     },
-    
+
     [MOVE_FERMENT] =
     {
         .effect = EFFECT_CALM_MIND,

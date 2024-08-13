@@ -1515,12 +1515,12 @@ Cry_Thatsfurry::
 	.incbin "sound/direct_sound_samples/cries/cry_thatsfurry.bin"
 
 	.align 2
-Cry_Surskit::
-	.incbin "sound/direct_sound_samples/cries/cry_surskit.bin"
+Cry_Whiskball::
+	.incbin "sound/direct_sound_samples/cries/cry_whiskball.bin"
 
 	.align 2
-Cry_Masquerain::
-	.incbin "sound/direct_sound_samples/cries/cry_masquerain.bin"
+Cry_Cinamancer::
+	.incbin "sound/direct_sound_samples/cries/cry_cinamancer.bin"
 
 	.align 2
 Cry_Blinky::

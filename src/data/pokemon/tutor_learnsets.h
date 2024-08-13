@@ -6804,7 +6804,7 @@ static const u8 sThatsfurryTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sSurskitTutorLearnset[] =
+static const u8 sWhiskballTutorLearnset[] =
 {
     TUTOR(MOVE_DOUBLE_EDGE),
     TUTOR(MOVE_MIMIC),
@@ -6822,7 +6822,7 @@ static const u8 sSurskitTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sMasquerainTutorLearnset[] =
+static const u8 sCinamancerTutorLearnset[] =
 {
     TUTOR(MOVE_DOUBLE_EDGE),
     TUTOR(MOVE_MIMIC),
@@ -20004,8 +20004,8 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_NOTAFURRY] = sNotafurryTutorLearnset,
     [SPECIES_SORTAFURRY] = sSortafurryTutorLearnset,
     [SPECIES_THATSFURRY] = sThatsfurryTutorLearnset,
-    [SPECIES_SURSKIT] = sSurskitTutorLearnset,
-    [SPECIES_MASQUERAIN] = sMasquerainTutorLearnset,
+    [SPECIES_WHISKBALL] = sWhiskballTutorLearnset,
+    [SPECIES_CINAMANCER] = sCinamancerTutorLearnset,
     [SPECIES_BLINKY] = sBlinkyTutorLearnset,
     [SPECIES_DOUBLINKER] = sDoublinkerTutorLearnset,
     [SPECIES_DOOBOB] = sDoobobTutorLearnset,

@@ -2043,7 +2043,7 @@ const u16 gEggMoves[] = {
 		MOVE_MISTY_TERRAIN,
 		MOVE_WILL_O_WISP),
 
-	egg_moves(SURSKIT,
+	egg_moves(WHISKBALL,
 		MOVE_HYDRO_PUMP,
 		MOVE_PSYBEAM,
 		MOVE_MIND_READER,

@@ -336,7 +336,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_CALM,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_SURSKIT] = {
+    [FRONTIER_MON_WHISKBALL] = {
         .species = SPECIES_COBALION,
         .moves = {MOVE_IRON_HEAD, MOVE_SWORDS_DANCE, MOVE_CLOSE_COMBAT, MOVE_SACRED_SWORD},
         .itemTableId = BATTLE_FRONTIER_ITEM_SCOPE_LENS,
@@ -1584,8 +1584,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_ADAMANT,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_MASQUERAIN_1] = {
-        .species = SPECIES_MASQUERAIN,
+    [FRONTIER_MON_CINAMANCER_1] = {
+        .species = SPECIES_CINAMANCER,
         .moves = {MOVE_SILVER_WIND, MOVE_AERIAL_ACE, MOVE_ICY_WIND, MOVE_STUN_SPORE    },
         .itemTableId = BATTLE_FRONTIER_ITEM_CHERI_BERRY,
         .evSpread = F_EV_SPREAD_DEFENSE | F_EV_SPREAD_ATTACK,
@@ -2424,8 +2424,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_ADAMANT,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_MASQUERAIN_2] = {
-        .species = SPECIES_MASQUERAIN,
+    [FRONTIER_MON_CINAMANCER_2] = {
+        .species = SPECIES_CINAMANCER,
         .moves = {MOVE_HYDRO_PUMP, MOVE_ICE_BEAM, MOVE_GIGA_DRAIN, MOVE_STUN_SPORE    },
         .itemTableId = BATTLE_FRONTIER_ITEM_LAX_INCENSE,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_DEFENSE,

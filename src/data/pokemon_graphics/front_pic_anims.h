@@ -3338,7 +3338,7 @@ static const union AnimCmd sAnim_NOCTRUM_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_SURSKIT_1[] =
+static const union AnimCmd sAnim_WHISKBALL_1[] =
 {
     ANIMCMD_FRAME(0, 6),
     ANIMCMD_FRAME(1, 18),
@@ -3348,13 +3348,13 @@ static const union AnimCmd sAnim_SURSKIT_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_SURSKIT_2[] =
+static const union AnimCmd sAnim_WHISKBALL_2[] =
 {
     ANIMCMD_FRAME(1, 1),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_MASQUERAIN_1[] =
+static const union AnimCmd sAnim_CINAMANCER_1[] =
 {
     ANIMCMD_FRAME(0, 8),
     ANIMCMD_FRAME(1, 8),
@@ -3368,7 +3368,7 @@ static const union AnimCmd sAnim_MASQUERAIN_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_MASQUERAIN_2[] =
+static const union AnimCmd sAnim_CINAMANCER_2[] =
 {
     ANIMCMD_FRAME(1, 1),
     ANIMCMD_END,
@@ -10623,16 +10623,16 @@ static const union AnimCmd *const sAnims_NOCTRUM[] ={
     sAnim_NOCTRUM_1,
 };
 
-static const union AnimCmd *const sAnims_SURSKIT[] ={
+static const union AnimCmd *const sAnims_WHISKBALL[] ={
     sAnim_GeneralFrame0,
-    sAnim_SURSKIT_1,
-    sAnim_SURSKIT_2,
+    sAnim_WHISKBALL_1,
+    sAnim_WHISKBALL_2,
 };
 
-static const union AnimCmd *const sAnims_MASQUERAIN[] ={
+static const union AnimCmd *const sAnims_CINAMANCER[] ={
     sAnim_GeneralFrame0,
-    sAnim_MASQUERAIN_1,
-    sAnim_MASQUERAIN_2,
+    sAnim_CINAMANCER_1,
+    sAnim_CINAMANCER_2,
 };
 
 static const union AnimCmd *const sAnims_WAILMER[] ={
@@ -14724,8 +14724,8 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(YELTZER),
     ANIM_CMD(BATCARDI),
     ANIM_CMD(NOCTRUM),
-    ANIM_CMD(SURSKIT),
-    ANIM_CMD(MASQUERAIN),
+    ANIM_CMD(WHISKBALL),
+    ANIM_CMD(CINAMANCER),
     ANIM_CMD(WAILMER),
     ANIM_CMD(WAILORD),
     ANIM_CMD(SKITTY),

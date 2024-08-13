@@ -170,7 +170,7 @@ const struct Evolution gFirstEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_TAILLOW]               = {{EVO_LEVEL, 22, SPECIES_XAPP}},
     [SPECIES_BLINKY]             = {{EVO_LEVEL, 23, SPECIES_DOUBLINKER}},
     [SPECIES_BATCARDI]               = {{EVO_LEVEL, 29, SPECIES_NOCTRUM}},
-    [SPECIES_SURSKIT]               = {{EVO_LEVEL, 22, SPECIES_MASQUERAIN}},
+    [SPECIES_WHISKBALL]               = {{EVO_LEVEL, 22, SPECIES_CINAMANCER}},
     [SPECIES_WAILMER]               = {{EVO_LEVEL, 40, SPECIES_WAILORD}},
 //    [SPECIES_SKITTY]                = {{EVO_EXIOLITE, 28, SPECIES_NYANCAT},
 	                                   //{EVO_ITEM, ITEM_MOON_STONE, SPECIES_NYANCAT}},

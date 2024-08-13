@@ -11325,7 +11325,7 @@ static const u8 sThatsfurryTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sSurskitTMHMLearnset[] =
+static const u8 sWhiskballTMHMLearnset[] =
 {
     TMHM(TM03_WATER_PULSE),
     TMHM(TM06_TOXIC),
@@ -11357,7 +11357,7 @@ static const u8 sSurskitTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sMasquerainTMHMLearnset[] =
+static const u8 sCinamancerTMHMLearnset[] =
 {
     TMHM(TM03_WATER_PULSE),
     TMHM(TM06_TOXIC),
@@ -36196,8 +36196,8 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_NOTAFURRY] = sNotafurryTMHMLearnset,
     [SPECIES_SORTAFURRY] = sSortafurryTMHMLearnset,
     [SPECIES_THATSFURRY] = sThatsfurryTMHMLearnset,
-    [SPECIES_SURSKIT] = sSurskitTMHMLearnset,
-    [SPECIES_MASQUERAIN] = sMasquerainTMHMLearnset,
+    [SPECIES_WHISKBALL] = sWhiskballTMHMLearnset,
+    [SPECIES_CINAMANCER] = sCinamancerTMHMLearnset,
     [SPECIES_BLINKY] = sBlinkyTMHMLearnset,
     [SPECIES_DOUBLINKER] = sDoublinkerTMHMLearnset,
     [SPECIES_DOOBOB] = sDoobobTMHMLearnset,

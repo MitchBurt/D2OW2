@@ -285,8 +285,8 @@ gCryTable:: @ 869DCF4
 	cry Cry_Notafurry
 	cry Cry_Sortafurry
 	cry Cry_Thatsfurry
-	cry Cry_Surskit
-	cry Cry_Masquerain
+	cry Cry_Whiskball
+	cry Cry_Cinamancer
 	cry Cry_Blinky
 	cry Cry_Doublinker
 	cry Cry_Doobob
@@ -1563,8 +1563,8 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Notafurry
 	cry2 Cry_Sortafurry
 	cry2 Cry_Thatsfurry
-	cry2 Cry_Surskit
-	cry2 Cry_Masquerain
+	cry2 Cry_Whiskball
+	cry2 Cry_Cinamancer
 	cry2 Cry_Blinky
 	cry2 Cry_Doublinker
 	cry2 Cry_Doobob

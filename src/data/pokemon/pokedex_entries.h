@@ -3397,24 +3397,24 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SURSKIT] =
+    [NATIONAL_DEX_WHISKBALL] =
     {
         .categoryName = _("Zapatero"),
         .height = 5,
         .weight = 17,
-        .description = gSurskitPokedexText,
+        .description = gWhiskballPokedexText,
         .pokemonScale = 375,
         .pokemonOffset = 17,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MASQUERAIN] =
+    [NATIONAL_DEX_CINAMANCER] =
     {
         .categoryName = _("Globocular"),
         .height = 8,
         .weight = 36,
-        .description = gMasquerainPokedexText,
+        .description = gCinamancerPokedexText,
         .pokemonScale = 378,
         .pokemonOffset = 8,
         .trainerScale = 256,
@@ -14187,24 +14187,24 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SURSKIT] =
+    [NATIONAL_DEX_WHISKBALL] =
     {
         .categoryName = _("Pond Skater"),
         .height = 5,
         .weight = 17,
-        .description = gSurskitPokedexText,
+        .description = gWhiskballPokedexText,
         .pokemonScale = 375,
         .pokemonOffset = 17,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MASQUERAIN] =
+    [NATIONAL_DEX_CINAMANCER] =
     {
         .categoryName = _("Eyeball"),
         .height = 8,
         .weight = 36,
-        .description = gMasquerainPokedexText,
+        .description = gCinamancerPokedexText,
         .pokemonScale = 378,
         .pokemonOffset = 8,
         .trainerScale = 256,

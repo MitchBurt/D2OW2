@@ -1711,13 +1711,13 @@ const u8 gNoctrumPokedexText[] = _(
     "pico que tiene para sacarla del agua.\n"
     "También protege sus huevos con él.");
 
-const u8 gSurskitPokedexText[] = _(
+const u8 gWhiskballPokedexText[] = _(
     "Se agrupan en charcos después de la lluvia\n"
     "de la tarde, moviéndose por la superficie\n"
     "del agua como si se deslizaran. Segregan\n"
     "una miel de dulce aroma por la cabeza.");
 
-const u8 gMasquerainPokedexText[] = _(
+const u8 gCinamancerPokedexText[] = _(
     "Intimida al enemigo con los ojos que tiene\n"
     "dibujados en las antenas. Como no puede\n"
     "volar si se le mojan las alas, se protege\n"
@@ -7069,13 +7069,13 @@ const u8 gNoctrumPokedexText[] = _(
     "to scoop up the victim with water.\n"
     "It protects its eggs in its beak.");
 
-const u8 gSurskitPokedexText[] = _(
+const u8 gWhiskballPokedexText[] = _(
     "They gather on puddles after evening\n"
     "downpours, gliding across the surface\n"
     "of water as if sliding. It secretes honey\n"
     "with a sweet aroma from its head.");
 
-const u8 gMasquerainPokedexText[] = _(
+const u8 gCinamancerPokedexText[] = _(
     "It intimidates foes with the large eyelike\n"
     "patterns on its antennae. Because it can't\n"
     "fly if its wings get wet, it shelters itself\n"

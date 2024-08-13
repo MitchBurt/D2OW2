@@ -370,7 +370,7 @@ static const struct PokemonJumpMons gPkmnJumpSpecies[] =
     { .species = SPECIES_SOBBLEAF,     .unk2 = 1, },
     { .species = SPECIES_NOTAFURRY,      .unk2 = 0, },
     { .species = SPECIES_SORTAFURRY,     .unk2 = 0, },
-    { .species = SPECIES_SURSKIT,    .unk2 = 2, },
+    { .species = SPECIES_WHISKBALL,    .unk2 = 2, },
     { .species = SPECIES_BLINKY,  .unk2 = 2, },
     { .species = SPECIES_NINCADA,    .unk2 = 1, },
     { .species = SPECIES_COWERLIN,    .unk2 = 0, },

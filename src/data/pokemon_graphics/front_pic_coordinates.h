@@ -1435,12 +1435,12 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x77,
         .y_offset = 2,
     },
-    [SPECIES_SURSKIT] =
+    [SPECIES_WHISKBALL] =
     {
         .size = 0x65,
         .y_offset = 8,
     },
-    [SPECIES_MASQUERAIN] =
+    [SPECIES_CINAMANCER] =
     {
         .size = 0x88,
         .y_offset = 4,

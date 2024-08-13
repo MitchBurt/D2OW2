@@ -17,7 +17,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntAquaHideout1[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_WHISKBALL,
     }
 };
 
@@ -5589,7 +5589,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Brent[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_WHISKBALL,
     }
 };
 
@@ -5654,7 +5654,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jeffrey1[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_WHISKBALL,
     },
     {
     .iv = 0,
@@ -5662,7 +5662,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jeffrey1[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_WHISKBALL,
     },
     {
     .iv = 0,
@@ -5670,7 +5670,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jeffrey1[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_WHISKBALL,
     }
 };
 
@@ -5700,7 +5700,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jeffrey2[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_WHISKBALL,
     },
     {
     .iv = 10,
@@ -5708,7 +5708,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jeffrey2[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_WHISKBALL,
     },
     {
     .iv = 10,
@@ -5716,7 +5716,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jeffrey2[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_WHISKBALL,
     }
 };
 
@@ -5727,7 +5727,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jeffrey3[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_WHISKBALL,
     },
     {
     .iv = 20,
@@ -5735,7 +5735,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jeffrey3[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_WHISKBALL,
     },
     {
     .iv = 20,
@@ -5743,7 +5743,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jeffrey3[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_WHISKBALL,
     }
 };
 
@@ -5754,7 +5754,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jeffrey4[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_WHISKBALL,
     },
     {
     .iv = 30,
@@ -5770,7 +5770,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jeffrey4[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_WHISKBALL,
     },
     {
     .iv = 30,
@@ -5778,7 +5778,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jeffrey4[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_WHISKBALL,
     }
 };
 
@@ -5789,7 +5789,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Jeffrey5[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_WHISKBALL,
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_NONE
     },
@@ -5809,7 +5809,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Jeffrey5[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_WHISKBALL,
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_NONE
     },
@@ -5819,7 +5819,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Jeffrey5[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_WHISKBALL,
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_SILVER_POWDER
     },
@@ -11070,7 +11070,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Angelica[] = {
     .evs = {6, 0, 0, 252, 0, 252}, 
     .abilityNum = 2,
     .happiness = 252,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_WHISKBALL,
     .postgamemoves = {MOVE_HYDRO_PUMP, MOVE_HURRICANE, MOVE_BUG_BUZZ, MOVE_ICE_BEAM},
     .moves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
@@ -15350,7 +15350,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Rick[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_WHISKBALL,
     },
     {
     .iv = 0,
@@ -15545,7 +15545,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_James4[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_WHISKBALL,
     },
     {
     .iv = 30,
@@ -15572,7 +15572,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_James5[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SURSKIT,
+    .species = SPECIES_WHISKBALL,
     },
     {
     .iv = 40,
