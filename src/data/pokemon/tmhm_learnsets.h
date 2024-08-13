@@ -13637,7 +13637,7 @@ static const u8 sWhiscashTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sCorphishTMHMLearnset[] =
+static const u8 sNongetiveTMHMLearnset[] =
 {
     TMHM(TM03_WATER_PULSE),
     TMHM(TM06_TOXIC),
@@ -13677,7 +13677,7 @@ static const u8 sCorphishTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sCrawdauntTMHMLearnset[] =
+static const u8 sNononmonTMHMLearnset[] =
 {
     TMHM(TM03_WATER_PULSE),
     TMHM(TM06_TOXIC),
@@ -13725,7 +13725,7 @@ static const u8 sCrawdauntTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sBaltoyTMHMLearnset[] =
+static const u8 sDreidrillTMHMLearnset[] =
 {
     TMHM(TM04_CALM_MIND),
     TMHM(TM06_TOXIC),
@@ -13772,7 +13772,7 @@ static const u8 sBaltoyTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sClaydolTMHMLearnset[] =
+static const u8 sHeburrowTMHMLearnset[] =
 {
     TMHM(TM04_CALM_MIND),
     TMHM(TM06_TOXIC),
@@ -14636,7 +14636,7 @@ static const u8 sPhasmorganTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sClamperlTMHMLearnset[] =
+static const u8 sGolbnarTMHMLearnset[] =
 {
     TMHM(TM03_WATER_PULSE),
     TMHM(TM06_TOXIC),
@@ -14663,7 +14663,7 @@ static const u8 sClamperlTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sHuntailTMHMLearnset[] =
+static const u8 sGlobnautTMHMLearnset[] =
 {
     TMHM(TM03_WATER_PULSE),
     TMHM(TM06_TOXIC),
@@ -14695,7 +14695,7 @@ static const u8 sHuntailTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sGorebyssTMHMLearnset[] =
+static const u8 sThaumnarTMHMLearnset[] =
 {
     TMHM(TM03_WATER_PULSE),
     TMHM(TM06_TOXIC),
@@ -14729,7 +14729,7 @@ static const u8 sGorebyssTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sRelicanthTMHMLearnset[] =
+static const u8 sGalacnarTMHMLearnset[] =
 {
     TMHM(TM03_WATER_PULSE),
     TMHM(TM04_CALM_MIND),
@@ -14771,7 +14771,7 @@ static const u8 sRelicanthTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sLuvdiscTMHMLearnset[] =
+static const u8 sWarpnarTMHMLearnset[] =
 {
     TMHM(TM03_WATER_PULSE),
     TMHM(TM06_TOXIC),
@@ -14801,7 +14801,7 @@ static const u8 sLuvdiscTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sBagonTMHMLearnset[] =
+static const u8 sSipkingTMHMLearnset[] =
 {
     TMHM(TM02_DRAGON_CLAW),
     TMHM(TM05_ROAR),
@@ -14832,7 +14832,7 @@ static const u8 sBagonTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sShelgonTMHMLearnset[] =
+static const u8 sTipsyramidTMHMLearnset[] =
 {
     TMHM(TM02_DRAGON_CLAW),
     TMHM(TM05_ROAR),
@@ -14863,7 +14863,7 @@ static const u8 sShelgonTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sSalamenceTMHMLearnset[] =
+static const u8 sDrunkabusTMHMLearnset[] =
 {
     TMHM(TM02_DRAGON_CLAW),
     TMHM(TM05_ROAR),
@@ -14905,12 +14905,12 @@ static const u8 sSalamenceTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sBeldumTMHMLearnset[] =
+static const u8 sYelleyeTMHMLearnset[] =
 {
     0xFF,
 };
 
-static const u8 sMetangTMHMLearnset[] =
+static const u8 sHarasturTMHMLearnset[] =
 {
     TMHM(TM06_TOXIC),
     TMHM(TM10_HIDDEN_POWER),
@@ -14951,7 +14951,7 @@ static const u8 sMetangTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sMetagrossTMHMLearnset[] =
+static const u8 sHazethothTMHMLearnset[] =
 {
     TMHM(TM06_TOXIC),
     TMHM(TM10_HIDDEN_POWER),
@@ -36254,10 +36254,10 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_SOLROCK] = sSolrockTMHMLearnset,
     [SPECIES_BARBOACH] = sBarboachTMHMLearnset,
     [SPECIES_WHISCASH] = sWhiscashTMHMLearnset,
-    [SPECIES_CORPHISH] = sCorphishTMHMLearnset,
-    [SPECIES_CRAWDAUNT] = sCrawdauntTMHMLearnset,
-    [SPECIES_BALTOY] = sBaltoyTMHMLearnset,
-    [SPECIES_CLAYDOL] = sClaydolTMHMLearnset,
+    [SPECIES_NONGETIVE] = sNongetiveTMHMLearnset,
+    [SPECIES_NONONMON] = sNononmonTMHMLearnset,
+    [SPECIES_DREIDRILL] = sDreidrillTMHMLearnset,
+    [SPECIES_HEBURROW] = sHeburrowTMHMLearnset,
     [SPECIES_ODOSAUR] = sOdosaurTMHMLearnset,
     [SPECIES_CRADILY] = sCradilyTMHMLearnset,
     [SPECIES_TRICERAS] = sTricerasTMHMLearnset,
@@ -36279,17 +36279,17 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_PIRAGHOUL] = sPiraghoulTMHMLearnset,
     [SPECIES_MORGHOST] = sMorghostTMHMLearnset,
     [SPECIES_PHASMORGAN] = sPhasmorganTMHMLearnset,
-    [SPECIES_CLAMPERL] = sClamperlTMHMLearnset,
-    [SPECIES_HUNTAIL] = sHuntailTMHMLearnset,
-    [SPECIES_GOREBYSS] = sGorebyssTMHMLearnset,
-    [SPECIES_RELICANTH] = sRelicanthTMHMLearnset,
-    [SPECIES_LUVDISC] = sLuvdiscTMHMLearnset,
-    [SPECIES_BAGON] = sBagonTMHMLearnset,
-    [SPECIES_SHELGON] = sShelgonTMHMLearnset,
-    [SPECIES_SALAMENCE] = sSalamenceTMHMLearnset,
-    [SPECIES_BELDUM] = sBeldumTMHMLearnset,
-    [SPECIES_METANG] = sMetangTMHMLearnset,
-    [SPECIES_METAGROSS] = sMetagrossTMHMLearnset,
+    [SPECIES_GOLBNAR] = sGolbnarTMHMLearnset,
+    [SPECIES_GLOBNAUT] = sGlobnautTMHMLearnset,
+    [SPECIES_THAUMNAR] = sThaumnarTMHMLearnset,
+    [SPECIES_GALACNAR] = sGalacnarTMHMLearnset,
+    [SPECIES_WARPNAR] = sWarpnarTMHMLearnset,
+    [SPECIES_SIPKING] = sSipkingTMHMLearnset,
+    [SPECIES_TIPSYRAMID] = sTipsyramidTMHMLearnset,
+    [SPECIES_DRUNKABUS] = sDrunkabusTMHMLearnset,
+    [SPECIES_YELLEYE] = sYelleyeTMHMLearnset,
+    [SPECIES_HARASTUR] = sHarasturTMHMLearnset,
+    [SPECIES_HAZETHOTH] = sHazethothTMHMLearnset,
     [SPECIES_REGIROCK] = sRegirockTMHMLearnset,
     [SPECIES_REGICE] = sRegiceTMHMLearnset,
     [SPECIES_REGISTEEL] = sRegisteelTMHMLearnset,

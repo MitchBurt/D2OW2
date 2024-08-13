@@ -165,7 +165,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
                 .moves = {MOVE_SURF, MOVE_EARTHQUAKE, MOVE_ICE_BEAM, MOVE_COUNTER},
             },
             {
-                .species = SPECIES_SALAMENCE,
+                .species = SPECIES_DRUNKABUS,
                 .heldItem = ITEM_LUM_BERRY,
                 .fixedIV = 20,
                 .nature = NATURE_ADAMANT,
@@ -192,7 +192,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
                 .moves = {MOVE_SURF, MOVE_EARTHQUAKE, MOVE_ICE_BEAM, MOVE_MIRROR_COAT},
             },
             {
-                .species = SPECIES_METAGROSS,
+                .species = SPECIES_HAZETHOTH,
                 .heldItem = ITEM_QUICK_CLAW,
                 .fixedIV = 31,
                 .nature = NATURE_BRAVE,
@@ -329,7 +329,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
         // What is interesting, this team is actually the one Steven uses in the multi tag battle alongside the player.
         {
             {
-                .species = SPECIES_METANG,
+                .species = SPECIES_HARASTUR,
                 .heldItem = ITEM_SITRUS_BERRY,
                 .fixedIV = 31,
                 .nature = NATURE_BRAVE,
@@ -355,7 +355,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
         },
         {
             {
-                .species = SPECIES_METANG,
+                .species = SPECIES_HARASTUR,
                 .heldItem = ITEM_SITRUS_BERRY,
                 .fixedIV = 31,
                 .nature = NATURE_BRAVE,

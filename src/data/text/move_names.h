@@ -1313,7 +1313,7 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_STICKY_WEB] = _("Sticky Web"),
     [MOVE_FELL_STINGER] = _("Fell Stinger"),
     [MOVE_PHANTOM_FORCE] = _("Phantom Force"),
-    [MOVE_TRICK_OR_TREAT] = _("Trick-or-Treat"),
+    [MOVE_TRICK_OR_TREAT] = _("Possession"),
     [MOVE_NOBLE_ROAR] = _("Noble Roar"),
     [MOVE_ION_DELUGE] = _("Ion Deluge"),
     [MOVE_PARABOLIC_CHARGE] = _("Parabolic Charge"),
@@ -1505,5 +1505,17 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_SHOT] = _("Shots?"),
     [MOVE_SEED_FORCE] = _("Seed Force"),
     [MOVE_SIZZLE_SLAM] = _("Sizzle Slam"),
+    [MOVE_COSMIC_RAY] = _("Cosmic Ray"),
+    [MOVE_BOOZE_BASH] = _("Booze Bash"),
+    [MOVE_FUNNEL] = _("Funnel"),
+    [MOVE_MOLOTOV] = _("Molotov Cocktail"),
+    [MOVE_BOTTLE_SMASH] = _("Bottle Smash"),
+    [MOVE_BEER_FROTH] = _("Beer Froth"),
+    [MOVE_FERMENT] = _("Ferment"),
+    
+
+
+
+
 #endif
 };

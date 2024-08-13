@@ -354,12 +354,12 @@
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_NONGETIVE"
               },
               {
                 "min_level": 20,
                 "max_level": 30,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_NONGETIVE"
               }
             ]
           },
@@ -389,32 +389,32 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_NONGETIVE"
               },
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_NONGETIVE"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_NONGETIVE"
               },
               {
                 "min_level": 20,
                 "max_level": 25,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_NONGETIVE"
               },
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_NONGETIVE"
               },
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_NONGETIVE"
               }
             ]
           },
@@ -847,7 +847,7 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_NONGETIVE"
               },
               {
                 "min_level": 25,
@@ -857,7 +857,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_NONGETIVE"
               },
               {
                 "min_level": 20,
@@ -2274,7 +2274,7 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_NONGETIVE"
               },
               {
                 "min_level": 25,
@@ -2284,7 +2284,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_NONGETIVE"
               },
               {
                 "min_level": 20,
@@ -2418,7 +2418,7 @@
               {
                 "min_level": 15,
                 "max_level": 25,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_NONGETIVE"
               },
               {
                 "min_level": 25,
@@ -3228,7 +3228,7 @@
               {
                 "min_level": 20,
                 "max_level": 30,
-                "species": "SPECIES_CLAMPERL"
+                "species": "SPECIES_GOLBNAR"
               },
               {
                 "min_level": 20,
@@ -3243,7 +3243,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_RELICANTH"
+                "species": "SPECIES_GALACNAR"
               },
               {
                 "min_level": 30,
@@ -3584,7 +3584,7 @@
               {
                 "min_level": 37,
                 "max_level": 39,
-                "species": "SPECIES_BAGON"
+                "species": "SPECIES_SIPKING"
               },
               {
                 "min_level": 38,
@@ -3594,7 +3594,7 @@
               {
                 "min_level": 40,
                 "max_level": 40,
-                "species": "SPECIES_BAGON"
+                "species": "SPECIES_SIPKING"
               }
             ]
           },
@@ -3689,17 +3689,17 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BAGON"
+                "species": "SPECIES_SIPKING"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BAGON"
+                "species": "SPECIES_SIPKING"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BAGON"
+                "species": "SPECIES_SIPKING"
               }
             ]
           }
@@ -4054,7 +4054,7 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_NONGETIVE"
               },
               {
                 "min_level": 15,
@@ -5037,7 +5037,7 @@
               {
                 "min_level": 5,
                 "max_level": 35,
-                "species": "SPECIES_LUVDISC"
+                "species": "SPECIES_WARPNAR"
               },
               {
                 "min_level": 10,
@@ -5754,17 +5754,17 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BELDUM"
+                "species": "SPECIES_YELLEYE"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BELDUM"
+                "species": "SPECIES_YELLEYE"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BELDUM"
+                "species": "SPECIES_YELLEYE"
               }
             ]
           }
@@ -5788,7 +5788,7 @@
               {
                 "min_level": 15,
                 "max_level": 25,
-                "species": "SPECIES_LUVDISC"
+                "species": "SPECIES_WARPNAR"
               },
               {
                 "min_level": 25,
@@ -5867,12 +5867,12 @@
               {
                 "min_level": 5,
                 "max_level": 35,
-                "species": "SPECIES_LUVDISC"
+                "species": "SPECIES_WARPNAR"
               },
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_NONGETIVE"
               },
               {
                 "min_level": 15,
@@ -6155,7 +6155,7 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_LUVDISC"
+                "species": "SPECIES_WARPNAR"
               },
               {
                 "min_level": 10,
@@ -6165,7 +6165,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_LUVDISC"
+                "species": "SPECIES_WARPNAR"
               },
               {
                 "min_level": 30,
@@ -6442,7 +6442,7 @@
               {
                 "min_level": 5,
                 "max_level": 35,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_NONGETIVE"
               },
               {
                 "min_level": 10,
@@ -7526,7 +7526,7 @@
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_RELICANTH"
+                "species": "SPECIES_GALACNAR"
               }
             ]
           }
@@ -7619,7 +7619,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_RELICANTH"
+                "species": "SPECIES_GALACNAR"
               },
               {
                 "min_level": 30,
@@ -10274,7 +10274,7 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_LUVDISC"
+                "species": "SPECIES_WARPNAR"
               },
               {
                 "min_level": 10,
@@ -10284,7 +10284,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_LUVDISC"
+                "species": "SPECIES_WARPNAR"
               },
               {
                 "min_level": 30,
@@ -10368,32 +10368,32 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_NONGETIVE"
               },
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_NONGETIVE"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_NONGETIVE"
               },
               {
                 "min_level": 20,
                 "max_level": 25,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_NONGETIVE"
               },
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_NONGETIVE"
               },
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_NONGETIVE"
               }
             ]
           }
@@ -10417,7 +10417,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_RELICANTH"
+                "species": "SPECIES_GALACNAR"
               },
               {
                 "min_level": 30,
@@ -10654,7 +10654,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_NONGETIVE"
               },
               {
                 "min_level": 5,
@@ -10669,7 +10669,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CORPHISH"
+                "species": "SPECIES_NONGETIVE"
               },
               {
                 "min_level": 5,
@@ -13316,12 +13316,12 @@
               {
                 "min_level": 40,
                 "max_level": 40,
-                "species": "SPECIES_BELDUM"
+                "species": "SPECIES_YELLEYE"
               },
               {
                 "min_level": 38,
                 "max_level": 38,
-                "species": "SPECIES_BELDUM"
+                "species": "SPECIES_YELLEYE"
               },
               {
                 "min_level": 40,
@@ -13524,7 +13524,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_LUVDISC"
+                "species": "SPECIES_WARPNAR"
               },
               {
                 "min_level": 5,
@@ -13539,7 +13539,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_LUVDISC"
+                "species": "SPECIES_WARPNAR"
               },
               {
                 "min_level": 5,
@@ -17506,7 +17506,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_RELICANTH"
+                "species": "SPECIES_GALACNAR"
               }
             ]
           },
@@ -17561,7 +17561,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_RELICANTH"
+                "species": "SPECIES_GALACNAR"
               }
             ]
           }
@@ -17660,7 +17660,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_RELICANTH"
+                "species": "SPECIES_GALACNAR"
               }
             ]
           },
@@ -17715,7 +17715,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_RELICANTH"
+                "species": "SPECIES_GALACNAR"
               }
             ]
           },

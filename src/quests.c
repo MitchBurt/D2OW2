@@ -2019,7 +2019,7 @@ static void UnlockQuestMenu(void)
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ARCTOZOLT), 	FLAG_GET_CAUGHT)	||
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_DRACOVISH), 	FLAG_GET_CAUGHT)	||
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ARCTOVISH), 	FLAG_GET_CAUGHT)	||
-		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_RELICANTH), 	FLAG_GET_CAUGHT))
+		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_GALACNAR), 	FLAG_GET_CAUGHT))
 			GetSetQuestFlag(SIDE_QUEST_8, FLAG_SET_UNLOCKED);
 			
 	if(	GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ATTACO), 	FLAG_GET_CAUGHT)	&&
@@ -2046,7 +2046,7 @@ static void UnlockQuestMenu(void)
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ARCTOZOLT), 	FLAG_GET_CAUGHT)	&&
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_DRACOVISH), 	FLAG_GET_CAUGHT)	&&
 		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_ARCTOVISH), 	FLAG_GET_CAUGHT)	&&
-		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_RELICANTH), 	FLAG_GET_CAUGHT))
+		GetSetPokedexFlag(SpeciesToNationalPokedexNum(SPECIES_GALACNAR), 	FLAG_GET_CAUGHT))
 			GetSetQuestFlag(SIDE_QUEST_8, FLAG_SET_COMPLETED);
 	//Quest 9----------------------------------------------------------
 	for(i = 0; i < PARTY_SIZE; i++){
@@ -2115,7 +2115,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_BERRORD:
 				case SPECIES_PARANGELIA:
 				case SPECIES_KILLWORU:
-				case SPECIES_HUNTAIL:
+				case SPECIES_GLOBNAUT:
 				case SPECIES_BREADDIE:
 				case SPECIES_YGGDRACON:
 				case SPECIES_BIREMIC:
@@ -2144,8 +2144,8 @@ static void UnlockQuestMenu(void)
 				case SPECIES_LONGIFER:
 				case SPECIES_NOCTRUM:
 				case SPECIES_BATCARDI:
-				case SPECIES_SALAMENCE:
-				case SPECIES_BAGON:
+				case SPECIES_DRUNKABUS:
+				case SPECIES_SIPKING:
 				case SPECIES_NUGGIE:
 				case SPECIES_SUGREIVOUS:
 				case SPECIES_AMAZULK:
@@ -2184,7 +2184,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_MINUN:
 				case SPECIES_ODOSAUR:
 				case SPECIES_TROPIUS:
-				case SPECIES_SHELGON:
+				case SPECIES_TIPSYRAMID:
 				case SPECIES_MUNNA:
 				case SPECIES_PETILIL:
 				case SPECIES_ARCHEN:
@@ -2415,7 +2415,7 @@ static void Task_QuestMenuProgress(u8 taskId)
 				SPECIES_ARCTOZOLT,
 				SPECIES_DRACOVISH,
 				SPECIES_ARCTOVISH,
-				SPECIES_RELICANTH};
+				SPECIES_GALACNAR};
 			
 			currentProgress = 0;
 			Objetive = (sizeof(fossilMons)/sizeof(fossilMons[0]));

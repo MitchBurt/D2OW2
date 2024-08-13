@@ -3420,7 +3420,7 @@ static const union AnimCmd sAnim_KECLEON_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_BALTOY_1[] =
+static const union AnimCmd sAnim_DREIDRILL_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(1, 15),
@@ -3432,7 +3432,7 @@ static const union AnimCmd sAnim_BALTOY_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_CLAYDOL_1[] =
+static const union AnimCmd sAnim_HEBURROW_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(1, 15),
@@ -3512,7 +3512,7 @@ static const union AnimCmd sAnim_WHISCASH_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_LUVDISC_1[] =
+static const union AnimCmd sAnim_WARPNAR_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(1, 15),
@@ -3522,7 +3522,7 @@ static const union AnimCmd sAnim_LUVDISC_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_CORPHISH_1[] =
+static const union AnimCmd sAnim_NONGETIVE_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(1, 15),
@@ -3534,7 +3534,7 @@ static const union AnimCmd sAnim_CORPHISH_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_CRAWDAUNT_1[] =
+static const union AnimCmd sAnim_NONONMON_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(1, 15),
@@ -4079,7 +4079,7 @@ static const union AnimCmd sAnim_GIGALPHA_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_CLAMPERL_1[] =
+static const union AnimCmd sAnim_GOLBNAR_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(1, 15),
@@ -4089,7 +4089,7 @@ static const union AnimCmd sAnim_CLAMPERL_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_HUNTAIL_1[] =
+static const union AnimCmd sAnim_GLOBNAUT_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(1, 15),
@@ -4099,7 +4099,7 @@ static const union AnimCmd sAnim_HUNTAIL_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_GOREBYSS_1[] =
+static const union AnimCmd sAnim_THAUMNAR_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(1, 15),
@@ -4167,7 +4167,7 @@ static const union AnimCmd sAnim_ZANGOOSE_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_RELICANTH_1[] =
+static const union AnimCmd sAnim_GALACNAR_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(1, 15),
@@ -4329,7 +4329,7 @@ static const union AnimCmd sAnim_THATSFURRY_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_BAGON_1[] =
+static const union AnimCmd sAnim_SIPKING_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(1, 15),
@@ -4339,7 +4339,7 @@ static const union AnimCmd sAnim_BAGON_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_SHELGON_1[] =
+static const union AnimCmd sAnim_TIPSYRAMID_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(1, 15),
@@ -4349,7 +4349,7 @@ static const union AnimCmd sAnim_SHELGON_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_SALAMENCE_1[] =
+static const union AnimCmd sAnim_DRUNKABUS_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(1, 10),
@@ -4359,7 +4359,7 @@ static const union AnimCmd sAnim_SALAMENCE_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_BELDUM_1[] =
+static const union AnimCmd sAnim_YELLEYE_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(1, 10),
@@ -4369,7 +4369,7 @@ static const union AnimCmd sAnim_BELDUM_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_METANG_1[] =
+static const union AnimCmd sAnim_HARASTUR_1[] =
 {
     ANIMCMD_FRAME(0, 8),
     ANIMCMD_FRAME(1, 8),
@@ -4379,7 +4379,7 @@ static const union AnimCmd sAnim_METANG_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_METAGROSS_1[] =
+static const union AnimCmd sAnim_HAZETHOTH_1[] =
 {
     ANIMCMD_FRAME(0, 16),
     ANIMCMD_FRAME(1, 16),
@@ -8664,13 +8664,13 @@ static const union AnimCmd sAnim_ELECHAIR_MEGA_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_SALAMENCE_MEGA_1[] =
+static const union AnimCmd sAnim_DRUNKABUS_MEGA_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_METAGROSS_MEGA_1[] =
+static const union AnimCmd sAnim_HAZETHOTH_MEGA_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
@@ -10660,14 +10660,14 @@ static const union AnimCmd *const sAnims_KECLEON[] ={
     sAnim_KECLEON_1,
 };
 
-static const union AnimCmd *const sAnims_BALTOY[] ={
+static const union AnimCmd *const sAnims_DREIDRILL[] ={
     sAnim_GeneralFrame0,
-    sAnim_BALTOY_1,
+    sAnim_DREIDRILL_1,
 };
 
-static const union AnimCmd *const sAnims_CLAYDOL[] ={
+static const union AnimCmd *const sAnims_HEBURROW[] ={
     sAnim_GeneralFrame0,
-    sAnim_CLAYDOL_1,
+    sAnim_HEBURROW_1,
 };
 
 static const union AnimCmd *const sAnims_NOSEPASS[] ={
@@ -10695,19 +10695,19 @@ static const union AnimCmd *const sAnims_WHISCASH[] ={
     sAnim_WHISCASH_1,
 };
 
-static const union AnimCmd *const sAnims_LUVDISC[] ={
+static const union AnimCmd *const sAnims_WARPNAR[] ={
     sAnim_GeneralFrame0,
-    sAnim_LUVDISC_1,
+    sAnim_WARPNAR_1,
 };
 
-static const union AnimCmd *const sAnims_CORPHISH[] ={
+static const union AnimCmd *const sAnims_NONGETIVE[] ={
     sAnim_GeneralFrame0,
-    sAnim_CORPHISH_1,
+    sAnim_NONGETIVE_1,
 };
 
-static const union AnimCmd *const sAnims_CRAWDAUNT[] ={
+static const union AnimCmd *const sAnims_NONONMON[] ={
     sAnim_GeneralFrame0,
-    sAnim_CRAWDAUNT_1,
+    sAnim_NONONMON_1,
 };
 
 static const union AnimCmd *const sAnims_FEEBAS[] ={
@@ -10939,19 +10939,19 @@ static const union AnimCmd *const sAnims_GIGALPHA[] ={
     sAnim_GIGALPHA_1,
 };
 
-static const union AnimCmd *const sAnims_CLAMPERL[] ={
+static const union AnimCmd *const sAnims_GOLBNAR[] ={
     sAnim_GeneralFrame0,
-    sAnim_CLAMPERL_1,
+    sAnim_GOLBNAR_1,
 };
 
-static const union AnimCmd *const sAnims_HUNTAIL[] ={
+static const union AnimCmd *const sAnims_GLOBNAUT[] ={
     sAnim_GeneralFrame0,
-    sAnim_HUNTAIL_1,
+    sAnim_GLOBNAUT_1,
 };
 
-static const union AnimCmd *const sAnims_GOREBYSS[] ={
+static const union AnimCmd *const sAnims_THAUMNAR[] ={
     sAnim_GeneralFrame0,
-    sAnim_GOREBYSS_1,
+    sAnim_THAUMNAR_1,
 };
 
 static const union AnimCmd *const sAnims_ABSOL[] ={
@@ -10979,9 +10979,9 @@ static const union AnimCmd *const sAnims_ZANGOOSE[] ={
     sAnim_ZANGOOSE_1,
 };
 
-static const union AnimCmd *const sAnims_RELICANTH[] ={
+static const union AnimCmd *const sAnims_GALACNAR[] ={
     sAnim_GeneralFrame0,
-    sAnim_RELICANTH_1,
+    sAnim_GALACNAR_1,
 };
 
 static const union AnimCmd *const sAnims_ARON[] ={
@@ -11064,34 +11064,34 @@ static const union AnimCmd *const sAnims_THATSFURRY[] ={
     sAnim_THATSFURRY_1,
 };
 
-static const union AnimCmd *const sAnims_BAGON[] ={
+static const union AnimCmd *const sAnims_SIPKING[] ={
     sAnim_GeneralFrame0,
-    sAnim_BAGON_1,
+    sAnim_SIPKING_1,
 };
 
-static const union AnimCmd *const sAnims_SHELGON[] ={
+static const union AnimCmd *const sAnims_TIPSYRAMID[] ={
     sAnim_GeneralFrame0,
-    sAnim_SHELGON_1,
+    sAnim_TIPSYRAMID_1,
 };
 
-static const union AnimCmd *const sAnims_SALAMENCE[] ={
+static const union AnimCmd *const sAnims_DRUNKABUS[] ={
     sAnim_GeneralFrame0,
-    sAnim_SALAMENCE_1,
+    sAnim_DRUNKABUS_1,
 };
 
-static const union AnimCmd *const sAnims_BELDUM[] ={
+static const union AnimCmd *const sAnims_YELLEYE[] ={
     sAnim_GeneralFrame0,
-    sAnim_BELDUM_1,
+    sAnim_YELLEYE_1,
 };
 
-static const union AnimCmd *const sAnims_METANG[] ={
+static const union AnimCmd *const sAnims_HARASTUR[] ={
     sAnim_GeneralFrame0,
-    sAnim_METANG_1,
+    sAnim_HARASTUR_1,
 };
 
-static const union AnimCmd *const sAnims_METAGROSS[] ={
+static const union AnimCmd *const sAnims_HAZETHOTH[] ={
     sAnim_GeneralFrame0,
-    sAnim_METAGROSS_1,
+    sAnim_HAZETHOTH_1,
 };
 
 static const union AnimCmd *const sAnims_REGIROCK[] ={
@@ -14064,14 +14064,14 @@ static const union AnimCmd *const sAnims_ELECHAIR_MEGA[] ={
     sAnim_ELECHAIR_MEGA_1,
 };
 
-static const union AnimCmd *const sAnims_SALAMENCE_MEGA[] ={
+static const union AnimCmd *const sAnims_DRUNKABUS_MEGA[] ={
     sAnim_GeneralFrame0,
-    sAnim_SALAMENCE_MEGA_1,
+    sAnim_DRUNKABUS_MEGA_1,
 };
 
-static const union AnimCmd *const sAnims_METAGROSS_MEGA[] ={
+static const union AnimCmd *const sAnims_HAZETHOTH_MEGA[] ={
     sAnim_GeneralFrame0,
-    sAnim_METAGROSS_MEGA_1,
+    sAnim_HAZETHOTH_MEGA_1,
 };
 
 static const union AnimCmd *const sAnims_LATIAS_MEGA[] ={
@@ -14731,16 +14731,16 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(SKITTY),
     ANIM_CMD(NYANCAT),
     ANIM_CMD(KECLEON),
-    ANIM_CMD(BALTOY),
-    ANIM_CMD(CLAYDOL),
+    ANIM_CMD(DREIDRILL),
+    ANIM_CMD(HEBURROW),
     ANIM_CMD(NOSEPASS),
     ANIM_CMD(HELLAPHANT),
     ANIM_CMD(SABLEYE),
     ANIM_CMD(BARBOACH),
     ANIM_CMD(WHISCASH),
-    ANIM_CMD(LUVDISC),
-    ANIM_CMD(CORPHISH),
-    ANIM_CMD(CRAWDAUNT),
+    ANIM_CMD(WARPNAR),
+    ANIM_CMD(NONGETIVE),
+    ANIM_CMD(NONONMON),
     ANIM_CMD(FEEBAS),
     ANIM_CMD(NUTVALANCHE),
     ANIM_CMD(CARVANHA),
@@ -14786,15 +14786,15 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(COWERLIN),
     ANIM_CMD(BRAVOGOR),
     ANIM_CMD(GIGALPHA),
-    ANIM_CMD(CLAMPERL),
-    ANIM_CMD(HUNTAIL),
-    ANIM_CMD(GOREBYSS),
+    ANIM_CMD(GOLBNAR),
+    ANIM_CMD(GLOBNAUT),
+    ANIM_CMD(THAUMNAR),
     ANIM_CMD(ABSOL),
     ANIM_CMD(TICKTOWEL),
     ANIM_CMD(TOCKTOWER),
     ANIM_CMD(SEVIPER),
     ANIM_CMD(ZANGOOSE),
-    ANIM_CMD(RELICANTH),
+    ANIM_CMD(GALACNAR),
     ANIM_CMD(ARON),
     ANIM_CMD(GALVATRON),
     ANIM_CMD(MURPHIRE),
@@ -14808,12 +14808,12 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(NOTAFURRY),
     ANIM_CMD(SORTAFURRY),
     ANIM_CMD(THATSFURRY),
-    ANIM_CMD(BAGON),
-    ANIM_CMD(SHELGON),
-    ANIM_CMD(SALAMENCE),
-    ANIM_CMD(BELDUM),
-    ANIM_CMD(METANG),
-    ANIM_CMD(METAGROSS),
+    ANIM_CMD(SIPKING),
+    ANIM_CMD(TIPSYRAMID),
+    ANIM_CMD(DRUNKABUS),
+    ANIM_CMD(YELLEYE),
+    ANIM_CMD(HARASTUR),
+    ANIM_CMD(HAZETHOTH),
     ANIM_CMD(REGIROCK),
     ANIM_CMD(REGICE),
     ANIM_CMD(REGISTEEL),
@@ -15373,8 +15373,8 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(TOCKTOWER_MEGA),
     ANIM_CMD(ABSOL_MEGA),
     ANIM_CMD(ELECHAIR_MEGA),
-    ANIM_CMD(SALAMENCE_MEGA),
-    ANIM_CMD(METAGROSS_MEGA),
+    ANIM_CMD(DRUNKABUS_MEGA),
+    ANIM_CMD(HAZETHOTH_MEGA),
     ANIM_CMD(LATIAS_MEGA),
     ANIM_CMD(LATIOS_MEGA),
     ANIM_CMD(LOPUNNY_MEGA),

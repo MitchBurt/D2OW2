@@ -255,7 +255,7 @@ static const struct TrHillFloor sDataTagJPDefault_Floors[] = {
                         .friendship = 255
                     },
                     [1] = {
-                        .species = SPECIES_CORPHISH,
+                        .species = SPECIES_NONGETIVE,
                         .heldItem = ITEM_QUICK_CLAW,
                         .moves = { MOVE_KNOCK_OFF, MOVE_CRABHAMMER, MOVE_TAUNT, MOVE_PROTECT },
                         .level = 0,
@@ -279,7 +279,7 @@ static const struct TrHillFloor sDataTagJPDefault_Floors[] = {
                         .friendship = 255
                     },
                     [2] = {
-                        .species = SPECIES_BALTOY,
+                        .species = SPECIES_DREIDRILL,
                         .heldItem = ITEM_PERSIM_BERRY,
                         .moves = { MOVE_PSYBEAM, MOVE_ROCK_TOMB, MOVE_MUD_SLAP, MOVE_HARDEN },
                         .level = 0,
@@ -495,7 +495,7 @@ static const struct TrHillFloor sDataTagNormal_Floors[] =
                     },
                     [2] =
                     {
-                        .species = SPECIES_CLAYDOL,
+                        .species = SPECIES_HEBURROW,
                         .heldItem = ITEM_SHELL_BELL,
                         .moves = {MOVE_EARTHQUAKE, MOVE_PSYCHIC, MOVE_SHADOW_BALL, MOVE_ICE_BEAM},
                         .level = 0,
@@ -512,7 +512,7 @@ static const struct TrHillFloor sDataTagNormal_Floors[] =
                         .spDefenseIV = 24,
                         .abilityNum = 0,
                         .personality = 0xC,
-                        .nickname = _("Claydol"),
+                        .nickname = _("Heburrow"),
                         .friendship = 255,
                     },
                     [3] =
@@ -1960,7 +1960,7 @@ static const struct TrHillFloor sDataTagVariety_Floors[] = {
                                         },
                                     [4] =
                                         {
-                                            .species = SPECIES_CLAMPERL,
+                                            .species = SPECIES_GOLBNAR,
                                             .heldItem = ITEM_SILK_SCARF,
                                             .moves = {MOVE_WHIRLPOOL, MOVE_IRON_DEFENSE, MOVE_ENDURE, MOVE_CONFUSE_RAY},
                                             .level = 0,
@@ -1976,7 +1976,7 @@ static const struct TrHillFloor sDataTagVariety_Floors[] = {
                                             .spDefenseIV = 5,
                                             .abilityNum = 0,
                                             .personality = 0xA,
-                                            .nickname = _("Clamperl"),
+                                            .nickname = _("Golbnar"),
                                             .friendship = 255,
                                         },
                                     [5] =
@@ -2597,7 +2597,7 @@ static const struct TrHillFloor sDataTagVariety_Floors[] = {
                                         },
                                     [3] =
                                         {
-                                            .species = SPECIES_BALTOY,
+                                            .species = SPECIES_DREIDRILL,
                                             .heldItem = ITEM_SILK_SCARF,
                                             .moves = {MOVE_EXPLOSION, MOVE_SELF_DESTRUCT, MOVE_NONE, MOVE_NONE},
                                             .level = 0,
@@ -2614,7 +2614,7 @@ static const struct TrHillFloor sDataTagVariety_Floors[] = {
                                             .spDefenseIV = 15,
                                             .abilityNum = 0,
                                             .personality = 0x3,
-                                            .nickname = _("Baltoy"),
+                                            .nickname = _("Dreidrill"),
                                             .friendship = 0,
                                         },
                                     [4] =
@@ -3174,7 +3174,7 @@ static const struct TrHillFloor sDataTagUnique_Floors[] = {
                                 {
                                     [0] =
                                         {
-                                            .species = SPECIES_RELICANTH,
+                                            .species = SPECIES_GALACNAR,
                                             .heldItem = ITEM_QUICK_CLAW,
                                             .moves = {MOVE_ANCIENT_POWER, MOVE_WATER_PULSE, MOVE_MUD_SPORT, MOVE_RAIN_DANCE},
                                             .level = 0,
@@ -3191,7 +3191,7 @@ static const struct TrHillFloor sDataTagUnique_Floors[] = {
                                             .spDefenseIV = 15,
                                             .abilityNum = 0,
                                             .personality = 0x2F,
-                                            .nickname = _("Relicanth"),
+                                            .nickname = _("Galacnar"),
                                             .friendship = 255,
                                         },
                                     [1] =
@@ -5417,7 +5417,7 @@ static const struct TrHillFloor sDataTagExpert_Floors[] = {
                                 {
                                     [0] =
                                         {
-                                            .species = SPECIES_SALAMENCE,
+                                            .species = SPECIES_DRUNKABUS,
                                             .heldItem = ITEM_SHELL_BELL,
                                             .moves = {MOVE_ROCK_SLIDE, MOVE_FLAMETHROWER, MOVE_DRAGON_CLAW, MOVE_AERIAL_ACE},
                                             .level = 0,
@@ -5433,7 +5433,7 @@ static const struct TrHillFloor sDataTagExpert_Floors[] = {
                                             .spDefenseIV = 31,
                                             .abilityNum = 0,
                                             .personality = 0x95,
-                                            .nickname = _("Salamence"),
+                                            .nickname = _("Drunkabus"),
                                             .friendship = 255,
                                         },
                                     [1] =

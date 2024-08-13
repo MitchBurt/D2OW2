@@ -2203,8 +2203,8 @@ const struct SpriteFrameImage gObjectEventPicTable_WynautDoll[] = {
     obj_frame_tiles(gObjectEventPic_WynautDoll),
 };
 
-const struct SpriteFrameImage gObjectEventPicTable_BaltoyDoll[] = {
-    obj_frame_tiles(gObjectEventPic_BaltoyDoll),
+const struct SpriteFrameImage gObjectEventPicTable_DreidrillDoll[] = {
+    obj_frame_tiles(gObjectEventPic_DreidrillDoll),
 };
 
 const struct SpriteFrameImage gObjectEventPicTable_KecleonDoll[] = {

@@ -11471,23 +11471,108 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_IRON_FIST_BOOST | FLAG_SHEER_FORCE_BOOST,
         .split = SPLIT_PHYSICAL,
     },
+
+    [MOVE_COSMIC_RAY] =
+    {
+        .power = 90,
+        .effect = EFFECT_HIT,
+        .type = TYPE_COSMIC,
+        .accuracy = 100,
+        .pp = 10,
+        .secondaryEffectChance = 0,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED | FLAG_MEGA_LAUNCHER_BOOST,
+        .split = SPLIT_SPECIAL,
+    },
+
+    [MOVE_BOOZE_BASH] =
+    {
+        .effect = EFFECT_CONFUSE_HIT,
+        .power = 75,
+        .type = TYPE_ALCOHOL,
+        .accuracy = 100,
+        .pp = 15,
+        .secondaryEffectChance = 30,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST,
+        .split = SPLIT_PHYSICAL,
+    },
+
+    [MOVE_FUNNEL] =
+    {
+        .accuracy = 90,
+        .effect = EFFECT_TRAP,
+        .power = 35,
+        .type = TYPE_ALCOHOL,
+        .pp = 20,
+        .secondaryEffectChance = 100,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED,
+        .split = SPLIT_PHYSICAL,
+    },
+    
+    [MOVE_FERMENT] =
+    {
+        .effect = EFFECT_CALM_MIND,
+        .power = 0,
+        .type = TYPE_ALCOHOL,
+        .accuracy = 0,
+        .pp = 20,
+        .secondaryEffectChance = 0,
+        .target = MOVE_TARGET_USER,
+        .priority = 0,
+        .flags = FLAG_SNATCH_AFFECTED,
+        .split = SPLIT_STATUS,
+    },
+
+    [MOVE_MOLOTOV] =
+    {
+        .effect = EFFECT_SCALD,
+        .power = 80,
+        .type = TYPE_ALCOHOL,
+        .accuracy = 100,
+        .pp = 15,
+        .secondaryEffectChance = 30,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED | FLAG_SHEER_FORCE_BOOST,
+        .split = SPLIT_SPECIAL,
+    },
+
+    [MOVE_BOTTLE_SMASH] =
+    {
+        .effect = EFFECT_RECOIL_25,
+        .power = 100,
+        .type = TYPE_ALCOHOL,
+        .accuracy = 100,
+        .pp = 15,
+        .secondaryEffectChance = 0,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED | FLAG_RECKLESS_BOOST,
+        .split = SPLIT_PHYSICAL,
+    },
+
+    [MOVE_BEER_FROTH] =
+    {
+        .power = 40,
+        .effect = EFFECT_CONFUSE_HIT,
+        .type = TYPE_ALCOHOL,
+        .accuracy = 100,
+        .pp = 30,
+        .secondaryEffectChance = 10,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST,
+        .split = SPLIT_SPECIAL,
+
 //TODO
     //Banana Bomb - everyone target, grass type
-
-    //Funnel - Wrap
     
-    //Ferment - calm mind
 /* 
-Booze Bash
-
-    Type: Alcohol
-    Category: Physical
-    Power: 75
-    Accuracy: 100%
-    PP: 15
-    Effect: The user slams into the target while intoxicated, potentially causing the target to flinch.
-    Similar to: Iron Head
-
 
 Moonshine Blast
 
@@ -11499,27 +11584,6 @@ Moonshine Blast
     Effect: A powerful blast of homemade alcohol. This move has a 20% chance to lower the targets Defense.
     Similar to: Focus Blast
 
-Fizz Cannon
-
-    Type: Alcohol
-    Category: Special
-    Power: 90
-    Accuracy: 100%
-    PP: 10
-    Effect: The user fires a highly pressurized burst of fizzy alcohol at the target. This move has a 20% chance to lower the targets Speed.
-    Similar to: Steam Eruption
-
-bottle smash - recoil
-
-Molotov Cocktail
-
-    Type: Alcohol
-    Category: Special
-    Power: 110
-    Accuracy: 85%
-    PP: 5
-    Effect: The user hurls a volatile mixture that explodes on impact, dealing heavy damage and having a 30% chance to burn the target.
-    Similar to: Fire Blast
 
 Spiked- Turns water into alcohol?
  */
@@ -12336,7 +12400,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_LUVDISC] =
+    [SPECIES_WARPNAR] =
     {
         .move = MOVE_DRAINING_KISS,
         .modification = SIGNATURE_MOD_PRIORITY,
@@ -12355,7 +12419,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_RELICANTH] =
+    [SPECIES_GALACNAR] =
     {
         .move = MOVE_HEAD_SMASH,
         .modification = SIGNATURE_MOD_PRIORITY,

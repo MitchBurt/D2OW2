@@ -378,15 +378,15 @@ static const u16 sElechairFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sSalamenceFormSpeciesIdTable[] = {
-    SPECIES_SALAMENCE,
-    SPECIES_SALAMENCE_MEGA,
+static const u16 sDrunkabusFormSpeciesIdTable[] = {
+    SPECIES_DRUNKABUS,
+    SPECIES_DRUNKABUS_MEGA,
     0xFFFF,
 };
 
-static const u16 sMetagrossFormSpeciesIdTable[] = {
-    SPECIES_METAGROSS,
-    SPECIES_METAGROSS_MEGA,
+static const u16 sHazethothFormSpeciesIdTable[] = {
+    SPECIES_HAZETHOTH,
+    SPECIES_HAZETHOTH_MEGA,
     0xFFFF,
 };
 

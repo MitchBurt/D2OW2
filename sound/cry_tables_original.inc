@@ -343,10 +343,10 @@ gCryTable:: @ 869DCF4
 	cry Cry_Solrock
 	cry Cry_Barboach
 	cry Cry_Whiscash
-	cry Cry_Corphish
-	cry Cry_Crawdaunt
-	cry Cry_Baltoy
-	cry Cry_Claydol
+	cry Cry_Nongetive
+	cry Cry_Nononmon
+	cry Cry_Dreidrill
+	cry Cry_Heburrow
 	cry Cry_Odosaur
 	cry Cry_Cradily
 	cry Cry_Triceras
@@ -368,17 +368,17 @@ gCryTable:: @ 869DCF4
 	cry Cry_Piraghoul
 	cry Cry_Morghost
 	cry Cry_Phasmorgan
-	cry Cry_Clamperl
-	cry Cry_Huntail
-	cry Cry_Gorebyss
-	cry Cry_Relicanth
-	cry Cry_Luvdisc
-	cry Cry_Bagon
-	cry Cry_Shelgon
-	cry Cry_Salamence
-	cry Cry_Beldum
-	cry Cry_Metang
-	cry Cry_Metagross
+	cry Cry_Golbnar
+	cry Cry_Globnaut
+	cry Cry_Thaumnar
+	cry Cry_Galacnar
+	cry Cry_Warpnar
+	cry Cry_Sipking
+	cry Cry_Tipsyramid
+	cry Cry_Drunkabus
+	cry Cry_Yelleye
+	cry Cry_Harastur
+	cry Cry_Hazethoth
 	cry Cry_Regirock
 	cry Cry_Regice
 	cry Cry_Registeel
@@ -942,8 +942,8 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Tocktower_Mega
 	cry_not Cry_Absol_Mega
 	cry_not Cry_Elechair_Mega
-	cry_not Cry_Salamence_Mega
-	cry_not Cry_Metagross_Mega
+	cry_not Cry_Drunkabus_Mega
+	cry_not Cry_Hazethoth_Mega
 	cry_not Cry_Latias_Mega
 	cry_not Cry_Latios_Mega
 	cry_not Cry_Lopunny_Mega
@@ -1621,10 +1621,10 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Solrock
 	cry2 Cry_Barboach
 	cry2 Cry_Whiscash
-	cry2 Cry_Corphish
-	cry2 Cry_Crawdaunt
-	cry2 Cry_Baltoy
-	cry2 Cry_Claydol
+	cry2 Cry_Nongetive
+	cry2 Cry_Nononmon
+	cry2 Cry_Dreidrill
+	cry2 Cry_Heburrow
 	cry2 Cry_Odosaur
 	cry2 Cry_Cradily
 	cry2 Cry_Triceras
@@ -1646,17 +1646,17 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Piraghoul
 	cry2 Cry_Morghost
 	cry2 Cry_Phasmorgan
-	cry2 Cry_Clamperl
-	cry2 Cry_Huntail
-	cry2 Cry_Gorebyss
-	cry2 Cry_Relicanth
-	cry2 Cry_Luvdisc
-	cry2 Cry_Bagon
-	cry2 Cry_Shelgon
-	cry2 Cry_Salamence
-	cry2 Cry_Beldum
-	cry2 Cry_Metang
-	cry2 Cry_Metagross
+	cry2 Cry_Golbnar
+	cry2 Cry_Globnaut
+	cry2 Cry_Thaumnar
+	cry2 Cry_Galacnar
+	cry2 Cry_Warpnar
+	cry2 Cry_Sipking
+	cry2 Cry_Tipsyramid
+	cry2 Cry_Drunkabus
+	cry2 Cry_Yelleye
+	cry2 Cry_Harastur
+	cry2 Cry_Hazethoth
 	cry2 Cry_Regirock
 	cry2 Cry_Regice
 	cry2 Cry_Registeel
@@ -2220,8 +2220,8 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Tocktower_Mega
 	cry2_not Cry_Absol_Mega
 	cry2_not Cry_Elechair_Mega
-	cry2_not Cry_Salamence_Mega
-	cry2_not Cry_Metagross_Mega
+	cry2_not Cry_Drunkabus_Mega
+	cry2_not Cry_Hazethoth_Mega
 	cry2_not Cry_Latias_Mega
 	cry2_not Cry_Latios_Mega
 	cry2_not Cry_Lopunny_Mega

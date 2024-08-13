@@ -1106,7 +1106,7 @@ static const u16 sIngameTradeMail[][MAIL_WORDS_COUNT + 1] =
         EC_WORD_I,
         EC_WORD_WILL,
         EC_WORD_MAKE,
-        EC_POKEMON(BAGON),
+        EC_POKEMON(SIPKING),
         EC_WORD_TOUGH,
         EC_WORD_PLEASE,
         EC_WORD_TRAIN,

@@ -318,7 +318,7 @@ const u8 DecorDesc_LONG_POSTER[] = _(
 
 const u8 DecorDesc_SEA_POSTER[] = _(
     "Póster grande\n"
-        "de Relicanth.");
+        "de Galacnar.");
 
 const u8 DecorDesc_SKY_POSTER[] = _(
     "Póster grande\n"
@@ -413,8 +413,8 @@ const u8 DecorDesc_WYNAUT_DOLL[] = _(
         "Ponlo en una mesa\n"
         "o tapete.");
 
-const u8 DecorDesc_BALTOY_DOLL[] = _(
-    "Muñeco de Baltoy.\n"
+const u8 DecorDesc_DREIDRILL_DOLL[] = _(
+    "Muñeco de Dreidrill.\n"
         "Ponlo en una mesa\n"
         "o tapete.");
 
@@ -894,7 +894,7 @@ const u8 DecorDesc_LONG_POSTER[] = _(
 
 const u8 DecorDesc_SEA_POSTER[] = _(
     "A large poster with\n"
-        "a Relicanth print.");
+        "a Galacnar print.");
 
 const u8 DecorDesc_SKY_POSTER[] = _(
     "A large poster with\n"
@@ -989,8 +989,8 @@ const u8 DecorDesc_WYNAUT_DOLL[] = _(
         "Place it on a mat\n"
         "or a desk.");
 
-const u8 DecorDesc_BALTOY_DOLL[] = _(
-    "A Baltoy doll.\n"
+const u8 DecorDesc_DREIDRILL_DOLL[] = _(
+    "A Dreidrill doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 

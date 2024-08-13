@@ -1065,12 +1065,12 @@ static const u8 sSoulDewDesc[] = _(
 static const u8 sDeepSeaToothDesc[] = _(
     "Al llevarlo, sube el\n"
     "At. Esp. de\n"
-    "Clamperl.");
+    "Golbnar.");
 
 static const u8 sDeepSeaScaleDesc[] = _(
     "Al llevarlo, sube la\n"
     "Def. Esp. de\n"
-    "Clamperl.");
+    "Golbnar.");
 
 static const u8 sSmokeBallDesc[] = _(
     "Se usa para huir de\n"
@@ -2667,10 +2667,10 @@ static const u8 sAudiniteDesc[] = _(
     "megaevolucionar a\n"
     "Audino.");
 
-static const u8 sMetagrossiteDesc[] = _(
+static const u8 sHazethothiteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Metagross.");
+    "Hazethoth.");
 
 static const u8 sSharpedoniteDesc[] = _(
     "Piedra que permite\n"
@@ -2715,7 +2715,7 @@ static const u8 sLopunniteDesc[] = _(
 static const u8 sSalamenciteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Salamence.");
+    "Drunkabus.");
 
 static const u8 sBerrorditeDesc[] = _(
     "Piedra que permite\n"
@@ -3936,12 +3936,12 @@ static const u8 sSoulDewDesc[] = _(
 static const u8 sDeepSeaToothDesc[] = _(
     "A hold item that\n"
     "raises the Sp. Atk\n"
-    "of Clamperl.");
+    "of Golbnar.");
 
 static const u8 sDeepSeaScaleDesc[] = _(
     "A hold item that\n"
     "raises the Sp. Def\n"
-    "of Clamperl.");
+    "of Golbnar.");
 
 static const u8 sSmokeBallDesc[] = _(
     "A hold item that\n"
@@ -5900,9 +5900,9 @@ static const u8 sAudiniteDesc[] = _(
     "Audino to Mega\n"
     "Evolve in battle.");
 
-static const u8 sMetagrossiteDesc[] = _(
+static const u8 sHazethothiteDesc[] = _(
     "This stone enables\n"
-    "Metagross to Mega\n"
+    "Hazethoth to Mega\n"
     "Evolve in battle.");
 
 static const u8 sSharpedoniteDesc[] = _(
@@ -5947,7 +5947,7 @@ static const u8 sLopunniteDesc[] = _(
 
 static const u8 sSalamenciteDesc[] = _(
     "This stone enables\n"
-    "Salamence to Mega\n"
+    "Drunkabus to Mega\n"
     "Evolve in battle.");
 
 static const u8 sBerrorditeDesc[] = _(

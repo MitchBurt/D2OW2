@@ -436,7 +436,7 @@ Cry_Egg_Group_Water_3::
 
 	.align 2
 Cry_Egg_Group_Dragon::
-	.incbin "sound/direct_sound_samples/cries/cry_salamence.bin"
+	.incbin "sound/direct_sound_samples/cries/cry_drunkabus.bin"
 
 	.align 2
 Cry_Egg_Group_Flying:

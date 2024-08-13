@@ -698,8 +698,8 @@ MegaStone_EventScript_ItemSalamancite::
 	addscaleditem ITEM_SALAMENCITE
 	end
 	
-MegaStone_EventScript_ItemMetagrossite::
-	addscaleditem ITEM_METAGROSSITE
+MegaStone_EventScript_ItemHazethothite::
+	addscaleditem ITEM_HAZETHOTHITE
 	end
 	
 MegaStone_EventScript_ItemLopunnite::

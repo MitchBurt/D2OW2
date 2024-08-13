@@ -5905,6 +5905,34 @@ static const u8 sSIZZLE_SLAMDescription[] = _(
     "A fiery headbutt that may\n"
     "burn the foe.");
 
+static const u8 sCOSMIC_RAYDescription[] = _(
+    "Generates a shock wave to\n"
+    "damage the foe.");
+
+static const u8 sBOOZE_BASHDescription[] = _(
+    "A drunken slam that may\n"
+    "cause confusion.");
+
+static const u8 sBEER_FROTHDescription[] = _(
+    "An attack using foam.\n"
+    "May confuse the foe."
+
+static const u8 sBOTTLE_SMASHDescription[] = _(
+    "A self-risking smash that\n"
+    "hurts the user."
+
+static const u8 sMOLOTOVDescription[] = _(
+    "Strikes by hurling a bottle\n"
+    "that may burn the foe.");
+
+static const u8 sFUNNELDescription[] = _(
+    "Traps and hurts the foe with\n"
+    "a funnel for 2 to 5 turns.");
+
+static const u8 sFERMENTDescription[] = _(
+    "Raises Sp. Atk and Sp. Def\n"
+    "by fermenting.");
+
 static const u8 sNotDoneYetDescription[] = _(
     "Not done yet.");
 
@@ -6672,4 +6700,6 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_SHOT - 1] = sShotDescription,
     [MOVE_SEED_FORCE - 1] = sSEED_FORCEDescription,
     [MOVE_SIZZLE_SLAM - 1] = sSIZZLE_SLAMDescription,
+    [MOVE_BOOZE_BASH - 1] = sBOOZE_BASHDescription,
+    [MOVE_COSMIC_RAY - 1] = sCOSMIC_RAYDescription,
 };

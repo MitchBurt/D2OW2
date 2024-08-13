@@ -97,15 +97,15 @@ void DoBrailleDigEffect(void)
     ScriptContext2_Disable();
 }
 
-bool8 CheckRelicanthWailord(void)
+bool8 CheckGalacnarWailord(void)
 {
     // Emerald change: why did they flip it?
     // First comes Wailord
     if (GetMonData(&gPlayerParty[0], MON_DATA_SPECIES2, 0) == SPECIES_WAILORD)
     {
         CalculatePlayerPartyCount();
-        // Last comes Relicanth
-        if (GetMonData(&gPlayerParty[gPlayerPartyCount - 1], MON_DATA_SPECIES2, 0) == SPECIES_RELICANTH)
+        // Last comes Galacnar
+        if (GetMonData(&gPlayerParty[gPlayerPartyCount - 1], MON_DATA_SPECIES2, 0) == SPECIES_GALACNAR)
             return TRUE;
     }
     return FALSE;

@@ -4,11 +4,11 @@ SealedChamber_InnerRoom_MapScripts:: @ 82391F7
 
 SealedChamber_InnerRoom_EventScript_BrailleBackWall:: @ 82391F8
 	lockall
-	braillemessage SealedChamber_InnerRoom_Braille_FirstWailordLastRelicanth
+	braillemessage SealedChamber_InnerRoom_Braille_FirstWailordLastGalacnar
 	waitbuttonpress
 	closebraillemessage
 	goto_if_set FLAG_REGI_DOORS_OPENED, SealedChamber_InnerRoom_EventScript_NoEffect
-	specialvar VAR_RESULT, CheckRelicanthWailord
+	specialvar VAR_RESULT, CheckGalacnarWailord
 	compare VAR_RESULT, FALSE
 	goto_if_eq SealedChamber_InnerRoom_EventScript_NoEffect
 	fadeoutbgm 0

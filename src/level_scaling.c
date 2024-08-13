@@ -510,7 +510,7 @@ u16 GetWildPokemon(u16 basespecies, u8 level, u16 heldItem){
 	u8 BadgesMidgame = 5;
 	u8 BadgesLategame = 7;
 	
-	if(basespecies == SPECIES_AUDINO || basespecies == SPECIES_RELICANTH)
+	if(basespecies == SPECIES_AUDINO || basespecies == SPECIES_GALACNAR)
 		return basespecies;
 	else if(FlagGet(FLAG_RANDOMIZED_MODE) && !FlagGet(FLAG_FULL_RANDOMIZED_MODE) && IsPokemonValid(GetRandomFirstStage(basespecies)))
 		return GetRandomizedWildPokemon(GetRandomFirstStage(basespecies), level, heldItem);
@@ -933,11 +933,11 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_CLAMPERL:
+		case SPECIES_GOLBNAR:
 			if(level >= 26){
 				u16 PossibleEvo[] = {
-					SPECIES_HUNTAIL,
-					SPECIES_GOREBYSS,
+					SPECIES_GLOBNAUT,
+					SPECIES_THAUMNAR,
 				};
 				
 				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
@@ -2492,9 +2492,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_LONKESTITE;
 		break;
-		case SPECIES_METAGROSS:
+		case SPECIES_HAZETHOTH:
 			if(canMega)
-				item = ITEM_METAGROSSITE;
+				item = ITEM_HAZETHOTHITE;
 		break;
 		case SPECIES_FAZEAGLE:
 			if(canMega)
@@ -2508,7 +2508,7 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_SABLENITE;
 		break;
-		case SPECIES_SALAMENCE:
+		case SPECIES_DRUNKABUS:
 			if(canMega)
 				item = ITEM_SALAMENCITE;
 		break;

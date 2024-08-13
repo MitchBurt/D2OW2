@@ -8508,3 +8508,8 @@ BattleScript_MoveSober::
 	waitmessage 0x40
 	updatestatusicon BS_EFFECT_BATTLER
 	goto BattleScript_YawnMakesAsleep
+
+BattleScript_DrunkTurnDmg::
+	printstring STRINGID_ITHURTINTOXICATE
+	waitmessage 0x40
+	goto BattleScript_DoStatusTurnDmg

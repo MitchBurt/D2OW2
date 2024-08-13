@@ -2528,7 +2528,7 @@ const u16 gEggMoves[] = {
 		MOVE_DRAGON_DANCE,
 		MOVE_EARTH_POWER),
 
-	egg_moves(CORPHISH,
+	egg_moves(NONGETIVE,
 		MOVE_DOUBLE_EDGE,
 		MOVE_SLASH,
 		MOVE_METAL_CLAW,
@@ -2729,7 +2729,7 @@ const u16 gEggMoves[] = {
 		MOVE_FLIP_TURN,
 		MOVE_ROCK_SLIDE),
 
-	egg_moves(CLAMPERL,
+	egg_moves(GOLBNAR,
 		MOVE_BODY_SLAM,
 		MOVE_SUPERSONIC,
 		MOVE_CONFUSE_RAY,
@@ -2742,7 +2742,7 @@ const u16 gEggMoves[] = {
 		MOVE_BRINE,
 		MOVE_AQUA_RING),
 
-	egg_moves(RELICANTH,
+	egg_moves(GALACNAR,
 		MOVE_SKULL_BASH,
 		MOVE_MUD_SLAP,
 		MOVE_AMNESIA,
@@ -2757,7 +2757,7 @@ const u16 gEggMoves[] = {
 		MOVE_ZEN_HEADBUTT,
 		MOVE_ROCK_SLIDE),
 
-	egg_moves(LUVDISC,
+	egg_moves(WARPNAR,
 		MOVE_SUPERSONIC,
 		MOVE_SPLASH,
 		MOVE_MUD_SPORT,
@@ -2769,7 +2769,7 @@ const u16 gEggMoves[] = {
 		MOVE_ENTRAINMENT,
 		MOVE_HEAL_PULSE),
 
-	egg_moves(BAGON,
+	egg_moves(SIPKING,
 		MOVE_WISH,
 		MOVE_THRASH,
 		MOVE_DEFENSE_CURL,

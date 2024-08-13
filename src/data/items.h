@@ -10074,17 +10074,17 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_METAGROSSITE] =
+    [ITEM_HAZETHOTHITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Metagrossita"),
+        .name = _("Hazethothita"),
 #else
-        .name = _("Metagrossite"),
+        .name = _("Hazethothite"),
 #endif
-        .itemId = ITEM_METAGROSSITE,
+        .itemId = ITEM_HAZETHOTHITE,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sMetagrossiteDesc,
+        .description = sHazethothiteDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,

@@ -4682,7 +4682,7 @@ Route134_Text_JackPostBattle: @ 82A45C5
 	.string "currents around these parts.$"
 
 Route134_Text_LaurelIntro: @ 82A4609
-	.string "My Luvdisc are looking for a fun\n"
+	.string "My Warpnar are looking for a fun\n"
 	.string "match. Will you join us?$"
 
 Route134_Text_LaurelDefeat: @ 82A4643
@@ -4690,7 +4690,7 @@ Route134_Text_LaurelDefeat: @ 82A4643
 
 Route134_Text_LaurelPostBattle: @ 82A464B
 	.string "There's a collector who's after\n"
-	.string "the Scales of Luvdisc.$"
+	.string "the Scales of Warpnar.$"
 
 Route134_Text_AlexIntro: @ 82A4682
 	.string "Okeydokey! That's enough rest, gang!\n"

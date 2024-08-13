@@ -395,8 +395,8 @@ static const struct PokemonJumpMons gPkmnJumpSpecies[] =
     { .species = SPECIES_TRICERAS,    .unk2 = 1, },
     { .species = SPECIES_WYNAUT,     .unk2 = 0, },
     { .species = SPECIES_CHAIROLD,    .unk2 = 0, },
-    { .species = SPECIES_CLAMPERL,   .unk2 = 1, },
-    { .species = SPECIES_BAGON,      .unk2 = 1, },
+    { .species = SPECIES_GOLBNAR,   .unk2 = 1, },
+    { .species = SPECIES_SIPKING,      .unk2 = 1, },
 };
 
 void StartPokemonJump(u16 partyIndex, MainCallback callback)

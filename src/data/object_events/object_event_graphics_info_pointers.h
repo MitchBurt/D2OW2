@@ -158,7 +158,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CookletDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BaitordDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RatmanDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_WynautDoll;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BaltoyDoll;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DreidrillDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KecleonDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_AzurillDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SkittyDoll;
@@ -1254,7 +1254,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_BAITORD_DOLL] =              &gObjectEventGraphicsInfo_BaitordDoll,
     [OBJ_EVENT_GFX_RATMAN_DOLL] =             &gObjectEventGraphicsInfo_RatmanDoll,
     [OBJ_EVENT_GFX_WYNAUT_DOLL] =              &gObjectEventGraphicsInfo_WynautDoll,
-    [OBJ_EVENT_GFX_BALTOY_DOLL] =              &gObjectEventGraphicsInfo_BaltoyDoll,
+    [OBJ_EVENT_GFX_DREIDRILL_DOLL] =              &gObjectEventGraphicsInfo_DreidrillDoll,
     [OBJ_EVENT_GFX_KECLEON_DOLL] =             &gObjectEventGraphicsInfo_KecleonDoll,
     [OBJ_EVENT_GFX_AZURILL_DOLL] =             &gObjectEventGraphicsInfo_AzurillDoll,
     [OBJ_EVENT_GFX_SKITTY_DOLL] =              &gObjectEventGraphicsInfo_SkittyDoll,

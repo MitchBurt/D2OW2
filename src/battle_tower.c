@@ -163,7 +163,7 @@ const u16 gBattleFrontierHeldItems[] =
 	ITEM_THATSFURRYITE,
 	ITEM_BACIDITE,
 	ITEM_LONKESTITE,
-	ITEM_METAGROSSITE,
+	ITEM_HAZETHOTHITE,
 	ITEM_ICY_ROCK,
 	ITEM_ROCKY_HELMET,
 	ITEM_GALLADITE,
@@ -818,7 +818,7 @@ struct
 } const sStevenMons[MULTI_PARTY_SIZE] =
 {
     {
-        .species = SPECIES_METANG,
+        .species = SPECIES_HARASTUR,
         .fixedIV = 31,
         .level = 42,
         .nature = NATURE_BRAVE,

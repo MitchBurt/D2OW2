@@ -581,7 +581,7 @@ script SlateportCity_Harbor_EventScript_CaptSternPory {
 			giveitem(ITEM_DEEP_SEA_TOOTH)
 			setvar(VAR_TEMP_1, 1)
 			msgbox(format("Capt. Stern: I found these items while working on the Ferry!\p"
-			"Using them with the Pokemon called Clamperl may help it on its evolution."))
+			"Using them with the Pokemon called Golbnar may help it on its evolution."))
 		} else {
         	msgbox(format("Capt. Stern: You drive a hard bargain. Let me know if you reconsider."))
     	}

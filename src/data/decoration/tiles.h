@@ -530,8 +530,8 @@ const u16 DecorGfx_WYNAUT_DOLL[] = {
     OBJ_EVENT_GFX_WYNAUT_DOLL
 };
 
-const u16 DecorGfx_BALTOY_DOLL[] = {
-    OBJ_EVENT_GFX_BALTOY_DOLL
+const u16 DecorGfx_DREIDRILL_DOLL[] = {
+    OBJ_EVENT_GFX_DREIDRILL_DOLL
 };
 
 const u16 DecorGfx_KECLEON_DOLL[] = {

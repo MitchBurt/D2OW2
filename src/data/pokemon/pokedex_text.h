@@ -1753,14 +1753,14 @@ const u8 gKecleonPokedexText[] = _(
     "en el medio en el que esté. Si se asusta,\n"
     "Kecleon recuperará sus colores originales.");
 
-const u8 gBaltoyPokedexText[] = _(
-    "Los Baltoy se mueven haciendo girar\n"
+const u8 gDreidrillPokedexText[] = _(
+    "Los Dreidrill se mueven haciendo girar\n"
     "su única extremidad inferior. Aparecen\n"
     "representados en las pinturas murales\n"
     "de las ruinas de una antigua ciudad.");
 
-const u8 gClaydolPokedexText[] = _(
-    "Claydol duerme mientras levita.\n"
+const u8 gHeburrowPokedexText[] = _(
+    "Heburrow duerme mientras levita.\n"
     "Tiene los brazos separados del cuerpo\n"
     "y los mantiene flotando gracias a\n"
     "sus poderes psicoquinéticos.");
@@ -1795,21 +1795,21 @@ const u8 gWhiscashPokedexText[] = _(
     "fondo de una charca. Ya despierto, se\n"
     "pasa toda la noche alimentándose.");
 
-const u8 gLuvdiscPokedexText[] = _(
-    "Para Luvdisc, las ramas de Setronic\n"
+const u8 gWarpnarPokedexText[] = _(
+    "Para Warpnar, las ramas de Setronic\n"
     "son su nido. Existe una antigua costumbre\n"
-    "que consiste en regalar un Luvdisc\n"
+    "que consiste en regalar un Warpnar\n"
     "para expresar un sentimiento amoroso.");
 
-const u8 gCorphishPokedexText[] = _(
+const u8 gNongetivePokedexText[] = _(
     "Una vez que agarra a su presa con sus\n"
     "grandes pinzas, no la suelta pase lo que\n"
     "pase. Es un Pokémon resistente que\n"
     "puede subsistir en cualquier medio.");
 
-const u8 gCrawdauntPokedexText[] = _(
+const u8 gNononmonPokedexText[] = _(
     "Es un Pokémon brutal que disfruta.\n"
-    "luchando. Un Crawdaunt veterano que\n"
+    "luchando. Un Nononmon veterano que\n"
     "ha salido airoso de miles de combates tiene\n"
     "enormes pinzas llenas de cicatrices.");
 
@@ -2087,20 +2087,20 @@ const u8 gGigalphaPokedexText[] = _(
     "ajustando el tono y el volumen de los\n"
     "gritos que emite.");
 
-const u8 gClamperlPokedexText[] = _(
-    "Un Clamperl cierra de golpe la concha\n"
+const u8 gGolbnarPokedexText[] = _(
+    "Un Golbnar cierra de golpe la concha\n"
     "para evitar que escape su presa.\n"
     "Dicen que la perla que crea al evolucionar\n"
     "está dotada de una misteriosa energía.");
 
-const u8 gHuntailPokedexText[] = _(
+const u8 gGlobnautPokedexText[] = _(
     "Para soportar la machacante presión\n"
     "del mar a gran profundidad, desarrolla una\n"
     "espina dorsal muy gruesa y fuerte. La cola,\n"
     "con forma de pez, tiene ojos que brillan.");
 
-const u8 gGorebyssPokedexText[] = _(
-    "Gorebyss absorbe los fluidos corporales\n"
+const u8 gThaumnarPokedexText[] = _(
+    "Thaumnar absorbe los fluidos corporales\n"
     "de su presa a través de la boca, que es\n"
     "fina y tubular. Cuando acaba de comer,\n"
     "se le acentúa el tono rosado.");
@@ -2129,7 +2129,7 @@ const u8 gZangoosePokedexText[] = _(
     "El pelaje se le eriza si se encuentra\n"
     "con un Seviper.");
 
-const u8 gRelicanthPokedexText[] = _(
+const u8 gGalacnarPokedexText[] = _(
     "Se llegó a creer que se había extinguido.\n"
     "La especie no ha cambiado de forma desde\n"
     "hace 100 millones de años. Camina por el\n"
@@ -2213,38 +2213,38 @@ const u8 gThatsfurryPokedexText[] = _(
     "la energía psicoquinética. Por proteger\n"
     "a su Entrenador, sería capaz de todo.");
 
-const u8 gBagonPokedexText[] = _(
+const u8 gSipkingPokedexText[] = _(
     "Aunque pequeño, este Pokémon es muy\n"
     "fuerte porque su cuerpo es puro músculo.\n"
     "Propina cabezazos con el cráneo, que\n"
     "es tan duro como el hierro.");
 
-const u8 gShelgonPokedexText[] = _(
+const u8 gTipsyramidPokedexText[] = _(
     "Apenas come cuando va a evolucionar.\n"
     "Soportar el hambre lo vuelve resistente.\n"
     "Cuando comienza a evolucionar, comienza\n"
     "a perder su coraza.");
 
-const u8 gSalamencePokedexText[] = _(
+const u8 gDrunkabusPokedexText[] = _(
     "Después de muchos años, su estructura\n"
     "celular sufrió una mutación repentina y\n"
     "le crecieron alas. Cuando se enfada, no\n"
     "se atiene a razones y entra en cólera.");
 
-const u8 gBeldumPokedexText[] = _(
-    "Cuando los Beldum van en enjambre, se\n"
+const u8 gYelleyePokedexText[] = _(
+    "Cuando los Yelleye van en enjambre, se\n"
     "mueven al unísono en perfecta armonía,\n"
     "como si fueran un solo Pokémon.\n"
     "Se comunican por ondas cerebrales.");
 
-const u8 gMetangPokedexText[] = _(
+const u8 gHarasturPokedexText[] = _(
     "Sus brazos acaban en unas garras que\n"
     "acumulan energía destructiva con la que\n"
     "rasga planchas de hierro como si fueran\n"
     "de papel. Vuela a más de 100 km por hora.");
 
-const u8 gMetagrossPokedexText[] = _(
-    "Metagross tiene cuatro cerebros unidos\n"
+const u8 gHazethothPokedexText[] = _(
+    "Hazethoth tiene cuatro cerebros unidos\n"
     "por una compleja red neuronal. Esta\n"
     "integración hace que sea más inteligente\n"
     "que un ordenador de última generación.");
@@ -7111,14 +7111,14 @@ const u8 gKecleonPokedexText[] = _(
     "A Kecleon reverts to its original colors if\n"
     "it is startled.");
 
-const u8 gBaltoyPokedexText[] = _(
-    "A Baltoy moves by spinning on its single\n"
+const u8 gDreidrillPokedexText[] = _(
+    "A Dreidrill moves by spinning on its single\n"
     "foot. It has been depicted in murals \n"
     "adorning the walls of a once-bustling city\n"
     "in an ancient age.");
 
-const u8 gClaydolPokedexText[] = _(
-    "A Claydol sleeps while hovering in midair.\n"
+const u8 gHeburrowPokedexText[] = _(
+    "A Heburrow sleeps while hovering in midair.\n"
     "Its arms are separate from its body.\n"
     "They are kept floating by the Pokémon's\n"
     "manipulation of psychic power.");
@@ -7153,21 +7153,21 @@ const u8 gWhiscashPokedexText[] = _(
     "bottom of a pond. When it awakens, it\n"
     "continually feeds throughout the night.");
 
-const u8 gLuvdiscPokedexText[] = _(
-    "Luvdisc make the branches of Setronic\n"
+const u8 gWarpnarPokedexText[] = _(
+    "Warpnar make the branches of Setronic\n"
     "their nests. There is a custom from long\n"
-    "ago of giving a Luvdisc as a gift to\n"
+    "ago of giving a Warpnar as a gift to\n"
     "express one's feelings of love.");
 
-const u8 gCorphishPokedexText[] = _(
+const u8 gNongetivePokedexText[] = _(
     "Once it grips prey with its large pincers,\n"
     "it will never let go, no matter what.\n"
     "It is a hardy Pokémon that can thrive\n"
     "in any environment.");
 
-const u8 gCrawdauntPokedexText[] = _(
+const u8 gNononmonPokedexText[] = _(
     "A brutish Pokémon that loves to battle.\n"
-    "A veteran Crawdaunt that has prevailed in\n"
+    "A veteran Nononmon that has prevailed in\n"
     "hundreds of battles has giant pincers\n"
     "marked with countless scars.");
 
@@ -7441,20 +7441,20 @@ const u8 gGigalphaPokedexText[] = _(
     "adjusting the tone and volume of the cries\n"
     "it emits.");
 
-const u8 gClamperlPokedexText[] = _(
-    "A Clamperl slams its shell closed on prey\n"
+const u8 gGolbnarPokedexText[] = _(
+    "A Golbnar slams its shell closed on prey\n"
     "to prevent escape. The pearl it creates\n"
     "upon evolution is said to be infused with\n"
     "a mysterious energy.");
 
-const u8 gHuntailPokedexText[] = _(
+const u8 gGlobnautPokedexText[] = _(
     "To withstand the crushing pressure of\n"
     "water deep under the sea, its spine is very\n"
     "thick and sturdy. Its tail, which is shaped\n"
     "like a small fish, has eyes that light up.");
 
-const u8 gGorebyssPokedexText[] = _(
-    "A Gorebyss siphons the body fluids of prey\n"
+const u8 gThaumnarPokedexText[] = _(
+    "A Thaumnar siphons the body fluids of prey\n"
     "through its thin, tubular mouth. Its light\n"
     "pink body color turns vivid when it\n"
     "finishes feeding.");
@@ -7489,7 +7489,7 @@ const u8 gZangoosePokedexText[] = _(
     "forelegs. Its fur bristles if it encounters\n"
     "any Seviper.");
 
-const u8 gRelicanthPokedexText[] = _(
+const u8 gGalacnarPokedexText[] = _(
     "A Pokémon that was once believed to have\n"
     "been extinct. The species has not changed\n"
     "its form for 100 million years. It walks on\n"
@@ -7573,38 +7573,38 @@ const u8 gThatsfurryPokedexText[] = _(
     "psychic power. It will give its life to\n"
     "protect its Trainer.");
 
-const u8 gBagonPokedexText[] = _(
+const u8 gSipkingPokedexText[] = _(
     "Although it is small, this Pokémon is very\n"
     "powerful because its body is a bundle of\n"
     "muscles. It launches head-butts with its\n"
     "ironlike skull.");
 
-const u8 gShelgonPokedexText[] = _(
+const u8 gTipsyramidPokedexText[] = _(
     "It hardly eats while it awaits evolution.\n"
     "It becomes hardier by enduring hunger.\n"
     "Its shell peels off the instant it begins\n"
     "to evolve.");
 
-const u8 gSalamencePokedexText[] = _(
+const u8 gDrunkabusPokedexText[] = _(
     "After many long years, its cellular\n"
     "structure underwent a sudden mutation to\n"
     "grow wings. When angered, it loses all\n"
     "thought and rampages out of control.");
 
-const u8 gBeldumPokedexText[] = _(
-    "When Beldum gather in a swarm, they move\n"
+const u8 gYelleyePokedexText[] = _(
+    "When Yelleye gather in a swarm, they move\n"
     "in perfect unison as if they were but one\n"
     "Pokémon. They communicate with each other\n"
     "using brain waves.");
 
-const u8 gMetangPokedexText[] = _(
+const u8 gHarasturPokedexText[] = _(
     "The claws tipping its arms pack the\n"
     "destructive power to tear through thick\n"
     "iron sheets as if they were silk. It flies\n"
     "at over 60 miles per hour.");
 
-const u8 gMetagrossPokedexText[] = _(
-    "Metagross has four brains that are joined\n"
+const u8 gHazethothPokedexText[] = _(
+    "Hazethoth has four brains that are joined\n"
     "by a complex neural network. As a result of\n"
     "integration, this Pokémon is smarter than\n"
     "a supercomputer.");

@@ -1470,12 +1470,12 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x67,
         .y_offset = 5,
     },
-    [SPECIES_BALTOY] =
+    [SPECIES_DREIDRILL] =
     {
         .size = 0x55,
         .y_offset = 8,
     },
-    [SPECIES_CLAYDOL] =
+    [SPECIES_HEBURROW] =
     {
         .size = 0x78,
         .y_offset = 3,
@@ -1505,17 +1505,17 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x76,
         .y_offset = 9,
     },
-    [SPECIES_LUVDISC] =
+    [SPECIES_WARPNAR] =
     {
         .size = 0x46,
         .y_offset = 14,
     },
-    [SPECIES_CORPHISH] =
+    [SPECIES_NONGETIVE] =
     {
         .size = 0x66,
         .y_offset = 8,
     },
-    [SPECIES_CRAWDAUNT] =
+    [SPECIES_NONONMON] =
     {
         .size = 0x88,
         .y_offset = 4,
@@ -1745,17 +1745,17 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x88,
         .y_offset = 0,
     },
-    [SPECIES_CLAMPERL] =
+    [SPECIES_GOLBNAR] =
     {
         .size = 0x55,
         .y_offset = 11,
     },
-    [SPECIES_HUNTAIL] =
+    [SPECIES_GLOBNAUT] =
     {
         .size = 0x78,
         .y_offset = 3,
     },
-    [SPECIES_GOREBYSS] =
+    [SPECIES_THAUMNAR] =
     {
         .size = 0x86,
         .y_offset = 6,
@@ -1785,7 +1785,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x87,
         .y_offset = 5,
     },
-    [SPECIES_RELICANTH] =
+    [SPECIES_GALACNAR] =
     {
         .size = 0x77,
         .y_offset = 10,
@@ -1855,32 +1855,32 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x78,
         .y_offset = 0,
     },
-    [SPECIES_BAGON] =
+    [SPECIES_SIPKING] =
     {
         .size = 0x56,
         .y_offset = 9,
     },
-    [SPECIES_SHELGON] =
+    [SPECIES_TIPSYRAMID] =
     {
         .size = 0x66,
         .y_offset = 9,
     },
-    [SPECIES_SALAMENCE] =
+    [SPECIES_DRUNKABUS] =
     {
         .size = 0x87,
         .y_offset = 3,
     },
-    [SPECIES_BELDUM] =
+    [SPECIES_YELLEYE] =
     {
         .size = 0x55,
         .y_offset = 15,
     },
-    [SPECIES_METANG] =
+    [SPECIES_HARASTUR] =
     {
         .size = 0x87,
         .y_offset = 9,
     },
-    [SPECIES_METAGROSS] =
+    [SPECIES_HAZETHOTH] =
     {
         .size = 0x87,
         .y_offset = 9,
@@ -4682,12 +4682,12 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0,
         .y_offset = 4,
     },
-    [SPECIES_SALAMENCE_MEGA] =
+    [SPECIES_DRUNKABUS_MEGA] =
     {
         .size = 0,
         .y_offset = 5,
     },
-    [SPECIES_METAGROSS_MEGA] =
+    [SPECIES_HAZETHOTH_MEGA] =
     {
         .size = 0,
         .y_offset = 0,
