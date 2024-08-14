@@ -9367,7 +9367,6 @@ const struct BaseStats gBaseStats[] =
         .eggGroup2 = EGG_GROUP_FIELD,
         .abilities = {ABILITY_SAND_RUSH, ABILITY_SAND_FORCE},
 		.abilityHidden = ABILITY_PICKPOCKET,
-        .abilities = {ABILITY_NONE, ABILITY_NONE},
         .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
 		.flags = F_GROUND_INMUNITY,
