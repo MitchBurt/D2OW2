@@ -785,6 +785,7 @@ gBattleAnims_Moves::
 	.4byte Move_BOTTLE_SMASH
 	.4byte Move_BEER_FROTH
 	.4byte Move_MOLOTOV
+	.4byte Move_SHOTGUN
 	.4byte Move_EERIE_SPELL
 	.4byte Move_COUNT @ cannot be reached, because last move is Eerie Spell
 
@@ -13347,6 +13348,9 @@ Move_BOTTLE_SMASH::
 
 Move_BEER_FROTH::
 	goto Move_GASTRO_ACID
+
+Move_SHOTGUN::
+	goto Move_WATERFALL
 
 Move_OCTOLOCK::
 	loadspritegfx ANIM_TAG_TENDRILS

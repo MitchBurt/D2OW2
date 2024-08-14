@@ -1510,7 +1510,8 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_FUNNEL] = _("Funnel"),
     [MOVE_MOLOTOV] = _("Molotov Cocktail"),
     [MOVE_BOTTLE_SMASH] = _("Bottle Smash"),
-    [MOVE_BEER_FROTH] = _("Beer Froth"),
+    [MOVE_BEER_FROTH] = _("Froth"),
+    [MOVE_SHOTGUN] = _("Shotgun"),
     [MOVE_FERMENT] = _("Ferment"),
     
 

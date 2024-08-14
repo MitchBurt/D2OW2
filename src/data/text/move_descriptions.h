@@ -5933,6 +5933,10 @@ static const u8 sFERMENTDescription[] = _(
     "Raises Sp. Atk and Sp. Def\n"
     "by fermenting.");
 
+static const u8 sSHOTGUNDescription[] = _(
+    "The foe chugs a drink that\n"
+    "may cause confusion.");
+
 static const u8 sNotDoneYetDescription[] = _(
     "Not done yet.");
 
@@ -6698,6 +6702,11 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_ASTRAL_BARRAGE - 1] = sASTRAL_BARRAGEDescription,
     [MOVE_EERIE_SPELL - 1] = sEERIE_SPELLDescription,
     [MOVE_SHOT - 1] = sShotDescription,
+    [MOVE_FUNNEL - 1] = sFUNNELDescription,
+    [MOVE_FERMENT - 1] = sFERMENTDescription,
+    [MOVE_BOTTLE_SMASH - 1] = sBOTTLE_SMASHDescription,
+    [MOVE_MOLOTOV - 1] = sMOLOTOVDescription,
+    [MOVE_BEER_FROTH - 1] = sBEER_FROTHDescription,
     [MOVE_SEED_FORCE - 1] = sSEED_FORCEDescription,
     [MOVE_SIZZLE_SLAM - 1] = sSIZZLE_SLAMDescription,
     [MOVE_BOOZE_BASH - 1] = sBOOZE_BASHDescription,

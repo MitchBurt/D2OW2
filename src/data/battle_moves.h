@@ -11430,19 +11430,6 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
 
 //New moves
-    [MOVE_SHOT] =
-    {
-        .effect = EFFECT_INTOXICATE_HIT,
-        .power = 40,
-        .type = TYPE_ALCOHOL,
-        .accuracy = 90,
-        .pp = 20,
-        .secondaryEffectChance = 100,
-        .target = MOVE_TARGET_SELECTED,
-        .priority = 0,
-        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED | FLAG_SHEER_FORCE_BOOST | FLAG_ALCOHOL,
-        .split = SPLIT_SPECIAL,
-    },
 
     [MOVE_SEED_FORCE] =
     {
@@ -11483,6 +11470,20 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED | FLAG_MEGA_LAUNCHER_BOOST,
+        .split = SPLIT_SPECIAL,
+    },
+
+    [MOVE_SHOT] =
+    {
+        .effect = EFFECT_INTOXICATE_HIT,
+        .power = 40,
+        .type = TYPE_ALCOHOL,
+        .accuracy = 90,
+        .pp = 20,
+        .secondaryEffectChance = 100,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED | FLAG_SHEER_FORCE_BOOST | FLAG_ALCOHOL,
         .split = SPLIT_SPECIAL,
     },
 
@@ -11563,11 +11564,26 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .type = TYPE_ALCOHOL,
         .accuracy = 100,
         .pp = 30,
+        .secondaryEffectChance = 20,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST,
+        .split = SPLIT_SPECIAL,
+    },
+
+    [MOVE_SHOTGUN] =
+    {
+        .power = 80,
+        .effect = EFFECT_CONFUSE_HIT,
+        .type = TYPE_ALCOHOL,
+        .accuracy = 100,
+        .pp = 30,
         .secondaryEffectChance = 10,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST,
         .split = SPLIT_SPECIAL,
+    },
 
 //TODO
     //Banana Bomb - everyone target, grass type
