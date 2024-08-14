@@ -5915,11 +5915,11 @@ static const u8 sBOOZE_BASHDescription[] = _(
 
 static const u8 sBEER_FROTHDescription[] = _(
     "An attack using foam.\n"
-    "May confuse the foe."
+    "May confuse the foe.");
 
 static const u8 sBOTTLE_SMASHDescription[] = _(
     "A self-risking smash that\n"
-    "hurts the user."
+    "hurts the user.");
 
 static const u8 sMOLOTOVDescription[] = _(
     "Strikes by hurling a bottle\n"
