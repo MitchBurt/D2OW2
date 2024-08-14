@@ -8200,7 +8200,6 @@ static const struct LevelUpMove sHazethothLevelUpLearnset[] = {
     LEVEL_UP_MOVE(82, MOVE_SPACIAL_REND),
     LEVEL_UP_MOVE(88, MOVE_METEOR_ASSAULT),
     LEVEL_UP_END
-    LEVEL_UP_END
 };
 
 static const struct LevelUpMove sRegirockLevelUpLearnset[] = {
