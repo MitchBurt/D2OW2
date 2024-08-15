@@ -8131,7 +8131,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_SCATRUSH] =
+    [SPECIES_TEMP] =
     {
         .baseHP        = 80,
         .baseAttack    = 90,
@@ -41931,7 +41931,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_SCATRUSH] =
+    [SPECIES_TEMP] =
     {
         .baseHP        = 30,
         .baseAttack    = 45,
