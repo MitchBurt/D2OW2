@@ -11036,7 +11036,7 @@ static const union AnimCmd *const sAnims_ODOSAUR[] ={
 
 static const union AnimCmd *const sAnims_PYRABASS[] ={
     sAnim_GeneralFrame0,
-    sAnims_PYRABASS_1,
+    sAnim_PYRABASS_1,
 };
 
 static const union AnimCmd *const sAnims_TRICERAS[] ={
