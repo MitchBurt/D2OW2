@@ -7474,7 +7474,6 @@ static const struct LevelUpMove sPaddliteLevelUpLearnset[] = {
     LEVEL_UP_MOVE(48, MOVE_SCALD),
     LEVEL_UP_MOVE(52, MOVE_HYDRO_PUMP),
     LEVEL_UP_MOVE(56, MOVE_WHIRLPOOL),
-    LEVEL_UP_MOVE(60, MOVE_WAVE_CRASH),
     LEVEL_UP_END
 };
 
