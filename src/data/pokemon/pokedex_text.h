@@ -2177,11 +2177,11 @@ const u8 gOdosaurPokedexText[] = _(
     "despistada, será engullida de golpe.\n"
     "Se extinguió hace 100 millones de años.");
 
-const u8 gCradilyPokedexText[] = _(
+const u8 gPyrabassPokedexText[] = _(
     "Arrastra su pesado cuerpo por el fondo\n"
     "marino. Anida cerca de la superficie, en\n"
     "aguas templadas. Cuando hay marea baja,\n"
-    "es posible ver a Cradily en la playa.");
+    "es posible ver a Pyrabass en la playa.");
 
 const u8 gTricerasPokedexText[] = _(
     "La ciencia logró regenerarlo a partir de\n"
@@ -7537,10 +7537,10 @@ const u8 gOdosaurPokedexText[] = _(
     "that come too close are swallowed whole.\n"
     "It became extinct 100 million years ago.");
 
-const u8 gCradilyPokedexText[] = _(
+const u8 gPyrabassPokedexText[] = _(
     "It drags its heavy body along the\n"
     "seafloor. It makes its nest in the shallows\n"
-    "of warm seas. Cradily can be seen on\n"
+    "of warm seas. Pyrabass can be seen on\n"
     "beaches when the tide goes out.");
 
 const u8 gTricerasPokedexText[] = _(
