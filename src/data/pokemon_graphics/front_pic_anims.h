@@ -3444,7 +3444,7 @@ static const union AnimCmd sAnim_HEBURROW_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Scatrush_1[] =
+static const union AnimCmd sAnim_SCATRUSH_1[] =
 {
     ANIMCMD_FRAME(0, 27),
     ANIMCMD_FRAME(1, 27),
@@ -10670,9 +10670,9 @@ static const union AnimCmd *const sAnims_HEBURROW[] ={
     sAnim_HEBURROW_1,
 };
 
-static const union AnimCmd *const sAnims_Scatrush[] ={
+static const union AnimCmd *const sAnims_SCATRUSH[] ={
     sAnim_GeneralFrame0,
-    sAnim_Scatrush_1,
+    sAnim_SCATRUSH_1,
 };
 
 static const union AnimCmd *const sAnims_HELLAPHANT[] ={
@@ -14733,7 +14733,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(KECLEON),
     ANIM_CMD(DREIDRILL),
     ANIM_CMD(HEBURROW),
-    ANIM_CMD(Scatrush),
+    ANIM_CMD(SCATRUSH),
     ANIM_CMD(HELLAPHANT),
     ANIM_CMD(SABLEYE),
     ANIM_CMD(COOPID),

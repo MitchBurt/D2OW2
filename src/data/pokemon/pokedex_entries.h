@@ -3589,7 +3589,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_Scatrush] =
+    [NATIONAL_DEX_SCATRUSH] =
     {
         .categoryName = _("Brújula"),
         .height = 10,
@@ -14379,7 +14379,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_Scatrush] =
+    [NATIONAL_DEX_SCATRUSH] =
     {
         .categoryName = _("Compass"),
         .height = 10,

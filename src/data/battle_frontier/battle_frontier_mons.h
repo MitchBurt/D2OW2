@@ -1200,7 +1200,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_JOLLY,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_Scatrush] = {
+    [FRONTIER_MON_SCATRUSH] = {
         .species = SPECIES_HELPME,
         .moves = {MOVE_ROOST, MOVE_PSYCHIC, MOVE_TOXIC, MOVE_ICE_BEAM    },
         .itemTableId = BATTLE_FRONTIER_ITEM_LEFTOVERS,

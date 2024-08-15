@@ -617,8 +617,8 @@ const struct BattleFrontierTrainer gSlateportBattleTentTrainers[NUM_BATTLE_TENT_
         .facilityClass = FACILITY_CLASS_SCHOOL_KID_F,
         .trainerName = _("Maggie"),
         .speechBefore = {EC_POKEMON(SAUCIE), EC_POKEMON(GOALEM), EC_POKEMON2(LEAVE), EC_WORD_ELLIPSIS, EC_WORD_UM, EC_WORD_ELLIPSIS},
-        .speechWin = {EC_POKEMON(Scatrush), EC_WORD_ELLIPSIS, EC_WORD_UM, EC_POKEMON(ARACKNE), EC_WORD_EXCL, -1},
-        .speechLose = {EC_POKEMON(Scatrush), EC_WORD_ELLIPSIS, EC_WORD_UM, EC_POKEMON2(SHEPEIRD), EC_WORD_ELLIPSIS, EC_WORD_UH_OH},
+        .speechWin = {EC_POKEMON(SCATRUSH), EC_WORD_ELLIPSIS, EC_WORD_UM, EC_POKEMON(ARACKNE), EC_WORD_EXCL, -1},
+        .speechLose = {EC_POKEMON(SCATRUSH), EC_WORD_ELLIPSIS, EC_WORD_UM, EC_POKEMON2(SHEPEIRD), EC_WORD_ELLIPSIS, EC_WORD_UH_OH},
         .monSet = gSlateportBattleTentTrainerMons_Maggie
     },
     [SLATEPORT_TENT_TRAINER_STEPHON] = {

@@ -193,7 +193,7 @@
     FRONTIER_MON_BUNGA,      \
     FRONTIER_MON_DURASHELL,       \
     FRONTIER_MON_RICKLING,         \
-    FRONTIER_MON_Scatrush,      \
+    FRONTIER_MON_SCATRUSH,      \
     FRONTIER_MON_SETRONIC,       \
     FRONTIER_MON_MINITRON,        \
     FRONTIER_MON_FIROME,    \
@@ -608,7 +608,7 @@
     FRONTIER_MON_CORORK,        \
     FRONTIER_MON_ODOSAUR,        \
     FRONTIER_MON_TRICERAS,       \
-    FRONTIER_MON_Scatrush,      \
+    FRONTIER_MON_SCATRUSH,      \
     FRONTIER_MON_SETRONIC,       \
     FRONTIER_MON_MINITRON,        \
     FRONTIER_MON_ESCEEPEE,          \
@@ -797,7 +797,7 @@
     FRONTIER_MON_TRICERAS,       \
     FRONTIER_MON_CHARLES,         \
     FRONTIER_MON_BRAVOGOR,       \
-    FRONTIER_MON_Scatrush,      \
+    FRONTIER_MON_SCATRUSH,      \
     FRONTIER_MON_ESCEEPEE,          \
     -1 
 
@@ -820,7 +820,7 @@
     FRONTIER_MON_POTOGREED,       \
     FRONTIER_MON_CTHEYE,     \
     FRONTIER_MON_RICKLING,         \
-    FRONTIER_MON_Scatrush,      \
+    FRONTIER_MON_SCATRUSH,      \
     FRONTIER_MON_MINITRON,        \
     FRONTIER_MON_ESCEEPEE,          \
     -1 

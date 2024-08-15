@@ -2145,7 +2145,7 @@ const u16 gEggMoves[] = {
 		MOVE_MUDDY_WATER,
 		MOVE_WATER_SPORT),
 
-	egg_moves(Scatrush,
+	egg_moves(SCATRUSH,
 		MOVE_DOUBLE_EDGE,
 		MOVE_ENDURE,
 		MOVE_ROLLOUT,

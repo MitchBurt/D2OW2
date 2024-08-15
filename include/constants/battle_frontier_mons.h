@@ -151,7 +151,7 @@
 #define FRONTIER_MON_BUNGA       147
 #define FRONTIER_MON_DURASHELL        148
 #define FRONTIER_MON_RICKLING          149
-#define FRONTIER_MON_Scatrush       150
+#define FRONTIER_MON_SCATRUSH      150
 #define FRONTIER_MON_SETRONIC        151
 #define FRONTIER_MON_MINITRON         152
 #define FRONTIER_MON_FIROME     153
