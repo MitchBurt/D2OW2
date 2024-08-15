@@ -14802,7 +14802,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(REWINDLE),
     ANIM_CMD(DNDICE),
     ANIM_CMD(ODOSAUR),
-    ANIM_CMD(Pyrabass),
+    ANIM_CMD(PYRABASS),
     ANIM_CMD(TRICERAS),
     ANIM_CMD(XENOTOPS),
     ANIM_CMD(NOTAFURRY),

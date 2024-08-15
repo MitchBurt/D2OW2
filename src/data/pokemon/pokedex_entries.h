@@ -4153,7 +4153,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_Pyrabass] =
+    [NATIONAL_DEX_PYRABASS] =
     {
         .categoryName = _("Percebe"),
         .height = 15,
@@ -14943,7 +14943,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_Pyrabass] =
+    [NATIONAL_DEX_PYRABASS] =
     {
         .categoryName = _("Barnacle"),
         .height = 15,

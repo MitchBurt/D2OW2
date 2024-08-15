@@ -1825,7 +1825,7 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x66,
         .y_offset = 8,
     },
-    [SPECIES_Pyrabass] =
+    [SPECIES_PYRABASS] =
     {
         .size = 0x78,
         .y_offset = 0,

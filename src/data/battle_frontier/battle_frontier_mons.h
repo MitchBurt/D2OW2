@@ -3328,8 +3328,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_RELAXED,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_Pyrabass_1] = {
-        .species = SPECIES_Pyrabass,
+    [FRONTIER_MON_PYRABASS_1] = {
+        .species = SPECIES_PYRABASS,
         .moves = {MOVE_GIGA_DRAIN, MOVE_ROCK_SLIDE, MOVE_BARRIER, MOVE_CONFUSE_RAY    },
         .itemTableId = BATTLE_FRONTIER_ITEM_LEFTOVERS,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
@@ -4096,8 +4096,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_MODEST,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_Pyrabass_2] = {
-        .species = SPECIES_Pyrabass,
+    [FRONTIER_MON_PYRABASS_2] = {
+        .species = SPECIES_PYRABASS,
         .moves = {MOVE_EARTHQUAKE, MOVE_ANCIENT_POWER, MOVE_SWAGGER, MOVE_PSYCH_UP    },
         .itemTableId = BATTLE_FRONTIER_ITEM_SITRUS_BERRY,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
@@ -4864,8 +4864,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_IMPISH,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_Pyrabass_3] = {
-        .species = SPECIES_Pyrabass,
+    [FRONTIER_MON_PYRABASS_3] = {
+        .species = SPECIES_PYRABASS,
         .moves = {MOVE_SUBSTITUTE, MOVE_SOLAR_BEAM, MOVE_SUNNY_DAY, MOVE_RECOVER    },
         .itemTableId = BATTLE_FRONTIER_ITEM_LEFTOVERS,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_DEFENSE,
@@ -5632,8 +5632,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_DOCILE,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_Pyrabass_4] = {
-        .species = SPECIES_Pyrabass,
+    [FRONTIER_MON_PYRABASS_4] = {
+        .species = SPECIES_PYRABASS,
         .moves = {MOVE_TOXIC, MOVE_INGRAIN, MOVE_MIRROR_COAT, MOVE_GIGA_DRAIN    },
         .itemTableId = BATTLE_FRONTIER_ITEM_LEFTOVERS,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,

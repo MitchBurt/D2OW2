@@ -9352,7 +9352,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_Pyrabass] =
+    [SPECIES_PYRABASS] =
     {
         .baseHP        = 80,
         .baseAttack    = 100,
@@ -43220,7 +43220,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_Pyrabass] =
+    [SPECIES_PYRABASS] =
     {
         .baseHP        = 90, //86 -> 90
         .baseAttack    = 71, //81 -> 71

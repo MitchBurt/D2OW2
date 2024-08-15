@@ -305,7 +305,7 @@ const u16 gEasyChatWordsByLetter_C[] = {
     EC_WORD_COUPLE,
     EC_MOVE2(COVET),
     EC_MOVE(CRABHAMMER),
-    EC_POKEMON(Pyrabass),
+    EC_POKEMON(PYRABASS),
     EC_POKEMON(NONONMON),
     EC_WORD_CRIES,
     -1, 2, // Doubled pokemon species name
@@ -2392,7 +2392,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseYu[] = {
     EC_MOVE2(DREAM_EATER),
     EC_WORD_ALLOW,
     EC_WORD_FORGET,
-    EC_POKEMON(Pyrabass),
+    EC_POKEMON(PYRABASS),
     -1, 2, // Doubled pokemon species name
     EC_POKEMON2(KUKLAN),
     EC_POKEMON(KUKLAN),

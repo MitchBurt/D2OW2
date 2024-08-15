@@ -12503,7 +12503,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_Pyrabass] =
+    [SPECIES_PYRABASS] =
     {
         .move = MOVE_MEGA_DRAIN,
         .modification = SIGNATURE_MOD_POWER,
