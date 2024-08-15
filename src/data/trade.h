@@ -1024,7 +1024,7 @@ static const struct InGameTrade sIngameTrades[] =
         .sheen = 10,
         .requestedSpecies = SPECIES_SWAMPOGRE
     }, 
-    [INGAME_TRADE_PLUSLE] = 
+    [INGAME_TRADE_PURRSOUR] = 
     {
         .nickname = _("Arctozolt"), 
         .species = SPECIES_ARCTOZOLT,
@@ -1096,9 +1096,9 @@ static const u16 sIngameTradeMail[][MAIL_WORDS_COUNT + 1] =
         EC_WORD_BE,
         EC_WORD_NICE,
         EC_WORD_TO,
-        EC_POKEMON(PLUSLE),
+        EC_POKEMON(PURRSOUR),
         EC_WORD_EXCL,
-        EC_POKEMON(VOLBEAT),
+        EC_POKEMON(REWINDLE),
         EC_WORD_WILL,
         EC_WORD_BE,
         EC_WORD_FANTASTIC

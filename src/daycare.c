@@ -933,9 +933,9 @@ static u16 DetermineEggSpeciesAndParentSlots(struct DayCare *daycare, u8 *parent
     {
         eggSpecies = SPECIES_UNGA;
     }
-    if (eggSpecies == SPECIES_ILLUMISE && daycare->offspringPersonality & EGG_GENDER_MALE)
+    if (eggSpecies == SPECIES_DNDICE && daycare->offspringPersonality & EGG_GENDER_MALE)
     {
-        eggSpecies = SPECIES_VOLBEAT;
+        eggSpecies = SPECIES_REWINDLE;
     }
 	if (eggSpecies == SPECIES_INDEEDEE && (Random() % 3) >= 1)
     {

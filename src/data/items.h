@@ -10091,17 +10091,17 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_SHARPEDONITE] =
+    [ITEM_SHARKEGNITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Sharpedonita"),
+        .name = _("Sharkegnita"),
 #else
-        .name = _("Sharpedonite"),
+        .name = _("Sharkegnite"),
 #endif
-        .itemId = ITEM_SHARPEDONITE,
+        .itemId = ITEM_SHARKEGNITE,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sSharpedoniteDesc,
+        .description = sSharkegniteDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,

@@ -1172,22 +1172,22 @@ script MossdeepCity_Gym_EventScript_GymGuide_New{
 	end
 }
 
-script MossdeepCity_Gym_EventScript_Gym_Solrock{
+script MossdeepCity_Gym_EventScript_Gym_Ganesh{
 	lock
 	faceplayer
 	if (flag(FLAG_BADGE07_GET) && !flag(FLAG_TATE_AND_LIZA_REMATCH)){
 		//Ready for a rematch
-		msgbox(format("Solrock: rock!"), MSGBOX_NPC)
+		msgbox(format("Ganesh: rock!"), MSGBOX_NPC)
 		msgbox(format("The Pokémon seems like it wants a rematch with You, it looks really bright."), MSGBOX_SIGN)
 		waitmessage
 	}
 	elif(flag(FLAG_BADGE07_GET) && flag(FLAG_TATE_AND_LIZA_REMATCH)){
-		msgbox(format("Solrock: rock..."), MSGBOX_NPC)
+		msgbox(format("Ganesh: rock..."), MSGBOX_NPC)
 		msgbox(format("The Pokémon seems tired after today's battle, its better to leave it rest"), MSGBOX_SIGN)
 		waitmessage
 	}
 	else{
-		msgbox(format("Solrock: rock?"), MSGBOX_NPC)
+		msgbox(format("Ganesh: rock?"), MSGBOX_NPC)
 		msgbox(format("The Pokémon seems curious about how strong you are."), MSGBOX_SIGN)
 		waitmessage
 	}
@@ -1195,22 +1195,22 @@ script MossdeepCity_Gym_EventScript_Gym_Solrock{
 	end
 }
 
-script MossdeepCity_Gym_EventScript_Gym_Lunatone{
+script MossdeepCity_Gym_EventScript_Gym_Surtyur{
 	lock
 	faceplayer
 	if (flag(FLAG_BADGE07_GET) && !flag(FLAG_TATE_AND_LIZA_REMATCH)){
 		//Ready for a rematch
-		msgbox(format("Lunatone: tone!"), MSGBOX_NPC)
+		msgbox(format("Surtyur: tone!"), MSGBOX_NPC)
 		msgbox(format("The Pokémon seems like it wants a rematch with You, it looks really bright."), MSGBOX_SIGN)
 		waitmessage
 	}
 	elif(flag(FLAG_BADGE07_GET) && flag(FLAG_TATE_AND_LIZA_REMATCH)){
-		msgbox(format("Lunatone: tone..."), MSGBOX_NPC)
+		msgbox(format("Surtyur: tone..."), MSGBOX_NPC)
 		msgbox(format("The Pokémon seems tired after today's battle, its better to leave it rest"), MSGBOX_SIGN)
 		waitmessage
 	}
 	else{
-		msgbox(format("Lunatone: tone?"), MSGBOX_NPC)
+		msgbox(format("Surtyur: tone?"), MSGBOX_NPC)
 		msgbox(format("The Pokémon seems curious about how strong you are."), MSGBOX_SIGN)
 		waitmessage
 	}

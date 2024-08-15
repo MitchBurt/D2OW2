@@ -49,8 +49,8 @@ gTrickHouse_Mechadoll_Duplicat3:: @ 27ED36
 gTrickHouse_Mechadoll_Batanarf2:: @ 27ED40
 	.string "Batanarf$"
 
-gTrickHouse_Mechadoll_Carvanha:: @ 27ED46
-	.string "Carvanha$"
+gTrickHouse_Mechadoll_Brewfin:: @ 27ED46
+	.string "Brewfin$"
 
 gTrickHouse_Mechadoll_BurnHeal:: @ 27ED4F
 	.string "Burn Heal$"

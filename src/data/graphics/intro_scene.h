@@ -1,12 +1,12 @@
 const u16 gIntro1GameFreakTextFadePal[] = INCBIN_U16("graphics/intro/intro1_text.gbapal"); // game freak text blue fade
 const u16 gIntro2BrendanNoTurnPal[] = INCBIN_U16("graphics/intro/intro2_brendan_noturn.gbapal");
 const u16 gIntro3BgPal[] = INCBIN_U16("graphics/intro/intro3.gbapal");
-const u16 gIntro2VolbeatPal[] = INCBIN_U16("graphics/intro/intro2_volbeat.gbapal");
+const u16 gIntro2RewindlePal[] = INCBIN_U16("graphics/intro/intro2_rewindle.gbapal");
 const u16 gIntro2CookletPal[] = INCBIN_U16("graphics/intro/intro2_cooklet.gbapal");
 const u16 gIntro2AuxiliskPal[] = INCBIN_U16("graphics/intro/intro2_auxilisk.gbapal");
 const u16 gIntro2GaladrakePal[] = INCBIN_U16("graphics/intro/intro2_galadrake.gbapal");
 
-const u32 gIntro2VolbeatGfx[] = INCBIN_U32("graphics/intro/intro2_volbeat.4bpp.lz");
+const u32 gIntro2RewindleGfx[] = INCBIN_U32("graphics/intro/intro2_rewindle.4bpp.lz");
 const u32 gIntro2CookletGfx[] = INCBIN_U32("graphics/intro/intro2_cooklet.4bpp.lz");
 const u32 gIntro2AuxiliskGfx[] = INCBIN_U32("graphics/intro/intro2_auxilisk.4bpp.lz");
 const u32 gIntro2GaladrakeGfx[] = INCBIN_U32("graphics/intro/intro2_galadrake.4bpp.lz");

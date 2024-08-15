@@ -2181,7 +2181,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_MARLEYZARD:
 				case SPECIES_UNJOY:
 				case SPECIES_NYANKITTY:
-				case SPECIES_MINUN:
+				case SPECIES_PURRTANG:
 				case SPECIES_ODOSAUR:
 				case SPECIES_TROPIUS:
 				case SPECIES_TIPSYRAMID:

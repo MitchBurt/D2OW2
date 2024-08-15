@@ -2363,8 +2363,8 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 		case SPECIES_SKIPPA:
 		case SPECIES_DISHEATS:
 		case SPECIES_DISHEATS_ALOLAN:
-		case SPECIES_MINUN:
-		case SPECIES_PLUSLE:
+		case SPECIES_PURRTANG:
+		case SPECIES_PURRSOUR:
 			item = ITEM_LIGHT_BALL;
 		break;
 		case SPECIES_IMPOSTOWN:
@@ -2520,9 +2520,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_NUGGIEITE;
 		break;
-		case SPECIES_SHARPEDO:
+		case SPECIES_SHARKEG:
 			if(canMega)
-				item = ITEM_SHARPEDONITE;
+				item = ITEM_SHARKEGNITE;
 		break;
 		case SPECIES_SHEMUE:
 			if(canMega)

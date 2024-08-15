@@ -165,7 +165,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Goncariciv  @ 869E474
 	cry Cry_Deepfrieon  @ 869E480
 	cry Cry_Wormadamt  @ 869E48C
-	cry Cry_Rocco  @ 869E498
+	cry Cry_Jadoug  @ 869E498
 	cry Cry_Abominaton  @ 869E4A4
 	cry Cry_Wurm  @ 869E4B0
 	cry Cry_Phracer  @ 869E4BC
@@ -301,7 +301,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Angbeast
 	cry Cry_Gangbeats
 	cry Cry_Azurill
-	cry Cry_Nosepass
+	cry Cry_Scatrush
 	cry Cry_Skitty
 	cry Cry_Nyancat
 	cry Cry_Sableye
@@ -313,15 +313,15 @@ gCryTable:: @ 869DCF4
 	cry Cry_Lonkest
 	cry Cry_Cordra
 	cry Cry_Auxilisk
-	cry Cry_Plusle
-	cry Cry_Minun
-	cry Cry_Volbeat
-	cry Cry_Illumise
+	cry Cry_Purrsour
+	cry Cry_Purrtang
+	cry Cry_Rewindle
+	cry Cry_Dndice
 	cry Cry_Alieon
 	cry Cry_Symbite
 	cry Cry_Carnigore
-	cry Cry_Carvanha
-	cry Cry_Sharpedo
+	cry Cry_Brewfin
+	cry Cry_Sharkeg
 	cry Cry_Wailmer
 	cry Cry_Wailord
 	cry Cry_Vulpointer
@@ -337,21 +337,21 @@ gCryTable:: @ 869DCF4
 	cry Cry_Aconeggs
 	cry Cry_Armydrone
 	cry Cry_UNSC
-	cry Cry_Zangoose
-	cry Cry_Seviper
-	cry Cry_Lunatone
-	cry Cry_Solrock
-	cry Cry_Barboach
-	cry Cry_Whiscash
+	cry Cry_Smitnion
+	cry Cry_Arackne
+	cry Cry_Surtyur
+	cry Cry_Ganesh
+	cry Cry_Coopid
+	cry Cry_Splashicoot
 	cry Cry_Nongetive
 	cry Cry_Nononmon
 	cry Cry_Dreidrill
 	cry Cry_Heburrow
 	cry Cry_Odosaur
-	cry Cry_Cradily
+	cry Cry_Pyrabass
 	cry Cry_Triceras
 	cry Cry_Xenotops
-	cry Cry_Feebas
+	cry Cry_Paddlite
 	cry Cry_Nutvalanche
 	cry Cry_Castform
 	cry Cry_Kecleon
@@ -936,7 +936,7 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Murphire_Mega
 	cry_not Cry_Lonkest_Mega
 	cry_not Cry_Auxilisk_Mega
-	cry_not Cry_Sharpedo_Mega
+	cry_not Cry_Sharkeg_Mega
 	cry_not Cry_Errorine_Mega
 	cry_not Cry_UNSC_Mega
 	cry_not Cry_Tocktower_Mega
@@ -1444,7 +1444,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Goncariciv  @ 869F6A4
 	cry2 Cry_Deepfrieon  @ 869F6B0
 	cry2 Cry_Wormadamt  @ 869F6BC
-	cry2 Cry_Rocco  @ 869F6C8
+	cry2 Cry_Jadoug  @ 869F6C8
 	cry2 Cry_Abominaton  @ 869F6D4
 	cry2 Cry_Wurm  @ 869F6E0
 	cry2 Cry_Phracer  @ 869F6EC
@@ -1579,7 +1579,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Angbeast
 	cry2 Cry_Gangbeats
 	cry2 Cry_Azurill
-	cry2 Cry_Nosepass
+	cry2 Cry_Scatrush
 	cry2 Cry_Skitty
 	cry2 Cry_Nyancat
 	cry2 Cry_Sableye
@@ -1591,15 +1591,15 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Lonkest
 	cry2 Cry_Cordra
 	cry2 Cry_Auxilisk
-	cry2 Cry_Plusle
-	cry2 Cry_Minun
-	cry2 Cry_Volbeat
-	cry2 Cry_Illumise
+	cry2 Cry_Purrsour
+	cry2 Cry_Purrtang
+	cry2 Cry_Rewindle
+	cry2 Cry_Dndice
 	cry2 Cry_Alieon
 	cry2 Cry_Symbite
 	cry2 Cry_Carnigore
-	cry2 Cry_Carvanha
-	cry2 Cry_Sharpedo
+	cry2 Cry_Brewfin
+	cry2 Cry_Sharkeg
 	cry2 Cry_Wailmer
 	cry2 Cry_Wailord
 	cry2 Cry_Vulpointer
@@ -1615,21 +1615,21 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Aconeggs
 	cry2 Cry_Armydrone
 	cry2 Cry_UNSC
-	cry2 Cry_Zangoose
-	cry2 Cry_Seviper
-	cry2 Cry_Lunatone
-	cry2 Cry_Solrock
-	cry2 Cry_Barboach
-	cry2 Cry_Whiscash
+	cry2 Cry_Smitnion
+	cry2 Cry_Arackne
+	cry2 Cry_Surtyur
+	cry2 Cry_Ganesh
+	cry2 Cry_Coopid
+	cry2 Cry_Splashicoot
 	cry2 Cry_Nongetive
 	cry2 Cry_Nononmon
 	cry2 Cry_Dreidrill
 	cry2 Cry_Heburrow
 	cry2 Cry_Odosaur
-	cry2 Cry_Cradily
+	cry2 Cry_Pyrabass
 	cry2 Cry_Triceras
 	cry2 Cry_Xenotops
-	cry2 Cry_Feebas
+	cry2 Cry_Paddlite
 	cry2 Cry_Nutvalanche
 	cry2 Cry_Castform
 	cry2 Cry_Kecleon
@@ -2214,7 +2214,7 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Murphire_Mega
 	cry2_not Cry_Lonkest_Mega
 	cry2_not Cry_Auxilisk_Mega
-	cry2_not Cry_Sharpedo_Mega
+	cry2_not Cry_Sharkeg_Mega
 	cry2_not Cry_Errorine_Mega
 	cry2_not Cry_UNSC_Mega
 	cry2_not Cry_Tocktower_Mega

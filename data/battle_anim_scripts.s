@@ -13319,11 +13319,8 @@ Move_DRAGON_DARTS::
 Move_TEATIME::
 	goto Move_MILK_DRINK
 
-Move_SHOT::
-	goto Move_MILK_DRINK
-
 Move_SIZZLE_SLAM::
-	goto Move_IRON_HEAD
+	goto Move_HEADBUTT
 
 Move_SEED_FORCE::
 	goto Move_SEED_BOMB
@@ -13351,6 +13348,9 @@ Move_BEER_FROTH::
 
 Move_SHOTGUN::
 	goto Move_WATERFALL
+
+Move_SHOT::
+	goto Move_MILK_DRINK
 
 Move_OCTOLOCK::
 	loadspritegfx ANIM_TAG_TENDRILS

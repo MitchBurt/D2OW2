@@ -45,8 +45,8 @@ EWRAM_DATA static u8 sWildEncountersDisabled = 0;
 EWRAM_DATA bool8 gIsFishingEncounter = 0;
 EWRAM_DATA bool8 gIsSurfingEncounter = 0;
 
-//Special Feebas-related data.
-const struct WildPokemon gWildFeebasRoute119Data = {20, 25, SPECIES_FEEBAS};
+//Special Paddlite-related data.
+const struct WildPokemon gWildPaddliteRoute119Data = {20, 25, SPECIES_PADDLITE};
 
 // code
 void DisableWildEncounters(bool8 disabled)
@@ -54,9 +54,9 @@ void DisableWildEncounters(bool8 disabled)
     sWildEncountersDisabled = disabled;
 }
 
-// Feebas now works like it does in ORAS; it can always be found fishing
+// Paddlite now works like it does in ORAS; it can always be found fishing
 // under the bridge on Route 119.
-static bool8 CheckFeebas(void)
+static bool8 CheckPaddlite(void)
 {
     s16 x;
     s16 y;
@@ -70,13 +70,13 @@ static bool8 CheckFeebas(void)
 
         if (IsCurrentlyDay())
         {
-            // Encounter Feebas if player is fishing under the bridge during the day
+            // Encounter Paddlite if player is fishing under the bridge during the day
             if ((y == 35 || y == 36))
                 return TRUE;
         }
         else
         {
-            // Encounter Feebas if player is fishing around the rock during the night
+            // Encounter Paddlite if player is fishing around the rock during the night
             if (y >= 105 && y <= 108 && x >= 20 && x <= 23)
                 return TRUE;
         }
@@ -889,11 +889,11 @@ void FishingWildEncounter(u8 rod)
 	if(FlagGet(FLAG_RANDOMIZED_MODE))
 	formId = 0;
 
-    if (CheckFeebas() == TRUE)
+    if (CheckPaddlite() == TRUE)
     {
-        u8 level = ChooseWildMonLevel(&gWildFeebasRoute119Data);
+        u8 level = ChooseWildMonLevel(&gWildPaddliteRoute119Data);
 
-        species = gWildFeebasRoute119Data.species;
+        species = gWildPaddliteRoute119Data.species;
         CreateWildMon(species, level);
     }
     else

@@ -678,8 +678,8 @@ MegaStone_EventScript_ItemMawilite::
 	addscaleditem ITEM_MAWILITE
 	end
 	
-MegaStone_EventScript_ItemSharpedoite::
-	addscaleditem ITEM_SHARPEDONITE
+MegaStone_EventScript_ItemSharkegite::
+	addscaleditem ITEM_SHARKEGNITE
 	end
 	
 MegaStone_EventScript_ItemErrorineite::

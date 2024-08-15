@@ -103,9 +103,9 @@ static const u16 sMovingRegionMapSections[3] =
     MAPSEC_TERRA_CAVE
 };
 
-static const u16 sFeebasData[][3] =
+static const u16 sPaddliteData[][3] =
 {
-    {SPECIES_FEEBAS, MAP_GROUP(ROUTE119), MAP_NUM(ROUTE119)},
+    {SPECIES_PADDLITE, MAP_GROUP(ROUTE119), MAP_NUM(ROUTE119)},
     {NUM_SPECIES}
 };
 
@@ -354,18 +354,18 @@ static void FindMapsWithMon(u16 species)
                 return;
         }
 
-        for (i = 0; sFeebasData[i][0] != NUM_SPECIES; i++)
+        for (i = 0; sPaddliteData[i][0] != NUM_SPECIES; i++)
         {
-            if (species == sFeebasData[i][0])
+            if (species == sPaddliteData[i][0])
             {
-                switch (sFeebasData[i][1])
+                switch (sPaddliteData[i][1])
                 {
                     case MAP_GROUP_OVERWORLD_MONS:
-                        SetAreaHasMon(sFeebasData[i][1], sFeebasData[i][2]);
+                        SetAreaHasMon(sPaddliteData[i][1], sPaddliteData[i][2]);
                         break;
                     case MAP_GROUP_SPECIAL_MONS_1:
                     case MAP_GROUP_SPECIAL_MONS_2:
-                        SetSpecialMapHasMon(sFeebasData[i][1], sFeebasData[i][2]);
+                        SetSpecialMapHasMon(sPaddliteData[i][1], sPaddliteData[i][2]);
                         break;
                 }
             }

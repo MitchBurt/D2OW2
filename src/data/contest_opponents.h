@@ -168,7 +168,7 @@ const struct ContestWinner gDefaultContestWinners[] =
     {
         .personality = 0,
         .trainerId = 0xFFFF,
-        .species = SPECIES_PLUSLE,
+        .species = SPECIES_PURRSOUR,
         .contestCategory = CONTEST_CATEGORY_TOUGH,
         .monName = _("Pulse"),
         .trainerName = _("Baily"),
@@ -186,7 +186,7 @@ const struct ContestWinner gDefaultContestWinners[] =
     {
         .personality = 0,
         .trainerId = 0xFFFF,
-        .species = SPECIES_ZANGOOSE,
+        .species = SPECIES_SMITNION,
         .contestCategory = CONTEST_CATEGORY_COOL,
         .monName = _("Goozan"),
         .trainerName = _("Hana"),
@@ -243,7 +243,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_EDITH] = {
-        .species = SPECIES_ILLUMISE,
+        .species = SPECIES_DNDICE,
         .nickname = _("Musille"),
         .trainerName = _("Edith"),
         .trainerGfxId = OBJ_EVENT_GFX_GIRL_1,
@@ -1223,7 +1223,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_SANDRA] = {
-        .species = SPECIES_BARBOACH,
+        .species = SPECIES_COOPID,
         .nickname = _("Boboach"),
         .trainerName = _("Sandra"),
         .trainerGfxId = OBJ_EVENT_GFX_TWIN,
@@ -1839,7 +1839,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_DARRYL] = {
-        .species = SPECIES_SEVIPER,
+        .species = SPECIES_ARACKNE,
         .nickname = _("Vipes"),
         .trainerName = _("Darryl"),
         .trainerGfxId = OBJ_EVENT_GFX_MAN_3,
@@ -1923,7 +1923,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_LACEY] = {
-        .species = SPECIES_LUNATONE,
+        .species = SPECIES_SURTYUR,
         .nickname = _("Lunone"),
         .trainerName = _("Lacey"),
         .trainerGfxId = OBJ_EVENT_GFX_WOMAN_1,
@@ -2483,7 +2483,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_DEON] = {
-        .species = SPECIES_SHARPEDO,
+        .species = SPECIES_SHARKEG,
         .nickname = _("Pedos"),
         .trainerName = _("Deon"),
         .trainerGfxId = OBJ_EVENT_GFX_SCHOOL_KID_M,

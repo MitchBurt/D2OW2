@@ -189,7 +189,7 @@ const u16 gBattleFrontierHeldItems[] =
 	ITEM_MAWILITE,
 	ITEM_HOLOCASTITE,
 	ITEM_ERRORINEITE,
-	ITEM_SHARPEDONITE
+	ITEM_SHARKEGNITE
 };
 
 #include "data/battle_frontier/battle_frontier_trainer_mons.h"

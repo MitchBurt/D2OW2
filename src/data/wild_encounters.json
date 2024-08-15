@@ -1095,7 +1095,7 @@
               {
                 "min_level": 13,
                 "max_level": 13,
-                "species": "SPECIES_MINUN"
+                "species": "SPECIES_PURRTANG"
               },
               {
                 "min_level": 13,
@@ -1245,7 +1245,7 @@
               {
                 "min_level": 13,
                 "max_level": 13,
-                "species": "SPECIES_PLUSLE"
+                "species": "SPECIES_PURRSOUR"
               },
               {
                 "min_level": 13,
@@ -1384,7 +1384,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 5,
@@ -1439,7 +1439,7 @@
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 10,
@@ -1449,12 +1449,12 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 25,
@@ -1464,7 +1464,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 20,
@@ -1861,12 +1861,12 @@
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_ZANGOOSE"
+                "species": "SPECIES_SMITNION"
               },
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_SEVIPER"
+                "species": "SPECIES_ARACKNE"
               },
               {
                 "min_level": 16,
@@ -1991,7 +1991,7 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 25,
@@ -2001,7 +2001,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 20,
@@ -2149,12 +2149,12 @@
               {
                 "min_level": 13,
                 "max_level": 13,
-                "species": "SPECIES_ILLUMISE"
+                "species": "SPECIES_DNDICE"
               },
               {
                 "min_level": 13,
                 "max_level": 13,
-                "species": "SPECIES_VOLBEAT"
+                "species": "SPECIES_REWINDLE"
               },
               {
                 "min_level": 13,
@@ -2289,7 +2289,7 @@
               {
                 "min_level": 20,
                 "max_level": 25,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 35,
@@ -2458,32 +2458,32 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 20,
                 "max_level": 25,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               }
             ]
           }
@@ -2552,7 +2552,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 30,
@@ -3179,12 +3179,12 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_VOLBEAT"
+                "species": "SPECIES_REWINDLE"
               },
               {
                 "min_level": 24,
                 "max_level": 25,
-                "species": "SPECIES_ILLUMISE"
+                "species": "SPECIES_DNDICE"
               },
               {
                 "min_level": 25,
@@ -3194,12 +3194,12 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_ZANGOOSE"
+                "species": "SPECIES_SMITNION"
               },
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_SEVIPER"
+                "species": "SPECIES_ARACKNE"
               },
               {
                 "min_level": 27,
@@ -3569,12 +3569,12 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_LUNATONE"
+                "species": "SPECIES_SURTYUR"
               },
               {
                 "min_level": 39,
                 "max_level": 39,
-                "species": "SPECIES_SOLROCK"
+                "species": "SPECIES_GANESH"
               },
               {
                 "min_level": 35,
@@ -3604,12 +3604,12 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 25,
@@ -3654,22 +3654,22 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 35,
@@ -4064,12 +4064,12 @@
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               }
             ]
           },
@@ -4446,7 +4446,7 @@
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_FEEBAS"
+                "species": "SPECIES_PADDLITE"
               }
             ]
           },
@@ -4476,32 +4476,32 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 20,
                 "max_level": 25,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_FEEBAS"
+                "species": "SPECIES_PADDLITE"
               },
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_FEEBAS"
+                "species": "SPECIES_PADDLITE"
               }
             ]
           }
@@ -4580,7 +4580,7 @@
               {
                 "min_level": 20,
                 "max_level": 30,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 10,
@@ -4630,7 +4630,7 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 25,
@@ -4640,7 +4640,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 20,
@@ -4938,7 +4938,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 30,
@@ -5833,7 +5833,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 30,
@@ -5922,7 +5922,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 30,
@@ -6076,7 +6076,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 30,
@@ -6254,7 +6254,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 30,
@@ -6408,7 +6408,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 30,
@@ -6497,7 +6497,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 30,
@@ -6566,7 +6566,7 @@
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 10,
@@ -6576,7 +6576,7 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 10,
@@ -6586,7 +6586,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 30,
@@ -6630,7 +6630,7 @@
               {
                 "min_level": 15,
                 "max_level": 25,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 25,
@@ -6675,7 +6675,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 30,
@@ -6764,7 +6764,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 30,
@@ -7728,12 +7728,12 @@
               {
                 "min_level": 34,
                 "max_level": 34,
-                "species": "SPECIES_SOLROCK"
+                "species": "SPECIES_GANESH"
               },
               {
                 "min_level": 35,
                 "max_level": 35,
-                "species": "SPECIES_LUNATONE"
+                "species": "SPECIES_SURTYUR"
               },
               {
                 "min_level": 34,
@@ -7792,12 +7792,12 @@
               {
                 "min_level": 34,
                 "max_level": 34,
-                "species": "SPECIES_SOLROCK"
+                "species": "SPECIES_GANESH"
               },
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_LUNATONE"
+                "species": "SPECIES_SURTYUR"
               },
               {
                 "min_level": 34,
@@ -8787,12 +8787,12 @@
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_LUNATONE"
+                "species": "SPECIES_SURTYUR"
               },
               {
                 "min_level": 14,
                 "max_level": 14,
-                "species": "SPECIES_SOLROCK"
+                "species": "SPECIES_GANESH"
               },
               {
                 "min_level": 16,
@@ -8847,17 +8847,17 @@
               {
                 "min_level": 25,
                 "max_level": 35,
-                "species": "SPECIES_LUNATONE"
+                "species": "SPECIES_SURTYUR"
               },
               {
                 "min_level": 15,
                 "max_level": 25,
-                "species": "SPECIES_SOLROCK"
+                "species": "SPECIES_GANESH"
               },
               {
                 "min_level": 5,
                 "max_level": 15,
-                "species": "SPECIES_SOLROCK"
+                "species": "SPECIES_GANESH"
               }
             ]
           },
@@ -8887,32 +8887,32 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 20,
                 "max_level": 25,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               }
             ]
           },
@@ -8966,12 +8966,12 @@
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_LUNATONE"
+                "species": "SPECIES_SURTYUR"
               },
               {
                 "min_level": 37,
                 "max_level": 37,
-                "species": "SPECIES_SOLROCK"
+                "species": "SPECIES_GANESH"
               },
               {
                 "min_level": 35,
@@ -9021,12 +9021,12 @@
               {
                 "min_level": 25,
                 "max_level": 35,
-                "species": "SPECIES_LUNATONE"
+                "species": "SPECIES_SURTYUR"
               },
               {
                 "min_level": 15,
                 "max_level": 25,
-                "species": "SPECIES_SOLROCK"
+                "species": "SPECIES_GANESH"
               },
               {
                 "min_level": 5,
@@ -9061,32 +9061,32 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               }
             ]
           },
@@ -9140,12 +9140,12 @@
               {
                 "min_level": 33,
                 "max_level": 33,
-                "species": "SPECIES_LUNATONE"
+                "species": "SPECIES_SURTYUR"
               },
               {
                 "min_level": 37,
                 "max_level": 37,
-                "species": "SPECIES_SOLROCK"
+                "species": "SPECIES_GANESH"
               },
               {
                 "min_level": 35,
@@ -9195,17 +9195,17 @@
               {
                 "min_level": 25,
                 "max_level": 35,
-                "species": "SPECIES_SOLROCK"
+                "species": "SPECIES_GANESH"
               },
               {
                 "min_level": 15,
                 "max_level": 25,
-                "species": "SPECIES_SOLROCK"
+                "species": "SPECIES_GANESH"
               },
               {
                 "min_level": 5,
                 "max_level": 15,
-                "species": "SPECIES_SOLROCK"
+                "species": "SPECIES_GANESH"
               }
             ]
           },
@@ -9215,7 +9215,7 @@
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 5,
@@ -9225,7 +9225,7 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 10,
@@ -9240,12 +9240,12 @@
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 30,
@@ -9784,7 +9784,7 @@
               {
                 "min_level": 5,
                 "max_level": 35,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 10,
@@ -9819,7 +9819,7 @@
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 10,
@@ -9829,7 +9829,7 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 10,
@@ -9839,7 +9839,7 @@
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 30,
@@ -10106,7 +10106,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 30,
@@ -10195,7 +10195,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 30,
@@ -10659,7 +10659,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 5,
@@ -10684,7 +10684,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_FEEBAS"
+                "species": "SPECIES_PADDLITE"
               }
             ]
           },
@@ -12165,12 +12165,12 @@
               {
                 "min_level": 22,
                 "max_level": 23,
-                "species": "SPECIES_LUNATONE"
+                "species": "SPECIES_SURTYUR"
               },
               {
                 "min_level": 24,
                 "max_level": 24,
-                "species": "SPECIES_SOLROCK"
+                "species": "SPECIES_GANESH"
               },
               {
                 "min_level": 23,
@@ -12205,17 +12205,17 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 15,
                 "max_level": 25,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 5,
@@ -12235,12 +12235,12 @@
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 10,
@@ -12250,12 +12250,12 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 30,
@@ -12265,17 +12265,17 @@
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               }
             ]
           }
@@ -12364,12 +12364,12 @@
               {
                 "min_level": 15,
                 "max_level": 25,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 5,
@@ -12389,12 +12389,12 @@
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 10,
@@ -12404,12 +12404,12 @@
               {
                 "min_level": 10,
                 "max_level": 30,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 30,
@@ -12419,17 +12419,17 @@
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               },
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_BARBOACH"
+                "species": "SPECIES_COOPID"
               }
             ]
           }
@@ -12483,7 +12483,7 @@
               {
                 "min_level": 23,
                 "max_level": 23,
-                "species": "SPECIES_SOLROCK"
+                "species": "SPECIES_GANESH"
               },
               {
                 "min_level": 23,
@@ -12493,7 +12493,7 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_SOLROCK"
+                "species": "SPECIES_GANESH"
               },
               {
                 "min_level": 24,
@@ -15208,7 +15208,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 5,
@@ -15223,7 +15223,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 5,
@@ -15382,7 +15382,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 5,
@@ -15397,7 +15397,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 5,
@@ -15556,7 +15556,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 5,
@@ -15571,7 +15571,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 5,
@@ -17516,7 +17516,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 5,
@@ -17526,7 +17526,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 5,
@@ -17541,7 +17541,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CARVANHA"
+                "species": "SPECIES_BREWFIN"
               },
               {
                 "min_level": 5,
@@ -18809,7 +18809,7 @@
               {
                 "max_level": 5,
                 "min_level": 5,
-                "species": "SPECIES_SEVIPER"
+                "species": "SPECIES_ARACKNE"
               },
               {
                 "max_level": 5,
@@ -18839,7 +18839,7 @@
               {
                 "max_level": 5,
                 "min_level": 5,
-                "species": "SPECIES_SEVIPER"
+                "species": "SPECIES_ARACKNE"
               },
               {
                 "max_level": 5,
@@ -18859,7 +18859,7 @@
               {
                 "max_level": 5,
                 "min_level": 5,
-                "species": "SPECIES_SEVIPER"
+                "species": "SPECIES_ARACKNE"
               },
               {
                 "max_level": 5,
@@ -18877,7 +18877,7 @@
               {
                 "max_level": 5,
                 "min_level": 5,
-                "species": "SPECIES_SEVIPER"
+                "species": "SPECIES_ARACKNE"
               },
               {
                 "max_level": 5,
@@ -18907,7 +18907,7 @@
               {
                 "max_level": 5,
                 "min_level": 5,
-                "species": "SPECIES_SEVIPER"
+                "species": "SPECIES_ARACKNE"
               },
               {
                 "max_level": 5,
@@ -18927,7 +18927,7 @@
               {
                 "max_level": 5,
                 "min_level": 5,
-                "species": "SPECIES_SEVIPER"
+                "species": "SPECIES_ARACKNE"
               },
               {
                 "max_level": 5,
@@ -18945,7 +18945,7 @@
               {
                 "max_level": 5,
                 "min_level": 5,
-                "species": "SPECIES_SEVIPER"
+                "species": "SPECIES_ARACKNE"
               },
               {
                 "max_level": 5,
@@ -18975,7 +18975,7 @@
               {
                 "max_level": 5,
                 "min_level": 5,
-                "species": "SPECIES_SEVIPER"
+                "species": "SPECIES_ARACKNE"
               },
               {
                 "max_level": 5,
@@ -18995,7 +18995,7 @@
               {
                 "max_level": 5,
                 "min_level": 5,
-                "species": "SPECIES_SEVIPER"
+                "species": "SPECIES_ARACKNE"
               },
               {
                 "max_level": 5,
@@ -19013,7 +19013,7 @@
               {
                 "max_level": 5,
                 "min_level": 5,
-                "species": "SPECIES_SEVIPER"
+                "species": "SPECIES_ARACKNE"
               },
               {
                 "max_level": 5,
@@ -19043,7 +19043,7 @@
               {
                 "max_level": 5,
                 "min_level": 5,
-                "species": "SPECIES_SEVIPER"
+                "species": "SPECIES_ARACKNE"
               },
               {
                 "max_level": 5,
@@ -19063,7 +19063,7 @@
               {
                 "max_level": 5,
                 "min_level": 5,
-                "species": "SPECIES_SEVIPER"
+                "species": "SPECIES_ARACKNE"
               },
               {
                 "max_level": 5,

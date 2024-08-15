@@ -656,7 +656,7 @@ $(PSSGFXDIR)/hugeman.4bpp: $(PSSGFXDIR)/friends_frame2.4bpp $(PSSGFXDIR)/hugeman
 $(PSSGFXDIR)/quacknator.4bpp: $(PSSGFXDIR)/friends_frame2.4bpp $(PSSGFXDIR)/quacknator_bg.4bpp
 	@cat $^ >$@
 
-$(PSSGFXDIR)/whiscash.4bpp: $(PSSGFXDIR)/friends_frame2.4bpp $(PSSGFXDIR)/whiscash_bg.4bpp
+$(PSSGFXDIR)/splashicoot.4bpp: $(PSSGFXDIR)/friends_frame2.4bpp $(PSSGFXDIR)/splashicoot_bg.4bpp
 	@cat $^ >$@
 
 $(OBJEVENTGFXDIR)/pics/effects/unknown_4F6D38/0.4bpp: %.4bpp: %.png

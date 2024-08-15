@@ -285,6 +285,12 @@ static const u16 Type_Icon_Steel_Pal[] = INCBIN_U16("graphics/battle_interface/c
 static const u8 Type_Icon_Water[]      = INCBIN_U8("graphics/battle_interface/custom/types/water.4bpp"); 
 static const u16 Type_Icon_Water_Pal[] = INCBIN_U16("graphics/battle_interface/custom/types/water.gbapal");
 
+static const u8 Type_Icon_Alcohol[]      = INCBIN_U8("graphics/battle_interface/custom/types/alcohol.4bpp"); 
+static const u16 Type_Icon_Alcohol_Pal[] = INCBIN_U16("graphics/battle_interface/custom/types/alcohol.gbapal");
+
+static const u8 Type_Icon_Cosmic[]      = INCBIN_U8("graphics/battle_interface/custom/types/cosmic.4bpp"); 
+static const u16 Type_Icon_Cosmic_Pal[] = INCBIN_U16("graphics/battle_interface/custom/types/cosmic.gbapal");
+
 static const u8 Type_Icon_Mystery[]      = INCBIN_U8("graphics/battle_interface/custom/types/mystery.4bpp"); 
 static const u16 Type_Icon_Mystery_Pal[] = INCBIN_U16("graphics/battle_interface/custom/types/mystery.gbapal");
 
@@ -1939,6 +1945,14 @@ static void MoveSelectionDisplayMoveTypeDoubles(u8 targetId)
         case TYPE_WATER:
             BlitBitmapToWindow(B_WIN_MOVE_TYPE , Type_Icon_Water, x, y, 32, 16);
             LoadPalette(Type_Icon_Water_Pal, 10 * 0x10, 0x20);
+        break;
+        case TYPE_COSMIC:
+            BlitBitmapToWindow(B_WIN_MOVE_TYPE , Type_Icon_Cosmic, x, y, 32, 16);
+            LoadPalette(Type_Icon_Cosmic_Pal, 10 * 0x10, 0x20);
+        break;
+        case TYPE_ALCOHOL:
+            BlitBitmapToWindow(B_WIN_MOVE_TYPE , Type_Icon_Alcohol, x, y, 32, 16);
+            LoadPalette(Type_Icon_Alcohol_Pal, 10 * 0x10, 0x20);
         break;
         default:
             BlitBitmapToWindow(B_WIN_MOVE_TYPE , Type_Icon_Mystery, x, y, 32, 16);

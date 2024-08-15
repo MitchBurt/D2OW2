@@ -11480,7 +11480,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .type = TYPE_ALCOHOL,
         .accuracy = 90,
         .pp = 20,
-        .secondaryEffectChance = 100,
+        .secondaryEffectChance = 50,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED | FLAG_SHEER_FORCE_BOOST | FLAG_ALCOHOL,
@@ -12388,7 +12388,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_ZANGOOSE] =
+    [SPECIES_SMITNION] =
     {
         .move = MOVE_CRUSH_CLAW,
         .modification = SIGNATURE_MOD_POWER,
@@ -12398,7 +12398,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_SEVIPER] =
+    [SPECIES_ARACKNE] =
     {
         .move = MOVE_POISON_TAIL,
         .modification = SIGNATURE_MOD_POWER,
@@ -12503,7 +12503,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_CRADILY] =
+    [SPECIES_Pyrabass] =
     {
         .move = MOVE_MEGA_DRAIN,
         .modification = SIGNATURE_MOD_POWER,

@@ -524,7 +524,7 @@ enum
     FRIENDS_LEGENDARY,
     FRIENDS_HUGEMAN,
     FRIENDS_QUACKNATOR,
-    FRIENDS_WHISCASH,
+    FRIENDS_SPLASHICOOT,
     FRIENDS_WALLPAPERS_COUNT
 };
 
@@ -1488,13 +1488,13 @@ static const u16 gWallpaperPalettes_Quacknator[][16] =
 static const u32 gWallpaperTiles_Quacknator[] = INCBIN_U32("graphics/pokemon_storage/quacknator.4bpp.lz");
 static const u32 gWallpaperTilemap_Quacknator[] = INCBIN_U32("graphics/pokemon_storage/quacknator.bin.lz");
 
-static const u16 gWallpaperPalettes_Whiscash[][16] =
+static const u16 gWallpaperPalettes_Splashicoot[][16] =
 {
     INCBIN_U16("graphics/pokemon_storage/friends_frame2.gbapal"),
-    INCBIN_U16("graphics/pokemon_storage/whiscash_bg.gbapal"),
+    INCBIN_U16("graphics/pokemon_storage/splashicoot_bg.gbapal"),
 };
-static const u32 gWallpaperTiles_Whiscash[] = INCBIN_U32("graphics/pokemon_storage/whiscash.4bpp.lz");
-static const u32 gWallpaperTilemap_Whiscash[] = INCBIN_U32("graphics/pokemon_storage/whiscash.bin.lz");
+static const u32 gWallpaperTiles_Splashicoot[] = INCBIN_U32("graphics/pokemon_storage/splashicoot.4bpp.lz");
+static const u32 gWallpaperTilemap_Splashicoot[] = INCBIN_U32("graphics/pokemon_storage/splashicoot.bin.lz");
 
 static const u32 gWallpaperIcon_Aqua[] = INCBIN_U32("graphics/pokemon_storage/aqua_icon.4bpp.lz");
 static const u32 gWallpaperIcon_Heart[] = INCBIN_U32("graphics/pokemon_storage/heart_icon.4bpp.lz");
@@ -1520,7 +1520,7 @@ static const u32 gWallpaperIcon_Warpnar[] = INCBIN_U32("graphics/pokemon_storage
 static const u32 gWallpaperIcon_StarInCircle[] = INCBIN_U32("graphics/pokemon_storage/star_in_circle_icon.4bpp.lz");
 static const u32 gWallpaperIcon_Yeltzer[] = INCBIN_U32("graphics/pokemon_storage/yeltzer_icon.4bpp.lz");
 static const u32 gWallpaperIcon_Latis[] = INCBIN_U32("graphics/pokemon_storage/latis_icon.4bpp.lz");
-static const u32 gWallpaperIcon_Minun[] = INCBIN_U32("graphics/pokemon_storage/minun_icon.4bpp.lz");
+static const u32 gWallpaperIcon_Purrtang[] = INCBIN_U32("graphics/pokemon_storage/purrtang_icon.4bpp.lz");
 static const u32 gWallpaperIcon_Filmbrain[] = INCBIN_U32("graphics/pokemon_storage/filmbrain_icon.4bpp.lz");
 static const u32 gWallpaperIcon_Magma[] = INCBIN_U32("graphics/pokemon_storage/magma_icon.4bpp.lz");
 
@@ -1541,7 +1541,7 @@ static const struct WallpaperTable gFriendsWallpaperTable[] =
     WALLPAPER_ENTRY(Legendary),
     WALLPAPER_ENTRY(Hugeman),
     WALLPAPER_ENTRY(Quacknator),
-    WALLPAPER_ENTRY(Whiscash),
+    WALLPAPER_ENTRY(Splashicoot),
 };
 
 static const u32 *const gFriendsIcons[] =
@@ -1572,8 +1572,8 @@ static const u32 *const gFriendsIcons[] =
     gWallpaperIcon_StarInCircle,
     gWallpaperIcon_Yeltzer,
     gWallpaperIcon_Latis,
-    gWallpaperIcon_Plusle,
-    gWallpaperIcon_Minun,
+    gWallpaperIcon_Purrsour,
+    gWallpaperIcon_Purrtang,
     gWallpaperIcon_Filmbrain,
     gWallpaperIcon_Magma,
 };

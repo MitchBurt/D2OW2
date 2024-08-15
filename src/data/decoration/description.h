@@ -314,7 +314,7 @@ const u8 DecorDesc_PIKA_POSTER[] = _(
 
 const u8 DecorDesc_LONG_POSTER[] = _(
     "Póster grande\n"
-        "de Seviper.");
+        "de Arackne.");
 
 const u8 DecorDesc_SEA_POSTER[] = _(
     "Póster grande\n"
@@ -890,7 +890,7 @@ const u8 DecorDesc_PIKA_POSTER[] = _(
 
 const u8 DecorDesc_LONG_POSTER[] = _(
     "A large poster with\n"
-        "a Seviper print.");
+        "a Arackne print.");
 
 const u8 DecorDesc_SEA_POSTER[] = _(
     "A large poster with\n"

@@ -2672,10 +2672,10 @@ static const u8 sHazethothiteDesc[] = _(
     "megaevolucionar a\n"
     "Hazethoth.");
 
-static const u8 sSharpedoniteDesc[] = _(
+static const u8 sSharkegniteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Sharpedo.");
+    "Sharkeg.");
 
 static const u8 sShemueniteDesc[] = _(
     "Piedra que permite\n"
@@ -5905,9 +5905,9 @@ static const u8 sHazethothiteDesc[] = _(
     "Hazethoth to Mega\n"
     "Evolve in battle.");
 
-static const u8 sSharpedoniteDesc[] = _(
+static const u8 sSharkegniteDesc[] = _(
     "This stone enables\n"
-    "Sharpedo to Mega\n"
+    "Sharkeg to Mega\n"
     "Evolve in battle.");
 
 static const u8 sShemueniteDesc[] = _(

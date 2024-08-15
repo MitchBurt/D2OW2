@@ -334,9 +334,9 @@ static const u16 sAuxiliskFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sSharpedoFormSpeciesIdTable[] = {
-    SPECIES_SHARPEDO,
-    SPECIES_SHARPEDO_MEGA,
+static const u16 sSharkegFormSpeciesIdTable[] = {
+    SPECIES_SHARKEG,
+    SPECIES_SHARKEG_MEGA,
     0xFFFF,
 };
 

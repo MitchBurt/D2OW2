@@ -734,7 +734,7 @@ void BattleSetup_StartWildBattle(void)
     else if (setVarForThisEnc){
         u16 species_enemy = GetMonData(&gEnemyParty[gBattlerPartyIndexes[GetBattlerAtPosition(B_POSITION_OPPONENT_LEFT)]], MON_DATA_SPECIES2);
         if (GetSetPokedexFlag(SpeciesToNationalPokedexNum(species_enemy), FLAG_GET_CAUGHT)){
-           return 1;  // If it's a duplicate Pokemon
+           return 2;  // If it's a duplicate Pokemon
         }
         VarSet(pkmnSeenVars[varToCheck], varValue | (1 << bitToCheck));
     }

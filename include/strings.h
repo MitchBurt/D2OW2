@@ -1217,7 +1217,7 @@ extern const u8 gTrickHouse_Mechadoll_Blinky[];
 extern const u8 gTrickHouse_Mechadoll_Meowrrior2[];
 extern const u8 gTrickHouse_Mechadoll_Duplicat3[];
 extern const u8 gTrickHouse_Mechadoll_Batanarf2[];
-extern const u8 gTrickHouse_Mechadoll_Carvanha[];
+extern const u8 gTrickHouse_Mechadoll_Brewfin[];
 extern const u8 gTrickHouse_Mechadoll_BurnHeal[];
 extern const u8 gTrickHouse_Mechadoll_HarborMail[];
 extern const u8 gTrickHouse_Mechadoll_SamePrice[];
