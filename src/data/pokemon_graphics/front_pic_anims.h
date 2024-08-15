@@ -4261,7 +4261,7 @@ static const union AnimCmd sAnim_ODOSAUR_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_Pyrabass_1[] =
+static const union AnimCmd sAnim_PYRABASS_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(1, 15),
