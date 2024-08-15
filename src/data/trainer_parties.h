@@ -6845,7 +6845,7 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne1[] = {
     .evs = {6, 0, 252, 252, 0, 0}, 
     .abilityNum = 1,
     .happiness = 252,
-    .species = SPECIES_TEMP,
+    .species = SPECIES_SCATRUSH,
     .postgameheldItem = ITEM_AIR_BALLOON,
     .heldItem = ITEM_AIR_BALLOON,
     .postgamemoves = {MOVE_POWER_GEM, MOVE_EARTH_POWER, MOVE_THUNDERBOLT, MOVE_FLASH_CANNON},
@@ -15699,7 +15699,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Alan[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_TEMP,
+    .species = SPECIES_SCATRUSH,
     },
     {
     .iv = 0,
@@ -16943,7 +16943,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Ruben[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_TEMP,
+    .species = SPECIES_SCATRUSH,
     }
 };
 
@@ -18864,7 +18864,7 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne2[] = {
     .evs = {0, 0, 6, 252, 0, 252}, 
     .abilityNum = 1,
     .happiness = 252,
-    .species = SPECIES_TEMP,
+    .species = SPECIES_SCATRUSH,
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_AIR_BALLOON,
     .postgamemoves = {MOVE_POWER_GEM, MOVE_THUNDERBOLT, MOVE_EARTH_POWER, MOVE_FLASH_CANNON},
@@ -18945,7 +18945,7 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne3[] = {
     .evs = {252, 0, 6, 252, 0, 0}, 
     .abilityNum = 1,
     .happiness = 0,
-    .species = SPECIES_TEMP,
+    .species = SPECIES_SCATRUSH,
     .postgameheldItem = ITEM_AIR_BALLOON,
     .heldItem = ITEM_AIR_BALLOON,
     .postgamemoves = {MOVE_POWER_GEM, MOVE_THUNDERBOLT, MOVE_EARTH_POWER, MOVE_FLASH_CANNON},
@@ -19013,7 +19013,7 @@ static const struct TrainerMonItemCustomMoves sParty_Roxanne4[] = {
     .evs = {252, 0, 6, 252, 0, 0}, 
     .abilityNum = 1,
     .happiness = 0,
-    .species = SPECIES_TEMP,
+    .species = SPECIES_SCATRUSH,
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_AIR_BALLOON,
     .postgamemoves = {MOVE_POWER_GEM, MOVE_THUNDERBOLT, MOVE_EARTH_POWER, MOVE_FLASH_CANNON},
@@ -21421,7 +21421,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Andres3[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_TEMP,
+    .species = SPECIES_SCATRUSH,
     },
     {
     .iv = 20,
@@ -21448,7 +21448,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Andres4[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_TEMP,
+    .species = SPECIES_SCATRUSH,
     },
     {
     .iv = 30,
@@ -21475,7 +21475,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Andres5[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_TEMP,
+    .species = SPECIES_SCATRUSH,
     },
     {
     .iv = 40,

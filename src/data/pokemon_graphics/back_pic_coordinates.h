@@ -1480,7 +1480,7 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x87,
         .y_offset = 7,
     },
-    [SPECIES_TEMP] =
+    [SPECIES_SCATRUSH] =
     {
         .size = 0x76,
         .y_offset = 10,

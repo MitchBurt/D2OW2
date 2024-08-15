@@ -180,7 +180,7 @@ const struct Evolution gFirstEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
 //    [SPECIES_SKITTY]                = {{EVO_EXIOLITE, 28, SPECIES_NYANCAT},
 	                                   //{EVO_ITEM, ITEM_MOON_STONE, SPECIES_NYANCAT}},
     [SPECIES_DREIDRILL]                = {{EVO_LEVEL, 36, SPECIES_HEBURROW}},
-    [SPECIES_TEMP]              = {{EVO_EXIOLITE, 33, SPECIES_PROBOPASS},
+    [SPECIES_SCATRUSH]              = {{EVO_EXIOLITE, 33, SPECIES_PROBOPASS},
 	                                   {EVO_MAPSEC, MAPSEC_NEW_MAUVILLE, SPECIES_PROBOPASS}},
     [SPECIES_SABLEYE]               = {{EVO_MEGA_EVOLUTION, ITEM_SABLENITE, SPECIES_SABLEYE_MEGA}},
     [SPECIES_COOPID]              = {{EVO_LEVEL, 30, SPECIES_SPLASHICOOT}},
