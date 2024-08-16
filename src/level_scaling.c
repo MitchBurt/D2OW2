@@ -843,7 +843,7 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 			if(level >= 20){
 				u16 PossibleEvo[] = {
 					SPECIES_FURRLEAD,
-					SPECIES_ZEPURR,
+					SPECIES_ZEPPUR,
 				};
 				
 				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
@@ -874,7 +874,7 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_MINIRICK:
+		case SPECIES_RICKLING:
 			if(level >= 30){
 				u16 PossibleEvo[] = {
 					SPECIES_RICKLE,
