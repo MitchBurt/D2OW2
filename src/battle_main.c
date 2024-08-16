@@ -5649,6 +5649,8 @@ static void HandleEndTurn_MonFled(void)
     gBattleMainFunc = HandleEndTurn_FinishBattle;
 }
 
+
+
 static void HandleEndTurn_FinishBattle(void)
 {
     u32 i;

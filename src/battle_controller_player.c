@@ -2081,6 +2081,14 @@ static void MoveSelectionDisplayMoveType(void)
             BlitBitmapToWindow(B_WIN_MOVE_TYPE , Type_Icon_Water, x, y, 32, 16);
             LoadPalette(Type_Icon_Water_Pal, 10 * 0x10, 0x20);
         break;
+        case TYPE_COSMIC:
+            BlitBitmapToWindow(B_WIN_MOVE_TYPE , Type_Icon_Cosmic, x, y, 32, 16);
+            LoadPalette(Type_Icon_Cosmic_Pal, 10 * 0x10, 0x20);
+        break;
+        case TYPE_ALCOHOL:
+            BlitBitmapToWindow(B_WIN_MOVE_TYPE , Type_Icon_Alcohol, x, y, 32, 16);
+            LoadPalette(Type_Icon_Alcohol_Pal, 10 * 0x10, 0x20);
+        break;
         default:
             BlitBitmapToWindow(B_WIN_MOVE_TYPE , Type_Icon_Mystery, x, y, 32, 16);
             LoadPalette(Type_Icon_Mystery_Pal, 10 * 0x10, 0x20);

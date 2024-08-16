@@ -510,7 +510,7 @@ u16 GetWildPokemon(u16 basespecies, u8 level, u16 heldItem){
 	u8 BadgesMidgame = 5;
 	u8 BadgesLategame = 7;
 	
-	if(basespecies == SPECIES_AUDINO || basespecies == SPECIES_GALACNAR)
+ 	if(basespecies == SPECIES_GOLBNAR || basespecies == SPECIES_DNDICE || basespecies == SPECIES_SMITNION)
 		return basespecies;
 	else if(FlagGet(FLAG_RANDOMIZED_MODE) && !FlagGet(FLAG_FULL_RANDOMIZED_MODE) && IsPokemonValid(GetRandomFirstStage(basespecies)))
 		return GetRandomizedWildPokemon(GetRandomFirstStage(basespecies), level, heldItem);
@@ -575,7 +575,7 @@ u16 GetWildPokemon(u16 basespecies, u8 level, u16 heldItem){
 	
 		//Lategame Evolutions
 		case EVO_MOVE:
-		case EVO_ITEM:
+		//case EVO_ITEM: Removed
 		case EVO_TRADE:
 		case EVO_MAPSEC:
 		case EVO_ITEM_MALE:
@@ -839,11 +839,11 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 	bool8 disablealternateforms = FALSE;
 	
 	switch(basespecies){
-		case SPECIES_ZEPURRINE:
-			if(level >= 7){
+		case SPECIES_DUPLICAT:
+			if(level >= 20){
 				u16 PossibleEvo[] = {
-					SPECIES_MECHDUCK,
-					SPECIES_NYANKITTY,
+					SPECIES_FURRLEAD,
+					SPECIES_ZEPURR,
 				};
 				
 				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
@@ -852,48 +852,51 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 		case SPECIES_EEMOJEE:
 			
 		break;
-		case SPECIES_SHERRIF:
-			if(level >= 38){
+		case SPECIES_VULPOINTER:
+			if(level >= 26){
 				u16 PossibleEvo[] = {
-					SPECIES_RENAGEDE,
-					SPECIES_TOASTEM,
+					SPECIES_ERRORINE,
+					SPECIES_BERRORD,
 				};
 				
 				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_DRYWEE:
-			if(level >= 20){
+		case SPECIES_REWINDLE:
+			if(level >= 35){
 				u16 PossibleEvo[] = {
 					SPECIES_REPLITOR,
 					SPECIES_BIREMIC,
-					SPECIES_STRAIDIRT,
+					SPECIES_SURBSQUACH,
+					SPECIES_AMAZULK,
 				};
 				
 				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_BASSHOP:
-			if(level >= 37){
+		case SPECIES_MINIRICK:
+			if(level >= 30){
 				u16 PossibleEvo[] = {
-					SPECIES_SHEMUE,
-					SPECIES_GOOBLAN,
+					SPECIES_RICKLE,
+					SPECIES_RIGAMORT,
 				};
 				
 				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_SMOGAS:
+		case SPECIES_DNDICE:
 			if(level >= 36){
 				u16 PossibleEvo[] = {
-					SPECIES_GANJAZE,
-					SPECIES_SEAWEE,
+					SPECIES_REPSAC,
+					SPECIES_CHUXKUSH,
+					SPECIES_SPLASHICOOT,
+					SPECIES_HELLAPHANT,
 				};
 				
 				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_SORTAFURRY:
+		case SPECIES_GOLBNAR:
 			if(level >= 30){
 				u16 PossibleEvo[] = {
 					SPECIES_THATSFURRY,
@@ -938,6 +941,19 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 				u16 PossibleEvo[] = {
 					SPECIES_GLOBNAUT,
 					SPECIES_THAUMNAR,
+				};
+				
+				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
+			}
+		break;
+		case SPECIES_SMITNION:
+			if(level >= 38){
+				u16 PossibleEvo[] = {
+					SPECIES_GANESH,
+					SPECIES_ANOOBIS,
+					SPECIES_ARACKNE,
+					SPECIES_COOPID,
+					SPECIES_SURTYUR,
 				};
 				
 				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
