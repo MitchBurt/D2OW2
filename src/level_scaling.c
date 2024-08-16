@@ -896,41 +896,11 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_GOLBNAR:
-			if(level >= 30){
-				u16 PossibleEvo[] = {
-					SPECIES_THATSFURRY,
-					SPECIES_GALLADE,
-				};
-				
-				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
-			}
-		break;
-		case SPECIES_NINCADA:
-			if(level >= 20){
-				u16 PossibleEvo[] = {
-					SPECIES_SHEDINJA,
-					SPECIES_NINJASK,
-				};
-				
-				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
-			}
-		break;
 		case SPECIES_APPLIN:
 			if(level >= 34){
 				u16 PossibleEvo[] = {
 					SPECIES_FLAPPLE,
 					SPECIES_APPLETUN,
-				};
-				
-				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
-			}
-		break;
-		case SPECIES_CHAIROLD:
-			if(level >= 42){
-				u16 PossibleEvo[] = {
-					SPECIES_ELECHAIR,
-					SPECIES_FROSLASS,
 				};
 				
 				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
