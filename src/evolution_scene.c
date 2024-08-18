@@ -1,7 +1,6 @@
 #include "global.h"
 #include "malloc.h"
 #include "battle.h"
-#include "battle_anim.h"
 #include "battle_message.h"
 #include "bg.h"
 #include "data.h"
@@ -164,9 +163,6 @@ static void CB2_BeginEvolutionScene(void)
 #define tPreEvoFormId       data[11]
 #define tPostEvoFormId      data[12]
 
-#define LEFT_PKMN gBattlerPartyIndexes[GetBattlerAtPosition(B_POSITION_PLAYER_LEFT)]
-#define RIGHT_PKMN gBattlerPartyIndexes[GetBattlerAtPosition(B_POSITION_PLAYER_RIGHT)]
-
 #define TASK_BIT_CAN_STOP       0x1
 #define TASK_BIT_LEARN_MOVE     0x80
 
@@ -256,9 +252,7 @@ void EvolutionScene(struct Pokemon* mon, u16 speciesToEvolve, bool8 canStopEvo, 
     gReservedSpritePaletteCount = 4;
 
     sEvoStructPtr = AllocZeroed(sizeof(struct EvoInfo));
-    //AllocateMonSpritesGfx();
-    if (!gMain.inBattle || gMonSpritesGfxPtr == NULL) AllocateMonSpritesGfx();     
-    // If gMonSpritesGfxPtr has been freed then it needs to be reallocated
+    AllocateMonSpritesGfx();
 
     GetMonData(mon, MON_DATA_NICKNAME, name);
     StringCopy10(gStringVar1, name);
@@ -763,17 +757,6 @@ static void Task_EvolutionScene(u8 taskID)
             GetSetPokedexFlag(SpeciesToNationalPokedexNum(gTasks[taskID].tPostEvoSpecies), FLAG_SET_SEEN);
             GetSetPokedexFlag(SpeciesToNationalPokedexNum(gTasks[taskID].tPostEvoSpecies), FLAG_SET_CAUGHT);
             IncrementGameStat(GAME_STAT_EVOLVED_POKEMON);
-            if (gMain.inBattle && gBattleOutcome == 0)
-            { 
-                // Update BattlePokemon stats if in battle
-                u8 monId = gTasks[taskID].tPartyID;
-                if (monId == LEFT_PKMN) 
-                    CopyPlayerPartyMonToBattleData(0, monId, FALSE);
-                else if (monId == RIGHT_PKMN) 
-                {
-                    CopyPlayerPartyMonToBattleData(2, monId, FALSE);
-                }
-            }
         }
         break;
     case 15: // check if it wants to learn a new move
@@ -788,8 +771,7 @@ static void Task_EvolutionScene(u8 taskID)
                 if (!(gTasks[taskID].tBits & TASK_BIT_LEARN_MOVE))
                 {
                     StopMapMusic();
-                    if (gMain.inBattle && gBattleOutcome == 0) PlayBattleBGM(); // If battle is still ongoing, replay battle music
-                    else Overworld_PlaySpecialMapMusic();
+                    Overworld_PlaySpecialMapMusic();
                 }
 
                 gTasks[taskID].tBits |= TASK_BIT_LEARN_MOVE;
@@ -803,20 +785,7 @@ static void Task_EvolutionScene(u8 taskID)
                 else if (var == MON_ALREADY_KNOWS_MOVE)
                     break;
                 else
-                {
-                    if (gMain.inBattle && gBattleOutcome == 0)
-                    {
-                        if (gTasks[taskID].tPartyID == LEFT_PKMN) 
-                        {
-                            GiveMoveToBattleMon(&gBattleMons[0], var); // Ensure the Pokémon can use the move in battle
-                        }
-                        else if (gTasks[taskID].tPartyID == RIGHT_PKMN) 
-                        {
-                            GiveMoveToBattleMon(&gBattleMons[2], var);  // Ensure the Pokémon can use the move in battle
-                        }
-                    }
                     gTasks[taskID].tState = 20; // move has been learned
-                }
             }
             else // no move to learn
             {
@@ -837,7 +806,7 @@ static void Task_EvolutionScene(u8 taskID)
                 CreateShedinja(gTasks[taskID].tPreEvoSpecies, mon);
 
             DestroyTask(taskID);
-            if (!gMain.inBattle || gBattleOutcome != 0) FreeMonSpritesGfx(); // Free resources if battle is not ongoing
+            FreeMonSpritesGfx();
             Free(sEvoStructPtr);
             sEvoStructPtr = NULL;
             FreeAllWindowBuffers();
@@ -994,19 +963,7 @@ static void Task_EvolutionScene(u8 taskID)
                     else
                     {
                         PREPARE_MOVE_BUFFER(gBattleTextBuff2, move)
-                        if (gMain.inBattle && gBattleOutcome == 0)
-                        {
-                            if (gTasks[taskID].tPartyID == LEFT_PKMN) 
-                            {
-                                RemoveBattleMonPPBonus(&gBattleMons[0], var);
-                                SetBattleMonMoveSlot(&gBattleMons[0], gMoveToLearn, var); // Replace in-battle Pokémon's move with the new move
-                            }
-                            else if (gTasks[taskID].tPartyID == RIGHT_PKMN) 
-                            {
-                                RemoveBattleMonPPBonus(&gBattleMons[2], var);
-                                SetBattleMonMoveSlot(&gBattleMons[2], gMoveToLearn, var); // Replace in-battle Pokémon's move with the new move
-                            }
-                        }
+
                         RemoveMonPPBonus(mon, var);
                         SetMonMoveSlot(mon, gMoveToLearn, var);
                         gTasks[taskID].tLearnMoveState++;
