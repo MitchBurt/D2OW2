@@ -1,6 +1,3 @@
-#include "constants/species.h"
-TEMP TEMP TMEP 
-
 static const struct TrainerMonNoItemDefaultMoves sParty_Sawyer1[] = {
     {
     .iv = 0,
