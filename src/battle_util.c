@@ -8222,7 +8222,10 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
         if (gBattleMoves[move].flags & FLAG_SOUND)
             MulModifier(&modifier, UQ_4_12(1.3));
         break;
-
+    case ABILITY_COOKING:
+        if (moveType == TYPE_FIRE && gBaseStats[gBattleMons[battlerDef].species].flags & F_FOOD)
+            MulModifier(&modifier, UQ_4_12(2));
+        break;
     }
 
     // field abilities
@@ -9221,12 +9224,6 @@ static void MulByTypeEffectiveness(u16 *modifier, u16 move, u8 moveType, u8 batt
         mod = UQ_4_12(2.0); // super-effective
         if (recordAbilities)
             RecordAbilityBattle(battlerAtk, ABILITY_OVERCHARGE);
-    }
-    else if (moveType == TYPE_FIRE && gBaseStats[gBattleMons[battlerDef].species].flags & F_FOOD && GetBattlerAbility(battlerAtk) == ABILITY_COOKING)
-    {
-        mod = UQ_4_12(2.0); // super-effective
-        if (recordAbilities)
-            RecordAbilityBattle(battlerAtk, ABILITY_COOKING);
     }
 
     if (moveType == TYPE_PSYCHIC && defType == TYPE_DARK && gStatuses3[battlerDef] & STATUS3_MIRACLE_EYED && mod == UQ_4_12(0.0))

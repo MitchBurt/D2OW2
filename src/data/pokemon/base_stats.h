@@ -2396,11 +2396,11 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_DABBOI] =
     {
         .baseHP        = 54,
-        .baseAttack    = 68,
-        .baseDefense   = 55,
-        .baseSpeed     = 120,
+        .baseAttack    = 98,
+        .baseDefense   = 81,
+        .baseSpeed     = 160,
         .baseSpAttack  = 58,
-        .baseSpDefense = 42,
+        .baseSpDefense = 81,
         .type1 = TYPE_WATER,
         .type2 = TYPE_WATER,
         .catchRate = 190,
@@ -2472,7 +2472,6 @@ const struct BaseStats gBaseStats[] =
         #endif
         .bodyColor = BODY_COLOR_PURPLE,
         .noFlip = FALSE,
-        .flags = F_FOOD,
     },
 
     [SPECIES_MUK] =
@@ -5298,7 +5297,6 @@ const struct BaseStats gBaseStats[] =
         .abilityHidden = ABILITY_FLOWER_GIFT,
         .bodyColor = BODY_COLOR_YELLOW,
         .noFlip = FALSE,
-        .flags = F_FOOD
     },
 
     [SPECIES_SHARCRUSH] =
@@ -8990,7 +8988,6 @@ const struct BaseStats gBaseStats[] =
         .abilityHidden = ABILITY_NATURAL_CURE,
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
-        .flags = F_FOOD,
     },
 
     [SPECIES_ACONEGGS] =
@@ -9017,7 +9014,6 @@ const struct BaseStats gBaseStats[] =
         .abilityHidden = ABILITY_NATURAL_CURE,
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
-        .flags = F_FOOD
     },
 
     [SPECIES_ARMYDRONE] =
