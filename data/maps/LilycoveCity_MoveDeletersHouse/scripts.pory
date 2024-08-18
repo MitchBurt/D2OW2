@@ -47,7 +47,7 @@ LilycoveCity_MoveDeletersHouse_EventScript_AsktoTrade::
 	case 0, LilycoveCity_MoveDeletersHouse_EventScript_Give_Jissm_Mega
 	case 1, LilycoveCity_MoveDeletersHouse_EventScript_Give_Korbie
 	case 2, LilycoveCity_MoveDeletersHouse_EventScript_Give_Baitord_Mega
-	case 3, LilycoveCity_MoveDeletersHouse_EventScript_Give_Piplup
+	case 3, LilycoveCity_MoveDeletersHouse_EventScript_Give_Oroflow
 	case 4, LilycoveCity_MoveDeletersHouse_EventScript_Give_Oshawott
 	case 5, LilycoveCity_MoveDeletersHouse_EventScript_Give_Froakie
 	case 6, LilycoveCity_MoveDeletersHouse_EventScript_Give_Popplio
@@ -129,12 +129,12 @@ LilycoveCity_MoveDeletersHouse_EventScript_Give_Baitord_Mega::
 	release
 	end
 	
-//Piplup
-LilycoveCity_MoveDeletersHouse_EventScript_Give_Piplup::
-	bufferspeciesname 1, SPECIES_PIPLUP
+//Oroflow
+LilycoveCity_MoveDeletersHouse_EventScript_Give_Oroflow::
+	bufferspeciesname 1, SPECIES_OROFLOW
 	playfanfare MUS_OBTAIN_ITEM
 	message LilycoveCity_MoveDeletersHouse_Text_ReceivedMonFromOldMan
-	givemon SPECIES_PIPLUP, 10, ITEM_NONE
+	givemon SPECIES_OROFLOW, 10, ITEM_NONE
 	waitfanfare
 	msgbox LilycoveCity_MoveDeletersHouse_Text_ComeAgain_Starter, MSGBOX_DEFAULT
 	release
