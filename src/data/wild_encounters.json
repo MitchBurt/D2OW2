@@ -17421,17 +17421,17 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BATANARF"
+                "species": "SPECIES_RATMAN"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BASSHOP"
+                "species": "SPECIES_JAFEET"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BASSHOP"
+                "species": "SPECIES_ARAKETSU"
               },
               {
                 "min_level": 5,
@@ -17441,7 +17441,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_ROGGENROLA"
+                "species": "SPECIES_CREEPA"
               },
               {
                 "min_level": 5,
@@ -17451,7 +17451,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BRONZOR"
+                "species": "SPECIES_BATCARDI"
               },
               {
                 "min_level": 5,
@@ -17466,7 +17466,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CHINGLING"
+                "species": "SPECIES_CHAIROLD"
               },
               {
                 "min_level": 5,
@@ -17476,7 +17476,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CHINGLING"
+                "species": "SPECIES_CHAIROLD"
               }
             ]
           },
@@ -17491,22 +17491,22 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CIGHTED"
+                "species": "SPECIES_SHEMUE"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_OOTLAW"
+                "species": "SPECIES_BASSHOP"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_OOTLAW"
+                "species": "SPECIES_BASSHOP"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_GALACNAR"
+                "species": "SPECIES_COFFICRAB"
               }
             ]
           },
@@ -17536,7 +17536,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CIGHTED"
+                "species": "SPECIES_BASSHOP"
               },
               {
                 "min_level": 5,
@@ -17551,7 +17551,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_OOTLAW"
+                "species": "SPECIES_BASSHOP"
               },
               {
                 "min_level": 5,
@@ -17561,7 +17561,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_GALACNAR"
+                "species": "SPECIES_BASSHOP"
               }
             ]
           }
@@ -17570,17 +17570,22 @@
           "map": "MAP_OLDALE_TOWN_RUINS_2F",
           "base_label": "gOldaleTown_Ruins_2F0",
           "land_mons": {
-            "encounter_rate": 10,
+            "encounter_rate": 5,
             "mons": [
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BASSHOP"
+                "species": "SPECIES_RATMAN"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BATANARF"
+                "species": "SPECIES_JAFEET"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_ARAKETSU"
               },
               {
                 "min_level": 5,
@@ -17590,7 +17595,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_ROGGENROLA"
+                "species": "SPECIES_CREEPA"
               },
               {
                 "min_level": 5,
@@ -17600,37 +17605,32 @@
               {
                 "min_level": 5,
                 "max_level": 5,
+                "species": "SPECIES_BATCARDI"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_POTOGREED"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
                 "species": "SPECIES_ESCEEPEE"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CHINGLING"
+                "species": "SPECIES_CHAIROLD"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BRONZOR"
+                "species": "SPECIES_ESCEEPEE"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_DURANT"
-              },
-              {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_MIENFOO"
-              },
-              {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_DURANT"
-              },
-              {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_MIENFOO"
+                "species": "SPECIES_CHAIROLD"
               }
             ]
           },
