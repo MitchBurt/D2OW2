@@ -249,7 +249,6 @@ EWRAM_DATA u8 gMaxPartyLevel = 1;
 
 EWRAM_DATA bool8 gPlayerDoesNotWantToEvolveLeft = FALSE;
 EWRAM_DATA bool8 gPlayerDoesNotWantToEvolveRight = FALSE;
-EWRAM_DATA u8 gBattleTerrainBackup = 0;
 
 // IWRAM common vars
 void (*gPreBattleCallback1)(void);
@@ -620,9 +619,6 @@ static void CB2_InitBattleInternal(void)
         AdjustFriendship(&gPlayerParty[i], FRIENDSHIP_EVENT_LEAGUE_BATTLE);
 
     gBattleCommunication[MULTIUSE_STATE] = 0;
-    
-    gPlayerDoesNotWantToEvolveLeft = FALSE;
-    gPlayerDoesNotWantToEvolveRight = FALSE;
 }
 
 static void sub_8036A5C(void)
@@ -4301,8 +4297,7 @@ void BattleTurnPassed(void)
 
     *(&gBattleStruct->field_91) = gAbsentBattlerFlags;
     BattlePutTextOnWindow(gText_EmptyString3, 0);
-    //gBattleMainFunc = HandleTurnActionSelectionState;
-    gBattleMainFunc = PlayerTryEvolution;
+    gBattleMainFunc = HandleTurnActionSelectionState;
     gRandomTurnNumber = Random();
 
     if (gBattleTypeFlags & BATTLE_TYPE_PALACE)
@@ -4312,82 +4307,6 @@ void BattleTurnPassed(void)
     else if (ShouldDoTrainerSlide(GetBattlerAtPosition(B_POSITION_OPPONENT_LEFT), gTrainerBattleOpponent_A, TRAINER_SLIDE_LAST_LOW_HP))
         BattleScriptExecute(BattleScript_TrainerSlideMsgEnd2);
 }
-//battle evo
-#define LEFT_PKMN gBattlerPartyIndexes[GetBattlerAtPosition(B_POSITION_PLAYER_LEFT)]
-#define RIGHT_PKMN gBattlerPartyIndexes[GetBattlerAtPosition(B_POSITION_PLAYER_RIGHT)]
-
-static void CB2_SetUpReshowBattleScreenAfterEvolution(void)
-{
-    gBattleTerrain = gBattleTerrainBackup; 
-    SetMainCallback2(ReshowBattleScreenAfterMenu);
-}
-
-#define tSpeciesToEvolveInto data[0]
-#define tBattlerPosition     data[1]
-
-static void Task_BeginBattleEvolutionScene(u8 taskId)
-{
-    if (!gPaletteFade.active)
-    {
-        u8 battlerPosition;
-        u16 SpeciesToEvolveInto;
-        FreeAllWindowBuffers();
-        gCB2_AfterEvolution = CB2_SetUpReshowBattleScreenAfterEvolution;
-        gBattleTerrainBackup = gBattleTerrain; // Store the battle terrain to be reloaded later
-
-        battlerPosition = gTasks[taskId].tBattlerPosition;
-        SpeciesToEvolveInto = gTasks[taskId].tSpeciesToEvolveInto;
-        DestroyTask(taskId);
-        EvolutionScene(&gPlayerParty[battlerPosition], SpeciesToEvolveInto, TRUE, battlerPosition);
-    }
-}
-
-static void PlayerTryEvolution(void)
-{
-    u16 species;
-    u8 taskId; 
-    if (gLeveledUpInBattle & gBitTable[LEFT_PKMN] && !gPlayerDoesNotWantToEvolveLeft)
-    {
-        gLeveledUpInBattle &= ~(gBitTable[LEFT_PKMN]); // Mask the bit
-        species = GetEvolutionTargetSpecies(&gPlayerParty[LEFT_PKMN], ITEM_NONE);
-        if (species != SPECIES_NONE)
-        {
-            BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 0x10, RGB_BLACK);
-            gBattleMainFunc = WaitForEvolutionThenTryAnother;
-            taskId = CreateTask(Task_BeginBattleEvolutionScene, 0);
-            gTasks[taskId].tSpeciesToEvolveInto = species;
-            gTasks[taskId].tBattlerPosition = LEFT_PKMN;
-            return;
-        }
-    }
-    if (gBattleTypeFlags & BATTLE_TYPE_DOUBLE && gLeveledUpInBattle & gBitTable[RIGHT_PKMN] && !gPlayerDoesNotWantToEvolveRight)
-    {
-        gLeveledUpInBattle &= ~(gBitTable[RIGHT_PKMN]); // Mask the bit
-        species = GetEvolutionTargetSpecies(&gPlayerParty[RIGHT_PKMN], ITEM_NONE);
-        if (species != SPECIES_NONE)
-        {
-            BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 0x10, RGB_BLACK);
-            gBattleMainFunc = WaitForEvolutionThenTryAnother;
-            taskId = CreateTask(Task_BeginBattleEvolutionScene, 0);
-            gTasks[taskId].tSpeciesToEvolveInto = species;
-            gTasks[taskId].tBattlerPosition = RIGHT_PKMN;
-            return;
-        }
-    }
-
-    gBattleMainFunc = HandleTurnActionSelectionState;
-
-}
-
-static void WaitForEvolutionThenTryAnother(void)
-{
-    if (gMain.callback2 == BattleMainCB2 && !gPaletteFade.active)
-    {
-        gBattleMainFunc = PlayerTryEvolution;
-    }
-}
-
-
 
 u8 IsRunningFromBattleImpossible(void)
 {
