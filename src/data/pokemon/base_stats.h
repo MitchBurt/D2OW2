@@ -11932,7 +11932,7 @@ const struct BaseStats gBaseStats[] =
         .abilities = {ABILITY_AFTERMATH, ABILITY_UNNERVE},
         .bodyColor = BODY_COLOR_PINK,
         .noFlip = FALSE,
-        .flagS = F_GROUND_INMUNITY,
+        .flags = F_GROUND_INMUNITY,
     },
 
     [SPECIES_CHATOT] =
