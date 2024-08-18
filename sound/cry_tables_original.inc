@@ -362,7 +362,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Tropius
 	cry Cry_Chimecho
 	cry Cry_Absol
-	cry Cry_Wynaut
+	cry Cry_Babinion
 	cry Cry_Chairold
 	cry Cry_Elechair
 	cry Cry_Piraghoul
@@ -396,9 +396,9 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Chimchar
 	cry_not Cry_Monferno
 	cry_not Cry_Infernape
-	cry_not Cry_Piplup
-	cry_not Cry_Prinplup
-	cry_not Cry_Empoleon
+	cry_not Cry_Oroflow
+	cry_not Cry_Orocast
+	cry_not Cry_Orrowhelm
 	cry_not Cry_Starly
 	cry_not Cry_Staravia
 	cry_not Cry_Staraptor
@@ -443,9 +443,9 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Bronzong
 	cry_not Cry_Bonsly
 	cry_not Cry_Mimejr
-	cry_not Cry_Happiny
+	cry_not Cry_Hangingy
 	cry_not Cry_Chatot
-	cry_not Cry_Spiritomb
+	cry_not Cry_Chancer
 	cry_not Cry_Gible
 	cry_not Cry_Gabite
 	cry_not Cry_Garchomp
@@ -1640,7 +1640,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Tropius
 	cry2 Cry_Chimecho
 	cry2 Cry_Absol
-	cry2 Cry_Wynaut
+	cry2 Cry_Babinion
 	cry2 Cry_Chairold
 	cry2 Cry_Elechair
 	cry2 Cry_Piraghoul
@@ -1674,9 +1674,9 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Chimchar
 	cry2_not Cry_Monferno
 	cry2_not Cry_Infernape
-	cry2_not Cry_Piplup
-	cry2_not Cry_Prinplup
-	cry2_not Cry_Empoleon
+	cry2_not Cry_Oroflow
+	cry2_not Cry_Orocast
+	cry2_not Cry_Orrowhelm
 	cry2_not Cry_Starly
 	cry2_not Cry_Staravia
 	cry2_not Cry_Staraptor
@@ -1721,9 +1721,9 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Bronzong
 	cry2_not Cry_Bonsly
 	cry2_not Cry_Mimejr
-	cry2_not Cry_Happiny
+	cry2_not Cry_Hangingy
 	cry2_not Cry_Chatot
-	cry2_not Cry_Spiritomb
+	cry2_not Cry_Chancer
 	cry2_not Cry_Gible
 	cry2_not Cry_Gabite
 	cry2_not Cry_Garchomp

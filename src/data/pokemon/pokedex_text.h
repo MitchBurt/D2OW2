@@ -2010,8 +2010,8 @@ const u8 gAbsolPokedexText[] = _(
     "predice catástrofes naturales. Es un\n"
     "Pokémon longevo que vive 100 años.");
 
-const u8 gWynautPokedexText[] = _(
-    "Wynaut disfruta comiendo fruta dulce. Es\n"
+const u8 gBabinionPokedexText[] = _(
+    "Babinion disfruta comiendo fruta dulce. Es\n"
     "vivo al escogerla: usa los brazos con pinta\n"
     "de oreja que tiene. Se reúne con otros en\n"
     "huertos frutales, atraído por el aroma.");
@@ -2351,19 +2351,19 @@ const u8 gInfernapePokedexText[] = _(
     "martial arts involving all of its limbs to\n"
     "take on any opponent.");
 
-const u8 gPiplupPokedexText[] = _(
+const u8 gOroflowPokedexText[] = _(
     "A poor walker, it often falls down. However,\n"
     "its strong pride makes it puff up its chest\n"
     "without a care. It's difficult to bond with\n"
     "since it won't listen to its Trainer.");
 
-const u8 gPrinplupPokedexText[] = _(
-    "Because every Prinplup considers itself\n"
+const u8 gOrocastPokedexText[] = _(
+    "Because every Orocast considers itself\n"
     "to be the most important, they can never\n"
     "form a group. It searches for prey in\n"
     "icy seas.");
 
-const u8 gEmpoleonPokedexText[] = _(
+const u8 gOrrowhelmPokedexText[] = _(
     "The three horns that extend from its beak\n"
     "attest to its power. It avoids unnecessary\n"
     "disputes, but it will decimate anything\n"
@@ -2634,7 +2634,7 @@ const u8 gMimeJrPokedexText[] = _(
     "Once mimicked, the foe cannot take\n"
     "its eyes off this Pokémon.");
 
-const u8 gHappinyPokedexText[] = _(
+const u8 gHangingyPokedexText[] = _(
     "It carries a round white rock in its\n"
     "belly pouch. If it gets along well with\n"
     "someone, it will sometimes give that\n"
@@ -2646,7 +2646,7 @@ const u8 gChatotPokedexText[] = _(
     "This way they won't attack it. It can\n"
     "also learn and speak human words.");
 
-const u8 gSpiritombPokedexText[] = _(
+const u8 gChancerPokedexText[] = _(
     "A Pokémon that was formed by 108 spirits.\n"
     "Its constant mischief and misdeeds\n"
     "resulted in it being bound to an\n"
@@ -7363,8 +7363,8 @@ const u8 gUNSCPokedexText[] = _(
     "sky. It launches intensely hot fireballs\n"
     "from its mouth.");
 
-const u8 gWynautPokedexText[] = _(
-    "A Wynaut loves to eat sweet fruits.\n"
+const u8 gBabinionPokedexText[] = _(
+    "A Babinion loves to eat sweet fruits.\n"
     "It cleverly picks fruits using its earlike\n"
     "arms. They gather in fruit gardens, drawn\n"
     "by the fragrance.");
@@ -7711,19 +7711,19 @@ const u8 gInfernapePokedexText[] = _(
     "martial arts involving all of its limbs to\n"
     "take on any opponent.");
 
-const u8 gPiplupPokedexText[] = _(
+const u8 gOroflowPokedexText[] = _(
     "A poor walker, it often falls down. However,\n"
     "its strong pride makes it puff up its chest\n"
     "without a care. It's difficult to bond with\n"
     "since it won't listen to its Trainer.");
 
-const u8 gPrinplupPokedexText[] = _(
-    "Because every Prinplup considers itself\n"
+const u8 gOrocastPokedexText[] = _(
+    "Because every Orocast considers itself\n"
     "to be the most important, they can never\n"
     "form a group. It searches for prey in\n"
     "icy seas.");
 
-const u8 gEmpoleonPokedexText[] = _(
+const u8 gOrrowhelmPokedexText[] = _(
     "The three horns that extend from its beak\n"
     "attest to its power. It avoids unnecessary\n"
     "disputes, but it will decimate anything\n"
@@ -7994,7 +7994,7 @@ const u8 gMimeJrPokedexText[] = _(
     "Once mimicked, the foe cannot take\n"
     "its eyes off this Pokémon.");
 
-const u8 gHappinyPokedexText[] = _(
+const u8 gHangingyPokedexText[] = _(
     "It carries a round white rock in its\n"
     "belly pouch. If it gets along well with\n"
     "someone, it will sometimes give that\n"
@@ -8006,7 +8006,7 @@ const u8 gChatotPokedexText[] = _(
     "This way they won't attack it. It can\n"
     "also learn and speak human words.");
 
-const u8 gSpiritombPokedexText[] = _(
+const u8 gChancerPokedexText[] = _(
     "A Pokémon that was formed by 108 spirits.\n"
     "Its constant mischief and misdeeds\n"
     "resulted in it being bound to an\n"

@@ -1243,7 +1243,7 @@ static void CreateDexNavWildMon(u16 species, u8 potential, u8 level, u8 abilityN
 		species != SPECIES_GOREFIELD  &&
 		species != SPECIES_SKITTY   &&
 		species != SPECIES_NYANCAT &&
-		species != SPECIES_HAPPINY  &&
+		species != SPECIES_HANGINGY  &&
 		species != SPECIES_UNJOY  &&
 		species != SPECIES_REAPCHARGE) {
 		FlagSet(FLAG_SHINY_CREATION); // just easier this way

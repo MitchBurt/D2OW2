@@ -8887,7 +8887,7 @@ static u32 CalcDefenseStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, 
     switch (gBattleMons[battlerDef].item)
     {
     case ITEM_ODD_KEYSTONE:
-        if (gBattleMons[battlerDef].species == SPECIES_SPIRITOMB && !usesDefStat)
+        if (gBattleMons[battlerDef].species == SPECIES_CHANCER && !usesDefStat)
             MulModifier(&modifier, UQ_4_12(1.5));
         break;
     }

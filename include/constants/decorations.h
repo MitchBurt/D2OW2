@@ -93,7 +93,7 @@
 #define DECOR_COOKLET_DOLL     89
 #define DECOR_BAITORD_DOLL      90
 #define DECOR_RATMAN_DOLL     91
-#define DECOR_WYNAUT_DOLL      92
+#define DECOR_BABINION_DOLL      92
 #define DECOR_DREIDRILL_DOLL      93
 #define DECOR_KECLEON_DOLL     94
 #define DECOR_AZURILL_DOLL     95

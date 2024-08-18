@@ -165,7 +165,7 @@
 #define OBJ_EVENT_GFX_COOKLET_DOLL               155
 #define OBJ_EVENT_GFX_BAITORD_DOLL                156
 #define OBJ_EVENT_GFX_RATMAN_DOLL               157
-#define OBJ_EVENT_GFX_WYNAUT_DOLL                158
+#define OBJ_EVENT_GFX_BABINION_DOLL                158
 #define OBJ_EVENT_GFX_DREIDRILL_DOLL                159
 #define OBJ_EVENT_GFX_KECLEON_DOLL               160
 #define OBJ_EVENT_GFX_AZURILL_DOLL               161

@@ -1924,7 +1924,7 @@ const u16 gEasyChatWordsByLetter_W[] = {
     EC_MOVE2(WRAP),
     EC_WORD_WROOOAAR_EXCL,
     EC_POKEMON(ZEPURRINE),
-    EC_POKEMON(WYNAUT),
+    EC_POKEMON(BABINION),
 };
 
 const u16 gEasyChatWordsByLetter_X[] = {

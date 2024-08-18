@@ -3899,7 +3899,7 @@ static const struct TrHillFloor sDataTagUnique_Floors[] = {
                                         },
                                     [4] =
                                         {
-                                            .species = SPECIES_WYNAUT,
+                                            .species = SPECIES_BABINION,
                                             .heldItem = ITEM_LEFTOVERS,
                                             .moves = {MOVE_ENCORE, MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_DESTINY_BOND},
                                             .level = 0,
@@ -3916,7 +3916,7 @@ static const struct TrHillFloor sDataTagUnique_Floors[] = {
                                             .spDefenseIV = 31,
                                             .abilityNum = 0,
                                             .personality = 0x84,
-                                            .nickname = _("Wynaut"),
+                                            .nickname = _("Babinion"),
                                             .friendship = 50,
                                         },
                                     [5] =

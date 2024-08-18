@@ -8735,7 +8735,7 @@ static const u8 sAbsolTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sWynautTutorLearnset[] =
+static const u8 sBabinionTutorLearnset[] =
 {
     TUTOR(MOVE_COUNTER),
     0xFF,
@@ -9523,7 +9523,7 @@ static const u8 sInfernapeTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sPiplupTutorLearnset[] =
+static const u8 sOroflowTutorLearnset[] =
 {
     TUTOR(MOVE_SUBSTITUTE),
     TUTOR(MOVE_SNORE),
@@ -9539,7 +9539,7 @@ static const u8 sPiplupTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sPrinplupTutorLearnset[] =
+static const u8 sOrocastTutorLearnset[] =
 {
     TUTOR(MOVE_SUBSTITUTE),
     TUTOR(MOVE_SNORE),
@@ -9557,7 +9557,7 @@ static const u8 sPrinplupTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sEmpoleonTutorLearnset[] =
+static const u8 sOrrowhelmTutorLearnset[] =
 {
     TUTOR(MOVE_SWORDS_DANCE),
     TUTOR(MOVE_ROCK_SLIDE),
@@ -10423,7 +10423,7 @@ static const u8 sMimeJrTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sHappinyTutorLearnset[] =
+static const u8 sHangingyTutorLearnset[] =
 {
     TUTOR(MOVE_COUNTER),
     TUTOR(MOVE_SEISMIC_TOSS),
@@ -10464,7 +10464,7 @@ static const u8 sChatotTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sSpiritombTutorLearnset[] =
+static const u8 sChancerTutorLearnset[] =
 {
     TUTOR(MOVE_DREAM_EATER),
     TUTOR(MOVE_SUBSTITUTE),
@@ -20081,7 +20081,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_TROPIUS] = sTropiusTutorLearnset,
     [SPECIES_CHIMECHO] = sChimechoTutorLearnset,
     [SPECIES_ABSOL] = sAbsolTutorLearnset,
-    [SPECIES_WYNAUT] = sWynautTutorLearnset,
+    [SPECIES_BABINION] = sBabinionTutorLearnset,
     [SPECIES_CHAIROLD] = sChairoldTutorLearnset,
     [SPECIES_ELECHAIR] = sElechairTutorLearnset,
     [SPECIES_PIRAGHOUL] = sPiraghoulTutorLearnset,
@@ -20114,9 +20114,9 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_CHIMCHAR] = sChimcharTutorLearnset,
     [SPECIES_MONFERNO] = sMonfernoTutorLearnset,
     [SPECIES_INFERNAPE] = sInfernapeTutorLearnset,
-    [SPECIES_PIPLUP] = sPiplupTutorLearnset,
-    [SPECIES_PRINPLUP] = sPrinplupTutorLearnset,
-    [SPECIES_EMPOLEON] = sEmpoleonTutorLearnset,
+    [SPECIES_OROFLOW] = sOroflowTutorLearnset,
+    [SPECIES_OROCAST] = sOrocastTutorLearnset,
+    [SPECIES_ORROWHELM] = sOrrowhelmTutorLearnset,
     [SPECIES_STARLY] = sStarlyTutorLearnset,
     [SPECIES_STARAVIA] = sStaraviaTutorLearnset,
     [SPECIES_STARAPTOR] = sStaraptorTutorLearnset,
@@ -20161,9 +20161,9 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_BRONZONG] = sBronzongTutorLearnset,
     [SPECIES_BONSLY] = sBonslyTutorLearnset,
     [SPECIES_MIMEJR] = sMimeJrTutorLearnset,
-    [SPECIES_HAPPINY] = sHappinyTutorLearnset,
+    [SPECIES_HANGINGY] = sHangingyTutorLearnset,
     [SPECIES_CHATOT] = sChatotTutorLearnset,
-    [SPECIES_SPIRITOMB] = sSpiritombTutorLearnset,
+    [SPECIES_CHANCER] = sChancerTutorLearnset,
     [SPECIES_GIBLE] = sGibleTutorLearnset,
     [SPECIES_GABITE] = sGabiteTutorLearnset,
     [SPECIES_GARCHOMP] = sGarchompTutorLearnset,

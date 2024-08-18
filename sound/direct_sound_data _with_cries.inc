@@ -1823,8 +1823,8 @@ Cry_Absol::
 	.incbin "sound/direct_sound_samples/cries/cry_absol.bin"
 
 	.align 2
-Cry_Wynaut::
-	.incbin "sound/direct_sound_samples/cries/cry_wynaut.bin"
+Cry_Babinion::
+	.incbin "sound/direct_sound_samples/cries/cry_babinion.bin"
 
 	.align 2
 Cry_Chairold::
@@ -1955,16 +1955,16 @@ Cry_Infernape::
 	.incbin "sound/direct_sound_samples/cries/cry_not_infernape.bin"
 
 	.align 2
-Cry_Piplup::
-	.incbin "sound/direct_sound_samples/cries/cry_not_piplup.bin"
+Cry_Oroflow::
+	.incbin "sound/direct_sound_samples/cries/cry_not_oroflow.bin"
 
 	.align 2
-Cry_Prinplup::
-	.incbin "sound/direct_sound_samples/cries/cry_not_prinplup.bin"
+Cry_Orocast::
+	.incbin "sound/direct_sound_samples/cries/cry_not_orocast.bin"
 
 	.align 2
-Cry_Empoleon::
-	.incbin "sound/direct_sound_samples/cries/cry_not_empoleon.bin"
+Cry_Orrowhelm::
+	.incbin "sound/direct_sound_samples/cries/cry_not_orrowhelm.bin"
 
 	.align 2
 Cry_Starly::
@@ -2143,16 +2143,16 @@ Cry_Mimejr::
 	.incbin "sound/direct_sound_samples/cries/cry_not_mimejr.bin"
 
 	.align 2
-Cry_Happiny::
-	.incbin "sound/direct_sound_samples/cries/cry_not_happiny.bin"
+Cry_Hangingy::
+	.incbin "sound/direct_sound_samples/cries/cry_not_hangingy.bin"
 
 	.align 2
 Cry_Chatot::
 	.incbin "sound/direct_sound_samples/cries/cry_not_chatot.bin"
 
 	.align 2
-Cry_Spiritomb::
-	.incbin "sound/direct_sound_samples/cries/cry_not_spiritomb.bin"
+Cry_Chancer::
+	.incbin "sound/direct_sound_samples/cries/cry_not_chancer.bin"
 
 	.align 2
 Cry_Gible::

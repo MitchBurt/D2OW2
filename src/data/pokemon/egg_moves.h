@@ -2820,7 +2820,7 @@ const u16 gEggMoves[] = {
 		MOVE_QUICK_GUARD,
 		MOVE_POWER_UP_PUNCH),
 
-	egg_moves(PIPLUP,
+	egg_moves(OROFLOW,
 		MOVE_SUPERSONIC,
 		MOVE_HYDRO_PUMP,
 		MOVE_AGILITY,
@@ -3128,7 +3128,7 @@ const u16 gEggMoves[] = {
 		MOVE_PSYCHIC_TERRAIN,
 		MOVE_PSYCH_UP),
 
-	egg_moves(HAPPINY,
+	egg_moves(HANGINGY,
 		MOVE_WISH,
 		MOVE_SEISMIC_TOSS,
 		MOVE_PRESENT,
@@ -3157,7 +3157,7 @@ const u16 gEggMoves[] = {
 		MOVE_DEFOG,
 		MOVE_BOOMBURST),
 
-	egg_moves(SPIRITOMB,
+	egg_moves(CHANCER,
 		MOVE_SLUDGE_WAVE,
 		MOVE_DISABLE,
 		MOVE_SMOKESCREEN,

@@ -464,7 +464,7 @@ $(ROULETTEGFXDIR)/roulette_tilt.4bpp: $(ROULETTEGFXDIR)/blinky.4bpp \
 									  $(ROULETTEGFXDIR)/tailow.4bpp
 	@cat $^ >$@
 
-$(ROULETTEGFXDIR)/wheel_icons.4bpp: $(ROULETTEGFXDIR)/wynaut.4bpp \
+$(ROULETTEGFXDIR)/wheel_icons.4bpp: $(ROULETTEGFXDIR)/babinion.4bpp \
 									$(ROULETTEGFXDIR)/azurill.4bpp \
 									$(ROULETTEGFXDIR)/skitty.4bpp \
 									$(ROULETTEGFXDIR)/angbeast.4bpp

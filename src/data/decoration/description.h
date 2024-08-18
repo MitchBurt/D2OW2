@@ -408,8 +408,8 @@ const u8 DecorDesc_RATMAN_DOLL[] = _(
         "Ponlo en una mesa\n"
         "o tapete.");
 
-const u8 DecorDesc_WYNAUT_DOLL[] = _(
-    "Muñeco de Wynaut.\n"
+const u8 DecorDesc_BABINION_DOLL[] = _(
+    "Muñeco de Babinion.\n"
         "Ponlo en una mesa\n"
         "o tapete.");
 
@@ -984,8 +984,8 @@ const u8 DecorDesc_RATMAN_DOLL[] = _(
         "Place it on a mat\n"
         "or a desk.");
 
-const u8 DecorDesc_WYNAUT_DOLL[] = _(
-    "A Wynaut doll.\n"
+const u8 DecorDesc_BABINION_DOLL[] = _(
+    "A Babinion doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 

@@ -1680,7 +1680,7 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x86,
         .y_offset = 10,
     },
-    [SPECIES_WYNAUT] =
+    [SPECIES_BABINION] =
     {
         .size = 0x66,
         .y_offset = 11,
@@ -1970,17 +1970,17 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x88,
         .y_offset = 0,
     },
-    [SPECIES_PIPLUP] =
+    [SPECIES_OROFLOW] =
     {
         .size = 0x56,
         .y_offset = 10,
     },
-    [SPECIES_PRINPLUP] =
+    [SPECIES_OROCAST] =
     {
         .size = 0x67,
         .y_offset = 7,
     },
-    [SPECIES_EMPOLEON] =
+    [SPECIES_ORROWHELM] =
     {
         .size = 0x88,
         .y_offset = 0,
@@ -2205,7 +2205,7 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x88,
         .y_offset = 1,
     },
-    [SPECIES_HAPPINY] =
+    [SPECIES_HANGINGY] =
     {
         .size = 0x67,
         .y_offset = 9,
@@ -2215,7 +2215,7 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x66,
         .y_offset = 9,
     },
-    [SPECIES_SPIRITOMB] =
+    [SPECIES_CHANCER] =
     {
         .size = 0x87,
         .y_offset = 5,

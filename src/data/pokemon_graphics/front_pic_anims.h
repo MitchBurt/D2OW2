@@ -3944,7 +3944,7 @@ static const union AnimCmd sAnim_UNSC_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_WYNAUT_1[] =
+static const union AnimCmd sAnim_BABINION_1[] =
 {
     ANIMCMD_FRAME(0, 15),
     ANIMCMD_FRAME(1, 15),
@@ -4868,7 +4868,7 @@ static const union AnimCmd sAnim_INFERNAPE_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_PIPLUP_1[] =
+static const union AnimCmd sAnim_OROFLOW_1[] =
 {
     ANIMCMD_FRAME(0, 30),
     ANIMCMD_FRAME(1, 30),
@@ -4876,7 +4876,7 @@ static const union AnimCmd sAnim_PIPLUP_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_PRINPLUP_1[] =
+static const union AnimCmd sAnim_OROCAST_1[] =
 {
     ANIMCMD_FRAME(0, 30),
     ANIMCMD_FRAME(1, 30),
@@ -4884,7 +4884,7 @@ static const union AnimCmd sAnim_PRINPLUP_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_EMPOLEON_1[] =
+static const union AnimCmd sAnim_ORROWHELM_1[] =
 {
     ANIMCMD_FRAME(0, 30),
     ANIMCMD_FRAME(1, 30),
@@ -5275,7 +5275,7 @@ static const union AnimCmd sAnim_MIMEJR_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_HAPPINY_1[] =
+static const union AnimCmd sAnim_HANGINGY_1[] =
 {
     ANIMCMD_FRAME(0, 30),
     ANIMCMD_FRAME(1, 30),
@@ -5291,7 +5291,7 @@ static const union AnimCmd sAnim_CHATOT_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_SPIRITOMB_1[] =
+static const union AnimCmd sAnim_CHANCER_1[] =
 {
     ANIMCMD_FRAME(0, 5),
     ANIMCMD_FRAME(1, 60),
@@ -10874,9 +10874,9 @@ static const union AnimCmd *const sAnims_UNSC[] ={
     sAnim_UNSC_2,
 };
 
-static const union AnimCmd *const sAnims_WYNAUT[] ={
+static const union AnimCmd *const sAnims_BABINION[] ={
     sAnim_GeneralFrame0,
-    sAnim_WYNAUT_1,
+    sAnim_BABINION_1,
 };
 
 static const union AnimCmd *const sAnims_RATMAN[] ={
@@ -11328,19 +11328,19 @@ static const union AnimCmd *const sAnims_INFERNAPE[] ={
     sAnim_INFERNAPE_1,
 };
 
-static const union AnimCmd *const sAnims_PIPLUP[] ={
+static const union AnimCmd *const sAnims_OROFLOW[] ={
     sAnim_GeneralFrame0,
-    sAnim_PIPLUP_1,
+    sAnim_OROFLOW_1,
 };
 
-static const union AnimCmd *const sAnims_PRINPLUP[] ={
+static const union AnimCmd *const sAnims_OROCAST[] ={
     sAnim_GeneralFrame0,
-    sAnim_PRINPLUP_1,
+    sAnim_OROCAST_1,
 };
 
-static const union AnimCmd *const sAnims_EMPOLEON[] ={
+static const union AnimCmd *const sAnims_ORROWHELM[] ={
     sAnim_GeneralFrame0,
-    sAnim_EMPOLEON_1,
+    sAnim_ORROWHELM_1,
 };
 
 static const union AnimCmd *const sAnims_STARLY[] ={
@@ -11564,9 +11564,9 @@ static const union AnimCmd *const sAnims_MIMEJR[] ={
     sAnim_MIMEJR_1,
 };
 
-static const union AnimCmd *const sAnims_HAPPINY[] ={
+static const union AnimCmd *const sAnims_HANGINGY[] ={
     sAnim_GeneralFrame0,
-    sAnim_HAPPINY_1,
+    sAnim_HANGINGY_1,
 };
 
 static const union AnimCmd *const sAnims_CHATOT[] ={
@@ -11574,9 +11574,9 @@ static const union AnimCmd *const sAnims_CHATOT[] ={
     sAnim_CHATOT_1,
 };
 
-static const union AnimCmd *const sAnims_SPIRITOMB[] ={
+static const union AnimCmd *const sAnims_CHANCER[] ={
     sAnim_GeneralFrame0,
-    sAnim_SPIRITOMB_1,
+    sAnim_CHANCER_1,
 };
 
 static const union AnimCmd *const sAnims_GIBLE[] ={
@@ -14773,7 +14773,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(LONKEST),
     ANIM_CMD(ARMYDRONE),
     ANIM_CMD(UNSC),
-    ANIM_CMD(WYNAUT),
+    ANIM_CMD(BABINION),
     ANIM_CMD(RATMAN),
     ANIM_CMD(HUGEMAN),
     ANIM_CMD(ALIEON),
@@ -14831,9 +14831,9 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(CHIMCHAR),
     ANIM_CMD(MONFERNO),
     ANIM_CMD(INFERNAPE),
-    ANIM_CMD(PIPLUP),
-    ANIM_CMD(PRINPLUP),
-    ANIM_CMD(EMPOLEON),
+    ANIM_CMD(OROFLOW),
+    ANIM_CMD(OROCAST),
+    ANIM_CMD(ORROWHELM),
     ANIM_CMD(STARLY),
     ANIM_CMD(STARAVIA),
     ANIM_CMD(STARAPTOR),
@@ -14878,9 +14878,9 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(BRONZONG),
     ANIM_CMD(BONSLY),
     ANIM_CMD(MIMEJR),
-    ANIM_CMD(HAPPINY),
+    ANIM_CMD(HANGINGY),
     ANIM_CMD(CHATOT),
-    ANIM_CMD(SPIRITOMB),
+    ANIM_CMD(CHANCER),
     ANIM_CMD(GIBLE),
     ANIM_CMD(GABITE),
     ANIM_CMD(GARCHOMP),

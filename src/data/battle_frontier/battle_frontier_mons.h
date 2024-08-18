@@ -280,7 +280,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_JOLLY,
         .abilitynum = 2
     },
-    [FRONTIER_MON_WYNAUT] = {
+    [FRONTIER_MON_BABINION] = {
         .species = SPECIES_FIRANT,//TO MOVE
         .moves = {MOVE_ENCORE, MOVE_COUNTER, MOVE_MIRROR_COAT, MOVE_DESTINY_BOND},
         .itemTableId = BATTLE_FRONTIER_ITEM_QUICK_CLAW,

@@ -12733,7 +12733,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_SPIRITOMB] =
+    [SPECIES_CHANCER] =
     {
         .move = MOVE_HEX,
         .modification = SIGNATURE_MOD_SECONDARY_EFFECT,

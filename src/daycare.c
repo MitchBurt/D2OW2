@@ -806,7 +806,7 @@ static void AlterEggSpeciesWithIncenseItem(u16 *species, struct DayCare *daycare
     motherItem = GetBoxMonData(&daycare->mons[0].mon, MON_DATA_HELD_ITEM);
     fatherItem = GetBoxMonData(&daycare->mons[1].mon, MON_DATA_HELD_ITEM);
 
-    if (*species == SPECIES_WYNAUT && motherItem != ITEM_LAX_INCENSE && fatherItem != ITEM_LAX_INCENSE)
+    if (*species == SPECIES_BABINION && motherItem != ITEM_LAX_INCENSE && fatherItem != ITEM_LAX_INCENSE)
         *species = SPECIES_FIRANT;
     else if (*species == SPECIES_AZURILL && motherItem != ITEM_SEA_INCENSE && fatherItem != ITEM_SEA_INCENSE)
         *species = SPECIES_SEAKUSH;
@@ -814,8 +814,8 @@ static void AlterEggSpeciesWithIncenseItem(u16 *species, struct DayCare *daycare
         else if (*species == SPECIES_MUNCHLAX && motherItem != ITEM_FULL_INCENSE && fatherItem != ITEM_FULL_INCENSE)
             *species = SPECIES_SHEPEIRD;
     #endif
-    #ifdef SPECIES_HAPPINY
-        else if (*species == SPECIES_HAPPINY && motherItem != ITEM_LUCK_INCENSE && fatherItem != ITEM_LUCK_INCENSE)
+    #ifdef SPECIES_HANGINGY
+        else if (*species == SPECIES_HANGINGY && motherItem != ITEM_LUCK_INCENSE && fatherItem != ITEM_LUCK_INCENSE)
             *species = SPECIES_UNJOY;
     #endif
     #ifdef SPECIES_MIMEJR

@@ -4321,12 +4321,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_WYNAUT] =
+    [NATIONAL_DEX_BABINION] =
     {
         .categoryName = _("Radiante"),
         .height = 6,
         .weight = 140,
-        .description = gWynautPokedexText,
+        .description = gBabinionPokedexText,
         .pokemonScale = 484,
         .pokemonOffset = 19,
         .trainerScale = 256,
@@ -4717,36 +4717,36 @@ const struct PokedexEntry gPokedexEntries[] =
 		.trainerOffset = 0,
 	},
 
-	[NATIONAL_DEX_PIPLUP] =
+	[NATIONAL_DEX_OROFLOW] =
 	{
 		.categoryName = _("Penguin"),
 		.height = 4,
 		.weight = 52,
-		.description = gPiplupPokedexText,
+		.description = gOroflowPokedexText,
 		.pokemonScale = 356,
 		.pokemonOffset = 17,
 		.trainerScale = 256,
 		.trainerOffset = 0,
 	},
 
-	[NATIONAL_DEX_PRINPLUP] =
+	[NATIONAL_DEX_OROCAST] =
 	{
 		.categoryName = _("Penguin"),
 		.height = 8,
 		.weight = 230,
-		.description = gPrinplupPokedexText,
+		.description = gOrocastPokedexText,
 		.pokemonScale = 356,
 		.pokemonOffset = 17,
 		.trainerScale = 256,
 		.trainerOffset = 0,
 	},
 
-	[NATIONAL_DEX_EMPOLEON] =
+	[NATIONAL_DEX_ORROWHELM] =
 	{
 		.categoryName = _("Emperor"),
 		.height = 17,
 		.weight = 845,
-		.description = gEmpoleonPokedexText,
+		.description = gOrrowhelmPokedexText,
 		.pokemonScale = 356,
 		.pokemonOffset = 17,
 		.trainerScale = 256,
@@ -5281,12 +5281,12 @@ const struct PokedexEntry gPokedexEntries[] =
 		.trainerOffset = 0,
 	},
 
-	[NATIONAL_DEX_HAPPINY] =
+	[NATIONAL_DEX_HANGINGY] =
 	{
 		.categoryName = _("Playhouse"),
 		.height = 6,
 		.weight = 244,
-		.description = gHappinyPokedexText,
+		.description = gHangingyPokedexText,
 		.pokemonScale = 356,
 		.pokemonOffset = 17,
 		.trainerScale = 256,
@@ -5305,12 +5305,12 @@ const struct PokedexEntry gPokedexEntries[] =
 		.trainerOffset = 0,
 	},
 
-	[NATIONAL_DEX_SPIRITOMB] =
+	[NATIONAL_DEX_CHANCER] =
 	{
 		.categoryName = _("Forbidden"),
 		.height = 10,
 		.weight = 1080,
-		.description = gSpiritombPokedexText,
+		.description = gChancerPokedexText,
 		.pokemonScale = 356,
 		.pokemonOffset = 17,
 		.trainerScale = 256,
@@ -15111,12 +15111,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_WYNAUT] =
+    [NATIONAL_DEX_BABINION] =
     {
         .categoryName = _("Bright"),
         .height = 6,
         .weight = 140,
-        .description = gWynautPokedexText,
+        .description = gBabinionPokedexText,
         .pokemonScale = 484,
         .pokemonOffset = 19,
         .trainerScale = 256,
@@ -15507,36 +15507,36 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_PIPLUP] =
+    [NATIONAL_DEX_OROFLOW] =
     {
         .categoryName = _("Penguin"),
         .height = 4,
         .weight = 52,
-        .description = gPiplupPokedexText,
+        .description = gOroflowPokedexText,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_PRINPLUP] =
+    [NATIONAL_DEX_OROCAST] =
     {
         .categoryName = _("Penguin"),
         .height = 8,
         .weight = 230,
-        .description = gPrinplupPokedexText,
+        .description = gOrocastPokedexText,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_EMPOLEON] =
+    [NATIONAL_DEX_ORROWHELM] =
     {
         .categoryName = _("Emperor"),
         .height = 17,
         .weight = 845,
-        .description = gEmpoleonPokedexText,
+        .description = gOrrowhelmPokedexText,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -16071,12 +16071,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_HAPPINY] =
+    [NATIONAL_DEX_HANGINGY] =
     {
         .categoryName = _("Playhouse"),
         .height = 6,
         .weight = 244,
-        .description = gHappinyPokedexText,
+        .description = gHangingyPokedexText,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -16095,12 +16095,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_SPIRITOMB] =
+    [NATIONAL_DEX_CHANCER] =
     {
         .categoryName = _("Forbidden"),
         .height = 10,
         .weight = 1080,
-        .description = gSpiritombPokedexText,
+        .description = gChancerPokedexText,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,

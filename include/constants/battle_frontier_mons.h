@@ -36,7 +36,7 @@
 #define FRONTIER_MON_GAHNOMED       32
 #define FRONTIER_MON_EMELGY         33
 #define FRONTIER_MON_HANGSTER        34
-#define FRONTIER_MON_WYNAUT         35
+#define FRONTIER_MON_BABINION         35
 #define FRONTIER_MON_SKITTY         36
 #define FRONTIER_MON_BIRDAPP        37
 #define FRONTIER_MON_WORMADAMT       38
