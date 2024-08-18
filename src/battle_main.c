@@ -4349,7 +4349,7 @@ static void PlayerTryEvolution(void)
     if (gLeveledUpInBattle & gBitTable[LEFT_PKMN] && !gPlayerDoesNotWantToEvolveLeft)
     {
         gLeveledUpInBattle &= ~(gBitTable[LEFT_PKMN]); // Mask the bit
-        species = GetEvolutionTargetSpecies(&gPlayerParty[LEFT_PKMN], EVO_MODE_NORMAL, ITEM_NONE);
+        species = GetEvolutionTargetSpecies(&gPlayerParty[LEFT_PKMN], ITEM_NONE);
         if (species != SPECIES_NONE)
         {
             BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 0x10, RGB_BLACK);
@@ -4363,7 +4363,7 @@ static void PlayerTryEvolution(void)
     if (gBattleTypeFlags & BATTLE_TYPE_DOUBLE && gLeveledUpInBattle & gBitTable[RIGHT_PKMN] && !gPlayerDoesNotWantToEvolveRight)
     {
         gLeveledUpInBattle &= ~(gBitTable[RIGHT_PKMN]); // Mask the bit
-        species = GetEvolutionTargetSpecies(&gPlayerParty[RIGHT_PKMN], EVO_MODE_NORMAL, ITEM_NONE);
+        species = GetEvolutionTargetSpecies(&gPlayerParty[RIGHT_PKMN], ITEM_NONE);
         if (species != SPECIES_NONE)
         {
             BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 0x10, RGB_BLACK);
