@@ -8226,8 +8226,6 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
         if (moveType == TYPE_FIRE && gBaseStats[gBattleMons[battlerDef].species].flags & F_FOOD)
             MulModifier(&modifier, UQ_4_12(2));
         break;
-    }
-
     // field abilities
     if ((IsAbilityOnField(ABILITY_DARK_AURA) && moveType == TYPE_DARK)
         || (IsAbilityOnField(ABILITY_FAIRY_AURA) && moveType == TYPE_FAIRY))
