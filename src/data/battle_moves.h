@@ -60,7 +60,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     {
         .effect = EFFECT_MULTI_HIT,
         .power = 25,
-        .type = TYPE_FIGHTING,
+        .type = TYPE_COSMIC,
         .accuracy = 100,
         .pp = 15,
         .secondaryEffectChance = 0,
@@ -157,7 +157,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_VICE_GRIP] =
     {
         .effect = EFFECT_SPEED_DOWN_HIT,
-        .power = 60,
+        .power = 50,
         .type = TYPE_WATER,
         .accuracy = 100,
         .pp = 30,
@@ -221,8 +221,8 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_CUT] =
     {
         .effect = EFFECT_HIT,
-        .power = 70,
-        .type = TYPE_STEEL,
+        .power = 50,
+        .type = TYPE_CUT,
         .accuracy = 100,
         .pp = 20,
         .secondaryEffectChance = 0,
@@ -1090,7 +1090,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     {
         .effect = EFFECT_ATTACK_UP_HIT,
         .power = 80,
-        .type = TYPE_FIGHTING,
+        .type = TYPE_NORMAL,
         .accuracy = 100,
         .pp = 15,
         .secondaryEffectChance = 20,
@@ -1126,7 +1126,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
             .pp = 10,
         #endif
         .effect = EFFECT_ABSORB,
-        .power = 60,
+        .power = 50,
         .type = TYPE_GRASS,
         .accuracy = 100,
         .secondaryEffectChance = 0,
@@ -3613,7 +3613,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_METAL_CLAW] =
     {
         .effect = EFFECT_ATTACK_UP_HIT,
-        .power = 60,
+        .power = 50,
         .type = TYPE_STEEL,
         .accuracy = 95,
         .pp = 35,
@@ -5038,7 +5038,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_SHADOW_PUNCH] =
     {
         .effect = EFFECT_HIT,
-        .power = 80,
+        .power = 75,
         .type = TYPE_GHOST,
         .accuracy = 0,
         .pp = 20,
