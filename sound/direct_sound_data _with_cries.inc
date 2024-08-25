@@ -1583,16 +1583,16 @@ Cry_Scatrush::
 	.incbin "sound/direct_sound_samples/cries/cry_Scatrush.bin"
 
 	.align 2
-Cry_Skitty::
-	.incbin "sound/direct_sound_samples/cries/cry_skitty.bin"
+Cry_Smoslime::
+	.incbin "sound/direct_sound_samples/cries/cry_smoslime.bin"
 
 	.align 2
 Cry_Nyancat::
 	.incbin "sound/direct_sound_samples/cries/cry_nyancat.bin"
 
 	.align 2
-Cry_Sableye::
-	.incbin "sound/direct_sound_samples/cries/cry_sableye.bin"
+Cry_Secritler::
+	.incbin "sound/direct_sound_samples/cries/cry_secritler.bin"
 
 	.align 2
 Cry_Minitron::
@@ -1815,8 +1815,8 @@ Cry_Tropius::
 	.incbin "sound/direct_sound_samples/cries/cry_tropius.bin"
 
 	.align 2
-Cry_Chimecho::
-	.incbin "sound/direct_sound_samples/cries/cry_chimecho.bin"
+Cry_Kirbairde::
+	.incbin "sound/direct_sound_samples/cries/cry_kirbairde.bin"
 
 	.align 2
 Cry_Absol::
@@ -1943,16 +1943,16 @@ Cry_Torterra::
 	.incbin "sound/direct_sound_samples/cries/cry_not_torterra.bin"
 
 	.align 2
-Cry_Chimchar::
-	.incbin "sound/direct_sound_samples/cries/cry_not_chimchar.bin"
+Cry_Embob::
+	.incbin "sound/direct_sound_samples/cries/cry_not_embob.bin"
 
 	.align 2
-Cry_Monferno::
-	.incbin "sound/direct_sound_samples/cries/cry_not_monferno.bin"
+Cry_Coalgar::
+	.incbin "sound/direct_sound_samples/cries/cry_not_coalgar.bin"
 
 	.align 2
-Cry_Infernape::
-	.incbin "sound/direct_sound_samples/cries/cry_not_infernape.bin"
+Cry_Bobistic::
+	.incbin "sound/direct_sound_samples/cries/cry_not_bobistic.bin"
 
 	.align 2
 Cry_Oroflow::
@@ -1979,12 +1979,12 @@ Cry_Staraptor::
 	.incbin "sound/direct_sound_samples/cries/cry_not_staraptor.bin"
 
 	.align 2
-Cry_Bidoof::
-	.incbin "sound/direct_sound_samples/cries/cry_not_bidoof.bin"
+Cry_Xdik::
+	.incbin "sound/direct_sound_samples/cries/cry_not_xdik.bin"
 
 	.align 2
-Cry_Bibarel::
-	.incbin "sound/direct_sound_samples/cries/cry_not_bibarel.bin"
+Cry_Xdemon::
+	.incbin "sound/direct_sound_samples/cries/cry_not_xdemon.bin"
 
 	.align 2
 Cry_Kricketot::
@@ -2007,8 +2007,8 @@ Cry_Luxray::
 	.incbin "sound/direct_sound_samples/cries/cry_not_luxray.bin"
 
 	.align 2
-Cry_Budew::
-	.incbin "sound/direct_sound_samples/cries/cry_not_budew.bin"
+Cry_Banana::
+	.incbin "sound/direct_sound_samples/cries/cry_not_banana.bin"
 
 	.align 2
 Cry_Roserade::
@@ -2055,28 +2055,28 @@ Cry_Pachirisu::
 	.incbin "sound/direct_sound_samples/cries/cry_not_pachirisu.bin"
 
 	.align 2
-Cry_Buizel::
-	.incbin "sound/direct_sound_samples/cries/cry_not_buizel.bin"
+Cry_Squigga::
+	.incbin "sound/direct_sound_samples/cries/cry_not_squigga.bin"
 
 	.align 2
-Cry_Floatzel::
-	.incbin "sound/direct_sound_samples/cries/cry_not_floatzel.bin"
+Cry_Squiggro::
+	.incbin "sound/direct_sound_samples/cries/cry_not_squiggro.bin"
 
 	.align 2
-Cry_Cherubi::
-	.incbin "sound/direct_sound_samples/cries/cry_not_cherubi.bin"
+Cry_Bushizard::
+	.incbin "sound/direct_sound_samples/cries/cry_not_bushizard.bin"
 
 	.align 2
-Cry_Cherrim::
-	.incbin "sound/direct_sound_samples/cries/cry_not_cherrim.bin"
+Cry_Notyuhdad::
+	.incbin "sound/direct_sound_samples/cries/cry_not_notyuhdad.bin"
 
 	.align 2
-Cry_Shellos::
-	.incbin "sound/direct_sound_samples/cries/cry_not_shellos.bin"
+Cry_Choccudle::
+	.incbin "sound/direct_sound_samples/cries/cry_not_choccudle.bin"
 
 	.align 2
-Cry_Gastrodon::
-	.incbin "sound/direct_sound_samples/cries/cry_not_gastrodon.bin"
+Cry_Choctic::
+	.incbin "sound/direct_sound_samples/cries/cry_not_choctic.bin"
 
 	.align 2
 Cry_Ambipom::
@@ -2179,8 +2179,8 @@ Cry_Lucario::
 	.incbin "sound/direct_sound_samples/cries/cry_not_lucario.bin"
 
 	.align 2
-Cry_Hippopotas::
-	.incbin "sound/direct_sound_samples/cries/cry_not_hippopotas.bin"
+Cry_Journemap::
+	.incbin "sound/direct_sound_samples/cries/cry_not_journemap.bin"
 
 	.align 2
 Cry_Hippowdon::
@@ -4079,8 +4079,8 @@ Cry_Thatsfurry_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_thatsfurry.bin"
 
 	.align 2
-Cry_Sableye_Mega::
-	.incbin "sound/direct_sound_samples/cries/cry_sableye.bin"
+Cry_Secritler_Mega::
+	.incbin "sound/direct_sound_samples/cries/cry_secritler.bin"
 
 	.align 2
 Cry_Minitron_Mega::

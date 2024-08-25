@@ -202,7 +202,7 @@ const u8 DecorDesc_ROUND_TV[] = _(
 
 const u8 DecorDesc_CUTE_TV[] = _(
     "Tele de juguete con\n"
-        "forma de Skitty.");
+        "forma de Smoslime.");
 
 const u8 DecorDesc_GLITTER_MAT[] = _(
     "Tapete viejo que\n"
@@ -428,8 +428,8 @@ const u8 DecorDesc_AZURILL_DOLL[] = _(
         "Ponlo en una mesa\n"
         "o tapete.");
 
-const u8 DecorDesc_SKITTY_DOLL[] = _(
-    "Muñeco de Skitty.\n"
+const u8 DecorDesc_SMOSLIME_DOLL[] = _(
+    "Muñeco de Smoslime.\n"
         "Ponlo en una mesa\n"
         "o tapete.");
 
@@ -479,7 +479,7 @@ const u8 DecorDesc_SPIN_CUSHION[] = _(
         "o tapete.");
 
 const u8 DecorDesc_DIAMOND_CUSHION[] = _(
-    "Cojín de Sableye.\n"
+    "Cojín de Secritler.\n"
         "Ponlo en una mesa\n"
         "o tapete.");
 
@@ -770,7 +770,7 @@ const u8 DecorDesc_ROUND_TV[] = _(
 const u8 DecorDesc_CUTE_TV[] = _(
     "A toy TV modeled\n"
         "in the image of a\n"
-        "Skitty.");
+        "Smoslime.");
 
 const u8 DecorDesc_GLITTER_MAT[] = _(
     "An odd mat that\n"
@@ -1004,8 +1004,8 @@ const u8 DecorDesc_AZURILL_DOLL[] = _(
         "Place it on a mat\n"
         "or a desk.");
 
-const u8 DecorDesc_SKITTY_DOLL[] = _(
-    "A Skitty doll.\n"
+const u8 DecorDesc_SMOSLIME_DOLL[] = _(
+    "A Smoslime doll.\n"
         "Place it on a mat\n"
         "or a desk.");
 
@@ -1055,7 +1055,7 @@ const u8 DecorDesc_SPIN_CUSHION[] = _(
         "or a desk.");
 
 const u8 DecorDesc_DIAMOND_CUSHION[] = _(
-    "A Sableye cushion.\n"
+    "A Secritler cushion.\n"
         "Place it on a mat\n"
         "or a desk.");
 

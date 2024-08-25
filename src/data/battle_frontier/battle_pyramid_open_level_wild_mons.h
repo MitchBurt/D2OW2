@@ -215,7 +215,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round5[] =
         .moves = {MOVE_NIGHT_SHADE, MOVE_THUNDERBOLT, MOVE_SLUDGE_BOMB, MOVE_NONE}
     },
     {
-        .species = SPECIES_CHIMECHO,
+        .species = SPECIES_KIRBAIRDE,
         .lvl = 10,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_DOUBLE_EDGE, MOVE_TOXIC, MOVE_PSYCHIC, MOVE_PROTECT}
@@ -677,7 +677,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round13[] =
 static const struct PyramidWildMon sOpenLevelWildMons_Round14[] =
 {
     {
-        .species = SPECIES_SABLEYE,
+        .species = SPECIES_SECRITLER,
         .lvl = 10,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_NIGHT_SHADE, MOVE_PSYCHIC, MOVE_AERIAL_ACE, MOVE_NONE}
@@ -805,7 +805,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round16[] =
         .moves = {MOVE_PERISH_SONG, MOVE_SPITE, MOVE_MEAN_LOOK, MOVE_NONE}
     },
     {
-        .species = SPECIES_SABLEYE,
+        .species = SPECIES_SECRITLER,
         .lvl = 6,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_SHADOW_BALL, MOVE_MEAN_LOOK, MOVE_DIG, MOVE_NIGHT_SHADE}

@@ -1236,7 +1236,7 @@ static const struct TrHillFloor sDataTagNormal_Floors[] =
                 {
                     [0] =
                     {
-                        .species = SPECIES_SKITTY,
+                        .species = SPECIES_SMOSLIME,
                         .heldItem = ITEM_FOCUS_BAND,
                         .moves = {MOVE_PSYCH_UP, MOVE_DOUBLE_EDGE, MOVE_SHADOW_BALL, MOVE_IRON_TAIL},
                         .level = 0,
@@ -1252,7 +1252,7 @@ static const struct TrHillFloor sDataTagNormal_Floors[] =
                         .spDefenseIV = 31,
                         .abilityNum = 0,
                         .personality = 0xCB,
-                        .nickname = _("Skitty"),
+                        .nickname = _("Smoslime"),
                         .friendship = 255,
                     },
                     [1] =
@@ -1897,7 +1897,7 @@ static const struct TrHillFloor sDataTagVariety_Floors[] = {
                                         },
                                     [1] =
                                         {
-                                            .species = SPECIES_SABLEYE,
+                                            .species = SPECIES_SECRITLER,
                                             .heldItem = ITEM_SILK_SCARF,
                                             .moves = {MOVE_ASTONISH, MOVE_FAINT_ATTACK, MOVE_DETECT, MOVE_CONFUSE_RAY},
                                             .level = 0,
@@ -1913,7 +1913,7 @@ static const struct TrHillFloor sDataTagVariety_Floors[] = {
                                             .spDefenseIV = 5,
                                             .abilityNum = 0,
                                             .personality = 0x87,
-                                            .nickname = _("Sableye"),
+                                            .nickname = _("Secritler"),
                                             .friendship = 255,
                                         },
                                     [2] =
@@ -2210,7 +2210,7 @@ static const struct TrHillFloor sDataTagVariety_Floors[] = {
                                 {
                                     [0] =
                                         {
-                                            .species = SPECIES_CHIMECHO,
+                                            .species = SPECIES_KIRBAIRDE,
                                             .heldItem = ITEM_FOCUS_BAND,
                                             .moves = {MOVE_UPROAR, MOVE_ATTRACT, MOVE_NONE, MOVE_NONE},
                                             .level = 0,
@@ -2227,7 +2227,7 @@ static const struct TrHillFloor sDataTagVariety_Floors[] = {
                                             .spDefenseIV = 5,
                                             .abilityNum = 0,
                                             .personality = 0xD,
-                                            .nickname = _("Chimecho"),
+                                            .nickname = _("Kirbairde"),
                                             .friendship = 255,
                                         },
                                     [1] =

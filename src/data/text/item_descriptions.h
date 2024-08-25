@@ -2650,7 +2650,7 @@ static const u8 sIncredaleniteDesc[] = _(
 static const u8 sSableniteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Sableye.");
+    "Secritler.");
 
 static const u8 sUNSCniteDesc[] = _(
     "Piedra que permite\n"
@@ -5882,7 +5882,7 @@ static const u8 sIncredaleniteDesc[] = _(
 
 static const u8 sSableniteDesc[] = _(
     "This stone enables\n"
-    "Sableye to Mega\n"
+    "Secritler to Mega\n"
     "Evolve in battle.");
 
 static const u8 sUNSCniteDesc[] = _(

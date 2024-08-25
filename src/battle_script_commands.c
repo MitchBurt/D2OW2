@@ -1365,15 +1365,15 @@ static bool32 TryAegiFormChange(void)
 		else
 			return FALSE;
         break;
-	case SPECIES_CHERRIM:
+	case SPECIES_NOTYUHDAD:
 		if(gBattleWeather & WEATHER_SUN_ANY)
-			gBattleMons[gBattlerAttacker].species = SPECIES_CHERRIM_SUNSHINE;
+			gBattleMons[gBattlerAttacker].species = SPECIES_NOTYUHDAD_SUNSHINE;
 		else
 			return FALSE;
         break;
-	case SPECIES_CHERRIM_SUNSHINE:
+	case SPECIES_NOTYUHDAD_SUNSHINE:
 		if(!(gBattleWeather & WEATHER_SUN_ANY))
-			gBattleMons[gBattlerAttacker].species = SPECIES_CHERRIM;
+			gBattleMons[gBattlerAttacker].species = SPECIES_NOTYUHDAD;
 		else
 			return FALSE;
 		break;
@@ -12290,7 +12290,7 @@ static void Cmd_pickup(void)
                     SetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, &heldItem);
                 }
             }
-			else if ((species == SPECIES_SABLEYE ||
+			else if ((species == SPECIES_SECRITLER ||
 				species == SPECIES_CARBINK		||
 				species == SPECIES_DIANCIE)
                 && heldItem == ITEM_NONE
@@ -12888,7 +12888,7 @@ static void Cmd_givecaughtmon(void)
         case SPECIES_GOURMASTER_MEGA:
         case SPECIES_BAITANK_MEGA:
         case SPECIES_THATSFURRY_MEGA:
-        case SPECIES_SABLEYE_MEGA:
+        case SPECIES_SECRITLER_MEGA:
         case SPECIES_MINITRON_MEGA:
         case SPECIES_MURPHIRE_MEGA:
         case SPECIES_LONKEST_MEGA:
@@ -12919,8 +12919,8 @@ static void Cmd_givecaughtmon(void)
             newSpeciesID = SPECIES_WISHIWASHI;
             SetMonData(&gEnemyParty[gBattlerPartyIndexes[GetCatchingBattler()]], MON_DATA_SPECIES, &newSpeciesID);
         break;
-        case SPECIES_CHERRIM_SUNSHINE:
-            newSpeciesID = SPECIES_CHERRIM;
+        case SPECIES_NOTYUHDAD_SUNSHINE:
+            newSpeciesID = SPECIES_NOTYUHDAD;
             SetMonData(&gEnemyParty[gBattlerPartyIndexes[GetCatchingBattler()]], MON_DATA_SPECIES, &newSpeciesID);
         break;
         case SPECIES_AEGISLASH_BLADE:

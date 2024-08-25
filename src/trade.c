@@ -4841,21 +4841,21 @@ u16 getWonderTradePokemonFormID(u16 species)
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_SHELLOS:
+		case SPECIES_CHOCCUDLE:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_SHELLOS,
-					SPECIES_SHELLOS_EAST_SEA,
+					SPECIES_CHOCCUDLE,
+					SPECIES_CHOCCUDLE_EAST_SEA,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_GASTRODON:
+		case SPECIES_CHOCTIC:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_GASTRODON,
-					SPECIES_GASTRODON_EAST_SEA,
+					SPECIES_CHOCTIC,
+					SPECIES_CHOCTIC_EAST_SEA,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];

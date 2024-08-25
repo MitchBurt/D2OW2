@@ -1115,7 +1115,7 @@ static const u16 sIngameTradeMail[][MAIL_WORDS_COUNT + 1] =
     }, {
         EC_WORD_THANK_YOU,
         EC_WORD_FOR,
-        EC_POKEMON(SKITTY),
+        EC_POKEMON(SMOSLIME),
         EC_POKEMON2(GARFEL),
         EC_WORD_CRIES,
         EC_WORD_IN,

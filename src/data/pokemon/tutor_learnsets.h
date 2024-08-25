@@ -7218,7 +7218,7 @@ static const u8 sScatrushTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sSkittyTutorLearnset[] =
+static const u8 sSmoslimeTutorLearnset[] =
 {
     TUTOR(MOVE_BODY_SLAM),
     TUTOR(MOVE_DOUBLE_EDGE),
@@ -7269,7 +7269,7 @@ static const u8 sNyancatTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sSableyeTutorLearnset[] =
+static const u8 sSecritlerTutorLearnset[] =
 {
     TUTOR(MOVE_MEGA_KICK),
     TUTOR(MOVE_BODY_SLAM),
@@ -8679,7 +8679,7 @@ static const u8 sTropiusTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sChimechoTutorLearnset[] =
+static const u8 sKirbairdeTutorLearnset[] =
 {
     TUTOR(MOVE_DOUBLE_EDGE),
     TUTOR(MOVE_MIMIC),
@@ -9454,7 +9454,7 @@ static const u8 sTorterraTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sChimcharTutorLearnset[] =
+static const u8 sEmbobTutorLearnset[] =
 {
     TUTOR(MOVE_SWORDS_DANCE),
     TUTOR(MOVE_COUNTER),
@@ -9475,7 +9475,7 @@ static const u8 sChimcharTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sMonfernoTutorLearnset[] =
+static const u8 sCoalgarTutorLearnset[] =
 {
     TUTOR(MOVE_SWORDS_DANCE),
     TUTOR(MOVE_COUNTER),
@@ -9498,7 +9498,7 @@ static const u8 sMonfernoTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sInfernapeTutorLearnset[] =
+static const u8 sBobisticTutorLearnset[] =
 {
     TUTOR(MOVE_SWORDS_DANCE),
     TUTOR(MOVE_COUNTER),
@@ -9629,7 +9629,7 @@ static const u8 sStaraptorTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sBidoofTutorLearnset[] =
+static const u8 sXdikTutorLearnset[] =
 {
     TUTOR(MOVE_SWORDS_DANCE),
     TUTOR(MOVE_DOUBLE_EDGE),
@@ -9651,7 +9651,7 @@ static const u8 sBidoofTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sBibarelTutorLearnset[] =
+static const u8 sXdemonTutorLearnset[] =
 {
     TUTOR(MOVE_SWORDS_DANCE),
     TUTOR(MOVE_DOUBLE_EDGE),
@@ -9767,7 +9767,7 @@ static const u8 sLuxrayTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sBudewTutorLearnset[] =
+static const u8 sBananaTutorLearnset[] =
 {
     TUTOR(MOVE_SWORDS_DANCE),
     TUTOR(MOVE_SUBSTITUTE),
@@ -9973,7 +9973,7 @@ static const u8 sPachirisuTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sBuizelTutorLearnset[] =
+static const u8 sSquiggaTutorLearnset[] =
 {
     TUTOR(MOVE_SUBSTITUTE),
     TUTOR(MOVE_SNORE),
@@ -9991,7 +9991,7 @@ static const u8 sBuizelTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sFloatzelTutorLearnset[] =
+static const u8 sSquiggroTutorLearnset[] =
 {
     TUTOR(MOVE_SUBSTITUTE),
     TUTOR(MOVE_SNORE),
@@ -10010,7 +10010,7 @@ static const u8 sFloatzelTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sCherubiTutorLearnset[] =
+static const u8 sBushizardTutorLearnset[] =
 {
     TUTOR(MOVE_SWORDS_DANCE),
     TUTOR(MOVE_SUBSTITUTE),
@@ -10026,7 +10026,7 @@ static const u8 sCherubiTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sCherrimTutorLearnset[] =
+static const u8 sNotyuhdadTutorLearnset[] =
 {
     TUTOR(MOVE_SWORDS_DANCE),
     TUTOR(MOVE_SUBSTITUTE),
@@ -10042,7 +10042,7 @@ static const u8 sCherrimTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sShellosTutorLearnset[] =
+static const u8 sChoccudleTutorLearnset[] =
 {
     TUTOR(MOVE_BODY_SLAM),
     TUTOR(MOVE_COUNTER),
@@ -10058,7 +10058,7 @@ static const u8 sShellosTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sGastrodonTutorLearnset[] =
+static const u8 sChocticTutorLearnset[] =
 {
     TUTOR(MOVE_BODY_SLAM),
     TUTOR(MOVE_COUNTER),
@@ -10630,7 +10630,7 @@ static const u8 sLucarioTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sHippopotasTutorLearnset[] =
+static const u8 sJournemapTutorLearnset[] =
 {
     TUTOR(MOVE_BODY_SLAM),
     TUTOR(MOVE_DOUBLE_EDGE),
@@ -20021,9 +20021,9 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_GANGBEATS] = sGangbeatsTutorLearnset,
     [SPECIES_AZURILL] = sAzurillTutorLearnset,
     [SPECIES_SCATRUSH] = sScatrushTutorLearnset,
-    [SPECIES_SKITTY] = sSkittyTutorLearnset,
+    [SPECIES_SMOSLIME] = sSmoslimeTutorLearnset,
     [SPECIES_NYANCAT] = sNyancatTutorLearnset,
-    [SPECIES_SABLEYE] = sSableyeTutorLearnset,
+    [SPECIES_SECRITLER] = sSecritlerTutorLearnset,
     [SPECIES_MINITRON] = sMinitronTutorLearnset,
     [SPECIES_ARON] = sAronTutorLearnset,
     [SPECIES_GALVATRON] = sGalvatronTutorLearnset,
@@ -20079,7 +20079,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_RATMAN] = sRatmanTutorLearnset,
     [SPECIES_HUGEMAN] = sHugemanTutorLearnset,
     [SPECIES_TROPIUS] = sTropiusTutorLearnset,
-    [SPECIES_CHIMECHO] = sChimechoTutorLearnset,
+    [SPECIES_KIRBAIRDE] = sKirbairdeTutorLearnset,
     [SPECIES_ABSOL] = sAbsolTutorLearnset,
     [SPECIES_BABINION] = sBabinionTutorLearnset,
     [SPECIES_CHAIROLD] = sChairoldTutorLearnset,
@@ -20111,23 +20111,23 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_TURTWIG] = sTurtwigTutorLearnset,
     [SPECIES_GROTLE] = sGrotleTutorLearnset,
     [SPECIES_TORTERRA] = sTorterraTutorLearnset,
-    [SPECIES_CHIMCHAR] = sChimcharTutorLearnset,
-    [SPECIES_MONFERNO] = sMonfernoTutorLearnset,
-    [SPECIES_INFERNAPE] = sInfernapeTutorLearnset,
+    [SPECIES_EMBOB] = sEmbobTutorLearnset,
+    [SPECIES_COALGAR] = sCoalgarTutorLearnset,
+    [SPECIES_BOBISTIC] = sBobisticTutorLearnset,
     [SPECIES_OROFLOW] = sOroflowTutorLearnset,
     [SPECIES_OROCAST] = sOrocastTutorLearnset,
     [SPECIES_ORROWHELM] = sOrrowhelmTutorLearnset,
     [SPECIES_STARLY] = sStarlyTutorLearnset,
     [SPECIES_STARAVIA] = sStaraviaTutorLearnset,
     [SPECIES_STARAPTOR] = sStaraptorTutorLearnset,
-    [SPECIES_BIDOOF] = sBidoofTutorLearnset,
-    [SPECIES_BIBAREL] = sBibarelTutorLearnset,
+    [SPECIES_XDIK] = sXdikTutorLearnset,
+    [SPECIES_XDEMON] = sXdemonTutorLearnset,
     [SPECIES_KRICKETOT] = sKricketotTutorLearnset,
     [SPECIES_KRICKETUNE] = sKricketuneTutorLearnset,
     [SPECIES_SHINX] = sShinxTutorLearnset,
     [SPECIES_LUXIO] = sLuxioTutorLearnset,
     [SPECIES_LUXRAY] = sLuxrayTutorLearnset,
-    [SPECIES_BUDEW] = sBudewTutorLearnset,
+    [SPECIES_BANANA] = sBananaTutorLearnset,
     [SPECIES_ROSERADE] = sRoseradeTutorLearnset,
     [SPECIES_CRANIDOS] = sCranidosTutorLearnset,
     [SPECIES_RAMPARDOS] = sRampardosTutorLearnset,
@@ -20139,12 +20139,12 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_COMBEE] = sCombeeTutorLearnset,
     [SPECIES_VESPIQUEN] = sVespiquenTutorLearnset,
     [SPECIES_PACHIRISU] = sPachirisuTutorLearnset,
-    [SPECIES_BUIZEL] = sBuizelTutorLearnset,
-    [SPECIES_FLOATZEL] = sFloatzelTutorLearnset,
-    [SPECIES_CHERUBI] = sCherubiTutorLearnset,
-    [SPECIES_CHERRIM] = sCherrimTutorLearnset,
-    [SPECIES_SHELLOS] = sShellosTutorLearnset,
-    [SPECIES_GASTRODON] = sGastrodonTutorLearnset,
+    [SPECIES_SQUIGGA] = sSquiggaTutorLearnset,
+    [SPECIES_SQUIGGRO] = sSquiggroTutorLearnset,
+    [SPECIES_BUSHIZARD] = sBushizardTutorLearnset,
+    [SPECIES_NOTYUHDAD] = sNotyuhdadTutorLearnset,
+    [SPECIES_CHOCCUDLE] = sChoccudleTutorLearnset,
+    [SPECIES_CHOCTIC] = sChocticTutorLearnset,
     [SPECIES_AMBIPOM] = sAmbipomTutorLearnset,
     [SPECIES_DRIFLOON] = sDrifloonTutorLearnset,
     [SPECIES_DRIFBLIM] = sDrifblimTutorLearnset,
@@ -20170,7 +20170,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_MUNCHLAX] = sMunchlaxTutorLearnset,
     [SPECIES_RIOLU] = sRioluTutorLearnset,
     [SPECIES_LUCARIO] = sLucarioTutorLearnset,
-    [SPECIES_HIPPOPOTAS] = sHippopotasTutorLearnset,
+    [SPECIES_JOURNEMAP] = sJournemapTutorLearnset,
     [SPECIES_HIPPOWDON] = sHippowdonTutorLearnset,
     [SPECIES_SKORUPI] = sSkorupiTutorLearnset,
     [SPECIES_DRAPION] = sDrapionTutorLearnset,

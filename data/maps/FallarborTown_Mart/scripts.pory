@@ -32,28 +32,28 @@ FallarborTown_Mart_Pokemart: @ 81FFCD8
 	end
 
 FallarborTown_Mart_EventScript_Woman:: @ 81FFCF4
-	msgbox FallarborTown_Mart_Text_DecidingSkittyEvolve, MSGBOX_NPC
+	msgbox FallarborTown_Mart_Text_DecidingSmoslimeEvolve, MSGBOX_NPC
 	end
 
 FallarborTown_Mart_EventScript_PokefanM:: @ 81FFCFD
 	msgbox FallarborTown_Mart_Text_SellNuggetIFound, MSGBOX_NPC
 	end
 
-FallarborTown_Mart_EventScript_Skitty:: @ 81FFD06
+FallarborTown_Mart_EventScript_Smoslime:: @ 81FFD06
 	lock
 	faceplayer
 	waitse
 	playmoncry SPECIES_NYANCAT, 0
-	msgbox FallarborTown_Mart_Text_Skitty, MSGBOX_DEFAULT
+	msgbox FallarborTown_Mart_Text_Smoslime, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
 
-FallarborTown_Mart_Text_DecidingSkittyEvolve: @ 81FFD19
-	.string "I recently evolved my Skitty into\n"
+FallarborTown_Mart_Text_DecidingSmoslimeEvolve: @ 81FFD19
+	.string "I recently evolved my Smoslime into\n"
 	.string "a Nyancat with a Moon Stone.$"
 
-FallarborTown_Mart_Text_Skitty: @ 81FFDFA
+FallarborTown_Mart_Text_Smoslime: @ 81FFDFA
 	.string "Nyancat: Miyao?$"
 
 FallarborTown_Mart_Text_SellNuggetIFound: @ 81FFE09

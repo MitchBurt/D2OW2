@@ -2490,7 +2490,7 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_ITRIMIDITE;
 		break;
-		case SPECIES_SABLEYE:
+		case SPECIES_SECRITLER:
 			if(canMega)
 				item = ITEM_SABLENITE;
 		break;

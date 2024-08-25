@@ -57,7 +57,7 @@ const u8 gEnemyMonElevation[NUM_SPECIES] =
     [SPECIES_LATIAS] = 12,
     [SPECIES_LATIOS] = 6,
     [SPECIES_JIRACHI] = 14,
-    [SPECIES_CHIMECHO] = 16,
+    [SPECIES_KIRBAIRDE] = 16,
     // Gen 4
     [SPECIES_MOTHIM] = 10,
     [SPECIES_COMBEE] = 8,

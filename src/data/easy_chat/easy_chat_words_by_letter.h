@@ -246,7 +246,7 @@ const u16 gEasyChatWordsByLetter_C[] = {
     EC_POKEMON2(TOM),
     EC_WORD_CHILD_S_PLAY,
     EC_WORD_CHILDREN,
-    EC_POKEMON(CHIMECHO),
+    EC_POKEMON(KIRBAIRDE),
     -1, 2, // Doubled pokemon species name
     EC_POKEMON(LOVLILAD),
     EC_POKEMON2(LOVLILAD),
@@ -1366,7 +1366,7 @@ const u16 gEasyChatWordsByLetter_R[] = {
 };
 
 const u16 gEasyChatWordsByLetter_S[] = {
-    EC_POKEMON(SABLEYE),
+    EC_POKEMON(SECRITLER),
     EC_MOVE(SACRED_FIRE),
     EC_WORD_SAD,
     EC_WORD_SADLY,
@@ -1474,7 +1474,7 @@ const u16 gEasyChatWordsByLetter_S[] = {
     EC_MOVE(SKILL_SWAP),
     EC_WORD_SKILLED,
     EC_POKEMON2(ANOOBIS),
-    EC_POKEMON(SKITTY),
+    EC_POKEMON(SMOSLIME),
     EC_MOVE2(SKULL_BASH),
     EC_MOVE(SKY_ATTACK),
     EC_MOVE(SKY_UPPERCUT),
@@ -2374,7 +2374,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseYa[] = {
     EC_POKEMON2(BASSHOP),
     EC_WORD_DANGER,
     EC_POKEMON2(GAHBLIN),
-    EC_POKEMON(SABLEYE),
+    EC_POKEMON(SECRITLER),
     EC_WORD_DEFEATED,
     EC_WORD_BEAT,
     EC_WORD_VITAL_SPIRIT,

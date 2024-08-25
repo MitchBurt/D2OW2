@@ -6,7 +6,7 @@
 static const u16 sContestLadyMonGfxId[] =
 {
     OBJ_EVENT_GFX_MEOWRRIOR_1,
-    OBJ_EVENT_GFX_SKITTY,
+    OBJ_EVENT_GFX_SMOSLIME,
     OBJ_EVENT_GFX_DUPLICAT,
     OBJ_EVENT_GFX_KECLEON_1,
     OBJ_EVENT_GFX_SKIPPA
@@ -462,7 +462,7 @@ static const u8 *const sContestNames[] =
 static const u16 sContestLadyMonSpecies[] =
 {
     SPECIES_MEOWRRIOR,
-    SPECIES_SKITTY,
+    SPECIES_SMOSLIME,
     SPECIES_DUPLICAT,
     SPECIES_KECLEON,
     SPECIES_SKIPPA

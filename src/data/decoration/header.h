@@ -865,14 +865,14 @@ const struct Decoration gDecorations[] = {
         DecorDesc_AZURILL_DOLL,
         DecorGfx_AZURILL_DOLL
     }, {
-        DECOR_SKITTY_DOLL,
-        _("Muñeco Skitty"),
+        DECOR_SMOSLIME_DOLL,
+        _("Muñeco Smoslime"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_DOLL,
         3000,
-        DecorDesc_SKITTY_DOLL,
-        DecorGfx_SKITTY_DOLL
+        DecorDesc_SMOSLIME_DOLL,
+        DecorGfx_SMOSLIME_DOLL
     }, {
         DECOR_ARMYDRONE_DOLL,
         _("Muñeco Armydrone"),
@@ -1955,14 +1955,14 @@ const struct Decoration gDecorations[] = {
         DecorDesc_AZURILL_DOLL,
         DecorGfx_AZURILL_DOLL
     }, {
-        DECOR_SKITTY_DOLL,
-        _("Skitty Doll"),
+        DECOR_SMOSLIME_DOLL,
+        _("Smoslime Doll"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x1,
         DECORCAT_DOLL,
         3000,
-        DecorDesc_SKITTY_DOLL,
-        DecorGfx_SKITTY_DOLL
+        DecorDesc_SMOSLIME_DOLL,
+        DecorGfx_SMOSLIME_DOLL
     }, {
         DECOR_ARMYDRONE_DOLL,
         _("Armydrone Doll"),

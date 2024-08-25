@@ -539,7 +539,7 @@ LilycoveCity_PokemonCenter_1F_EventScript_ContestLadyMon:: @ 82A89C7
     compare VAR_RESULT, CONTEST_CATEGORY_COOL
     goto_if_eq LilycoveCity_PokemonCenter_1F_EventScript_Meowrrior
     compare VAR_RESULT, CONTEST_CATEGORY_BEAUTY
-    goto_if_eq LilycoveCity_PokemonCenter_1F_EventScript_Skitty
+    goto_if_eq LilycoveCity_PokemonCenter_1F_EventScript_Smoslime
     compare VAR_RESULT, CONTEST_CATEGORY_CUTE
     goto_if_eq LilycoveCity_PokemonCenter_1F_EventScript_Duplicat
     compare VAR_RESULT, CONTEST_CATEGORY_SMART
@@ -558,12 +558,12 @@ LilycoveCity_PokemonCenter_1F_EventScript_Meowrrior:: @ 82A8A0A
     release
     end
 
-LilycoveCity_PokemonCenter_1F_EventScript_Skitty:: @ 82A8A1D
+LilycoveCity_PokemonCenter_1F_EventScript_Smoslime:: @ 82A8A1D
     lock
     faceplayer
     waitse
     playmoncry VAR_0x8005, 0
-    msgbox LilycoveCity_PokemonCenter_1F_Text_Skitty, MSGBOX_DEFAULT
+    msgbox LilycoveCity_PokemonCenter_1F_Text_Smoslime, MSGBOX_DEFAULT
     waitmoncry
     release
     end
@@ -855,5 +855,5 @@ LilycoveCity_PokemonCenter_1F_Text_Duplicat: @ 82A96F6
 LilycoveCity_PokemonCenter_1F_Text_Skippa: @ 82A9703
     .string "{STR_VAR_1}: Pikka!$"
 
-LilycoveCity_PokemonCenter_1F_Text_Skitty: @ 82A970E
+LilycoveCity_PokemonCenter_1F_Text_Smoslime: @ 82A970E
     .string "{STR_VAR_1}: Umyaaaan!$"

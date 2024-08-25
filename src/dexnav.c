@@ -1241,7 +1241,7 @@ static void CreateDexNavWildMon(u16 species, u8 potential, u8 level, u8 abilityN
 		species != SPECIES_AUDINO   &&
 		species != SPECIES_GARFEL   &&
 		species != SPECIES_GOREFIELD  &&
-		species != SPECIES_SKITTY   &&
+		species != SPECIES_SMOSLIME   &&
 		species != SPECIES_NYANCAT &&
 		species != SPECIES_HANGINGY  &&
 		species != SPECIES_UNJOY  &&

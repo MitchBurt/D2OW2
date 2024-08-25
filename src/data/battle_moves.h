@@ -12572,7 +12572,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_BIDOOF] =
+    [SPECIES_XDIK] =
     {
         .move = MOVE_HYPER_FANG,
         .modification = SIGNATURE_MOD_SE_AGAINST_TYPE,
@@ -12581,7 +12581,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_BIBAREL] =
+    [SPECIES_XDEMON] =
     {
         .move = MOVE_HYPER_FANG,
         .modification = SIGNATURE_MOD_SE_AGAINST_TYPE,

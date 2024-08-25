@@ -5182,7 +5182,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_CHERUBI"
+                "species": "SPECIES_BUSHIZARD"
               },
               {
                 "min_level": 5,
@@ -5689,7 +5689,7 @@
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_SABLEYE"
+                "species": "SPECIES_SECRITLER"
               },
               {
                 "min_level": 8,
@@ -7851,17 +7851,17 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_SABLEYE"
+                "species": "SPECIES_SECRITLER"
               },
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_SABLEYE"
+                "species": "SPECIES_SECRITLER"
               },
               {
                 "min_level": 34,
                 "max_level": 34,
-                "species": "SPECIES_SABLEYE"
+                "species": "SPECIES_SECRITLER"
               },
               {
                 "min_level": 33,
@@ -7920,17 +7920,17 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_SABLEYE"
+                "species": "SPECIES_SECRITLER"
               },
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_SABLEYE"
+                "species": "SPECIES_SECRITLER"
               },
               {
                 "min_level": 34,
                 "max_level": 34,
-                "species": "SPECIES_SABLEYE"
+                "species": "SPECIES_SECRITLER"
               },
               {
                 "min_level": 33,
@@ -7989,17 +7989,17 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_SABLEYE"
+                "species": "SPECIES_SECRITLER"
               },
               {
                 "min_level": 32,
                 "max_level": 32,
-                "species": "SPECIES_SABLEYE"
+                "species": "SPECIES_SECRITLER"
               },
               {
                 "min_level": 34,
                 "max_level": 34,
-                "species": "SPECIES_SABLEYE"
+                "species": "SPECIES_SECRITLER"
               },
               {
                 "min_level": 33,
@@ -10876,7 +10876,7 @@
               {
                 "min_level": 24,
                 "max_level": 24,
-                "species": "SPECIES_BUDEW"
+                "species": "SPECIES_BANANA"
               },
               {
                 "min_level": 25,
@@ -10936,7 +10936,7 @@
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_BUIZEL"
+                "species": "SPECIES_SQUIGGA"
               },
               {
                 "min_level": 25,
@@ -10951,7 +10951,7 @@
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_SHELLOS_EAST_SEA"
+                "species": "SPECIES_CHOCCUDLE_EAST_SEA"
               }
             ]
           },
@@ -10966,7 +10966,7 @@
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_BUIZEL"
+                "species": "SPECIES_SQUIGGA"
               },
               {
                 "min_level": 25,
@@ -10976,7 +10976,7 @@
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_BUIZEL"
+                "species": "SPECIES_SQUIGGA"
               },
               {
                 "min_level": 30,
@@ -10986,27 +10986,27 @@
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_BUIZEL"
+                "species": "SPECIES_SQUIGGA"
               },
               {
                 "min_level": 25,
                 "max_level": 30,
-                "species": "SPECIES_BUIZEL"
+                "species": "SPECIES_SQUIGGA"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_SHELLOS_EAST_SEA"
+                "species": "SPECIES_CHOCCUDLE_EAST_SEA"
               },
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_SHELLOS_EAST_SEA"
+                "species": "SPECIES_CHOCCUDLE_EAST_SEA"
               },
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_SHELLOS_EAST_SEA"
+                "species": "SPECIES_CHOCCUDLE_EAST_SEA"
               }
             ]
           }
@@ -12175,7 +12175,7 @@
               {
                 "min_level": 23,
                 "max_level": 23,
-                "species": "SPECIES_SKITTY"
+                "species": "SPECIES_SMOSLIME"
               },
               {
                 "min_level": 22,
@@ -14516,12 +14516,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BUIZEL"
+                "species": "SPECIES_SQUIGGA"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BUIZEL"
+                "species": "SPECIES_SQUIGGA"
               }
             ]
           },
@@ -17312,17 +17312,17 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BUIZEL"
+                "species": "SPECIES_SQUIGGA"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BUIZEL"
+                "species": "SPECIES_SQUIGGA"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BUIZEL"
+                "species": "SPECIES_SQUIGGA"
               }
             ]
           },

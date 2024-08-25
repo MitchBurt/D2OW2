@@ -334,7 +334,7 @@ const u32 gObjectEventPic_BabinionDoll[] = INCBIN_U32("graphics/object_events/pi
 const u32 gObjectEventPic_DreidrillDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/dreidrill_doll.4bpp");
 const u32 gObjectEventPic_KecleonDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/kecleon_doll.4bpp");
 const u32 gObjectEventPic_AzurillDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/azurill_doll.4bpp");
-const u32 gObjectEventPic_SkittyDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/skitty_doll.4bpp");
+const u32 gObjectEventPic_SmoslimeDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/smoslime_doll.4bpp");
 const u32 gObjectEventPic_ArmydroneDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/armydrone_doll.4bpp");
 const u32 gObjectEventPic_SymbiteDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/symbite_doll.4bpp");
 const u32 gObjectEventPic_ScubiteDoll[] = INCBIN_U32("graphics/object_events/pics/dolls/scubite_doll.4bpp");
@@ -542,9 +542,9 @@ const u16 gObjectEventPalette_Sortafurry[] = INCBIN_U16("graphics/object_events/
 //298 Azurill *
 const u32 gObjectEventPic_Azurill[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/298.4bpp");
 const u16 gObjectEventPalette_Azurill[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/298.gbapal");
-//300 - Skitty *
-const u32 gObjectEventPic_Skitty[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/300.4bpp");
-const u16 gObjectEventPalette_Skitty[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/300.gbapal");
+//300 - Smoslime *
+const u32 gObjectEventPic_Smoslime[] = INCBIN_U32("graphics/object_events/pics/pokemon/species/300.4bpp");
+const u16 gObjectEventPalette_Smoslime[] = INCBIN_U16("graphics/object_events/pics/pokemon/species/300.gbapal");
 //352 - Kecleon
 const u32 gObjectEventPic_Kecleon[] = INCBIN_U32("graphics/object_events/pics/pokemon/kecleon.4bpp");
 const u16 gObjectEventPalette_Kecleon[] = INCBIN_U16("graphics/object_events/pics/pokemon/kecleon.gbapal");

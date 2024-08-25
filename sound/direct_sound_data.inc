@@ -472,7 +472,7 @@ Cry_Egg_Group_Amorphous:
 
 	.align 2
 Cry_Egg_Group_Fairy:
-	.incbin "sound/direct_sound_samples/cries/cry_skitty.bin"
+	.incbin "sound/direct_sound_samples/cries/cry_smoslime.bin"
 
 	.align 2
 Cry_Egg_Group_Ditto:

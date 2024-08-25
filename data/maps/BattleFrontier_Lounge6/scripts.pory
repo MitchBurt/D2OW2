@@ -45,7 +45,7 @@ BattleFrontier_Lounge6_EventScript_NotRequestedMon:: @ 8265075
 	end
 
 BattleFrontier_Lounge6_EventScript_TradeCompleted:: @ 8265083
-	msgbox BattleFrontier_Lounge6_Text_SkittySoMuchCuterThanImagined, MSGBOX_DEFAULT
+	msgbox BattleFrontier_Lounge6_Text_SmoslimeSoMuchCuterThanImagined, MSGBOX_DEFAULT
 	release
 	end
 
@@ -75,8 +75,8 @@ BattleFrontier_Lounge6_Text_WellThatsFineToo: @ 82651CB
 	.string "Well, that's fine, too.\l"
 	.string "Please come visit us again.$"
 
-BattleFrontier_Lounge6_Text_SkittySoMuchCuterThanImagined: @ 826520E
+BattleFrontier_Lounge6_Text_SmoslimeSoMuchCuterThanImagined: @ 826520E
 	.string "Giggle!\n"
-	.string "A Skitty is so much cuter than I had\l"
+	.string "A Smoslime is so much cuter than I had\l"
 	.string "imagined. I'm delighted!$"
 `

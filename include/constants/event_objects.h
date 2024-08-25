@@ -169,7 +169,7 @@
 #define OBJ_EVENT_GFX_DREIDRILL_DOLL                159
 #define OBJ_EVENT_GFX_KECLEON_DOLL               160
 #define OBJ_EVENT_GFX_AZURILL_DOLL               161
-#define OBJ_EVENT_GFX_SKITTY_DOLL                162
+#define OBJ_EVENT_GFX_SMOSLIME_DOLL                162
 #define OBJ_EVENT_GFX_ARMYDRONE_DOLL                163
 #define OBJ_EVENT_GFX_SYMBITE_DOLL                164
 #define OBJ_EVENT_GFX_SCUBITE_DOLL                 165
@@ -210,7 +210,7 @@
 #define OBJ_EVENT_GFX_REGIROCK                   200
 #define OBJ_EVENT_GFX_REGICE                     201
 #define OBJ_EVENT_GFX_REGISTEEL                  202
-#define OBJ_EVENT_GFX_SKITTY                     203
+#define OBJ_EVENT_GFX_SMOSLIME                     203
 #define OBJ_EVENT_GFX_KECLEON_1                  204
 #define OBJ_EVENT_GFX_KYOGRE_2                   205
 #define OBJ_EVENT_GFX_GROUDON_2                  206

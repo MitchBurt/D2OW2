@@ -614,7 +614,7 @@ $(OBJEVENTGFXDIR)/pokemon/duplicat.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/pokemon/rayquaza.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 8 -mheight 8
 
-$(OBJEVENTGFXDIR)/pokemon/skitty.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/pokemon/smoslime.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 2
 
 $(OBJEVENTGFXDIR)/pokemon/bonsly.4bpp: %.4bpp: %.png

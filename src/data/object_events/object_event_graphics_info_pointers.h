@@ -161,7 +161,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BabinionDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DreidrillDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_KecleonDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_AzurillDoll;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SkittyDoll;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SmoslimeDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ArmydroneDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SymbiteDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ScubiteDoll;
@@ -197,7 +197,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MayDecorating;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Archie;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Maxie;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Fossil;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Skitty;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Smoslime;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kecleon1;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Meowrrior;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Skippa;
@@ -1257,7 +1257,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_DREIDRILL_DOLL] =              &gObjectEventGraphicsInfo_DreidrillDoll,
     [OBJ_EVENT_GFX_KECLEON_DOLL] =             &gObjectEventGraphicsInfo_KecleonDoll,
     [OBJ_EVENT_GFX_AZURILL_DOLL] =             &gObjectEventGraphicsInfo_AzurillDoll,
-    [OBJ_EVENT_GFX_SKITTY_DOLL] =              &gObjectEventGraphicsInfo_SkittyDoll,
+    [OBJ_EVENT_GFX_SMOSLIME_DOLL] =              &gObjectEventGraphicsInfo_SmoslimeDoll,
     [OBJ_EVENT_GFX_ARMYDRONE_DOLL] =              &gObjectEventGraphicsInfo_ArmydroneDoll,
     [OBJ_EVENT_GFX_SYMBITE_DOLL] =              &gObjectEventGraphicsInfo_SymbiteDoll,
     [OBJ_EVENT_GFX_SCUBITE_DOLL] =               &gObjectEventGraphicsInfo_ScubiteDoll,
@@ -1379,7 +1379,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
 	[OBJ_EVENT_GFX_REGIROCK] =                 &gObjectEventGraphicsInfo_Pokemon_Species_377,
     [OBJ_EVENT_GFX_REGICE] =                   &gObjectEventGraphicsInfo_Pokemon_Species_378,
     [OBJ_EVENT_GFX_REGISTEEL] =                &gObjectEventGraphicsInfo_Pokemon_Species_379,
-    [OBJ_EVENT_GFX_SKITTY] =                   &gObjectEventGraphicsInfo_Pokemon_Species_301,
+    [OBJ_EVENT_GFX_SMOSLIME] =                   &gObjectEventGraphicsInfo_Pokemon_Species_301,
 	[OBJ_EVENT_GFX_KYOGRE_2] =                 &gObjectEventGraphicsInfo_Pokemon_Species_382,
     [OBJ_EVENT_GFX_GROUDON_2] =                &gObjectEventGraphicsInfo_Pokemon_Species_383,
     [OBJ_EVENT_GFX_RAYQUAZA_2] =               &gObjectEventGraphicsInfo_Pokemon_Species_384,

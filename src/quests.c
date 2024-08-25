@@ -2123,7 +2123,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_FROSLING:
 				case SPECIES_AZURILL:
 				case SPECIES_SURBSQUACH:
-				case SPECIES_CHIMECHO:
+				case SPECIES_KIRBAIRDE:
 				case SPECIES_SANDILE:
 				case SPECIES_MYRESFT:
 				case SPECIES_DEINO:

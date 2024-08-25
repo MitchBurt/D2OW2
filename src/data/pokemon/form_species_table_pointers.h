@@ -44,7 +44,7 @@ const u16 *const gFormSpeciesIdTables[NUM_SPECIES] =
     [SPECIES_GOURMASTER] = sGourmasterFormSpeciesIdTable,
     [SPECIES_BAITANK] = sBaitankFormSpeciesIdTable,
     [SPECIES_THATSFURRY] = sThatsfurryFormSpeciesIdTable,
-    [SPECIES_SABLEYE] = sSableyeFormSpeciesIdTable,
+    [SPECIES_SECRITLER] = sSecritlerFormSpeciesIdTable,
     [SPECIES_MINITRON] = sMinitronFormSpeciesIdTable,
     [SPECIES_MURPHIRE] = sMurphireFormSpeciesIdTable,
     [SPECIES_LONKEST] = sLonkestFormSpeciesIdTable,
@@ -66,9 +66,9 @@ const u16 *const gFormSpeciesIdTables[NUM_SPECIES] =
     [SPECIES_DEOXYS] = sDeoxysFormSpeciesIdTable,
     [SPECIES_BURMY] = sBurmyFormSpeciesIdTable,
     [SPECIES_WORMADAM] = sWormadamFormSpeciesIdTable,
-    [SPECIES_CHERRIM] = sCherrimFormSpeciesIdTable,
-    [SPECIES_SHELLOS] = sShellosFormSpeciesIdTable,
-    [SPECIES_GASTRODON] = sGastrodonFormSpeciesIdTable,
+    [SPECIES_NOTYUHDAD] = sNotyuhdadFormSpeciesIdTable,
+    [SPECIES_CHOCCUDLE] = sChoccudleFormSpeciesIdTable,
+    [SPECIES_CHOCTIC] = sChocticFormSpeciesIdTable,
     [SPECIES_LOPUNNY] = sLopunnyFormSpeciesIdTable,
     [SPECIES_GARCHOMP] = sGarchompFormSpeciesIdTable,
     [SPECIES_LUCARIO] = sLucarioFormSpeciesIdTable,
@@ -139,7 +139,7 @@ const u16 *const gFormSpeciesIdTables[NUM_SPECIES] =
     [SPECIES_GOURMASTER_MEGA] = sGourmasterFormSpeciesIdTable,
     [SPECIES_BAITANK_MEGA] = sBaitankFormSpeciesIdTable,
     [SPECIES_THATSFURRY_MEGA] = sThatsfurryFormSpeciesIdTable,
-    [SPECIES_SABLEYE_MEGA] = sSableyeFormSpeciesIdTable,
+    [SPECIES_SECRITLER_MEGA] = sSecritlerFormSpeciesIdTable,
     [SPECIES_MINITRON_MEGA] = sMinitronFormSpeciesIdTable,
     [SPECIES_MURPHIRE_MEGA] = sMurphireFormSpeciesIdTable,
     [SPECIES_LONKEST_MEGA] = sLonkestFormSpeciesIdTable,
@@ -244,12 +244,12 @@ const u16 *const gFormSpeciesIdTables[NUM_SPECIES] =
     // Wormadam
     [SPECIES_WORMADAM_SANDY_CLOAK] = sWormadamFormSpeciesIdTable,
     [SPECIES_WORMADAM_TRASH_CLOAK] = sWormadamFormSpeciesIdTable,
-    // Cherrim
-    //[SPECIES_CHERRIM_SUNSHINE] = sCherrimFormSpeciesIdTable,
-    // Shellos
-    [SPECIES_SHELLOS_EAST_SEA] = sShellosFormSpeciesIdTable,
-    // Gastrodon
-    [SPECIES_GASTRODON_EAST_SEA] = sGastrodonFormSpeciesIdTable,
+    // Notyuhdad
+    //[SPECIES_NOTYUHDAD_SUNSHINE] = sNotyuhdadFormSpeciesIdTable,
+    // Choccudle
+    [SPECIES_CHOCCUDLE_EAST_SEA] = sChoccudleFormSpeciesIdTable,
+    // Choctic
+    [SPECIES_CHOCTIC_EAST_SEA] = sChocticFormSpeciesIdTable,
     // Rotom
     [SPECIES_ROTOM_HEAT] = sRotomFormSpeciesIdTable,
     [SPECIES_ROTOM_WASH] = sRotomFormSpeciesIdTable,
@@ -495,7 +495,7 @@ const u16 gBaseFormID[NUM_SPECIES] =
     [SPECIES_GOURMASTER_MEGA] = SPECIES_GOURMASTER,
     [SPECIES_BAITANK_MEGA] = SPECIES_BAITANK,
     [SPECIES_THATSFURRY_MEGA] = SPECIES_THATSFURRY,
-    [SPECIES_SABLEYE_MEGA] = SPECIES_SABLEYE,
+    [SPECIES_SECRITLER_MEGA] = SPECIES_SECRITLER,
     [SPECIES_MINITRON_MEGA] = SPECIES_MINITRON,
     [SPECIES_MURPHIRE_MEGA] = SPECIES_MURPHIRE,
     [SPECIES_LONKEST_MEGA] = SPECIES_LONKEST,
@@ -600,12 +600,12 @@ const u16 gBaseFormID[NUM_SPECIES] =
     // Wormadam
     [SPECIES_WORMADAM_SANDY_CLOAK] = SPECIES_WORMADAM,
     [SPECIES_WORMADAM_TRASH_CLOAK] = SPECIES_WORMADAM,
-    // Cherrim
-    [SPECIES_CHERRIM_SUNSHINE] = SPECIES_CHERRIM,
-    // Shellos
-    [SPECIES_SHELLOS_EAST_SEA] = SPECIES_SHELLOS,
-    // Gastrodon
-    [SPECIES_GASTRODON_EAST_SEA] = SPECIES_GASTRODON,
+    // Notyuhdad
+    [SPECIES_NOTYUHDAD_SUNSHINE] = SPECIES_NOTYUHDAD,
+    // Choccudle
+    [SPECIES_CHOCCUDLE_EAST_SEA] = SPECIES_CHOCCUDLE,
+    // Choctic
+    [SPECIES_CHOCTIC_EAST_SEA] = SPECIES_CHOCTIC,
     // Rotom
     [SPECIES_ROTOM_HEAT] = SPECIES_ROTOM,
     [SPECIES_ROTOM_WASH] = SPECIES_ROTOM,

@@ -129,7 +129,7 @@ FortreeCity_House3_EventScript_Give_Berryalen_Mega::
 	release
 	end
 	
-//Chimchar
+//Embob
 FortreeCity_House3_EventScript_Give_Turtwig::
 	bufferspeciesname 1, SPECIES_TURTWIG
 	playfanfare MUS_OBTAIN_ITEM

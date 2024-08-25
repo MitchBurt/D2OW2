@@ -302,9 +302,9 @@ gCryTable:: @ 869DCF4
 	cry Cry_Gangbeats
 	cry Cry_Azurill
 	cry Cry_Scatrush
-	cry Cry_Skitty
+	cry Cry_Smoslime
 	cry Cry_Nyancat
-	cry Cry_Sableye
+	cry Cry_Secritler
 	cry Cry_Minitron
 	cry Cry_Aron
 	cry Cry_Galvatron
@@ -360,7 +360,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Ratman
 	cry Cry_Hugeman
 	cry Cry_Tropius
-	cry Cry_Chimecho
+	cry Cry_Kirbairde
 	cry Cry_Absol
 	cry Cry_Babinion
 	cry Cry_Chairold
@@ -393,23 +393,23 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Turtwig
 	cry_not Cry_Grotle
 	cry_not Cry_Torterra
-	cry_not Cry_Chimchar
-	cry_not Cry_Monferno
-	cry_not Cry_Infernape
+	cry_not Cry_Embob
+	cry_not Cry_Coalgar
+	cry_not Cry_Bobistic
 	cry_not Cry_Oroflow
 	cry_not Cry_Orocast
 	cry_not Cry_Orrowhelm
 	cry_not Cry_Starly
 	cry_not Cry_Staravia
 	cry_not Cry_Staraptor
-	cry_not Cry_Bidoof
-	cry_not Cry_Bibarel
+	cry_not Cry_Xdik
+	cry_not Cry_Xdemon
 	cry_not Cry_Kricketot
 	cry_not Cry_Kricketune
 	cry_not Cry_Shinx
 	cry_not Cry_Luxio
 	cry_not Cry_Luxray
-	cry_not Cry_Budew
+	cry_not Cry_Banana
 	cry_not Cry_Roserade
 	cry_not Cry_Cranidos
 	cry_not Cry_Rampardos
@@ -421,12 +421,12 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Combee
 	cry_not Cry_Vespiquen
 	cry_not Cry_Pachirisu
-	cry_not Cry_Buizel
-	cry_not Cry_Floatzel
-	cry_not Cry_Cherubi
-	cry_not Cry_Cherrim
-	cry_not Cry_Shellos
-	cry_not Cry_Gastrodon
+	cry_not Cry_Squigga
+	cry_not Cry_Squiggro
+	cry_not Cry_Bushizard
+	cry_not Cry_Notyuhdad
+	cry_not Cry_Choccudle
+	cry_not Cry_Choctic
 	cry_not Cry_Ambipom
 	cry_not Cry_Drifloon
 	cry_not Cry_Drifblim
@@ -452,7 +452,7 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Munchlax
 	cry_not Cry_Riolu
 	cry_not Cry_Lucario
-	cry_not Cry_Hippopotas
+	cry_not Cry_Journemap
 	cry_not Cry_Hippowdon
 	cry_not Cry_Skorupi
 	cry_not Cry_Drapion
@@ -931,7 +931,7 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Gourmaster_Mega
 	cry_not Cry_Baitank_Mega
 	cry_not Cry_Thatsfurry_Mega
-	cry_not Cry_Sableye_Mega
+	cry_not Cry_Secritler_Mega
 	cry_not Cry_Minitron_Mega
 	cry_not Cry_Murphire_Mega
 	cry_not Cry_Lonkest_Mega
@@ -1057,12 +1057,12 @@ gCryTable:: @ 869DCF4
 	@ Wormadam
 	cry_not Cry_Wormadam
 	cry_not Cry_Wormadam
-	@ Cherrim
-	cry_not Cry_Cherrim
-	@ Shellos
-	cry_not Cry_Shellos
-	@ Gastrodon
-	cry_not Cry_Gastrodon
+	@ Notyuhdad
+	cry_not Cry_Notyuhdad
+	@ Choccudle
+	cry_not Cry_Choccudle
+	@ Choctic
+	cry_not Cry_Choctic
 	@ Rotom
 	cry_not Cry_Rotom
 	cry_not Cry_Rotom
@@ -1580,9 +1580,9 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Gangbeats
 	cry2 Cry_Azurill
 	cry2 Cry_Scatrush
-	cry2 Cry_Skitty
+	cry2 Cry_Smoslime
 	cry2 Cry_Nyancat
-	cry2 Cry_Sableye
+	cry2 Cry_Secritler
 	cry2 Cry_Minitron
 	cry2 Cry_Aron
 	cry2 Cry_Galvatron
@@ -1638,7 +1638,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Ratman
 	cry2 Cry_Hugeman
 	cry2 Cry_Tropius
-	cry2 Cry_Chimecho
+	cry2 Cry_Kirbairde
 	cry2 Cry_Absol
 	cry2 Cry_Babinion
 	cry2 Cry_Chairold
@@ -1671,23 +1671,23 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Turtwig
 	cry2_not Cry_Grotle
 	cry2_not Cry_Torterra
-	cry2_not Cry_Chimchar
-	cry2_not Cry_Monferno
-	cry2_not Cry_Infernape
+	cry2_not Cry_Embob
+	cry2_not Cry_Coalgar
+	cry2_not Cry_Bobistic
 	cry2_not Cry_Oroflow
 	cry2_not Cry_Orocast
 	cry2_not Cry_Orrowhelm
 	cry2_not Cry_Starly
 	cry2_not Cry_Staravia
 	cry2_not Cry_Staraptor
-	cry2_not Cry_Bidoof
-	cry2_not Cry_Bibarel
+	cry2_not Cry_Xdik
+	cry2_not Cry_Xdemon
 	cry2_not Cry_Kricketot
 	cry2_not Cry_Kricketune
 	cry2_not Cry_Shinx
 	cry2_not Cry_Luxio
 	cry2_not Cry_Luxray
-	cry2_not Cry_Budew
+	cry2_not Cry_Banana
 	cry2_not Cry_Roserade
 	cry2_not Cry_Cranidos
 	cry2_not Cry_Rampardos
@@ -1699,12 +1699,12 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Combee
 	cry2_not Cry_Vespiquen
 	cry2_not Cry_Pachirisu
-	cry2_not Cry_Buizel
-	cry2_not Cry_Floatzel
-	cry2_not Cry_Cherubi
-	cry2_not Cry_Cherrim
-	cry2_not Cry_Shellos
-	cry2_not Cry_Gastrodon
+	cry2_not Cry_Squigga
+	cry2_not Cry_Squiggro
+	cry2_not Cry_Bushizard
+	cry2_not Cry_Notyuhdad
+	cry2_not Cry_Choccudle
+	cry2_not Cry_Choctic
 	cry2_not Cry_Ambipom
 	cry2_not Cry_Drifloon
 	cry2_not Cry_Drifblim
@@ -1730,7 +1730,7 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Munchlax
 	cry2_not Cry_Riolu
 	cry2_not Cry_Lucario
-	cry2_not Cry_Hippopotas
+	cry2_not Cry_Journemap
 	cry2_not Cry_Hippowdon
 	cry2_not Cry_Skorupi
 	cry2_not Cry_Drapion
@@ -2209,7 +2209,7 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Gourmaster_Mega
 	cry2_not Cry_Baitank_Mega
 	cry2_not Cry_Thatsfurry_Mega
-	cry2_not Cry_Sableye_Mega
+	cry2_not Cry_Secritler_Mega
 	cry2_not Cry_Minitron_Mega
 	cry2_not Cry_Murphire_Mega
 	cry2_not Cry_Lonkest_Mega
@@ -2335,12 +2335,12 @@ gCryTable2:: @ 869EF24
 	@ Wormadam
 	cry2_not Cry_Wormadam
 	cry2_not Cry_Wormadam
-	@ Cherrim
-	cry2_not Cry_Cherrim
-	@ Shellos
-	cry2_not Cry_Shellos
-	@ Gastrodon
-	cry2_not Cry_Gastrodon
+	@ Notyuhdad
+	cry2_not Cry_Notyuhdad
+	@ Choccudle
+	cry2_not Cry_Choccudle
+	@ Choctic
+	cry2_not Cry_Choctic
 	@ Rotom
 	cry2_not Cry_Rotom
 	cry2_not Cry_Rotom

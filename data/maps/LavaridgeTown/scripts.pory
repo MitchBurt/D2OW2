@@ -231,7 +231,7 @@ LavaridgeTown_EventScript_EventScript_AsktoTrade::
 	case 0, LavaridgeTown_EventScript_Give_Skorchi_Mega_Y
 	case 1, LavaridgeTown_EventScript_Give_Megatron
 	case 2, LavaridgeTown_EventScript_Give_Cooklet_Mega
-	case 3, LavaridgeTown_EventScript_Give_Chimchar
+	case 3, LavaridgeTown_EventScript_Give_Embob
 	case 4, LavaridgeTown_EventScript_Give_Tepig
 	case 5, LavaridgeTown_EventScript_Give_Fennekin
 	case 6, LavaridgeTown_EventScript_Give_Litten
@@ -342,12 +342,12 @@ LavaridgeTown_EventScript_Give_Cooklet_Mega::
 	release
 	end
 	
-//Chimchar
-LavaridgeTown_EventScript_Give_Chimchar::
-	bufferspeciesname 1, SPECIES_CHIMCHAR
+//Embob
+LavaridgeTown_EventScript_Give_Embob::
+	bufferspeciesname 1, SPECIES_EMBOB
 	playfanfare MUS_OBTAIN_ITEM
 	message LavaridgeTown_Text_ReceivedMonFromOldMan
-	givemon SPECIES_CHIMCHAR, 10, ITEM_NONE
+	givemon SPECIES_EMBOB, 10, ITEM_NONE
 	waitfanfare
 	msgbox LavaridgeTown_Text_ComeAgain_Starter, MSGBOX_DEFAULT
 	release

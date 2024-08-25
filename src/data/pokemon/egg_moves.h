@@ -2155,7 +2155,7 @@ const u16 gEggMoves[] = {
 		MOVE_WIDE_GUARD,
 		MOVE_EXPLOSION),
 
-	egg_moves(SKITTY,
+	egg_moves(SMOSLIME,
 		MOVE_BATON_PASS,
 		MOVE_FAKE_OUT,
 		MOVE_UPROAR,
@@ -2173,7 +2173,7 @@ const u16 gEggMoves[] = {
 		MOVE_SUBSTITUTE,
 		MOVE_PSYCH_UP),
 
-	egg_moves(SABLEYE,
+	egg_moves(SECRITLER,
 		MOVE_RECOVER,
 		MOVE_TORMENT,
 		MOVE_FLATTER,
@@ -2664,7 +2664,7 @@ const u16 gEggMoves[] = {
 		MOVE_LEAF_STORM,
 		MOVE_DRAGON_HAMMER),
 
-	egg_moves(CHIMECHO,
+	egg_moves(KIRBAIRDE,
 		MOVE_DISABLE,
 		MOVE_HYPNOSIS,
 		MOVE_RECOVER,
@@ -2803,7 +2803,7 @@ const u16 gEggMoves[] = {
 		MOVE_SHELL_SMASH,
 		MOVE_GRASSY_TERRAIN),
 
-	egg_moves(CHIMCHAR,
+	egg_moves(EMBOB,
 		MOVE_FIRE_PUNCH,
 		MOVE_THUNDER_PUNCH,
 		MOVE_DOUBLE_KICK,
@@ -2852,7 +2852,7 @@ const u16 gEggMoves[] = {
 		MOVE_ASTONISH,
 		MOVE_ROOST),
 
-	egg_moves(BIDOOF,
+	egg_moves(XDIK,
 		MOVE_DOUBLE_EDGE,
 		MOVE_QUICK_ATTACK,
 		MOVE_DEFENSE_CURL,
@@ -2886,7 +2886,7 @@ const u16 gEggMoves[] = {
 		MOVE_FIRE_FANG,
 		MOVE_EERIE_IMPULSE),
 
-	egg_moves(BUDEW,
+	egg_moves(BANANA,
 		MOVE_RAZOR_LEAF,
 		MOVE_SLEEP_POWDER,
 		MOVE_COTTON_SPORE,
@@ -2950,7 +2950,7 @@ const u16 gEggMoves[] = {
 		MOVE_ION_DELUGE,
 		MOVE_BABY_DOLL_EYES),
 
-	egg_moves(BUIZEL,
+	egg_moves(SQUIGGA,
 		MOVE_DOUBLE_SLAP,
 		MOVE_HEADBUTT,
 		MOVE_FURY_SWIPES,
@@ -2967,7 +2967,7 @@ const u16 gEggMoves[] = {
 		MOVE_SOAK,
 		MOVE_TAIL_SLAP),
 
-	egg_moves(CHERUBI,
+	egg_moves(BUSHIZARD,
 		MOVE_RAZOR_LEAF,
 		MOVE_DEFENSE_CURL,
 		MOVE_ROLLOUT,
@@ -2984,7 +2984,7 @@ const u16 gEggMoves[] = {
 		MOVE_SEED_BOMB,
 		MOVE_GRASSY_TERRAIN),
 
-	egg_moves(SHELLOS,
+	egg_moves(CHOCCUDLE,
 		MOVE_MIST,
 		MOVE_COUNTER,
 		MOVE_SLUDGE,
@@ -3002,7 +3002,7 @@ const u16 gEggMoves[] = {
 		MOVE_BRINE,
 		MOVE_TRUMP_CARD),
 
-		egg_moves(SHELLOS_EAST_SEA,
+		egg_moves(CHOCCUDLE_EAST_SEA,
 		MOVE_MIST,
 		MOVE_COUNTER,
 		MOVE_SLUDGE,
@@ -3223,7 +3223,7 @@ const u16 gEggMoves[] = {
 		MOVE_SKY_UPPERCUT,
 		MOVE_IRON_DEFENSE),
 
-	egg_moves(HIPPOPOTAS,
+	egg_moves(JOURNEMAP,
 		MOVE_WHIRLWIND,
 		MOVE_CURSE,
 		MOVE_STOCKPILE,

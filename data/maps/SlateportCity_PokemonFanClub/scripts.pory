@@ -237,12 +237,12 @@ SlateportCity_PokemonFanClub_EventScript_Twin:: @ 820A1F1
 	msgbox SlateportCity_PokemonFanClub_Text_MonEnjoyedProtein, MSGBOX_NPC
 	end
 
-SlateportCity_PokemonFanClub_EventScript_Skitty:: @ 820A1FA
+SlateportCity_PokemonFanClub_EventScript_Smoslime:: @ 820A1FA
 	lock
 	faceplayer
 	waitse
 	playmoncry SPECIES_NYANCAT, 0
-	msgbox SlateportCity_PokemonFanClub_Text_Skitty, MSGBOX_DEFAULT
+	msgbox SlateportCity_PokemonFanClub_Text_Smoslime, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
@@ -404,7 +404,7 @@ SlateportCity_PokemonFanClub_Text_MonEnjoyedProtein: @ 820ACF9
 	.string "Mine acted really happy when I gave\n"
 	.string "it some Protein.$"
 
-SlateportCity_PokemonFanClub_Text_Skitty: @ 820AD5A
+SlateportCity_PokemonFanClub_Text_Smoslime: @ 820AD5A
 	.string "Nyancat: Fffnyaaaah…$"
 
 SlateportCity_PokemonFanClub_Text_Meowrrior: @ 820AD6E

@@ -542,8 +542,8 @@ const u16 DecorGfx_AZURILL_DOLL[] = {
     OBJ_EVENT_GFX_AZURILL_DOLL
 };
 
-const u16 DecorGfx_SKITTY_DOLL[] = {
-    OBJ_EVENT_GFX_SKITTY_DOLL
+const u16 DecorGfx_SMOSLIME_DOLL[] = {
+    OBJ_EVENT_GFX_SMOSLIME_DOLL
 };
 
 const u16 DecorGfx_ARMYDRONE_DOLL[] = {

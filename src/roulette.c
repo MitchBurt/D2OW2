@@ -49,68 +49,68 @@
 #define SELECTION_NONE      0
 #define COL_BABINION          1
 #define COL_AZURILL         2
-#define COL_SKITTY          3
+#define COL_SMOSLIME          3
 #define COL_ANGBEAST        4
 #define ROW_ORANGE          (COL_ANGBEAST + 1)
 #define SQU_ORANGE_BABINION   (ROW_ORANGE + COL_BABINION)
 #define SQU_ORANGE_AZURILL  (ROW_ORANGE + COL_AZURILL)
-#define SQU_ORANGE_SKITTY   (ROW_ORANGE + COL_SKITTY)
+#define SQU_ORANGE_SMOSLIME   (ROW_ORANGE + COL_SMOSLIME)
 #define SQU_ORANGE_ANGBEAST (ROW_ORANGE + COL_ANGBEAST)
 #define ROW_GREEN           (SQU_ORANGE_ANGBEAST + 1)
 #define SQU_GREEN_BABINION    (ROW_GREEN + COL_BABINION)
 #define SQU_GREEN_AZURILL   (ROW_GREEN + COL_AZURILL)
-#define SQU_GREEN_SKITTY    (ROW_GREEN + COL_SKITTY)
+#define SQU_GREEN_SMOSLIME    (ROW_GREEN + COL_SMOSLIME)
 #define SQU_GREEN_ANGBEAST  (ROW_GREEN + COL_ANGBEAST)
 #define ROW_PURPLE          (SQU_GREEN_ANGBEAST + 1)
 #define SQU_PURPLE_BABINION   (ROW_PURPLE + COL_BABINION)
 #define SQU_PURPLE_AZURILL  (ROW_PURPLE + COL_AZURILL)
-#define SQU_PURPLE_SKITTY   (ROW_PURPLE + COL_SKITTY)
+#define SQU_PURPLE_SMOSLIME   (ROW_PURPLE + COL_SMOSLIME)
 #define SQU_PURPLE_ANGBEAST (ROW_PURPLE + COL_ANGBEAST)
 #define NUM_GRID_SELECTIONS SQU_PURPLE_ANGBEAST
 
 // Get the id of the col/row from the selection ID
-// e.g. GET_ROW(SQU_PURPLE_SKITTY) is ROW_PURPLE
+// e.g. GET_ROW(SQU_PURPLE_SMOSLIME) is ROW_PURPLE
 #define GET_COL(selectionId)((selectionId) % (NUM_BOARD_POKES + 1))
 #define GET_ROW(selectionId)((selectionId) / (NUM_BOARD_POKES + 1) * (NUM_BOARD_POKES + 1))
 
 // Get the col/row index from the selection ID
-// e.g. GET_ROW_IDX(SQU_PURPLE_SKITTY) is 2 (purple being the 3rd row)
+// e.g. GET_ROW_IDX(SQU_PURPLE_SMOSLIME) is 2 (purple being the 3rd row)
 #define GET_COL_IDX(selectionId)(selectionId - 1)
 #define GET_ROW_IDX(selectionId)(selectionId / 5 - 1)
 
 // Flags for the above selections, used to set which spaces have been hit or bet on
 #define F_BABINION_COL      (1 << COL_BABINION)
 #define F_AZURILL_COL     (1 << COL_AZURILL)
-#define F_SKITTY_COL      (1 << COL_SKITTY)
+#define F_SMOSLIME_COL      (1 << COL_SMOSLIME)
 #define F_ANGBEAST_COL    (1 << COL_ANGBEAST)
 #define F_ORANGE_ROW      (1 << ROW_ORANGE)
 #define F_ORANGE_BABINION   (1 << SQU_ORANGE_BABINION)
 #define F_ORANGE_AZURILL  (1 << SQU_ORANGE_AZURILL)
-#define F_ORANGE_SKITTY   (1 << SQU_ORANGE_SKITTY)
+#define F_ORANGE_SMOSLIME   (1 << SQU_ORANGE_SMOSLIME)
 #define F_ORANGE_ANGBEAST (1 << SQU_ORANGE_ANGBEAST)
 #define F_GREEN_ROW       (1 << ROW_GREEN)
 #define F_GREEN_BABINION    (1 << SQU_GREEN_BABINION)
 #define F_GREEN_AZURILL   (1 << SQU_GREEN_AZURILL)
-#define F_GREEN_SKITTY    (1 << SQU_GREEN_SKITTY)
+#define F_GREEN_SMOSLIME    (1 << SQU_GREEN_SMOSLIME)
 #define F_GREEN_ANGBEAST  (1 << SQU_GREEN_ANGBEAST)
 #define F_PURPLE_ROW      (1 << ROW_PURPLE)
 #define F_PURPLE_BABINION   (1 << SQU_PURPLE_BABINION)
 #define F_PURPLE_AZURILL  (1 << SQU_PURPLE_AZURILL)
-#define F_PURPLE_SKITTY   (1 << SQU_PURPLE_SKITTY)
+#define F_PURPLE_SMOSLIME   (1 << SQU_PURPLE_SMOSLIME)
 #define F_PURPLE_ANGBEAST (1 << SQU_PURPLE_ANGBEAST)
 
 // Flags for flashing selections on the roulette wheel
 #define F_FLASH_COLOR_O_BABINION   (1 << 0)
 #define F_FLASH_COLOR_G_AZURILL  (1 << 1)
-#define F_FLASH_COLOR_P_SKITTY   (1 << 2)
+#define F_FLASH_COLOR_P_SMOSLIME   (1 << 2)
 #define F_FLASH_COLOR_O_ANGBEAST (1 << 3)
 #define F_FLASH_COLOR_G_BABINION   (1 << 4)
 #define F_FLASH_COLOR_P_AZURILL  (1 << 5)
-#define F_FLASH_COLOR_O_SKITTY   (1 << 6)
+#define F_FLASH_COLOR_O_SMOSLIME   (1 << 6)
 #define F_FLASH_COLOR_G_ANGBEAST (1 << 7)
 #define F_FLASH_COLOR_P_BABINION   (1 << 8)
 #define F_FLASH_COLOR_O_AZURILL  (1 << 9)
-#define F_FLASH_COLOR_G_SKITTY   (1 << 10)
+#define F_FLASH_COLOR_G_SMOSLIME   (1 << 10)
 #define F_FLASH_COLOR_P_ANGBEAST (1 << 11)
 #define F_FLASH_OUTER_EDGES      (1 << 12) // when the player wins
 #define FLASH_ICON               (NUM_ROULETTE_SLOTS + 1)
@@ -131,7 +131,7 @@
 #define PALTAG_GRID_ICONS 8
 #define PALTAG_BABINION    9
 #define PALTAG_AZURILL   10
-#define PALTAG_SKITTY    11
+#define PALTAG_SMOSLIME    11
 #define PALTAG_ANGBEAST  12
 
 #define GFXTAG_WHEEL_ICONS 0
@@ -183,15 +183,15 @@ enum {
     SPR_WHEEL_CENTER,
     SPR_WHEEL_ICON_ORANGE_BABINION,
     SPR_WHEEL_ICON_GREEN_AZURILL,
-    SPR_WHEEL_ICON_PURPLE_SKITTY,
+    SPR_WHEEL_ICON_PURPLE_SMOSLIME,
     SPR_WHEEL_ICON_ORANGE_ANGBEAST,
     SPR_WHEEL_ICON_GREEN_BABINION,
     SPR_WHEEL_ICON_PURPLE_AZURILL,
-    SPR_WHEEL_ICON_ORANGE_SKITTY,
+    SPR_WHEEL_ICON_ORANGE_SMOSLIME,
     SPR_WHEEL_ICON_GREEN_ANGBEAST,
     SPR_WHEEL_ICON_PURPLE_BABINION,
     SPR_WHEEL_ICON_ORANGE_AZURILL,
-    SPR_WHEEL_ICON_GREEN_SKITTY,
+    SPR_WHEEL_ICON_GREEN_SMOSLIME,
     SPR_WHEEL_ICON_PURPLE_ANGBEAST,
     SPR_19, // Unused
     SPR_CREDIT,
@@ -205,15 +205,15 @@ enum {
     SPR_BALL_COUNTER_3,
     SPR_GRID_ICON_ORANGE_BABINION,
     SPR_GRID_ICON_GREEN_AZURILL,
-    SPR_GRID_ICON_PURPLE_SKITTY,
+    SPR_GRID_ICON_PURPLE_SMOSLIME,
     SPR_GRID_ICON_ORANGE_ANGBEAST,
     SPR_GRID_ICON_GREEN_BABINION,
     SPR_GRID_ICON_PURPLE_AZURILL,
-    SPR_GRID_ICON_ORANGE_SKITTY,
+    SPR_GRID_ICON_ORANGE_SMOSLIME,
     SPR_GRID_ICON_GREEN_ANGBEAST,
     SPR_GRID_ICON_PURPLE_BABINION,
     SPR_GRID_ICON_ORANGE_AZURILL,
-    SPR_GRID_ICON_GREEN_SKITTY,
+    SPR_GRID_ICON_GREEN_SMOSLIME,
     SPR_GRID_ICON_PURPLE_ANGBEAST,
     SPR_POKE_HEADER_1,
     SPR_POKE_HEADER_2,
@@ -508,7 +508,7 @@ static const struct GridSelection sGridSelections[NUM_GRID_SELECTIONS + 1] =
         .inSelectionFlags = F_AZURILL_COL | F_ORANGE_AZURILL | F_GREEN_AZURILL | F_PURPLE_AZURILL,
         .flashFlags = F_FLASH_COLUMN,
     },
-    [COL_SKITTY] = {
+    [COL_SMOSLIME] = {
         .spriteIdOffset = 14,
         .baseMultiplier = NUM_BOARD_POKES,
         .column = 3,
@@ -517,8 +517,8 @@ static const struct GridSelection sGridSelections[NUM_GRID_SELECTIONS + 1] =
         .y = 7,
         .var05 = 0,
         .tilemapOffset = 0,
-        .flag = F_SKITTY_COL,
-        .inSelectionFlags = F_SKITTY_COL | F_ORANGE_SKITTY | F_GREEN_SKITTY | F_PURPLE_SKITTY,
+        .flag = F_SMOSLIME_COL,
+        .inSelectionFlags = F_SMOSLIME_COL | F_ORANGE_SMOSLIME | F_GREEN_SMOSLIME | F_PURPLE_SMOSLIME,
         .flashFlags = F_FLASH_COLUMN,
     },
     [COL_ANGBEAST] = {
@@ -544,8 +544,8 @@ static const struct GridSelection sGridSelections[NUM_GRID_SELECTIONS + 1] =
         .var05 = 0,
         .tilemapOffset = 12,
         .flag = F_ORANGE_ROW,
-        .inSelectionFlags = F_ORANGE_ROW | F_ORANGE_BABINION | F_ORANGE_AZURILL | F_ORANGE_SKITTY | F_ORANGE_ANGBEAST,
-        .flashFlags = F_FLASH_COLOR_O_BABINION | F_FLASH_COLOR_O_AZURILL | F_FLASH_COLOR_O_SKITTY | F_FLASH_COLOR_O_ANGBEAST,
+        .inSelectionFlags = F_ORANGE_ROW | F_ORANGE_BABINION | F_ORANGE_AZURILL | F_ORANGE_SMOSLIME | F_ORANGE_ANGBEAST,
+        .flashFlags = F_FLASH_COLOR_O_BABINION | F_FLASH_COLOR_O_AZURILL | F_FLASH_COLOR_O_SMOSLIME | F_FLASH_COLOR_O_ANGBEAST,
     },
     [SQU_ORANGE_BABINION] = {
         .spriteIdOffset = 0,
@@ -573,7 +573,7 @@ static const struct GridSelection sGridSelections[NUM_GRID_SELECTIONS + 1] =
         .inSelectionFlags = F_ORANGE_AZURILL,
         .flashFlags = F_FLASH_ICON | F_FLASH_COLOR_O_AZURILL,
     },
-    [SQU_ORANGE_SKITTY] = {
+    [SQU_ORANGE_SMOSLIME] = {
         .spriteIdOffset = 6,
         .baseMultiplier = NUM_ROULETTE_SLOTS,
         .column = 3,
@@ -582,9 +582,9 @@ static const struct GridSelection sGridSelections[NUM_GRID_SELECTIONS + 1] =
         .y = 10,
         .var05 = 3,
         .tilemapOffset = 3,
-        .flag = F_ORANGE_SKITTY,
-        .inSelectionFlags = F_ORANGE_SKITTY,
-        .flashFlags = F_FLASH_ICON | F_FLASH_COLOR_O_SKITTY,
+        .flag = F_ORANGE_SMOSLIME,
+        .inSelectionFlags = F_ORANGE_SMOSLIME,
+        .flashFlags = F_FLASH_ICON | F_FLASH_COLOR_O_SMOSLIME,
     },
     [SQU_ORANGE_ANGBEAST] = {
         .spriteIdOffset = 3,
@@ -609,8 +609,8 @@ static const struct GridSelection sGridSelections[NUM_GRID_SELECTIONS + 1] =
         .var05 = 3,
         .tilemapOffset = 15,
         .flag = F_GREEN_ROW,
-        .inSelectionFlags = F_GREEN_ROW | F_GREEN_BABINION | F_GREEN_AZURILL | F_GREEN_SKITTY | F_GREEN_ANGBEAST,
-        .flashFlags = F_FLASH_COLOR_G_BABINION | F_FLASH_COLOR_G_AZURILL | F_FLASH_COLOR_G_SKITTY | F_FLASH_COLOR_G_ANGBEAST,
+        .inSelectionFlags = F_GREEN_ROW | F_GREEN_BABINION | F_GREEN_AZURILL | F_GREEN_SMOSLIME | F_GREEN_ANGBEAST,
+        .flashFlags = F_FLASH_COLOR_G_BABINION | F_FLASH_COLOR_G_AZURILL | F_FLASH_COLOR_G_SMOSLIME | F_FLASH_COLOR_G_ANGBEAST,
     },
     [SQU_GREEN_BABINION] = {
         .spriteIdOffset = 4,
@@ -638,7 +638,7 @@ static const struct GridSelection sGridSelections[NUM_GRID_SELECTIONS + 1] =
         .inSelectionFlags = F_GREEN_AZURILL,
         .flashFlags = F_FLASH_ICON | F_FLASH_COLOR_G_AZURILL,
     },
-    [SQU_GREEN_SKITTY] = {
+    [SQU_GREEN_SMOSLIME] = {
         .spriteIdOffset = 10,
         .baseMultiplier = NUM_ROULETTE_SLOTS,
         .column = 3,
@@ -647,9 +647,9 @@ static const struct GridSelection sGridSelections[NUM_GRID_SELECTIONS + 1] =
         .y = 13,
         .var05 = 6,
         .tilemapOffset = 6,
-        .flag = F_GREEN_SKITTY,
-        .inSelectionFlags = F_GREEN_SKITTY,
-        .flashFlags = F_FLASH_ICON | F_FLASH_COLOR_G_SKITTY,
+        .flag = F_GREEN_SMOSLIME,
+        .inSelectionFlags = F_GREEN_SMOSLIME,
+        .flashFlags = F_FLASH_ICON | F_FLASH_COLOR_G_SMOSLIME,
     },
     [SQU_GREEN_ANGBEAST] = {
         .spriteIdOffset = 7,
@@ -674,8 +674,8 @@ static const struct GridSelection sGridSelections[NUM_GRID_SELECTIONS + 1] =
         .var05 = 6,
         .tilemapOffset = 18,
         .flag = F_PURPLE_ROW,
-        .inSelectionFlags = F_PURPLE_ROW | F_PURPLE_BABINION | F_PURPLE_AZURILL | F_PURPLE_SKITTY | F_PURPLE_ANGBEAST,
-        .flashFlags = F_FLASH_COLOR_P_BABINION | F_FLASH_COLOR_P_AZURILL | F_FLASH_COLOR_P_SKITTY | F_FLASH_COLOR_P_ANGBEAST,
+        .inSelectionFlags = F_PURPLE_ROW | F_PURPLE_BABINION | F_PURPLE_AZURILL | F_PURPLE_SMOSLIME | F_PURPLE_ANGBEAST,
+        .flashFlags = F_FLASH_COLOR_P_BABINION | F_FLASH_COLOR_P_AZURILL | F_FLASH_COLOR_P_SMOSLIME | F_FLASH_COLOR_P_ANGBEAST,
     },
     [SQU_PURPLE_BABINION] = {
         .spriteIdOffset = 8,
@@ -703,7 +703,7 @@ static const struct GridSelection sGridSelections[NUM_GRID_SELECTIONS + 1] =
         .inSelectionFlags = F_PURPLE_AZURILL,
         .flashFlags = F_FLASH_ICON | F_FLASH_COLOR_P_AZURILL,
     },
-    [SQU_PURPLE_SKITTY] = {
+    [SQU_PURPLE_SMOSLIME] = {
         .spriteIdOffset = 2,
         .baseMultiplier = NUM_ROULETTE_SLOTS,
         .column = 3,
@@ -712,9 +712,9 @@ static const struct GridSelection sGridSelections[NUM_GRID_SELECTIONS + 1] =
         .y = 16,
         .var05 = 9,
         .tilemapOffset = 9,
-        .flag = F_PURPLE_SKITTY,
-        .inSelectionFlags = F_PURPLE_SKITTY,
-        .flashFlags = F_FLASH_ICON | F_FLASH_COLOR_P_SKITTY,
+        .flag = F_PURPLE_SMOSLIME,
+        .inSelectionFlags = F_PURPLE_SMOSLIME,
+        .flashFlags = F_FLASH_ICON | F_FLASH_COLOR_P_SMOSLIME,
     },
     [SQU_PURPLE_ANGBEAST] = {
         .spriteIdOffset = 11,
@@ -748,8 +748,8 @@ static const struct RouletteSlot sRouletteSlots[] =
     {
         .id1 = 2,
         .id2 = 5,
-        .gridSquare = SQU_PURPLE_SKITTY,
-        .flag = F_PURPLE_SKITTY,
+        .gridSquare = SQU_PURPLE_SMOSLIME,
+        .flag = F_PURPLE_SMOSLIME,
     },
     {
         .id1 = 3,
@@ -772,8 +772,8 @@ static const struct RouletteSlot sRouletteSlots[] =
     {
         .id1 = 6,
         .id2 = 13,
-        .gridSquare = SQU_ORANGE_SKITTY,
-        .flag = F_ORANGE_SKITTY,
+        .gridSquare = SQU_ORANGE_SMOSLIME,
+        .flag = F_ORANGE_SMOSLIME,
     },
     {
         .id1 = 7,
@@ -796,8 +796,8 @@ static const struct RouletteSlot sRouletteSlots[] =
     {
         .id1 = 10,
         .id2 = 21,
-        .gridSquare = SQU_GREEN_SKITTY,
-        .flag = F_GREEN_SKITTY,
+        .gridSquare = SQU_GREEN_SMOSLIME,
+        .flag = F_GREEN_SMOSLIME,
     },
     {
         .id1 = 11,
@@ -877,7 +877,7 @@ static const struct RouletteFlashSettings sFlashData_Colors[NUM_ROULETTE_SLOTS +
         .unk7_5 = -2,
         .colorDeltaDir = 0,
     },
-    { // F_FLASH_COLOR_P_SKITTY
+    { // F_FLASH_COLOR_P_SMOSLIME
         .color = FLASHUTIL_USE_EXISTING_COLOR,
         .paletteOffset = 0x15,
         .numColors = 1,
@@ -917,7 +917,7 @@ static const struct RouletteFlashSettings sFlashData_Colors[NUM_ROULETTE_SLOTS +
         .unk7_5 = -2,
         .colorDeltaDir = 0,
     },
-    { // F_FLASH_COLOR_O_SKITTY
+    { // F_FLASH_COLOR_O_SMOSLIME
         .color = FLASHUTIL_USE_EXISTING_COLOR,
         .paletteOffset = 0x75,
         .numColors = 1,
@@ -957,7 +957,7 @@ static const struct RouletteFlashSettings sFlashData_Colors[NUM_ROULETTE_SLOTS +
         .unk7_5 = -2,
         .colorDeltaDir = 0,
     },
-    { // F_FLASH_COLOR_G_SKITTY
+    { // F_FLASH_COLOR_G_SMOSLIME
         .color = FLASHUTIL_USE_EXISTING_COLOR,
         .paletteOffset = 0x9A,
         .numColors = 1,
@@ -1320,7 +1320,7 @@ static void UpdateGridSelectionRect(u8 selectionId)
         break;
     case COL_BABINION:
     case COL_AZURILL:
-    case COL_SKITTY:
+    case COL_SMOSLIME:
     case COL_ANGBEAST:
         temp0 = (selectionId * 3 + 14);
         ClearTilemapRect(&sRoulette->tilemapBuffers[0][0], 0, 14, 7, 16, 13);
@@ -2061,13 +2061,13 @@ static u8 RecordHit(u8 taskId, u8 slotId)
     u32 columnFlags[NUM_BOARD_POKES] = {
         F_BABINION_COL | F_ORANGE_BABINION | F_GREEN_BABINION | F_PURPLE_BABINION, 
         F_AZURILL_COL | F_ORANGE_AZURILL | F_GREEN_AZURILL | F_PURPLE_AZURILL, 
-        F_SKITTY_COL | F_ORANGE_SKITTY | F_GREEN_SKITTY | F_PURPLE_SKITTY, 
+        F_SMOSLIME_COL | F_ORANGE_SMOSLIME | F_GREEN_SMOSLIME | F_PURPLE_SMOSLIME, 
         F_ANGBEAST_COL | F_ORANGE_ANGBEAST | F_GREEN_ANGBEAST | F_PURPLE_ANGBEAST
     };
     u32 rowFlags[NUM_BOARD_COLORS] = {
-        F_ORANGE_ROW | F_ORANGE_BABINION | F_ORANGE_AZURILL | F_ORANGE_SKITTY | F_ORANGE_ANGBEAST, 
-        F_GREEN_ROW | F_GREEN_BABINION | F_GREEN_AZURILL | F_GREEN_SKITTY | F_GREEN_ANGBEAST, 
-        F_PURPLE_ROW | F_PURPLE_BABINION | F_PURPLE_AZURILL | F_PURPLE_SKITTY | F_PURPLE_ANGBEAST
+        F_ORANGE_ROW | F_ORANGE_BABINION | F_ORANGE_AZURILL | F_ORANGE_SMOSLIME | F_ORANGE_ANGBEAST, 
+        F_GREEN_ROW | F_GREEN_BABINION | F_GREEN_AZURILL | F_GREEN_SMOSLIME | F_GREEN_ANGBEAST, 
+        F_PURPLE_ROW | F_PURPLE_BABINION | F_PURPLE_AZURILL | F_PURPLE_SMOSLIME | F_PURPLE_ANGBEAST
     };
 
     if (slotId >= NUM_ROULETTE_SLOTS)
@@ -2106,7 +2106,7 @@ static bool8 IsHitInBetSelection(u8 gridSquare, u8 betSelection)
             return 3; // should never happen, player must place bet
         case COL_BABINION:
         case COL_AZURILL:
-        case COL_SKITTY:
+        case COL_SMOSLIME:
         case COL_ANGBEAST:
             if (hit == betSelection + ROW_ORANGE 
              || hit == betSelection + ROW_GREEN 
@@ -2171,8 +2171,8 @@ static void FlashSelectionOnWheel(u8 selectionId)
         case COL_AZURILL:
             palOffset = gSprites[sRoulette->spriteIds[SPR_WHEEL_ICON_GREEN_AZURILL]].oam.paletteNum * 16;
             break;
-        case COL_SKITTY:
-            palOffset = gSprites[sRoulette->spriteIds[SPR_WHEEL_ICON_PURPLE_SKITTY]].oam.paletteNum * 16;
+        case COL_SMOSLIME:
+            palOffset = gSprites[sRoulette->spriteIds[SPR_WHEEL_ICON_PURPLE_SMOSLIME]].oam.paletteNum * 16;
             break;
         case COL_ANGBEAST:
             palOffset = gSprites[sRoulette->spriteIds[SPR_WHEEL_ICON_ORANGE_ANGBEAST]].oam.paletteNum * 16;
@@ -2238,7 +2238,7 @@ static void DrawGridBackground(u8 selectionId)
         return;
     case COL_BABINION:
     case COL_AZURILL:
-    case COL_SKITTY:
+    case COL_SMOSLIME:
     case COL_ANGBEAST:
         numSquares = NUM_BOARD_COLORS + 1; // For each poke column, 3 colors and a header
         for (i = 0; i < numSquares; i++)
@@ -2332,7 +2332,7 @@ static const u16 sTaillow_Pal[] = INCBIN_U16("graphics/roulette/tailow.gbapal");
 static const u16 sGridIcons_Pal[] = INCBIN_U16("graphics/roulette/grid_icons.gbapal");
 static const u16 sBabinion_Pal[] = INCBIN_U16("graphics/roulette/babinion.gbapal");
 static const u16 sAzurill_Pal[] = INCBIN_U16("graphics/roulette/azurill.gbapal");
-static const u16 sSkitty_Pal[] = INCBIN_U16("graphics/roulette/skitty.gbapal");
+static const u16 sSmoslime_Pal[] = INCBIN_U16("graphics/roulette/smoslime.gbapal");
 static const u16 sAngbeast_Pal[] = INCBIN_U16("graphics/roulette/angbeast.gbapal");
 static const u16 sUnused1_Pal[] = INCBIN_U16("graphics/roulette/unused_1.gbapal");
 static const u16 sUnused2_Pal[] = INCBIN_U16("graphics/roulette/unused_2.gbapal");
@@ -2358,7 +2358,7 @@ static const struct SpritePalette sSpritePalettes[] =
     { .data = sGridIcons_Pal,   .tag = PALTAG_GRID_ICONS },
     { .data = sBabinion_Pal,      .tag = PALTAG_BABINION },
     { .data = sAzurill_Pal,     .tag = PALTAG_AZURILL },
-    { .data = sSkitty_Pal,      .tag = PALTAG_SKITTY },
+    { .data = sSmoslime_Pal,      .tag = PALTAG_SMOSLIME },
     { .data = sAngbeast_Pal,    .tag = PALTAG_ANGBEAST },
     {}
 };
@@ -2446,7 +2446,7 @@ static const union AnimCmd *const sAnim_WheelIcon_GreenAzurill[] =
     &sAnim_WheelIcons[1]
 };
 
-static const union AnimCmd *const sAnim_WheelIcon_PurpleSkitty[] =
+static const union AnimCmd *const sAnim_WheelIcon_PurpleSmoslime[] =
 {
     &sAnim_WheelIcons[2]
 };
@@ -2466,7 +2466,7 @@ static const union AnimCmd *const sAnim_WheelIcon_PurpleAzurill[] =
     &sAnim_WheelIcons[5]
 };
 
-static const union AnimCmd *const sAnim_WheelIcon_OrangeSkitty[] =
+static const union AnimCmd *const sAnim_WheelIcon_OrangeSmoslime[] =
 {
     &sAnim_WheelIcons[6]
 };
@@ -2486,7 +2486,7 @@ static const union AnimCmd *const sAnim_WheelIcon_OrangeAzurill[] =
     &sAnim_WheelIcons[9]
 };
 
-static const union AnimCmd *const sAnim_WheelIcon_GreenSkitty[] =
+static const union AnimCmd *const sAnim_WheelIcon_GreenSmoslime[] =
 {
     &sAnim_WheelIcons[10]
 };
@@ -2545,7 +2545,7 @@ static const union AnimCmd *const sAnim_AzurillHeader[] =
     &sAnim_Headers[2]
 };
 
-static const union AnimCmd *const sAnim_SkittyHeader[] =
+static const union AnimCmd *const sAnim_SmoslimeHeader[] =
 {
     &sAnim_Headers[4]
 };
@@ -2580,7 +2580,7 @@ static const union AnimCmd *const sAnim_GridIcon_Azurill[] =
     &sAnim_GridIcons[1]
 };
 
-static const union AnimCmd *const sAnim_GridIcon_Skitty[] =
+static const union AnimCmd *const sAnim_GridIcon_Smoslime[] =
 {
     &sAnim_GridIcons[2]
 };
@@ -2614,7 +2614,7 @@ static const struct SpriteTemplate sSpriteTemplates_PokeHeaders[NUM_BOARD_POKES]
         .tileTag = GFXTAG_HEADERS,
         .paletteTag = PALTAG_GRID_ICONS,
         .oam = &sOam_GridHeader,
-        .anims = sAnim_SkittyHeader,
+        .anims = sAnim_SmoslimeHeader,
         .images = NULL,
         .affineAnims = gDummySpriteAffineAnimTable,
         .callback = SpriteCB_GridSquare
@@ -2685,7 +2685,7 @@ static const struct SpriteTemplate sSpriteTemplate_GridIcons[NUM_BOARD_POKES] =
         .tileTag = GFXTAG_GRID_ICONS,
         .paletteTag = PALTAG_GRID_ICONS,
         .oam = &sOam_GridIcon,
-        .anims = sAnim_GridIcon_Skitty,
+        .anims = sAnim_GridIcon_Smoslime,
         .images = NULL,
         .affineAnims = gDummySpriteAffineAnimTable,
         .callback = SpriteCB_GridSquare
@@ -2702,7 +2702,7 @@ static const struct SpriteTemplate sSpriteTemplate_GridIcons[NUM_BOARD_POKES] =
 };
 
 // Wheel icons are listed clockwise starting from 1 oclock on the roulette wheel (with pokeball upside right)
-// They go Babinion -> Azurill -> Skitty -> Angbeast, and Orange -> Green -> Purple
+// They go Babinion -> Azurill -> Smoslime -> Angbeast, and Orange -> Green -> Purple
 static const struct SpriteTemplate sSpriteTemplates_WheelIcons[NUM_ROULETTE_SLOTS] =
 {
     {
@@ -2725,9 +2725,9 @@ static const struct SpriteTemplate sSpriteTemplates_WheelIcons[NUM_ROULETTE_SLOT
     },
     {
         .tileTag = GFXTAG_WHEEL_ICONS,
-        .paletteTag = PALTAG_SKITTY,
+        .paletteTag = PALTAG_SMOSLIME,
         .oam = &sOam_WheelIcon,
-        .anims = sAnim_WheelIcon_PurpleSkitty,
+        .anims = sAnim_WheelIcon_PurpleSmoslime,
         .images = NULL,
         .affineAnims = gDummySpriteAffineAnimTable,
         .callback = SpriteCB_WheelIcon
@@ -2761,9 +2761,9 @@ static const struct SpriteTemplate sSpriteTemplates_WheelIcons[NUM_ROULETTE_SLOT
     },
     {
         .tileTag = GFXTAG_WHEEL_ICONS,
-        .paletteTag = PALTAG_SKITTY,
+        .paletteTag = PALTAG_SMOSLIME,
         .oam = &sOam_WheelIcon,
-        .anims = sAnim_WheelIcon_OrangeSkitty,
+        .anims = sAnim_WheelIcon_OrangeSmoslime,
         .images = NULL,
         .affineAnims = gDummySpriteAffineAnimTable,
         .callback = SpriteCB_WheelIcon
@@ -2797,9 +2797,9 @@ static const struct SpriteTemplate sSpriteTemplates_WheelIcons[NUM_ROULETTE_SLOT
     },
     {
         .tileTag = GFXTAG_WHEEL_ICONS,
-        .paletteTag = PALTAG_SKITTY,
+        .paletteTag = PALTAG_SMOSLIME,
         .oam = &sOam_WheelIcon,
-        .anims = sAnim_WheelIcon_GreenSkitty,
+        .anims = sAnim_WheelIcon_GreenSmoslime,
         .images = NULL,
         .affineAnims = gDummySpriteAffineAnimTable,
         .callback = SpriteCB_WheelIcon

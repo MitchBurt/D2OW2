@@ -1565,7 +1565,7 @@ const struct Item gItems[] =
     [ITEM_FLUFFY_TAIL] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Cola Skitty"),
+        .name = _("Cola Smoslime"),
 #else
         .name = _("Fluffy Tail"),
 #endif

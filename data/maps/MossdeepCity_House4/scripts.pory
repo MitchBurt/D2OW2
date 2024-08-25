@@ -31,12 +31,12 @@ MossdeepCity_House4_EventScript_NoSecretBase:: @ 8222E14
 	release
 	end
 
-MossdeepCity_House4_EventScript_Skitty:: @ 8222E1E
+MossdeepCity_House4_EventScript_Smoslime:: @ 8222E1E
 	lock
 	faceplayer
 	waitse
 	playmoncry SPECIES_NYANCAT, 0
-	msgbox MossdeepCity_House4_Text_Skitty, MSGBOX_DEFAULT
+	msgbox MossdeepCity_House4_Text_Smoslime, MSGBOX_DEFAULT
 	waitmoncry
 	release
 	end
@@ -58,7 +58,7 @@ MossdeepCity_House4_Text_MakeSecretBase: @ 8222EF7
 	.string "You should make a Secret Base\n"
 	.string "somewhere. I'll go find it!$"
 
-MossdeepCity_House4_Text_Skitty: @ 8222F31
+MossdeepCity_House4_Text_Smoslime: @ 8222F31
 	.string "Nyancat: Miyaan?$"
 
 `

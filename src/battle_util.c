@@ -3547,12 +3547,12 @@ u8 TryWeatherFormChange(u8 battler)
 			ret = 1;
         }else
 			ret = 0;
-	}else if (gBattleMons[battler].species == SPECIES_CHERRIM && 
+	}else if (gBattleMons[battler].species == SPECIES_NOTYUHDAD && 
 	          gBattleMons[battler].ability == ABILITY_FLOWER_GIFT &&
 		      gBattleMons[battler].hp != 0){
 			if (gBattleWeather & (WEATHER_SUN_ANY))
         {
-            gBattleMons[battler].species = SPECIES_CHERRIM_SUNSHINE;
+            gBattleMons[battler].species = SPECIES_NOTYUHDAD_SUNSHINE;
 			ret = 1;
         }
 	}
@@ -3665,12 +3665,12 @@ static bool32 ShouldChangeFormHpBased(u32 battler)
 			return TRUE;
         }else
 			return FALSE;
-	}else if (gBattleMons[battler].species == SPECIES_CHERRIM && 
+	}else if (gBattleMons[battler].species == SPECIES_NOTYUHDAD && 
 	          gBattleMons[battler].ability == ABILITY_FLOWER_GIFT &&
 		      gBattleMons[battler].hp != 0){
 			if (gBattleWeather & (WEATHER_SUN_ANY))
         {
-            gBattleMons[battler].species = SPECIES_CHERRIM_SUNSHINE;
+            gBattleMons[battler].species = SPECIES_NOTYUHDAD_SUNSHINE;
 			return TRUE;
 		}
 	}
@@ -4282,16 +4282,16 @@ u8 AbilityBattleEffects(u8 caseID, u8 battler, u16 ability, u8 special, u16 move
             }
             break;
         case ABILITY_FLOWER_GIFT:
-			if(gBattleMons[battler].item == ITEM_HEAT_ROCK && gBattleMons[battler].species == SPECIES_CHERRIM){
+			if(gBattleMons[battler].item == ITEM_HEAT_ROCK && gBattleMons[battler].species == SPECIES_NOTYUHDAD){
 				if (TryChangeBattleWeather(battler, ENUM_WEATHER_SUN, TRUE))
 				{
 					BattleScriptPushCursorAndCallback(BattleScript_DroughtActivates);
-					gBattleMons[battler].species = SPECIES_CHERRIM_SUNSHINE;
+					gBattleMons[battler].species = SPECIES_NOTYUHDAD_SUNSHINE;
 					BattleScriptPushCursorAndCallback(BattleScript_AttackerFormChangeEnd3);
 					effect++;
 				}
 			}
-			else if(gBattleMons[battler].item == ITEM_HEAT_ROCK && gBattleMons[battler].species != SPECIES_CHERRIM){
+			else if(gBattleMons[battler].item == ITEM_HEAT_ROCK && gBattleMons[battler].species != SPECIES_NOTYUHDAD){
 				if (TryChangeBattleWeather(battler, ENUM_WEATHER_SUN, TRUE))
 				{
 					BattleScriptPushCursorAndCallback(BattleScript_DroughtActivates);
@@ -8563,7 +8563,7 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
             MulModifier(&modifier, UQ_4_12(1.3));
         break;
     case ABILITY_FLOWER_GIFT:
-        if (gBattleMons[battlerAtk].species == SPECIES_CHERRIM && WEATHER_HAS_EFFECT && gBattleWeather & WEATHER_SUN_ANY)
+        if (gBattleMons[battlerAtk].species == SPECIES_NOTYUHDAD && WEATHER_HAS_EFFECT && gBattleWeather & WEATHER_SUN_ANY)
             MulModifier(&modifier, UQ_4_12(1.5));
         break;
     case ABILITY_HUSTLE:
@@ -8607,7 +8607,7 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
         switch (GetBattlerAbility(BATTLE_PARTNER(battlerAtk)))
         {
         case ABILITY_FLOWER_GIFT:
-            if (gBattleMons[BATTLE_PARTNER(battlerAtk)].species == SPECIES_CHERRIM)
+            if (gBattleMons[BATTLE_PARTNER(battlerAtk)].species == SPECIES_NOTYUHDAD)
                 MulModifier(&modifier, UQ_4_12(1.5));
             break;
         }
@@ -8841,7 +8841,7 @@ static u32 CalcDefenseStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, 
         switch (GetBattlerAbility(BATTLE_PARTNER(battlerDef)))
         {
         case ABILITY_FLOWER_GIFT:
-            if (gBattleMons[BATTLE_PARTNER(battlerDef)].species == SPECIES_CHERRIM && !usesDefStat)
+            if (gBattleMons[BATTLE_PARTNER(battlerDef)].species == SPECIES_NOTYUHDAD && !usesDefStat)
                 MulModifier(&modifier, UQ_4_12(1.5));
             break;
         }
@@ -9613,7 +9613,7 @@ void UndoFormChange(u32 monId, u32 side)
 		{SPECIES_CASTFORM_SUNNY, SPECIES_CASTFORM},
 		{SPECIES_CASTFORM_SNOWY, SPECIES_CASTFORM},
 		{SPECIES_CASTFORM_RAINY, SPECIES_CASTFORM},
-		{SPECIES_CHERRIM_SUNSHINE, SPECIES_CHERRIM},
+		{SPECIES_NOTYUHDAD_SUNSHINE, SPECIES_NOTYUHDAD},
 		{SPECIES_DARMANITAN_ZEN_MODE, SPECIES_DARMANITAN},
 		{SPECIES_DARMANITAN_ZEN_MODE_GALARIAN, SPECIES_DARMANITAN_GALARIAN},
 		{SPECIES_AEGISLASH_BLADE, SPECIES_AEGISLASH},

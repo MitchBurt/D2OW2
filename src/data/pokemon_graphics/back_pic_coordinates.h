@@ -1455,7 +1455,7 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x85,
         .y_offset = 14,
     },
-    [SPECIES_SKITTY] =
+    [SPECIES_SMOSLIME] =
     {
         .size = 0x87,
         .y_offset = 6,
@@ -1490,7 +1490,7 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x86,
         .y_offset = 8,
     },
-    [SPECIES_SABLEYE] =
+    [SPECIES_SECRITLER] =
     {
         .size = 0x66,
         .y_offset = 13,
@@ -1935,7 +1935,7 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x87,
         .y_offset = 6,
     },
-    [SPECIES_CHIMECHO] =
+    [SPECIES_KIRBAIRDE] =
     {
         .size = 0x87,
         .y_offset = 9,
@@ -1955,17 +1955,17 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x87,
         .y_offset = 4,
     },
-    [SPECIES_CHIMCHAR] =
+    [SPECIES_EMBOB] =
     {
         .size = 0x77,
         .y_offset = 6,
     },
-    [SPECIES_MONFERNO] =
+    [SPECIES_COALGAR] =
     {
         .size = 0x88,
         .y_offset = 0,
     },
-    [SPECIES_INFERNAPE] =
+    [SPECIES_BOBISTIC] =
     {
         .size = 0x88,
         .y_offset = 0,
@@ -2000,12 +2000,12 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x88,
         .y_offset = 3,
     },
-    [SPECIES_BIDOOF] =
+    [SPECIES_XDIK] =
     {
         .size = 0x85,
         .y_offset = 13,
     },
-    [SPECIES_BIBAREL] =
+    [SPECIES_XDEMON] =
     {
         .size = 0x87,
         .y_offset = 6,
@@ -2035,7 +2035,7 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x88,
         .y_offset = 0,
     },
-    [SPECIES_BUDEW] =
+    [SPECIES_BANANA] =
     {
         .size = 0x57,
         .y_offset = 11,
@@ -2095,32 +2095,32 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x88,
         .y_offset = 3,
     },
-    [SPECIES_BUIZEL] =
+    [SPECIES_SQUIGGA] =
     {
         .size = 0x86,
         .y_offset = 9,
     },
-    [SPECIES_FLOATZEL] =
+    [SPECIES_SQUIGGRO] =
     {
         .size = 0x88,
         .y_offset = 6,
     },
-    [SPECIES_CHERUBI] =
+    [SPECIES_BUSHIZARD] =
     {
         .size = 0x65,
         .y_offset = 13,
     },
-    [SPECIES_CHERRIM] =
+    [SPECIES_NOTYUHDAD] =
     {
         .size = 0x57,
         .y_offset = 9,
     },
-    [SPECIES_SHELLOS] =
+    [SPECIES_CHOCCUDLE] =
     {
         .size = 0x57,
         .y_offset = 8,
     },
-    [SPECIES_GASTRODON] =
+    [SPECIES_CHOCTIC] =
     {
         .size = 0x78,
         .y_offset = 3,
@@ -2250,7 +2250,7 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x88,
         .y_offset = 0,
     },
-    [SPECIES_HIPPOPOTAS] =
+    [SPECIES_JOURNEMAP] =
     {
         .size = 0x85,
         .y_offset = 14,
@@ -4626,7 +4626,7 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0,
         .y_offset = 6,
     },
-    [SPECIES_SABLEYE_MEGA] =
+    [SPECIES_SECRITLER_MEGA] =
     {
         .size = 0,
         .y_offset = 13,
@@ -5208,20 +5208,20 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x78,
         .y_offset = 2,
     },
-    // Cherrim
-    [SPECIES_CHERRIM_SUNSHINE] =
+    // Notyuhdad
+    [SPECIES_NOTYUHDAD_SUNSHINE] =
     {
         .size = 0x57,
         .y_offset = 6,
     },
-    // Shellos
-    [SPECIES_SHELLOS_EAST_SEA] =
+    // Choccudle
+    [SPECIES_CHOCCUDLE_EAST_SEA] =
     {
         .size = 0x57,
         .y_offset = 8,
     },
-    // Gastrodon
-    [SPECIES_GASTRODON_EAST_SEA] =
+    // Choctic
+    [SPECIES_CHOCTIC_EAST_SEA] =
     {
         .size = 0x78,
         .y_offset = 3,

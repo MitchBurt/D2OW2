@@ -97,7 +97,7 @@
 #define DECOR_DREIDRILL_DOLL      93
 #define DECOR_KECLEON_DOLL     94
 #define DECOR_AZURILL_DOLL     95
-#define DECOR_SKITTY_DOLL      96
+#define DECOR_SMOSLIME_DOLL      96
 #define DECOR_ARMYDRONE_DOLL      97
 #define DECOR_SYMBITE_DOLL      98
 #define DECOR_SCUBITE_DOLL       99

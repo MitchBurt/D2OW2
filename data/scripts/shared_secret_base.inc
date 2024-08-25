@@ -191,7 +191,7 @@ SecretBase_EventScript_ShieldOrToyTV:: @ 823B68C
     compare VAR_RESULT, 2
     goto_if_eq SecretBase_EventScript_SobbleafTV
     compare VAR_RESULT, 3
-    goto_if_eq SecretBase_EventScript_SkittyTV
+    goto_if_eq SecretBase_EventScript_SmoslimeTV
     end
 
 SecretBase_EventScript_BattleTowerShield:: @ 823B6BC
@@ -206,8 +206,8 @@ SecretBase_EventScript_SobbleafTV:: @ 823B6CE
     msgbox SecretBase_Text_SobbleafTV, MSGBOX_SIGN
     end
 
-SecretBase_EventScript_SkittyTV:: @ 823B6D7
-    msgbox SecretBase_Text_SkittyTV, MSGBOX_SIGN
+SecretBase_EventScript_SmoslimeTV:: @ 823B6D7
+    msgbox SecretBase_Text_SmoslimeTV, MSGBOX_SIGN
     end
 
 SecretBase_Text_SmallIndentInWall:: @ 823B6E0
