@@ -2577,10 +2577,10 @@ static const u8 sUsarmyiteDesc[] = _(
     "megaevolucionar a\n"
     "Usarmy.");
 
-static const u8 sLucarioniteDesc[] = _(
+static const u8 sBloknockniteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Lucario.");
+    "Bloknock.");
 
 static const u8 sAbomasiteDesc[] = _(
     "Piedra que permite\n"
@@ -2622,10 +2622,10 @@ static const u8 sManectiteDesc[] = _(
     "megaevolucionar a\n"
     "Auxilisk.");
 
-static const u8 sGarchompiteDesc[] = _(
+static const u8 sTruckoiseiteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Garchomp.");
+    "Truckoise.");
 
 static const u8 sLatiasiteDesc[] = _(
     "Piedra que permite\n"
@@ -5810,9 +5810,9 @@ static const u8 sUsarmyiteDesc[] = _(
     "Usarmy to Mega\n"
     "Evolve in battle.");
 
-static const u8 sLucarioniteDesc[] = _(
+static const u8 sBloknockniteDesc[] = _(
     "This stone enables\n"
-    "Lucario to Mega\n"
+    "Bloknock to Mega\n"
     "Evolve in battle.");
 
 static const u8 sAbomasiteDesc[] = _(
@@ -5855,9 +5855,9 @@ static const u8 sManectiteDesc[] = _(
     "Auxilisk to Mega\n"
     "Evolve in battle.");
 
-static const u8 sGarchompiteDesc[] = _(
+static const u8 sTruckoiseiteDesc[] = _(
     "This stone enables\n"
-    "Garchomp to Mega\n"
+    "Truckoise to Mega\n"
     "Evolve in battle.");
 
 static const u8 sLatiasiteDesc[] = _(

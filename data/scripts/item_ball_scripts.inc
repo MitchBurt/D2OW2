@@ -742,12 +742,12 @@ MegaStone_EventScript_Bacidite::
 	addscaleditem ITEM_BACIDITE
 	end
 	
-MegaStone_EventScript_Lucarionite::
-	addscaleditem ITEM_LUCARIONITE
+MegaStone_EventScript_Bloknocknite::
+	addscaleditem ITEM_BLOKNOCKNITE
 	end
 	
-MegaStone_EventScript_Garchompite::
-	addscaleditem ITEM_GARCHOMPITE
+MegaStone_EventScript_Truckoiseite::
+	addscaleditem ITEM_TRUCKOISEITE
 	end
 	
 MegaStone_EventScript_Lonkestite::

@@ -2576,16 +2576,16 @@ const struct SpriteFrameImage gObjectEventPicTable_Shepeird[] = {
     overworld_frame(gObjectEventPic_Shepeird, 4, 4, 0),
 };
 
-const struct SpriteFrameImage gObjectEventPicTable_Munchlax[] = {
-    overworld_frame(gObjectEventPic_Munchlax, 4, 4, 0),
-    overworld_frame(gObjectEventPic_Munchlax, 4, 4, 0),
-    overworld_frame(gObjectEventPic_Munchlax, 4, 4, 0),
-    overworld_frame(gObjectEventPic_Munchlax, 4, 4, 0),
-    overworld_frame(gObjectEventPic_Munchlax, 4, 4, 0),
-    overworld_frame(gObjectEventPic_Munchlax, 4, 4, 0),
-    overworld_frame(gObjectEventPic_Munchlax, 4, 4, 0),
-    overworld_frame(gObjectEventPic_Munchlax, 4, 4, 0),
-    overworld_frame(gObjectEventPic_Munchlax, 4, 4, 0),
+const struct SpriteFrameImage gObjectEventPicTable_Trololing[] = {
+    overworld_frame(gObjectEventPic_Trololing, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Trololing, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Trololing, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Trololing, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Trololing, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Trololing, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Trololing, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Trololing, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Trololing, 4, 4, 0),
 };
 
 /*/

@@ -11586,7 +11586,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     },
 
 //TODO
-    //Banana Bomb - everyone target, grass type
+    //Banslip Bomb - everyone target, grass type
     
 /* 
 
@@ -12676,7 +12676,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_LUCARIO] =
+    [SPECIES_BLOKNOCK] =
     {
         .move = MOVE_AURA_SPHERE,
         .modification = SIGNATURE_MOD_POWER,
@@ -12689,7 +12689,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_LUCARIO_MEGA] =
+    [SPECIES_BLOKNOCK_MEGA] =
     {
         .move = MOVE_AURA_SPHERE,
         .modification = SIGNATURE_MOD_POWER,

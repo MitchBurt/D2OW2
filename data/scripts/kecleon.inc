@@ -113,17 +113,17 @@ Movement_KecleonAppears: @ 82723C7
 	set_visible
 	step_end
 	
-// Munchlax & Shepeird -------------------------------------------------------------------------
-EventScript_SetMunchlaxFamilyGfx:: @ 82574C6
+// Trololing & Shepeird -------------------------------------------------------------------------
+EventScript_SetTrololingFamilyGfx:: @ 82574C6
 	special ShouldStaticEncounterBeFirstStage
 	compare VAR_RESULT, TRUE
-	goto_if_eq EventScript_SetMunchlaxGfx
-	goto_if_unset FLAG_BADGE04_GET, EventScript_SetMunchlaxGfx
+	goto_if_eq EventScript_SetTrololingGfx
+	goto_if_unset FLAG_BADGE04_GET, EventScript_SetTrololingGfx
     goto_if_set   FLAG_BADGE04_GET, EventScript_SetShepeirdGfx
 	return
 	
-EventScript_SetMunchlaxGfx:: @ 82574C6
-	setvar VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_MUNCHLAX
+EventScript_SetTrololingGfx:: @ 82574C6
+	setvar VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_TROLOLING
 	return
 	
 EventScript_SetShepeirdGfx:: @ 82574C6
@@ -146,8 +146,8 @@ EventScript_Shepeird_AskUseFlute:: @ 8272350
 	end
 	
 EventScript_BattleShepeird:: @ 8272365
-	goto_if_unset FLAG_BADGE04_GET, EventScript_BattleMunchlax
-	goto_if_set FLAG_TEMP_5, EventScript_BattleMunchlax
+	goto_if_unset FLAG_BADGE04_GET, EventScript_BattleTrololing
+	goto_if_set FLAG_TEMP_5, EventScript_BattleTrololing
 	msgbox Shepeird_Text_PlayedPokeFlute, MSGBOX_DEFAULT
 	playfanfare MUS_RG_SNEDDIT
 	delay 400
@@ -178,7 +178,7 @@ EventScript_BattleShepeird:: @ 8272365
 	release
 	end
 	
-EventScript_BattleMunchlax:: @ 8272365
+EventScript_BattleTrololing:: @ 8272365
 	msgbox Shepeird_Text_PlayedPokeFlute, MSGBOX_DEFAULT
 	playfanfare MUS_RG_SNEDDIT
 	delay 400
@@ -186,10 +186,10 @@ EventScript_BattleMunchlax:: @ 8272365
 	msgbox Shepeird_Text_ShepeirdWokeUp, MSGBOX_DEFAULT
 	closemessage
 	waitse
-	playmoncry SPECIES_MUNCHLAX, 2
+	playmoncry SPECIES_TROLOLING, 2
 	delay 40
 	waitmoncry
-	setwildbattle SPECIES_MUNCHLAX, 2, ITEM_LEFTOVERS
+	setwildbattle SPECIES_TROLOLING, 2, ITEM_LEFTOVERS
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
 	dowildbattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE

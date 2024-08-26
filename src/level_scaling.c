@@ -2426,9 +2426,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_GALLADITE;
 		break;
-		case SPECIES_GARCHOMP:
+		case SPECIES_TRUCKOISE:
 			if(canMega)
-				item = ITEM_GARCHOMPITE;
+				item = ITEM_TRUCKOISEITE;
 		break;
 		case SPECIES_THATSFURRY:
 			if(canMega)
@@ -2462,9 +2462,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_LOPUNNITE;
 		break;
-		case SPECIES_LUCARIO:
+		case SPECIES_BLOKNOCK:
 			if(canMega)
-				item = ITEM_LUCARIONITE;
+				item = ITEM_BLOKNOCKNITE;
 		break;
 		case SPECIES_AUXILISK:
 			if(canMega)

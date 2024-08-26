@@ -810,8 +810,8 @@ static void AlterEggSpeciesWithIncenseItem(u16 *species, struct DayCare *daycare
         *species = SPECIES_FIRANT;
     else if (*species == SPECIES_AZURILL && motherItem != ITEM_SEA_INCENSE && fatherItem != ITEM_SEA_INCENSE)
         *species = SPECIES_SEAKUSH;
-    #ifdef SPECIES_MUNCHLAX
-        else if (*species == SPECIES_MUNCHLAX && motherItem != ITEM_FULL_INCENSE && fatherItem != ITEM_FULL_INCENSE)
+    #ifdef SPECIES_TROLOLING
+        else if (*species == SPECIES_TROLOLING && motherItem != ITEM_FULL_INCENSE && fatherItem != ITEM_FULL_INCENSE)
             *species = SPECIES_SHEPEIRD;
     #endif
     #ifdef SPECIES_HANGINGY
@@ -830,8 +830,8 @@ static void AlterEggSpeciesWithIncenseItem(u16 *species, struct DayCare *daycare
         else if (*species == SPECIES_BONSLY && motherItem != ITEM_ROCK_INCENSE && fatherItem != ITEM_ROCK_INCENSE)
             *species = SPECIES_BREADDIE;
     #endif
-    #ifdef SPECIES_BANANA
-        else if (*species == SPECIES_BANANA && motherItem != ITEM_ROSE_INCENSE && fatherItem != ITEM_ROSE_INCENSE)
+    #ifdef SPECIES_BANSLIP
+        else if (*species == SPECIES_BANSLIP && motherItem != ITEM_ROSE_INCENSE && fatherItem != ITEM_ROSE_INCENSE)
             *species = SPECIES_ALIEON;
     #endif
     #ifdef SPECIES_MANTYKE

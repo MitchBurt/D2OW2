@@ -353,45 +353,45 @@ LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedAmonsus:: @ 81FA0FD
 	releaseall
 	end
 
-LittlerootTown_ProfessorBirchsLab_EventScript_GiveGible:: @ 81FA10D
-	bufferspeciesname 0, SPECIES_GIBLE
-	setvar VAR_TEMP_1, SPECIES_GIBLE
-	givemon SPECIES_GIBLE, 5, ITEM_NONE
+LittlerootTown_ProfessorBirchsLab_EventScript_GiveCapple:: @ 81FA10D
+	bufferspeciesname 0, SPECIES_CAPPLE
+	setvar VAR_TEMP_1, SPECIES_CAPPLE
+	givemon SPECIES_CAPPLE, 5, ITEM_NONE
 	compare VAR_RESULT, 0
-	goto_if_eq LittlerootTown_ProfessorBirchsLab_EventScript_SendGibleToParty
+	goto_if_eq LittlerootTown_ProfessorBirchsLab_EventScript_SendCappleToParty
 	compare VAR_RESULT, 1
-	goto_if_eq LittlerootTown_ProfessorBirchsLab_EventScript_SendGibleToPC
+	goto_if_eq LittlerootTown_ProfessorBirchsLab_EventScript_SendCappleToPC
 	hidemonpic
 	goto Common_EventScript_NoMoreRoomForPokemon
 	end
 
-LittlerootTown_ProfessorBirchsLab_EventScript_SendGibleToParty:: @ 81FA142
+LittlerootTown_ProfessorBirchsLab_EventScript_SendCappleToParty:: @ 81FA142
 	call LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedJohtoStarter
 	removeobject LOCALID_BALL_KORBIE
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
 	compare VAR_RESULT, NO
-	goto_if_eq LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedGible
+	goto_if_eq LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedCapple
 	call Common_EventScript_GetGiftMonPartySlot
 	call Common_EventScript_NameReceivedPartyMon
-	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedGible
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedCapple
 	end
 
-LittlerootTown_ProfessorBirchsLab_EventScript_SendGibleToPC:: @ 81FA16D
+LittlerootTown_ProfessorBirchsLab_EventScript_SendCappleToPC:: @ 81FA16D
 	call LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedJohtoStarter
 	removeobject LOCALID_BALL_KORBIE
 	msgbox gText_NicknameThisPokemon, MSGBOX_YESNO
 	compare VAR_RESULT, NO
-	goto_if_eq LittlerootTown_ProfessorBirchsLab_EventScript_GibleTransferredToPC
+	goto_if_eq LittlerootTown_ProfessorBirchsLab_EventScript_CappleTransferredToPC
 	call Common_EventScript_NameReceivedBoxMon
-	goto LittlerootTown_ProfessorBirchsLab_EventScript_GibleTransferredToPC
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_CappleTransferredToPC
 	end
 
-LittlerootTown_ProfessorBirchsLab_EventScript_GibleTransferredToPC:: @ 81FA193
+LittlerootTown_ProfessorBirchsLab_EventScript_CappleTransferredToPC:: @ 81FA193
 	call Common_EventScript_TransferredToPC
-	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedGible
+	goto LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedCapple
 	end
 
-LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedGible:: @ 81FA19E
+LittlerootTown_ProfessorBirchsLab_EventScript_ReceivedCapple:: @ 81FA19E
 	hidemonpic
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_GrassyPatchWaiting, MSGBOX_DEFAULT
 	setvar VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 6
@@ -896,11 +896,11 @@ LittlerootTown_ProfessorBirchsLab_Text_YoullTakeAmonsus: @ 81FB7F6
 	.string "¡Tan inteligente como siempre!\p"
 	.string "Entonces el Amonsus, ¿no?$"
 
-LittlerootTown_ProfessorBirchsLab_Text_YoullTakeGible: @ 81FB869
+LittlerootTown_ProfessorBirchsLab_Text_YoullTakeCapple: @ 81FB869
 	.string "Prof. Abedul: ¡Conque te has fijado\n"
-	.string "en el Pokémon Agua Gible!\p"
+	.string "en el Pokémon Agua Capple!\p"
 	.string "Sabes escoger.\p"
-	.string "Entonces el Gible, ¿no?$"
+	.string "Entonces el Capple, ¿no?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeAxew: @ 81FB8E0
 	.string "Prof. Abedul: ¡Conque te has fijado\n"
@@ -1186,11 +1186,11 @@ LittlerootTown_ProfessorBirchsLab_Text_YoullTakeAmonsus: @ 81FB7F6
 	.string "You're as sharp as ever!\p"
 	.string "So the Amonsus is your choice?$"
 
-LittlerootTown_ProfessorBirchsLab_Text_YoullTakeGible: @ 81FB869
+LittlerootTown_ProfessorBirchsLab_Text_YoullTakeCapple: @ 81FB869
 	.string "Prof. Birch: The Water Pokémon\n"
-	.string "Gible is your choice!\p"
+	.string "Capple is your choice!\p"
 	.string "You know how to pick a good one.\p"
-	.string "So, you'll take the Gible?$"
+	.string "So, you'll take the Capple?$"
 
 LittlerootTown_ProfessorBirchsLab_Text_YoullTakeAxew: @ 81FB8E0
 	.string "Prof. Birch: The Grass Pokémon\n"
@@ -1409,23 +1409,23 @@ script LittlerootTown_ProfessorBirchsLab_EventScript_Amonsus{
 	end
 }
 
-script LittlerootTown_ProfessorBirchsLab_EventScript_Gible{
+script LittlerootTown_ProfessorBirchsLab_EventScript_Capple{
 	if(var(VAR_DEX_UPGRADE_JOHTO_STARTER_STATE) == 6){
 		goto(LittlerootTown_ProfessorBirchsLab_EventScript_AlreadyChoseJohtoStarter)
 	}
 	applymovement(LOCALID_BIRCH, Common_Movement_WalkInPlaceFastestRight)
 	waitmovement(0)
-	showshinymonpic(SPECIES_GIBLE, 10, 3)
-	msgbox(format("Prof. Birch: The Land Shark Pokémon Gible is your choice! You sure know what you're doing. So, you'll take the Gible?"), MSGBOX_YESNO)
+	showshinymonpic(SPECIES_CAPPLE, 10, 3)
+	msgbox(format("Prof. Birch: The Land Shark Pokémon Capple is your choice! You sure know what you're doing. So, you'll take the Capple?"), MSGBOX_YESNO)
 	switch(var(VAR_RESULT)){
 		case YES:
-			bufferspeciesname(0, SPECIES_GIBLE)
-			setvar(VAR_TEMP_1, SPECIES_GIBLE)
-			givecustommon(SPECIES_GIBLE, 5, ITEM_SOOTHE_BELL, ITEM_CHERISH_BALL, NATURE_JOLLY, 2, 0, 0, 0, 0, 0, 0, 31, 31, 31, 31, 31, 31, MOVE_DRAGON_DANCE, MOVE_DRAGON_RAGE, MOVE_SAND_TOMB, MOVE_TACKLE, TRUE)
+			bufferspeciesname(0, SPECIES_CAPPLE)
+			setvar(VAR_TEMP_1, SPECIES_CAPPLE)
+			givecustommon(SPECIES_CAPPLE, 5, ITEM_SOOTHE_BELL, ITEM_CHERISH_BALL, NATURE_JOLLY, 2, 0, 0, 0, 0, 0, 0, 31, 31, 31, 31, 31, 31, MOVE_DRAGON_DANCE, MOVE_DRAGON_RAGE, MOVE_SAND_TOMB, MOVE_TACKLE, TRUE)
 			compare(VAR_RESULT, 0)
-			goto_if_eq(LittlerootTown_ProfessorBirchsLab_EventScript_SendGibleToParty)
+			goto_if_eq(LittlerootTown_ProfessorBirchsLab_EventScript_SendCappleToParty)
 			compare(VAR_RESULT, 1)
-			goto_if_eq(LittlerootTown_ProfessorBirchsLab_EventScript_SendGibleToPC)
+			goto_if_eq(LittlerootTown_ProfessorBirchsLab_EventScript_SendCappleToPC)
 			hidemonpic
 			goto(Common_EventScript_NoMoreRoomForPokemon)
 		break

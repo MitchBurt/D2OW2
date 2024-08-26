@@ -2633,7 +2633,7 @@ bool8 FldEff_FieldMoveShowMonInit(void)
         switch (gSpecialVar_0x8008)
         {
         case MOVE_CUT:
-            gFieldEffectArguments[0] = SPECIES_GABITE;
+            gFieldEffectArguments[0] = SPECIES_SHELLHAUL;
             break;
         case MOVE_ROCK_SMASH:
             gFieldEffectArguments[0] = SPECIES_SAWK;

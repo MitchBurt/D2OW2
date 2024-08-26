@@ -2010,12 +2010,12 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x45,
         .y_offset = 8,
     },
-    [SPECIES_KRICKETOT] =
+    [SPECIES_DESITRUS] =
     {
         .size = 0x86,
         .y_offset = 11,
     },
-    [SPECIES_KRICKETUNE] =
+    [SPECIES_DESQUEEZE] =
     {
         .size = 0x65,
         .y_offset = 7,
@@ -2035,7 +2035,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x44,
         .y_offset = 2,
     },
-    [SPECIES_BANANA] =
+    [SPECIES_BANSLIP] =
     {
         .size = 0x66,
         .y_offset = 14,
@@ -2100,7 +2100,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x55,
         .y_offset = 10,
     },
-    [SPECIES_SQUIGGRO] =
+    [SPECIES_DESPARWARD] =
     {
         .size = 0x66,
         .y_offset = 3,
@@ -2220,32 +2220,32 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x65,
         .y_offset = 6,
     },
-    [SPECIES_GIBLE] =
+    [SPECIES_CAPPLE] =
     {
         .size = 0x77,
         .y_offset = 9,
     },
-    [SPECIES_GABITE] =
+    [SPECIES_SHELLHAUL] =
     {
         .size = 0x66,
         .y_offset = 2,
     },
-    [SPECIES_GARCHOMP] =
+    [SPECIES_TRUCKOISE] =
     {
         .size = 0x88,
         .y_offset = 0,
     },
-    [SPECIES_MUNCHLAX] =
+    [SPECIES_TROLOLING] =
     {
         .size = 0x74,
         .y_offset = 10,
     },
-    [SPECIES_RIOLU] =
+    [SPECIES_BRIXEL] =
     {
         .size = 0x76,
         .y_offset = 10,
     },
-    [SPECIES_LUCARIO] =
+    [SPECIES_BLOKNOCK] =
     {
         .size = 0x76,
         .y_offset = 7,
@@ -4707,12 +4707,12 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0,
         .y_offset = 2,
     },
-    [SPECIES_GARCHOMP_MEGA] =
+    [SPECIES_TRUCKOISE_MEGA] =
     {
         .size = 0,
         .y_offset = 3,
     },
-    [SPECIES_LUCARIO_MEGA] =
+    [SPECIES_BLOKNOCK_MEGA] =
     {
         .size = 0,
         .y_offset = 0,

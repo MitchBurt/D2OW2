@@ -495,7 +495,7 @@ const u16 gFieldEffectObjectPalette_CaveDust[] = INCBIN_U16("graphics/field_effe
 //Some Static Pokemon Sprites
 const u32 gObjectEventPic_Bonsly[] = INCBIN_U32("graphics/object_events/pics/pokemon/bonsly.4bpp");
 const u32 gObjectEventPic_Breaddie[] = INCBIN_U32("graphics/object_events/pics/pokemon/breaddie.4bpp");
-const u32 gObjectEventPic_Munchlax[] = INCBIN_U32("graphics/object_events/pics/pokemon/munchlax.4bpp");
+const u32 gObjectEventPic_Trololing[] = INCBIN_U32("graphics/object_events/pics/pokemon/trololing.4bpp");
 const u32 gObjectEventPic_Shepeird[] = INCBIN_U32("graphics/object_events/pics/pokemon/shepeird.4bpp");
 
 /*/Pokemon

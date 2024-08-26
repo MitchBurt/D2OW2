@@ -2399,13 +2399,13 @@ const u8 gXdemonPokedexText[] = _(
     "Xdemon will never overflow its banks,\n"
     "which is appreciated by people nearby.");
 
-const u8 gKricketotPokedexText[] = _(
+const u8 gDesitrusPokedexText[] = _(
     "It shakes its head back to front,\n"
     "causing its antennae to hit each other\n"
     "and sound like a xylophone.\n"
     "These sounds are fall hallmarks.");
 
-const u8 gKricketunePokedexText[] = _(
+const u8 gDesqueezePokedexText[] = _(
     "It signals its emotions with its melodies.\n"
     "There is a village that hosts a contest\n"
     "based on the amazingly variable cries\n"
@@ -2429,7 +2429,7 @@ const u8 gLuxrayPokedexText[] = _(
     "through objects comes in handy when\n"
     "it's scouting for danger.");
 
-const u8 gBananaPokedexText[] = _(
+const u8 gBanslipPokedexText[] = _(
     "Over the winter, it closes its bud and\n"
     "endures the cold. Sensitive to changing\n"
     "temperature, the bud is said to bloom\n"
@@ -2507,7 +2507,7 @@ const u8 gSquiggaPokedexText[] = _(
     "prey movement. It swims by rotating its\n"
     "two tails like a screw.");
 
-const u8 gSquiggroPokedexText[] = _(
+const u8 gDesparwardPokedexText[] = _(
     "Its flotation sac developed as a result\n"
     "of pursuing aquatic prey. It can double\n"
     "as a rubber raft. It assists in the rescues\n"
@@ -2652,40 +2652,40 @@ const u8 gChancerPokedexText[] = _(
     "resulted in it being bound to an\n"
     "Odd Keystone by a mysterious spell.");
 
-const u8 gGiblePokedexText[] = _(
+const u8 gCapplePokedexText[] = _(
     "It nests in horizontal holes warmed by\n"
     "geothermal heat. Foes who stray too\n"
     "close can expect to be pounced on\n"
     "and bitten.");
 
-const u8 gGabitePokedexText[] = _(
+const u8 gShellhaulPokedexText[] = _(
     "Shiny objects are its passion. It can be\n"
     "found in its cave, scarcely moving,\n"
     "its gaze fixed on the jewels it's amassed\n"
     "or Carbink it has caught.");
 
-const u8 gGarchompPokedexText[] = _(
+const u8 gTruckoisePokedexText[] = _(
     "When it folds up its body and extends its\n"
     "wings, it looks like a jet plane. It is\n"
     "covered in fine scales that reduce drag,\n"
     "enabling it to fly at high speeds.");
 
-const u8 gMunchlaxPokedexText[] = _(
+const u8 gTrololingPokedexText[] = _(
     "When it finds something that looks like\n"
     "it might be edible, it goes right ahead\n"
     "and swallows it whole. That's why it gets\n"
     "fatter day by day.");
 
-const u8 gRioluPokedexText[] = _(
+const u8 gBrixelPokedexText[] = _(
     "It can discern the physical and emotional\n"
     "states of people, Pokémon, and other\n"
     "natural things from the shape of their\n"
     "aura waves.");
 
-const u8 gLucarioPokedexText[] = _(
+const u8 gBloknockPokedexText[] = _(
     "It understands human speech.\n"
     "It is said that no foe can remain invisible\n"
-    "to Lucario, since it can detect Auras.\n"
+    "to Bloknock, since it can detect Auras.\n"
     "Even foes it could not otherwise see.");
 
 const u8 gJournemapPokedexText[] = _(
@@ -7759,13 +7759,13 @@ const u8 gXdemonPokedexText[] = _(
     "Xdemon will never overflow its banks,\n"
     "which is appreciated by people nearby.");
 
-const u8 gKricketotPokedexText[] = _(
+const u8 gDesitrusPokedexText[] = _(
     "It shakes its head back to front,\n"
     "causing its antennae to hit each other\n"
     "and sound like a xylophone.\n"
     "These sounds are fall hallmarks.");
 
-const u8 gKricketunePokedexText[] = _(
+const u8 gDesqueezePokedexText[] = _(
     "It signals its emotions with its melodies.\n"
     "There is a village that hosts a contest\n"
     "based on the amazingly variable cries\n"
@@ -7789,7 +7789,7 @@ const u8 gLuxrayPokedexText[] = _(
     "through objects comes in handy when\n"
     "it's scouting for danger.");
 
-const u8 gBananaPokedexText[] = _(
+const u8 gBanslipPokedexText[] = _(
     "Over the winter, it closes its bud and\n"
     "endures the cold. Sensitive to changing\n"
     "temperature, the bud is said to bloom\n"
@@ -7867,7 +7867,7 @@ const u8 gSquiggaPokedexText[] = _(
     "prey movement. It swims by rotating its\n"
     "two tails like a screw.");
 
-const u8 gSquiggroPokedexText[] = _(
+const u8 gDesparwardPokedexText[] = _(
     "Its flotation sac developed as a result\n"
     "of pursuing aquatic prey. It can double\n"
     "as a rubber raft. It assists in the rescues\n"
@@ -8012,40 +8012,40 @@ const u8 gChancerPokedexText[] = _(
     "resulted in it being bound to an\n"
     "Odd Keystone by a mysterious spell.");
 
-const u8 gGiblePokedexText[] = _(
+const u8 gCapplePokedexText[] = _(
     "It nests in horizontal holes warmed by\n"
     "geothermal heat. Foes who stray too\n"
     "close can expect to be pounced on\n"
     "and bitten.");
 
-const u8 gGabitePokedexText[] = _(
+const u8 gShellhaulPokedexText[] = _(
     "Shiny objects are its passion. It can be\n"
     "found in its cave, scarcely moving,\n"
     "its gaze fixed on the jewels it's amassed\n"
     "or Carbink it has caught.");
 
-const u8 gGarchompPokedexText[] = _(
+const u8 gTruckoisePokedexText[] = _(
     "When it folds up its body and extends its\n"
     "wings, it looks like a jet plane. It is\n"
     "covered in fine scales that reduce drag,\n"
     "enabling it to fly at high speeds.");
 
-const u8 gMunchlaxPokedexText[] = _(
+const u8 gTrololingPokedexText[] = _(
     "When it finds something that looks like\n"
     "it might be edible, it goes right ahead\n"
     "and swallows it whole. That's why it gets\n"
     "fatter day by day.");
 
-const u8 gRioluPokedexText[] = _(
+const u8 gBrixelPokedexText[] = _(
     "It can discern the physical and emotional\n"
     "states of people, Pokémon, and other\n"
     "natural things from the shape of their\n"
     "aura waves.");
 
-const u8 gLucarioPokedexText[] = _(
+const u8 gBloknockPokedexText[] = _(
     "It understands human speech.\n"
     "It is said that no foe can remain invisible\n"
-    "to Lucario, since it can detect Auras.\n"
+    "to Bloknock, since it can detect Auras.\n"
     "Even foes it could not otherwise see.");
 
 const u8 gJournemapPokedexText[] = _(

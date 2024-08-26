@@ -466,15 +466,15 @@ static const u16 sLopunnyFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sGarchompFormSpeciesIdTable[] = {
-    SPECIES_GARCHOMP,
-    SPECIES_GARCHOMP_MEGA,
+static const u16 sTruckoiseFormSpeciesIdTable[] = {
+    SPECIES_TRUCKOISE,
+    SPECIES_TRUCKOISE_MEGA,
     0xFFFF,
 };
 
-static const u16 sLucarioFormSpeciesIdTable[] = {
-    SPECIES_LUCARIO,
-    SPECIES_LUCARIO_MEGA,
+static const u16 sBloknockFormSpeciesIdTable[] = {
+    SPECIES_BLOKNOCK,
+    SPECIES_BLOKNOCK_MEGA,
     0xFFFF,
 };
 

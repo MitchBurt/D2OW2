@@ -1987,12 +1987,12 @@ Cry_Xdemon::
 	.incbin "sound/direct_sound_samples/cries/cry_not_xdemon.bin"
 
 	.align 2
-Cry_Kricketot::
-	.incbin "sound/direct_sound_samples/cries/cry_not_kricketot.bin"
+Cry_Desitrus::
+	.incbin "sound/direct_sound_samples/cries/cry_not_desitrus.bin"
 
 	.align 2
-Cry_Kricketune::
-	.incbin "sound/direct_sound_samples/cries/cry_not_kricketune.bin"
+Cry_Desqueeze::
+	.incbin "sound/direct_sound_samples/cries/cry_not_desqueeze.bin"
 
 	.align 2
 Cry_Shinx::
@@ -2007,8 +2007,8 @@ Cry_Luxray::
 	.incbin "sound/direct_sound_samples/cries/cry_not_luxray.bin"
 
 	.align 2
-Cry_Banana::
-	.incbin "sound/direct_sound_samples/cries/cry_not_banana.bin"
+Cry_Banslip::
+	.incbin "sound/direct_sound_samples/cries/cry_not_banslip.bin"
 
 	.align 2
 Cry_Roserade::
@@ -2059,8 +2059,8 @@ Cry_Squigga::
 	.incbin "sound/direct_sound_samples/cries/cry_not_squigga.bin"
 
 	.align 2
-Cry_Squiggro::
-	.incbin "sound/direct_sound_samples/cries/cry_not_squiggro.bin"
+Cry_Desparward::
+	.incbin "sound/direct_sound_samples/cries/cry_not_desparward.bin"
 
 	.align 2
 Cry_Bushizard::
@@ -2155,28 +2155,28 @@ Cry_Chancer::
 	.incbin "sound/direct_sound_samples/cries/cry_not_chancer.bin"
 
 	.align 2
-Cry_Gible::
-	.incbin "sound/direct_sound_samples/cries/cry_not_gible.bin"
+Cry_Capple::
+	.incbin "sound/direct_sound_samples/cries/cry_not_capple.bin"
 
 	.align 2
-Cry_Gabite::
-	.incbin "sound/direct_sound_samples/cries/cry_not_gabite.bin"
+Cry_Shellhaul::
+	.incbin "sound/direct_sound_samples/cries/cry_not_shellhaul.bin"
 
 	.align 2
-Cry_Garchomp::
-	.incbin "sound/direct_sound_samples/cries/cry_not_garchomp.bin"
+Cry_Truckoise::
+	.incbin "sound/direct_sound_samples/cries/cry_not_truckoise.bin"
 
 	.align 2
-Cry_Munchlax::
-	.incbin "sound/direct_sound_samples/cries/cry_not_munchlax.bin"
+Cry_Trololing::
+	.incbin "sound/direct_sound_samples/cries/cry_not_trololing.bin"
 
 	.align 2
-Cry_Riolu::
-	.incbin "sound/direct_sound_samples/cries/cry_not_riolu.bin"
+Cry_Brixel::
+	.incbin "sound/direct_sound_samples/cries/cry_not_brixel.bin"
 
 	.align 2
-Cry_Lucario::
-	.incbin "sound/direct_sound_samples/cries/cry_not_lucario.bin"
+Cry_Bloknock::
+	.incbin "sound/direct_sound_samples/cries/cry_not_bloknock.bin"
 
 	.align 2
 Cry_Journemap::
@@ -4143,12 +4143,12 @@ Cry_Lopunny_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_not_lopunny.bin"
 
 	.align 2
-Cry_Garchomp_Mega::
-	.incbin "sound/direct_sound_samples/cries/cry_not_garchomp.bin"
+Cry_Truckoise_Mega::
+	.incbin "sound/direct_sound_samples/cries/cry_not_truckoise.bin"
 
 	.align 2
-Cry_Lucario_Mega::
-	.incbin "sound/direct_sound_samples/cries/cry_not_lucario.bin"
+Cry_Bloknock_Mega::
+	.incbin "sound/direct_sound_samples/cries/cry_not_bloknock.bin"
 
 	.align 2
 Cry_Abomasnow_Mega::

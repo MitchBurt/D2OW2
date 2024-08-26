@@ -301,7 +301,7 @@
 #define OBJ_EVENT_GFX_HILBERT_UNDERWATER		 285
 
 #define OBJ_EVENT_GFX_PORTAL			 	     286
-#define OBJ_EVENT_GFX_MUNCHLAX                   287
+#define OBJ_EVENT_GFX_TROLOLING                   287
 #define OBJ_EVENT_GFX_SHEPEIRD                    288
 #define OBJ_EVENT_GFX_BONSLY                     289
 

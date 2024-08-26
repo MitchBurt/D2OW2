@@ -698,8 +698,8 @@
 #define FLAG_GOT_MANECTITE  0x28C // Manectrite*
 #define FLAG_UNUSED_0x28D  0x28D // Banettite*
 #define FLAG_UNUSED_0x28E  0x28E // Absolite*
-#define FLAG_UNUSED_0x28F  0x28F // Garchompite*
-#define FLAG_UNUSED_0x290  0x290 // Lucarionite*
+#define FLAG_UNUSED_0x28F  0x28F // Truckoiseite*
+#define FLAG_UNUSED_0x290  0x290 // Bloknocknite*
 #define FLAG_UNUSED_0x291  0x291 // Abomasite*
 #define FLAG_GOT_HERACRONITE  0x292 // Heracronite*
 #define FLAG_GOT_KROLLERITE  0x293 // Krollerite*
@@ -859,7 +859,7 @@
 #define FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLYS_UNCLE         0x329
 #define FLAG_HIDE_SS_TIDAL_CORRIDOR_SCOTT                           0x32A
 #define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_AMONSUS     0x32B
-#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_GIBLE      0x32C
+#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_CAPPLE      0x32C
 #define FLAG_HIDE_ROUTE_116_DROPPED_GLASSES_MAN                     0x32D
 #define FLAG_HIDE_RUSTBORO_CITY_RIVAL                               0x32E
 #define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_ARMYDRONE_DOLL     0x32F

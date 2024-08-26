@@ -9751,17 +9751,17 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_LUCARIONITE] =
+    [ITEM_BLOKNOCKNITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
         .name = _("Lucarita"),
 #else
-        .name = _("Lucarionite"),
+        .name = _("Bloknocknite"),
 #endif
-        .itemId = ITEM_LUCARIONITE,
+        .itemId = ITEM_BLOKNOCKNITE,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sLucarioniteDesc,
+        .description = sBloknockniteDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -9921,17 +9921,17 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_GARCHOMPITE] =
+    [ITEM_TRUCKOISEITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Garchompita"),
+        .name = _("Truckoiseita"),
 #else
-        .name = _("Garchompite"),
+        .name = _("Truckoiseite"),
 #endif
-        .itemId = ITEM_GARCHOMPITE,
+        .itemId = ITEM_TRUCKOISEITE,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sGarchompiteDesc,
+        .description = sTruckoiseiteDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,

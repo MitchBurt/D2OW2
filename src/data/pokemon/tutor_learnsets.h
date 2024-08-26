@@ -9676,14 +9676,14 @@ static const u8 sXdemonTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sKricketotTutorLearnset[] =
+static const u8 sDesitrusTutorLearnset[] =
 {
     TUTOR(MOVE_SNORE),
     TUTOR(MOVE_MUD_SLAP),
     0xFF,
 };
 
-static const u8 sKricketuneTutorLearnset[] =
+static const u8 sDesqueezeTutorLearnset[] =
 {
     TUTOR(MOVE_SWORDS_DANCE),
     TUTOR(MOVE_SUBSTITUTE),
@@ -9767,7 +9767,7 @@ static const u8 sLuxrayTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sBananaTutorLearnset[] =
+static const u8 sBanslipTutorLearnset[] =
 {
     TUTOR(MOVE_SWORDS_DANCE),
     TUTOR(MOVE_SUBSTITUTE),
@@ -9991,7 +9991,7 @@ static const u8 sSquiggaTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sSquiggroTutorLearnset[] =
+static const u8 sDesparwardTutorLearnset[] =
 {
     TUTOR(MOVE_SUBSTITUTE),
     TUTOR(MOVE_SNORE),
@@ -10480,7 +10480,7 @@ static const u8 sChancerTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sGibleTutorLearnset[] =
+static const u8 sCappleTutorLearnset[] =
 {
     TUTOR(MOVE_BODY_SLAM),
     TUTOR(MOVE_DOUBLE_EDGE),
@@ -10503,7 +10503,7 @@ static const u8 sGibleTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sGabiteTutorLearnset[] =
+static const u8 sShellhaulTutorLearnset[] =
 {
     TUTOR(MOVE_BODY_SLAM),
     TUTOR(MOVE_DOUBLE_EDGE),
@@ -10526,7 +10526,7 @@ static const u8 sGabiteTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sGarchompTutorLearnset[] =
+static const u8 sTruckoiseTutorLearnset[] =
 {
     TUTOR(MOVE_SWORDS_DANCE),
     TUTOR(MOVE_BODY_SLAM),
@@ -10554,7 +10554,7 @@ static const u8 sGarchompTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sMunchlaxTutorLearnset[] =
+static const u8 sTrololingTutorLearnset[] =
 {
     TUTOR(MOVE_MEGA_KICK),
     TUTOR(MOVE_BODY_SLAM),
@@ -10585,7 +10585,7 @@ static const u8 sMunchlaxTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sRioluTutorLearnset[] =
+static const u8 sBrixelTutorLearnset[] =
 {
     TUTOR(MOVE_SWORDS_DANCE),
     TUTOR(MOVE_MEGA_KICK),
@@ -10606,7 +10606,7 @@ static const u8 sRioluTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sLucarioTutorLearnset[] =
+static const u8 sBloknockTutorLearnset[] =
 {
     TUTOR(MOVE_SWORDS_DANCE),
     TUTOR(MOVE_MEGA_KICK),
@@ -20122,12 +20122,12 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_STARAPTOR] = sStaraptorTutorLearnset,
     [SPECIES_XDIK] = sXdikTutorLearnset,
     [SPECIES_XDEMON] = sXdemonTutorLearnset,
-    [SPECIES_KRICKETOT] = sKricketotTutorLearnset,
-    [SPECIES_KRICKETUNE] = sKricketuneTutorLearnset,
+    [SPECIES_DESITRUS] = sDesitrusTutorLearnset,
+    [SPECIES_DESQUEEZE] = sDesqueezeTutorLearnset,
     [SPECIES_SHINX] = sShinxTutorLearnset,
     [SPECIES_LUXIO] = sLuxioTutorLearnset,
     [SPECIES_LUXRAY] = sLuxrayTutorLearnset,
-    [SPECIES_BANANA] = sBananaTutorLearnset,
+    [SPECIES_BANSLIP] = sBanslipTutorLearnset,
     [SPECIES_ROSERADE] = sRoseradeTutorLearnset,
     [SPECIES_CRANIDOS] = sCranidosTutorLearnset,
     [SPECIES_RAMPARDOS] = sRampardosTutorLearnset,
@@ -20140,7 +20140,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_VESPIQUEN] = sVespiquenTutorLearnset,
     [SPECIES_PACHIRISU] = sPachirisuTutorLearnset,
     [SPECIES_SQUIGGA] = sSquiggaTutorLearnset,
-    [SPECIES_SQUIGGRO] = sSquiggroTutorLearnset,
+    [SPECIES_DESPARWARD] = sDesparwardTutorLearnset,
     [SPECIES_BUSHIZARD] = sBushizardTutorLearnset,
     [SPECIES_NOTYUHDAD] = sNotyuhdadTutorLearnset,
     [SPECIES_CHOCCUDLE] = sChoccudleTutorLearnset,
@@ -20164,12 +20164,12 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_HANGINGY] = sHangingyTutorLearnset,
     [SPECIES_CHATOT] = sChatotTutorLearnset,
     [SPECIES_CHANCER] = sChancerTutorLearnset,
-    [SPECIES_GIBLE] = sGibleTutorLearnset,
-    [SPECIES_GABITE] = sGabiteTutorLearnset,
-    [SPECIES_GARCHOMP] = sGarchompTutorLearnset,
-    [SPECIES_MUNCHLAX] = sMunchlaxTutorLearnset,
-    [SPECIES_RIOLU] = sRioluTutorLearnset,
-    [SPECIES_LUCARIO] = sLucarioTutorLearnset,
+    [SPECIES_CAPPLE] = sCappleTutorLearnset,
+    [SPECIES_SHELLHAUL] = sShellhaulTutorLearnset,
+    [SPECIES_TRUCKOISE] = sTruckoiseTutorLearnset,
+    [SPECIES_TROLOLING] = sTrololingTutorLearnset,
+    [SPECIES_BRIXEL] = sBrixelTutorLearnset,
+    [SPECIES_BLOKNOCK] = sBloknockTutorLearnset,
     [SPECIES_JOURNEMAP] = sJournemapTutorLearnset,
     [SPECIES_HIPPOWDON] = sHippowdonTutorLearnset,
     [SPECIES_SKORUPI] = sSkorupiTutorLearnset,

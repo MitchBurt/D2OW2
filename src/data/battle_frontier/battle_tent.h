@@ -1919,7 +1919,7 @@ const struct FacilityMon gVerdanturfBattleTentMons[NUM_VERDANTURF_TENT_MONS] =
         .nature = NATURE_NAUGHTY
     },
     [VERDANTURF_TENT_MON_ARMYDRONE] = {
-        .species = SPECIES_MUNCHLAX,
+        .species = SPECIES_TROLOLING,
         .moves = {MOVE_BODY_SLAM, MOVE_FIRE_PUNCH, MOVE_AMNESIA, MOVE_YAWN},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,

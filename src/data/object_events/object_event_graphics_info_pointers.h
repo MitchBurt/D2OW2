@@ -1364,7 +1364,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
 	[OBJ_EVENT_GFX_BONSLY] =                   &gObjectEventGraphicsInfo_Bonsly,
 	[OBJ_EVENT_GFX_BREADDIE] =                &gObjectEventGraphicsInfo_Breaddie,
 	[OBJ_EVENT_GFX_SHEPEIRD] =                  &gObjectEventGraphicsInfo_Shepeird,
-	[OBJ_EVENT_GFX_MUNCHLAX] =                 &gObjectEventGraphicsInfo_Munchlax,
+	[OBJ_EVENT_GFX_TROLOLING] =                 &gObjectEventGraphicsInfo_Trololing,
 	
 	//[OBJ_EVENT_GFX_DOODOOBOB_CARRYING_BOX] =    &gObjectEventGraphicsInfo_Pokemon_Species_151,
     [OBJ_EVENT_GFX_DOODOOBOB_FACING_AWAY] =     &gObjectEventGraphicsInfo_Pokemon_Species_151,

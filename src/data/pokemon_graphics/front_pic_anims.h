@@ -4932,14 +4932,14 @@ static const union AnimCmd sAnim_XDEMON_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_KRICKETOT_1[] =
+static const union AnimCmd sAnim_DESITRUS_1[] =
 {
     ANIMCMD_FRAME(1, 30),
     ANIMCMD_FRAME(0, 30),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_KRICKETUNE_1[] =
+static const union AnimCmd sAnim_DESQUEEZE_1[] =
 {
     ANIMCMD_FRAME(1, 10),
     ANIMCMD_FRAME(0, 20),
@@ -4974,7 +4974,7 @@ static const union AnimCmd sAnim_LUXRAY_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_BANANA_1[] =
+static const union AnimCmd sAnim_BANSLIP_1[] =
 {
     ANIMCMD_FRAME(1, 30),
     ANIMCMD_FRAME(0, 30),
@@ -5094,7 +5094,7 @@ static const union AnimCmd sAnim_SQUIGGA_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_SQUIGGRO_1[] =
+static const union AnimCmd sAnim_DESPARWARD_1[] =
 {
     ANIMCMD_FRAME(0, 30),
     ANIMCMD_FRAME(1, 30),
@@ -5300,7 +5300,7 @@ static const union AnimCmd sAnim_CHANCER_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_GIBLE_1[] =
+static const union AnimCmd sAnim_CAPPLE_1[] =
 {
     ANIMCMD_FRAME(0, 30),
     ANIMCMD_FRAME(1, 30),
@@ -5308,7 +5308,7 @@ static const union AnimCmd sAnim_GIBLE_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_GABITE_1[] =
+static const union AnimCmd sAnim_SHELLHAUL_1[] =
 {
     ANIMCMD_FRAME(0, 30),
     ANIMCMD_FRAME(1, 30),
@@ -5316,7 +5316,7 @@ static const union AnimCmd sAnim_GABITE_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_GARCHOMP_1[] =
+static const union AnimCmd sAnim_TRUCKOISE_1[] =
 {
     ANIMCMD_FRAME(0, 30),
     ANIMCMD_FRAME(1, 30),
@@ -5324,7 +5324,7 @@ static const union AnimCmd sAnim_GARCHOMP_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_MUNCHLAX_1[] =
+static const union AnimCmd sAnim_TROLOLING_1[] =
 {
     ANIMCMD_FRAME(0, 30),
     ANIMCMD_FRAME(1, 30),
@@ -5332,7 +5332,7 @@ static const union AnimCmd sAnim_MUNCHLAX_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_RIOLU_1[] =
+static const union AnimCmd sAnim_BRIXEL_1[] =
 {
     ANIMCMD_FRAME(0, 30),
     ANIMCMD_FRAME(1, 30),
@@ -5340,7 +5340,7 @@ static const union AnimCmd sAnim_RIOLU_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_LUCARIO_1[] =
+static const union AnimCmd sAnim_BLOKNOCK_1[] =
 {
     ANIMCMD_FRAME(0, 30),
     ANIMCMD_FRAME(1, 30),
@@ -8712,13 +8712,13 @@ static const union AnimCmd sAnim_LOPUNNY_MEGA_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_GARCHOMP_MEGA_1[] =
+static const union AnimCmd sAnim_TRUCKOISE_MEGA_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_LUCARIO_MEGA_1[] =
+static const union AnimCmd sAnim_BLOKNOCK_MEGA_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
@@ -11368,14 +11368,14 @@ static const union AnimCmd *const sAnims_XDEMON[] ={
     sAnim_XDEMON_1,
 };
 
-static const union AnimCmd *const sAnims_KRICKETOT[] ={
+static const union AnimCmd *const sAnims_DESITRUS[] ={
     sAnim_GeneralFrame0,
-    sAnim_KRICKETOT_1,
+    sAnim_DESITRUS_1,
 };
 
-static const union AnimCmd *const sAnims_KRICKETUNE[] ={
+static const union AnimCmd *const sAnims_DESQUEEZE[] ={
     sAnim_GeneralFrame0,
-    sAnim_KRICKETUNE_1,
+    sAnim_DESQUEEZE_1,
 };
 
 static const union AnimCmd *const sAnims_SHINX[] ={
@@ -11393,9 +11393,9 @@ static const union AnimCmd *const sAnims_LUXRAY[] ={
     sAnim_LUXRAY_1,
 };
 
-static const union AnimCmd *const sAnims_BANANA[] ={
+static const union AnimCmd *const sAnims_BANSLIP[] ={
     sAnim_GeneralFrame0,
-    sAnim_BANANA_1,
+    sAnim_BANSLIP_1,
 };
 
 static const union AnimCmd *const sAnims_ROSERADE[] ={
@@ -11458,9 +11458,9 @@ static const union AnimCmd *const sAnims_SQUIGGA[] ={
     sAnim_SQUIGGA_1,
 };
 
-static const union AnimCmd *const sAnims_SQUIGGRO[] ={
+static const union AnimCmd *const sAnims_DESPARWARD[] ={
     sAnim_GeneralFrame0,
-    sAnim_SQUIGGRO_1,
+    sAnim_DESPARWARD_1,
 };
 
 static const union AnimCmd *const sAnims_BUSHIZARD[] ={
@@ -11579,34 +11579,34 @@ static const union AnimCmd *const sAnims_CHANCER[] ={
     sAnim_CHANCER_1,
 };
 
-static const union AnimCmd *const sAnims_GIBLE[] ={
+static const union AnimCmd *const sAnims_CAPPLE[] ={
     sAnim_GeneralFrame0,
-    sAnim_GIBLE_1,
+    sAnim_CAPPLE_1,
 };
 
-static const union AnimCmd *const sAnims_GABITE[] ={
+static const union AnimCmd *const sAnims_SHELLHAUL[] ={
     sAnim_GeneralFrame0,
-    sAnim_GABITE_1,
+    sAnim_SHELLHAUL_1,
 };
 
-static const union AnimCmd *const sAnims_GARCHOMP[] ={
+static const union AnimCmd *const sAnims_TRUCKOISE[] ={
     sAnim_GeneralFrame0,
-    sAnim_GARCHOMP_1,
+    sAnim_TRUCKOISE_1,
 };
 
-static const union AnimCmd *const sAnims_MUNCHLAX[] ={
+static const union AnimCmd *const sAnims_TROLOLING[] ={
     sAnim_GeneralFrame0,
-    sAnim_MUNCHLAX_1,
+    sAnim_TROLOLING_1,
 };
 
-static const union AnimCmd *const sAnims_RIOLU[] ={
+static const union AnimCmd *const sAnims_BRIXEL[] ={
     sAnim_GeneralFrame0,
-    sAnim_RIOLU_1,
+    sAnim_BRIXEL_1,
 };
 
-static const union AnimCmd *const sAnims_LUCARIO[] ={
+static const union AnimCmd *const sAnims_BLOKNOCK[] ={
     sAnim_GeneralFrame0,
-    sAnim_LUCARIO_1,
+    sAnim_BLOKNOCK_1,
 };
 
 static const union AnimCmd *const sAnims_JOURNEMAP[] ={
@@ -14104,14 +14104,14 @@ static const union AnimCmd *const sAnims_LOPUNNY_MEGA[] ={
     sAnim_LOPUNNY_MEGA_1,
 };
 
-static const union AnimCmd *const sAnims_GARCHOMP_MEGA[] ={
+static const union AnimCmd *const sAnims_TRUCKOISE_MEGA[] ={
     sAnim_GeneralFrame0,
-    sAnim_GARCHOMP_MEGA_1,
+    sAnim_TRUCKOISE_MEGA_1,
 };
 
-static const union AnimCmd *const sAnims_LUCARIO_MEGA[] ={
+static const union AnimCmd *const sAnims_BLOKNOCK_MEGA[] ={
     sAnim_GeneralFrame0,
-    sAnim_LUCARIO_MEGA_1,
+    sAnim_BLOKNOCK_MEGA_1,
 };
 
 static const union AnimCmd *const sAnims_ABOMASNOW_MEGA[] ={
@@ -14839,12 +14839,12 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(STARAPTOR),
     ANIM_CMD(XDIK),
     ANIM_CMD(XDEMON),
-    ANIM_CMD(KRICKETOT),
-    ANIM_CMD(KRICKETUNE),
+    ANIM_CMD(DESITRUS),
+    ANIM_CMD(DESQUEEZE),
     ANIM_CMD(SHINX),
     ANIM_CMD(LUXIO),
     ANIM_CMD(LUXRAY),
-    ANIM_CMD(BANANA),
+    ANIM_CMD(BANSLIP),
     ANIM_CMD(ROSERADE),
     ANIM_CMD(CRANIDOS),
     ANIM_CMD(RAMPARDOS),
@@ -14857,7 +14857,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(VESPIQUEN),
     ANIM_CMD(PACHIRISU),
     ANIM_CMD(SQUIGGA),
-    ANIM_CMD(SQUIGGRO),
+    ANIM_CMD(DESPARWARD),
     ANIM_CMD(BUSHIZARD),
     ANIM_CMD(NOTYUHDAD),
     ANIM_CMD(CHOCCUDLE),
@@ -14881,12 +14881,12 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(HANGINGY),
     ANIM_CMD(CHATOT),
     ANIM_CMD(CHANCER),
-    ANIM_CMD(GIBLE),
-    ANIM_CMD(GABITE),
-    ANIM_CMD(GARCHOMP),
-    ANIM_CMD(MUNCHLAX),
-    ANIM_CMD(RIOLU),
-    ANIM_CMD(LUCARIO),
+    ANIM_CMD(CAPPLE),
+    ANIM_CMD(SHELLHAUL),
+    ANIM_CMD(TRUCKOISE),
+    ANIM_CMD(TROLOLING),
+    ANIM_CMD(BRIXEL),
+    ANIM_CMD(BLOKNOCK),
     ANIM_CMD(JOURNEMAP),
     ANIM_CMD(HIPPOWDON),
     ANIM_CMD(SKORUPI),
@@ -15378,8 +15378,8 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(LATIAS_MEGA),
     ANIM_CMD(LATIOS_MEGA),
     ANIM_CMD(LOPUNNY_MEGA),
-    ANIM_CMD(GARCHOMP_MEGA),
-    ANIM_CMD(LUCARIO_MEGA),
+    ANIM_CMD(TRUCKOISE_MEGA),
+    ANIM_CMD(BLOKNOCK_MEGA),
     ANIM_CMD(ABOMASNOW_MEGA),
     ANIM_CMD(GALLADE_MEGA),
     ANIM_CMD(AUDINO_MEGA),

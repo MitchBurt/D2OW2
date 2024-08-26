@@ -626,7 +626,7 @@ $(OBJEVENTGFXDIR)/pokemon/breaddie.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/pokemon/shepeird.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 	
-$(OBJEVENTGFXDIR)/pokemon/munchlax.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/pokemon/trololing.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
 $(OBJEVENTGFXDIR)/pokemon/doodoobob.4bpp: %.4bpp: %.png

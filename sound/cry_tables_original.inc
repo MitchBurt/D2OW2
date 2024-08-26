@@ -404,12 +404,12 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Staraptor
 	cry_not Cry_Xdik
 	cry_not Cry_Xdemon
-	cry_not Cry_Kricketot
-	cry_not Cry_Kricketune
+	cry_not Cry_Desitrus
+	cry_not Cry_Desqueeze
 	cry_not Cry_Shinx
 	cry_not Cry_Luxio
 	cry_not Cry_Luxray
-	cry_not Cry_Banana
+	cry_not Cry_Banslip
 	cry_not Cry_Roserade
 	cry_not Cry_Cranidos
 	cry_not Cry_Rampardos
@@ -422,7 +422,7 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Vespiquen
 	cry_not Cry_Pachirisu
 	cry_not Cry_Squigga
-	cry_not Cry_Squiggro
+	cry_not Cry_Desparward
 	cry_not Cry_Bushizard
 	cry_not Cry_Notyuhdad
 	cry_not Cry_Choccudle
@@ -446,12 +446,12 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Hangingy
 	cry_not Cry_Chatot
 	cry_not Cry_Chancer
-	cry_not Cry_Gible
-	cry_not Cry_Gabite
-	cry_not Cry_Garchomp
-	cry_not Cry_Munchlax
-	cry_not Cry_Riolu
-	cry_not Cry_Lucario
+	cry_not Cry_Capple
+	cry_not Cry_Shellhaul
+	cry_not Cry_Truckoise
+	cry_not Cry_Trololing
+	cry_not Cry_Brixel
+	cry_not Cry_Bloknock
 	cry_not Cry_Journemap
 	cry_not Cry_Hippowdon
 	cry_not Cry_Skorupi
@@ -947,8 +947,8 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Latias_Mega
 	cry_not Cry_Latios_Mega
 	cry_not Cry_Lopunny_Mega
-	cry_not Cry_Garchomp_Mega
-	cry_not Cry_Lucario_Mega
+	cry_not Cry_Truckoise_Mega
+	cry_not Cry_Bloknock_Mega
 	cry_not Cry_Abomasnow_Mega
 	cry_not Cry_Gallade_Mega
 	cry_not Cry_Audino_Mega
@@ -1682,12 +1682,12 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Staraptor
 	cry2_not Cry_Xdik
 	cry2_not Cry_Xdemon
-	cry2_not Cry_Kricketot
-	cry2_not Cry_Kricketune
+	cry2_not Cry_Desitrus
+	cry2_not Cry_Desqueeze
 	cry2_not Cry_Shinx
 	cry2_not Cry_Luxio
 	cry2_not Cry_Luxray
-	cry2_not Cry_Banana
+	cry2_not Cry_Banslip
 	cry2_not Cry_Roserade
 	cry2_not Cry_Cranidos
 	cry2_not Cry_Rampardos
@@ -1700,7 +1700,7 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Vespiquen
 	cry2_not Cry_Pachirisu
 	cry2_not Cry_Squigga
-	cry2_not Cry_Squiggro
+	cry2_not Cry_Desparward
 	cry2_not Cry_Bushizard
 	cry2_not Cry_Notyuhdad
 	cry2_not Cry_Choccudle
@@ -1724,12 +1724,12 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Hangingy
 	cry2_not Cry_Chatot
 	cry2_not Cry_Chancer
-	cry2_not Cry_Gible
-	cry2_not Cry_Gabite
-	cry2_not Cry_Garchomp
-	cry2_not Cry_Munchlax
-	cry2_not Cry_Riolu
-	cry2_not Cry_Lucario
+	cry2_not Cry_Capple
+	cry2_not Cry_Shellhaul
+	cry2_not Cry_Truckoise
+	cry2_not Cry_Trololing
+	cry2_not Cry_Brixel
+	cry2_not Cry_Bloknock
 	cry2_not Cry_Journemap
 	cry2_not Cry_Hippowdon
 	cry2_not Cry_Skorupi
@@ -2225,8 +2225,8 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Latias_Mega
 	cry2_not Cry_Latios_Mega
 	cry2_not Cry_Lopunny_Mega
-	cry2_not Cry_Garchomp_Mega
-	cry2_not Cry_Lucario_Mega
+	cry2_not Cry_Truckoise_Mega
+	cry2_not Cry_Bloknock_Mega
 	cry2_not Cry_Abomasnow_Mega
 	cry2_not Cry_Gallade_Mega
 	cry2_not Cry_Audino_Mega

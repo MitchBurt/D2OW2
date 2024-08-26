@@ -2886,7 +2886,7 @@ const u16 gEggMoves[] = {
 		MOVE_FIRE_FANG,
 		MOVE_EERIE_IMPULSE),
 
-	egg_moves(BANANA,
+	egg_moves(BANSLIP,
 		MOVE_RAZOR_LEAF,
 		MOVE_SLEEP_POWDER,
 		MOVE_COTTON_SPORE,
@@ -3171,7 +3171,7 @@ const u16 gEggMoves[] = {
 		MOVE_HELPING_HAND,
 		MOVE_FOUL_PLAY),
 
-	egg_moves(GIBLE,
+	egg_moves(CAPPLE,
 		MOVE_THRASH,
 		MOVE_DOUBLE_EDGE,
 		MOVE_METAL_CLAW,
@@ -3186,7 +3186,7 @@ const u16 gEggMoves[] = {
 		MOVE_ROCK_CLIMB,
 		MOVE_IRON_HEAD),
 
-	egg_moves(MUNCHLAX,
+	egg_moves(TROLOLING,
 		MOVE_DOUBLE_EDGE,
 		MOVE_COUNTER,
 		MOVE_FISSURE,
@@ -3204,7 +3204,7 @@ const u16 gEggMoves[] = {
 		MOVE_POWER_UP_PUNCH,
 		MOVE_SUBSTITUTE),
 
-	egg_moves(RIOLU,
+	egg_moves(BRIXEL,
 		MOVE_BITE,
 		MOVE_HI_JUMP_KICK,
 		MOVE_MIND_READER,

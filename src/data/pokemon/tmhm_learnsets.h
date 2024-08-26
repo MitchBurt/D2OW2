@@ -16048,12 +16048,12 @@ static const u8 sXdemonTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sKricketotTMHMLearnset[] =
+static const u8 sDesitrusTMHMLearnset[] =
 {
     0xFF,
 };
 
-static const u8 sKricketuneTMHMLearnset[] =
+static const u8 sDesqueezeTMHMLearnset[] =
 {
     TMHM(TM06_TOXIC),
     TMHM(TM10_HIDDEN_POWER),
@@ -16186,7 +16186,7 @@ static const u8 sLuxrayTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sBananaTMHMLearnset[] =
+static const u8 sBanslipTMHMLearnset[] =
 {
     TMHM(TM06_TOXIC),
     TMHM(TM09_BULLET_SEED),
@@ -16624,7 +16624,7 @@ static const u8 sSquiggaTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sSquiggroTMHMLearnset[] =
+static const u8 sDesparwardTMHMLearnset[] =
 {
     TMHM(TM01_FOCUS_PUNCH),
     TMHM(TM03_WATER_PULSE),
@@ -17593,7 +17593,7 @@ static const u8 sChancerTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sGibleTMHMLearnset[] =
+static const u8 sCappleTMHMLearnset[] =
 {
     TMHM(TM02_DRAGON_CLAW),
     TMHM(TM05_ROAR),
@@ -17630,7 +17630,7 @@ static const u8 sGibleTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sGabiteTMHMLearnset[] =
+static const u8 sShellhaulTMHMLearnset[] =
 {
     TMHM(TM02_DRAGON_CLAW),
     TMHM(TM05_ROAR),
@@ -17667,7 +17667,7 @@ static const u8 sGabiteTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sGarchompTMHMLearnset[] =
+static const u8 sTruckoiseTMHMLearnset[] =
 {
     TMHM(TM02_DRAGON_CLAW),
     TMHM(TM05_ROAR),
@@ -17714,7 +17714,7 @@ static const u8 sGarchompTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sMunchlaxTMHMLearnset[] =
+static const u8 sTrololingTMHMLearnset[] =
 {
     TMHM(TM01_FOCUS_PUNCH),
     TMHM(TM03_WATER_PULSE),
@@ -17757,7 +17757,7 @@ static const u8 sMunchlaxTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sRioluTMHMLearnset[] =
+static const u8 sBrixelTMHMLearnset[] =
 {
     TMHM(TM01_FOCUS_PUNCH),
     TMHM(TM05_ROAR),
@@ -17798,7 +17798,7 @@ static const u8 sRioluTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sLucarioTMHMLearnset[] =
+static const u8 sBloknockTMHMLearnset[] =
 {
     TMHM(TM01_FOCUS_PUNCH),
     TMHM(TM03_WATER_PULSE),
@@ -36314,12 +36314,12 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_STARAPTOR] = sStaraptorTMHMLearnset,
     [SPECIES_XDIK] = sXdikTMHMLearnset,
     [SPECIES_XDEMON] = sXdemonTMHMLearnset,
-    [SPECIES_KRICKETOT] = sKricketotTMHMLearnset,
-    [SPECIES_KRICKETUNE] = sKricketuneTMHMLearnset,
+    [SPECIES_DESITRUS] = sDesitrusTMHMLearnset,
+    [SPECIES_DESQUEEZE] = sDesqueezeTMHMLearnset,
     [SPECIES_SHINX] = sShinxTMHMLearnset,
     [SPECIES_LUXIO] = sLuxioTMHMLearnset,
     [SPECIES_LUXRAY] = sLuxrayTMHMLearnset,
-    [SPECIES_BANANA] = sBananaTMHMLearnset,
+    [SPECIES_BANSLIP] = sBanslipTMHMLearnset,
     [SPECIES_ROSERADE] = sRoseradeTMHMLearnset,
     [SPECIES_CRANIDOS] = sCranidosTMHMLearnset,
     [SPECIES_RAMPARDOS] = sRampardosTMHMLearnset,
@@ -36332,7 +36332,7 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_VESPIQUEN] = sVespiquenTMHMLearnset,
     [SPECIES_PACHIRISU] = sPachirisuTMHMLearnset,
     [SPECIES_SQUIGGA] = sSquiggaTMHMLearnset,
-    [SPECIES_SQUIGGRO] = sSquiggroTMHMLearnset,
+    [SPECIES_DESPARWARD] = sDesparwardTMHMLearnset,
     [SPECIES_BUSHIZARD] = sBushizardTMHMLearnset,
     [SPECIES_NOTYUHDAD] = sNotyuhdadTMHMLearnset,
     [SPECIES_CHOCCUDLE] = sChoccudleTMHMLearnset,
@@ -36358,12 +36358,12 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_HANGINGY] = sHangingyTMHMLearnset,
     [SPECIES_CHATOT] = sChatotTMHMLearnset,
     [SPECIES_CHANCER] = sChancerTMHMLearnset,
-    [SPECIES_GIBLE] = sGibleTMHMLearnset,
-    [SPECIES_GABITE] = sGabiteTMHMLearnset,
-    [SPECIES_GARCHOMP] = sGarchompTMHMLearnset,
-    [SPECIES_MUNCHLAX] = sMunchlaxTMHMLearnset,
-    [SPECIES_RIOLU] = sRioluTMHMLearnset,
-    [SPECIES_LUCARIO] = sLucarioTMHMLearnset,
+    [SPECIES_CAPPLE] = sCappleTMHMLearnset,
+    [SPECIES_SHELLHAUL] = sShellhaulTMHMLearnset,
+    [SPECIES_TRUCKOISE] = sTruckoiseTMHMLearnset,
+    [SPECIES_TROLOLING] = sTrololingTMHMLearnset,
+    [SPECIES_BRIXEL] = sBrixelTMHMLearnset,
+    [SPECIES_BLOKNOCK] = sBloknockTMHMLearnset,
     [SPECIES_JOURNEMAP] = sJournemapTMHMLearnset,
     [SPECIES_HIPPOWDON] = sHippowdonTMHMLearnset,
     [SPECIES_SKORUPI] = sSkorupiTMHMLearnset,

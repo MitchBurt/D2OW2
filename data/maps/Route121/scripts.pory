@@ -8,7 +8,7 @@ Route121_MapScripts:: @ 81F5DFC
 	.byte 0
 
 Route121_OnTransition:
-	call EventScript_SetMunchlaxFamilyGfx
+	call EventScript_SetTrololingFamilyGfx
 	end
 
 Route121_EventScript_Woman:: @ 81F5DFD
