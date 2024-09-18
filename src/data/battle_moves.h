@@ -11722,6 +11722,49 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
+    [SPECIES_SHAWT] =
+    {
+        .move = MOVE_SHOT,
+        .modification = SIGNATURE_MOD_EFFECT_CHANCE,
+        .variable = 60,
+	.modification2 = SIGNATURE_MOD_POWER,
+        .variable2 = 55,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+    [SPECIES_HOLOCAST] =
+    {
+        .move = MOVE_SHOT,
+        .modification = SIGNATURE_MOD_EFFECT_CHANCE,
+        .variable = 80,
+	.modification2 = SIGNATURE_MOD_POWER,
+        .variable2 = 80,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+    [SPECIES_MURPHIRE] =
+    {
+        .move = MOVE_SHOT,
+        .modification = SIGNATURE_MOD_EFFECT_CHANCE,
+        .variable = 100,
+	.modification2 = SIGNATURE_MOD_POWER,
+        .variable2 = 105,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+
+/*[SPECIES_AWMANE_MEGA] =
+    {
+        .move = MOVE_EXPLOSION,
+        .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
+        .variable = SIGNATURE_SECONDARY_EFFECT_HIT,
+        .chance = 0,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },*/
+
+
+
    /* [SPECIES_YGGDRACON] =
     {
         .move = MOVE_SOLAR_BEAM,
@@ -12264,14 +12307,6 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .move = MOVE_BULLET_PUNCH,
         .modification = SIGNATURE_MOD_POWER,
         .variable = 70,
-        .differentDescription = FALSE,
-        .description = _("Default Description"),
-    },
-    [SPECIES_HOLOCAST] =
-    {
-        .move = MOVE_IRON_TAIL,
-        .modification = SIGNATURE_MOD_ACCURACY,
-        .variable = 95,
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
