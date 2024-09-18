@@ -11609,7 +11609,8 @@ Spiked- Turns water into alcohol?
 };
 
 
-//TODO CLICK TOWEL SCARY FACE FAILS
+//TODO 
+//TIKTOWEL SCARY FACE FAILS
 //White claw 
 //Mega Awmane Explosion Recoil
 //Cordra line electric wrap
@@ -11631,6 +11632,69 @@ Spiked- Turns water into alcohol?
 //
 //
 const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
+    
+[SPECIES_YOLKANNER] =
+    {
+        .move = MOVE_EGG_BOMB,
+        .modification = SIGNATURE_MOD_ACCURACY,
+        .variable = 95,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+[SPECIES_ACONEGGS] =
+    {
+        .move = MOVE_EGG_BOMB,
+        .modification = SIGNATURE_MOD_ACCURACY,
+        .variable = 95,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+[SPECIES_WRECKFAST] =
+    {
+        .move = MOVE_EGG_BOMB,
+        .modification = SIGNATURE_MOD_ACCURACY,
+        .variable = 95,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+[SPECIES_GANGBEATS] =
+    {
+        .move = MOVE_HEADBUTT,
+        .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
+        .variable = SIGNATURE_SECONDARY_EFFECT_PARALYSIS,
+        .chance = 25,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+[SPECIES_ANGBEAST] =
+    {
+        .move = MOVE_HEADBUTT,
+        .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
+        .variable = SIGNATURE_SECONDARY_EFFECT_PARALYSIS,
+        .chance = 25,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+[SPECIES_CORDRA] =
+    {
+        .move = MOVE_WRAP,
+        .modification = SIGNATURE_MOD_POWER,
+        .variable = 75,
+        .modification2 = SIGNATURE_MOD_TYPE,
+        .variable2 = TYPE_ELECTRIC,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+[SPECIES_AUXILISK] =
+    {
+        .move = MOVE_WRAP,
+        .modification = SIGNATURE_MOD_POWER,
+        .variable = 75,
+        .modification2 = SIGNATURE_MOD_TYPE,
+        .variable2 = TYPE_ELECTRIC,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
    /* [SPECIES_YGGDRACON] =
     {
         .move = MOVE_SOLAR_BEAM,
