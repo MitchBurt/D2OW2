@@ -1435,14 +1435,14 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_PHYSICAL,
     },
 
-    [MOVE_TOXIC] =
+    [MOVE_] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_5
             .accuracy = 90,
         #else
             .accuracy = 85,
         #endif
-        .effect = EFFECT_TOXIC,
+        .effect = EFFECT_,
         .power = 0,
         .type = TYPE_POISON,
         .pp = 10,
@@ -6054,14 +6054,14 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_PHYSICAL,
     },
 
-    [MOVE_TOXIC_SPIKES] =
+    [MOVE__SPIKES] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_5
             .flags = FLAG_MAGICCOAT_AFFECTED,
         #else
             .flags = 0,
         #endif
-        .effect = EFFECT_TOXIC_SPIKES,
+        .effect = EFFECT__SPIKES,
         .power = 0,
         .type = TYPE_POISON,
         .accuracy = 0,
@@ -9669,9 +9669,9 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_STATUS,
     },
 
-    [MOVE_TOXIC_THREAD] =
+    [MOVE__THREAD] =
     {
-        .effect = EFFECT_TOXIC_THREAD,
+        .effect = EFFECT__THREAD,
         .power = 0,
         .type = TYPE_POISON,
         .accuracy = 100,
@@ -11475,7 +11475,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_SHOT] =
     {
-        .effect = EFFECT_INTOXICATE_HIT,
+        .effect = EFFECT_INATE_HIT,
         .power = 40,
         .type = TYPE_ALCOHOL,
         .accuracy = 90,
@@ -11611,10 +11611,10 @@ Spiked- Turns water into alcohol?
 
 //TODO 
 //TIKTOWEL SCARY FACE FAILS
-//White claw 
+// 
 //Mega Awmane Explosion Recoil
-//Cordra line electric wrap
-//Headbutt signature for Gang
+//
+//
 //Shawt line shot attack increased chance
 //
 //
@@ -11692,6 +11692,33 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .variable = 75,
         .modification2 = SIGNATURE_MOD_TYPE,
         .variable2 = TYPE_ELECTRIC,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+[SPECIES_FIZZCUB] =
+    {
+        .move = MOVE_METAL_CLAW,
+        .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
+        .variable = SIGNATURE_SECONDARY_EFFECT_INATE,
+        .chance = 25,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+[SPECIES_SELTCLAW] =
+    {
+        .move = MOVE_METAL_CLAW,
+        .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
+        .variable = SIGNATURE_SECONDARY_EFFECT_INTOXICATE,
+        .chance = 25,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+[SPECIES_YELTZER] =
+    {
+        .move = MOVE_METAL_CLAW,
+        .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
+        .variable = SIGNATURE_SECONDARY_EFFECT_INTOXICATE,
+        .chance = 25,
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
