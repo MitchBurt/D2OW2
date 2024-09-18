@@ -11695,7 +11695,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-[SPECIES_FIZZCUB] =
+/*[SPECIES_FIZZCUB] =
     {
         .move = MOVE_METAL_CLAW,
         .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
@@ -11721,7 +11721,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .chance = 25,
         .differentDescription = FALSE,
         .description = _("Default Description"),
-    },
+    },*/
     [SPECIES_SHAWT] =
     {
         .move = MOVE_SHOT,
