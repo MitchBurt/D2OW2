@@ -1435,14 +1435,14 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_PHYSICAL,
     },
 
-    [MOVE_] =
+    [MOVE_TOXIC] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_5
             .accuracy = 90,
         #else
             .accuracy = 85,
         #endif
-        .effect = EFFECT_,
+        .effect = EFFECT_TOXIC,
         .power = 0,
         .type = TYPE_POISON,
         .pp = 10,
@@ -6054,14 +6054,14 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_PHYSICAL,
     },
 
-    [MOVE__SPIKES] =
+    [MOVE_TOXIC_SPIKES] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_5
             .flags = FLAG_MAGICCOAT_AFFECTED,
         #else
             .flags = 0,
         #endif
-        .effect = EFFECT__SPIKES,
+        .effect = EFFECT_TOXIC_SPIKES,
         .power = 0,
         .type = TYPE_POISON,
         .accuracy = 0,
@@ -9669,9 +9669,9 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_STATUS,
     },
 
-    [MOVE__THREAD] =
+    [MOVE_TOXIC_THREAD] =
     {
-        .effect = EFFECT__THREAD,
+        .effect = EFFECT_TOXIC_THREAD,
         .power = 0,
         .type = TYPE_POISON,
         .accuracy = 100,
@@ -11475,7 +11475,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_SHOT] =
     {
-        .effect = EFFECT_INATE_HIT,
+        .effect = EFFECT_INTOXICATE_HIT,
         .power = 40,
         .type = TYPE_ALCOHOL,
         .accuracy = 90,
@@ -11699,7 +11699,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
     {
         .move = MOVE_METAL_CLAW,
         .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
-        .variable = SIGNATURE_SECONDARY_EFFECT_INATE,
+        .variable = SIGNATURE_SECONDARY_EFFECT_INTOXICATE,
         .chance = 25,
         .differentDescription = FALSE,
         .description = _("Default Description"),
