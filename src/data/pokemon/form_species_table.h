@@ -428,17 +428,17 @@ static const u16 sDeoxysFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sBurmyFormSpeciesIdTable[] = {
-    SPECIES_BURMY,
-    SPECIES_BURMY_SANDY_CLOAK,
-    SPECIES_BURMY_TRASH_CLOAK,
+static const u16 sParslitoFormSpeciesIdTable[] = {
+    SPECIES_PARSLITO,
+    SPECIES_PARSLITO_SANDY_CLOAK,
+    SPECIES_PARSLITO_TRASH_CLOAK,
     0xFFFF,
 };
 
-static const u16 sWormadamFormSpeciesIdTable[] = {
-    SPECIES_WORMADAM,
-    SPECIES_WORMADAM_SANDY_CLOAK,
-    SPECIES_WORMADAM_TRASH_CLOAK,
+static const u16 sMojisleyFormSpeciesIdTable[] = {
+    SPECIES_MOJISLEY,
+    SPECIES_MOJISLEY_SANDY_CLOAK,
+    SPECIES_MOJISLEY_TRASH_CLOAK,
     0xFFFF,
 };
 

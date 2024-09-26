@@ -279,7 +279,7 @@ EventScript_UseDive:: @ 8290B0F
 	end
 
 EventScript_ShemueDive::
-	setvar VAR_0x8004, SPECIES_WAILMER
+	setvar VAR_0x8004, SPECIES_SHRIMPOT
 	setvar VAR_0x8008, MOVE_DIVE
 	setvar VAR_0x8009, 1
 	bufferspeciesname 0, VAR_0x8004	
@@ -311,7 +311,7 @@ EventScript_UseDiveUnderwater:: @ 8290B5A
 	end
 
 EventScript_ShemueSurface::
-	setvar VAR_0x8004, SPECIES_WAILMER
+	setvar VAR_0x8004, SPECIES_SHRIMPOT
 	setvar VAR_0x8008, MOVE_DIVE
 	setvar VAR_0x8009, 1
 	bufferspeciesname 0, VAR_0x8004
@@ -338,7 +338,7 @@ Text_WantToDive: @ 8290BE8
 
 Text_ShemueDive:
 	.string "The sea is deep here.\n"
-	.string "Call Pokeride's Wailmer to Dive?$"
+	.string "Call Pokeride's Shrimpot to Dive?$"
 
 Text_MonUsedDive: @ 8290C1A
 	.string "{STR_VAR_1} used Dive.$"

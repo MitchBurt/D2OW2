@@ -626,7 +626,7 @@ static const u8 sWoodMailDesc[] = _(
     "un Pokémon.");
 
 static const u8 sWaveMailDesc[] = _(
-    "Sale Wailmer.\n"
+    "Sale Shrimpot.\n"
     "Debe llevarla\n"
     "un Pokémon.");
 
@@ -1415,7 +1415,7 @@ static const u8 sContestPassDesc[] = _(
     "participar en un\n"
     "Concurso Pokémon.");
 
-static const u8 sWailmerPailDesc[] = _(
+static const u8 sShrimpotPailDesc[] = _(
     "Sirve para regar\n"
     "las Bayas y las\n"
     "plantas.");
@@ -3497,7 +3497,7 @@ static const u8 sWoodMailDesc[] = _(
     "a Pokémon.");
 
 static const u8 sWaveMailDesc[] = _(
-    "A Wailmer-print\n"
+    "A Shrimpot-print\n"
     "Mail to be held by\n"
     "a Pokémon.");
 
@@ -4287,7 +4287,7 @@ static const u8 sContestPassDesc[] = _(
     "for entering\n"
     "Pokémon Contests.");
 
-static const u8 sWailmerPailDesc[] = _(
+static const u8 sShrimpotPailDesc[] = _(
     "A tool used for\n"
     "watering Berries\n"
     "and plants.");

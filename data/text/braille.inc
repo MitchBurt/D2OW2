@@ -111,7 +111,7 @@ SealedChamber_OuterRoom_Braille_DigHere: @ 82A6B89
 	.byte 7
 	.braille "CAVA AHORA.$"
 
-SealedChamber_InnerRoom_Braille_FirstWailordLastGalacnar: @ 82A6B99
+SealedChamber_InnerRoom_Braille_FirstLobscaldLastGalacnar: @ 82A6B99
 	.byte 0
 	.byte 0
 	.byte 29
@@ -119,7 +119,7 @@ SealedChamber_InnerRoom_Braille_FirstWailordLastGalacnar: @ 82A6B99
 	.byte 3
 	.byte 3
 	.braille "PRIMERO\n"
-	.braille "WAILORD.\n"
+	.braille "LOBSCALD.\n"
 	.braille "AL FINAL\n"
 	.braille "GALACNAR.$"
 
@@ -237,7 +237,7 @@ SealedChamber_OuterRoom_Braille_DigHere: @ 82A6B89
 	.byte 7
 	.braille "DIG HERE.$"
 
-SealedChamber_InnerRoom_Braille_FirstWailordLastGalacnar: @ 82A6B99
+SealedChamber_InnerRoom_Braille_FirstLobscaldLastGalacnar: @ 82A6B99
 	.byte 0
 	.byte 0
 	.byte 29
@@ -245,7 +245,7 @@ SealedChamber_InnerRoom_Braille_FirstWailordLastGalacnar: @ 82A6B99
 	.byte 3
 	.byte 3
 	.braille "FIRST COMES\n"
-	.braille "WAILORD.\n"
+	.braille "LOBSCALD.\n"
 	.braille "LAST COMES\n"
 	.braille "GALACNAR.$"
 

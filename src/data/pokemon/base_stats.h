@@ -8632,16 +8632,16 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_WAILMER] =
+    [SPECIES_SHRIMPOT] =
     {
-        .baseHP        = 130,
-        .baseAttack    = 70,
-        .baseDefense   = 35,
-        .baseSpeed     = 60,
-        .baseSpAttack  = 70,
-        .baseSpDefense = 35,
+        .baseHP        = 50,
+        .baseAttack    = 53,
+        .baseDefense   = 62,
+        .baseSpeed     = 44,
+        .baseSpAttack  = 58,
+        .baseSpDefense = 63,
         .type1 = TYPE_WATER,
-        .type2 = TYPE_WATER,
+        .type2 = TYPE_FIRE,
         .catchRate = 125,
         .expYield = 80,
         .evYield_HP        = 1,
@@ -8649,24 +8649,23 @@ const struct BaseStats gBaseStats[] =
         .eggCycles = 40,
         .friendship = 70,
         .growthRate = GROWTH_FLUCTUATING,
-        .eggGroup1 = EGG_GROUP_FIELD,
-        .eggGroup2 = EGG_GROUP_WATER_2,
-        .abilities = {ABILITY_WATER_VEIL, ABILITY_OBLIVIOUS},
-        .abilityHidden = ABILITY_WATER_SPILL,
-        .bodyColor = BODY_COLOR_BLUE,
+        .eggGroup1 = EGG_GROUP_WATER_3,
+        .eggGroup2 = EGG_GROUP_WATER_1,
+        .abilities = {ABILITY_STEAM_ENGINE, ABILITY_NONE},
+        .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
     },
 
-    [SPECIES_WAILORD] =
+    [SPECIES_LOBSCALD] =
     {
-        .baseHP        = 200,
-        .baseAttack    = 60,
-        .baseDefense   = 45,
-        .baseSpAttack  = 110,
-        .baseSpDefense = 45,
-        .baseSpeed     = 60,
+        .baseHP        = 71,
+        .baseAttack    = 73,
+        .baseDefense   = 88,
+        .baseSpeed     = 59,
+        .baseSpAttack  = 120,
+        .baseSpDefense = 89,
         .type1 = TYPE_WATER,
-        .type2 = TYPE_WATER,
+        .type2 = TYPE_FIRE,
         .catchRate = 60,
         .expYield = 175,
         .evYield_HP        = 2,
@@ -8674,11 +8673,10 @@ const struct BaseStats gBaseStats[] =
         .eggCycles = 40,
         .friendship = 70,
         .growthRate = GROWTH_FLUCTUATING,
-        .eggGroup1 = EGG_GROUP_FIELD,
-        .eggGroup2 = EGG_GROUP_WATER_2,
-        .abilities = {ABILITY_WATER_VEIL, ABILITY_OBLIVIOUS},
-        .abilityHidden = ABILITY_WATER_SPILL,
-        .bodyColor = BODY_COLOR_BLUE,
+        .eggGroup1 = EGG_GROUP_WATER_3,
+        .eggGroup2 = EGG_GROUP_WATER_1,
+        .abilities = {ABILITY_STEAM_ENGINE, ABILITY_COOKING},
+        .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
     },
 
@@ -9318,7 +9316,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 65,
         .baseSpDefense = 60,
         .type1 = TYPE_ROCK,
-        .type2 = TYPE_GRASS,
+        .type2 = TYPE_WATER,
         .catchRate = 45,
         .expYield = 173,
         .evYield_SpDefense = 2,
@@ -9327,13 +9325,13 @@ const struct BaseStats gBaseStats[] =
         .eggCycles = 30,
         .friendship = 70,
         .growthRate = GROWTH_ERRATIC,
-        .eggGroup1 = EGG_GROUP_WATER_3,
-        .eggGroup2 = EGG_GROUP_WATER_3,
-        .abilities = {ABILITY_SUCTION_CUPS, ABILITY_ROOTED},
+        .eggGroup1 = EGG_GROUP_WATER_2,
+        .eggGroup2 = EGG_GROUP_MINERAL,
+        .abilities = {ABILITY_PICKUP, ABILITY_WATER_ABSORB},
         #ifdef BATTLE_ENGINE
-            .abilityHidden = ABILITY_STORM_DRAIN,
+            .abilityHidden = ABILITY_REGENERATOR,
         #endif
-        .bodyColor = BODY_COLOR_GREEN,
+        .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
     },
 
@@ -9633,14 +9631,14 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_KIRBAIRDE] =
     {
-        .baseHP        = 80,
-        .baseAttack    = 40,
-        .baseSpAttack  = 95,
-        .baseDefense   = 80,
-        .baseSpDefense = 90,
-        .baseSpeed     = 85,
-        .type1 = TYPE_PSYCHIC,
-        .type2 = TYPE_PSYCHIC,
+        .baseHP        = 175,
+        .baseAttack    = 66,
+        .baseDefense   = 83,
+        .baseSpeed     = 129,
+        .baseSpAttack  = 60,
+        .baseSpDefense = 58,
+        .type1 = TYPE_FAIRY,
+        .type2 = TYPE_COSMIC,
         .catchRate = 45,
         .expYield = 159,
         .evYield_SpAttack  = 1,
@@ -9653,9 +9651,9 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_FAST,
         .eggGroup1 = EGG_GROUP_AMORPHOUS,
         .eggGroup2 = EGG_GROUP_AMORPHOUS,
-        .abilities = {ABILITY_AIR_CURRENT, ABILITY_CACOPHONY},
-        .abilityHidden = ABILITY_HOLLOW_BODY,
-        .bodyColor = BODY_COLOR_BLUE,
+        .abilities = {ABILITY_AIR_CURRENT, ABILITY_REGENERATOR},
+        .abilityHidden = ABILITY_SPEED_BOOST,
+        .bodyColor = BODY_COLOR_PINK,
         .noFlip = FALSE,
 		.flags = F_GROUND_INMUNITY,
     },
@@ -10750,8 +10748,8 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 40,
         .baseSpDefense = 61,
         .baseSpeed     = 40,
-        .type1 = TYPE_BUG,
-        .type2 = TYPE_BUG,
+        .type1 = TYPE_GRASS,
+        .type2 = TYPE_GRASS,
         .catchRate = 255,
         .expYield = 39,
         .evYield_Defense   = 1,
@@ -10772,14 +10770,14 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_DESQUEEZE] =
     {
-        .baseHP        = 75,
-        .baseAttack    = 120,
-        .baseDefense   = 65,
-        .baseSpAttack  = 50,
-        .baseSpDefense = 65,
-        .baseSpeed     = 80,
-        .type1 = TYPE_BUG,
-        .type2 = TYPE_BUG,
+        .baseHP        = 114,
+        .baseAttack    = 85,
+        .baseDefense   = 70,
+        .baseSpeed     = 30,
+        .baseSpAttack  = 85,
+        .baseSpDefense = 80,
+        .type1 = TYPE_GRASS,
+        .type2 = TYPE_GRASS,
         .catchRate = 45,
         .expYield = 134,
         .evYield_Attack    = 2,
@@ -11050,7 +11048,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_BURMY] =
+    [SPECIES_PARSLITO] =
     {
         .baseHP        = 40,
         .baseAttack    = 29,
@@ -11058,8 +11056,8 @@ const struct BaseStats gBaseStats[] =
         .baseSpeed     = 36,
         .baseSpAttack  = 29,
         .baseSpDefense = 45,
-        .type1 = TYPE_BUG,
-        .type2 = TYPE_BUG,
+        .type1 = TYPE_GRASS,
+        .type2 = TYPE_ALCOHOL,
         .catchRate = 120,
         .expYield = 45,
         .evYield_SpDefense = 1,
@@ -11067,17 +11065,14 @@ const struct BaseStats gBaseStats[] =
         .eggCycles = 15,
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroup1 = EGG_GROUP_BUG,
-        .eggGroup2 = EGG_GROUP_BUG,
-        .abilities = {ABILITY_SHED_SKIN, ABILITY_NONE},
-        #ifdef BATTLE_ENGINE
-            .abilityHidden = ABILITY_OVERCOAT,
-        #endif
+        .eggGroup1 = EGG_GROUP_GRASS,
+        .eggGroup2 = EGG_GROUP_GRASS,
+        .abilities = {ABILITY_SAP_SIPPER, ABILITY_HYDRATION},
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
     },
 
-    [SPECIES_WORMADAM] =
+    [SPECIES_MOJISLEY] =
     {
         .baseHP        = 60,
         .baseAttack    = 59,
@@ -11085,24 +11080,18 @@ const struct BaseStats gBaseStats[] =
         .baseSpeed     = 36,
         .baseSpAttack  = 79,
         .baseSpDefense = 105,
-        .type1 = TYPE_BUG,
-        .type2 = TYPE_GRASS,
+        .type1 = TYPE_GRASS,
+        .type2 = TYPE_ALCOHOL,
         .catchRate = 45,
         .expYield = 148,
         .evYield_SpDefense = 2,
-        .item2 = ITEM_SILVER_POWDER,
-        .genderRatio = MON_FEMALE,
+        .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 15,
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroup1 = EGG_GROUP_BUG,
-        .eggGroup2 = EGG_GROUP_BUG,
-        #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_ANTICIPATION, ABILITY_NONE},
-            .abilityHidden = ABILITY_OVERCOAT,
-        #else
-            .abilities = {ABILITY_NONE, ABILITY_NONE},
-        #endif
+        .eggGroup1 = EGG_GROUP_GRASS,
+        .eggGroup2 = EGG_GROUP_GRASS,
+        .abilities = {ABILITY_SAP_SIPPER, ABILITY_HYDRATION},
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
     },
@@ -11230,7 +11219,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 60,
         .baseSpDefense = 30,
         .type1 = TYPE_WATER,
-        .type2 = TYPE_WATER,
+        .type2 = TYPE_DARK,
         .catchRate = 190,
         .expYield = 66,
         .evYield_Speed     = 1,
@@ -11249,14 +11238,14 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_DESPARWARD] =
     {
-        .baseHP        = 85,
-        .baseAttack    = 105,
-        .baseDefense   = 55,
-        .baseSpeed     = 115,
-        .baseSpAttack  = 85,
-        .baseSpDefense = 50,
+        .baseHP        = 75,
+        .baseAttack    = 98,
+        .baseDefense   = 63,
+        .baseSpeed     = 101,
+        .baseSpAttack  = 98,
+        .baseSpDefense = 63,
         .type1 = TYPE_WATER,
-        .type2 = TYPE_WATER,
+        .type2 = TYPE_DARK,
         .catchRate = 75,
         .expYield = 173,
         .evYield_Speed     = 2,
@@ -12092,8 +12081,8 @@ const struct BaseStats gBaseStats[] =
         .baseSpeed     = 32,
         .baseSpAttack  = 38,
         .baseSpDefense = 42,
-        .type1 = TYPE_GROUND,
-        .type2 = TYPE_GROUND,
+        .type1 = TYPE_NORMAL,
+        .type2 = TYPE_NORMAL,
         .catchRate = 140,
         .expYield = 66,
         .evYield_Defense   = 1,
@@ -12103,15 +12092,12 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_SLOW,
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
-        .abilities = {ABILITY_SAND_STREAM, ABILITY_NONE},
-        #ifdef BATTLE_ENGINE
-            .abilityHidden = ABILITY_SAND_FORCE,
-        #endif
-        .bodyColor = BODY_COLOR_BROWN,
+        .abilities = {ABILITY_WIND_RIDER, ABILITY_NONE},
+        .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
     },
 
-    [SPECIES_HIPPOWDON] =
+    [SPECIES_JOURNESHIP] =
     {
         .baseHP        = 108,
         .baseAttack    = 112,
@@ -12119,8 +12105,8 @@ const struct BaseStats gBaseStats[] =
         .baseSpeed     = 47,
         .baseSpAttack  = 68,
         .baseSpDefense = 72,
-        .type1 = TYPE_GROUND,
-        .type2 = TYPE_GROUND,
+        .type1 = TYPE_NORMAL,
+        .type2 = TYPE_WATER,
         .catchRate = 60,
         .expYield = 184,
         .evYield_Defense   = 2,
@@ -12130,11 +12116,8 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_SLOW,
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
-        .abilities = {ABILITY_SAND_STREAM, ABILITY_NONE},
-        #ifdef BATTLE_ENGINE
-            .abilityHidden = ABILITY_SAND_FORCE,
-        #endif
-        .bodyColor = BODY_COLOR_BROWN,
+        .abilities = {ABILITY_WIND_RIDER, ABILITY_NONE},
+        .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
     },
 
@@ -28630,7 +28613,7 @@ const struct BaseStats gBaseStats[] =
         .flags = F_UNOBTAINABLE_FORM,
     },
 
-    [SPECIES_BURMY_SANDY_CLOAK] =
+    [SPECIES_PARSLITO_SANDY_CLOAK] =
     {
         .baseHP        = 40,
         .baseAttack    = 29,
@@ -28654,7 +28637,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_BURMY_TRASH_CLOAK] =
+    [SPECIES_PARSLITO_TRASH_CLOAK] =
     {
         .baseHP        = 40,
         .baseAttack    = 29,
@@ -28678,64 +28661,51 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_WORMADAM_SANDY_CLOAK] =
+    [SPECIES_MOJISLEY_SANDY_CLOAK] =
     {
         .baseHP        = 60,
-        .baseAttack    = 79,
-        .baseDefense   = 105,
+        .baseAttack    = 59,
+        .baseDefense   = 85,
         .baseSpeed     = 36,
-        .baseSpAttack  = 59,
-        .baseSpDefense = 85,
-        .type1 = TYPE_BUG,
-        .type2 = TYPE_GROUND,
+        .baseSpAttack  = 79,
+        .baseSpDefense = 105,
+        .type1 = TYPE_GRASS,
+        .type2 = TYPE_ALCOHOL,
         .catchRate = 45,
         .expYield = 148,
-        .evYield_Defense   = 2,
-        .item2 = ITEM_SILVER_POWDER,
-        .genderRatio = MON_FEMALE,
+        .evYield_SpDefense = 2,
+        .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 15,
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroup1 = EGG_GROUP_BUG,
-        .eggGroup2 = EGG_GROUP_BUG,
-        #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_ANTICIPATION, ABILITY_NONE},
-            .abilityHidden = ABILITY_OVERCOAT,
-        #else
-            .abilities = {ABILITY_NONE, ABILITY_NONE},
-        #endif
-        .bodyColor = BODY_COLOR_BROWN,
+        .eggGroup1 = EGG_GROUP_GRASS,
+        .eggGroup2 = EGG_GROUP_GRASS,
+        .abilities = {ABILITY_SAP_SIPPER, ABILITY_HYDRATION},
+        .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
     },
 
-    [SPECIES_WORMADAM_TRASH_CLOAK] =
+    [SPECIES_MOJISLEY_TRASH_CLOAK] =
     {
         .baseHP        = 60,
-        .baseAttack    = 69,
-        .baseDefense   = 95,
+        .baseAttack    = 59,
+        .baseDefense   = 85,
         .baseSpeed     = 36,
-        .baseSpAttack  = 69,
-        .baseSpDefense = 95,
-        .type1 = TYPE_BUG,
-        .type2 = TYPE_STEEL,
+        .baseSpAttack  = 79,
+        .baseSpDefense = 105,
+        .type1 = TYPE_GRASS,
+        .type2 = TYPE_ALCOHOL,
         .catchRate = 45,
         .expYield = 148,
-        .evYield_Defense   = 1,
-        .evYield_SpDefense = 1,
-        .item2 = ITEM_SILVER_POWDER,
-        .genderRatio = MON_FEMALE,
+        .evYield_SpDefense = 2,
+        .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 15,
         .friendship = 70,
         .growthRate = GROWTH_MEDIUM_FAST,
-        .eggGroup1 = EGG_GROUP_BUG,
-        .eggGroup2 = EGG_GROUP_BUG,
-        #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_ANTICIPATION, ABILITY_NONE},
-            .abilityHidden = ABILITY_OVERCOAT,
-        #else
-            .abilities = {ABILITY_NONE, ABILITY_NONE},
-        #endif
-        .bodyColor = BODY_COLOR_RED,
+        .eggGroup1 = EGG_GROUP_GRASS,
+        .eggGroup2 = EGG_GROUP_GRASS,
+        .abilities = {ABILITY_SAP_SIPPER, ABILITY_HYDRATION},
+        .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
     },
 
@@ -42409,14 +42379,14 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_WAILMER] =
+    [SPECIES_SHRIMPOT] =
     {
-        .baseHP        = 130,
-        .baseAttack    = 70,
-        .baseDefense   = 35,
-        .baseSpeed     = 60,
-        .baseSpAttack  = 70,
-        .baseSpDefense = 35,
+        .baseHP        = 50,
+        .baseAttack    = 53,
+        .baseDefense   = 62,
+        .baseSpeed     = 44,
+        .baseSpAttack  = 58,
+        .baseSpDefense = 63,
         .type1 = TYPE_WATER,
         .type2 = TYPE_WATER,
         .catchRate = 125,
@@ -42434,7 +42404,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_WAILORD] =
+    [SPECIES_LOBSCALD] =
     {
         .baseHP        = 200,
         .baseAttack    = 60,
@@ -44637,12 +44607,12 @@ const struct BaseStats gVanillaBaseStats[] =
 
     [SPECIES_DESITRUS] =
     {
-        .baseHP        = 53,
+       .baseHP        = 69,
         .baseAttack    = 55,
-        .baseDefense   = 61,
-        .baseSpAttack  = 40,
-        .baseSpDefense = 61,
-        .baseSpeed     = 40,
+        .baseDefense   = 45,
+        .baseSpeed     = 15,
+        .baseSpAttack  = 55,
+        .baseSpDefense = 55,
         .type1 = TYPE_BUG,
         .type2 = TYPE_BUG,
         .catchRate = 255,
@@ -44665,12 +44635,12 @@ const struct BaseStats gVanillaBaseStats[] =
 
     [SPECIES_DESQUEEZE] =
     {
-        .baseHP        = 75,
-        .baseAttack    = 120,
-        .baseDefense   = 65,
-        .baseSpAttack  = 50,
-        .baseSpDefense = 65,
-        .baseSpeed     = 80,
+        .baseHP        = 114,
+        .baseAttack    = 85,
+        .baseDefense   = 70,
+        .baseSpeed     = 30,
+        .baseSpAttack  = 85,
+        .baseSpDefense = 80,
         .type1 = TYPE_BUG,
         .type2 = TYPE_BUG,
         .catchRate = 45,
@@ -44948,7 +44918,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_BURMY] =
+    [SPECIES_PARSLITO] =
     {
         .baseHP        = 40,
         .baseAttack    = 29,
@@ -44975,7 +44945,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_WORMADAM] =
+    [SPECIES_MOJISLEY] =
     {
         .baseHP        = 60,
         .baseAttack    = 59,
@@ -45121,12 +45091,12 @@ const struct BaseStats gVanillaBaseStats[] =
 
     [SPECIES_SQUIGGA] =
     {
-        .baseHP        = 55,
-        .baseAttack    = 65,
-        .baseDefense   = 35,
-        .baseSpeed     = 85,
-        .baseSpAttack  = 60,
-        .baseSpDefense = 30,
+        .baseHP        = 50,
+        .baseAttack    = 53,
+        .baseDefense   = 48,
+        .baseSpeed     = 64,
+        .baseSpAttack  = 53,
+        .baseSpDefense = 48,
         .type1 = TYPE_WATER,
         .type2 = TYPE_WATER,
         .catchRate = 190,
@@ -46029,7 +45999,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_HIPPOWDON] =
+    [SPECIES_JOURNESHIP] =
     {
         .baseHP        = 108,
         .baseAttack    = 112,
@@ -62548,7 +62518,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .flags = F_UNOBTAINABLE_FORM,
     },
 
-    [SPECIES_BURMY_SANDY_CLOAK] =
+    [SPECIES_PARSLITO_SANDY_CLOAK] =
     {
         .baseHP        = 40,
         .baseAttack    = 29,
@@ -62572,7 +62542,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_BURMY_TRASH_CLOAK] =
+    [SPECIES_PARSLITO_TRASH_CLOAK] =
     {
         .baseHP        = 40,
         .baseAttack    = 29,
@@ -62596,7 +62566,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_WORMADAM_SANDY_CLOAK] =
+    [SPECIES_MOJISLEY_SANDY_CLOAK] =
     {
         .baseHP        = 60,
         .baseAttack    = 79,
@@ -62626,7 +62596,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_WORMADAM_TRASH_CLOAK] =
+    [SPECIES_MOJISLEY_TRASH_CLOAK] =
     {
         .baseHP        = 60,
         .baseAttack    = 69,

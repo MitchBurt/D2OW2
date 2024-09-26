@@ -175,9 +175,9 @@ Route104_PrettyPetalFlowerShop_Text_YouCanHaveThis: @ 82A7916
 	.string "You'll like tending flowers. I'm sure\n"
 	.string "of it. You can have this.$"
 
-Route104_PrettyPetalFlowerShop_Text_WailmerPailExplanation: @ 82A79A6
+Route104_PrettyPetalFlowerShop_Text_ShrimpotPailExplanation: @ 82A79A6
 	.string "While Berry plants are growing,\n"
-	.string "water them with the Wailmer Pail.\p"
+	.string "water them with the Shrimpot Pail.\p"
 	.string "Oh, another thing.\p"
 	.string "If you don't pick Berries for a while,\n"
 	.string "they'll drop off onto the ground.\l"

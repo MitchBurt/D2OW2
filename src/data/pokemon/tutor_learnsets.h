@@ -3927,7 +3927,7 @@ static const u8 sDeepfrieonTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sWormadamtTutorLearnset[] =
+static const u8 sWormadamTTutorLearnset[] =
 {
     TUTOR(MOVE_DOUBLE_EDGE),
     TUTOR(MOVE_MIMIC),
@@ -7755,7 +7755,7 @@ static const u8 sSharkegTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sWailmerTutorLearnset[] =
+static const u8 sShrimpotTutorLearnset[] =
 {
     TUTOR(MOVE_BODY_SLAM),
     TUTOR(MOVE_DOUBLE_EDGE),
@@ -7776,7 +7776,7 @@ static const u8 sWailmerTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sWailordTutorLearnset[] =
+static const u8 sLobscaldTutorLearnset[] =
 {
     TUTOR(MOVE_BODY_SLAM),
     TUTOR(MOVE_DOUBLE_EDGE),
@@ -9886,7 +9886,7 @@ static const u8 sBastiodonTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sBurmyTutorLearnset[] =
+static const u8 sParslitoTutorLearnset[] =
 {
     TUTOR(MOVE_SNORE),
     0xFF,
@@ -10650,7 +10650,7 @@ static const u8 sJournemapTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sHippowdonTutorLearnset[] =
+static const u8 sJourneshipTutorLearnset[] =
 {
     TUTOR(MOVE_BODY_SLAM),
     TUTOR(MOVE_DOUBLE_EDGE),
@@ -19438,7 +19438,7 @@ static const u8 sDeoxysSpeedTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sWormadamSandyCloakTutorLearnset[] =
+static const u8 sMojisleySandyCloakTutorLearnset[] =
 {
     TUTOR(MOVE_DREAM_EATER),
     TUTOR(MOVE_SUBSTITUTE),
@@ -19884,7 +19884,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_TEED] = sTeedTutorLearnset,
     [SPECIES_GONCARICIV] = sGoncaricivTutorLearnset,
     [SPECIES_DEEPFRIEON] = sDeepfrieonTutorLearnset,
-    [SPECIES_WORMADAMT] = sWormadamtTutorLearnset,
+    [SPECIES_WORMADAMT] = sWormadamTTutorLearnset,
     [SPECIES_JADOUG] = sJadougTutorLearnset,
     [SPECIES_ABOMINATON] = sAbominatonTutorLearnset,
     [SPECIES_WURM] = sWurmTutorLearnset,
@@ -20041,8 +20041,8 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_CARNIGORE] = sCarnigoreTutorLearnset,
     [SPECIES_BREWFIN] = sBrewfinTutorLearnset,
     [SPECIES_SHARKEG] = sSharkegTutorLearnset,
-    [SPECIES_WAILMER] = sWailmerTutorLearnset,
-    [SPECIES_WAILORD] = sWailordTutorLearnset,
+    [SPECIES_SHRIMPOT] = sShrimpotTutorLearnset,
+    [SPECIES_LOBSCALD] = sLobscaldTutorLearnset,
     [SPECIES_VULPOINTER] = sVulpointerTutorLearnset,
     [SPECIES_ERRORINE] = sErrorineTutorLearnset,
     [SPECIES_HELLAPHANT] = sHellaphantTutorLearnset,
@@ -20133,8 +20133,8 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_RAMPARDOS] = sRampardosTutorLearnset,
     [SPECIES_SHIELDON] = sShieldonTutorLearnset,
     [SPECIES_BASTIODON] = sBastiodonTutorLearnset,
-    [SPECIES_BURMY] = sBurmyTutorLearnset,
-    [SPECIES_WORMADAM] = sWormadamTutorLearnset,
+    [SPECIES_PARSLITO] = sParslitoTutorLearnset,
+    [SPECIES_MOJISLEY] = sWormadamTutorLearnset,
     [SPECIES_MOTHIM] = sMothimTutorLearnset,
     [SPECIES_COMBEE] = sCombeeTutorLearnset,
     [SPECIES_VESPIQUEN] = sVespiquenTutorLearnset,
@@ -20171,7 +20171,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_BRIXEL] = sBrixelTutorLearnset,
     [SPECIES_BLOKNOCK] = sBloknockTutorLearnset,
     [SPECIES_JOURNEMAP] = sJournemapTutorLearnset,
-    [SPECIES_HIPPOWDON] = sHippowdonTutorLearnset,
+    [SPECIES_JOURNESHIP] = sJourneshipTutorLearnset,
     [SPECIES_SKORUPI] = sSkorupiTutorLearnset,
     [SPECIES_DRAPION] = sDrapionTutorLearnset,
     [SPECIES_CROAGUNK] = sCroagunkTutorLearnset,
@@ -20679,8 +20679,8 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_DEOXYS_ATTACK] = sDeoxysAttackTutorLearnset,
     [SPECIES_DEOXYS_DEFENSE] = sDeoxysDefenseTutorLearnset,
     [SPECIES_DEOXYS_SPEED] = sDeoxysSpeedTutorLearnset,
-    [SPECIES_WORMADAM_SANDY_CLOAK] = sWormadamSandyCloakTutorLearnset,
-    [SPECIES_WORMADAM_TRASH_CLOAK] = sWormadamTrashCloakTutorLearnset,
+    [SPECIES_MOJISLEY_SANDY_CLOAK] = sMojisleySandyCloakTutorLearnset,
+    [SPECIES_MOJISLEY_TRASH_CLOAK] = sWormadamTrashCloakTutorLearnset,
     [SPECIES_ROTOM_HEAT] = sRotomTutorLearnset,
     [SPECIES_ROTOM_WASH] = sRotomTutorLearnset,
     [SPECIES_ROTOM_FROST] = sRotomTutorLearnset,

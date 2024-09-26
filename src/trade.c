@@ -4704,23 +4704,23 @@ u16 getWonderTradePokemonFormID(u16 species)
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_BURMY:
+		case SPECIES_PARSLITO:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_BURMY,
-					SPECIES_BURMY_SANDY_CLOAK,
-					SPECIES_BURMY_TRASH_CLOAK,
+					SPECIES_PARSLITO,
+					SPECIES_PARSLITO_SANDY_CLOAK,
+					SPECIES_PARSLITO_TRASH_CLOAK,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
 			}
 		break;
-		case SPECIES_WORMADAM:
+		case SPECIES_MOJISLEY:
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
-					SPECIES_WORMADAM,
-					SPECIES_WORMADAM_SANDY_CLOAK,
-					SPECIES_WORMADAM_TRASH_CLOAK,
+					SPECIES_MOJISLEY,
+					SPECIES_MOJISLEY_SANDY_CLOAK,
+					SPECIES_MOJISLEY_TRASH_CLOAK,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];

@@ -401,7 +401,7 @@ void NewGameInitData(void)
 		
         AddBagItem(ITEM_EXP_SHARE, 1);
         AddBagItem(ITEM_OLD_ROD, 1);
-        AddBagItem(ITEM_WAILMER_PAIL, 1);
+        AddBagItem(ITEM_SHRIMPOT_PAIL, 1);
         AddBagItem(ITEM_ACRO_BIKE, 1);
 
         if(FlagGet(FLAG_ACHIEVEMENT_REWARD_20))

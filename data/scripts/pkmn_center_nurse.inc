@@ -154,7 +154,7 @@ EventScript_PkmnCenterNurse_CheckUpdatedSave::
 	clearflag FLAG_UNUSED_0x26D
 	removeitem ITEM_MAGMA_EMBLEM
 	removeitem ITEM_OLD_SEA_MAP
-	removeitem ITEM_WAILMER_PAIL
+	removeitem ITEM_SHRIMPOT_PAIL
 	removeitem ITEM_OLD_ROD
 	removeitem ITEM_MACH_BIKE
 	removeitem ITEM_ACRO_BIKE
@@ -163,7 +163,7 @@ EventScript_PkmnCenterNurse_CheckUpdatedSave::
 	removeitem ITEM_SUPER_ROD
 	removeitem ITEM_SHINY_CHARM
 	removeitem ITEM_TEACHY_TV
-	additem ITEM_WAILMER_PAIL
+	additem ITEM_SHRIMPOT_PAIL
 	additem ITEM_ACRO_BIKE
 	additem ITEM_OLD_ROD
 	additem ITEM_EXP_SHARE
@@ -246,7 +246,7 @@ EventScript_PkmnCenterNurseDifficulty_Save::
 	
 EventScript_PkmnCenterNurse_CheckUpdatedSave_3::
 	msgbox Special_Gym_Text_Explain_Old_Save, MSGBOX_DEFAULT
-	additem ITEM_WAILMER_PAIL
+	additem ITEM_SHRIMPOT_PAIL
 	additem ITEM_JOLLY_MINT
 	additem ITEM_ADAMANT_MINT
 	additem ITEM_TIMID_MINT

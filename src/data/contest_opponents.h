@@ -1867,7 +1867,7 @@ const struct ContestPokemon gContestOpponents[] =
         .otId = 0xFFFF
     },
     [CONTEST_OPPONENT_SELENA] = {
-        .species = SPECIES_WAILMER,
+        .species = SPECIES_SHRIMPOT,
         .nickname = _("Merail"),
         .trainerName = _("Selena"),
         .trainerGfxId = OBJ_EVENT_GFX_EXPERT_F,

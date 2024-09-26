@@ -2726,7 +2726,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BURMY"
+                "species": "SPECIES_PARSLITO"
               }
             ]
           },
@@ -2736,17 +2736,17 @@
               {
                 "min_level": 10,
                 "max_level": 15,
-                "species": "SPECIES_BURMY"
+                "species": "SPECIES_PARSLITO"
               },
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_BURMY_SANDY_CLOAK"
+                "species": "SPECIES_PARSLITO_SANDY_CLOAK"
               },
               {
                 "min_level": 15,
                 "max_level": 20,
-                "species": "SPECIES_BURMY_TRASH_CLOAK"
+                "species": "SPECIES_PARSLITO_TRASH_CLOAK"
               },
               {
                 "min_level": 15,

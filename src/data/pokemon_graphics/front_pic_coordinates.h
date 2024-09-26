@@ -1445,12 +1445,12 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x88,
         .y_offset = 4,
     },
-    [SPECIES_WAILMER] =
+    [SPECIES_SHRIMPOT] =
     {
         .size = 0x75,
         .y_offset = 10,
     },
-    [SPECIES_WAILORD] =
+    [SPECIES_LOBSCALD] =
     {
         .size = 0x87,
         .y_offset = 4,
@@ -2065,12 +2065,12 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x67,
         .y_offset = 6,
     },
-    [SPECIES_BURMY] =
+    [SPECIES_PARSLITO] =
     {
         .size = 0x67,
         .y_offset = 13,
     },
-    [SPECIES_WORMADAM] =
+    [SPECIES_MOJISLEY] =
     {
         .size = 0x55,
         .y_offset = 10,
@@ -2255,7 +2255,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x66,
         .y_offset = 12,
     },
-    [SPECIES_HIPPOWDON] =
+    [SPECIES_JOURNESHIP] =
     {
         .size = 0x77,
         .y_offset = 6,
@@ -5187,24 +5187,24 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x88,
         .y_offset = 0,
     },
-    // Burmy
-    [SPECIES_BURMY_SANDY_CLOAK] =
+    // Parslito
+    [SPECIES_PARSLITO_SANDY_CLOAK] =
     {
         .size = 0x67,
         .y_offset = 13,
     },
-    [SPECIES_BURMY_TRASH_CLOAK] =
+    [SPECIES_PARSLITO_TRASH_CLOAK] =
     {
         .size = 0x67,
         .y_offset = 13,
     },
-    // Wormadam
-    [SPECIES_WORMADAM_SANDY_CLOAK] =
+    // Mojisley
+    [SPECIES_MOJISLEY_SANDY_CLOAK] =
     {
         .size = 0x55,
         .y_offset = 10,
     },
-    [SPECIES_WORMADAM_TRASH_CLOAK] =
+    [SPECIES_MOJISLEY_TRASH_CLOAK] =
     {
         .size = 0x55,
         .y_offset = 10,

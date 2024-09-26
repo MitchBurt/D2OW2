@@ -2759,7 +2759,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Michelle[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_BURMY,
+    .species = SPECIES_PARSLITO,
     }
 };
 
@@ -3961,7 +3961,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Thalia1[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_WAILMER,
+    .species = SPECIES_SHRIMPOT,
     },
     {
     .iv = 0,
@@ -4329,7 +4329,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Santiago[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_WAILMER,
+    .species = SPECIES_SHRIMPOT,
     }
 };
 
@@ -4419,7 +4419,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Chad[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_WAILMER,
+    .species = SPECIES_SHRIMPOT,
     }
 };
 
@@ -9067,7 +9067,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Dale[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_WAILMER,
+    .species = SPECIES_SHRIMPOT,
     },
     {
     .iv = 0,
@@ -11228,7 +11228,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Imani[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_WAILMER,
+    .species = SPECIES_SHRIMPOT,
     }
 };
 
@@ -11239,7 +11239,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Kyla[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_WAILMER,
+    .species = SPECIES_SHRIMPOT,
     },
 	{
     .iv = 0,
@@ -11353,7 +11353,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jenny1[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_WAILMER,
+    .species = SPECIES_SHRIMPOT,
     },
 	{
     .iv = 0,
@@ -11676,7 +11676,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jenny3[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_WAILMER,
+    .species = SPECIES_SHRIMPOT,
     }
 };
 
@@ -11695,7 +11695,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jenny4[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_WAILMER,
+    .species = SPECIES_SHRIMPOT,
     }
 };
 
@@ -11714,7 +11714,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jenny5[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_WAILMER,
+    .species = SPECIES_SHRIMPOT,
     },
     {
     .iv = 0,
@@ -14308,7 +14308,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntUnused[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_WAILMER,
+    .species = SPECIES_SHRIMPOT,
     },
     {
     .iv = 0,
@@ -14327,7 +14327,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntMtPyre4[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_WAILMER,
+    .species = SPECIES_SHRIMPOT,
     },
     {
     .iv = 0,
@@ -15748,7 +15748,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Lucas2[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_WAILMER,
+    .species = SPECIES_SHRIMPOT,
     .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},
     .moves = {MOVE_SPLASH, MOVE_WATER_GUN, MOVE_NONE, MOVE_NONE}
     }
@@ -16843,7 +16843,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jonah[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_WAILMER,
+    .species = SPECIES_SHRIMPOT,
     },
     {
     .iv = 0,
@@ -22322,7 +22322,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Thalia2[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_WAILMER,
+    .species = SPECIES_SHRIMPOT,
     },
     {
     .iv = 10,
@@ -22349,7 +22349,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Thalia3[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_WAILMER,
+    .species = SPECIES_SHRIMPOT,
     },
     {
     .iv = 20,
@@ -22376,7 +22376,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Thalia4[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_WAILMER,
+    .species = SPECIES_SHRIMPOT,
     },
     {
     .iv = 30,
@@ -22403,7 +22403,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Thalia5[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_WAILMER,
+    .species = SPECIES_SHRIMPOT,
     },
     {
     .iv = 40,

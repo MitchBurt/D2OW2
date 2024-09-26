@@ -163,7 +163,7 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
     [SPECIES_TEED] = sTeedLevelUpLearnset,
     [SPECIES_GONCARICIV] = sGoncaricivLevelUpLearnset,
     [SPECIES_DEEPFRIEON] = sDeepfrieonLevelUpLearnset,
-    [SPECIES_WORMADAMT] = sWormadamtLevelUpLearnset,
+    [SPECIES_WORMADAMT] = sWormadamTLevelUpLearnset,
     [SPECIES_JADOUG] = sJadougLevelUpLearnset,
     [SPECIES_ABOMINATON] = sAbominatonLevelUpLearnset,
     [SPECIES_WURM] = sWurmLevelUpLearnset,
@@ -288,8 +288,8 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
     [SPECIES_NOCTRUM] = sNoctrumLevelUpLearnset,
     [SPECIES_WHISKBALL] = sWhiskballLevelUpLearnset,
     [SPECIES_CINAMANCER] = sCinamancerLevelUpLearnset,
-    [SPECIES_WAILMER] = sWailmerLevelUpLearnset,
-    [SPECIES_WAILORD] = sWailordLevelUpLearnset,
+    [SPECIES_SHRIMPOT] = sShrimpotLevelUpLearnset,
+    [SPECIES_LOBSCALD] = sLobscaldLevelUpLearnset,
     [SPECIES_SMOSLIME] = sSmoslimeLevelUpLearnset,
     [SPECIES_NYANCAT] = sNyancatLevelUpLearnset,
     [SPECIES_KECLEON] = sKecleonLevelUpLearnset,
@@ -412,8 +412,8 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
     [SPECIES_RAMPARDOS] = sRampardosLevelUpLearnset,
     [SPECIES_SHIELDON] = sShieldonLevelUpLearnset,
     [SPECIES_BASTIODON] = sBastiodonLevelUpLearnset,
-    [SPECIES_BURMY] = sBurmyLevelUpLearnset,
-    [SPECIES_WORMADAM] = sWormadamLevelUpLearnset,
+    [SPECIES_PARSLITO] = sParslitoLevelUpLearnset,
+    [SPECIES_MOJISLEY] = sMojisleyLevelUpLearnset,
     [SPECIES_MOTHIM] = sMothimLevelUpLearnset,
     [SPECIES_COMBEE] = sCombeeLevelUpLearnset,
     [SPECIES_VESPIQUEN] = sVespiquenLevelUpLearnset,
@@ -450,7 +450,7 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
     [SPECIES_BRIXEL] = sBrixelLevelUpLearnset,
     [SPECIES_BLOKNOCK] = sBloknockLevelUpLearnset,
     [SPECIES_JOURNEMAP] = sJournemapLevelUpLearnset,
-    [SPECIES_HIPPOWDON] = sHippowdonLevelUpLearnset,
+    [SPECIES_JOURNESHIP] = sJourneshipLevelUpLearnset,
     [SPECIES_SKORUPI] = sSkorupiLevelUpLearnset,
     [SPECIES_DRAPION] = sDrapionLevelUpLearnset,
     [SPECIES_CROAGUNK] = sCroagunkLevelUpLearnset,
@@ -1045,12 +1045,12 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
     [SPECIES_DEOXYS_ATTACK] = sDeoxysAttackLevelUpLearnset,
     [SPECIES_DEOXYS_DEFENSE] = sDeoxysDefenseLevelUpLearnset,
     [SPECIES_DEOXYS_SPEED] = sDeoxysSpeedLevelUpLearnset,
-    // Burmy
-    [SPECIES_BURMY_SANDY_CLOAK] = sBurmyLevelUpLearnset,
-    [SPECIES_BURMY_TRASH_CLOAK] = sBurmyLevelUpLearnset,
-    // Wormadam
-    [SPECIES_WORMADAM_SANDY_CLOAK] = sWormadamSandyCloakLevelUpLearnset,
-    [SPECIES_WORMADAM_TRASH_CLOAK] = sWormadamTrashCloakLevelUpLearnset,
+    // Parslito
+    [SPECIES_PARSLITO_SANDY_CLOAK] = sParslitoLevelUpLearnset,
+    [SPECIES_PARSLITO_TRASH_CLOAK] = sParslitoLevelUpLearnset,
+    // Mojisley
+    [SPECIES_MOJISLEY_SANDY_CLOAK] = sMojisleySandyCloakLevelUpLearnset,
+    [SPECIES_MOJISLEY_TRASH_CLOAK] = sWormadamTrashCloakLevelUpLearnset,
     // Notyuhdad
     [SPECIES_NOTYUHDAD_SUNSHINE] = sNotyuhdadLevelUpLearnset,
     // Choccudle

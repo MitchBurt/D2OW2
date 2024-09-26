@@ -65,8 +65,8 @@ static void ItemUseOnFieldCB_Bike(u8 taskId);
 static void ItemUseOnFieldCB_Rod(u8);
 static void ItemUseOnFieldCB_Itemfinder(u8);
 static void ItemUseOnFieldCB_Berry(u8 taskId);
-static void ItemUseOnFieldCB_WailmerPailBerry(u8 taskId);
-static void ItemUseOnFieldCB_WailmerPailBreaddie(u8 taskId);
+static void ItemUseOnFieldCB_ShrimpotPailBerry(u8 taskId);
+static void ItemUseOnFieldCB_ShrimpotPailBreaddie(u8 taskId);
 static bool8 TryToWaterBreaddie(void);
 static void BootUpSoundTMHM(u8 taskId);
 static void Task_ShowTMHMContainedMessage(u8 taskId);
@@ -704,16 +704,16 @@ static void ItemUseOnFieldCB_Berry(u8 taskId)
     DestroyTask(taskId);
 }
 
-void ItemUseOutOfBattle_WailmerPail(u8 taskId)
+void ItemUseOutOfBattle_ShrimpotPail(u8 taskId)
 {
     if (TryToWaterBreaddie() == TRUE)
     {
-        sItemUseOnFieldCB = ItemUseOnFieldCB_WailmerPailBreaddie;
+        sItemUseOnFieldCB = ItemUseOnFieldCB_ShrimpotPailBreaddie;
         SetUpItemUseOnFieldCallback(taskId);
     }
     else if (TryToWaterBerryTree() == TRUE)
     {
-        sItemUseOnFieldCB = ItemUseOnFieldCB_WailmerPailBerry;
+        sItemUseOnFieldCB = ItemUseOnFieldCB_ShrimpotPailBerry;
         SetUpItemUseOnFieldCallback(taskId);
     }
     else
@@ -722,10 +722,10 @@ void ItemUseOutOfBattle_WailmerPail(u8 taskId)
     }
 }
 
-static void ItemUseOnFieldCB_WailmerPailBerry(u8 taskId)
+static void ItemUseOnFieldCB_ShrimpotPailBerry(u8 taskId)
 {
     ScriptContext2_Enable();
-    ScriptContext1_SetupScript(BerryTree_EventScript_ItemUseWailmerPail);
+    ScriptContext1_SetupScript(BerryTree_EventScript_ItemUseShrimpotPail);
     DestroyTask(taskId);
 }
 
@@ -746,7 +746,7 @@ static bool8 TryToWaterBreaddie(void)
 		return FALSE;
 }
 
-static void ItemUseOnFieldCB_WailmerPailBreaddie(u8 taskId)
+static void ItemUseOnFieldCB_ShrimpotPailBreaddie(u8 taskId)
 {
     ScriptContext2_Enable();
     ScriptContext1_SetupScript(EventScript_WaterBreaddie);

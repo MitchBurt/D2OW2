@@ -2346,7 +2346,7 @@ const u16 gEggMoves[] = {
 		MOVE_BRINE,
 		MOVE_PSYCHIC_FANGS),
 
-	egg_moves(WAILMER,
+	egg_moves(SHRIMPOT,
 		MOVE_THRASH,
 		MOVE_DOUBLE_EDGE,
 		MOVE_FISSURE,

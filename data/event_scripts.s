@@ -1035,7 +1035,7 @@ gText_PlayerFoundOneTMHM:: @ 82731A9
 
 gText_Breaddie_Attacked:: @ 82731BD
 	.string "The weird tree doesn't like the\n"
-	.string "Wailmer Pail!\p"
+	.string "Shrimpot Pail!\p"
 	.string "The weird tree attacked!$"
 
 gText_LegendaryFlewAway:: @ 8273204

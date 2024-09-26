@@ -1962,7 +1962,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .categoryName = _("Búho"),
         .height = 7,
         .weight = 212,
-        .description = gWormadamtPokedexText,
+        .description = gWormadamTPokedexText,
         .pokemonScale = 380,
         .pokemonOffset = -2,
         .trainerScale = 256,
@@ -3841,24 +3841,24 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 3,
     },
 
-    [NATIONAL_DEX_WAILMER] =
+    [NATIONAL_DEX_SHRIMPOT] =
     {
         .categoryName = _("Ballenabola"),
         .height = 20,
         .weight = 1300,
-        .description = gWailmerPokedexText,
+        .description = gShrimpotPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 2,
         .trainerScale = 493,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_WAILORD] =
+    [NATIONAL_DEX_LOBSCALD] =
     {
         .categoryName = _("Ballenaflot"),
         .height = 145,
         .weight = 3980,
-        .description = gWailordPokedexText,
+        .description = gLobscaldPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 1352,
@@ -4945,24 +4945,24 @@ const struct PokedexEntry gPokedexEntries[] =
 		.trainerOffset = 0,
 	},
 
-	[NATIONAL_DEX_BURMY] =
+	[NATIONAL_DEX_PARSLITO] =
 	{
 		.categoryName = _("Bagworm"),
 		.height = 2,
 		.weight = 34,
-		.description = gBurmyPokedexText,
+		.description = gParslitoPokedexText,
 		.pokemonScale = 356,
 		.pokemonOffset = 17,
 		.trainerScale = 256,
 		.trainerOffset = 0,
 	},
 
-	[NATIONAL_DEX_WORMADAM] =
+	[NATIONAL_DEX_MOJISLEY] =
 	{
 		.categoryName = _("Bagworm"),
 		.height = 5,
 		.weight = 65,
-		.description = gWormadamPokedexText,
+		.description = gMojisleyPokedexText,
 		.pokemonScale = 356,
 		.pokemonOffset = 17,
 		.trainerScale = 256,
@@ -5401,12 +5401,12 @@ const struct PokedexEntry gPokedexEntries[] =
 		.trainerOffset = 0,
 	},
 
-	[NATIONAL_DEX_HIPPOWDON] =
+	[NATIONAL_DEX_JOURNESHIP] =
 	{
 		.categoryName = _("Heavyweight"),
 		.height = 20,
 		.weight = 3000,
-		.description = gHippowdonPokedexText,
+		.description = gJourneshipPokedexText,
 		.pokemonScale = 356,
 		.pokemonOffset = 17,
 		.trainerScale = 256,
@@ -12752,7 +12752,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .categoryName = _("Owl"),
         .height = 7,
         .weight = 212,
-        .description = gWormadamtPokedexText,
+        .description = gWormadamTPokedexText,
         .pokemonScale = 380,
         .pokemonOffset = -2,
         .trainerScale = 256,
@@ -14631,24 +14631,24 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 3,
     },
 
-    [NATIONAL_DEX_WAILMER] =
+    [NATIONAL_DEX_SHRIMPOT] =
     {
         .categoryName = _("Ball Whale"),
         .height = 20,
         .weight = 1300,
-        .description = gWailmerPokedexText,
+        .description = gShrimpotPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 2,
         .trainerScale = 493,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_WAILORD] =
+    [NATIONAL_DEX_LOBSCALD] =
     {
         .categoryName = _("Float Whale"),
         .height = 145,
         .weight = 3980,
-        .description = gWailordPokedexText,
+        .description = gLobscaldPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 1352,
@@ -15735,24 +15735,24 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_BURMY] =
+    [NATIONAL_DEX_PARSLITO] =
     {
         .categoryName = _("Bagworm"),
         .height = 2,
         .weight = 34,
-        .description = gBurmyPokedexText,
+        .description = gParslitoPokedexText,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_WORMADAM] =
+    [NATIONAL_DEX_MOJISLEY] =
     {
         .categoryName = _("Bagworm"),
         .height = 5,
         .weight = 65,
-        .description = gWormadamPokedexText,
+        .description = gMojisleyPokedexText,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -16191,12 +16191,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_HIPPOWDON] =
+    [NATIONAL_DEX_JOURNESHIP] =
     {
         .categoryName = _("Heavyweight"),
         .height = 20,
         .weight = 3000,
-        .description = gHippowdonPokedexText,
+        .description = gJourneshipPokedexText,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,

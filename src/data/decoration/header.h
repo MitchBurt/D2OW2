@@ -1054,14 +1054,14 @@ const struct Decoration gDecorations[] = {
         DecorDesc_SPERIATHON_DOLL,
         DecorGfx_SPERIATHON_DOLL
     }, {
-        DECOR_WAILMER_DOLL,
-        _("Muñeco Wailmer"),
+        DECOR_SHRIMPOT_DOLL,
+        _("Muñeco Shrimpot"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x2,
         DECORCAT_DOLL,
         10000,
-        DecorDesc_WAILMER_DOLL,
-        DecorGfx_WAILMER_DOLL
+        DecorDesc_SHRIMPOT_DOLL,
+        DecorGfx_SHRIMPOT_DOLL
     }, {
         DECOR_REGIROCK_DOLL,
         _("Muñeco Regirock"),
@@ -2144,14 +2144,14 @@ const struct Decoration gDecorations[] = {
         DecorDesc_SPERIATHON_DOLL,
         DecorGfx_SPERIATHON_DOLL
     }, {
-        DECOR_WAILMER_DOLL,
-        _("Wailmer Doll"),
+        DECOR_SHRIMPOT_DOLL,
+        _("Shrimpot Doll"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x2,
         DECORCAT_DOLL,
         10000,
-        DecorDesc_WAILMER_DOLL,
-        DecorGfx_WAILMER_DOLL
+        DecorDesc_SHRIMPOT_DOLL,
+        DecorGfx_SHRIMPOT_DOLL
     }, {
         DECOR_REGIROCK_DOLL,
         _("Regirock Doll"),

@@ -182,7 +182,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigJebonyDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigYggdraconDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigSkorpyrosDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigSperiathonDoll;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigWailmerDoll;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigShrimpotDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigRegirockDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigRegiceDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigRegisteelDoll;
@@ -1278,7 +1278,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_BIG_YGGDRACON_DOLL] =        &gObjectEventGraphicsInfo_BigYggdraconDoll,
     [OBJ_EVENT_GFX_BIG_SKORPYROS_DOLL] =       &gObjectEventGraphicsInfo_BigSkorpyrosDoll,
     [OBJ_EVENT_GFX_BIG_SPERIATHON_DOLL] =       &gObjectEventGraphicsInfo_BigSperiathonDoll,
-    [OBJ_EVENT_GFX_BIG_WAILMER_DOLL] =         &gObjectEventGraphicsInfo_BigWailmerDoll,
+    [OBJ_EVENT_GFX_BIG_SHRIMPOT_DOLL] =         &gObjectEventGraphicsInfo_BigShrimpotDoll,
     [OBJ_EVENT_GFX_BIG_REGIROCK_DOLL] =        &gObjectEventGraphicsInfo_BigRegirockDoll,
     [OBJ_EVENT_GFX_BIG_REGICE_DOLL] =          &gObjectEventGraphicsInfo_BigRegiceDoll,
     [OBJ_EVENT_GFX_BIG_REGISTEEL_DOLL] =       &gObjectEventGraphicsInfo_BigRegisteelDoll,

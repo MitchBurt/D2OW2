@@ -162,7 +162,7 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_TEED] = _("Teed"),
     [SPECIES_GONCARICIV] = _("Goncariciv"),
     [SPECIES_DEEPFRIEON] = _("Deepfrieon"),
-    [SPECIES_WORMADAMT] = _("Wormadamt"),
+    [SPECIES_WORMADAMT] = _("WormadamT"),
     [SPECIES_JADOUG] = _("Jadoug"),
     [SPECIES_ABOMINATON] = _("Abominaton"),
     [SPECIES_WURM] = _("Wurm"),
@@ -320,8 +320,8 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_CARNIGORE] = _("Carnigore"),
     [SPECIES_BREWFIN] = _("Brewfin"),
     [SPECIES_SHARKEG] = _("Sharkeg"),
-    [SPECIES_WAILMER] = _("Wailmer"),
-    [SPECIES_WAILORD] = _("Wailord"),
+    [SPECIES_SHRIMPOT] = _("Shrimpot"),
+    [SPECIES_LOBSCALD] = _("Lobscald"),
     [SPECIES_VULPOINTER] = _("Vulpointer"),
     [SPECIES_ERRORINE] = _("Errorine"),
     [SPECIES_HELLAPHANT] = _("Hellaphant"),
@@ -412,8 +412,8 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_RAMPARDOS] = _("Rampardos"),
     [SPECIES_SHIELDON] = _("Shieldon"),
     [SPECIES_BASTIODON] = _("Bastiodon"),
-    [SPECIES_BURMY] = _("Burmy"),
-    [SPECIES_WORMADAM] = _("Wormadam"),
+    [SPECIES_PARSLITO] = _("Parslito"),
+    [SPECIES_MOJISLEY] = _("Mojisley"),
     [SPECIES_MOTHIM] = _("Mothim"),
     [SPECIES_COMBEE] = _("Combee"),
     [SPECIES_VESPIQUEN] = _("Vespiquen"),
@@ -450,7 +450,7 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_BRIXEL] = _("Brixel"),
     [SPECIES_BLOKNOCK] = _("Bloknock"),
     [SPECIES_JOURNEMAP] = _("Journemap"),
-    [SPECIES_HIPPOWDON] = _("Hippowdon"),
+    [SPECIES_JOURNESHIP] = _("Journeship"),
     [SPECIES_SKORUPI] = _("Skorupi"),
     [SPECIES_DRAPION] = _("Drapion"),
     [SPECIES_CROAGUNK] = _("Croagunk"),
@@ -1048,12 +1048,12 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_DEOXYS_ATTACK] = _("Deoxys"),
     [SPECIES_DEOXYS_DEFENSE] = _("Deoxys"),
     [SPECIES_DEOXYS_SPEED] = _("Deoxys"),
-    // Burmy
-    [SPECIES_BURMY_SANDY_CLOAK] = _("Burmy"),
-    [SPECIES_BURMY_TRASH_CLOAK] = _("Burmy"),
-    // Wormadam
-    [SPECIES_WORMADAM_SANDY_CLOAK] = _("Wormadam"),
-    [SPECIES_WORMADAM_TRASH_CLOAK] = _("Wormadam"),
+    // Parslito
+    [SPECIES_PARSLITO_SANDY_CLOAK] = _("Parslito"),
+    [SPECIES_PARSLITO_TRASH_CLOAK] = _("Parslito"),
+    // Mojisley
+    [SPECIES_MOJISLEY_SANDY_CLOAK] = _("Mojisley"),
+    [SPECIES_MOJISLEY_TRASH_CLOAK] = _("Mojisley"),
     // Notyuhdad
     [SPECIES_NOTYUHDAD_SUNSHINE] = _("Notyuhdad"),
     // Choccudle

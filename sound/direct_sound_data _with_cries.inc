@@ -1035,7 +1035,7 @@ Cry_Deepfrieon::
 	.incbin "sound/direct_sound_samples/cries/cry_deepfrieon.bin"
 
 	.align 2
-Cry_Wormadamt::
+Cry_WormadamT::
 	.incbin "sound/direct_sound_samples/cries/cry_wormadamt.bin"
 
 	.align 2
@@ -1663,12 +1663,12 @@ Cry_Sharkeg::
 	.incbin "sound/direct_sound_samples/cries/cry_sharkeg.bin"
 
 	.align 2
-Cry_Wailmer::
-	.incbin "sound/direct_sound_samples/cries/cry_wailmer.bin"
+Cry_Shrimpot::
+	.incbin "sound/direct_sound_samples/cries/cry_shrimpot.bin"
 
 	.align 2
-Cry_Wailord::
-	.incbin "sound/direct_sound_samples/cries/cry_wailord.bin"
+Cry_Lobscald::
+	.incbin "sound/direct_sound_samples/cries/cry_lobscald.bin"
 
 	.align 2
 Cry_Vulpointer::
@@ -2031,12 +2031,12 @@ Cry_Bastiodon::
 	.incbin "sound/direct_sound_samples/cries/cry_not_bastiodon.bin"
 
 	.align 2
-Cry_Burmy::
-	.incbin "sound/direct_sound_samples/cries/cry_not_burmy.bin"
+Cry_Parslito::
+	.incbin "sound/direct_sound_samples/cries/cry_not_parslito.bin"
 
 	.align 2
-Cry_Wormadam::
-	.incbin "sound/direct_sound_samples/cries/cry_not_wormadam.bin"
+Cry_Mojisley::
+	.incbin "sound/direct_sound_samples/cries/cry_not_mojisley.bin"
 
 	.align 2
 Cry_Mothim::
@@ -2183,8 +2183,8 @@ Cry_Journemap::
 	.incbin "sound/direct_sound_samples/cries/cry_not_journemap.bin"
 
 	.align 2
-Cry_Hippowdon::
-	.incbin "sound/direct_sound_samples/cries/cry_not_hippowdon.bin"
+Cry_Journeship::
+	.incbin "sound/direct_sound_samples/cries/cry_not_journeship.bin"
 
 	.align 2
 Cry_Skorupi::

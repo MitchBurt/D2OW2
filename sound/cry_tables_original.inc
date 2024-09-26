@@ -164,7 +164,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Teed  @ 869E468
 	cry Cry_Goncariciv  @ 869E474
 	cry Cry_Deepfrieon  @ 869E480
-	cry Cry_Wormadamt  @ 869E48C
+	cry Cry_WormadamT  @ 869E48C
 	cry Cry_Jadoug  @ 869E498
 	cry Cry_Abominaton  @ 869E4A4
 	cry Cry_Wurm  @ 869E4B0
@@ -322,8 +322,8 @@ gCryTable:: @ 869DCF4
 	cry Cry_Carnigore
 	cry Cry_Brewfin
 	cry Cry_Sharkeg
-	cry Cry_Wailmer
-	cry Cry_Wailord
+	cry Cry_Shrimpot
+	cry Cry_Lobscald
 	cry Cry_Vulpointer
 	cry Cry_Errorine
 	cry Cry_Hellaphant
@@ -415,8 +415,8 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Rampardos
 	cry_not Cry_Shieldon
 	cry_not Cry_Bastiodon
-	cry_not Cry_Burmy
-	cry_not Cry_Wormadam
+	cry_not Cry_Parslito
+	cry_not Cry_Mojisley
 	cry_not Cry_Mothim
 	cry_not Cry_Combee
 	cry_not Cry_Vespiquen
@@ -453,7 +453,7 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Brixel
 	cry_not Cry_Bloknock
 	cry_not Cry_Journemap
-	cry_not Cry_Hippowdon
+	cry_not Cry_Journeship
 	cry_not Cry_Skorupi
 	cry_not Cry_Drapion
 	cry_not Cry_Croagunk
@@ -1051,12 +1051,12 @@ gCryTable:: @ 869DCF4
 	cry Cry_Deoxys
 	cry Cry_Deoxys
 	cry Cry_Deoxys
-	@ Burmy
-	cry_not Cry_Burmy
-	cry_not Cry_Burmy
-	@ Wormadam
-	cry_not Cry_Wormadam
-	cry_not Cry_Wormadam
+	@ Parslito
+	cry_not Cry_Parslito
+	cry_not Cry_Parslito
+	@ Mojisley
+	cry_not Cry_Mojisley
+	cry_not Cry_Mojisley
 	@ Notyuhdad
 	cry_not Cry_Notyuhdad
 	@ Choccudle
@@ -1443,7 +1443,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Teed  @ 869F698
 	cry2 Cry_Goncariciv  @ 869F6A4
 	cry2 Cry_Deepfrieon  @ 869F6B0
-	cry2 Cry_Wormadamt  @ 869F6BC
+	cry2 Cry_WormadamT  @ 869F6BC
 	cry2 Cry_Jadoug  @ 869F6C8
 	cry2 Cry_Abominaton  @ 869F6D4
 	cry2 Cry_Wurm  @ 869F6E0
@@ -1600,8 +1600,8 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Carnigore
 	cry2 Cry_Brewfin
 	cry2 Cry_Sharkeg
-	cry2 Cry_Wailmer
-	cry2 Cry_Wailord
+	cry2 Cry_Shrimpot
+	cry2 Cry_Lobscald
 	cry2 Cry_Vulpointer
 	cry2 Cry_Errorine
 	cry2 Cry_Hellaphant
@@ -1693,8 +1693,8 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Rampardos
 	cry2_not Cry_Shieldon
 	cry2_not Cry_Bastiodon
-	cry2_not Cry_Burmy
-	cry2_not Cry_Wormadam
+	cry2_not Cry_Parslito
+	cry2_not Cry_Mojisley
 	cry2_not Cry_Mothim
 	cry2_not Cry_Combee
 	cry2_not Cry_Vespiquen
@@ -1731,7 +1731,7 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Brixel
 	cry2_not Cry_Bloknock
 	cry2_not Cry_Journemap
-	cry2_not Cry_Hippowdon
+	cry2_not Cry_Journeship
 	cry2_not Cry_Skorupi
 	cry2_not Cry_Drapion
 	cry2_not Cry_Croagunk
@@ -2329,12 +2329,12 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Deoxys
 	cry2 Cry_Deoxys
 	cry2 Cry_Deoxys
-	@ Burmy
-	cry2_not Cry_Burmy
-	cry2_not Cry_Burmy
-	@ Wormadam
-	cry2_not Cry_Wormadam
-	cry2_not Cry_Wormadam
+	@ Parslito
+	cry2_not Cry_Parslito
+	cry2_not Cry_Parslito
+	@ Mojisley
+	cry2_not Cry_Mojisley
+	cry2_not Cry_Mojisley
 	@ Notyuhdad
 	cry2_not Cry_Notyuhdad
 	@ Choccudle

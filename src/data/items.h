@@ -4996,20 +4996,20 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_WAILMER_PAIL] =
+    [ITEM_SHRIMPOT_PAIL] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
         .name = _("Wailmegadera"),
 #else
-        .name = _("Wailmer Pail"),
+        .name = _("Shrimpot Pail"),
 #endif
-        .itemId = ITEM_WAILMER_PAIL,
+        .itemId = ITEM_SHRIMPOT_PAIL,
         .price = 0,
-        .description = sWailmerPailDesc,
+        .description = sShrimpotPailDesc,
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
         .type = 2,
-        .fieldUseFunc = ItemUseOutOfBattle_WailmerPail,
+        .fieldUseFunc = ItemUseOutOfBattle_ShrimpotPail,
         .secondaryId = 0,
     },
 

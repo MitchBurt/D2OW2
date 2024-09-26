@@ -973,10 +973,10 @@ const u8 gDeepfrieonPokedexText[] = _(
     "habilidad por cualquier huevo y escapar.\n"
     "Aunque tiene patas cortas, es ágil y veloz.");
 
-const u8 gWormadamtPokedexText[] = _(
+const u8 gWormadamTPokedexText[] = _(
     "Tiene un órgano interno que percibe\n"
     "la rotación de la tierra. Por esta\n"
-    "razón, Wormadamt es capaz de ulular\n"
+    "razón, WormadamT es capaz de ulular\n"
     "todos los días a la misma hora.");
 
 const u8 gJadougPokedexText[] = _(
@@ -1723,13 +1723,13 @@ const u8 gCinamancerPokedexText[] = _(
     "volar si se le mojan las alas, se protege\n"
     "de la lluvia bajo aleros y grandes árboles.");
 
-const u8 gWailmerPokedexText[] = _(
+const u8 gShrimpotPokedexText[] = _(
     "Aunque este Pokémon vive generalmente\n"
     "en el mar, puede sobrevivir en tierra,\n"
     "pero durante poco tiempo.\n"
     "Si se le seca el cuerpo, pierde vitalidad.");
 
-const u8 gWailordPokedexText[] = _(
+const u8 gLobscaldPokedexText[] = _(
     "Respira a través de los espiráculos que\n"
     "saca a la superficie. Si toma aire hasta el\n"
     "máximo de su capacidad, puede sumergirse\n"
@@ -2465,15 +2465,15 @@ const u8 gBastiodonPokedexText[] = _(
     "When attacked, they form a wall.\n"
     "They shielded their young in that way.");
 
-const u8 gBurmyPokedexText[] = _(
+const u8 gParslitoPokedexText[] = _(
     "It is covered with a cloak that shelters\n"
     "it from the cold. If its cloak is broken\n"
     "in battle, it quickly remakes the cloak\n"
     "with materials nearby.");
 
-const u8 gWormadamPokedexText[] = _(
+const u8 gMojisleyPokedexText[] = _(
     "Its appearance changes depending\n"
-    "on where Burmy evolved. The materials\n"
+    "on where Parslito evolved. The materials\n"
     "on hand become a part of its body.\n"
     "The cloak is never shed.");
 
@@ -2694,7 +2694,7 @@ const u8 gJournemapPokedexText[] = _(
     "perspiration, it expels grains of sand\n"
     "from its body.");
 
-const u8 gHippowdonPokedexText[] = _(
+const u8 gJourneshipPokedexText[] = _(
     "It is surprisingly quick to anger.\n"
     "It brandishes its gaping mouth in a\n"
     "display of fearsome strength and raises\n"
@@ -6331,10 +6331,10 @@ const u8 gDeepfrieonPokedexText[] = _(
     "spaces and get away. In spite of its short\n"
     "limbs, it is very nimble and fleet.");
 
-const u8 gWormadamtPokedexText[] = _(
+const u8 gWormadamTPokedexText[] = _(
     "It has an internal organ that senses\n"
     "the earth's rotation. Using this special\n"
-    "organ, a Wormadamt begins hooting at\n"
+    "organ, a WormadamT begins hooting at\n"
     "precisely the same time every day.");
 
 const u8 gJadougPokedexText[] = _(
@@ -7081,16 +7081,16 @@ const u8 gCinamancerPokedexText[] = _(
     "fly if its wings get wet, it shelters itself\n"
     "from rain under large trees and eaves.");
 
-const u8 gWailmerPokedexText[] = _(
+const u8 gShrimpotPokedexText[] = _(
     "While this Pokémon usually lives in the sea,\n"
     "it can survive on land, although not too\n"
     "long. It loses vitality if its body becomes\n"
     "dried out.");
 
-const u8 gWailordPokedexText[] = _(
+const u8 gLobscaldPokedexText[] = _(
     "It breathes through nostrils that it\n"
     "raises above the sea. By inhaling to its\n"
-    "maximum capacity, a Wailord can dive close\n"
+    "maximum capacity, a Lobscald can dive close\n"
     "to 10,000 feet beneath the waves.");
 
 const u8 gSmoslimePokedexText[] = _(
@@ -7825,15 +7825,15 @@ const u8 gBastiodonPokedexText[] = _(
     "When attacked, they form a wall.\n"
     "They shielded their young in that way.");
 
-const u8 gBurmyPokedexText[] = _(
+const u8 gParslitoPokedexText[] = _(
     "It is covered with a cloak that shelters\n"
     "it from the cold. If its cloak is broken\n"
     "in battle, it quickly remakes the cloak\n"
     "with materials nearby.");
 
-const u8 gWormadamPokedexText[] = _(
+const u8 gMojisleyPokedexText[] = _(
     "Its appearance changes depending\n"
-    "on where Burmy evolved. The materials\n"
+    "on where Parslito evolved. The materials\n"
     "on hand become a part of its body.\n"
     "The cloak is never shed.");
 
@@ -8054,7 +8054,7 @@ const u8 gJournemapPokedexText[] = _(
     "perspiration, it expels grains of sand\n"
     "from its body.");
 
-const u8 gHippowdonPokedexText[] = _(
+const u8 gJourneshipPokedexText[] = _(
     "It is surprisingly quick to anger.\n"
     "It brandishes its gaping mouth in a\n"
     "display of fearsome strength and raises\n"

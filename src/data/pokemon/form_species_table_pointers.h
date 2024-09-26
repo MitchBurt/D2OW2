@@ -64,8 +64,8 @@ const u16 *const gFormSpeciesIdTables[NUM_SPECIES] =
     [SPECIES_GROUDON] = sGroudonFormSpeciesIdTable,
     [SPECIES_RAYQUAZA] = sRayquazaFormSpeciesIdTable,
     [SPECIES_DEOXYS] = sDeoxysFormSpeciesIdTable,
-    [SPECIES_BURMY] = sBurmyFormSpeciesIdTable,
-    [SPECIES_WORMADAM] = sWormadamFormSpeciesIdTable,
+    [SPECIES_PARSLITO] = sParslitoFormSpeciesIdTable,
+    [SPECIES_MOJISLEY] = sMojisleyFormSpeciesIdTable,
     [SPECIES_NOTYUHDAD] = sNotyuhdadFormSpeciesIdTable,
     [SPECIES_CHOCCUDLE] = sChoccudleFormSpeciesIdTable,
     [SPECIES_CHOCTIC] = sChocticFormSpeciesIdTable,
@@ -238,12 +238,12 @@ const u16 *const gFormSpeciesIdTables[NUM_SPECIES] =
     [SPECIES_DEOXYS_ATTACK] = sDeoxysFormSpeciesIdTable,
     [SPECIES_DEOXYS_DEFENSE] = sDeoxysFormSpeciesIdTable,
     [SPECIES_DEOXYS_SPEED] = sDeoxysFormSpeciesIdTable,
-    // Burmy
-    [SPECIES_BURMY_SANDY_CLOAK] = sBurmyFormSpeciesIdTable,
-    [SPECIES_BURMY_TRASH_CLOAK] = sBurmyFormSpeciesIdTable,
-    // Wormadam
-    [SPECIES_WORMADAM_SANDY_CLOAK] = sWormadamFormSpeciesIdTable,
-    [SPECIES_WORMADAM_TRASH_CLOAK] = sWormadamFormSpeciesIdTable,
+    // Parslito
+    [SPECIES_PARSLITO_SANDY_CLOAK] = sParslitoFormSpeciesIdTable,
+    [SPECIES_PARSLITO_TRASH_CLOAK] = sParslitoFormSpeciesIdTable,
+    // Mojisley
+    [SPECIES_MOJISLEY_SANDY_CLOAK] = sMojisleyFormSpeciesIdTable,
+    [SPECIES_MOJISLEY_TRASH_CLOAK] = sMojisleyFormSpeciesIdTable,
     // Notyuhdad
     //[SPECIES_NOTYUHDAD_SUNSHINE] = sNotyuhdadFormSpeciesIdTable,
     // Choccudle
@@ -594,12 +594,12 @@ const u16 gBaseFormID[NUM_SPECIES] =
     [SPECIES_DEOXYS_ATTACK] = SPECIES_DEOXYS,
     [SPECIES_DEOXYS_DEFENSE] = SPECIES_DEOXYS,
     [SPECIES_DEOXYS_SPEED] = SPECIES_DEOXYS,
-    // Burmy
-    [SPECIES_BURMY_SANDY_CLOAK] = SPECIES_BURMY,
-    [SPECIES_BURMY_TRASH_CLOAK] = SPECIES_BURMY,
-    // Wormadam
-    [SPECIES_WORMADAM_SANDY_CLOAK] = SPECIES_WORMADAM,
-    [SPECIES_WORMADAM_TRASH_CLOAK] = SPECIES_WORMADAM,
+    // Parslito
+    [SPECIES_PARSLITO_SANDY_CLOAK] = SPECIES_PARSLITO,
+    [SPECIES_PARSLITO_TRASH_CLOAK] = SPECIES_PARSLITO,
+    // Mojisley
+    [SPECIES_MOJISLEY_SANDY_CLOAK] = SPECIES_MOJISLEY,
+    [SPECIES_MOJISLEY_TRASH_CLOAK] = SPECIES_MOJISLEY,
     // Notyuhdad
     [SPECIES_NOTYUHDAD_SUNSHINE] = SPECIES_NOTYUHDAD,
     // Choccudle

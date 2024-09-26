@@ -3374,7 +3374,7 @@ static const union AnimCmd sAnim_CINAMANCER_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_WAILMER_1[] =
+static const union AnimCmd sAnim_SHRIMPOT_1[] =
 {
     ANIMCMD_FRAME(0, 22),
     ANIMCMD_FRAME(1, 22),
@@ -3386,7 +3386,7 @@ static const union AnimCmd sAnim_WAILMER_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_WAILORD_1[] =
+static const union AnimCmd sAnim_LOBSCALD_1[] =
 {
     ANIMCMD_FRAME(0, 26),
     ANIMCMD_FRAME(1, 48),
@@ -5024,7 +5024,7 @@ static const union AnimCmd sAnim_BASTIODON_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_BURMY_1[] =
+static const union AnimCmd sAnim_PARSLITO_1[] =
 {
     ANIMCMD_FRAME(0, 30),
     ANIMCMD_FRAME(1, 30),
@@ -5032,7 +5032,7 @@ static const union AnimCmd sAnim_BURMY_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_WORMADAM_1[] =
+static const union AnimCmd sAnim_MOJISLEY_1[] =
 {
     ANIMCMD_FRAME(0, 30),
     ANIMCMD_FRAME(1, 30),
@@ -5356,7 +5356,7 @@ static const union AnimCmd sAnim_JOURNEMAP_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_HIPPOWDON_1[] =
+static const union AnimCmd sAnim_JOURNESHIP_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(1, 45),
@@ -10635,14 +10635,14 @@ static const union AnimCmd *const sAnims_CINAMANCER[] ={
     sAnim_CINAMANCER_2,
 };
 
-static const union AnimCmd *const sAnims_WAILMER[] ={
+static const union AnimCmd *const sAnims_SHRIMPOT[] ={
     sAnim_GeneralFrame0,
-    sAnim_WAILMER_1,
+    sAnim_SHRIMPOT_1,
 };
 
-static const union AnimCmd *const sAnims_WAILORD[] ={
+static const union AnimCmd *const sAnims_LOBSCALD[] ={
     sAnim_GeneralFrame0,
-    sAnim_WAILORD_1,
+    sAnim_LOBSCALD_1,
 };
 
 static const union AnimCmd *const sAnims_SMOSLIME[] ={
@@ -11423,14 +11423,14 @@ static const union AnimCmd *const sAnims_BASTIODON[] ={
     sAnim_BASTIODON_1,
 };
 
-static const union AnimCmd *const sAnims_BURMY[] ={
+static const union AnimCmd *const sAnims_PARSLITO[] ={
     sAnim_GeneralFrame0,
-    sAnim_BURMY_1,
+    sAnim_PARSLITO_1,
 };
 
-static const union AnimCmd *const sAnims_WORMADAM[] ={
+static const union AnimCmd *const sAnims_MOJISLEY[] ={
     sAnim_GeneralFrame0,
-    sAnim_WORMADAM_1,
+    sAnim_MOJISLEY_1,
 };
 
 static const union AnimCmd *const sAnims_MOTHIM[] ={
@@ -11614,9 +11614,9 @@ static const union AnimCmd *const sAnims_JOURNEMAP[] ={
     sAnim_JOURNEMAP_1,
 };
 
-static const union AnimCmd *const sAnims_HIPPOWDON[] ={
+static const union AnimCmd *const sAnims_JOURNESHIP[] ={
     sAnim_GeneralFrame0,
-    sAnim_HIPPOWDON_1,
+    sAnim_JOURNESHIP_1,
 };
 
 static const union AnimCmd *const sAnims_SKORUPI[] ={
@@ -14726,8 +14726,8 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(NOCTRUM),
     ANIM_CMD(WHISKBALL),
     ANIM_CMD(CINAMANCER),
-    ANIM_CMD(WAILMER),
-    ANIM_CMD(WAILORD),
+    ANIM_CMD(SHRIMPOT),
+    ANIM_CMD(LOBSCALD),
     ANIM_CMD(SMOSLIME),
     ANIM_CMD(NYANCAT),
     ANIM_CMD(KECLEON),
@@ -14850,8 +14850,8 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(RAMPARDOS),
     ANIM_CMD(SHIELDON),
     ANIM_CMD(BASTIODON),
-    ANIM_CMD(BURMY),
-    ANIM_CMD(WORMADAM),
+    ANIM_CMD(PARSLITO),
+    ANIM_CMD(MOJISLEY),
     ANIM_CMD(MOTHIM),
     ANIM_CMD(COMBEE),
     ANIM_CMD(VESPIQUEN),
@@ -14888,7 +14888,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(BRIXEL),
     ANIM_CMD(BLOKNOCK),
     ANIM_CMD(JOURNEMAP),
-    ANIM_CMD(HIPPOWDON),
+    ANIM_CMD(JOURNESHIP),
     ANIM_CMD(SKORUPI),
     ANIM_CMD(DRAPION),
     ANIM_CMD(CROAGUNK),
@@ -15472,10 +15472,10 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(DEOXYS_ATTACK),
     ANIM_CMD(DEOXYS_DEFENSE),
     ANIM_CMD(DEOXYS_SPEED),
-    ANIM_CMD_FULL(BURMY_SANDY_CLOAK, sAnims_BURMY),
-    ANIM_CMD_FULL(BURMY_TRASH_CLOAK, sAnims_BURMY),
-    ANIM_CMD_FULL(WORMADAM_SANDY_CLOAK, sAnims_WORMADAM),
-    ANIM_CMD_FULL(WORMADAM_TRASH_CLOAK, sAnims_WORMADAM),
+    ANIM_CMD_FULL(PARSLITO_SANDY_CLOAK, sAnims_PARSLITO),
+    ANIM_CMD_FULL(PARSLITO_TRASH_CLOAK, sAnims_PARSLITO),
+    ANIM_CMD_FULL(MOJISLEY_SANDY_CLOAK, sAnims_MOJISLEY),
+    ANIM_CMD_FULL(MOJISLEY_TRASH_CLOAK, sAnims_MOJISLEY),
     ANIM_CMD_FULL(NOTYUHDAD_SUNSHINE, sAnims_NOTYUHDAD),
     ANIM_CMD_FULL(CHOCCUDLE_EAST_SEA, sAnims_CHOCCUDLE),
     ANIM_CMD_FULL(CHOCTIC_EAST_SEA, sAnims_CHOCTIC),

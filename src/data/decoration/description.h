@@ -533,7 +533,7 @@ const u8 DecorDesc_SPERIATHON_DOLL[] = _(
         "Ponlo en una mesa\n"
         "o tapete.");
 
-const u8 DecorDesc_WAILMER_DOLL[] = _(
+const u8 DecorDesc_SHRIMPOT_DOLL[] = _(
     "Muñeco grande.\n"
         "Ponlo en una mesa\n"
         "o tapete.");
@@ -1109,7 +1109,7 @@ const u8 DecorDesc_SPERIATHON_DOLL[] = _(
         "Place it on a mat\n"
         "or a desk.");
 
-const u8 DecorDesc_WAILMER_DOLL[] = _(
+const u8 DecorDesc_SHRIMPOT_DOLL[] = _(
     "A large doll.\n"
         "Place it on a mat\n"
         "or a desk.");
