@@ -915,7 +915,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_TIMID
     },
     [SLATEPORT_TENT_MON_AWMANE] = {
-        .species = SPECIES_FROSLASS,
+        .species = SPECIES_BLINKRUPT,
         .moves = {MOVE_ICE_BEAM, MOVE_SHADOW_BALL, MOVE_SPIKES, MOVE_DESTINY_BOND},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_SP_ATTACK,
@@ -950,7 +950,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_TIMID
     },
     [SLATEPORT_TENT_MON_TAILLOW] = {
-        .species = SPECIES_MAGMORTAR,
+        .species = SPECIES_TOASTRIDER,
         .moves = {MOVE_THUNDERBOLT, MOVE_FIRE_BLAST, MOVE_PSYCHIC, MOVE_FOCUS_BLAST},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_SP_ATTACK,
@@ -971,7 +971,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_JOLLY
     },
     [SLATEPORT_TENT_MON_BRAVOGOR] = {
-        .species = SPECIES_ABSOL,
+        .species = SPECIES_FREDBAR,
         .moves = {MOVE_SUCKER_PUNCH, MOVE_PLAY_ROUGH, MOVE_KNOCK_OFF, MOVE_SUPERPOWER},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,
@@ -1013,7 +1013,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_TIMID
     },
     [SLATEPORT_TENT_MON_COOPID] = {
-        .species = SPECIES_PORYGON_Z,
+        .species = SPECIES_HELLSPACK,
         .moves = {MOVE_TRI_ATTACK, MOVE_ICE_BEAM, MOVE_THUNDERBOLT, MOVE_AGILITY},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
@@ -1076,7 +1076,7 @@ const struct FacilityMon gSlateportBattleTentMons[NUM_SLATEPORT_TENT_MONS] =
         .nature = NATURE_TIMID
     },
     [SLATEPORT_TENT_MON_BLINKY_2] = {
-        .species = SPECIES_CROBAT,
+        .species = SPECIES_LUIS,
         .moves = {MOVE_BRAVE_BIRD, MOVE_POISON_FANG, MOVE_ROOST, MOVE_STEEL_WING},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,

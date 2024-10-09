@@ -1126,7 +1126,7 @@ const union AnimCmd *const gObjectEventImageAnimTable_Fishing[] = {
     gObjectEventImageAnim_HookedPokemonEast,
 };
 
-const union AffineAnimCmd *const gObjectEventRotScalAnimTable_KyogreGroudon[] = {
+const union AffineAnimCmd *const gObjectEventRotScalAnimTable_KrakrumGroudon[] = {
     gObjectEventRotScalAnim_8508FD8,
     gObjectEventRotScalAnim_8509008,
     gObjectEventRotScalAnim_8509050,

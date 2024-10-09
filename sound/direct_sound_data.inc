@@ -391,8 +391,8 @@ Cry_Generic::
 	.incbin "sound/direct_sound_samples/cries/cry_yeesaur.bin"
 	
 	.align 2
-Cry_Kyogre::
-	.incbin "sound/direct_sound_samples/cries/cry_kyogre.bin"
+Cry_Krakrum::
+	.incbin "sound/direct_sound_samples/cries/cry_krakrum.bin"
 
 	.align 2
 Cry_Groudon::

@@ -4,10 +4,10 @@ SeafloorCavern_Room8_MapScripts:: @ 8234DC7
 	.byte 0
 	
 SeafloorCavern_Room8_OnLoad::
-	call_if_set FLAG_SYS_GAME_CLEAR, SeafloorCavern_Room8_EventScript_OpenKyogreCave
+	call_if_set FLAG_SYS_GAME_CLEAR, SeafloorCavern_Room8_EventScript_OpenKrakrumCave
 	end
 	
-SeafloorCavern_Room8_EventScript_OpenKyogreCave::
+SeafloorCavern_Room8_EventScript_OpenKrakrumCave::
 	setmetatile 5, 1, METATILE_Cave_CaveEntrance_Top, 1
 	setmetatile 5, 2, METATILE_Cave_CaveEntrance_Bottom, 0
 	return

@@ -9673,7 +9673,7 @@ bool32 CanBattlerGetOrLoseItem(u8 battlerId, u16 itemId)
         return FALSE;
     else if (itemId == ITEM_ENIGMA_BERRY)
         return FALSE;
-    else if (species == SPECIES_KYOGRE && itemId == ITEM_BLUE_ORB)
+    else if (species == SPECIES_KRAKRUM && itemId == ITEM_BLUE_ORB)
         return FALSE;
     else if (species == SPECIES_GROUDON && itemId == ITEM_RED_ORB)
         return FALSE;

@@ -2679,7 +2679,7 @@ const u16 gEggMoves[] = {
 		MOVE_HURRICANE,
 		MOVE_DREAM_EATER),
 
-	egg_moves(ABSOL,
+	egg_moves(FREDBAR,
 		MOVE_DOUBLE_EDGE,
 		MOVE_BITE,
 		MOVE_CURSE,
@@ -3068,7 +3068,7 @@ const u16 gEggMoves[] = {
 		MOVE_HYPNOSIS,
 		MOVE_LAST_RESORT),
 
-	egg_moves(CHINGLING,
+	egg_moves(LUIWEE,
 		MOVE_DISABLE,
 		MOVE_HYPNOSIS,
 		MOVE_RECOVER,

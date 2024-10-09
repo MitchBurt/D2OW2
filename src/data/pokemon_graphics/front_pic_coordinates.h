@@ -845,7 +845,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x87,
         .y_offset = 6,
     },
-    [SPECIES_CROBAT] =
+    [SPECIES_LUIS] =
     {
         .size = 0x88,
         .y_offset = 6,
@@ -1760,7 +1760,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x86,
         .y_offset = 6,
     },
-    [SPECIES_ABSOL] =
+    [SPECIES_FREDBAR] =
     {
         .size = 0x68,
         .y_offset = 2,
@@ -1895,12 +1895,12 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x88,
         .y_offset = 2,
     },
-    [SPECIES_REGISTEEL] =
+    [SPECIES_NAWFFLE] =
     {
         .size = 0x88,
         .y_offset = 5,
     },
-    [SPECIES_KYOGRE] =
+    [SPECIES_KRAKRUM] =
     {
         .size = 0x87,
         .y_offset = 0,
@@ -2165,12 +2165,12 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x77,
         .y_offset = 8,
     },
-    [SPECIES_PURUGLY] =
+    [SPECIES_GORFOLD] =
     {
         .size = 0x55,
         .y_offset = 5,
     },
-    [SPECIES_CHINGLING] =
+    [SPECIES_LUIWEE] =
     {
         .size = 0x86,
         .y_offset = 15,
@@ -2310,7 +2310,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x54,
         .y_offset = 0,
     },
-    [SPECIES_WEAVILE] =
+    [SPECIES_FREDUNKLE] =
     {
         .size = 0x87,
         .y_offset = 4,
@@ -2340,7 +2340,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x86,
         .y_offset = 0,
     },
-    [SPECIES_MAGMORTAR] =
+    [SPECIES_TOASTRIDER] =
     {
         .size = 0x43,
         .y_offset = 0,
@@ -2375,7 +2375,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x87,
         .y_offset = 4,
     },
-    [SPECIES_PORYGON_Z] =
+    [SPECIES_HELLSPACK] =
     {
         .size = 0x65,
         .y_offset = 6,
@@ -2390,12 +2390,12 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x55,
         .y_offset = 4,
     },
-    [SPECIES_DUSKNOIR] =
+    [SPECIES_SKELEDOOM] =
     {
         .size = 0x87,
         .y_offset = 4,
     },
-    [SPECIES_FROSLASS] =
+    [SPECIES_BLINKRUPT] =
     {
         .size = 0x77,
         .y_offset = 8,
@@ -4672,7 +4672,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_ABSOL_MEGA] =
+    [SPECIES_FREDBAR_MEGA] =
     {
         .size = 0,
         .y_offset = 5,
@@ -4743,7 +4743,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_KYOGRE_PRIMAL] =
+    [SPECIES_KRAKRUM_PRIMAL] =
     {
         .size = 0x87,
         .y_offset = 0,

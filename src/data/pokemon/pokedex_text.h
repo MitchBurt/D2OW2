@@ -1009,7 +1009,7 @@ const u8 gGluerillaPokedexText[] = _(
     "y superficies verticales. Oprime al rival\n"
     "con una tela de araña fina y resistente.");
 
-const u8 gCrobatPokedexText[] = _(
+const u8 gLuisPokedexText[] = _(
     "Al evolucionar, las patas traseras se le\n"
     "convirtieron en alas. Si bate de forma\n"
     "alterna las alas delanteras y las traseras,\n"
@@ -2004,7 +2004,7 @@ const u8 gUNSCPokedexText[] = _(
     "azul. Lanza ardientes bolas de fuego\n"
     "por el pico.");
 
-const u8 gAbsolPokedexText[] = _(
+const u8 gFredbarPokedexText[] = _(
     "Detecta con precisión cualquier cambio\n"
     "producido en la atmósfera o la tierra y\n"
     "predice catástrofes naturales. Es un\n"
@@ -2261,14 +2261,14 @@ const u8 gRegicePokedexText[] = _(
     "parecen indicar que dicho hielo procede\n"
     "de alguna glaciación.");
 
-const u8 gRegisteelPokedexText[] = _(
+const u8 gNawfflePokedexText[] = _(
     "Su cuerpo está compuesto del metal\n"
     "más duro que hay; una misteriosa\n"
     "sustencia que, además de ser muy sólida,\n"
     "se contrae y dilata con facilidad.");
 
-const u8 gKyogrePokedexText[] = _(
-    "En la mitología se considera a Kyogre\n"
+const u8 gKrakrumPokedexText[] = _(
+    "En la mitología se considera a Krakrum\n"
     "como el creador del mar. Tras largos años\n"
     "de enfrentamiento con Groudon,\n"
     "se echó a dormir en el fondo del mar.");
@@ -2281,7 +2281,7 @@ const u8 gGroudonPokedexText[] = _(
 
 const u8 gRayquazaPokedexText[] = _(
     "Este Pokémon vuela sin parar por la\n"
-    "capa de ozono. Dicen que, si Kyogre\n"
+    "capa de ozono. Dicen que, si Krakrum\n"
     "y Groudon fueran a luchar, bajaría\n"
     "a tierra firme.");
 
@@ -2586,13 +2586,13 @@ const u8 gGlameowPokedexText[] = _(
     "Trainer's nose if it isn't fed and\n"
     "purrs when affectionate.");
 
-const u8 gPuruglyPokedexText[] = _(
+const u8 gGorfoldPokedexText[] = _(
     "It is a brazen brute that barges its way\n"
     "into another Pokémon's nest and claims\n"
     "it as its own. It binds its body with its\n"
     "tails to make itself look bigger.");
 
-const u8 gChinglingPokedexText[] = _(
+const u8 gLuiweePokedexText[] = _(
     "There is an orb inside its mouth.\n"
     "When it hops, the orb bounces all\n"
     "over and makes a ringing sound.\n"
@@ -2760,7 +2760,7 @@ const u8 gAbomasnowPokedexText[] = _(
     "itself by whipping up blizzards.\n"
     "It is also known as “The Ice Monster.”");
 
-const u8 gWeavilePokedexText[] = _(
+const u8 gFredunklePokedexText[] = _(
     "They travel in groups of four or five,\n"
     "leaving signs for one another on trees\n"
     "and rocks. They bring down their prey\n"
@@ -2796,9 +2796,9 @@ const u8 gElectivirePokedexText[] = _(
     "sparks shower all around and blue sparks\n"
     "begin to crackle between its horns.");
 
-const u8 gMagmortarPokedexText[] = _(
+const u8 gToastriderPokedexText[] = _(
     "According to what is known, a single pair\n"
-    "of male and female Magmortar lives in\n"
+    "of male and female Toastrider lives in\n"
     "one volcano. From its arm, it launches\n"
     "fireballs hotter than 3,600ºF.");
 
@@ -2838,7 +2838,7 @@ const u8 gMamoswinePokedexText[] = _(
     "much amazement. This Pokémon has been\n"
     "around for a long, long, long time.");
 
-const u8 gPorygonZPokedexText[] = _(
+const u8 gHellspackPokedexText[] = _(
     "In order to create a more advanced\n"
     "Pokémon, an additional program was\n"
     "installed, but apparently it contained a\n"
@@ -2856,13 +2856,13 @@ const u8 gProbopassPokedexText[] = _(
     "With them, it can attack its foes from\n"
     "three directions.");
 
-const u8 gDusknoirPokedexText[] = _(
+const u8 gSkeledoomPokedexText[] = _(
     "This feared Pokémon is said to travel to\n"
     "worlds unknown. Some even believe that\n"
     "it takes lost spirits into its pliant body\n"
     "and guides them home.");
 
-const u8 gFroslassPokedexText[] = _(
+const u8 gBlinkruptPokedexText[] = _(
     "When it finds people or Pokémon it likes,\n"
     "it freezes them and takes them to its\n"
     "chilly den, where they become its\n"
@@ -2913,7 +2913,7 @@ const u8 gHeatranPokedexText[] = _(
 const u8 gRegigigasPokedexText[] = _(
     "There is an enduring legend that\n"
     "states this Pokémon shaped Regirock,\n"
-    "Regice, and Registeel out of clay, ice,\n"
+    "Regice, and Nawffle out of clay, ice,\n"
     "and magma.");
 
 const u8 gGiratinaPokedexText[] = _(
@@ -6367,7 +6367,7 @@ const u8 gGluerillaPokedexText[] = _(
     "vertical walls. It constricts its foe with\n"
     "thin and strong silk webbing.");
 
-const u8 gCrobatPokedexText[] = _(
+const u8 gLuisPokedexText[] = _(
     "Over the course of evolution, its hind legs\n"
     "turned into wings. By alternately resting\n"
     "its front and rear wings, it can fly all day\n"
@@ -7459,7 +7459,7 @@ const u8 gThaumnarPokedexText[] = _(
     "pink body color turns vivid when it\n"
     "finishes feeding.");
 
-const u8 gAbsolPokedexText[] = _(
+const u8 gFredbarPokedexText[] = _(
     "It sharply senses even subtle changes in\n"
     "the sky and the land to predict natural\n"
     "disasters. It is a long-lived Pokémon that\n"
@@ -7621,14 +7621,14 @@ const u8 gRegicePokedexText[] = _(
     "believe the ice was formed during an\n"
     "ice age.");
 
-const u8 gRegisteelPokedexText[] = _(
+const u8 gNawfflePokedexText[] = _(
     "Its body is harder than any other kind of\n"
     "metal. The body metal is composed of a\n"
     "mysterious substance. Not only is it hard,\n"
     "it shrinks and stretches flexibly.");
 
-const u8 gKyogrePokedexText[] = _(
-    "Kyogre has appeared in mythology as the\n"
+const u8 gKrakrumPokedexText[] = _(
+    "Krakrum has appeared in mythology as the\n"
     "creator of the sea. After long years of\n"
     "feuding with Groudon, it took to sleep at\n"
     "the bottom of the sea.");
@@ -7642,7 +7642,7 @@ const u8 gGroudonPokedexText[] = _(
 const u8 gRayquazaPokedexText[] = _(
     "A Pokémon that flies endlessly in the\n"
     "ozone layer. It is said it would descend\n"
-    "to the ground if Kyogre and Groudon\n"
+    "to the ground if Krakrum and Groudon\n"
     "were to fight.");
 
 const u8 gLatiasPokedexText[] = _(
@@ -7946,13 +7946,13 @@ const u8 gGlameowPokedexText[] = _(
     "Trainer's nose if it isn't fed and\n"
     "purrs when affectionate.");
 
-const u8 gPuruglyPokedexText[] = _(
+const u8 gGorfoldPokedexText[] = _(
     "It is a brazen brute that barges its way\n"
     "into another Pokémon's nest and claims\n"
     "it as its own. It binds its body with its\n"
     "tails to make itself look bigger.");
 
-const u8 gChinglingPokedexText[] = _(
+const u8 gLuiweePokedexText[] = _(
     "There is an orb inside its mouth.\n"
     "When it hops, the orb bounces all\n"
     "over and makes a ringing sound.\n"
@@ -8120,7 +8120,7 @@ const u8 gAbomasnowPokedexText[] = _(
     "itself by whipping up blizzards.\n"
     "It is also known as “The Ice Monster.”");
 
-const u8 gWeavilePokedexText[] = _(
+const u8 gFredunklePokedexText[] = _(
     "They travel in groups of four or five,\n"
     "leaving signs for one another on trees\n"
     "and rocks. They bring down their prey\n"
@@ -8156,9 +8156,9 @@ const u8 gElectivirePokedexText[] = _(
     "sparks shower all around and blue sparks\n"
     "begin to crackle between its horns.");
 
-const u8 gMagmortarPokedexText[] = _(
+const u8 gToastriderPokedexText[] = _(
     "According to what is known, a single pair\n"
-    "of male and female Magmortar lives in\n"
+    "of male and female Toastrider lives in\n"
     "one volcano. From its arm, it launches\n"
     "fireballs hotter than 3,600ºF.");
 
@@ -8198,7 +8198,7 @@ const u8 gMamoswinePokedexText[] = _(
     "much amazement. This Pokémon has been\n"
     "around for a long, long, long time.");
 
-const u8 gPorygonZPokedexText[] = _(
+const u8 gHellspackPokedexText[] = _(
     "In order to create a more advanced\n"
     "Pokémon, an additional program was\n"
     "installed, but apparently it contained a\n"
@@ -8216,13 +8216,13 @@ const u8 gProbopassPokedexText[] = _(
     "With them, it can attack its foes from\n"
     "three directions.");
 
-const u8 gDusknoirPokedexText[] = _(
+const u8 gSkeledoomPokedexText[] = _(
     "This feared Pokémon is said to travel to\n"
     "worlds unknown. Some even believe that\n"
     "it takes lost spirits into its pliant body\n"
     "and guides them home.");
 
-const u8 gFroslassPokedexText[] = _(
+const u8 gBlinkruptPokedexText[] = _(
     "When it finds people or Pokémon it likes,\n"
     "it freezes them and takes them to its\n"
     "chilly den, where they become its\n"
@@ -8273,7 +8273,7 @@ const u8 gHeatranPokedexText[] = _(
 const u8 gRegigigasPokedexText[] = _(
     "There is an enduring legend that\n"
     "states this Pokémon shaped Regirock,\n"
-    "Regice, and Registeel out of clay, ice,\n"
+    "Regice, and Nawffle out of clay, ice,\n"
     "and magma.");
 
 const u8 gGiratinaPokedexText[] = _(

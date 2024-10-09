@@ -260,7 +260,7 @@
 #define PLACEHOLDER_ID_MAGMA         0x9
 #define PLACEHOLDER_ID_ARCHIE        0xA 
 #define PLACEHOLDER_ID_MAXIE         0xB
-#define PLACEHOLDER_ID_KYOGRE        0xC
+#define PLACEHOLDER_ID_KRAKRUM        0xC
 #define PLACEHOLDER_ID_GROUDON       0xD
 
 //Mgba Stuff

@@ -1038,7 +1038,7 @@ static const struct InGameTrade sIngameTrades[] =
         .otName = _("Roman"), 
         .otGender = MALE, 
         .sheen = 10,
-        .requestedSpecies = SPECIES_FROSLASS
+        .requestedSpecies = SPECIES_BLINKRUPT
     }, 
     [INGAME_TRADE_JANK] = 
     {

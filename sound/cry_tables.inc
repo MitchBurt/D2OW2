@@ -1,7 +1,7 @@
 	.align 2
 gCryTable::
 	cry Cry_Generic
-	cry Cry_Kyogre
+	cry Cry_Krakrum
 	cry Cry_Groudon
 	cry Cry_Rayquaza
 	cry_not Cry_Manaphy
@@ -27,7 +27,7 @@ gCryTable::
 	.align 2
 gCryTable2::
 	cry Cry_Generic
-	cry Cry_Kyogre
+	cry Cry_Krakrum
 	cry Cry_Groudon
 	cry Cry_Rayquaza
 	cry_not Cry_Manaphy

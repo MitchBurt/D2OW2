@@ -16,13 +16,13 @@ const u32 gIntro2MayNoTurnGfx[] = INCBIN_U32("graphics/intro/intro2_may_noturn.4
 const u32 gIntro3GroudonGfx[] = INCBIN_U32("graphics/intro/intro3_groudon.8bpp.lz");
 const u32 gIntro3GroudonTilemap[] = INCBIN_U32("graphics/intro/intro3_groudon.bin.lz");
 
-const u32 gIntro3KyogreGfx[] = INCBIN_U32("graphics/intro/intro3_kyogre.8bpp.lz");
-const u32 gIntro3KyogreTilemap[] = INCBIN_U32("graphics/intro/intro3_kyogre.bin.lz");
+const u32 gIntro3KrakrumGfx[] = INCBIN_U32("graphics/intro/intro3_krakrum.8bpp.lz");
+const u32 gIntro3KrakrumTilemap[] = INCBIN_U32("graphics/intro/intro3_krakrum.bin.lz");
 
-const u32 gIntro3LegendBgGfx[] = INCBIN_U32("graphics/intro/legend_bg.4bpp.lz"); // groudon/kyogre/bg
+const u32 gIntro3LegendBgGfx[] = INCBIN_U32("graphics/intro/legend_bg.4bpp.lz"); // groudon/krakrum/bg
 
 const u32 gIntro3GroudonBgTilemap[] = INCBIN_U32("graphics/intro/legend_bg1.bin.lz");
-const u32 gIntro3KyogreBgTilemap[] = INCBIN_U32("graphics/intro/legend_bg2.bin.lz");
+const u32 gIntro3KrakrumBgTilemap[] = INCBIN_U32("graphics/intro/legend_bg2.bin.lz");
 
 const u32 gIntro3CloudsGfx[] = INCBIN_U32("graphics/intro/intro3_clouds.4bpp.lz");
 const u32 gIntro3Clouds1Tilemap[] = INCBIN_U32("graphics/intro/intro3_clouds1.bin.lz");

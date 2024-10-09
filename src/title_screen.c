@@ -79,17 +79,17 @@ static const u16 sLegendaryMonPalettesGroudon[][16] =
     INCBIN_U16("graphics/title_screen/groudon/groudon_dark.gbapal"),
     INCBIN_U16("graphics/title_screen/groudon/groudon_glow.gbapal"),
 };
-//Kyogre
-static const u32 sTitleScreenKyogreGfx[]      	= INCBIN_U32("graphics/title_screen/kyogre/kyogre.4bpp.lz");
-static const u32 sTitleScreenWaterGfx[]         = INCBIN_U32("graphics/title_screen/kyogre/water.4bpp.lz");
-static const u32 sTitleScreenKyogreTilemap[]  	= INCBIN_U32("graphics/title_screen/kyogre/kyogre_map.bin.lz");
-static const u32 sTitleScreenWaterTilemap[]     = INCBIN_U32("graphics/title_screen/kyogre/water.bin.lz");
-const u16 gTitleScreenBgPalettesKyogre[]      	= INCBIN_U16("graphics/title_screen/kyogre/water.gbapal");
-const u32 gTitleScreenPokemonLogoGfxKyogre[]  	= INCBIN_U32("graphics/title_screen/kyogre/logo.8bpp.lz");
-static const u16 sLegendaryMonPalettesKyogre[][16] =
+//Krakrum
+static const u32 sTitleScreenKrakrumGfx[]      	= INCBIN_U32("graphics/title_screen/krakrum/krakrum.4bpp.lz");
+static const u32 sTitleScreenWaterGfx[]         = INCBIN_U32("graphics/title_screen/krakrum/water.4bpp.lz");
+static const u32 sTitleScreenKrakrumTilemap[]  	= INCBIN_U32("graphics/title_screen/krakrum/krakrum_map.bin.lz");
+static const u32 sTitleScreenWaterTilemap[]     = INCBIN_U32("graphics/title_screen/krakrum/water.bin.lz");
+const u16 gTitleScreenBgPalettesKrakrum[]      	= INCBIN_U16("graphics/title_screen/krakrum/water.gbapal");
+const u32 gTitleScreenPokemonLogoGfxKrakrum[]  	= INCBIN_U32("graphics/title_screen/krakrum/logo.8bpp.lz");
+static const u16 sLegendaryMonPalettesKrakrum[][16] =
 {
-    INCBIN_U16("graphics/title_screen/kyogre/kyogre_dark.gbapal"),
-    INCBIN_U16("graphics/title_screen/kyogre/kyogre_glow.gbapal"),
+    INCBIN_U16("graphics/title_screen/krakrum/krakrum_dark.gbapal"),
+    INCBIN_U16("graphics/title_screen/krakrum/krakrum_glow.gbapal"),
 };
 
 static const u32 sTitleScreenLogoShineGfx[] = INCBIN_U32("graphics/title_screen/logo_shine.4bpp.lz");
@@ -612,7 +612,7 @@ void CB2_InitTitleScreen(void)
 		else if (gSaveBlock2Ptr->titleScreen == TITLE_SCREEN_RUBY)
 		{
 			//Groudon
-			LZ77UnCompVram(gTitleScreenPokemonLogoGfxKyogre	, (void *)(BG_CHAR_ADDR(0)));				//Not Changed
+			LZ77UnCompVram(gTitleScreenPokemonLogoGfxKrakrum	, (void *)(BG_CHAR_ADDR(0)));				//Not Changed
 			LZ77UnCompVram(gUnknown_08DE0644			, (void *)(BG_SCREEN_ADDR(9)));					//Not Changed
 			LoadPalette(gTitleScreenBgPalettesGroudon	, 0, 0x1E0);									//Changed
 			// bg3
@@ -625,17 +625,17 @@ void CB2_InitTitleScreen(void)
 		}
 		else
 		{
-			//Kyogre
-			LZ77UnCompVram(gTitleScreenPokemonLogoGfxKyogre	, (void *)(BG_CHAR_ADDR(0)));					//Not Changed
+			//Krakrum
+			LZ77UnCompVram(gTitleScreenPokemonLogoGfxKrakrum	, (void *)(BG_CHAR_ADDR(0)));					//Not Changed
 			LZ77UnCompVram(gUnknown_08DE0644			, (void *)(BG_SCREEN_ADDR(9)));					//Not Changed
-			LoadPalette(gTitleScreenBgPalettesKyogre	, 0, 0x1E0);									//Changed
+			LoadPalette(gTitleScreenBgPalettesKrakrum	, 0, 0x1E0);									//Changed
 			// bg3
-			LZ77UnCompVram(sTitleScreenKyogreGfx		, (void *)(BG_CHAR_ADDR(2)));					//Changed
-			LZ77UnCompVram(sTitleScreenKyogreTilemap	, (void *)(BG_SCREEN_ADDR(26)));				//Changed
+			LZ77UnCompVram(sTitleScreenKrakrumGfx		, (void *)(BG_CHAR_ADDR(2)));					//Changed
+			LZ77UnCompVram(sTitleScreenKrakrumTilemap	, (void *)(BG_SCREEN_ADDR(26)));				//Changed
 			// bg1
 			LZ77UnCompVram(sTitleScreenWaterGfx			, (void *)(BG_CHAR_ADDR(3)));					//Changed
 			LZ77UnCompVram(sTitleScreenWaterTilemap		, (void *)(BG_SCREEN_ADDR(27)));				//Changed
-			LoadPalette(sLegendaryMonPalettesKyogre	, 0xE0, sizeof(sLegendaryMonPalettesKyogre));		//Changed
+			LoadPalette(sLegendaryMonPalettesKrakrum	, 0xE0, sizeof(sLegendaryMonPalettesKrakrum));		//Changed
 		}
         ScanlineEffect_Stop();
         ResetTasks();
@@ -826,7 +826,7 @@ static void Task_TitleScreenPhase3(u8 taskId)
 		else if (gSaveBlock2Ptr->titleScreen == TITLE_SCREEN_RUBY)
 			PlayCryInternal(SPECIES_GROUDON, 0, 120, 10, 0);
 		else 
-			PlayCryInternal(SPECIES_KYOGRE, 0, 120, 10, 0);
+			PlayCryInternal(SPECIES_KRAKRUM, 0, 120, 10, 0);
 	
         FadeOutBGM(4);
         BeginNormalPaletteFade(0xFFFFFFFF, 0, 0, 0x10, RGB_WHITEALPHA);

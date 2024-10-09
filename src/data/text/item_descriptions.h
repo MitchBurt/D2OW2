@@ -2597,10 +2597,10 @@ static const u8 sKrolleriteDesc[] = _(
     "megaevolucionar a\n"
     "Kroller.");
 
-static const u8 sAbsoliteDesc[] = _(
+static const u8 sFredbariteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Absol.");
+    "Fredbar.");
 
 static const u8 sAlakaziteDesc[] = _(
     "Piedra que permite\n"
@@ -5830,9 +5830,9 @@ static const u8 sKrolleriteDesc[] = _(
     "Kroller to Mega\n"
     "Evolve in battle.");
 
-static const u8 sAbsoliteDesc[] = _(
+static const u8 sFredbariteDesc[] = _(
     "This stone enables\n"
-    "Absol to Mega\n"
+    "Fredbar to Mega\n"
     "Evolve in battle.");
 
 static const u8 sAlakaziteDesc[] = _(

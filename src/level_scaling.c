@@ -2370,9 +2370,9 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 			if(canMega)
 				item = ITEM_ABOMASITE;
 		break;
-		case SPECIES_ABSOL:
+		case SPECIES_FREDBAR:
 			if(canMega)
-				item = ITEM_ABSOLITE;
+				item = ITEM_FREDBARITE;
 		break;
 		case SPECIES_USARMY:
 			if(canMega)

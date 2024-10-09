@@ -12897,7 +12897,7 @@ static void Cmd_givecaughtmon(void)
         case SPECIES_ERRORINE_MEGA:
         case SPECIES_UNSC_MEGA:
         case SPECIES_TOCKTOWER_MEGA:
-        case SPECIES_ABSOL_MEGA:
+        case SPECIES_FREDBAR_MEGA:
         case SPECIES_ELECHAIR_MEGA:
         case SPECIES_DRUNKABUS_MEGA:
         case SPECIES_HAZETHOTH_MEGA:
@@ -12911,7 +12911,7 @@ static void Cmd_givecaughtmon(void)
         case SPECIES_AUDINO_MEGA:
         case SPECIES_DIANCIE_MEGA:
         case SPECIES_RAYQUAZA_MEGA:
-        case SPECIES_KYOGRE_PRIMAL:
+        case SPECIES_KRAKRUM_PRIMAL:
         case SPECIES_GROUDON_PRIMAL:
             SetMonData(&gEnemyParty[gBattlerPartyIndexes[GetCatchingBattler()]], MON_DATA_FORM_ID, &newFormId);
         break;

@@ -72,8 +72,8 @@
  * Task_IntroLoadPart3Graphics3
  * Task_IntroLoadPart3Graphics4
  * Task_IntroGroudonScene
- * Task_IntroLoadKyogreScene
- * Task_IntroKyogreScene
+ * Task_IntroLoadKrakrumScene
+ * Task_IntroKrakrumScene
  * Task_IntroLoadClouds1
  * Task_IntroLoadClouds2
  * Task_IntroLoadClouds3
@@ -419,7 +419,7 @@ static const struct SpritePalette gUnknown_085E4C98[] =
     {gIntro2BubblesPal, 1504},
     {NULL},
 };
-static const s16 gIntroKyogreBubbleData[][3] =
+static const s16 gIntroKrakrumBubbleData[][3] =
 {
     {0x42, 0x40, 0x1},
     {0x60, 0x60, 0x8},
@@ -463,7 +463,7 @@ static const union AnimCmd *const gUnknown_085E4D10[] =
 {
     gUnknown_085E4CF8,
 };
-static void SpriteCB_IntroKyogreBubbles(struct Sprite *sprite);
+static void SpriteCB_IntroKrakrumBubbles(struct Sprite *sprite);
 static const struct SpriteTemplate gUnknown_085E4D14 =
 {
     .tileTag = 1504,
@@ -472,7 +472,7 @@ static const struct SpriteTemplate gUnknown_085E4D14 =
     .anims = gUnknown_085E4D10,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
-    .callback = SpriteCB_IntroKyogreBubbles,
+    .callback = SpriteCB_IntroKrakrumBubbles,
 };
 static const struct OamData gUnknown_085E4D2C =
 {
@@ -922,8 +922,8 @@ static void Task_IntroLoadPart3Graphics2(u8);
 static void Task_IntroLoadPart3Graphics3(u8);
 static void Task_IntroLoadPart3Graphics4(u8);
 static void Task_IntroGroudonScene(u8);
-static void Task_IntroLoadKyogreScene(u8);
-static void Task_IntroKyogreScene(u8);
+static void Task_IntroLoadKrakrumScene(u8);
+static void Task_IntroKrakrumScene(u8);
 static void Task_IntroLoadClouds1(u8);
 static void Task_IntroLoadClouds2(u8);
 static void Task_IntroLoadClouds3(u8);
@@ -935,8 +935,8 @@ static void Task_IntroRayquazaGlowScene_0(u8);
 static void Task_EndIntroMovie(u8);
 static void CreateGroudonRockSprites(u8);
 static void SpriteCB_IntroGroudonRocks(struct Sprite *);
-static void CreateKyogreBubbleSprites_0(u8);
-static void CreateKyogreBubbleSprites_1(void);
+static void CreateKrakrumBubbleSprites_0(u8);
+static void CreateKrakrumBubbleSprites_1(void);
 static void Task_IntroRayquazaGlowScene_1(u8);
 static void sub_816F46C(struct Sprite *);
 static void sub_816F5B4(struct Sprite *);
@@ -1782,7 +1782,7 @@ static void Task_IntroGroudonScene(u8 taskId)
     case 9:
         if (!gPaletteFade.active)
         {
-            gTasks[taskId].func = Task_IntroLoadKyogreScene;
+            gTasks[taskId].func = Task_IntroLoadKrakrumScene;
             gScanlineEffect.state = 3;
         }
         break;
@@ -1834,16 +1834,16 @@ static void SpriteCB_IntroGroudonRocks(struct Sprite *sprite)
     }
 }
 
-static void Task_IntroLoadKyogreScene(u8 taskId)
+static void Task_IntroLoadKrakrumScene(u8 taskId)
 {
     ResetSpriteData();
-    LZDecompressVram(gIntro3KyogreGfx, (void *)VRAM);
-    LZDecompressVram(gIntro3KyogreTilemap, (void *)(BG_CHAR_ADDR(3)));
-    LZDecompressVram(gIntro3KyogreBgTilemap, (void *)(BG_SCREEN_ADDR(28)));
+    LZDecompressVram(gIntro3KrakrumGfx, (void *)VRAM);
+    LZDecompressVram(gIntro3KrakrumTilemap, (void *)(BG_CHAR_ADDR(3)));
+    LZDecompressVram(gIntro3KrakrumBgTilemap, (void *)(BG_SCREEN_ADDR(28)));
     LoadCompressedSpriteSheet(gUnknown_085E4C88);
     LoadSpritePalette(gUnknown_085E4C98);
     BeginNormalPaletteFade(0xFFFFFFFE, 0, 0x10, 0, RGB_WHITEALPHA);
-    gTasks[taskId].func = Task_IntroKyogreScene;
+    gTasks[taskId].func = Task_IntroKrakrumScene;
     gTasks[taskId].data[0] = 0;
     gTasks[taskId].data[1] = 0x150;
     gTasks[taskId].data[2] = 0x50;
@@ -1853,7 +1853,7 @@ static void Task_IntroLoadKyogreScene(u8 taskId)
     ScanlineEffect_InitWave(0, 0xA0, 4, 4, 1, 6, 0);
 }
 
-static void Task_IntroKyogreScene(u8 taskId)
+static void Task_IntroKrakrumScene(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
 
@@ -1874,7 +1874,7 @@ static void Task_IntroKyogreScene(u8 taskId)
             data[6] = 0x19;
             data[7] = 1;
             data[0]++;
-            CreateKyogreBubbleSprites_0(0);
+            CreateKrakrumBubbleSprites_0(0);
         }
         break;
     case 2:
@@ -1884,8 +1884,8 @@ static void Task_IntroKyogreScene(u8 taskId)
             gTasks[taskId].data[2] -= 0x102;
             data[6] = 8;
             data[0]++;
-            CreateKyogreBubbleSprites_0(0);
-            CreateKyogreBubbleSprites_1();
+            CreateKrakrumBubbleSprites_0(0);
+            CreateKrakrumBubbleSprites_1();
         }
         break;
     case 3:
@@ -1919,7 +1919,7 @@ static void Task_IntroKyogreScene(u8 taskId)
             {
                 data[6] = 1;
                 data[0]++;
-                PlayCryInternal(SPECIES_KYOGRE, 0, 120, 10, 0);
+                PlayCryInternal(SPECIES_KRAKRUM, 0, 120, 10, 0);
             }
         }
         break;
@@ -1967,7 +1967,7 @@ static void Task_IntroKyogreScene(u8 taskId)
         {
             data[6] = 0;
             data[0]++;
-            CreateKyogreBubbleSprites_0(taskId);
+            CreateKrakrumBubbleSprites_0(taskId);
         }
         break;
     case 11:
@@ -1997,36 +1997,36 @@ static void Task_IntroKyogreScene(u8 taskId)
     }
 }
 
-static void CreateKyogreBubbleSprites_0(u8 taskId)
+static void CreateKrakrumBubbleSprites_0(u8 taskId)
 {
     int i;
     u8 spriteId;
 
     for (i = 0; i < 6; i++)
     {
-        spriteId = CreateSprite(&gUnknown_085E4D14, gIntroKyogreBubbleData[i][0], gIntroKyogreBubbleData[i][1], i);
+        spriteId = CreateSprite(&gUnknown_085E4D14, gIntroKrakrumBubbleData[i][0], gIntroKrakrumBubbleData[i][1], i);
         gSprites[spriteId].invisible = TRUE;
         gSprites[spriteId].data[5] = taskId;
-        gSprites[spriteId].data[6] = gIntroKyogreBubbleData[i][2];
+        gSprites[spriteId].data[6] = gIntroKrakrumBubbleData[i][2];
         gSprites[spriteId].data[7] = 0x40;
     }
 }
 
-static void CreateKyogreBubbleSprites_1(void)
+static void CreateKrakrumBubbleSprites_1(void)
 {
     int i;
     u8 spriteId;
 
     for (i = 0; i < 6; i++)
     {
-        spriteId = CreateSprite(&gUnknown_085E4D14, gIntroKyogreBubbleData[i + 6][0], gIntroKyogreBubbleData[i + 6][1], i);
+        spriteId = CreateSprite(&gUnknown_085E4D14, gIntroKrakrumBubbleData[i + 6][0], gIntroKrakrumBubbleData[i + 6][1], i);
         gSprites[spriteId].invisible = TRUE;
-        gSprites[spriteId].data[6] = gIntroKyogreBubbleData[i][2];
+        gSprites[spriteId].data[6] = gIntroKrakrumBubbleData[i][2];
         gSprites[spriteId].data[7] = 0x40;
     }
 }
 
-static void SpriteCB_IntroKyogreBubbles(struct Sprite *sprite)
+static void SpriteCB_IntroKrakrumBubbles(struct Sprite *sprite)
 {
     switch(sprite->data[0])
     {

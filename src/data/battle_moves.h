@@ -11753,6 +11753,16 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .description = _("Default Description"),
     },
 
+    [SPECIES_TOASTRIDER] =
+    {
+        .move = MOVE_FLAME_WHEEL,
+        .modification = SIGNATURE_MOD_SECOND_TYPE,
+        .variable = TYPE_GHOST,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+
+
 /*[SPECIES_AWMANE_MEGA] =
     {
         .move = MOVE_EXPLOSION,
@@ -12359,7 +12369,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_CROBAT] =
+    [SPECIES_LUIS] =
     {
         .move = MOVE_CROSS_POISON,
         .modification = SIGNATURE_MOD_POWER,
@@ -12675,7 +12685,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_REGISTEEL] =
+    [SPECIES_NAWFFLE] =
     {
         .move = MOVE_ANCIENT_POWER,
         .modification = SIGNATURE_MOD_POWER,
@@ -12848,7 +12858,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_FROSLASS] =
+    [SPECIES_BLINKRUPT] =
     {
         .move = MOVE_HEX,
         .modification = SIGNATURE_MOD_SECONDARY_EFFECT,

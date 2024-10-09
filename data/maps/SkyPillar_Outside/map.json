@@ -25,7 +25,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SkyPillar_Outside_EventScript_Not_Allowed",
-      "flag": "FLAG_DEFEATED_KYOGRE"
+      "flag": "FLAG_DEFEATED_KRAKRUM"
     }
   ],
   "warp_events": [

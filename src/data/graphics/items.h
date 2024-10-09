@@ -1336,8 +1336,8 @@ const u32 gItemIconPalette_Trololoite[] = INCBIN_U32("graphics/items/icon_palett
 const u32 gItemIcon_Krollerite[] = INCBIN_U32("graphics/items/icons/krollerite.4bpp.lz");
 const u32 gItemIconPalette_Krollerite[] = INCBIN_U32("graphics/items/icon_palettes/krollerite.gbapal.lz");
 
-const u32 gItemIcon_Absolite[] = INCBIN_U32("graphics/items/icons/absolite.4bpp.lz");
-const u32 gItemIconPalette_Absolite[] = INCBIN_U32("graphics/items/icon_palettes/absolite.gbapal.lz");
+const u32 gItemIcon_Fredbarite[] = INCBIN_U32("graphics/items/icons/fredbarite.4bpp.lz");
+const u32 gItemIconPalette_Fredbarite[] = INCBIN_U32("graphics/items/icon_palettes/fredbarite.gbapal.lz");
 
 const u32 gItemIcon_SkorpyrositeY[] = INCBIN_U32("graphics/items/icons/skorpyrosite_y.4bpp.lz");
 const u32 gItemIconPalette_SkorpyrositeY[] = INCBIN_U32("graphics/items/icon_palettes/skorpyrosite_y.gbapal.lz");

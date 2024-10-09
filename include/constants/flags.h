@@ -125,7 +125,7 @@
 #define FLAG_RECEIVED_HM02                   0x6E
 #define FLAG_GROUDON_AWAKENED_MAGMA_HIDEOUT  0x6F
 #define FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE  0x70
-#define FLAG_UNUSED_RS_LEGENDARY_BATTLE_DONE 0x71 // Unused Flag. Used in R/S to indicate whether player defeated or caught Groudon/Kyogre in Cave of Origin.
+#define FLAG_UNUSED_RS_LEGENDARY_BATTLE_DONE 0x71 // Unused Flag. Used in R/S to indicate whether player defeated or caught Groudon/Krakrum in Cave of Origin.
 #define FLAG_SCOTT_CALL_BATTLE_FRONTIER      0x72 // Used in order to activate a phone call from Scott, inviting the player to the SS Tidal.
 #define FLAG_RECEIVED_METEORITE              0x73
 #define FLAG_ADVENTURE_STARTED               0x74 // RECEIVED Pokédex.
@@ -143,7 +143,7 @@
 #define FLAG_DEFEATED_WALLY_VICTORY_ROAD     0x7E
 #define FLAG_MET_PRETTY_PETAL_SHOP_OWNER     0x7F
 #define FLAG_ENABLE_ROXANNE_FIRST_CALL       0x80 // Set after defeating Brawly. This will activate a call with Roxanne in order to register her.
-#define FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN  0x81
+#define FLAG_KRAKRUM_ESCAPED_SEAFLOOR_CAVERN  0x81
 #define FLAG_DEFEATED_RIVAL_ROUTE103         0x82
 #define FLAG_RECEIVED_DOLL_LANETTE           0x83
 #define FLAG_RECEIVED_POTION_OLDALE          0x84
@@ -480,8 +480,8 @@
 #define FLAG_RECEIVED_PACIFIDLOG_TM_EXPLOSION 0x1BA
 #define FLAG_DEFEATED_REGIROCK               0x1BB
 #define FLAG_DEFEATED_REGICE                 0x1BC
-#define FLAG_DEFEATED_REGISTEEL              0x1BD
-#define FLAG_DEFEATED_KYOGRE                 0x1BE
+#define FLAG_DEFEATED_NAWFFLE              0x1BD
+#define FLAG_DEFEATED_KRAKRUM                 0x1BE
 #define FLAG_DEFEATED_GROUDON                0x1BF
 #define FLAG_DEFEATED_RAYQUAZA               0x1C0
 #define FLAG_DEFEATED_AWMANE_1_NEW_MAUVILLE 0x1C1
@@ -697,7 +697,7 @@
 #define FLAG_UNUSED_0x28B  0x28B // Lonkestite*
 #define FLAG_GOT_MANECTITE  0x28C // Manectrite*
 #define FLAG_UNUSED_0x28D  0x28D // Banettite*
-#define FLAG_UNUSED_0x28E  0x28E // Absolite*
+#define FLAG_UNUSED_0x28E  0x28E // Fredbarite*
 #define FLAG_UNUSED_0x28F  0x28F // Truckoiseite*
 #define FLAG_UNUSED_0x290  0x290 // Bloknocknite*
 #define FLAG_UNUSED_0x291  0x291 // Abomasite*
@@ -780,7 +780,7 @@
 #define FLAG_HIDE_LILYCOVE_FAN_CLUB_INTERVIEWER                     0x2DA
 #define FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT                          0x2DB
 #define FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1                    0x2DC
-#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE_2                   0x2DD
+#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KRAKRUM_2                   0x2DD
 #define FLAG_HIDE_PLAYERS_HOUSE_DAD                                 0x2DE
 #define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_SIBLING      0x2DF
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_SIBLING          0x2E0
@@ -829,7 +829,7 @@
 #define FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_4                          0x30B
 #define FLAG_HIDE_LILYCOVE_MUSEUM_TOURISTS                          0x30C
 #define FLAG_HIDE_PETALBURG_GYM_GREETER                             0x30D
-#define FLAG_HIDE_MARINE_CAVE_KYOGRE                                0x30E
+#define FLAG_HIDE_MARINE_CAVE_KRAKRUM                                0x30E
 #define FLAG_HIDE_TERRA_CAVE_GROUDON                                0x30F
 #define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM          0x310
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_MOM              0x311
@@ -905,7 +905,7 @@
 #define FLAG_HIDE_MT_PYRE_SUMMIT_MAXIE                              0x358
 #define FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS                              0x359
 #define FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY                       0x35A
-#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE_1                   0x35B
+#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KRAKRUM_1                   0x35B
 #define FLAG_HIDE_SLATEPORT_CITY_HARBOR_SS_TIDAL                    0x35C
 #define FLAG_HIDE_LILYCOVE_HARBOR_SSTIDAL                           0x35D
 #define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA          0x35E
@@ -983,7 +983,7 @@
 #define FLAG_HIDE_MOSSDEEP_CITY_HOUSE_2_WINGULL                     0x3A6
 #define FLAG_HIDE_REGIROCK                                          0x3A7
 #define FLAG_HIDE_REGICE                                            0x3A8
-#define FLAG_HIDE_REGISTEEL                                         0x3A9
+#define FLAG_HIDE_NAWFFLE                                         0x3A9
 #define FLAG_HIDE_METEOR_FALLS_TEAM_AQUA                            0x3AA
 #define FLAG_HIDE_METEOR_FALLS_TEAM_MAGMA                           0x3AB
 #define FLAG_HIDE_DEWFORD_HALL_SLUDGE_BOMB_MAN                      0x3AC
@@ -1043,7 +1043,7 @@
 #define FLAG_HIDE_MT_CHIMNEY_LAVA_COOKIE_LADY                       0x3E2
 #define FLAG_HIDE_PETALBURG_CITY_SCOTT                              0x3E3
 #define FLAG_HIDE_SOOTOPOLIS_CITY_RAYQUAZA                          0x3E4
-#define FLAG_HIDE_SOOTOPOLIS_CITY_KYOGRE                            0x3E5
+#define FLAG_HIDE_SOOTOPOLIS_CITY_KRAKRUM                            0x3E5
 #define FLAG_HIDE_SOOTOPOLIS_CITY_GROUDON                           0x3E6
 #define FLAG_HIDE_RUSTBORO_CITY_POKEMON_SCHOOL_SCOTT                0x3E7
 
@@ -1426,7 +1426,7 @@
 #define FLAG_SYS_BRAILLE_DIG                        (SYSTEM_FLAGS + 0x4F)
 #define FLAG_SYS_REGIROCK_PUZZLE_COMPLETED          (SYSTEM_FLAGS + 0x50)
 #define FLAG_SYS_BRAILLE_REGICE_COMPLETED           (SYSTEM_FLAGS + 0x51)
-#define FLAG_SYS_REGISTEEL_PUZZLE_COMPLETED         (SYSTEM_FLAGS + 0x52)
+#define FLAG_SYS_NAWFFLE_PUZZLE_COMPLETED         (SYSTEM_FLAGS + 0x52)
 #define FLAG_ENABLE_SHIP_SOUTHERN_ISLAND            (SYSTEM_FLAGS + 0x53)
 
 #define FLAG_LANDMARK_POKEMON_LEAGUE                (SYSTEM_FLAGS + 0x54)

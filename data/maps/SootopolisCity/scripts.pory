@@ -7,7 +7,7 @@ raw `
 .set LOCALID_STEVEN, 7
 .set LOCALID_WOMAN_1, 8
 .set LOCALID_GROUDON, 9
-.set LOCALID_KYOGRE, 10
+.set LOCALID_KRAKRUM, 10
 .set LOCALID_RAYQUAZA, 11
 .set LOCALID_MANIAC, 12
 .set LOCALID_GIRL, 13
@@ -27,7 +27,7 @@ SootopolisCity_MapScripts:: @ 81E565C
 
 SootopolisCity_OnLoad: @ 81E5676
 	call_if_unset FLAG_SOOTOPOLIS_ARCHIE_MAXIE_LEAVE, SootopolisCity_EventScript_LockGymDoor
-	goto_if_unset FLAG_KYOGRE_ESCAPED_SEAFLOOR_CAVERN, SootopolisCity_EventScript_LegendariesNotArrived
+	goto_if_unset FLAG_KRAKRUM_ESCAPED_SEAFLOOR_CAVERN, SootopolisCity_EventScript_LegendariesNotArrived
 	call_if_unset FLAG_SOOTOPOLIS_ARCHIE_MAXIE_LEAVE, SootopolisCity_EventScript_LockHouseDoors
 	end
 
@@ -236,16 +236,16 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter:: @ 81E5946
 	fadescreenspeed FADE_TO_BLACK, 8
 	setweather WEATHER_ABNORMAL
 	doweather
-	setvar VAR_0x8004, FALSE @ Just do Groudon/Kyogre fight scene
+	setvar VAR_0x8004, FALSE @ Just do Groudon/Krakrum fight scene
 	special Script_DoRayquazaScene
 	waitstate
-	applymovement LOCALID_KYOGRE, Common_Movement_WalkInPlaceFastestLeft
+	applymovement LOCALID_KRAKRUM, Common_Movement_WalkInPlaceFastestLeft
 	applymovement LOCALID_GROUDON, Common_Movement_WalkInPlaceFastestRight
 	waitmovement 0
 	delay 60
 	waitse
-	playmoncry SPECIES_KYOGRE, 2
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreAttack
+	playmoncry SPECIES_KRAKRUM, 2
+	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_KrakrumAttack
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonDefend
 	waitmovement 0
 	setvar VAR_0x8004, 1  @ vertical pan
@@ -254,13 +254,13 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter:: @ 81E5946
 	setvar VAR_0x8007, 5  @ shake delay
 	special ShakeCamera
 	waitstate
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreMoveBack
+	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_KrakrumMoveBack
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
 	waitmovement 0
 	waitse
 	playmoncry SPECIES_GROUDON, 2
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_GroudonAttack
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_KyogreDefend
+	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_GroudonAttack
+	applymovement LOCALID_GROUDON, SootopolisCity_Movement_KrakrumDefend
 	waitmovement 0
 	setvar VAR_0x8004, 1  @ vertical pan
 	setvar VAR_0x8005, 1  @ horizontal pan
@@ -268,12 +268,12 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter:: @ 81E5946
 	setvar VAR_0x8007, 5  @ shake delay
 	special ShakeCamera
 	waitstate
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreMoveBack
+	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_KrakrumMoveBack
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
 	waitmovement 0
 	waitse
-	playmoncry SPECIES_KYOGRE, 2
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreAttack
+	playmoncry SPECIES_KRAKRUM, 2
+	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_KrakrumAttack
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonDefend
 	waitmovement 0
 	setvar VAR_0x8004, 1  @ vertical pan
@@ -282,11 +282,11 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter:: @ 81E5946
 	setvar VAR_0x8007, 5  @ shake delay
 	special ShakeCamera
 	waitstate
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreMoveBack
+	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_KrakrumMoveBack
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
 	waitmovement 0
 	special SpawnCameraObject
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreIdle
+	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_KrakrumIdle
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonIdle
 	applymovement OBJ_EVENT_ID_CAMERA, SootopolisCity_Movement_PanBackToPokeCenter
 	waitmovement 0
@@ -336,16 +336,16 @@ SootopolisCity_EventScript_LegendariesSceneFromDive:: @ 81E5A82
 	fadescreenspeed FADE_TO_BLACK, 8
 	setweather WEATHER_ABNORMAL
 	doweather
-	setvar VAR_0x8004, FALSE @ Just do Groudon/Kyogre fight scene
+	setvar VAR_0x8004, FALSE @ Just do Groudon/Krakrum fight scene
 	special Script_DoRayquazaScene
 	waitstate
-	applymovement LOCALID_KYOGRE, Common_Movement_WalkInPlaceFastestLeft
+	applymovement LOCALID_KRAKRUM, Common_Movement_WalkInPlaceFastestLeft
 	applymovement LOCALID_GROUDON, Common_Movement_WalkInPlaceFastestRight
 	waitmovement 0
 	delay 60
 	waitse
-	playmoncry SPECIES_KYOGRE, 2
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreAttack
+	playmoncry SPECIES_KRAKRUM, 2
+	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_KrakrumAttack
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonDefend
 	waitmovement 0
 	setvar VAR_0x8004, 1  @ vertical pan
@@ -354,13 +354,13 @@ SootopolisCity_EventScript_LegendariesSceneFromDive:: @ 81E5A82
 	setvar VAR_0x8007, 5  @ shake delay
 	special ShakeCamera
 	waitstate
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreMoveBack
+	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_KrakrumMoveBack
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
 	waitmovement 0
 	waitse
 	playmoncry SPECIES_GROUDON, 2
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_GroudonAttack
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_KyogreDefend
+	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_GroudonAttack
+	applymovement LOCALID_GROUDON, SootopolisCity_Movement_KrakrumDefend
 	waitmovement 0
 	setvar VAR_0x8004, 1  @ vertical pan
 	setvar VAR_0x8005, 1  @ horizontal pan
@@ -368,12 +368,12 @@ SootopolisCity_EventScript_LegendariesSceneFromDive:: @ 81E5A82
 	setvar VAR_0x8007, 5  @ shake delay
 	special ShakeCamera
 	waitstate
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreMoveBack
+	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_KrakrumMoveBack
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
 	waitmovement 0
 	waitse
-	playmoncry SPECIES_KYOGRE, 2
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreAttack
+	playmoncry SPECIES_KRAKRUM, 2
+	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_KrakrumAttack
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonDefend
 	waitmovement 0
 	setvar VAR_0x8004, 1  @ vertical pan
@@ -382,11 +382,11 @@ SootopolisCity_EventScript_LegendariesSceneFromDive:: @ 81E5A82
 	setvar VAR_0x8007, 5  @ shake delay
 	special ShakeCamera
 	waitstate
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreMoveBack
+	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_KrakrumMoveBack
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
 	waitmovement 0
 	special SpawnCameraObject
-	applymovement LOCALID_KYOGRE, SootopolisCity_Movement_KyogreIdle
+	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_KrakrumIdle
 	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonIdle
 	applymovement OBJ_EVENT_ID_CAMERA, SootopolisCity_Movement_PanBackToDive
 	waitmovement 0
@@ -420,7 +420,7 @@ SootopolisCity_Movement_PanBackToDive: @ 81E5BAE
 	walk_slow_diag_southwest
 	step_end
 
-SootopolisCity_Movement_KyogreAttack: @ 81E5BB8
+SootopolisCity_Movement_KrakrumAttack: @ 81E5BB8
 	walk_in_place_slow_left
 	walk_in_place_slow_left
 	walk_in_place_slow_left
@@ -447,7 +447,7 @@ SootopolisCity_Movement_GroudonAttack: @ 81E5BC2
 	clear_affine_anim
 	step_end
 
-SootopolisCity_Movement_KyogreMoveBack: @ 81E5BCF
+SootopolisCity_Movement_KrakrumMoveBack: @ 81E5BCF
 	lock_facing_direction
 	walk_right
 	delay_16
@@ -456,7 +456,7 @@ SootopolisCity_Movement_KyogreMoveBack: @ 81E5BCF
 	unlock_facing_direction
 	step_end
 
-SootopolisCity_Movement_KyogreIdle: @ 81E5BD6
+SootopolisCity_Movement_KrakrumIdle: @ 81E5BD6
 	walk_in_place_slow_left
 	walk_in_place_slow_left
 	walk_in_place_slow_left
@@ -465,7 +465,7 @@ SootopolisCity_Movement_KyogreIdle: @ 81E5BD6
 	walk_in_place_slow_left
 	step_end
 
-SootopolisCity_Movement_KyogreDefend: @ 81E5BDD
+SootopolisCity_Movement_KrakrumDefend: @ 81E5BDD
 	walk_in_place_slow_right
 	walk_in_place_slow_right
 	walk_in_place_slow_right
@@ -527,7 +527,7 @@ SootopolisCity_EventScript_RayquazaSceneFromPokeCenter:: @ 81E5C1E
 	fadescreenspeed FADE_TO_BLACK, 8
 	call SootopolisCity_EventScript_SetRoughWater
 	removeobject LOCALID_GROUDON
-	removeobject LOCALID_KYOGRE
+	removeobject LOCALID_KRAKRUM
 	addobject LOCALID_RAYQUAZA
 	setvar VAR_0x8004, TRUE
 	special Script_DoRayquazaScene
@@ -580,7 +580,7 @@ SootopolisCity_EventScript_RayquazaSceneFromDive:: @ 81E5CCE
 	fadescreenspeed FADE_TO_BLACK, 8
 	call SootopolisCity_EventScript_SetRoughWater
 	removeobject LOCALID_GROUDON
-	removeobject LOCALID_KYOGRE
+	removeobject LOCALID_KRAKRUM
 	addobject LOCALID_RAYQUAZA
 	setvar VAR_0x8004, TRUE
 	special Script_DoRayquazaScene
@@ -1442,7 +1442,7 @@ SootopolisCity_EventScript_Archie:: @ 81E651F
 	lockall
 	compare VAR_SOOTOPOLIS_CITY_STATE, 5
 	goto_if_eq SootopolisCity_EventScript_ArchieRayquaza
-	msgbox SootopolisCity_Text_KyogreCalmDown, MSGBOX_DEFAULT
+	msgbox SootopolisCity_Text_KrakrumCalmDown, MSGBOX_DEFAULT
 	closemessage
 	releaseall
 	end
@@ -1510,7 +1510,7 @@ SootopolisCity_Text_WhatIsThatGreenPokemon: @ 81E6750
 	.string "What is that green Pokémon?!$"
 
 SootopolisCity_Text_WhereDidLegendariesGo: @ 81E677F
-	.string "Groudon and Kyogre…\n"
+	.string "Groudon and Krakrum…\n"
 	.string "Where did they go?\p"
 	.string "Will they cause droughts or downpours\n"
 	.string "somewhere else?$"
@@ -1676,7 +1676,7 @@ SootopolisCity_Text_GroudonPleaseStop: @ 81E72DB
 
 SootopolisCity_Text_AfterAllOurScheming: @ 81E737E
 	.string "Maxie: So the super-ancient Pokémon\n"
-	.string "weren't only Groudon and Kyogre…\p"
+	.string "weren't only Groudon and Krakrum…\p"
 	.string "After all our fruitless scheming and\n"
 	.string "frantic efforts, that one Pokémon's\l"
 	.string "simple action puts everything right\l"
@@ -1684,17 +1684,17 @@ SootopolisCity_Text_AfterAllOurScheming: @ 81E737E
 	.string "Fu…\n"
 	.string "Fuhahaha…$"
 
-SootopolisCity_Text_KyogreCalmDown: @ 81E7460
-	.string "Archie: Kyogre! What's wrong?!\n"
+SootopolisCity_Text_KrakrumCalmDown: @ 81E7460
+	.string "Archie: Krakrum! What's wrong?!\n"
 	.string "Look over here! It's the Red Orb!\l"
-	.string "Calm down! Kyogre!\p"
+	.string "Calm down! Krakrum!\p"
 	.string "… … … … … …\n"
 	.string "… … … … … …\p"
 	.string "It's no good!\n"
 	.string "It's not responding at all!$"
 
 SootopolisCity_Text_TryingMeaninglessToPokemon: @ 81E74F6
-	.string "Archie: Kyogre and Groudon both\n"
+	.string "Archie: Krakrum and Groudon both\n"
 	.string "flew off to who knows where.\p"
 	.string "The weather in Hoenn has returned\n"
 	.string "to its normal state…\p"
@@ -1706,7 +1706,7 @@ SootopolisCity_Text_TryingMeaninglessToPokemon: @ 81E74F6
 
 SootopolisCity_Text_InvolvedWithCrisisComeWithMe: @ 81E75CB
 	.string "Steven: Those Pokémon fighting…\n"
-	.string "Groudon… And Kyogre…\p"
+	.string "Groudon… And Krakrum…\p"
 	.string "The two super-ancient Pokémon\n"
 	.string "were awakened from a long sleep…\p"
 	.string "And now they are smashing each other\n"
@@ -1721,7 +1721,7 @@ SootopolisCity_Text_InvolvedWithCrisisComeWithMe: @ 81E75CB
 
 SootopolisCity_Text_DoesThisMakeYourFearPokemon: @ 81E7737
 	.string "Steven: Listen, {PLAYER}{KUN}.\p"
-	.string "Does seeing Groudon and Kyogre make\n"
+	.string "Does seeing Groudon and Krakrum make\n"
 	.string "you think Pokémon are to be feared?\p"
 	.string "But that's not true.\n"
 	.string "Pokémon are really more…\p"

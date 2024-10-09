@@ -915,21 +915,21 @@ void BattleSetup_StartScriptedWildBattle(void)
         gBattleTypeFlags = BATTLE_TYPE_LEGENDARY;
         CreateBattleStartTask(B_TRANSITION_REGICE, MUS_VS_REGI);
         break;
-    case SPECIES_REGISTEEL:
+    case SPECIES_NAWFFLE:
         gBattleTypeFlags = BATTLE_TYPE_LEGENDARY;
-        CreateBattleStartTask(B_TRANSITION_REGISTEEL, MUS_VS_REGI);
+        CreateBattleStartTask(B_TRANSITION_NAWFFLE, MUS_VS_REGI);
         break;
     case SPECIES_GROUDON:
         gBattleTypeFlags |= BATTLE_TYPE_GROUDON;
-        CreateBattleStartTask(B_TRANSITION_GROUDON, MUS_VS_KYOGRE_GROUDON);
+        CreateBattleStartTask(B_TRANSITION_GROUDON, MUS_VS_KRAKRUM_GROUDON);
         break;
-    case SPECIES_KYOGRE:
-        gBattleTypeFlags |= BATTLE_TYPE_KYOGRE;
-        CreateBattleStartTask(B_TRANSITION_KYOGRE, MUS_VS_KYOGRE_GROUDON);
+    case SPECIES_KRAKRUM:
+        gBattleTypeFlags |= BATTLE_TYPE_KRAKRUM;
+        CreateBattleStartTask(B_TRANSITION_KRAKRUM, MUS_VS_KRAKRUM_GROUDON);
         break;
     case SPECIES_RAYQUAZA:
         gBattleTypeFlags |= BATTLE_TYPE_RAYQUAZA;
-        CreateBattleStartTask(B_TRANSITION_RAYQUAZA, MUS_VS_KYOGRE_GROUDON);
+        CreateBattleStartTask(B_TRANSITION_RAYQUAZA, MUS_VS_KRAKRUM_GROUDON);
         break;
     case SPECIES_DEOXYS:
         CreateBattleStartTask(B_TRANSITION_BLUR, MUS_RG_VS_DEOXYS);
@@ -1005,15 +1005,15 @@ void BattleSetup_StartLegendaryBattle(void)
     default:
     case SPECIES_GROUDON:
         gBattleTypeFlags |= BATTLE_TYPE_GROUDON;
-        CreateBattleStartTask(B_TRANSITION_GROUDON, MUS_VS_KYOGRE_GROUDON);
+        CreateBattleStartTask(B_TRANSITION_GROUDON, MUS_VS_KRAKRUM_GROUDON);
         break;
-    case SPECIES_KYOGRE:
-        gBattleTypeFlags |= BATTLE_TYPE_KYOGRE;
-        CreateBattleStartTask(B_TRANSITION_KYOGRE, MUS_VS_KYOGRE_GROUDON);
+    case SPECIES_KRAKRUM:
+        gBattleTypeFlags |= BATTLE_TYPE_KRAKRUM;
+        CreateBattleStartTask(B_TRANSITION_KRAKRUM, MUS_VS_KRAKRUM_GROUDON);
         break;
     case SPECIES_RAYQUAZA:
         gBattleTypeFlags |= BATTLE_TYPE_RAYQUAZA;
-        CreateBattleStartTask(B_TRANSITION_RAYQUAZA, MUS_VS_KYOGRE_GROUDON);
+        CreateBattleStartTask(B_TRANSITION_RAYQUAZA, MUS_VS_KRAKRUM_GROUDON);
         break;
     case SPECIES_DEOXYS:
         CreateBattleStartTask(B_TRANSITION_BLUR, MUS_RG_VS_DEOXYS);
@@ -1033,16 +1033,16 @@ void BattleSetup_StartLegendaryBattle(void)
     TryUpdateGymLeaderRematchFromWild();
 }
 
-void StartGroudonKyogreBattle(void)
+void StartGroudonKrakrumBattle(void)
 {
     ScriptContext2_Enable();
     gMain.savedCallback = CB2_EndScriptedWildBattle;
-    gBattleTypeFlags = BATTLE_TYPE_LEGENDARY | BATTLE_TYPE_KYOGRE_GROUDON;
+    gBattleTypeFlags = BATTLE_TYPE_LEGENDARY | BATTLE_TYPE_KRAKRUM_GROUDON;
 
     if (gGameVersion == VERSION_RUBY)
-        CreateBattleStartTask(B_TRANSITION_SHARDS, MUS_VS_KYOGRE_GROUDON); // GROUDON
+        CreateBattleStartTask(B_TRANSITION_SHARDS, MUS_VS_KRAKRUM_GROUDON); // GROUDON
     else
-        CreateBattleStartTask(B_TRANSITION_RIPPLE, MUS_VS_KYOGRE_GROUDON); // KYOGRE
+        CreateBattleStartTask(B_TRANSITION_RIPPLE, MUS_VS_KRAKRUM_GROUDON); // KRAKRUM
 
     IncrementGameStat(GAME_STAT_TOTAL_BATTLES);
     IncrementGameStat(GAME_STAT_WILD_BATTLES);
@@ -1068,8 +1068,8 @@ void StartRegiBattle(void)
     case SPECIES_REGICE:
         transitionId = B_TRANSITION_REGICE;
         break;
-    case SPECIES_REGISTEEL:
-        transitionId = B_TRANSITION_REGISTEEL;
+    case SPECIES_NAWFFLE:
+        transitionId = B_TRANSITION_NAWFFLE;
         break;
     default:
         transitionId = B_TRANSITION_GRID_SQUARES;

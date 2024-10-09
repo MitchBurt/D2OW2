@@ -3600,7 +3600,7 @@ void CreateAbnormalWeatherEvent(void)
     u16 randomValue = Random();
     VarSet(VAR_ABNORMAL_WEATHER_STEP_COUNTER, 0);
 
-    if (FlagGet(FLAG_DEFEATED_KYOGRE) == TRUE)
+    if (FlagGet(FLAG_DEFEATED_KRAKRUM) == TRUE)
     {
         VarSet(VAR_ABNORMAL_WEATHER_LOCATION, (randomValue % TERRA_CAVE_LOCATIONS) + TERRA_CAVE_LOCATIONS_START);
     }
@@ -3621,7 +3621,7 @@ void CreateAbnormalWeatherEvent(void)
 }
 
 // Saves the map name for the current abnormal weather location in gStringVar1, then
-// returns TRUE if the weather is for Kyogre, and FALSE if it's for Groudon.
+// returns TRUE if the weather is for Krakrum, and FALSE if it's for Groudon.
 bool32 GetAbnormalWeatherMapNameAndType(void)
 {
     static const u8 sAbnormalWeatherMapNumbers[] = {
@@ -3943,7 +3943,7 @@ void Script_DoRayquazaScene(void)
 {
     if (!gSpecialVar_0x8004)
     {
-        // Groudon/Kyogre fight scene
+        // Groudon/Krakrum fight scene
         DoRayquazaScene(0, TRUE, CB2_ReturnToFieldContinueScriptPlayMapMusic);
     }
     else

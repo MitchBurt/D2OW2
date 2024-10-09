@@ -836,11 +836,11 @@ void DrawMainBattleBackground(void)
         LZDecompressVram(gBattleTerrainTilemap_Cave, (void*)(BG_SCREEN_ADDR(26)));
         LoadCompressedPalette(gBattleTerrainPalette_Groudon, 0x20, 0x60);
     }
-    else if (gBattleTypeFlags & BATTLE_TYPE_KYOGRE)
+    else if (gBattleTypeFlags & BATTLE_TYPE_KRAKRUM)
     {
         LZDecompressVram(gBattleTerrainTiles_Water, (void*)(BG_CHAR_ADDR(2)));
         LZDecompressVram(gBattleTerrainTilemap_Water, (void*)(BG_SCREEN_ADDR(26)));
-        LoadCompressedPalette(gBattleTerrainPalette_Kyogre, 0x20, 0x60);
+        LoadCompressedPalette(gBattleTerrainPalette_Krakrum, 0x20, 0x60);
     }
     else if (gBattleTypeFlags & BATTLE_TYPE_RAYQUAZA) 
     {
@@ -1239,7 +1239,7 @@ void DrawBattleEntryBackground(void)
         LZDecompressVram(gBattleTerrainAnimTiles_Cave, (void*)(BG_CHAR_ADDR(1)));
         LZDecompressVram(gBattleTerrainAnimTilemap_Cave, (void*)(BG_SCREEN_ADDR(28)));
     }
-    else if (gBattleTypeFlags & BATTLE_TYPE_KYOGRE)
+    else if (gBattleTypeFlags & BATTLE_TYPE_KRAKRUM)
     {
         LZDecompressVram(gBattleTerrainAnimTiles_Underwater, (void*)(BG_CHAR_ADDR(1)));
         LZDecompressVram(gBattleTerrainAnimTilemap_Underwater, (void*)(BG_SCREEN_ADDR(28)));
@@ -1361,7 +1361,7 @@ bool8 LoadChosenBattleElement(u8 caseId)
         {
             LZDecompressVram(gBattleTerrainTilemap_Building, (void*)(BG_SCREEN_ADDR(26)));
         }
-        else if (gBattleTypeFlags & BATTLE_TYPE_KYOGRE_GROUDON)
+        else if (gBattleTypeFlags & BATTLE_TYPE_KRAKRUM_GROUDON)
         {
             if (gGameVersion == VERSION_RUBY)
                 LZDecompressVram(gBattleTerrainTilemap_Cave, (void*)(BG_SCREEN_ADDR(26)));
@@ -1423,12 +1423,12 @@ bool8 LoadChosenBattleElement(u8 caseId)
         {
             LoadCompressedPalette(gBattleTerrainPalette_Frontier, 0x20, 0x60);
         }
-        else if (gBattleTypeFlags & BATTLE_TYPE_KYOGRE_GROUDON)
+        else if (gBattleTypeFlags & BATTLE_TYPE_KRAKRUM_GROUDON)
         {
             if (gGameVersion == VERSION_RUBY)
                 LoadCompressedPalette(gBattleTerrainPalette_Groudon, 0x20, 0x60);
             else
-                LoadCompressedPalette(gBattleTerrainPalette_Kyogre, 0x20, 0x60);
+                LoadCompressedPalette(gBattleTerrainPalette_Krakrum, 0x20, 0x60);
         }
         else
         {

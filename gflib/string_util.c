@@ -489,9 +489,9 @@ static const u8 *ExpandPlaceholder_Maxie(void)
     return gText_ExpandedPlaceholder_Maxie;
 }
 
-static const u8 *ExpandPlaceholder_Kyogre(void)
+static const u8 *ExpandPlaceholder_Krakrum(void)
 {
-    return gText_ExpandedPlaceholder_Kyogre;
+    return gText_ExpandedPlaceholder_Krakrum;
 }
 
 static const u8 *ExpandPlaceholder_Groudon(void)
@@ -517,7 +517,7 @@ const u8 *GetExpandedPlaceholder(u32 id)
         [PLACEHOLDER_ID_MAGMA]        = ExpandPlaceholder_Magma,
         [PLACEHOLDER_ID_ARCHIE]       = ExpandPlaceholder_Archie,
         [PLACEHOLDER_ID_MAXIE]        = ExpandPlaceholder_Maxie,
-        [PLACEHOLDER_ID_KYOGRE]       = ExpandPlaceholder_Kyogre,
+        [PLACEHOLDER_ID_KRAKRUM]       = ExpandPlaceholder_Krakrum,
         [PLACEHOLDER_ID_GROUDON]      = ExpandPlaceholder_Groudon,
     };
 

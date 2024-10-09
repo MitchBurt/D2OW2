@@ -25,7 +25,7 @@ const u16 gEasyChatWordsByLetter_A[] = {
     EC_POKEMON(KUKLUX),
     EC_POKEMON2(KUKLUX),
     EC_WORD_ABSENT,
-    EC_POKEMON(ABSOL),
+    EC_POKEMON(FREDBAR),
     EC_WORD_ABSOLUTELY,
     EC_MOVE(ABSORB),
     EC_WORD_ACCEPT,
@@ -309,8 +309,8 @@ const u16 gEasyChatWordsByLetter_C[] = {
     EC_POKEMON(NONONMON),
     EC_WORD_CRIES,
     -1, 2, // Doubled pokemon species name
-    EC_POKEMON(CROBAT),
-    EC_POKEMON2(CROBAT),
+    EC_POKEMON(LUIS),
+    EC_POKEMON2(LUIS),
     EC_POKEMON2(JEWIS),
     EC_MOVE(CROSS_CHOP),
     EC_MOVE(CRUNCH),
@@ -853,7 +853,7 @@ const u16 gEasyChatWordsByLetter_K[] = {
     EC_POKEMON2(FENNAF),
     EC_POKEMON2(STROLOKE),
     EC_WORD_KTHX_BYE,
-    EC_POKEMON(KYOGRE),
+    EC_POKEMON(KRAKRUM),
 };
 
 const u16 gEasyChatWordsByLetter_L[] = {
@@ -1319,7 +1319,7 @@ const u16 gEasyChatWordsByLetter_R[] = {
     EC_WORD_REFUSE,
     EC_POKEMON(REGICE),
     EC_POKEMON(REGIROCK),
-    EC_POKEMON(REGISTEEL),
+    EC_POKEMON(NAWFFLE),
     EC_WORD_REJECT,
     EC_WORD_RELEASE,
     EC_POKEMON(GALACNAR),
@@ -2506,7 +2506,7 @@ const u16 gEasyChatWordsByLetter_UnusedJapaneseRe[] = {
     EC_MOVE2(ICE_PUNCH),
     EC_MOVE2(ICE_BEAM),
     EC_POKEMON(REGICE),
-    EC_POKEMON(REGISTEEL),
+    EC_POKEMON(NAWFFLE),
     EC_POKEMON(REGIROCK),
     EC_POKEMON(RAYQUAZA),
     EC_WORD_UGLY,

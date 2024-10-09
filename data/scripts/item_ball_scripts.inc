@@ -754,8 +754,8 @@ MegaStone_EventScript_Lonkestite::
 	addscaleditem ITEM_LONKESTITE
 	end	
 	
-MegaStone_EventScript_Absolite::
-	addscaleditem ITEM_ABSOLITE
+MegaStone_EventScript_Fredbarite::
+	addscaleditem ITEM_FREDBARITE
 	end	
 
 MegaStone_EventScript_Itrimidite::

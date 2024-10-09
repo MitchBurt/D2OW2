@@ -185,7 +185,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigSperiathonDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigShrimpotDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigRegirockDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigRegiceDoll;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigRegisteelDoll;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigNawffleDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Latias;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Latios;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GameboyKid;
@@ -1281,7 +1281,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_BIG_SHRIMPOT_DOLL] =         &gObjectEventGraphicsInfo_BigShrimpotDoll,
     [OBJ_EVENT_GFX_BIG_REGIROCK_DOLL] =        &gObjectEventGraphicsInfo_BigRegirockDoll,
     [OBJ_EVENT_GFX_BIG_REGICE_DOLL] =          &gObjectEventGraphicsInfo_BigRegiceDoll,
-    [OBJ_EVENT_GFX_BIG_REGISTEEL_DOLL] =       &gObjectEventGraphicsInfo_BigRegisteelDoll,
+    [OBJ_EVENT_GFX_BIG_NAWFFLE_DOLL] =       &gObjectEventGraphicsInfo_BigNawffleDoll,
     [OBJ_EVENT_GFX_GAMEBOY_KID] =              &gObjectEventGraphicsInfo_GameboyKid,
     [OBJ_EVENT_GFX_CONTEST_JUDGE] =            &gObjectEventGraphicsInfo_ContestJudge,
     
@@ -1374,17 +1374,17 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
 	[OBJ_EVENT_GFX_SORTAFURRY] =                   &gObjectEventGraphicsInfo_Pokemon_Species_282,
 	[OBJ_EVENT_GFX_LATIAS] =                   &gObjectEventGraphicsInfo_Pokemon_Species_380,
     [OBJ_EVENT_GFX_LATIOS] =                   &gObjectEventGraphicsInfo_Pokemon_Species_381,
-	[OBJ_EVENT_GFX_KYOGRE_1] =                 &gObjectEventGraphicsInfo_Pokemon_Species_382,
+	[OBJ_EVENT_GFX_KRAKRUM_1] =                 &gObjectEventGraphicsInfo_Pokemon_Species_382,
     [OBJ_EVENT_GFX_GROUDON_1] =                &gObjectEventGraphicsInfo_Pokemon_Species_383,
 	[OBJ_EVENT_GFX_REGIROCK] =                 &gObjectEventGraphicsInfo_Pokemon_Species_377,
     [OBJ_EVENT_GFX_REGICE] =                   &gObjectEventGraphicsInfo_Pokemon_Species_378,
-    [OBJ_EVENT_GFX_REGISTEEL] =                &gObjectEventGraphicsInfo_Pokemon_Species_379,
+    [OBJ_EVENT_GFX_NAWFFLE] =                &gObjectEventGraphicsInfo_Pokemon_Species_379,
     [OBJ_EVENT_GFX_SMOSLIME] =                   &gObjectEventGraphicsInfo_Pokemon_Species_301,
-	[OBJ_EVENT_GFX_KYOGRE_2] =                 &gObjectEventGraphicsInfo_Pokemon_Species_382,
+	[OBJ_EVENT_GFX_KRAKRUM_2] =                 &gObjectEventGraphicsInfo_Pokemon_Species_382,
     [OBJ_EVENT_GFX_GROUDON_2] =                &gObjectEventGraphicsInfo_Pokemon_Species_383,
     [OBJ_EVENT_GFX_RAYQUAZA_2] =               &gObjectEventGraphicsInfo_Pokemon_Species_384,
 	[OBJ_EVENT_GFX_SKIPPA] =                  &gObjectEventGraphicsInfo_Pokemon_Species_025,
-	[OBJ_EVENT_GFX_KYOGRE_3] =                 &gObjectEventGraphicsInfo_Pokemon_Species_382,
+	[OBJ_EVENT_GFX_KRAKRUM_3] =                 &gObjectEventGraphicsInfo_Pokemon_Species_382,
     [OBJ_EVENT_GFX_GROUDON_3] =                &gObjectEventGraphicsInfo_Pokemon_Species_383,
     [OBJ_EVENT_GFX_HUGEMAN] =                 &gObjectEventGraphicsInfo_Pokemon_Species_477,
 	[OBJ_EVENT_GFX_DEOXYS] =                   &gObjectEventGraphicsInfo_Pokemon_Species_386,

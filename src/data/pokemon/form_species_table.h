@@ -366,9 +366,9 @@ static const u16 sTocktowerFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sAbsolFormSpeciesIdTable[] = {
-    SPECIES_ABSOL,
-    SPECIES_ABSOL_MEGA,
+static const u16 sFredbarFormSpeciesIdTable[] = {
+    SPECIES_FREDBAR,
+    SPECIES_FREDBAR_MEGA,
     0xFFFF,
 };
 
@@ -402,9 +402,9 @@ static const u16 sLatiosFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sKyogreFormSpeciesIdTable[] = {
-    SPECIES_KYOGRE,
-    SPECIES_KYOGRE_PRIMAL,
+static const u16 sKrakrumFormSpeciesIdTable[] = {
+    SPECIES_KRAKRUM,
+    SPECIES_KRAKRUM_PRIMAL,
     0xFFFF,
 };
 

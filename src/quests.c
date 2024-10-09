@@ -1969,9 +1969,9 @@ static void UnlockQuestMenu(void)
 	if(FlagGet(FLAG_SYS_GAME_CLEAR))
 		GetSetQuestFlag(SIDE_QUEST_5, FLAG_SET_COMPLETED);
 	//Achievement 6----------------------------------------------------------
-	//Unlocked after you defeat Groudon and Kyogre
+	//Unlocked after you defeat Groudon and Krakrum
 	//Completed after you defeat Rayquaza
-	if(FlagGet(FLAG_DEFEATED_KYOGRE) && FlagGet(FLAG_DEFEATED_GROUDON))
+	if(FlagGet(FLAG_DEFEATED_KRAKRUM) && FlagGet(FLAG_DEFEATED_GROUDON))
 		GetSetQuestFlag(SIDE_QUEST_6, FLAG_SET_UNLOCKED);
 	
 	if(FlagGet(FLAG_DEFEATED_RAYQUAZA))
@@ -2116,7 +2116,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_CREEPA:
 				case SPECIES_LEAFEON:
 				case SPECIES_EBOLABLE:
-				case SPECIES_REGISTEEL:
+				case SPECIES_NAWFFLE:
 				case SPECIES_GNORB:
 				case SPECIES_MAURRICE:
 				case SPECIES_VIVAPINAUT:

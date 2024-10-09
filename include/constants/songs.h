@@ -423,7 +423,7 @@
 #define MUS_CONTEST                   411 // MUS_CONTEST0
 #define MUS_ENCOUNTER_MAGMA           412 // MUS_MGM0
 #define MUS_INTRO_BATTLE              413 // MUS_T_BATTLE
-#define MUS_WEATHER_KYOGRE            414 // old MUS_OOAME (Unused, from R/S)
+#define MUS_WEATHER_KRAKRUM            414 // old MUS_OOAME (Unused, from R/S)
 #define MUS_WEATHER_GROUDON           415 // MUS_HIDERI (Unused, from R/S)
 #define MUS_SOOTOPOLIS                416 // MUS_RUNECITY
 #define MUS_CONTEST_RESULTS           417 // MUS_CON_K
@@ -443,7 +443,7 @@
 #define MUS_VS_GYM_LEADER             431 // MUS_BATTLE32
 #define MUS_VS_CHAMPION               432 // MUS_BATTLE33
 #define MUS_VS_REGI                   433 // MUS_BATTLE36
-#define MUS_VS_KYOGRE_GROUDON         434 // MUS_BATTLE34
+#define MUS_VS_KRAKRUM_GROUDON         434 // MUS_BATTLE34
 #define MUS_VS_RIVAL                  435 // MUS_BATTLE35
 #define MUS_VS_ELITE_FOUR             436 // MUS_BATTLE38
 #define MUS_VS_AQUA_MAGMA_LEADER      437 // MUS_BATTLE30
@@ -540,7 +540,7 @@
 #define MUS_B_DOME                    524 // MUS_B_DOME
 #define MUS_B_PIKE                    525 // MUS_B_TUBE
 #define MUS_B_FACTORY                 526 // MUS_B_FACTORY
-#define MUS_VS_RAYQUAZA               527 // MUS_VS_REKKU (Identical to MUS_VS_KYOGRE_GROUDON)
+#define MUS_VS_RAYQUAZA               527 // MUS_VS_REKKU (Identical to MUS_VS_KRAKRUM_GROUDON)
 #define MUS_VS_FRONTIER_BRAIN         528 // MUS_VS_FRONT
 #define MUS_VS_THEVOID                    529 // MUS_VS_THEVOID
 #define MUS_B_DOME_LOBBY              530 // MUS_B_DOME1
@@ -736,7 +736,7 @@
 #define PL_SEQ_PL_POINTGET3           715 // Received Battle Points!
 #define PL_SEQ_PL_BA_BRAIN            716 // Battle! (Frontier Brain)
 #define PL_SEQ_PL_WINBRAIN            717 // Victory! (Frontier Brain)
-#define PL_SEQ_PL_BA_REGI             718 // Battle! (Regirock / Regice / Registeel / Regigigas)
+#define PL_SEQ_PL_BA_REGI             718 // Battle! (Regirock / Regice / Nawffle / Regigigas)
  
 // HeartGold & SoulSilver Music 
 #define HG_SEQ_GS_TITLE               719 // Opening Movie

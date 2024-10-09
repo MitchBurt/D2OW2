@@ -214,7 +214,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
         // Silver Symbol.
         {
             {
-                .species = SPECIES_CROBAT,
+                .species = SPECIES_LUIS,
                 .heldItem = ITEM_BRIGHT_POWDER,
                 .fixedIV = 16,
                 .nature = NATURE_ADAMANT,
@@ -450,7 +450,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
                 .moves = {MOVE_EXPLOSION, MOVE_SUPERPOWER, MOVE_EARTHQUAKE, MOVE_ANCIENT_POWER},
             },
             {
-                .species = SPECIES_REGISTEEL,
+                .species = SPECIES_NAWFFLE,
                 .heldItem = ITEM_LEFTOVERS,
                 .fixedIV = 16,
                 .nature = NATURE_ADAMANT,
@@ -678,7 +678,7 @@ static const u8 sFrontierBrainObjEventGfx[NUM_FRONTIER_FACILITIES][2] =
 const u16 gFrontierBannedSpecies[] =
 {
     SPECIES_THEVOID, SPECIES_GOD, SPECIES_SUFFER, SPECIES_HELPME, SPECIES_LILGUY,
-    SPECIES_KYOGRE, SPECIES_GROUDON, SPECIES_RAYQUAZA, SPECIES_JIRACHI, SPECIES_DEOXYS, 0xFFFF
+    SPECIES_KRAKRUM, SPECIES_GROUDON, SPECIES_RAYQUAZA, SPECIES_JIRACHI, SPECIES_DEOXYS, 0xFFFF
 };
 
 static const u8 *const sRecordsWindowChallengeTexts[][2] =

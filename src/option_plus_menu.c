@@ -1188,7 +1188,7 @@ static void DrawChoices_Title_Screen_Mon(int selection, int y)
             DrawOptionMenuChoice(gText_TitleScreen_Groudon, 104, y, 1, active);
         break;
         case 2:
-            DrawOptionMenuChoice(gText_TitleScreen_Kyogre, 104, y, 1, active);
+            DrawOptionMenuChoice(gText_TitleScreen_Krakrum, 104, y, 1, active);
         break;
     }
 }

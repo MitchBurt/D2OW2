@@ -9819,17 +9819,17 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_ABSOLITE] =
+    [ITEM_FREDBARITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Absolita"),
+        .name = _("Fredbarita"),
 #else
-        .name = _("Absolite"),
+        .name = _("Fredbarite"),
 #endif
-        .itemId = ITEM_ABSOLITE,
+        .itemId = ITEM_FREDBARITE,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sAbsoliteDesc,
+        .description = sFredbariteDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,

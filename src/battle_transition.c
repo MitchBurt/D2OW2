@@ -84,9 +84,9 @@ static void Phase2Task_Champion(u8 taskId);
 static void Phase2Task_Aqua(u8 taskId);
 static void Phase2Task_Magma(u8 taskId);
 static void Phase2Task_Regice(u8 taskId);
-static void Phase2Task_Registeel(u8 taskId);
+static void Phase2Task_Nawffle(u8 taskId);
 static void Phase2Task_Regirock(u8 taskId);
-static void Phase2Task_Kyogre(u8 taskId);
+static void Phase2Task_Krakrum(u8 taskId);
 static void Phase2Task_Groudon(u8 taskId);
 static void Phase2Task_Rayquaza(u8 taskId);
 static void Phase2Task_ShredSplit(u8 taskId);
@@ -132,13 +132,13 @@ static bool8 Phase2_Magma_Func2(struct Task *task);
 static bool8 Phase2_FramesCountdown(struct Task *task);
 static bool8 Phase2_Regi_Func1(struct Task *task);
 static bool8 Phase2_Regice_Func2(struct Task *task);
-static bool8 Phase2_Registeel_Func2(struct Task *task);
+static bool8 Phase2_Nawffle_Func2(struct Task *task);
 static bool8 Phase2_Regirock_Func2(struct Task *task);
 static bool8 Phase2_WeatherTrio_Func1(struct Task *task);
 static bool8 Phase2_WaitPaletteFade(struct Task *task);
-static bool8 Phase2_Kyogre_Func3(struct Task *task);
-static bool8 Phase2_Kyogre_Func4(struct Task *task);
-static bool8 Phase2_Kyogre_Func5(struct Task *task);
+static bool8 Phase2_Krakrum_Func3(struct Task *task);
+static bool8 Phase2_Krakrum_Func4(struct Task *task);
+static bool8 Phase2_Krakrum_Func5(struct Task *task);
 static bool8 Phase2_Groudon_Func3(struct Task *task);
 static bool8 Phase2_Groudon_Func4(struct Task *task);
 static bool8 Phase2_Groudon_Func5(struct Task *task);
@@ -285,18 +285,18 @@ static const u32 sTeamMagma_Tileset[] = INCBIN_U32("graphics/battle_transitions/
 static const u32 sTeamMagma_Tilemap[] = INCBIN_U32("graphics/battle_transitions/team_magma.bin.lz");
 static const u32 sRegis_Tileset[] = INCBIN_U32("graphics/battle_transitions/regis.4bpp");
 static const u16 sRegice_Palette[] = INCBIN_U16("graphics/battle_transitions/regice.gbapal");
-static const u16 sRegisteel_Palette[] = INCBIN_U16("graphics/battle_transitions/registeel.gbapal");
+static const u16 sNawffle_Palette[] = INCBIN_U16("graphics/battle_transitions/nawffle.gbapal");
 static const u16 sRegirock_Palette[] = INCBIN_U16("graphics/battle_transitions/regirock.gbapal");
 static const u32 sRegice_Tilemap[] = INCBIN_U32("graphics/battle_transitions/regice.bin");
-static const u32 sRegisteel_Tilemap[] = INCBIN_U32("graphics/battle_transitions/registeel.bin");
+static const u32 sNawffle_Tilemap[] = INCBIN_U32("graphics/battle_transitions/nawffle.bin");
 static const u32 sRegirock_Tilemap[] = INCBIN_U32("graphics/battle_transitions/regirock.bin");
 static const u16 gUnknown_085BDB14[] = INCBIN_U16("graphics/battle_transitions/85BDB14.gbapal");
-static const u32 sKyogre_Tileset[] = INCBIN_U32("graphics/battle_transitions/kyogre.4bpp.lz");
-static const u32 sKyogre_Tilemap[] = INCBIN_U32("graphics/battle_transitions/kyogre.bin.lz");
+static const u32 sKrakrum_Tileset[] = INCBIN_U32("graphics/battle_transitions/krakrum.4bpp.lz");
+static const u32 sKrakrum_Tilemap[] = INCBIN_U32("graphics/battle_transitions/krakrum.bin.lz");
 static const u32 sGroudon_Tileset[] = INCBIN_U32("graphics/battle_transitions/groudon.4bpp.lz");
 static const u32 sGroudon_Tilemap[] = INCBIN_U32("graphics/battle_transitions/groudon.bin.lz");
-static const u16 sKyogre1_Palette[] = INCBIN_U16("graphics/battle_transitions/kyogre_pt1.gbapal");
-static const u16 sKyogre2_Palette[] = INCBIN_U16("graphics/battle_transitions/kyogre_pt2.gbapal");
+static const u16 sKrakrum1_Palette[] = INCBIN_U16("graphics/battle_transitions/krakrum_pt1.gbapal");
+static const u16 sKrakrum2_Palette[] = INCBIN_U16("graphics/battle_transitions/krakrum_pt2.gbapal");
 static const u16 sGroudon1_Palette[] = INCBIN_U16("graphics/battle_transitions/groudon_pt1.gbapal");
 static const u16 sGroudon2_Palette[] = INCBIN_U16("graphics/battle_transitions/groudon_pt2.gbapal");
 static const u16 sRayquaza_Palette[] = INCBIN_U16("graphics/battle_transitions/rayquaza.gbapal");
@@ -339,9 +339,9 @@ static const TaskFunc sPhase2_Tasks[B_TRANSITION_COUNT] =
     [B_TRANSITION_AQUA] = Phase2Task_Aqua,
     [B_TRANSITION_MAGMA] = Phase2Task_Magma,
     [B_TRANSITION_REGICE] = Phase2Task_Regice,
-    [B_TRANSITION_REGISTEEL] = Phase2Task_Registeel,
+    [B_TRANSITION_NAWFFLE] = Phase2Task_Nawffle,
     [B_TRANSITION_REGIROCK] = Phase2Task_Regirock,
-    [B_TRANSITION_KYOGRE] = Phase2Task_Kyogre,
+    [B_TRANSITION_KRAKRUM] = Phase2Task_Krakrum,
     [B_TRANSITION_GROUDON] = Phase2Task_Groudon,
     [B_TRANSITION_RAYQUAZA] = Phase2Task_Rayquaza,
     [B_TRANSITION_SHRED_SPLIT] = Phase2Task_ShredSplit,
@@ -432,10 +432,10 @@ static const TransitionStateFunc sPhase2_Regice_Funcs[] =
     Phase2_BigPokeball_Func6
 };
 
-static const TransitionStateFunc sPhase2_Registeel_Funcs[] =
+static const TransitionStateFunc sPhase2_Nawffle_Funcs[] =
 {
     Phase2_Regi_Func1,
-    Phase2_Registeel_Func2,
+    Phase2_Nawffle_Func2,
     Phase2_BigPokeball_Func3,
     Phase2_BigPokeball_Func4,
     Phase2_BigPokeball_Func5,
@@ -452,13 +452,13 @@ static const TransitionStateFunc sPhase2_Regirock_Funcs[] =
     Phase2_BigPokeball_Func6
 };
 
-static const TransitionStateFunc sPhase2_Kyogre_Funcs[] =
+static const TransitionStateFunc sPhase2_Krakrum_Funcs[] =
 {
     Phase2_WeatherTrio_Func1,
     Phase2_WaitPaletteFade,
-    Phase2_Kyogre_Func3,
-    Phase2_Kyogre_Func4,
-    Phase2_Kyogre_Func5,
+    Phase2_Krakrum_Func3,
+    Phase2_Krakrum_Func4,
+    Phase2_Krakrum_Func5,
     Phase2_FramesCountdown,
     Phase2_WeatherDuo_Func6,
     Phase2_WeatherDuo_Func7
@@ -1229,9 +1229,9 @@ static void Phase2Task_Regice(u8 taskId)
     while (sPhase2_Regice_Funcs[gTasks[taskId].tState](&gTasks[taskId]));
 }
 
-static void Phase2Task_Registeel(u8 taskId)
+static void Phase2Task_Nawffle(u8 taskId)
 {
-    while (sPhase2_Registeel_Funcs[gTasks[taskId].tState](&gTasks[taskId]));
+    while (sPhase2_Nawffle_Funcs[gTasks[taskId].tState](&gTasks[taskId]));
 }
 
 static void Phase2Task_Regirock(u8 taskId)
@@ -1239,9 +1239,9 @@ static void Phase2Task_Regirock(u8 taskId)
     while (sPhase2_Regirock_Funcs[gTasks[taskId].tState](&gTasks[taskId]));
 }
 
-static void Phase2Task_Kyogre(u8 taskId)
+static void Phase2Task_Krakrum(u8 taskId)
 {
-    while (sPhase2_Kyogre_Funcs[gTasks[taskId].tState](&gTasks[taskId]));
+    while (sPhase2_Krakrum_Funcs[gTasks[taskId].tState](&gTasks[taskId]));
 }
 
 static void sub_814669C(struct Task *task)
@@ -1386,13 +1386,13 @@ static bool8 Phase2_Regice_Func2(struct Task *task)
     return FALSE;
 }
 
-static bool8 Phase2_Registeel_Func2(struct Task *task)
+static bool8 Phase2_Nawffle_Func2(struct Task *task)
 {
     u16 *tilemap, *tileset;
 
     GetBg0TilesDst(&tilemap, &tileset);
-    LoadPalette(sRegisteel_Palette, 0xF0, 0x20);
-    CpuCopy16(sRegisteel_Tilemap, tilemap, 0x500);
+    LoadPalette(sNawffle_Palette, 0xF0, 0x20);
+    CpuCopy16(sNawffle_Tilemap, tilemap, 0x500);
     sub_8149F98(gScanlineEffectRegBuffers[0], 0, task->tData4, 132, task->tData5, 160);
 
     task->tState++;
@@ -1412,26 +1412,26 @@ static bool8 Phase2_Regirock_Func2(struct Task *task)
     return FALSE;
 }
 
-static bool8 Phase2_Kyogre_Func3(struct Task *task)
+static bool8 Phase2_Krakrum_Func3(struct Task *task)
 {
     u16 *tilemap, *tileset;
 
     GetBg0TilesDst(&tilemap, &tileset);
     CpuFill16(0, tilemap, 0x800);
-    LZ77UnCompVram(sKyogre_Tileset, tileset);
-    LZ77UnCompVram(sKyogre_Tilemap, tilemap);
+    LZ77UnCompVram(sKrakrum_Tileset, tileset);
+    LZ77UnCompVram(sKrakrum_Tilemap, tilemap);
 
     task->tState++;
     return FALSE;
 }
 
-static bool8 Phase2_Kyogre_Func4(struct Task *task)
+static bool8 Phase2_Krakrum_Func4(struct Task *task)
 {
     if (task->tData1 % 3 == 0)
     {
         u16 var = task->tData1 % 30;
         var /= 3;
-        LoadPalette(sKyogre1_Palette + (var * 16), 0xF0, 0x20);
+        LoadPalette(sKrakrum1_Palette + (var * 16), 0xF0, 0x20);
     }
     if (++task->tData1 > 58)
     {
@@ -1442,12 +1442,12 @@ static bool8 Phase2_Kyogre_Func4(struct Task *task)
     return FALSE;
 }
 
-static bool8 Phase2_Kyogre_Func5(struct Task *task)
+static bool8 Phase2_Krakrum_Func5(struct Task *task)
 {
     if (task->tData1 % 5 == 0)
     {
         s16 var = task->tData1 / 5;
-        LoadPalette(sKyogre2_Palette + (var * 16), 0xF0, 0x20);
+        LoadPalette(sKrakrum2_Palette + (var * 16), 0xF0, 0x20);
     }
     if (++task->tData1 > 68)
     {

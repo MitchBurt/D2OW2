@@ -58,7 +58,7 @@ FortreeCity_House1_EventScript_Meowrrior:: @ 8216368
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_DUSKNOIR, 0
+	playmoncry SPECIES_SKELEDOOM, 0
 	msgbox FortreeCity_House1_Text_Meowrrior, MSGBOX_DEFAULT
 	waitmoncry
 	release
@@ -98,6 +98,6 @@ FortreeCity_House1_Text_TradingMemoriesWithOthers: @ 821653B
 	.string "memories with other people.$"
 
 FortreeCity_House1_Text_Meowrrior: @ 8216597
-	.string "Dusknoir: Gumomoh?$"
+	.string "Skeledoom: Gumomoh?$"
 
 `

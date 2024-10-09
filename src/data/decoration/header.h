@@ -1081,14 +1081,14 @@ const struct Decoration gDecorations[] = {
         DecorDesc_REGICE_DOLL,
         DecorGfx_REGICE_DOLL
     }, {
-        DECOR_REGISTEEL_DOLL,
-        _("Muñ. Registeel"),
+        DECOR_NAWFFLE_DOLL,
+        _("Muñ. Nawffle"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x2,
         DECORCAT_DOLL,
         10000,
-        DecorDesc_REGISTEEL_DOLL,
-        DecorGfx_REGISTEEL_DOLL}
+        DecorDesc_NAWFFLE_DOLL,
+        DecorGfx_NAWFFLE_DOLL}
 #else
     {
         DECOR_NONE,
@@ -2171,14 +2171,14 @@ const struct Decoration gDecorations[] = {
         DecorDesc_REGICE_DOLL,
         DecorGfx_REGICE_DOLL
     }, {
-        DECOR_REGISTEEL_DOLL,
-        _("Registeel Doll"),
+        DECOR_NAWFFLE_DOLL,
+        _("Nawffle Doll"),
         DECORPERM_SPRITE,
         DECORSHAPE_1x2,
         DECORCAT_DOLL,
         10000,
-        DecorDesc_REGISTEEL_DOLL,
-        DecorGfx_REGISTEEL_DOLL}
+        DecorDesc_NAWFFLE_DOLL,
+        DecorGfx_NAWFFLE_DOLL}
 #endif
 
 };

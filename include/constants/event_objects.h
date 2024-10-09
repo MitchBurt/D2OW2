@@ -193,7 +193,7 @@
 #define OBJ_EVENT_GFX_BIG_SHRIMPOT_DOLL           183
 #define OBJ_EVENT_GFX_BIG_REGIROCK_DOLL          184
 #define OBJ_EVENT_GFX_BIG_REGICE_DOLL            185
-#define OBJ_EVENT_GFX_BIG_REGISTEEL_DOLL         186
+#define OBJ_EVENT_GFX_BIG_NAWFFLE_DOLL         186
 #define OBJ_EVENT_GFX_LATIAS                     187
 #define OBJ_EVENT_GFX_LATIOS                     188
 #define OBJ_EVENT_GFX_GAMEBOY_KID                189
@@ -204,15 +204,15 @@
 #define OBJ_EVENT_GFX_MAY_DECORATING             194
 #define OBJ_EVENT_GFX_ARCHIE                     195
 #define OBJ_EVENT_GFX_MAXIE                      196
-#define OBJ_EVENT_GFX_KYOGRE_1                   197
+#define OBJ_EVENT_GFX_KRAKRUM_1                   197
 #define OBJ_EVENT_GFX_GROUDON_1                  198
 #define OBJ_EVENT_GFX_FOSSIL                     199
 #define OBJ_EVENT_GFX_REGIROCK                   200
 #define OBJ_EVENT_GFX_REGICE                     201
-#define OBJ_EVENT_GFX_REGISTEEL                  202
+#define OBJ_EVENT_GFX_NAWFFLE                  202
 #define OBJ_EVENT_GFX_SMOSLIME                     203
 #define OBJ_EVENT_GFX_KECLEON_1                  204
-#define OBJ_EVENT_GFX_KYOGRE_2                   205
+#define OBJ_EVENT_GFX_KRAKRUM_2                   205
 #define OBJ_EVENT_GFX_GROUDON_2                  206
 #define OBJ_EVENT_GFX_RAYQUAZA_2                 207
 #define OBJ_EVENT_GFX_MEOWRRIOR_2                208
@@ -228,7 +228,7 @@
 #define OBJ_EVENT_GFX_JUAN                       218
 #define OBJ_EVENT_GFX_SCOTT                      219
 #define OBJ_EVENT_GFX_DUPLICAT                  220
-#define OBJ_EVENT_GFX_KYOGRE_3                   221
+#define OBJ_EVENT_GFX_KRAKRUM_3                   221
 #define OBJ_EVENT_GFX_GROUDON_3                  222
 #define OBJ_EVENT_GFX_MYSTERY_GIFT_MAN           223
 #define OBJ_EVENT_GFX_TRICK_HOUSE_STATUE         224

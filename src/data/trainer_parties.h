@@ -3035,7 +3035,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Kindra[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_CHINGLING,
+    .species = SPECIES_LUIWEE,
     }
 };
 
@@ -3636,7 +3636,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Jessica1[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_ABSOL,
+    .species = SPECIES_FREDBAR,
     .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},
     .moves = {MOVE_SWORDS_DANCE, MOVE_SUCKER_PUNCH, MOVE_SLASH, MOVE_RAZOR_WIND}
     }
@@ -6465,9 +6465,9 @@ static const struct TrainerMonItemCustomMoves sParty_Sidney[] = {
 	.ivs = {31, 31, 31, 31, 31, 31}, 
     .abilityNum = 2,
     .happiness = 252,
-    .species = SPECIES_ABSOL,
-    .postgameheldItem = ITEM_ABSOLITE,
-    .heldItem = ITEM_ABSOLITE,
+    .species = SPECIES_FREDBAR,
+    .postgameheldItem = ITEM_FREDBARITE,
+    .heldItem = ITEM_FREDBARITE,
 	.pokeball = ITEM_LUXURY_BALL,
 	.hiddenNature = NATURE_JOLLY,
     .postgamemoves = {MOVE_PLAY_ROUGH, MOVE_SUCKER_PUNCH, MOVE_CLOSE_COMBAT, MOVE_RETURN},
@@ -12596,7 +12596,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jazmyn[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_ABSOL,
+    .species = SPECIES_FREDBAR,
     }
 };
 
@@ -19961,7 +19961,7 @@ static const struct TrainerMonItemCustomMoves sParty_Flannery5[] = {
 	.evs = {6, 0, 0, 252, 0, 252}, 
     .abilityNum = 2,
     .happiness = 0,
-	.species = SPECIES_MAGMORTAR,
+	.species = SPECIES_TOASTRIDER,
     .postgameheldItem = ITEM_POWER_HERB,
     .heldItem = ITEM_POWER_HERB,
     .postgamemoves = {MOVE_THUNDERBOLT, MOVE_FLAMETHROWER, MOVE_FOCUS_BLAST, MOVE_SOLAR_BEAM},
@@ -20249,7 +20249,7 @@ static const struct TrainerMonItemCustomMoves sParty_Norman5[] = {
     .evs = {3, 252, 0, 0, 0, 252}, 
     .abilityNum = 0,
     .happiness = 255,
-	.species = SPECIES_PURUGLY,
+	.species = SPECIES_GORFOLD,
     .postgameheldItem = ITEM_NORMAL_GEM,
     .heldItem = ITEM_NONE,
     .postgamemoves = {MOVE_FAKE_OUT, MOVE_KNOCK_OFF, MOVE_RETURN, MOVE_PLAY_ROUGH},
@@ -22422,7 +22422,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Mariela[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_CHINGLING,
+    .species = SPECIES_LUIWEE,
     }
 };
 

@@ -170,7 +170,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Wurm  @ 869E4B0
 	cry Cry_Phracer  @ 869E4BC
 	cry Cry_Gluerilla  @ 869E4C8
-	cry Cry_Crobat  @ 869E4D4
+	cry Cry_Luis  @ 869E4D4
 	cry Cry_Lovlilad  @ 869E4E0
 	cry Cry_Ourobolet  @ 869E4EC
 	cry Cry_Pichu  @ 869E4F8
@@ -361,7 +361,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Hugeman
 	cry Cry_Tropius
 	cry Cry_Kirbairde
-	cry Cry_Absol
+	cry Cry_Fredbar
 	cry Cry_Babinion
 	cry Cry_Chairold
 	cry Cry_Elechair
@@ -381,10 +381,10 @@ gCryTable:: @ 869DCF4
 	cry Cry_Hazethoth
 	cry Cry_Regirock
 	cry Cry_Regice
-	cry Cry_Registeel
+	cry Cry_Nawffle
 	cry Cry_Latias
 	cry Cry_Latios
-	cry Cry_Kyogre
+	cry Cry_Krakrum
 	cry Cry_Groudon
 	cry Cry_Rayquaza
 	cry Cry_Jirachi
@@ -435,8 +435,8 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Mismagius
 	cry_not Cry_Honchkrow
 	cry_not Cry_Glameow
-	cry_not Cry_Purugly
-	cry_not Cry_Chingling
+	cry_not Cry_Gorfold
+	cry_not Cry_Luiwee
 	cry_not Cry_Stunky
 	cry_not Cry_Skuntank
 	cry_not Cry_Bronzor
@@ -464,24 +464,24 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Mantyke
 	cry_not Cry_Snover
 	cry_not Cry_Abomasnow
-	cry_not Cry_Weavile
+	cry_not Cry_Fredunkle
 	cry_not Cry_Magnezone
 	cry_not Cry_Lickilicky
 	cry_not Cry_Rhyperior
 	cry_not Cry_Tangrowth
 	cry_not Cry_Electivire
-	cry_not Cry_Magmortar
+	cry_not Cry_Toastrider
 	cry_not Cry_Togekiss
 	cry_not Cry_Yanmega
 	cry_not Cry_Leafeon
 	cry_not Cry_Glaceon
 	cry_not Cry_Gliscor
 	cry_not Cry_Mamoswine
-	cry_not Cry_PorygonZ
+	cry_not Cry_Hellspack
 	cry_not Cry_Gallade
 	cry_not Cry_Probopass
-	cry_not Cry_Dusknoir
-	cry_not Cry_Froslass
+	cry_not Cry_Skeledoom
+	cry_not Cry_Blinkrupt
 	cry_not Cry_Rotom
 	cry_not Cry_Uxie
 	cry_not Cry_Mesprit
@@ -940,7 +940,7 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Errorine_Mega
 	cry_not Cry_UNSC_Mega
 	cry_not Cry_Tocktower_Mega
-	cry_not Cry_Absol_Mega
+	cry_not Cry_Fredbar_Mega
 	cry_not Cry_Elechair_Mega
 	cry_not Cry_Drunkabus_Mega
 	cry_not Cry_Hazethoth_Mega
@@ -955,7 +955,7 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Diancie_Mega
 	@ Special Mega + Primals
 	cry_not Cry_Rayquaza_Mega
-	cry_not Cry_Kyogre_Primal
+	cry_not Cry_Krakrum_Primal
 	cry_not Cry_Groudon_Primal
 	@ Alolan Forms
 	cry Cry_Hangster
@@ -1449,7 +1449,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Wurm  @ 869F6E0
 	cry2 Cry_Phracer  @ 869F6EC
 	cry2 Cry_Gluerilla  @ 869F6F8
-	cry2 Cry_Crobat  @ 869F704
+	cry2 Cry_Luis  @ 869F704
 	cry2 Cry_Lovlilad  @ 869F710
 	cry2 Cry_Ourobolet  @ 869F71C
 	cry2 Cry_Pichu  @ 869F728
@@ -1639,7 +1639,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Hugeman
 	cry2 Cry_Tropius
 	cry2 Cry_Kirbairde
-	cry2 Cry_Absol
+	cry2 Cry_Fredbar
 	cry2 Cry_Babinion
 	cry2 Cry_Chairold
 	cry2 Cry_Elechair
@@ -1659,10 +1659,10 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Hazethoth
 	cry2 Cry_Regirock
 	cry2 Cry_Regice
-	cry2 Cry_Registeel
+	cry2 Cry_Nawffle
 	cry2 Cry_Latias
 	cry2 Cry_Latios
-	cry2 Cry_Kyogre
+	cry2 Cry_Krakrum
 	cry2 Cry_Groudon
 	cry2 Cry_Rayquaza
 	cry2 Cry_Jirachi
@@ -1713,8 +1713,8 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Mismagius
 	cry2_not Cry_Honchkrow
 	cry2_not Cry_Glameow
-	cry2_not Cry_Purugly
-	cry2_not Cry_Chingling
+	cry2_not Cry_Gorfold
+	cry2_not Cry_Luiwee
 	cry2_not Cry_Stunky
 	cry2_not Cry_Skuntank
 	cry2_not Cry_Bronzor
@@ -1742,24 +1742,24 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Mantyke
 	cry2_not Cry_Snover
 	cry2_not Cry_Abomasnow
-	cry2_not Cry_Weavile
+	cry2_not Cry_Fredunkle
 	cry2_not Cry_Magnezone
 	cry2_not Cry_Lickilicky
 	cry2_not Cry_Rhyperior
 	cry2_not Cry_Tangrowth
 	cry2_not Cry_Electivire
-	cry2_not Cry_Magmortar
+	cry2_not Cry_Toastrider
 	cry2_not Cry_Togekiss
 	cry2_not Cry_Yanmega
 	cry2_not Cry_Leafeon
 	cry2_not Cry_Glaceon
 	cry2_not Cry_Gliscor
 	cry2_not Cry_Mamoswine
-	cry2_not Cry_PorygonZ
+	cry2_not Cry_Hellspack
 	cry2_not Cry_Gallade
 	cry2_not Cry_Probopass
-	cry2_not Cry_Dusknoir
-	cry2_not Cry_Froslass
+	cry2_not Cry_Skeledoom
+	cry2_not Cry_Blinkrupt
 	cry2_not Cry_Rotom
 	cry2_not Cry_Uxie
 	cry2_not Cry_Mesprit
@@ -2218,7 +2218,7 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Errorine_Mega
 	cry2_not Cry_UNSC_Mega
 	cry2_not Cry_Tocktower_Mega
-	cry2_not Cry_Absol_Mega
+	cry2_not Cry_Fredbar_Mega
 	cry2_not Cry_Elechair_Mega
 	cry2_not Cry_Drunkabus_Mega
 	cry2_not Cry_Hazethoth_Mega
@@ -2233,7 +2233,7 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Diancie_Mega
 	@ Special Mega + Primals
 	cry2_not Cry_Rayquaza_Mega
-	cry2_not Cry_Kyogre_Primal
+	cry2_not Cry_Krakrum_Primal
 	cry2_not Cry_Groudon_Primal
 	@ Alolan Forms
 	cry2 Cry_Hangster

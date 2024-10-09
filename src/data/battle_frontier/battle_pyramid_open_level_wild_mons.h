@@ -89,7 +89,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round2[] =
         .moves = {MOVE_TOXIC, MOVE_PROTECT, MOVE_DIVE, MOVE_RAIN_DANCE}
     },
     {
-        .species = SPECIES_CROBAT,
+        .species = SPECIES_LUIS,
         .lvl = 5,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_TOXIC, MOVE_CONFUSE_RAY, MOVE_MEAN_LOOK, MOVE_BITE}
@@ -181,7 +181,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round4[] =
         .moves = {MOVE_GRUDGE, MOVE_WILL_O_WISP, MOVE_OVERHEAT, MOVE_NONE}
     },
     {
-        .species = SPECIES_ABSOL,
+        .species = SPECIES_FREDBAR,
         .lvl = 10,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_BITE, MOVE_AERIAL_ACE, MOVE_SHADOW_BALL, MOVE_PROTECT}
@@ -707,7 +707,7 @@ static const struct PyramidWildMon sOpenLevelWildMons_Round14[] =
         .moves = {MOVE_TOXIC, MOVE_GIGA_DRAIN, MOVE_NEEDLE_ARM, MOVE_NONE}
     },
     {
-        .species = SPECIES_ABSOL,
+        .species = SPECIES_FREDBAR,
         .lvl = 6,
         .abilityNum = ABILITY_RANDOM,
         .moves = {MOVE_BITE, MOVE_PROTECT, MOVE_SLASH, MOVE_NONE}

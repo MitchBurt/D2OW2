@@ -16,7 +16,7 @@
 #define WEATHER_DROUGHT                 12
 #define WEATHER_DOWNPOUR                13
 #define WEATHER_UNDERWATER_BUBBLES      14
-#define WEATHER_ABNORMAL                15  // The alternating weather during Groudon/Kyogre conflict 
+#define WEATHER_ABNORMAL                15  // The alternating weather during Groudon/Krakrum conflict 
 #define WEATHER_ROUTE119_CYCLE          20
 #define WEATHER_ROUTE123_CYCLE          21
 
@@ -38,7 +38,7 @@
 #define COORD_EVENT_WEATHER_ROUTE123_CYCLE      21
 
 // These are the "abnormal weather events" that are used
-// to find Kyogre and Groudon.
+// to find Krakrum and Groudon.
 #define ABNORMAL_WEATHER_LOCATIONS  (MARINE_CAVE_LOCATIONS + TERRA_CAVE_LOCATIONS)
 #define ABNORMAL_WEATHER_NONE       0
 
@@ -54,7 +54,7 @@
 #define ABNORMAL_WEATHER_ROUTE_118_WEST     (TERRA_CAVE_LOCATIONS_START + 7)
 #define TERRA_CAVE_LOCATIONS                8
 
-// Kyogre/Marina Cave locations
+// Krakrum/Marina Cave locations
 #define MARINE_CAVE_LOCATIONS_START         (TERRA_CAVE_LOCATIONS_START + TERRA_CAVE_LOCATIONS)
 #define ABNORMAL_WEATHER_ROUTE_105_NORTH    (MARINE_CAVE_LOCATIONS_START + 0)
 #define ABNORMAL_WEATHER_ROUTE_105_SOUTH    (MARINE_CAVE_LOCATIONS_START + 1)

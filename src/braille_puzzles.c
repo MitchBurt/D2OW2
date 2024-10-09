@@ -17,7 +17,7 @@
 enum
 {
     REGIROCK_PUZZLE,
-    REGISTEEL_PUZZLE
+    NAWFFLE_PUZZLE
 };
 
 EWRAM_DATA static u8 sBraillePuzzleCallbackFlag = 0;
@@ -64,7 +64,7 @@ static const u8 gRegicePathCoords[][2] =
 
 void SealedChamberShakingEffect(u8);
 void DoBrailleRegirockEffect(void);
-void DoBrailleRegisteelEffect(void);
+void DoBrailleNawffleEffect(void);
 
 bool8 ShouldDoBrailleDigEffect(void)
 {
@@ -144,9 +144,9 @@ void DoBrailleRegirockEffect(void)
     ScriptContext2_Disable();
 }
 
-bool8 ShouldDoBrailleRegisteelEffect(void)
+bool8 ShouldDoBrailleNawffleEffect(void)
 {
-    if (!FlagGet(FLAG_SYS_REGISTEEL_PUZZLE_COMPLETED) && (gSaveBlock1.location.mapGroup == MAP_GROUP_ANCIENT_TOMB && gSaveBlock1.location.mapNum == MAP_ID_ANCIENT_TOMB))
+    if (!FlagGet(FLAG_SYS_NAWFFLE_PUZZLE_COMPLETED) && (gSaveBlock1.location.mapGroup == MAP_GROUP_ANCIENT_TOMB && gSaveBlock1.location.mapNum == MAP_ID_ANCIENT_TOMB))
     {
         if (gSaveBlock1.pos.x == 8 && gSaveBlock1.pos.y == 25)
             return TRUE;
@@ -155,7 +155,7 @@ bool8 ShouldDoBrailleRegisteelEffect(void)
     return FALSE;
 }
 
-void DoBrailleRegisteelEffect(void)
+void DoBrailleNawffleEffect(void)
 {
     gFieldEffectArguments[0] = gLastFieldPokeMenuOpened;
     FieldEffectStart(FLDEFF_USE_TOMB_PUZZLE_EFFECT);
@@ -165,12 +165,12 @@ bool8 FldEff_UseFlyAncientTomb(void)
 {
     u8 taskId = CreateFieldMoveTask();
 
-    gTasks[taskId].data[8] = (u32)UseRegisteelHm_Callback >> 16;
-    gTasks[taskId].data[9] = (u32)UseRegisteelHm_Callback;
+    gTasks[taskId].data[8] = (u32)UseNawffleHm_Callback >> 16;
+    gTasks[taskId].data[9] = (u32)UseNawffleHm_Callback;
     return FALSE;
 }
 
-void UseRegisteelHm_Callback(void)
+void UseNawffleHm_Callback(void)
 {
     FieldEffectActiveListRemove(FLDEFF_USE_TOMB_PUZZLE_EFFECT);
     UseFlyAncientTomb_Finish();
@@ -186,7 +186,7 @@ void UseFlyAncientTomb_Finish(void)
     MapGridSetMetatileIdAt(16, 27, 3636);
     DrawWholeMapView();
     PlaySE(SE_BANG);
-    FlagSet(FLAG_SYS_REGISTEEL_PUZZLE_COMPLETED);
+    FlagSet(FLAG_SYS_NAWFFLE_PUZZLE_COMPLETED);
     ScriptContext2_Disable();
 }
     */
@@ -290,32 +290,32 @@ void DoBrailleRegirockEffect(void)
     ScriptContext2_Disable();
 }
 
-bool8 ShouldDoBrailleRegisteelEffect(void)
+bool8 ShouldDoBrailleNawffleEffect(void)
 {
-    if (!FlagGet(FLAG_SYS_REGISTEEL_PUZZLE_COMPLETED) && (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ANCIENT_TOMB) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(ANCIENT_TOMB)))
+    if (!FlagGet(FLAG_SYS_NAWFFLE_PUZZLE_COMPLETED) && (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(ANCIENT_TOMB) && gSaveBlock1Ptr->location.mapNum == MAP_NUM(ANCIENT_TOMB)))
     {
         if (gSaveBlock1Ptr->pos.x == 8 && gSaveBlock1Ptr->pos.y == 25)
         {
-            sBraillePuzzleCallbackFlag = REGISTEEL_PUZZLE;
+            sBraillePuzzleCallbackFlag = NAWFFLE_PUZZLE;
             return TRUE;
         }
     }
     return FALSE;
 }
 
-void SetUpPuzzleEffectRegisteel(void)
+void SetUpPuzzleEffectNawffle(void)
 {
     gFieldEffectArguments[0] = GetCursorSelectionMonId();
     FieldEffectStart(FLDEFF_USE_TOMB_PUZZLE_EFFECT);
 }
 
-void UseRegisteelHm_Callback(void)
+void UseNawffleHm_Callback(void)
 {
     FieldEffectActiveListRemove(FLDEFF_USE_TOMB_PUZZLE_EFFECT);
-    DoBrailleRegisteelEffect();
+    DoBrailleNawffleEffect();
 }
 
-void DoBrailleRegisteelEffect(void)
+void DoBrailleNawffleEffect(void)
 {
     MapGridSetMetatileIdAt(14, 26, METATILE_Cave_SealedChamberEntrance_TopLeft);
     MapGridSetMetatileIdAt(15, 26, METATILE_Cave_SealedChamberEntrance_TopMid);
@@ -325,7 +325,7 @@ void DoBrailleRegisteelEffect(void)
     MapGridSetMetatileIdAt(16, 27, METATILE_Cave_SealedChamberEntrance_BottomRight | METATILE_COLLISION_MASK);
     DrawWholeMapView();
     PlaySE(SE_BANG);
-    FlagSet(FLAG_SYS_REGISTEEL_PUZZLE_COMPLETED);
+    FlagSet(FLAG_SYS_NAWFFLE_PUZZLE_COMPLETED);
     ScriptContext2_Disable();
 }
 
@@ -411,10 +411,10 @@ bool8 FldEff_UsePuzzleEffect(void)
 {
     u8 taskId = CreateFieldMoveTask();
 
-    if (sBraillePuzzleCallbackFlag == REGISTEEL_PUZZLE)
+    if (sBraillePuzzleCallbackFlag == NAWFFLE_PUZZLE)
     {
-        gTasks[taskId].data[8] = (u32)UseRegisteelHm_Callback >> 16;
-        gTasks[taskId].data[9] = (u32)UseRegisteelHm_Callback;
+        gTasks[taskId].data[8] = (u32)UseNawffleHm_Callback >> 16;
+        gTasks[taskId].data[9] = (u32)UseNawffleHm_Callback;
     }
     else
     {

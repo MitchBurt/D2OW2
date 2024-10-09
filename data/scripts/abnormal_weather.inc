@@ -162,7 +162,7 @@ AbnormalWeather_EventScript_HideMapNamePopup:: @ 8273D13
 	setflag FLAG_HIDE_MAP_NAME_POPUP
 	return
 
-AbnormalWeather_StartKyogreWeather:: @ 8273D17
+AbnormalWeather_StartKrakrumWeather:: @ 8273D17
 	setweather WEATHER_DOWNPOUR
 	return
 
