@@ -715,7 +715,7 @@
 #define FLAG_UNUSED_0x29D  0x29D // Unused Flag
 #define FLAG_GOT_ITEM_TM80  0x29E
 #define FLAG_UNUSED_0x29F  0x29F // Type_Null
-#define FLAG_UNUSED_0x2A0  0x2A0 // Porygon
+#define FLAG_UNUSED_0x2A0  0x2A0 // Auricliary
 #define FLAG_GOT_EON_FLUTE  0x2A1 // Ash Greninja*
 #define FLAG_DOUBLE_BATTLE_MODE		0x2A2 // Game Mode
 #define FLAG_UNUSED_0x2A3  0x2A3 // Unused Flag

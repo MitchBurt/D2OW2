@@ -92,7 +92,7 @@ const struct Evolution gFirstEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
                                        {EVO_LEVEL_ATK_LT_DEF, 30, SPECIES_BABEYON},
                                        {EVO_ITEM, ITEM_FIRE_STONE, SPECIES_DEEPFRIEON},
 									   {EVO_ITEM, ITEM_COSMIC_STONE, SPECIES_ALIEON}},
-    [SPECIES_PORYGON]	            = {{EVO_ITEM, ITEM_ELECTIRIZER, SPECIES_SETRONIC}},
+    [SPECIES_AURICLIARY]	            = {{EVO_ITEM, ITEM_ELECTIRIZER, SPECIES_SETRONIC}},
     [SPECIES_ATTACO]	            = {{EVO_LEVEL, 28, SPECIES_GAISER}},
 //    [SPECIES_SHEPEIRD]	            = {{EVO_MEGA_EVOLUTION, ITEM_GODNITE_X, SPECIES_GOD_MEGA_X}},
 //    [SPECIES_WOOPTRET]	            = {{EVO_LEVEL, 55, SPECIES_KILLWORU}},

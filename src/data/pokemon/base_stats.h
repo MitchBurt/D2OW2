@@ -3754,7 +3754,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_PORYGON] =
+    [SPECIES_AURICLIARY] =
     {
         .baseHP        = 65,
         .baseAttack    = 60,
@@ -37390,7 +37390,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_PORYGON] =
+    [SPECIES_AURICLIARY] =
     {
         .baseHP        = 65,
         .baseAttack    = 60,

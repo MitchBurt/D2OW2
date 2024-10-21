@@ -685,7 +685,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x66,
         .y_offset = 11,
     },
-    [SPECIES_PORYGON] =
+    [SPECIES_AURICLIARY] =
     {
         .size = 0x55,
         .y_offset = 14,

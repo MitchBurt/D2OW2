@@ -1629,7 +1629,7 @@ static const union AnimCmd sAnim_BABEYON_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_PORYGON_1[] =
+static const union AnimCmd sAnim_AURICLIARY_1[] =
 {
     ANIMCMD_FRAME(1, 10),
     ANIMCMD_FRAME(0, 10),
@@ -9846,9 +9846,9 @@ static const union AnimCmd *const sAnims_BABEYON[] ={
     sAnim_BABEYON_1,
 };
 
-static const union AnimCmd *const sAnims_PORYGON[] ={
+static const union AnimCmd *const sAnims_AURICLIARY[] ={
     sAnim_GeneralFrame0,
-    sAnim_PORYGON_1,
+    sAnim_AURICLIARY_1,
 };
 
 static const union AnimCmd *const sAnims_ATTACO[] ={
@@ -14574,7 +14574,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(STRESSEON),
     ANIM_CMD(XOKKEON),
     ANIM_CMD(BABEYON),
-    ANIM_CMD(PORYGON),
+    ANIM_CMD(AURICLIARY),
     ANIM_CMD(ATTACO),
     ANIM_CMD(GAISER),
     ANIM_CMD(CORORK),

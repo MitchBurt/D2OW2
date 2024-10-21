@@ -1344,7 +1344,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_QUIRKY,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_PORYGON_1] = {
+    [FRONTIER_MON_AURICLIARY_1] = {
         .species = SPECIES_HELLSPACK,//TO REMOVE
         .moves = {MOVE_TRI_ATTACK, MOVE_ICE_BEAM, MOVE_THUNDERBOLT, MOVE_RECOVER},
         .itemTableId = BATTLE_FRONTIER_ITEM_CHOICE_SCARF,
@@ -2184,7 +2184,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_QUIRKY,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_PORYGON_2] = {
+    [FRONTIER_MON_AURICLIARY_2] = {
         .species = SPECIES_HELLSPACK,//TO REMOVE
         .moves = {MOVE_TRI_ATTACK, MOVE_ICE_BEAM, MOVE_THUNDERBOLT, MOVE_RECOVER},
         .itemTableId = BATTLE_FRONTIER_ITEM_CHOICE_SCARF,

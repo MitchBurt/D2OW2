@@ -1645,12 +1645,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_PORYGON] =
+    [NATIONAL_DEX_AURICLIARY] =
     {
         .categoryName = _("Virtual"),
         .height = 8,
         .weight = 365,
-        .description = gPorygonPokedexText,
+        .description = gAuricliaryPokedexText,
         .pokemonScale = 328,
         .pokemonOffset = 15,
         .trainerScale = 256,
@@ -12435,12 +12435,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_PORYGON] =
+    [NATIONAL_DEX_AURICLIARY] =
     {
         .categoryName = _("Virtual"),
         .height = 8,
         .weight = 365,
-        .description = gPorygonPokedexText,
+        .description = gAuricliaryPokedexText,
         .pokemonScale = 328,
         .pokemonOffset = 15,
         .trainerScale = 256,

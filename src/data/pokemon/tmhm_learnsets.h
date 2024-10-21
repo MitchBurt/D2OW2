@@ -5281,7 +5281,7 @@ static const u8 sBabeyonTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sPorygonTMHMLearnset[] =
+static const u8 sAuricliaryTMHMLearnset[] =
 {
     TMHM(TM06_TOXIC),
     TMHM(TM10_HIDDEN_POWER),
@@ -36246,7 +36246,7 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_STRESSEON] = sStresseonTMHMLearnset,
     [SPECIES_XOKKEON] = sXokkeonTMHMLearnset,
     [SPECIES_BABEYON] = sBabeyonTMHMLearnset,
-    [SPECIES_PORYGON] = sPorygonTMHMLearnset,
+    [SPECIES_AURICLIARY] = sAuricliaryTMHMLearnset,
     [SPECIES_ATTACO] = sAttacoTMHMLearnset,
     [SPECIES_GAISER] = sGaiserTMHMLearnset,
     [SPECIES_CORORK] = sCororkTMHMLearnset,

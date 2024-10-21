@@ -3236,7 +3236,7 @@ static const u8 sBabeyonTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sPorygonTutorLearnset[] =
+static const u8 sAuricliaryTutorLearnset[] =
 {
     TUTOR(MOVE_DOUBLE_EDGE),
     TUTOR(MOVE_MIMIC),
@@ -19858,7 +19858,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_STRESSEON] = sStresseonTutorLearnset,
     [SPECIES_XOKKEON] = sXokkeonTutorLearnset,
     [SPECIES_BABEYON] = sBabeyonTutorLearnset,
-    [SPECIES_PORYGON] = sPorygonTutorLearnset,
+    [SPECIES_AURICLIARY] = sAuricliaryTutorLearnset,
     [SPECIES_ATTACO] = sAttacoTutorLearnset,
     [SPECIES_GAISER] = sGaiserTutorLearnset,
     [SPECIES_CORORK] = sCororkTutorLearnset,

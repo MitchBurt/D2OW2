@@ -818,7 +818,7 @@ const u8 gBabeyonPokedexText[] = _(
     "La temperatura corporal puede alcanzar\n"
     "los 900 grados centígrados.");
 
-const u8 gPorygonPokedexText[] = _(
+const u8 gAuricliaryPokedexText[] = _(
     "Puede reconvertirse en datos informáticos\n"
     "y entrar en el ciberespacio.\n"
     "Tiene protección anti-copia, así que\n"
@@ -6175,10 +6175,10 @@ const u8 gBabeyonPokedexText[] = _(
     "excessively hot. Its body temperature can\n"
     "rise to a maximum of 1,650 degrees F.");
 
-const u8 gPorygonPokedexText[] = _(
+const u8 gAuricliaryPokedexText[] = _(
     "It is capable of reverting itself entirely\n"
     "back to program data in order to enter\n"
-    "cyberspace. A Porygon is copy-\n"
+    "cyberspace. A Auricliary is copy-\n"
     "protected so it cannot be duplicated.");
 
 const u8 gAttacoPokedexText[] = _(

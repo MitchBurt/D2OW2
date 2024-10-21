@@ -137,7 +137,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Stresseon  @ 869E330
 	cry Cry_Xokkeon  @ 869E33C
 	cry Cry_Babeyon  @ 869E348
-	cry Cry_Porygon  @ 869E354
+	cry Cry_Auricliary  @ 869E354
 	cry Cry_Attaco  @ 869E360
 	cry Cry_Gaiser  @ 869E36C
 	cry Cry_Corork  @ 869E378
@@ -1417,7 +1417,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Stresseon  @ 869F560
 	cry2 Cry_Xokkeon  @ 869F56C
 	cry2 Cry_Babeyon  @ 869F578
-	cry2 Cry_Porygon  @ 869F584
+	cry2 Cry_Auricliary  @ 869F584
 	cry2 Cry_Attaco  @ 869F590
 	cry2 Cry_Gaiser  @ 869F59C
 	cry2 Cry_Corork  @ 869F5A8

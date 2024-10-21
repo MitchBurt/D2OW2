@@ -11,7 +11,7 @@ RustboroCity_DevonCorp_2F_OnTransition: @ 821185D
 	end
 
 RustboroCity_DevonCorp_2F_EventScript_SetFossilReady:: @ 8211869
-	goto RustboroCity_DevonCorp_2F_EventScript_Porygon_Scientist
+	goto RustboroCity_DevonCorp_2F_EventScript_Auricliary_Scientist
 	release
 	end
 
@@ -386,35 +386,35 @@ RustboroCity_DevonCorp_2F_EventScript_Revive_Sail_Fossil::
 	
 //
 
-RustboroCity_DevonCorp_2F_EventScript_Porygon_Scientist:
+RustboroCity_DevonCorp_2F_EventScript_Auricliary_Scientist:
 	lock
 	faceplayer
 	goto_if_set FLAG_RECEIVED_TM04, RustboroCity_DevonCorp_2F_EventScript_Type_Null_Scientist
-	goto_if_set FLAG_UNUSED_0x2A0, RustboroCity_DevonCorp_2F_EventScript_ReceivedPorygon
-	msgbox RustboroCity_DevonCorp_2F_Text_PorygonTypeNull, MSGBOX_YESNO
+	goto_if_set FLAG_UNUSED_0x2A0, RustboroCity_DevonCorp_2F_EventScript_ReceivedAuricliary
+	msgbox RustboroCity_DevonCorp_2F_Text_AuricliaryTypeNull, MSGBOX_YESNO
 	compare VAR_RESULT, NO
-	goto_if_eq RustboroCity_DevonCorp_2F_EventScript_DeclinePorygon
+	goto_if_eq RustboroCity_DevonCorp_2F_EventScript_DeclineAuricliary
 	getpartysize
 	compare VAR_RESULT, PARTY_SIZE
 	goto_if_eq RustboroCity_DevonCorp_2F_EventScript_NoRoomForThis
-	bufferspeciesname 1, SPECIES_PORYGON
+	bufferspeciesname 1, SPECIES_AURICLIARY
 	playfanfare MUS_OBTAIN_ITEM
 	message RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher
-	givemon SPECIES_PORYGON, 10, ITEM_NONE
+	givemon SPECIES_AURICLIARY, 10, ITEM_NONE
 	setflag FLAG_UNUSED_0x2A0
 	waitfanfare
-	msgbox RustboroCity_DevonCorp_2F_Text_PorygonTypeNull_Accepted, MSGBOX_DEFAULT
+	msgbox RustboroCity_DevonCorp_2F_Text_AuricliaryTypeNull_Accepted, MSGBOX_DEFAULT
 	release
 	end
 	
 RustboroCity_DevonCorp_2F_EventScript_Type_Null_Scientist:
 	lock
 	faceplayer
-	goto_if_unset FLAG_UNUSED_0x2A0, RustboroCity_DevonCorp_2F_EventScript_Porygon_Scientist_2
-	goto_if_set FLAG_UNUSED_0x29F, RustboroCity_DevonCorp_2F_EventScript_ReceivedPorygon
-	msgbox RustboroCity_DevonCorp_2F_Text_PorygonTypeNull, MSGBOX_YESNO
+	goto_if_unset FLAG_UNUSED_0x2A0, RustboroCity_DevonCorp_2F_EventScript_Auricliary_Scientist_2
+	goto_if_set FLAG_UNUSED_0x29F, RustboroCity_DevonCorp_2F_EventScript_ReceivedAuricliary
+	msgbox RustboroCity_DevonCorp_2F_Text_AuricliaryTypeNull, MSGBOX_YESNO
 	compare VAR_RESULT, NO
-	goto_if_eq RustboroCity_DevonCorp_2F_EventScript_DeclinePorygon
+	goto_if_eq RustboroCity_DevonCorp_2F_EventScript_DeclineAuricliary
 	getpartysize
 	compare VAR_RESULT, PARTY_SIZE
 	goto_if_eq RustboroCity_DevonCorp_2F_EventScript_NoRoomForThis
@@ -424,17 +424,17 @@ RustboroCity_DevonCorp_2F_EventScript_Type_Null_Scientist:
 	givemon SPECIES_TYPE_NULL, 25, ITEM_NONE
 	setflag FLAG_UNUSED_0x29F
 	waitfanfare
-	msgbox RustboroCity_DevonCorp_2F_Text_PorygonTypeNull_Accepted, MSGBOX_DEFAULT
+	msgbox RustboroCity_DevonCorp_2F_Text_AuricliaryTypeNull_Accepted, MSGBOX_DEFAULT
 	release
 	end
 	
-RustboroCity_DevonCorp_2F_EventScript_ReceivedPorygon::
+RustboroCity_DevonCorp_2F_EventScript_ReceivedAuricliary::
 	msgbox RustboroCity_DevonCorp_2F_Text_WhatToWorkOnNext, MSGBOX_DEFAULT
 	release
 	end
 	
-RustboroCity_DevonCorp_2F_EventScript_DeclinePorygon::
-	msgbox RustboroCity_DevonCorp_2F_Text_PorygonTypeNull_Declined, MSGBOX_DEFAULT
+RustboroCity_DevonCorp_2F_EventScript_DeclineAuricliary::
+	msgbox RustboroCity_DevonCorp_2F_Text_AuricliaryTypeNull_Declined, MSGBOX_DEFAULT
 	release
 	end
 	
@@ -443,20 +443,20 @@ RustboroCity_DevonCorp_2F_EventScript_NoRoomForThis::
 	release
 	end
 	
-RustboroCity_DevonCorp_2F_EventScript_Porygon_Scientist_2:
-	msgbox RustboroCity_DevonCorp_2F_Text_PorygonTypeNull, MSGBOX_YESNO
+RustboroCity_DevonCorp_2F_EventScript_Auricliary_Scientist_2:
+	msgbox RustboroCity_DevonCorp_2F_Text_AuricliaryTypeNull, MSGBOX_YESNO
 	compare VAR_RESULT, NO
-	goto_if_eq RustboroCity_DevonCorp_2F_EventScript_DeclinePorygon
+	goto_if_eq RustboroCity_DevonCorp_2F_EventScript_DeclineAuricliary
 	getpartysize
 	compare VAR_RESULT, PARTY_SIZE
 	goto_if_eq RustboroCity_DevonCorp_2F_EventScript_NoRoomForThis
-	bufferspeciesname 1, SPECIES_PORYGON
+	bufferspeciesname 1, SPECIES_AURICLIARY
 	playfanfare MUS_OBTAIN_ITEM
 	message RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher
-	givemon SPECIES_PORYGON, 10, ITEM_NONE
+	givemon SPECIES_AURICLIARY, 10, ITEM_NONE
 	setflag FLAG_UNUSED_0x2A0
 	waitfanfare
-	msgbox RustboroCity_DevonCorp_2F_Text_PorygonTypeNull_Accepted, MSGBOX_DEFAULT
+	msgbox RustboroCity_DevonCorp_2F_Text_AuricliaryTypeNull_Accepted, MSGBOX_DEFAULT
 	release
 	end
 	
@@ -801,18 +801,18 @@ RustboroCity_DevonCorp_2F_Text_WhatToWorkOnNext: @ 8212386
 	.string "One couldn't ask for a better\n"
 	.string "environment as an engineer.$"
 	
-RustboroCity_DevonCorp_2F_Text_PorygonTypeNull:
+RustboroCity_DevonCorp_2F_Text_AuricliaryTypeNull:
 	.string "I Just developed a new Pokémon\n"
 	.string "species using some available\p"
 	.string "data our company had laying\n"
 	.string "around, do you want it?$"
 	
-RustboroCity_DevonCorp_2F_Text_PorygonTypeNull_Declined:
+RustboroCity_DevonCorp_2F_Text_AuricliaryTypeNull_Declined:
 	.string "Thats a shame.\p"
 	.string "It's really strong, you should\n"
 	.string "give it a try.$"
 	
-RustboroCity_DevonCorp_2F_Text_PorygonTypeNull_Accepted:
+RustboroCity_DevonCorp_2F_Text_AuricliaryTypeNull_Accepted:
 	.string "Please treat it with care.\n"
 	.string "It certainly can grow\p"
 	.string "stronger.$"

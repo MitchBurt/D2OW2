@@ -931,8 +931,8 @@ Cry_Babeyon::
 	.incbin "sound/direct_sound_samples/cries/cry_babeyon.bin"
 
 	.align 2
-Cry_Porygon::
-	.incbin "sound/direct_sound_samples/cries/cry_porygon.bin"
+Cry_Auricliary::
+	.incbin "sound/direct_sound_samples/cries/cry_auricliary.bin"
 
 	.align 2
 Cry_Attaco::
