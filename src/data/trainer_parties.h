@@ -3081,7 +3081,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Valerie1[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_TIKTOWEL,
+    .species = SPECIES_TICKTOWEL,
     },
     {
     .iv = 0,
@@ -3119,7 +3119,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Valerie2[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_TIKTOWEL,
+    .species = SPECIES_TICKTOWEL,
     },
     {
     .iv = 10,
@@ -3146,7 +3146,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Valerie3[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_TIKTOWEL,
+    .species = SPECIES_TICKTOWEL,
     },
     {
     .iv = 20,
@@ -3181,7 +3181,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Valerie4[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_TIKTOWEL,
+    .species = SPECIES_TICKTOWEL,
     },
     {
     .iv = 30,
@@ -3216,7 +3216,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Valerie5[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_TIKTOWEL,
+    .species = SPECIES_TICKTOWEL,
     },
     {
     .iv = 40,
@@ -15504,7 +15504,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_James1[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_TIKTOWEL,
+    .species = SPECIES_TICKTOWEL,
     }
 };
 
