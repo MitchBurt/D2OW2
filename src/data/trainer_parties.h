@@ -10627,7 +10627,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Lao1[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SHELMET,
+    .species = SPECIES_BAITORD,
     .postgamemoves = {MOVE_WATER_SHURIKEN, MOVE_NONE, MOVE_NONE, MOVE_NONE},
     .moves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
@@ -10650,7 +10650,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lung[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SHELMET,
+    .species = SPECIES_BAITORD,
     },
     {
     .iv = 0,
@@ -15423,7 +15423,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Doug[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SHELMET,
+    .species = SPECIES_BAITORD,
     },
     {
     .iv = 0,
@@ -16159,7 +16159,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Riley[] = {
     .evs = {0, 0, 0, 252, 0, 252}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SHELMET,
+    .species = SPECIES_BAITORD,
     .postgamemoves = {MOVE_BUG_BUZZ, MOVE_WATER_SHURIKEN, MOVE_NONE, MOVE_NONE},
     .moves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }

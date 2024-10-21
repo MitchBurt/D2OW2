@@ -309,9 +309,9 @@ struct UnkStruct_2039D84
 
 enum
 {
+    OPTION_MOVE_MONS,
     OPTION_WITHDRAW,
     OPTION_DEPOSIT,
-    OPTION_MOVE_MONS,
     OPTION_MOVE_ITEMS,
     OPTION_EXIT,
 };
@@ -837,9 +837,9 @@ void UpdateSpeciesSpritePSS(struct BoxPokemon *boxmon);
 // static const rom data
 static const struct PSS_MenuStringPtrs sMainMenuTexts[] =
 {
+    [OPTION_MOVE_MONS]  = {gText_MovePokemon,     gText_MoveMonDescription},
     [OPTION_WITHDRAW]   = {gText_WithdrawPokemon, gText_WithdrawMonDescription},
     [OPTION_DEPOSIT]    = {gText_DepositPokemon,  gText_DepositMonDescription},
-    [OPTION_MOVE_MONS]  = {gText_MovePokemon,     gText_MoveMonDescription},
     [OPTION_MOVE_ITEMS] = {gText_MoveItems,       gText_MoveItemsDescription},
     [OPTION_EXIT]       = {gText_SeeYa,           gText_SeeYaDescription},
 };
@@ -7416,10 +7416,10 @@ static u8 InBoxInput_Normal(void)
                 {
                 case MENU_STORE:
                     return INPUT_DEPOSIT;
-                case MENU_WITHDRAW:
-                    return INPUT_WITHDRAW;
                 case MENU_MOVE:
                     return INPUT_MOVE_MON;
+                case MENU_WITHDRAW:
+                    return INPUT_WITHDRAW;
                 case MENU_SHIFT:
                     return INPUT_SHIFT_MON;
                 case MENU_PLACE:

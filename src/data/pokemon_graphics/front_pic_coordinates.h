@@ -8,22 +8,22 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_MEADOSAUR] =
     {
         .size = 0x45,
-        .y_offset = 13,
+        .y_offset = 12,
     },
     [SPECIES_GROVINE] =
     {
         .size = 0x56,
-        .y_offset = 9,
+        .y_offset = 7,
     },
     [SPECIES_YGGDRACON] =
     {
         .size = 0x88,
-        .y_offset = 3,
+        .y_offset = 0,
     },
     [SPECIES_SKORCHI] =
     {
         .size = 0x55,
-        .y_offset = 10,
+        .y_offset = 2,
     },
     [SPECIES_SKOMAD] =
     {
