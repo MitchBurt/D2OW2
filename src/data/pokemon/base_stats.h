@@ -10161,13 +10161,13 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_NAWFFLE] =
     {
         .baseHP        = 80,
-        .baseAttack    = 75,
+        .baseAttack    = 100,
         .baseDefense   = 150,
         .baseSpeed     = 50,
-        .baseSpAttack  = 75,
+        .baseSpAttack  = 50,
         .baseSpDefense = 150,
-        .type1 = TYPE_STEEL,
-        .type2 = TYPE_STEEL,
+        .type1 = TYPE_NORMAL,
+        .type2 = TYPE_NORMAL,
         .catchRate = 3,
         .expYield = 261,
         .evYield_Defense   = 2,
@@ -10178,11 +10178,8 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_SLOW,
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
-        .abilities = {ABILITY_CLEAR_BODY, ABILITY_NONE},
-        #ifdef BATTLE_ENGINE
-            .abilityHidden = ABILITY_LIGHT_METAL,
-        #endif
-        .bodyColor = BODY_COLOR_GRAY,
+        .abilities = {ABILITY_OWN_TEMPO, ABILITY_MOXIE},
+        .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
     },
 
