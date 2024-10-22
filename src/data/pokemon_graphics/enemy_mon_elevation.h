@@ -1,9 +1,5 @@
 // This determines how much higher above the usual position the enemy Pokémon
 // is during battle. Species that float or fly have nonzero values.
-
-
-#include "species.h"
-
 const u8 gEnemyMonElevation[NUM_SPECIES] =
 {
     [SPECIES_SKORPYROS] = 6,
