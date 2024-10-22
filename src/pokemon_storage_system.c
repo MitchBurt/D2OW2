@@ -446,9 +446,9 @@ enum {
     INPUT_IN_MENU,
     INPUT_SCROLL_RIGHT,
     INPUT_SCROLL_LEFT,
+    INPUT_MOVE_MON,
     INPUT_DEPOSIT,
     INPUT_WITHDRAW,
-    INPUT_MOVE_MON,
     INPUT_SHIFT_MON,
     INPUT_PLACE_MON,
     INPUT_TAKE_ITEM,
@@ -7938,18 +7938,6 @@ static bool8 SetMenuTexts_Mon(void)
 
     switch (sStorage->boxOption)
     {
-    case OPTION_DEPOSIT:
-        if (species != SPECIES_NONE)
-            SetMenuText(MENU_STORE);
-        else
-            return FALSE;
-        break;
-    case OPTION_WITHDRAW:
-        if (species != SPECIES_NONE)
-            SetMenuText(MENU_WITHDRAW);
-        else
-            return FALSE;
-        break;
     case OPTION_MOVE_MONS:
         if (sIsMonBeingMoved)
         {
@@ -7965,6 +7953,18 @@ static bool8 SetMenuTexts_Mon(void)
             else
                 return FALSE;
         }
+        break;
+    case OPTION_DEPOSIT:
+        if (species != SPECIES_NONE)
+            SetMenuText(MENU_STORE);
+        else
+            return FALSE;
+        break;
+    case OPTION_WITHDRAW:
+        if (species != SPECIES_NONE)
+            SetMenuText(MENU_WITHDRAW);
+        else
+            return FALSE;
         break;
     case OPTION_MOVE_ITEMS:
     default:
