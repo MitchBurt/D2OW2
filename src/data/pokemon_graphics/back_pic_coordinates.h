@@ -13,32 +13,32 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_GROVINE] =
     {
         .size = 0x87,
-        .y_offset = 9,
+        .y_offset = 12,
     },
     [SPECIES_YGGDRACON] =
     {
         .size = 0x86,
-        .y_offset = 10,
+        .y_offset = 4,
     },
     [SPECIES_SKORCHI] =
     {
         .size = 0x66,
-        .y_offset = 9,
+        .y_offset = 3,
     },
     [SPECIES_SKOMAD] =
     {
         .size = 0x76,
-        .y_offset = 8,
+        .y_offset = 0,
     },
     [SPECIES_SKORPYROS] =
     {
         .size = 0x88,
-        .y_offset = 1,
+        .y_offset = 0,
     },
     [SPECIES_JISSM] =
     {
         .size = 0x66,
-        .y_offset = 9,
+        .y_offset = 5,
     },
     [SPECIES_SPLOOGER] =
     {
