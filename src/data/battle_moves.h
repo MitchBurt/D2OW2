@@ -11764,16 +11764,6 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
 
     [SPECIES_NOIRNET] =
     {
-        .move = MOVE_WRAP,
-        .modification = SIGNATURE_MOD_POWER,
-        .variable = 100,
-        .modification2 = SIGNATURE_MOD_TYPE,
-        .variable2 = TYPE_DARK,
-        .differentDescription = FALSE,
-        .description = _("Default Description"),
-    },
-    [SPECIES_NOIRNET] =
-    {
         .move = MOVE_BIND,
         .modification = SIGNATURE_MOD_POWER,
         .variable = 100,
