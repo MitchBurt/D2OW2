@@ -2,7 +2,7 @@
 gCryTable::
 	cry Cry_Generic
 	cry Cry_Krakrum
-	cry Cry_Groudon
+	cry Cry_Noirnet
 	cry Cry_Rayquaza
 	cry_not Cry_Manaphy
 	cry_not Cry_Hoopa
@@ -28,7 +28,7 @@ gCryTable::
 gCryTable2::
 	cry Cry_Generic
 	cry Cry_Krakrum
-	cry Cry_Groudon
+	cry Cry_Noirnet
 	cry Cry_Rayquaza
 	cry_not Cry_Manaphy
 	cry_not Cry_Hoopa

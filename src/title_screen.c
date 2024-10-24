@@ -66,18 +66,18 @@ static const u32 sTitleScreenRayquazaGfx[]	   			= INCBIN_U32("graphics/title_sc
 static const u32 sTitleScreenRayquazaTilemap[] 			= INCBIN_U32("graphics/title_screen/rayquaza.bin.lz");
 static const u32 sTitleScreenCloudsGfx[]       			= INCBIN_U32("graphics/title_screen/clouds.4bpp.lz");
 static const u16 gTitleScreenBgPalettesRayquazaShiny[]  = INCBIN_U16("graphics/title_screen/pokemon_logo.gbapal", "graphics/title_screen/rayquaza_and_clouds_shiny.gbapal");
-//Groudon
-static const u32 sTitleScreenGroudonGfx[]      = INCBIN_U32("graphics/title_screen/groudon/groudon.4bpp.lz");
-static const u32 sTitleScreenLavaGfx[]         = INCBIN_U32("graphics/title_screen/groudon/lava.4bpp.lz");
-static const u32 sTitleScreenGroudonTilemap[]  = INCBIN_U32("graphics/title_screen/groudon/groudon_map.bin.lz");
-static const u32 sTitleScreenLavaTilemap[]     = INCBIN_U32("graphics/title_screen/groudon/lava.bin.lz");
-const u16 gTitleScreenBgPalettesGroudon[]      = INCBIN_U16("graphics/title_screen/groudon/lava.gbapal");
-const u16 gTitleScreenTitlePalette[]      	   = INCBIN_U16("graphics/title_screen/groudon/logo_ruby.gbapal");
-const u32 gTitleScreenPokemonLogoGfxGroudon[]  = INCBIN_U32("graphics/title_screen/groudon/pokemon_ruby.8bpp.lz");
-static const u16 sLegendaryMonPalettesGroudon[][16] =
+//Noirnet
+static const u32 sTitleScreenNoirnetGfx[]      = INCBIN_U32("graphics/title_screen/noirnet/noirnet.4bpp.lz");
+static const u32 sTitleScreenLavaGfx[]         = INCBIN_U32("graphics/title_screen/noirnet/lava.4bpp.lz");
+static const u32 sTitleScreenNoirnetTilemap[]  = INCBIN_U32("graphics/title_screen/noirnet/noirnet_map.bin.lz");
+static const u32 sTitleScreenLavaTilemap[]     = INCBIN_U32("graphics/title_screen/noirnet/lava.bin.lz");
+const u16 gTitleScreenBgPalettesNoirnet[]      = INCBIN_U16("graphics/title_screen/noirnet/lava.gbapal");
+const u16 gTitleScreenTitlePalette[]      	   = INCBIN_U16("graphics/title_screen/noirnet/logo_ruby.gbapal");
+const u32 gTitleScreenPokemonLogoGfxNoirnet[]  = INCBIN_U32("graphics/title_screen/noirnet/pokemon_ruby.8bpp.lz");
+static const u16 sLegendaryMonPalettesNoirnet[][16] =
 {
-    INCBIN_U16("graphics/title_screen/groudon/groudon_dark.gbapal"),
-    INCBIN_U16("graphics/title_screen/groudon/groudon_glow.gbapal"),
+    INCBIN_U16("graphics/title_screen/noirnet/noirnet_dark.gbapal"),
+    INCBIN_U16("graphics/title_screen/noirnet/noirnet_glow.gbapal"),
 };
 //Krakrum
 static const u32 sTitleScreenKrakrumGfx[]      	= INCBIN_U32("graphics/title_screen/krakrum/krakrum.4bpp.lz");
@@ -611,17 +611,17 @@ void CB2_InitTitleScreen(void)
 		}
 		else if (gSaveBlock2Ptr->titleScreen == TITLE_SCREEN_RUBY)
 		{
-			//Groudon
+			//Noirnet
 			LZ77UnCompVram(gTitleScreenPokemonLogoGfxKrakrum	, (void *)(BG_CHAR_ADDR(0)));				//Not Changed
 			LZ77UnCompVram(gUnknown_08DE0644			, (void *)(BG_SCREEN_ADDR(9)));					//Not Changed
-			LoadPalette(gTitleScreenBgPalettesGroudon	, 0, 0x1E0);									//Changed
+			LoadPalette(gTitleScreenBgPalettesNoirnet	, 0, 0x1E0);									//Changed
 			// bg3
-			LZ77UnCompVram(sTitleScreenGroudonGfx		, (void *)(BG_CHAR_ADDR(2)));					//Changed
-			LZ77UnCompVram(sTitleScreenGroudonTilemap	, (void *)(BG_SCREEN_ADDR(26)));				//Changed
+			LZ77UnCompVram(sTitleScreenNoirnetGfx		, (void *)(BG_CHAR_ADDR(2)));					//Changed
+			LZ77UnCompVram(sTitleScreenNoirnetTilemap	, (void *)(BG_SCREEN_ADDR(26)));				//Changed
 			// bg1
 			LZ77UnCompVram(sTitleScreenLavaGfx			, (void *)(BG_CHAR_ADDR(3)));					//Changed
 			LZ77UnCompVram(sTitleScreenLavaTilemap		, (void *)(BG_SCREEN_ADDR(27)));				//Changed
-			LoadPalette(sLegendaryMonPalettesGroudon	, 0xE0, sizeof(sLegendaryMonPalettesGroudon));	//Changed
+			LoadPalette(sLegendaryMonPalettesNoirnet	, 0xE0, sizeof(sLegendaryMonPalettesNoirnet));	//Changed
 		}
 		else
 		{
@@ -824,7 +824,7 @@ static void Task_TitleScreenPhase3(u8 taskId)
 		if (gSaveBlock2Ptr->titleScreen == TITLE_SCREEN_EMERALD)
 			PlayCryInternal(SPECIES_RAYQUAZA, 0, 120, 10, 0);
 		else if (gSaveBlock2Ptr->titleScreen == TITLE_SCREEN_RUBY)
-			PlayCryInternal(SPECIES_GROUDON, 0, 120, 10, 0);
+			PlayCryInternal(SPECIES_NOIRNET, 0, 120, 10, 0);
 		else 
 			PlayCryInternal(SPECIES_KRAKRUM, 0, 120, 10, 0);
 	

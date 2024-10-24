@@ -1915,8 +1915,8 @@ Cry_Krakrum::
 	.incbin "sound/direct_sound_samples/cries/cry_krakrum.bin"
 
 	.align 2
-Cry_Groudon::
-	.incbin "sound/direct_sound_samples/cries/cry_groudon.bin"
+Cry_Noirnet::
+	.incbin "sound/direct_sound_samples/cries/cry_noirnet.bin"
 
 	.align 2
 Cry_Rayquaza::
@@ -2039,8 +2039,8 @@ Cry_Mojisley::
 	.incbin "sound/direct_sound_samples/cries/cry_not_mojisley.bin"
 
 	.align 2
-Cry_Mothim::
-	.incbin "sound/direct_sound_samples/cries/cry_not_mothim.bin"
+Cry_Gailord::
+	.incbin "sound/direct_sound_samples/cries/cry_not_gailord.bin"
 
 	.align 2
 Cry_Combee::
@@ -2147,8 +2147,8 @@ Cry_Hangingy::
 	.incbin "sound/direct_sound_samples/cries/cry_not_hangingy.bin"
 
 	.align 2
-Cry_Chatot::
-	.incbin "sound/direct_sound_samples/cries/cry_not_chatot.bin"
+Cry_Enderagon::
+	.incbin "sound/direct_sound_samples/cries/cry_not_enderagon.bin"
 
 	.align 2
 Cry_Chancer::
@@ -4159,7 +4159,7 @@ Cry_Gallade_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_not_gallade.bin"
 
 	.align 2
-Cry_Audino_Mega::
+Cry_UNJOY_MEGA::
 	.incbin "sound/direct_sound_samples/cries/cry_not_audino.bin"
 
 	.align 2
@@ -4175,8 +4175,8 @@ Cry_Krakrum_Primal::
 	.incbin "sound/direct_sound_samples/cries/cry_krakrum.bin"
 
 	.align 2
-Cry_Groudon_Primal::
-	.incbin "sound/direct_sound_samples/cries/cry_groudon.bin"
+Cry_Noirnet_Primal::
+	.incbin "sound/direct_sound_samples/cries/cry_noirnet.bin"
 
 	.align 2
 Cry_Basshop_Galarian::

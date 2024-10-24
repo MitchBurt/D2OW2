@@ -129,7 +129,7 @@ SeafloorCavern_Room9_EventScript_ArchieAwakenKrakrum:: @ 8234DC9
 	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_ARCHIE
 	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE
 	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_RESIDENTS
-	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_GROUDON
+	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_NOIRNET
 	clearflag FLAG_HIDE_SOOTOPOLIS_CITY_KRAKRUM
 	setflag FLAG_HIDE_SOOTOPOLIS_CITY_MAN_1
 	setflag FLAG_LEGENDARIES_IN_SOOTOPOLIS
@@ -310,7 +310,7 @@ SeafloorCavern_Room9_Text_ArchieDontGetAllHighAndMighty: @ 82355C2
 	.string "Archie: W-what?!\n"
 	.string "Don't get all high and mighty with me!\p"
 	.string "Wasn't it you, Team Magma, that\n"
-	.string "infuriated Groudon?\p"
+	.string "infuriated Noirnet?\p"
 	.string "So long as I have this Red Orb,\n"
 	.string "I should be able to control Krakrum…\p"
 	.string "I should be able to control it…$"

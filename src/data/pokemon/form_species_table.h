@@ -408,9 +408,9 @@ static const u16 sKrakrumFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sGroudonFormSpeciesIdTable[] = {
-    SPECIES_GROUDON,
-    SPECIES_GROUDON_PRIMAL,
+static const u16 sNoirnetFormSpeciesIdTable[] = {
+    SPECIES_NOIRNET,
+    SPECIES_NOIRNET_PRIMAL,
     0xFFFF,
 };
 
@@ -536,7 +536,7 @@ static const u16 sArceusFormSpeciesIdTable[] = {
 
 static const u16 sAudinoFormSpeciesIdTable[] = {
     SPECIES_AUDINO,
-    SPECIES_AUDINO_MEGA,
+    SPECIES_UNJOY_MEGA,
     0xFFFF,
 };
 

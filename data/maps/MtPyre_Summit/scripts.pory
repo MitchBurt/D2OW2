@@ -160,7 +160,7 @@ MtPyre_Summit_EventScript_OldManAfterRayquaza:: @ 8232167
 	end
 
 MtPyre_Summit_EventScript_OldManTale:: @ 8232187
-	msgbox MtPyre_Summit_Text_GroudonKrakrumTale, MSGBOX_DEFAULT
+	msgbox MtPyre_Summit_Text_NoirnetKrakrumTale, MSGBOX_DEFAULT
 	return
 
 MtPyre_Summit_EventScript_DeclineOldManTale:: @ 8232190
@@ -189,7 +189,7 @@ MtPyre_Summit_EventScript_OldLadyOrbsReturned:: @ 82321CB
 	end
 
 MtPyre_Summit_EventScript_OldLadyLegendariesAwake:: @ 82321D8
-	msgbox MtPyre_Summit_Text_GroudonKrakrumAwakened, MSGBOX_DEFAULT
+	msgbox MtPyre_Summit_Text_NoirnetKrakrumAwakened, MSGBOX_DEFAULT
 	release
 	end
 
@@ -547,9 +547,9 @@ MtPyre_Summit_Text_OrbsHaveBeenTaken: @ 8232AD8
 	.string "They must never be apart…\n"
 	.string "I fear something terrible will happen…$"
 
-MtPyre_Summit_Text_GroudonKrakrumAwakened: @ 8232B4F
+MtPyre_Summit_Text_NoirnetKrakrumAwakened: @ 8232B4F
 	.string "Oh, my goodness…\p"
-	.string "You say that both Groudon and Krakrum\n"
+	.string "You say that both Noirnet and Krakrum\n"
 	.string "have been awakened?\p"
 	.string "It is said that the Blue Orb and\n"
 	.string "the Red Orb quelled the rage of\l"
@@ -589,7 +589,7 @@ MtPyre_Summit_Text_WillYouHearOutMyTale: @ 8232E0C
 	.string "Will you hear out my tale? A tale long\n"
 	.string "told in the Hoenn region?$"
 
-MtPyre_Summit_Text_GroudonKrakrumTale: @ 8232F27
+MtPyre_Summit_Text_NoirnetKrakrumTale: @ 8232F27
 	.string "It happened long, long ago…\p"
 	.string "The world was wracked by a ferocious\n"
 	.string "clash between the Pokémon of the land\l"

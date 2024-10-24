@@ -57,7 +57,7 @@ $(MID_SUBDIR)/mus_vs_gym_leader.s: %.s: %.mid
 $(MID_SUBDIR)/mus_vs_champion.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G121 -V080 -P1
 
-$(MID_SUBDIR)/mus_vs_krakrum_groudon.s: %.s: %.mid
+$(MID_SUBDIR)/mus_vs_krakrum_noirnet.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G123 -V080 -P1
 
 $(MID_SUBDIR)/mus_vs_rival.s: %.s: %.mid
@@ -189,7 +189,7 @@ $(MID_SUBDIR)/mus_route119.s: %.s: %.mid
 $(MID_SUBDIR)/mus_encounter_intense.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G062 -V078
 
-$(MID_SUBDIR)/mus_weather_groudon.s: %.s: %.mid
+$(MID_SUBDIR)/mus_weather_noirnet.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G090 -V050
 
 $(MID_SUBDIR)/mus_dewford.s: %.s: %.mid

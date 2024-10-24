@@ -144,14 +144,14 @@ Route119_WeatherInstitute_2F_EventScript_ScientistMentionWeather:: @ 82700F7
 Route119_WeatherInstitute_2F_EventScript_TryStartAbnormalWeather:: @ 827010A
 	setvar VAR_0x8004, 0
 	call_if_set FLAG_DEFEATED_KRAKRUM, Route119_WeatherInstitute_2F_EventScript_LegendaryDefeated
-	call_if_set FLAG_DEFEATED_GROUDON, Route119_WeatherInstitute_2F_EventScript_LegendaryDefeated
+	call_if_set FLAG_DEFEATED_NOIRNET, Route119_WeatherInstitute_2F_EventScript_LegendaryDefeated
 	compare VAR_0x8004, 2  @ Both defeated
 	goto_if_eq Route119_WeatherInstitute_2F_EventScript_NoAbnormalWeather
 	call_if_unset FLAG_TEMP_2, Route119_WeatherInstitute_2F_EventScript_CreateAbnormalWeather
 	specialvar VAR_RESULT, GetAbnormalWeatherMapNameAndType
 	compare VAR_RESULT, 1
 	goto_if_eq Route119_WeatherInstitute_2F_EventScript_KrakrumWeather
-	msgbox Route119_WeatherInstitute_2F_Text_GroudonWeather, MSGBOX_DEFAULT
+	msgbox Route119_WeatherInstitute_2F_Text_NoirnetWeather, MSGBOX_DEFAULT
 	release
 	end
 
@@ -315,7 +315,7 @@ Route119_WeatherInstitute_2F_Text_ChangingWeatherRidiculous: @ 827077E
 	.string "years, but it's ridiculous to think that\l"
 	.string "humans can freely change the weather.$"
 
-Route119_WeatherInstitute_2F_Text_GroudonWeather: @ 82707F1
+Route119_WeatherInstitute_2F_Text_NoirnetWeather: @ 82707F1
 	.string "I track weather patterns over\n"
 	.string "the Hoenn region.\p"
 	.string "Presently, a drought has been recorded\n"
@@ -342,11 +342,11 @@ script Route119_WeatherInstitute_2F_EventScript_WeatherScientist_GiveCastform {
     lock
     faceplayer
 	if (flag(FLAG_RECEIVED_CASTFORM) == TRUE) {
-		if (flag(FLAG_SYS_GAME_CLEAR) == TRUE && flag(FLAG_DEFEATED_GROUDON) == FALSE ) {
+		if (flag(FLAG_SYS_GAME_CLEAR) == TRUE && flag(FLAG_DEFEATED_NOIRNET) == FALSE ) {
     		msgbox(format("I been getting reports of some intense sunlight near Mt.Chimney, it seems there have been some loud sound coming from a cave in the Jagged Pass."))
 		} elif(flag(FLAG_SYS_GAME_CLEAR) == TRUE && flag(FLAG_DEFEATED_KRAKRUM) == FALSE){
 			msgbox(format("I been getting reports of heavy rain near Route 128, there have been some loud sounds coming from an underwater cave there according to my sources."))
-		} elif(flag(FLAG_SYS_GAME_CLEAR) == TRUE && flag(FLAG_DEFEATED_KRAKRUM) == TRUE && flag(FLAG_DEFEATED_GROUDON) == TRUE){
+		} elif(flag(FLAG_SYS_GAME_CLEAR) == TRUE && flag(FLAG_DEFEATED_KRAKRUM) == TRUE && flag(FLAG_DEFEATED_NOIRNET) == TRUE){
 			msgbox(format("Abnormal weather conditions are no longer being reported. The occasional rainfall is a blessing, really."))
 		} else {
         	msgbox(format("I've been researching rain for many years, but it's ridiculous to think that humans can freely change the weather."))

@@ -4,10 +4,10 @@ MagmaHideout_3F_1R_MapScripts:: @ 823A1B2
 	.byte 0
 	
 MagmaHideout_3F_1R_OnLoad::
-	call_if_set FLAG_SYS_GAME_CLEAR, MagmaHideout_3F_1R_EventScript_OpenGroudonCave
+	call_if_set FLAG_SYS_GAME_CLEAR, MagmaHideout_3F_1R_EventScript_OpenNoirnetCave
 	end
 	
-MagmaHideout_3F_1R_EventScript_OpenGroudonCave:: @ 81EC3AE
+MagmaHideout_3F_1R_EventScript_OpenNoirnetCave:: @ 81EC3AE
 	setmetatile 13, 13, METATILE_Lavaridge_CaveEntrance_Top, 1
 	setmetatile 13, 14, METATILE_Lavaridge_CaveEntrance_Bottom, 0
 	return

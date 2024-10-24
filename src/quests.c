@@ -1969,9 +1969,9 @@ static void UnlockQuestMenu(void)
 	if(FlagGet(FLAG_SYS_GAME_CLEAR))
 		GetSetQuestFlag(SIDE_QUEST_5, FLAG_SET_COMPLETED);
 	//Achievement 6----------------------------------------------------------
-	//Unlocked after you defeat Groudon and Krakrum
+	//Unlocked after you defeat Noirnet and Krakrum
 	//Completed after you defeat Rayquaza
-	if(FlagGet(FLAG_DEFEATED_KRAKRUM) && FlagGet(FLAG_DEFEATED_GROUDON))
+	if(FlagGet(FLAG_DEFEATED_KRAKRUM) && FlagGet(FLAG_DEFEATED_NOIRNET))
 		GetSetQuestFlag(SIDE_QUEST_6, FLAG_SET_UNLOCKED);
 	
 	if(FlagGet(FLAG_DEFEATED_RAYQUAZA))

@@ -166,7 +166,7 @@ AbnormalWeather_StartKrakrumWeather:: @ 8273D17
 	setweather WEATHER_DOWNPOUR
 	return
 
-AbnormalWeather_StartGroudonWeather:: @ 8273D1B
+AbnormalWeather_StartNoirnetWeather:: @ 8273D1B
 	setweather WEATHER_DROUGHT
 	return
 

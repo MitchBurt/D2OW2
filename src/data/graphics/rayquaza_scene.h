@@ -1,11 +1,11 @@
 // Scene 1 (RAY_ANIM_DUO_FIGHT / RAY_ANIM_DUO_FIGHT_PRE)
-const u32 gRaySceneDuoFight_Groudon_Gfx[]           = INCBIN_U32("graphics/rayquaza_scene/scene_1/groudon.4bpp.lz");
-const u32 gRaySceneDuoFight_GroudonShoulder_Gfx[]   = INCBIN_U32("graphics/rayquaza_scene/scene_1/groudon_shoulder.4bpp.lz");
-const u32 gRaySceneDuoFight_GroudonClaw_Gfx[]       = INCBIN_U32("graphics/rayquaza_scene/scene_1/groudon_claw.4bpp.lz");
+const u32 gRaySceneDuoFight_Noirnet_Gfx[]           = INCBIN_U32("graphics/rayquaza_scene/scene_1/noirnet.4bpp.lz");
+const u32 gRaySceneDuoFight_NoirnetShoulder_Gfx[]   = INCBIN_U32("graphics/rayquaza_scene/scene_1/noirnet_shoulder.4bpp.lz");
+const u32 gRaySceneDuoFight_NoirnetClaw_Gfx[]       = INCBIN_U32("graphics/rayquaza_scene/scene_1/noirnet_claw.4bpp.lz");
 const u32 gRaySceneDuoFight_Krakrum_Gfx[]            = INCBIN_U32("graphics/rayquaza_scene/scene_1/krakrum.4bpp.lz");
 const u32 gRaySceneDuoFight_KrakrumPectoralFin_Gfx[] = INCBIN_U32("graphics/rayquaza_scene/scene_1/krakrum_pectoral_fin.4bpp.lz");
 const u32 gRaySceneDuoFight_KrakrumDorsalFin_Gfx[]   = INCBIN_U32("graphics/rayquaza_scene/scene_1/krakrum_dorsal_fin.4bpp.lz");
-const u32 gRaySceneDuoFight_Groudon_Pal[]           = INCBIN_U32("graphics/rayquaza_scene/scene_1/groudon.gbapal.lz");
+const u32 gRaySceneDuoFight_Noirnet_Pal[]           = INCBIN_U32("graphics/rayquaza_scene/scene_1/noirnet.gbapal.lz");
 const u32 gRaySceneDuoFight_Krakrum_Pal[]            = INCBIN_U32("graphics/rayquaza_scene/scene_1/krakrum.gbapal.lz");
 const u32 gRaySceneDuoFight_Clouds_Gfx[]            = INCBIN_U32("graphics/rayquaza_scene/scene_1/clouds.4bpp.lz");
 const u32 gRaySceneDuoFight_Clouds_Pal[]            = INCBIN_U32("graphics/rayquaza_scene/scene_1/clouds.gbapal.lz"); // pal 1 clouds, pal 2 rain
@@ -44,13 +44,13 @@ const u32 gRaySceneCharges_Orbs_Tilemap[]     = INCBIN_U32("graphics/rayquaza_sc
 const u32 gRaySceneCharges_Bg_Pal[]           = INCBIN_U32("graphics/rayquaza_scene/scene_4/bg.gbapal.lz");
 
 // Scene 5 (RAY_ANIM_CHASES_AWAY)
-const u32 gRaySceneChasesAway_Groudon_Gfx[]      = INCBIN_U32("graphics/rayquaza_scene/scene_5/groudon.4bpp.lz");
-const u32 gRaySceneChasesAway_GroudonTail_Gfx[]  = INCBIN_U32("graphics/rayquaza_scene/scene_5/groudon_tail.4bpp.lz");
+const u32 gRaySceneChasesAway_Noirnet_Gfx[]      = INCBIN_U32("graphics/rayquaza_scene/scene_5/noirnet.4bpp.lz");
+const u32 gRaySceneChasesAway_NoirnetTail_Gfx[]  = INCBIN_U32("graphics/rayquaza_scene/scene_5/noirnet_tail.4bpp.lz");
 const u32 gRaySceneChasesAway_Krakrum_Gfx[]       = INCBIN_U32("graphics/rayquaza_scene/scene_5/krakrum.4bpp.lz");
 const u32 gRaySceneChasesAway_Rayquaza_Gfx[]     = INCBIN_U32("graphics/rayquaza_scene/scene_5/rayquaza.4bpp.lz");
 const u32 gRaySceneChasesAway_RayquazaTail_Gfx[] = INCBIN_U32("graphics/rayquaza_scene/scene_5/rayquaza_tail.4bpp.lz");
 const u32 gRaySceneChasesAway_KrakrumSplash_Gfx[] = INCBIN_U32("graphics/rayquaza_scene/scene_5/krakrum_splash.4bpp.lz");
-const u32 gRaySceneChasesAway_Groudon_Pal[]      = INCBIN_U32("graphics/rayquaza_scene/scene_5/groudon.gbapal.lz");
+const u32 gRaySceneChasesAway_Noirnet_Pal[]      = INCBIN_U32("graphics/rayquaza_scene/scene_5/noirnet.gbapal.lz");
 const u32 gRaySceneChasesAway_Krakrum_Pal[]       = INCBIN_U32("graphics/rayquaza_scene/scene_5/krakrum.gbapal.lz");
 const u32 gRaySceneChasesAway_Rayquaza_Pal[]     = INCBIN_U32("graphics/rayquaza_scene/scene_5/rayquaza.gbapal.lz");
 const u32 gRaySceneChasesAway_KrakrumSplash_Pal[] = INCBIN_U32("graphics/rayquaza_scene/scene_5/krakrum_splash.gbapal.lz");

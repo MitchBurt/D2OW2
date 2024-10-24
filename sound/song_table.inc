@@ -416,7 +416,7 @@ gSongTable::
 	song mus_encounter_magma, 0, 0
 	song mus_intro_battle, 0, 0
 	song mus_weather_krakrum, 0, 0
-	song mus_weather_groudon, 0, 0
+	song mus_weather_noirnet, 0, 0
 	song mus_sootopolis, 0, 0
 	song mus_contest_results, 0, 0
 	song mus_hall_of_fame_room, 0, 0
@@ -435,7 +435,7 @@ gSongTable::
 	song mus_vs_gym_leader, 0, 0
 	song mus_vs_champion, 0, 0
 	song mus_vs_regi, 0, 0
-	song mus_vs_krakrum_groudon, 0, 0
+	song mus_vs_krakrum_noirnet, 0, 0
 	song mus_vs_rival, 0, 0
 	song mus_vs_elite_four, 0, 0
 	song mus_vs_aqua_magma_leader, 0, 0
@@ -528,7 +528,7 @@ gSongTable::
 	song mus_b_dome, 0, 0
 	song mus_b_pike, 0, 0
 	song mus_b_factory, 0, 0
-	song mus_vs_krakrum_groudon, 0, 0
+	song mus_vs_krakrum_noirnet, 0, 0
 	song mus_vs_frontier_brain, 0, 0
 	song mus_vs_thevoid, 0, 0
 	song mus_b_dome_lobby, 0, 0

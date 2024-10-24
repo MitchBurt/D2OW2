@@ -261,7 +261,7 @@
 #define PLACEHOLDER_ID_ARCHIE        0xA 
 #define PLACEHOLDER_ID_MAXIE         0xB
 #define PLACEHOLDER_ID_KRAKRUM        0xC
-#define PLACEHOLDER_ID_GROUDON       0xD
+#define PLACEHOLDER_ID_NOIRNET       0xD
 
 //Mgba Stuff
 #define CHAR_DBL_QUOTE_LEFT    0xB1

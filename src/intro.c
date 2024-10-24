@@ -66,12 +66,12 @@
  * Task_IntroSpinAndZoomPokeball
  *  - Continues until the zoom reaches a certain point
  * Task_IntroWaitToSetupPart3LegendsFight
- * Task_IntroLoadGroudonScene
+ * Task_IntroLoadNoirnetScene
  * Task_IntroLoadPart3Graphics1
  * Task_IntroLoadPart3Graphics2
  * Task_IntroLoadPart3Graphics3
  * Task_IntroLoadPart3Graphics4
- * Task_IntroGroudonScene
+ * Task_IntroNoirnetScene
  * Task_IntroLoadKrakrumScene
  * Task_IntroKrakrumScene
  * Task_IntroLoadClouds1
@@ -400,7 +400,7 @@ static const struct SpriteTemplate gIntroLightningSprite =
     .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCB_IntroRayquazaLightning,
 };
-static const s16 gIntroGroudonRockData[][3] =
+static const s16 gIntroNoirnetRockData[][3] =
 {
     {0x68, 0x00, 0x0C0},
     {0x8E, 0x03, 0x280},
@@ -916,12 +916,12 @@ static void Task_IntroWaitToSetupPart3(u8);
 static void Task_IntroLoadPart3Graphics(u8);
 static void Task_IntroSpinAndZoomPokeball(u8);
 static void Task_IntroWaitToSetupPart3LegendsFight(u8);
-static void Task_IntroLoadGroudonScene(u8);
+static void Task_IntroLoadNoirnetScene(u8);
 static void Task_IntroLoadPart3Graphics1(u8);
 static void Task_IntroLoadPart3Graphics2(u8);
 static void Task_IntroLoadPart3Graphics3(u8);
 static void Task_IntroLoadPart3Graphics4(u8);
-static void Task_IntroGroudonScene(u8);
+static void Task_IntroNoirnetScene(u8);
 static void Task_IntroLoadKrakrumScene(u8);
 static void Task_IntroKrakrumScene(u8);
 static void Task_IntroLoadClouds1(u8);
@@ -933,8 +933,8 @@ static void Task_IntroRayquazaLightningScene(u8);
 static void Task_IntroLoadRayquazaGlowScene(u8);
 static void Task_IntroRayquazaGlowScene_0(u8);
 static void Task_EndIntroMovie(u8);
-static void CreateGroudonRockSprites(u8);
-static void SpriteCB_IntroGroudonRocks(struct Sprite *);
+static void CreateNoirnetRockSprites(u8);
+static void SpriteCB_IntroNoirnetRocks(struct Sprite *);
 static void CreateKrakrumBubbleSprites_0(u8);
 static void CreateKrakrumBubbleSprites_1(void);
 static void Task_IntroRayquazaGlowScene_1(u8);
@@ -1603,10 +1603,10 @@ static void Task_IntroSpinAndZoomPokeball(u8 taskId)
 static void Task_IntroWaitToSetupPart3LegendsFight(u8 taskId)
 {
     if (gIntroFrameCounter > 43)
-        gTasks[taskId].func = Task_IntroLoadGroudonScene;
+        gTasks[taskId].func = Task_IntroLoadNoirnetScene;
 }
 
-static void Task_IntroLoadGroudonScene(u8 taskId)
+static void Task_IntroLoadNoirnetScene(u8 taskId)
 {
     if (!gPaletteFade.active)
     {
@@ -1614,10 +1614,10 @@ static void Task_IntroLoadGroudonScene(u8 taskId)
         ResetSpriteData();
         FreeAllSpritePalettes();
         gReservedSpritePaletteCount = 8;
-        LZDecompressVram(gIntro3GroudonGfx, (void *)VRAM);
-        LZDecompressVram(gIntro3GroudonTilemap, (void *)(BG_CHAR_ADDR(3)));
+        LZDecompressVram(gIntro3NoirnetGfx, (void *)VRAM);
+        LZDecompressVram(gIntro3NoirnetTilemap, (void *)(BG_CHAR_ADDR(3)));
         LZDecompressVram(gIntro3LegendBgGfx, (void *)(BG_CHAR_ADDR(1)));
-        LZDecompressVram(gIntro3GroudonBgTilemap, (void *)(BG_SCREEN_ADDR(28)));
+        LZDecompressVram(gIntro3NoirnetBgTilemap, (void *)(BG_SCREEN_ADDR(28)));
         LoadCompressedSpriteSheetUsingHeap(&gBattleAnimPicTable[GET_TRUE_SPRITE_INDEX(ANIM_TAG_ROCKS)]);
         LoadCompressedSpritePaletteUsingHeap(&gBattleAnimPaletteTable[GET_TRUE_SPRITE_INDEX(ANIM_TAG_ROCKS)]);
         CpuCopy16(gIntro3BgPal, gPlttBufferUnfaded, sizeof(gIntro3BgPal));
@@ -1679,11 +1679,11 @@ static void Task_IntroLoadPart3Graphics3(u8 taskId)
 static void Task_IntroLoadPart3Graphics4(u8 taskId)
 {
     gTasks[taskId].data[0] = 0;
-    gTasks[taskId].func = Task_IntroGroudonScene;
+    gTasks[taskId].func = Task_IntroNoirnetScene;
     ScanlineEffect_InitWave(0, 0xA0, 0x4, 4, 1, 4, 0);
 }
 
-static void Task_IntroGroudonScene(u8 taskId)
+static void Task_IntroNoirnetScene(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
 
@@ -1700,7 +1700,7 @@ static void Task_IntroGroudonScene(u8 taskId)
             data[0]++;
             data[6] = 2;
             data[7] = 0x1E2;
-            CreateGroudonRockSprites(taskId);
+            CreateNoirnetRockSprites(taskId);
         }
         break;
     case 1:
@@ -1748,7 +1748,7 @@ static void Task_IntroGroudonScene(u8 taskId)
             data[1] = 0x50;
             data[2] = 0x29;
             data[6] = 0x10;
-            PlayCryInternal(SPECIES_GROUDON, 0, 100, 10, 0);
+            PlayCryInternal(SPECIES_NOIRNET, 0, 100, 10, 0);
             data[0]++;
         }
         break;
@@ -1789,23 +1789,23 @@ static void Task_IntroGroudonScene(u8 taskId)
     }
 }
 
-static void CreateGroudonRockSprites(u8 a0)
+static void CreateNoirnetRockSprites(u8 a0)
 {
     int i;
     u8 spriteId;
 
     for (i = 0; i < 6; i++)
     {
-        spriteId = CreateSprite(gAncientPowerRockSpriteTemplate, gIntroGroudonRockData[i][0], 0xA0, i);
-        gSprites[spriteId].callback = SpriteCB_IntroGroudonRocks;
+        spriteId = CreateSprite(gAncientPowerRockSpriteTemplate, gIntroNoirnetRockData[i][0], 0xA0, i);
+        gSprites[spriteId].callback = SpriteCB_IntroNoirnetRocks;
         gSprites[spriteId].oam.priority = 0;
         gSprites[spriteId].data[1] = i;
         gSprites[spriteId].data[4] = a0;
-        StartSpriteAnim(&gSprites[spriteId], gIntroGroudonRockData[i][1]);
+        StartSpriteAnim(&gSprites[spriteId], gIntroNoirnetRockData[i][1]);
     }
 }
 
-static void SpriteCB_IntroGroudonRocks(struct Sprite *sprite)
+static void SpriteCB_IntroNoirnetRocks(struct Sprite *sprite)
 {
     sprite->data[3]++;
     if (sprite->data[3] % 2 == 0)
@@ -1814,7 +1814,7 @@ static void SpriteCB_IntroGroudonRocks(struct Sprite *sprite)
     switch(sprite->data[0])
     {
     case 0:
-        sprite->data[2] += gIntroGroudonRockData[sprite->data[1]][2];
+        sprite->data[2] += gIntroNoirnetRockData[sprite->data[1]][2];
         sprite->pos1.y -= (sprite->data[2] & 0xFF00) >> 8;
         sprite->data[2] &= 0xFF;
         if (gTasks[sprite->data[4]].data[0] > 7)

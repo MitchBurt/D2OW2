@@ -395,8 +395,8 @@ Cry_Krakrum::
 	.incbin "sound/direct_sound_samples/cries/cry_krakrum.bin"
 
 	.align 2
-Cry_Groudon::
-	.incbin "sound/direct_sound_samples/cries/cry_groudon.bin"
+Cry_Noirnet::
+	.incbin "sound/direct_sound_samples/cries/cry_noirnet.bin"
 	
 	.align 2
 Cry_Rayquaza::

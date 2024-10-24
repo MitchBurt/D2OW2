@@ -450,7 +450,7 @@ void PlayCry5(u16 species, u8 mode)
 enum{
     CRY_GENERIC,
     CRY_KRAKRUM,
-    CRY_GROUDON,
+    CRY_NOIRNET,
     CRY_RAYQUAZA,
     CRY_MANAPHY,
     CRY_HOOPA,
@@ -590,8 +590,8 @@ void PlayGenericCry(u16 species, bool32 v0){
         case SPECIES_KRAKRUM:
             gMPlay_PokemonCry = SetPokemonCryTone(v0 ? &gCryTable2[CRY_KRAKRUM] : &gCryTable[CRY_KRAKRUM]);
         break;
-        case SPECIES_GROUDON:
-            gMPlay_PokemonCry = SetPokemonCryTone(v0 ? &gCryTable2[CRY_GROUDON] : &gCryTable[CRY_GROUDON]);
+        case SPECIES_NOIRNET:
+            gMPlay_PokemonCry = SetPokemonCryTone(v0 ? &gCryTable2[CRY_NOIRNET] : &gCryTable[CRY_NOIRNET]);
         break;
         case SPECIES_RAYQUAZA:
             gMPlay_PokemonCry = SetPokemonCryTone(v0 ? &gCryTable2[CRY_RAYQUAZA] : &gCryTable[CRY_RAYQUAZA]);

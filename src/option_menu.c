@@ -683,7 +683,7 @@ static void TitleScreen_DrawChoices(int selection, int y, u8 textSpeed)
         DrawOptionMenuChoice(gText_TitleScreen_Rayquaza, 	104, y, 1, textSpeed);
 		break;
     case 1:
-        DrawOptionMenuChoice(gText_TitleScreen_Groudon, 	104, y, 1, textSpeed);
+        DrawOptionMenuChoice(gText_TitleScreen_Noirnet, 	104, y, 1, textSpeed);
 		break;
 	case 2:
         DrawOptionMenuChoice(gText_TitleScreen_Krakrum, 		104, y, 1, textSpeed);

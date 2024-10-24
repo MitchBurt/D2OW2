@@ -4597,12 +4597,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 13,
     },
 
-    [NATIONAL_DEX_GROUDON] =
+    [NATIONAL_DEX_NOIRNET] =
     {
         .categoryName = _("Continente"),
         .height = 35,
         .weight = 9500,
-        .description = gGroudonPokedexText,
+        .description = gNoirnetPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 515,
@@ -4969,12 +4969,12 @@ const struct PokedexEntry gPokedexEntries[] =
 		.trainerOffset = 0,
 	},
 
-	[NATIONAL_DEX_MOTHIM] =
+	[NATIONAL_DEX_GAILORD] =
 	{
 		.categoryName = _("Moth"),
 		.height = 9,
 		.weight = 233,
-		.description = gMothimPokedexText,
+		.description = gGailordPokedexText,
 		.pokemonScale = 356,
 		.pokemonOffset = 17,
 		.trainerScale = 256,
@@ -5293,12 +5293,12 @@ const struct PokedexEntry gPokedexEntries[] =
 		.trainerOffset = 0,
 	},
 
-	[NATIONAL_DEX_CHATOT] =
+	[NATIONAL_DEX_ENDERAGON] =
 	{
 		.categoryName = _("Music Note"),
 		.height = 5,
 		.weight = 19,
-		.description = gChatotPokedexText,
+		.description = gEnderagonPokedexText,
 		.pokemonScale = 356,
 		.pokemonOffset = 17,
 		.trainerScale = 256,
@@ -15387,12 +15387,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 13,
     },
 
-    [NATIONAL_DEX_GROUDON] =
+    [NATIONAL_DEX_NOIRNET] =
     {
         .categoryName = _("Continent"),
         .height = 35,
         .weight = 9500,
-        .description = gGroudonPokedexText,
+        .description = gNoirnetPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 515,
@@ -15759,12 +15759,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MOTHIM] =
+    [NATIONAL_DEX_GAILORD] =
     {
         .categoryName = _("Moth"),
         .height = 9,
         .weight = 233,
-        .description = gMothimPokedexText,
+        .description = gGailordPokedexText,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -16083,12 +16083,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_CHATOT] =
+    [NATIONAL_DEX_ENDERAGON] =
     {
         .categoryName = _("Music Note"),
         .height = 5,
         .weight = 19,
-        .description = gChatotPokedexText,
+        .description = gEnderagonPokedexText,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,

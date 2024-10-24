@@ -3145,7 +3145,7 @@ const u16 gEggMoves[] = {
 		MOVE_BATON_PASS,
 		MOVE_SUBSTITUTE),
 
-	egg_moves(CHATOT,
+	egg_moves(ENDERAGON,
 		MOVE_SUPERSONIC,
 		MOVE_AGILITY,
 		MOVE_NIGHT_SHADE,

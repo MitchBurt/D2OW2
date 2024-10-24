@@ -1940,7 +1940,7 @@ const struct FacilityMon gVerdanturfBattleTentMons[NUM_VERDANTURF_TENT_MONS] =
         .nature = NATURE_ADAMANT
     },
     [VERDANTURF_TENT_MON_VULPOINTER_2] = {
-        .species = SPECIES_MOTHIM,
+        .species = SPECIES_GAILORD,
         .moves = {MOVE_BUG_BITE, MOVE_AIR_SLASH, MOVE_NONE, MOVE_NONE},
         .itemTableId = BATTLE_FRONTIER_ITEM_NONE,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK,

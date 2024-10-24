@@ -205,7 +205,7 @@
 #define OBJ_EVENT_GFX_ARCHIE                     195
 #define OBJ_EVENT_GFX_MAXIE                      196
 #define OBJ_EVENT_GFX_KRAKRUM_1                   197
-#define OBJ_EVENT_GFX_GROUDON_1                  198
+#define OBJ_EVENT_GFX_NOIRNET_1                  198
 #define OBJ_EVENT_GFX_FOSSIL                     199
 #define OBJ_EVENT_GFX_REGIROCK                   200
 #define OBJ_EVENT_GFX_REGICE                     201
@@ -213,7 +213,7 @@
 #define OBJ_EVENT_GFX_SMOSLIME                     203
 #define OBJ_EVENT_GFX_KECLEON_1                  204
 #define OBJ_EVENT_GFX_KRAKRUM_2                   205
-#define OBJ_EVENT_GFX_GROUDON_2                  206
+#define OBJ_EVENT_GFX_NOIRNET_2                  206
 #define OBJ_EVENT_GFX_RAYQUAZA_2                 207
 #define OBJ_EVENT_GFX_MEOWRRIOR_2                208
 #define OBJ_EVENT_GFX_SKIPPA                    209
@@ -229,7 +229,7 @@
 #define OBJ_EVENT_GFX_SCOTT                      219
 #define OBJ_EVENT_GFX_DUPLICAT                  220
 #define OBJ_EVENT_GFX_KRAKRUM_3                   221
-#define OBJ_EVENT_GFX_GROUDON_3                  222
+#define OBJ_EVENT_GFX_NOIRNET_3                  222
 #define OBJ_EVENT_GFX_MYSTERY_GIFT_MAN           223
 #define OBJ_EVENT_GFX_TRICK_HOUSE_STATUE         224
 #define OBJ_EVENT_GFX_SORTAFURRY                     225

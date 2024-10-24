@@ -265,7 +265,7 @@ static const match_call_text_data_t sMayTextScripts[] = {
     { MatchCall_Text_May7,  FLAG_DEFEATED_PETALBURG_GYM,         0xFFFF },
     { MatchCall_Text_May8,  FLAG_RECEIVED_CASTFORM,              0xFFFF },
     { MatchCall_Text_May9,  FLAG_RECEIVED_RED_OR_BLUE_ORB,       0xFFFF },
-    { MatchCall_Text_May10, FLAG_GROUDON_AWAKENED_MAGMA_HIDEOUT, 0xFFFF },
+    { MatchCall_Text_May10, FLAG_NOIRNET_AWAKENED_MAGMA_HIDEOUT, 0xFFFF },
     { MatchCall_Text_May11, FLAG_MET_TEAM_AQUA_HARBOR,           0xFFFF },
     { MatchCall_Text_May12, FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, 0xFFFF },
     { MatchCall_Text_May13, FLAG_KRAKRUM_ESCAPED_SEAFLOOR_CAVERN, 0xFFFF },
@@ -294,7 +294,7 @@ static const match_call_text_data_t sBrendanTextScripts[] = {
     { MatchCall_Text_Brendan7,  FLAG_DEFEATED_PETALBURG_GYM,         0xFFFF },
     { MatchCall_Text_Brendan8,  FLAG_RECEIVED_CASTFORM,              0xFFFF },
     { MatchCall_Text_Brendan9,  FLAG_RECEIVED_RED_OR_BLUE_ORB,       0xFFFF },
-    { MatchCall_Text_Brendan10, FLAG_GROUDON_AWAKENED_MAGMA_HIDEOUT, 0xFFFF },
+    { MatchCall_Text_Brendan10, FLAG_NOIRNET_AWAKENED_MAGMA_HIDEOUT, 0xFFFF },
     { MatchCall_Text_Brendan11, FLAG_MET_TEAM_AQUA_HARBOR,           0xFFFF },
     { MatchCall_Text_Brendan12, FLAG_TEAM_AQUA_ESCAPED_IN_SUBMARINE, 0xFFFF },
     { MatchCall_Text_Brendan13, FLAG_KRAKRUM_ESCAPED_SEAFLOOR_CAVERN, 0xFFFF },
@@ -318,7 +318,7 @@ static const match_call_text_data_t sWallyTextScripts[] = {
     { MatchCall_Text_Wally2, FLAG_RUSTURF_TUNNEL_OPENED,          0xFFFF },
     { MatchCall_Text_Wally3, FLAG_DEFEATED_LAVARIDGE_GYM,         0xFFFF },
     { MatchCall_Text_Wally4, FLAG_RECEIVED_CASTFORM,              0xFFFF },
-    { MatchCall_Text_Wally5, FLAG_GROUDON_AWAKENED_MAGMA_HIDEOUT, 0xFFFF },
+    { MatchCall_Text_Wally5, FLAG_NOIRNET_AWAKENED_MAGMA_HIDEOUT, 0xFFFF },
     { MatchCall_Text_Wally6, FLAG_KRAKRUM_ESCAPED_SEAFLOOR_CAVERN, 0xFFFF },
     { MatchCall_Text_Wally7, FLAG_DEFEATED_WALLY_VICTORY_ROAD,    0xFFFF },
     { NULL,                  0xFFFF,                              0xFFFF }
@@ -326,7 +326,7 @@ static const match_call_text_data_t sWallyTextScripts[] = {
 
 const struct MatchCallLocationOverride sWallyLocationData[] = {
     { FLAG_HIDE_MAUVILLE_CITY_WALLY,          MAPSEC_VERDANTURF_TOWN },
-    { FLAG_GROUDON_AWAKENED_MAGMA_HIDEOUT,    MAPSEC_NONE },
+    { FLAG_NOIRNET_AWAKENED_MAGMA_HIDEOUT,    MAPSEC_NONE },
     { FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY,  MAPSEC_VICTORY_ROAD },
     { 0xFFFF,                                 MAPSEC_NONE }
 };

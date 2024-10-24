@@ -494,9 +494,9 @@ static const u8 *ExpandPlaceholder_Krakrum(void)
     return gText_ExpandedPlaceholder_Krakrum;
 }
 
-static const u8 *ExpandPlaceholder_Groudon(void)
+static const u8 *ExpandPlaceholder_Noirnet(void)
 {
-    return gText_ExpandedPlaceholder_Groudon;
+    return gText_ExpandedPlaceholder_Noirnet;
 }
 
 const u8 *GetExpandedPlaceholder(u32 id)
@@ -518,7 +518,7 @@ const u8 *GetExpandedPlaceholder(u32 id)
         [PLACEHOLDER_ID_ARCHIE]       = ExpandPlaceholder_Archie,
         [PLACEHOLDER_ID_MAXIE]        = ExpandPlaceholder_Maxie,
         [PLACEHOLDER_ID_KRAKRUM]       = ExpandPlaceholder_Krakrum,
-        [PLACEHOLDER_ID_GROUDON]      = ExpandPlaceholder_Groudon,
+        [PLACEHOLDER_ID_NOIRNET]      = ExpandPlaceholder_Noirnet,
     };
 
     if (id >= ARRAY_COUNT(funcs))

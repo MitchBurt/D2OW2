@@ -10261,7 +10261,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_GROUDON] =
+    [SPECIES_NOIRNET] =
     {
         .baseHP        = 100,
         .baseAttack    = 150,
@@ -10269,8 +10269,8 @@ const struct BaseStats gBaseStats[] =
         .baseSpeed     = 90,
         .baseSpAttack  = 100,
         .baseSpDefense = 90,
-        .type1 = TYPE_GROUND,
-        .type2 = TYPE_GROUND,
+        .type1 = TYPE_DARK,
+        .type2 = TYPE_DARK,
         .catchRate = 3,
         .expYield = 302,
         .evYield_Attack    = 3,
@@ -10280,8 +10280,8 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_SLOW,
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
-        .abilities = {ABILITY_DROUGHT, ABILITY_NONE},
-        .bodyColor = BODY_COLOR_RED,
+        .abilities = {ABILITY_ARENA_TRAP, ABILITY_TANGLING_HAIR},
+        .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
     },
 
@@ -11093,7 +11093,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_MOTHIM] =
+    [SPECIES_GAILORD] =
     {
         .baseHP        = 70,
         .baseAttack    = 94,
@@ -11857,32 +11857,26 @@ const struct BaseStats gBaseStats[] =
         .flags = F_GROUND_INMUNITY,
     },
 
-    [SPECIES_CHATOT] =
+    [SPECIES_ENDERAGON] =
     {
-        .baseHP        = 76,
-        .baseAttack    = 65,
-        .baseDefense   = 45,
-        .baseSpeed     = 91,
-        .baseSpAttack  = 92,
-        .baseSpDefense = 42,
-        .type1 = TYPE_NORMAL,
-        .type2 = TYPE_FLYING,
+        .baseHP        = 70,
+        .baseAttack    = 125,
+        .baseDefense   = 60,
+        .baseSpAttack  = 126,
+        .baseSpDefense = 80,
+        .baseSpeed     = 110,
+        .type1 = TYPE_DARK,
+        .type2 = TYPE_DRAGON,
         .catchRate = 30,
         .expYield = 144,
         .evYield_Attack    = 1,
-        .item2 = ITEM_METRONOME,
         .genderRatio = PERCENT_FEMALE(50),
         .eggCycles = 20,
         .friendship = 35,
         .growthRate = GROWTH_MEDIUM_SLOW,
-        .eggGroup1 = EGG_GROUP_FLYING,
+        .eggGroup1 = EGG_GROUP_DRAGON,
         .eggGroup2 = EGG_GROUP_FLYING,
-        #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_KEEN_EYE, ABILITY_TANGLED_FEET},
-            .abilityHidden = ABILITY_BIG_PECKS,
-        #else
-            .abilities = {ABILITY_KEEN_EYE, ABILITY_NONE},
-        #endif
+        .abilities = {ABILITY_REGENERATOR, ABILITY_DRAGONS_MAW},
         .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
     },
@@ -26084,15 +26078,15 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_AUDINO_MEGA] =
+    [SPECIES_UNJOY_MEGA] =
     {
-        .baseHP        = 103,
-        .baseAttack    = 60,
-        .baseDefense   = 126,
+        .baseHP        = 255,
+        .baseAttack    = 5,
+        .baseDefense   = 150,
         .baseSpeed     = 50,
-        .baseSpAttack  = 80,
-        .baseSpDefense = 126,
-        .type1 = TYPE_NORMAL,
+        .baseSpAttack  = 110,
+        .baseSpDefense = 150,
+        .type1 = TYPE_GHOST,
         .type2 = TYPE_FAIRY,
         .catchRate = 255,
         .expYield = 425,
@@ -26105,9 +26099,9 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_FAST,
         .eggGroup1 = EGG_GROUP_FAIRY,
         .eggGroup2 = EGG_GROUP_FAIRY,
-        .abilities = {ABILITY_REGENERATOR, ABILITY_REGENERATOR},
-        .abilityHidden = ABILITY_REGENERATOR,
-        .bodyColor = BODY_COLOR_WHITE,
+        .abilities = {ABILITY_MAGIC_GUARD, ABILITY_MAGIC_GUARD},
+        .abilityHidden = ABILITY_MAGIC_GUARD,
+        .bodyColor = BODY_COLOR_PINK,
         .noFlip = FALSE,
     },
 
@@ -26188,7 +26182,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_GROUDON_PRIMAL] =
+    [SPECIES_NOIRNET_PRIMAL] =
     {
         .baseHP        = 100,
         .baseAttack    = 180,
@@ -36739,9 +36733,9 @@ const struct BaseStats gVanillaBaseStats[] =
         .baseHP        = 255,
         .baseAttack    = 5,
         .baseDefense   = 5,
-        .baseSpeed     = 50,
-        .baseSpAttack  = 100,
-        .baseSpDefense = 100,
+        .baseSpeed     = 55,
+        .baseSpAttack  = 90,
+        .baseSpDefense = 135,
         .type1 = TYPE_GHOST,
         .type2 = TYPE_FAIRY,
         .catchRate = 30,
@@ -43897,7 +43891,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_GROUDON] =
+    [SPECIES_NOIRNET] =
     {
         .baseHP        = 100,
         .baseAttack    = 150,
@@ -44729,7 +44723,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_MOTHIM] =
+    [SPECIES_GAILORD] =
     {
         .baseHP        = 70,
         .baseAttack    = 94,
@@ -45493,7 +45487,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .flags = F_GROUND_INMUNITY,
     },
 
-    [SPECIES_CHATOT] =
+    [SPECIES_ENDERAGON] =
     {
         .baseHP        = 76,
         .baseAttack    = 65,
@@ -45513,12 +45507,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroup1 = EGG_GROUP_FLYING,
         .eggGroup2 = EGG_GROUP_FLYING,
-        #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_KEEN_EYE, ABILITY_TANGLED_FEET},
-            .abilityHidden = ABILITY_BIG_PECKS,
-        #else
-            .abilities = {ABILITY_KEEN_EYE, ABILITY_NONE},
-        #endif
+        .abilities = {ABILITY_KEEN_EYE, ABILITY_NONE},
         .bodyColor = BODY_COLOR_BLACK,
         .noFlip = FALSE,
     },
@@ -59729,7 +59718,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_AUDINO_MEGA] =
+    [SPECIES_UNJOY_MEGA] =
     {
         .baseHP        = 103,
         .baseAttack    = 60,
@@ -59833,7 +59822,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_GROUDON_PRIMAL] =
+    [SPECIES_NOIRNET_PRIMAL] =
     {
         .baseHP        = 100,
         .baseAttack    = 180,

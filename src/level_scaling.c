@@ -935,7 +935,7 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 			if(level >= 20){
 				u16 PossibleEvo[] = {
 					SPECIES_MOJISLEY,
-					SPECIES_MOTHIM,
+					SPECIES_GAILORD,
 				};
 				
 				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
@@ -2396,7 +2396,7 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 		break;
 		case SPECIES_AUDINO:
 			if(canMega)
-				item = ITEM_AUDINITE;
+				item = ITEM_UNJOYITE;
 		break;
 		case SPECIES_TOCKTOWER:
 			if(canMega)

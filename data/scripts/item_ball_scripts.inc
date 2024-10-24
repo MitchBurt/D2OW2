@@ -710,8 +710,8 @@ MegaStone_EventScript_ItemGalladite::
 	addscaleditem ITEM_GALLADITE
 	end
 	
-MegaStone_EventScript_ItemAudinite::
-	addscaleditem ITEM_AUDINITE
+MegaStone_EventScript_ItemUNJOYITE::
+	addscaleditem ITEM_UNJOYITE
 	end
 	
 MegaStone_EventScript_ItemThatsfurryite::

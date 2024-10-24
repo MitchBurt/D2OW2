@@ -16,7 +16,7 @@ const u8 gText_ExpandedPlaceholder_Magma[] = _("Magma");
 const u8 gText_ExpandedPlaceholder_Archie[] = _("Archie");
 const u8 gText_ExpandedPlaceholder_Maxie[] = _("Maxie");
 const u8 gText_ExpandedPlaceholder_Krakrum[] = _("Krakrum");
-const u8 gText_ExpandedPlaceholder_Groudon[] = _("Groudon");
+const u8 gText_ExpandedPlaceholder_Noirnet[] = _("Noirnet");
 const u8 gText_ExpandedPlaceholder_Brendan[] = _("Brendan");
 const u8 gText_ExpandedPlaceholder_May[] = _("May");
 const u8 gText_EggNickname[] = _("Huevo");
@@ -1911,7 +1911,7 @@ const u8 gText_ExpandedPlaceholder_Magma[] = _("Magma");
 const u8 gText_ExpandedPlaceholder_Archie[] = _("Archie");
 const u8 gText_ExpandedPlaceholder_Maxie[] = _("Maxie");
 const u8 gText_ExpandedPlaceholder_Krakrum[] = _("Krakrum");
-const u8 gText_ExpandedPlaceholder_Groudon[] = _("Groudon");
+const u8 gText_ExpandedPlaceholder_Noirnet[] = _("Noirnet");
 const u8 gText_ExpandedPlaceholder_Brendan[] = _("Brendan");
 const u8 gText_ExpandedPlaceholder_May[] = _("May");
 const u8 gText_EggNickname[] = _("Egg");
@@ -3984,7 +3984,7 @@ const u8 gText_ColorWhite[] 	= _("{COLOR GREEN}{SHADOW LIGHT_GREEN}White    ");
 const u8 gText_ColorPink[] 					= _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Pink     ");
 
 const u8 gText_TitleScreen_Rayquaza[]    	= _("Rayquaza");
-const u8 gText_TitleScreen_Groudon[] 		= _("Groudon{0x77}{0x77}");
+const u8 gText_TitleScreen_Noirnet[] 		= _("Noirnet{0x77}{0x77}");
 const u8 gText_TitleScreen_Krakrum[]   		= _("Krakrum{0x77}{0x77}{0x77}");
 
 

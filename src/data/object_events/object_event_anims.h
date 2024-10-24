@@ -868,7 +868,7 @@ const union AnimCmd *const gObjectEventImageAnimTable_Suffer[] = {
     gObjectEventImageAnim_GoFastestEast,
 };
 
-const union AnimCmd *const gObjectEventImageAnimTable_Groudon3[] = {
+const union AnimCmd *const gObjectEventImageAnimTable_Noirnet3[] = {
     gObjectEventImageAnim_FaceSouth,
     gObjectEventImageAnim_FaceNorth,
     gObjectEventImageAnim_FaceWest,
@@ -1126,7 +1126,7 @@ const union AnimCmd *const gObjectEventImageAnimTable_Fishing[] = {
     gObjectEventImageAnim_HookedPokemonEast,
 };
 
-const union AffineAnimCmd *const gObjectEventRotScalAnimTable_KrakrumGroudon[] = {
+const union AffineAnimCmd *const gObjectEventRotScalAnimTable_KrakrumNoirnet[] = {
     gObjectEventRotScalAnim_8508FD8,
     gObjectEventRotScalAnim_8509008,
     gObjectEventRotScalAnim_8509050,

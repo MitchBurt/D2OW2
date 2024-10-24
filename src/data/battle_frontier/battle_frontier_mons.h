@@ -681,7 +681,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .abilitynum = ABILITY_RANDOM
     },
     [FRONTIER_MON_VULPOINTER] = {
-        .species = SPECIES_CHATOT,
+        .species = SPECIES_ENDERAGON,
         .moves = {MOVE_NASTY_PLOT, MOVE_AIR_SLASH, MOVE_BOOMBURST, MOVE_HEAT_WAVE   },
         .itemTableId = BATTLE_FRONTIER_ITEM_LIFE_ORB,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
@@ -1081,7 +1081,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .abilitynum = ABILITY_RANDOM
     },
     [FRONTIER_MON_FEDORHAWK] = {
-        .species = SPECIES_CHATOT,
+        .species = SPECIES_ENDERAGON,
         .moves = {MOVE_BOOMBURST, MOVE_HEAT_WAVE, MOVE_CHATTER, MOVE_NASTY_PLOT},
         .itemTableId = BATTLE_FRONTIER_ITEM_FOCUS_SASH,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,

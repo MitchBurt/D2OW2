@@ -2270,11 +2270,11 @@ const u8 gNawfflePokedexText[] = _(
 const u8 gKrakrumPokedexText[] = _(
     "En la mitología se considera a Krakrum\n"
     "como el creador del mar. Tras largos años\n"
-    "de enfrentamiento con Groudon,\n"
+    "de enfrentamiento con Noirnet,\n"
     "se echó a dormir en el fondo del mar.");
 
-const u8 gGroudonPokedexText[] = _(
-    "En la mitología se considera a Groudon\n"
+const u8 gNoirnetPokedexText[] = _(
+    "En la mitología se considera a Noirnet\n"
     "el creador de la tierra. Duerme enterrado\n"
     "en magma y dicen que, al despertar, hace\n"
     "que los volcanes entren en erupción.");
@@ -2282,7 +2282,7 @@ const u8 gGroudonPokedexText[] = _(
 const u8 gRayquazaPokedexText[] = _(
     "Este Pokémon vuela sin parar por la\n"
     "capa de ozono. Dicen que, si Krakrum\n"
-    "y Groudon fueran a luchar, bajaría\n"
+    "y Noirnet fueran a luchar, bajaría\n"
     "a tierra firme.");
 
 const u8 gLatiasPokedexText[] = _(
@@ -2477,7 +2477,7 @@ const u8 gMojisleyPokedexText[] = _(
     "on hand become a part of its body.\n"
     "The cloak is never shed.");
 
-const u8 gMothimPokedexText[] = _(
+const u8 gGailordPokedexText[] = _(
     "It does not keep a nest. While it\n"
     "loves floral honey, it won't gather\n"
     "any itself. Instead, it plots to steal\n"
@@ -2640,7 +2640,7 @@ const u8 gHangingyPokedexText[] = _(
     "someone, it will sometimes give that\n"
     "person the rock.");
 
-const u8 gChatotPokedexText[] = _(
+const u8 gEnderagonPokedexText[] = _(
     "It mimics the cries of other Pokémon to\n"
     "trick them into thinking it's one of them.\n"
     "This way they won't attack it. It can\n"
@@ -7630,11 +7630,11 @@ const u8 gNawfflePokedexText[] = _(
 const u8 gKrakrumPokedexText[] = _(
     "Krakrum has appeared in mythology as the\n"
     "creator of the sea. After long years of\n"
-    "feuding with Groudon, it took to sleep at\n"
+    "feuding with Noirnet, it took to sleep at\n"
     "the bottom of the sea.");
 
-const u8 gGroudonPokedexText[] = _(
-    "Groudon has appeared in mythology as the\n"
+const u8 gNoirnetPokedexText[] = _(
+    "Noirnet has appeared in mythology as the\n"
     "creator of the land. It sleeps in magma\n"
     "underground and is said to make volcanoes\n"
     "erupt on awakening.");
@@ -7642,7 +7642,7 @@ const u8 gGroudonPokedexText[] = _(
 const u8 gRayquazaPokedexText[] = _(
     "A Pokémon that flies endlessly in the\n"
     "ozone layer. It is said it would descend\n"
-    "to the ground if Krakrum and Groudon\n"
+    "to the ground if Krakrum and Noirnet\n"
     "were to fight.");
 
 const u8 gLatiasPokedexText[] = _(
@@ -7837,7 +7837,7 @@ const u8 gMojisleyPokedexText[] = _(
     "on hand become a part of its body.\n"
     "The cloak is never shed.");
 
-const u8 gMothimPokedexText[] = _(
+const u8 gGailordPokedexText[] = _(
     "It does not keep a nest. While it\n"
     "loves floral honey, it won't gather\n"
     "any itself. Instead, it plots to steal\n"
@@ -8000,7 +8000,7 @@ const u8 gHangingyPokedexText[] = _(
     "someone, it will sometimes give that\n"
     "person the rock.");
 
-const u8 gChatotPokedexText[] = _(
+const u8 gEnderagonPokedexText[] = _(
     "It mimics the cries of other Pokémon to\n"
     "trick them into thinking it's one of them.\n"
     "This way they won't attack it. It can\n"

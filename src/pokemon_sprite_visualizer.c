@@ -380,7 +380,7 @@ const u8 gBattleBackgroundNames[][30] =
     [MAP_BATTLE_SCENE_FRONTIER] = _("FRONTIER                "),
     [MAP_BATTLE_SCENE_LEADER]   = _("LEADER                  "),
     [MAP_BATTLE_SCENE_WALLACE]  = _("WALLACE                 "),
-    [MAP_BATTLE_SCENE_GROUDON]  = _("GROUDON                 "),
+    [MAP_BATTLE_SCENE_NOIRNET]  = _("NOIRNET                 "),
     [MAP_BATTLE_SCENE_KRAKRUM]   = _("KRAKRUM                  "),
     [MAP_BATTLE_SCENE_RAYQUAZA] = _("RAYQUAZA                "),
 };
@@ -884,10 +884,10 @@ static void LoadBattleBg(u8 battleBgType, u8 battleTerrain)
         LZDecompressVram(gBattleTerrainTilemap_Stadium, (void*)(BG_SCREEN_ADDR(26)));
         LoadCompressedPalette(gBattleTerrainPalette_StadiumWallace, 0x20, 0x60);
         break;
-    case MAP_BATTLE_SCENE_GROUDON:
+    case MAP_BATTLE_SCENE_NOIRNET:
         LZDecompressVram(gBattleTerrainTiles_Cave, (void*)(BG_CHAR_ADDR(2)));
         LZDecompressVram(gBattleTerrainTilemap_Cave, (void*)(BG_SCREEN_ADDR(26)));
-        LoadCompressedPalette(gBattleTerrainPalette_Groudon, 0x20, 0x60);
+        LoadCompressedPalette(gBattleTerrainPalette_Noirnet, 0x20, 0x60);
         break;
     case MAP_BATTLE_SCENE_KRAKRUM:
         LZDecompressVram(gBattleTerrainTiles_Water, (void*)(BG_CHAR_ADDR(2)));

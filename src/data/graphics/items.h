@@ -1378,8 +1378,8 @@ const u32 gItemIconPalette_UNSCnite[] = INCBIN_U32("graphics/items/icon_palettes
 const u32 gItemIcon_Galladite[] = INCBIN_U32("graphics/items/icons/galladite.4bpp.lz");
 const u32 gItemIconPalette_Galladite[] = INCBIN_U32("graphics/items/icon_palettes/galladite.gbapal.lz");
 
-const u32 gItemIcon_Audinite[] = INCBIN_U32("graphics/items/icons/audinite.4bpp.lz");
-const u32 gItemIconPalette_Audinite[] = INCBIN_U32("graphics/items/icon_palettes/audinite.gbapal.lz");
+const u32 gItemIcon_UNJOYITE[] = INCBIN_U32("graphics/items/icons/unjoyite.4bpp.lz");
+const u32 gItemIconPalette_UNJOYITE[] = INCBIN_U32("graphics/items/icon_palettes/unjoyite.gbapal.lz");
 
 const u32 gItemIcon_Hazethothite[] = INCBIN_U32("graphics/items/icons/hazethothite.4bpp.lz");
 const u32 gItemIconPalette_Hazethothite[] = INCBIN_U32("graphics/items/icon_palettes/hazethothite.gbapal.lz");

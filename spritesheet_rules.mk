@@ -581,7 +581,7 @@ $(OBJEVENTGFXDIR)/pokemon/hugeman.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/pokemon/enemy_meowrrior.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
-$(OBJEVENTGFXDIR)/pokemon/groudon.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/pokemon/noirnet.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
 $(OBJEVENTGFXDIR)/pokemon/suffer.4bpp: %.4bpp: %.png

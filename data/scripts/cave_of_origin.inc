@@ -2,7 +2,7 @@
 CaveOfOrigin_EventScript_LegendaryCry:: @ 8272274
 	lockall
 	waitse
-	playmoncry SPECIES_KRAKRUM, 2  @ SPECIES_GROUDON in Ruby
+	playmoncry SPECIES_KRAKRUM, 2  @ SPECIES_NOIRNET in Ruby
 	waitmoncry
 	setvar VAR_TEMP_5, 1
 	releaseall

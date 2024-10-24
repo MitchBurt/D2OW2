@@ -8481,7 +8481,7 @@ static void Task_HandleFormsScreenInput(u8 taskId)
 	else
 		numForms = (sizeof(gFormSpeciesIdTables[species])/sizeof(gFormSpeciesIdTables[species][0]));
 	
-	if(GetFormSpeciesId(species, dexFormId +1) >= SPECIES_YGGDRACON_MEGA && GetFormSpeciesId(species, dexFormId +1) <= SPECIES_GROUDON_PRIMAL)
+	if(GetFormSpeciesId(species, dexFormId +1) >= SPECIES_YGGDRACON_MEGA && GetFormSpeciesId(species, dexFormId +1) <= SPECIES_NOIRNET_PRIMAL)
 		cannextFormMegaEvolve = TRUE;
 	
 	if (JOY_NEW(A_BUTTON))

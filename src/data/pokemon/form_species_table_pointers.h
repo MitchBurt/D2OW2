@@ -61,7 +61,7 @@ const u16 *const gFormSpeciesIdTables[NUM_SPECIES] =
     [SPECIES_LATIAS] = sLatiasFormSpeciesIdTable,
     [SPECIES_LATIOS] = sLatiosFormSpeciesIdTable,
     [SPECIES_KRAKRUM] = sKrakrumFormSpeciesIdTable,
-    [SPECIES_GROUDON] = sGroudonFormSpeciesIdTable,
+    [SPECIES_NOIRNET] = sNoirnetFormSpeciesIdTable,
     [SPECIES_RAYQUAZA] = sRayquazaFormSpeciesIdTable,
     [SPECIES_DEOXYS] = sDeoxysFormSpeciesIdTable,
     [SPECIES_PARSLITO] = sParslitoFormSpeciesIdTable,
@@ -159,12 +159,12 @@ const u16 *const gFormSpeciesIdTables[NUM_SPECIES] =
     [SPECIES_BLOKNOCK_MEGA] = sBloknockFormSpeciesIdTable,
     [SPECIES_ABOMASNOW_MEGA] = sAbomasnowFormSpeciesIdTable,
     [SPECIES_GALLADE_MEGA] = sGalladeFormSpeciesIdTable,
-    [SPECIES_AUDINO_MEGA] = sAudinoFormSpeciesIdTable,
+    [SPECIES_UNJOY_MEGA] = sAudinoFormSpeciesIdTable,
     [SPECIES_DIANCIE_MEGA] = sDiancieFormSpeciesIdTable,
     // Special Mega + Primals
     [SPECIES_RAYQUAZA_MEGA] = sRayquazaFormSpeciesIdTable,
     [SPECIES_KRAKRUM_PRIMAL] = sKrakrumFormSpeciesIdTable,
-    [SPECIES_GROUDON_PRIMAL] = sGroudonFormSpeciesIdTable,
+    [SPECIES_NOIRNET_PRIMAL] = sNoirnetFormSpeciesIdTable,
 	// Alolan Forms
     [SPECIES_HANGSTER_ALOLAN] = sHangsterFormSpeciesIdTable,
     [SPECIES_GAWDAMSTER_ALOLAN] = sGawdamsterFormSpeciesIdTable,
@@ -515,12 +515,12 @@ const u16 gBaseFormID[NUM_SPECIES] =
     [SPECIES_BLOKNOCK_MEGA] = SPECIES_BLOKNOCK,
     [SPECIES_ABOMASNOW_MEGA] = SPECIES_ABOMASNOW,
     [SPECIES_GALLADE_MEGA] = SPECIES_GALLADE,
-    [SPECIES_AUDINO_MEGA] = SPECIES_AUDINO,
+    [SPECIES_UNJOY_MEGA] = SPECIES_AUDINO,
     [SPECIES_DIANCIE_MEGA] = SPECIES_DIANCIE,
     // Special Mega + Primals
     [SPECIES_RAYQUAZA_MEGA] = SPECIES_RAYQUAZA,
     [SPECIES_KRAKRUM_PRIMAL] = SPECIES_KRAKRUM,
-    [SPECIES_GROUDON_PRIMAL] = SPECIES_GROUDON,
+    [SPECIES_NOIRNET_PRIMAL] = SPECIES_NOIRNET,
 	// Alolan Forms
     [SPECIES_HANGSTER_ALOLAN] = SPECIES_HANGSTER,
     [SPECIES_GAWDAMSTER_ALOLAN] = SPECIES_GAWDAMSTER,

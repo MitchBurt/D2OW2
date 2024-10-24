@@ -6,7 +6,7 @@ raw `
 .set LOCALID_BOY_1, 5
 .set LOCALID_STEVEN, 7
 .set LOCALID_WOMAN_1, 8
-.set LOCALID_GROUDON, 9
+.set LOCALID_NOIRNET, 9
 .set LOCALID_KRAKRUM, 10
 .set LOCALID_RAYQUAZA, 11
 .set LOCALID_MANIAC, 12
@@ -236,17 +236,17 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter:: @ 81E5946
 	fadescreenspeed FADE_TO_BLACK, 8
 	setweather WEATHER_ABNORMAL
 	doweather
-	setvar VAR_0x8004, FALSE @ Just do Groudon/Krakrum fight scene
+	setvar VAR_0x8004, FALSE @ Just do Noirnet/Krakrum fight scene
 	special Script_DoRayquazaScene
 	waitstate
 	applymovement LOCALID_KRAKRUM, Common_Movement_WalkInPlaceFastestLeft
-	applymovement LOCALID_GROUDON, Common_Movement_WalkInPlaceFastestRight
+	applymovement LOCALID_NOIRNET, Common_Movement_WalkInPlaceFastestRight
 	waitmovement 0
 	delay 60
 	waitse
 	playmoncry SPECIES_KRAKRUM, 2
 	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_KrakrumAttack
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonDefend
+	applymovement LOCALID_NOIRNET, SootopolisCity_Movement_NoirnetDefend
 	waitmovement 0
 	setvar VAR_0x8004, 1  @ vertical pan
 	setvar VAR_0x8005, 1  @ horizontal pan
@@ -255,12 +255,12 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter:: @ 81E5946
 	special ShakeCamera
 	waitstate
 	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_KrakrumMoveBack
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
+	applymovement LOCALID_NOIRNET, SootopolisCity_Movement_NoirnetMoveBack
 	waitmovement 0
 	waitse
-	playmoncry SPECIES_GROUDON, 2
-	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_GroudonAttack
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_KrakrumDefend
+	playmoncry SPECIES_NOIRNET, 2
+	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_NoirnetAttack
+	applymovement LOCALID_NOIRNET, SootopolisCity_Movement_KrakrumDefend
 	waitmovement 0
 	setvar VAR_0x8004, 1  @ vertical pan
 	setvar VAR_0x8005, 1  @ horizontal pan
@@ -269,12 +269,12 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter:: @ 81E5946
 	special ShakeCamera
 	waitstate
 	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_KrakrumMoveBack
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
+	applymovement LOCALID_NOIRNET, SootopolisCity_Movement_NoirnetMoveBack
 	waitmovement 0
 	waitse
 	playmoncry SPECIES_KRAKRUM, 2
 	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_KrakrumAttack
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonDefend
+	applymovement LOCALID_NOIRNET, SootopolisCity_Movement_NoirnetDefend
 	waitmovement 0
 	setvar VAR_0x8004, 1  @ vertical pan
 	setvar VAR_0x8005, 1  @ horizontal pan
@@ -283,11 +283,11 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter:: @ 81E5946
 	special ShakeCamera
 	waitstate
 	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_KrakrumMoveBack
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
+	applymovement LOCALID_NOIRNET, SootopolisCity_Movement_NoirnetMoveBack
 	waitmovement 0
 	special SpawnCameraObject
 	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_KrakrumIdle
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonIdle
+	applymovement LOCALID_NOIRNET, SootopolisCity_Movement_NoirnetIdle
 	applymovement OBJ_EVENT_ID_CAMERA, SootopolisCity_Movement_PanBackToPokeCenter
 	waitmovement 0
 	special RemoveCameraObject
@@ -336,17 +336,17 @@ SootopolisCity_EventScript_LegendariesSceneFromDive:: @ 81E5A82
 	fadescreenspeed FADE_TO_BLACK, 8
 	setweather WEATHER_ABNORMAL
 	doweather
-	setvar VAR_0x8004, FALSE @ Just do Groudon/Krakrum fight scene
+	setvar VAR_0x8004, FALSE @ Just do Noirnet/Krakrum fight scene
 	special Script_DoRayquazaScene
 	waitstate
 	applymovement LOCALID_KRAKRUM, Common_Movement_WalkInPlaceFastestLeft
-	applymovement LOCALID_GROUDON, Common_Movement_WalkInPlaceFastestRight
+	applymovement LOCALID_NOIRNET, Common_Movement_WalkInPlaceFastestRight
 	waitmovement 0
 	delay 60
 	waitse
 	playmoncry SPECIES_KRAKRUM, 2
 	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_KrakrumAttack
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonDefend
+	applymovement LOCALID_NOIRNET, SootopolisCity_Movement_NoirnetDefend
 	waitmovement 0
 	setvar VAR_0x8004, 1  @ vertical pan
 	setvar VAR_0x8005, 1  @ horizontal pan
@@ -355,12 +355,12 @@ SootopolisCity_EventScript_LegendariesSceneFromDive:: @ 81E5A82
 	special ShakeCamera
 	waitstate
 	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_KrakrumMoveBack
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
+	applymovement LOCALID_NOIRNET, SootopolisCity_Movement_NoirnetMoveBack
 	waitmovement 0
 	waitse
-	playmoncry SPECIES_GROUDON, 2
-	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_GroudonAttack
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_KrakrumDefend
+	playmoncry SPECIES_NOIRNET, 2
+	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_NoirnetAttack
+	applymovement LOCALID_NOIRNET, SootopolisCity_Movement_KrakrumDefend
 	waitmovement 0
 	setvar VAR_0x8004, 1  @ vertical pan
 	setvar VAR_0x8005, 1  @ horizontal pan
@@ -369,12 +369,12 @@ SootopolisCity_EventScript_LegendariesSceneFromDive:: @ 81E5A82
 	special ShakeCamera
 	waitstate
 	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_KrakrumMoveBack
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
+	applymovement LOCALID_NOIRNET, SootopolisCity_Movement_NoirnetMoveBack
 	waitmovement 0
 	waitse
 	playmoncry SPECIES_KRAKRUM, 2
 	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_KrakrumAttack
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonDefend
+	applymovement LOCALID_NOIRNET, SootopolisCity_Movement_NoirnetDefend
 	waitmovement 0
 	setvar VAR_0x8004, 1  @ vertical pan
 	setvar VAR_0x8005, 1  @ horizontal pan
@@ -383,11 +383,11 @@ SootopolisCity_EventScript_LegendariesSceneFromDive:: @ 81E5A82
 	special ShakeCamera
 	waitstate
 	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_KrakrumMoveBack
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonMoveBack
+	applymovement LOCALID_NOIRNET, SootopolisCity_Movement_NoirnetMoveBack
 	waitmovement 0
 	special SpawnCameraObject
 	applymovement LOCALID_KRAKRUM, SootopolisCity_Movement_KrakrumIdle
-	applymovement LOCALID_GROUDON, SootopolisCity_Movement_GroudonIdle
+	applymovement LOCALID_NOIRNET, SootopolisCity_Movement_NoirnetIdle
 	applymovement OBJ_EVENT_ID_CAMERA, SootopolisCity_Movement_PanBackToDive
 	waitmovement 0
 	special RemoveCameraObject
@@ -432,7 +432,7 @@ SootopolisCity_Movement_KrakrumAttack: @ 81E5BB8
 	clear_affine_anim
 	step_end
 
-SootopolisCity_Movement_GroudonAttack: @ 81E5BC2
+SootopolisCity_Movement_NoirnetAttack: @ 81E5BC2
 	delay_16
 	delay_16
 	delay_16
@@ -475,7 +475,7 @@ SootopolisCity_Movement_KrakrumDefend: @ 81E5BDD
 	walk_fast_right
 	step_end
 
-SootopolisCity_Movement_GroudonDefend: @ 81E5BE5
+SootopolisCity_Movement_NoirnetDefend: @ 81E5BE5
 	delay_16
 	delay_16
 	delay_16
@@ -488,7 +488,7 @@ SootopolisCity_Movement_GroudonDefend: @ 81E5BE5
 	walk_fast_right
 	step_end
 
-SootopolisCity_Movement_GroudonMoveBack: @ 81E5BF0
+SootopolisCity_Movement_NoirnetMoveBack: @ 81E5BF0
 	lock_facing_direction
 	walk_left
 	delay_16
@@ -497,7 +497,7 @@ SootopolisCity_Movement_GroudonMoveBack: @ 81E5BF0
 	unlock_facing_direction
 	step_end
 
-SootopolisCity_Movement_GroudonIdle: @ 81E5BF7
+SootopolisCity_Movement_NoirnetIdle: @ 81E5BF7
 	walk_in_place_slow_right
 	walk_in_place_slow_right
 	walk_in_place_slow_right
@@ -526,7 +526,7 @@ SootopolisCity_EventScript_RayquazaSceneFromPokeCenter:: @ 81E5C1E
 	delay 60
 	fadescreenspeed FADE_TO_BLACK, 8
 	call SootopolisCity_EventScript_SetRoughWater
-	removeobject LOCALID_GROUDON
+	removeobject LOCALID_NOIRNET
 	removeobject LOCALID_KRAKRUM
 	addobject LOCALID_RAYQUAZA
 	setvar VAR_0x8004, TRUE
@@ -579,7 +579,7 @@ SootopolisCity_EventScript_RayquazaSceneFromDive:: @ 81E5CCE
 	delay 60
 	fadescreenspeed FADE_TO_BLACK, 8
 	call SootopolisCity_EventScript_SetRoughWater
-	removeobject LOCALID_GROUDON
+	removeobject LOCALID_NOIRNET
 	removeobject LOCALID_KRAKRUM
 	addobject LOCALID_RAYQUAZA
 	setvar VAR_0x8004, TRUE
@@ -1426,7 +1426,7 @@ SootopolisCity_EventScript_Maxie:: @ 81E64F2
 	lockall
 	compare VAR_SOOTOPOLIS_CITY_STATE, 5
 	goto_if_eq SootopolisCity_EventScript_MaxieRayquaza
-	msgbox SootopolisCity_Text_GroudonPleaseStop, MSGBOX_DEFAULT
+	msgbox SootopolisCity_Text_NoirnetPleaseStop, MSGBOX_DEFAULT
 	closemessage
 	releaseall
 	end
@@ -1510,7 +1510,7 @@ SootopolisCity_Text_WhatIsThatGreenPokemon: @ 81E6750
 	.string "What is that green Pokémon?!$"
 
 SootopolisCity_Text_WhereDidLegendariesGo: @ 81E677F
-	.string "Groudon and Krakrum…\n"
+	.string "Noirnet and Krakrum…\n"
 	.string "Where did they go?\p"
 	.string "Will they cause droughts or downpours\n"
 	.string "somewhere else?$"
@@ -1667,8 +1667,8 @@ SootopolisCity_Text_YouBroughtFlyingMon: @ 81E728C
 	.string "Pokémon here?\p"
 	.string "Well, aren't you amazing!$"
 
-SootopolisCity_Text_GroudonPleaseStop: @ 81E72DB
-	.string "Maxie: G… Groudon…\n"
+SootopolisCity_Text_NoirnetPleaseStop: @ 81E72DB
+	.string "Maxie: G… Noirnet…\n"
 	.string "Please! Stop what you're doing!\p"
 	.string "I know the extent of your power now!\p"
 	.string "If you keep going, all Hoenn, not just\n"
@@ -1676,7 +1676,7 @@ SootopolisCity_Text_GroudonPleaseStop: @ 81E72DB
 
 SootopolisCity_Text_AfterAllOurScheming: @ 81E737E
 	.string "Maxie: So the super-ancient Pokémon\n"
-	.string "weren't only Groudon and Krakrum…\p"
+	.string "weren't only Noirnet and Krakrum…\p"
 	.string "After all our fruitless scheming and\n"
 	.string "frantic efforts, that one Pokémon's\l"
 	.string "simple action puts everything right\l"
@@ -1694,7 +1694,7 @@ SootopolisCity_Text_KrakrumCalmDown: @ 81E7460
 	.string "It's not responding at all!$"
 
 SootopolisCity_Text_TryingMeaninglessToPokemon: @ 81E74F6
-	.string "Archie: Krakrum and Groudon both\n"
+	.string "Archie: Krakrum and Noirnet both\n"
 	.string "flew off to who knows where.\p"
 	.string "The weather in Hoenn has returned\n"
 	.string "to its normal state…\p"
@@ -1706,7 +1706,7 @@ SootopolisCity_Text_TryingMeaninglessToPokemon: @ 81E74F6
 
 SootopolisCity_Text_InvolvedWithCrisisComeWithMe: @ 81E75CB
 	.string "Steven: Those Pokémon fighting…\n"
-	.string "Groudon… And Krakrum…\p"
+	.string "Noirnet… And Krakrum…\p"
 	.string "The two super-ancient Pokémon\n"
 	.string "were awakened from a long sleep…\p"
 	.string "And now they are smashing each other\n"
@@ -1721,7 +1721,7 @@ SootopolisCity_Text_InvolvedWithCrisisComeWithMe: @ 81E75CB
 
 SootopolisCity_Text_DoesThisMakeYourFearPokemon: @ 81E7737
 	.string "Steven: Listen, {PLAYER}{KUN}.\p"
-	.string "Does seeing Groudon and Krakrum make\n"
+	.string "Does seeing Noirnet and Krakrum make\n"
 	.string "you think Pokémon are to be feared?\p"
 	.string "But that's not true.\n"
 	.string "Pokémon are really more…\p"

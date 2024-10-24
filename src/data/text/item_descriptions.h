@@ -2662,7 +2662,7 @@ static const u8 sGalladiteDesc[] = _(
     "megaevolucionar a\n"
     "Gallade.");
 
-static const u8 sAudiniteDesc[] = _(
+static const u8 sUNJOYITEDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
     "Audino.");
@@ -5895,7 +5895,7 @@ static const u8 sGalladiteDesc[] = _(
     "Gallade to Mega\n"
     "Evolve in battle.");
 
-static const u8 sAudiniteDesc[] = _(
+static const u8 sUNJOYITEDesc[] = _(
     "This stone enables\n"
     "Audino to Mega\n"
     "Evolve in battle.");

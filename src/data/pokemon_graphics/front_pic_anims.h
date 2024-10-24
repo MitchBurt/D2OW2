@@ -4456,7 +4456,7 @@ static const union AnimCmd sAnim_KRAKRUM_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_GROUDON_1[] =
+static const union AnimCmd sAnim_NOIRNET_1[] =
 {
     ANIMCMD_FRAME(0, 11),
     ANIMCMD_FRAME(1, 10),
@@ -4466,7 +4466,7 @@ static const union AnimCmd sAnim_GROUDON_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_GROUDON_2[] =
+static const union AnimCmd sAnim_NOIRNET_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -5040,7 +5040,7 @@ static const union AnimCmd sAnim_MOJISLEY_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_MOTHIM_1[] =
+static const union AnimCmd sAnim_GAILORD_1[] =
 {
     ANIMCMD_FRAME(0, 4),
     ANIMCMD_FRAME(1, 4),
@@ -5283,7 +5283,7 @@ static const union AnimCmd sAnim_HANGINGY_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_CHATOT_1[] =
+static const union AnimCmd sAnim_ENDERAGON_1[] =
 {
     ANIMCMD_FRAME(0, 30),
     ANIMCMD_FRAME(1, 30),
@@ -8694,7 +8694,7 @@ static const union AnimCmd sAnim_KRAKRUM_PRIMAL_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_GROUDON_PRIMAL_1[] =
+static const union AnimCmd sAnim_NOIRNET_PRIMAL_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
@@ -8736,7 +8736,7 @@ static const union AnimCmd sAnim_GALLADE_MEGA_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_AUDINO_MEGA_1[] =
+static const union AnimCmd sAnim_UNJOY_MEGA_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
@@ -11117,10 +11117,10 @@ static const union AnimCmd *const sAnims_KRAKRUM[] ={
     sAnim_KRAKRUM_2,
 };
 
-static const union AnimCmd *const sAnims_GROUDON[] ={
+static const union AnimCmd *const sAnims_NOIRNET[] ={
     sAnim_GeneralFrame0,
-    sAnim_GROUDON_1,
-    sAnim_GROUDON_2,
+    sAnim_NOIRNET_1,
+    sAnim_NOIRNET_2,
 };
 
 static const union AnimCmd *const sAnims_RAYQUAZA[] ={
@@ -11433,9 +11433,9 @@ static const union AnimCmd *const sAnims_MOJISLEY[] ={
     sAnim_MOJISLEY_1,
 };
 
-static const union AnimCmd *const sAnims_MOTHIM[] ={
+static const union AnimCmd *const sAnims_GAILORD[] ={
     sAnim_GeneralFrame0,
-    sAnim_MOTHIM_1,
+    sAnim_GAILORD_1,
 };
 
 static const union AnimCmd *const sAnims_COMBEE[] ={
@@ -11569,9 +11569,9 @@ static const union AnimCmd *const sAnims_HANGINGY[] ={
     sAnim_HANGINGY_1,
 };
 
-static const union AnimCmd *const sAnims_CHATOT[] ={
+static const union AnimCmd *const sAnims_ENDERAGON[] ={
     sAnim_GeneralFrame0,
-    sAnim_CHATOT_1,
+    sAnim_ENDERAGON_1,
 };
 
 static const union AnimCmd *const sAnims_CHANCER[] ={
@@ -14089,9 +14089,9 @@ static const union AnimCmd *const sAnims_KRAKRUM_PRIMAL[] ={
     sAnim_KRAKRUM_PRIMAL_1,
 };
 
-static const union AnimCmd *const sAnims_GROUDON_PRIMAL[] ={
+static const union AnimCmd *const sAnims_NOIRNET_PRIMAL[] ={
     sAnim_GeneralFrame0,
-    sAnim_GROUDON_PRIMAL_1,
+    sAnim_NOIRNET_PRIMAL_1,
 };
 
 static const union AnimCmd *const sAnims_RAYQUAZA_MEGA[] ={
@@ -14124,9 +14124,9 @@ static const union AnimCmd *const sAnims_GALLADE_MEGA[] ={
     sAnim_GALLADE_MEGA_1,
 };
 
-static const union AnimCmd *const sAnims_AUDINO_MEGA[] ={
+static const union AnimCmd *const sAnims_UNJOY_MEGA[] ={
     sAnim_GeneralFrame0,
-    sAnim_AUDINO_MEGA_1,
+    sAnim_UNJOY_MEGA_1,
 };
 
 static const union AnimCmd *const sAnims_DIANCIE_MEGA[] ={
@@ -14818,7 +14818,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(REGICE),
     ANIM_CMD(NAWFFLE),
     ANIM_CMD(KRAKRUM),
-    ANIM_CMD(GROUDON),
+    ANIM_CMD(NOIRNET),
     ANIM_CMD(RAYQUAZA),
     ANIM_CMD(LATIAS),
     ANIM_CMD(LATIOS),
@@ -14852,7 +14852,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(BASTIODON),
     ANIM_CMD(PARSLITO),
     ANIM_CMD(MOJISLEY),
-    ANIM_CMD(MOTHIM),
+    ANIM_CMD(GAILORD),
     ANIM_CMD(COMBEE),
     ANIM_CMD(VESPIQUEN),
     ANIM_CMD(PACHIRISU),
@@ -14879,7 +14879,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(BONSLY),
     ANIM_CMD(MIMEJR),
     ANIM_CMD(HANGINGY),
-    ANIM_CMD(CHATOT),
+    ANIM_CMD(ENDERAGON),
     ANIM_CMD(CHANCER),
     ANIM_CMD(CAPPLE),
     ANIM_CMD(SHELLHAUL),
@@ -15382,11 +15382,11 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(BLOKNOCK_MEGA),
     ANIM_CMD(ABOMASNOW_MEGA),
     ANIM_CMD(GALLADE_MEGA),
-    ANIM_CMD(AUDINO_MEGA),
+    ANIM_CMD(UNJOY_MEGA),
     ANIM_CMD(DIANCIE_MEGA),
     ANIM_CMD(RAYQUAZA_MEGA),
     ANIM_CMD(KRAKRUM_PRIMAL),
-    ANIM_CMD(GROUDON_PRIMAL),
+    ANIM_CMD(NOIRNET_PRIMAL),
     ANIM_CMD(HANGSTER_ALOLAN),
     ANIM_CMD(GAWDAMSTER_ALOLAN),
     ANIM_CMD(DISHEATS_ALOLAN),

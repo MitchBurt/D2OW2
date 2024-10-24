@@ -12908,11 +12908,11 @@ static void Cmd_givecaughtmon(void)
         case SPECIES_BLOKNOCK_MEGA:
         case SPECIES_ABOMASNOW_MEGA:
         case SPECIES_GALLADE_MEGA:
-        case SPECIES_AUDINO_MEGA:
+        case SPECIES_UNJOY_MEGA:
         case SPECIES_DIANCIE_MEGA:
         case SPECIES_RAYQUAZA_MEGA:
         case SPECIES_KRAKRUM_PRIMAL:
-        case SPECIES_GROUDON_PRIMAL:
+        case SPECIES_NOIRNET_PRIMAL:
             SetMonData(&gEnemyParty[gBattlerPartyIndexes[GetCatchingBattler()]], MON_DATA_FORM_ID, &newFormId);
         break;
         case SPECIES_WISHIWASHI_SCHOOL:

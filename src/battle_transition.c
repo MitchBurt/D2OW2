@@ -87,7 +87,7 @@ static void Phase2Task_Regice(u8 taskId);
 static void Phase2Task_Nawffle(u8 taskId);
 static void Phase2Task_Regirock(u8 taskId);
 static void Phase2Task_Krakrum(u8 taskId);
-static void Phase2Task_Groudon(u8 taskId);
+static void Phase2Task_Noirnet(u8 taskId);
 static void Phase2Task_Rayquaza(u8 taskId);
 static void Phase2Task_ShredSplit(u8 taskId);
 static void Phase2Task_Blackhole1(u8 taskId);
@@ -139,9 +139,9 @@ static bool8 Phase2_WaitPaletteFade(struct Task *task);
 static bool8 Phase2_Krakrum_Func3(struct Task *task);
 static bool8 Phase2_Krakrum_Func4(struct Task *task);
 static bool8 Phase2_Krakrum_Func5(struct Task *task);
-static bool8 Phase2_Groudon_Func3(struct Task *task);
-static bool8 Phase2_Groudon_Func4(struct Task *task);
-static bool8 Phase2_Groudon_Func5(struct Task *task);
+static bool8 Phase2_Noirnet_Func3(struct Task *task);
+static bool8 Phase2_Noirnet_Func4(struct Task *task);
+static bool8 Phase2_Noirnet_Func5(struct Task *task);
 static bool8 Phase2_WeatherDuo_Func6(struct Task *task);
 static bool8 Phase2_WeatherDuo_Func7(struct Task *task);
 static bool8 Phase2_BigPokeball_Func1(struct Task *task);
@@ -293,12 +293,12 @@ static const u32 sRegirock_Tilemap[] = INCBIN_U32("graphics/battle_transitions/r
 static const u16 gUnknown_085BDB14[] = INCBIN_U16("graphics/battle_transitions/85BDB14.gbapal");
 static const u32 sKrakrum_Tileset[] = INCBIN_U32("graphics/battle_transitions/krakrum.4bpp.lz");
 static const u32 sKrakrum_Tilemap[] = INCBIN_U32("graphics/battle_transitions/krakrum.bin.lz");
-static const u32 sGroudon_Tileset[] = INCBIN_U32("graphics/battle_transitions/groudon.4bpp.lz");
-static const u32 sGroudon_Tilemap[] = INCBIN_U32("graphics/battle_transitions/groudon.bin.lz");
+static const u32 sNoirnet_Tileset[] = INCBIN_U32("graphics/battle_transitions/noirnet.4bpp.lz");
+static const u32 sNoirnet_Tilemap[] = INCBIN_U32("graphics/battle_transitions/noirnet.bin.lz");
 static const u16 sKrakrum1_Palette[] = INCBIN_U16("graphics/battle_transitions/krakrum_pt1.gbapal");
 static const u16 sKrakrum2_Palette[] = INCBIN_U16("graphics/battle_transitions/krakrum_pt2.gbapal");
-static const u16 sGroudon1_Palette[] = INCBIN_U16("graphics/battle_transitions/groudon_pt1.gbapal");
-static const u16 sGroudon2_Palette[] = INCBIN_U16("graphics/battle_transitions/groudon_pt2.gbapal");
+static const u16 sNoirnet1_Palette[] = INCBIN_U16("graphics/battle_transitions/noirnet_pt1.gbapal");
+static const u16 sNoirnet2_Palette[] = INCBIN_U16("graphics/battle_transitions/noirnet_pt2.gbapal");
 static const u16 sRayquaza_Palette[] = INCBIN_U16("graphics/battle_transitions/rayquaza.gbapal");
 static const u32 sRayquaza_Tileset[] = INCBIN_U32("graphics/battle_transitions/rayquaza.4bpp");
 static const u32 sRayquaza_Tilemap[] = INCBIN_U32("graphics/battle_transitions/rayquaza.bin");
@@ -342,7 +342,7 @@ static const TaskFunc sPhase2_Tasks[B_TRANSITION_COUNT] =
     [B_TRANSITION_NAWFFLE] = Phase2Task_Nawffle,
     [B_TRANSITION_REGIROCK] = Phase2Task_Regirock,
     [B_TRANSITION_KRAKRUM] = Phase2Task_Krakrum,
-    [B_TRANSITION_GROUDON] = Phase2Task_Groudon,
+    [B_TRANSITION_NOIRNET] = Phase2Task_Noirnet,
     [B_TRANSITION_RAYQUAZA] = Phase2Task_Rayquaza,
     [B_TRANSITION_SHRED_SPLIT] = Phase2Task_ShredSplit,
     [B_TRANSITION_BLACKHOLE1] = Phase2Task_Blackhole1,
@@ -639,13 +639,13 @@ static const s16 *const *const gUnknown_085C8D38[] =
     gUnknown_085C8D18
 };
 
-static const TransitionStateFunc sPhase2_Groudon_Funcs[] =
+static const TransitionStateFunc sPhase2_Noirnet_Funcs[] =
 {
     Phase2_WeatherTrio_Func1,
     Phase2_WaitPaletteFade,
-    Phase2_Groudon_Func3,
-    Phase2_Groudon_Func4,
-    Phase2_Groudon_Func5,
+    Phase2_Noirnet_Func3,
+    Phase2_Noirnet_Func4,
+    Phase2_Noirnet_Func5,
     Phase2_FramesCountdown,
     Phase2_WeatherDuo_Func6,
     Phase2_WeatherDuo_Func7
@@ -3059,31 +3059,31 @@ static bool16 sub_8149048(const s16 * const *arg0, struct StructRectangularSpira
     return TRUE;
 }
 
-static void Phase2Task_Groudon(u8 taskId)
+static void Phase2Task_Noirnet(u8 taskId)
 {
-    while (sPhase2_Groudon_Funcs[gTasks[taskId].tState](&gTasks[taskId]));
+    while (sPhase2_Noirnet_Funcs[gTasks[taskId].tState](&gTasks[taskId]));
 }
 
-static bool8 Phase2_Groudon_Func3(struct Task *task)
+static bool8 Phase2_Noirnet_Func3(struct Task *task)
 {
     u16 *tilemap, *tileset;
 
     GetBg0TilesDst(&tilemap, &tileset);
     CpuFill16(0, tilemap, 0x800);
-    LZ77UnCompVram(sGroudon_Tileset, tileset);
-    LZ77UnCompVram(sGroudon_Tilemap, tilemap);
+    LZ77UnCompVram(sNoirnet_Tileset, tileset);
+    LZ77UnCompVram(sNoirnet_Tilemap, tilemap);
 
     task->tState++;
     task->tData1 = 0;
     return FALSE;
 }
 
-static bool8 Phase2_Groudon_Func4(struct Task *task)
+static bool8 Phase2_Noirnet_Func4(struct Task *task)
 {
     if (task->tData1 % 3 == 0)
     {
         u16 var = (task->tData1 % 30) / 3;
-        LoadPalette(sGroudon1_Palette + (var * 16), 0xF0, 0x20);
+        LoadPalette(sNoirnet1_Palette + (var * 16), 0xF0, 0x20);
     }
     if (++task->tData1 > 58)
     {
@@ -3094,12 +3094,12 @@ static bool8 Phase2_Groudon_Func4(struct Task *task)
     return FALSE;
 }
 
-static bool8 Phase2_Groudon_Func5(struct Task *task)
+static bool8 Phase2_Noirnet_Func5(struct Task *task)
 {
     if (task->tData1 % 5 == 0)
     {
         s16 var = task->tData1 / 5;
-        LoadPalette(sGroudon2_Palette + (var * 16), 0xF0, 0x20);
+        LoadPalette(sNoirnet2_Palette + (var * 16), 0xF0, 0x20);
     }
     if (++task->tData1 > 68)
     {

@@ -919,17 +919,17 @@ void BattleSetup_StartScriptedWildBattle(void)
         gBattleTypeFlags = BATTLE_TYPE_LEGENDARY;
         CreateBattleStartTask(B_TRANSITION_NAWFFLE, MUS_VS_REGI);
         break;
-    case SPECIES_GROUDON:
-        gBattleTypeFlags |= BATTLE_TYPE_GROUDON;
-        CreateBattleStartTask(B_TRANSITION_GROUDON, MUS_VS_KRAKRUM_GROUDON);
+    case SPECIES_NOIRNET:
+        gBattleTypeFlags |= BATTLE_TYPE_NOIRNET;
+        CreateBattleStartTask(B_TRANSITION_NOIRNET, MUS_VS_KRAKRUM_NOIRNET);
         break;
     case SPECIES_KRAKRUM:
         gBattleTypeFlags |= BATTLE_TYPE_KRAKRUM;
-        CreateBattleStartTask(B_TRANSITION_KRAKRUM, MUS_VS_KRAKRUM_GROUDON);
+        CreateBattleStartTask(B_TRANSITION_KRAKRUM, MUS_VS_KRAKRUM_NOIRNET);
         break;
     case SPECIES_RAYQUAZA:
         gBattleTypeFlags |= BATTLE_TYPE_RAYQUAZA;
-        CreateBattleStartTask(B_TRANSITION_RAYQUAZA, MUS_VS_KRAKRUM_GROUDON);
+        CreateBattleStartTask(B_TRANSITION_RAYQUAZA, MUS_VS_KRAKRUM_NOIRNET);
         break;
     case SPECIES_DEOXYS:
         CreateBattleStartTask(B_TRANSITION_BLUR, MUS_RG_VS_DEOXYS);
@@ -1003,17 +1003,17 @@ void BattleSetup_StartLegendaryBattle(void)
     switch (GetMonData(&gEnemyParty[0], MON_DATA_SPECIES, NULL))
     {
     default:
-    case SPECIES_GROUDON:
-        gBattleTypeFlags |= BATTLE_TYPE_GROUDON;
-        CreateBattleStartTask(B_TRANSITION_GROUDON, MUS_VS_KRAKRUM_GROUDON);
+    case SPECIES_NOIRNET:
+        gBattleTypeFlags |= BATTLE_TYPE_NOIRNET;
+        CreateBattleStartTask(B_TRANSITION_NOIRNET, MUS_VS_KRAKRUM_NOIRNET);
         break;
     case SPECIES_KRAKRUM:
         gBattleTypeFlags |= BATTLE_TYPE_KRAKRUM;
-        CreateBattleStartTask(B_TRANSITION_KRAKRUM, MUS_VS_KRAKRUM_GROUDON);
+        CreateBattleStartTask(B_TRANSITION_KRAKRUM, MUS_VS_KRAKRUM_NOIRNET);
         break;
     case SPECIES_RAYQUAZA:
         gBattleTypeFlags |= BATTLE_TYPE_RAYQUAZA;
-        CreateBattleStartTask(B_TRANSITION_RAYQUAZA, MUS_VS_KRAKRUM_GROUDON);
+        CreateBattleStartTask(B_TRANSITION_RAYQUAZA, MUS_VS_KRAKRUM_NOIRNET);
         break;
     case SPECIES_DEOXYS:
         CreateBattleStartTask(B_TRANSITION_BLUR, MUS_RG_VS_DEOXYS);
@@ -1033,16 +1033,16 @@ void BattleSetup_StartLegendaryBattle(void)
     TryUpdateGymLeaderRematchFromWild();
 }
 
-void StartGroudonKrakrumBattle(void)
+void StartNoirnetKrakrumBattle(void)
 {
     ScriptContext2_Enable();
     gMain.savedCallback = CB2_EndScriptedWildBattle;
-    gBattleTypeFlags = BATTLE_TYPE_LEGENDARY | BATTLE_TYPE_KRAKRUM_GROUDON;
+    gBattleTypeFlags = BATTLE_TYPE_LEGENDARY | BATTLE_TYPE_KRAKRUM_NOIRNET;
 
     if (gGameVersion == VERSION_RUBY)
-        CreateBattleStartTask(B_TRANSITION_SHARDS, MUS_VS_KRAKRUM_GROUDON); // GROUDON
+        CreateBattleStartTask(B_TRANSITION_SHARDS, MUS_VS_KRAKRUM_NOIRNET); // NOIRNET
     else
-        CreateBattleStartTask(B_TRANSITION_RIPPLE, MUS_VS_KRAKRUM_GROUDON); // KRAKRUM
+        CreateBattleStartTask(B_TRANSITION_RIPPLE, MUS_VS_KRAKRUM_NOIRNET); // KRAKRUM
 
     IncrementGameStat(GAME_STAT_TOTAL_BATTLES);
     IncrementGameStat(GAME_STAT_WILD_BATTLES);

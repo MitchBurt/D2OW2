@@ -13,7 +13,7 @@ extern const u8 gText_ExpandedPlaceholder_Magma[];
 extern const u8 gText_ExpandedPlaceholder_Archie[];
 extern const u8 gText_ExpandedPlaceholder_Maxie[];
 extern const u8 gText_ExpandedPlaceholder_Krakrum[];
-extern const u8 gText_ExpandedPlaceholder_Groudon[];
+extern const u8 gText_ExpandedPlaceholder_Noirnet[];
 extern const u8 gText_ExpandedPlaceholder_Brendan[];
 extern const u8 gText_ExpandedPlaceholder_May[];
 
@@ -3213,7 +3213,7 @@ extern const u8  gText_ColorWhite[];
 extern const u8  gText_ColorPink[];
 
 extern const u8 gText_TitleScreen_Rayquaza[];
-extern const u8 gText_TitleScreen_Groudon[];
+extern const u8 gText_TitleScreen_Noirnet[];
 extern const u8 gText_TitleScreen_Krakrum[];
 //extern const u8 gText_Game_Modes_Cancel[]
 

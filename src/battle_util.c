@@ -9675,7 +9675,7 @@ bool32 CanBattlerGetOrLoseItem(u8 battlerId, u16 itemId)
         return FALSE;
     else if (species == SPECIES_KRAKRUM && itemId == ITEM_BLUE_ORB)
         return FALSE;
-    else if (species == SPECIES_GROUDON && itemId == ITEM_RED_ORB)
+    else if (species == SPECIES_NOIRNET && itemId == ITEM_RED_ORB)
         return FALSE;
 	else if (ItemId_GetHoldEffect(itemId) == HOLD_EFFECT_MEGA_STONE)
         return FALSE;

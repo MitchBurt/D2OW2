@@ -385,7 +385,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Latias
 	cry Cry_Latios
 	cry Cry_Krakrum
-	cry Cry_Groudon
+	cry Cry_Noirnet
 	cry Cry_Rayquaza
 	cry Cry_Jirachi
 	cry Cry_Deoxys
@@ -417,7 +417,7 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Bastiodon
 	cry_not Cry_Parslito
 	cry_not Cry_Mojisley
-	cry_not Cry_Mothim
+	cry_not Cry_Gailord
 	cry_not Cry_Combee
 	cry_not Cry_Vespiquen
 	cry_not Cry_Pachirisu
@@ -444,7 +444,7 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Bonsly
 	cry_not Cry_Mimejr
 	cry_not Cry_Hangingy
-	cry_not Cry_Chatot
+	cry_not Cry_Enderagon
 	cry_not Cry_Chancer
 	cry_not Cry_Capple
 	cry_not Cry_Shellhaul
@@ -951,12 +951,12 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Bloknock_Mega
 	cry_not Cry_Abomasnow_Mega
 	cry_not Cry_Gallade_Mega
-	cry_not Cry_Audino_Mega
+	cry_not Cry_UNJOY_MEGA
 	cry_not Cry_Diancie_Mega
 	@ Special Mega + Primals
 	cry_not Cry_Rayquaza_Mega
 	cry_not Cry_Krakrum_Primal
-	cry_not Cry_Groudon_Primal
+	cry_not Cry_Noirnet_Primal
 	@ Alolan Forms
 	cry Cry_Hangster
 	cry Cry_Gawdamster
@@ -1663,7 +1663,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Latias
 	cry2 Cry_Latios
 	cry2 Cry_Krakrum
-	cry2 Cry_Groudon
+	cry2 Cry_Noirnet
 	cry2 Cry_Rayquaza
 	cry2 Cry_Jirachi
 	cry2 Cry_Deoxys
@@ -1695,7 +1695,7 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Bastiodon
 	cry2_not Cry_Parslito
 	cry2_not Cry_Mojisley
-	cry2_not Cry_Mothim
+	cry2_not Cry_Gailord
 	cry2_not Cry_Combee
 	cry2_not Cry_Vespiquen
 	cry2_not Cry_Pachirisu
@@ -1722,7 +1722,7 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Bonsly
 	cry2_not Cry_Mimejr
 	cry2_not Cry_Hangingy
-	cry2_not Cry_Chatot
+	cry2_not Cry_Enderagon
 	cry2_not Cry_Chancer
 	cry2_not Cry_Capple
 	cry2_not Cry_Shellhaul
@@ -2229,12 +2229,12 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Bloknock_Mega
 	cry2_not Cry_Abomasnow_Mega
 	cry2_not Cry_Gallade_Mega
-	cry2_not Cry_Audino_Mega
+	cry2_not Cry_UNJOY_MEGA
 	cry2_not Cry_Diancie_Mega
 	@ Special Mega + Primals
 	cry2_not Cry_Rayquaza_Mega
 	cry2_not Cry_Krakrum_Primal
-	cry2_not Cry_Groudon_Primal
+	cry2_not Cry_Noirnet_Primal
 	@ Alolan Forms
 	cry2 Cry_Hangster
 	cry2 Cry_Gawdamster

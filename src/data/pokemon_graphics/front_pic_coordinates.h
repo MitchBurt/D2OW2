@@ -1905,7 +1905,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x87,
         .y_offset = 1,
     },
-    [SPECIES_GROUDON] =
+    [SPECIES_NOIRNET] =
     {
         .size = 0x88,
         .y_offset = 0,
@@ -2075,7 +2075,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x55,
         .y_offset = 12,
     },
-    [SPECIES_MOTHIM] =
+    [SPECIES_GAILORD] =
     {
         .size = 0x76,
         .y_offset = 12,
@@ -2210,7 +2210,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x56,
         .y_offset = 3,
     },
-    [SPECIES_CHATOT] =
+    [SPECIES_ENDERAGON] =
     {
         .size = 0x78,
         .y_offset = 11,
@@ -4727,7 +4727,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0,
         .y_offset = 1,
     },
-    [SPECIES_AUDINO_MEGA] =
+    [SPECIES_UNJOY_MEGA] =
     {
         .size = 0,
         .y_offset = 5,
@@ -4748,7 +4748,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x87,
         .y_offset = 0,
     },
-    [SPECIES_GROUDON_PRIMAL] =
+    [SPECIES_NOIRNET_PRIMAL] =
     {
         .size = 0x88,
         .y_offset = 0,
