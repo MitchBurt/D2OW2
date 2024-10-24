@@ -3,6 +3,7 @@
 #define egg_moves(species, moves...) (SPECIES_##species + EGG_MOVES_SPECIES_OFFSET), moves
 
 const u16 gEggMoves[] = {
+/*	
 	egg_moves(MEADOSAUR,
 		MOVE_FRENZY_PLANT,
 		MOVE_PETAL_DANCE,
@@ -3324,7 +3325,7 @@ const u16 gEggMoves[] = {
 		MOVE_NATURAL_GIFT,
 		MOVE_SEED_BOMB,
 		MOVE_AVALANCHE),
-
+*/
 	egg_moves(SNIVY,
 		MOVE_GLARE,
 		MOVE_MEAN_LOOK,
