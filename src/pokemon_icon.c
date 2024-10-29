@@ -938,7 +938,6 @@ const u8 *const gMonIconTable[] =
     [SPECIES_ROCK_MEGA] = gMonIcon_RockMega,
     [SPECIES_SHEPEIRD_MEGA] = gMonIcon_ShepeirdMega,
     [SPECIES_SNEDDIT_MEGA] = gMonIcon_SnedditMega,
-    [SPECIES_USARMY_MEGA] = gMonIcon_UsarmyMega,
     [SPECIES_GOD_MEGA_X] = gMonIcon_GodMegaX,
     [SPECIES_GOD_MEGA_Y] = gMonIcon_GodMegaY,
     [SPECIES_THEVOID_MEGA] = gMonIcon_ThevoidMega,
