@@ -4075,7 +4075,7 @@ Cry_Baitank_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_baitank.bin"
 
 	.align 2
-Cry_Thatsfurry_Mega::
+Cry_Awmane_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_thatsfurry.bin"
 
 	.align 2

@@ -691,7 +691,7 @@
 #define FLAG_UNUSED_0x285  0x285 // Nuggieite*
 #define FLAG_GOT_GAHNOMEDITE  0x286 // Minimalite*
 #define FLAG_UNUSED_0x287  0x287 // Frosiliskite*
-#define FLAG_GOT_THATSFURRYITE  0x288 // Thatsfurryite*
+#define FLAG_GOT_AWMANITE  0x288 // Awmanite*
 #define FLAG_UNUSED_0x289  0x289 // Mawilite*
 #define FLAG_GOT_VOIDITE  0x28A // Voidite*
 #define FLAG_UNUSED_0x28B  0x28B // Lonkestite*

@@ -930,7 +930,7 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Incredalen_Mega
 	cry_not Cry_Gourmaster_Mega
 	cry_not Cry_Baitank_Mega
-	cry_not Cry_Thatsfurry_Mega
+	cry_not Cry_Awmane_Mega
 	cry_not Cry_Secritler_Mega
 	cry_not Cry_Minitron_Mega
 	cry_not Cry_Murphire_Mega
@@ -2208,7 +2208,7 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Incredalen_Mega
 	cry2_not Cry_Gourmaster_Mega
 	cry2_not Cry_Baitank_Mega
-	cry2_not Cry_Thatsfurry_Mega
+	cry2_not Cry_Awmane_Mega
 	cry2_not Cry_Secritler_Mega
 	cry2_not Cry_Minitron_Mega
 	cry2_not Cry_Murphire_Mega

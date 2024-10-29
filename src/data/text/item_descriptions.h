@@ -2502,7 +2502,7 @@ static const u8 sBipharmiteDesc[] = _(
     "megaevolucionar a\n"
     "Sans.");
 
-static const u8 sThatsfurryiteDesc[] = _(
+static const u8 sAwmaniteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
     "Thatsfurry.");
@@ -5735,7 +5735,7 @@ static const u8 sBipharmiteDesc[] = _(
     "Sans to Mega\n"
     "Evolve in battle.");
 
-static const u8 sThatsfurryiteDesc[] = _(
+static const u8 sAwmaniteDesc[] = _(
     "This stone enables\n"
     "Thatsfurry to Mega\n"
     "Evolve in battle.");

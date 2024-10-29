@@ -7270,8 +7270,8 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza1[] = {
     .happiness = 255,
     .abilityNum = 2,
 	.species = SPECIES_THATSFURRY,
-    .postgameheldItem = ITEM_THATSFURRYITE,
-    .heldItem = ITEM_THATSFURRYITE,
+    .postgameheldItem = ITEM_AWMANITE,
+    .heldItem = ITEM_AWMANITE,
     .postgamemoves = {MOVE_HYPER_VOICE, MOVE_EXPANDING_FORCE, MOVE_THUNDERBOLT, MOVE_SHADOW_BALL},
     .moves = {MOVE_PSYCHIC, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
@@ -20711,8 +20711,8 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza3[] = {
     .happiness = 255,
     .abilityNum = 2,
 	.species = SPECIES_THATSFURRY,
-    .postgameheldItem = ITEM_THATSFURRYITE,
-    .heldItem = ITEM_THATSFURRYITE,
+    .postgameheldItem = ITEM_AWMANITE,
+    .heldItem = ITEM_AWMANITE,
     .postgamemoves = {MOVE_HYPER_VOICE, MOVE_PSYSHOCK, MOVE_THUNDERBOLT, MOVE_SHADOW_BALL},
     .moves = {MOVE_PSYSHOCK, MOVE_SHADOW_BALL, MOVE_THUNDERBOLT, MOVE_NONE}
     },
@@ -20861,8 +20861,8 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza5[] = {
     .happiness = 255,
     .abilityNum = 2,
 	.species = SPECIES_THATSFURRY,
-    .postgameheldItem = ITEM_THATSFURRYITE,
-    .heldItem = ITEM_THATSFURRYITE,
+    .postgameheldItem = ITEM_AWMANITE,
+    .heldItem = ITEM_AWMANITE,
     .postgamemoves = {MOVE_HYPER_VOICE, MOVE_PSYSHOCK, MOVE_THUNDERBOLT, MOVE_SHADOW_BALL},
     .moves = {MOVE_HYPER_VOICE, MOVE_PSYSHOCK, MOVE_THUNDERBOLT, MOVE_SHADOW_BALL}
     },

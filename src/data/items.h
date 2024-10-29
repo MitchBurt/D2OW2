@@ -9479,17 +9479,17 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_THATSFURRYITE] =
+    [ITEM_AWMANITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
         .name = _("Thatsfurryita"),
 #else
-        .name = _("Thatsfurryite"),
+        .name = _("Awmanite"),
 #endif
-        .itemId = ITEM_THATSFURRYITE,
+        .itemId = ITEM_AWMANITE,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sThatsfurryiteDesc,
+        .description = sAwmaniteDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,

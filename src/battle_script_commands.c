@@ -12886,7 +12886,7 @@ static void Cmd_givecaughtmon(void)
         case SPECIES_INCREDALEN_MEGA:
         case SPECIES_GOURMASTER_MEGA:
         case SPECIES_BAITANK_MEGA:
-        case SPECIES_THATSFURRY_MEGA:
+        case SPECIES_AWMANE_MEGA:
         case SPECIES_SECRITLER_MEGA:
         case SPECIES_MINITRON_MEGA:
         case SPECIES_MURPHIRE_MEGA:

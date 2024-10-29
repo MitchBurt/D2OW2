@@ -936,7 +936,7 @@
 #define SPECIES_INCREDALEN_MEGA                FORMS_START + 22
 #define SPECIES_GOURMASTER_MEGA                FORMS_START + 23
 #define SPECIES_BAITANK_MEGA                FORMS_START + 24
-#define SPECIES_THATSFURRY_MEGA               FORMS_START + 25
+#define SPECIES_AWMANE_MEGA               FORMS_START + 25
 #define SPECIES_SECRITLER_MEGA                 FORMS_START + 26
 #define SPECIES_MINITRON_MEGA                  FORMS_START + 27
 #define SPECIES_MURPHIRE_MEGA                  FORMS_START + 28

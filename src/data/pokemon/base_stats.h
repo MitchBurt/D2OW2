@@ -25458,6 +25458,31 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
+    [SPECIES_AWMANE_MEGA] =
+    {
+        .baseHP        = 100,
+        .baseAttack    = 140,
+        .baseDefense   = 101,
+        .baseSpeed     = 120,
+        .baseSpAttack  = 85,
+        .baseSpDefense = 85,
+        .type1 = TYPE_DARK,
+        .type2 = TYPE_DARK,
+        .catchRate = 45,
+        .expYield = 278,
+        .evYield_SpAttack  = 3,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = 35,
+        .growthRate = GROWTH_SLOW,
+        .eggGroup1 = EGG_GROUP_MONSTER,
+        .eggGroup2 = EGG_GROUP_MONSTER,
+        .abilities = {ABILITY_ROCK_HEAD, ABILITY_ROCK_HEAD},
+        .abilityHidden = ABILITY_ROCK_HEAD,
+        .bodyColor = BODY_COLOR_WHITE,
+        .noFlip = FALSE,
+    },
+
     [SPECIES_INCREDALEN_MEGA] =
     {
         .baseHP        = 70,
@@ -25533,30 +25558,6 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_THATSFURRY_MEGA] =
-    {
-        .baseHP        = 68,
-        .baseAttack    = 85,
-        .baseDefense   = 65,
-        .baseSpeed     = 100,
-        .baseSpAttack  = 165,
-        .baseSpDefense = 135,
-        .type1 = TYPE_PSYCHIC,
-        .type2 = TYPE_FAIRY,
-        .catchRate = 45,
-        .expYield = 278,
-        .evYield_SpAttack  = 3,
-        .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = 20,
-        .friendship = 35,
-        .growthRate = GROWTH_SLOW,
-        .eggGroup1 = EGG_GROUP_AMORPHOUS,
-        .eggGroup2 = EGG_GROUP_AMORPHOUS,
-        .abilities = {ABILITY_PIXILATE, ABILITY_PIXILATE},
-        .abilityHidden = ABILITY_PIXILATE,
-        .bodyColor = BODY_COLOR_WHITE,
-        .noFlip = FALSE,
-    },
 
     [SPECIES_SECRITLER_MEGA] =
     {
@@ -59144,7 +59145,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_THATSFURRY_MEGA] =
+    [SPECIES_AWMANE_MEGA] =
     {
         .baseHP        = 68,
         .baseAttack    = 85,

@@ -1276,8 +1276,8 @@ const u32 gItemIconPalette_SafetyGoggles[] = INCBIN_U32("graphics/items/icon_pal
 const u32 gItemIcon_Bipharmite[] = INCBIN_U32("graphics/items/icons/bipharmite.4bpp.lz");
 const u32 gItemIconPalette_Bipharmite[] = INCBIN_U32("graphics/items/icon_palettes/bipharmite.gbapal.lz");
 
-const u32 gItemIcon_Thatsfurryite[] = INCBIN_U32("graphics/items/icons/thatsfurryite.4bpp.lz");
-const u32 gItemIconPalette_Thatsfurryite[] = INCBIN_U32("graphics/items/icon_palettes/thatsfurryite.gbapal.lz");
+const u32 gItemIcon_Awmanite[] = INCBIN_U32("graphics/items/icons/awmanite.4bpp.lz");
+const u32 gItemIconPalette_Awmanite[] = INCBIN_U32("graphics/items/icon_palettes/awmanite.gbapal.lz");
 
 const u32 gItemIcon_Bacidite[] = INCBIN_U32("graphics/items/icons/bacidite.4bpp.lz");
 const u32 gItemIconPalette_Bacidite[] = INCBIN_U32("graphics/items/icon_palettes/bacidite.gbapal.lz");

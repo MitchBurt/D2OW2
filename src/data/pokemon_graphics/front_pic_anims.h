@@ -8592,7 +8592,7 @@ static const union AnimCmd sAnim_BAITANK_MEGA_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_THATSFURRY_MEGA_1[] =
+static const union AnimCmd sAnim_AWMANE_MEGA_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
@@ -14004,9 +14004,9 @@ static const union AnimCmd *const sAnims_BAITANK_MEGA[] ={
     sAnim_BAITANK_MEGA_1,
 };
 
-static const union AnimCmd *const sAnims_THATSFURRY_MEGA[] ={
+static const union AnimCmd *const sAnims_AWMANE_MEGA[] ={
     sAnim_GeneralFrame0,
-    sAnim_THATSFURRY_MEGA_1,
+    sAnim_AWMANE_MEGA_1,
 };
 
 static const union AnimCmd *const sAnims_SECRITLER_MEGA[] ={
@@ -15361,7 +15361,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(INCREDALEN_MEGA),
     ANIM_CMD(GOURMASTER_MEGA),
     ANIM_CMD(BAITANK_MEGA),
-    ANIM_CMD(THATSFURRY_MEGA),
+    ANIM_CMD(AWMANE_MEGA),
     ANIM_CMD(SECRITLER_MEGA),
     ANIM_CMD(MINITRON_MEGA),
     ANIM_CMD(MURPHIRE_MEGA),

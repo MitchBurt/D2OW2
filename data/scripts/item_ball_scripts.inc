@@ -714,8 +714,8 @@ MegaStone_EventScript_ItemUNJOYITE::
 	addscaleditem ITEM_UNJOYITE
 	end
 	
-MegaStone_EventScript_ItemThatsfurryite::
-	addscaleditem ITEM_THATSFURRYITE
+MegaStone_EventScript_ItemAwmanite::
+	addscaleditem ITEM_AWMANITE
 	end
 	
 MegaStone_EventScript_ItemSkorpyrosite_X::

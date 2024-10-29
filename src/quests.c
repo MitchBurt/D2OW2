@@ -392,7 +392,7 @@ static const struct SideQuest sSideQuests[SIDE_QUEST_COUNT] =
     side_quest(gText_SideQuestName_28, gText_SideQuestDesc_28, ITEM_UP_GRADE		, 1, 	gText_SideQuestHint_28, FLAG_ACHIEVEMENT_REWARD_28),
     side_quest(gText_SideQuestName_29, gText_SideQuestDesc_29, ITEM_CHERISH_BALL_SEAL, 1, 	gText_SideQuestHint_29, FLAG_ACHIEVEMENT_REWARD_29),
     side_quest(gText_SideQuestName_30, gText_SideQuestDesc_30, ITEM_PRETTY_WING		, 20, 	gText_SideQuestHint_30, FLAG_ACHIEVEMENT_REWARD_30),
-	side_quest(gText_SideQuestName_31, gText_SideQuestDesc_31, ITEM_THATSFURRYITE	, 1,    gText_SideQuestHint_31, FLAG_ACHIEVEMENT_REWARD_31),
+	side_quest(gText_SideQuestName_31, gText_SideQuestDesc_31, ITEM_AWMANITE	, 1,    gText_SideQuestHint_31, FLAG_ACHIEVEMENT_REWARD_31),
     side_quest(gText_SideQuestName_32, gText_SideQuestDesc_32, ITEM_EXP_CHARM		, 1, 	gText_SideQuestHint_32, FLAG_ACHIEVEMENT_REWARD_32),
     side_quest(gText_SideQuestName_00, gText_SideQuestDesc_00, ITEM_POKE_BALL		, 1, 	gText_SideQuestHint_00, FLAG_ACHIEVEMENT_REWARD_01),
     side_quest(gText_SideQuestName_00, gText_SideQuestDesc_00, ITEM_POKE_BALL		, 1, 	gText_SideQuestHint_00, FLAG_ACHIEVEMENT_REWARD_01),

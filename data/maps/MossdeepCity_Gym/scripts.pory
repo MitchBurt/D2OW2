@@ -159,11 +159,11 @@ MossdeepCity_Gym_EventScript_Start_Rematch_5::
 	end	
 	
 MossdeepCity_Gym_EventScript_Start_Rematch_6::
-	goto_if_set FLAG_GOT_THATSFURRYITE MossdeepCity_Gym_EventScript_Start_Rematch_Final
+	goto_if_set FLAG_GOT_AWMANITE MossdeepCity_Gym_EventScript_Start_Rematch_Final
 	trainerbattle_no_intro TRAINER_TATE_AND_LIZA_5, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat
 	msgbox MossdeepCity_Gym_Text_GetMegaStone, MSGBOX_DEFAULT
-	giveitem ITEM_THATSFURRYITE
-	setflag FLAG_GOT_THATSFURRYITE
+	giveitem ITEM_AWMANITE
+	setflag FLAG_GOT_AWMANITE
 	goto MossdeepCity_Gym_EventScript_TateAndLizaRematchEnd
 	end
 	
@@ -1123,12 +1123,12 @@ script MossdeepCity_Gym_EventScript_TateAndLiza_Give_Gifts{
 	//}
 
 	//Give Megastone
-	if(var(VAR_NUM_BADGES) >= 7 && !flag(FLAG_GOT_THATSFURRYITE)){
+	if(var(VAR_NUM_BADGES) >= 7 && !flag(FLAG_GOT_AWMANITE)){
 		msgbox(format("Tate: Take this as an special gift from us, it's a pair of Mega Stones."), MSGBOX_NPC)
-		giveitem(ITEM_THATSFURRYITE)
+		giveitem(ITEM_AWMANITE)
 		giveitem(ITEM_GALLADITE)
 		msgbox(format("Liza: Make a Thatsfurry or a Gallade hold it to unleash their real potential."), MSGBOX_NPC)
-		setflag(FLAG_GOT_THATSFURRYITE)
+		setflag(FLAG_GOT_AWMANITE)
 		setflag(FLAG_TEMP_9) //To check if you have been given multiple items
 	}
 	elif(!flag(FLAG_TEMP_9)){
