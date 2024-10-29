@@ -12240,7 +12240,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_KROLLER_MEGA] =
+    [SPECIES_SNEDDIT_MEGA] =
     {
         .move = MOVE_THRASH,
         .modification = SIGNATURE_MOD_TYPE,
@@ -12316,7 +12316,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
             "stats as well as its accuracy."),
     },
 
-    [SPECIES_BACID_MEGA] =
+    [SPECIES_THEVOID_MEGA] =
     {
         .move = MOVE_DISCHARGE,
         .modification = SIGNATURE_MOD_POWER,
@@ -12385,7 +12385,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_NUGGIE_MEGA] =
+    [SPECIES_GAHNOMED_MEGA] =
     {
         .move = MOVE_BULLET_PUNCH,
         .modification = SIGNATURE_MOD_POWER,
@@ -12393,7 +12393,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_HOLOCAST_MEGA] =
+    [SPECIES_GIGALPHA_MEGA] =
     {
         .move = MOVE_IRON_TAIL,
         .modification = SIGNATURE_MOD_ACCURACY,

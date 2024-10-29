@@ -4547,7 +4547,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_TROLOLO_MEGA] =
+    [SPECIES_ROCK_MEGA] =
     {
         .size = 0,
         .y_offset = 0,

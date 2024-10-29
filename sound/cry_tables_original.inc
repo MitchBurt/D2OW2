@@ -911,20 +911,20 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Skorpyros_Mega_Y
 	cry_not Cry_Speriathon_Mega
 	cry_not Cry_Berrord_Mega
-	cry_not Cry_Fazeagle_Mega
-	cry_not Cry_Kuklops_Mega
-	cry_not Cry_Shemue_Mega
-	cry_not Cry_Sans_Mega
-	cry_not Cry_Trololo_Mega
-	cry_not Cry_Itrimid_Mega
-	cry_not Cry_Kroller_Mega
-	cry_not Cry_Usarmy_Mega
+	cry_not Cry_Bug_Mega
+	cry_not Cry_Gothot_Mega
+	cry_not Cry_Dushroom_Mega
+	cry_not Cry_Jank_Mega
+	cry_not Cry_Rock_Mega
+	cry_not Cry_Shepeird_Mega
+	cry_not Cry_Sneddit_Mega
+	cry_not Cry_Tom_Mega
 	cry_not Cry_God_Mega_X
 	cry_not Cry_God_Mega_Y
-	cry_not Cry_Bacid_Mega
-	cry_not Cry_Holocast_Mega
-	cry_not Cry_Nuggie_Mega
-	cry_not Cry_Happymaul_Mega
+	cry_not Cry_Thevoid_Mega
+	cry_not Cry_Gigalpha_Mega
+	cry_not Cry_Gahnomed_Mega
+	cry_not Cry_Goalem_Mega
 	cry_not Cry_Minimal_Mega
 	cry_not Cry_Frosilisk_Mega
 	cry_not Cry_Incredalen_Mega
@@ -2189,20 +2189,20 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Skorpyros_Mega_Y
 	cry2_not Cry_Speriathon_Mega
 	cry2_not Cry_Berrord_Mega
-	cry2_not Cry_Fazeagle_Mega
-	cry2_not Cry_Kuklops_Mega
-	cry2_not Cry_Shemue_Mega
-	cry2_not Cry_Sans_Mega
-	cry2_not Cry_Trololo_Mega
-	cry2_not Cry_Itrimid_Mega
-	cry2_not Cry_Kroller_Mega
-	cry2_not Cry_Usarmy_Mega
+	cry2_not Cry_Bug_Mega
+	cry2_not Cry_Gothot_Mega
+	cry2_not Cry_Dushroom_Mega
+	cry2_not Cry_Jank_Mega
+	cry2_not Cry_Rock_Mega
+	cry2_not Cry_Shepeird_Mega
+	cry2_not Cry_Sneddit_Mega
+	cry2_not Cry_Tom_Mega
 	cry2_not Cry_God_Mega_X
 	cry2_not Cry_God_Mega_Y
-	cry2_not Cry_Bacid_Mega
-	cry2_not Cry_Holocast_Mega
-	cry2_not Cry_Nuggie_Mega
-	cry2_not Cry_Happymaul_Mega
+	cry2_not Cry_Thevoid_Mega
+	cry2_not Cry_Gigalpha_Mega
+	cry2_not Cry_Gahnomed_Mega
+	cry2_not Cry_Goalem_Mega
 	cry2_not Cry_Minimal_Mega
 	cry2_not Cry_Frosilisk_Mega
 	cry2_not Cry_Incredalen_Mega

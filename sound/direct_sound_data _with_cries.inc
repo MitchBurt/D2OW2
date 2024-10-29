@@ -3999,35 +3999,35 @@ Cry_Berrord_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_berrord.bin"
 
 	.align 2
-Cry_Fazeagle_Mega::
+Cry_Bug_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_fazeagle.bin"
 
 	.align 2
-Cry_Kuklops_Mega::
+Cry_Gothot_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_kuklops.bin"
 
 	.align 2
-Cry_Shemue_Mega::
+Cry_Dushroom_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_shemue.bin"
 
 	.align 2
-Cry_Sans_Mega::
+Cry_Jank_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_sans.bin"
 
 	.align 2
-Cry_Trololo_Mega::
+Cry_Rock_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_trololo.bin"
 
 	.align 2
-Cry_Itrimid_Mega::
+Cry_Shepeird_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_itrimid.bin"
 
 	.align 2
-Cry_Kroller_Mega::
+Cry_Sneddit_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_kroller.bin"
 
 	.align 2
-Cry_Usarmy_Mega::
+Cry_Tom_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_usarmy.bin"
 
 	.align 2
@@ -4039,19 +4039,19 @@ Cry_God_Mega_Y::
 	.incbin "sound/direct_sound_samples/cries/cry_god.bin"
 
 	.align 2
-Cry_Bacid_Mega::
+Cry_Thevoid_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_bacid.bin"
 
 	.align 2
-Cry_Holocast_Mega::
+Cry_Gigalpha_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_holocast.bin"
 
 	.align 2
-Cry_Nuggie_Mega::
+Cry_Gahnomed_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_nuggie.bin"
 
 	.align 2
-Cry_Happymaul_Mega::
+Cry_Goalem_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_happymaul.bin"
 
 	.align 2

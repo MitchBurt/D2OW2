@@ -58944,7 +58944,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_BACID_MEGA] =
+    [SPECIES_THEVOID_MEGA] =
     {
         .baseHP        = 90,
         .baseAttack    = 95,
@@ -58969,7 +58969,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_HOLOCAST_MEGA] =
+    [SPECIES_GIGALPHA_MEGA] =
     {
         .baseHP        = 75,
         .baseAttack    = 125,
@@ -58995,7 +58995,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_NUGGIE_MEGA] =
+    [SPECIES_GAHNOMED_MEGA] =
     {
         .baseHP        = 70,
         .baseAttack    = 150,
@@ -59020,7 +59020,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_HAPPYMAUL_MEGA] =
+    [SPECIES_GOALEM_MEGA] =
     {
         .baseHP        = 80,
         .baseAttack    = 185,
