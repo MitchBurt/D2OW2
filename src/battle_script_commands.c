@@ -12867,23 +12867,22 @@ static void Cmd_givecaughtmon(void)
         case SPECIES_SKORPYROS_MEGA_X:
         case SPECIES_SKORPYROS_MEGA_Y:
         case SPECIES_SPERIATHON_MEGA:
-        case SPECIES_BERRORD_MEGA:
-        case SPECIES_FAZEAGLE_MEGA:
-        case SPECIES_KUKLOPS_MEGA:
-        case SPECIES_SHEMUE_MEGA:
-        case SPECIES_SANS_MEGA:
-        case SPECIES_TROLOLO_MEGA:
-        case SPECIES_ITRIMID_MEGA:
-        case SPECIES_KROLLER_MEGA:
-        case SPECIES_USARMY_MEGA:
+        case SPECIES_BIPHARMA_MEGA:
+        case SPECIES_BUG_MEGA:
+        case SPECIES_DUSHROOM_MEGA:
+        case SPECIES_GOTHOT_MEGA:
+        case SPECIES_JANK_MEGA:
+        case SPECIES_PARANGELIA_MEGA:
+        case SPECIES_ROCK_MEGA:
+        case SPECIES_SHEPEIRD_MEGA:
+        case SPECIES_SNEDDIT_MEGA:
         case SPECIES_GOD_MEGA_X:
         case SPECIES_GOD_MEGA_Y:
-        case SPECIES_BACID_MEGA:
-        case SPECIES_HOLOCAST_MEGA:
-        case SPECIES_NUGGIE_MEGA:
-        case SPECIES_HAPPYMAUL_MEGA:
-        case SPECIES_MINIMAL_MEGA:
-        case SPECIES_FROSILISK_MEGA:
+        case SPECIES_THEVOID_MEGA:
+        case SPECIES_TOM_MEGA:
+        case SPECIES_GIGALPHA_MEGA:
+        case SPECIES_GAHNOMED_MEGA:
+        case SPECIES_GOALEM_MEGA:
         case SPECIES_INCREDALEN_MEGA:
         case SPECIES_GOURMASTER_MEGA:
         case SPECIES_BAITANK_MEGA:

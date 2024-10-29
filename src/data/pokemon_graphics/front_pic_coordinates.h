@@ -4522,47 +4522,47 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_BERRORD_MEGA] =
+    [SPECIES_BIPHARMA_MEGA] =
     {
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_FAZEAGLE_MEGA] =
+    [SPECIES_BUG_MEGA] =
     {
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_KUKLOPS_MEGA] =
+    [SPECIES_DUSHROOM_MEGA] =
     {
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_SHEMUE_MEGA] =
+    [SPECIES_GOTHOT_MEGA] =
     {
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_SANS_MEGA] =
+    [SPECIES_JANK_MEGA] =
     {
         .size = 0,
-        .y_offset = 8,
+        .y_offset = 0,
     },
     [SPECIES_TROLOLO_MEGA] =
     {
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_ITRIMID_MEGA] =
+    [SPECIES_PARANGELIA_MEGA] =
     {
         .size = 0,
-        .y_offset = 4,
+        .y_offset = 0,
     },
-    [SPECIES_KROLLER_MEGA] =
+    [SPECIES_ROCK_MEGA] =
     {
         .size = 0,
-        .y_offset = 1,
+        .y_offset = 0,
     },
-    [SPECIES_USARMY_MEGA] =
+    [SPECIES_SHEPEIRD_MEGA] =
     {
         .size = 0,
         .y_offset = 0,
@@ -4577,32 +4577,32 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_BACID_MEGA] =
-    {
-        .size = 0,
-        .y_offset = 2,
-    },
-    [SPECIES_HOLOCAST_MEGA] =
+    [SPECIES_SNEDDIT_MEGA] =
     {
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_NUGGIE_MEGA] =
+    [SPECIES_UNJOY_MEGA] =
     {
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_HAPPYMAUL_MEGA] =
+    [SPECIES_THEVOID_MEGA] =
     {
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_MINIMAL_MEGA] =
+    [SPECIES_TOM_MEGA] =
     {
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_FROSILISK_MEGA] =
+    [SPECIES_GIGALPHA_MEGA] =
+    {
+        .size = 0,
+        .y_offset = 0,
+    },
+    [SPECIES_GOALEM_MEGA] =
     {
         .size = 0,
         .y_offset = 0,
@@ -4727,10 +4727,10 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0,
         .y_offset = 1,
     },
-    [SPECIES_UNJOY_MEGA] =
+    [SPECIES_GAHNOMED_MEGA] =
     {
         .size = 0,
-        .y_offset = 5,
+        .y_offset = 0,
     },
     [SPECIES_DIANCIE_MEGA] =
     {

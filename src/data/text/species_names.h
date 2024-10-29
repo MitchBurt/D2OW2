@@ -922,7 +922,6 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_GIGALPHA_MEGA] = _("Gigalpha"),
     [SPECIES_GAHNOMED_MEGA] = _("Gahnomed"),
     [SPECIES_GOALEM_MEGA] = _("Goalem"),
-    [SPECIES_FROSILISK_MEGA] = _("Frosilisk"),
     [SPECIES_INCREDALEN_MEGA] = _("Incredalen"),
     [SPECIES_GOURMASTER_MEGA] = _("Gourmaster"),
     [SPECIES_BAITANK_MEGA] = _("Baitank"),

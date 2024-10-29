@@ -4521,50 +4521,50 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_BERRORD_MEGA] =
-    {
-        .size = 0,
-        .y_offset = 5,
-    },
-    [SPECIES_FAZEAGLE_MEGA] =
-    {
-        .size = 0,
-        .y_offset = 7,
-    },
-    [SPECIES_KUKLOPS_MEGA] =
+    [SPECIES_BIPHARMA_MEGA] =
     {
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_SHEMUE_MEGA] =
-    {
-        .size = 0,
-        .y_offset = 9,
-    },
-    [SPECIES_SANS_MEGA] =
+    [SPECIES_BUG_MEGA] =
     {
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_TROLOLO_MEGA] =
+    [SPECIES_DUSHROOM_MEGA] =
     {
         .size = 0,
-        .y_offset = 6,
+        .y_offset = 0,
     },
-    [SPECIES_ITRIMID_MEGA] =
+    [SPECIES_GOTHOT_MEGA] =
     {
         .size = 0,
-        .y_offset = 7,
+        .y_offset = 0,
     },
-    [SPECIES_KROLLER_MEGA] =
+    [SPECIES_JANK_MEGA] =
     {
         .size = 0,
-        .y_offset = 2,
+        .y_offset = 0,
     },
-    [SPECIES_USARMY_MEGA] =
+    [SPECIES_PARANGELIA_MEGA] =
     {
         .size = 0,
-        .y_offset = 8,
+        .y_offset = 0,
+    },
+    [SPECIES_ROCK_MEGA] =
+    {
+        .size = 0,
+        .y_offset = 0,
+    },
+    [SPECIES_SHEPEIRD_MEGA] =
+    {
+        .size = 0,
+        .y_offset = 0,
+    },
+    [SPECIES_SNEDDIT_MEGA] =
+    {
+        .size = 0,
+        .y_offset = 0,
     },
     [SPECIES_GOD_MEGA_X] =
     {
@@ -4576,32 +4576,27 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0,
         .y_offset = 2,
     },
-    [SPECIES_BACID_MEGA] =
+    [SPECIES_THEVOID_MEGA] =
     {
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_HOLOCAST_MEGA] =
+    [SPECIES_TOM_MEGA] =
     {
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_NUGGIE_MEGA] =
-    {
-        .size = 0,
-        .y_offset = 4,
-    },
-    [SPECIES_HAPPYMAUL_MEGA] =
+    [SPECIES_GIGALPHA_MEGA] =
     {
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_MINIMAL_MEGA] =
+    [SPECIES_GOALEM_MEGA] =
     {
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_FROSILISK_MEGA] =
+    [SPECIES_GAHNOMED_MEGA] =
     {
         .size = 0,
         .y_offset = 0,

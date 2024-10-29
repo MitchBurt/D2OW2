@@ -25458,31 +25458,6 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_FROSILISK_MEGA] =
-    {
-        .baseHP        = 100,
-        .baseAttack    = 164,
-        .baseDefense   = 150,
-        .baseSpeed     = 71,
-        .baseSpAttack  = 95,
-        .baseSpDefense = 120,
-        .type1 = TYPE_ROCK,
-        .type2 = TYPE_DARK,
-        .catchRate = 45,
-        .expYield = 315,
-        .evYield_Attack    = 3,
-        .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = 40,
-        .friendship = 35,
-        .growthRate = GROWTH_SLOW,
-        .eggGroup1 = EGG_GROUP_MONSTER,
-        .eggGroup2 = EGG_GROUP_MONSTER,
-        .abilities = {ABILITY_SAND_STREAM, ABILITY_SAND_STREAM},
-		.abilityHidden = ABILITY_SAND_STREAM,
-        .bodyColor = BODY_COLOR_GREEN,
-        .noFlip = FALSE,
-    },
-
     [SPECIES_INCREDALEN_MEGA] =
     {
         .baseHP        = 70,
@@ -59091,31 +59066,6 @@ const struct BaseStats gVanillaBaseStats[] =
         .abilities = {ABILITY_SOLAR_POWER, ABILITY_SOLAR_POWER},
         .abilityHidden = ABILITY_SOLAR_POWER,
         .bodyColor = BODY_COLOR_BLACK,
-        .noFlip = FALSE,
-    },
-
-    [SPECIES_FROSILISK_MEGA] =
-    {
-        .baseHP        = 100,
-        .baseAttack    = 164,
-        .baseDefense   = 150,
-        .baseSpeed     = 71,
-        .baseSpAttack  = 95,
-        .baseSpDefense = 120,
-        .type1 = TYPE_ROCK,
-        .type2 = TYPE_DARK,
-        .catchRate = 45,
-        .expYield = 315,
-        .evYield_Attack    = 3,
-        .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = 40,
-        .friendship = 35,
-        .growthRate = GROWTH_SLOW,
-        .eggGroup1 = EGG_GROUP_MONSTER,
-        .eggGroup2 = EGG_GROUP_MONSTER,
-        .abilities = {ABILITY_SAND_STREAM, ABILITY_SAND_STREAM},
-		.abilityHidden = ABILITY_SAND_STREAM,
-        .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
     },
 
