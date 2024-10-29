@@ -1925,7 +1925,7 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x78,
         .y_offset = 0,
     },
-    [SPECIES_JIRACHI] =
+    [SPECIES_THISCRAKER] =
     {
         .size = 0x87,
         .y_offset = 0,

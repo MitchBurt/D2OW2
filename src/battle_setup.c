@@ -946,7 +946,7 @@ void BattleSetup_StartScriptedWildBattle(void)
     case SPECIES_REMIEL:
     case SPECIES_GOD:
     case SPECIES_HEATTAR:
-    case SPECIES_JIRACHI:
+    case SPECIES_THISCRAKER:
     case SPECIES_AZELF:
     case SPECIES_HEATRAN:
     case SPECIES_SHAYMIN:

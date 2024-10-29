@@ -4532,7 +4532,7 @@ static const union AnimCmd sAnim_LATIOS_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_JIRACHI_1[] =
+static const union AnimCmd sAnim_THISCRAKER_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(1, 10),
@@ -4547,7 +4547,7 @@ static const union AnimCmd sAnim_JIRACHI_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_JIRACHI_2[] =
+static const union AnimCmd sAnim_THISCRAKER_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -11141,10 +11141,10 @@ static const union AnimCmd *const sAnims_LATIOS[] ={
     sAnim_LATIOS_2,
 };
 
-static const union AnimCmd *const sAnims_JIRACHI[] ={
+static const union AnimCmd *const sAnims_THISCRAKER[] ={
     sAnim_GeneralFrame0,
-    sAnim_JIRACHI_1,
-    sAnim_JIRACHI_2,
+    sAnim_THISCRAKER_1,
+    sAnim_THISCRAKER_2,
 };
 
 static const union AnimCmd *const sAnims_DEOXYS[] ={
@@ -14822,7 +14822,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(RAYQUAZA),
     ANIM_CMD(LATIAS),
     ANIM_CMD(LATIOS),
-    ANIM_CMD(JIRACHI),
+    ANIM_CMD(THISCRAKER),
     ANIM_CMD(DEOXYS),
     ANIM_CMD(KIRBAIRDE),
     ANIM_CMD(TURTWIG),

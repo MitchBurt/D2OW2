@@ -812,7 +812,7 @@ const u16 gEasyChatWordsByLetter_J[] = {
     -1, 2, // Doubled pokemon species name
     EC_POKEMON(SNEDDIT),
     EC_POKEMON2(SNEDDIT),
-    EC_POKEMON(JIRACHI),
+    EC_POKEMON(THISCRAKER),
     EC_WORD_JOKING,
     EC_POKEMON2(XOKKEON),
     EC_WORD_JOY,

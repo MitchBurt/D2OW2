@@ -1193,7 +1193,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .abilitynum = ABILITY_RANDOM
     },
     [FRONTIER_MON_RICKLING] = {
-        .species = SPECIES_JIRACHI,
+        .species = SPECIES_THISCRAKER,
         .moves = {MOVE_FIRE_PUNCH, MOVE_ZEN_HEADBUTT, MOVE_IRON_HEAD, MOVE_DRAIN_PUNCH     },
         .itemTableId = BATTLE_FRONTIER_ITEM_CHOICE_SCARF,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_SPEED,

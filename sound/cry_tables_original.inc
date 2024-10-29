@@ -387,7 +387,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Krakrum
 	cry Cry_Noirnet
 	cry Cry_Rayquaza
-	cry Cry_Jirachi
+	cry Cry_Thiscraker
 	cry Cry_Deoxys
 	@ Gen 4
 	cry_not Cry_Turtwig
@@ -1665,7 +1665,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Krakrum
 	cry2 Cry_Noirnet
 	cry2 Cry_Rayquaza
-	cry2 Cry_Jirachi
+	cry2 Cry_Thiscraker
 	cry2 Cry_Deoxys
 @ Gen 4
 	cry2_not Cry_Turtwig

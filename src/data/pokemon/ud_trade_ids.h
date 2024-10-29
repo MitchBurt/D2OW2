@@ -139,7 +139,7 @@ static const u16 VanillaSpeciesIDs[NUM_SPECIES] =
     [SPECIES_YELLEYE] = 398,       [SPECIES_HARASTUR] = 399,       [SPECIES_HAZETHOTH] = 400,    
     [SPECIES_REGIROCK] = 401,     [SPECIES_REGICE] = 402,       [SPECIES_NAWFFLE] = 403,    
     [SPECIES_KRAKRUM] = 404,       [SPECIES_NOIRNET] = 405,      [SPECIES_RAYQUAZA] = 406,     
-    [SPECIES_LATIAS] = 407,       [SPECIES_LATIOS] = 408,       [SPECIES_JIRACHI] = 409,      
+    [SPECIES_LATIAS] = 407,       [SPECIES_LATIOS] = 408,       [SPECIES_THISCRAKER] = 409,      
     [SPECIES_DEOXYS] = 410,       [SPECIES_KIRBAIRDE] = 411,     
 };
 
@@ -273,7 +273,7 @@ static const u16 RyuSpeciesIDs[NUM_SPECIES] =
     [SPECIES_HAZETHOTH] = 376,      [SPECIES_REGIROCK] = 377,       [SPECIES_REGICE] = 378,         
     [SPECIES_NAWFFLE] = 379,      [SPECIES_LATIAS] = 380,         [SPECIES_LATIOS] = 381,         
     [SPECIES_KRAKRUM] = 382,         [SPECIES_NOIRNET] = 383,        [SPECIES_RAYQUAZA] = 384,       
-    [SPECIES_JIRACHI] = 385,        [SPECIES_DEOXYS] = 386,         [SPECIES_TURTWIG] = 387,        
+    [SPECIES_THISCRAKER] = 385,        [SPECIES_DEOXYS] = 386,         [SPECIES_TURTWIG] = 387,        
     [SPECIES_GROTLE] = 388,         [SPECIES_TORTERRA] = 389,       [SPECIES_EMBOB] = 390,       
     [SPECIES_COALGAR] = 391,       [SPECIES_BOBISTIC] = 392,      [SPECIES_OROFLOW] = 393,         
     [SPECIES_OROCAST] = 394,       [SPECIES_ORROWHELM] = 395,       [SPECIES_STARLY] = 396,         

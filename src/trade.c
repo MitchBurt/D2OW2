@@ -2541,7 +2541,7 @@ int GetUnionRoomTradeMessageId(struct GFtgtGnameSub rfuPlayer, struct GFtgtGname
 		SPECIES_NOIRNET,
 		SPECIES_KRAKRUM,
 		SPECIES_RAYQUAZA,
-		SPECIES_JIRACHI,
+		SPECIES_THISCRAKER,
 		SPECIES_DEOXYS
 	};
 

@@ -1923,8 +1923,8 @@ Cry_Rayquaza::
 	.incbin "sound/direct_sound_samples/cries/cry_rayquaza.bin"
 
 	.align 2
-Cry_Jirachi::
-	.incbin "sound/direct_sound_samples/cries/cry_jirachi.bin"
+Cry_Thiscraker::
+	.incbin "sound/direct_sound_samples/cries/cry_thiscraker.bin"
 
 	.align 2
 Cry_Deoxys::

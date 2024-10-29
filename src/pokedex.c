@@ -4989,7 +4989,7 @@ bool16 HasAllHoennMons(void)
 {
     u16 i;
 
-    // -2 excludes Jirachi and Deoxys
+    // -2 excludes Thiscraker and Deoxys
     for (i = 0; i < HOENN_DEX_COUNT - 2; i++)
     {
         if (!GetSetPokedexFlag(HoennToNationalOrder(i + 1), FLAG_GET_CAUGHT))
@@ -5029,7 +5029,7 @@ bool16 HasAllMons(void)
             return FALSE;
     }
 
-    // -2 excludes Jirachi and Deoxys
+    // -2 excludes Thiscraker and Deoxys
     for (i = JOHTO_DEX_COUNT; i < NATIONAL_DEX_COUNT - 2; i++)
     {
         if (!GetSetPokedexFlag(i + 1, FLAG_GET_CAUGHT))

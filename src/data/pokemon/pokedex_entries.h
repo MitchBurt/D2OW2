@@ -4621,12 +4621,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 12,
     },
 
-    [NATIONAL_DEX_JIRACHI] =
+    [NATIONAL_DEX_THISCRAKER] =
     {
         .categoryName = _("Deseo"),
         .height = 3,
         .weight = 11,
-        .description = gJirachiPokedexText,
+        .description = gThiscrakerPokedexText,
         .pokemonScale = 608,
         .pokemonOffset = -8,
         .trainerScale = 256,
@@ -15411,12 +15411,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 12,
     },
 
-    [NATIONAL_DEX_JIRACHI] =
+    [NATIONAL_DEX_THISCRAKER] =
     {
         .categoryName = _("Wish"),
         .height = 3,
         .weight = 11,
-        .description = gJirachiPokedexText,
+        .description = gThiscrakerPokedexText,
         .pokemonScale = 608,
         .pokemonOffset = -8,
         .trainerScale = 256,

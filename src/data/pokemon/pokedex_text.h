@@ -2297,8 +2297,8 @@ const u8 gLatiosPokedexText[] = _(
     "telepáticamente. Es tan inteligente\n"
     "que entiende el lenguaje humano.");
 
-const u8 gJirachiPokedexText[] = _(
-    "Dicen que Jirachi hace que se cumplan\n"
+const u8 gThiscrakerPokedexText[] = _(
+    "Dicen que Thiscraker hace que se cumplan\n"
     "los deseos. Mientras duerme, una\n"
     "resistente capa cristalina lo envuelve\n"
     "para protegerlo de los enemigos.");
@@ -7657,8 +7657,8 @@ const u8 gLatiosPokedexText[] = _(
     "it has telepathy. Its intelligence allows\n"
     "it to understand human languages.");
 
-const u8 gJirachiPokedexText[] = _(
-    "Jirachi is said to make wishes come true.\n"
+const u8 gThiscrakerPokedexText[] = _(
+    "Thiscraker is said to make wishes come true.\n"
     "While it sleeps, a tough crystalline shell\n"
     "envelops the body to protect it from\n"
     "enemies.");

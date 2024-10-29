@@ -10311,7 +10311,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_JIRACHI] =
+    [SPECIES_THISCRAKER] =
     {
         .baseHP        = 100,
         .baseAttack    = 100,
@@ -43908,7 +43908,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_JIRACHI] =
+    [SPECIES_THISCRAKER] =
     {
         .baseHP        = 100,
         .baseAttack    = 100,

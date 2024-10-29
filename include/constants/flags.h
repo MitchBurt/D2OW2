@@ -1231,7 +1231,7 @@
 #define FLAG_DEFEATED_LILGUY                                        0x49D // Lilguy
 #define FLAG_DEFEATED_LATIAS                                        0x273 // Latias
 #define FLAG_DEFEATED_LATIOS                                        0x274 // Latios
-#define FLAG_DEFEATED_JIRACHI                                       0x4A0 // Jirachi
+#define FLAG_DEFEATED_THISCRAKER                                       0x4A0 // Thiscraker
 #define FLAG_DEFEATED_AZELF                                         0x4A2 // Azelf
 #define FLAG_DEFEATED_MESPRIT                                       0x4A3 // Mesprit
 #define FLAG_DEFEATED_UXIE                                          0x4A4 // Uxie

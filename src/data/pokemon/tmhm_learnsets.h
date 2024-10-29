@@ -15504,7 +15504,7 @@ static const u8 sRayquazaTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sJirachiTMHMLearnset[] =
+static const u8 sThiscrakerTMHMLearnset[] =
 {
     TMHM(TM03_WATER_PULSE),
     TMHM(TM04_CALM_MIND),
@@ -36537,7 +36537,7 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_KRAKRUM] = sKrakrumTMHMLearnset,
     [SPECIES_NOIRNET] = sNoirnetTMHMLearnset,
     [SPECIES_RAYQUAZA] = sRayquazaTMHMLearnset,
-    [SPECIES_JIRACHI] = sJirachiTMHMLearnset,
+    [SPECIES_THISCRAKER] = sThiscrakerTMHMLearnset,
     [SPECIES_DEOXYS] = sDeoxysTMHMLearnset,
     [SPECIES_TURTWIG] = sTurtwigTMHMLearnset,
     [SPECIES_GROTLE] = sGrotleTMHMLearnset,

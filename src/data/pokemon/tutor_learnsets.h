@@ -9332,7 +9332,7 @@ static const u8 sRayquazaTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sJirachiTutorLearnset[] =
+static const u8 sThiscrakerTutorLearnset[] =
 {
     TUTOR(MOVE_MEGA_KICK),
     TUTOR(MOVE_BODY_SLAM),
@@ -20106,7 +20106,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_KRAKRUM] = sKrakrumTutorLearnset,
     [SPECIES_NOIRNET] = sNoirnetTutorLearnset,
     [SPECIES_RAYQUAZA] = sRayquazaTutorLearnset,
-    [SPECIES_JIRACHI] = sJirachiTutorLearnset,
+    [SPECIES_THISCRAKER] = sThiscrakerTutorLearnset,
     [SPECIES_DEOXYS] = sDeoxysTutorLearnset,
     [SPECIES_TURTWIG] = sTurtwigTutorLearnset,
     [SPECIES_GROTLE] = sGrotleTutorLearnset,

@@ -196,7 +196,7 @@ static const u16 gSpeciesLookUpTable[] =
     [SPECIES_KRAKRUM] = 382,
     [SPECIES_NOIRNET] = 383,
     [SPECIES_RAYQUAZA] = 384,
-    [SPECIES_JIRACHI] = 385,
+    [SPECIES_THISCRAKER] = 385,
     [SPECIES_DEOXYS] = 386,
 };
 

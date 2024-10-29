@@ -7,46 +7,46 @@ ArtisanCave_B1F_OnTransition: @ 823AFB3
 	setflag FLAG_LANDMARK_ARTISAN_CAVE
 	end
 
-ArtisanCave_B1F_EventScript_Jirachi::
+ArtisanCave_B1F_EventScript_Thiscraker::
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_JIRACHI, 2
+	playmoncry SPECIES_THISCRAKER, 2
 	delay 40
 	waitmoncry
 	setflag FLAG_TOTEM_BATTLE
 	setvar VAR_NUM_WILD_POKEMON_STAT_BOOST, 3
-	setwildbattlewithcustommoves SPECIES_JIRACHI, 70, ITEM_KINGS_ROCK, MOVE_ZEN_HEADBUTT, MOVE_IRON_HEAD, MOVE_FIRE_PUNCH, MOVE_PLAY_ROUGH, 0, NATURE_JOLLY
+	setwildbattlewithcustommoves SPECIES_THISCRAKER, 70, ITEM_KINGS_ROCK, MOVE_ZEN_HEADBUTT, MOVE_IRON_HEAD, MOVE_FIRE_PUNCH, MOVE_PLAY_ROUGH, 0, NATURE_JOLLY
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
 	dowildbattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
 	specialvar VAR_RESULT, GetBattleOutcome
 	compare VAR_RESULT, B_OUTCOME_CAUGHT
-	goto_if_eq ArtisanCave_B1F_EventScript_CaughtJirachi
+	goto_if_eq ArtisanCave_B1F_EventScript_CaughtThiscraker
 	compare VAR_RESULT, B_OUTCOME_WON
-	goto_if_eq ArtisanCave_B1F_EventScript_RanFromJirachi
+	goto_if_eq ArtisanCave_B1F_EventScript_RanFromThiscraker
 	compare VAR_RESULT, B_OUTCOME_RAN
-	goto_if_eq ArtisanCave_B1F_EventScript_RanFromJirachi
+	goto_if_eq ArtisanCave_B1F_EventScript_RanFromThiscraker
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
-	goto_if_eq ArtisanCave_B1F_EventScript_RanFromJirachi
-	setflag FLAG_DEFEATED_JIRACHI
+	goto_if_eq ArtisanCave_B1F_EventScript_RanFromThiscraker
+	setflag FLAG_DEFEATED_THISCRAKER
 	release
 	end
-	ArtisanCave_B1F_EventScript_CaughtJirachi::
-	setflag FLAG_DEFEATED_JIRACHI
+	ArtisanCave_B1F_EventScript_CaughtThiscraker::
+	setflag FLAG_DEFEATED_THISCRAKER
 	fadescreenswapbuffers FADE_TO_BLACK
 	removeobject VAR_LAST_TALKED
 	fadescreenswapbuffers FADE_FROM_BLACK
 	release
 	end
-ArtisanCave_B1F_EventScript_DefeatedJirachi::
+ArtisanCave_B1F_EventScript_DefeatedThiscraker::
 	fadescreenswapbuffers FADE_TO_BLACK
 	removeobject VAR_LAST_TALKED
 	fadescreenswapbuffers FADE_FROM_BLACK
 	release
 	end
-ArtisanCave_B1F_EventScript_RanFromJirachi::
-	setvar VAR_0x8004, SPECIES_JIRACHI
+ArtisanCave_B1F_EventScript_RanFromThiscraker::
+	setvar VAR_0x8004, SPECIES_THISCRAKER
 	fadescreenswapbuffers FADE_TO_BLACK
 	removeobject VAR_LAST_TALKED
 	fadescreenswapbuffers FADE_FROM_BLACK
@@ -55,6 +55,6 @@ ArtisanCave_B1F_EventScript_RanFromJirachi::
 	release
 	end
 
-ArtisanCave_B1F_Text_Jirachi::
+ArtisanCave_B1F_Text_Thiscraker::
 	.string "Gwogobo weobobobo!$"
 `
