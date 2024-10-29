@@ -220,8 +220,8 @@ const u32 gObjectEventPic_MagmaMemberF[] = INCBIN_U32("graphics/object_events/pi
 //Elite four
 const u32 gObjectEventPic_Sidney[] 				= INCBIN_U32("graphics/object_events/pics/people/elite_four/sidney.4bpp");
 const u16 gObjectEventPal_Sidney[] 				= INCBIN_U16("graphics/object_events/pics/people/elite_four/sidney.gbapal");
-const u32 gObjectEventPic_Phoebe[] 				= INCBIN_U32("graphics/object_events/pics/people/elite_four/phoebe.4bpp");
-const u16 gObjectEventPal_Phoebe[] 				= INCBIN_U16("graphics/object_events/pics/people/elite_four/phoebe.gbapal");
+const u32 gObjectEventPic_Gregorius[] 				= INCBIN_U32("graphics/object_events/pics/people/elite_four/gregorius.4bpp");
+const u16 gObjectEventPal_Gregorius[] 				= INCBIN_U16("graphics/object_events/pics/people/elite_four/gregorius.gbapal");
 const u32 gObjectEventPic_Glacia[] 				= INCBIN_U32("graphics/object_events/pics/people/elite_four/glacia.4bpp");
 const u16 gObjectEventPal_Glacia[] 				= INCBIN_U16("graphics/object_events/pics/people/elite_four/glacia.gbapal");
 const u32 gObjectEventPic_Drake[] 				= INCBIN_U32("graphics/object_events/pics/people/elite_four/drake.4bpp");

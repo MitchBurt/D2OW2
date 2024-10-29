@@ -2275,8 +2275,8 @@ MatchCall_Text_Sidney:: @ 82B34CC
 	.string "¡De aquí no me muevo!\n"
 	.string "¡Aquí te espero!$"
 
-MatchCall_Text_Phoebe:: @ 82B3561
-	.string "Phoebe: Hola, {PLAYER}!\p"
+MatchCall_Text_Gregorius:: @ 82B3561
+	.string "Gregorius: Hola, {PLAYER}!\p"
 	.string "¿Por qué no vuelves por aquí?\p"
 	.string "Me encantaría ver cómo\n"
 	.string "has estrechado el lazo\l"
@@ -5231,8 +5231,8 @@ MatchCall_Text_Sidney:: @ 82B34CC
 	.string "I'll always be here!\n"
 	.string "I'll be waiting!$"
 
-MatchCall_Text_Phoebe:: @ 82B3561
-	.string "Phoebe: Hi, {PLAYER}!\p"
+MatchCall_Text_Gregorius:: @ 82B3561
+	.string "Gregorius: Hi, {PLAYER}!\p"
 	.string "How about coming back here again\n"
 	.string "sometime?\p"
 	.string "I'd like to see how much tighter\n"

@@ -2366,165 +2366,74 @@ u16 GetRandomItem(u16 species, u16 ability, u8 count, bool8 canMega)
 		case SPECIES_DITTO:
 			item = ITEM_QUICK_POWDER;
 		break;
-		case SPECIES_ABOMASNOW:
+
+		case SPECIES_BIPHARMA:
 			if(canMega)
-				item = ITEM_ABOMASITE;
+				item = ITEM_BIPHARMITE;
 		break;
-		case SPECIES_FREDBAR:
+		case SPECIES_BUG:
 			if(canMega)
-				item = ITEM_FREDBARITE;
+				item = ITEM_BUGITE;
 		break;
-		case SPECIES_USARMY:
+		case SPECIES_DUSHROOM:
 			if(canMega)
-				item = ITEM_USARMYITE;
+				item = ITEM_DUSHROOMITE;
 		break;
-		case SPECIES_MURPHIRE:
+		case SPECIES_GOTHOT:
 			if(canMega)
-				item = ITEM_MURPHIREITE;
+				item = ITEM_GOTHOTITE;
 		break;
-		case SPECIES_KUKLOPS:
+		case SPECIES_JANK:
 			if(canMega)
-				item = ITEM_ALAKAZITE;
+				item = ITEM_JANKITE;
 		break;
-		case SPECIES_UNSC:
+		case SPECIES_PARANGELIA:
 			if(canMega)
-				item = ITEM_UNSCNITE;
+				item = ITEM_PARANGELITE;
 		break;
-		case SPECIES_BACID:
+		case SPECIES_ROCK:
 			if(canMega)
-				item = ITEM_BACIDITE;
+				item = ITEM_ROCKITE;
 		break;
-		case SPECIES_AUDINO:
+		case SPECIES_SHEPEIRD:
 			if(canMega)
-				item = ITEM_UNJOYITE;
+				item = ITEM_SHEPEIRDITE;
 		break;
-		case SPECIES_TOCKTOWER:
+		case SPECIES_SNEDDIT:
 			if(canMega)
-				item = ITEM_BANETTITE;
+				item = ITEM_SNEDDITE;
 		break;
-		case SPECIES_BERRORD:
+		case SPECIES_THEVOID:
 			if(canMega)
-				item = ITEM_BERRORDITE;
+				item = ITEM_VOIDITE;
+		break;
+		case SPECIES_TOM:
+			if(canMega)
+				item = ITEM_TOMITE;
+		break;
+		case SPECIES_GIGALPHA:
+			if(canMega)
+				item = ITEM_GIGALPHITE;
+		break;
+		case SPECIES_GOALEM:
+			if(canMega)
+				item = ITEM_GOALEMITE;
 		break;
 		case SPECIES_SPERIATHON:
 			if(canMega)
-				item = ITEM_BLASTOISINITE;
+				item = ITEM_SPERIATHONITE;
 		break;
-		case SPECIES_GOURMASTER:
+		case SPECIES_GAHNOMED:
 			if(canMega)
-				item = ITEM_GOURMASTERITE;
+				item = ITEM_GAHNOMEDITE;
 		break;
-		case SPECIES_ERRORINE:
+		case SPECIES_UNJOY:
 			if(canMega)
-				item = ITEM_ERRORINEITE;
+				item = ITEM_UNJOYITE;
 		break;
 		case SPECIES_SKORPYROS:
 			if(canMega)
 				item = ITEM_SKORPYROSITE_Y;
-		break;
-		case SPECIES_GALLADE:
-			if(canMega)
-				item = ITEM_GALLADITE;
-		break;
-		case SPECIES_TRUCKOISE:
-			if(canMega)
-				item = ITEM_TRUCKOISEITE;
-		break;
-		case SPECIES_THATSFURRY:
-			if(canMega)
-				item = ITEM_THATSFURRYITE;
-		break;
-		case SPECIES_SANS:
-			if(canMega)
-				item = ITEM_SANSITE;
-		break;
-		case SPECIES_ELECHAIR:
-			if(canMega)
-				item = ITEM_GLALITITE;
-		break;
-		case SPECIES_KROLLER:
-			if(canMega)
-				item = ITEM_KROLLERITE;
-		break;
-		case SPECIES_HAPPYMAUL:
-			if(canMega)
-				item = ITEM_HERACRONITE;
-		break;
-		case SPECIES_MINIMAL:
-			if(canMega)
-				item = ITEM_MINIMALINITE;
-		break;
-		case SPECIES_TROLOLO:
-			if(canMega)
-				item = ITEM_TROLOLOITE;
-		break;
-		case SPECIES_LOPUNNY:
-			if(canMega)
-				item = ITEM_LOPUNNITE;
-		break;
-		case SPECIES_BLOKNOCK:
-			if(canMega)
-				item = ITEM_BLOKNOCKNITE;
-		break;
-		case SPECIES_AUXILISK:
-			if(canMega)
-				item = ITEM_MANECTITE;
-		break;
-		case SPECIES_MINITRON:
-			if(canMega)
-				item = ITEM_MAWILITE;
-		break;
-		case SPECIES_LONKEST:
-			if(canMega)
-				item = ITEM_LONKESTITE;
-		break;
-		case SPECIES_HAZETHOTH:
-			if(canMega)
-				item = ITEM_HAZETHOTHITE;
-		break;
-		case SPECIES_FAZEAGLE:
-			if(canMega)
-				item = ITEM_FAZEAGLEITE;
-		break;
-		case SPECIES_ITRIMID:
-			if(canMega)
-				item = ITEM_ITRIMIDITE;
-		break;
-		case SPECIES_SECRITLER:
-			if(canMega)
-				item = ITEM_SABLENITE;
-		break;
-		case SPECIES_DRUNKABUS:
-			if(canMega)
-				item = ITEM_SALAMENCITE;
-		break;
-		case SPECIES_INCREDALEN:
-			if(canMega)
-				item = ITEM_INCREDALENITE;
-		break;
-		case SPECIES_NUGGIE:
-			if(canMega)
-				item = ITEM_NUGGIEITE;
-		break;
-		case SPECIES_SHARKEG:
-			if(canMega)
-				item = ITEM_SHARKEGNITE;
-		break;
-		case SPECIES_SHEMUE:
-			if(canMega)
-				item = ITEM_SHEMUENITE;
-		break;
-		case SPECIES_HOLOCAST:
-			if(canMega)
-				item = ITEM_HOLOCASTITE;
-		break;
-		case SPECIES_BAITANK:
-			if(canMega)
-				item = ITEM_BAITANKITE;
-		break;
-		case SPECIES_FROSILISK:
-			if(canMega)
-				item = ITEM_FROSILISKITE;
 		break;
 		case SPECIES_YGGDRACON:
 			if(canMega)

@@ -662,12 +662,12 @@ ScorchedSlab_EventScript_ItemFrosiliskite::
 	addscaleditem ITEM_FROSILISKITE
 	end
 	
-MegaStone_EventScript_ItemBerrordite::
-	addscaleditem ITEM_BERRORDITE
+MegaStone_EventScript_ItemParangelite::
+	addscaleditem ITEM_PARANGELITE
 	end
 	
-MegaStone_EventScript_ItemHolocastite::
-	addscaleditem ITEM_HOLOCASTITE
+MegaStone_EventScript_ItemTomite::
+	addscaleditem ITEM_TOMITE
 	end
 	
 MegaStone_EventScript_ItemSablenite::
@@ -682,8 +682,8 @@ MegaStone_EventScript_ItemSharkegite::
 	addscaleditem ITEM_SHARKEGNITE
 	end
 	
-MegaStone_EventScript_ItemErrorineite::
-	addscaleditem ITEM_ERRORINEITE
+MegaStone_EventScript_ItemRockite::
+	addscaleditem ITEM_ROCKITE
 	end
 	
 MegaStone_EventScript_ItemUNSCnite::
@@ -691,15 +691,15 @@ MegaStone_EventScript_ItemUNSCnite::
 	end
 	
 MegaStone_EventScript_ItemGlailite::
-	addscaleditem ITEM_GLALITITE
+	addscaleditem ITEM_JANKITE
 	end
 	
 MegaStone_EventScript_ItemSalamancite::
 	addscaleditem ITEM_SALAMENCITE
 	end
 	
-MegaStone_EventScript_ItemHazethothite::
-	addscaleditem ITEM_HAZETHOTHITE
+MegaStone_EventScript_ItemBugite::
+	addscaleditem ITEM_BUGITE
 	end
 	
 MegaStone_EventScript_ItemLopunnite::
@@ -722,12 +722,12 @@ MegaStone_EventScript_ItemSkorpyrosite_X::
 	addscaleditem ITEM_SKORPYROSITE_X
 	end
 	
-MegaStone_EventScript_ItemSansite::
-	addscaleditem ITEM_SANSITE
+MegaStone_EventScript_ItemBipharmite::
+	addscaleditem ITEM_BIPHARMITE
 	end
 	
-MegaStone_EventScript_ItemKrollerite::
-	addscaleditem ITEM_KROLLERITE
+MegaStone_EventScript_ItemSneddite::
+	addscaleditem ITEM_SNEDDITE
 	end
 	
 MegaStone_EventScript_ItemAuxiliskite::
@@ -754,8 +754,8 @@ MegaStone_EventScript_Lonkestite::
 	addscaleditem ITEM_LONKESTITE
 	end	
 	
-MegaStone_EventScript_Fredbarite::
-	addscaleditem ITEM_FREDBARITE
+MegaStone_EventScript_Goalemite::
+	addscaleditem ITEM_GOALEMITE
 	end	
 
 MegaStone_EventScript_Itrimidite::
@@ -766,8 +766,8 @@ MegaStone_EventScript_Nuggieite::
 	addscaleditem ITEM_NUGGIEITE
 	end	
 	
-MegaStone_EventScript_Abomasite::
-	addscaleditem ITEM_ABOMASITE
+MegaStone_EventScript_Gigalphite::
+	addscaleditem ITEM_GIGALPHITE
 	end	
 	
 MegaStone_EventScript_Alakazite::

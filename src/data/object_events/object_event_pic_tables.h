@@ -1919,16 +1919,16 @@ const struct SpriteFrameImage gObjectEventPicTable_Sidney[] = {
     overworld_frame(gObjectEventPic_Sidney, 2, 4, 2),
 };
 
-const struct SpriteFrameImage gObjectEventPicTable_Phoebe[] = {
-    overworld_frame(gObjectEventPic_Phoebe, 2, 4, 0),
-    overworld_frame(gObjectEventPic_Phoebe, 2, 4, 1),
-    overworld_frame(gObjectEventPic_Phoebe, 2, 4, 2),
-    overworld_frame(gObjectEventPic_Phoebe, 2, 4, 0),
-    overworld_frame(gObjectEventPic_Phoebe, 2, 4, 0),
-    overworld_frame(gObjectEventPic_Phoebe, 2, 4, 1),
-    overworld_frame(gObjectEventPic_Phoebe, 2, 4, 1),
-    overworld_frame(gObjectEventPic_Phoebe, 2, 4, 2),
-    overworld_frame(gObjectEventPic_Phoebe, 2, 4, 2),
+const struct SpriteFrameImage gObjectEventPicTable_Gregorius[] = {
+    overworld_frame(gObjectEventPic_Gregorius, 2, 4, 0),
+    overworld_frame(gObjectEventPic_Gregorius, 2, 4, 1),
+    overworld_frame(gObjectEventPic_Gregorius, 2, 4, 2),
+    overworld_frame(gObjectEventPic_Gregorius, 2, 4, 0),
+    overworld_frame(gObjectEventPic_Gregorius, 2, 4, 0),
+    overworld_frame(gObjectEventPic_Gregorius, 2, 4, 1),
+    overworld_frame(gObjectEventPic_Gregorius, 2, 4, 1),
+    overworld_frame(gObjectEventPic_Gregorius, 2, 4, 2),
+    overworld_frame(gObjectEventPic_Gregorius, 2, 4, 2),
 };
 
 const struct SpriteFrameImage gObjectEventPicTable_Glacia[] = {

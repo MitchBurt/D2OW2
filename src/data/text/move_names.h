@@ -1513,6 +1513,7 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_BEER_FROTH] = _("Froth"),
     [MOVE_SHOTGUN] = _("Shotgun"),
     [MOVE_FERMENT] = _("Ferment"),
+    [MOVE_EXPLOSION2] = _("Explosion"),    
     
 
 

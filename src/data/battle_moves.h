@@ -4789,13 +4789,8 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_METEOR_MASH] =
     {
-        #if B_UPDATED_MOVE_DATA >= GEN_6
-            .power = 90,
-            .accuracy = 90,
-        #else
-            .power = 100,
-            .accuracy = 85,
-        #endif
+        .power = 90,
+        .accuracy = 90,
         .effect = EFFECT_ATTACK_UP_HIT,
         .type = TYPE_COSMIC,
         .pp = 10,
@@ -11585,6 +11580,20 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_SPECIAL,
     },
 
+    [MOVE_EXPLOSION2] =
+    {
+        .effect = EFFECT_HIT,
+        .power = 250,
+        .type = TYPE_DARK,
+        .accuracy = 100,
+        .pp = 5,
+        .secondaryEffectChance = 0,
+        .target = MOVE_TARGET_FOES_AND_ALLY,
+        .priority = 0,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED,
+        .split = SPLIT_PHYSICAL,
+    },
+
 //TODO
     //Banslip Bomb - everyone target, grass type
     
@@ -11769,6 +11778,69 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .variable = 100,
         .modification2 = SIGNATURE_MOD_TYPE,
         .variable2 = TYPE_DARK,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+
+    [SPECIES_ANOOBIS] =
+    {
+        .move = MOVE_GIGA_DRAIN,
+        .modification = SIGNATURE_MOD_POWER,
+        .variable = 90,
+        .modification2 = SIGNATURE_MOD_TYPE,
+        .variable2 = TYPE_GHOST,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+
+    [SPECIES_ARACKNE] =
+    {
+        .move = MOVE_ATTACK_ORDER,
+        .modification = SIGNATURE_MOD_MODIFY_FIELD,
+        .variable = FIELD_OPPONET_SET_STICKY_WEB,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+
+    [SPECIES_SURTYUR] =
+    {
+        .move = MOVE_FLARE_BLITZ,
+        .modification = SIGNATURE_MOD_MODIFY_FIELD,
+        .variable = FIELD_OPPONET_SET_STEALTH_ROCK,
+        .modification2 = SIGNATURE_MOD_SECOND_TYPE,
+        .variable2 = TYPE_ROCK,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+   
+    [SPECIES_COOPID] =
+    {
+        .move = MOVE_DRAINING_KISS,
+        .modification = SIGNATURE_MOD_POWER,
+        .variable = 90,
+        .modification2 = SIGNATURE_MOD_PSS_CHANGE,
+        .variable2 = SPLIT_PHYSICAL,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+    [SPECIES_GANESH] =
+    {
+        .move = MOVE_CALM_MIND,
+        .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
+        .variable = SIGNATURE_SECONDARY_EFFECT_TAUNT,
+        .chance = 100,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+
+    [SPECIES_BACID] =
+    {
+        .move = MOVE_DISCHARGE,
+        .modification = SIGNATURE_MOD_POWER,
+        .variable = 90,
+        .modification2 = SIGNATURE_MOD_MODIFY_FIELD,
+        .variable2 = FIELD_SET_TERRAIN_ELECTRIC,
+        .chance2 = 25,
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
@@ -12243,17 +12315,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
             "its Attack, Defense and Speed\n" 
             "stats as well as its accuracy."),
     },
-    [SPECIES_BACID] =
-    {
-        .move = MOVE_DISCHARGE,
-        .modification = SIGNATURE_MOD_POWER,
-        .variable = 90,
-        .modification2 = SIGNATURE_MOD_MODIFY_FIELD,
-        .variable2 = FIELD_SET_TERRAIN_ELECTRIC,
-        .chance2 = 25,
-        .differentDescription = FALSE,
-        .description = _("Default Description"),
-    },
+
     [SPECIES_BACID_MEGA] =
     {
         .move = MOVE_DISCHARGE,

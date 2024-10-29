@@ -316,7 +316,7 @@ gStdScripts_End:: @ 81DC2CC
 	.include "data/maps/SootopolisCity_MysteryEventsHouse_1F/scripts.inc"
 	.include "data/maps/SootopolisCity_MysteryEventsHouse_B1F/scripts.inc"
 	.include "data/maps/EverGrandeCity_SidneysRoom/scripts.inc"
-	.include "data/maps/EverGrandeCity_PhoebesRoom/scripts.inc"
+	.include "data/maps/EverGrandeCity_GregoriussRoom/scripts.inc"
 	.include "data/maps/EverGrandeCity_GlaciasRoom/scripts.inc"
 	.include "data/maps/EverGrandeCity_DrakesRoom/scripts.inc"
 	.include "data/maps/EverGrandeCity_ChampionsRoom/scripts.inc"
@@ -652,7 +652,7 @@ EventScript_MoveMrBrineyToRoute109:: @ 82718B3
 
 EverGrandeCity_HallOfFame_EventScript_ResetEliteFour:: @ 82718CC
 	clearflag FLAG_DEFEATED_ELITE_4_SIDNEY
-	clearflag FLAG_DEFEATED_ELITE_4_PHOEBE
+	clearflag FLAG_DEFEATED_ELITE_4_GREGORIUS
 	clearflag FLAG_DEFEATED_ELITE_4_GLACIA
 	clearflag FLAG_DEFEATED_ELITE_4_DRAKE
 	setvar VAR_ELITE_4_STATE, 0

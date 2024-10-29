@@ -113,11 +113,11 @@ RustboroCity_Gym_EventScript_Start_Rematch_4::
 	
 RustboroCity_Gym_EventScript_Start_Rematch_5::
 	goto_if_unset FLAG_RECEIVED_TM04 RustboroCity_Gym_EventScript_Start_Rematch_Party_4
-	goto_if_set FLAG_GOT_MURPHIREITE RustboroCity_Gym_EventScript_Start_Rematch_6
+	goto_if_set FLAG_GOT_VOIDITE RustboroCity_Gym_EventScript_Start_Rematch_6
 	trainerbattle_no_intro TRAINER_ROXANNE_4, RustboroCity_Gym_Text_RoxanneRematchDefeat
 	msgbox RustboroCity_Gym_Text_GetMegaStone, MSGBOX_DEFAULT
-	giveitem ITEM_MURPHIREITE
-	setflag FLAG_GOT_MURPHIREITE
+	giveitem ITEM_VOIDITE
+	setflag FLAG_GOT_VOIDITE
 	goto RustboroCity_Gym_EventScript_RoxanneRematchEnd
 	end
 	
@@ -544,12 +544,12 @@ Gym_EventScript_Reset_Ability_Capsule::
 script EventScript_Gym_Attendant_Call{
 	lockall
 	switch (var(VAR_NUM_BADGES)) {
-		case 1: pokenavcall(format("Scott: Congratulations {PLAYER} on winning your first Gym battle, its just your first step to become the Champion, hang in there.\p" "Check your Achievements, there is a little gift that should be helpful to you there.\p" "Good Luck!", "1_latin_rse", 180))
-		case 2: pokenavcall(format("Scott: Congratulations {PLAYER} on winning your second Gym badge, I knew you had it in you.\p" "Did you know that you can change your outfit in any Pokémon Center?\p" "Good luck on your journey!", "1_latin_rse", 180))
-		case 3: pokenavcall(format("Scott: {PLAYER} you just won your third badge, that was really fast!\p" "Did you know that by making your first Pokémon hold an everstone or an eviolite you will only find first stage Pokémon in the wild?\p" "Take care.", "1_latin_rse", 180))
-		case 4: pokenavcall(format("Scott: Congratulations on your Fourth badge {PLAYER}, you're halfway there!\p" "I heard that the Lilycove's department store now sells Evolution items maybe I should buy some of them.\p" "I have to go now, keep it up!", "1_latin_rse", 180))
-		case 5: pokenavcall(format("Scott: You now have 5 badges {PLAYER}, that's great!\p" "It seems like the Lilycove's department store now has some great held items in stock, you should buy some of them!\p" "See you later!", "1_latin_rse", 180))
-		case 6: pokenavcall(format("Scott: Congratulations on your 6th badge {PLAYER}, you're nearly a champion.\p" "I heard that the Blue lady next to the Nurse Joy can now teach your Pokémon some unique Egg moves, they should be helpful on your next Gym, give them a try!\p" "Good Luck!", "1_latin_rse", 180))
+		case 1: pokenavcall(format("Scott: Congratulations {PLAYER} on winning your first Gym battle, took you long enough.\p" "Check your Achievements, there is a little gift that should be helpful to you there.\p" "Good Luck!", "1_latin_rse", 180))
+		case 2: pokenavcall(format("Scott: Congratulations {PLAYER} on winning your second Gym badge, I thought you'd lose.\p" "Did you know that you can change your outfit in any Pokémon Center?\p" "Good luck on your journey!", "1_latin_rse", 180))
+		case 3: pokenavcall(format("Scott: {PLAYER}!!\p" "Is your refrigerator running?\p" "Good bye.", "1_latin_rse", 180))
+		case 4: pokenavcall(format("Scott: Congrats on your Fourth badge {PLAYER}, halfway there!\p" "I heard that the Lilycove's department store now sells Evolution items maybe.\p" "I have to go now, keep it up!", "1_latin_rse", 180))
+		case 5: pokenavcall(format("Scott: You now have 5 badges {PLAYER}? FIVE?!?!\p" "Go check the store again!\p" "See you later!", "1_latin_rse", 180))
+		case 6: pokenavcall(format("Scott: Congratulations on your 6th badge {PLAYER}, you're not too bad.\p" "Don't quit now!\p" "Good Luck!", "1_latin_rse", 180))
 		case 7: pokenavcall(format("Scott: 7 badges, great just great, {PLAYER} there is only one to go!\p""The Blue haired lady in the Pokemon Center is now teaching trainers some strong tutor moves they cost a little but they are worth it, you should go and check them yourself.\p""By the way, I heard you got a Mega Ring, you should now be able to Mega Evolve your Pokémon, you can do so by pressing the Start Button while selecting your moves in battle.\p" "One to go kid, I'm waiting the good news, see you soon!", "1_latin_rse", 180))
 		case 8: pokenavcall(format("Scott: {PLAYER} Wow! you now have all the Gym badges in Hoenn, that's great!\p" "I will wait for you in the Pokémon center on Evergrade City before you tackle the Victory Road and the Pokémon League.\p" "There is a green haired trainer here that seems really strong maybe you can fight him!\p" "Make sure you check the TM tutor with the Blue Nurse in the Pokemon Center it should help you in this tought challenge!\p" "See you soon!", "1_latin_rse", 180))
 	}
@@ -874,11 +874,11 @@ script RustboroCity_Gym_EventScript_Roxanne_Give_Gifts{
 	}
 
 	//Give Megastone
-	if(var(VAR_NUM_BADGES) >= 7 && !flag(FLAG_GOT_MURPHIREITE)){
-		msgbox(format("Roxanne: Take this as an special gift from me, it's an Murphireite."), MSGBOX_NPC)
-		giveitem(ITEM_MURPHIREITE)
+	if(var(VAR_NUM_BADGES) >= 7 && !flag(FLAG_GOT_VOIDITE)){
+		msgbox(format("Roxanne: Take this as an special gift from me, it's an Voidite."), MSGBOX_NPC)
+		giveitem(ITEM_VOIDITE)
 		msgbox(format("Make an Murphire hold it to unleash its real potential."), MSGBOX_NPC)
-		setflag(FLAG_GOT_MURPHIREITE)
+		setflag(FLAG_GOT_VOIDITE)
 		setflag(FLAG_TEMP_9) //To check if you have been given multiple items
 	}
 	elif(!flag(FLAG_TEMP_9)){
@@ -974,7 +974,7 @@ script RustboroCity_Gym_EventScript_Gym_Aaron{
 				msgbox(format("The Pokémon seems tired after today's battle, its better to let it rest."), MSGBOX_SIGN)
 				waitmessage
 			}
-			elif(var(VAR_NUM_BADGES) >= 6 && !flag(FLAG_GOT_MURPHIREITE)){
+			elif(var(VAR_NUM_BADGES) >= 6 && !flag(FLAG_GOT_VOIDITE)){
 				//Mega Stone
 				msgbox(format("Murphire: ron!"), MSGBOX_NPC)
 				msgbox(format("The Pokémon is currently looking at a shiny rock on its arm with determination."), MSGBOX_SIGN)

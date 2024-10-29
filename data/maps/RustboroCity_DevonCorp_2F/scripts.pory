@@ -193,7 +193,7 @@ RustboroCity_DevonCorp_2F_EventScript_Revive_Old_Amber_Mega::
 	msgbox RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife, MSGBOX_DEFAULT
 	playfanfare MUS_OBTAIN_ITEM
 	message RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher
-	givemon SPECIES_USARMY, 30, ITEM_USARMYITE
+	givemon SPECIES_USARMY, 30, ITEM_GOTHOTITE
 	setflag FLAG_UNUSED_0x281
 	waitfanfare
 	msgbox RustboroCity_DevonCorp_2F_Text_More_Fossils, MSGBOX_DEFAULT

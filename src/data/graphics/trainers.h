@@ -109,8 +109,8 @@ const u16 gTrainerPalette_Gentleman[] = INCBIN_U16("graphics/trainers/palettes/g
 const u32 gTrainerFrontPic_EliteFourSidney[] = INCBIN_U32("graphics/trainers/front_pics/elite_four_sidney_front_pic.4bpp.lz");
 const u16 gTrainerPalette_EliteFourSidney[] = INCBIN_U16("graphics/trainers/palettes/elite_four_sidney.gbapal");
 
-const u32 gTrainerFrontPic_EliteFourPhoebe[] = INCBIN_U32("graphics/trainers/front_pics/elite_four_phoebe_front_pic.4bpp.lz");
-const u16 gTrainerPalette_EliteFourPhoebe[] = INCBIN_U16("graphics/trainers/palettes/elite_four_phoebe.gbapal");
+const u32 gTrainerFrontPic_EliteFourGregorius[] = INCBIN_U32("graphics/trainers/front_pics/elite_four_gregorius_front_pic.4bpp.lz");
+const u16 gTrainerPalette_EliteFourGregorius[] = INCBIN_U16("graphics/trainers/palettes/elite_four_gregorius.gbapal");
 
 const u32 gTrainerFrontPic_EliteFourGlacia[] = INCBIN_U32("graphics/trainers/front_pics/elite_four_glacia_front_pic.4bpp.lz");
 const u16 gTrainerPalette_EliteFourGlacia[] = INCBIN_U16("graphics/trainers/palettes/elite_four_glacia.gbapal");

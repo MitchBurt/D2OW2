@@ -513,20 +513,20 @@ static const struct MatchCallStructTrainer sSidneyMatchCallHeader =
     .textData = sSidneyTextScripts
 };
 
-static const match_call_text_data_t sPhoebeTextScripts[] = {
-    { MatchCall_Text_Phoebe, 0xFFFF, 0xFFFF },
+static const match_call_text_data_t sGregoriusTextScripts[] = {
+    { MatchCall_Text_Gregorius, 0xFFFF, 0xFFFF },
     { NULL,                  0xFFFF, 0xFFFF }
 };
 
-static const struct MatchCallStructTrainer sPhoebeMatchCallHeader =
+static const struct MatchCallStructTrainer sGregoriusMatchCallHeader =
 {
     .type = MC_TYPE_LEADER,
     .mapSec = MAPSEC_EVER_GRANDE_CITY,
-    .flag = FLAG_REMATCH_PHOEBE,
-    .rematchTableIdx = REMATCH_PHOEBE,
+    .flag = FLAG_REMATCH_GREGORIUS,
+    .rematchTableIdx = REMATCH_GREGORIUS,
     .desc = gText_EliteFourMatchCallDesc,
     .name = NULL,
-    .textData = sPhoebeTextScripts
+    .textData = sGregoriusTextScripts
 };
 
 static const match_call_text_data_t sGlaciaTextScripts[] = {
@@ -595,7 +595,7 @@ static const match_call_t sMatchCallHeaders[] = {
     [MC_HEADER_TATE_LIZA]  = {.leader = &sTateLizaMatchCallHeader},
     [MC_HEADER_JUAN]       = {.leader = &sJuanMatchCallHeader},
     [MC_HEADER_SIDNEY]     = {.leader = &sSidneyMatchCallHeader},
-    [MC_HEADER_PHOEBE]     = {.leader = &sPhoebeMatchCallHeader},
+    [MC_HEADER_GREGORIUS]     = {.leader = &sGregoriusMatchCallHeader},
     [MC_HEADER_GLACIA]     = {.leader = &sGlaciaMatchCallHeader},
     [MC_HEADER_DRAKE]      = {.leader = &sDrakeMatchCallHeader},
     [MC_HEADER_WALLACE]    = {.leader = &sWallaceMatchCallHeader}

@@ -1100,8 +1100,8 @@ static void UpdateLvlInHealthbox(u8 healthboxSpriteId, u8 lvl)
 			if(gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(EVER_GRANDE_CITY_SIDNEYS_ROOM))
 				DisableLvl = TRUE;
 		break;
-		case MAP_NUM(EVER_GRANDE_CITY_PHOEBES_ROOM):
-			if(gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(EVER_GRANDE_CITY_PHOEBES_ROOM))
+		case MAP_NUM(EVER_GRANDE_CITY_GREGORIUSS_ROOM):
+			if(gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(EVER_GRANDE_CITY_GREGORIUSS_ROOM))
 				DisableLvl = TRUE;
 		break;
 		case MAP_NUM(EVER_GRANDE_CITY_GLACIAS_ROOM):

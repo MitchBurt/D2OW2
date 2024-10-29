@@ -370,10 +370,10 @@ const u8 gText_MatchCallEliteFour_Sidney_Pokemon[] = _("Bellezas de tipo Siniest
 const u8 gText_MatchCallEliteFour_Sidney_Intro1[] = _("Decían que era raro, pero");
 const u8 gText_MatchCallEliteFour_Sidney_Intro2[] = _("¡yo soy del Alto Mando!");
 
-const u8 gText_MatchCallEliteFour_Phoebe_Strategy[] = _("Confundir y perturbar.");
-const u8 gText_MatchCallEliteFour_Phoebe_Pokemon[] = _("Los míos son etéreos.");
-const u8 gText_MatchCallEliteFour_Phoebe_Intro1[] = _("Me pregunto cómo le irá a mi");
-const u8 gText_MatchCallEliteFour_Phoebe_Intro2[] = _("abuela en el Monte Pírico.");
+const u8 gText_MatchCallEliteFour_Gregorius_Strategy[] = _("Confundir y perturbar.");
+const u8 gText_MatchCallEliteFour_Gregorius_Pokemon[] = _("Los míos son etéreos.");
+const u8 gText_MatchCallEliteFour_Gregorius_Intro1[] = _("Me pregunto cómo le irá a mi");
+const u8 gText_MatchCallEliteFour_Gregorius_Intro2[] = _("abuela en el Monte Pírico.");
 
 const u8 gText_MatchCallEliteFour_Glacia_Strategy[] = _("Usar objetos como apoyo.");
 const u8 gText_MatchCallEliteFour_Glacia_Pokemon[] = _("¡Arden de glacial cólera!");
@@ -762,10 +762,10 @@ const u8 gText_MatchCallEliteFour_Sidney_Pokemon[] = _("The Dark side's beauties
 const u8 gText_MatchCallEliteFour_Sidney_Intro1[] = _("They said I was a punk, but");
 const u8 gText_MatchCallEliteFour_Sidney_Intro2[] = _("I'm one of the Elite Four!");
 
-const u8 gText_MatchCallEliteFour_Phoebe_Strategy[] = _("Confuse and confound.");
-const u8 gText_MatchCallEliteFour_Phoebe_Pokemon[] = _("There's nothing definite.");
-const u8 gText_MatchCallEliteFour_Phoebe_Intro1[] = _("I wonder how my grandma at");
-const u8 gText_MatchCallEliteFour_Phoebe_Intro2[] = _("Mt. Pyre is doing?");
+const u8 gText_MatchCallEliteFour_Gregorius_Strategy[] = _("Confuse and confound.");
+const u8 gText_MatchCallEliteFour_Gregorius_Pokemon[] = _("There's nothing definite.");
+const u8 gText_MatchCallEliteFour_Gregorius_Intro1[] = _("I wonder how my grandma at");
+const u8 gText_MatchCallEliteFour_Gregorius_Intro2[] = _("Mt. Pyre is doing?");
 
 const u8 gText_MatchCallEliteFour_Glacia_Strategy[] = _("I use items for help.");
 const u8 gText_MatchCallEliteFour_Glacia_Pokemon[] = _("Flaming passion in icy cold!");
@@ -860,7 +860,7 @@ const u8 *const gMatchCallFlavorTexts[REMATCH_TABLE_ENTRIES][CHECK_PAGE_ENTRY_CO
     [REMATCH_TATE_AND_LIZA] = MCFLAVOR(MysticDuo_TateAndLiza),
     [REMATCH_JUAN] = MCFLAVOR(DandyCharm_Juan),
     [REMATCH_SIDNEY] = MCFLAVOR(EliteFour_Sidney),
-    [REMATCH_PHOEBE] = MCFLAVOR(EliteFour_Phoebe),
+    [REMATCH_GREGORIUS] = MCFLAVOR(EliteFour_Gregorius),
     [REMATCH_GLACIA] = MCFLAVOR(EliteFour_Glacia),
     [REMATCH_DRAKE] = MCFLAVOR(EliteFour_Drake),
     [REMATCH_WALLACE] = MCFLAVOR(Champion_Wallace),

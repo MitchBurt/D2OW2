@@ -1307,7 +1307,7 @@ struct MysteryGiftMonStructure gMysteryGiftMons[] =
 	[CARD_SHINY_YELLEYE] =
     {
 		.species 			= SPECIES_YELLEYE,
-		.helditem 			= ITEM_HAZETHOTHITE,
+		.helditem 			= ITEM_BUGITE,
 		.abilityNum 		= 0,
 		.level 				= 5,
 		.nature				= NATURE_JOLLY,
@@ -1329,7 +1329,7 @@ struct MysteryGiftMonStructure gMysteryGiftMons[] =
 	[CARD_DIANCIE] =
     {
 		.species 			= SPECIES_DIANCIE,
-		.helditem 			= ITEM_DIANCITE,
+		.helditem 			= ITEM_SHEPEIRDITE,
 		.abilityNum 		= 0,
 		.level 				= 70,
 		.nature				= NATURE_MODEST,

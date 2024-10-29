@@ -87,7 +87,7 @@ LilycoveCity_MoveDeletersHouse_EventScript_Give_Jissm_Mega::
 	bufferspeciesname 1, SPECIES_JISSM
 	playfanfare MUS_OBTAIN_ITEM
 	message LilycoveCity_MoveDeletersHouse_Text_ReceivedMonFromOldMan
-	givemon SPECIES_JISSM, 30, ITEM_BLASTOISINITE
+	givemon SPECIES_JISSM, 30, ITEM_SPERIATHONITE
 	setflag FLAG_UNUSED_0x27C
 	waitfanfare
 	msgbox LilycoveCity_MoveDeletersHouse_Text_ComeAgain_Starter, MSGBOX_DEFAULT

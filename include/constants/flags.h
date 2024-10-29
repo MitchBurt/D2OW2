@@ -455,7 +455,7 @@
 #define FLAG_REMATCH_TATE_AND_LIZA           0x1A4
 // Note: FLAG_REMATCH_JUAN is handled by FLAG_ENABLE_JUAN_MATCH_CALL instead.
 #define FLAG_REMATCH_SIDNEY                  0x1A5
-#define FLAG_REMATCH_PHOEBE                  0x1A6
+#define FLAG_REMATCH_GREGORIUS                  0x1A6
 #define FLAG_REMATCH_GLACIA                  0x1A7
 #define FLAG_REMATCH_DRAKE                   0x1A8
 #define FLAG_REMATCH_WALLACE                 0x1A9
@@ -658,51 +658,51 @@
 #define FLAG_HIDDEN_ITEM_SCORCHED_SLAB_STONE_PLATE           (FLAG_HIDDEN_ITEMS_START + 0x5F)
 
 //Mega Stones
-#define FLAG_GOT_BERRORDITE  0x265
+#define FLAG_GOT_PARANGELITE  0x265
 #define FLAG_GOT_BLUE_ORB  	  0x266 
 #define FLAG_GOT_RED_ORB  	  0x267
-#define FLAG_UNUSED_0x268  0x268 // Holocastite*
+#define FLAG_UNUSED_0x268  0x268 // Tomite*
 #define FLAG_UNUSED_0x269  0x269 // Incredalenite*
 #define FLAG_UNUSED_0x26A  0x26A // Baitankite*
 #define FLAG_UNUSED_0x26B  0x26B // Gourmasterite*
 #define FLAG_UNUSED_0x26C  0x26C // Sablenite*
 #define FLAG_UNUSED_0x26D  0x26D // Sharpedite*
-#define FLAG_UNUSED_0x26E  0x26E // Errorineite*
+#define FLAG_UNUSED_0x26E  0x26E // Rockite*
 #define FLAG_GOT_UNSCNITE  0x26F // UNSCnite*
 #define FLAG_UNUSED_0x270  0x270 // Glalinite*
 #define FLAG_UNUSED_0x271  0x271 // Slamancite*
 #define FLAG_UNUSED_0x272  0x272 // Matagrossite*
 #define FLAG_UNUSED_0x275  0x275 // Lopunnite*
 #define FLAG_UNUSED_0x276  0x276 // Galladite*
-#define FLAG_UNUSED_0x277  0x277 // UNJOYITE*
-#define FLAG_UNUSED_0x278  0x278 // Diancite
+#define FLAG_UNUSED_0x277  0x277 // Unjoyite*
+#define FLAG_UNUSED_0x278  0x278 // Shepeirdite
 #define FLAG_UNUSED_0x279  0x279 // Venasaurite*
 #define FLAG_UNUSED_0x27A  0x27A // Skorpyrosite Y*
 #define FLAG_UNUSED_0x27B  0x27B // Skorpyrosite X*
 #define FLAG_UNUSED_0x27C  0x27C // Blastoisite*
 #define FLAG_UNUSED_0x27D  0x27D // Alakazite*
-#define FLAG_UNUSED_0x27E  0x27E // Sansite*
+#define FLAG_UNUSED_0x27E  0x27E // Bipharmite*
 #define FLAG_GOT_TROLOLOITE  0x27F // Kanghaskhanite*
 #define FLAG_UNUSED_0x280  0x280 // Itrimidite*
-#define FLAG_UNUSED_0x281  0x281 // Usarmyite*
+#define FLAG_UNUSED_0x281  0x281 // Gothotite*
 #define FLAG_UNUSED_0x282  0x282 // Godnite X
 #define FLAG_UNUSED_0x283  0x283 // Godnite Y
 #define FLAG_UNUSED_0x284  0x284 // Bacidite*
 #define FLAG_UNUSED_0x285  0x285 // Nuggieite*
-#define FLAG_GOT_MINIMALINITE  0x286 // Minimalite*
+#define FLAG_GOT_GAHNOMEDITE  0x286 // Minimalite*
 #define FLAG_UNUSED_0x287  0x287 // Frosiliskite*
 #define FLAG_GOT_THATSFURRYITE  0x288 // Thatsfurryite*
 #define FLAG_UNUSED_0x289  0x289 // Mawilite*
-#define FLAG_GOT_MURPHIREITE  0x28A // Murphireite*
+#define FLAG_GOT_VOIDITE  0x28A // Voidite*
 #define FLAG_UNUSED_0x28B  0x28B // Lonkestite*
 #define FLAG_GOT_MANECTITE  0x28C // Manectrite*
 #define FLAG_UNUSED_0x28D  0x28D // Banettite*
-#define FLAG_UNUSED_0x28E  0x28E // Fredbarite*
+#define FLAG_UNUSED_0x28E  0x28E // Goalemite*
 #define FLAG_UNUSED_0x28F  0x28F // Truckoiseite*
 #define FLAG_UNUSED_0x290  0x290 // Bloknocknite*
-#define FLAG_UNUSED_0x291  0x291 // Abomasite*
+#define FLAG_UNUSED_0x291  0x291 // Gigalphite*
 #define FLAG_GOT_HERACRONITE  0x292 // Heracronite*
-#define FLAG_GOT_KROLLERITE  0x293 // Krollerite*
+#define FLAG_GOT_SNEDDITE  0x293 // Sneddite*
 #define FLAG_GOT_SHEMUEITE  0x294 // Shemueite
 #define FLAG_UNUSED_0x295  0x295 // Portal Stuff
 #define FLAG_UNUSED_0x296  0x296 // Unused Flag
@@ -1321,7 +1321,7 @@
 #define FLAG_ACHIEVEMENT_DATA_CREATED                               0x4FA
 
 #define FLAG_DEFEATED_ELITE_4_SIDNEY                                0x4FB
-#define FLAG_DEFEATED_ELITE_4_PHOEBE                                0x4FC
+#define FLAG_DEFEATED_ELITE_4_GREGORIUS                                0x4FC
 #define FLAG_DEFEATED_ELITE_4_GLACIA                                0x4FD
 #define FLAG_DEFEATED_ELITE_4_DRAKE                                 0x4FE
 

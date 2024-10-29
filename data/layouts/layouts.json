@@ -1112,14 +1112,14 @@
       "blockdata_filepath": "data/layouts/EverGrandeCity_SidneysRoom/map.bin"
     },
     {
-      "id": "LAYOUT_EVER_GRANDE_CITY_PHOEBES_ROOM",
-      "name": "EverGrandeCity_PhoebesRoom_Layout",
+      "id": "LAYOUT_EVER_GRANDE_CITY_GREGORIUSS_ROOM",
+      "name": "EverGrandeCity_GregoriussRoom_Layout",
       "width": 13,
       "height": 14,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_EliteFour",
-      "border_filepath": "data/layouts/EverGrandeCity_PhoebesRoom/border.bin",
-      "blockdata_filepath": "data/layouts/EverGrandeCity_PhoebesRoom/map.bin"
+      "border_filepath": "data/layouts/EverGrandeCity_GregoriussRoom/border.bin",
+      "blockdata_filepath": "data/layouts/EverGrandeCity_GregoriussRoom/map.bin"
     },
     {
       "id": "LAYOUT_EVER_GRANDE_CITY_GLACIAS_ROOM",

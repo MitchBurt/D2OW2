@@ -3660,18 +3660,18 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_Sidney},
     },
 
-    [TRAINER_PHOEBE] =
+    [TRAINER_GREGORIUS] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
-        .trainerPic = TRAINER_PIC_ELITE_FOUR_PHOEBE,
-        .trainerName = _("Phoebe"),
+        .trainerPic = TRAINER_PIC_ELITE_FOUR_GREGORIUS,
+        .trainerName = _("Gregorius"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_Phoebe),
-        .party = {.ItemCustomMoves = sParty_Phoebe},
+        .partySize = ARRAY_COUNT(sParty_Gregorius),
+        .party = {.ItemCustomMoves = sParty_Gregorius},
     },
 
     [TRAINER_GLACIA] =

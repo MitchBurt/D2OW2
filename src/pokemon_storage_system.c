@@ -1900,7 +1900,7 @@ static void Task_PokemonStorageSystemPC(u8 taskId)
             DestroyTask(taskId);
             break;
         default:
-            if (task->data[2] == 0 && CountPartyMons() == PARTY_SIZE)
+            if (task->data[2] == 1 && CountPartyMons() == PARTY_SIZE)
             {
                 //FillWindowPixelBuffer(0, PIXEL_FILL(1));
                 //AddTextPrinterParameterized2(0, 1, gText_PartyFull, 0, NULL, 2, 1, 3);
@@ -1909,7 +1909,7 @@ static void Task_PokemonStorageSystemPC(u8 taskId)
                 AddTextPrinterParameterized2(0, 1, gText_PartyFull, 0, NULL, MESSAGEBOX_FONT_COLOR, MESSAGEBOX_BACKGROUND_COLOR, MESSAGEBOX_FONT_SHADOW_COLOR);
                 task->data[0] = 3;
             }
-            else if (task->data[2] == 1 && CountPartyMons() == 1)
+            else if (task->data[2] == 2 && CountPartyMons() == 1)
             {
                 //FillWindowPixelBuffer(0, PIXEL_FILL(1));
                 //AddTextPrinterParameterized2(0, 1, gText_JustOnePkmn, 0, NULL, 2, 1, 3);

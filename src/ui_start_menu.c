@@ -1137,8 +1137,8 @@ static void Task_MenuMain(u8 taskId)
 				if(gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(EVER_GRANDE_CITY_SIDNEYS_ROOM))
 					DisableSave = TRUE;
 			break;
-			case MAP_NUM(EVER_GRANDE_CITY_PHOEBES_ROOM):
-				if(gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(EVER_GRANDE_CITY_PHOEBES_ROOM))
+			case MAP_NUM(EVER_GRANDE_CITY_GREGORIUSS_ROOM):
+				if(gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(EVER_GRANDE_CITY_GREGORIUSS_ROOM))
 					DisableSave = TRUE;
 			break;
 			case MAP_NUM(EVER_GRANDE_CITY_GLACIAS_ROOM):

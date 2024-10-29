@@ -30,7 +30,7 @@ GraniteCave_DiancieRoom_EventScript_Diance::
 	end
 	
 GraniteCave_DiancieRoom_EventScript_CaughtDiance::
-	giveitem ITEM_DIANCITE
+	giveitem ITEM_SHEPEIRDITE
 	setflag FLAG_DEFEATED_DIANCIE
 	fadescreenswapbuffers FADE_TO_BLACK
 	removeobject VAR_LAST_TALKED
