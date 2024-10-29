@@ -6395,7 +6395,7 @@ static const struct TrainerMonItemCustomMoves sParty_Sidney[] = {
 	.hiddenNature = NATURE_BOLD,
     .postgamemoves = {MOVE_MOONLIGHT, MOVE_SCALD, MOVE_SHOTGUN, MOVE_SHADOW_BALL},
     .moves = {MOVE_MOONLIGHT, MOVE_SCALD, MOVE_SHOTGUN, MOVE_SHADOW_BALL}
-    }
+    },
     {
     .iv = 250,
     .lvl = 62,
