@@ -957,8 +957,7 @@
 #define SPECIES_BLOKNOCK_MEGA                 FORMS_START + 43
 #define SPECIES_ABOMASNOW_MEGA               FORMS_START + 44
 #define SPECIES_GALLADE_MEGA                 FORMS_START + 45
-#define SPECIES_UNJOY_MEGA                  FORMS_START + 46
-#define SPECIES_DIANCIE_MEGA                 FORMS_START + 47
+#define SPECIES_DIANCIE_MEGA                 FORMS_START + 46
 
 // Special Mega + Primals
 #define SPECIES_RAYQUAZA_MEGA                FORMS_START + 48
