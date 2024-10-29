@@ -5542,7 +5542,6 @@ const u8 gMonIcon_GodMegaY[] = INCBIN_U8("graphics/pokemon/mega_god_y/icon.4bpp"
 const u8 gMonIcon_ThevoidMega[] = INCBIN_U8("graphics/pokemon/mega_thevoid/icon.4bpp");
 const u8 gMonIcon_GigalphaMega[] = INCBIN_U8("graphics/pokemon/mega_gigalpha/icon.4bpp");
 const u8 gMonIcon_TomMega[] = INCBIN_U8("graphics/pokemon/mega_tom/icon.4bpp");
-const u8 gMonIcon_GigalphaMega[] = INCBIN_U8("graphics/pokemon/mega_gigalpha/icon.4bpp");
 const u8 gMonIcon_GoalemMega[] = INCBIN_U8("graphics/pokemon/mega_goalem/icon.4bpp");
 const u8 gMonIcon_GahnomedMega[] = INCBIN_U8("graphics/pokemon/mega_gahnomed/icon.4bpp");
 const u8 gMonIcon_IncredalenMega[] = INCBIN_U8("graphics/pokemon/mega_incredalen/icon.4bpp");
