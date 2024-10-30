@@ -1823,7 +1823,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
         .partySize = ARRAY_COUNT(sParty_Olivia),
-        .party = {.NoItemCustomMoves = sParty_Olivia},
+        .party = {.NoItemDefaultMoves = sParty_Olivia},
     },
 
     [TRAINER_TIFFANY] =
@@ -9163,7 +9163,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
         .partySize = ARRAY_COUNT(sParty_Gerald),
-        .party = {.NoItemCustomMoves = sParty_Gerald},
+        .party = {.NoItemDefaultMoves = sParty_Gerald},
     },
 
     [TRAINER_VIVIAN] =
