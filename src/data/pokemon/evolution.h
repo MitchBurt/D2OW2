@@ -181,8 +181,8 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_WHISKBALL]               = {{EVO_LEVEL, 24, SPECIES_CINAMANCER}},
     [SPECIES_PURRSOUR]               = {{EVO_LEVEL, 18, SPECIES_PURRTANG}},
     [SPECIES_SHRIMPOT]               = {{EVO_LEVEL, 30, SPECIES_LOBSCALD}},
-    [SPECIES_SMOSLIME]                = {{EVO_EXIOLITE, 28, SPECIES_NYANCAT},
-	                                   //{EVO_ITEM, ITEM_MOON_STONE, SPECIES_NYANCAT}},
+    [SPECIES_SMOSLIME]                = {{EVO_LEVEL, 28, SPECIES_RIMESLANCH}},
+
     [SPECIES_DREIDRILL]                = {{EVO_LEVEL, 36, SPECIES_HEBURROW}},
     [SPECIES_SCATRUSH]              = {{EVO_EXIOLITE, 33, SPECIES_PROBOPASS},
 	                                   {EVO_MAPSEC, MAPSEC_NEW_MAUVILLE, SPECIES_PROBOPASS}},
