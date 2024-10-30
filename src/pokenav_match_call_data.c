@@ -402,61 +402,61 @@ static const struct MatchCallStructTrainer sZachMatchCallHeader =
     .textData = sZachTextScripts
 };
 
-static const match_call_text_data_t sWattsonTextScripts[] = {
-    { MatchCall_Text_Wattson1, 0xFFFE,              0xFFFF },
-    { MatchCall_Text_Wattson2, 0xFFFF,              0xFFFF },
-    { MatchCall_Text_Wattson3, 0xFFFF,              0xFFFF },
-    { MatchCall_Text_Wattson4, FLAG_SYS_GAME_CLEAR, 0xFFFF },
+static const match_call_text_data_t sTrevorTextScripts[] = {
+    { MatchCall_Text_Trevor1, 0xFFFE,              0xFFFF },
+    { MatchCall_Text_Trevor2, 0xFFFF,              0xFFFF },
+    { MatchCall_Text_Trevor3, 0xFFFF,              0xFFFF },
+    { MatchCall_Text_Trevor4, FLAG_SYS_GAME_CLEAR, 0xFFFF },
     { NULL,                    0xFFFF,              0xFFFF }
 };
 
-static const struct MatchCallStructTrainer sWattsonMatchCallHeader =
+static const struct MatchCallStructTrainer sTrevorMatchCallHeader =
 {
     .type = MC_TYPE_LEADER,
     .mapSec = MAPSEC_MAUVILLE_CITY,
-    .flag = FLAG_ENABLE_WATTSON_MATCH_CALL,
-    .rematchTableIdx = REMATCH_WATTSON,
-    .desc = gText_WattsonMatchCallDesc,
+    .flag = FLAG_ENABLE_Trevor_MATCH_CALL,
+    .rematchTableIdx = REMATCH_Trevor,
+    .desc = gText_TrevorMatchCallDesc,
     .name = NULL,
-    .textData = sWattsonTextScripts
+    .textData = sTrevorTextScripts
 };
 
-static const match_call_text_data_t sFlanneryTextScripts[] = {
-    { MatchCall_Text_Flannery1, 0xFFFE,              0xFFFF },
-    { MatchCall_Text_Flannery2, 0xFFFF,              0xFFFF },
-    { MatchCall_Text_Flannery3, 0xFFFF,              0xFFFF },
-    { MatchCall_Text_Flannery4, FLAG_SYS_GAME_CLEAR, 0xFFFF },
+static const match_call_text_data_t sJaredTextScripts[] = {
+    { MatchCall_Text_Jared1, 0xFFFE,              0xFFFF },
+    { MatchCall_Text_Jared2, 0xFFFF,              0xFFFF },
+    { MatchCall_Text_Jared3, 0xFFFF,              0xFFFF },
+    { MatchCall_Text_Jared4, FLAG_SYS_GAME_CLEAR, 0xFFFF },
     { NULL,                     0xFFFF,              0xFFFF }
 };
 
-static const struct MatchCallStructTrainer sFlanneryMatchCallHeader =
+static const struct MatchCallStructTrainer sJaredMatchCallHeader =
 {
     .type = MC_TYPE_LEADER,
     .mapSec = MAPSEC_LAVARIDGE_TOWN,
-    .flag = FLAG_ENABLE_FLANNERY_MATCH_CALL,
-    .rematchTableIdx = REMATCH_FLANNERY,
-    .desc = gText_FlanneryMatchCallDesc,
+    .flag = FLAG_ENABLE_Jared_MATCH_CALL,
+    .rematchTableIdx = REMATCH_Jared,
+    .desc = gText_JaredMatchCallDesc,
     .name = NULL,
-    .textData = sFlanneryTextScripts
+    .textData = sJaredTextScripts
 };
 
-static const match_call_text_data_t sWinonaTextScripts[] = {
-    { MatchCall_Text_Winona1, 0xFFFE,              0xFFFF },
-    { MatchCall_Text_Winona2, 0xFFFF,              0xFFFF },
-    { MatchCall_Text_Winona3, 0xFFFF,              0xFFFF },
-    { MatchCall_Text_Winona4, FLAG_SYS_GAME_CLEAR, 0xFFFF },
+static const match_call_text_data_t sTannerTextScripts[] = {
+    { MatchCall_Text_Tanner1, 0xFFFE,              0xFFFF },
+    { MatchCall_Text_Tanner2, 0xFFFF,              0xFFFF },
+    { MatchCall_Text_Tanner3, 0xFFFF,              0xFFFF },
+    { MatchCall_Text_Tanner4, FLAG_SYS_GAME_CLEAR, 0xFFFF },
     { NULL,                   0xFFFF,              0xFFFF }
 };
 
-static const struct MatchCallStructTrainer sWinonaMatchCallHeader =
+static const struct MatchCallStructTrainer sTannerMatchCallHeader =
 {
     .type = MC_TYPE_LEADER,
     .mapSec = MAPSEC_FORTREE_CITY,
-    .flag = FLAG_ENABLE_WINONA_MATCH_CALL,
-    .rematchTableIdx = REMATCH_WINONA,
-    .desc = gText_WinonaMatchCallDesc,
+    .flag = FLAG_ENABLE_Tanner_MATCH_CALL,
+    .rematchTableIdx = REMATCH_Tanner,
+    .desc = gText_TannerMatchCallDesc,
     .name = NULL,
-    .textData = sWinonaTextScripts
+    .textData = sTannerTextScripts
 };
 
 static const match_call_text_data_t sTateLizaTextScripts[] = {
@@ -478,23 +478,23 @@ static const struct MatchCallStructTrainer sTateLizaMatchCallHeader =
     .textData = sTateLizaTextScripts
 };
 
-static const match_call_text_data_t sJuanTextScripts[] = {
-    { MatchCall_Text_Juan1, 0xFFFE,              0xFFFF },
-    { MatchCall_Text_Juan2, 0xFFFF,              0xFFFF },
-    { MatchCall_Text_Juan3, 0xFFFF,              0xFFFF },
-    { MatchCall_Text_Juan4, FLAG_SYS_GAME_CLEAR, 0xFFFF },
+static const match_call_text_data_t sMitchellTextScripts[] = {
+    { MatchCall_Text_Mitchell1, 0xFFFE,              0xFFFF },
+    { MatchCall_Text_Mitchell2, 0xFFFF,              0xFFFF },
+    { MatchCall_Text_Mitchell3, 0xFFFF,              0xFFFF },
+    { MatchCall_Text_Mitchell4, FLAG_SYS_GAME_CLEAR, 0xFFFF },
     { NULL,                 0xFFFF,              0xFFFF }
 };
 
-static const struct MatchCallStructTrainer sJuanMatchCallHeader =
+static const struct MatchCallStructTrainer sMitchellMatchCallHeader =
 {
     .type = MC_TYPE_LEADER,
     .mapSec = MAPSEC_SOOTOPOLIS_CITY,
-    .flag = FLAG_ENABLE_JUAN_MATCH_CALL,
-    .rematchTableIdx = REMATCH_JUAN,
-    .desc = gText_JuanMatchCallDesc,
+    .flag = FLAG_ENABLE_Mitchell_MATCH_CALL,
+    .rematchTableIdx = REMATCH_Mitchell,
+    .desc = gText_MitchellMatchCallDesc,
     .name = NULL,
-    .textData = sJuanTextScripts
+    .textData = sMitchellTextScripts
 };
 
 static const match_call_text_data_t sSidneyTextScripts[] = {
@@ -589,11 +589,11 @@ static const match_call_t sMatchCallHeaders[] = {
     [MC_HEADER_SCOTT]      = {.npc    = &sScottMatchCallHeader},
     [MC_HEADER_MASON]    = {.leader = &sMasonMatchCallHeader},
     [MC_HEADER_ZACH]     = {.leader = &sZachMatchCallHeader},
-    [MC_HEADER_WATTSON]    = {.leader = &sWattsonMatchCallHeader},
-    [MC_HEADER_FLANNERY]   = {.leader = &sFlanneryMatchCallHeader},
-    [MC_HEADER_WINONA]     = {.leader = &sWinonaMatchCallHeader},
+    [MC_HEADER_Trevor]    = {.leader = &sTrevorMatchCallHeader},
+    [MC_HEADER_Jared]   = {.leader = &sJaredMatchCallHeader},
+    [MC_HEADER_Tanner]     = {.leader = &sTannerMatchCallHeader},
     [MC_HEADER_TATE_LIZA]  = {.leader = &sTateLizaMatchCallHeader},
-    [MC_HEADER_JUAN]       = {.leader = &sJuanMatchCallHeader},
+    [MC_HEADER_Mitchell]       = {.leader = &sMitchellMatchCallHeader},
     [MC_HEADER_SIDNEY]     = {.leader = &sSidneyMatchCallHeader},
     [MC_HEADER_GREGORIUS]     = {.leader = &sGregoriusMatchCallHeader},
     [MC_HEADER_GLACIA]     = {.leader = &sGlaciaMatchCallHeader},

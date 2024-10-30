@@ -503,13 +503,13 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_LEAF 			  			  0x1140
 #define OBJ_EVENT_PAL_MASON 			  	      0x1141
 #define OBJ_EVENT_PAL_ZACH 			  		  0x1142
-#define OBJ_EVENT_PAL_WATTSON 			  		  0x1143
-#define OBJ_EVENT_PAL_FLANNERY 			  		  0x1144
+#define OBJ_EVENT_PAL_Trevor 			  		  0x1143
+#define OBJ_EVENT_PAL_Jared 			  		  0x1144
 #define OBJ_EVENT_PAL_NORMAN 			  		  0x1145
-#define OBJ_EVENT_PAL_WINONA 			  		  0x1146
+#define OBJ_EVENT_PAL_Tanner 			  		  0x1146
 #define OBJ_EVENT_PAL_TATE 			  			  0x1147
 #define OBJ_EVENT_PAL_LIZA 			  			  0x1148
-#define OBJ_EVENT_PAL_JUAN 			  			  0x1149
+#define OBJ_EVENT_PAL_Mitchell 			  			  0x1149
 #define OBJ_EVENT_PAL_BATTLE_NURSE            	  0x1150
 #define OBJ_EVENT_PAL_TAG_POKEMON_000			  0x1151
 #define OBJ_EVENT_PAL_SIDNEY 			  		  0x1152
@@ -1431,13 +1431,13 @@ const struct SpritePalette sObjectEventSpritePalettes[] = {
 	
 	{gObjectEventPalette_Mason,  	     OBJ_EVENT_PAL_MASON},			//Leader
 	{gObjectEventPalette_Zach,  	     OBJ_EVENT_PAL_ZACH},				//Leader
-	{gObjectEventPalette_Wattson,  	     OBJ_EVENT_PAL_WATTSON},			//Leader
-	{gObjectEventPalette_Flannery,       OBJ_EVENT_PAL_FLANNERY},			//Leader
+	{gObjectEventPalette_Trevor,  	     OBJ_EVENT_PAL_Trevor},			//Leader
+	{gObjectEventPalette_Jared,       OBJ_EVENT_PAL_Jared},			//Leader
 	{gObjectEventPalette_Norman,  	     OBJ_EVENT_PAL_NORMAN},				//Leader
-	{gObjectEventPalette_Winona,  	     OBJ_EVENT_PAL_WINONA},				//Leader
+	{gObjectEventPalette_Tanner,  	     OBJ_EVENT_PAL_Tanner},				//Leader
 	{gObjectEventPalette_Tate,  	     OBJ_EVENT_PAL_TATE},				//Leader
 	{gObjectEventPalette_Liza,  	     OBJ_EVENT_PAL_LIZA},				//Leader
-	{gObjectEventPalette_Juan,  	     OBJ_EVENT_PAL_JUAN},				//Leader
+	{gObjectEventPalette_Mitchell,  	     OBJ_EVENT_PAL_Mitchell},				//Leader
 	{gObjectEventPalette_Scott,  	     OBJ_EVENT_PAL_SCOTT},
 	{gObjectEventPalette_Steven,  	     OBJ_EVENT_PAL_STEVEN},				//Champion
 	{gObjectEventPalette_Wally,  	     OBJ_EVENT_PAL_WALLY},				//Champion

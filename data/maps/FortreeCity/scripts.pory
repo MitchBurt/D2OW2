@@ -28,7 +28,7 @@ FortreeCity_EventScript_Woman:: @ 81E25BF
 	end
 
 FortreeCity_EventScript_WomanGymAccessible:: @ 81E25D4
-	msgbox FortreeCity_Text_ThisTimeIllBeatWinona, MSGBOX_DEFAULT
+	msgbox FortreeCity_Text_ThisTimeIllBeatTanner, MSGBOX_DEFAULT
 	release
 	end
 
@@ -108,9 +108,9 @@ FortreeCity_Text_SomethingBlockingGym: @ 81E2738
 	.string "After all the bother I went through\n"
 	.string "training on Route 120…$"
 
-FortreeCity_Text_ThisTimeIllBeatWinona: @ 81E27B6
+FortreeCity_Text_ThisTimeIllBeatTanner: @ 81E27B6
 	.string "I've got my pride-and-joy Pokémon\n"
-	.string "with me. This time, I'll beat Winona.$"
+	.string "with me. This time, I'll beat Tanner.$"
 
 FortreeCity_Text_TreesGrowByDrinkingRainwater: @ 81E27FE
 	.string "The ground absorbs rainwater, and\n"
@@ -156,7 +156,7 @@ FortreeCity_Text_CitySign: @ 81E2AAC
 
 FortreeCity_Text_GymSign: @ 81E2AE6
 	.string "Fortree City Pokémon Gym\n"
-	.string "Leader: Winona\p"
+	.string "Leader: Tanner\p"
 	.string "“The bird user taking flight into\n"
 	.string "the world.”$"
 

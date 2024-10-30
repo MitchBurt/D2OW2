@@ -1979,28 +1979,28 @@ const struct SpriteFrameImage gObjectEventPicTable_Zach[] = {
     overworld_frame(gObjectEventPic_Zach, 2, 4, 8),
 };
 
-const struct SpriteFrameImage gObjectEventPicTable_Wattson[] = {
-    overworld_frame(gObjectEventPic_Wattson, 2, 4, 0),
-    overworld_frame(gObjectEventPic_Wattson, 2, 4, 1),
-    overworld_frame(gObjectEventPic_Wattson, 2, 4, 2),
-    overworld_frame(gObjectEventPic_Wattson, 2, 4, 3),
-    overworld_frame(gObjectEventPic_Wattson, 2, 4, 4),
-    overworld_frame(gObjectEventPic_Wattson, 2, 4, 5),
-    overworld_frame(gObjectEventPic_Wattson, 2, 4, 6),
-    overworld_frame(gObjectEventPic_Wattson, 2, 4, 7),
-    overworld_frame(gObjectEventPic_Wattson, 2, 4, 8),
+const struct SpriteFrameImage gObjectEventPicTable_Trevor[] = {
+    overworld_frame(gObjectEventPic_Trevor, 2, 4, 0),
+    overworld_frame(gObjectEventPic_Trevor, 2, 4, 1),
+    overworld_frame(gObjectEventPic_Trevor, 2, 4, 2),
+    overworld_frame(gObjectEventPic_Trevor, 2, 4, 3),
+    overworld_frame(gObjectEventPic_Trevor, 2, 4, 4),
+    overworld_frame(gObjectEventPic_Trevor, 2, 4, 5),
+    overworld_frame(gObjectEventPic_Trevor, 2, 4, 6),
+    overworld_frame(gObjectEventPic_Trevor, 2, 4, 7),
+    overworld_frame(gObjectEventPic_Trevor, 2, 4, 8),
 };
 
-const struct SpriteFrameImage gObjectEventPicTable_Flannery[] = {
-    overworld_frame(gObjectEventPic_Flannery, 2, 4, 0),
-    overworld_frame(gObjectEventPic_Flannery, 2, 4, 1),
-    overworld_frame(gObjectEventPic_Flannery, 2, 4, 2),
-    overworld_frame(gObjectEventPic_Flannery, 2, 4, 3),
-    overworld_frame(gObjectEventPic_Flannery, 2, 4, 4),
-    overworld_frame(gObjectEventPic_Flannery, 2, 4, 5),
-    overworld_frame(gObjectEventPic_Flannery, 2, 4, 6),
-    overworld_frame(gObjectEventPic_Flannery, 2, 4, 7),
-    overworld_frame(gObjectEventPic_Flannery, 2, 4, 8),
+const struct SpriteFrameImage gObjectEventPicTable_Jared[] = {
+    overworld_frame(gObjectEventPic_Jared, 2, 4, 0),
+    overworld_frame(gObjectEventPic_Jared, 2, 4, 1),
+    overworld_frame(gObjectEventPic_Jared, 2, 4, 2),
+    overworld_frame(gObjectEventPic_Jared, 2, 4, 3),
+    overworld_frame(gObjectEventPic_Jared, 2, 4, 4),
+    overworld_frame(gObjectEventPic_Jared, 2, 4, 5),
+    overworld_frame(gObjectEventPic_Jared, 2, 4, 6),
+    overworld_frame(gObjectEventPic_Jared, 2, 4, 7),
+    overworld_frame(gObjectEventPic_Jared, 2, 4, 8),
 };
 
 const struct SpriteFrameImage gObjectEventPicTable_Norman[] = {
@@ -2015,16 +2015,16 @@ const struct SpriteFrameImage gObjectEventPicTable_Norman[] = {
     overworld_frame(gObjectEventPic_Norman, 2, 4, 8),
 };
 
-const struct SpriteFrameImage gObjectEventPicTable_Winona[] = {
-    overworld_frame(gObjectEventPic_Winona, 2, 4, 0),
-    overworld_frame(gObjectEventPic_Winona, 2, 4, 1),
-    overworld_frame(gObjectEventPic_Winona, 2, 4, 2),
-    overworld_frame(gObjectEventPic_Winona, 2, 4, 3),
-    overworld_frame(gObjectEventPic_Winona, 2, 4, 4),
-    overworld_frame(gObjectEventPic_Winona, 2, 4, 5),
-    overworld_frame(gObjectEventPic_Winona, 2, 4, 6),
-    overworld_frame(gObjectEventPic_Winona, 2, 4, 7),
-    overworld_frame(gObjectEventPic_Winona, 2, 4, 8),
+const struct SpriteFrameImage gObjectEventPicTable_Tanner[] = {
+    overworld_frame(gObjectEventPic_Tanner, 2, 4, 0),
+    overworld_frame(gObjectEventPic_Tanner, 2, 4, 1),
+    overworld_frame(gObjectEventPic_Tanner, 2, 4, 2),
+    overworld_frame(gObjectEventPic_Tanner, 2, 4, 3),
+    overworld_frame(gObjectEventPic_Tanner, 2, 4, 4),
+    overworld_frame(gObjectEventPic_Tanner, 2, 4, 5),
+    overworld_frame(gObjectEventPic_Tanner, 2, 4, 6),
+    overworld_frame(gObjectEventPic_Tanner, 2, 4, 7),
+    overworld_frame(gObjectEventPic_Tanner, 2, 4, 8),
 };
 
 const struct SpriteFrameImage gObjectEventPicTable_Liza[] = {
@@ -2463,16 +2463,16 @@ const struct SpriteFrameImage gObjectEventPicTable_Scott[] = {
     overworld_frame(gObjectEventPic_Scott, 2, 4, 8),
 };
 
-const struct SpriteFrameImage gObjectEventPicTable_Juan[] = {
-    overworld_frame(gObjectEventPic_Juan, 2, 4, 0),
-    overworld_frame(gObjectEventPic_Juan, 2, 4, 1),
-    overworld_frame(gObjectEventPic_Juan, 2, 4, 2),
-    overworld_frame(gObjectEventPic_Juan, 2, 4, 3),
-    overworld_frame(gObjectEventPic_Juan, 2, 4, 4),
-    overworld_frame(gObjectEventPic_Juan, 2, 4, 5),
-    overworld_frame(gObjectEventPic_Juan, 2, 4, 6),
-    overworld_frame(gObjectEventPic_Juan, 2, 4, 7),
-    overworld_frame(gObjectEventPic_Juan, 2, 4, 8),
+const struct SpriteFrameImage gObjectEventPicTable_Mitchell[] = {
+    overworld_frame(gObjectEventPic_Mitchell, 2, 4, 0),
+    overworld_frame(gObjectEventPic_Mitchell, 2, 4, 1),
+    overworld_frame(gObjectEventPic_Mitchell, 2, 4, 2),
+    overworld_frame(gObjectEventPic_Mitchell, 2, 4, 3),
+    overworld_frame(gObjectEventPic_Mitchell, 2, 4, 4),
+    overworld_frame(gObjectEventPic_Mitchell, 2, 4, 5),
+    overworld_frame(gObjectEventPic_Mitchell, 2, 4, 6),
+    overworld_frame(gObjectEventPic_Mitchell, 2, 4, 7),
+    overworld_frame(gObjectEventPic_Mitchell, 2, 4, 8),
 };
 
 const struct SpriteFrameImage gObjectEventPicTable_MysteryEventDeliveryman[] = {

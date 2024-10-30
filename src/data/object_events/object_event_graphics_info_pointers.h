@@ -126,10 +126,10 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Glacia;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Drake;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mason;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Zach;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wattson;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Flannery;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Trevor;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Jared;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Norman;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Winona;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Tanner;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Liza;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Tate;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Dario;
@@ -209,7 +209,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Azurill;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mom;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LinkBrendan;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_LinkMay;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Juan;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mitchell;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Scott;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Duplicat;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MysteryEventDeliveryman;
@@ -1222,10 +1222,10 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_DRAKE] =                    &gObjectEventGraphicsInfo_Drake,
     [OBJ_EVENT_GFX_MASON] =                  &gObjectEventGraphicsInfo_Mason,
     [OBJ_EVENT_GFX_ZACH] =                   &gObjectEventGraphicsInfo_Zach,
-    [OBJ_EVENT_GFX_WATTSON] =                  &gObjectEventGraphicsInfo_Wattson,
-    [OBJ_EVENT_GFX_FLANNERY] =                 &gObjectEventGraphicsInfo_Flannery,
+    [OBJ_EVENT_GFX_Trevor] =                  &gObjectEventGraphicsInfo_Trevor,
+    [OBJ_EVENT_GFX_Jared] =                 &gObjectEventGraphicsInfo_Jared,
     [OBJ_EVENT_GFX_NORMAN] =                   &gObjectEventGraphicsInfo_Norman,
-    [OBJ_EVENT_GFX_WINONA] =                   &gObjectEventGraphicsInfo_Winona,
+    [OBJ_EVENT_GFX_Tanner] =                   &gObjectEventGraphicsInfo_Tanner,
     [OBJ_EVENT_GFX_LIZA] =                     &gObjectEventGraphicsInfo_Liza,
     [OBJ_EVENT_GFX_TATE] =                     &gObjectEventGraphicsInfo_Tate,
     [OBJ_EVENT_GFX_DARIO] =                  &gObjectEventGraphicsInfo_Dario,
@@ -1297,7 +1297,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_MOM] =                      &gObjectEventGraphicsInfo_Mom,
     [OBJ_EVENT_GFX_LINK_BRENDAN] =             &gObjectEventGraphicsInfo_LinkBrendan,
     [OBJ_EVENT_GFX_LINK_MAY] =                 &gObjectEventGraphicsInfo_LinkMay,
-    [OBJ_EVENT_GFX_JUAN] =                     &gObjectEventGraphicsInfo_Juan,
+    [OBJ_EVENT_GFX_Mitchell] =                     &gObjectEventGraphicsInfo_Mitchell,
     [OBJ_EVENT_GFX_SCOTT] =                    &gObjectEventGraphicsInfo_Scott,
     [OBJ_EVENT_GFX_MYSTERY_GIFT_MAN] =         &gObjectEventGraphicsInfo_MysteryEventDeliveryman,
     [OBJ_EVENT_GFX_TRICK_HOUSE_STATUE] =       &gObjectEventGraphicsInfo_Statue,

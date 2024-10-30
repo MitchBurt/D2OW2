@@ -75,16 +75,16 @@ MauvilleCity_Gym_EventScript_DeactivatePuzzle:: @ 820DEE7
 	special MauvilleGymDeactivatePuzzle
 	end
 
-MauvilleCity_Gym_EventScript_Wattson:: @ 820DEEB
+MauvilleCity_Gym_EventScript_Trevor:: @ 820DEEB
 	lock
 	faceplayer
-	call_if_set FLAG_BADGE03_GET, MauvilleCity_Gym_EventScript_Wattson_PostBattle
-	trainerbattle_single TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonIntro, MauvilleCity_Gym_Text_WattsonDefeat, MauvilleCity_Gym_EventScript_WattsonDefeated, NO_MUSIC
-	msgbox MauvilleCity_Gym_Text_WattsonPostBattle, MSGBOX_DEFAULT
+	call_if_set FLAG_BADGE03_GET, MauvilleCity_Gym_EventScript_Trevor_PostBattle
+	trainerbattle_single TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorIntro, MauvilleCity_Gym_Text_TrevorDefeat, MauvilleCity_Gym_EventScript_TrevorDefeated, NO_MUSIC
+	msgbox MauvilleCity_Gym_Text_TrevorPostBattle, MSGBOX_DEFAULT
 	release
 	end
 
-MauvilleCity_Gym_EventScript_WattsonDefeated:: @ 820DF2B
+MauvilleCity_Gym_EventScript_TrevorDefeated:: @ 820DF2B
 	message MauvilleCity_Gym_Text_ReceivedDynamoBadge
 	waitmessage
 	call Common_EventScript_PlayGymBadgeFanfare
@@ -103,32 +103,32 @@ MauvilleCity_Gym_EventScript_WattsonDefeated:: @ 820DF2B
 	closemessage
 	delay 30
 	playfanfare MUS_REGISTER_MATCH_CALL
-	msgbox MauvilleCity_Gym_Text_RegisteredWattson, MSGBOX_DEFAULT
+	msgbox MauvilleCity_Gym_Text_RegisteredTrevor, MSGBOX_DEFAULT
 	waitfanfare
 	closemessage
 	delay 30
-	setflag FLAG_ENABLE_WATTSON_MATCH_CALL
+	setflag FLAG_ENABLE_Trevor_MATCH_CALL
 	call Gym_EventScript_Reset_Rematches
-	setflag FLAG_WATTSON_REMATCH
+	setflag FLAG_Trevor_REMATCH
 	release
 	end
 	
-MauvilleCity_Gym_EventScript_WattsonRematch:: @ 820DFDE
-	msgbox MauvilleCity_Gym_Text_WattsonPreRematch, MSGBOX_DEFAULT
+MauvilleCity_Gym_EventScript_TrevorRematch:: @ 820DFDE
+	msgbox MauvilleCity_Gym_Text_TrevorPreRematch, MSGBOX_DEFAULT
 	goto MauvilleCity_Gym_EventScript_Start_Rematch_1
 	end
 	
-MauvilleCity_Gym_EventScript_Wattson_PostBattle::
-	goto_if_unset FLAG_WATTSON_REMATCH, MauvilleCity_Gym_EventScript_WattsonRematch
-	msgbox MauvilleCity_Gym_Text_WattsonPostBattle, MSGBOX_DEFAULT
+MauvilleCity_Gym_EventScript_Trevor_PostBattle::
+	goto_if_unset FLAG_Trevor_REMATCH, MauvilleCity_Gym_EventScript_TrevorRematch
+	msgbox MauvilleCity_Gym_Text_TrevorPostBattle, MSGBOX_DEFAULT
 	release
 	end
 	
 //rematches
-MauvilleCity_Gym_EventScript_WattsonRematchEnd::
-	msgbox MauvilleCity_Gym_Text_WattsonPostBattle, MSGBOX_DEFAULT
+MauvilleCity_Gym_EventScript_TrevorRematchEnd::
+	msgbox MauvilleCity_Gym_Text_TrevorPostBattle, MSGBOX_DEFAULT
 	call Gym_EventScript_Reset_Random_Rematch
-	setflag FLAG_WATTSON_REMATCH
+	setflag FLAG_Trevor_REMATCH
 	release
 	end
 	
@@ -137,10 +137,10 @@ MauvilleCity_Gym_EventScript_Start_Rematch_1::
 	checkitem ITEM_TM73_THUNDER_WAVE, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq MauvilleCity_Gym_EventScript_Start_Rematch_2
-	trainerbattle_no_intro TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonRematchDefeat
+	trainerbattle_no_intro TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat
 	msgbox MauvilleCity_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM73_THUNDER_WAVE
-	goto MauvilleCity_Gym_EventScript_WattsonRematchEnd
+	goto MauvilleCity_Gym_EventScript_TrevorRematchEnd
 	end
 	
 MauvilleCity_Gym_EventScript_Start_Rematch_2::
@@ -148,10 +148,10 @@ MauvilleCity_Gym_EventScript_Start_Rematch_2::
 	checkitem ITEM_TM34_SHOCK_WAVE, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq MauvilleCity_Gym_EventScript_Start_Rematch_3
-	trainerbattle_no_intro TRAINER_WATTSON_2, MauvilleCity_Gym_Text_WattsonRematchDefeat
+	trainerbattle_no_intro TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorRematchDefeat
 	msgbox MauvilleCity_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM34_SHOCK_WAVE
-	goto MauvilleCity_Gym_EventScript_WattsonRematchEnd
+	goto MauvilleCity_Gym_EventScript_TrevorRematchEnd
 	end
 	
 MauvilleCity_Gym_EventScript_Start_Rematch_3::
@@ -159,10 +159,10 @@ MauvilleCity_Gym_EventScript_Start_Rematch_3::
 	checkitem ITEM_TM57_CHARGE_BEAM, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq MauvilleCity_Gym_EventScript_Start_Rematch_4
-	trainerbattle_no_intro TRAINER_WATTSON_3, MauvilleCity_Gym_Text_WattsonRematchDefeat
+	trainerbattle_no_intro TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorRematchDefeat
 	msgbox MauvilleCity_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM57_CHARGE_BEAM
-	goto MauvilleCity_Gym_EventScript_WattsonRematchEnd
+	goto MauvilleCity_Gym_EventScript_TrevorRematchEnd
 	end
 	
 MauvilleCity_Gym_EventScript_Start_Rematch_4::
@@ -170,20 +170,20 @@ MauvilleCity_Gym_EventScript_Start_Rematch_4::
 	checkitem ITEM_TM72_VOLT_SWITCH, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq MauvilleCity_Gym_EventScript_Start_Rematch_5
-	trainerbattle_no_intro TRAINER_WATTSON_4, MauvilleCity_Gym_Text_WattsonRematchDefeat
+	trainerbattle_no_intro TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorRematchDefeat
 	msgbox MauvilleCity_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM72_VOLT_SWITCH
-	goto MauvilleCity_Gym_EventScript_WattsonRematchEnd
+	goto MauvilleCity_Gym_EventScript_TrevorRematchEnd
 	end
 	
 MauvilleCity_Gym_EventScript_Start_Rematch_5::
 	goto_if_unset FLAG_RECEIVED_TM04 MauvilleCity_Gym_EventScript_Start_Rematch_Party_4
 	goto_if_set FLAG_GOT_MANECTITE MauvilleCity_Gym_EventScript_Start_Rematch_6
-	trainerbattle_no_intro TRAINER_WATTSON_4, MauvilleCity_Gym_Text_WattsonRematchDefeat
+	trainerbattle_no_intro TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorRematchDefeat
 	msgbox MauvilleCity_Gym_Text_GetMegaStone, MSGBOX_DEFAULT
 	giveitem ITEM_MANECTITE
 	setflag FLAG_GOT_MANECTITE
-	goto MauvilleCity_Gym_EventScript_WattsonRematchEnd
+	goto MauvilleCity_Gym_EventScript_TrevorRematchEnd
 	end
 	
 MauvilleCity_Gym_EventScript_Start_Rematch_6::
@@ -191,10 +191,10 @@ MauvilleCity_Gym_EventScript_Start_Rematch_6::
 	checkitem ITEM_TM93_WILD_CHARGE, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq MauvilleCity_Gym_EventScript_Start_Rematch_Final
-	trainerbattle_no_intro TRAINER_WATTSON_5, MauvilleCity_Gym_Text_WattsonRematchDefeat
+	trainerbattle_no_intro TRAINER_Trevor_5, MauvilleCity_Gym_Text_TrevorRematchDefeat
 	msgbox MauvilleCity_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM93_WILD_CHARGE
-	goto MauvilleCity_Gym_EventScript_WattsonRematchEnd
+	goto MauvilleCity_Gym_EventScript_TrevorRematchEnd
 	end
 	
 MauvilleCity_Gym_EventScript_Start_Rematch_Final::
@@ -208,57 +208,57 @@ MauvilleCity_Gym_EventScript_Start_Rematch_Final::
 	end
 	
 MauvilleCity_Gym_EventScript_Start_Rematch_Party_1::
-	trainerbattle_no_intro TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonRematchDefeat
-	goto_if_unset FLAG_RECEIVED_TM04, MauvilleCity_Gym_EventScript_WattsonRematchEnd
+	trainerbattle_no_intro TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat
+	goto_if_unset FLAG_RECEIVED_TM04, MauvilleCity_Gym_EventScript_TrevorRematchEnd
 	msgbox MauvilleCity_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_TIMID_MINT, 3
-	goto MauvilleCity_Gym_EventScript_WattsonRematchEnd
+	goto MauvilleCity_Gym_EventScript_TrevorRematchEnd
 	end
 	
 MauvilleCity_Gym_EventScript_Start_Rematch_Party_2::
-	trainerbattle_no_intro TRAINER_WATTSON_2, MauvilleCity_Gym_Text_WattsonRematchDefeat
-	goto_if_unset FLAG_RECEIVED_TM04, MauvilleCity_Gym_EventScript_WattsonRematchEnd
+	trainerbattle_no_intro TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorRematchDefeat
+	goto_if_unset FLAG_RECEIVED_TM04, MauvilleCity_Gym_EventScript_TrevorRematchEnd
 	msgbox MauvilleCity_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_HASTY_MINT, 3
-	goto MauvilleCity_Gym_EventScript_WattsonRematchEnd
+	goto MauvilleCity_Gym_EventScript_TrevorRematchEnd
 	end
 	
 MauvilleCity_Gym_EventScript_Start_Rematch_Party_3::
-	trainerbattle_no_intro TRAINER_WATTSON_3, MauvilleCity_Gym_Text_WattsonRematchDefeat
-	goto_if_unset FLAG_RECEIVED_TM04, MauvilleCity_Gym_EventScript_WattsonRematchEnd
+	trainerbattle_no_intro TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorRematchDefeat
+	goto_if_unset FLAG_RECEIVED_TM04, MauvilleCity_Gym_EventScript_TrevorRematchEnd
 	msgbox MauvilleCity_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_JOLLY_MINT, 3
-	goto MauvilleCity_Gym_EventScript_WattsonRematchEnd
+	goto MauvilleCity_Gym_EventScript_TrevorRematchEnd
 	end
 	
 MauvilleCity_Gym_EventScript_Start_Rematch_Party_4::
-	trainerbattle_no_intro TRAINER_WATTSON_4, MauvilleCity_Gym_Text_WattsonRematchDefeat
-	goto_if_unset FLAG_RECEIVED_TM04, MauvilleCity_Gym_EventScript_WattsonRematchEnd
+	trainerbattle_no_intro TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorRematchDefeat
+	goto_if_unset FLAG_RECEIVED_TM04, MauvilleCity_Gym_EventScript_TrevorRematchEnd
 	msgbox MauvilleCity_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_NAIVE_MINT, 3
-	goto MauvilleCity_Gym_EventScript_WattsonRematchEnd
+	goto MauvilleCity_Gym_EventScript_TrevorRematchEnd
 	end
 	
 MauvilleCity_Gym_EventScript_Start_Rematch_Party_5::
-	trainerbattle_no_intro TRAINER_WATTSON_5, MauvilleCity_Gym_Text_WattsonRematchDefeat
-	goto_if_unset FLAG_RECEIVED_TM04, MauvilleCity_Gym_EventScript_WattsonRematchEnd
+	trainerbattle_no_intro TRAINER_Trevor_5, MauvilleCity_Gym_Text_TrevorRematchDefeat
+	goto_if_unset FLAG_RECEIVED_TM04, MauvilleCity_Gym_EventScript_TrevorRematchEnd
 	msgbox MauvilleCity_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_MODEST_MINT, 3
-	goto MauvilleCity_Gym_EventScript_WattsonRematchEnd
+	goto MauvilleCity_Gym_EventScript_TrevorRematchEnd
 	end
 	
 MauvilleCity_Gym_Text_GetTM:
-	.string "Wattson: Please take this\n"
+	.string "Trevor: Please take this\n"
 	.string "Technical Machine.$"
 
 MauvilleCity_Gym_Text_GetMegaStone:
-	.string "Wattson: Please take this\n"
+	.string "Trevor: Please take this\n"
 	.string "Mega Stone, with you.\p"
 	.string "Make an Murphire hold it to\n"
 	.string "unleash its Hidden Potential.$"
 	
 MauvilleCity_Gym_Text_GetReward:
-	.string "Wattson: Please take this\n"
+	.string "Trevor: Please take this\n"
 	.string "Item as a Reward.$"
 
 //rematches end
@@ -270,7 +270,7 @@ MauvilleCity_Gym_EventScript_GiveShockWave:: @ 820DFB1
 	return
 
 MauvilleCity_Gym_EventScript_CompletedNewMauville:: @ 820DFD4
-	msgbox MauvilleCity_Gym_Text_WattsonGoForthAndEndeavor, MSGBOX_DEFAULT
+	msgbox MauvilleCity_Gym_Text_TrevorGoForthAndEndeavor, MSGBOX_DEFAULT
 	release
 	end
 
@@ -401,7 +401,7 @@ MauvilleCity_Gym_EventScript_GymStatue:: @ 820E175
 MauvilleCity_Gym_Text_GymGuideAdvice: @ 820E17F
 	.string "Hey, how's it going, Champion-\n"
 	.string "bound {PLAYER}?\p"
-	.string "Wattson, the Leader of Mauville\n"
+	.string "Trevor, the Leader of Mauville\n"
 	.string "Gym, uses Electric-type Pokémon.\p"
 	.string "If you challenge him with Water-type\n"
 	.string "Pokémon, he'll zap them! Bzzt!\p"
@@ -426,14 +426,14 @@ MauvilleCity_Gym_Text_KirkPostBattle: @ 820E336
 	.string "whoa-yeah!$"
 
 MauvilleCity_Gym_Text_ShawnIntro: @ 820E369
-	.string "I trained under Wattson!\n"
+	.string "I trained under Trevor!\n"
 	.string "There ain't no way I'll lose easily!$"
 
 MauvilleCity_Gym_Text_ShawnDefeat: @ 820E3A7
 	.string "Unplugged and turned off…$"
 
 MauvilleCity_Gym_Text_ShawnPostBattle: @ 820E3C1
-	.string "Wattson, our Gym Leader, has been\n"
+	.string "Trevor, our Gym Leader, has been\n"
 	.string "around for a long, long time.\p"
 	.string "He was battling even before your\n"
 	.string "daddy was born, that tough coot.$"
@@ -446,7 +446,7 @@ MauvilleCity_Gym_Text_BenDefeat: @ 820E469
 	.string "It's no fun to lose…$"
 
 MauvilleCity_Gym_Text_BenPostBattle: @ 820E47E
-	.string "Wattson says he likes setting up\n"
+	.string "Trevor says he likes setting up\n"
 	.string "little traps with switches.$"
 
 MauvilleCity_Gym_Text_VivianIntro: @ 820E4BB
@@ -458,7 +458,7 @@ MauvilleCity_Gym_Text_VivianDefeat: @ 820E4F4
 
 MauvilleCity_Gym_Text_VivianPostBattle: @ 820E50F
 	.string "I've heard that Mauville was founded\n"
-	.string "by Wattson.\p"
+	.string "by Trevor.\p"
 	.string "He was a Trainer long before we\n"
 	.string "became Trainers.\l"
 	.string "He must know all sorts of things!$"
@@ -471,10 +471,10 @@ MauvilleCity_Gym_Text_AngeloDefeat: @ 820E5A8
 	.string "My eyes are frazzled…$"
 
 MauvilleCity_Gym_Text_AngeloPostBattle: @ 820E5C2
-	.string "Mauville Gym's Wattson has a shiny\n"
+	.string "Mauville Gym's Trevor has a shiny\n"
 	.string "forehead. It makes me happy!$"
 
-MauvilleCity_Gym_Text_WattsonIntro: @ 820E602
+MauvilleCity_Gym_Text_TrevorIntro: @ 820E602
 	.string "I've given up on my plans to convert\n"
 	.string "the city, I have.\p"
 	.string "And so, I put my time into making\n"
@@ -484,10 +484,10 @@ MauvilleCity_Gym_Text_WattsonIntro: @ 820E602
 	.string "past all my rigged doors?\p"
 	.string "Wahahahah!\n"
 	.string "Now, that is amusing!\p"
-	.string "Then, I, Wattson, the Leader of\n"
+	.string "Then, I, Trevor, the Leader of\n"
 	.string "Mauville Gym, shall electrify you!$"
 
-MauvilleCity_Gym_Text_WattsonDefeat: @ 820E734
+MauvilleCity_Gym_Text_TrevorDefeat: @ 820E734
 	.string "Wahahahah!\n"
 	.string "Fine, I lost!\p"
 	.string "You ended up giving me a thrill!\n"
@@ -495,7 +495,7 @@ MauvilleCity_Gym_Text_WattsonDefeat: @ 820E734
 
 MauvilleCity_Gym_Text_ReceivedDynamoBadge: @ 820E77F
 	.string "{PLAYER} received the Dynamo Badge\n"
-	.string "from Wattson.$"
+	.string "from Trevor.$"
 
 MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis: @ 820E7AA
 	.string "Hmm…\n"
@@ -507,15 +507,15 @@ MauvilleCity_Gym_Text_ExplainShockWave: @ 820E844
 	.string "misses! You can count on it!\p"
 	.string "… … … … … …$"
 
-MauvilleCity_Gym_Text_RegisteredWattson: @ 820E8B5
-	.string "Registered Gym Leader Wattson\n"
+MauvilleCity_Gym_Text_RegisteredTrevor: @ 820E8B5
+	.string "Registered Gym Leader Trevor\n"
 	.string "in the Pokénav.$"
 
-MauvilleCity_Gym_Text_WattsonPostBattle: @ 820E8E3
+MauvilleCity_Gym_Text_TrevorPostBattle: @ 820E8E3
 	.string "I swell with optimism, seeing a promising\n"
 	.string "young Trainer like you!$"
 
-MauvilleCity_Gym_Text_WattsonGoForthAndEndeavor: @ 820E925
+MauvilleCity_Gym_Text_TrevorGoForthAndEndeavor: @ 820E925
 	.string "Wahahahah!\n"
 	.string "Go forth and endeavor, youngster!$"
 
@@ -524,31 +524,31 @@ MauvilleCity_Gym_Text_GymStatue: @ 820E952
 
 MauvilleCity_Gym_Text_GymStatueCertified: @ 820E96C
 	.string "Mauville City Pokémon Gym\p"
-	.string "Wattson'S Certified Trainers:\n"
+	.string "Trevor'S Certified Trainers:\n"
 	.string "{PLAYER}$"
 
-MauvilleCity_Gym_Text_WattsonPreRematch: @ 820E9A7
-	.string "Wattson: Ah-ha! Here at last!\n"
+MauvilleCity_Gym_Text_TrevorPreRematch: @ 820E9A7
+	.string "Trevor: Ah-ha! Here at last!\n"
 	.string "I know what you want.\l"
 	.string "You want to battle my Pokémon!\p"
 	.string "Wahahahaha!\p"
 	.string "I'll make sparks fly from you!\n"
 	.string "Don't say I didn't warn you!$"
 
-MauvilleCity_Gym_Text_WattsonRematchDefeat: @ 820EA42
+MauvilleCity_Gym_Text_TrevorRematchDefeat: @ 820EA42
 	.string "Oof…\n"
 	.string "Our batteries ran dry…$"
 
-MauvilleCity_Gym_Text_WattsonPostRematch: @ 820EA5E
-	.string "Wattson: We'll have to recharge our\n"
+MauvilleCity_Gym_Text_TrevorPostRematch: @ 820EA5E
+	.string "Trevor: We'll have to recharge our\n"
 	.string "batteries again.\p"
 	.string "When we're fully charged up, we'll\n"
 	.string "gladly accept your challenge.\p"
 	.string "So, come back again sometime,\n"
 	.string "won't you?$"
 
-MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons: @ 820EAFD
-	.string "Wattson: Ah-ha! Here at last!\n"
+MauvilleCity_Gym_Text_TrevorRematchNeedTwoMons: @ 820EAFD
+	.string "Trevor: Ah-ha! Here at last!\n"
 	.string "I know what you want.\l"
 	.string "You want to battle my Pokémon!\p"
 	.string "Wahahahaha!\p"
@@ -562,60 +562,60 @@ MauvilleCity_Gym_Text_ReceivedMegaStone:
 	.string "you.$"
 `
 
-script MauvilleCity_Gym_EventScript_Wattson_New{
+script MauvilleCity_Gym_EventScript_Trevor_New{
 	lock
 	faceplayer
-    if (flag(FLAG_BADGE03_GET) && !flag(FLAG_WATTSON_REMATCH)){
+    if (flag(FLAG_BADGE03_GET) && !flag(FLAG_Trevor_REMATCH)){
 		//Rematch
 		//Intro
-		msgbox(MauvilleCity_Gym_Text_WattsonPreRematch, MSGBOX_NPC)
+		msgbox(MauvilleCity_Gym_Text_TrevorPreRematch, MSGBOX_NPC)
 		//Trainer Battle
-		call(MauvilleCity_Gym_EventScript_Wattson_Battle_New)
+		call(MauvilleCity_Gym_EventScript_Trevor_Battle_New)
 
         //Defeated Message and Reset Rematches for other Leaders
-		msgbox(MauvilleCity_Gym_Text_WattsonPostRematch, MSGBOX_NPC)
+		msgbox(MauvilleCity_Gym_Text_TrevorPostRematch, MSGBOX_NPC)
 		call(Gym_EventScript_Reset_Rematches)
 
 		//Give TMs or Items
 		msgbox(format("Please take these items with you."), MSGBOX_NPC)
-		call(MauvilleCity_Gym_EventScript_Wattson_Give_Gifts)
+		call(MauvilleCity_Gym_EventScript_Trevor_Give_Gifts)
 
-		msgbox(format("Wattson: Come back tomorrow so we can battle again."), MSGBOX_NPC)
+		msgbox(format("Trevor: Come back tomorrow so we can battle again."), MSGBOX_NPC)
 
 		//Set the Rematch Flag as False
-		setflag(FLAG_WATTSON_REMATCH)
+		setflag(FLAG_Trevor_REMATCH)
     }
-	elif(flag(FLAG_BADGE03_GET) && flag(FLAG_WATTSON_REMATCH)){
+	elif(flag(FLAG_BADGE03_GET) && flag(FLAG_Trevor_REMATCH)){
 		//You can challenge the other trainers an infinite number of times
-		msgbox(format("Wattson: My Pokémon are tired for today, but the other trainers here need training, do you want to try battling them again?"), MSGBOX_YESNO)
+		msgbox(format("Trevor: My Pokémon are tired for today, but the other trainers here need training, do you want to try battling them again?"), MSGBOX_YESNO)
 		if(var(VAR_RESULT) == 1){
 			cleartrainerflag(TRAINER_KIRK)
 			cleartrainerflag(TRAINER_SHAWN)
 			cleartrainerflag(TRAINER_BEN)
 			cleartrainerflag(TRAINER_VIVIAN)
 			cleartrainerflag(TRAINER_ANGELO)
-			msgbox(format("Wattson: I will tell them to get ready, so take care on your way out."), MSGBOX_NPC)
+			msgbox(format("Trevor: I will tell them to get ready, so take care on your way out."), MSGBOX_NPC)
 		}
 		else{
 			setvar(VAR_0x8008, 3)
 			call(Common_EventScript_SetGymTrainers)
-			msgbox(format("Wattson: Come back tomorrow so we can battle again."), MSGBOX_NPC)
+			msgbox(format("Trevor: Come back tomorrow so we can battle again."), MSGBOX_NPC)
 		}
 	}
 	elif((!defeated(TRAINER_KIRK) || !defeated(TRAINER_SHAWN) || !defeated(TRAINER_BEN) || 
 	      !defeated(TRAINER_VIVIAN) || !defeated(TRAINER_ANGELO))
 		  && flag(FLAG_HARD_MODE)){
-		msgbox(format("Wattson: Sorry, but you need to defeat every trainer on this Gym before battling me"), MSGBOX_NPC)
+		msgbox(format("Trevor: Sorry, but you need to defeat every trainer on this Gym before battling me"), MSGBOX_NPC)
 	}
 	else{
 		//First Battle
 		//Intro
-		msgbox(MauvilleCity_Gym_Text_WattsonIntro, MSGBOX_NPC)
+		msgbox(MauvilleCity_Gym_Text_TrevorIntro, MSGBOX_NPC)
 		//Trainer Battle
-		call(MauvilleCity_Gym_EventScript_Wattson_Battle_New)
+		call(MauvilleCity_Gym_EventScript_Trevor_Battle_New)
 
 		//Get the Badge
-		message(format("{PLAYER} received the Dynamo Badge from Wattson."))
+		message(format("{PLAYER} received the Dynamo Badge from Trevor."))
 		waitmessage
 		call(Common_EventScript_PlayGymBadgeFanfare)
 		msgbox(format("Please take these items with you, too,"), MSGBOX_NPC)
@@ -634,116 +634,116 @@ script MauvilleCity_Gym_EventScript_Wattson_New{
 		setflag(FLAG_TEMP_9)
 
 		//Give TMs or Items
-		call(MauvilleCity_Gym_EventScript_Wattson_Give_Gifts)
+		call(MauvilleCity_Gym_EventScript_Trevor_Give_Gifts)
 
 		//Set all the trainers in the Gym as Defeated
 		setvar(VAR_0x8008, 3)
 		call(Common_EventScript_SetGymTrainers)
 
 		//Register Trainer in your PokeNav
-		msgbox(MauvilleCity_Gym_Text_RegisteredWattson, MSGBOX_DEFAULT)
+		msgbox(MauvilleCity_Gym_Text_RegisteredTrevor, MSGBOX_DEFAULT)
 		playfanfare(MUS_REGISTER_MATCH_CALL)
-		setflag(FLAG_ENABLE_WATTSON_MATCH_CALL)
+		setflag(FLAG_ENABLE_Trevor_MATCH_CALL)
 		waitfanfare
 		closemessage
 
 		//Defeated Message and Reset Rematches for other Leaders
-		msgbox(MauvilleCity_Gym_Text_WattsonPostBattle, MSGBOX_NPC)
+		msgbox(MauvilleCity_Gym_Text_TrevorPostBattle, MSGBOX_NPC)
 		call(Gym_EventScript_Reset_Rematches)
 
 		//Set the Rematch Flag as False
-		setflag(FLAG_WATTSON_REMATCH)
+		setflag(FLAG_Trevor_REMATCH)
 	}
     release
     end
 }
 
-script MauvilleCity_Gym_EventScript_Wattson_Battle_New{
+script MauvilleCity_Gym_EventScript_Trevor_Battle_New{
 	if(flag(FLAG_BADGE03_GET)){
 		if(flag(FLAG_HARD_MODE)){
 			//Hard Mode
 			switch (var(VAR_NUM_BADGES)) {
-			case 0: trainerbattle_no_intro(TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-			case 1: trainerbattle_no_intro(TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-			case 2: trainerbattle_no_intro(TRAINER_WATTSON_2, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-			case 3: trainerbattle_no_intro(TRAINER_WATTSON_2, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-			case 4: trainerbattle_no_intro(TRAINER_WATTSON_3, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-			case 5: trainerbattle_no_intro(TRAINER_WATTSON_3, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-			case 6: trainerbattle_no_intro(TRAINER_WATTSON_4, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-			case 7: trainerbattle_no_intro(TRAINER_WATTSON_4, MauvilleCity_Gym_Text_WattsonRematchDefeat)
+			case 0: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+			case 1: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+			case 2: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+			case 3: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+			case 4: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+			case 5: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+			case 6: trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+			case 7: trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorRematchDefeat)
 			default:
 				if(flag(FLAG_SYS_GAME_CLEAR)){
 					//When you beat the game you can get a random rematch each day
 					random(5)
 					switch (var(VAR_RESULT)) {
-						case 0: trainerbattle_no_intro(TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-						case 1: trainerbattle_no_intro(TRAINER_WATTSON_2, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-						case 2: trainerbattle_no_intro(TRAINER_WATTSON_3, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-						case 3: trainerbattle_no_intro(TRAINER_WATTSON_4, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-						case 4: trainerbattle_no_intro(TRAINER_WATTSON_5, MauvilleCity_Gym_Text_WattsonRematchDefeat)
+						case 0: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+						case 1: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+						case 2: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+						case 3: trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+						case 4: trainerbattle_no_intro(TRAINER_Trevor_5, MauvilleCity_Gym_Text_TrevorRematchDefeat)
 					}
 				}
 				else{
 					//If you have 8 badges you battle its final team
-					trainerbattle_no_intro(TRAINER_WATTSON_5, MauvilleCity_Gym_Text_WattsonRematchDefeat)
+					trainerbattle_no_intro(TRAINER_Trevor_5, MauvilleCity_Gym_Text_TrevorRematchDefeat)
 				}
 			}
 		}
 		elif(flag(FLAG_NORMAL_MODE)){
 			//Normal Mode
 			switch (var(VAR_NUM_BADGES)) {
-				case 0: trainerbattle_no_intro(TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-				case 1: trainerbattle_no_intro(TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-				case 2: trainerbattle_no_intro(TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-				case 3: trainerbattle_no_intro(TRAINER_WATTSON_2, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-				case 4: trainerbattle_no_intro(TRAINER_WATTSON_2, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-				case 5: trainerbattle_no_intro(TRAINER_WATTSON_3, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-				case 6: trainerbattle_no_intro(TRAINER_WATTSON_3, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-				case 7: trainerbattle_no_intro(TRAINER_WATTSON_4, MauvilleCity_Gym_Text_WattsonRematchDefeat)
+				case 0: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 1: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 2: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 3: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 4: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 5: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 6: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 7: trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorRematchDefeat)
 				default:
 					if(flag(FLAG_SYS_GAME_CLEAR)){
 						//When you beat the game you can get a random rematch each day
 						random(5)
 						switch (var(VAR_RESULT)) {
-							case 0: trainerbattle_no_intro(TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-							case 1: trainerbattle_no_intro(TRAINER_WATTSON_2, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-							case 2: trainerbattle_no_intro(TRAINER_WATTSON_3, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-							case 3: trainerbattle_no_intro(TRAINER_WATTSON_4, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-							case 4: trainerbattle_no_intro(TRAINER_WATTSON_5, MauvilleCity_Gym_Text_WattsonRematchDefeat)
+							case 0: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+							case 1: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+							case 2: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+							case 3: trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+							case 4: trainerbattle_no_intro(TRAINER_Trevor_5, MauvilleCity_Gym_Text_TrevorRematchDefeat)
 						}
 					}
 					else{
 						//If you have 8 badges you battle its final team
-						trainerbattle_no_intro(TRAINER_WATTSON_5, MauvilleCity_Gym_Text_WattsonRematchDefeat)
+						trainerbattle_no_intro(TRAINER_Trevor_5, MauvilleCity_Gym_Text_TrevorRematchDefeat)
 					}
 			}
 		}
 		else{
 			//Easy Mode
 			switch (var(VAR_NUM_BADGES)) {
-				case 0: trainerbattle_no_intro(TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-				case 1: trainerbattle_no_intro(TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-				case 2: trainerbattle_no_intro(TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-				case 3: trainerbattle_no_intro(TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-				case 4: trainerbattle_no_intro(TRAINER_WATTSON_2, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-				case 5: trainerbattle_no_intro(TRAINER_WATTSON_2, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-				case 6: trainerbattle_no_intro(TRAINER_WATTSON_3, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-				case 7: trainerbattle_no_intro(TRAINER_WATTSON_3, MauvilleCity_Gym_Text_WattsonRematchDefeat)
+				case 0: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 1: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 2: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 3: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 4: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 5: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 6: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 7: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorRematchDefeat)
 				default:
 					if(flag(FLAG_SYS_GAME_CLEAR)){
 						//When you beat the game you can get a random rematch each day
 						random(5)
 						switch (var(VAR_RESULT)) {
-							case 0: trainerbattle_no_intro(TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-							case 1: trainerbattle_no_intro(TRAINER_WATTSON_2, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-							case 2: trainerbattle_no_intro(TRAINER_WATTSON_3, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-							case 3: trainerbattle_no_intro(TRAINER_WATTSON_4, MauvilleCity_Gym_Text_WattsonRematchDefeat)
-							case 4: trainerbattle_no_intro(TRAINER_WATTSON_5, MauvilleCity_Gym_Text_WattsonRematchDefeat)
+							case 0: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+							case 1: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+							case 2: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+							case 3: trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+							case 4: trainerbattle_no_intro(TRAINER_Trevor_5, MauvilleCity_Gym_Text_TrevorRematchDefeat)
 						}
 					}
 					else{
 						//If you have 8 badges you battle its final team
-						trainerbattle_no_intro(TRAINER_WATTSON_4, MauvilleCity_Gym_Text_WattsonRematchDefeat)
+						trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorRematchDefeat)
 					}
 			}
 		}
@@ -753,87 +753,87 @@ script MauvilleCity_Gym_EventScript_Wattson_Battle_New{
 		if(flag(FLAG_HARD_MODE)){
 			//Hard Mode
 			switch (var(VAR_NUM_BADGES)) {
-			case 0: trainerbattle_no_intro(TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonDefeat)
-			case 1: trainerbattle_no_intro(TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonDefeat)
-			case 2: trainerbattle_no_intro(TRAINER_WATTSON_2, MauvilleCity_Gym_Text_WattsonDefeat)
-			case 3: trainerbattle_no_intro(TRAINER_WATTSON_2, MauvilleCity_Gym_Text_WattsonDefeat)
-			case 4: trainerbattle_no_intro(TRAINER_WATTSON_3, MauvilleCity_Gym_Text_WattsonDefeat)
-			case 5: trainerbattle_no_intro(TRAINER_WATTSON_3, MauvilleCity_Gym_Text_WattsonDefeat)
-			case 6: trainerbattle_no_intro(TRAINER_WATTSON_4, MauvilleCity_Gym_Text_WattsonDefeat)
-			case 7: trainerbattle_no_intro(TRAINER_WATTSON_4, MauvilleCity_Gym_Text_WattsonDefeat)
+			case 0: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorDefeat)
+			case 1: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorDefeat)
+			case 2: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorDefeat)
+			case 3: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorDefeat)
+			case 4: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorDefeat)
+			case 5: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorDefeat)
+			case 6: trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorDefeat)
+			case 7: trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorDefeat)
 			default:
 				if(flag(FLAG_SYS_GAME_CLEAR)){
 					//When you beat the game you can get a random rematch each day
 					random(5)
 					switch (var(VAR_RESULT)) {
-						case 0: trainerbattle_no_intro(TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonDefeat)
-						case 1: trainerbattle_no_intro(TRAINER_WATTSON_2, MauvilleCity_Gym_Text_WattsonDefeat)
-						case 2: trainerbattle_no_intro(TRAINER_WATTSON_3, MauvilleCity_Gym_Text_WattsonDefeat)
-						case 3: trainerbattle_no_intro(TRAINER_WATTSON_4, MauvilleCity_Gym_Text_WattsonDefeat)
-						case 4: trainerbattle_no_intro(TRAINER_WATTSON_5, MauvilleCity_Gym_Text_WattsonDefeat)
+						case 0: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorDefeat)
+						case 1: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorDefeat)
+						case 2: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorDefeat)
+						case 3: trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorDefeat)
+						case 4: trainerbattle_no_intro(TRAINER_Trevor_5, MauvilleCity_Gym_Text_TrevorDefeat)
 					}
 				}
 				else{
 					//If you have 8 badges you battle its final team
-					trainerbattle_no_intro(TRAINER_WATTSON_5, MauvilleCity_Gym_Text_WattsonDefeat)
+					trainerbattle_no_intro(TRAINER_Trevor_5, MauvilleCity_Gym_Text_TrevorDefeat)
 				}
 			}
 		}
 		elif(flag(FLAG_NORMAL_MODE)){
 			//Normal Mode
 			switch (var(VAR_NUM_BADGES)) {
-				case 0: trainerbattle_no_intro(TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonDefeat)
-				case 1: trainerbattle_no_intro(TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonDefeat)
-				case 2: trainerbattle_no_intro(TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonDefeat)
-				case 3: trainerbattle_no_intro(TRAINER_WATTSON_2, MauvilleCity_Gym_Text_WattsonDefeat)
-				case 4: trainerbattle_no_intro(TRAINER_WATTSON_2, MauvilleCity_Gym_Text_WattsonDefeat)
-				case 5: trainerbattle_no_intro(TRAINER_WATTSON_3, MauvilleCity_Gym_Text_WattsonDefeat)
-				case 6: trainerbattle_no_intro(TRAINER_WATTSON_3, MauvilleCity_Gym_Text_WattsonDefeat)
-				case 7: trainerbattle_no_intro(TRAINER_WATTSON_4, MauvilleCity_Gym_Text_WattsonDefeat)
+				case 0: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 1: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 2: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 3: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 4: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 5: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 6: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 7: trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorDefeat)
 				default:
 					if(flag(FLAG_SYS_GAME_CLEAR)){
 						//When you beat the game you can get a random rematch each day
 						random(5)
 						switch (var(VAR_RESULT)) {
-							case 0: trainerbattle_no_intro(TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonDefeat)
-							case 1: trainerbattle_no_intro(TRAINER_WATTSON_2, MauvilleCity_Gym_Text_WattsonDefeat)
-							case 2: trainerbattle_no_intro(TRAINER_WATTSON_3, MauvilleCity_Gym_Text_WattsonDefeat)
-							case 3: trainerbattle_no_intro(TRAINER_WATTSON_4, MauvilleCity_Gym_Text_WattsonDefeat)
-							case 4: trainerbattle_no_intro(TRAINER_WATTSON_5, MauvilleCity_Gym_Text_WattsonDefeat)
+							case 0: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorDefeat)
+							case 1: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorDefeat)
+							case 2: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorDefeat)
+							case 3: trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorDefeat)
+							case 4: trainerbattle_no_intro(TRAINER_Trevor_5, MauvilleCity_Gym_Text_TrevorDefeat)
 						}
 					}
 					else{
 						//If you have 8 badges you battle its final team
-						trainerbattle_no_intro(TRAINER_WATTSON_5, MauvilleCity_Gym_Text_WattsonDefeat)
+						trainerbattle_no_intro(TRAINER_Trevor_5, MauvilleCity_Gym_Text_TrevorDefeat)
 					}
 			}
 		}
 		else{
 			//Easy Mode
 			switch (var(VAR_NUM_BADGES)) {
-				case 0: trainerbattle_no_intro(TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonDefeat)
-				case 1: trainerbattle_no_intro(TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonDefeat)
-				case 2: trainerbattle_no_intro(TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonDefeat)
-				case 3: trainerbattle_no_intro(TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonDefeat)
-				case 4: trainerbattle_no_intro(TRAINER_WATTSON_2, MauvilleCity_Gym_Text_WattsonDefeat)
-				case 5: trainerbattle_no_intro(TRAINER_WATTSON_2, MauvilleCity_Gym_Text_WattsonDefeat)
-				case 6: trainerbattle_no_intro(TRAINER_WATTSON_3, MauvilleCity_Gym_Text_WattsonDefeat)
-				case 7: trainerbattle_no_intro(TRAINER_WATTSON_3, MauvilleCity_Gym_Text_WattsonDefeat)
+				case 0: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 1: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 2: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 3: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 4: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 5: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 6: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 7: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorDefeat)
 				default:
 					if(flag(FLAG_SYS_GAME_CLEAR)){
 						//When you beat the game you can get a random rematch each day
 						random(5)
 						switch (var(VAR_RESULT)) {
-							case 0: trainerbattle_no_intro(TRAINER_WATTSON_1, MauvilleCity_Gym_Text_WattsonDefeat)
-							case 1: trainerbattle_no_intro(TRAINER_WATTSON_2, MauvilleCity_Gym_Text_WattsonDefeat)
-							case 2: trainerbattle_no_intro(TRAINER_WATTSON_3, MauvilleCity_Gym_Text_WattsonDefeat)
-							case 3: trainerbattle_no_intro(TRAINER_WATTSON_4, MauvilleCity_Gym_Text_WattsonDefeat)
-							case 4: trainerbattle_no_intro(TRAINER_WATTSON_5, MauvilleCity_Gym_Text_WattsonDefeat)
+							case 0: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorDefeat)
+							case 1: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorDefeat)
+							case 2: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorDefeat)
+							case 3: trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorDefeat)
+							case 4: trainerbattle_no_intro(TRAINER_Trevor_5, MauvilleCity_Gym_Text_TrevorDefeat)
 						}
 					}
 					else{
 						//If you have 8 badges you battle its final team
-						trainerbattle_no_intro(TRAINER_WATTSON_4, MauvilleCity_Gym_Text_WattsonDefeat)
+						trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorDefeat)
 					}
 			}
 		}
@@ -841,12 +841,12 @@ script MauvilleCity_Gym_EventScript_Wattson_Battle_New{
 	return
 }
 
-script MauvilleCity_Gym_EventScript_Wattson_Give_Gifts{
+script MauvilleCity_Gym_EventScript_Trevor_Give_Gifts{
 	//Give Shock Wave
 	checkitem(ITEM_TM34_SHOCK_WAVE, 1)
 	if(var(VAR_NUM_BADGES) >= 2 && var(VAR_RESULT) == FALSE){
 		giveitem(ITEM_TM34_SHOCK_WAVE)
-		msgbox(format("Wattson: This move inflicts damage and always lands, use it if you had your accuracy lowered."), MSGBOX_NPC)
+		msgbox(format("Trevor: This move inflicts damage and always lands, use it if you had your accuracy lowered."), MSGBOX_NPC)
 		setflag(FLAG_TEMP_9) //To check if you have been given multiple items
 	}
 
@@ -854,7 +854,7 @@ script MauvilleCity_Gym_EventScript_Wattson_Give_Gifts{
 	checkitem(ITEM_TM57_CHARGE_BEAM, 1)
 	if(var(VAR_NUM_BADGES) >= 4 && var(VAR_RESULT) == FALSE){
 		giveitem(ITEM_TM57_CHARGE_BEAM)
-		msgbox(format("Wattson: This move inflicts damage and always rises the user Special Attack so it becomes stronger on each hit."), MSGBOX_NPC)
+		msgbox(format("Trevor: This move inflicts damage and always rises the user Special Attack so it becomes stronger on each hit."), MSGBOX_NPC)
 		setflag(FLAG_TEMP_9) //To check if you have been given multiple items
 	}
 
@@ -862,7 +862,7 @@ script MauvilleCity_Gym_EventScript_Wattson_Give_Gifts{
 	checkitem(ITEM_TM72_VOLT_SWITCH, 1)
 	if(var(VAR_NUM_BADGES) >= 6 && var(VAR_RESULT) == FALSE){
 		giveitem(ITEM_TM72_VOLT_SWITCH)
-		msgbox(format("Wattson: This move inflicts damage and lets you switch your Pokémon on the same turn, use it to switch if you are faster than your enemy."), MSGBOX_NPC)
+		msgbox(format("Trevor: This move inflicts damage and lets you switch your Pokémon on the same turn, use it to switch if you are faster than your enemy."), MSGBOX_NPC)
 		setflag(FLAG_TEMP_9) //To check if you have been given multiple items
 	}
 
@@ -870,13 +870,13 @@ script MauvilleCity_Gym_EventScript_Wattson_Give_Gifts{
 	checkitem(ITEM_TM93_WILD_CHARGE, 1)
 	if(var(VAR_NUM_BADGES) >= 8 && var(VAR_RESULT) == FALSE){
 		giveitem(ITEM_TM93_WILD_CHARGE)
-		msgbox(format("Wattson: This is an Electric-type damage move made specially for Electric-type Pokémon with high Physical Attack, it also inflicts recoil damage to the user so use it wisely."), MSGBOX_NPC)
+		msgbox(format("Trevor: This is an Electric-type damage move made specially for Electric-type Pokémon with high Physical Attack, it also inflicts recoil damage to the user so use it wisely."), MSGBOX_NPC)
 		setflag(FLAG_TEMP_9) //To check if you have been given multiple items
 	}
 
 	//Give Megastone
 	if(var(VAR_NUM_BADGES) >= 6 && !flag(FLAG_GOT_MANECTITE)){
-		msgbox(format("Wattson: Take this as an special gift from me, it's a Manectite."), MSGBOX_NPC)
+		msgbox(format("Trevor: Take this as an special gift from me, it's a Manectite."), MSGBOX_NPC)
 		giveitem(ITEM_MANECTITE)
 		msgbox(format("Make a Auxilisk hold it to unleash its real potential."), MSGBOX_NPC)
 		setflag(FLAG_GOT_MANECTITE)
@@ -902,7 +902,7 @@ script MauvilleCity_Gym_EventScript_GymGuide_New{
 	lock
 	faceplayer
 	if(flag(FLAG_DEFEATED_MAUVILLE_GYM)){
-		if(!flag(FLAG_WATTSON_REMATCH)){
+		if(!flag(FLAG_Trevor_REMATCH)){
 			msgbox(format("Guide: Hello {PLAYER}, I see you came to this Gym again, do you want me to take you to the Leader?"), MSGBOX_YESNO)
 			if(var(VAR_RESULT) == 1){
 				msgbox(format("Let me tell the leader that you are here."), MSGBOX_NPC)
@@ -928,13 +928,13 @@ script MauvilleCity_Gym_EventScript_Gym_Cordra{
 	faceplayer
 	switch(var(VAR_GYM_POKEMON_SPECIES)){
 		case SPECIES_CORDRA:
-			if (flag(FLAG_BADGE03_GET) && !flag(FLAG_WATTSON_REMATCH)){
+			if (flag(FLAG_BADGE03_GET) && !flag(FLAG_Trevor_REMATCH)){
 				//Ready for a rematch
 				msgbox(format("Cordra: trike!"), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems like it wants a rematch with You, its fur looks like it has a lot of electricity."), MSGBOX_SIGN)
 				waitmessage
 			}
-			elif(flag(FLAG_BADGE03_GET) && flag(FLAG_WATTSON_REMATCH)){
+			elif(flag(FLAG_BADGE03_GET) && flag(FLAG_Trevor_REMATCH)){
 				//After a rematch
 				msgbox(format("Cordra: trike..."), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems tired after today's battle, it let out a loud yawn."), MSGBOX_SIGN)
@@ -946,13 +946,13 @@ script MauvilleCity_Gym_EventScript_Gym_Cordra{
 				waitmessage
 			}
 		case SPECIES_AUXILISK:
-			if (flag(FLAG_BADGE03_GET) && !flag(FLAG_WATTSON_REMATCH)){
+			if (flag(FLAG_BADGE03_GET) && !flag(FLAG_Trevor_REMATCH)){
 				//Ready for a rematch
 				msgbox(format("Auxilisk: tric!"), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems like it wants a rematch, it may even create thunderclouds."), MSGBOX_SIGN)
 				waitmessage
 			}
-			elif(flag(FLAG_BADGE03_GET) && flag(FLAG_WATTSON_REMATCH)){
+			elif(flag(FLAG_BADGE03_GET) && flag(FLAG_Trevor_REMATCH)){
 				msgbox(format("Auxilisk: tric..."), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems tired after today's battle, but it is still alert."), MSGBOX_SIGN)
 				waitmessage

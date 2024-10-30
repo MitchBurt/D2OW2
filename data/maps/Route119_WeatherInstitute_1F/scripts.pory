@@ -111,7 +111,7 @@ Route119_WeatherInstitute_1F_Text_EveryoneWentUpstairs: @ 826FCB7
 	.string "upstairs!$"
 
 Route119_WeatherInstitute_1F_Text_WowYoureStrong: @ 826FCE5
-	.string "Wow, Winona is really strong!\p"
+	.string "Wow, Tanner is really strong!\p"
 	.string "I wish I could be a Pokémon Trainer\n"
 	.string "like her!$"
 
@@ -189,11 +189,11 @@ script Route119_WeatherInstitute_1F_EventScript_InstituteWorker_Rocky_Helmet {
 script Route119_WeatherInstitute_1F_EventScript_Kid {
     lock
     faceplayer
-    msgbox(format("Wow, Winona is really strong!.\p"
+    msgbox(format("Wow, Tanner is really strong!.\p"
 	"I wish I could be a Pokémon Trainer like her!"))
 	if (flag(FLAG_RECEIVED_TM04) == TRUE) {
 		msgbox(format("What?! you defeated her!.\n"
-		"Don't be silly, nobody can beat Winona!"))
+		"Don't be silly, nobody can beat Tanner!"))
 	}
     release
     end

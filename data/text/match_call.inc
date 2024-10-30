@@ -2110,8 +2110,8 @@ MatchCall_Text_Zach4:: @ 82B28D1
 	.string "Zach: {PLAYER}, no creo que\n"
 	.string "me aburra nunca de luchar contigo.$"
 
-MatchCall_Text_Wattson1:: @ 82B2912
-	.string "Wattson: Oh, it's you!\p"
+MatchCall_Text_Trevor1:: @ 82B2912
+	.string "Trevor: Oh, it's you!\p"
 	.string "After you left, I've been redoing\n"
 	.string "my training from scratch.\p"
 	.string "I'd say I could use a wee bit more\n"
@@ -2119,8 +2119,8 @@ MatchCall_Text_Wattson1:: @ 82B2912
 	.string "You'll have to wait till then!\n"
 	.string "Wahahahaha!$"
 
-MatchCall_Text_Wattson2:: @ 82B29CA
-	.string "Wattson: Wahahahaha!\p"
+MatchCall_Text_Trevor2:: @ 82B29CA
+	.string "Trevor: Wahahahaha!\p"
 	.string "You've really done it, haven't you?\n"
 	.string "I've been getting word about you!\p"
 	.string "It seems I need to retrain some\n"
@@ -2130,19 +2130,19 @@ MatchCall_Text_Wattson2:: @ 82B29CA
 	.string "You'll have to wait till then!\n"
 	.string "Wahahahaha!$"
 
-MatchCall_Text_Wattson3:: @ 82B2AB6
-	.string "Wattson: Oh, it's you!\n"
+MatchCall_Text_Trevor3:: @ 82B2AB6
+	.string "Trevor: Oh, it's you!\n"
 	.string "My Gym's ready!\p"
 	.string "Visit Mauville anytime!\n"
 	.string "Wahahahaha!$"
 
-MatchCall_Text_Wattson4:: @ 82B2B01
-	.string "Wattson: ¡Ja, ja, ja, ja!\p"
+MatchCall_Text_Trevor4:: @ 82B2B01
+	.string "Trevor: ¡Ja, ja, ja, ja!\p"
 	.string "¡Luchar contigo resulta siempre\n"
 	.string "electrizante!$"
 
-MatchCall_Text_Flannery1:: @ 82B2B4D
-	.string "Flannery: {PLAYER}…\p"
+MatchCall_Text_Jared1:: @ 82B2B4D
+	.string "Jared: {PLAYER}…\p"
 	.string "When we battled, I learned exactly\n"
 	.string "how immature I was.\p"
 	.string "But I'm not done yet!\p"
@@ -2151,8 +2151,8 @@ MatchCall_Text_Flannery1:: @ 82B2B4D
 	.string "When the time comes, {PLAYER},\n"
 	.string "please challenge us again.$"
 
-MatchCall_Text_Flannery2:: @ 82B2C0E
-	.string "Flannery: Hello, {PLAYER}?\n"
+MatchCall_Text_Jared2:: @ 82B2C0E
+	.string "Jared: Hello, {PLAYER}?\n"
 	.string "Congratulations!\p"
 	.string "Word of your success has reached\n"
 	.string "us like the heat of a volcano!\p"
@@ -2162,38 +2162,38 @@ MatchCall_Text_Flannery2:: @ 82B2C0E
 	.string "appear beside my name in the\l"
 	.string "Match Call list.$"
 
-MatchCall_Text_Flannery3:: @ 82B2CF1
-	.string "Flannery: Oh, {PLAYER}?\n"
+MatchCall_Text_Jared3:: @ 82B2CF1
+	.string "Jared: Oh, {PLAYER}?\n"
 	.string "Our Gym's ready!\p"
 	.string "Come to Lavaridge for a soak\n"
 	.string "in the hot spring and a challenge!$"
 
-MatchCall_Text_Flannery4:: @ 82B2D54
-	.string "Flannery: {PLAYER}…\n"
+MatchCall_Text_Jared4:: @ 82B2D54
+	.string "Jared: {PLAYER}…\n"
 	.string "Estoy convencida de que cada vez\l"
 	.string "vas a entrenar mejor.$"
 
-MatchCall_Text_Winona1:: @ 82B2DA4
-	.string "Winona: Hello, {PLAYER}!\p"
+MatchCall_Text_Tanner1:: @ 82B2DA4
+	.string "Tanner: Hello, {PLAYER}!\p"
 	.string "Thanks to our battle, I've come\n"
 	.string "to understand my weak points!\p"
 	.string "When I reopen the Gym, I won't go\n"
 	.string "down in defeat again!$"
 
-MatchCall_Text_Winona2:: @ 82B2E2B
-	.string "Winona: You've done it, {PLAYER}!\p"
+MatchCall_Text_Tanner2:: @ 82B2E2B
+	.string "Tanner: You've done it, {PLAYER}!\p"
 	.string "News about the new Champion\n"
 	.string "has reached us in Fortree!\p"
 	.string "But… The next time we battle,\n"
 	.string "it's not going to end the same way.$"
 
-MatchCall_Text_Winona3:: @ 82B2EC2
-	.string "Winona: Is this {PLAYER}?\n"
+MatchCall_Text_Tanner3:: @ 82B2EC2
+	.string "Tanner: Is this {PLAYER}?\n"
 	.string "Our Gym is back in operation!\p"
 	.string "We're waiting for you in Fortree!$"
 
-MatchCall_Text_Winona4:: @ 82B2F16
-	.string "Winona: {PLAYER}…\n"
+MatchCall_Text_Tanner4:: @ 82B2F16
+	.string "Tanner: {PLAYER}…\n"
 	.string "A mí no se me caen las alas\l"
 	.string "por perder…\p"
 	.string "Exacto, como tú tampoco pierdes\n"
@@ -2233,8 +2233,8 @@ MatchCall_Text_TateLiza4:: @ 82B31CD
 	.string "Tate: It would be nice if…\n"
 	.string "Liza: We could all battle again!$"
 
-MatchCall_Text_Juan1:: @ 82B3249
-	.string "Juan: Hmm…\n"
+MatchCall_Text_Mitchell1:: @ 82B3249
+	.string "Mitchell: Hmm…\n"
 	.string "{PLAYER}{KUN}… Was it?\p"
 	.string "Our battle together--it brought\n"
 	.string "to me memories of when I first\l"
@@ -2242,8 +2242,8 @@ MatchCall_Text_Juan1:: @ 82B3249
 	.string "Perhaps you are a genius who may\n"
 	.string "yet surpass Dario!$"
 
-MatchCall_Text_Juan2:: @ 82B32EC
-	.string "Juan: Fufu… {PLAYER}{KUN}…\n"
+MatchCall_Text_Mitchell2:: @ 82B32EC
+	.string "Mitchell: Fufu… {PLAYER}{KUN}…\n"
 	.string "You've finally achieved your goal.\p"
 	.string "My eye for appraising talent wasn't\n"
 	.string "mistaken…\p"
@@ -2251,15 +2251,15 @@ MatchCall_Text_Juan2:: @ 82B32EC
 	.string "you, for you have scaled the peak\l"
 	.string "of power and prestige.$"
 
-MatchCall_Text_Juan3:: @ 82B33AA
-	.string "Juan: Hoho… {PLAYER}{KUN}…\p"
+MatchCall_Text_Mitchell3:: @ 82B33AA
+	.string "Mitchell: Hoho… {PLAYER}{KUN}…\p"
 	.string "Our Sootopolis Gym has finally\n"
 	.string "reopened.\p"
 	.string "If you wish to see me, you are\n"
 	.string "welcome to visit anytime.$"
 
-MatchCall_Text_Juan4:: @ 82B341E
-	.string "Juan: {PLAYER}…\p"
+MatchCall_Text_Mitchell4:: @ 82B341E
+	.string "Mitchell: {PLAYER}…\p"
 	.string "Como la buena música, nuestros\n"
 	.string "combates resuenan en mí como\l"
 	.string "auténtica fuente de inspiración…\p"
@@ -5067,8 +5067,8 @@ MatchCall_Text_Zach4:: @ 82B28D1
 	.string "Zach: {PLAYER}{KUN}, I don't think\n"
 	.string "I'll ever get bored of battling you!$"
 
-MatchCall_Text_Wattson1:: @ 82B2912
-	.string "Wattson: Oh, it's you!\p"
+MatchCall_Text_Trevor1:: @ 82B2912
+	.string "Trevor: Oh, it's you!\p"
 	.string "After you left, I've been redoing\n"
 	.string "my training from scratch.\p"
 	.string "I'd say I could use a wee bit more\n"
@@ -5076,8 +5076,8 @@ MatchCall_Text_Wattson1:: @ 82B2912
 	.string "You'll have to wait till then!\n"
 	.string "Wahahahaha!$"
 
-MatchCall_Text_Wattson2:: @ 82B29CA
-	.string "Wattson: Wahahahaha!\p"
+MatchCall_Text_Trevor2:: @ 82B29CA
+	.string "Trevor: Wahahahaha!\p"
 	.string "You've really done it, haven't you?\n"
 	.string "I've been getting word about you!\p"
 	.string "It seems I need to retrain some\n"
@@ -5087,19 +5087,19 @@ MatchCall_Text_Wattson2:: @ 82B29CA
 	.string "You'll have to wait till then!\n"
 	.string "Wahahahaha!$"
 
-MatchCall_Text_Wattson3:: @ 82B2AB6
-	.string "Wattson: Oh, it's you!\n"
+MatchCall_Text_Trevor3:: @ 82B2AB6
+	.string "Trevor: Oh, it's you!\n"
 	.string "My Gym's ready!\p"
 	.string "Visit Mauville anytime!\n"
 	.string "Wahahahaha!$"
 
-MatchCall_Text_Wattson4:: @ 82B2B01
-	.string "Wattson: Wahahaha!\p"
+MatchCall_Text_Trevor4:: @ 82B2B01
+	.string "Trevor: Wahahaha!\p"
 	.string "A battle with you is always charged\n"
 	.string "with shocking power!$"
 
-MatchCall_Text_Flannery1:: @ 82B2B4D
-	.string "Flannery: {PLAYER}…\p"
+MatchCall_Text_Jared1:: @ 82B2B4D
+	.string "Jared: {PLAYER}…\p"
 	.string "When we battled, I learned exactly\n"
 	.string "how immature I was.\p"
 	.string "But I'm not done yet!\p"
@@ -5108,8 +5108,8 @@ MatchCall_Text_Flannery1:: @ 82B2B4D
 	.string "When the time comes, {PLAYER},\n"
 	.string "please challenge us again.$"
 
-MatchCall_Text_Flannery2:: @ 82B2C0E
-	.string "Flannery: Hello, {PLAYER}?\n"
+MatchCall_Text_Jared2:: @ 82B2C0E
+	.string "Jared: Hello, {PLAYER}?\n"
 	.string "Congratulations!\p"
 	.string "Word of your success has reached\n"
 	.string "us like the heat of a volcano!\p"
@@ -5119,38 +5119,38 @@ MatchCall_Text_Flannery2:: @ 82B2C0E
 	.string "appear beside my name in the\l"
 	.string "Match Call list.$"
 
-MatchCall_Text_Flannery3:: @ 82B2CF1
-	.string "Flannery: Oh, {PLAYER}?\n"
+MatchCall_Text_Jared3:: @ 82B2CF1
+	.string "Jared: Oh, {PLAYER}?\n"
 	.string "Our Gym's ready!\p"
 	.string "Come to Lavaridge for a soak\n"
 	.string "in the hot spring and a challenge!$"
 
-MatchCall_Text_Flannery4:: @ 82B2D54
-	.string "Flannery: {PLAYER}…\n"
+MatchCall_Text_Jared4:: @ 82B2D54
+	.string "Jared: {PLAYER}…\n"
 	.string "I'm positive that you keep getting\l"
 	.string "better at training every time.$"
 
-MatchCall_Text_Winona1:: @ 82B2DA4
-	.string "Winona: Hello, {PLAYER}!\p"
+MatchCall_Text_Tanner1:: @ 82B2DA4
+	.string "Tanner: Hello, {PLAYER}!\p"
 	.string "Thanks to our battle, I've come\n"
 	.string "to understand my weak points!\p"
 	.string "When I reopen the Gym, I won't go\n"
 	.string "down in defeat again!$"
 
-MatchCall_Text_Winona2:: @ 82B2E2B
-	.string "Winona: You've done it, {PLAYER}!\p"
+MatchCall_Text_Tanner2:: @ 82B2E2B
+	.string "Tanner: You've done it, {PLAYER}!\p"
 	.string "News about the new Champion\n"
 	.string "has reached us in Fortree!\p"
 	.string "But… The next time we battle,\n"
 	.string "it's not going to end the same way.$"
 
-MatchCall_Text_Winona3:: @ 82B2EC2
-	.string "Winona: Is this {PLAYER}?\n"
+MatchCall_Text_Tanner3:: @ 82B2EC2
+	.string "Tanner: Is this {PLAYER}?\n"
 	.string "Our Gym is back in operation!\p"
 	.string "We're waiting for you in Fortree!$"
 
-MatchCall_Text_Winona4:: @ 82B2F16
-	.string "Winona: {PLAYER}…\n"
+MatchCall_Text_Tanner4:: @ 82B2F16
+	.string "Tanner: {PLAYER}…\n"
 	.string "Though I have lost, my wings will\l"
 	.string "never break.\p"
 	.string "Yes, in exactly the same way that\n"
@@ -5190,8 +5190,8 @@ MatchCall_Text_TateLiza4:: @ 82B31CD
 	.string "Tate: It would be nice if…\n"
 	.string "Liza: We could all battle again!$"
 
-MatchCall_Text_Juan1:: @ 82B3249
-	.string "Juan: Hmm…\n"
+MatchCall_Text_Mitchell1:: @ 82B3249
+	.string "Mitchell: Hmm…\n"
 	.string "{PLAYER}{KUN}… Was it?\p"
 	.string "Our battle together--it brought\n"
 	.string "to me memories of when I first\l"
@@ -5199,8 +5199,8 @@ MatchCall_Text_Juan1:: @ 82B3249
 	.string "Perhaps you are a genius who may\n"
 	.string "yet surpass Dario!$"
 
-MatchCall_Text_Juan2:: @ 82B32EC
-	.string "Juan: Fufu… {PLAYER}{KUN}…\n"
+MatchCall_Text_Mitchell2:: @ 82B32EC
+	.string "Mitchell: Fufu… {PLAYER}{KUN}…\n"
 	.string "You've finally achieved your goal.\p"
 	.string "My eye for appraising talent wasn't\n"
 	.string "mistaken…\p"
@@ -5208,15 +5208,15 @@ MatchCall_Text_Juan2:: @ 82B32EC
 	.string "you, for you have scaled the peak\l"
 	.string "of power and prestige.$"
 
-MatchCall_Text_Juan3:: @ 82B33AA
-	.string "Juan: Hoho… {PLAYER}{KUN}…\p"
+MatchCall_Text_Mitchell3:: @ 82B33AA
+	.string "Mitchell: Hoho… {PLAYER}{KUN}…\p"
 	.string "Our Sootopolis Gym has finally\n"
 	.string "reopened.\p"
 	.string "If you wish to see me, you are\n"
 	.string "welcome to visit anytime.$"
 
-MatchCall_Text_Juan4:: @ 82B341E
-	.string "Juan: {PLAYER}{KUN}…\p"
+MatchCall_Text_Mitchell4:: @ 82B341E
+	.string "Mitchell: {PLAYER}{KUN}…\p"
 	.string "Like the finest music, the battles\n"
 	.string "we wage together strike chords\l"
 	.string "of inspiration in my heart…\p"

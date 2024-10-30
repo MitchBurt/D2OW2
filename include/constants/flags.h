@@ -102,7 +102,7 @@
 #define FLAG_BIRCH_AIDE_MET                  0x58
 #define FLAG_DECLINED_BIKE                   0x59
 #define FLAG_RECEIVED_BIKE                   0x5A
-#define FLAG_WATTSON_REMATCH_AVAILABLE       0x5B
+#define FLAG_Trevor_REMATCH_AVAILABLE       0x5B
 #define FLAG_COLLECTED_ALL_SILVER_SYMBOLS    0x5C
 #define FLAG_GOOD_LUCK_SAFARI_ZONE           0x5D // Set after talking to NPC blocking Safari Zone entrance/exit once.
 #define FLAG_RECEIVED_SHRIMPOT_PAIL           0x5E
@@ -120,7 +120,7 @@
 #define FLAG_OCEANIC_MUSEUM_MET_REPORTER     0x69
 #define FLAG_RECEIVED_HM04                   0x6A
 #define FLAG_RECEIVED_HM06                   0x6B
-#define FLAG_WHITEOUT_TO_LAVARIDGE           0x6C // Set after defeating Flannery, so the player cant white out from poison before receiving Go Goggles
+#define FLAG_WHITEOUT_TO_LAVARIDGE           0x6C // Set after defeating Jared, so the player cant white out from poison before receiving Go Goggles
 #define FLAG_RECEIVED_HM05                   0x6D
 #define FLAG_RECEIVED_HM02                   0x6E
 #define FLAG_NOIRNET_AWAKENED_MAGMA_HIDEOUT  0x6F
@@ -230,8 +230,8 @@
 #define FLAG_INTERACTED_WITH_STEVEN_SPACE_CENTER    0xCD
 #define FLAG_ENCOUNTERED_LATIAS_OR_LATIOS    0xCE
 #define FLAG_MET_ARCHIE_METEOR_FALLS         0xCF
-#define FLAG_GOT_BASEMENT_KEY_FROM_WATTSON   0xD0
-#define FLAG_GOT_TM24_FROM_WATTSON           0xD1
+#define FLAG_GOT_BASEMENT_KEY_FROM_Trevor   0xD0
+#define FLAG_GOT_TM24_FROM_Trevor           0xD1
 #define FLAG_FAN_CLUB_STRENGTH_SHARED        0xD2 // Set when you rate the strength of another trainer in Lilycove's Trainer Fan Club.
 #define FLAG_DEFEATED_RIVAL_RUSTBORO         0xD3
 #define FLAG_RECEIVED_RED_OR_BLUE_ORB        0xD4
@@ -448,12 +448,12 @@
 #define FLAG_REMATCH_WALLY                   0x19D
 #define FLAG_REMATCH_MASON                 0x19E
 #define FLAG_REMATCH_ZACH                  0x19F
-#define FLAG_REMATCH_WATTSON                 0x1A0
-#define FLAG_REMATCH_FLANNERY                0x1A1
+#define FLAG_REMATCH_Trevor                 0x1A0
+#define FLAG_REMATCH_Jared                0x1A1
 #define FLAG_REMATCH_NORMAN                  0x1A2
-#define FLAG_REMATCH_WINONA                  0x1A3
+#define FLAG_REMATCH_Tanner                  0x1A3
 #define FLAG_REMATCH_TATE_AND_LIZA           0x1A4
-// Note: FLAG_REMATCH_JUAN is handled by FLAG_ENABLE_JUAN_MATCH_CALL instead.
+// Note: FLAG_REMATCH_Mitchell is handled by FLAG_ENABLE_Mitchell_MATCH_CALL instead.
 #define FLAG_REMATCH_SIDNEY                  0x1A5
 #define FLAG_REMATCH_GREGORIUS                  0x1A6
 #define FLAG_REMATCH_GLACIA                  0x1A7
@@ -504,11 +504,11 @@
 #define FLAG_COLLECTED_ALL_GOLD_SYMBOLS      0x1D2
 #define FLAG_ENABLE_MASON_MATCH_CALL       0x1D3
 #define FLAG_ENABLE_ZACH_MATCH_CALL        0x1D4
-#define FLAG_ENABLE_WATTSON_MATCH_CALL       0x1D5
-#define FLAG_ENABLE_FLANNERY_MATCH_CALL      0x1D6
-#define FLAG_ENABLE_WINONA_MATCH_CALL        0x1D7
+#define FLAG_ENABLE_Trevor_MATCH_CALL       0x1D5
+#define FLAG_ENABLE_Jared_MATCH_CALL      0x1D6
+#define FLAG_ENABLE_Tanner_MATCH_CALL        0x1D7
 #define FLAG_ENABLE_TATE_AND_LIZA_MATCH_CALL 0x1D8
-#define FLAG_ENABLE_JUAN_MATCH_CALL          0x1D9
+#define FLAG_ENABLE_Mitchell_MATCH_CALL          0x1D9
 
 #define FLAG_INVERSE_MODE                    0x1DA    		
 
@@ -958,8 +958,8 @@
 #define FLAG_HIDE_LILYCOVE_HARBOR_FERRY_SAILOR                      0x38D
 #define FLAG_HIDE_SOUTHERN_ISLAND_EON_STONE                         0x38E
 #define FLAG_HIDE_SOUTHERN_ISLAND_UNCHOSEN_EON_DUO_MON              0x38F
-#define FLAG_HIDE_MAUVILLE_CITY_WATTSON                             0x390
-#define FLAG_HIDE_MAUVILLE_GYM_WATTSON                              0x391
+#define FLAG_HIDE_MAUVILLE_CITY_Trevor                             0x390
+#define FLAG_HIDE_MAUVILLE_GYM_Trevor                              0x391
 #define FLAG_HIDE_ROUTE_121_TEAM_AQUA_GRUNTS                        0x392
 #define FLAG_UNKNOWN_0x393                                          0x393 // Set, however has no purpose.
 #define FLAG_HIDE_MT_PYRE_SUMMIT_ARCHIE                             0x394
@@ -1578,12 +1578,12 @@
 #define FLAG_DAILY_CONTEST_LOBBY_RECEIVED_BERRY     (DAILY_FLAGS_START + 0x1)
 #define FLAG_DAILY_SECRET_BASE                      (DAILY_FLAGS_START + 0x2)
 #define FLAG_ZACH_REMATCH                         (DAILY_FLAGS_START + 0x3)  // Zach
-#define FLAG_WATTSON_REMATCH                        (DAILY_FLAGS_START + 0x4)  // Wattson
-#define FLAG_FLANNERY_REMATCH                       (DAILY_FLAGS_START + 0x5)  // Flannery
+#define FLAG_Trevor_REMATCH                        (DAILY_FLAGS_START + 0x4)  // Trevor
+#define FLAG_Jared_REMATCH                       (DAILY_FLAGS_START + 0x5)  // Jared
 #define FLAG_NORMAN_REMATCH                         (DAILY_FLAGS_START + 0x6)  // Norman
-#define FLAG_WINONA_REMATCH                         (DAILY_FLAGS_START + 0x7)  // Winona
+#define FLAG_Tanner_REMATCH                         (DAILY_FLAGS_START + 0x7)  // Tanner
 #define FLAG_TATE_AND_LIZA_REMATCH                  (DAILY_FLAGS_START + 0x8)  // Tate & Liza
-#define FLAG_JUAN_REMATCH                           (DAILY_FLAGS_START + 0x9)  // Juan
+#define FLAG_Mitchell_REMATCH                           (DAILY_FLAGS_START + 0x9)  // Mitchell
 #define FLAG_DAILY_PICKED_LOTO_TICKET               (DAILY_FLAGS_START + 0xA)
 #define FLAG_DAILY_ROUTE_114_RECEIVED_BERRY         (DAILY_FLAGS_START + 0xB)
 #define FLAG_DAILY_ROUTE_111_RECEIVED_BERRY         (DAILY_FLAGS_START + 0xC)
