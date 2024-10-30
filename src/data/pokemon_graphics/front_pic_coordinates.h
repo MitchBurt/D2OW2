@@ -2025,7 +2025,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x67,
         .y_offset = 13,
     },
-    [SPECIES_LUXIO] =
+    [SPECIES_RIMESLANCH] =
     {
         .size = 0x88,
         .y_offset = 10,

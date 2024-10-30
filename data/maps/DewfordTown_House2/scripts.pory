@@ -25,7 +25,7 @@ DewfordTown_House2_EventScript_ExplainSilkScarf:: @ 81FE267
 	end
 
 DewfordTown_House2_EventScript_Boy:: @ 81FE271
-	msgbox DewfordTown_House2_Text_BrawlySoCool, MSGBOX_NPC
+	msgbox DewfordTown_House2_Text_ZachSoCool, MSGBOX_NPC
 	end
 
 DewfordTown_House2_Text_WantYouToHaveSilkScarf: @ 81FE27A
@@ -49,11 +49,11 @@ DewfordTown_House2_Text_ExplainSilkScarf: @ 81FE3D1
 	.string "It's a marvelous Scarf that will go\n"
 	.string "with almost all Pokémon!$"
 
-DewfordTown_House2_Text_BrawlySoCool: @ 81FE444
+DewfordTown_House2_Text_ZachSoCool: @ 81FE444
 	.string "Wow, you bothered to cross the sea\n"
 	.string "to visit Dewford?\p"
 	.string "Did you maybe come here because you\n"
-	.string "heard about Brawly?\p"
+	.string "heard about Zach?\p"
 	.string "He's so cool…\n"
 	.string "Everyone idolizes him.$"
 

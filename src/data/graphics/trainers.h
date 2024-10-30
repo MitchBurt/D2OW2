@@ -118,11 +118,11 @@ const u16 gTrainerPalette_EliteFourGlacia[] = INCBIN_U16("graphics/trainers/pale
 const u32 gTrainerFrontPic_EliteFourDrake[] = INCBIN_U32("graphics/trainers/front_pics/elite_four_drake_front_pic.4bpp.lz");
 const u16 gTrainerPalette_EliteFourDrake[] = INCBIN_U16("graphics/trainers/palettes/elite_four_drake.gbapal");
 
-const u32 gTrainerFrontPic_LeaderRoxanne[] = INCBIN_U32("graphics/trainers/front_pics/leader_roxanne_front_pic.4bpp.lz");
-const u16 gTrainerPalette_LeaderRoxanne[] = INCBIN_U16("graphics/trainers/palettes/leader_roxanne.gbapal");
+const u32 gTrainerFrontPic_LeaderMason[] = INCBIN_U32("graphics/trainers/front_pics/leader_mason_front_pic.4bpp.lz");
+const u16 gTrainerPalette_LeaderMason[] = INCBIN_U16("graphics/trainers/palettes/leader_mason.gbapal");
 
-const u32 gTrainerFrontPic_LeaderBrawly[] = INCBIN_U32("graphics/trainers/front_pics/leader_brawly_front_pic.4bpp.lz");
-const u16 gTrainerPalette_LeaderBrawly[] = INCBIN_U16("graphics/trainers/palettes/leader_brawly.gbapal");
+const u32 gTrainerFrontPic_LeaderZach[] = INCBIN_U32("graphics/trainers/front_pics/leader_zach_front_pic.4bpp.lz");
+const u16 gTrainerPalette_LeaderZach[] = INCBIN_U16("graphics/trainers/palettes/leader_zach.gbapal");
 
 const u32 gTrainerFrontPic_LeaderWattson[] = INCBIN_U32("graphics/trainers/front_pics/leader_wattson_front_pic.4bpp.lz");
 const u16 gTrainerPalette_LeaderWattson[] = INCBIN_U16("graphics/trainers/palettes/leader_wattson.gbapal");
@@ -160,8 +160,8 @@ const u16 gTrainerPalette_PokefanF[] = INCBIN_U16("graphics/trainers/palettes/po
 const u32 gTrainerFrontPic_Youngster[] = INCBIN_U32("graphics/trainers/front_pics/youngster_front_pic.4bpp.lz");
 const u16 gTrainerPalette_Youngster[] = INCBIN_U16("graphics/trainers/palettes/youngster.gbapal");
 
-const u32 gTrainerFrontPic_ChampionWallace[] = INCBIN_U32("graphics/trainers/front_pics/champion_wallace_front_pic.4bpp.lz");
-const u16 gTrainerPalette_ChampionWallace[] = INCBIN_U16("graphics/trainers/palettes/champion_wallace.gbapal");
+const u32 gTrainerFrontPic_ChampionDario[] = INCBIN_U32("graphics/trainers/front_pics/champion_dario_front_pic.4bpp.lz");
+const u16 gTrainerPalette_ChampionDario[] = INCBIN_U16("graphics/trainers/palettes/champion_dario.gbapal");
 
 const u32 gTrainerFrontPic_Fisherman[] = INCBIN_U32("graphics/trainers/front_pics/fisherman_front_pic.4bpp.lz");
 const u16 gTrainerPalette_Fisherman[] = INCBIN_U16("graphics/trainers/palettes/fisherman.gbapal");

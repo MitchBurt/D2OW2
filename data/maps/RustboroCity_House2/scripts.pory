@@ -7,14 +7,14 @@ RustboroCity_House2_EventScript_PokefanF:: @ 8215EB4
 	end
 
 RustboroCity_House2_EventScript_LittleGirl:: @ 8215EBD
-	msgbox RustboroCity_House2_Text_RoxanneKnowsALot, MSGBOX_NPC
+	msgbox RustboroCity_House2_Text_MasonKnowsALot, MSGBOX_NPC
 	end
 	
 RustboroCity_House2_EventScript_ExioliteMan:: @ 81E4C26
 	lock
 	faceplayer
 	goto_if_set FLAG_RECEIVED_EXIOLITE, RustboroCity_House2_EventScript_ReceivedExiolite
-	msgbox RustboroCity_House2_Text_WantExioliteRoxanneGaveMe, MSGBOX_YESNO
+	msgbox RustboroCity_House2_Text_WantExioliteMasonGaveMe, MSGBOX_YESNO
 	compare VAR_RESULT, NO
 	goto_if_eq RustboroCity_House2_EventScript_DeclineExiolite
 	msgbox RustboroCity_House2_Text_YouCanKeepIt, MSGBOX_DEFAULT
@@ -40,13 +40,13 @@ RustboroCity_House2_Text_TrainerSchoolExcellent: @ 8215EC6
 	.string "If you study there, you could even\n"
 	.string "become a Gym Leader.$"
 
-RustboroCity_House2_Text_RoxanneKnowsALot: @ 8215F21
-	.string "Roxanne, the Gym Leader, really knows\n"
+RustboroCity_House2_Text_MasonKnowsALot: @ 8215F21
+	.string "Mason, the Gym Leader, really knows\n"
 	.string "a lot about Pokémon.\p"
 	.string "She's really strong, too!$"
 	
-RustboroCity_House2_Text_WantExioliteRoxanneGaveMe:
-	.string "I got this from Roxanne, but I don't\n"
+RustboroCity_House2_Text_WantExioliteMasonGaveMe:
+	.string "I got this from Mason, but I don't\n"
 	.string "know what it's good for.\p"
 	.string "I think it's called Exiolite.\n"
 	.string "Do you want it?$"
@@ -55,13 +55,13 @@ RustboroCity_House2_Text_YouCanKeepIt:
 	.string "Why would you want it?\n"
 	.string "You're weird.\p"
 	.string "You can keep it, but keep it a secret\n"
-	.string "from Roxanne.$"
+	.string "from Mason.$"
 	
 RustboroCity_House2_Text_WhatToDoWithWeirdItem:
 	.string "Yeah, you think so, too! What are you\n"
 	.string "supposed to do with some weird item?$"
 	
 RustboroCity_House2_Text_StevensHouseOverThere: @ 81E4DB3
-	.string "Roxanne's Gym is right over there!$"
+	.string "Mason's Gym is right over there!$"
 
 `

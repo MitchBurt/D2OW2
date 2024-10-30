@@ -271,7 +271,7 @@ LilycoveCity_PokemonTrainerFanClub_EventScript_Lass:: @ 821CA8E
 	specialvar VAR_RESULT, GetNumFansOfPlayerInTrainerFanClub
 	compare VAR_RESULT, (NUM_TRAINER_FAN_CLUB_MEMBERS - 1)
 	goto_if_eq LilycoveCity_PokemonTrainerFanClub_EventScript_LassOnlyNonFan
-	msgbox LilycoveCity_PokemonTrainerFanClub_Text_ICantHelpLikingBrawly, MSGBOX_DEFAULT
+	msgbox LilycoveCity_PokemonTrainerFanClub_Text_ICantHelpLikingZach, MSGBOX_DEFAULT
 	release
 	end
 
@@ -284,17 +284,17 @@ LilycoveCity_PokemonTrainerFanClub_EventScript_LassPlayersFan:: @ 821CACD
 	end
 
 LilycoveCity_PokemonTrainerFanClub_EventScript_LassOnlyFan:: @ 821CAE7
-	msgbox LilycoveCity_PokemonTrainerFanClub_Text_BrawlyNoImYourFan, MSGBOX_DEFAULT
+	msgbox LilycoveCity_PokemonTrainerFanClub_Text_ZachNoImYourFan, MSGBOX_DEFAULT
 	release
 	end
 
 LilycoveCity_PokemonTrainerFanClub_EventScript_LassOnlyNonFan:: @ 821CAF1
-	msgbox LilycoveCity_PokemonTrainerFanClub_Text_NobodyUnderstandsBrawly, MSGBOX_DEFAULT
+	msgbox LilycoveCity_PokemonTrainerFanClub_Text_NobodyUnderstandsZach, MSGBOX_DEFAULT
 	release
 	end
 
 LilycoveCity_PokemonTrainerFanClub_EventScript_LassPlayerNotChampion:: @ 821CAFB
-	msgbox LilycoveCity_PokemonTrainerFanClub_Text_MyFavoriteTrainerIsBrawly, MSGBOX_DEFAULT
+	msgbox LilycoveCity_PokemonTrainerFanClub_Text_MyFavoriteTrainerIsZach, MSGBOX_DEFAULT
 	release
 	end
 
@@ -681,30 +681,30 @@ LilycoveCity_PokemonTrainerFanClub_Text_ImPullingForYou: @ 821D2A6
 	.string "Go for it!\n"
 	.string "I'm pulling for you!$"
 
-LilycoveCity_PokemonTrainerFanClub_Text_BrawlyNoImYourFan: @ 821D2CE
+LilycoveCity_PokemonTrainerFanClub_Text_ZachNoImYourFan: @ 821D2CE
 	.string "Sigh…\n"
-	.string "Brawly…\p"
+	.string "Zach…\p"
 	.string "Oh, no! Wait!\n"
 	.string "That's not right! No, no, no!\p"
 	.string "I'm your fan through and through!\p"
 	.string "So make me proud!\n"
 	.string "Go for it!$"
 
-LilycoveCity_PokemonTrainerFanClub_Text_ICantHelpLikingBrawly: @ 821D347
+LilycoveCity_PokemonTrainerFanClub_Text_ICantHelpLikingZach: @ 821D347
 	.string "I can't help it, I can only get to\n"
-	.string "like Brawly…$"
+	.string "like Zach…$"
 
-LilycoveCity_PokemonTrainerFanClub_Text_NobodyUnderstandsBrawly: @ 821D377
+LilycoveCity_PokemonTrainerFanClub_Text_NobodyUnderstandsZach: @ 821D377
 	.string "Nobody understands the charm of\n"
-	.string "Brawly…\p"
+	.string "Zach…\p"
 	.string "I don't care!\p"
 	.string "Even if I'm the only one, I'm going\n"
-	.string "to keep cheering for Brawly!$"
+	.string "to keep cheering for Zach!$"
 
-LilycoveCity_PokemonTrainerFanClub_Text_MyFavoriteTrainerIsBrawly: @ 821D3EE
+LilycoveCity_PokemonTrainerFanClub_Text_MyFavoriteTrainerIsZach: @ 821D3EE
 	.string "Whatever anyone says, my favorite\n"
 	.string "Trainer is Dewford's Gym Leader\l"
-	.string "Brawly!$"
+	.string "Zach!$"
 
 LilycoveCity_PokemonTrainerFanClub_Text_YouveSurpassedYourFather: @ 821D438
 	.string "You've surpassed your own father in\n"

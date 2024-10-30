@@ -9,7 +9,7 @@ DewfordTown_Gym_OnTransition: @ 81FC642
 	end
 
 DewfordTown_Gym_EventScript_SetFlashRadius:: @ 81FC648
-	goto_if_defeated TRAINER_BRAWLY_1, DewfordTown_Gym_EventScript_SetLightsOn
+	goto_if_defeated TRAINER_ZACH_1, DewfordTown_Gym_EventScript_SetLightsOn
 	call DewfordTown_Gym_EventScript_CountTrainersDefeated
 	copyvar VAR_0x8001, VAR_0x8000
 	compare VAR_0x8000, 0
@@ -145,16 +145,16 @@ DewfordTown_Gym_EventScript_CheckLilith:: @ 81FC7B3
 DewfordTown_Gym_EventScript_StopCountingTrainers:: @ 81FC7C1
 	return
 
-DewfordTown_Gym_EventScript_Brawly:: @ 81FC7C2
+DewfordTown_Gym_EventScript_Zach:: @ 81FC7C2
 	lock
 	faceplayer
-	call_if_set FLAG_BADGE02_GET, DewfordTown_Gym_EventScript_Brawly_PostBattle
-	trainerbattle_single TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyIntro, DewfordTown_Gym_Text_BrawlyDefeat, DewfordTown_Gym_EventScript_BrawlyDefeated, NO_MUSIC
-	msgbox DewfordTown_Gym_Text_BrawlyPostBattle, MSGBOX_DEFAULT
+	call_if_set FLAG_BADGE02_GET, DewfordTown_Gym_EventScript_Zach_PostBattle
+	trainerbattle_single TRAINER_ZACH_1, DewfordTown_Gym_Text_ZachIntro, DewfordTown_Gym_Text_ZachDefeat, DewfordTown_Gym_EventScript_ZachDefeated, NO_MUSIC
+	msgbox DewfordTown_Gym_Text_ZachPostBattle, MSGBOX_DEFAULT
 	release
 	end
 
-DewfordTown_Gym_EventScript_BrawlyDefeated:: @ 81FC7F7
+DewfordTown_Gym_EventScript_ZachDefeated:: @ 81FC7F7
 	call DewfordTown_Gym_EventScript_AnimateFlashFullBrightness
 	message DewfordTown_Gym_Text_ReceivedKnuckleBadge
 	waitmessage
@@ -170,33 +170,33 @@ DewfordTown_Gym_EventScript_BrawlyDefeated:: @ 81FC7F7
 	closemessage
 	delay 30
 	playfanfare MUS_REGISTER_MATCH_CALL
-	msgbox DewfordTown_Gym_Text_RegisteredBrawly, MSGBOX_DEFAULT
+	msgbox DewfordTown_Gym_Text_RegisteredZach, MSGBOX_DEFAULT
 	waitfanfare
 	closemessage
 	delay 30
 	setflag FLAG_DEFEATED_DEWFORD_GYM
 	setflag FLAG_BADGE02_GET
 	call Gym_EventScript_Reset_Rematches
-	setflag FLAG_ROXANNE_REMATCH
-	setflag FLAG_ENABLE_BRAWLY_MATCH_CALL
+	setflag FLAG_MASON_REMATCH
+	setflag FLAG_ENABLE_ZACH_MATCH_CALL
 	release
 	end
 
 
-DewfordTown_Gym_EventScript_Brawly_PostBattle::
-	goto_if_unset FLAG_ROXANNE_REMATCH, DewfordTown_Gym_EventScript_BrawlyRematch
-	msgbox DewfordTown_Gym_Text_BrawlyPostRematch, MSGBOX_DEFAULT
+DewfordTown_Gym_EventScript_Zach_PostBattle::
+	goto_if_unset FLAG_MASON_REMATCH, DewfordTown_Gym_EventScript_ZachRematch
+	msgbox DewfordTown_Gym_Text_ZachPostRematch, MSGBOX_DEFAULT
 	release
 	end
 	
-DewfordTown_Gym_EventScript_BrawlyRematch:: @ 81FC89C
-	msgbox DewfordTown_Gym_Text_BrawlyPreRematch, MSGBOX_DEFAULT
+DewfordTown_Gym_EventScript_ZachRematch:: @ 81FC89C
+	msgbox DewfordTown_Gym_Text_ZachPreRematch, MSGBOX_DEFAULT
 	goto DewfordTown_Gym_EventScript_Start_Rematch_1
 	end
 	
-DewfordTown_Gym_EventScript_BrawlyRematchEnd::
-	msgbox DewfordTown_Gym_Text_BrawlyPostRematch, MSGBOX_AUTOCLOSE
-	setflag FLAG_ROXANNE_REMATCH 
+DewfordTown_Gym_EventScript_ZachRematchEnd::
+	msgbox DewfordTown_Gym_Text_ZachPostRematch, MSGBOX_AUTOCLOSE
+	setflag FLAG_MASON_REMATCH 
 	call Gym_EventScript_Reset_Random_Rematch
 	end
 	
@@ -204,10 +204,10 @@ DewfordTown_Gym_EventScript_Start_Rematch_1::
 	checkitem ITEM_TM08_BULK_UP, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq DewfordTown_Gym_EventScript_Start_Rematch_2
-	trainerbattle_no_intro TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyRematchDefeat
+	trainerbattle_no_intro TRAINER_ZACH_1, DewfordTown_Gym_Text_ZachRematchDefeat
 	msgbox DewfordTown_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM08_BULK_UP
-	goto DewfordTown_Gym_EventScript_BrawlyRematchEnd
+	goto DewfordTown_Gym_EventScript_ZachRematchEnd
 	end
 	
 DewfordTown_Gym_EventScript_Start_Rematch_2::
@@ -215,10 +215,10 @@ DewfordTown_Gym_EventScript_Start_Rematch_2::
 	checkitem ITEM_TM51_LOW_SWEEP, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq DewfordTown_Gym_EventScript_Start_Rematch_3
-	trainerbattle_no_intro TRAINER_BRAWLY_2, DewfordTown_Gym_Text_BrawlyRematchDefeat
+	trainerbattle_no_intro TRAINER_ZACH_2, DewfordTown_Gym_Text_ZachRematchDefeat
 	msgbox DewfordTown_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM51_LOW_SWEEP
-	goto DewfordTown_Gym_EventScript_BrawlyRematchEnd
+	goto DewfordTown_Gym_EventScript_ZachRematchEnd
 	end
 	
 DewfordTown_Gym_EventScript_Start_Rematch_3::
@@ -226,10 +226,10 @@ DewfordTown_Gym_EventScript_Start_Rematch_3::
 	checkitem ITEM_TM87_SWAGGER, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq DewfordTown_Gym_EventScript_Start_Rematch_4
-	trainerbattle_no_intro TRAINER_BRAWLY_3, DewfordTown_Gym_Text_BrawlyRematchDefeat
+	trainerbattle_no_intro TRAINER_ZACH_3, DewfordTown_Gym_Text_ZachRematchDefeat
 	msgbox DewfordTown_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM87_SWAGGER
-	goto DewfordTown_Gym_EventScript_BrawlyRematchEnd
+	goto DewfordTown_Gym_EventScript_ZachRematchEnd
 	end
 	
 DewfordTown_Gym_EventScript_Start_Rematch_4::
@@ -237,20 +237,20 @@ DewfordTown_Gym_EventScript_Start_Rematch_4::
 	checkitem ITEM_TM52_FOCUS_BLAST, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq DewfordTown_Gym_EventScript_Start_Rematch_5
-	trainerbattle_no_intro TRAINER_BRAWLY_4, DewfordTown_Gym_Text_BrawlyRematchDefeat
+	trainerbattle_no_intro TRAINER_ZACH_4, DewfordTown_Gym_Text_ZachRematchDefeat
 	msgbox DewfordTown_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM52_FOCUS_BLAST
-	goto DewfordTown_Gym_EventScript_BrawlyRematchEnd
+	goto DewfordTown_Gym_EventScript_ZachRematchEnd
 	end
 	
 DewfordTown_Gym_EventScript_Start_Rematch_5::
 	goto_if_unset FLAG_RECEIVED_TM04 DewfordTown_Gym_EventScript_Start_Rematch_Party_4
 	goto_if_set FLAG_GOT_HERACRONITE DewfordTown_Gym_EventScript_Start_Rematch_6
-	trainerbattle_no_intro TRAINER_BRAWLY_4, DewfordTown_Gym_Text_BrawlyRematchDefeat
+	trainerbattle_no_intro TRAINER_ZACH_4, DewfordTown_Gym_Text_ZachRematchDefeat
 	msgbox DewfordTown_Gym_Text_GetMegaStone, MSGBOX_DEFAULT
 	giveitem ITEM_HERACRONITE
 	setflag FLAG_GOT_HERACRONITE
-	goto DewfordTown_Gym_EventScript_BrawlyRematchEnd
+	goto DewfordTown_Gym_EventScript_ZachRematchEnd
 	end
 	
 DewfordTown_Gym_EventScript_Start_Rematch_6::
@@ -258,10 +258,10 @@ DewfordTown_Gym_EventScript_Start_Rematch_6::
 	checkitem ITEM_TM106_AURA_SPHERE, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq DewfordTown_Gym_EventScript_Start_Rematch_Final
-	trainerbattle_no_intro TRAINER_BRAWLY_5, DewfordTown_Gym_Text_BrawlyRematchDefeat
+	trainerbattle_no_intro TRAINER_ZACH_5, DewfordTown_Gym_Text_ZachRematchDefeat
 	msgbox DewfordTown_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM106_AURA_SPHERE
-	goto DewfordTown_Gym_EventScript_BrawlyRematchEnd
+	goto DewfordTown_Gym_EventScript_ZachRematchEnd
 	end
 	
 DewfordTown_Gym_EventScript_Start_Rematch_Final::
@@ -275,43 +275,43 @@ DewfordTown_Gym_EventScript_Start_Rematch_Final::
 	end
 	
 DewfordTown_Gym_EventScript_Start_Rematch_Party_1::
-	trainerbattle_no_intro TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyRematchDefeat
-	goto_if_unset FLAG_RECEIVED_TM04, DewfordTown_Gym_EventScript_BrawlyRematchEnd
+	trainerbattle_no_intro TRAINER_ZACH_1, DewfordTown_Gym_Text_ZachRematchDefeat
+	goto_if_unset FLAG_RECEIVED_TM04, DewfordTown_Gym_EventScript_ZachRematchEnd
 	msgbox DewfordTown_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_LONELY_MINT, 3
-	goto DewfordTown_Gym_EventScript_BrawlyRematchEnd
+	goto DewfordTown_Gym_EventScript_ZachRematchEnd
 	end
 	
 DewfordTown_Gym_EventScript_Start_Rematch_Party_2::
-	trainerbattle_no_intro TRAINER_BRAWLY_2, DewfordTown_Gym_Text_BrawlyRematchDefeat
-	goto_if_unset FLAG_RECEIVED_TM04, DewfordTown_Gym_EventScript_BrawlyRematchEnd
+	trainerbattle_no_intro TRAINER_ZACH_2, DewfordTown_Gym_Text_ZachRematchDefeat
+	goto_if_unset FLAG_RECEIVED_TM04, DewfordTown_Gym_EventScript_ZachRematchEnd
 	msgbox DewfordTown_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_ADAMANT_MINT, 3
-	goto DewfordTown_Gym_EventScript_BrawlyRematchEnd
+	goto DewfordTown_Gym_EventScript_ZachRematchEnd
 	end
 	
 DewfordTown_Gym_EventScript_Start_Rematch_Party_3::
-	trainerbattle_no_intro TRAINER_BRAWLY_3, DewfordTown_Gym_Text_BrawlyRematchDefeat
-	goto_if_unset FLAG_RECEIVED_TM04, DewfordTown_Gym_EventScript_BrawlyRematchEnd
+	trainerbattle_no_intro TRAINER_ZACH_3, DewfordTown_Gym_Text_ZachRematchDefeat
+	goto_if_unset FLAG_RECEIVED_TM04, DewfordTown_Gym_EventScript_ZachRematchEnd
 	msgbox DewfordTown_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_NAUGHTY_MINT, 3
-	goto DewfordTown_Gym_EventScript_BrawlyRematchEnd
+	goto DewfordTown_Gym_EventScript_ZachRematchEnd
 	end
 	
 DewfordTown_Gym_EventScript_Start_Rematch_Party_4::
-	trainerbattle_no_intro TRAINER_BRAWLY_4, DewfordTown_Gym_Text_BrawlyRematchDefeat
-	goto_if_unset FLAG_RECEIVED_TM04, DewfordTown_Gym_EventScript_BrawlyRematchEnd
+	trainerbattle_no_intro TRAINER_ZACH_4, DewfordTown_Gym_Text_ZachRematchDefeat
+	goto_if_unset FLAG_RECEIVED_TM04, DewfordTown_Gym_EventScript_ZachRematchEnd
 	msgbox DewfordTown_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_BRAVE_MINT, 3
-	goto DewfordTown_Gym_EventScript_BrawlyRematchEnd
+	goto DewfordTown_Gym_EventScript_ZachRematchEnd
 	end
 	
 DewfordTown_Gym_EventScript_Start_Rematch_Party_5::
-	trainerbattle_no_intro TRAINER_BRAWLY_5, DewfordTown_Gym_Text_BrawlyRematchDefeat
-	goto_if_unset FLAG_RECEIVED_TM04, DewfordTown_Gym_EventScript_BrawlyRematchEnd
+	trainerbattle_no_intro TRAINER_ZACH_5, DewfordTown_Gym_Text_ZachRematchDefeat
+	goto_if_unset FLAG_RECEIVED_TM04, DewfordTown_Gym_EventScript_ZachRematchEnd
 	msgbox DewfordTown_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_JOLLY_MINT, 3
-	goto DewfordTown_Gym_EventScript_BrawlyRematchEnd
+	goto DewfordTown_Gym_EventScript_ZachRematchEnd
 	end
 
 DewfordTown_Gym_EventScript_GiveBulkUp:: @ 81FC855
@@ -426,7 +426,7 @@ DewfordTown_Gym_EventScript_GymStatue:: @ 81FC9CC
 DewfordTown_Gym_Text_GymGuideAdvice: @ 81FC9D6
 	.string "Hey, how's it going, Champion-\n"
 	.string "bound {PLAYER}?\p"
-	.string "Dewford's Gym Leader Brawly commands\n"
+	.string "Dewford's Gym Leader Zach commands\n"
 	.string "Fighting-type Pokémon.\p"
 	.string "Going against him with Normal-type\n"
 	.string "Pokémon is asking for trouble.\p"
@@ -455,7 +455,7 @@ DewfordTown_Gym_Text_TakaoPostBattle: @ 81FCBCA
 	.string "Your technique is commendable!$"
 
 DewfordTown_Gym_Text_JocelynIntro: @ 81FCC0A
-	.string "There's no need for Brawly to be\n"
+	.string "There's no need for Zach to be\n"
 	.string "involved!\p"
 	.string "I'll crush you!$"
 
@@ -482,7 +482,7 @@ DewfordTown_Gym_Text_LauraPostBattle: @ 81FCD4F
 	.string "I battle in the dark to make my heart\n"
 	.string "stronger.\p"
 	.string "But because it's so dark, I can never\n"
-	.string "see Brawly's face…$"
+	.string "see Zach's face…$"
 
 DewfordTown_Gym_Text_LilithIntro: @ 81FCDB8
 	.string "Ufufu…\n"
@@ -520,8 +520,8 @@ DewfordTown_Gym_Text_CristianPostBattle: @ 81FCF26
 	.string "You win!\n"
 	.string "Go after that Badge!$"
 
-DewfordTown_Gym_Text_BrawlyIntro: @ 81FCF44
-	.string "I'm Brawly!\n"
+DewfordTown_Gym_Text_ZachIntro: @ 81FCF44
+	.string "I'm Zach!\n"
 	.string "Dewford's Gym Leader!\p"
 	.string "I've been churned in the rough waves\n"
 	.string "of these parts, and I've grown tough\l"
@@ -529,7 +529,7 @@ DewfordTown_Gym_Text_BrawlyIntro: @ 81FCF44
 	.string "So you wanted to challenge me?\n"
 	.string "Let me see what you're made of!$"
 
-DewfordTown_Gym_Text_BrawlyDefeat: @ 81FD008
+DewfordTown_Gym_Text_ZachDefeat: @ 81FD008
 	.string "Whoah, wow! You made a much bigger\n"
 	.string "splash than I expected!\p"
 	.string "You swamped me!\p"
@@ -538,7 +538,7 @@ DewfordTown_Gym_Text_BrawlyDefeat: @ 81FD008
 
 DewfordTown_Gym_Text_ReceivedKnuckleBadge: @ 81FD07D
 	.string "{PLAYER} received the Knuckle Badge\n"
-	.string "from Brawly.$"
+	.string "from Zach.$"
 
 DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis: @ 81FD0A8
 	.string "If you'd like, use this Technical\n"
@@ -550,11 +550,11 @@ DewfordTown_Gym_Text_ExplainBulkUp: @ 81FD181
 	.string "and Defense stats.\p"
 	.string "… … … … … …$"
 
-DewfordTown_Gym_Text_RegisteredBrawly: @ 81FD1E0
-	.string "Registered Gym Leader Brawly\n"
+DewfordTown_Gym_Text_RegisteredZach: @ 81FD1E0
+	.string "Registered Gym Leader Zach\n"
 	.string "in the Pokénav.$"
 
-DewfordTown_Gym_Text_BrawlyPostBattle: @ 81FD20D
+DewfordTown_Gym_Text_ZachPostBattle: @ 81FD20D
 	.string "I can see your talent becoming a giant\n"
 	.string "wave to cause a storm of astonishment\l"
 	.string "among Trainers one day!$"
@@ -564,28 +564,28 @@ DewfordTown_Gym_Text_GymStatue: @ 81FD272
 
 DewfordTown_Gym_Text_GymStatueCertified: @ 81FD28B
 	.string "Dewford Town Pokémon Gym\p"
-	.string "Brawly'S Certified Trainers:\n"
+	.string "Zach'S Certified Trainers:\n"
 	.string "{PLAYER}$"
 
-DewfordTown_Gym_Text_BrawlyPreRematch: @ 81FD2C4
-	.string "Brawly: A wave may draw back, but it\n"
+DewfordTown_Gym_Text_ZachPreRematch: @ 81FD2C4
+	.string "Zach: A wave may draw back, but it\n"
 	.string "always returns to the shore.\p"
 	.string "A giant wave of a talent like you…\n"
 	.string "I knew you would return!\p"
 	.string "Show me how much higher\n"
 	.string "you've gone!$"
 
-DewfordTown_Gym_Text_BrawlyRematchDefeat: @ 81FD367
+DewfordTown_Gym_Text_ZachRematchDefeat: @ 81FD367
 	.string "Wow!\n"
 	.string "Swamped again!$"
 
-DewfordTown_Gym_Text_BrawlyPostRematch: @ 81FD37B
-	.string "Brawly: Battling is vast and it's deep.\n"
+DewfordTown_Gym_Text_ZachPostRematch: @ 81FD37B
+	.string "Zach: Battling is vast and it's deep.\n"
 	.string "You can't see the bottom.\l"
 	.string "It's just like the sea of Hoenn!$"
 
-DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons: @ 81FD3DE
-	.string "Brawly: A wave may draw back, but it\n"
+DewfordTown_Gym_Text_ZachRematchNeedTwoMons: @ 81FD3DE
+	.string "Zach: A wave may draw back, but it\n"
 	.string "always returns to the shore.\p"
 	.string "A giant wave of a talent like you…\n"
 	.string "I knew you would return!\p"
@@ -595,46 +595,46 @@ DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons: @ 81FD3DE
 	.string "with at least two Pokémon.$"
 	
 DewfordTown_Gym_Text_GetTM:
-	.string "Brawly: Please take this\n"
+	.string "Zach: Please take this\n"
 	.string "Technical Machine.$"
 
 DewfordTown_Gym_Text_GetMegaStone:
-	.string "Brawly: Please take this\n"
+	.string "Zach: Please take this\n"
 	.string "Mega Stone, with you.\p"
 	.string "Make a Happymaul hold it to\n"
 	.string "unleash its Hidden Potential.$"
 	
 DewfordTown_Gym_Text_GetReward:
-	.string "Brawly: Please take this\n"
+	.string "Zach: Please take this\n"
 	.string "Item as a Reward.$"
 `
 
-script DewfordTown_Gym_EventScript_Brawly_New{
+script DewfordTown_Gym_EventScript_Zach_New{
 	lock
 	faceplayer
-    if (flag(FLAG_BADGE02_GET) && !flag(FLAG_BRAWLY_REMATCH)){
+    if (flag(FLAG_BADGE02_GET) && !flag(FLAG_ZACH_REMATCH)){
 		//Rematch
 		//Intro
-		msgbox(DewfordTown_Gym_Text_BrawlyPreRematch, MSGBOX_NPC)
+		msgbox(DewfordTown_Gym_Text_ZachPreRematch, MSGBOX_NPC)
 		//Trainer Battle
-		call(DewfordTown_Gym_EventScript_Brawly_Battle_New)
+		call(DewfordTown_Gym_EventScript_Zach_Battle_New)
 
         //Defeated Message and Reset Rematches for other Leaders
-		msgbox(DewfordTown_Gym_Text_BrawlyPostRematch, MSGBOX_NPC)
+		msgbox(DewfordTown_Gym_Text_ZachPostRematch, MSGBOX_NPC)
 		call(Gym_EventScript_Reset_Rematches)
 
 		//Give TMs or Items
 		msgbox(format("Please take these items with you."), MSGBOX_NPC)
-		call(DewfordTown_Gym_EventScript_Brawly_Give_Gifts)
+		call(DewfordTown_Gym_EventScript_Zach_Give_Gifts)
 
-		msgbox(format("Brawly: Come back tomorrow so we can battle again."), MSGBOX_NPC)
+		msgbox(format("Zach: Come back tomorrow so we can battle again."), MSGBOX_NPC)
 
 		//Set the Rematch Flag as False
-		setflag(FLAG_BRAWLY_REMATCH)
+		setflag(FLAG_ZACH_REMATCH)
     }
-	elif(flag(FLAG_BADGE02_GET) && flag(FLAG_BRAWLY_REMATCH)){
+	elif(flag(FLAG_BADGE02_GET) && flag(FLAG_ZACH_REMATCH)){
 		//You can challenge the other trainers an infinite number of times
-		msgbox(format("Brawly: My Pokémon are tired for today, but the other trainers here need training, do you want to try battling them again?"), MSGBOX_YESNO)
+		msgbox(format("Zach: My Pokémon are tired for today, but the other trainers here need training, do you want to try battling them again?"), MSGBOX_YESNO)
 		if(var(VAR_RESULT) == 1){
 			cleartrainerflag(TRAINER_TAKAO)
 			cleartrainerflag(TRAINER_JOCELYN)
@@ -642,28 +642,28 @@ script DewfordTown_Gym_EventScript_Brawly_New{
 			cleartrainerflag(TRAINER_BRENDEN)
 			cleartrainerflag(TRAINER_CRISTIAN)
 			cleartrainerflag(TRAINER_LILITH)
-			msgbox(format("Brawly: I will tell them to get ready, so take care on your way out."), MSGBOX_NPC)
+			msgbox(format("Zach: I will tell them to get ready, so take care on your way out."), MSGBOX_NPC)
 		}
 		else{
 			setvar(VAR_0x8008, 2)
 			call(Common_EventScript_SetGymTrainers)
-			msgbox(format("Brawly: Come back tomorrow so we can battle again."), MSGBOX_NPC)
+			msgbox(format("Zach: Come back tomorrow so we can battle again."), MSGBOX_NPC)
 		}
 	}
 	elif((!defeated(TRAINER_TAKAO) || !defeated(TRAINER_JOCELYN) || !defeated(TRAINER_LAURA) || 
 	      !defeated(TRAINER_BRENDEN) || !defeated(TRAINER_CRISTIAN) || !defeated(TRAINER_LILITH)) 
 		  && flag(FLAG_HARD_MODE)){
-		msgbox(format("Brawly: Sorry, but you need to defeat every trainer on this Gym before battling me"), MSGBOX_NPC)
+		msgbox(format("Zach: Sorry, but you need to defeat every trainer on this Gym before battling me"), MSGBOX_NPC)
 	}
 	else{
 		//First Battle
 		//Intro
-		msgbox(DewfordTown_Gym_Text_BrawlyIntro, MSGBOX_NPC)
+		msgbox(DewfordTown_Gym_Text_ZachIntro, MSGBOX_NPC)
 		//Trainer Battle
-		call(DewfordTown_Gym_EventScript_Brawly_Battle_New)
+		call(DewfordTown_Gym_EventScript_Zach_Battle_New)
 
 		//Get the Badge
-		message(format("{PLAYER} received the Knuckle Badge from Brawly."))
+		message(format("{PLAYER} received the Knuckle Badge from Zach."))
 		waitmessage
 		call(Common_EventScript_PlayGymBadgeFanfare)
 		msgbox(format("Please take these items with you, too,"), MSGBOX_NPC)
@@ -682,116 +682,116 @@ script DewfordTown_Gym_EventScript_Brawly_New{
 		setflag(FLAG_TEMP_9)
 
 		//Give TMs or Items
-		call(DewfordTown_Gym_EventScript_Brawly_Give_Gifts)
+		call(DewfordTown_Gym_EventScript_Zach_Give_Gifts)
 
 		//Set all the trainers in the Gym as Defeated
 		setvar(VAR_0x8008, 2)
 		call(Common_EventScript_SetGymTrainers)
 
 		//Register Trainer in your PokeNav
-		msgbox(DewfordTown_Gym_Text_RegisteredBrawly, MSGBOX_DEFAULT)
+		msgbox(DewfordTown_Gym_Text_RegisteredZach, MSGBOX_DEFAULT)
 		playfanfare(MUS_REGISTER_MATCH_CALL)
-		setflag(FLAG_ENABLE_BRAWLY_MATCH_CALL)
+		setflag(FLAG_ENABLE_ZACH_MATCH_CALL)
 		waitfanfare
 		closemessage
 
 		//Defeated Message and Reset Rematches for other Leaders
-		msgbox(DewfordTown_Gym_Text_BrawlyPostBattle, MSGBOX_NPC)
+		msgbox(DewfordTown_Gym_Text_ZachPostBattle, MSGBOX_NPC)
 		call(Gym_EventScript_Reset_Rematches)
 
 		//Set the Rematch Flag as False
-		setflag(FLAG_BRAWLY_REMATCH)
+		setflag(FLAG_ZACH_REMATCH)
 	}
     release
     end
 }
 
-script DewfordTown_Gym_EventScript_Brawly_Battle_New{
+script DewfordTown_Gym_EventScript_Zach_Battle_New{
 	if(flag(FLAG_BADGE02_GET)){
 		if(flag(FLAG_HARD_MODE)){
 			//Hard Mode
 			switch (var(VAR_NUM_BADGES)) {
-			case 0: trainerbattle_no_intro(TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-			case 1: trainerbattle_no_intro(TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-			case 2: trainerbattle_no_intro(TRAINER_BRAWLY_2, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-			case 3: trainerbattle_no_intro(TRAINER_BRAWLY_2, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-			case 4: trainerbattle_no_intro(TRAINER_BRAWLY_3, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-			case 5: trainerbattle_no_intro(TRAINER_BRAWLY_3, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-			case 6: trainerbattle_no_intro(TRAINER_BRAWLY_4, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-			case 7: trainerbattle_no_intro(TRAINER_BRAWLY_4, DewfordTown_Gym_Text_BrawlyRematchDefeat)
+			case 0: trainerbattle_no_intro(TRAINER_ZACH_1, DewfordTown_Gym_Text_ZachRematchDefeat)
+			case 1: trainerbattle_no_intro(TRAINER_ZACH_1, DewfordTown_Gym_Text_ZachRematchDefeat)
+			case 2: trainerbattle_no_intro(TRAINER_ZACH_2, DewfordTown_Gym_Text_ZachRematchDefeat)
+			case 3: trainerbattle_no_intro(TRAINER_ZACH_2, DewfordTown_Gym_Text_ZachRematchDefeat)
+			case 4: trainerbattle_no_intro(TRAINER_ZACH_3, DewfordTown_Gym_Text_ZachRematchDefeat)
+			case 5: trainerbattle_no_intro(TRAINER_ZACH_3, DewfordTown_Gym_Text_ZachRematchDefeat)
+			case 6: trainerbattle_no_intro(TRAINER_ZACH_4, DewfordTown_Gym_Text_ZachRematchDefeat)
+			case 7: trainerbattle_no_intro(TRAINER_ZACH_4, DewfordTown_Gym_Text_ZachRematchDefeat)
 			default:
 				if(flag(FLAG_SYS_GAME_CLEAR)){
 					//When you beat the game you can get a random rematch each day
 					random(5)
 					switch (var(VAR_RESULT)) {
-						case 0: trainerbattle_no_intro(TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-						case 1: trainerbattle_no_intro(TRAINER_BRAWLY_2, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-						case 2: trainerbattle_no_intro(TRAINER_BRAWLY_3, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-						case 3: trainerbattle_no_intro(TRAINER_BRAWLY_4, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-						case 4: trainerbattle_no_intro(TRAINER_BRAWLY_5, DewfordTown_Gym_Text_BrawlyRematchDefeat)
+						case 0: trainerbattle_no_intro(TRAINER_ZACH_1, DewfordTown_Gym_Text_ZachRematchDefeat)
+						case 1: trainerbattle_no_intro(TRAINER_ZACH_2, DewfordTown_Gym_Text_ZachRematchDefeat)
+						case 2: trainerbattle_no_intro(TRAINER_ZACH_3, DewfordTown_Gym_Text_ZachRematchDefeat)
+						case 3: trainerbattle_no_intro(TRAINER_ZACH_4, DewfordTown_Gym_Text_ZachRematchDefeat)
+						case 4: trainerbattle_no_intro(TRAINER_ZACH_5, DewfordTown_Gym_Text_ZachRematchDefeat)
 					}
 				}
 				else{
 					//If you have 8 badges you battle its final team
-					trainerbattle_no_intro(TRAINER_BRAWLY_5, DewfordTown_Gym_Text_BrawlyRematchDefeat)
+					trainerbattle_no_intro(TRAINER_ZACH_5, DewfordTown_Gym_Text_ZachRematchDefeat)
 				}
 			}
 		}
 		elif(flag(FLAG_NORMAL_MODE)){
 			//Normal Mode
 			switch (var(VAR_NUM_BADGES)) {
-				case 0: trainerbattle_no_intro(TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-				case 1: trainerbattle_no_intro(TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-				case 2: trainerbattle_no_intro(TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-				case 3: trainerbattle_no_intro(TRAINER_BRAWLY_2, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-				case 4: trainerbattle_no_intro(TRAINER_BRAWLY_2, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-				case 5: trainerbattle_no_intro(TRAINER_BRAWLY_3, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-				case 6: trainerbattle_no_intro(TRAINER_BRAWLY_3, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-				case 7: trainerbattle_no_intro(TRAINER_BRAWLY_4, DewfordTown_Gym_Text_BrawlyRematchDefeat)
+				case 0: trainerbattle_no_intro(TRAINER_ZACH_1, DewfordTown_Gym_Text_ZachRematchDefeat)
+				case 1: trainerbattle_no_intro(TRAINER_ZACH_1, DewfordTown_Gym_Text_ZachRematchDefeat)
+				case 2: trainerbattle_no_intro(TRAINER_ZACH_1, DewfordTown_Gym_Text_ZachRematchDefeat)
+				case 3: trainerbattle_no_intro(TRAINER_ZACH_2, DewfordTown_Gym_Text_ZachRematchDefeat)
+				case 4: trainerbattle_no_intro(TRAINER_ZACH_2, DewfordTown_Gym_Text_ZachRematchDefeat)
+				case 5: trainerbattle_no_intro(TRAINER_ZACH_3, DewfordTown_Gym_Text_ZachRematchDefeat)
+				case 6: trainerbattle_no_intro(TRAINER_ZACH_3, DewfordTown_Gym_Text_ZachRematchDefeat)
+				case 7: trainerbattle_no_intro(TRAINER_ZACH_4, DewfordTown_Gym_Text_ZachRematchDefeat)
 				default:
 					if(flag(FLAG_SYS_GAME_CLEAR)){
 						//When you beat the game you can get a random rematch each day
 						random(5)
 						switch (var(VAR_RESULT)) {
-							case 0: trainerbattle_no_intro(TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-							case 1: trainerbattle_no_intro(TRAINER_BRAWLY_2, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-							case 2: trainerbattle_no_intro(TRAINER_BRAWLY_3, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-							case 3: trainerbattle_no_intro(TRAINER_BRAWLY_4, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-							case 4: trainerbattle_no_intro(TRAINER_BRAWLY_5, DewfordTown_Gym_Text_BrawlyRematchDefeat)
+							case 0: trainerbattle_no_intro(TRAINER_ZACH_1, DewfordTown_Gym_Text_ZachRematchDefeat)
+							case 1: trainerbattle_no_intro(TRAINER_ZACH_2, DewfordTown_Gym_Text_ZachRematchDefeat)
+							case 2: trainerbattle_no_intro(TRAINER_ZACH_3, DewfordTown_Gym_Text_ZachRematchDefeat)
+							case 3: trainerbattle_no_intro(TRAINER_ZACH_4, DewfordTown_Gym_Text_ZachRematchDefeat)
+							case 4: trainerbattle_no_intro(TRAINER_ZACH_5, DewfordTown_Gym_Text_ZachRematchDefeat)
 						}
 					}
 					else{
 						//If you have 8 badges you battle its final team
-						trainerbattle_no_intro(TRAINER_BRAWLY_5, DewfordTown_Gym_Text_BrawlyRematchDefeat)
+						trainerbattle_no_intro(TRAINER_ZACH_5, DewfordTown_Gym_Text_ZachRematchDefeat)
 					}
 			}
 		}
 		else{
 			//Easy Mode
 			switch (var(VAR_NUM_BADGES)) {
-				case 0: trainerbattle_no_intro(TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-				case 1: trainerbattle_no_intro(TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-				case 2: trainerbattle_no_intro(TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-				case 3: trainerbattle_no_intro(TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-				case 4: trainerbattle_no_intro(TRAINER_BRAWLY_2, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-				case 5: trainerbattle_no_intro(TRAINER_BRAWLY_2, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-				case 6: trainerbattle_no_intro(TRAINER_BRAWLY_3, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-				case 7: trainerbattle_no_intro(TRAINER_BRAWLY_3, DewfordTown_Gym_Text_BrawlyRematchDefeat)
+				case 0: trainerbattle_no_intro(TRAINER_ZACH_1, DewfordTown_Gym_Text_ZachRematchDefeat)
+				case 1: trainerbattle_no_intro(TRAINER_ZACH_1, DewfordTown_Gym_Text_ZachRematchDefeat)
+				case 2: trainerbattle_no_intro(TRAINER_ZACH_1, DewfordTown_Gym_Text_ZachRematchDefeat)
+				case 3: trainerbattle_no_intro(TRAINER_ZACH_1, DewfordTown_Gym_Text_ZachRematchDefeat)
+				case 4: trainerbattle_no_intro(TRAINER_ZACH_2, DewfordTown_Gym_Text_ZachRematchDefeat)
+				case 5: trainerbattle_no_intro(TRAINER_ZACH_2, DewfordTown_Gym_Text_ZachRematchDefeat)
+				case 6: trainerbattle_no_intro(TRAINER_ZACH_3, DewfordTown_Gym_Text_ZachRematchDefeat)
+				case 7: trainerbattle_no_intro(TRAINER_ZACH_3, DewfordTown_Gym_Text_ZachRematchDefeat)
 				default:
 					if(flag(FLAG_SYS_GAME_CLEAR)){
 						//When you beat the game you can get a random rematch each day
 						random(5)
 						switch (var(VAR_RESULT)) {
-							case 0: trainerbattle_no_intro(TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-							case 1: trainerbattle_no_intro(TRAINER_BRAWLY_2, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-							case 2: trainerbattle_no_intro(TRAINER_BRAWLY_3, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-							case 3: trainerbattle_no_intro(TRAINER_BRAWLY_4, DewfordTown_Gym_Text_BrawlyRematchDefeat)
-							case 4: trainerbattle_no_intro(TRAINER_BRAWLY_5, DewfordTown_Gym_Text_BrawlyRematchDefeat)
+							case 0: trainerbattle_no_intro(TRAINER_ZACH_1, DewfordTown_Gym_Text_ZachRematchDefeat)
+							case 1: trainerbattle_no_intro(TRAINER_ZACH_2, DewfordTown_Gym_Text_ZachRematchDefeat)
+							case 2: trainerbattle_no_intro(TRAINER_ZACH_3, DewfordTown_Gym_Text_ZachRematchDefeat)
+							case 3: trainerbattle_no_intro(TRAINER_ZACH_4, DewfordTown_Gym_Text_ZachRematchDefeat)
+							case 4: trainerbattle_no_intro(TRAINER_ZACH_5, DewfordTown_Gym_Text_ZachRematchDefeat)
 						}
 					}
 					else{
 						//If you have 8 badges you battle its final team
-						trainerbattle_no_intro(TRAINER_BRAWLY_4, DewfordTown_Gym_Text_BrawlyRematchDefeat)
+						trainerbattle_no_intro(TRAINER_ZACH_4, DewfordTown_Gym_Text_ZachRematchDefeat)
 					}
 			}
 		}
@@ -801,87 +801,87 @@ script DewfordTown_Gym_EventScript_Brawly_Battle_New{
 		if(flag(FLAG_HARD_MODE)){
 			//Hard Mode
 			switch (var(VAR_NUM_BADGES)) {
-			case 0: trainerbattle_no_intro(TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyDefeat)
-			case 1: trainerbattle_no_intro(TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyDefeat)
-			case 2: trainerbattle_no_intro(TRAINER_BRAWLY_2, DewfordTown_Gym_Text_BrawlyDefeat)
-			case 3: trainerbattle_no_intro(TRAINER_BRAWLY_2, DewfordTown_Gym_Text_BrawlyDefeat)
-			case 4: trainerbattle_no_intro(TRAINER_BRAWLY_3, DewfordTown_Gym_Text_BrawlyDefeat)
-			case 5: trainerbattle_no_intro(TRAINER_BRAWLY_3, DewfordTown_Gym_Text_BrawlyDefeat)
-			case 6: trainerbattle_no_intro(TRAINER_BRAWLY_4, DewfordTown_Gym_Text_BrawlyDefeat)
-			case 7: trainerbattle_no_intro(TRAINER_BRAWLY_4, DewfordTown_Gym_Text_BrawlyDefeat)
+			case 0: trainerbattle_no_intro(TRAINER_ZACH_1, DewfordTown_Gym_Text_ZachDefeat)
+			case 1: trainerbattle_no_intro(TRAINER_ZACH_1, DewfordTown_Gym_Text_ZachDefeat)
+			case 2: trainerbattle_no_intro(TRAINER_ZACH_2, DewfordTown_Gym_Text_ZachDefeat)
+			case 3: trainerbattle_no_intro(TRAINER_ZACH_2, DewfordTown_Gym_Text_ZachDefeat)
+			case 4: trainerbattle_no_intro(TRAINER_ZACH_3, DewfordTown_Gym_Text_ZachDefeat)
+			case 5: trainerbattle_no_intro(TRAINER_ZACH_3, DewfordTown_Gym_Text_ZachDefeat)
+			case 6: trainerbattle_no_intro(TRAINER_ZACH_4, DewfordTown_Gym_Text_ZachDefeat)
+			case 7: trainerbattle_no_intro(TRAINER_ZACH_4, DewfordTown_Gym_Text_ZachDefeat)
 			default:
 				if(flag(FLAG_SYS_GAME_CLEAR)){
 					//When you beat the game you can get a random rematch each day
 					random(5)
 					switch (var(VAR_RESULT)) {
-						case 0: trainerbattle_no_intro(TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyDefeat)
-						case 1: trainerbattle_no_intro(TRAINER_BRAWLY_2, DewfordTown_Gym_Text_BrawlyDefeat)
-						case 2: trainerbattle_no_intro(TRAINER_BRAWLY_3, DewfordTown_Gym_Text_BrawlyDefeat)
-						case 3: trainerbattle_no_intro(TRAINER_BRAWLY_4, DewfordTown_Gym_Text_BrawlyDefeat)
-						case 4: trainerbattle_no_intro(TRAINER_BRAWLY_5, DewfordTown_Gym_Text_BrawlyDefeat)
+						case 0: trainerbattle_no_intro(TRAINER_ZACH_1, DewfordTown_Gym_Text_ZachDefeat)
+						case 1: trainerbattle_no_intro(TRAINER_ZACH_2, DewfordTown_Gym_Text_ZachDefeat)
+						case 2: trainerbattle_no_intro(TRAINER_ZACH_3, DewfordTown_Gym_Text_ZachDefeat)
+						case 3: trainerbattle_no_intro(TRAINER_ZACH_4, DewfordTown_Gym_Text_ZachDefeat)
+						case 4: trainerbattle_no_intro(TRAINER_ZACH_5, DewfordTown_Gym_Text_ZachDefeat)
 					}
 				}
 				else{
 					//If you have 8 badges you battle its final team
-					trainerbattle_no_intro(TRAINER_BRAWLY_5, DewfordTown_Gym_Text_BrawlyDefeat)
+					trainerbattle_no_intro(TRAINER_ZACH_5, DewfordTown_Gym_Text_ZachDefeat)
 				}
 			}
 		}
 		elif(flag(FLAG_NORMAL_MODE)){
 			//Normal Mode
 			switch (var(VAR_NUM_BADGES)) {
-				case 0: trainerbattle_no_intro(TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyDefeat)
-				case 1: trainerbattle_no_intro(TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyDefeat)
-				case 2: trainerbattle_no_intro(TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyDefeat)
-				case 3: trainerbattle_no_intro(TRAINER_BRAWLY_2, DewfordTown_Gym_Text_BrawlyDefeat)
-				case 4: trainerbattle_no_intro(TRAINER_BRAWLY_2, DewfordTown_Gym_Text_BrawlyDefeat)
-				case 5: trainerbattle_no_intro(TRAINER_BRAWLY_3, DewfordTown_Gym_Text_BrawlyDefeat)
-				case 6: trainerbattle_no_intro(TRAINER_BRAWLY_3, DewfordTown_Gym_Text_BrawlyDefeat)
-				case 7: trainerbattle_no_intro(TRAINER_BRAWLY_4, DewfordTown_Gym_Text_BrawlyDefeat)
+				case 0: trainerbattle_no_intro(TRAINER_ZACH_1, DewfordTown_Gym_Text_ZachDefeat)
+				case 1: trainerbattle_no_intro(TRAINER_ZACH_1, DewfordTown_Gym_Text_ZachDefeat)
+				case 2: trainerbattle_no_intro(TRAINER_ZACH_1, DewfordTown_Gym_Text_ZachDefeat)
+				case 3: trainerbattle_no_intro(TRAINER_ZACH_2, DewfordTown_Gym_Text_ZachDefeat)
+				case 4: trainerbattle_no_intro(TRAINER_ZACH_2, DewfordTown_Gym_Text_ZachDefeat)
+				case 5: trainerbattle_no_intro(TRAINER_ZACH_3, DewfordTown_Gym_Text_ZachDefeat)
+				case 6: trainerbattle_no_intro(TRAINER_ZACH_3, DewfordTown_Gym_Text_ZachDefeat)
+				case 7: trainerbattle_no_intro(TRAINER_ZACH_4, DewfordTown_Gym_Text_ZachDefeat)
 				default:
 					if(flag(FLAG_SYS_GAME_CLEAR)){
 						//When you beat the game you can get a random rematch each day
 						random(5)
 						switch (var(VAR_RESULT)) {
-							case 0: trainerbattle_no_intro(TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyDefeat)
-							case 1: trainerbattle_no_intro(TRAINER_BRAWLY_2, DewfordTown_Gym_Text_BrawlyDefeat)
-							case 2: trainerbattle_no_intro(TRAINER_BRAWLY_3, DewfordTown_Gym_Text_BrawlyDefeat)
-							case 3: trainerbattle_no_intro(TRAINER_BRAWLY_4, DewfordTown_Gym_Text_BrawlyDefeat)
-							case 4: trainerbattle_no_intro(TRAINER_BRAWLY_5, DewfordTown_Gym_Text_BrawlyDefeat)
+							case 0: trainerbattle_no_intro(TRAINER_ZACH_1, DewfordTown_Gym_Text_ZachDefeat)
+							case 1: trainerbattle_no_intro(TRAINER_ZACH_2, DewfordTown_Gym_Text_ZachDefeat)
+							case 2: trainerbattle_no_intro(TRAINER_ZACH_3, DewfordTown_Gym_Text_ZachDefeat)
+							case 3: trainerbattle_no_intro(TRAINER_ZACH_4, DewfordTown_Gym_Text_ZachDefeat)
+							case 4: trainerbattle_no_intro(TRAINER_ZACH_5, DewfordTown_Gym_Text_ZachDefeat)
 						}
 					}
 					else{
 						//If you have 8 badges you battle its final team
-						trainerbattle_no_intro(TRAINER_BRAWLY_5, DewfordTown_Gym_Text_BrawlyDefeat)
+						trainerbattle_no_intro(TRAINER_ZACH_5, DewfordTown_Gym_Text_ZachDefeat)
 					}
 			}
 		}
 		else{
 			//Easy Mode
 			switch (var(VAR_NUM_BADGES)) {
-				case 0: trainerbattle_no_intro(TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyDefeat)
-				case 1: trainerbattle_no_intro(TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyDefeat)
-				case 2: trainerbattle_no_intro(TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyDefeat)
-				case 3: trainerbattle_no_intro(TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyDefeat)
-				case 4: trainerbattle_no_intro(TRAINER_BRAWLY_2, DewfordTown_Gym_Text_BrawlyDefeat)
-				case 5: trainerbattle_no_intro(TRAINER_BRAWLY_2, DewfordTown_Gym_Text_BrawlyDefeat)
-				case 6: trainerbattle_no_intro(TRAINER_BRAWLY_3, DewfordTown_Gym_Text_BrawlyDefeat)
-				case 7: trainerbattle_no_intro(TRAINER_BRAWLY_3, DewfordTown_Gym_Text_BrawlyDefeat)
+				case 0: trainerbattle_no_intro(TRAINER_ZACH_1, DewfordTown_Gym_Text_ZachDefeat)
+				case 1: trainerbattle_no_intro(TRAINER_ZACH_1, DewfordTown_Gym_Text_ZachDefeat)
+				case 2: trainerbattle_no_intro(TRAINER_ZACH_1, DewfordTown_Gym_Text_ZachDefeat)
+				case 3: trainerbattle_no_intro(TRAINER_ZACH_1, DewfordTown_Gym_Text_ZachDefeat)
+				case 4: trainerbattle_no_intro(TRAINER_ZACH_2, DewfordTown_Gym_Text_ZachDefeat)
+				case 5: trainerbattle_no_intro(TRAINER_ZACH_2, DewfordTown_Gym_Text_ZachDefeat)
+				case 6: trainerbattle_no_intro(TRAINER_ZACH_3, DewfordTown_Gym_Text_ZachDefeat)
+				case 7: trainerbattle_no_intro(TRAINER_ZACH_3, DewfordTown_Gym_Text_ZachDefeat)
 				default:
 					if(flag(FLAG_SYS_GAME_CLEAR)){
 						//When you beat the game you can get a random rematch each day
 						random(5)
 						switch (var(VAR_RESULT)) {
-							case 0: trainerbattle_no_intro(TRAINER_BRAWLY_1, DewfordTown_Gym_Text_BrawlyDefeat)
-							case 1: trainerbattle_no_intro(TRAINER_BRAWLY_2, DewfordTown_Gym_Text_BrawlyDefeat)
-							case 2: trainerbattle_no_intro(TRAINER_BRAWLY_3, DewfordTown_Gym_Text_BrawlyDefeat)
-							case 3: trainerbattle_no_intro(TRAINER_BRAWLY_4, DewfordTown_Gym_Text_BrawlyDefeat)
-							case 4: trainerbattle_no_intro(TRAINER_BRAWLY_5, DewfordTown_Gym_Text_BrawlyDefeat)
+							case 0: trainerbattle_no_intro(TRAINER_ZACH_1, DewfordTown_Gym_Text_ZachDefeat)
+							case 1: trainerbattle_no_intro(TRAINER_ZACH_2, DewfordTown_Gym_Text_ZachDefeat)
+							case 2: trainerbattle_no_intro(TRAINER_ZACH_3, DewfordTown_Gym_Text_ZachDefeat)
+							case 3: trainerbattle_no_intro(TRAINER_ZACH_4, DewfordTown_Gym_Text_ZachDefeat)
+							case 4: trainerbattle_no_intro(TRAINER_ZACH_5, DewfordTown_Gym_Text_ZachDefeat)
 						}
 					}
 					else{
 						//If you have 8 badges you battle its final team
-						trainerbattle_no_intro(TRAINER_BRAWLY_4, DewfordTown_Gym_Text_BrawlyDefeat)
+						trainerbattle_no_intro(TRAINER_ZACH_4, DewfordTown_Gym_Text_ZachDefeat)
 					}
 			}
 		}
@@ -889,12 +889,12 @@ script DewfordTown_Gym_EventScript_Brawly_Battle_New{
 	return
 }
 
-script DewfordTown_Gym_EventScript_Brawly_Give_Gifts{
+script DewfordTown_Gym_EventScript_Zach_Give_Gifts{
 	//Give Low Sweep
 	checkitem(ITEM_TM51_LOW_SWEEP, 1)
 	if(var(VAR_NUM_BADGES) >= 2 && var(VAR_RESULT) == FALSE){
 		giveitem(ITEM_TM51_LOW_SWEEP)
-		msgbox(format("Brawly: This move not only inflicts damage, it also lowers the target Speed stat by one stage."), MSGBOX_NPC)
+		msgbox(format("Zach: This move not only inflicts damage, it also lowers the target Speed stat by one stage."), MSGBOX_NPC)
 		setflag(FLAG_TEMP_9) //To check if you have been given multiple items
 	}
 
@@ -902,7 +902,7 @@ script DewfordTown_Gym_EventScript_Brawly_Give_Gifts{
 	checkitem(ITEM_TM87_SWAGGER, 1)
 	if(var(VAR_NUM_BADGES) >= 4 && var(VAR_RESULT) == FALSE){
 		giveitem(ITEM_TM87_SWAGGER)
-		msgbox(format("Brawly: This move confuses the target but it also raises its attack stat, use it with caution."), MSGBOX_NPC)
+		msgbox(format("Zach: This move confuses the target but it also raises its attack stat, use it with caution."), MSGBOX_NPC)
 		setflag(FLAG_TEMP_9) //To check if you have been given multiple items
 	}
 
@@ -910,7 +910,7 @@ script DewfordTown_Gym_EventScript_Brawly_Give_Gifts{
 	checkitem(ITEM_TM52_FOCUS_BLAST, 1)
 	if(var(VAR_NUM_BADGES) >= 6 && var(VAR_RESULT) == FALSE){
 		giveitem(ITEM_TM52_FOCUS_BLAST)
-		msgbox(format("Brawly: This is a Fighting-type damage move with a really high base attack, but misses a lot too so be careful when using it."), MSGBOX_NPC)
+		msgbox(format("Zach: This is a Fighting-type damage move with a really high base attack, but misses a lot too so be careful when using it."), MSGBOX_NPC)
 		setflag(FLAG_TEMP_9) //To check if you have been given multiple items
 	}
 
@@ -918,13 +918,13 @@ script DewfordTown_Gym_EventScript_Brawly_Give_Gifts{
 	checkitem(ITEM_TM106_AURA_SPHERE, 1)
 	if(var(VAR_NUM_BADGES) >= 8 && var(VAR_RESULT) == FALSE){
 		giveitem(ITEM_TM106_AURA_SPHERE)
-		msgbox(format("Brawly: This is a Fighting-type damage move made specially for Fighting-type Pokémon with high Special Attack."), MSGBOX_NPC)
+		msgbox(format("Zach: This is a Fighting-type damage move made specially for Fighting-type Pokémon with high Special Attack."), MSGBOX_NPC)
 		setflag(FLAG_TEMP_9) //To check if you have been given multiple items
 	}
 
 	//Give Megastone
 	if(var(VAR_NUM_BADGES) >= 7 && !flag(FLAG_GOT_HERACRONITE)){
-		msgbox(format("Brawly: Take this as an special gift from me, it's a Heracronite."), MSGBOX_NPC)
+		msgbox(format("Zach: Take this as an special gift from me, it's a Heracronite."), MSGBOX_NPC)
 		giveitem(ITEM_HERACRONITE)
 		msgbox(format("Make a Happymaul hold it to unleash its real potential."), MSGBOX_NPC)
 		setflag(FLAG_GOT_HERACRONITE)
@@ -950,7 +950,7 @@ script DewfordTown_Gym_EventScript_GymGuide_New{
 	lock
 	faceplayer
 	if(flag(FLAG_DEFEATED_DEWFORD_GYM)){
-		if(!flag(FLAG_BRAWLY_REMATCH)){
+		if(!flag(FLAG_ZACH_REMATCH)){
 			msgbox(format("Guide: Hello {PLAYER}, I see you came to this Gym again, do you want me to take you to the Leader?"), MSGBOX_YESNO)
 			if(var(VAR_RESULT) == 1){
 				msgbox(format("Let me tell the leader that you are here."), MSGBOX_NPC)
@@ -976,13 +976,13 @@ script DewfordTown_Gym_EventScript_Gym_Angbeast{
 	faceplayer
 	switch(var(VAR_GYM_POKEMON_SPECIES)){
 		case SPECIES_ANGBEAST:
-			if (flag(FLAG_BADGE02_GET) && !flag(FLAG_BRAWLY_REMATCH)){
+			if (flag(FLAG_BADGE02_GET) && !flag(FLAG_ZACH_REMATCH)){
 				//Ready for a rematch
 				msgbox(format("Angbeast: hita!"), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems like it wants a rematch with You, it has a really professional fighting stance."), MSGBOX_SIGN)
 				waitmessage
 			}
-			elif(flag(FLAG_BADGE02_GET) && flag(FLAG_BRAWLY_REMATCH)){
+			elif(flag(FLAG_BADGE02_GET) && flag(FLAG_ZACH_REMATCH)){
 				//After a rematch
 				msgbox(format("Angbeast: hita..."), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems tired after today's battle, but even then it has a lot of energy left."), MSGBOX_SIGN)
@@ -994,13 +994,13 @@ script DewfordTown_Gym_EventScript_Gym_Angbeast{
 				waitmessage
 			}
 		case SPECIES_GANGBEATS:
-			if (flag(FLAG_BADGE02_GET) && !flag(FLAG_BRAWLY_REMATCH)){
+			if (flag(FLAG_BADGE02_GET) && !flag(FLAG_ZACH_REMATCH)){
 				//Ready for a rematch
 				msgbox(format("Gangbeats: yama!"), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems like it wants a rematch, it is stomping the ground with determination."), MSGBOX_SIGN)
 				waitmessage
 			}
-			elif(flag(FLAG_BADGE02_GET) && flag(FLAG_BRAWLY_REMATCH)){
+			elif(flag(FLAG_BADGE02_GET) && flag(FLAG_ZACH_REMATCH)){
 				msgbox(format("Gangbeats: yama..."), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems tired after today's battle, but its thanking you for the battle very politely."), MSGBOX_SIGN)
 				waitmessage

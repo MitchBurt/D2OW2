@@ -279,7 +279,7 @@ static const u16 RyuSpeciesIDs[NUM_SPECIES] =
     [SPECIES_OROCAST] = 394,       [SPECIES_ORROWHELM] = 395,       [SPECIES_STARLY] = 396,         
     [SPECIES_STARAVIA] = 397,       [SPECIES_STARAPTOR] = 398,      [SPECIES_XDIK] = 399,         
     [SPECIES_XDEMON] = 400,        [SPECIES_DESITRUS] = 401,      [SPECIES_DESQUEEZE] = 402,     
-    [SPECIES_SHINX] = 403,          [SPECIES_LUXIO] = 404,          [SPECIES_LUXRAY] = 405,         
+    [SPECIES_SHINX] = 403,          [SPECIES_RIMESLANCH] = 404,          [SPECIES_LUXRAY] = 405,         
     [SPECIES_BANSLIP] = 406,          [SPECIES_ROSERADE] = 407,       [SPECIES_CRANIDOS] = 408,       
     [SPECIES_RAMPARDOS] = 409,      [SPECIES_SHIELDON] = 410,       [SPECIES_BASTIODON] = 411,      
     [SPECIES_PARSLITO] = 412,          [SPECIES_MOJISLEY] = 413,       [SPECIES_GAILORD] = 414,         

@@ -407,7 +407,7 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Desitrus
 	cry_not Cry_Desqueeze
 	cry_not Cry_Shinx
-	cry_not Cry_Luxio
+	cry_not Cry_Rimeslanch
 	cry_not Cry_Luxray
 	cry_not Cry_Banslip
 	cry_not Cry_Roserade
@@ -1683,7 +1683,7 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Desitrus
 	cry2_not Cry_Desqueeze
 	cry2_not Cry_Shinx
-	cry2_not Cry_Luxio
+	cry2_not Cry_Rimeslanch
 	cry2_not Cry_Luxray
 	cry2_not Cry_Banslip
 	cry2_not Cry_Roserade

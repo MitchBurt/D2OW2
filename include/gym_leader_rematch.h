@@ -67,8 +67,8 @@ enum {
     REMATCH_SAWYER,
     REMATCH_KIRA_AND_DAN,
     REMATCH_WALLY_3,  // Entries above WALLY are considered normal trainers, from Wally below are special trainers
-    REMATCH_ROXANNE,
-    REMATCH_BRAWLY,
+    REMATCH_MASON,
+    REMATCH_ZACH,
     REMATCH_WATTSON,
     REMATCH_FLANNERY,
     REMATCH_NORMAN,
@@ -79,7 +79,7 @@ enum {
     REMATCH_GREGORIUS,
     REMATCH_GLACIA,
     REMATCH_DRAKE,
-    REMATCH_WALLACE,
+    REMATCH_DARIO,
     REMATCH_TABLE_ENTRIES // The total number of rematch entries. Must be last in enum
 };
 

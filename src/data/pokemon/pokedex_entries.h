@@ -4849,12 +4849,12 @@ const struct PokedexEntry gPokedexEntries[] =
 		.trainerOffset = 0,
 	},
 
-	[NATIONAL_DEX_LUXIO] =
+	[NATIONAL_DEX_RIMESLANCH] =
 	{
 		.categoryName = _("Spark"),
 		.height = 9,
 		.weight = 305,
-		.description = gLuxioPokedexText,
+		.description = gRimeslanchPokedexText,
 		.pokemonScale = 356,
 		.pokemonOffset = 17,
 		.trainerScale = 256,
@@ -15639,12 +15639,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_LUXIO] =
+    [NATIONAL_DEX_RIMESLANCH] =
     {
         .categoryName = _("Spark"),
         .height = 9,
         .weight = 305,
-        .description = gLuxioPokedexText,
+        .description = gRimeslanchPokedexText,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,

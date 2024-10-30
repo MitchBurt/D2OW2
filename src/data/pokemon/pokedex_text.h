@@ -2417,7 +2417,7 @@ const u8 gShinxPokedexText[] = _(
     "body shines if endangered. It flees\n"
     "while the foe is momentarily blinded.");
 
-const u8 gLuxioPokedexText[] = _(
+const u8 gRimeslanchPokedexText[] = _(
     "Strong electricity courses through the\n"
     "tips of its sharp claws. A light scratch\n"
     "has enough amperage to cause fainting\n"
@@ -7777,7 +7777,7 @@ const u8 gShinxPokedexText[] = _(
     "body shines if endangered. It flees\n"
     "while the foe is momentarily blinded.");
 
-const u8 gLuxioPokedexText[] = _(
+const u8 gRimeslanchPokedexText[] = _(
     "Strong electricity courses through the\n"
     "tips of its sharp claws. A light scratch\n"
     "has enough amperage to cause fainting\n"

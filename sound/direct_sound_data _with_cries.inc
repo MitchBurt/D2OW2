@@ -1999,8 +1999,8 @@ Cry_Shinx::
 	.incbin "sound/direct_sound_samples/cries/cry_not_shinx.bin"
 
 	.align 2
-Cry_Luxio::
-	.incbin "sound/direct_sound_samples/cries/cry_not_luxio.bin"
+Cry_Rimeslanch::
+	.incbin "sound/direct_sound_samples/cries/cry_not_rimeslanch.bin"
 
 	.align 2
 Cry_Luxray::

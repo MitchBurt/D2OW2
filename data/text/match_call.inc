@@ -912,10 +912,10 @@ MatchCall_PersonalizedText24:: @ 82AD34F
 MatchCall_PersonalizedText25:: @ 82AD44E
 	.string "Snivel… It's… {STR_VAR_1}…\n"
 	.string "…Sob…\p"
-	.string "Roxanne chewed me out in class\n"
+	.string "Mason chewed me out in class\n"
 	.string "today.\p"
 	.string "But I don't dislike her or anything.\p"
-	.string "Roxanne tells me exactly what\n"
+	.string "Mason tells me exactly what\n"
 	.string "I did wrong so I can learn from it.\p"
 	.string "You bet I'll be going to\n"
 	.string "the Trainer's School tomorrow!\p"
@@ -923,11 +923,11 @@ MatchCall_PersonalizedText25:: @ 82AD44E
 
 MatchCall_PersonalizedText26:: @ 82AD53A
 	.string "It's {STR_VAR_1}!\p"
-	.string "Roxanne let me battle with her\n"
+	.string "Mason let me battle with her\n"
 	.string "yesterday.\p"
 	.string "The results…\n"
 	.string "Terrible, like you needed to ask.\p"
-	.string "But I was delighted that Roxanne\n"
+	.string "But I was delighted that Mason\n"
 	.string "would even let me challenge her!\p"
 	.string "You wouldn't believe how much\n"
 	.string "more I admire her!\p"
@@ -1310,7 +1310,7 @@ MatchCall_PersonalizedText59:: @ 82AF480
 	.string "This is {STR_VAR_1}!\p"
 	.string "I went to Dewford's Gym again\n"
 	.string "for training.\p"
-	.string "Brawly, the Gym Leader, seems\n"
+	.string "Zach, the Gym Leader, seems\n"
 	.string "to be tougher now.\p"
 	.string "Something about being toughened\n"
 	.string "by the wild waves…\p"
@@ -1318,7 +1318,7 @@ MatchCall_PersonalizedText59:: @ 82AF480
 	.string "The ladies adore him!\l"
 	.string "It makes me envious, frankly.\p"
 	.string "I wonder… Is his friend Bruno\n"
-	.string "the same way as Brawly?\p"
+	.string "the same way as Zach?\p"
 	.string "You know, all sweaty or smelly,\n"
 	.string "and prone to calling people\l"
 	.string "“big wave,” that sort of thing.\p"
@@ -2048,8 +2048,8 @@ MatchCall_Text_Mom3:: @ 82B23F3
 	.string "Y no te quites las Deportivas\n"
 	.string "hasta que no se te rompan, cariño.$"
 
-MatchCall_Text_Roxanne1:: @ 82B2456
-	.string "Roxanne: Oh, hello, {PLAYER}!\p"
+MatchCall_Text_Mason1:: @ 82B2456
+	.string "Mason: Oh, hello, {PLAYER}!\p"
 	.string "I've been hard at work retraining\n"
 	.string "since we met.\p"
 	.string "I will still need some more time\n"
@@ -2057,8 +2057,8 @@ MatchCall_Text_Roxanne1:: @ 82B2456
 	.string "But when I do, please visit my Gym\n"
 	.string "for a rematch!$"
 
-MatchCall_Text_Roxanne2:: @ 82B250E
-	.string "Roxanne: Is this {PLAYER}?\n"
+MatchCall_Text_Mason2:: @ 82B250E
+	.string "Mason: Is this {PLAYER}?\n"
 	.string "Congratulations!\l"
 	.string "I've been hearing about you!\p"
 	.string "As for me, I need some more time\n"
@@ -2066,19 +2066,19 @@ MatchCall_Text_Roxanne2:: @ 82B250E
 	.string "But when I do, please visit my Gym\n"
 	.string "for a rematch!$"
 
-MatchCall_Text_Roxanne3:: @ 82B25C1
-	.string "Roxanne: {PLAYER}!\n"
+MatchCall_Text_Mason3:: @ 82B25C1
+	.string "Mason: {PLAYER}!\n"
 	.string "My Gym is ready!\p"
 	.string "Please visit Rustboro whenever\n"
 	.string "you can!$"
 
-MatchCall_Text_Roxanne4:: @ 82B2607
-	.string "Roxanne: {PLAYER}, en el Gimnasio\n"
+MatchCall_Text_Mason4:: @ 82B2607
+	.string "Mason: {PLAYER}, en el Gimnasio\n"
 	.string "de Ciudad Férrica, luchar\l"
 	.string "es una cuestión de orgullo.$"
 
-MatchCall_Text_Brawly1:: @ 82B2659
-	.string "Brawly: Hey, there, {PLAYER}{KUN}!\p"
+MatchCall_Text_Zach1:: @ 82B2659
+	.string "Zach: Hey, there, {PLAYER}{KUN}!\p"
 	.string "I learned a lot from the battle we\n"
 	.string "had together.\p"
 	.string "I intend to do my training over,\n"
@@ -2088,8 +2088,8 @@ MatchCall_Text_Brawly1:: @ 82B2659
 	.string "But if I can reopen the Gym,\n"
 	.string "I want you to challenge us again.$"
 
-MatchCall_Text_Brawly2:: @ 82B275D
-	.string "Brawly: Hey, {PLAYER}{KUN}!\n"
+MatchCall_Text_Zach2:: @ 82B275D
+	.string "Zach: Hey, {PLAYER}{KUN}!\n"
 	.string "Congratulations!\p"
 	.string "Word about your exploits arrived\n"
 	.string "on tidal winds!\p"
@@ -2100,14 +2100,14 @@ MatchCall_Text_Brawly2:: @ 82B275D
 	.string "But if I can reopen the Gym,\n"
 	.string "I want you to challenge us again.$"
 
-MatchCall_Text_Brawly3:: @ 82B286F
-	.string "Brawly: Hey, {PLAYER}{KUN}!\n"
+MatchCall_Text_Zach3:: @ 82B286F
+	.string "Zach: Hey, {PLAYER}{KUN}!\n"
 	.string "My Gym's ready for action!\p"
 	.string "Come back to Dewford anytime\n"
 	.string "for another challenge!$"
 
-MatchCall_Text_Brawly4:: @ 82B28D1
-	.string "Brawly: {PLAYER}, no creo que\n"
+MatchCall_Text_Zach4:: @ 82B28D1
+	.string "Zach: {PLAYER}, no creo que\n"
 	.string "me aburra nunca de luchar contigo.$"
 
 MatchCall_Text_Wattson1:: @ 82B2912
@@ -2238,9 +2238,9 @@ MatchCall_Text_Juan1:: @ 82B3249
 	.string "{PLAYER}{KUN}… Was it?\p"
 	.string "Our battle together--it brought\n"
 	.string "to me memories of when I first\l"
-	.string "encountered Wallace.\p"
+	.string "encountered Dario.\p"
 	.string "Perhaps you are a genius who may\n"
-	.string "yet surpass Wallace!$"
+	.string "yet surpass Dario!$"
 
 MatchCall_Text_Juan2:: @ 82B32EC
 	.string "Juan: Fufu… {PLAYER}{KUN}…\n"
@@ -2303,8 +2303,8 @@ MatchCall_Text_Drake:: @ 82B368B
 	.string "la Liga Pokémon!\p"
 	.string "¿O no, {PLAYER}?$"
 
-MatchCall_Text_Wallace:: @ 82B3790
-	.string "Wallace: Hola, {PLAYER}.\n"
+MatchCall_Text_Dario:: @ 82B3790
+	.string "Dario: Hola, {PLAYER}.\n"
 	.string "¿Has visto ya a Steven?\p"
 	.string "La verdad es que es…\n"
 	.string "es un hacha.\p"
@@ -3871,10 +3871,10 @@ MatchCall_PersonalizedText24:: @ 82AD34F
 MatchCall_PersonalizedText25:: @ 82AD44E
 	.string "Snivel… It's… {STR_VAR_1}…\n"
 	.string "…Sob…\p"
-	.string "Roxanne chewed me out in class\n"
+	.string "Mason chewed me out in class\n"
 	.string "today.\p"
 	.string "But I don't dislike her or anything.\p"
-	.string "Roxanne tells me exactly what\n"
+	.string "Mason tells me exactly what\n"
 	.string "I did wrong so I can learn from it.\p"
 	.string "You bet I'll be going to\n"
 	.string "the Trainer's School tomorrow!\p"
@@ -3882,11 +3882,11 @@ MatchCall_PersonalizedText25:: @ 82AD44E
 
 MatchCall_PersonalizedText26:: @ 82AD53A
 	.string "It's {STR_VAR_1}!\p"
-	.string "Roxanne let me battle with her\n"
+	.string "Mason let me battle with her\n"
 	.string "yesterday.\p"
 	.string "The results…\n"
 	.string "Terrible, like you needed to ask.\p"
-	.string "But I was delighted that Roxanne\n"
+	.string "But I was delighted that Mason\n"
 	.string "would even let me challenge her!\p"
 	.string "You wouldn't believe how much\n"
 	.string "more I admire her!\p"
@@ -4269,7 +4269,7 @@ MatchCall_PersonalizedText59:: @ 82AF480
 	.string "This is {STR_VAR_1}!\p"
 	.string "I went to Dewford's Gym again\n"
 	.string "for training.\p"
-	.string "Brawly, the Gym Leader, seems\n"
+	.string "Zach, the Gym Leader, seems\n"
 	.string "to be tougher now.\p"
 	.string "Something about being toughened\n"
 	.string "by the wild waves…\p"
@@ -4277,7 +4277,7 @@ MatchCall_PersonalizedText59:: @ 82AF480
 	.string "The ladies adore him!\l"
 	.string "It makes me envious, frankly.\p"
 	.string "I wonder… Is his friend Bruno\n"
-	.string "the same way as Brawly?\p"
+	.string "the same way as Zach?\p"
 	.string "You know, all sweaty or smelly,\n"
 	.string "and prone to calling people\l"
 	.string "“big wave,” that sort of thing.\p"
@@ -5005,8 +5005,8 @@ MatchCall_Text_Mom3:: @ 82B23F3
 	.string "Wear those Running Shoes until\n"
 	.string "they fall apart, honey!$"
 
-MatchCall_Text_Roxanne1:: @ 82B2456
-	.string "Roxanne: Oh, hello, {PLAYER}!\p"
+MatchCall_Text_Mason1:: @ 82B2456
+	.string "Mason: Oh, hello, {PLAYER}!\p"
 	.string "I've been hard at work retraining\n"
 	.string "since we met.\p"
 	.string "I will still need some more time\n"
@@ -5014,8 +5014,8 @@ MatchCall_Text_Roxanne1:: @ 82B2456
 	.string "But when I do, please visit my Gym\n"
 	.string "for a rematch!$"
 
-MatchCall_Text_Roxanne2:: @ 82B250E
-	.string "Roxanne: Is this {PLAYER}?\n"
+MatchCall_Text_Mason2:: @ 82B250E
+	.string "Mason: Is this {PLAYER}?\n"
 	.string "Congratulations!\l"
 	.string "I've been hearing about you!\p"
 	.string "As for me, I need some more time\n"
@@ -5023,19 +5023,19 @@ MatchCall_Text_Roxanne2:: @ 82B250E
 	.string "But when I do, please visit my Gym\n"
 	.string "for a rematch!$"
 
-MatchCall_Text_Roxanne3:: @ 82B25C1
-	.string "Roxanne: {PLAYER}!\n"
+MatchCall_Text_Mason3:: @ 82B25C1
+	.string "Mason: {PLAYER}!\n"
 	.string "My Gym is ready!\p"
 	.string "Please visit Rustboro whenever\n"
 	.string "you can!$"
 
-MatchCall_Text_Roxanne4:: @ 82B2607
-	.string "Roxanne: At the Rustboro Gym,\n"
+MatchCall_Text_Mason4:: @ 82B2607
+	.string "Mason: At the Rustboro Gym,\n"
 	.string "the fact that we battled, {PLAYER},\l"
 	.string "is a matter of pride.$"
 
-MatchCall_Text_Brawly1:: @ 82B2659
-	.string "Brawly: Hey, there, {PLAYER}{KUN}!\p"
+MatchCall_Text_Zach1:: @ 82B2659
+	.string "Zach: Hey, there, {PLAYER}{KUN}!\p"
 	.string "I learned a lot from the battle we\n"
 	.string "had together.\p"
 	.string "I intend to do my training over,\n"
@@ -5045,8 +5045,8 @@ MatchCall_Text_Brawly1:: @ 82B2659
 	.string "But if I can reopen the Gym,\n"
 	.string "I want you to challenge us again.$"
 
-MatchCall_Text_Brawly2:: @ 82B275D
-	.string "Brawly: Hey, {PLAYER}{KUN}!\n"
+MatchCall_Text_Zach2:: @ 82B275D
+	.string "Zach: Hey, {PLAYER}{KUN}!\n"
 	.string "Congratulations!\p"
 	.string "Word about your exploits arrived\n"
 	.string "on tidal winds!\p"
@@ -5057,14 +5057,14 @@ MatchCall_Text_Brawly2:: @ 82B275D
 	.string "But if I can reopen the Gym,\n"
 	.string "I want you to challenge us again.$"
 
-MatchCall_Text_Brawly3:: @ 82B286F
-	.string "Brawly: Hey, {PLAYER}{KUN}!\n"
+MatchCall_Text_Zach3:: @ 82B286F
+	.string "Zach: Hey, {PLAYER}{KUN}!\n"
 	.string "My Gym's ready for action!\p"
 	.string "Come back to Dewford anytime\n"
 	.string "for another challenge!$"
 
-MatchCall_Text_Brawly4:: @ 82B28D1
-	.string "Brawly: {PLAYER}{KUN}, I don't think\n"
+MatchCall_Text_Zach4:: @ 82B28D1
+	.string "Zach: {PLAYER}{KUN}, I don't think\n"
 	.string "I'll ever get bored of battling you!$"
 
 MatchCall_Text_Wattson1:: @ 82B2912
@@ -5195,9 +5195,9 @@ MatchCall_Text_Juan1:: @ 82B3249
 	.string "{PLAYER}{KUN}… Was it?\p"
 	.string "Our battle together--it brought\n"
 	.string "to me memories of when I first\l"
-	.string "encountered Wallace.\p"
+	.string "encountered Dario.\p"
 	.string "Perhaps you are a genius who may\n"
-	.string "yet surpass Wallace!$"
+	.string "yet surpass Dario!$"
 
 MatchCall_Text_Juan2:: @ 82B32EC
 	.string "Juan: Fufu… {PLAYER}{KUN}…\n"
@@ -5259,8 +5259,8 @@ MatchCall_Text_Drake:: @ 82B368B
 	.string "the Pokémon League!\p"
 	.string "Don't you agree, {PLAYER}?$"
 
-MatchCall_Text_Wallace:: @ 82B3790
-	.string "Wallace: Hello, {PLAYER}{KUN}.\n"
+MatchCall_Text_Dario:: @ 82B3790
+	.string "Dario: Hello, {PLAYER}{KUN}.\n"
 	.string "Have you met Steven?\p"
 	.string "He is…\n"
 	.string "Actually incredibly skilled.\p"

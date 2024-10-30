@@ -142,7 +142,7 @@
 #define FLAG_DEFEATED_RIVAL_ROUTE_104        0x7D
 #define FLAG_DEFEATED_WALLY_VICTORY_ROAD     0x7E
 #define FLAG_MET_PRETTY_PETAL_SHOP_OWNER     0x7F
-#define FLAG_ENABLE_ROXANNE_FIRST_CALL       0x80 // Set after defeating Brawly. This will activate a call with Roxanne in order to register her.
+#define FLAG_ENABLE_MASON_FIRST_CALL       0x80 // Set after defeating Zach. This will activate a call with Mason in order to register her.
 #define FLAG_KRAKRUM_ESCAPED_SEAFLOOR_CAVERN  0x81
 #define FLAG_DEFEATED_RIVAL_ROUTE103         0x82
 #define FLAG_RECEIVED_DOLL_LANETTE           0x83
@@ -337,7 +337,7 @@
 #define FLAG_MET_ARCHIE_SOOTOPOLIS           0x134
 #define FLAG_MET_MAXIE_SOOTOPOLIS            0x135
 #define FLAG_MET_SCOTT_RUSTBORO              0x136
-#define FLAG_WALLACE_GOES_TO_SKY_PILLAR      0x137 // Set after speaking to Wallace within the Cave of Origin.
+#define FLAG_DARIO_GOES_TO_SKY_PILLAR      0x137 // Set after speaking to Dario within the Cave of Origin.
 #define FLAG_RECEIVED_HM07                   0x138
 #define FLAG_BEAT_MAGMA_GRUNT_JAGGED_PASS    0x139
 #define FLAG_RECEIVED_AURORA_TICKET          0x13A
@@ -446,8 +446,8 @@
 #define FLAG_REMATCH_SAWYER                  0x19B
 #define FLAG_REMATCH_KIRA_AND_DAN            0x19C
 #define FLAG_REMATCH_WALLY                   0x19D
-#define FLAG_REMATCH_ROXANNE                 0x19E
-#define FLAG_REMATCH_BRAWLY                  0x19F
+#define FLAG_REMATCH_MASON                 0x19E
+#define FLAG_REMATCH_ZACH                  0x19F
 #define FLAG_REMATCH_WATTSON                 0x1A0
 #define FLAG_REMATCH_FLANNERY                0x1A1
 #define FLAG_REMATCH_NORMAN                  0x1A2
@@ -458,7 +458,7 @@
 #define FLAG_REMATCH_GREGORIUS                  0x1A6
 #define FLAG_REMATCH_GLACIA                  0x1A7
 #define FLAG_REMATCH_DRAKE                   0x1A8
-#define FLAG_REMATCH_WALLACE                 0x1A9
+#define FLAG_REMATCH_DARIO                 0x1A9
 
 #define FLAG_SYS_AUTO_RUN                    0x1AA // Auto Run
 #define FLAG_NO_EVS_MODE    				 0x1AB // Game Mode
@@ -502,8 +502,8 @@
 #define FLAG_MET_SCOTT_ON_SS_TIDAL           0x1D0
 #define FLAG_SCOTT_GIVES_BATTLE_POINTS       0x1D1
 #define FLAG_COLLECTED_ALL_GOLD_SYMBOLS      0x1D2
-#define FLAG_ENABLE_ROXANNE_MATCH_CALL       0x1D3
-#define FLAG_ENABLE_BRAWLY_MATCH_CALL        0x1D4
+#define FLAG_ENABLE_MASON_MATCH_CALL       0x1D3
+#define FLAG_ENABLE_ZACH_MATCH_CALL        0x1D4
 #define FLAG_ENABLE_WATTSON_MATCH_CALL       0x1D5
 #define FLAG_ENABLE_FLANNERY_MATCH_CALL      0x1D6
 #define FLAG_ENABLE_WINONA_MATCH_CALL        0x1D7
@@ -863,11 +863,11 @@
 #define FLAG_HIDE_ROUTE_116_DROPPED_GLASSES_MAN                     0x32D
 #define FLAG_HIDE_RUSTBORO_CITY_RIVAL                               0x32E
 #define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_ARMYDRONE_DOLL     0x32F
-#define FLAG_HIDE_SOOTOPOLIS_CITY_WALLACE                           0x330
+#define FLAG_HIDE_SOOTOPOLIS_CITY_DARIO                           0x330
 #define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL       0x331
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL           0x332
 #define FLAG_HIDE_ROUTE_112_TEAM_MAGMA                              0x333
-#define FLAG_HIDE_CAVE_OF_ORIGIN_B1F_WALLACE                        0x334
+#define FLAG_HIDE_CAVE_OF_ORIGIN_B1F_DARIO                        0x334
 #define FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_1_BLOCKING_ENTRANCE         0x335
 #define FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_2_BLOCKING_ENTRANCE         0x336
 #define FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA                          0x337
@@ -901,7 +901,7 @@
 #define FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS                         0x354
 #define FLAG_HIDE_MAGMA_HIDEOUT_4F_NOIRNET_1                        0x355
 #define FLAG_HIDE_SOOTOPOLIS_CITY_RESIDENTS                         0x356
-#define FLAG_HIDE_SKY_PILLAR_WALLACE                                0x357
+#define FLAG_HIDE_SKY_PILLAR_DARIO                                0x357
 #define FLAG_HIDE_MT_PYRE_SUMMIT_MAXIE                              0x358
 #define FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS                              0x359
 #define FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY                       0x35A
@@ -1574,10 +1574,10 @@
 // These flags are cleared once per day
 // The start and end are byte-aligned because the flags are cleared in byte increments
 #define DAILY_FLAGS_START                           (FLAG_ACHIEVEMENT_REWARD_24 + (8 - FLAG_ACHIEVEMENT_REWARD_24 % 8))
-#define FLAG_ROXANNE_REMATCH                        (DAILY_FLAGS_START + 0x0)  // Roxanne
+#define FLAG_MASON_REMATCH                        (DAILY_FLAGS_START + 0x0)  // Mason
 #define FLAG_DAILY_CONTEST_LOBBY_RECEIVED_BERRY     (DAILY_FLAGS_START + 0x1)
 #define FLAG_DAILY_SECRET_BASE                      (DAILY_FLAGS_START + 0x2)
-#define FLAG_BRAWLY_REMATCH                         (DAILY_FLAGS_START + 0x3)  // Brawly
+#define FLAG_ZACH_REMATCH                         (DAILY_FLAGS_START + 0x3)  // Zach
 #define FLAG_WATTSON_REMATCH                        (DAILY_FLAGS_START + 0x4)  // Wattson
 #define FLAG_FLANNERY_REMATCH                       (DAILY_FLAGS_START + 0x5)  // Flannery
 #define FLAG_NORMAN_REMATCH                         (DAILY_FLAGS_START + 0x6)  // Norman

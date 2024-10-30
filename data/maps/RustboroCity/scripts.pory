@@ -1266,7 +1266,7 @@ RustboroCity_Text_DevonCorpSign: @ 81E2128
 
 RustboroCity_Text_GymSign: @ 81E2167
 	.string "Rustboro City Pokémon Gym\n"
-	.string "Leader: Roxanne\p"
+	.string "Leader: Mason\p"
 	.string "“The Rock-loving honors student!”$"
 
 RustboroCity_Text_DevonCorpBranchOfficeSign: @ 81E21B3

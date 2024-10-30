@@ -1438,7 +1438,7 @@ PetalburgCity_Gym_Text_DadGoCollectBadges: @ 8205C40
 	.string "Head for Rustboro City beyond this\n"
 	.string "town.\p"
 	.string "There, you should challenge\n"
-	.string "the Gym Leader, Roxanne.\p"
+	.string "the Gym Leader, Mason.\p"
 	.string "After her, go on to other Pokémon\n"
 	.string "Gyms and defeat their Leaders.\p"
 	.string "Collect Badges from them,\n"
@@ -1464,7 +1464,7 @@ PetalburgCity_Gym_Text_NormanGoToDewford: @ 8205EAE
 	.string "But there are many more Trainers\n"
 	.string "who are stronger than you, {PLAYER}.\p"
 	.string "Across the sea in DEWFORD Town is a\n"
-	.string "Gym Leader named Brawly.\p"
+	.string "Gym Leader named Zach.\p"
 	.string "You should go challenge him.$"
 
 PetalburgCity_Gym_Text_YouHaveGottenStronger: @ 8205F87

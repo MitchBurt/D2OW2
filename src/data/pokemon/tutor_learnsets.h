@@ -9724,7 +9724,7 @@ static const u8 sShinxTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sLuxioTutorLearnset[] =
+static const u8 sRimeslanchTutorLearnset[] =
 {
     TUTOR(MOVE_THUNDER_WAVE),
     TUTOR(MOVE_SUBSTITUTE),
@@ -20125,7 +20125,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_DESITRUS] = sDesitrusTutorLearnset,
     [SPECIES_DESQUEEZE] = sDesqueezeTutorLearnset,
     [SPECIES_SHINX] = sShinxTutorLearnset,
-    [SPECIES_LUXIO] = sLuxioTutorLearnset,
+    [SPECIES_RIMESLANCH] = sRimeslanchTutorLearnset,
     [SPECIES_LUXRAY] = sLuxrayTutorLearnset,
     [SPECIES_BANSLIP] = sBanslipTutorLearnset,
     [SPECIES_ROSERADE] = sRoseradeTutorLearnset,

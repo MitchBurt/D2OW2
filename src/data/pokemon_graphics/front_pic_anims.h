@@ -4956,7 +4956,7 @@ static const union AnimCmd sAnim_SHINX_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_LUXIO_1[] =
+static const union AnimCmd sAnim_RIMESLANCH_1[] =
 {
     ANIMCMD_FRAME(0, 30),
     ANIMCMD_FRAME(1, 30),
@@ -11373,9 +11373,9 @@ static const union AnimCmd *const sAnims_SHINX[] ={
     sAnim_SHINX_1,
 };
 
-static const union AnimCmd *const sAnims_LUXIO[] ={
+static const union AnimCmd *const sAnims_RIMESLANCH[] ={
     sAnim_GeneralFrame0,
-    sAnim_LUXIO_1,
+    sAnim_RIMESLANCH_1,
 };
 
 static const union AnimCmd *const sAnims_LUXRAY[] ={
@@ -14822,7 +14822,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(DESITRUS),
     ANIM_CMD(DESQUEEZE),
     ANIM_CMD(SHINX),
-    ANIM_CMD(LUXIO),
+    ANIM_CMD(RIMESLANCH),
     ANIM_CMD(LUXRAY),
     ANIM_CMD(BANSLIP),
     ANIM_CMD(ROSERADE),

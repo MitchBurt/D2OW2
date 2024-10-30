@@ -4193,7 +4193,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 55,
         .baseSpDefense = 100,
         .type1 = TYPE_STEEL,
-        .type2 = TYPE_STEEL,
+        .type2 = TYPE_GROUND,
         .catchRate = 45,
         .expYield = 142,
         .evYield_Defense   = 1,
@@ -10825,7 +10825,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_LUXIO] =
+    [SPECIES_RIMESLANCH] =
     {
         .baseHP        = 60,
         .baseAttack    = 85,
@@ -44423,7 +44423,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_LUXIO] =
+    [SPECIES_RIMESLANCH] =
     {
         .baseHP        = 60,
         .baseAttack    = 85,

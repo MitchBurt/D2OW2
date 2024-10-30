@@ -3702,32 +3702,32 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_Drake},
     },
 
-    [TRAINER_ROXANNE_1] =
+    [TRAINER_MASON_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .trainerPic = TRAINER_PIC_LEADER_ROXANNE,
-        .trainerName = _("Roxanne"),
+        .trainerPic = TRAINER_PIC_LEADER_MASON,
+        .trainerName = _("Mason"),
         .items = {ITEM_POTION, ITEM_POTION, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_Roxanne1),
-        .party = {.ItemCustomMoves = sParty_Roxanne1},
+        .partySize = ARRAY_COUNT(sParty_Mason1),
+        .party = {.ItemCustomMoves = sParty_Mason1},
     },
 
-    [TRAINER_BRAWLY_1] =
+    [TRAINER_ZACH_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_BRAWLY,
-        .trainerName = _("Brawly"),
+        .trainerPic = TRAINER_PIC_LEADER_ZACH,
+        .trainerName = _("Zach"),
         .items = {ITEM_SUPER_POTION, ITEM_SUPER_POTION, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_Brawly1),
-        .party = {.ItemCustomMoves = sParty_Brawly1},
+        .partySize = ARRAY_COUNT(sParty_Zach1),
+        .party = {.ItemCustomMoves = sParty_Zach1},
     },
 
     [TRAINER_WATTSON_1] =
@@ -4696,18 +4696,18 @@ const struct Trainer gTrainers[] = {
         .party = {.NoItemDefaultMoves = sParty_Timmy},
     },
 
-    [TRAINER_WALLACE] =
+    [TRAINER_DARIO] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_CHAMPION,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_CHAMPION_WALLACE,
-        .trainerName = _("Wallace"),
+        .trainerPic = TRAINER_PIC_CHAMPION_DARIO,
+        .trainerName = _("Dario"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY | AI_SCRIPT_SETUP_FIRST_TURN,
-        .partySize = ARRAY_COUNT(sParty_Wallace),
-        .party = {.ItemCustomMoves = sParty_Wallace},
+        .partySize = ARRAY_COUNT(sParty_Dario),
+        .party = {.ItemCustomMoves = sParty_Dario},
     },
 
     [TRAINER_ANDREW] =
@@ -10893,116 +10893,116 @@ const struct Trainer gTrainers[] = {
         .party = {.NoItemDefaultMoves = sParty_MayRustboroCooklet},
     },
 
-    [TRAINER_ROXANNE_2] =
+    [TRAINER_MASON_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .trainerPic = TRAINER_PIC_LEADER_ROXANNE,
-        .trainerName = _("Roxanne"),
+        .trainerPic = TRAINER_PIC_LEADER_MASON,
+        .trainerName = _("Mason"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_Roxanne2),
-        .party = {.ItemCustomMoves = sParty_Roxanne2},
+        .partySize = ARRAY_COUNT(sParty_Mason2),
+        .party = {.ItemCustomMoves = sParty_Mason2},
     },
 
-    [TRAINER_ROXANNE_3] =
+    [TRAINER_MASON_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .trainerPic = TRAINER_PIC_LEADER_ROXANNE,
-        .trainerName = _("Roxanne"),
+        .trainerPic = TRAINER_PIC_LEADER_MASON,
+        .trainerName = _("Mason"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_Roxanne3),
-        .party = {.ItemCustomMoves = sParty_Roxanne3},
+        .partySize = ARRAY_COUNT(sParty_Mason3),
+        .party = {.ItemCustomMoves = sParty_Mason3},
     },
 
-    [TRAINER_ROXANNE_4] =
+    [TRAINER_MASON_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .trainerPic = TRAINER_PIC_LEADER_ROXANNE,
-        .trainerName = _("Roxanne"),
+        .trainerPic = TRAINER_PIC_LEADER_MASON,
+        .trainerName = _("Mason"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_Roxanne4),
-        .party = {.ItemCustomMoves = sParty_Roxanne4},
+        .partySize = ARRAY_COUNT(sParty_Mason4),
+        .party = {.ItemCustomMoves = sParty_Mason4},
     },
 
-    [TRAINER_ROXANNE_5] =
+    [TRAINER_MASON_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .trainerPic = TRAINER_PIC_LEADER_ROXANNE,
-        .trainerName = _("Roxanne"),
+        .trainerPic = TRAINER_PIC_LEADER_MASON,
+        .trainerName = _("Mason"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_Roxanne5),
-        .party = {.ItemCustomMoves = sParty_Roxanne5},
+        .partySize = ARRAY_COUNT(sParty_Mason5),
+        .party = {.ItemCustomMoves = sParty_Mason5},
     },
 
-    [TRAINER_BRAWLY_2] =
+    [TRAINER_ZACH_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_BRAWLY,
-        .trainerName = _("Brawly"),
+        .trainerPic = TRAINER_PIC_LEADER_ZACH,
+        .trainerName = _("Zach"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_Brawly2),
-        .party = {.ItemCustomMoves = sParty_Brawly2},
+        .partySize = ARRAY_COUNT(sParty_Zach2),
+        .party = {.ItemCustomMoves = sParty_Zach2},
     },
 
-    [TRAINER_BRAWLY_3] =
+    [TRAINER_ZACH_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_BRAWLY,
-        .trainerName = _("Brawly"),
+        .trainerPic = TRAINER_PIC_LEADER_ZACH,
+        .trainerName = _("Zach"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_Brawly3),
-        .party = {.ItemCustomMoves = sParty_Brawly3},
+        .partySize = ARRAY_COUNT(sParty_Zach3),
+        .party = {.ItemCustomMoves = sParty_Zach3},
     },
 
-    [TRAINER_BRAWLY_4] =
+    [TRAINER_ZACH_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_BRAWLY,
-        .trainerName = _("Brawly"),
+        .trainerPic = TRAINER_PIC_LEADER_ZACH,
+        .trainerName = _("Zach"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_Brawly4),
-        .party = {.ItemCustomMoves = sParty_Brawly4},
+        .partySize = ARRAY_COUNT(sParty_Zach4),
+        .party = {.ItemCustomMoves = sParty_Zach4},
     },
 
-    [TRAINER_BRAWLY_5] =
+    [TRAINER_ZACH_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_BRAWLY,
-        .trainerName = _("Brawly"),
+        .trainerPic = TRAINER_PIC_LEADER_ZACH,
+        .trainerName = _("Zach"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_Brawly5),
-        .party = {.ItemCustomMoves = sParty_Brawly5},
+        .partySize = ARRAY_COUNT(sParty_Zach5),
+        .party = {.ItemCustomMoves = sParty_Zach5},
     },
 
     [TRAINER_WATTSON_2] =

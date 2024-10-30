@@ -232,7 +232,7 @@
 #define VAR_ROAMER_POKEMON                   0x40D5 // 0 = Latias, 1 = Latios
 #define VAR_TRAINER_HILL_IS_ACTIVE           0x40D6
 #define VAR_SKY_PILLAR_RAQUAZA_CRY_DONE      0x40D7
-#define VAR_SOOTOPOLIS_WALLACE_STATE         0x40D8
+#define VAR_SOOTOPOLIS_DARIO_STATE         0x40D8
 #define VAR_HAS_TALKED_TO_SEAFLOOR_CAVERN_ENTRANCE_GRUNT 0x40D9
 #define VAR_REGISTER_BIRCH_STATE             0x40DA
 #define VAR_UNUSED_0x40DB                    0x40DB // Unused Var
@@ -260,7 +260,7 @@
 #define VAR_DAILY_BP                         0x40F1
 #define VAR_WALLY_CALL_STEP_COUNTER          0x40F2
 #define VAR_GYM_ATTENDANT_STEP_COUNTER  0x40F3
-#define VAR_ROXANNE_CALL_STEP_COUNTER        0x40F4
+#define VAR_MASON_CALL_STEP_COUNTER        0x40F4
 #define VAR_SCOTT_BF_CALL_STEP_COUNTER       0x40F5
 #define VAR_RIVAL_RAYQUAZA_CALL_STEP_COUNTER 0x40F6
 #define VAR_DEXNAV_SPECIES                   0x40F7 // Registered dexnav species

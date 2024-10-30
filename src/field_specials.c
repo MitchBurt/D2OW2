@@ -452,9 +452,9 @@ bool32 ShouldDoScottBattleFrontierCall(void)
     return TRUE;
 }
 
-bool32 ShouldDoRoxanneCall(void)
+bool32 ShouldDoMasonCall(void)
 {
-    if (FlagGet(FLAG_ENABLE_ROXANNE_FIRST_CALL))
+    if (FlagGet(FLAG_ENABLE_MASON_FIRST_CALL))
     {
         switch (gMapHeader.mapType)
         {
@@ -462,7 +462,7 @@ bool32 ShouldDoRoxanneCall(void)
             case MAP_TYPE_CITY:
             case MAP_TYPE_ROUTE:
             case MAP_TYPE_OCEAN_ROUTE:
-                if (++(*GetVarPointer(VAR_ROXANNE_CALL_STEP_COUNTER)) < 250)
+                if (++(*GetVarPointer(VAR_MASON_CALL_STEP_COUNTER)) < 250)
                 {
                     return FALSE;
                 }
@@ -4366,13 +4366,13 @@ static void BufferFanClubTrainerName_(struct LinkBattleRecords *linkRecords, u8 
         switch (whichNPCTrainer)
         {
             case 0:
-                StringCopy(gStringVar1, gText_Wallace);
+                StringCopy(gStringVar1, gText_Dario);
                 break;
             case 1:
                 StringCopy(gStringVar1, gText_Steven);
                 break;
             case 2:
-                StringCopy(gStringVar1, gText_Brawly);
+                StringCopy(gStringVar1, gText_Zach);
                 break;
             case 3:
                 StringCopy(gStringVar1, gText_Winona);
@@ -4384,7 +4384,7 @@ static void BufferFanClubTrainerName_(struct LinkBattleRecords *linkRecords, u8 
                 StringCopy(gStringVar1, gText_Glacia);
                 break;
             default:
-                StringCopy(gStringVar1, gText_Wallace);
+                StringCopy(gStringVar1, gText_Dario);
                 break;
         }
     }
