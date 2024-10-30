@@ -925,7 +925,6 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Gigalpha_Mega
 	cry_not Cry_Gahnomed_Mega
 	cry_not Cry_Goalem_Mega
-	cry_not Cry_Frosilisk_Mega
 	cry_not Cry_Incredalen_Mega
 	cry_not Cry_Gourmaster_Mega
 	cry_not Cry_Baitank_Mega
@@ -2202,7 +2201,6 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Gigalpha_Mega
 	cry2_not Cry_Gahnomed_Mega
 	cry2_not Cry_Goalem_Mega
-	cry2_not Cry_Frosilisk_Mega
 	cry2_not Cry_Incredalen_Mega
 	cry2_not Cry_Gourmaster_Mega
 	cry2_not Cry_Baitank_Mega

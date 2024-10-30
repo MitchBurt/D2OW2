@@ -8568,11 +8568,6 @@ static const union AnimCmd sAnim_AWMANE_MEGA_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_FROSILISK_MEGA_1[] =
-{
-    ANIMCMD_FRAME(0, 1),
-    ANIMCMD_END,
-};
 
 static const union AnimCmd sAnim_INCREDALEN_MEGA_1[] =
 {
@@ -13972,11 +13967,6 @@ static const union AnimCmd *const sAnims_GAHNOMED_MEGA[] ={
 static const union AnimCmd *const sAnims_GOALEM_MEGA[] ={
     sAnim_GeneralFrame0,
     sAnim_GOALEM_MEGA_1,
-};
-
-static const union AnimCmd *const sAnims_FROSILISK_MEGA[] ={
-    sAnim_GeneralFrame0,
-    sAnim_FROSILISK_MEGA_1,
 };
 
 static const union AnimCmd *const sAnims_INCREDALEN_MEGA[] ={

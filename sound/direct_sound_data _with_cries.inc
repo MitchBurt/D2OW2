@@ -4055,10 +4055,6 @@ Cry_Goalem_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_happymaul.bin"
 
 	.align 2
-Cry_Frosilisk_Mega::
-	.incbin "sound/direct_sound_samples/cries/cry_frosilisk.bin"
-
-	.align 2
 Cry_Incredalen_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_incredalen.bin"
 
