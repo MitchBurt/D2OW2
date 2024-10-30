@@ -11920,7 +11920,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_BERRORD_MEGA] =
+    [SPECIES_BIPHARMA_MEGA] =
     {
         .move = MOVE_TWINEEDLE,
         .modification = SIGNATURE_MOD_POWER,

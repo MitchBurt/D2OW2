@@ -3995,7 +3995,7 @@ Cry_Speriathon_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_speriathon.bin"
 
 	.align 2
-Cry_Berrord_Mega::
+Cry_BIPHARMA_MEGA::
 	.incbin "sound/direct_sound_samples/cries/cry_berrord.bin"
 
 	.align 2

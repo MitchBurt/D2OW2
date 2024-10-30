@@ -910,7 +910,7 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Skorpyros_Mega_X
 	cry_not Cry_Skorpyros_Mega_Y
 	cry_not Cry_Speriathon_Mega
-	cry_not Cry_Berrord_Mega
+	cry_not Cry_BIPHARMA_MEGA
 	cry_not Cry_Bug_Mega
 	cry_not Cry_Gothot_Mega
 	cry_not Cry_Dushroom_Mega
@@ -2188,7 +2188,7 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Skorpyros_Mega_X
 	cry2_not Cry_Skorpyros_Mega_Y
 	cry2_not Cry_Speriathon_Mega
-	cry2_not Cry_Berrord_Mega
+	cry2_not Cry_BIPHARMA_MEGA
 	cry2_not Cry_Bug_Mega
 	cry2_not Cry_Gothot_Mega
 	cry2_not Cry_Dushroom_Mega
