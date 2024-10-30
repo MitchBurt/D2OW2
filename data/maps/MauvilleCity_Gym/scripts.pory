@@ -79,7 +79,7 @@ MauvilleCity_Gym_EventScript_Trevor:: @ 820DEEB
 	lock
 	faceplayer
 	call_if_set FLAG_BADGE03_GET, MauvilleCity_Gym_EventScript_Trevor_PostBattle
-	trainerbattle_single TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorIntro, MauvilleCity_Gym_Text_TrevorDefeat, MauvilleCity_Gym_EventScript_TrevorDefeated, NO_MUSIC
+	trainerbattle_single TRAINER_TREVOR_1, MauvilleCity_Gym_Text_TrevorIntro, MauvilleCity_Gym_Text_TrevorDefeat, MauvilleCity_Gym_EventScript_TrevorDefeated, NO_MUSIC
 	msgbox MauvilleCity_Gym_Text_TrevorPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -137,7 +137,7 @@ MauvilleCity_Gym_EventScript_Start_Rematch_1::
 	checkitem ITEM_TM73_THUNDER_WAVE, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq MauvilleCity_Gym_EventScript_Start_Rematch_2
-	trainerbattle_no_intro TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat
+	trainerbattle_no_intro TRAINER_TREVOR_1, MauvilleCity_Gym_Text_TrevorRematchDefeat
 	msgbox MauvilleCity_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM73_THUNDER_WAVE
 	goto MauvilleCity_Gym_EventScript_TrevorRematchEnd
@@ -148,7 +148,7 @@ MauvilleCity_Gym_EventScript_Start_Rematch_2::
 	checkitem ITEM_TM34_SHOCK_WAVE, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq MauvilleCity_Gym_EventScript_Start_Rematch_3
-	trainerbattle_no_intro TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorRematchDefeat
+	trainerbattle_no_intro TRAINER_TREVOR_2, MauvilleCity_Gym_Text_TrevorRematchDefeat
 	msgbox MauvilleCity_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM34_SHOCK_WAVE
 	goto MauvilleCity_Gym_EventScript_TrevorRematchEnd
@@ -159,7 +159,7 @@ MauvilleCity_Gym_EventScript_Start_Rematch_3::
 	checkitem ITEM_TM57_CHARGE_BEAM, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq MauvilleCity_Gym_EventScript_Start_Rematch_4
-	trainerbattle_no_intro TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorRematchDefeat
+	trainerbattle_no_intro TRAINER_TREVOR_3, MauvilleCity_Gym_Text_TrevorRematchDefeat
 	msgbox MauvilleCity_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM57_CHARGE_BEAM
 	goto MauvilleCity_Gym_EventScript_TrevorRematchEnd
@@ -170,7 +170,7 @@ MauvilleCity_Gym_EventScript_Start_Rematch_4::
 	checkitem ITEM_TM72_VOLT_SWITCH, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq MauvilleCity_Gym_EventScript_Start_Rematch_5
-	trainerbattle_no_intro TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorRematchDefeat
+	trainerbattle_no_intro TRAINER_TREVOR_4, MauvilleCity_Gym_Text_TrevorRematchDefeat
 	msgbox MauvilleCity_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM72_VOLT_SWITCH
 	goto MauvilleCity_Gym_EventScript_TrevorRematchEnd
@@ -179,7 +179,7 @@ MauvilleCity_Gym_EventScript_Start_Rematch_4::
 MauvilleCity_Gym_EventScript_Start_Rematch_5::
 	goto_if_unset FLAG_RECEIVED_TM04 MauvilleCity_Gym_EventScript_Start_Rematch_Party_4
 	goto_if_set FLAG_GOT_MANECTITE MauvilleCity_Gym_EventScript_Start_Rematch_6
-	trainerbattle_no_intro TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorRematchDefeat
+	trainerbattle_no_intro TRAINER_TREVOR_4, MauvilleCity_Gym_Text_TrevorRematchDefeat
 	msgbox MauvilleCity_Gym_Text_GetMegaStone, MSGBOX_DEFAULT
 	giveitem ITEM_MANECTITE
 	setflag FLAG_GOT_MANECTITE
@@ -191,7 +191,7 @@ MauvilleCity_Gym_EventScript_Start_Rematch_6::
 	checkitem ITEM_TM93_WILD_CHARGE, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq MauvilleCity_Gym_EventScript_Start_Rematch_Final
-	trainerbattle_no_intro TRAINER_Trevor_5, MauvilleCity_Gym_Text_TrevorRematchDefeat
+	trainerbattle_no_intro TRAINER_TREVOR_5, MauvilleCity_Gym_Text_TrevorRematchDefeat
 	msgbox MauvilleCity_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM93_WILD_CHARGE
 	goto MauvilleCity_Gym_EventScript_TrevorRematchEnd
@@ -208,7 +208,7 @@ MauvilleCity_Gym_EventScript_Start_Rematch_Final::
 	end
 	
 MauvilleCity_Gym_EventScript_Start_Rematch_Party_1::
-	trainerbattle_no_intro TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat
+	trainerbattle_no_intro TRAINER_TREVOR_1, MauvilleCity_Gym_Text_TrevorRematchDefeat
 	goto_if_unset FLAG_RECEIVED_TM04, MauvilleCity_Gym_EventScript_TrevorRematchEnd
 	msgbox MauvilleCity_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_TIMID_MINT, 3
@@ -216,7 +216,7 @@ MauvilleCity_Gym_EventScript_Start_Rematch_Party_1::
 	end
 	
 MauvilleCity_Gym_EventScript_Start_Rematch_Party_2::
-	trainerbattle_no_intro TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorRematchDefeat
+	trainerbattle_no_intro TRAINER_TREVOR_2, MauvilleCity_Gym_Text_TrevorRematchDefeat
 	goto_if_unset FLAG_RECEIVED_TM04, MauvilleCity_Gym_EventScript_TrevorRematchEnd
 	msgbox MauvilleCity_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_HASTY_MINT, 3
@@ -224,7 +224,7 @@ MauvilleCity_Gym_EventScript_Start_Rematch_Party_2::
 	end
 	
 MauvilleCity_Gym_EventScript_Start_Rematch_Party_3::
-	trainerbattle_no_intro TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorRematchDefeat
+	trainerbattle_no_intro TRAINER_TREVOR_3, MauvilleCity_Gym_Text_TrevorRematchDefeat
 	goto_if_unset FLAG_RECEIVED_TM04, MauvilleCity_Gym_EventScript_TrevorRematchEnd
 	msgbox MauvilleCity_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_JOLLY_MINT, 3
@@ -232,7 +232,7 @@ MauvilleCity_Gym_EventScript_Start_Rematch_Party_3::
 	end
 	
 MauvilleCity_Gym_EventScript_Start_Rematch_Party_4::
-	trainerbattle_no_intro TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorRematchDefeat
+	trainerbattle_no_intro TRAINER_TREVOR_4, MauvilleCity_Gym_Text_TrevorRematchDefeat
 	goto_if_unset FLAG_RECEIVED_TM04, MauvilleCity_Gym_EventScript_TrevorRematchEnd
 	msgbox MauvilleCity_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_NAIVE_MINT, 3
@@ -240,7 +240,7 @@ MauvilleCity_Gym_EventScript_Start_Rematch_Party_4::
 	end
 	
 MauvilleCity_Gym_EventScript_Start_Rematch_Party_5::
-	trainerbattle_no_intro TRAINER_Trevor_5, MauvilleCity_Gym_Text_TrevorRematchDefeat
+	trainerbattle_no_intro TRAINER_TREVOR_5, MauvilleCity_Gym_Text_TrevorRematchDefeat
 	goto_if_unset FLAG_RECEIVED_TM04, MauvilleCity_Gym_EventScript_TrevorRematchEnd
 	msgbox MauvilleCity_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_MODEST_MINT, 3
@@ -663,87 +663,87 @@ script MauvilleCity_Gym_EventScript_Trevor_Battle_New{
 		if(flag(FLAG_HARD_MODE)){
 			//Hard Mode
 			switch (var(VAR_NUM_BADGES)) {
-			case 0: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-			case 1: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-			case 2: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-			case 3: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-			case 4: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-			case 5: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-			case 6: trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-			case 7: trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+			case 0: trainerbattle_no_intro(TRAINER_TREVOR_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+			case 1: trainerbattle_no_intro(TRAINER_TREVOR_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+			case 2: trainerbattle_no_intro(TRAINER_TREVOR_2, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+			case 3: trainerbattle_no_intro(TRAINER_TREVOR_2, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+			case 4: trainerbattle_no_intro(TRAINER_TREVOR_3, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+			case 5: trainerbattle_no_intro(TRAINER_TREVOR_3, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+			case 6: trainerbattle_no_intro(TRAINER_TREVOR_4, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+			case 7: trainerbattle_no_intro(TRAINER_TREVOR_4, MauvilleCity_Gym_Text_TrevorRematchDefeat)
 			default:
 				if(flag(FLAG_SYS_GAME_CLEAR)){
 					//When you beat the game you can get a random rematch each day
 					random(5)
 					switch (var(VAR_RESULT)) {
-						case 0: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-						case 1: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-						case 2: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-						case 3: trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-						case 4: trainerbattle_no_intro(TRAINER_Trevor_5, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+						case 0: trainerbattle_no_intro(TRAINER_TREVOR_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+						case 1: trainerbattle_no_intro(TRAINER_TREVOR_2, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+						case 2: trainerbattle_no_intro(TRAINER_TREVOR_3, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+						case 3: trainerbattle_no_intro(TRAINER_TREVOR_4, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+						case 4: trainerbattle_no_intro(TRAINER_TREVOR_5, MauvilleCity_Gym_Text_TrevorRematchDefeat)
 					}
 				}
 				else{
 					//If you have 8 badges you battle its final team
-					trainerbattle_no_intro(TRAINER_Trevor_5, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+					trainerbattle_no_intro(TRAINER_TREVOR_5, MauvilleCity_Gym_Text_TrevorRematchDefeat)
 				}
 			}
 		}
 		elif(flag(FLAG_NORMAL_MODE)){
 			//Normal Mode
 			switch (var(VAR_NUM_BADGES)) {
-				case 0: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-				case 1: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-				case 2: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-				case 3: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-				case 4: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-				case 5: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-				case 6: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-				case 7: trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 0: trainerbattle_no_intro(TRAINER_TREVOR_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 1: trainerbattle_no_intro(TRAINER_TREVOR_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 2: trainerbattle_no_intro(TRAINER_TREVOR_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 3: trainerbattle_no_intro(TRAINER_TREVOR_2, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 4: trainerbattle_no_intro(TRAINER_TREVOR_2, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 5: trainerbattle_no_intro(TRAINER_TREVOR_3, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 6: trainerbattle_no_intro(TRAINER_TREVOR_3, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 7: trainerbattle_no_intro(TRAINER_TREVOR_4, MauvilleCity_Gym_Text_TrevorRematchDefeat)
 				default:
 					if(flag(FLAG_SYS_GAME_CLEAR)){
 						//When you beat the game you can get a random rematch each day
 						random(5)
 						switch (var(VAR_RESULT)) {
-							case 0: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-							case 1: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-							case 2: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-							case 3: trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-							case 4: trainerbattle_no_intro(TRAINER_Trevor_5, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+							case 0: trainerbattle_no_intro(TRAINER_TREVOR_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+							case 1: trainerbattle_no_intro(TRAINER_TREVOR_2, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+							case 2: trainerbattle_no_intro(TRAINER_TREVOR_3, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+							case 3: trainerbattle_no_intro(TRAINER_TREVOR_4, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+							case 4: trainerbattle_no_intro(TRAINER_TREVOR_5, MauvilleCity_Gym_Text_TrevorRematchDefeat)
 						}
 					}
 					else{
 						//If you have 8 badges you battle its final team
-						trainerbattle_no_intro(TRAINER_Trevor_5, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+						trainerbattle_no_intro(TRAINER_TREVOR_5, MauvilleCity_Gym_Text_TrevorRematchDefeat)
 					}
 			}
 		}
 		else{
 			//Easy Mode
 			switch (var(VAR_NUM_BADGES)) {
-				case 0: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-				case 1: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-				case 2: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-				case 3: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-				case 4: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-				case 5: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-				case 6: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-				case 7: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 0: trainerbattle_no_intro(TRAINER_TREVOR_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 1: trainerbattle_no_intro(TRAINER_TREVOR_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 2: trainerbattle_no_intro(TRAINER_TREVOR_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 3: trainerbattle_no_intro(TRAINER_TREVOR_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 4: trainerbattle_no_intro(TRAINER_TREVOR_2, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 5: trainerbattle_no_intro(TRAINER_TREVOR_2, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 6: trainerbattle_no_intro(TRAINER_TREVOR_3, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+				case 7: trainerbattle_no_intro(TRAINER_TREVOR_3, MauvilleCity_Gym_Text_TrevorRematchDefeat)
 				default:
 					if(flag(FLAG_SYS_GAME_CLEAR)){
 						//When you beat the game you can get a random rematch each day
 						random(5)
 						switch (var(VAR_RESULT)) {
-							case 0: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-							case 1: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-							case 2: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-							case 3: trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorRematchDefeat)
-							case 4: trainerbattle_no_intro(TRAINER_Trevor_5, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+							case 0: trainerbattle_no_intro(TRAINER_TREVOR_1, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+							case 1: trainerbattle_no_intro(TRAINER_TREVOR_2, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+							case 2: trainerbattle_no_intro(TRAINER_TREVOR_3, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+							case 3: trainerbattle_no_intro(TRAINER_TREVOR_4, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+							case 4: trainerbattle_no_intro(TRAINER_TREVOR_5, MauvilleCity_Gym_Text_TrevorRematchDefeat)
 						}
 					}
 					else{
 						//If you have 8 badges you battle its final team
-						trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorRematchDefeat)
+						trainerbattle_no_intro(TRAINER_TREVOR_4, MauvilleCity_Gym_Text_TrevorRematchDefeat)
 					}
 			}
 		}
@@ -753,87 +753,87 @@ script MauvilleCity_Gym_EventScript_Trevor_Battle_New{
 		if(flag(FLAG_HARD_MODE)){
 			//Hard Mode
 			switch (var(VAR_NUM_BADGES)) {
-			case 0: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorDefeat)
-			case 1: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorDefeat)
-			case 2: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorDefeat)
-			case 3: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorDefeat)
-			case 4: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorDefeat)
-			case 5: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorDefeat)
-			case 6: trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorDefeat)
-			case 7: trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorDefeat)
+			case 0: trainerbattle_no_intro(TRAINER_TREVOR_1, MauvilleCity_Gym_Text_TrevorDefeat)
+			case 1: trainerbattle_no_intro(TRAINER_TREVOR_1, MauvilleCity_Gym_Text_TrevorDefeat)
+			case 2: trainerbattle_no_intro(TRAINER_TREVOR_2, MauvilleCity_Gym_Text_TrevorDefeat)
+			case 3: trainerbattle_no_intro(TRAINER_TREVOR_2, MauvilleCity_Gym_Text_TrevorDefeat)
+			case 4: trainerbattle_no_intro(TRAINER_TREVOR_3, MauvilleCity_Gym_Text_TrevorDefeat)
+			case 5: trainerbattle_no_intro(TRAINER_TREVOR_3, MauvilleCity_Gym_Text_TrevorDefeat)
+			case 6: trainerbattle_no_intro(TRAINER_TREVOR_4, MauvilleCity_Gym_Text_TrevorDefeat)
+			case 7: trainerbattle_no_intro(TRAINER_TREVOR_4, MauvilleCity_Gym_Text_TrevorDefeat)
 			default:
 				if(flag(FLAG_SYS_GAME_CLEAR)){
 					//When you beat the game you can get a random rematch each day
 					random(5)
 					switch (var(VAR_RESULT)) {
-						case 0: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorDefeat)
-						case 1: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorDefeat)
-						case 2: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorDefeat)
-						case 3: trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorDefeat)
-						case 4: trainerbattle_no_intro(TRAINER_Trevor_5, MauvilleCity_Gym_Text_TrevorDefeat)
+						case 0: trainerbattle_no_intro(TRAINER_TREVOR_1, MauvilleCity_Gym_Text_TrevorDefeat)
+						case 1: trainerbattle_no_intro(TRAINER_TREVOR_2, MauvilleCity_Gym_Text_TrevorDefeat)
+						case 2: trainerbattle_no_intro(TRAINER_TREVOR_3, MauvilleCity_Gym_Text_TrevorDefeat)
+						case 3: trainerbattle_no_intro(TRAINER_TREVOR_4, MauvilleCity_Gym_Text_TrevorDefeat)
+						case 4: trainerbattle_no_intro(TRAINER_TREVOR_5, MauvilleCity_Gym_Text_TrevorDefeat)
 					}
 				}
 				else{
 					//If you have 8 badges you battle its final team
-					trainerbattle_no_intro(TRAINER_Trevor_5, MauvilleCity_Gym_Text_TrevorDefeat)
+					trainerbattle_no_intro(TRAINER_TREVOR_5, MauvilleCity_Gym_Text_TrevorDefeat)
 				}
 			}
 		}
 		elif(flag(FLAG_NORMAL_MODE)){
 			//Normal Mode
 			switch (var(VAR_NUM_BADGES)) {
-				case 0: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorDefeat)
-				case 1: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorDefeat)
-				case 2: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorDefeat)
-				case 3: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorDefeat)
-				case 4: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorDefeat)
-				case 5: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorDefeat)
-				case 6: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorDefeat)
-				case 7: trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 0: trainerbattle_no_intro(TRAINER_TREVOR_1, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 1: trainerbattle_no_intro(TRAINER_TREVOR_1, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 2: trainerbattle_no_intro(TRAINER_TREVOR_1, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 3: trainerbattle_no_intro(TRAINER_TREVOR_2, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 4: trainerbattle_no_intro(TRAINER_TREVOR_2, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 5: trainerbattle_no_intro(TRAINER_TREVOR_3, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 6: trainerbattle_no_intro(TRAINER_TREVOR_3, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 7: trainerbattle_no_intro(TRAINER_TREVOR_4, MauvilleCity_Gym_Text_TrevorDefeat)
 				default:
 					if(flag(FLAG_SYS_GAME_CLEAR)){
 						//When you beat the game you can get a random rematch each day
 						random(5)
 						switch (var(VAR_RESULT)) {
-							case 0: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorDefeat)
-							case 1: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorDefeat)
-							case 2: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorDefeat)
-							case 3: trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorDefeat)
-							case 4: trainerbattle_no_intro(TRAINER_Trevor_5, MauvilleCity_Gym_Text_TrevorDefeat)
+							case 0: trainerbattle_no_intro(TRAINER_TREVOR_1, MauvilleCity_Gym_Text_TrevorDefeat)
+							case 1: trainerbattle_no_intro(TRAINER_TREVOR_2, MauvilleCity_Gym_Text_TrevorDefeat)
+							case 2: trainerbattle_no_intro(TRAINER_TREVOR_3, MauvilleCity_Gym_Text_TrevorDefeat)
+							case 3: trainerbattle_no_intro(TRAINER_TREVOR_4, MauvilleCity_Gym_Text_TrevorDefeat)
+							case 4: trainerbattle_no_intro(TRAINER_TREVOR_5, MauvilleCity_Gym_Text_TrevorDefeat)
 						}
 					}
 					else{
 						//If you have 8 badges you battle its final team
-						trainerbattle_no_intro(TRAINER_Trevor_5, MauvilleCity_Gym_Text_TrevorDefeat)
+						trainerbattle_no_intro(TRAINER_TREVOR_5, MauvilleCity_Gym_Text_TrevorDefeat)
 					}
 			}
 		}
 		else{
 			//Easy Mode
 			switch (var(VAR_NUM_BADGES)) {
-				case 0: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorDefeat)
-				case 1: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorDefeat)
-				case 2: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorDefeat)
-				case 3: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorDefeat)
-				case 4: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorDefeat)
-				case 5: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorDefeat)
-				case 6: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorDefeat)
-				case 7: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 0: trainerbattle_no_intro(TRAINER_TREVOR_1, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 1: trainerbattle_no_intro(TRAINER_TREVOR_1, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 2: trainerbattle_no_intro(TRAINER_TREVOR_1, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 3: trainerbattle_no_intro(TRAINER_TREVOR_1, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 4: trainerbattle_no_intro(TRAINER_TREVOR_2, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 5: trainerbattle_no_intro(TRAINER_TREVOR_2, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 6: trainerbattle_no_intro(TRAINER_TREVOR_3, MauvilleCity_Gym_Text_TrevorDefeat)
+				case 7: trainerbattle_no_intro(TRAINER_TREVOR_3, MauvilleCity_Gym_Text_TrevorDefeat)
 				default:
 					if(flag(FLAG_SYS_GAME_CLEAR)){
 						//When you beat the game you can get a random rematch each day
 						random(5)
 						switch (var(VAR_RESULT)) {
-							case 0: trainerbattle_no_intro(TRAINER_Trevor_1, MauvilleCity_Gym_Text_TrevorDefeat)
-							case 1: trainerbattle_no_intro(TRAINER_Trevor_2, MauvilleCity_Gym_Text_TrevorDefeat)
-							case 2: trainerbattle_no_intro(TRAINER_Trevor_3, MauvilleCity_Gym_Text_TrevorDefeat)
-							case 3: trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorDefeat)
-							case 4: trainerbattle_no_intro(TRAINER_Trevor_5, MauvilleCity_Gym_Text_TrevorDefeat)
+							case 0: trainerbattle_no_intro(TRAINER_TREVOR_1, MauvilleCity_Gym_Text_TrevorDefeat)
+							case 1: trainerbattle_no_intro(TRAINER_TREVOR_2, MauvilleCity_Gym_Text_TrevorDefeat)
+							case 2: trainerbattle_no_intro(TRAINER_TREVOR_3, MauvilleCity_Gym_Text_TrevorDefeat)
+							case 3: trainerbattle_no_intro(TRAINER_TREVOR_4, MauvilleCity_Gym_Text_TrevorDefeat)
+							case 4: trainerbattle_no_intro(TRAINER_TREVOR_5, MauvilleCity_Gym_Text_TrevorDefeat)
 						}
 					}
 					else{
 						//If you have 8 badges you battle its final team
-						trainerbattle_no_intro(TRAINER_Trevor_4, MauvilleCity_Gym_Text_TrevorDefeat)
+						trainerbattle_no_intro(TRAINER_TREVOR_4, MauvilleCity_Gym_Text_TrevorDefeat)
 					}
 			}
 		}

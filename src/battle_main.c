@@ -2367,7 +2367,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
 					pokemonLevel = 100;
 				
 				//Trevor has an Alolan Disheats so I have to force it
-				if(trainerNum == TRAINER_Trevor_1 && newspecies == SPECIES_DISHEATS)
+				if(trainerNum == TRAINER_TREVOR_1 && newspecies == SPECIES_DISHEATS)
 					newspecies = SPECIES_DISHEATS_ALOLAN;
 				
 				// Set its FormId ---------------------------------------------------------------------------------
