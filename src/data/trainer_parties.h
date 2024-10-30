@@ -10234,7 +10234,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Humberto[] = {
     .evs = {0, 252, 0, 0, 0, 0}, 
     .abilityNum = 1,
     .happiness = 0,
-    .species = SPECIES_DNDIC,
+    .species = SPECIES_DNDICE,
     },
 	{
     .iv = 200,
