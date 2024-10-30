@@ -4557,11 +4557,6 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_ROCK_MEGA] =
-    {
-        .size = 0,
-        .y_offset = 0,
-    },
     [SPECIES_SHEPEIRD_MEGA] =
     {
         .size = 0,
