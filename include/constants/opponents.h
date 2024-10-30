@@ -268,21 +268,12 @@
 #define TRAINER_DRAKE                       264
 #define TRAINER_MASON_1                   265
 #define TRAINER_ZACH_1                    266
-<<<<<<< HEAD
 #define TRAINER_TREVOR_1                   267
 #define TRAINER_JARED_1                  268
 #define TRAINER_NORMAN_1                    269
 #define TRAINER_TANNER_1                    270
 #define TRAINER_TATE_AND_LIZA_1             271
 #define TRAINER_MITCHELL_1                      272
-=======
-#define TRAINER_TREVOR_1                   267
-#define TRAINER_JARED_1                  268
-#define TRAINER_NORMAN_1                    269
-#define TRAINER_TANNER_1                    270
-#define TRAINER_TATE_AND_LIZA_1             271
-#define TRAINER_MITCHELL_1                      272
->>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 #define TRAINER_JERRY_1                     273
 #define TRAINER_TED                         274
 #define TRAINER_PAUL                        275
@@ -788,7 +779,6 @@
 #define TRAINER_ZACH_3                    775
 #define TRAINER_ZACH_4                    776
 #define TRAINER_ZACH_5                    777
-<<<<<<< HEAD
 #define TRAINER_TREVOR_2                   778
 #define TRAINER_TREVOR_3                   779
 #define TRAINER_TREVOR_4                   780
@@ -797,46 +787,22 @@
 #define TRAINER_JARED_3                  783
 #define TRAINER_JARED_4                  784
 #define TRAINER_JARED_5                  785
-=======
-#define TRAINER_TREVOR_2                   778
-#define TRAINER_TREVOR_3                   779
-#define TRAINER_TREVOR_4                   780
-#define TRAINER_TREVOR_5                   781
-#define TRAINER_JARED_2                  782
-#define TRAINER_JARED_3                  783
-#define TRAINER_JARED_4                  784
-#define TRAINER_JARED_5                  785
->>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 #define TRAINER_NORMAN_2                    786
 #define TRAINER_NORMAN_3                    787
 #define TRAINER_NORMAN_4                    788
 #define TRAINER_NORMAN_5                    789
-<<<<<<< HEAD
 #define TRAINER_TANNER_2                    790
 #define TRAINER_TANNER_3                    791
 #define TRAINER_TANNER_4                    792
 #define TRAINER_TANNER_5                    793
-=======
-#define TRAINER_TANNER_2                    790
-#define TRAINER_TANNER_3                    791
-#define TRAINER_TANNER_4                    792
-#define TRAINER_TANNER_5                    793
->>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 #define TRAINER_TATE_AND_LIZA_2             794
 #define TRAINER_TATE_AND_LIZA_3             795
 #define TRAINER_TATE_AND_LIZA_4             796
 #define TRAINER_TATE_AND_LIZA_5             797
-<<<<<<< HEAD
 #define TRAINER_MITCHELL_2                      798
 #define TRAINER_MITCHELL_3                      799
 #define TRAINER_MITCHELL_4                      800
 #define TRAINER_MITCHELL_5                      801
-=======
-#define TRAINER_MITCHELL_2                      798
-#define TRAINER_MITCHELL_3                      799
-#define TRAINER_MITCHELL_4                      800
-#define TRAINER_MITCHELL_5                      801
->>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 #define TRAINER_ANGELO                      802
 #define TRAINER_DARIUS                      803
 #define TRAINER_STEVEN                      804
