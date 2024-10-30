@@ -8472,7 +8472,7 @@ static const union AnimCmd sAnim_SPERIATHON_MEGA_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_BERRORD_MEGA_1[] =
+static const union AnimCmd sAnim_BIPHARMA_MEGA_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
@@ -8562,7 +8562,7 @@ static const union AnimCmd sAnim_GOALEM_MEGA_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_MINIMAL_MEGA_1[] =
+static const union AnimCmd sAnim_AWMANE_MEGA_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
@@ -13904,9 +13904,9 @@ static const union AnimCmd *const sAnims_SPERIATHON_MEGA[] ={
     sAnim_SPERIATHON_MEGA_1,
 };
 
-static const union AnimCmd *const sAnims_BERRORD_MEGA[] ={
+static const union AnimCmd *const sAnims_BIPHARMA_MEGA[] ={
     sAnim_GeneralFrame0,
-    sAnim_BERRORD_MEGA_1,
+    sAnim_BIPHARMA_MEGA_1,
 };
 
 static const union AnimCmd *const sAnims_BUG_MEGA[] ={
@@ -13977,11 +13977,6 @@ static const union AnimCmd *const sAnims_GAHNOMED_MEGA[] ={
 static const union AnimCmd *const sAnims_GOALEM_MEGA[] ={
     sAnim_GeneralFrame0,
     sAnim_GOALEM_MEGA_1,
-};
-
-static const union AnimCmd *const sAnims_MINIMAL_MEGA[] ={
-    sAnim_GeneralFrame0,
-    sAnim_MINIMAL_MEGA_1,
 };
 
 static const union AnimCmd *const sAnims_FROSILISK_MEGA[] ={
@@ -15341,7 +15336,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(SKORPYROS_MEGA_X),
     ANIM_CMD(SKORPYROS_MEGA_Y),
     ANIM_CMD(SPERIATHON_MEGA),
-    ANIM_CMD(BERRORD_MEGA),
+    ANIM_CMD(BIPHARMA_MEGA),
     ANIM_CMD(BUG_MEGA),
     ANIM_CMD(GOTHOT_MEGA),
     ANIM_CMD(DUSHROOM_MEGA),
@@ -15356,8 +15351,6 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(GIGALPHA_MEGA),
     ANIM_CMD(GAHNOMED_MEGA),
     ANIM_CMD(GOALEM_MEGA),
-    ANIM_CMD(MINIMAL_MEGA),
-    ANIM_CMD(FROSILISK_MEGA),
     ANIM_CMD(INCREDALEN_MEGA),
     ANIM_CMD(GOURMASTER_MEGA),
     ANIM_CMD(BAITANK_MEGA),
