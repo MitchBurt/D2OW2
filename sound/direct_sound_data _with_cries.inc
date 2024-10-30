@@ -3995,7 +3995,7 @@ Cry_Speriathon_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_speriathon.bin"
 
 	.align 2
-Cry_BIPHARMA_MEGA::
+Cry_Berrord_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_berrord.bin"
 
 	.align 2
@@ -4053,10 +4053,6 @@ Cry_Gahnomed_Mega::
 	.align 2
 Cry_Goalem_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_happymaul.bin"
-
-	.align 2
-Cry_Minimal_Mega::
-	.incbin "sound/direct_sound_samples/cries/cry_minimal.bin"
 
 	.align 2
 Cry_Frosilisk_Mega::

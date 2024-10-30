@@ -8592,11 +8592,6 @@ static const union AnimCmd sAnim_BAITANK_MEGA_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_AWMANE_MEGA_1[] =
-{
-    ANIMCMD_FRAME(0, 1),
-    ANIMCMD_END,
-};
 
 static const union AnimCmd sAnim_SECRITLER_MEGA_1[] =
 {
