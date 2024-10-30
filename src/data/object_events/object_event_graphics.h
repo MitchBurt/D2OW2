@@ -233,17 +233,30 @@ const u16 gObjectEventPalette_Mason[]     = INCBIN_U16("graphics/object_events/p
 const u32 gObjectEventPic_Zach[] 			= INCBIN_U32("graphics/object_events/pics/people/gym_leaders/zach.4bpp");
 const u16 gObjectEventPalette_Zach[]      = INCBIN_U16("graphics/object_events/pics/people/gym_leaders/zach.gbapal");
 
+<<<<<<< HEAD
 const u32 gObjectEventPic_Trevor[] 	    = INCBIN_U32("graphics/object_events/pics/people/gym_leaders/trevor.4bpp");
 const u16 gObjectEventPalette_Trevor[]     = INCBIN_U16("graphics/object_events/pics/people/gym_leaders/trevor.gbapal");
 
 const u32 gObjectEventPic_Jared[] 		= INCBIN_U32("graphics/object_events/pics/people/gym_leaders/jared.4bpp");
 const u16 gObjectEventPalette_Jared[]    = INCBIN_U16("graphics/object_events/pics/people/gym_leaders/jared.gbapal");
+=======
+const u32 gObjectEventPic_Trevor[] 	    = INCBIN_U32("graphics/object_events/pics/people/gym_leaders/trevor.4bpp");
+const u16 gObjectEventPalette_Trevor[]     = INCBIN_U16("graphics/object_events/pics/people/gym_leaders/trevor.gbapal");
+
+const u32 gObjectEventPic_Jared[] 		= INCBIN_U32("graphics/object_events/pics/people/gym_leaders/jared.4bpp");
+const u16 gObjectEventPalette_Jared[]    = INCBIN_U16("graphics/object_events/pics/people/gym_leaders/jared.gbapal");
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 
 const u32 gObjectEventPic_Norman[] 			= INCBIN_U32("graphics/object_events/pics/people/gym_leaders/norman.4bpp");
 const u16 gObjectEventPalette_Norman[]      = INCBIN_U16("graphics/object_events/pics/people/gym_leaders/norman.gbapal");
 
+<<<<<<< HEAD
 const u32 gObjectEventPic_Tanner[] 			= INCBIN_U32("graphics/object_events/pics/people/gym_leaders/tanner.4bpp");
 const u16 gObjectEventPalette_Tanner[]      = INCBIN_U16("graphics/object_events/pics/people/gym_leaders/tanner.gbapal");
+=======
+const u32 gObjectEventPic_Tanner[] 			= INCBIN_U32("graphics/object_events/pics/people/gym_leaders/tanner.4bpp");
+const u16 gObjectEventPalette_Tanner[]      = INCBIN_U16("graphics/object_events/pics/people/gym_leaders/tanner.gbapal");
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 
 const u32 gObjectEventPic_Liza[] 			= INCBIN_U32("graphics/object_events/pics/people/gym_leaders/liza.4bpp");
 const u16 gObjectEventPalette_Liza[]     	= INCBIN_U16("graphics/object_events/pics/people/gym_leaders/liza.gbapal");
@@ -251,8 +264,13 @@ const u16 gObjectEventPalette_Liza[]     	= INCBIN_U16("graphics/object_events/p
 const u32 gObjectEventPic_Tate[] 		 	= INCBIN_U32("graphics/object_events/pics/people/gym_leaders/tate.4bpp");
 const u16 gObjectEventPalette_Tate[]     	= INCBIN_U16("graphics/object_events/pics/people/gym_leaders/tate.gbapal");
 
+<<<<<<< HEAD
 const u32 gObjectEventPic_Mitchell[] 			= INCBIN_U32("graphics/object_events/pics/people/gym_leaders/mitchell.4bpp");
 const u16 gObjectEventPalette_Mitchell[]     	= INCBIN_U16("graphics/object_events/pics/people/gym_leaders/mitchell.gbapal");
+=======
+const u32 gObjectEventPic_Mitchell[] 			= INCBIN_U32("graphics/object_events/pics/people/gym_leaders/mitchell.4bpp");
+const u16 gObjectEventPalette_Mitchell[]     	= INCBIN_U16("graphics/object_events/pics/people/gym_leaders/mitchell.gbapal");
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 
 //Champions
 const u32 gObjectEventPic_Dario[] 		= INCBIN_U32("graphics/object_events/pics/people/dario.4bpp");

@@ -500,12 +500,12 @@ static bool32 sub_81CB1D0(void)
     }
     else
     {
-        if (state->matchCallEntries[selection].headerId == MC_HEADER_Trevor)
+        if (state->matchCallEntries[selection].headerId == MC_HEADER_TREVOR)
         {
             if (GetMatchCallMapSec(selection) == gMapHeader.regionMapSectionId
              && FlagGet(FLAG_BADGE05_GET) == TRUE)
             {
-                if (!FlagGet(FLAG_Trevor_REMATCH_AVAILABLE))
+                if (!FlagGet(FLAG_TREVOR_REMATCH_AVAILABLE))
                     return TRUE;
             }
         }

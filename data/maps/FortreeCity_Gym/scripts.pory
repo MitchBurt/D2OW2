@@ -20,9 +20,15 @@ FortreeCity_Gym_EventScript_InitRotatingGates:: @ 82165C4
 FortreeCity_Gym_EventScript_Tanner:: @ 82165C8
 	lock
 	faceplayer
+<<<<<<< HEAD
 	call_if_set FLAG_BADGE06_GET, FortreeCity_Gym_EventScript_Tanner_PostBattle
 	trainerbattle_single TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerIntro, FortreeCity_Gym_Text_TannerDefeat, FortreeCity_Gym_EventScript_TannerDefeated, NO_MUSIC
 	msgbox FortreeCity_Gym_Text_TannerPostBattle, MSGBOX_DEFAULT
+=======
+	call_if_set FLAG_BADGE06_GET, FortreeCity_Gym_EventScript_Tanner_PostBattle
+	trainerbattle_single TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerIntro, FortreeCity_Gym_Text_TannerDefeat, FortreeCity_Gym_EventScript_TannerDefeated, NO_MUSIC
+	msgbox FortreeCity_Gym_Text_TannerPostBattle, MSGBOX_DEFAULT
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 	release
 	end
 
@@ -44,16 +50,16 @@ FortreeCity_Gym_EventScript_TannerDefeated:: @ 82165FD
 	waitfanfare
 	closemessage
 	delay 30
-	setflag FLAG_ENABLE_Tanner_MATCH_CALL
+	setflag FLAG_ENABLE_TANNER_MATCH_CALL
 	setvar VAR_GYM_ATTENDANT_STEP_COUNTER, 0
 	setflag FLAG_GYM_ATTENDANT_CALL
 	call Gym_EventScript_Reset_Rematches
-	setflag FLAG_Tanner_REMATCH
+	setflag FLAG_TANNER_REMATCH
 	release
 	end
 	
 FortreeCity_Gym_EventScript_Tanner_PostBattle::
-	goto_if_unset FLAG_Tanner_REMATCH, FortreeCity_Gym_EventScript_TannerRematch
+	goto_if_unset FLAG_TANNER_REMATCH, FortreeCity_Gym_EventScript_TannerRematch
 	msgbox FortreeCity_Gym_Text_TannerPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -67,14 +73,18 @@ FortreeCity_Gym_EventScript_TannerRematch:: @ 8204DB3
 FortreeCity_Gym_EventScript_TannerRematchEnd::
 	msgbox FortreeCity_Gym_Text_TannerPostRematch, MSGBOX_AUTOCLOSE
 	call Gym_EventScript_Reset_Random_Rematch
-	setflag FLAG_Tanner_REMATCH
+	setflag FLAG_TANNER_REMATCH
 	end
 	
 FortreeCity_Gym_EventScript_Start_Rematch_1::
 	checkitem ITEM_TM40_AERIAL_ACE, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq FortreeCity_Gym_EventScript_Start_Rematch_2
+<<<<<<< HEAD
 	trainerbattle_no_intro TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerRematchDefeat
+=======
+	trainerbattle_no_intro TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerRematchDefeat
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 	msgbox FortreeCity_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM40_AERIAL_ACE
 	goto FortreeCity_Gym_EventScript_TannerRematchEnd
@@ -85,7 +95,11 @@ FortreeCity_Gym_EventScript_Start_Rematch_2::
 	checkitem ITEM_TM58_ROOST, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq FortreeCity_Gym_EventScript_Start_Rematch_3
+<<<<<<< HEAD
 	trainerbattle_no_intro TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerRematchDefeat
+=======
+	trainerbattle_no_intro TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerRematchDefeat
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 	msgbox FortreeCity_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM58_ROOST
 	goto FortreeCity_Gym_EventScript_TannerRematchEnd
@@ -96,7 +110,11 @@ FortreeCity_Gym_EventScript_Start_Rematch_3::
 	checkitem ITEM_TM62_ACROBATICS, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq FortreeCity_Gym_EventScript_Start_Rematch_4
+<<<<<<< HEAD
 	trainerbattle_no_intro TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerRematchDefeat
+=======
+	trainerbattle_no_intro TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerRematchDefeat
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 	msgbox FortreeCity_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM62_ACROBATICS
 	goto FortreeCity_Gym_EventScript_TannerRematchEnd
@@ -107,7 +125,11 @@ FortreeCity_Gym_EventScript_Start_Rematch_4::
 	checkitem ITEM_TM76_FLY, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq FortreeCity_Gym_EventScript_Start_Rematch_5
+<<<<<<< HEAD
 	trainerbattle_no_intro TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerRematchDefeat
+=======
+	trainerbattle_no_intro TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerRematchDefeat
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 	msgbox FortreeCity_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM76_FLY
 	goto FortreeCity_Gym_EventScript_TannerRematchEnd
@@ -116,7 +138,11 @@ FortreeCity_Gym_EventScript_Start_Rematch_4::
 FortreeCity_Gym_EventScript_Start_Rematch_5::
 	goto_if_unset FLAG_RECEIVED_TM04 FortreeCity_Gym_EventScript_Start_Rematch_Party_4
 	goto_if_set FLAG_GOT_UNSCNITE FortreeCity_Gym_EventScript_Start_Rematch_6
+<<<<<<< HEAD
 	trainerbattle_no_intro TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerRematchDefeat
+=======
+	trainerbattle_no_intro TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerRematchDefeat
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 	msgbox FortreeCity_Gym_Text_GetMegaStone, MSGBOX_DEFAULT
 	giveitem ITEM_UNSCNITE
 	setflag FLAG_GOT_UNSCNITE
@@ -128,7 +154,11 @@ FortreeCity_Gym_EventScript_Start_Rematch_6::
 	checkitem ITEM_TM114_BRAVE_BIRD, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq FortreeCity_Gym_EventScript_Start_Rematch_Final
+<<<<<<< HEAD
 	trainerbattle_no_intro TRAINER_TANNER_5, FortreeCity_Gym_Text_TannerRematchDefeat
+=======
+	trainerbattle_no_intro TRAINER_TANNER_5, FortreeCity_Gym_Text_TannerRematchDefeat
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 	msgbox FortreeCity_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM114_BRAVE_BIRD
 	goto FortreeCity_Gym_EventScript_TannerRematchEnd
@@ -145,40 +175,65 @@ FortreeCity_Gym_EventScript_Start_Rematch_Final::
 	end
 	
 FortreeCity_Gym_EventScript_Start_Rematch_Party_1::
+<<<<<<< HEAD
 	trainerbattle_no_intro TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerRematchDefeat
 	goto_if_unset FLAG_RECEIVED_TM04, FortreeCity_Gym_EventScript_TannerRematchEnd
+=======
+	trainerbattle_no_intro TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerRematchDefeat
+	goto_if_unset FLAG_RECEIVED_TM04, FortreeCity_Gym_EventScript_TannerRematchEnd
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 	msgbox FortreeCity_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_TIMID_MINT, 3
 	goto FortreeCity_Gym_EventScript_TannerRematchEnd
 	end
 	
 FortreeCity_Gym_EventScript_Start_Rematch_Party_2::
+<<<<<<< HEAD
 	trainerbattle_no_intro TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerRematchDefeat
 	goto_if_unset FLAG_RECEIVED_TM04, FortreeCity_Gym_EventScript_TannerRematchEnd
+=======
+	trainerbattle_no_intro TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerRematchDefeat
+	goto_if_unset FLAG_RECEIVED_TM04, FortreeCity_Gym_EventScript_TannerRematchEnd
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 	msgbox FortreeCity_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_HASTY_MINT, 3
 	goto FortreeCity_Gym_EventScript_TannerRematchEnd
 	end
 	
 FortreeCity_Gym_EventScript_Start_Rematch_Party_3::
+<<<<<<< HEAD
 	trainerbattle_no_intro TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerRematchDefeat
 	goto_if_unset FLAG_RECEIVED_TM04, FortreeCity_Gym_EventScript_TannerRematchEnd
+=======
+	trainerbattle_no_intro TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerRematchDefeat
+	goto_if_unset FLAG_RECEIVED_TM04, FortreeCity_Gym_EventScript_TannerRematchEnd
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 	msgbox FortreeCity_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_JOLLY_MINT, 3
 	goto FortreeCity_Gym_EventScript_TannerRematchEnd
 	end
 	
 FortreeCity_Gym_EventScript_Start_Rematch_Party_4::
+<<<<<<< HEAD
 	trainerbattle_no_intro TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerRematchDefeat
 	goto_if_unset FLAG_RECEIVED_TM04, FortreeCity_Gym_EventScript_TannerRematchEnd
+=======
+	trainerbattle_no_intro TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerRematchDefeat
+	goto_if_unset FLAG_RECEIVED_TM04, FortreeCity_Gym_EventScript_TannerRematchEnd
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 	msgbox FortreeCity_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_NAIVE_MINT, 3
 	goto FortreeCity_Gym_EventScript_TannerRematchEnd
 	end
 	
 FortreeCity_Gym_EventScript_Start_Rematch_Party_5::
+<<<<<<< HEAD
 	trainerbattle_no_intro TRAINER_TANNER_5, FortreeCity_Gym_Text_TannerRematchDefeat
 	goto_if_unset FLAG_RECEIVED_TM04, FortreeCity_Gym_EventScript_TannerRematchEnd
+=======
+	trainerbattle_no_intro TRAINER_TANNER_5, FortreeCity_Gym_Text_TannerRematchDefeat
+	goto_if_unset FLAG_RECEIVED_TM04, FortreeCity_Gym_EventScript_TannerRematchEnd
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 	msgbox FortreeCity_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_MODEST_MINT, 3
 	goto FortreeCity_Gym_EventScript_TannerRematchEnd
@@ -461,7 +516,7 @@ FortreeCity_Gym_Text_TannerRematchNeedTwoMons: @ 8217292
 script FortreeCity_Gym_EventScript_Tanner_New{
 	lock
 	faceplayer
-    if (flag(FLAG_BADGE06_GET) && !flag(FLAG_Tanner_REMATCH)){
+    if (flag(FLAG_BADGE06_GET) && !flag(FLAG_TANNER_REMATCH)){
 		//Rematch
 		//Intro
 		msgbox(FortreeCity_Gym_Text_TannerPreRematch, MSGBOX_NPC)
@@ -479,9 +534,9 @@ script FortreeCity_Gym_EventScript_Tanner_New{
 		msgbox(format("Tanner: Come back tomorrow so we can battle again."), MSGBOX_NPC)
 
 		//Set the Rematch Flag as False
-		setflag(FLAG_Tanner_REMATCH)
+		setflag(FLAG_TANNER_REMATCH)
     }
-	elif(flag(FLAG_BADGE06_GET) && flag(FLAG_Tanner_REMATCH)){
+	elif(flag(FLAG_BADGE06_GET) && flag(FLAG_TANNER_REMATCH)){
 		//You can challenge the other trainers an infinite number of times
 		msgbox(format("Tanner: My Pokémon are tired for today, but the other trainers here need training, do you want to try battling them again?"), MSGBOX_YESNO)
 		if(var(VAR_RESULT) == 1){
@@ -540,7 +595,7 @@ script FortreeCity_Gym_EventScript_Tanner_New{
 		//Register Trainer in your PokeNav
 		msgbox(FortreeCity_Gym_Text_RegisteredTanner, MSGBOX_DEFAULT)
 		playfanfare(MUS_REGISTER_MATCH_CALL)
-		setflag(FLAG_ENABLE_Tanner_MATCH_CALL)
+		setflag(FLAG_ENABLE_TANNER_MATCH_CALL)
 		waitfanfare
 		closemessage
 
@@ -549,7 +604,7 @@ script FortreeCity_Gym_EventScript_Tanner_New{
 		call(Gym_EventScript_Reset_Rematches)
 
 		//Set the Rematch Flag as False
-		setflag(FLAG_Tanner_REMATCH)
+		setflag(FLAG_TANNER_REMATCH)
 	}
     release
     end
@@ -560,6 +615,7 @@ script FortreeCity_Gym_EventScript_Tanner_Battle_New{
 		if(flag(FLAG_HARD_MODE)){
 			//Hard Mode
 			switch (var(VAR_NUM_BADGES)) {
+<<<<<<< HEAD
 			case 0: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerRematchDefeat)
 			case 1: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerRematchDefeat)
 			case 2: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerRematchDefeat)
@@ -568,27 +624,50 @@ script FortreeCity_Gym_EventScript_Tanner_Battle_New{
 			case 5: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerRematchDefeat)
 			case 6: trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerRematchDefeat)
 			case 7: trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerRematchDefeat)
+=======
+			case 0: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerRematchDefeat)
+			case 1: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerRematchDefeat)
+			case 2: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerRematchDefeat)
+			case 3: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerRematchDefeat)
+			case 4: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerRematchDefeat)
+			case 5: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerRematchDefeat)
+			case 6: trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerRematchDefeat)
+			case 7: trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerRematchDefeat)
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 			default:
 				if(flag(FLAG_SYS_GAME_CLEAR)){
 					//When you beat the game you can get a random rematch each day
 					random(5)
 					switch (var(VAR_RESULT)) {
+<<<<<<< HEAD
 						case 0: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerRematchDefeat)
 						case 1: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerRematchDefeat)
 						case 2: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerRematchDefeat)
 						case 3: trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerRematchDefeat)
 						case 4: trainerbattle_no_intro(TRAINER_TANNER_5, FortreeCity_Gym_Text_TannerRematchDefeat)
+=======
+						case 0: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerRematchDefeat)
+						case 1: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerRematchDefeat)
+						case 2: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerRematchDefeat)
+						case 3: trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerRematchDefeat)
+						case 4: trainerbattle_no_intro(TRAINER_TANNER_5, FortreeCity_Gym_Text_TannerRematchDefeat)
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 					}
 				}
 				else{
 					//If you have 8 badges you battle its final team
+<<<<<<< HEAD
 					trainerbattle_no_intro(TRAINER_TANNER_5, FortreeCity_Gym_Text_TannerRematchDefeat)
+=======
+					trainerbattle_no_intro(TRAINER_TANNER_5, FortreeCity_Gym_Text_TannerRematchDefeat)
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 				}
 			}
 		}
 		elif(flag(FLAG_NORMAL_MODE)){
 			//Normal Mode
 			switch (var(VAR_NUM_BADGES)) {
+<<<<<<< HEAD
 				case 0: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerRematchDefeat)
 				case 1: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerRematchDefeat)
 				case 2: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerRematchDefeat)
@@ -597,27 +676,50 @@ script FortreeCity_Gym_EventScript_Tanner_Battle_New{
 				case 5: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerRematchDefeat)
 				case 6: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerRematchDefeat)
 				case 7: trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerRematchDefeat)
+=======
+				case 0: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerRematchDefeat)
+				case 1: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerRematchDefeat)
+				case 2: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerRematchDefeat)
+				case 3: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerRematchDefeat)
+				case 4: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerRematchDefeat)
+				case 5: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerRematchDefeat)
+				case 6: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerRematchDefeat)
+				case 7: trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerRematchDefeat)
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 				default:
 					if(flag(FLAG_SYS_GAME_CLEAR)){
 						//When you beat the game you can get a random rematch each day
 						random(5)
 						switch (var(VAR_RESULT)) {
+<<<<<<< HEAD
 							case 0: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerRematchDefeat)
 							case 1: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerRematchDefeat)
 							case 2: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerRematchDefeat)
 							case 3: trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerRematchDefeat)
 							case 4: trainerbattle_no_intro(TRAINER_TANNER_5, FortreeCity_Gym_Text_TannerRematchDefeat)
+=======
+							case 0: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerRematchDefeat)
+							case 1: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerRematchDefeat)
+							case 2: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerRematchDefeat)
+							case 3: trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerRematchDefeat)
+							case 4: trainerbattle_no_intro(TRAINER_TANNER_5, FortreeCity_Gym_Text_TannerRematchDefeat)
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 						}
 					}
 					else{
 						//If you have 8 badges you battle its final team
+<<<<<<< HEAD
 						trainerbattle_no_intro(TRAINER_TANNER_5, FortreeCity_Gym_Text_TannerRematchDefeat)
+=======
+						trainerbattle_no_intro(TRAINER_TANNER_5, FortreeCity_Gym_Text_TannerRematchDefeat)
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 					}
 			}
 		}
 		else{
 			//Easy Mode
 			switch (var(VAR_NUM_BADGES)) {
+<<<<<<< HEAD
 				case 0: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerRematchDefeat)
 				case 1: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerRematchDefeat)
 				case 2: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerRematchDefeat)
@@ -626,21 +728,43 @@ script FortreeCity_Gym_EventScript_Tanner_Battle_New{
 				case 5: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerRematchDefeat)
 				case 6: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerRematchDefeat)
 				case 7: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerRematchDefeat)
+=======
+				case 0: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerRematchDefeat)
+				case 1: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerRematchDefeat)
+				case 2: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerRematchDefeat)
+				case 3: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerRematchDefeat)
+				case 4: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerRematchDefeat)
+				case 5: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerRematchDefeat)
+				case 6: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerRematchDefeat)
+				case 7: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerRematchDefeat)
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 				default:
 					if(flag(FLAG_SYS_GAME_CLEAR)){
 						//When you beat the game you can get a random rematch each day
 						random(5)
 						switch (var(VAR_RESULT)) {
+<<<<<<< HEAD
 							case 0: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerRematchDefeat)
 							case 1: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerRematchDefeat)
 							case 2: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerRematchDefeat)
 							case 3: trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerRematchDefeat)
 							case 4: trainerbattle_no_intro(TRAINER_TANNER_5, FortreeCity_Gym_Text_TannerRematchDefeat)
+=======
+							case 0: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerRematchDefeat)
+							case 1: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerRematchDefeat)
+							case 2: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerRematchDefeat)
+							case 3: trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerRematchDefeat)
+							case 4: trainerbattle_no_intro(TRAINER_TANNER_5, FortreeCity_Gym_Text_TannerRematchDefeat)
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 						}
 					}
 					else{
 						//If you have 8 badges you battle its final team
+<<<<<<< HEAD
 						trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerRematchDefeat)
+=======
+						trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerRematchDefeat)
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 					}
 			}
 		}
@@ -650,6 +774,7 @@ script FortreeCity_Gym_EventScript_Tanner_Battle_New{
 		if(flag(FLAG_HARD_MODE)){
 			//Hard Mode
 			switch (var(VAR_NUM_BADGES)) {
+<<<<<<< HEAD
 			case 0: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerDefeat)
 			case 1: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerDefeat)
 			case 2: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerDefeat)
@@ -658,27 +783,50 @@ script FortreeCity_Gym_EventScript_Tanner_Battle_New{
 			case 5: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerDefeat)
 			case 6: trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerDefeat)
 			case 7: trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerDefeat)
+=======
+			case 0: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerDefeat)
+			case 1: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerDefeat)
+			case 2: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerDefeat)
+			case 3: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerDefeat)
+			case 4: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerDefeat)
+			case 5: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerDefeat)
+			case 6: trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerDefeat)
+			case 7: trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerDefeat)
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 			default:
 				if(flag(FLAG_SYS_GAME_CLEAR)){
 					//When you beat the game you can get a random rematch each day
 					random(5)
 					switch (var(VAR_RESULT)) {
+<<<<<<< HEAD
 						case 0: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerDefeat)
 						case 1: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerDefeat)
 						case 2: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerDefeat)
 						case 3: trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerDefeat)
 						case 4: trainerbattle_no_intro(TRAINER_TANNER_5, FortreeCity_Gym_Text_TannerDefeat)
+=======
+						case 0: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerDefeat)
+						case 1: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerDefeat)
+						case 2: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerDefeat)
+						case 3: trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerDefeat)
+						case 4: trainerbattle_no_intro(TRAINER_TANNER_5, FortreeCity_Gym_Text_TannerDefeat)
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 					}
 				}
 				else{
 					//If you have 8 badges you battle its final team
+<<<<<<< HEAD
 					trainerbattle_no_intro(TRAINER_TANNER_5, FortreeCity_Gym_Text_TannerDefeat)
+=======
+					trainerbattle_no_intro(TRAINER_TANNER_5, FortreeCity_Gym_Text_TannerDefeat)
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 				}
 			}
 		}
 		elif(flag(FLAG_NORMAL_MODE)){
 			//Normal Mode
 			switch (var(VAR_NUM_BADGES)) {
+<<<<<<< HEAD
 				case 0: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerDefeat)
 				case 1: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerDefeat)
 				case 2: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerDefeat)
@@ -687,27 +835,50 @@ script FortreeCity_Gym_EventScript_Tanner_Battle_New{
 				case 5: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerDefeat)
 				case 6: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerDefeat)
 				case 7: trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerDefeat)
+=======
+				case 0: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerDefeat)
+				case 1: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerDefeat)
+				case 2: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerDefeat)
+				case 3: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerDefeat)
+				case 4: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerDefeat)
+				case 5: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerDefeat)
+				case 6: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerDefeat)
+				case 7: trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerDefeat)
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 				default:
 					if(flag(FLAG_SYS_GAME_CLEAR)){
 						//When you beat the game you can get a random rematch each day
 						random(5)
 						switch (var(VAR_RESULT)) {
+<<<<<<< HEAD
 							case 0: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerDefeat)
 							case 1: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerDefeat)
 							case 2: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerDefeat)
 							case 3: trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerDefeat)
 							case 4: trainerbattle_no_intro(TRAINER_TANNER_5, FortreeCity_Gym_Text_TannerDefeat)
+=======
+							case 0: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerDefeat)
+							case 1: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerDefeat)
+							case 2: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerDefeat)
+							case 3: trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerDefeat)
+							case 4: trainerbattle_no_intro(TRAINER_TANNER_5, FortreeCity_Gym_Text_TannerDefeat)
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 						}
 					}
 					else{
 						//If you have 8 badges you battle its final team
+<<<<<<< HEAD
 						trainerbattle_no_intro(TRAINER_TANNER_5, FortreeCity_Gym_Text_TannerDefeat)
+=======
+						trainerbattle_no_intro(TRAINER_TANNER_5, FortreeCity_Gym_Text_TannerDefeat)
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 					}
 			}
 		}
 		else{
 			//Easy Mode
 			switch (var(VAR_NUM_BADGES)) {
+<<<<<<< HEAD
 				case 0: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerDefeat)
 				case 1: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerDefeat)
 				case 2: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerDefeat)
@@ -716,21 +887,43 @@ script FortreeCity_Gym_EventScript_Tanner_Battle_New{
 				case 5: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerDefeat)
 				case 6: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerDefeat)
 				case 7: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerDefeat)
+=======
+				case 0: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerDefeat)
+				case 1: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerDefeat)
+				case 2: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerDefeat)
+				case 3: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerDefeat)
+				case 4: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerDefeat)
+				case 5: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerDefeat)
+				case 6: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerDefeat)
+				case 7: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerDefeat)
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 				default:
 					if(flag(FLAG_SYS_GAME_CLEAR)){
 						//When you beat the game you can get a random rematch each day
 						random(5)
 						switch (var(VAR_RESULT)) {
+<<<<<<< HEAD
 							case 0: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerDefeat)
 							case 1: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerDefeat)
 							case 2: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerDefeat)
 							case 3: trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerDefeat)
 							case 4: trainerbattle_no_intro(TRAINER_TANNER_5, FortreeCity_Gym_Text_TannerDefeat)
+=======
+							case 0: trainerbattle_no_intro(TRAINER_TANNER_1, FortreeCity_Gym_Text_TannerDefeat)
+							case 1: trainerbattle_no_intro(TRAINER_TANNER_2, FortreeCity_Gym_Text_TannerDefeat)
+							case 2: trainerbattle_no_intro(TRAINER_TANNER_3, FortreeCity_Gym_Text_TannerDefeat)
+							case 3: trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerDefeat)
+							case 4: trainerbattle_no_intro(TRAINER_TANNER_5, FortreeCity_Gym_Text_TannerDefeat)
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 						}
 					}
 					else{
 						//If you have 8 badges you battle its final team
+<<<<<<< HEAD
 						trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerDefeat)
+=======
+						trainerbattle_no_intro(TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerDefeat)
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 					}
 			}
 		}
@@ -799,7 +992,7 @@ script FortreeCity_Gym_EventScript_GymGuide_New{
 	lock
 	faceplayer
 	if(flag(FLAG_DEFEATED_FORTREE_GYM)){
-		if(!flag(FLAG_Tanner_REMATCH)){
+		if(!flag(FLAG_TANNER_REMATCH)){
 			msgbox(format("Guide: Hello {PLAYER}, I see you came to this Gym again, do you want me to take you to the Leader?"), MSGBOX_YESNO)
 			if(var(VAR_RESULT) == 1){
 				msgbox(format("Let me tell the leader that you are here."), MSGBOX_NPC)
@@ -825,13 +1018,13 @@ script FortreeCity_Gym_EventScript_Gym_Taillow{
 	faceplayer
 	switch(var(VAR_GYM_POKEMON_SPECIES)){
 		case SPECIES_TAILLOW:
-			if (flag(FLAG_BADGE06_GET) && !flag(FLAG_Tanner_REMATCH)){
+			if (flag(FLAG_BADGE06_GET) && !flag(FLAG_TANNER_REMATCH)){
 				//Ready for a rematch
 				msgbox(format("Taillow: low!"), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems like it wants a rematch with You, it is flying really fast."), MSGBOX_SIGN)
 				waitmessage
 			}
-			elif(flag(FLAG_BADGE06_GET) && flag(FLAG_Tanner_REMATCH)){
+			elif(flag(FLAG_BADGE06_GET) && flag(FLAG_TANNER_REMATCH)){
 				//After a rematch
 				msgbox(format("Taillow: low..."), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems tired after today's battle, it is currently eating a sunflower seed."), MSGBOX_SIGN)
@@ -843,13 +1036,13 @@ script FortreeCity_Gym_EventScript_Gym_Taillow{
 				waitmessage
 			}
 		case SPECIES_XAPP:
-			if (flag(FLAG_BADGE06_GET) && !flag(FLAG_Tanner_REMATCH)){
+			if (flag(FLAG_BADGE06_GET) && !flag(FLAG_TANNER_REMATCH)){
 				//Ready for a rematch
 				msgbox(format("Xapp: low!"), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems like it wants a rematch, it is flying really fast."), MSGBOX_SIGN)
 				waitmessage
 			}
-			elif(flag(FLAG_BADGE06_GET) && flag(FLAG_Tanner_REMATCH)){
+			elif(flag(FLAG_BADGE06_GET) && flag(FLAG_TANNER_REMATCH)){
 				msgbox(format("Xapp: low..."), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems tired after today's battle, it may want to rest a little more."), MSGBOX_SIGN)
 				waitmessage

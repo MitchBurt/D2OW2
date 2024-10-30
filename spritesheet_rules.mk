@@ -227,10 +227,17 @@ $(OBJEVENTGFXDIR)/people/frontier_brains/tucker.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/gym_leaders/zach.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
+<<<<<<< HEAD
 $(OBJEVENTGFXDIR)/people/gym_leaders/jared.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 $(OBJEVENTGFXDIR)/people/gym_leaders/mitchell.4bpp: %.4bpp: %.png
+=======
+$(OBJEVENTGFXDIR)/people/gym_leaders/jared.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/gym_leaders/mitchell.4bpp: %.4bpp: %.png
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 $(OBJEVENTGFXDIR)/people/gym_leaders/liza.4bpp: %.4bpp: %.png
@@ -245,10 +252,17 @@ $(OBJEVENTGFXDIR)/people/gym_leaders/mason.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/gym_leaders/tate.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
+<<<<<<< HEAD
 $(OBJEVENTGFXDIR)/people/gym_leaders/trevor.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 $(OBJEVENTGFXDIR)/people/gym_leaders/tanner.4bpp: %.4bpp: %.png
+=======
+$(OBJEVENTGFXDIR)/people/gym_leaders/trevor.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/gym_leaders/tanner.4bpp: %.4bpp: %.png
+>>>>>>> parent of e32eb77b (Leaders Teams + Sprites)
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 

@@ -17,13 +17,13 @@ MauvilleCity_OnTransition: @ 81DF38B
 	setflag FLAG_SYS_TV_START
 	clearflag FLAG_MAUVILLE_GYM_BARRIERS_STATE
 	setvar VAR_MAUVILLE_GYM_STATE, 0
-	call_if_set FLAG_GOT_TM24_FROM_Trevor, MauvilleCity_EventScript_MoveTrevorBackToGym
+	call_if_set FLAG_GOT_TM24_FROM_TREVOR, MauvilleCity_EventScript_MoveTrevorBackToGym
 	end
 
 MauvilleCity_EventScript_MoveTrevorBackToGym:: @ 81DF3A9
-	clearflag FLAG_HIDE_MAUVILLE_GYM_Trevor
-	setflag FLAG_HIDE_MAUVILLE_CITY_Trevor
-	setflag FLAG_Trevor_REMATCH_AVAILABLE
+	clearflag FLAG_HIDE_MAUVILLE_GYM_TREVOR
+	setflag FLAG_HIDE_MAUVILLE_CITY_TREVOR
+	setflag FLAG_TREVOR_REMATCH_AVAILABLE
 	return
 
 MauvilleCity_EventScript_Boy:: @ 81DF3B3
@@ -429,13 +429,13 @@ MauvilleCity_Movement_ScottExitEast: @ 81DF72F
 MauvilleCity_EventScript_Trevor:: @ 81DF73A
 	lock
 	faceplayer
-	goto_if_set FLAG_GOT_TM24_FROM_Trevor, MauvilleCity_EventScript_ReceivedThunderbolt
+	goto_if_set FLAG_GOT_TM24_FROM_TREVOR, MauvilleCity_EventScript_ReceivedThunderbolt
 	compare VAR_NEW_MAUVILLE_STATE, 2
 	goto_if_eq MauvilleCity_EventScript_CompletedNewMauville
-	goto_if_set FLAG_GOT_BASEMENT_KEY_FROM_Trevor, MauvilleCity_EventScript_BegunNewMauville
+	goto_if_set FLAG_GOT_BASEMENT_KEY_FROM_TREVOR, MauvilleCity_EventScript_BegunNewMauville
 	msgbox MauvilleCity_Text_TrevorNeedFavorTakeKey, MSGBOX_DEFAULT
 	giveitem ITEM_BASEMENT_KEY
-	setflag FLAG_GOT_BASEMENT_KEY_FROM_Trevor
+	setflag FLAG_GOT_BASEMENT_KEY_FROM_TREVOR
 	msgbox MauvilleCity_Text_TrevorWontBeChallenge, MSGBOX_DEFAULT
 	release
 	end
@@ -450,7 +450,7 @@ MauvilleCity_EventScript_CompletedNewMauville:: @ 81DF784
 	giveitem ITEM_TM24
 	compare VAR_RESULT, FALSE
 	goto_if_eq Common_EventScript_ShowBagIsFull
-	setflag FLAG_GOT_TM24_FROM_Trevor
+	setflag FLAG_GOT_TM24_FROM_TREVOR
 	msgbox MauvilleCity_Text_TrevorYoungTakeCharge, MSGBOX_DEFAULT
 	release
 	end

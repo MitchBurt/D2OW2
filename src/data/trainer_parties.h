@@ -22960,4 +22960,3 @@ static const struct TrainerMonNoItemCustomMoves sParty_PasswordTrainer[] = {
     .species = SPECIES_MEADOSAUR,
     }
 };
-

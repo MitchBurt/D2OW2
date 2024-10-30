@@ -10,30 +10,30 @@ static s32 GetRematchIndex(u32 trainerIdx);
 static const u16 GymLeaderRematches_AfterNewMauville[] = {
     REMATCH_MASON,
     REMATCH_ZACH,
-    REMATCH_Trevor,
-    REMATCH_Jared,
+    REMATCH_TREVOR,
+    REMATCH_JARED,
     REMATCH_NORMAN,
-    REMATCH_Tanner,
+    REMATCH_TANNER,
     REMATCH_TATE_AND_LIZA,
-    REMATCH_Mitchell
+    REMATCH_MITCHELL
 };
 
 static const u16 GymLeaderRematches_BeforeNewMauville[] = {
     REMATCH_MASON,
     REMATCH_ZACH,
     // Trevor isn't available at this time
-    REMATCH_Jared,
+    REMATCH_JARED,
     REMATCH_NORMAN,
-    REMATCH_Tanner,
+    REMATCH_TANNER,
     REMATCH_TATE_AND_LIZA,
-    REMATCH_Mitchell
+    REMATCH_MITCHELL
 };
 
 void UpdateGymLeaderRematch(void)
 {
     if (FlagGet(FLAG_SYS_GAME_CLEAR) && (Random() % 100) <= 30)
     {
-        if (FlagGet(FLAG_Trevor_REMATCH_AVAILABLE))
+        if (FlagGet(FLAG_TREVOR_REMATCH_AVAILABLE))
             UpdateGymLeaderRematchFromArray(GymLeaderRematches_AfterNewMauville, ARRAY_COUNT(GymLeaderRematches_AfterNewMauville), 5);
         else
             UpdateGymLeaderRematchFromArray(GymLeaderRematches_BeforeNewMauville, ARRAY_COUNT(GymLeaderRematches_BeforeNewMauville), 1);

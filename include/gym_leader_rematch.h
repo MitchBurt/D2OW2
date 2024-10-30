@@ -69,12 +69,12 @@ enum {
     REMATCH_WALLY_3,  // Entries above WALLY are considered normal trainers, from Wally below are special trainers
     REMATCH_MASON,
     REMATCH_ZACH,
-    REMATCH_Trevor,
-    REMATCH_Jared,
+    REMATCH_TREVOR,
+    REMATCH_JARED,
     REMATCH_NORMAN,
-    REMATCH_Tanner,
+    REMATCH_TANNER,
     REMATCH_TATE_AND_LIZA,
-    REMATCH_Mitchell,
+    REMATCH_MITCHELL,
     REMATCH_SIDNEY, // Entries below SIDNEY are considered part of REMATCH_ELITE_FOUR_ENTRIES.
     REMATCH_GREGORIUS,
     REMATCH_GLACIA,

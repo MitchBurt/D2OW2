@@ -59,12 +59,12 @@
 #define TRAINER_PIC_ELITE_FOUR_DRAKE      39
 #define TRAINER_PIC_LEADER_MASON        40
 #define TRAINER_PIC_LEADER_ZACH         41
-#define TRAINER_PIC_LEADER_Trevor        42
-#define TRAINER_PIC_LEADER_Jared       43
+#define TRAINER_PIC_LEADER_TREVOR        42
+#define TRAINER_PIC_LEADER_JARED       43
 #define TRAINER_PIC_LEADER_NORMAN         44
-#define TRAINER_PIC_LEADER_Tanner         45
+#define TRAINER_PIC_LEADER_TANNER         45
 #define TRAINER_PIC_LEADER_TATE_AND_LIZA  46
-#define TRAINER_PIC_LEADER_Mitchell           47
+#define TRAINER_PIC_LEADER_MITCHELL           47
 #define TRAINER_PIC_SCHOOL_KID_M          48
 #define TRAINER_PIC_SCHOOL_KID_F          49
 #define TRAINER_PIC_SR_AND_JR             50

@@ -134,10 +134,10 @@
 #define OBJ_EVENT_GFX_DRAKE                      124
 #define OBJ_EVENT_GFX_MASON                    125
 #define OBJ_EVENT_GFX_ZACH                     126
-#define OBJ_EVENT_GFX_Trevor                    127
-#define OBJ_EVENT_GFX_Jared                   128
+#define OBJ_EVENT_GFX_TREVOR                    127
+#define OBJ_EVENT_GFX_JARED                   128
 #define OBJ_EVENT_GFX_NORMAN                     129
-#define OBJ_EVENT_GFX_Tanner                     130
+#define OBJ_EVENT_GFX_TANNER                     130
 #define OBJ_EVENT_GFX_LIZA                       131
 #define OBJ_EVENT_GFX_TATE                       132
 #define OBJ_EVENT_GFX_DARIO                    133
@@ -225,7 +225,7 @@
 #define OBJ_EVENT_GFX_MOM                        215
 #define OBJ_EVENT_GFX_LINK_BRENDAN               216
 #define OBJ_EVENT_GFX_LINK_MAY                   217
-#define OBJ_EVENT_GFX_Mitchell                       218
+#define OBJ_EVENT_GFX_MITCHELL                       218
 #define OBJ_EVENT_GFX_SCOTT                      219
 #define OBJ_EVENT_GFX_DUPLICAT                  220
 #define OBJ_EVENT_GFX_KRAKRUM_3                   221

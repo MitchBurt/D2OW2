@@ -414,8 +414,8 @@ static const struct MatchCallStructTrainer sTrevorMatchCallHeader =
 {
     .type = MC_TYPE_LEADER,
     .mapSec = MAPSEC_MAUVILLE_CITY,
-    .flag = FLAG_ENABLE_Trevor_MATCH_CALL,
-    .rematchTableIdx = REMATCH_Trevor,
+    .flag = FLAG_ENABLE_TREVOR_MATCH_CALL,
+    .rematchTableIdx = REMATCH_TREVOR,
     .desc = gText_TrevorMatchCallDesc,
     .name = NULL,
     .textData = sTrevorTextScripts
@@ -433,8 +433,8 @@ static const struct MatchCallStructTrainer sJaredMatchCallHeader =
 {
     .type = MC_TYPE_LEADER,
     .mapSec = MAPSEC_LAVARIDGE_TOWN,
-    .flag = FLAG_ENABLE_Jared_MATCH_CALL,
-    .rematchTableIdx = REMATCH_Jared,
+    .flag = FLAG_ENABLE_JARED_MATCH_CALL,
+    .rematchTableIdx = REMATCH_JARED,
     .desc = gText_JaredMatchCallDesc,
     .name = NULL,
     .textData = sJaredTextScripts
@@ -452,8 +452,8 @@ static const struct MatchCallStructTrainer sTannerMatchCallHeader =
 {
     .type = MC_TYPE_LEADER,
     .mapSec = MAPSEC_FORTREE_CITY,
-    .flag = FLAG_ENABLE_Tanner_MATCH_CALL,
-    .rematchTableIdx = REMATCH_Tanner,
+    .flag = FLAG_ENABLE_TANNER_MATCH_CALL,
+    .rematchTableIdx = REMATCH_TANNER,
     .desc = gText_TannerMatchCallDesc,
     .name = NULL,
     .textData = sTannerTextScripts
@@ -490,8 +490,8 @@ static const struct MatchCallStructTrainer sMitchellMatchCallHeader =
 {
     .type = MC_TYPE_LEADER,
     .mapSec = MAPSEC_SOOTOPOLIS_CITY,
-    .flag = FLAG_ENABLE_Mitchell_MATCH_CALL,
-    .rematchTableIdx = REMATCH_Mitchell,
+    .flag = FLAG_ENABLE_MITCHELL_MATCH_CALL,
+    .rematchTableIdx = REMATCH_MITCHELL,
     .desc = gText_MitchellMatchCallDesc,
     .name = NULL,
     .textData = sMitchellTextScripts
@@ -589,11 +589,11 @@ static const match_call_t sMatchCallHeaders[] = {
     [MC_HEADER_SCOTT]      = {.npc    = &sScottMatchCallHeader},
     [MC_HEADER_MASON]    = {.leader = &sMasonMatchCallHeader},
     [MC_HEADER_ZACH]     = {.leader = &sZachMatchCallHeader},
-    [MC_HEADER_Trevor]    = {.leader = &sTrevorMatchCallHeader},
-    [MC_HEADER_Jared]   = {.leader = &sJaredMatchCallHeader},
-    [MC_HEADER_Tanner]     = {.leader = &sTannerMatchCallHeader},
+    [MC_HEADER_TREVOR]    = {.leader = &sTrevorMatchCallHeader},
+    [MC_HEADER_JARED]   = {.leader = &sJaredMatchCallHeader},
+    [MC_HEADER_TANNER]     = {.leader = &sTannerMatchCallHeader},
     [MC_HEADER_TATE_LIZA]  = {.leader = &sTateLizaMatchCallHeader},
-    [MC_HEADER_Mitchell]       = {.leader = &sMitchellMatchCallHeader},
+    [MC_HEADER_MITCHELL]       = {.leader = &sMitchellMatchCallHeader},
     [MC_HEADER_SIDNEY]     = {.leader = &sSidneyMatchCallHeader},
     [MC_HEADER_GREGORIUS]     = {.leader = &sGregoriusMatchCallHeader},
     [MC_HEADER_GLACIA]     = {.leader = &sGlaciaMatchCallHeader},
