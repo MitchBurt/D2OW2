@@ -1856,7 +1856,7 @@
               {
                 "min_level": 17,
                 "max_level": 17,
-                "species": "SPECIES_BANANACE"
+                "species": "SPECIES_BANSLIP"
               },
               {
                 "min_level": 15,
@@ -1901,7 +1901,7 @@
               {
                 "min_level": 15,
                 "max_level": 15,
-                "species": "SPECIES_SHAPOOPYZ"
+                "species": "SPECIES_SHAPIPIZ"
               }
             ]
           },
@@ -2030,7 +2030,7 @@
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_DABBUG"
+                "species": "SPECIES_GRUBDAB"
               },
               {
                 "min_level": 6,
@@ -2045,7 +2045,7 @@
               {
                 "min_level": 7,
                 "max_level": 7,
-                "species": "SPECIES_SHAPOOPYZ"
+                "species": "SPECIES_SHAPIPIZ"
               },
               {
                 "min_level": 7,
@@ -2065,7 +2065,7 @@
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_GLAMEOW"
+                "species": "SPECIES_DUPLICAT"
               },
               {
                 "min_level": 7,
@@ -2864,12 +2864,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_DITTO"
+                "species": "SPECIES_SMOSLIME"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_GAHNOMED"
+                "species": "SPECIES_GNORB"
               }
             ]
           }
@@ -3095,7 +3095,7 @@
               {
                 "min_level": 40,
                 "max_level": 40,
-                "species": "SPECIES_BANANACE"
+                "species": "SPECIES_BANSLIP"
               },
               {
                 "min_level": 40,
@@ -4178,7 +4178,7 @@
               {
                 "min_level": 24,
                 "max_level": 24,
-                "species": "SPECIES_DABBUG"
+                "species": "SPECIES_GRUBDAB"
               },
               {
                 "min_level": 24,
@@ -4361,7 +4361,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_BANANACE"
+                "species": "SPECIES_BANSLIP"
               },
               {
                 "min_level": 25,
@@ -4987,7 +4987,7 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_BANANACE"
+                "species": "SPECIES_BANSLIP"
               },
               {
                 "min_level": 28,
@@ -5986,7 +5986,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BANANACE"
+                "species": "SPECIES_BANSLIP"
               },
               {
                 "min_level": 5,
@@ -8142,7 +8142,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_BANANACE"
+                "species": "SPECIES_BANSLIP"
               },
               {
                 "min_level": 27,
@@ -8266,7 +8266,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_DABBUG"
+                "species": "SPECIES_GRUBDAB"
               },
               {
                 "min_level": 27,
@@ -11075,7 +11075,7 @@
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_GAHNOMED"
+                "species": "SPECIES_GNORB"
               }
             ]
           },
@@ -12042,7 +12042,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_YAMASK_GALARIAN"
+                "species": "SPECIES_BEEGMIKE"
               },
               {
                 "min_level": 5,
@@ -12052,7 +12052,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_DITTO"
+                "species": "SPECIES_SMOSLIME"
               }
             ]
           }
@@ -13202,62 +13202,62 @@
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_GAHNOMED"
+                "species": "SPECIES_GNORB"
               },
               {
                 "min_level": 24,
                 "max_level": 24,
-                "species": "SPECIES_GAHNOMED"
+                "species": "SPECIES_GNORB"
               },
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_GAHNOMED"
+                "species": "SPECIES_GNORB"
               },
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_GAHNOMED"
+                "species": "SPECIES_GNORB"
               },
               {
                 "min_level": 22,
                 "max_level": 22,
-                "species": "SPECIES_GAHNOMED"
+                "species": "SPECIES_GNORB"
               },
               {
                 "min_level": 24,
                 "max_level": 24,
-                "species": "SPECIES_GAHNOMED"
+                "species": "SPECIES_GNORB"
               },
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_GAHNOMED"
+                "species": "SPECIES_GNORB"
               },
               {
                 "min_level": 18,
                 "max_level": 18,
-                "species": "SPECIES_GAHNOMED"
+                "species": "SPECIES_GNORB"
               },
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_GAHNOMED"
+                "species": "SPECIES_GNORB"
               },
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_GAHNOMED"
+                "species": "SPECIES_GNORB"
               },
               {
                 "min_level": 20,
                 "max_level": 20,
-                "species": "SPECIES_GAHNOMED"
+                "species": "SPECIES_GNORB"
               },
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_GAHNOMED"
+                "species": "SPECIES_GNORB"
               }
             ]
           }
@@ -14656,7 +14656,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_GLAMEOW"
+                "species": "SPECIES_DUPLICAT"
               },
               {
                 "min_level": 5,
@@ -15074,12 +15074,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_GAHNOMED"
+                "species": "SPECIES_GNORB"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_DITTO"
+                "species": "SPECIES_SMOSLIME"
               }
             ]
           }
@@ -15243,12 +15243,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_DITTO"
+                "species": "SPECIES_SMOSLIME"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_DITTO"
+                "species": "SPECIES_SMOSLIME"
               },
               {
                 "min_level": 5,
@@ -15417,12 +15417,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_DITTO"
+                "species": "SPECIES_SMOSLIME"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_DITTO"
+                "species": "SPECIES_SMOSLIME"
               },
               {
                 "min_level": 5,
@@ -15591,12 +15591,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_DITTO"
+                "species": "SPECIES_SMOSLIME"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_DITTO"
+                "species": "SPECIES_SMOSLIME"
               },
               {
                 "min_level": 5,
@@ -15798,7 +15798,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BANANACE"
+                "species": "SPECIES_BANSLIP"
               },
               {
                 "min_level": 5,
@@ -16171,7 +16171,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BANANACE"
+                "species": "SPECIES_BANSLIP"
               },
               {
                 "min_level": 5,

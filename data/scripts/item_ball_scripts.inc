@@ -739,7 +739,7 @@ MegaStone_EventScript_ItemBanetite::
 	end
 	
 MegaStone_EventScript_Bacidite::
-	addscaleditem ITEM_BACIDITE
+	addscaleditem ITEM_AWMANITE
 	end
 	
 MegaStone_EventScript_Bloknocknite::

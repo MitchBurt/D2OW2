@@ -1074,11 +1074,11 @@ Script_Give_Starter4::
 	end
 
 Text_Take_Starter4:
-	.string "Do you want the Lazy Cat Pokémon\n"
-	.string "Garfel?$"
+	.string "Do you want the Cat Pokémon\n"
+	.string "Duplicat?$"
 
 Text_Received_Starter4:
-	.string "{PLAYER} received a Garfel!$"
+	.string "{PLAYER} received a Duplicat!$"
 
 //Filmbrain
 Script_Give_Starter5::

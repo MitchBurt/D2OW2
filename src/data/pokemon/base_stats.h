@@ -1281,11 +1281,11 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_GOOFSHRUM] =
     {
         .baseHP        = 55,
-        .baseAttack    = 70,
+        .baseAttack    = 45,
         .baseDefense   = 55,
         .baseSpeed     = 25,
-        .baseSpAttack  = 45,
-        .baseSpDefense = 65,
+        .baseSpAttack  = 60,
+        .baseSpDefense = 75,
         .type1 = TYPE_POISON,
         .type2 = TYPE_GRASS,
         .catchRate = 190,
