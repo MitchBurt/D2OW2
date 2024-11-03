@@ -128,7 +128,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mason;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Zach;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Trevor;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Jared;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Norman;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rick;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Tanner;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Liza;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Tate;
@@ -1224,7 +1224,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_ZACH] =                   &gObjectEventGraphicsInfo_Zach,
     [OBJ_EVENT_GFX_TREVOR] =                  &gObjectEventGraphicsInfo_Trevor,
     [OBJ_EVENT_GFX_JARED] =                 &gObjectEventGraphicsInfo_Jared,
-    [OBJ_EVENT_GFX_NORMAN] =                   &gObjectEventGraphicsInfo_Norman,
+    [OBJ_EVENT_GFX_RICK] =                   &gObjectEventGraphicsInfo_Rick,
     [OBJ_EVENT_GFX_TANNER] =                   &gObjectEventGraphicsInfo_Tanner,
     [OBJ_EVENT_GFX_LIZA] =                     &gObjectEventGraphicsInfo_Liza,
     [OBJ_EVENT_GFX_TATE] =                     &gObjectEventGraphicsInfo_Tate,

@@ -1893,7 +1893,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
 	else
 		isDoubleBattle = FALSE;
 	
-	if(IsHardMode() == 1 && PartySize > LeaderMonsCount && trainerNum != TRAINER_TATE_AND_LIZA_1)
+	if(IsHardMode() == 1 && PartySize > LeaderMonsCount && trainerNum != TRAINER_TONY_AND_SAL_1)
 		LeaderMonsCount = PartySize;
 	
     if (trainerNum == TRAINER_SECRET_BASE)

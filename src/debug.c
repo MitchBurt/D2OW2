@@ -2922,7 +2922,7 @@ static void DebugAction_AccessPC(u8 taskId)
 
 static void DebugAction_Util_TruckWrap(u8 taskId)
 {
-    FlagClear(FLAG_ENABLE_NORMAN_MATCH_CALL);
+    FlagClear(FLAG_ENABLE_RICK_MATCH_CALL);
 	SetWarpDestinationToMapWarp(MAP_GROUP(INSIDE_OF_TRUCK), MAP_NUM(INSIDE_OF_TRUCK), 0); //If not warp with the number available -> center of map
 	DoWarp();
 	ResetInitialPlayerAvatarState();

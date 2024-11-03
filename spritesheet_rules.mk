@@ -236,7 +236,7 @@ $(OBJEVENTGFXDIR)/people/gym_leaders/mitchell.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/gym_leaders/liza.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
-$(OBJEVENTGFXDIR)/people/gym_leaders/norman.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/people/gym_leaders/rick.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 $(OBJEVENTGFXDIR)/people/gym_leaders/mason.4bpp: %.4bpp: %.png
@@ -3663,7 +3663,7 @@ $(OBJEVENTGFXDIR)/people/gym_leaders/mitchell.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/gym_leaders/liza.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
-$(OBJEVENTGFXDIR)/people/gym_leaders/norman.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/people/gym_leaders/rick.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 $(OBJEVENTGFXDIR)/people/gym_leaders/mason.4bpp: %.4bpp: %.png

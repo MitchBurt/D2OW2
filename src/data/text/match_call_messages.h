@@ -355,10 +355,10 @@ const u8 gText_MatchCallSkyTamer_Tanner_Pokemon[] = _("Bellos bailarines celeste
 const u8 gText_MatchCallSkyTamer_Tanner_Intro1[] = _("Me encantaría vivir en");
 const u8 gText_MatchCallSkyTamer_Tanner_Intro2[] = _("armonía con la naturaleza.");
 
-const u8 gText_MatchCallMysticDuo_TateAndLiza_Strategy[] = _("Lichamos juntos.");
-const u8 gText_MatchCallMysticDuo_TateAndLiza_Pokemon[] = _("Son siempre cariósos.");
-const u8 gText_MatchCallMysticDuo_TateAndLiza_Intro1[] = _("Nuestro papá no consigue");
-const u8 gText_MatchCallMysticDuo_TateAndLiza_Intro2[] = _("diferenciar quién es quién.");
+const u8 gText_MatchCallMysticDuo_TonyAndSal_Strategy[] = _("Lichamos juntos.");
+const u8 gText_MatchCallMysticDuo_TonyAndSal_Pokemon[] = _("Son siempre cariósos.");
+const u8 gText_MatchCallMysticDuo_TonyAndSal_Intro1[] = _("Nuestro papá no consigue");
+const u8 gText_MatchCallMysticDuo_TonyAndSal_Intro2[] = _("diferenciar quién es quién.");
 
 const u8 gText_MatchCallDandyCharm_Mitchell_Strategy[] = _("Usar el ímpetu del Agua.");
 const u8 gText_MatchCallDandyCharm_Mitchell_Pokemon[] = _("Los Pokémon elegantes.");
@@ -747,10 +747,10 @@ const u8 gText_MatchCallSkyTamer_Tanner_Pokemon[] = _("Graceful sky dancers.");
 const u8 gText_MatchCallSkyTamer_Tanner_Intro1[] = _("The ultimate would be to");
 const u8 gText_MatchCallSkyTamer_Tanner_Intro2[] = _("live as one with nature.");
 
-const u8 gText_MatchCallMysticDuo_TateAndLiza_Strategy[] = _("We battle in cooperation.");
-const u8 gText_MatchCallMysticDuo_TateAndLiza_Pokemon[] = _("Always friendly Pokémon.");
-const u8 gText_MatchCallMysticDuo_TateAndLiza_Intro1[] = _("Papa has trouble telling");
-const u8 gText_MatchCallMysticDuo_TateAndLiza_Intro2[] = _("the two of us apart!");
+const u8 gText_MatchCallMysticDuo_TonyAndSal_Strategy[] = _("We battle in cooperation.");
+const u8 gText_MatchCallMysticDuo_TonyAndSal_Pokemon[] = _("Always friendly Pokémon.");
+const u8 gText_MatchCallMysticDuo_TonyAndSal_Intro1[] = _("Papa has trouble telling");
+const u8 gText_MatchCallMysticDuo_TonyAndSal_Intro2[] = _("the two of us apart!");
 
 const u8 gText_MatchCallDandyCharm_Mitchell_Strategy[] = _("I use splendid waterpower.");
 const u8 gText_MatchCallDandyCharm_Mitchell_Pokemon[] = _("Pokémon of elegance!");
@@ -855,9 +855,9 @@ const u8 *const gMatchCallFlavorTexts[REMATCH_TABLE_ENTRIES][CHECK_PAGE_ENTRY_CO
     [REMATCH_ZACH] = MCFLAVOR(TheBigHit_Zach),
     [REMATCH_TREVOR] = MCFLAVOR(SwellShock_Trevor),
     [REMATCH_JARED] = MCFLAVOR(PassionBurn_Jared),
-    [REMATCH_NORMAN] = MCFLAVOR(ReliableOne_Dad),
+    [REMATCH_RICK] = MCFLAVOR(ReliableOne_Dad),
     [REMATCH_TANNER] = MCFLAVOR(SkyTamer_Tanner),
-    [REMATCH_TATE_AND_LIZA] = MCFLAVOR(MysticDuo_TateAndLiza),
+    [REMATCH_TONY_AND_SAL] = MCFLAVOR(MysticDuo_TonyAndSal),
     [REMATCH_MITCHELL] = MCFLAVOR(DandyCharm_Mitchell),
     [REMATCH_SIDNEY] = MCFLAVOR(EliteFour_Sidney),
     [REMATCH_GREGORIUS] = MCFLAVOR(EliteFour_Gregorius),

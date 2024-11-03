@@ -1,5 +1,5 @@
 raw `
-.set LOCALID_NORMAN, 1
+.set LOCALID_RICK, 1
 .set LOCALID_WALLY, 10
 .set LOCALID_WALLYS_DAD, 11
 
@@ -15,7 +15,7 @@ PetalburgCity_Gym_OnLoad: @ 820489E
 	goto_if_eq PetalburgCity_Gym_EventScript_OpenUnlockedDoors
 	compare VAR_PETALBURG_GYM_STATE, 7
 	call_if_ge PetalburgCity_Gym_EventScript_UnlockAllDoors
-	call_if_set FLAG_SYS_GAME_CLEAR, PetalburgCity_Gym_EventScript_CheckNormanForRematch
+	call_if_set FLAG_SYS_GAME_CLEAR, PetalburgCity_Gym_EventScript_CheckRickForRematch
 	end
 
 @ NOTE: Strength and OHKO rooms are misleading. Both are more accurately Critical-Hit
@@ -55,29 +55,29 @@ PetalburgCity_Gym_OnTransition: @ 820492D
 	compare VAR_PETALBURG_GYM_STATE, 1
 	call_if_eq PetalburgCity_Gym_EventScript_MoveWallyToEntrance
 	compare VAR_PETALBURG_GYM_STATE, 6
-	//call_if_lt PetalburgCity_Gym_EventScript_MoveNormanToEntrance
-	//call_if_set FLAG_SYS_GAME_CLEAR, PetalburgCity_Gym_EventScript_CheckNormanForRematch
+	//call_if_lt PetalburgCity_Gym_EventScript_MoveRickToEntrance
+	//call_if_set FLAG_SYS_GAME_CLEAR, PetalburgCity_Gym_EventScript_CheckRickForRematch
 	end
 
 PetalburgCity_Gym_EventScript_MoveWallyToEntrance:: @ 820494D
 	setobjectxyperm LOCALID_WALLY, 5, 108
 	return
 
-PetalburgCity_Gym_EventScript_MoveNormanToEntrance:: @ 8204955
-	setobjectxyperm LOCALID_NORMAN, 4, 107
+PetalburgCity_Gym_EventScript_MoveRickToEntrance:: @ 8204955
+	setobjectxyperm LOCALID_RICK, 4, 107
 	return
 
-PetalburgCity_Gym_EventScript_CheckNormanForRematch:: @ 820495D
-	setorcopyvar VAR_TRAINER_BATTLE_OPPONENT_A, TRAINER_NORMAN_1
+PetalburgCity_Gym_EventScript_CheckRickForRematch:: @ 820495D
+	setorcopyvar VAR_TRAINER_BATTLE_OPPONENT_A, TRAINER_RICK_1
 	specialvar VAR_RESULT, IsTrainerReadyForRematch
 	compare VAR_RESULT, TRUE
-	goto_if_eq PetalburgCity_Gym_EventScript_DontMoveNormanToFront
+	goto_if_eq PetalburgCity_Gym_EventScript_DontMoveRickToFront
 	compare VAR_PETALBURG_GYM_STATE, 8
-	goto_if_eq PetalburgCity_Gym_EventScript_DontMoveNormanToFront
-	setobjectxyperm LOCALID_NORMAN, 4, 107
+	goto_if_eq PetalburgCity_Gym_EventScript_DontMoveRickToFront
+	setobjectxyperm LOCALID_RICK, 4, 107
 	return
 
-PetalburgCity_Gym_EventScript_DontMoveNormanToFront:: @ 8204985
+PetalburgCity_Gym_EventScript_DontMoveRickToFront:: @ 8204985
 	setvar VAR_PETALBURG_GYM_STATE, 8
 	end
 
@@ -119,10 +119,10 @@ PetalburgCity_Gym_Movement_WallyExitGym: @ 82049EC
 	delay_16
 	step_end
 
-PetalburgCity_Gym_EventScript_Norman_3:: @ 82049F1
+PetalburgCity_Gym_EventScript_Rick_3:: @ 82049F1
 	lock
 	faceplayer
-	goto PetalburgCity_Gym_EventScript_NormanBattle
+	goto PetalburgCity_Gym_EventScript_RickBattle
 	end
 
 PetalburgCity_Gym_EventScript_BeginWallyTutorialSouth:: @ 8204A80
@@ -161,33 +161,33 @@ PetalburgCity_Gym_EventScript_BeginWallyTutorial:: @ 8204AAC
 	msgbox PetalburgCity_Gym_Text_WallyIveNeverCaughtAPokemon, MSGBOX_DEFAULT
 	msgbox PetalburgCity_Gym_Text_DadHmISee, MSGBOX_DEFAULT
 	compare VAR_0x8008, 0
-	call_if_eq PetalburgCity_Gym_EventScript_NormanAddressPlayerSouth
+	call_if_eq PetalburgCity_Gym_EventScript_RickAddressPlayerSouth
 	compare VAR_0x8008, 1
-	call_if_eq PetalburgCity_Gym_EventScript_NormanAddressPlayerNorth
+	call_if_eq PetalburgCity_Gym_EventScript_RickAddressPlayerNorth
 	compare VAR_0x8008, 2
-	call_if_eq PetalburgCity_Gym_EventScript_NormanAddressPlayerWest
+	call_if_eq PetalburgCity_Gym_EventScript_RickAddressPlayerWest
 	compare VAR_0x8008, 3
-	call_if_eq PetalburgCity_Gym_EventScript_NormanAddressPlayerEast
+	call_if_eq PetalburgCity_Gym_EventScript_RickAddressPlayerEast
 	msgbox PetalburgCity_Gym_Text_DadPlayerGoWithWally, MSGBOX_DEFAULT
 	compare VAR_0x8008, 0
-	call_if_eq PetalburgCity_Gym_EventScript_NormanAddressWallySouth
+	call_if_eq PetalburgCity_Gym_EventScript_RickAddressWallySouth
 	compare VAR_0x8008, 1
-	call_if_eq PetalburgCity_Gym_EventScript_NormanAddressWallyNorth
+	call_if_eq PetalburgCity_Gym_EventScript_RickAddressWallyNorth
 	compare VAR_0x8008, 2
-	call_if_eq PetalburgCity_Gym_EventScript_NormanAddressWallyWest
+	call_if_eq PetalburgCity_Gym_EventScript_RickAddressWallyWest
 	compare VAR_0x8008, 3
-	call_if_eq PetalburgCity_Gym_EventScript_NormanAddressWallyEast
+	call_if_eq PetalburgCity_Gym_EventScript_RickAddressWallyEast
 	msgbox PetalburgCity_Gym_Text_IllLoanYouMyMeowrrior, MSGBOX_DEFAULT
 	msgbox PetalburgCity_Gym_Text_WallyThankYouAndDadGivesPokeBall, MSGBOX_DEFAULT
 	msgbox PetalburgCity_Gym_Text_WallyOhWowThankYou, MSGBOX_DEFAULT
 	compare VAR_0x8008, 0
-	call_if_eq PetalburgCity_Gym_EventScript_NormanFaceDoorSouth
+	call_if_eq PetalburgCity_Gym_EventScript_RickFaceDoorSouth
 	compare VAR_0x8008, 1
-	call_if_eq PetalburgCity_Gym_EventScript_NormanFaceDoorNorth
+	call_if_eq PetalburgCity_Gym_EventScript_RickFaceDoorNorth
 	compare VAR_0x8008, 2
-	call_if_eq PetalburgCity_Gym_EventScript_NormanFaceDoorWest
+	call_if_eq PetalburgCity_Gym_EventScript_RickFaceDoorWest
 	compare VAR_0x8008, 3
-	call_if_eq PetalburgCity_Gym_EventScript_NormanFaceDoorEast
+	call_if_eq PetalburgCity_Gym_EventScript_RickFaceDoorEast
 	compare VAR_0x8008, 0
 	call_if_eq PetalburgCity_Gym_EventScript_WallyFacePlayer
 	compare VAR_0x8008, 1
@@ -222,7 +222,7 @@ PetalburgCity_Gym_EventScript_BeginWallyTutorial:: @ 8204AAC
 	end
 
 PetalburgCity_Gym_EventScript_WallyArriveSouth:: @ 8204C31
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFastestDown
+	applymovement LOCALID_RICK, Common_Movement_WalkInPlaceFastestDown
 	applymovement LOCALID_WALLY, PetalburgCity_Gym_Movement_WallyArrive
 	waitmovement 0
 	return
@@ -230,20 +230,20 @@ PetalburgCity_Gym_EventScript_WallyArriveSouth:: @ 8204C31
 PetalburgCity_Gym_EventScript_WallyArriveNorth:: @ 8204C43
 	applymovement LOCALID_WALLY, PetalburgCity_Gym_Movement_WallyArriveNorth
 	waitmovement 0
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFastestRight
+	applymovement LOCALID_RICK, Common_Movement_WalkInPlaceFastestRight
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFastestRight
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_WallyArriveWestEast:: @ 8204C5F
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFastestDown
+	applymovement LOCALID_RICK, Common_Movement_WalkInPlaceFastestDown
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFastestDown
 	applymovement LOCALID_WALLY, PetalburgCity_Gym_Movement_WallyArrive
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_ExitGymWithWallySouth:: @ 8204C78
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFastestDown
+	applymovement LOCALID_RICK, Common_Movement_WalkInPlaceFastestDown
 	applymovement LOCALID_WALLY, PetalburgCity_Gym_Movement_WallyExitSouthWest
 	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Gym_Movement_PlayerExitWithWallySouth
 	waitmovement 0
@@ -267,46 +267,46 @@ PetalburgCity_Gym_EventScript_ExitGymWithWallyEast:: @ 8204CB5
 	waitmovement 0
 	return
 
-PetalburgCity_Gym_EventScript_NormanAddressPlayerSouth:: @ 8204CC7
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFastestUp
+PetalburgCity_Gym_EventScript_RickAddressPlayerSouth:: @ 8204CC7
+	applymovement LOCALID_RICK, Common_Movement_WalkInPlaceFastestUp
 	waitmovement 0
 	return
 
-PetalburgCity_Gym_EventScript_NormanAddressPlayerNorth:: @ 8204CD2
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFastestDown
+PetalburgCity_Gym_EventScript_RickAddressPlayerNorth:: @ 8204CD2
+	applymovement LOCALID_RICK, Common_Movement_WalkInPlaceFastestDown
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFastestUp
 	waitmovement 0
 	return
 
-PetalburgCity_Gym_EventScript_NormanAddressPlayerWest:: @ 8204CE4
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFastestRight
+PetalburgCity_Gym_EventScript_RickAddressPlayerWest:: @ 8204CE4
+	applymovement LOCALID_RICK, Common_Movement_WalkInPlaceFastestRight
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFastestLeft
 	waitmovement 0
 	return
 
-PetalburgCity_Gym_EventScript_NormanAddressPlayerEast:: @ 8204CF6
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFastestLeft
+PetalburgCity_Gym_EventScript_RickAddressPlayerEast:: @ 8204CF6
+	applymovement LOCALID_RICK, Common_Movement_WalkInPlaceFastestLeft
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFastestRight
 	waitmovement 0
 	return
 
-PetalburgCity_Gym_EventScript_NormanAddressWallySouth:: @ 8204D08
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFastestDown
+PetalburgCity_Gym_EventScript_RickAddressWallySouth:: @ 8204D08
+	applymovement LOCALID_RICK, Common_Movement_WalkInPlaceFastestDown
 	waitmovement 0
 	return
 
-PetalburgCity_Gym_EventScript_NormanAddressWallyNorth:: @ 8204D13
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFastestRight
+PetalburgCity_Gym_EventScript_RickAddressWallyNorth:: @ 8204D13
+	applymovement LOCALID_RICK, Common_Movement_WalkInPlaceFastestRight
 	waitmovement 0
 	return
 
-PetalburgCity_Gym_EventScript_NormanAddressWallyWest:: @ 8204D1E
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFastestDown
+PetalburgCity_Gym_EventScript_RickAddressWallyWest:: @ 8204D1E
+	applymovement LOCALID_RICK, Common_Movement_WalkInPlaceFastestDown
 	waitmovement 0
 	return
 
-PetalburgCity_Gym_EventScript_NormanAddressWallyEast:: @ 8204D29
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFastestDown
+PetalburgCity_Gym_EventScript_RickAddressWallyEast:: @ 8204D29
+	applymovement LOCALID_RICK, Common_Movement_WalkInPlaceFastestDown
 	waitmovement 0
 	return
 
@@ -320,39 +320,39 @@ PetalburgCity_Gym_EventScript_WallyFaceDown:: @ 8204D3F
 	waitmovement 0
 	return
 
-PetalburgCity_Gym_EventScript_NormanNoBadges:: @ 8204D4A
-	msgbox PetalburgCity_Gym_Text_NormanGoToRustboro, MSGBOX_DEFAULT
+PetalburgCity_Gym_EventScript_RickNoBadges:: @ 8204D4A
+	msgbox PetalburgCity_Gym_Text_RickGoToRustboro, MSGBOX_DEFAULT
 	release
 	end
 
-PetalburgCity_Gym_EventScript_NormanOneBadge:: @ 8204D54
-	msgbox PetalburgCity_Gym_Text_NormanGoToDewford, MSGBOX_DEFAULT
+PetalburgCity_Gym_EventScript_RickOneBadge:: @ 8204D54
+	msgbox PetalburgCity_Gym_Text_RickGoToDewford, MSGBOX_DEFAULT
 	release
 	end
 
-PetalburgCity_Gym_EventScript_NormanTwoBadges:: @ 8204D5E
+PetalburgCity_Gym_EventScript_RickTwoBadges:: @ 8204D5E
 	msgbox PetalburgCity_Gym_Text_YouHaveGottenStronger, MSGBOX_DEFAULT
 	release
 	end
 
-PetalburgCity_Gym_EventScript_NormanThreeBadges:: @ 8204D68
+PetalburgCity_Gym_EventScript_RickThreeBadges:: @ 8204D68
 	msgbox PetalburgCity_Gym_Text_YouHaveGottenStronger, MSGBOX_DEFAULT
 	release
 	end
 
-PetalburgCity_Gym_EventScript_NormanFaceDoorSouth:: @ 8204D72
+PetalburgCity_Gym_EventScript_RickFaceDoorSouth:: @ 8204D72
 	return
 
-@ For all other NormanFaceDoorX, Norman is already facing the door from NormanAddressWallyX
-PetalburgCity_Gym_EventScript_NormanFaceDoorNorth:: @ 8204D73
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFastestDown
+@ For all other RickFaceDoorX, Rick is already facing the door from RickAddressWallyX
+PetalburgCity_Gym_EventScript_RickFaceDoorNorth:: @ 8204D73
+	applymovement LOCALID_RICK, Common_Movement_WalkInPlaceFastestDown
 	waitmovement 0
 	return
 
-PetalburgCity_Gym_EventScript_NormanFaceDoorWest:: @ 8204D7E
+PetalburgCity_Gym_EventScript_RickFaceDoorWest:: @ 8204D7E
 	return
 
-PetalburgCity_Gym_EventScript_NormanFaceDoorEast:: @ 8204D7F
+PetalburgCity_Gym_EventScript_RickFaceDoorEast:: @ 8204D7F
 	return
 
 PetalburgCity_Gym_EventScript_GiveFacade2:: @ 8204DAC
@@ -388,16 +388,16 @@ PetalburgCity_Gym_EventScript_GiveEnigmaBerry:: @ 8204E1D
 	release
 	end
 	
-PetalburgCity_Gym_EventScript_NormanBattle::
+PetalburgCity_Gym_EventScript_RickBattle::
 	lock
 	faceplayer
-	goto_if_set FLAG_BADGE05_GET, PetalburgCity_Gym_EventScript_NormanPostBattle
-	msgbox PetalburgCity_Gym_Text_NormanIntro, MSGBOX_DEFAULT
-	trainerbattle_no_intro TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanDefeat
-	goto PetalburgCity_Gym_EventScript_NormanDefeated
+	goto_if_set FLAG_BADGE05_GET, PetalburgCity_Gym_EventScript_RickPostBattle
+	msgbox PetalburgCity_Gym_Text_RickIntro, MSGBOX_DEFAULT
+	trainerbattle_no_intro TRAINER_RICK_1, PetalburgCity_Gym_Text_RickDefeat
+	goto PetalburgCity_Gym_EventScript_RickDefeated
 	end
 	
-PetalburgCity_Gym_EventScript_NormanDefeated::
+PetalburgCity_Gym_EventScript_RickDefeated::
 	message PetalburgCity_Gym_Text_ReceivedBalanceBadge
 	waitmessage
 	call Common_EventScript_PlayGymBadgeFanfare
@@ -415,36 +415,36 @@ PetalburgCity_Gym_EventScript_NormanDefeated::
 	delay 30
 	delay 30
 	call Gym_EventScript_Reset_Rematches
-	setflag FLAG_NORMAN_REMATCH
+	setflag FLAG_RICK_REMATCH
 	release
 	end
 	
-PetalburgCity_Gym_EventScript_NormanPostBattle:: @ 8204D80
-	goto_if_unset FLAG_NORMAN_REMATCH, PetalburgCity_Gym_EventScript_NormanRematch
+PetalburgCity_Gym_EventScript_RickPostBattle:: @ 8204D80
+	goto_if_unset FLAG_RICK_REMATCH, PetalburgCity_Gym_EventScript_RickRematch
 	msgbox PetalburgCity_Gym_Text_DadGoingToKeepTraining, MSGBOX_DEFAULT
 	release
 	end
 	
 //Rematch
-PetalburgCity_Gym_EventScript_NormanRematch:: @ 8204DB3
-	msgbox PetalburgCity_Gym_Text_NormanPreRematch, MSGBOX_DEFAULT
+PetalburgCity_Gym_EventScript_RickRematch:: @ 8204DB3
+	msgbox PetalburgCity_Gym_Text_RickPreRematch, MSGBOX_DEFAULT
 	goto PetalburgCity_Gym_EventScript_Start_Rematch_1
 	end
 	
-PetalburgCity_Gym_EventScript_NormanRematchEnd::
-	msgbox PetalburgCity_Gym_Text_NormanPostRematch, MSGBOX_AUTOCLOSE
+PetalburgCity_Gym_EventScript_RickRematchEnd::
+	msgbox PetalburgCity_Gym_Text_RickPostRematch, MSGBOX_AUTOCLOSE
 	call Gym_EventScript_Reset_Random_Rematch
-	setflag FLAG_NORMAN_REMATCH
+	setflag FLAG_RICK_REMATCH
 	end
 	
 PetalburgCity_Gym_EventScript_Start_Rematch_1::
 	checkitem ITEM_TM54_FALSE_SWIPE, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq PetalburgCity_Gym_EventScript_Start_Rematch_2
-	trainerbattle_no_intro TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanRematchDefeat
+	trainerbattle_no_intro TRAINER_RICK_1, PetalburgCity_Gym_Text_RickRematchDefeat
 	msgbox PetalburgCity_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM54_FALSE_SWIPE
-	goto PetalburgCity_Gym_EventScript_NormanRematchEnd
+	goto PetalburgCity_Gym_EventScript_RickRematchEnd
 	end
 	
 PetalburgCity_Gym_EventScript_Start_Rematch_2::
@@ -452,10 +452,10 @@ PetalburgCity_Gym_EventScript_Start_Rematch_2::
 	checkitem ITEM_TM100_CONFIDE, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq PetalburgCity_Gym_EventScript_Start_Rematch_3
-	trainerbattle_no_intro TRAINER_NORMAN_2, PetalburgCity_Gym_Text_NormanRematchDefeat
+	trainerbattle_no_intro TRAINER_RICK_2, PetalburgCity_Gym_Text_RickRematchDefeat
 	msgbox PetalburgCity_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM100_CONFIDE
-	goto PetalburgCity_Gym_EventScript_NormanRematchEnd
+	goto PetalburgCity_Gym_EventScript_RickRematchEnd
 	end
 	
 PetalburgCity_Gym_EventScript_Start_Rematch_3::
@@ -463,10 +463,10 @@ PetalburgCity_Gym_EventScript_Start_Rematch_3::
 	checkitem ITEM_TM96_NATURE_POWER, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq PetalburgCity_Gym_EventScript_Start_Rematch_4
-	trainerbattle_no_intro TRAINER_NORMAN_3, PetalburgCity_Gym_Text_NormanRematchDefeat
+	trainerbattle_no_intro TRAINER_RICK_3, PetalburgCity_Gym_Text_RickRematchDefeat
 	msgbox PetalburgCity_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM96_NATURE_POWER
-	goto PetalburgCity_Gym_EventScript_NormanRematchEnd
+	goto PetalburgCity_Gym_EventScript_RickRematchEnd
 	end
 	
 PetalburgCity_Gym_EventScript_Start_Rematch_4::
@@ -474,20 +474,20 @@ PetalburgCity_Gym_EventScript_Start_Rematch_4::
 	checkitem ITEM_TM42_FACADE, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq PetalburgCity_Gym_EventScript_Start_Rematch_5
-	trainerbattle_no_intro TRAINER_NORMAN_4, PetalburgCity_Gym_Text_NormanRematchDefeat
+	trainerbattle_no_intro TRAINER_RICK_4, PetalburgCity_Gym_Text_RickRematchDefeat
 	msgbox PetalburgCity_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM42_FACADE
-	goto PetalburgCity_Gym_EventScript_NormanRematchEnd
+	goto PetalburgCity_Gym_EventScript_RickRematchEnd
 	end
 	
 PetalburgCity_Gym_EventScript_Start_Rematch_5::
 	goto_if_unset FLAG_RECEIVED_TM04 PetalburgCity_Gym_EventScript_Start_Rematch_Party_4
 	goto_if_set FLAG_GOT_TROLOLOITE PetalburgCity_Gym_EventScript_Start_Rematch_6
-	trainerbattle_no_intro TRAINER_NORMAN_4, PetalburgCity_Gym_Text_NormanRematchDefeat
+	trainerbattle_no_intro TRAINER_RICK_4, PetalburgCity_Gym_Text_RickRematchDefeat
 	msgbox PetalburgCity_Gym_Text_GetMegaStone, MSGBOX_DEFAULT
 	giveitem ITEM_TROLOLOITE
 	setflag FLAG_GOT_TROLOLOITE
-	goto PetalburgCity_Gym_EventScript_NormanRematchEnd
+	goto PetalburgCity_Gym_EventScript_RickRematchEnd
 	end
 	
 PetalburgCity_Gym_EventScript_Start_Rematch_6::
@@ -495,10 +495,10 @@ PetalburgCity_Gym_EventScript_Start_Rematch_6::
 	checkitem ITEM_TM68_GIGA_IMPACT, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq PetalburgCity_Gym_EventScript_Start_Rematch_Final
-	trainerbattle_no_intro TRAINER_NORMAN_5, PetalburgCity_Gym_Text_NormanRematchDefeat
+	trainerbattle_no_intro TRAINER_RICK_5, PetalburgCity_Gym_Text_RickRematchDefeat
 	msgbox PetalburgCity_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM68_GIGA_IMPACT
-	goto PetalburgCity_Gym_EventScript_NormanRematchEnd
+	goto PetalburgCity_Gym_EventScript_RickRematchEnd
 	end
 	
 PetalburgCity_Gym_EventScript_Start_Rematch_Final::
@@ -512,43 +512,43 @@ PetalburgCity_Gym_EventScript_Start_Rematch_Final::
 	end
 	
 PetalburgCity_Gym_EventScript_Start_Rematch_Party_1::
-	trainerbattle_no_intro TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanRematchDefeat
-	goto_if_unset FLAG_RECEIVED_TM04, PetalburgCity_Gym_EventScript_NormanRematchEnd
+	trainerbattle_no_intro TRAINER_RICK_1, PetalburgCity_Gym_Text_RickRematchDefeat
+	goto_if_unset FLAG_RECEIVED_TM04, PetalburgCity_Gym_EventScript_RickRematchEnd
 	msgbox PetalburgCity_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_CALM_MINT, 3
-	goto PetalburgCity_Gym_EventScript_NormanRematchEnd
+	goto PetalburgCity_Gym_EventScript_RickRematchEnd
 	end
 	
 PetalburgCity_Gym_EventScript_Start_Rematch_Party_2::
-	trainerbattle_no_intro TRAINER_NORMAN_2, PetalburgCity_Gym_Text_NormanRematchDefeat
-	goto_if_unset FLAG_RECEIVED_TM04, PetalburgCity_Gym_EventScript_NormanRematchEnd
+	trainerbattle_no_intro TRAINER_RICK_2, PetalburgCity_Gym_Text_RickRematchDefeat
+	goto_if_unset FLAG_RECEIVED_TM04, PetalburgCity_Gym_EventScript_RickRematchEnd
 	msgbox PetalburgCity_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_GENTLE_MINT, 3
-	goto PetalburgCity_Gym_EventScript_NormanRematchEnd
+	goto PetalburgCity_Gym_EventScript_RickRematchEnd
 	end
 	
 PetalburgCity_Gym_EventScript_Start_Rematch_Party_3::
-	trainerbattle_no_intro TRAINER_NORMAN_3, PetalburgCity_Gym_Text_NormanRematchDefeat
-	goto_if_unset FLAG_RECEIVED_TM04, PetalburgCity_Gym_EventScript_NormanRematchEnd
+	trainerbattle_no_intro TRAINER_RICK_3, PetalburgCity_Gym_Text_RickRematchDefeat
+	goto_if_unset FLAG_RECEIVED_TM04, PetalburgCity_Gym_EventScript_RickRematchEnd
 	msgbox PetalburgCity_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_CAREFUL_MINT, 3
-	goto PetalburgCity_Gym_EventScript_NormanRematchEnd
+	goto PetalburgCity_Gym_EventScript_RickRematchEnd
 	end
 	
 PetalburgCity_Gym_EventScript_Start_Rematch_Party_4::
-	trainerbattle_no_intro TRAINER_NORMAN_4, PetalburgCity_Gym_Text_NormanRematchDefeat
-	goto_if_unset FLAG_RECEIVED_TM04, PetalburgCity_Gym_EventScript_NormanRematchEnd
+	trainerbattle_no_intro TRAINER_RICK_4, PetalburgCity_Gym_Text_RickRematchDefeat
+	goto_if_unset FLAG_RECEIVED_TM04, PetalburgCity_Gym_EventScript_RickRematchEnd
 	msgbox PetalburgCity_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_SASSY_MINT, 3
-	goto PetalburgCity_Gym_EventScript_NormanRematchEnd
+	goto PetalburgCity_Gym_EventScript_RickRematchEnd
 	end
 	
 PetalburgCity_Gym_EventScript_Start_Rematch_Party_5::
-	trainerbattle_no_intro TRAINER_NORMAN_5, PetalburgCity_Gym_Text_NormanRematchDefeat
-	goto_if_unset FLAG_RECEIVED_TM04, PetalburgCity_Gym_EventScript_NormanRematchEnd
+	trainerbattle_no_intro TRAINER_RICK_5, PetalburgCity_Gym_Text_RickRematchDefeat
+	goto_if_unset FLAG_RECEIVED_TM04, PetalburgCity_Gym_EventScript_RickRematchEnd
 	msgbox PetalburgCity_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_SERIOUS_MINT, 4
-	goto PetalburgCity_Gym_EventScript_NormanRematchEnd
+	goto PetalburgCity_Gym_EventScript_RickRematchEnd
 	end
 	
 PetalburgCity_Gym_Text_GetTM:
@@ -608,11 +608,11 @@ PetalburgCity_Gym_EventScript_WallysDadArrives:: @ 8204F13
 	closemessage
 	delay 20
 	compare VAR_0x8008, 1
-	call_if_eq PetalburgCity_Gym_EventScript_WallysDadFaceNormanNorth
+	call_if_eq PetalburgCity_Gym_EventScript_WallysDadFaceRickNorth
 	compare VAR_0x8008, 2
-	call_if_eq PetalburgCity_Gym_EventScript_WallysDadFaceNormanEast
+	call_if_eq PetalburgCity_Gym_EventScript_WallysDadFaceRickEast
 	compare VAR_0x8008, 3
-	call_if_eq PetalburgCity_Gym_EventScript_WallysDadFaceNormanWest
+	call_if_eq PetalburgCity_Gym_EventScript_WallysDadFaceRickWest
 	msgbox PetalburgCity_Gym_Text_LetMeBorrowPlayer, MSGBOX_DEFAULT
 	closemessage
 	setflag FLAG_DONT_TRANSITION_MUSIC
@@ -631,17 +631,17 @@ PetalburgCity_Gym_EventScript_WallysDadArrives:: @ 8204F13
 	release
 	end
 
-PetalburgCity_Gym_EventScript_WallysDadFaceNormanNorth:: @ 8204FCC
+PetalburgCity_Gym_EventScript_WallysDadFaceRickNorth:: @ 8204FCC
 	applymovement LOCALID_WALLYS_DAD, Common_Movement_WalkInPlaceFastestUp
 	waitmovement 0
 	return
 
-PetalburgCity_Gym_EventScript_WallysDadFaceNormanEast:: @ 8204FD7
+PetalburgCity_Gym_EventScript_WallysDadFaceRickEast:: @ 8204FD7
 	applymovement LOCALID_WALLYS_DAD, Common_Movement_WalkInPlaceFastestRight
 	waitmovement 0
 	return
 
-PetalburgCity_Gym_EventScript_WallysDadFaceNormanWest:: @ 8204FE2
+PetalburgCity_Gym_EventScript_WallysDadFaceRickWest:: @ 8204FE2
 	applymovement LOCALID_WALLYS_DAD, Common_Movement_WalkInPlaceFastestLeft
 	waitmovement 0
 	return
@@ -650,7 +650,7 @@ PetalburgCity_Gym_EventScript_WallysDadApproachPlayerNorth:: @ 8204FED
 	applymovement LOCALID_WALLYS_DAD, PetalburgCity_Gym_Movement_WallysDadApproachPlayerNorth
 	waitmovement 0
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFastestLeft
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFastestLeft
+	applymovement LOCALID_RICK, Common_Movement_WalkInPlaceFastestLeft
 	waitmovement 0
 	return
 
@@ -658,7 +658,7 @@ PetalburgCity_Gym_EventScript_WallysDadApproachPlayerEast:: @ 8205009
 	applymovement LOCALID_WALLYS_DAD, PetalburgCity_Gym_Movement_WallysDadApproachPlayerEast
 	waitmovement 0
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFastestDown
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFastestDown
+	applymovement LOCALID_RICK, Common_Movement_WalkInPlaceFastestDown
 	waitmovement 0
 	return
 
@@ -666,13 +666,13 @@ PetalburgCity_Gym_EventScript_WallysDadApproachPlayerWest:: @ 8205025
 	applymovement LOCALID_WALLYS_DAD, PetalburgCity_Gym_Movement_WallysDadApproachPlayerWest
 	waitmovement 0
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkInPlaceFastestDown
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFastestDown
+	applymovement LOCALID_RICK, Common_Movement_WalkInPlaceFastestDown
 	waitmovement 0
 	return
 
 PetalburgCity_Gym_EventScript_ExitGymWithWallysDadNorth:: @ 8205041
 	applymovement LOCALID_WALLYS_DAD, PetalburgCity_Gym_Movement_WallysDadExitNorth
-	applymovement LOCALID_NORMAN, Common_Movement_WalkInPlaceFastestDown
+	applymovement LOCALID_RICK, Common_Movement_WalkInPlaceFastestDown
 	applymovement OBJ_EVENT_ID_PLAYER, PetalburgCity_Gym_Movement_PlayerExitWithWallysDadNorth
 	waitmovement 0
 	return
@@ -1448,7 +1448,7 @@ PetalburgCity_Gym_Text_DadGoCollectBadges: @ 8205C40
 	.string "But that's only after you become\n"
 	.string "stronger.$"
 
-PetalburgCity_Gym_Text_NormanGoToRustboro: @ 8205DB4
+PetalburgCity_Gym_Text_RickGoToRustboro: @ 8205DB4
 	.string "Dad: Hm? Aren't you going to the\n"
 	.string "Pokémon Gym in Rustboro City?\p"
 	.string "There's no challenge for me to\n"
@@ -1458,7 +1458,7 @@ PetalburgCity_Gym_Text_NormanGoToRustboro: @ 8205DB4
 	.string "I'll battle you, {PLAYER}, when you\n"
 	.string "can show me four Gym Badges, okay?$"
 
-PetalburgCity_Gym_Text_NormanGoToDewford: @ 8205EAE
+PetalburgCity_Gym_Text_RickGoToDewford: @ 8205EAE
 	.string "Dad: I see… So, you've beaten\n"
 	.string "the Gym Leader in Rustboro City.\p"
 	.string "But there are many more Trainers\n"
@@ -1473,7 +1473,7 @@ PetalburgCity_Gym_Text_YouHaveGottenStronger: @ 8205F87
 	.string "I can tell by the number of Badges\n"
 	.string "that you've earned.$"
 
-PetalburgCity_Gym_Text_NormanIntro: @ 8205FE5
+PetalburgCity_Gym_Text_RickIntro: @ 8205FE5
 	.string "Dad: {PLAYER}…\p"
 	.string "I'm so happy that I can have\n"
 	.string "a real battle with my own child.\p"
@@ -1483,7 +1483,7 @@ PetalburgCity_Gym_Text_NormanIntro: @ 8205FE5
 	.string "{PLAYER}, you'd better give it your\n"
 	.string "all!.$"
 
-PetalburgCity_Gym_Text_NormanDefeat: @ 8206107
+PetalburgCity_Gym_Text_RickDefeat: @ 8206107
 	.string "…\p"
 	.string "I… I can't…\p"
 	.string "I can't believe it. {PLAYER}…\p"
@@ -1519,7 +1519,7 @@ PetalburgCity_Gym_Text_PleaseComeWithMe: @ 8206377
 	.string "I have something I want you to have.$"
 
 PetalburgCity_Gym_Text_LetMeBorrowPlayer: @ 82063CA
-	.string "NORMAN, you don't mind, do you?\p"
+	.string "RICK, you don't mind, do you?\p"
 	.string "Let me borrow your {PLAYER}{KUN} for\n"
 	.string "a minute or two.$"
 
@@ -1762,10 +1762,10 @@ PetalburgCity_Gym_Text_GymStatue: @ 820744C
 
 PetalburgCity_Gym_Text_GymStatueCertified: @ 8207467
 	.string "Petalburg City Pokémon Gym\p"
-	.string "NORMAN'S Certified Trainers:\n"
+	.string "RICK'S Certified Trainers:\n"
 	.string "{PLAYER}$"
 
-PetalburgCity_Gym_Text_NormanPreRematch: @ 82074A2
+PetalburgCity_Gym_Text_RickPreRematch: @ 82074A2
 	.string "Dad: {PLAYER}…\n"
 	.string "I had a feeling that you would come.\p"
 	.string "I would never refuse to accept\n"
@@ -1777,18 +1777,18 @@ PetalburgCity_Gym_Text_NormanPreRematch: @ 82074A2
 	.string "we owe it to each other to do the best\l"
 	.string "we can. Isn't that right, {PLAYER}?$"
 
-PetalburgCity_Gym_Text_NormanRematchDefeat: @ 82075CE
+PetalburgCity_Gym_Text_RickRematchDefeat: @ 82075CE
 	.string "Uh… Haha…\n"
 	.string "Maybe that was going too hard…$"
 
-PetalburgCity_Gym_Text_NormanPostRematch: @ 82075F7
+PetalburgCity_Gym_Text_RickPostRematch: @ 82075F7
 	.string "Dad: {PLAYER}…\n"
 	.string "What is your dream?\p"
 	.string "My dream…\n"
 	.string "Hahaha…\l"
 	.string "It has already come true, actually.$"
 
-PetalburgCity_Gym_Text_NormanRematchNeedTwoMons: @ 820764A
+PetalburgCity_Gym_Text_RickRematchNeedTwoMons: @ 820764A
 	.string "Dad: {PLAYER}…\n"
 	.string "I had a feeling that you would come.\p"
 	.string "I would never refuse to accept\n"
@@ -1802,30 +1802,30 @@ PetalburgCity_Gym_Text_NormanRematchNeedTwoMons: @ 820764A
 	.string "Sorry, but you'll have to come back\n"
 	.string "with at least two Pokémon.$"
 `
-script PetalburgCity_Gym_EventScript_Norman_New{
+script PetalburgCity_Gym_EventScript_Rick_New{
 	lock
 	faceplayer
-    if (flag(FLAG_BADGE05_GET) && !flag(FLAG_NORMAN_REMATCH)){
+    if (flag(FLAG_BADGE05_GET) && !flag(FLAG_RICK_REMATCH)){
 		//Rematch
 		//Intro
-		msgbox(PetalburgCity_Gym_Text_NormanPreRematch, MSGBOX_NPC)
+		msgbox(PetalburgCity_Gym_Text_RickPreRematch, MSGBOX_NPC)
 		//Trainer Battle
-		call(PetalburgCity_Gym_EventScript_Norman_Battle_New)
+		call(PetalburgCity_Gym_EventScript_Rick_Battle_New)
 
         //Defeated Message and Reset Rematches for other Leaders
-		msgbox(PetalburgCity_Gym_Text_NormanPostRematch, MSGBOX_NPC)
+		msgbox(PetalburgCity_Gym_Text_RickPostRematch, MSGBOX_NPC)
 		call(Gym_EventScript_Reset_Rematches)
 
 		//Give TMs or Items
 		msgbox(format("Please take these items with you."), MSGBOX_NPC)
-		call(PetalburgCity_Gym_EventScript_Norman_Give_Gifts)
+		call(PetalburgCity_Gym_EventScript_Rick_Give_Gifts)
 
 		msgbox(format("Dad: {PLAYER}, please come back tomorrow so you can battle with your dad again."), MSGBOX_NPC)
 
 		//Set the Rematch Flag as False
-		setflag(FLAG_NORMAN_REMATCH)
+		setflag(FLAG_RICK_REMATCH)
     }
-	elif(flag(FLAG_BADGE05_GET) && flag(FLAG_NORMAN_REMATCH)){
+	elif(flag(FLAG_BADGE05_GET) && flag(FLAG_RICK_REMATCH)){
 		//You can challenge the other trainers an infinite number of times
 		msgbox(format("Dad: {PLAYER}, I'm tired for today, but the trainers here need training, could you shape them a little?"), MSGBOX_YESNO)
 		if(var(VAR_RESULT) == 1){
@@ -1852,12 +1852,12 @@ script PetalburgCity_Gym_EventScript_Norman_New{
 	else{
 		//First Battle
 		//Intro
-		msgbox(PetalburgCity_Gym_Text_NormanIntro, MSGBOX_NPC)
+		msgbox(PetalburgCity_Gym_Text_RickIntro, MSGBOX_NPC)
 		//Trainer Battle
-		call(PetalburgCity_Gym_EventScript_Norman_Battle_New)
+		call(PetalburgCity_Gym_EventScript_Rick_Battle_New)
 
 		//Get the Badge
-		message(format("{PLAYER} received the Balance Badge from Norman."))
+		message(format("{PLAYER} received the Balance Badge from Rick."))
 		waitmessage
 		call(Common_EventScript_PlayGymBadgeFanfare)
 		msgbox(format("Please take these items with you, too,"), MSGBOX_NPC)
@@ -1876,16 +1876,16 @@ script PetalburgCity_Gym_EventScript_Norman_New{
 		setflag(FLAG_TEMP_9)
 
 		//Give TMs or Items
-		call(PetalburgCity_Gym_EventScript_Norman_Give_Gifts)
+		call(PetalburgCity_Gym_EventScript_Rick_Give_Gifts)
 
 		//Set all the trainers in the Gym as Defeated
 		setvar(VAR_0x8008, 5)
 		call(Common_EventScript_SetGymTrainers)
 
 		//Register Trainer in your PokeNav
-		//msgbox(PetalburgCity_Gym_Text_RegisteredNorman, MSGBOX_DEFAULT)
+		//msgbox(PetalburgCity_Gym_Text_RegisteredRick, MSGBOX_DEFAULT)
 		//playfanfare(MUS_REGISTER_MATCH_CALL)
-		//setflag(FLAG_ENABLE_NORMAN_MATCH_CALL)
+		//setflag(FLAG_ENABLE_RICK_MATCH_CALL)
 		//waitfanfare
 		//closemessage
 
@@ -1894,98 +1894,98 @@ script PetalburgCity_Gym_EventScript_Norman_New{
 		call(Gym_EventScript_Reset_Rematches)
 
 		//Set the Rematch Flag as False
-		setflag(FLAG_NORMAN_REMATCH)
+		setflag(FLAG_RICK_REMATCH)
 	}
     release
     end
 }
 
-script PetalburgCity_Gym_EventScript_Norman_Battle_New{
+script PetalburgCity_Gym_EventScript_Rick_Battle_New{
 	if(flag(FLAG_BADGE05_GET)){
 		if(flag(FLAG_HARD_MODE)){
 			//Hard Mode
 			switch (var(VAR_NUM_BADGES)) {
-			case 0: trainerbattle_no_intro(TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanRematchDefeat)
-			case 1: trainerbattle_no_intro(TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanRematchDefeat)
-			case 2: trainerbattle_no_intro(TRAINER_NORMAN_2, PetalburgCity_Gym_Text_NormanRematchDefeat)
-			case 3: trainerbattle_no_intro(TRAINER_NORMAN_2, PetalburgCity_Gym_Text_NormanRematchDefeat)
-			case 4: trainerbattle_no_intro(TRAINER_NORMAN_3, PetalburgCity_Gym_Text_NormanRematchDefeat)
-			case 5: trainerbattle_no_intro(TRAINER_NORMAN_3, PetalburgCity_Gym_Text_NormanRematchDefeat)
-			case 6: trainerbattle_no_intro(TRAINER_NORMAN_4, PetalburgCity_Gym_Text_NormanRematchDefeat)
-			case 7: trainerbattle_no_intro(TRAINER_NORMAN_4, PetalburgCity_Gym_Text_NormanRematchDefeat)
+			case 0: trainerbattle_no_intro(TRAINER_RICK_1, PetalburgCity_Gym_Text_RickRematchDefeat)
+			case 1: trainerbattle_no_intro(TRAINER_RICK_1, PetalburgCity_Gym_Text_RickRematchDefeat)
+			case 2: trainerbattle_no_intro(TRAINER_RICK_2, PetalburgCity_Gym_Text_RickRematchDefeat)
+			case 3: trainerbattle_no_intro(TRAINER_RICK_2, PetalburgCity_Gym_Text_RickRematchDefeat)
+			case 4: trainerbattle_no_intro(TRAINER_RICK_3, PetalburgCity_Gym_Text_RickRematchDefeat)
+			case 5: trainerbattle_no_intro(TRAINER_RICK_3, PetalburgCity_Gym_Text_RickRematchDefeat)
+			case 6: trainerbattle_no_intro(TRAINER_RICK_4, PetalburgCity_Gym_Text_RickRematchDefeat)
+			case 7: trainerbattle_no_intro(TRAINER_RICK_4, PetalburgCity_Gym_Text_RickRematchDefeat)
 			default:
 				if(flag(FLAG_SYS_GAME_CLEAR)){
 					//When you beat the game you can get a random rematch each day
 					random(5)
 					switch (var(VAR_RESULT)) {
-						case 0: trainerbattle_no_intro(TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanRematchDefeat)
-						case 1: trainerbattle_no_intro(TRAINER_NORMAN_2, PetalburgCity_Gym_Text_NormanRematchDefeat)
-						case 2: trainerbattle_no_intro(TRAINER_NORMAN_3, PetalburgCity_Gym_Text_NormanRematchDefeat)
-						case 3: trainerbattle_no_intro(TRAINER_NORMAN_4, PetalburgCity_Gym_Text_NormanRematchDefeat)
-						case 4: trainerbattle_no_intro(TRAINER_NORMAN_5, PetalburgCity_Gym_Text_NormanRematchDefeat)
+						case 0: trainerbattle_no_intro(TRAINER_RICK_1, PetalburgCity_Gym_Text_RickRematchDefeat)
+						case 1: trainerbattle_no_intro(TRAINER_RICK_2, PetalburgCity_Gym_Text_RickRematchDefeat)
+						case 2: trainerbattle_no_intro(TRAINER_RICK_3, PetalburgCity_Gym_Text_RickRematchDefeat)
+						case 3: trainerbattle_no_intro(TRAINER_RICK_4, PetalburgCity_Gym_Text_RickRematchDefeat)
+						case 4: trainerbattle_no_intro(TRAINER_RICK_5, PetalburgCity_Gym_Text_RickRematchDefeat)
 					}
 				}
 				else{
 					//If you have 8 badges you battle its final team
-					trainerbattle_no_intro(TRAINER_NORMAN_5, PetalburgCity_Gym_Text_NormanRematchDefeat)
+					trainerbattle_no_intro(TRAINER_RICK_5, PetalburgCity_Gym_Text_RickRematchDefeat)
 				}
 			}
 		}
 		elif(flag(FLAG_NORMAL_MODE)){
 			//Normal Mode
 			switch (var(VAR_NUM_BADGES)) {
-				case 0: trainerbattle_no_intro(TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanRematchDefeat)
-				case 1: trainerbattle_no_intro(TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanRematchDefeat)
-				case 2: trainerbattle_no_intro(TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanRematchDefeat)
-				case 3: trainerbattle_no_intro(TRAINER_NORMAN_2, PetalburgCity_Gym_Text_NormanRematchDefeat)
-				case 4: trainerbattle_no_intro(TRAINER_NORMAN_2, PetalburgCity_Gym_Text_NormanRematchDefeat)
-				case 5: trainerbattle_no_intro(TRAINER_NORMAN_3, PetalburgCity_Gym_Text_NormanRematchDefeat)
-				case 6: trainerbattle_no_intro(TRAINER_NORMAN_3, PetalburgCity_Gym_Text_NormanRematchDefeat)
-				case 7: trainerbattle_no_intro(TRAINER_NORMAN_4, PetalburgCity_Gym_Text_NormanRematchDefeat)
+				case 0: trainerbattle_no_intro(TRAINER_RICK_1, PetalburgCity_Gym_Text_RickRematchDefeat)
+				case 1: trainerbattle_no_intro(TRAINER_RICK_1, PetalburgCity_Gym_Text_RickRematchDefeat)
+				case 2: trainerbattle_no_intro(TRAINER_RICK_1, PetalburgCity_Gym_Text_RickRematchDefeat)
+				case 3: trainerbattle_no_intro(TRAINER_RICK_2, PetalburgCity_Gym_Text_RickRematchDefeat)
+				case 4: trainerbattle_no_intro(TRAINER_RICK_2, PetalburgCity_Gym_Text_RickRematchDefeat)
+				case 5: trainerbattle_no_intro(TRAINER_RICK_3, PetalburgCity_Gym_Text_RickRematchDefeat)
+				case 6: trainerbattle_no_intro(TRAINER_RICK_3, PetalburgCity_Gym_Text_RickRematchDefeat)
+				case 7: trainerbattle_no_intro(TRAINER_RICK_4, PetalburgCity_Gym_Text_RickRematchDefeat)
 				default:
 					if(flag(FLAG_SYS_GAME_CLEAR)){
 						//When you beat the game you can get a random rematch each day
 						random(5)
 						switch (var(VAR_RESULT)) {
-							case 0: trainerbattle_no_intro(TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanRematchDefeat)
-							case 1: trainerbattle_no_intro(TRAINER_NORMAN_2, PetalburgCity_Gym_Text_NormanRematchDefeat)
-							case 2: trainerbattle_no_intro(TRAINER_NORMAN_3, PetalburgCity_Gym_Text_NormanRematchDefeat)
-							case 3: trainerbattle_no_intro(TRAINER_NORMAN_4, PetalburgCity_Gym_Text_NormanRematchDefeat)
-							case 4: trainerbattle_no_intro(TRAINER_NORMAN_5, PetalburgCity_Gym_Text_NormanRematchDefeat)
+							case 0: trainerbattle_no_intro(TRAINER_RICK_1, PetalburgCity_Gym_Text_RickRematchDefeat)
+							case 1: trainerbattle_no_intro(TRAINER_RICK_2, PetalburgCity_Gym_Text_RickRematchDefeat)
+							case 2: trainerbattle_no_intro(TRAINER_RICK_3, PetalburgCity_Gym_Text_RickRematchDefeat)
+							case 3: trainerbattle_no_intro(TRAINER_RICK_4, PetalburgCity_Gym_Text_RickRematchDefeat)
+							case 4: trainerbattle_no_intro(TRAINER_RICK_5, PetalburgCity_Gym_Text_RickRematchDefeat)
 						}
 					}
 					else{
 						//If you have 8 badges you battle its final team
-						trainerbattle_no_intro(TRAINER_NORMAN_5, PetalburgCity_Gym_Text_NormanRematchDefeat)
+						trainerbattle_no_intro(TRAINER_RICK_5, PetalburgCity_Gym_Text_RickRematchDefeat)
 					}
 			}
 		}
 		else{
 			//Easy Mode
 			switch (var(VAR_NUM_BADGES)) {
-				case 0: trainerbattle_no_intro(TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanRematchDefeat)
-				case 1: trainerbattle_no_intro(TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanRematchDefeat)
-				case 2: trainerbattle_no_intro(TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanRematchDefeat)
-				case 3: trainerbattle_no_intro(TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanRematchDefeat)
-				case 4: trainerbattle_no_intro(TRAINER_NORMAN_2, PetalburgCity_Gym_Text_NormanRematchDefeat)
-				case 5: trainerbattle_no_intro(TRAINER_NORMAN_2, PetalburgCity_Gym_Text_NormanRematchDefeat)
-				case 6: trainerbattle_no_intro(TRAINER_NORMAN_3, PetalburgCity_Gym_Text_NormanRematchDefeat)
-				case 7: trainerbattle_no_intro(TRAINER_NORMAN_3, PetalburgCity_Gym_Text_NormanRematchDefeat)
+				case 0: trainerbattle_no_intro(TRAINER_RICK_1, PetalburgCity_Gym_Text_RickRematchDefeat)
+				case 1: trainerbattle_no_intro(TRAINER_RICK_1, PetalburgCity_Gym_Text_RickRematchDefeat)
+				case 2: trainerbattle_no_intro(TRAINER_RICK_1, PetalburgCity_Gym_Text_RickRematchDefeat)
+				case 3: trainerbattle_no_intro(TRAINER_RICK_1, PetalburgCity_Gym_Text_RickRematchDefeat)
+				case 4: trainerbattle_no_intro(TRAINER_RICK_2, PetalburgCity_Gym_Text_RickRematchDefeat)
+				case 5: trainerbattle_no_intro(TRAINER_RICK_2, PetalburgCity_Gym_Text_RickRematchDefeat)
+				case 6: trainerbattle_no_intro(TRAINER_RICK_3, PetalburgCity_Gym_Text_RickRematchDefeat)
+				case 7: trainerbattle_no_intro(TRAINER_RICK_3, PetalburgCity_Gym_Text_RickRematchDefeat)
 				default:
 					if(flag(FLAG_SYS_GAME_CLEAR)){
 						//When you beat the game you can get a random rematch each day
 						random(5)
 						switch (var(VAR_RESULT)) {
-							case 0: trainerbattle_no_intro(TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanRematchDefeat)
-							case 1: trainerbattle_no_intro(TRAINER_NORMAN_2, PetalburgCity_Gym_Text_NormanRematchDefeat)
-							case 2: trainerbattle_no_intro(TRAINER_NORMAN_3, PetalburgCity_Gym_Text_NormanRematchDefeat)
-							case 3: trainerbattle_no_intro(TRAINER_NORMAN_4, PetalburgCity_Gym_Text_NormanRematchDefeat)
-							case 4: trainerbattle_no_intro(TRAINER_NORMAN_5, PetalburgCity_Gym_Text_NormanRematchDefeat)
+							case 0: trainerbattle_no_intro(TRAINER_RICK_1, PetalburgCity_Gym_Text_RickRematchDefeat)
+							case 1: trainerbattle_no_intro(TRAINER_RICK_2, PetalburgCity_Gym_Text_RickRematchDefeat)
+							case 2: trainerbattle_no_intro(TRAINER_RICK_3, PetalburgCity_Gym_Text_RickRematchDefeat)
+							case 3: trainerbattle_no_intro(TRAINER_RICK_4, PetalburgCity_Gym_Text_RickRematchDefeat)
+							case 4: trainerbattle_no_intro(TRAINER_RICK_5, PetalburgCity_Gym_Text_RickRematchDefeat)
 						}
 					}
 					else{
 						//If you have 8 badges you battle its final team
-						trainerbattle_no_intro(TRAINER_NORMAN_4, PetalburgCity_Gym_Text_NormanRematchDefeat)
+						trainerbattle_no_intro(TRAINER_RICK_4, PetalburgCity_Gym_Text_RickRematchDefeat)
 					}
 			}
 		}
@@ -1995,87 +1995,87 @@ script PetalburgCity_Gym_EventScript_Norman_Battle_New{
 		if(flag(FLAG_HARD_MODE)){
 			//Hard Mode
 			switch (var(VAR_NUM_BADGES)) {
-			case 0: trainerbattle_no_intro(TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanDefeat)
-			case 1: trainerbattle_no_intro(TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanDefeat)
-			case 2: trainerbattle_no_intro(TRAINER_NORMAN_2, PetalburgCity_Gym_Text_NormanDefeat)
-			case 3: trainerbattle_no_intro(TRAINER_NORMAN_2, PetalburgCity_Gym_Text_NormanDefeat)
-			case 4: trainerbattle_no_intro(TRAINER_NORMAN_3, PetalburgCity_Gym_Text_NormanDefeat)
-			case 5: trainerbattle_no_intro(TRAINER_NORMAN_3, PetalburgCity_Gym_Text_NormanDefeat)
-			case 6: trainerbattle_no_intro(TRAINER_NORMAN_4, PetalburgCity_Gym_Text_NormanDefeat)
-			case 7: trainerbattle_no_intro(TRAINER_NORMAN_4, PetalburgCity_Gym_Text_NormanDefeat)
+			case 0: trainerbattle_no_intro(TRAINER_RICK_1, PetalburgCity_Gym_Text_RickDefeat)
+			case 1: trainerbattle_no_intro(TRAINER_RICK_1, PetalburgCity_Gym_Text_RickDefeat)
+			case 2: trainerbattle_no_intro(TRAINER_RICK_2, PetalburgCity_Gym_Text_RickDefeat)
+			case 3: trainerbattle_no_intro(TRAINER_RICK_2, PetalburgCity_Gym_Text_RickDefeat)
+			case 4: trainerbattle_no_intro(TRAINER_RICK_3, PetalburgCity_Gym_Text_RickDefeat)
+			case 5: trainerbattle_no_intro(TRAINER_RICK_3, PetalburgCity_Gym_Text_RickDefeat)
+			case 6: trainerbattle_no_intro(TRAINER_RICK_4, PetalburgCity_Gym_Text_RickDefeat)
+			case 7: trainerbattle_no_intro(TRAINER_RICK_4, PetalburgCity_Gym_Text_RickDefeat)
 			default:
 				if(flag(FLAG_SYS_GAME_CLEAR)){
 					//When you beat the game you can get a random rematch each day
 					random(5)
 					switch (var(VAR_RESULT)) {
-						case 0: trainerbattle_no_intro(TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanDefeat)
-						case 1: trainerbattle_no_intro(TRAINER_NORMAN_2, PetalburgCity_Gym_Text_NormanDefeat)
-						case 2: trainerbattle_no_intro(TRAINER_NORMAN_3, PetalburgCity_Gym_Text_NormanDefeat)
-						case 3: trainerbattle_no_intro(TRAINER_NORMAN_4, PetalburgCity_Gym_Text_NormanDefeat)
-						case 4: trainerbattle_no_intro(TRAINER_NORMAN_5, PetalburgCity_Gym_Text_NormanDefeat)
+						case 0: trainerbattle_no_intro(TRAINER_RICK_1, PetalburgCity_Gym_Text_RickDefeat)
+						case 1: trainerbattle_no_intro(TRAINER_RICK_2, PetalburgCity_Gym_Text_RickDefeat)
+						case 2: trainerbattle_no_intro(TRAINER_RICK_3, PetalburgCity_Gym_Text_RickDefeat)
+						case 3: trainerbattle_no_intro(TRAINER_RICK_4, PetalburgCity_Gym_Text_RickDefeat)
+						case 4: trainerbattle_no_intro(TRAINER_RICK_5, PetalburgCity_Gym_Text_RickDefeat)
 					}
 				}
 				else{
 					//If you have 8 badges you battle its final team
-					trainerbattle_no_intro(TRAINER_NORMAN_5, PetalburgCity_Gym_Text_NormanDefeat)
+					trainerbattle_no_intro(TRAINER_RICK_5, PetalburgCity_Gym_Text_RickDefeat)
 				}
 			}
 		}
 		elif(flag(FLAG_NORMAL_MODE)){
 			//Normal Mode
 			switch (var(VAR_NUM_BADGES)) {
-				case 0: trainerbattle_no_intro(TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanDefeat)
-				case 1: trainerbattle_no_intro(TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanDefeat)
-				case 2: trainerbattle_no_intro(TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanDefeat)
-				case 3: trainerbattle_no_intro(TRAINER_NORMAN_2, PetalburgCity_Gym_Text_NormanDefeat)
-				case 4: trainerbattle_no_intro(TRAINER_NORMAN_2, PetalburgCity_Gym_Text_NormanDefeat)
-				case 5: trainerbattle_no_intro(TRAINER_NORMAN_3, PetalburgCity_Gym_Text_NormanDefeat)
-				case 6: trainerbattle_no_intro(TRAINER_NORMAN_3, PetalburgCity_Gym_Text_NormanDefeat)
-				case 7: trainerbattle_no_intro(TRAINER_NORMAN_4, PetalburgCity_Gym_Text_NormanDefeat)
+				case 0: trainerbattle_no_intro(TRAINER_RICK_1, PetalburgCity_Gym_Text_RickDefeat)
+				case 1: trainerbattle_no_intro(TRAINER_RICK_1, PetalburgCity_Gym_Text_RickDefeat)
+				case 2: trainerbattle_no_intro(TRAINER_RICK_1, PetalburgCity_Gym_Text_RickDefeat)
+				case 3: trainerbattle_no_intro(TRAINER_RICK_2, PetalburgCity_Gym_Text_RickDefeat)
+				case 4: trainerbattle_no_intro(TRAINER_RICK_2, PetalburgCity_Gym_Text_RickDefeat)
+				case 5: trainerbattle_no_intro(TRAINER_RICK_3, PetalburgCity_Gym_Text_RickDefeat)
+				case 6: trainerbattle_no_intro(TRAINER_RICK_3, PetalburgCity_Gym_Text_RickDefeat)
+				case 7: trainerbattle_no_intro(TRAINER_RICK_4, PetalburgCity_Gym_Text_RickDefeat)
 				default:
 					if(flag(FLAG_SYS_GAME_CLEAR)){
 						//When you beat the game you can get a random rematch each day
 						random(5)
 						switch (var(VAR_RESULT)) {
-							case 0: trainerbattle_no_intro(TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanDefeat)
-							case 1: trainerbattle_no_intro(TRAINER_NORMAN_2, PetalburgCity_Gym_Text_NormanDefeat)
-							case 2: trainerbattle_no_intro(TRAINER_NORMAN_3, PetalburgCity_Gym_Text_NormanDefeat)
-							case 3: trainerbattle_no_intro(TRAINER_NORMAN_4, PetalburgCity_Gym_Text_NormanDefeat)
-							case 4: trainerbattle_no_intro(TRAINER_NORMAN_5, PetalburgCity_Gym_Text_NormanDefeat)
+							case 0: trainerbattle_no_intro(TRAINER_RICK_1, PetalburgCity_Gym_Text_RickDefeat)
+							case 1: trainerbattle_no_intro(TRAINER_RICK_2, PetalburgCity_Gym_Text_RickDefeat)
+							case 2: trainerbattle_no_intro(TRAINER_RICK_3, PetalburgCity_Gym_Text_RickDefeat)
+							case 3: trainerbattle_no_intro(TRAINER_RICK_4, PetalburgCity_Gym_Text_RickDefeat)
+							case 4: trainerbattle_no_intro(TRAINER_RICK_5, PetalburgCity_Gym_Text_RickDefeat)
 						}
 					}
 					else{
 						//If you have 8 badges you battle its final team
-						trainerbattle_no_intro(TRAINER_NORMAN_5, PetalburgCity_Gym_Text_NormanDefeat)
+						trainerbattle_no_intro(TRAINER_RICK_5, PetalburgCity_Gym_Text_RickDefeat)
 					}
 			}
 		}
 		else{
 			//Easy Mode
 			switch (var(VAR_NUM_BADGES)) {
-				case 0: trainerbattle_no_intro(TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanDefeat)
-				case 1: trainerbattle_no_intro(TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanDefeat)
-				case 2: trainerbattle_no_intro(TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanDefeat)
-				case 3: trainerbattle_no_intro(TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanDefeat)
-				case 4: trainerbattle_no_intro(TRAINER_NORMAN_2, PetalburgCity_Gym_Text_NormanDefeat)
-				case 5: trainerbattle_no_intro(TRAINER_NORMAN_2, PetalburgCity_Gym_Text_NormanDefeat)
-				case 6: trainerbattle_no_intro(TRAINER_NORMAN_3, PetalburgCity_Gym_Text_NormanDefeat)
-				case 7: trainerbattle_no_intro(TRAINER_NORMAN_3, PetalburgCity_Gym_Text_NormanDefeat)
+				case 0: trainerbattle_no_intro(TRAINER_RICK_1, PetalburgCity_Gym_Text_RickDefeat)
+				case 1: trainerbattle_no_intro(TRAINER_RICK_1, PetalburgCity_Gym_Text_RickDefeat)
+				case 2: trainerbattle_no_intro(TRAINER_RICK_1, PetalburgCity_Gym_Text_RickDefeat)
+				case 3: trainerbattle_no_intro(TRAINER_RICK_1, PetalburgCity_Gym_Text_RickDefeat)
+				case 4: trainerbattle_no_intro(TRAINER_RICK_2, PetalburgCity_Gym_Text_RickDefeat)
+				case 5: trainerbattle_no_intro(TRAINER_RICK_2, PetalburgCity_Gym_Text_RickDefeat)
+				case 6: trainerbattle_no_intro(TRAINER_RICK_3, PetalburgCity_Gym_Text_RickDefeat)
+				case 7: trainerbattle_no_intro(TRAINER_RICK_3, PetalburgCity_Gym_Text_RickDefeat)
 				default:
 					if(flag(FLAG_SYS_GAME_CLEAR)){
 						//When you beat the game you can get a random rematch each day
 						random(5)
 						switch (var(VAR_RESULT)) {
-							case 0: trainerbattle_no_intro(TRAINER_NORMAN_1, PetalburgCity_Gym_Text_NormanDefeat)
-							case 1: trainerbattle_no_intro(TRAINER_NORMAN_2, PetalburgCity_Gym_Text_NormanDefeat)
-							case 2: trainerbattle_no_intro(TRAINER_NORMAN_3, PetalburgCity_Gym_Text_NormanDefeat)
-							case 3: trainerbattle_no_intro(TRAINER_NORMAN_4, PetalburgCity_Gym_Text_NormanDefeat)
-							case 4: trainerbattle_no_intro(TRAINER_NORMAN_5, PetalburgCity_Gym_Text_NormanDefeat)
+							case 0: trainerbattle_no_intro(TRAINER_RICK_1, PetalburgCity_Gym_Text_RickDefeat)
+							case 1: trainerbattle_no_intro(TRAINER_RICK_2, PetalburgCity_Gym_Text_RickDefeat)
+							case 2: trainerbattle_no_intro(TRAINER_RICK_3, PetalburgCity_Gym_Text_RickDefeat)
+							case 3: trainerbattle_no_intro(TRAINER_RICK_4, PetalburgCity_Gym_Text_RickDefeat)
+							case 4: trainerbattle_no_intro(TRAINER_RICK_5, PetalburgCity_Gym_Text_RickDefeat)
 						}
 					}
 					else{
 						//If you have 8 badges you battle its final team
-						trainerbattle_no_intro(TRAINER_NORMAN_4, PetalburgCity_Gym_Text_NormanDefeat)
+						trainerbattle_no_intro(TRAINER_RICK_4, PetalburgCity_Gym_Text_RickDefeat)
 					}
 			}
 		}
@@ -2083,7 +2083,7 @@ script PetalburgCity_Gym_EventScript_Norman_Battle_New{
 	return
 }
 
-script PetalburgCity_Gym_EventScript_Norman_Give_Gifts{
+script PetalburgCity_Gym_EventScript_Rick_Give_Gifts{
 	//Give Confide
 	checkitem(ITEM_TM100_CONFIDE, 1)
 	if(var(VAR_NUM_BADGES) >= 2 && var(VAR_RESULT) == FALSE){
@@ -2145,7 +2145,7 @@ script PetalburgCity_Gym_EventScript_GymGuide_New{
 	faceplayer
 	//setflag(FLAG_GYM_ATTENDANT_CALL)
 	if(flag(FLAG_BADGE05_GET)){
-		if(!flag(FLAG_NORMAN_REMATCH)){
+		if(!flag(FLAG_RICK_REMATCH)){
 			msgbox(format("Guide: Hello {PLAYER}, I see you came to this Gym again, do you want me to take you to the Leader?"), MSGBOX_YESNO)
 			if(var(VAR_RESULT) == 1){
 				msgbox(format("Let me tell the leader that you are here."), MSGBOX_NPC)
@@ -2171,13 +2171,13 @@ script PetalburgCity_Gym_EventScript_Gym_Doobob{
 	faceplayer
 	switch(var(VAR_GYM_POKEMON_SPECIES)){
 		case SPECIES_DOOBOB:
-			if (flag(FLAG_BADGE05_GET) && !flag(FLAG_NORMAN_REMATCH)){
+			if (flag(FLAG_BADGE05_GET) && !flag(FLAG_RICK_REMATCH)){
 				//Ready for a rematch
 				msgbox(format("Doobob: koth!"), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems like it has some energy and wants to battle you."), MSGBOX_SIGN)
 				waitmessage
 			}
-			elif(flag(FLAG_BADGE05_GET) && flag(FLAG_NORMAN_REMATCH)){
+			elif(flag(FLAG_BADGE05_GET) && flag(FLAG_RICK_REMATCH)){
 				//After a rematch
 				msgbox(format("Doobob: koth..."), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems tired after today's battle, it let out a really loud yawn."), MSGBOX_SIGN)
@@ -2189,13 +2189,13 @@ script PetalburgCity_Gym_EventScript_Gym_Doobob{
 				waitmessage
 			}
 		case SPECIES_DOODOOBOB:
-			if (flag(FLAG_BADGE05_GET) && !flag(FLAG_NORMAN_REMATCH)){
+			if (flag(FLAG_BADGE05_GET) && !flag(FLAG_RICK_REMATCH)){
 				//Ready for a rematch
 				msgbox(format("Doodoobob: roth!"), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems like it wants a rematch with You, it looks determined to beat you."), MSGBOX_SIGN)
 				waitmessage
 			}
-			elif(flag(FLAG_BADGE05_GET) && flag(FLAG_NORMAN_REMATCH)){
+			elif(flag(FLAG_BADGE05_GET) && flag(FLAG_RICK_REMATCH)){
 				//After a rematch
 				msgbox(format("Doodoobob: roth..."), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems tired after today's battle, it let out a loud yawn."), MSGBOX_SIGN)
@@ -2207,13 +2207,13 @@ script PetalburgCity_Gym_EventScript_Gym_Doobob{
 				waitmessage
 			}
 		case SPECIES_UGADOOBA:
-			if (flag(FLAG_BADGE05_GET) && !flag(FLAG_NORMAN_REMATCH)){
+			if (flag(FLAG_BADGE05_GET) && !flag(FLAG_RICK_REMATCH)){
 				//Ready for a rematch
 				msgbox(format("Ugadooba: king!"), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems like it wants a rematch, it looks proud on how much you have grown."), MSGBOX_SIGN)
 				waitmessage
 			}
-			elif(flag(FLAG_BADGE05_GET) && flag(FLAG_NORMAN_REMATCH)){
+			elif(flag(FLAG_BADGE05_GET) && flag(FLAG_RICK_REMATCH)){
 				msgbox(format("Ugadooba: king..."), MSGBOX_NPC)
 				msgbox(format("The Pokémon seems tired after today's battle, but it still looks happy that you are so strong."), MSGBOX_SIGN)
 				waitmessage

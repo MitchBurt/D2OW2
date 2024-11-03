@@ -332,7 +332,7 @@
 #define FLAG_HAS_MATCH_CALL                  0x12F
 #define FLAG_ADDED_MATCH_CALL_TO_POKENAV     0x130
 #define FLAG_REGISTERED_STEVEN_POKENAV       0x131
-#define FLAG_ENABLE_NORMAN_MATCH_CALL        0x132
+#define FLAG_ENABLE_RICK_MATCH_CALL        0x132
 #define FLAG_STEVEN_GUIDES_TO_CAVE_OF_ORIGIN 0x133 // Set after you follow Steven to the entrance of the Cave of Origin.
 #define FLAG_MET_ARCHIE_SOOTOPOLIS           0x134
 #define FLAG_MET_MAXIE_SOOTOPOLIS            0x135
@@ -450,9 +450,9 @@
 #define FLAG_REMATCH_ZACH                  0x19F
 #define FLAG_REMATCH_TREVOR                 0x1A0
 #define FLAG_REMATCH_JARED                0x1A1
-#define FLAG_REMATCH_NORMAN                  0x1A2
+#define FLAG_REMATCH_RICK                  0x1A2
 #define FLAG_REMATCH_TANNER                  0x1A3
-#define FLAG_REMATCH_TATE_AND_LIZA           0x1A4
+#define FLAG_REMATCH_TONY_AND_SAL           0x1A4
 // Note: FLAG_REMATCH_MITCHELL is handled by FLAG_ENABLE_MITCHELL_MATCH_CALL instead.
 #define FLAG_REMATCH_SIDNEY                  0x1A5
 #define FLAG_REMATCH_GREGORIUS                  0x1A6
@@ -507,7 +507,7 @@
 #define FLAG_ENABLE_TREVOR_MATCH_CALL       0x1D5
 #define FLAG_ENABLE_JARED_MATCH_CALL      0x1D6
 #define FLAG_ENABLE_TANNER_MATCH_CALL        0x1D7
-#define FLAG_ENABLE_TATE_AND_LIZA_MATCH_CALL 0x1D8
+#define FLAG_ENABLE_TONY_AND_SAL_MATCH_CALL 0x1D8
 #define FLAG_ENABLE_MITCHELL_MATCH_CALL          0x1D9
 
 #define FLAG_INVERSE_MODE                    0x1DA    		
@@ -819,7 +819,7 @@
 #define FLAG_HIDE_ROUTE_111_VICTORIA_WINSTRATE                      0x301
 #define FLAG_HIDE_ROUTE_111_VIVI_WINSTRATE                          0x302
 #define FLAG_HIDE_ROUTE_111_VICKY_WINSTRATE                         0x303
-#define FLAG_HIDE_PETALBURG_GYM_NORMAN                              0x304
+#define FLAG_HIDE_PETALBURG_GYM_RICK                              0x304
 #define FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA_2                         0x305
 #define FLAG_HIDE_LILYCOVE_CONTEST_HALL_CONTEST_ATTENDANT_1         0x306
 #define FLAG_HIDE_LILYCOVE_MUSEUM_CURATOR                           0x307
@@ -1580,9 +1580,9 @@
 #define FLAG_ZACH_REMATCH                         (DAILY_FLAGS_START + 0x3)  // Zach
 #define FLAG_TREVOR_REMATCH                        (DAILY_FLAGS_START + 0x4)  // Trevor
 #define FLAG_JARED_REMATCH                       (DAILY_FLAGS_START + 0x5)  // Jared
-#define FLAG_NORMAN_REMATCH                         (DAILY_FLAGS_START + 0x6)  // Norman
+#define FLAG_RICK_REMATCH                         (DAILY_FLAGS_START + 0x6)  // Rick
 #define FLAG_TANNER_REMATCH                         (DAILY_FLAGS_START + 0x7)  // Tanner
-#define FLAG_TATE_AND_LIZA_REMATCH                  (DAILY_FLAGS_START + 0x8)  // Tate & Liza
+#define FLAG_TONY_AND_SAL_REMATCH                  (DAILY_FLAGS_START + 0x8)  // Tate & Liza
 #define FLAG_MITCHELL_REMATCH                           (DAILY_FLAGS_START + 0x9)  // Mitchell
 #define FLAG_DAILY_PICKED_LOTO_TICKET               (DAILY_FLAGS_START + 0xA)
 #define FLAG_DAILY_ROUTE_114_RECEIVED_BERRY         (DAILY_FLAGS_START + 0xB)

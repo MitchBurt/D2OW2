@@ -239,8 +239,8 @@ const u16 gObjectEventPalette_Trevor[]     = INCBIN_U16("graphics/object_events/
 const u32 gObjectEventPic_Jared[] 		= INCBIN_U32("graphics/object_events/pics/people/gym_leaders/jared.4bpp");
 const u16 gObjectEventPalette_Jared[]    = INCBIN_U16("graphics/object_events/pics/people/gym_leaders/jared.gbapal");
 
-const u32 gObjectEventPic_Norman[] 			= INCBIN_U32("graphics/object_events/pics/people/gym_leaders/norman.4bpp");
-const u16 gObjectEventPalette_Norman[]      = INCBIN_U16("graphics/object_events/pics/people/gym_leaders/norman.gbapal");
+const u32 gObjectEventPic_Rick[] 			= INCBIN_U32("graphics/object_events/pics/people/gym_leaders/rick.4bpp");
+const u16 gObjectEventPalette_Rick[]      = INCBIN_U16("graphics/object_events/pics/people/gym_leaders/rick.gbapal");
 
 const u32 gObjectEventPic_Tanner[] 			= INCBIN_U32("graphics/object_events/pics/people/gym_leaders/tanner.4bpp");
 const u16 gObjectEventPalette_Tanner[]      = INCBIN_U16("graphics/object_events/pics/people/gym_leaders/tanner.gbapal");

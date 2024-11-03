@@ -2721,14 +2721,14 @@ MatchCall_Text_Scott7:: @ 2B56CA
 	.string "Parece que Scott está en una zona\n"
 	.string "en la que no hay cobertura…$"
 
-MatchCall_Text_Norman1:: @ 82B5719
+MatchCall_Text_Rick1:: @ 82B5719
 	.string "Dad: In Rustboro, there's a man\n"
 	.string "that goes by the odd name of\l"
 	.string "the Cutter.\p"
 	.string "If you're in the area, you should\n"
 	.string "pay him a visit.$"
 
-MatchCall_Text_Norman2:: @ 82B5795
+MatchCall_Text_Rick2:: @ 82B5795
 	.string "Dad: Hm… Little by little, but also\n"
 	.string "very surely, you're getting\l"
 	.string "tougher, {PLAYER}.\p"
@@ -2737,7 +2737,7 @@ MatchCall_Text_Norman2:: @ 82B5795
 	.string "and me…\p"
 	.string "This feeling is hard to explain.$"
 
-MatchCall_Text_Norman3:: @ 82B584D
+MatchCall_Text_Rick3:: @ 82B584D
 	.string "Dad: I see…\n"
 	.string "You've collected four Gym Badges…\p"
 	.string "There's no avoiding it now.\n"
@@ -2745,7 +2745,7 @@ MatchCall_Text_Norman3:: @ 82B584D
 	.string "Come anytime.\n"
 	.string "We'll all be waiting for you!$"
 
-MatchCall_Text_Norman4:: @ 82B58E3
+MatchCall_Text_Rick4:: @ 82B58E3
 	.string "Dad: {PLAYER}! You'd better go visit\n"
 	.string "Mother every so often.\p"
 	.string "I'm going to remain here and\n"
@@ -2753,27 +2753,27 @@ MatchCall_Text_Norman4:: @ 82B58E3
 	.string "The way of battling is deep\n"
 	.string "and unforgiving!$"
 
-MatchCall_Text_Norman5:: @ 82B5979
+MatchCall_Text_Rick5:: @ 82B5979
 	.string "Dad: Oh, hi, {PLAYER}!\p"
 	.string "What's that? Magma Emblem?\n"
 	.string "I don't know what that's about.\p"
 	.string "But with a name like that, it may\n"
 	.string "be somehow linked to a volcano!$"
 
-MatchCall_Text_Norman6:: @ 82B5A07
+MatchCall_Text_Rick6:: @ 82B5A07
 	.string "Dad: Hiyah! Haah! Dwah!\p"
 	.string "…Oh? {PLAYER}!\p"
 	.string "You caught me right in the middle\n"
 	.string "of a Pokémon training session!$"
 
-MatchCall_Text_Norman7:: @ 82B5A69
+MatchCall_Text_Rick7:: @ 82B5A69
 	.string "Dad: {PLAYER}!\p"
 	.string "Who would've thought you'd become\n"
 	.string "the Pokémon League Champion…\p"
 	.string "Okay!\n"
 	.string "I won't be left behind!$"
 
-MatchCall_Text_Norman8:: @ 82B5ACF
+MatchCall_Text_Rick8:: @ 82B5ACF
 	.string "Papá: ¿Mm? ¿{PLAYER}?\n"
 	.string "¡Qué sincronización!\p"
 	.string "En esta ocasión, te reto\n"
@@ -2781,7 +2781,7 @@ MatchCall_Text_Norman8:: @ 82B5ACF
 	.string "Te espero en el Gimnasio\n"
 	.string "de Petalia. ¡Ven cuando quieras!$"
 
-MatchCall_Text_Norman9:: @ 82B5B5E
+MatchCall_Text_Rick9:: @ 82B5B5E
 	.string "Dad: …You amaze me, {PLAYER}.\n"
 	.string "How much higher will you soar?$"
 
@@ -2911,7 +2911,7 @@ MatchCall_Text_MrStone4:: @ 82B63A0
 MatchCall_Text_MrStone5:: @ 82B64A2
 	.string "Mr. Stone: Hello, hello, {PLAYER}{KUN}!\p"
 	.string "I heard from someone in Petalburg\n"
-	.string "that you're Norman's child!\p"
+	.string "that you're Rick's child!\p"
 	.string "No wonder you're such a capable\n"
 	.string "being!$"
 
@@ -5676,14 +5676,14 @@ MatchCall_Text_Scott7:: @ 2B56CA
 	.string "Scott appears to be out of\n"
 	.string "the Pokénav's service area…$"
 
-MatchCall_Text_Norman1:: @ 82B5719
+MatchCall_Text_Rick1:: @ 82B5719
 	.string "Dad: In Rustboro, there's a man\n"
 	.string "that goes by the odd name of\l"
 	.string "the Cutter.\p"
 	.string "If you're in the area, you should\n"
 	.string "pay him a visit.$"
 
-MatchCall_Text_Norman2:: @ 82B5795
+MatchCall_Text_Rick2:: @ 82B5795
 	.string "Dad: Hm… Little by little, but also\n"
 	.string "very surely, you're getting\l"
 	.string "tougher, {PLAYER}.\p"
@@ -5692,7 +5692,7 @@ MatchCall_Text_Norman2:: @ 82B5795
 	.string "and me…\p"
 	.string "This feeling is hard to explain.$"
 
-MatchCall_Text_Norman3:: @ 82B584D
+MatchCall_Text_Rick3:: @ 82B584D
 	.string "Dad: I see…\n"
 	.string "You've collected four Gym Badges…\p"
 	.string "There's no avoiding it now.\n"
@@ -5700,7 +5700,7 @@ MatchCall_Text_Norman3:: @ 82B584D
 	.string "Come anytime.\n"
 	.string "We'll all be waiting for you!$"
 
-MatchCall_Text_Norman4:: @ 82B58E3
+MatchCall_Text_Rick4:: @ 82B58E3
 	.string "Dad: {PLAYER}! You'd better go visit\n"
 	.string "Mother every so often.\p"
 	.string "I'm going to remain here and\n"
@@ -5708,27 +5708,27 @@ MatchCall_Text_Norman4:: @ 82B58E3
 	.string "The way of battling is deep\n"
 	.string "and unforgiving!$"
 
-MatchCall_Text_Norman5:: @ 82B5979
+MatchCall_Text_Rick5:: @ 82B5979
 	.string "Dad: Oh, hi, {PLAYER}!\p"
 	.string "What's that? Magma Emblem?\n"
 	.string "I don't know what that's about.\p"
 	.string "But with a name like that, it may\n"
 	.string "be somehow linked to a volcano!$"
 
-MatchCall_Text_Norman6:: @ 82B5A07
+MatchCall_Text_Rick6:: @ 82B5A07
 	.string "Dad: Hiyah! Haah! Dwah!\p"
 	.string "…Oh? {PLAYER}!\p"
 	.string "You caught me right in the middle\n"
 	.string "of a Pokémon training session!$"
 
-MatchCall_Text_Norman7:: @ 82B5A69
+MatchCall_Text_Rick7:: @ 82B5A69
 	.string "Dad: {PLAYER}!\p"
 	.string "Who would've thought you'd become\n"
 	.string "the Pokémon League Champion…\p"
 	.string "Okay!\n"
 	.string "I won't be left behind!$"
 
-MatchCall_Text_Norman8:: @ 82B5ACF
+MatchCall_Text_Rick8:: @ 82B5ACF
 	.string "Dad: Hm? {PLAYER}?\n"
 	.string "What good timing!\p"
 	.string "This time, I'm going to challenge\n"
@@ -5736,7 +5736,7 @@ MatchCall_Text_Norman8:: @ 82B5ACF
 	.string "I'm waiting in the Petalburg Gym.\n"
 	.string "Accept my challenge anytime!$"
 
-MatchCall_Text_Norman9:: @ 82B5B5E
+MatchCall_Text_Rick9:: @ 82B5B5E
 	.string "Dad: …You amaze me, {PLAYER}.\n"
 	.string "How much higher will you soar?$"
 
@@ -5867,7 +5867,7 @@ MatchCall_Text_MrStone4:: @ 82B63A0
 MatchCall_Text_MrStone5:: @ 82B64A2
 	.string "Mr. Stone: Hello, hello, {PLAYER}{KUN}!\p"
 	.string "I heard from someone in Petalburg\n"
-	.string "that you're Norman's child!\p"
+	.string "that you're Rick's child!\p"
 	.string "No wonder you're such a capable\n"
 	.string "being!$"
 

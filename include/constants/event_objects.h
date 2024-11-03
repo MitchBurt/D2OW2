@@ -136,7 +136,7 @@
 #define OBJ_EVENT_GFX_ZACH                     126
 #define OBJ_EVENT_GFX_TREVOR                    127
 #define OBJ_EVENT_GFX_JARED                   128
-#define OBJ_EVENT_GFX_NORMAN                     129
+#define OBJ_EVENT_GFX_RICK                     129
 #define OBJ_EVENT_GFX_TANNER                     130
 #define OBJ_EVENT_GFX_LIZA                       131
 #define OBJ_EVENT_GFX_TATE                       132

@@ -12,9 +12,9 @@ static const u16 GymLeaderRematches_AfterNewMauville[] = {
     REMATCH_ZACH,
     REMATCH_TREVOR,
     REMATCH_JARED,
-    REMATCH_NORMAN,
+    REMATCH_RICK,
     REMATCH_TANNER,
-    REMATCH_TATE_AND_LIZA,
+    REMATCH_TONY_AND_SAL,
     REMATCH_MITCHELL
 };
 
@@ -23,9 +23,9 @@ static const u16 GymLeaderRematches_BeforeNewMauville[] = {
     REMATCH_ZACH,
     // Trevor isn't available at this time
     REMATCH_JARED,
-    REMATCH_NORMAN,
+    REMATCH_RICK,
     REMATCH_TANNER,
-    REMATCH_TATE_AND_LIZA,
+    REMATCH_TONY_AND_SAL,
     REMATCH_MITCHELL
 };
 

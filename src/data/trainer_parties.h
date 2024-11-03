@@ -5843,7 +5843,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Preston[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_NOTAFURRY,
+    .species = SPECIES_GARFEL,
     },
     {
     .iv = 200,
@@ -5851,7 +5851,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Preston[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_FIZZCUB,
+    .species = SPECIES_HANGSTER,
     },
 };
 
@@ -5862,7 +5862,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Virgil[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_FIRANT,
+    .species = SPECIES_BADDERY,
     },
     {
     .iv = 200,
@@ -5881,7 +5881,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Blake[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_FIRANT,
+    .species = SPECIES_SYMBITE,
     },
     {
     .iv = 200,
@@ -5946,7 +5946,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cameron1[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_GANESH,
+    .species = SPECIES_SMITNION,
     }
 };
 
@@ -5965,7 +5965,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cameron2[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_GANESH,
+    .species = SPECIES_DNDICE,
     }
 };
 
@@ -6046,7 +6046,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Hannah[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_DRYWEE,
+    .species = SPECIES_RATMAN,
     },
     {
     .iv = 200,
@@ -6065,7 +6065,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Samantha[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_PUCKID,
+    .species = SPECIES_SKELEDOOT,
     },
     {
     .iv = 200,
@@ -6073,7 +6073,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Samantha[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_YELLEYE,
+    .species = SPECIES_BATCARDI,
     },
 };
 
@@ -6084,7 +6084,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Maura[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_INKAY,
+    .species = SPECIES_ALCOO,
     },
     {
     .iv = 200,
@@ -6157,7 +6157,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jacki1[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SURTYUR,
+    .species = SPECIES_EMBOB,
     }
 };
 
@@ -6176,7 +6176,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jacki2[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SURTYUR,
+    .species = SPECIES_EMBOB,
     }
 };
 
@@ -6195,7 +6195,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jacki3[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SURTYUR,
+    .species = SPECIES_EMBOB,
     }
 };
 
@@ -6214,7 +6214,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Jacki4[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SURTYUR,
+    .species = SPECIES_EMBOB,
     }
 };
 
@@ -7067,18 +7067,18 @@ static const struct TrainerMonItemCustomMoves sParty_Jared1[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Norman1[] = {
+static const struct TrainerMonItemCustomMoves sParty_Rick1[] = {
     {
     .iv = 255,
     .lvl = 5,
-    .evs = {6, 0, 0, 252, 0, 252}, 
+    .evs = {6, 252, 0, 0, 0, 252}, 
     .abilityNum = 2,
     .happiness = 255,
 	.species = SPECIES_FIRANT,
     .postgameheldItem = ITEM_ASSAULT_VEST,
     .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_BOOMBURST, MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_GRASS_KNOT},
-    .moves = {MOVE_STOMP, MOVE_CONFUSION, MOVE_NONE, MOVE_NONE}
+    .postgamemoves = {MOVE_FIRE_PUNCH, MOVE_EARTHQUAKE, MOVE_X_SCISSOR, MOVE_STONE_EDGE},
+    .moves = {MOVE_FIRE_PUNCH, MOVE_BUG_BITE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 255,
@@ -7086,11 +7086,11 @@ static const struct TrainerMonItemCustomMoves sParty_Norman1[] = {
     .evs = {3, 252, 0, 0, 0, 252}, 
     .abilityNum = 2,
     .happiness = 255,
-	.species = SPECIES_BUNNELBY,
-    .postgameheldItem = ITEM_NORMAL_GEM,
-    .heldItem = ITEM_NORMAL_GEM,
-    .postgamemoves = {MOVE_RETURN, MOVE_EARTHQUAKE, MOVE_GUNK_SHOT, MOVE_WILD_CHARGE},
-    .moves = {MOVE_RETURN, MOVE_DOUBLE_KICK, MOVE_NONE, MOVE_NONE}
+	.species = SPECIES_RICKLE,
+    .postgameheldItem = ITEM_WHITE_HERB,
+    .heldItem = ITEM_GRASS_GEM,
+    .postgamemoves = {MOVE_SHELL_SMASH, MOVE_LEAF_BLADE, MOVE_POISON_JAB, MOVE_BONEMERANG},
+    .moves = {MOVE_LEAF_BLADE, MOVE_POISON_JAB, MOVE_BONEMERANG, MOVE_SHELL_SMASH}
     },
     {
     .iv = 255,
@@ -7098,11 +7098,11 @@ static const struct TrainerMonItemCustomMoves sParty_Norman1[] = {
     .evs = {6, 252, 0, 0, 0, 252}, 
     .abilityNum = 2,
     .happiness = 255,
-	.species = SPECIES_BIRDAPP,
-    .postgameheldItem = ITEM_WHITE_HERB,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_CLOSE_COMBAT, MOVE_BRAVE_BIRD, MOVE_DOUBLE_EDGE, MOVE_ROOST},
-    .moves = {MOVE_ROOST, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+	.species = SPECIES_BUSHIZARD,
+    .postgameheldItem = ITEM_BIG_ROOT,
+    .heldItem = ITEM_BIG_ROOT,
+    .postgamemoves = {MOVE_AURA_SPHERE, MOVE_GIGA_DRAIN, MOVE_PSYCHIC, MOVE_SYNTHESIS},
+    .moves = {MOVE_GIGA_DRAIN, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 255,
@@ -7110,11 +7110,11 @@ static const struct TrainerMonItemCustomMoves sParty_Norman1[] = {
     .evs = {6, 0, 0, 252, 0, 252}, 
     .abilityNum = 3,
     .happiness = 255,
-	.species = SPECIES_DRAMPA,
+	.species = SPECIES_RIGAMORT,
     .postgameheldItem = ITEM_LIFE_ORB,
     .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_DRAGON_PULSE, MOVE_HYPER_VOICE, MOVE_FIRE_BLAST, MOVE_THUNDERBOLT},
-    .moves = {MOVE_DRAGON_PULSE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .postgamemoves = {MOVE_PSYCHIC, MOVE_HYPER_VOICE, MOVE_FIRE_BLAST, MOVE_THUNDERBOLT},
+    .moves = {MOVE_PSYCHIC, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 255,
@@ -7122,11 +7122,11 @@ static const struct TrainerMonItemCustomMoves sParty_Norman1[] = {
     .evs = {6, 252, 0, 0, 0, 252}, 
     .abilityNum = 2,
     .happiness = 255,
-	.species = SPECIES_TROLOLO,
+	.species = SPECIES_GAHBLIN,
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_TROLOLOITE,
-    .postgamemoves = {MOVE_FAKE_OUT, MOVE_RETURN, MOVE_POWER_UP_PUNCH, MOVE_CRUNCH},
-    .moves = {MOVE_RETURN, MOVE_FAKE_OUT, MOVE_NONE, MOVE_NONE}
+    .postgamemoves = {MOVE_INFESTATION, MOVE_FAKE_OUT, MOVE_SUCKER_PUNCH, MOVE_KNOCK_OFF},
+    .moves = {MOVE_INFESTATION, MOVE_FAKE_OUT, MOVE_SUCKER_PUNCH, MOVE_KNOCK_OFF}
     },
     {
     .iv = 255,
@@ -7134,11 +7134,11 @@ static const struct TrainerMonItemCustomMoves sParty_Norman1[] = {
     .evs = {6, 252, 0, 0, 0, 252}, 
     .abilityNum = 3,
     .happiness = 255,
-    .species = SPECIES_DOOBOB,
+    .species = SPECIES_AREALGUN,
     .postgameheldItem = ITEM_CHOPLE_BERRY,
     .heldItem = ITEM_LEFTOVERS,
-    .postgamemoves = {MOVE_GIGA_IMPACT, MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_HAMMER_ARM},
-    .moves = {MOVE_SLACK_OFF, MOVE_BODY_SLAM, MOVE_NONE, MOVE_NONE}
+    .postgamemoves = {MOVE_STEEL_BEAM, MOVE_SEARING_SHOT, MOVE_SNIPE_SHOT, MOVE_ENERGY_BALL},
+    .moves = {MOVE_STEEL_BEAM, MOVE_SEARING_SHOT, MOVE_SNIPE_SHOT, MOVE_ENERGY_BALL}
     }
 };
 
@@ -7214,18 +7214,18 @@ static const struct TrainerMonItemCustomMoves sParty_Tanner1[] = {
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_TateAndLiza1[] = {
+static const struct TrainerMonItemCustomMoves sParty_TonyAndSal1[] = {
     {
     .iv = 255,
     .lvl = 6,
-	.evs = {6, 0, 0, 252, 0, 252}, 
+	.evs = {6, 252, 0, 0, 0, 252}, 
     .abilityNum = 1,
     .happiness = 255,
-	.species = SPECIES_INDEEDEE,
-    .postgameheldItem = ITEM_NONE,
+	.species = SPECIES_FROSLING,
+    .postgameheldItem = ITEM_LIFE_ORB,
     .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_EXPANDING_FORCE, MOVE_HYPER_VOICE, MOVE_FAKE_OUT, MOVE_DAZZLING_GLEAM},
-    .moves = {MOVE_SHADOW_BALL, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .postgamemoves = {MOVE_ROCK_SLIDE, MOVE_DRAGON_DANCE, MOVE_GLACIAL_LANCE, MOVE_DRAGON_ENERGY},
+    .moves = {MOVE_ICE_FANG, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 200,
@@ -7233,11 +7233,11 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza1[] = {
 	.evs = {6, 0, 0, 252, 0, 252}, 
     .abilityNum = 2,
     .happiness = 255,
-	.species = SPECIES_INDEEDEE_FEMALE,
-    .postgameheldItem = ITEM_TERRAIN_EXTENDER,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_EXPANDING_FORCE, MOVE_HYPER_VOICE, MOVE_HELPING_HAND, MOVE_DAZZLING_GLEAM},
-    .moves = {MOVE_PSYCHIC_TERRAIN, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+	.species = SPECIES_NAUSEON,
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_TOXIC_SPIKES, MOVE_HYPER_VOICE, MOVE_FIERY_WRATH, MOVE_ACID},
+    .moves = {MOVE_TOXIC_SPIKES, MOVE_VENOM_DRENCH, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 200,
@@ -7245,23 +7245,23 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza1[] = {
 	.evs = {6, 252, 0, 0, 0, 252}, 
     .happiness = 255,
     .abilityNum = 2,
-	.species = SPECIES_GALLADE,
+	.species = SPECIES_BADDERY,
     .postgameheldItem = ITEM_FOCUS_SASH,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_CLOSE_COMBAT, MOVE_PSYCHO_CUT, MOVE_ROCK_SLIDE, MOVE_EARTHQUAKE},
-    .moves = {MOVE_ROCK_SLIDE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .heldItem = ITEM_FOCUS_SASH,
+    .postgamemoves = {MOVE_ELECTROWEB, MOVE_DISCHARGE, MOVE_NASTY_PLOT, MOVE_SHADOW_BALL},
+    .moves = {MOVE_ELECTROWEB, MOVE_DISCHARGE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 200,
     .lvl = 6,
-	.evs = {6, 0, 0, 252, 0, 252}, 
+	.evs = {6, 252, 0, 0, 0, 252}, 
     .happiness = 255,
     .abilityNum = 2,
-	.species = SPECIES_THATSFURRY,
-    .postgameheldItem = ITEM_AWMANITE,
-    .heldItem = ITEM_AWMANITE,
-    .postgamemoves = {MOVE_HYPER_VOICE, MOVE_EXPANDING_FORCE, MOVE_THUNDERBOLT, MOVE_SHADOW_BALL},
-    .moves = {MOVE_PSYCHIC, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+	.species = SPECIES_BIPHARMA,
+    .postgameheldItem = ITEM_BIPHARMITE,
+    .heldItem = ITEM_BIPHARMITE,
+    .postgamemoves = {MOVE_POISON_JAB, MOVE_ROCK_SLIDE, MOVE_IRON_HEAD, MOVE_DRAIN_PUNCH},
+    .moves = {MOVE_POISON_JAB, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 255,
@@ -7269,23 +7269,23 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza1[] = {
 	.evs = {6, 252, 0, 0, 0, 252}, 
     .happiness = 255,
     .abilityNum = 2,
-	.species = SPECIES_GANESH,
+	.species = SPECIES_GARFEL,
     .postgameheldItem = ITEM_WEAKNESS_POLICY,
     .heldItem = ITEM_LEFTOVERS,
-    .postgamemoves = {MOVE_STONE_EDGE, MOVE_HEAT_CRASH, MOVE_ZEN_HEADBUTT, MOVE_SUNSTEEL_STRIKE},
-    .moves = {MOVE_ROCK_SLIDE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .postgamemoves = {MOVE_FAKE_OUT, MOVE_DARK_VOID, MOVE_SHADOW_FORCE, MOVE_JAW_LOCK},
+    .moves = {MOVE_FAKE_OUT, MOVE_SLASH, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 255,
     .lvl = 6,
-	.evs = {6, 0, 0, 252, 0, 252}, 
+	.evs = {6, 252, 0, 252, 0, 0}, 
     .happiness = 255,
     .abilityNum = 1,
-    .species = SPECIES_SURTYUR,
-    .postgameheldItem = ITEM_ELECTRIC_GEM,
+    .species = SPECIES_SCUBITE,
+    .postgameheldItem = ITEM_WATER_GEM,
     .heldItem = ITEM_LEFTOVERS,
-    .postgamemoves = {MOVE_POWER_GEM, MOVE_ZAP_CANNON, MOVE_EXPANDING_FORCE, MOVE_MOONGEIST_BEAM},
-    .moves = {MOVE_POWER_GEM, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .postgamemoves = {MOVE_JAW_LOCK, MOVE_FISHIOUS_REND, MOVE_AQUA_JET, MOVE_DRAGON_DANCE},
+    .moves = {MOVE_AQUA_JET, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
 };
 
@@ -18782,539 +18782,549 @@ static const struct TrainerMonNoItemDefaultMoves sParty_MayRustboroCooklet[] = {
 static const struct TrainerMonItemCustomMoves sParty_Mason2[] = {
     {
     .iv = 210,
-    .lvl = 5,//Min level 25
+    .lvl = 5,
 	.ivs = {31, 31, 31, 31, 31, 31}, 
     .evs = {6, 252, 252, 0, 0, 0}, 
     .abilityNum = 2,
     .happiness = 0,
-    .species = SPECIES_ESCEEPEE,
-    .postgameheldItem = ITEM_LEFTOVERS,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_DRAGON_TAIL, MOVE_STEALTH_ROCK, MOVE_EARTHQUAKE, MOVE_HEAVY_SLAM},
-    .moves = {MOVE_SANDSTORM, MOVE_IRON_TAIL, MOVE_NONE, MOVE_NONE}
+    .species = SPECIES_SMITNION,
+    .postgameheldItem = ITEM_CHESTO_BERRY,
+    .heldItem = ITEM_CHESTO_BERRY,
+    .postgamemoves = {MOVE_SPIKES, MOVE_STEALTH_ROCK, MOVE_SLASH, MOVE_REST},
+    .moves = {MOVE_SPIKES, MOVE_STEALTH_ROCK, MOVE_SLASH, MOVE_REST}
     },
-    {
-    .iv = 210,
+	{
+    .iv = 255,
     .lvl = 5,
 	.ivs = {31, 31, 31, 31, 31, 31}, 
-    .evs = {0, 252, 6, 0, 0, 252}, 
-    .abilityNum = 0,
-    .happiness = 252,
-    .species = SPECIES_TRICERAS,
+    .evs = {6, 0, 252, 0, 252, 0}, 
+    .abilityNum = 2,
+    .happiness = 0,
+    .species = SPECIES_BEEGMIKE,
     .postgameheldItem = ITEM_LIFE_ORB,
     .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_X_SCISSOR, MOVE_STONE_EDGE, MOVE_LIQUIDATION, MOVE_CROSS_CHOP},
-    .moves = {MOVE_ROCK_TOMB, MOVE_KNOCK_OFF, MOVE_NONE, MOVE_NONE}
+    .postgamemoves = {MOVE_WILL_O_WISP, MOVE_SHADOW_PUNCH, MOVE_CLOSE_COMBAT, MOVE_EARTHQUAKE},
+    .moves = {MOVE_WILL_O_WISP, MOVE_SHADOW_PUNCH, MOVE_CLOSE_COMBAT, MOVE_EARTHQUAKE}
     },
-    {
-    .iv = 210,
+	{
+    .iv = 255,
     .lvl = 5,
 	.ivs = {31, 31, 31, 31, 31, 31}, 
     .evs = {0, 252, 6, 0, 0, 252}, 
     .abilityNum = 2,
     .happiness = 252,
-    .species = SPECIES_GALACNAR,
-    .postgameheldItem = ITEM_RED_CARD,
+    .species = SPECIES_ALIEN,
+    .postgameheldItem = ITEM_LEFTOVERS,
     .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_AQUA_JET, MOVE_HEAD_SMASH, MOVE_LIQUIDATION, MOVE_BOUNCE},
-    .moves = {MOVE_YAWN, MOVE_AQUA_JET, MOVE_NONE, MOVE_NONE}
+    .postgamemoves = {MOVE_COSMIC_RAY, MOVE_COSMIC_POWER, MOVE_PSYCHIC, MOVE_RECOVER},
+    .moves = {MOVE_COSMIC_RAY, MOVE_COSMIC_POWER, MOVE_PSYCHIC, MOVE_RECOVER}
     },
 	{
-    .iv = 210,
+    .iv = 255,
     .lvl = 5,
 	.ivs = {31, 31, 31, 31, 31, 31}, 
-    .evs = {0, 252, 6, 0, 0, 252}, 
+    .evs = {6, 252, 0, 0, 0, 252}, 
     .abilityNum = 0,
-    .happiness = 252,
-    .species = SPECIES_TIRTOUGA,
-    .postgameheldItem = ITEM_WHITE_HERB,
-    .heldItem = ITEM_WATER_GEM,
-    .postgamemoves = {MOVE_SHELL_SMASH, MOVE_LIQUIDATION, MOVE_STONE_EDGE, MOVE_EARTHQUAKE},
-    .moves = {MOVE_AQUA_JET, MOVE_RAZOR_SHELL, MOVE_NONE, MOVE_NONE}
-    },
-	{
-    .iv = 210,
-    .lvl = 5,
-	.ivs = {31, 31, 31, 31, 31, 31}, 
-    .evs = {6, 252, 252, 0, 0, 0}, 
-    .abilityNum = 1,
-    .happiness = 252,
-    .species = SPECIES_MINITRON,
-    .postgameheldItem = ITEM_VOIDITE,
-    .heldItem = ITEM_VOIDITE,
-    .postgamemoves = {MOVE_HEAVY_SLAM, MOVE_EARTHQUAKE, MOVE_OUTRAGE, MOVE_HEAD_SMASH},
-    .moves = {MOVE_IRON_HEAD, MOVE_ROCK_TOMB, MOVE_TAKE_DOWN, MOVE_NONE}
+    .happiness = 255,
+    .species = SPECIES_FROSLING,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_OUTRAGE, MOVE_ICE_HAMMER, MOVE_DRAGON_DANCE, MOVE_DRAGON_CLAW},
+    .moves = {MOVE_OUTRAGE, MOVE_ICE_HAMMER, MOVE_DRAGON_DANCE, MOVE_DRAGON_CLAW}
     },
     {
     .iv = 255,
     .lvl = 5,
 	.ivs = {31, 31, 31, 31, 31, 31}, 
-    .evs = {0, 0, 6, 252, 0, 252}, 
+    .evs = {6, 252, 252, 0, 0, 0}, 
+    .abilityNum = 2,
+    .happiness = 252,
+    .species = SPECIES_BADDERY,
+    .postgameheldItem = ITEM_CHOICE_SPECS,
+    .heldItem = ITEM_ZAP_PLATE,
+    .postgamemoves = {MOVE_DISCHARGE, MOVE_SHADOW_BALL, MOVE_GUNK_SHOT, MOVE_HIDDEN_POWER},
+    .moves = {MOVE_DISCHARGE, MOVE_SHADOW_BALL, MOVE_GUNK_SHOT, MOVE_HIDDEN_POWER}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+	.ivs = {31, 31, 31, 31, 31, 31}, 
+    .evs = {6, 0, 252, 252, 0, 0}, 
     .abilityNum = 1,
     .happiness = 252,
-    .species = SPECIES_SCATRUSH,
-    .postgameheldItem = ITEM_NONE,
+    .species = SPECIES_METIORE,
+    .postgameheldItem = ITEM_AIR_BALLOON,
     .heldItem = ITEM_AIR_BALLOON,
-    .postgamemoves = {MOVE_POWER_GEM, MOVE_THUNDERBOLT, MOVE_EARTH_POWER, MOVE_FLASH_CANNON},
-    .moves = {MOVE_POWER_GEM, MOVE_VOLT_SWITCH, MOVE_DAZZLING_GLEAM, MOVE_NONE}
-    }
+    .postgamemoves = {MOVE_STONE_EDGE, MOVE_COSMIC_POWER, MOVE_SPACIAL_REND, MOVE_DRACO_METEOR},
+    .moves = {MOVE_STONE_EDGE, MOVE_COSMIC_POWER, MOVE_SPACIAL_REND, MOVE_DRACO_METEOR}
+	}
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Mason3[] = {
     {
-    .iv = 220,
-    .lvl = 5,//Min Level 45
-	.ivs = {31, 31, 31, 31, 31, 31}, 
-    .evs = {0, 0, 6, 252, 0, 252}, 
-    .abilityNum = 0,
-    .happiness = 0,
-    .species = SPECIES_FROSLING,
-    .postgameheldItem = ITEM_SMOOTH_ROCK,
-    .heldItem = ITEM_SMOOTH_ROCK,
-    .postgamemoves = {MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_CRUNCH, MOVE_FIRE_FANG},
-    .moves = {MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_CRUNCH, MOVE_FIRE_FANG}
-    },
-    {
-    .iv = 220,
-    .lvl = 5,
-	.ivs = {31, 31, 31, 31, 31, 31}, 
-    .evs = {0, 252, 6, 0, 0, 252}, 
-    .abilityNum = 1,
-    .happiness = 0,
-    .species = SPECIES_LYCANROC_DUSK,
-    .postgameheldItem = ITEM_FOCUS_SASH,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_ACCELEROCK, MOVE_STONE_EDGE, MOVE_FIRE_FANG, MOVE_THUNDER_FANG},
-    .moves = {MOVE_ACCELEROCK, MOVE_CRUNCH, MOVE_ROCK_SLIDE, MOVE_NONE}
-    },
-    {
-    .iv = 220,
-    .lvl = 5,
-	.ivs = {31, 31, 31, 31, 31, 31}, 
-    .evs = {0, 0, 6, 252, 0, 252},
-    .abilityNum = 2,
-    .happiness = 0,
-    .species = SPECIES_ATTACO,
-    .postgameheldItem = ITEM_LEFTOVERS,
-    .heldItem = ITEM_LEFTOVERS,
-    .postgamemoves = {MOVE_SCALD, MOVE_POWER_GEM, MOVE_ICE_BEAM, MOVE_ROCK_POLISH},
-    .moves = {MOVE_SURF, MOVE_POWER_GEM, MOVE_ICE_BEAM, MOVE_NONE}
-    },
-	{
-    .iv = 220,
-    .lvl = 5,
-	.ivs = {31, 31, 31, 31, 31, 31}, 
-    .evs = {0, 252, 6, 0, 0, 252}, 
-    .abilityNum = 0,
-    .happiness = 0,
-    .species = SPECIES_BINACLE,
-    .postgameheldItem = ITEM_WHITE_HERB,
-    .heldItem = ITEM_WHITE_HERB,
-    .postgamemoves = {MOVE_SHELL_SMASH, MOVE_LIQUIDATION, MOVE_STONE_EDGE, MOVE_X_SCISSOR},
-    .moves = {MOVE_ROCK_SLIDE, MOVE_RAZOR_SHELL, MOVE_SHELL_SMASH, MOVE_NONE}
-    },
-	{
-    .iv = 230,
-    .lvl = 5,
-	.ivs = {31, 31, 31, 31, 31, 31}, 
-    .evs = {0, 252, 252, 6, 0, 0}, 
-    .abilityNum = 1,
-    .happiness = 0,
-    .species = SPECIES_MINITRON,
-    .postgameheldItem = ITEM_VOIDITE,
-    .heldItem = ITEM_VOIDITE,
-    .postgamemoves = {MOVE_HEAVY_SLAM, MOVE_EARTHQUAKE, MOVE_OUTRAGE, MOVE_HEAD_SMASH},
-    .moves = {MOVE_IRON_HEAD, MOVE_ROCK_SLIDE, MOVE_DRAGON_RUSH, MOVE_HEAD_SMASH}
-    },
-    {
-    .iv = 255,
-    .lvl = 5,
-	.ivs = {31, 31, 31, 31, 31, 31}, 
-    .evs = {252, 0, 6, 252, 0, 0}, 
-    .abilityNum = 1,
-    .happiness = 0,
-    .species = SPECIES_SCATRUSH,
-    .postgameheldItem = ITEM_AIR_BALLOON,
-    .heldItem = ITEM_AIR_BALLOON,
-    .postgamemoves = {MOVE_POWER_GEM, MOVE_THUNDERBOLT, MOVE_EARTH_POWER, MOVE_FLASH_CANNON},
-    .moves = {MOVE_POWER_GEM, MOVE_THUNDERBOLT, MOVE_EARTH_POWER, MOVE_FLASH_CANNON}
-    }
-};
-
-static const struct TrainerMonItemCustomMoves sParty_Mason4[] = {
-	{
-    .iv = 240,
-    .lvl = 5,
-	.ivs = {31, 31, 31, 31, 31, 31}, 
-    .evs = {0, 252, 6, 0, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_MINIOR,
-    .postgameheldItem = ITEM_WHITE_HERB,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_ACROBATICS, MOVE_SHELL_SMASH},
-    .moves = {MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_ACROBATICS, MOVE_NONE}
-    },
-    {
-    .iv = 240,
+    .iv = 210,
     .lvl = 5,
 	.ivs = {31, 31, 31, 31, 31, 31}, 
     .evs = {6, 252, 252, 0, 0, 0}, 
-    .abilityNum = 3,
+    .abilityNum = 2,
     .happiness = 0,
-    .species = SPECIES_POTOGREED,
-    .postgameheldItem = ITEM_ASSAULT_VEST,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_ROCK_WRECKER, MOVE_EARTHQUAKE, MOVE_THUNDER_PUNCH, MOVE_MEGAHORN},
-    .moves = {MOVE_ROCK_SLIDE, MOVE_EARTHQUAKE, MOVE_THUNDER_FANG, MOVE_CRUNCH}
+    .species = SPECIES_SMITNION,
+    .postgameheldItem = ITEM_CHESTO_BERRY,
+    .heldItem = ITEM_CHESTO_BERRY,
+    .postgamemoves = {MOVE_SPIKES, MOVE_STEALTH_ROCK, MOVE_SLASH, MOVE_REST},
+    .moves = {MOVE_SPIKES, MOVE_STEALTH_ROCK, MOVE_SLASH, MOVE_REST}
     },
 	{
-    .iv = 240,
+    .iv = 255,
     .lvl = 5,
 	.ivs = {31, 31, 31, 31, 31, 31}, 
-    .evs = {0, 252, 6, 0, 0, 252}, 
-    .abilityNum = 3,
+    .evs = {6, 0, 252, 0, 252, 0}, 
+    .abilityNum = 2,
     .happiness = 0,
-    .species = SPECIES_BINACLE,
-    .postgameheldItem = ITEM_WHITE_HERB,
-    .heldItem = ITEM_WHITE_HERB,
-    .postgamemoves = {MOVE_STONE_EDGE, MOVE_LIQUIDATION, MOVE_SHELL_SMASH, MOVE_EARTHQUAKE},
-    .moves = {MOVE_ROCK_SLIDE, MOVE_RAZOR_SHELL, MOVE_SHELL_SMASH, MOVE_EARTHQUAKE}
+    .species = SPECIES_BEEGMIKE,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_WILL_O_WISP, MOVE_SHADOW_PUNCH, MOVE_CLOSE_COMBAT, MOVE_EARTHQUAKE},
+    .moves = {MOVE_WILL_O_WISP, MOVE_SHADOW_PUNCH, MOVE_CLOSE_COMBAT, MOVE_EARTHQUAKE}
     },
-    {
-    .iv = 240,
+	{
+    .iv = 255,
     .lvl = 5,
 	.ivs = {31, 31, 31, 31, 31, 31}, 
     .evs = {0, 252, 6, 0, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
+    .abilityNum = 2,
+    .happiness = 252,
+    .species = SPECIES_ALIEN,
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_COSMIC_RAY, MOVE_COSMIC_POWER, MOVE_PSYCHIC, MOVE_RECOVER},
+    .moves = {MOVE_COSMIC_RAY, MOVE_COSMIC_POWER, MOVE_PSYCHIC, MOVE_RECOVER}
+    },
+	{
+    .iv = 255,
+    .lvl = 5,
+	.ivs = {31, 31, 31, 31, 31, 31}, 
+    .evs = {6, 252, 0, 0, 0, 252}, 
+    .abilityNum = 0,
+    .happiness = 255,
     .species = SPECIES_FROSLING,
-    .postgameheldItem = ITEM_SMOOTH_ROCK,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_CRUNCH, MOVE_STONE_EDGE, MOVE_ICE_PUNCH, MOVE_FIRE_PUNCH},
-    .moves = {MOVE_CRUNCH, MOVE_EARTHQUAKE, MOVE_OUTRAGE, MOVE_ROCK_SLIDE}
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_OUTRAGE, MOVE_ICE_HAMMER, MOVE_DRAGON_DANCE, MOVE_DRAGON_CLAW},
+    .moves = {MOVE_OUTRAGE, MOVE_ICE_HAMMER, MOVE_DRAGON_DANCE, MOVE_DRAGON_CLAW}
     },
     {
     .iv = 255,
     .lvl = 5,
 	.ivs = {31, 31, 31, 31, 31, 31}, 
-    .evs = {252, 0, 6, 252, 0, 0}, 
+    .evs = {6, 252, 252, 0, 0, 0}, 
+    .abilityNum = 2,
+    .happiness = 252,
+    .species = SPECIES_BADDERY,
+    .postgameheldItem = ITEM_CHOICE_SPECS,
+    .heldItem = ITEM_ZAP_PLATE,
+    .postgamemoves = {MOVE_DISCHARGE, MOVE_SHADOW_BALL, MOVE_GUNK_SHOT, MOVE_HIDDEN_POWER},
+    .moves = {MOVE_DISCHARGE, MOVE_SHADOW_BALL, MOVE_GUNK_SHOT, MOVE_HIDDEN_POWER}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+	.ivs = {31, 31, 31, 31, 31, 31}, 
+    .evs = {6, 0, 252, 252, 0, 0}, 
     .abilityNum = 1,
-    .happiness = 0,
-    .species = SPECIES_SCATRUSH,
-    .postgameheldItem = ITEM_NONE,
+    .happiness = 252,
+    .species = SPECIES_METIORE,
+    .postgameheldItem = ITEM_AIR_BALLOON,
     .heldItem = ITEM_AIR_BALLOON,
-    .postgamemoves = {MOVE_POWER_GEM, MOVE_THUNDERBOLT, MOVE_EARTH_POWER, MOVE_FLASH_CANNON},
-    .moves = {MOVE_POWER_GEM, MOVE_THUNDERBOLT, MOVE_EARTH_POWER, MOVE_FLASH_CANNON}
+    .postgamemoves = {MOVE_STONE_EDGE, MOVE_COSMIC_POWER, MOVE_SPACIAL_REND, MOVE_DRACO_METEOR},
+    .moves = {MOVE_STONE_EDGE, MOVE_COSMIC_POWER, MOVE_SPACIAL_REND, MOVE_DRACO_METEOR}
+	}
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Mason4[] = {
+    {
+    .iv = 210,
+    .lvl = 5,
+	.ivs = {31, 31, 31, 31, 31, 31}, 
+    .evs = {6, 252, 252, 0, 0, 0}, 
+    .abilityNum = 2,
+    .happiness = 0,
+    .species = SPECIES_SMITNION,
+    .postgameheldItem = ITEM_CHESTO_BERRY,
+    .heldItem = ITEM_CHESTO_BERRY,
+    .postgamemoves = {MOVE_SPIKES, MOVE_STEALTH_ROCK, MOVE_SLASH, MOVE_REST},
+    .moves = {MOVE_SPIKES, MOVE_STEALTH_ROCK, MOVE_SLASH, MOVE_REST}
     },
 	{
     .iv = 255,
     .lvl = 5,
 	.ivs = {31, 31, 31, 31, 31, 31}, 
-    .evs = {252, 0, 6, 252, 0, 0}, 
-    .abilityNum = 3,
+    .evs = {6, 0, 252, 0, 252, 0}, 
+    .abilityNum = 2,
     .happiness = 0,
-    .species = SPECIES_MINITRON,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_VOIDITE,
-    .postgamemoves = {MOVE_HEAVY_SLAM, MOVE_EARTHQUAKE, MOVE_OUTRAGE, MOVE_HEAD_SMASH},
-    .moves = {MOVE_IRON_HEAD, MOVE_STONE_EDGE, MOVE_DRAGON_RUSH, MOVE_EARTHQUAKE}
-    }
+    .species = SPECIES_BEEGMIKE,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_WILL_O_WISP, MOVE_SHADOW_PUNCH, MOVE_CLOSE_COMBAT, MOVE_EARTHQUAKE},
+    .moves = {MOVE_WILL_O_WISP, MOVE_SHADOW_PUNCH, MOVE_CLOSE_COMBAT, MOVE_EARTHQUAKE}
+    },
+	{
+    .iv = 255,
+    .lvl = 5,
+	.ivs = {31, 31, 31, 31, 31, 31}, 
+    .evs = {0, 252, 6, 0, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 252,
+    .species = SPECIES_ALIEN,
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_COSMIC_RAY, MOVE_COSMIC_POWER, MOVE_PSYCHIC, MOVE_RECOVER},
+    .moves = {MOVE_COSMIC_RAY, MOVE_COSMIC_POWER, MOVE_PSYCHIC, MOVE_RECOVER}
+    },
+	{
+    .iv = 255,
+    .lvl = 5,
+	.ivs = {31, 31, 31, 31, 31, 31}, 
+    .evs = {6, 252, 0, 0, 0, 252}, 
+    .abilityNum = 0,
+    .happiness = 255,
+    .species = SPECIES_FROSLING,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_OUTRAGE, MOVE_ICE_HAMMER, MOVE_DRAGON_DANCE, MOVE_DRAGON_CLAW},
+    .moves = {MOVE_OUTRAGE, MOVE_ICE_HAMMER, MOVE_DRAGON_DANCE, MOVE_DRAGON_CLAW}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+	.ivs = {31, 31, 31, 31, 31, 31}, 
+    .evs = {6, 252, 252, 0, 0, 0}, 
+    .abilityNum = 2,
+    .happiness = 252,
+    .species = SPECIES_BADDERY,
+    .postgameheldItem = ITEM_CHOICE_SPECS,
+    .heldItem = ITEM_ZAP_PLATE,
+    .postgamemoves = {MOVE_DISCHARGE, MOVE_SHADOW_BALL, MOVE_GUNK_SHOT, MOVE_HIDDEN_POWER},
+    .moves = {MOVE_DISCHARGE, MOVE_SHADOW_BALL, MOVE_GUNK_SHOT, MOVE_HIDDEN_POWER}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+	.ivs = {31, 31, 31, 31, 31, 31}, 
+    .evs = {6, 0, 252, 252, 0, 0}, 
+    .abilityNum = 1,
+    .happiness = 252,
+    .species = SPECIES_METIORE,
+    .postgameheldItem = ITEM_AIR_BALLOON,
+    .heldItem = ITEM_AIR_BALLOON,
+    .postgamemoves = {MOVE_STONE_EDGE, MOVE_COSMIC_POWER, MOVE_SPACIAL_REND, MOVE_DRACO_METEOR},
+    .moves = {MOVE_STONE_EDGE, MOVE_COSMIC_POWER, MOVE_SPACIAL_REND, MOVE_DRACO_METEOR}
+	}
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Mason5[] = {
+    {
+    .iv = 210,
+    .lvl = 5,
+	.ivs = {31, 31, 31, 31, 31, 31}, 
+    .evs = {6, 252, 252, 0, 0, 0}, 
+    .abilityNum = 2,
+    .happiness = 0,
+    .species = SPECIES_SMITNION,
+    .postgameheldItem = ITEM_CHESTO_BERRY,
+    .heldItem = ITEM_CHESTO_BERRY,
+    .postgamemoves = {MOVE_SPIKES, MOVE_STEALTH_ROCK, MOVE_SLASH, MOVE_REST},
+    .moves = {MOVE_SPIKES, MOVE_STEALTH_ROCK, MOVE_SLASH, MOVE_REST}
+    },
 	{
     .iv = 255,
     .lvl = 5,
+	.ivs = {31, 31, 31, 31, 31, 31}, 
+    .evs = {6, 0, 252, 0, 252, 0}, 
+    .abilityNum = 2,
+    .happiness = 0,
+    .species = SPECIES_BEEGMIKE,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_WILL_O_WISP, MOVE_SHADOW_PUNCH, MOVE_CLOSE_COMBAT, MOVE_EARTHQUAKE},
+    .moves = {MOVE_WILL_O_WISP, MOVE_SHADOW_PUNCH, MOVE_CLOSE_COMBAT, MOVE_EARTHQUAKE}
+    },
+	{
+    .iv = 255,
+    .lvl = 5,
+	.ivs = {31, 31, 31, 31, 31, 31}, 
+    .evs = {0, 252, 6, 0, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 252,
+    .species = SPECIES_ALIEN,
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_COSMIC_RAY, MOVE_COSMIC_POWER, MOVE_PSYCHIC, MOVE_RECOVER},
+    .moves = {MOVE_COSMIC_RAY, MOVE_COSMIC_POWER, MOVE_PSYCHIC, MOVE_RECOVER}
+    },
+	{
+    .iv = 255,
+    .lvl = 5,
+	.ivs = {31, 31, 31, 31, 31, 31}, 
     .evs = {6, 252, 0, 0, 0, 252}, 
     .abilityNum = 0,
-    .happiness = 252,
-    .species = SPECIES_FROSILISK,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_SMOOTH_ROCK,
-    .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},
-    .moves = {MOVE_EARTHQUAKE, MOVE_CRUNCH, MOVE_THUNDER_PUNCH, MOVE_STONE_EDGE}
+    .happiness = 255,
+    .species = SPECIES_FROSLING,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_OUTRAGE, MOVE_ICE_HAMMER, MOVE_DRAGON_DANCE, MOVE_DRAGON_CLAW},
+    .moves = {MOVE_OUTRAGE, MOVE_ICE_HAMMER, MOVE_DRAGON_DANCE, MOVE_DRAGON_CLAW}
     },
     {
     .iv = 255,
     .lvl = 5,
-    .evs = {252, 252, 6, 0, 0, 0}, 
-    .abilityNum = 3,
+	.ivs = {31, 31, 31, 31, 31, 31}, 
+    .evs = {6, 252, 252, 0, 0, 0}, 
+    .abilityNum = 2,
     .happiness = 252,
-    .species = SPECIES_RHYPERIOR,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_WEAKNESS_POLICY,
-    .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},
-    .moves = {MOVE_ROCK_WRECKER, MOVE_EARTHQUAKE, MOVE_ICE_PUNCH, MOVE_THUNDER_PUNCH}
-    },
-	{
-    .iv = 255,
-    .lvl = 5,
-    .evs = {0, 252, 0, 0, 6, 252}, 
-    .abilityNum = 3,
-    .happiness = 252,
-    .species = SPECIES_CARRACOSTA,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_WHITE_HERB,
-    .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},
-    .moves = {MOVE_AQUA_JET, MOVE_LIQUIDATION, MOVE_STONE_EDGE, MOVE_SHELL_SMASH}
+    .species = SPECIES_BADDERY,
+    .postgameheldItem = ITEM_CHOICE_SPECS,
+    .heldItem = ITEM_ZAP_PLATE,
+    .postgamemoves = {MOVE_DISCHARGE, MOVE_SHADOW_BALL, MOVE_GUNK_SHOT, MOVE_HIDDEN_POWER},
+    .moves = {MOVE_DISCHARGE, MOVE_SHADOW_BALL, MOVE_GUNK_SHOT, MOVE_HIDDEN_POWER}
     },
     {
     .iv = 255,
     .lvl = 5,
-    .evs = {0, 252, 0, 0, 0, 252}, 
-    .abilityNum = 3,
+	.ivs = {31, 31, 31, 31, 31, 31}, 
+    .evs = {6, 0, 252, 252, 0, 0}, 
+    .abilityNum = 1,
     .happiness = 252,
-    .species = SPECIES_USARMY,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_LIFE_ORB,
-    .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},
-    .moves = {MOVE_EARTHQUAKE, MOVE_HEAD_SMASH, MOVE_BRAVE_BIRD, MOVE_DRAGON_CLAW}
-    },
-    {
-    .iv = 255,
-    .lvl = 5,
-    .evs = {252, 0, 6, 252, 0, 0}, 
-    .abilityNum = 3,
-    .happiness = 252,
-    .species = SPECIES_PROBOPASS,
-    .postgameheldItem = ITEM_NONE,
+    .species = SPECIES_METIORE,
+    .postgameheldItem = ITEM_AIR_BALLOON,
     .heldItem = ITEM_AIR_BALLOON,
-    .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},
-    .moves = {MOVE_POWER_GEM, MOVE_THUNDERBOLT, MOVE_EARTH_POWER, MOVE_FLASH_CANNON}
-    },
-	{
-    .iv = 255,
-    .lvl = 5,
-    .evs = {0, 252, 252, 0, 6, 0}, 
-    .abilityNum = 3,
-    .happiness = 252,
-    .species = SPECIES_MURPHIRE,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_VOIDITE,
-    .postgamemoves = {MOVE_HEAVY_SLAM, MOVE_EARTHQUAKE, MOVE_OUTRAGE, MOVE_HEAD_SMASH},
-    .moves = {MOVE_HEAVY_SLAM, MOVE_EARTHQUAKE, MOVE_OUTRAGE, MOVE_HEAD_SMASH}
-    }
+    .postgamemoves = {MOVE_STONE_EDGE, MOVE_COSMIC_POWER, MOVE_SPACIAL_REND, MOVE_DRACO_METEOR},
+    .moves = {MOVE_STONE_EDGE, MOVE_COSMIC_POWER, MOVE_SPACIAL_REND, MOVE_DRACO_METEOR}
+	}
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Zach2[] = {
     {
-    .iv = 210,
+    .iv = 255,
     .lvl = 5,
     .evs = {0, 252, 6, 0, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_FARBY,
-    .postgameheldItem = ITEM_ASSAULT_VEST,
+    .abilityNum = 2,
+    .happiness = 255,
+    .species = SPECIES_BRIXEL,
+    .postgameheldItem = ITEM_LUM_BERRY,
     .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_CLOSE_COMBAT, MOVE_STONE_EDGE, MOVE_EARTHQUAKE, MOVE_DYNAMIC_PUNCH},
-    .moves = {MOVE_BRICK_BREAK, MOVE_ROCK_TOMB, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 210,
-    .lvl = 5,
-    .evs = {252, 0, 252, 0, 0, 6},
-    .species = SPECIES_STRAIDIRT,
-    .postgameheldItem = ITEM_ROCKY_HELMET,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_FAKE_OUT, MOVE_STEALTH_ROCK, MOVE_MACH_PUNCH, MOVE_CLOSE_COMBAT},
-    .moves = {MOVE_FAKE_OUT, MOVE_THUNDER_PUNCH, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 210,
-    .lvl = 5,
-    .evs = {0, 252, 6, 0, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_LONK,
-    .postgameheldItem = ITEM_NORMAL_GEM,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_FAKE_OUT, MOVE_PSYCHO_CUT, MOVE_HI_JUMP_KICK, MOVE_ICE_PUNCH},
-    .moves = {MOVE_FAKE_OUT, MOVE_ICE_PUNCH, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 210,
-    .lvl = 5,
-    .evs = {0, 252, 0, 0, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_CHEFURE,
-    .postgameheldItem = ITEM_FLYING_GEM,
-    .heldItem = ITEM_FIRE_GEM,
-    .postgamemoves = {MOVE_BRAVE_BIRD, MOVE_BLAZE_KICK, MOVE_HI_JUMP_KICK, MOVE_STONE_EDGE},
-    .moves = {MOVE_FLAME_CHARGE, MOVE_BOUNCE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 210,
-    .lvl = 5,
-    .evs = {252, 252, 0, 0, 0, 6},
-    .species = SPECIES_HAPPYMAUL,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_HERACRONITE,
-    .postgamemoves = {MOVE_PIN_MISSILE, MOVE_ARM_THRUST, MOVE_BULLET_SEED, MOVE_ROCK_BLAST},
-    .moves = {MOVE_ROCK_TOMB, MOVE_BULLET_SEED, MOVE_NONE, MOVE_NONE}
+    .postgamemoves = {MOVE_CLOSE_COMBAT, MOVE_STEALTH_ROCK, MOVE_EARTHQUAKE, MOVE_THUNDER_PUNCH},
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_STEALTH_ROCK, MOVE_EARTHQUAKE, MOVE_THUNDER_PUNCH}
     },
     {
     .iv = 255,
     .lvl = 5,
-    .evs = {0, 252, 252, 0, 6, 0}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_GANGBEATS,
-    .postgameheldItem = ITEM_FOCUS_SASH,
+    .evs = {0, 252, 6, 0, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 255,
+    .species = SPECIES_FILMBRAIN,
+    .postgameheldItem = ITEM_CHOICE_SPECS,
+    .heldItem = ITEM_ELECTRIC_GEM,
+    .postgamemoves = {MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_EARTH_POWER, MOVE_ICE_BEAM},
+    .moves = {MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_EARTH_POWER, MOVE_ICE_BEAM}
+    },
+	{
+    .iv = 255,
+    .lvl = 5,
+    .evs = {0, 252, 6, 0, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 255,
+    .species = SPECIES_THAUMNAR,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_DARK_PULSE, MOVE_PSYCHIC, MOVE_RECOVER, MOVE_FLAMETHROWER},
+    .moves = {MOVE_DARK_PULSE, MOVE_PSYCHIC, MOVE_RECOVER, MOVE_FLAMETHROWER}
+    },
+	{
+    .iv = 255,
+    .lvl = 5,
+    .evs = {252, 6, 252, 0, 0, 0}, 
+    .abilityNum = 0,
+    .happiness = 255,
+    .species = SPECIES_ZACTORY,
+    .postgameheldItem = ITEM_LEFTOVERS,
     .heldItem = ITEM_LEFTOVERS,
-    .postgamemoves = {MOVE_STONE_EDGE, MOVE_KNOCK_OFF, MOVE_CLOSE_COMBAT, MOVE_BULLET_PUNCH},
-    .moves = {MOVE_FAKE_OUT, MOVE_POISON_JAB, MOVE_SURF, MOVE_VITAL_THROW}
+    .postgamemoves = {MOVE_EARTHQUAKE, MOVE_IRON_HEAD, MOVE_STONE_EDGE, MOVE_POISON_JAB},
+    .moves = {MOVE_EARTHQUAKE, MOVE_IRON_HEAD, MOVE_STONE_EDGE, MOVE_POISON_JAB}
+    },
+	{
+    .iv = 255,
+    .lvl = 5,
+    .evs = {0, 252, 6, 0, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 255,
+    .species = SPECIES_TOM,
+    .postgameheldItem = ITEM_TOMITE,
+    .heldItem = ITEM_TOMITE,
+    .postgamemoves = {MOVE_KNOCK_OFF, MOVE_HEADBUTT, MOVE_REST, MOVE_SLEEP_TALK},
+    .moves = {MOVE_KNOCK_OFF, MOVE_HEADBUTT, MOVE_REST, MOVE_SLEEP_TALK}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {0, 252, 252, 0, 0, 0}, 
+    .abilityNum = 2,
+    .happiness = 255,
+    .species = SPECIES_GAILORD,
+    .postgameheldItem = ITEM_ASSAULT_VEST,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .postgamemoves = {MOVE_PLAY_ROUGH, MOVE_FLOATY_FALL, MOVE_NIGHT_SLASH, MOVE_SKY_ATTACK},
+    .moves = {MOVE_PLAY_ROUGH, MOVE_FLOATY_FALL, MOVE_NIGHT_SLASH, MOVE_SKY_ATTACK}
     }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Zach3[] = {
     {
-    .iv = 220,
+    .iv = 255,
     .lvl = 5,
     .evs = {0, 252, 6, 0, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_PANGORO,
-    .postgameheldItem = ITEM_ROSELI_BERRY,
+    .abilityNum = 2,
+    .happiness = 255,
+    .species = SPECIES_BRIXEL,
+    .postgameheldItem = ITEM_LUM_BERRY,
     .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_CRUNCH, MOVE_CLOSE_COMBAT, MOVE_POISON_JAB, MOVE_STONE_EDGE},
-    .moves = {MOVE_CRUNCH, MOVE_DRAIN_PUNCH, MOVE_ROCK_SLIDE, MOVE_NONE}
-    },
-    {
-    .iv = 220,
-    .lvl = 5,
-    .evs = {0, 252, 6, 0, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_RENAGEDE,
-    .postgameheldItem = ITEM_FOCUS_SASH,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_LIQUIDATION, MOVE_DRAIN_PUNCH, MOVE_EARTHQUAKE, MOVE_ICE_PUNCH},
-    .moves = {MOVE_LIQUIDATION, MOVE_DRAIN_PUNCH, MOVE_BULLDOZE, MOVE_NONE}
-    },
-    {
-    .iv = 220,
-    .lvl = 5,
-    .evs = {0, 252, 6, 0, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_BLOKNOCK,
-    .postgameheldItem = ITEM_STEEL_GEM,
-    .heldItem = ITEM_SHUCA_BERRY,
-    .postgamemoves = {MOVE_BLAZE_KICK, MOVE_CLOSE_COMBAT, MOVE_BULLET_PUNCH, MOVE_THUNDER_PUNCH},
-    .moves = {MOVE_MACH_PUNCH, MOVE_BULLET_PUNCH, MOVE_ROCK_SLIDE, MOVE_NONE}
-    },
-    {
-    .iv = 220,
-    .lvl = 5,
-    .evs = {6, 252, 0, 0, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_SCRAFTY,
-    .postgameheldItem = ITEM_ROCK_GEM,
-    .heldItem = ITEM_ROSELI_BERRY,
-    .postgamemoves = {MOVE_DRAGON_DANCE, MOVE_HEAD_SMASH, MOVE_SUCKER_PUNCH, MOVE_DRAIN_PUNCH},
-    .moves = {MOVE_CRUNCH, MOVE_BRICK_BREAK, MOVE_ZEN_HEADBUTT, MOVE_NONE}
-    },
-    {
-    .iv = 240,
-    .lvl = 5,
-    .evs = {0, 252, 6, 0, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_HAPPYMAUL,
-    .postgameheldItem = ITEM_HERACRONITE,
-    .heldItem = ITEM_HERACRONITE,
-    .postgamemoves = {MOVE_ARM_THRUST, MOVE_ROCK_BLAST, MOVE_BULLET_SEED, MOVE_PIN_MISSILE},
-    .moves = {MOVE_ARM_THRUST, MOVE_ROCK_SLIDE, MOVE_HIGH_HORSEPOWER, MOVE_NONE}
+    .postgamemoves = {MOVE_CLOSE_COMBAT, MOVE_STEALTH_ROCK, MOVE_EARTHQUAKE, MOVE_THUNDER_PUNCH},
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_STEALTH_ROCK, MOVE_EARTHQUAKE, MOVE_THUNDER_PUNCH}
     },
     {
     .iv = 255,
     .lvl = 5,
-    .evs = {252, 252, 6, 0, 0, 0}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_GANGBEATS,
-    .postgameheldItem = ITEM_ASSAULT_VEST,
-    .heldItem = ITEM_ASSAULT_VEST,
-    .postgamemoves = {MOVE_STONE_EDGE, MOVE_KNOCK_OFF, MOVE_CLOSE_COMBAT, MOVE_BULLET_PUNCH},
-    .moves = {MOVE_ROCK_SLIDE, MOVE_POISON_JAB, MOVE_CROSS_CHOP, MOVE_BULLET_PUNCH}
-    }
-};
-
-static const struct TrainerMonItemCustomMoves sParty_Zach4[] = {
-    {
-    .iv = 240,
-    .lvl = 5,
     .evs = {0, 252, 6, 0, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_EMBOAR,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_HEAD_SMASH, MOVE_HEAT_CRASH, MOVE_SUPERPOWER, MOVE_PAYBACK},
-    .moves = {MOVE_BLAZE_KICK, MOVE_WILD_CHARGE, MOVE_HAMMER_ARM, MOVE_HEAD_SMASH}
-    },
-    {
-    .iv = 240,
-    .lvl = 5,
-    .evs = {0, 252, 6, 0, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_SAWK,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_SALAC_BERRY,
-    .postgamemoves = {MOVE_CLOSE_COMBAT, MOVE_STONE_EDGE, MOVE_POISON_JAB, MOVE_FAKE_OUT},
-    .moves = {MOVE_CLOSE_COMBAT, MOVE_EARTHQUAKE, MOVE_POISON_JAB, MOVE_THROAT_CHOP}
-    },
-    {
-    .iv = 240,
-    .lvl = 5,
-    .evs = {0, 252, 6, 0, 0, 252}, 
-    .abilityNum = 1,
-    .happiness = 0,
-    .species = SPECIES_CAPFALCO,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_POWER_HERB,
-    .postgamemoves = {MOVE_SKY_ATTACK, MOVE_HI_JUMP_KICK, MOVE_POISON_JAB, MOVE_ACROBATICS},
-    .moves = {MOVE_ACROBATICS, MOVE_FLYING_PRESS, MOVE_SKY_ATTACK, MOVE_POISON_JAB}
-    },
-    {
-    .iv = 240,
-    .lvl = 5,
-    .evs = {0, 0, 6, 252, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_BLOKNOCK,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_FIGHTING_GEM,
-    .postgamemoves = {MOVE_AURA_SPHERE, MOVE_FLASH_CANNON, MOVE_NASTY_PLOT, MOVE_VACUUM_WAVE},
-    .moves = {MOVE_AURA_SPHERE, MOVE_VACUUM_WAVE, MOVE_WATER_PULSE, MOVE_FLASH_CANNON}
+    .abilityNum = 2,
+    .happiness = 255,
+    .species = SPECIES_FILMBRAIN,
+    .postgameheldItem = ITEM_CHOICE_SPECS,
+    .heldItem = ITEM_ELECTRIC_GEM,
+    .postgamemoves = {MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_EARTH_POWER, MOVE_ICE_BEAM},
+    .moves = {MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_EARTH_POWER, MOVE_ICE_BEAM}
     },
 	{
     .iv = 255,
     .lvl = 5,
     .evs = {0, 252, 6, 0, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_GANGBEATS,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_ASSAULT_VEST,
-    .postgamemoves = {MOVE_STONE_EDGE, MOVE_KNOCK_OFF, MOVE_CLOSE_COMBAT, MOVE_BULLET_PUNCH},
-    .moves = {MOVE_STONE_EDGE, MOVE_POISON_JAB, MOVE_CLOSE_COMBAT, MOVE_BULLET_PUNCH}
+    .abilityNum = 2,
+    .happiness = 255,
+    .species = SPECIES_THAUMNAR,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_DARK_PULSE, MOVE_PSYCHIC, MOVE_RECOVER, MOVE_FLAMETHROWER},
+    .moves = {MOVE_DARK_PULSE, MOVE_PSYCHIC, MOVE_RECOVER, MOVE_FLAMETHROWER}
+    },
+	{
+    .iv = 255,
+    .lvl = 5,
+    .evs = {252, 6, 252, 0, 0, 0}, 
+    .abilityNum = 0,
+    .happiness = 255,
+    .species = SPECIES_ZACTORY,
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_EARTHQUAKE, MOVE_IRON_HEAD, MOVE_STONE_EDGE, MOVE_POISON_JAB},
+    .moves = {MOVE_EARTHQUAKE, MOVE_IRON_HEAD, MOVE_STONE_EDGE, MOVE_POISON_JAB}
+    },
+	{
+    .iv = 255,
+    .lvl = 5,
+    .evs = {0, 252, 6, 0, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 255,
+    .species = SPECIES_TOM,
+    .postgameheldItem = ITEM_TOMITE,
+    .heldItem = ITEM_TOMITE,
+    .postgamemoves = {MOVE_KNOCK_OFF, MOVE_HEADBUTT, MOVE_REST, MOVE_SLEEP_TALK},
+    .moves = {MOVE_KNOCK_OFF, MOVE_HEADBUTT, MOVE_REST, MOVE_SLEEP_TALK}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {0, 252, 252, 0, 0, 0}, 
+    .abilityNum = 2,
+    .happiness = 255,
+    .species = SPECIES_GAILORD,
+    .postgameheldItem = ITEM_ASSAULT_VEST,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .postgamemoves = {MOVE_PLAY_ROUGH, MOVE_FLOATY_FALL, MOVE_NIGHT_SLASH, MOVE_SKY_ATTACK},
+    .moves = {MOVE_PLAY_ROUGH, MOVE_FLOATY_FALL, MOVE_NIGHT_SLASH, MOVE_SKY_ATTACK}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Zach4[] = {
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {0, 252, 6, 0, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 255,
+    .species = SPECIES_BRIXEL,
+    .postgameheldItem = ITEM_LUM_BERRY,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_CLOSE_COMBAT, MOVE_STEALTH_ROCK, MOVE_EARTHQUAKE, MOVE_THUNDER_PUNCH},
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_STEALTH_ROCK, MOVE_EARTHQUAKE, MOVE_THUNDER_PUNCH}
     },
     {
     .iv = 255,
     .lvl = 5,
     .evs = {0, 252, 6, 0, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_HAPPYMAUL,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_HERACRONITE,
-    .postgamemoves = {MOVE_ARM_THRUST, MOVE_ROCK_BLAST, MOVE_BULLET_SEED, MOVE_PIN_MISSILE},
-    .moves = {MOVE_ARM_THRUST, MOVE_ROCK_BLAST, MOVE_BULLET_SEED, MOVE_PIN_MISSILE}
+    .abilityNum = 2,
+    .happiness = 255,
+    .species = SPECIES_FILMBRAIN,
+    .postgameheldItem = ITEM_CHOICE_SPECS,
+    .heldItem = ITEM_ELECTRIC_GEM,
+    .postgamemoves = {MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_EARTH_POWER, MOVE_ICE_BEAM},
+    .moves = {MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_EARTH_POWER, MOVE_ICE_BEAM}
+    },
+	{
+    .iv = 255,
+    .lvl = 5,
+    .evs = {0, 252, 6, 0, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 255,
+    .species = SPECIES_THAUMNAR,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_DARK_PULSE, MOVE_PSYCHIC, MOVE_RECOVER, MOVE_FLAMETHROWER},
+    .moves = {MOVE_DARK_PULSE, MOVE_PSYCHIC, MOVE_RECOVER, MOVE_FLAMETHROWER}
+    },
+	{
+    .iv = 255,
+    .lvl = 5,
+    .evs = {252, 6, 252, 0, 0, 0}, 
+    .abilityNum = 0,
+    .happiness = 255,
+    .species = SPECIES_ZACTORY,
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_EARTHQUAKE, MOVE_IRON_HEAD, MOVE_STONE_EDGE, MOVE_POISON_JAB},
+    .moves = {MOVE_EARTHQUAKE, MOVE_IRON_HEAD, MOVE_STONE_EDGE, MOVE_POISON_JAB}
+    },
+	{
+    .iv = 255,
+    .lvl = 5,
+    .evs = {0, 252, 6, 0, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 255,
+    .species = SPECIES_TOM,
+    .postgameheldItem = ITEM_TOMITE,
+    .heldItem = ITEM_TOMITE,
+    .postgamemoves = {MOVE_KNOCK_OFF, MOVE_HEADBUTT, MOVE_REST, MOVE_SLEEP_TALK},
+    .moves = {MOVE_KNOCK_OFF, MOVE_HEADBUTT, MOVE_REST, MOVE_SLEEP_TALK}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {0, 252, 252, 0, 0, 0}, 
+    .abilityNum = 2,
+    .happiness = 255,
+    .species = SPECIES_GAILORD,
+    .postgameheldItem = ITEM_ASSAULT_VEST,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .postgamemoves = {MOVE_PLAY_ROUGH, MOVE_FLOATY_FALL, MOVE_NIGHT_SLASH, MOVE_SKY_ATTACK},
+    .moves = {MOVE_PLAY_ROUGH, MOVE_FLOATY_FALL, MOVE_NIGHT_SLASH, MOVE_SKY_ATTACK}
     }
 };
 
@@ -19323,298 +19333,298 @@ static const struct TrainerMonItemCustomMoves sParty_Zach5[] = {
     .iv = 255,
     .lvl = 5,
     .evs = {0, 252, 6, 0, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_GOURMASTER,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_PASSHO_BERRY,
-    .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},
-    .moves = {MOVE_BLAZE_KICK, MOVE_BRAVE_BIRD, MOVE_STONE_EDGE, MOVE_HI_JUMP_KICK}
+    .abilityNum = 2,
+    .happiness = 255,
+    .species = SPECIES_BRIXEL,
+    .postgameheldItem = ITEM_LUM_BERRY,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_CLOSE_COMBAT, MOVE_STEALTH_ROCK, MOVE_EARTHQUAKE, MOVE_THUNDER_PUNCH},
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_STEALTH_ROCK, MOVE_EARTHQUAKE, MOVE_THUNDER_PUNCH}
     },
     {
     .iv = 255,
     .lvl = 5,
     .evs = {0, 252, 6, 0, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_DOUBLINKER,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_COBA_BERRY,
-    .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},
-    .moves = {MOVE_SPORE, MOVE_SEED_BOMB, MOVE_SUBSTITUTE, MOVE_FOCUS_PUNCH}
+    .abilityNum = 2,
+    .happiness = 255,
+    .species = SPECIES_FILMBRAIN,
+    .postgameheldItem = ITEM_CHOICE_SPECS,
+    .heldItem = ITEM_ELECTRIC_GEM,
+    .postgamemoves = {MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_EARTH_POWER, MOVE_ICE_BEAM},
+    .moves = {MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_EARTH_POWER, MOVE_ICE_BEAM}
+    },
+	{
+    .iv = 255,
+    .lvl = 5,
+    .evs = {0, 252, 6, 0, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 255,
+    .species = SPECIES_THAUMNAR,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_DARK_PULSE, MOVE_PSYCHIC, MOVE_RECOVER, MOVE_FLAMETHROWER},
+    .moves = {MOVE_DARK_PULSE, MOVE_PSYCHIC, MOVE_RECOVER, MOVE_FLAMETHROWER}
+    },
+	{
+    .iv = 255,
+    .lvl = 5,
+    .evs = {252, 6, 252, 0, 0, 0}, 
+    .abilityNum = 0,
+    .happiness = 255,
+    .species = SPECIES_ZACTORY,
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_EARTHQUAKE, MOVE_IRON_HEAD, MOVE_STONE_EDGE, MOVE_POISON_JAB},
+    .moves = {MOVE_EARTHQUAKE, MOVE_IRON_HEAD, MOVE_STONE_EDGE, MOVE_POISON_JAB}
+    },
+	{
+    .iv = 255,
+    .lvl = 5,
+    .evs = {0, 252, 6, 0, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 255,
+    .species = SPECIES_TOM,
+    .postgameheldItem = ITEM_TOMITE,
+    .heldItem = ITEM_TOMITE,
+    .postgamemoves = {MOVE_KNOCK_OFF, MOVE_HEADBUTT, MOVE_REST, MOVE_SLEEP_TALK},
+    .moves = {MOVE_KNOCK_OFF, MOVE_HEADBUTT, MOVE_REST, MOVE_SLEEP_TALK}
     },
     {
     .iv = 255,
     .lvl = 5,
-    .evs = {0, 252, 6, 0, 0, 252}, 
-    .abilityNum = 1,
+    .evs = {0, 252, 252, 0, 0, 0}, 
+    .abilityNum = 2,
+    .happiness = 255,
+    .species = SPECIES_GAILORD,
+    .postgameheldItem = ITEM_ASSAULT_VEST,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .postgamemoves = {MOVE_PLAY_ROUGH, MOVE_FLOATY_FALL, MOVE_NIGHT_SLASH, MOVE_SKY_ATTACK},
+    .moves = {MOVE_PLAY_ROUGH, MOVE_FLOATY_FALL, MOVE_NIGHT_SLASH, MOVE_SKY_ATTACK}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Trevor2[] = {
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {0, 0, 0, 252, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 255,
+    .species = SPECIES_BLINKY,
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_ENERGY_BALL, MOVE_TOXIC_SPIKES, MOVE_FLASH_CANNON, MOVE_EARTH_POWER},
+    .moves = {MOVE_ENERGY_BALL, MOVE_TOXIC_SPIKES, MOVE_FLASH_CANNON, MOVE_EARTH_POWER}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {0, 252, 0, 0, 0, 252}, 
+    .abilityNum = 2,
     .happiness = 0,
-    .species = SPECIES_CAPFALCO,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_POWER_HERB,
-    .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},
-    .moves = {MOVE_ACROBATICS, MOVE_HI_JUMP_KICK, MOVE_SKY_ATTACK, MOVE_STONE_EDGE}
+    .species = SPECIES_LUIWEE,
+    .postgameheldItem = ITEM_ASSAULT_VEST,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_FIRE_PUNCH, MOVE_IRON_HEAD, MOVE_POISON_JAB, MOVE_FAKE_OUT},
+    .moves = {MOVE_FIRE_PUNCH, MOVE_IRON_HEAD, MOVE_POISON_JAB, MOVE_FAKE_OUT}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {0, 252, 0, 0, 0, 252}, 
+    .abilityNum = 0,
+    .happiness = 255,
+    .species = SPECIES_EMELGY,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_BRAVE_BIRD, MOVE_ROOST, MOVE_FLARE_BLITZ, MOVE_STEEL_WING},
+    .moves = {MOVE_BRAVE_BIRD, MOVE_ROOST, MOVE_FLARE_BLITZ, MOVE_STEEL_WING}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {0, 0, 0, 252, 0, 252}, 
+    .abilityNum = 3,
+    .happiness = 255,
+    .species = SPECIES_FIZZCUB,
+    .postgameheldItem = ITEM_WHITE_HERB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_SHELL_SMASH, MOVE_ICE_HAMMER, MOVE_POISON_JAB, MOVE_BOOZE_BASH},
+    .moves = {MOVE_SHELL_SMASH, MOVE_ICE_HAMMER, MOVE_POISON_JAB, MOVE_BOOZE_BASH}
     },
     {
     .iv = 255,
     .lvl = 5,
     .evs = {6, 0, 0, 252, 0, 252}, 
     .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_BLOKNOCK,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_LIFE_ORB,
-    .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},
-    .moves = {MOVE_AURA_SPHERE, MOVE_VACUUM_WAVE, MOVE_DRAGON_PULSE, MOVE_FLASH_CANNON}
-    },
-	{
-    .iv = 255,
-    .lvl = 5,
-    .evs = {252, 252, 6, 0, 0, 0}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_GANGBEATS,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_ASSAULT_VEST,
-    .postgamemoves = {MOVE_STONE_EDGE, MOVE_KNOCK_OFF, MOVE_CLOSE_COMBAT, MOVE_BULLET_PUNCH},
-    .moves = {MOVE_STONE_EDGE, MOVE_KNOCK_OFF, MOVE_CLOSE_COMBAT, MOVE_BULLET_PUNCH}
+    .happiness = 255,
+    .species = SPECIES_GLOBNAUT,
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_RECOVER, MOVE_METEOR_MASH, MOVE_PSYCHO_CUT, MOVE_BRICK_BREAK},
+    .moves = {MOVE_RECOVER, MOVE_METEOR_MASH, MOVE_PSYCHO_CUT, MOVE_BRICK_BREAK}
     },
     {
     .iv = 255,
     .lvl = 5,
-    .evs = {0, 252, 6, 0, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_HAPPYMAUL,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_HERACRONITE,
-    .postgamemoves = {MOVE_ARM_THRUST, MOVE_ROCK_BLAST, MOVE_BULLET_SEED, MOVE_PIN_MISSILE},
-    .moves = {MOVE_ARM_THRUST, MOVE_ROCK_BLAST, MOVE_BULLET_SEED, MOVE_PIN_MISSILE}
-    }
-};
-
-static const struct TrainerMonItemCustomMoves sParty_Trevor2[] = {
-    {
-    .iv = 200,
-    .lvl = 5,
     .evs = {0, 0, 0, 252, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_FILMBRAIN,
-    .postgameheldItem = ITEM_SITRUS_BERRY,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_SURF, MOVE_THUNDERBOLT, MOVE_GRASS_KNOT, MOVE_NASTY_PLOT},
-    .moves = {MOVE_SHOCK_WAVE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-    .evs = {0, 0, 0, 252, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_XOKKEON,
-    .postgameheldItem = ITEM_ICE_GEM,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_SHADOW_BALL, MOVE_THUNDERBOLT, MOVE_SIGNAL_BEAM, MOVE_HYPER_VOICE},
-    .moves = {MOVE_CHARGE_BEAM, MOVE_NONE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-    .evs = {0, 0, 0, 252, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_ROTOM_FAN,
-    .postgameheldItem = ITEM_AIR_BALLOON,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_SHADOW_BALL, MOVE_AIR_SLASH, MOVE_WILL_O_WISP, MOVE_VOLT_SWITCH},
-    .moves = {MOVE_CHARGE_BEAM, MOVE_NONE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-    .evs = {0, 0, 0, 252, 0, 252}, 
-    .abilityNum = 0,
-    .happiness = 0,
-    .species = SPECIES_MYRESFT,
-    .postgameheldItem = ITEM_LIFE_ORB,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_THUNDER, MOVE_BUG_BUZZ, MOVE_GIGA_DRAIN, MOVE_STICKY_WEB},
-    .moves = {MOVE_CHARGE_BEAM, MOVE_NONE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-    .evs = {0, 252, 0, 0, 0, 252}, 
     .abilityNum = 2,
     .happiness = 255,
-    .species = SPECIES_ROCK,
-    .postgameheldItem = ITEM_AIR_BALLOON,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_RETURN, MOVE_ROCK_SLIDE, MOVE_EARTHQUAKE, MOVE_EXPLOSION},
-    .moves = {MOVE_RETURN, MOVE_NONE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 255,
-    .lvl = 5,
-    .evs = {0, 0, 0, 252, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-	.species = SPECIES_OUROBOLET,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_MANECTITE,
-    .postgamemoves = {MOVE_FLAMETHROWER, MOVE_DISCHARGE, MOVE_SIGNAL_BEAM, MOVE_HIDDEN_POWER},
-    .moves = {MOVE_FIRE_FANG, MOVE_ICE_FANG, MOVE_NONE, MOVE_NONE}
+	.species = SPECIES_BUG,
+    .postgameheldItem = ITEM_BUGITE,
+    .heldItem = ITEM_BUGITE,
+    .postgamemoves = {MOVE_DRAGON_DANCE, MOVE_DRAGON_CLAW, MOVE_X_SCISSOR, MOVE_ROOST},
+    .moves = {MOVE_DRAGON_DANCE, MOVE_DRAGON_CLAW, MOVE_X_SCISSOR, MOVE_ROOST}
     }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Trevor3[] = {
     {
-    .iv = 200,
+    .iv = 255,
     .lvl = 5,
     .evs = {0, 0, 0, 252, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_LOVLILAD,
-    .postgameheldItem = ITEM_FOCUS_SASH,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_SCALD, MOVE_THUNDERBOLT, MOVE_ICE_BEAM, MOVE_RAIN_DANCE},
-    .moves = {MOVE_SCALD, MOVE_THUNDERBOLT, MOVE_NONE, MOVE_NONE}
+    .abilityNum = 2,
+    .happiness = 255,
+    .species = SPECIES_BLINKY,
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_ENERGY_BALL, MOVE_TOXIC_SPIKES, MOVE_FLASH_CANNON, MOVE_EARTH_POWER},
+    .moves = {MOVE_ENERGY_BALL, MOVE_TOXIC_SPIKES, MOVE_FLASH_CANNON, MOVE_EARTH_POWER}
     },
     {
-    .iv = 200,
-    .lvl = 5,
-    .evs = {0, 0, 0, 252, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_OUROBOLET,
-    .postgameheldItem = ITEM_CHOICE_SPECS,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_SURF, MOVE_THUNDER, MOVE_HYPER_VOICE, MOVE_GRASS_KNOT},
-    .moves = {MOVE_CHARGE_BEAM, MOVE_NONE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-    .evs = {0, 0, 0, 252, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_ROTOM_HEAT,
-    .postgameheldItem = ITEM_SITRUS_BERRY,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_SHADOW_BALL, MOVE_HEAT_WAVE, MOVE_WILL_O_WISP, MOVE_VOLT_SWITCH},
-    .moves = {MOVE_HEAT_WAVE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
+    .iv = 255,
     .lvl = 5,
     .evs = {0, 252, 0, 0, 0, 252}, 
-    .abilityNum = 1,
+    .abilityNum = 2,
     .happiness = 0,
-    .species = SPECIES_DESQUARED,
-    .postgameheldItem = ITEM_AIR_BALLOON,
+    .species = SPECIES_LUIWEE,
+    .postgameheldItem = ITEM_ASSAULT_VEST,
     .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_THUNDERBOLT, MOVE_FLASH_CANNON, MOVE_TRI_ATTACK, MOVE_MAGNET_RISE},
-    .moves = {MOVE_CHARGE_BEAM, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .postgamemoves = {MOVE_FIRE_PUNCH, MOVE_IRON_HEAD, MOVE_POISON_JAB, MOVE_FAKE_OUT},
+    .moves = {MOVE_FIRE_PUNCH, MOVE_IRON_HEAD, MOVE_POISON_JAB, MOVE_FAKE_OUT}
     },
     {
-    .iv = 200,
+    .iv = 255,
     .lvl = 5,
     .evs = {0, 252, 0, 0, 0, 252}, 
-    .abilityNum = 1,
-    .happiness = 0,
-    .species = SPECIES_DRACOZOLT,
-    .postgameheldItem = ITEM_ELECTRIC_GEM,
+    .abilityNum = 0,
+    .happiness = 255,
+    .species = SPECIES_EMELGY,
+    .postgameheldItem = ITEM_LIFE_ORB,
     .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_OUTRAGE, MOVE_BOLT_BEAK, MOVE_STONE_EDGE, MOVE_EARTHQUAKE},
-    .moves = {MOVE_CHARGE_BEAM, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .postgamemoves = {MOVE_BRAVE_BIRD, MOVE_ROOST, MOVE_FLARE_BLITZ, MOVE_STEEL_WING},
+    .moves = {MOVE_BRAVE_BIRD, MOVE_ROOST, MOVE_FLARE_BLITZ, MOVE_STEEL_WING}
     },
     {
     .iv = 255,
     .lvl = 5,
     .evs = {0, 0, 0, 252, 0, 252}, 
     .abilityNum = 3,
-    .happiness = 0,
-	.species = SPECIES_OUROBOLET,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_MANECTITE,
-    .postgamemoves = {MOVE_FLAMETHROWER, MOVE_DISCHARGE, MOVE_SIGNAL_BEAM, MOVE_HIDDEN_POWER},
-    .moves = {MOVE_THUNDERBOLT, MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE}
+    .happiness = 255,
+    .species = SPECIES_FIZZCUB,
+    .postgameheldItem = ITEM_WHITE_HERB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_SHELL_SMASH, MOVE_ICE_HAMMER, MOVE_POISON_JAB, MOVE_BOOZE_BASH},
+    .moves = {MOVE_SHELL_SMASH, MOVE_ICE_HAMMER, MOVE_POISON_JAB, MOVE_BOOZE_BASH}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {6, 0, 0, 252, 0, 252}, 
+    .abilityNum = 3,
+    .happiness = 255,
+    .species = SPECIES_GLOBNAUT,
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_RECOVER, MOVE_METEOR_MASH, MOVE_PSYCHO_CUT, MOVE_BRICK_BREAK},
+    .moves = {MOVE_RECOVER, MOVE_METEOR_MASH, MOVE_PSYCHO_CUT, MOVE_BRICK_BREAK}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {0, 0, 0, 252, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 255,
+	.species = SPECIES_BUG,
+    .postgameheldItem = ITEM_BUGITE,
+    .heldItem = ITEM_BUGITE,
+    .postgamemoves = {MOVE_DRAGON_DANCE, MOVE_DRAGON_CLAW, MOVE_X_SCISSOR, MOVE_ROOST},
+    .moves = {MOVE_DRAGON_DANCE, MOVE_DRAGON_CLAW, MOVE_X_SCISSOR, MOVE_ROOST}
     }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Trevor4[] = {
     {
-    .iv = 200,
+    .iv = 255,
     .lvl = 5,
     .evs = {0, 0, 0, 252, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_DISHEATS,
-    .postgameheldItem = ITEM_ELECTRIC_GEM,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_SURF, MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_GRASS_KNOT},
-    .moves = {MOVE_PSYCHIC, MOVE_SURF, MOVE_THUNDERBOLT, MOVE_NONE}
+    .abilityNum = 2,
+    .happiness = 255,
+    .species = SPECIES_BLINKY,
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_ENERGY_BALL, MOVE_TOXIC_SPIKES, MOVE_FLASH_CANNON, MOVE_EARTH_POWER},
+    .moves = {MOVE_ENERGY_BALL, MOVE_TOXIC_SPIKES, MOVE_FLASH_CANNON, MOVE_EARTH_POWER}
     },
     {
-    .iv = 200,
+    .iv = 255,
     .lvl = 5,
-    .evs = {0, 0, 0, 252, 0, 252}, 
-    .abilityNum = 3,
+    .evs = {0, 252, 0, 0, 0, 252}, 
+    .abilityNum = 2,
     .happiness = 0,
-    .species = SPECIES_STUNFISK,
-    .postgameheldItem = ITEM_ICE_GEM,
+    .species = SPECIES_LUIWEE,
+    .postgameheldItem = ITEM_ASSAULT_VEST,
     .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_EARTH_POWER, MOVE_THUNDERBOLT, MOVE_SURF, MOVE_SLUDGE_BOMB},
-    .moves = {MOVE_EARTH_POWER, MOVE_THUNDERBOLT, MOVE_NONE, MOVE_NONE}
+    .postgamemoves = {MOVE_FIRE_PUNCH, MOVE_IRON_HEAD, MOVE_POISON_JAB, MOVE_FAKE_OUT},
+    .moves = {MOVE_FIRE_PUNCH, MOVE_IRON_HEAD, MOVE_POISON_JAB, MOVE_FAKE_OUT}
     },
     {
-    .iv = 200,
+    .iv = 255,
     .lvl = 5,
-    .evs = {0, 0, 0, 252, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_VIKAVOLT,
-    .postgameheldItem = ITEM_FOCUS_SASH,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_AGILITY, MOVE_THUNDERBOLT, MOVE_BUG_BUZZ, MOVE_ENERGY_BALL},
-    .moves = {MOVE_CHARGE_BEAM, MOVE_NONE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-    .evs = {0, 0, 0, 252, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_ROTOM_MOW,
-    .postgameheldItem = ITEM_WHITE_HERB,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_THUNDERBOLT, MOVE_SHADOW_BALL, MOVE_LEAF_STORM, MOVE_WILL_O_WISP},
-    .moves = {MOVE_LEAF_STORM, MOVE_THUNDERBOLT, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-    .evs = {0, 0, 0, 252, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_ARCTOZOLT,
+    .evs = {0, 252, 0, 0, 0, 252}, 
+    .abilityNum = 0,
+    .happiness = 255,
+    .species = SPECIES_EMELGY,
     .postgameheldItem = ITEM_LIFE_ORB,
-    .heldItem = ITEM_LIFE_ORB,
-    .postgamemoves = {MOVE_ICICLE_CRASH, MOVE_BOLT_BEAK, MOVE_STONE_EDGE, MOVE_EARTHQUAKE},
-    .moves = {MOVE_CHARGE_BEAM, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_BRAVE_BIRD, MOVE_ROOST, MOVE_FLARE_BLITZ, MOVE_STEEL_WING},
+    .moves = {MOVE_BRAVE_BIRD, MOVE_ROOST, MOVE_FLARE_BLITZ, MOVE_STEEL_WING}
     },
     {
     .iv = 255,
     .lvl = 5,
     .evs = {0, 0, 0, 252, 0, 252}, 
     .abilityNum = 3,
-    .happiness = 0,
-	.species = SPECIES_OUROBOLET,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_MANECTITE,
-    .postgamemoves = {MOVE_FLAMETHROWER, MOVE_DISCHARGE, MOVE_SIGNAL_BEAM, MOVE_OVERHEAT},
-    .moves = {MOVE_FLAMETHROWER, MOVE_DISCHARGE, MOVE_SIGNAL_BEAM, MOVE_HIDDEN_POWER},
+    .happiness = 255,
+    .species = SPECIES_FIZZCUB,
+    .postgameheldItem = ITEM_WHITE_HERB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_SHELL_SMASH, MOVE_ICE_HAMMER, MOVE_POISON_JAB, MOVE_BOOZE_BASH},
+    .moves = {MOVE_SHELL_SMASH, MOVE_ICE_HAMMER, MOVE_POISON_JAB, MOVE_BOOZE_BASH}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {6, 0, 0, 252, 0, 252}, 
+    .abilityNum = 3,
+    .happiness = 255,
+    .species = SPECIES_GLOBNAUT,
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_RECOVER, MOVE_METEOR_MASH, MOVE_PSYCHO_CUT, MOVE_BRICK_BREAK},
+    .moves = {MOVE_RECOVER, MOVE_METEOR_MASH, MOVE_PSYCHO_CUT, MOVE_BRICK_BREAK}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {0, 0, 0, 252, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 255,
+	.species = SPECIES_BUG,
+    .postgameheldItem = ITEM_BUGITE,
+    .heldItem = ITEM_BUGITE,
+    .postgamemoves = {MOVE_DRAGON_DANCE, MOVE_DRAGON_CLAW, MOVE_X_SCISSOR, MOVE_ROOST},
+    .moves = {MOVE_DRAGON_DANCE, MOVE_DRAGON_CLAW, MOVE_X_SCISSOR, MOVE_ROOST}
     }
 };
 
@@ -19622,512 +19632,441 @@ static const struct TrainerMonItemCustomMoves sParty_Trevor5[] = {
     {
     .iv = 255,
     .lvl = 5,
+    .evs = {0, 0, 0, 252, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 255,
+    .species = SPECIES_BLINKY,
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_ENERGY_BALL, MOVE_TOXIC_SPIKES, MOVE_FLASH_CANNON, MOVE_EARTH_POWER},
+    .moves = {MOVE_ENERGY_BALL, MOVE_TOXIC_SPIKES, MOVE_FLASH_CANNON, MOVE_EARTH_POWER}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
     .evs = {0, 252, 0, 0, 0, 252}, 
     .abilityNum = 2,
     .happiness = 0,
-    .species = SPECIES_PINCURCHIN,
-    .postgameheldItem = ITEM_TERRAIN_EXTENDER,
+    .species = SPECIES_LUIWEE,
+    .postgameheldItem = ITEM_ASSAULT_VEST,
     .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_ZING_ZAP, MOVE_POISON_JAB, MOVE_TOXIC_SPIKES, MOVE_LIQUIDATION},
-    .moves = {MOVE_ZING_ZAP, MOVE_POISON_JAB, MOVE_TOXIC_SPIKES, MOVE_LIQUIDATION}
+    .postgamemoves = {MOVE_FIRE_PUNCH, MOVE_IRON_HEAD, MOVE_POISON_JAB, MOVE_FAKE_OUT},
+    .moves = {MOVE_FIRE_PUNCH, MOVE_IRON_HEAD, MOVE_POISON_JAB, MOVE_FAKE_OUT}
     },
     {
-    .iv = 252,
+    .iv = 255,
     .lvl = 5,
     .evs = {0, 252, 0, 0, 0, 252}, 
     .abilityNum = 0,
-    .happiness = 0,
-    .species = SPECIES_GALVANTULA,
-    .postgameheldItem = ITEM_FOCUS_SASH,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_STICKY_WEB, MOVE_THUNDER, MOVE_GIGA_DRAIN, MOVE_BUG_BUZZ},
-    .moves = {MOVE_STICKY_WEB, MOVE_THUNDER, MOVE_GIGA_DRAIN, MOVE_BUG_BUZZ}
-    },
-    {
-    .iv = 255,
-    .lvl = 5,
-    .evs = {0, 0, 0, 252, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_TOXEL,
-    .postgameheldItem = ITEM_AIR_BALLOON,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_BOOMBURST, MOVE_DISCHARGE, MOVE_SLUDGE_BOMB, MOVE_NUZZLE},
-    .moves = {MOVE_BOOMBURST, MOVE_DISCHARGE, MOVE_SLUDGE_BOMB, MOVE_NUZZLE}
-    },
-    {
-    .iv = 252,
-    .lvl = 5,
-    .evs = {0, 0, 0, 252, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_ROTOM_WASH,
+    .happiness = 255,
+    .species = SPECIES_EMELGY,
     .postgameheldItem = ITEM_LIFE_ORB,
     .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_SHADOW_BALL, MOVE_THUNDERBOLT, MOVE_WILL_O_WISP, MOVE_HYDRO_PUMP},
-    .moves = {MOVE_SHADOW_BALL, MOVE_THUNDERBOLT, MOVE_WILL_O_WISP, MOVE_HYDRO_PUMP}
-    },
-    {
-    .iv = 255,
-    .lvl = 5,
-    .evs = {0, 252, 0, 0, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-    .species = SPECIES_EELEKTROSS,
-    .postgameheldItem = ITEM_FIRE_GEM,
-    .heldItem = ITEM_FIRE_GEM,
-    .postgamemoves = {MOVE_ZAP_CANNON, MOVE_COIL, MOVE_DRAIN_PUNCH, MOVE_LEECH_LIFE},
-    .moves = {MOVE_ZAP_CANNON, MOVE_COIL, MOVE_DRAIN_PUNCH, MOVE_LEECH_LIFE},
+    .postgamemoves = {MOVE_BRAVE_BIRD, MOVE_ROOST, MOVE_FLARE_BLITZ, MOVE_STEEL_WING},
+    .moves = {MOVE_BRAVE_BIRD, MOVE_ROOST, MOVE_FLARE_BLITZ, MOVE_STEEL_WING}
     },
     {
     .iv = 255,
     .lvl = 5,
     .evs = {0, 0, 0, 252, 0, 252}, 
     .abilityNum = 3,
-    .happiness = 0,
-	.species = SPECIES_OUROBOLET,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_MANECTITE,
-    .postgamemoves = {MOVE_FLAMETHROWER, MOVE_DISCHARGE, MOVE_SIGNAL_BEAM, MOVE_HIDDEN_POWER},
-    .moves = {MOVE_CHARGE_BEAM, MOVE_ICE_FANG, MOVE_NONE, MOVE_NONE}
+    .happiness = 255,
+    .species = SPECIES_FIZZCUB,
+    .postgameheldItem = ITEM_WHITE_HERB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_SHELL_SMASH, MOVE_ICE_HAMMER, MOVE_POISON_JAB, MOVE_BOOZE_BASH},
+    .moves = {MOVE_SHELL_SMASH, MOVE_ICE_HAMMER, MOVE_POISON_JAB, MOVE_BOOZE_BASH}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {6, 0, 0, 252, 0, 252}, 
+    .abilityNum = 3,
+    .happiness = 255,
+    .species = SPECIES_GLOBNAUT,
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_RECOVER, MOVE_METEOR_MASH, MOVE_PSYCHO_CUT, MOVE_BRICK_BREAK},
+    .moves = {MOVE_RECOVER, MOVE_METEOR_MASH, MOVE_PSYCHO_CUT, MOVE_BRICK_BREAK}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {0, 0, 0, 252, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 255,
+	.species = SPECIES_BUG,
+    .postgameheldItem = ITEM_BUGITE,
+    .heldItem = ITEM_BUGITE,
+    .postgamemoves = {MOVE_DRAGON_DANCE, MOVE_DRAGON_CLAW, MOVE_X_SCISSOR, MOVE_ROOST},
+    .moves = {MOVE_DRAGON_DANCE, MOVE_DRAGON_CLAW, MOVE_X_SCISSOR, MOVE_ROOST}
     }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Jared2[] = {
     {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {0, 0, 6, 252, 252, 0}, 
-    .abilityNum = 1,
-    .happiness = 0,
-	.species = SPECIES_VULPOINTER,
-    .postgameheldItem = ITEM_WEAKNESS_POLICY,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_EARTH_POWER, MOVE_LAVA_PLUME, MOVE_SOLAR_BEAM, MOVE_FLASH_CANNON},
-    .moves = {MOVE_INCINERATE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 252, 0, 0, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-	.species = SPECIES_ENDMYSUFF,
-    .postgameheldItem = ITEM_WEAKNESS_POLICY,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_FLARE_BLITZ, MOVE_ROCK_SLIDE, MOVE_BELLY_DRUM, MOVE_EARTHQUAKE},
-    .moves = {MOVE_FIRE_FANG, MOVE_NONE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 252, 0, 0, 0, 252}, 
-    .abilityNum = 2,
-    .happiness = 0,
-	.species = SPECIES_LITTEN,
-    .postgameheldItem = ITEM_NORMAL_GEM,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_THROAT_CHOP, MOVE_FLARE_BLITZ, MOVE_THUNDER_PUNCH, MOVE_FAKE_OUT},
-    .moves = {MOVE_FIRE_FANG, MOVE_NONE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 0, 0, 252, 0, 252}, 
-    .abilityNum = 2,
-    .happiness = 0,
-	.species = SPECIES_LITLEO,
-    .postgameheldItem = ITEM_LIFE_ORB,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_HYPER_VOICE, MOVE_FLAMETHROWER, MOVE_SHADOW_BALL, MOVE_DARK_PULSE},
-    .moves = {MOVE_FIRE_FANG, MOVE_NONE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
+    .iv = 250,
     .lvl = 5,
 	.evs = {0, 0, 6, 252, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-	.species = SPECIES_LEGUESSR,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_GAHNOMEDITE,
-    .postgamemoves = {MOVE_FIRE_BLAST, MOVE_DARK_PULSE, MOVE_SLUDGE_BOMB, MOVE_SOLAR_BEAM},
-    .moves = {MOVE_INCINERATE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .abilityNum = 2,
+    .happiness = 252,
+	.species = SPECIES_DOOBOB,
+    .postgameheldItem = ITEM_LUM_BERRY,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_OUTRAGE, MOVE_GIGA_IMPACT, MOVE_HEAT_CRASH, MOVE_EARTHQUAKE},
+    .moves = {MOVE_OUTRAGE, MOVE_GIGA_IMPACT, MOVE_HEAT_CRASH, MOVE_EARTHQUAKE}
+    },
+	{
+    .iv = 250,
+    .lvl = 5,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 252,
+	.species = SPECIES_SYMBITE,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_POISON_JAB, MOVE_JAW_LOCK, MOVE_SACRED_SWORD, MOVE_LEAF_BLADE},
+    .moves = {MOVE_POISON_JAB, MOVE_JAW_LOCK, MOVE_SACRED_SWORD, MOVE_LEAF_BLADE}
+    },
+	
+    {
+    .iv = 250,
+    .lvl = 5,
+	.evs = {6, 0, 0, 252, 0, 252}, 
+    .abilityNum = 0,
+    .happiness = 252,
+	.species = SPECIES_EMBOB,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_FIRE_LASH, MOVE_OUTRAGE, MOVE_LIQUIDATION, MOVE_BULK_UP},
+    .moves = {MOVE_FIRE_LASH, MOVE_OUTRAGE, MOVE_LIQUIDATION, MOVE_BULK_UP}
+    },
+    {
+    .iv = 250,
+    .lvl = 5,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 252,
+	.species = SPECIES_SOBBLEAF,
+    .postgameheldItem = ITEM_WEAKNESS_POLICY,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_KNOCK_OFF, MOVE_DARKEST_LARIAT, MOVE_LEAF_BLADE, MOVE_POISON_JAB},
+    .moves = {MOVE_KNOCK_OFF, MOVE_DARKEST_LARIAT, MOVE_LEAF_BLADE, MOVE_POISON_JAB}
+    },
+    {
+    .iv = 250,
+    .lvl = 5,
+	.evs = {0, 0, 6, 252, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 252,
+	.species = SPECIES_PUCKID,
+    .postgameheldItem = ITEM_GOALEMITE,
+    .heldItem = ITEM_GOALEMITE,
+    .postgamemoves = {MOVE_ICE_HAMMER, MOVE_SACRED_SWORD, MOVE_RECOVER, MOVE_EARTHQUAKE},
+    .moves = {MOVE_ICE_HAMMER, MOVE_SACRED_SWORD, MOVE_RECOVER, MOVE_EARTHQUAKE}
     },
     {
     .iv = 255,
     .lvl = 5,
     .evs = {6, 0, 252, 252, 0, 0}, 
     .abilityNum = 1,
-    .happiness = 0,
-    .species = SPECIES_DNDICE,
+    .happiness = 252,
+    .species = SPECIES_PLATERRY,
     .postgameheldItem = ITEM_WHITE_HERB,
     .heldItem = ITEM_HEAT_ROCK,
-    .postgamemoves = {MOVE_ERUPTION, MOVE_SOLAR_BEAM, MOVE_SLUDGE_BOMB, MOVE_EARTH_POWER},
-    .moves = {MOVE_SUNNY_DAY, MOVE_ATTRACT, MOVE_NONE, MOVE_NONE}
+    .postgamemoves = {MOVE_SUPERPOWER, MOVE_CLOSE_COMBAT, MOVE_LIQUIDATION, MOVE_DETECT},
+    .moves = {MOVE_SUPERPOWER, MOVE_CLOSE_COMBAT, MOVE_LIQUIDATION, MOVE_DETECT}
     }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Jared3[] = {
     {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {2, 0, 6, 252, 0, 252}, 
-    .abilityNum = 2,
-    .happiness = 0,
-	.species = SPECIES_SAUCIE,
-    .postgameheldItem = ITEM_HEAT_ROCK,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_DAZZLING_GLEAM, MOVE_SOLAR_BEAM, MOVE_FIRE_BLAST, MOVE_SHADOW_BALL},
-    .moves = {MOVE_OVERHEAT, MOVE_NONE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 0, 252, 252, 0, 0}, 
-    .abilityNum = 3,
-    .happiness = 0,
-	.species = SPECIES_ENDMYSUFF,
-    .postgameheldItem = ITEM_ROCKY_HELMET,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_DRAGON_PULSE, MOVE_FLAMETHROWER, MOVE_SOLAR_BEAM, MOVE_SHELL_SMASH},
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 0, 0, 252, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-	.species = SPECIES_SALAZZLE,
-    .postgameheldItem = ITEM_BLACK_SLUDGE,
-    .heldItem = ITEM_AIR_BALLOON,
-    .postgamemoves = {MOVE_SLUDGE_BOMB, MOVE_FLAMETHROWER, MOVE_FOCUS_BLAST, MOVE_DRAGON_PULSE},
-    .moves = {MOVE_OVERHEAT, MOVE_NONE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 252, 0, 0, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-	.species = SPECIES_SIZZLIPEDE,
-    .postgameheldItem = ITEM_LIFE_ORB,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_LUNGE, MOVE_FLARE_BLITZ, MOVE_LEECH_LIFE, MOVE_POWER_WHIP},
-    .moves = {MOVE_X_SCISSOR, MOVE_FIRE_FANG, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
+    .iv = 250,
     .lvl = 5,
 	.evs = {0, 0, 6, 252, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-	.species = SPECIES_LEGUESSR,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_GAHNOMEDITE,
-    .postgamemoves = {MOVE_FIRE_BLAST, MOVE_DARK_PULSE, MOVE_SLUDGE_BOMB, MOVE_SOLAR_BEAM},
-    .moves = {MOVE_DARK_PULSE, MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE}
+    .abilityNum = 2,
+    .happiness = 252,
+	.species = SPECIES_DOOBOB,
+    .postgameheldItem = ITEM_LUM_BERRY,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_OUTRAGE, MOVE_GIGA_IMPACT, MOVE_HEAT_CRASH, MOVE_EARTHQUAKE},
+    .moves = {MOVE_OUTRAGE, MOVE_GIGA_IMPACT, MOVE_HEAT_CRASH, MOVE_EARTHQUAKE}
+    },
+	{
+    .iv = 250,
+    .lvl = 5,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 252,
+	.species = SPECIES_SYMBITE,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_POISON_JAB, MOVE_JAW_LOCK, MOVE_SACRED_SWORD, MOVE_LEAF_BLADE},
+    .moves = {MOVE_POISON_JAB, MOVE_JAW_LOCK, MOVE_SACRED_SWORD, MOVE_LEAF_BLADE}
+    },
+	
+    {
+    .iv = 250,
+    .lvl = 5,
+	.evs = {6, 0, 0, 252, 0, 252}, 
+    .abilityNum = 0,
+    .happiness = 252,
+	.species = SPECIES_EMBOB,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_FIRE_LASH, MOVE_OUTRAGE, MOVE_LIQUIDATION, MOVE_BULK_UP},
+    .moves = {MOVE_FIRE_LASH, MOVE_OUTRAGE, MOVE_LIQUIDATION, MOVE_BULK_UP}
+    },
+    {
+    .iv = 250,
+    .lvl = 5,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 252,
+	.species = SPECIES_SOBBLEAF,
+    .postgameheldItem = ITEM_WEAKNESS_POLICY,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_KNOCK_OFF, MOVE_DARKEST_LARIAT, MOVE_LEAF_BLADE, MOVE_POISON_JAB},
+    .moves = {MOVE_KNOCK_OFF, MOVE_DARKEST_LARIAT, MOVE_LEAF_BLADE, MOVE_POISON_JAB}
+    },
+    {
+    .iv = 250,
+    .lvl = 5,
+	.evs = {0, 0, 6, 252, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 252,
+	.species = SPECIES_PUCKID,
+    .postgameheldItem = ITEM_GOALEMITE,
+    .heldItem = ITEM_GOALEMITE,
+    .postgamemoves = {MOVE_ICE_HAMMER, MOVE_SACRED_SWORD, MOVE_RECOVER, MOVE_EARTHQUAKE},
+    .moves = {MOVE_ICE_HAMMER, MOVE_SACRED_SWORD, MOVE_RECOVER, MOVE_EARTHQUAKE}
     },
     {
     .iv = 255,
     .lvl = 5,
     .evs = {6, 0, 252, 252, 0, 0}, 
     .abilityNum = 1,
-    .happiness = 0,
-    .species = SPECIES_DNDICE,
+    .happiness = 252,
+    .species = SPECIES_PLATERRY,
     .postgameheldItem = ITEM_WHITE_HERB,
     .heldItem = ITEM_HEAT_ROCK,
-    .postgamemoves = {MOVE_ERUPTION, MOVE_SOLAR_BEAM, MOVE_SLUDGE_BOMB, MOVE_EARTH_POWER},
-    .moves = {MOVE_SOLAR_BEAM, MOVE_ERUPTION, MOVE_EARTH_POWER, MOVE_NONE}
+    .postgamemoves = {MOVE_SUPERPOWER, MOVE_CLOSE_COMBAT, MOVE_LIQUIDATION, MOVE_DETECT},
+    .moves = {MOVE_SUPERPOWER, MOVE_CLOSE_COMBAT, MOVE_LIQUIDATION, MOVE_DETECT}
     }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Jared4[] = {
     {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 0, 252, 252, 0, 0}, 
-    .abilityNum = 1,
-    .happiness = 0,
-	.species = SPECIES_DNDICE,
-    .postgameheldItem = ITEM_HEAT_ROCK,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_SLUDGE_BOMB, MOVE_SOLAR_BEAM, MOVE_FIRE_BLAST, MOVE_EARTH_POWER},
-    .moves = {MOVE_SLUDGE_BOMB, MOVE_SOLAR_BEAM, MOVE_FIRE_BLAST, MOVE_EARTH_POWER}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 252, 0, 0, 0, 252}, 
-    .abilityNum = 2,
-    .happiness = 0,
-	.species = SPECIES_TALONFLAME,
-    .postgameheldItem = ITEM_SITRUS_BERRY,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_BRAVE_BIRD, MOVE_U_TURN, MOVE_FLARE_BLITZ, MOVE_ROOST},
-    .moves = {MOVE_ACROBATICS, MOVE_FLARE_BLITZ, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 0, 0, 252, 0, 252}, 
-    .abilityNum = 2,
-    .happiness = 0,
-	.species = SPECIES_DARMANITAN,
-    .postgameheldItem = ITEM_LIFE_ORB,
-    .heldItem = ITEM_LIFE_ORB,
-    .postgamemoves = {MOVE_FIRE_BLAST, MOVE_SHADOW_BALL, MOVE_PSYCHIC, MOVE_FOCUS_BLAST},
-    .moves = {MOVE_FIRE_BLAST, MOVE_SHADOW_BALL, MOVE_PSYCHIC, MOVE_NONE},
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 252, 0, 0, 0, 252}, 
-    .abilityNum = 2,
-    .happiness = 0,
-	.species = SPECIES_SCORBUNNY,
-    .postgameheldItem = ITEM_LIFE_ORB,
-    .heldItem = ITEM_LEFTOVERS,
-    .postgamemoves = {MOVE_FLARE_BLITZ, MOVE_BOUNCE, MOVE_ZEN_HEADBUTT, MOVE_GUNK_SHOT},
-    .moves = {MOVE_FLARE_BLITZ, MOVE_BOUNCE, MOVE_ZEN_HEADBUTT, MOVE_GUNK_SHOT}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 0, 0, 252, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-	.species = SPECIES_FIRANT,
-    .postgameheldItem = ITEM_LIFE_ORB,
-    .heldItem = ITEM_LEFTOVERS,
-    .postgamemoves = {MOVE_GIGA_DRAIN, MOVE_FIERY_DANCE, MOVE_BUG_BUZZ, MOVE_ROOST},
-    .moves = {MOVE_GIGA_DRAIN, MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
+    .iv = 250,
     .lvl = 5,
 	.evs = {0, 0, 6, 252, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 0,
-	.species = SPECIES_LEGUESSR,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_GAHNOMEDITE,
-    .postgamemoves = {MOVE_FIRE_BLAST, MOVE_DARK_PULSE, MOVE_SLUDGE_BOMB, MOVE_SOLAR_BEAM},
-    .moves = {MOVE_OVERHEAT, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .abilityNum = 2,
+    .happiness = 252,
+	.species = SPECIES_DOOBOB,
+    .postgameheldItem = ITEM_LUM_BERRY,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_OUTRAGE, MOVE_GIGA_IMPACT, MOVE_HEAT_CRASH, MOVE_EARTHQUAKE},
+    .moves = {MOVE_OUTRAGE, MOVE_GIGA_IMPACT, MOVE_HEAT_CRASH, MOVE_EARTHQUAKE}
+    },
+	{
+    .iv = 250,
+    .lvl = 5,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 252,
+	.species = SPECIES_SYMBITE,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_POISON_JAB, MOVE_JAW_LOCK, MOVE_SACRED_SWORD, MOVE_LEAF_BLADE},
+    .moves = {MOVE_POISON_JAB, MOVE_JAW_LOCK, MOVE_SACRED_SWORD, MOVE_LEAF_BLADE}
+    },
+	
+    {
+    .iv = 250,
+    .lvl = 5,
+	.evs = {6, 0, 0, 252, 0, 252}, 
+    .abilityNum = 0,
+    .happiness = 252,
+	.species = SPECIES_EMBOB,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_FIRE_LASH, MOVE_OUTRAGE, MOVE_LIQUIDATION, MOVE_BULK_UP},
+    .moves = {MOVE_FIRE_LASH, MOVE_OUTRAGE, MOVE_LIQUIDATION, MOVE_BULK_UP}
+    },
+    {
+    .iv = 250,
+    .lvl = 5,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 252,
+	.species = SPECIES_SOBBLEAF,
+    .postgameheldItem = ITEM_WEAKNESS_POLICY,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_KNOCK_OFF, MOVE_DARKEST_LARIAT, MOVE_LEAF_BLADE, MOVE_POISON_JAB},
+    .moves = {MOVE_KNOCK_OFF, MOVE_DARKEST_LARIAT, MOVE_LEAF_BLADE, MOVE_POISON_JAB}
+    },
+    {
+    .iv = 250,
+    .lvl = 5,
+	.evs = {0, 0, 6, 252, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 252,
+	.species = SPECIES_PUCKID,
+    .postgameheldItem = ITEM_GOALEMITE,
+    .heldItem = ITEM_GOALEMITE,
+    .postgamemoves = {MOVE_ICE_HAMMER, MOVE_SACRED_SWORD, MOVE_RECOVER, MOVE_EARTHQUAKE},
+    .moves = {MOVE_ICE_HAMMER, MOVE_SACRED_SWORD, MOVE_RECOVER, MOVE_EARTHQUAKE}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {6, 0, 252, 252, 0, 0}, 
+    .abilityNum = 1,
+    .happiness = 252,
+    .species = SPECIES_PLATERRY,
+    .postgameheldItem = ITEM_WHITE_HERB,
+    .heldItem = ITEM_HEAT_ROCK,
+    .postgamemoves = {MOVE_SUPERPOWER, MOVE_CLOSE_COMBAT, MOVE_LIQUIDATION, MOVE_DETECT},
+    .moves = {MOVE_SUPERPOWER, MOVE_CLOSE_COMBAT, MOVE_LIQUIDATION, MOVE_DETECT}
     }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Jared5[] = {
     {
-    .iv = 252,
-    .lvl = 5,
-	.evs = {6, 0, 252, 252, 0, 0}, 
-    .abilityNum = 1,
-    .happiness = 0,
-	.species = SPECIES_DNDICE,
-    .postgameheldItem = ITEM_HEAT_ROCK,
-    .heldItem = ITEM_HEAT_ROCK,
-    .postgamemoves = {MOVE_SLUDGE_BOMB, MOVE_SOLAR_BEAM, MOVE_FIRE_BLAST, MOVE_EARTH_POWER},
-    .moves = {MOVE_SLUDGE_BOMB, MOVE_SOLAR_BEAM, MOVE_FIRE_BLAST, MOVE_EARTH_POWER}
-    },
-    {
-    .iv = 252,
-    .lvl = 5,
-	.evs = {6, 52, 0, 0, 0, 252}, 
-    .abilityNum = 2,
-    .happiness = 0,
-	.species = SPECIES_GOURMASTER,
-    .postgameheldItem = ITEM_LEFTOVERS,
-    .heldItem = ITEM_LEFTOVERS,
-    .postgamemoves = {MOVE_HI_JUMP_KICK, MOVE_FLARE_BLITZ, MOVE_BRAVE_BIRD, MOVE_THUNDER_PUNCH},
-    .moves = {MOVE_HI_JUMP_KICK, MOVE_FLARE_BLITZ, MOVE_BRAVE_BIRD, MOVE_PROTECT}
-    },
-    {
-    .iv = 252,
-    .lvl = 5,
-	.evs = {6, 0, 0, 252, 0, 252}, 
-    .abilityNum = 2,
-    .happiness = 0,
-	.species = SPECIES_TOASTRIDER,
-    .postgameheldItem = ITEM_POWER_HERB,
-    .heldItem = ITEM_POWER_HERB,
-    .postgamemoves = {MOVE_THUNDERBOLT, MOVE_FLAMETHROWER, MOVE_FOCUS_BLAST, MOVE_SOLAR_BEAM},
-    .moves = {MOVE_OVERHEAT, MOVE_NONE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 0, 0, 252, 0, 252}, 
-    .abilityNum = 2,
-    .happiness = 0,
-	.species = SPECIES_CHANDELURE,
-    .postgameheldItem = ITEM_LIFE_ORB,
-    .heldItem = ITEM_LIFE_ORB,
-    .postgamemoves = {MOVE_ENERGY_BALL, MOVE_FLAMETHROWER, MOVE_SHADOW_BALL, MOVE_PSYCHIC},
-    .moves = {MOVE_OVERHEAT, MOVE_NONE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 0, 0, 252, 0, 252}, 
-    .abilityNum = 2,
-    .happiness = 0,
-	.species = SPECIES_VOLCARONA,
-    .postgameheldItem = ITEM_FIRE_GEM,
-    .heldItem = ITEM_FIRE_GEM,
-    .postgamemoves = {MOVE_GIGA_DRAIN, MOVE_FIERY_DANCE, MOVE_BUG_BUZZ, MOVE_ROOST},
-    .moves = {MOVE_GIGA_DRAIN, MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 255,
+    .iv = 250,
     .lvl = 5,
 	.evs = {0, 0, 6, 252, 0, 252}, 
     .abilityNum = 2,
-    .happiness = 0,
-	.species = SPECIES_MINIMAL,
-    .postgameheldItem = ITEM_GAHNOMEDITE,
-    .heldItem = ITEM_GAHNOMEDITE,
-    .postgamemoves = {MOVE_FIRE_BLAST, MOVE_DARK_PULSE, MOVE_SLUDGE_BOMB, MOVE_SOLAR_BEAM},
-    .moves = {MOVE_OVERHEAT, MOVE_DARK_PULSE, MOVE_SLUDGE_BOMB, MOVE_SOLAR_BEAM}
-    }
-};
-
-static const struct TrainerMonItemCustomMoves sParty_Norman2[] = {
-    {
-    .iv = 200,
+    .happiness = 252,
+	.species = SPECIES_DOOBOB,
+    .postgameheldItem = ITEM_LUM_BERRY,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_OUTRAGE, MOVE_GIGA_IMPACT, MOVE_HEAT_CRASH, MOVE_EARTHQUAKE},
+    .moves = {MOVE_OUTRAGE, MOVE_GIGA_IMPACT, MOVE_HEAT_CRASH, MOVE_EARTHQUAKE}
+    },
+	{
+    .iv = 250,
     .lvl = 5,
-    .evs = {6, 252, 0, 0, 0, 252}, 
+	.evs = {6, 252, 0, 0, 0, 252}, 
     .abilityNum = 2,
-    .happiness = 255,
-	.species = SPECIES_DUPLICAT,
-    .postgameheldItem = ITEM_SITRUS_BERRY,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_BELLY_DRUM, MOVE_EXTREME_SPEED, MOVE_PLAY_ROUGH, MOVE_SHADOW_CLAW},
-    .moves = {MOVE_RETURN, MOVE_SHADOW_CLAW, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-    .evs = {3, 252, 0, 0, 0, 252}, 
-    .abilityNum = 0,
-    .happiness = 255,
-	.species = SPECIES_GROX,
-    .postgameheldItem = ITEM_NORMAL_GEM,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_HEAD_SMASH, MOVE_EARTHQUAKE, MOVE_DOUBLE_EDGE, MOVE_CLOSE_COMBAT},
-    .moves = {MOVE_ZEN_HEADBUTT, MOVE_FLAME_CHARGE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-    .evs = {6, 252, 0, 0, 0, 252}, 
-    .abilityNum = 0,
-    .happiness = 255,
-	.species = SPECIES_NUGGIE,
-    .postgameheldItem = ITEM_FLAME_ORB,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_PROTECT, MOVE_BRAVE_BIRD, MOVE_DOUBLE_EDGE, MOVE_ROOST},
-    .moves = {MOVE_RETURN, MOVE_ACROBATICS, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-    .evs = {6, 0, 0, 252, 0, 252}, 
-    .abilityNum = 0,
-    .happiness = 255,
-	.species = SPECIES_AURICLIARY,
+    .happiness = 252,
+	.species = SPECIES_SYMBITE,
     .postgameheldItem = ITEM_LIFE_ORB,
     .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_HYPER_BEAM, MOVE_TRI_ATTACK, MOVE_FLAMETHROWER, MOVE_THUNDERBOLT},
-    .moves = {MOVE_TRI_ATTACK, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .postgamemoves = {MOVE_POISON_JAB, MOVE_JAW_LOCK, MOVE_SACRED_SWORD, MOVE_LEAF_BLADE},
+    .moves = {MOVE_POISON_JAB, MOVE_JAW_LOCK, MOVE_SACRED_SWORD, MOVE_LEAF_BLADE}
+    },
+	
+    {
+    .iv = 250,
+    .lvl = 5,
+	.evs = {6, 0, 0, 252, 0, 252}, 
+    .abilityNum = 0,
+    .happiness = 252,
+	.species = SPECIES_EMBOB,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_FIRE_LASH, MOVE_OUTRAGE, MOVE_LIQUIDATION, MOVE_BULK_UP},
+    .moves = {MOVE_FIRE_LASH, MOVE_OUTRAGE, MOVE_LIQUIDATION, MOVE_BULK_UP}
     },
     {
-    .iv = 200,
+    .iv = 250,
     .lvl = 5,
-    .evs = {6, 252, 0, 0, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 255,
-	.species = SPECIES_TROLOLO,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_TROLOLOITE,
-    .postgamemoves = {MOVE_FAKE_OUT, MOVE_RETURN, MOVE_POWER_UP_PUNCH, MOVE_CRUNCH},
-    .moves = {MOVE_FAKE_OUT, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+	.evs = {6, 252, 0, 0, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 252,
+	.species = SPECIES_SOBBLEAF,
+    .postgameheldItem = ITEM_WEAKNESS_POLICY,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_KNOCK_OFF, MOVE_DARKEST_LARIAT, MOVE_LEAF_BLADE, MOVE_POISON_JAB},
+    .moves = {MOVE_KNOCK_OFF, MOVE_DARKEST_LARIAT, MOVE_LEAF_BLADE, MOVE_POISON_JAB}
+    },
+    {
+    .iv = 250,
+    .lvl = 5,
+	.evs = {0, 0, 6, 252, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 252,
+	.species = SPECIES_PUCKID,
+    .postgameheldItem = ITEM_GOALEMITE,
+    .heldItem = ITEM_GOALEMITE,
+    .postgamemoves = {MOVE_ICE_HAMMER, MOVE_SACRED_SWORD, MOVE_RECOVER, MOVE_EARTHQUAKE},
+    .moves = {MOVE_ICE_HAMMER, MOVE_SACRED_SWORD, MOVE_RECOVER, MOVE_EARTHQUAKE}
     },
     {
     .iv = 255,
     .lvl = 5,
-    .evs = {6, 252, 0, 0, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 255,
-    .species = SPECIES_DOOBOB,
-    .postgameheldItem = ITEM_CHOPLE_BERRY,
-    .heldItem = ITEM_LEFTOVERS,
-    .postgamemoves = {MOVE_GIGA_IMPACT, MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_HAMMER_ARM},
-    .moves = {MOVE_SLACK_OFF, MOVE_NONE, MOVE_NONE, MOVE_NONE}
-    }
-};
-
-static const struct TrainerMonItemCustomMoves sParty_Norman3[] = {
-    {
-    .iv = 200,
-    .lvl = 5,
-    .evs = {6, 252, 0, 0, 0, 252}, 
-    .abilityNum = 0,
-    .happiness = 255,
-	.species = SPECIES_PINATI,
-    .postgameheldItem = ITEM_FLAME_ORB,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_RETURN, MOVE_CLOSE_COMBAT, MOVE_PLAY_ROUGH, MOVE_CRUNCH},
-    .moves = {MOVE_RETURN, MOVE_PLAY_ROUGH, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-    .evs = {3, 252, 0, 0, 0, 252}, 
-    .abilityNum = 0,
-    .happiness = 255,
-	.species = SPECIES_PANTS,
-    .postgameheldItem = ITEM_NORMAL_GEM,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_EARTHQUAKE, MOVE_KNOCK_OFF, MOVE_RETURN, MOVE_MILK_DRINK},
-    .moves = {MOVE_MILK_DRINK, MOVE_NONE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-    .evs = {6, 252, 0, 0, 0, 252}, 
-    .abilityNum = 2,
-    .happiness = 255,
-	.species = SPECIES_RUFFLET,
+    .evs = {6, 0, 252, 252, 0, 0}, 
+    .abilityNum = 1,
+    .happiness = 252,
+    .species = SPECIES_PLATERRY,
     .postgameheldItem = ITEM_WHITE_HERB,
+    .heldItem = ITEM_HEAT_ROCK,
+    .postgamemoves = {MOVE_SUPERPOWER, MOVE_CLOSE_COMBAT, MOVE_LIQUIDATION, MOVE_DETECT},
+    .moves = {MOVE_SUPERPOWER, MOVE_CLOSE_COMBAT, MOVE_LIQUIDATION, MOVE_DETECT}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Rick2[] = {
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {6, 252, 0, 0, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 255,
+	.species = SPECIES_FIRANT,
+    .postgameheldItem = ITEM_ASSAULT_VEST,
     .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_CLOSE_COMBAT, MOVE_BRAVE_BIRD, MOVE_DOUBLE_EDGE, MOVE_ROCK_SLIDE},
-    .moves = {MOVE_ACROBATICS, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .postgamemoves = {MOVE_FIRE_PUNCH, MOVE_EARTHQUAKE, MOVE_X_SCISSOR, MOVE_STONE_EDGE},
+    .moves = {MOVE_FIRE_PUNCH, MOVE_EARTHQUAKE, MOVE_X_SCISSOR, MOVE_STONE_EDGE}
     },
     {
-    .iv = 200,
+    .iv = 255,
+    .lvl = 5,
+    .evs = {3, 252, 0, 0, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 255,
+	.species = SPECIES_RICKLE,
+    .postgameheldItem = ITEM_WHITE_HERB,
+    .heldItem = ITEM_GRASS_GEM,
+    .postgamemoves = {MOVE_SHELL_SMASH, MOVE_LEAF_BLADE, MOVE_POISON_JAB, MOVE_BONEMERANG},
+    .moves = {MOVE_SHELL_SMASH, MOVE_LEAF_BLADE, MOVE_POISON_JAB, MOVE_BONEMERANG}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {6, 252, 0, 0, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 255,
+	.species = SPECIES_BUSHIZARD,
+    .postgameheldItem = ITEM_BIG_ROOT,
+    .heldItem = ITEM_BIG_ROOT,
+    .postgamemoves = {MOVE_AURA_SPHERE, MOVE_GIGA_DRAIN, MOVE_PSYCHIC, MOVE_SYNTHESIS},
+    .moves = {MOVE_AURA_SPHERE, MOVE_GIGA_DRAIN, MOVE_PSYCHIC, MOVE_SYNTHESIS}
+    },
+    {
+    .iv = 255,
     .lvl = 5,
     .evs = {6, 0, 0, 252, 0, 252}, 
     .abilityNum = 3,
     .happiness = 255,
-	.species = SPECIES_COWERLIN,
+	.species = SPECIES_RIGAMORT,
     .postgameheldItem = ITEM_LIFE_ORB,
     .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_BOOMBURST, MOVE_DARK_PULSE, MOVE_FIRE_BLAST, MOVE_THUNDERBOLT},
-    .moves = {MOVE_HYPER_VOICE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .postgamemoves = {MOVE_PSYCHIC, MOVE_HYPER_VOICE, MOVE_FIRE_BLAST, MOVE_THUNDERBOLT},
+    .moves = {MOVE_PSYCHIC, MOVE_HYPER_VOICE, MOVE_FIRE_BLAST, MOVE_THUNDERBOLT}
     },
     {
-    .iv = 200,
+    .iv = 255,
     .lvl = 5,
     .evs = {6, 252, 0, 0, 0, 252}, 
-    .abilityNum = 3,
+    .abilityNum = 2,
     .happiness = 255,
-	.species = SPECIES_TROLOLO,
+	.species = SPECIES_GAHBLIN,
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_TROLOLOITE,
-    .postgamemoves = {MOVE_FAKE_OUT, MOVE_RETURN, MOVE_POWER_UP_PUNCH, MOVE_CRUNCH},
-    .moves = {MOVE_FAKE_OUT, MOVE_RETURN, MOVE_CRUNCH, MOVE_NONE}
+    .postgamemoves = {MOVE_INFESTATION, MOVE_FAKE_OUT, MOVE_SUCKER_PUNCH, MOVE_KNOCK_OFF},
+    .moves = {MOVE_INFESTATION, MOVE_FAKE_OUT, MOVE_SUCKER_PUNCH, MOVE_KNOCK_OFF}
     },
     {
     .iv = 255,
@@ -20135,74 +20074,74 @@ static const struct TrainerMonItemCustomMoves sParty_Norman3[] = {
     .evs = {6, 252, 0, 0, 0, 252}, 
     .abilityNum = 3,
     .happiness = 255,
-    .species = SPECIES_DOOBOB,
+    .species = SPECIES_AREALGUN,
     .postgameheldItem = ITEM_CHOPLE_BERRY,
     .heldItem = ITEM_LEFTOVERS,
-    .postgamemoves = {MOVE_GIGA_IMPACT, MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_HAMMER_ARM},
-    .moves = {MOVE_SLACK_OFF, MOVE_GIGA_IMPACT, MOVE_NONE, MOVE_NONE}
+    .postgamemoves = {MOVE_STEEL_BEAM, MOVE_SEARING_SHOT, MOVE_SNIPE_SHOT, MOVE_ENERGY_BALL},
+    .moves = {MOVE_STEEL_BEAM, MOVE_SEARING_SHOT, MOVE_SNIPE_SHOT, MOVE_ENERGY_BALL}
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Norman4[] = {
+static const struct TrainerMonItemCustomMoves sParty_Rick3[] = {
     {
-    .iv = 200,
+    .iv = 255,
     .lvl = 5,
-    .evs = {252, 0, 252, 0, 6, 0}, 
+    .evs = {6, 252, 0, 0, 0, 252}, 
     .abilityNum = 2,
     .happiness = 255,
-	.species = SPECIES_HANGINGY,
-    .postgameheldItem = ITEM_LEFTOVERS,
+	.species = SPECIES_FIRANT,
+    .postgameheldItem = ITEM_ASSAULT_VEST,
     .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_WISH, MOVE_TOXIC, MOVE_SEISMIC_TOSS, MOVE_PROTECT},
-    .moves = {MOVE_SOFT_BOILED, MOVE_SEISMIC_TOSS, MOVE_NONE, MOVE_NONE}
+    .postgamemoves = {MOVE_FIRE_PUNCH, MOVE_EARTHQUAKE, MOVE_X_SCISSOR, MOVE_STONE_EDGE},
+    .moves = {MOVE_FIRE_PUNCH, MOVE_EARTHQUAKE, MOVE_X_SCISSOR, MOVE_STONE_EDGE}
     },
     {
-    .iv = 200,
+    .iv = 255,
     .lvl = 5,
     .evs = {3, 252, 0, 0, 0, 252}, 
-    .abilityNum = 0,
+    .abilityNum = 2,
     .happiness = 255,
-	.species = SPECIES_TROLOLING,
-    .postgameheldItem = ITEM_KINGS_ROCK,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_TAIL_SLAP, MOVE_KNOCK_OFF, MOVE_ROCK_BLAST, MOVE_BULLET_SEED},
-    .moves = {MOVE_FAKE_OUT, MOVE_TAIL_SLAP, MOVE_ROCK_BLAST, MOVE_NONE}
+	.species = SPECIES_RICKLE,
+    .postgameheldItem = ITEM_WHITE_HERB,
+    .heldItem = ITEM_GRASS_GEM,
+    .postgamemoves = {MOVE_SHELL_SMASH, MOVE_LEAF_BLADE, MOVE_POISON_JAB, MOVE_BONEMERANG},
+    .moves = {MOVE_SHELL_SMASH, MOVE_LEAF_BLADE, MOVE_POISON_JAB, MOVE_BONEMERANG}
     },
     {
-    .iv = 200,
+    .iv = 255,
     .lvl = 5,
     .evs = {6, 252, 0, 0, 0, 252}, 
-    .abilityNum = 3,
+    .abilityNum = 2,
     .happiness = 255,
-	.species = SPECIES_KOMALA,
-    .postgameheldItem = ITEM_SITRUS_BERRY,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_RETURN, MOVE_WOOD_HAMMER, MOVE_DRAIN_PUNCH, MOVE_ROCK_SLIDE},
-    .moves = {MOVE_RETURN, MOVE_DRAIN_PUNCH, MOVE_WOOD_HAMMER, MOVE_NONE}
+	.species = SPECIES_BUSHIZARD,
+    .postgameheldItem = ITEM_BIG_ROOT,
+    .heldItem = ITEM_BIG_ROOT,
+    .postgamemoves = {MOVE_AURA_SPHERE, MOVE_GIGA_DRAIN, MOVE_PSYCHIC, MOVE_SYNTHESIS},
+    .moves = {MOVE_AURA_SPHERE, MOVE_GIGA_DRAIN, MOVE_PSYCHIC, MOVE_SYNTHESIS}
     },
     {
-    .iv = 200,
+    .iv = 255,
     .lvl = 5,
-    .evs = {6, 252, 0, 0, 0, 252}, 
+    .evs = {6, 0, 0, 252, 0, 252}, 
     .abilityNum = 3,
     .happiness = 255,
-	.species = SPECIES_DEERLING,
+	.species = SPECIES_RIGAMORT,
     .postgameheldItem = ITEM_LIFE_ORB,
     .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_RETURN, MOVE_HIGH_HORSEPOWER, MOVE_HI_JUMP_KICK, MOVE_HORN_LEECH},
-    .moves = {MOVE_RETURN, MOVE_HI_JUMP_KICK, MOVE_HORN_LEECH, MOVE_NONE}
+    .postgamemoves = {MOVE_PSYCHIC, MOVE_HYPER_VOICE, MOVE_FIRE_BLAST, MOVE_THUNDERBOLT},
+    .moves = {MOVE_PSYCHIC, MOVE_HYPER_VOICE, MOVE_FIRE_BLAST, MOVE_THUNDERBOLT}
     },
     {
-    .iv = 200,
+    .iv = 255,
     .lvl = 5,
     .evs = {6, 252, 0, 0, 0, 252}, 
-    .abilityNum = 3,
+    .abilityNum = 2,
     .happiness = 255,
-	.species = SPECIES_TROLOLO,
+	.species = SPECIES_GAHBLIN,
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_TROLOLOITE,
-    .postgamemoves = {MOVE_FAKE_OUT, MOVE_RETURN, MOVE_POWER_UP_PUNCH, MOVE_CRUNCH},
-    .moves = {MOVE_RETURN, MOVE_FAKE_OUT, MOVE_CRUNCH, MOVE_POWER_UP_PUNCH}
+    .postgamemoves = {MOVE_INFESTATION, MOVE_FAKE_OUT, MOVE_SUCKER_PUNCH, MOVE_KNOCK_OFF},
+    .moves = {MOVE_INFESTATION, MOVE_FAKE_OUT, MOVE_SUCKER_PUNCH, MOVE_KNOCK_OFF}
     },
     {
     .iv = 255,
@@ -20210,74 +20149,74 @@ static const struct TrainerMonItemCustomMoves sParty_Norman4[] = {
     .evs = {6, 252, 0, 0, 0, 252}, 
     .abilityNum = 3,
     .happiness = 255,
-    .species = SPECIES_DOOBOB,
+    .species = SPECIES_AREALGUN,
     .postgameheldItem = ITEM_CHOPLE_BERRY,
     .heldItem = ITEM_LEFTOVERS,
-    .postgamemoves = {MOVE_GIGA_IMPACT, MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_HAMMER_ARM},
-    .moves = {MOVE_SLACK_OFF, MOVE_GIGA_IMPACT, MOVE_EARTHQUAKE, MOVE_STONE_EDGE}
+    .postgamemoves = {MOVE_STEEL_BEAM, MOVE_SEARING_SHOT, MOVE_SNIPE_SHOT, MOVE_ENERGY_BALL},
+    .moves = {MOVE_STEEL_BEAM, MOVE_SEARING_SHOT, MOVE_SNIPE_SHOT, MOVE_ENERGY_BALL}
     }
 };
 
-static const struct TrainerMonItemCustomMoves sParty_Norman5[] = {
+static const struct TrainerMonItemCustomMoves sParty_Rick4[] = {
     {
-    .iv = 200,
+    .iv = 255,
     .lvl = 5,
     .evs = {6, 252, 0, 0, 0, 252}, 
     .abilityNum = 2,
     .happiness = 255,
-	.species = SPECIES_SHEPEIRD,
-    .postgameheldItem = ITEM_LEFTOVERS,
+	.species = SPECIES_FIRANT,
+    .postgameheldItem = ITEM_ASSAULT_VEST,
     .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_RETURN, MOVE_EARTHQUAKE, MOVE_SLACK_OFF, MOVE_DRAIN_PUNCH},
-    .moves = {MOVE_RETURN, MOVE_EARTHQUAKE, MOVE_SLACK_OFF, MOVE_DRAIN_PUNCH}
+    .postgamemoves = {MOVE_FIRE_PUNCH, MOVE_EARTHQUAKE, MOVE_X_SCISSOR, MOVE_STONE_EDGE},
+    .moves = {MOVE_FIRE_PUNCH, MOVE_EARTHQUAKE, MOVE_X_SCISSOR, MOVE_STONE_EDGE}
     },
     {
-    .iv = 200,
+    .iv = 255,
     .lvl = 5,
     .evs = {3, 252, 0, 0, 0, 252}, 
-    .abilityNum = 0,
+    .abilityNum = 2,
     .happiness = 255,
-	.species = SPECIES_GORFOLD,
-    .postgameheldItem = ITEM_NORMAL_GEM,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_FAKE_OUT, MOVE_KNOCK_OFF, MOVE_RETURN, MOVE_PLAY_ROUGH},
-    .moves = {MOVE_FAKE_OUT, MOVE_KNOCK_OFF, MOVE_RETURN, MOVE_PLAY_ROUGH}
+	.species = SPECIES_RICKLE,
+    .postgameheldItem = ITEM_WHITE_HERB,
+    .heldItem = ITEM_GRASS_GEM,
+    .postgamemoves = {MOVE_SHELL_SMASH, MOVE_LEAF_BLADE, MOVE_POISON_JAB, MOVE_BONEMERANG},
+    .moves = {MOVE_SHELL_SMASH, MOVE_LEAF_BLADE, MOVE_POISON_JAB, MOVE_BONEMERANG}
     },
     {
-    .iv = 200,
+    .iv = 255,
     .lvl = 5,
     .evs = {6, 252, 0, 0, 0, 252}, 
     .abilityNum = 2,
     .happiness = 255,
-	.species = SPECIES_SHEPEIRD,
-    .postgameheldItem = ITEM_LIFE_ORB,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_HEAD_SMASH, MOVE_EARTHQUAKE, MOVE_DOUBLE_EDGE, MOVE_ROCK_SLIDE},
-    .moves = {MOVE_HEAD_SMASH, MOVE_EARTHQUAKE, MOVE_DOUBLE_EDGE, MOVE_ROCK_SLIDE}
+	.species = SPECIES_BUSHIZARD,
+    .postgameheldItem = ITEM_BIG_ROOT,
+    .heldItem = ITEM_BIG_ROOT,
+    .postgamemoves = {MOVE_AURA_SPHERE, MOVE_GIGA_DRAIN, MOVE_PSYCHIC, MOVE_SYNTHESIS},
+    .moves = {MOVE_AURA_SPHERE, MOVE_GIGA_DRAIN, MOVE_PSYCHIC, MOVE_SYNTHESIS}
     },
     {
-    .iv = 200,
+    .iv = 255,
     .lvl = 5,
-    .evs = {6, 252, 0, 0, 0, 252}, 
-    .abilityNum = 2,
-    .happiness = 255,
-	.species = SPECIES_DIGGERSBY,
-    .postgameheldItem = ITEM_NORMAL_GEM,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_RETURN, MOVE_EARTHQUAKE, MOVE_FIRE_PUNCH, MOVE_SWORDS_DANCE},
-    .moves = {MOVE_RETURN, MOVE_EARTHQUAKE, MOVE_FIRE_PUNCH, MOVE_SWORDS_DANCE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-    .evs = {6, 252, 0, 0, 0, 252}, 
+    .evs = {6, 0, 0, 252, 0, 252}, 
     .abilityNum = 3,
     .happiness = 255,
-	.species = SPECIES_TROLOLO,
+	.species = SPECIES_RIGAMORT,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_PSYCHIC, MOVE_HYPER_VOICE, MOVE_FIRE_BLAST, MOVE_THUNDERBOLT},
+    .moves = {MOVE_PSYCHIC, MOVE_HYPER_VOICE, MOVE_FIRE_BLAST, MOVE_THUNDERBOLT}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {6, 252, 0, 0, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 255,
+	.species = SPECIES_GAHBLIN,
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_TROLOLOITE,
-    .postgamemoves = {MOVE_FAKE_OUT, MOVE_RETURN, MOVE_POWER_UP_PUNCH, MOVE_CRUNCH},
-    .moves = {MOVE_FAKE_OUT, MOVE_RETURN, MOVE_POWER_UP_PUNCH, MOVE_CRUNCH}
+    .postgamemoves = {MOVE_INFESTATION, MOVE_FAKE_OUT, MOVE_SUCKER_PUNCH, MOVE_KNOCK_OFF},
+    .moves = {MOVE_INFESTATION, MOVE_FAKE_OUT, MOVE_SUCKER_PUNCH, MOVE_KNOCK_OFF}
     },
     {
     .iv = 255,
@@ -20285,71 +20224,146 @@ static const struct TrainerMonItemCustomMoves sParty_Norman5[] = {
     .evs = {6, 252, 0, 0, 0, 252}, 
     .abilityNum = 3,
     .happiness = 255,
-    .species = SPECIES_DOOBOB,
+    .species = SPECIES_AREALGUN,
     .postgameheldItem = ITEM_CHOPLE_BERRY,
     .heldItem = ITEM_LEFTOVERS,
-    .postgamemoves = {MOVE_GIGA_IMPACT, MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_HAMMER_ARM},
-    .moves = {MOVE_GIGA_IMPACT, MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_HAMMER_ARM},
+    .postgamemoves = {MOVE_STEEL_BEAM, MOVE_SEARING_SHOT, MOVE_SNIPE_SHOT, MOVE_ENERGY_BALL},
+    .moves = {MOVE_STEEL_BEAM, MOVE_SEARING_SHOT, MOVE_SNIPE_SHOT, MOVE_ENERGY_BALL}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_Rick5[] = {
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {6, 252, 0, 0, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 255,
+	.species = SPECIES_FIRANT,
+    .postgameheldItem = ITEM_ASSAULT_VEST,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_FIRE_PUNCH, MOVE_EARTHQUAKE, MOVE_X_SCISSOR, MOVE_STONE_EDGE},
+    .moves = {MOVE_FIRE_PUNCH, MOVE_EARTHQUAKE, MOVE_X_SCISSOR, MOVE_STONE_EDGE}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {3, 252, 0, 0, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 255,
+	.species = SPECIES_RICKLE,
+    .postgameheldItem = ITEM_WHITE_HERB,
+    .heldItem = ITEM_GRASS_GEM,
+    .postgamemoves = {MOVE_SHELL_SMASH, MOVE_LEAF_BLADE, MOVE_POISON_JAB, MOVE_BONEMERANG},
+    .moves = {MOVE_SHELL_SMASH, MOVE_LEAF_BLADE, MOVE_POISON_JAB, MOVE_BONEMERANG}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {6, 252, 0, 0, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 255,
+	.species = SPECIES_BUSHIZARD,
+    .postgameheldItem = ITEM_BIG_ROOT,
+    .heldItem = ITEM_BIG_ROOT,
+    .postgamemoves = {MOVE_AURA_SPHERE, MOVE_GIGA_DRAIN, MOVE_PSYCHIC, MOVE_SYNTHESIS},
+    .moves = {MOVE_AURA_SPHERE, MOVE_GIGA_DRAIN, MOVE_PSYCHIC, MOVE_SYNTHESIS}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {6, 0, 0, 252, 0, 252}, 
+    .abilityNum = 3,
+    .happiness = 255,
+	.species = SPECIES_RIGAMORT,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_PSYCHIC, MOVE_HYPER_VOICE, MOVE_FIRE_BLAST, MOVE_THUNDERBOLT},
+    .moves = {MOVE_PSYCHIC, MOVE_HYPER_VOICE, MOVE_FIRE_BLAST, MOVE_THUNDERBOLT}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {6, 252, 0, 0, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 255,
+	.species = SPECIES_GAHBLIN,
+    .postgameheldItem = ITEM_NONE,
+    .heldItem = ITEM_TROLOLOITE,
+    .postgamemoves = {MOVE_INFESTATION, MOVE_FAKE_OUT, MOVE_SUCKER_PUNCH, MOVE_KNOCK_OFF},
+    .moves = {MOVE_INFESTATION, MOVE_FAKE_OUT, MOVE_SUCKER_PUNCH, MOVE_KNOCK_OFF}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+    .evs = {6, 252, 0, 0, 0, 252}, 
+    .abilityNum = 3,
+    .happiness = 255,
+    .species = SPECIES_AREALGUN,
+    .postgameheldItem = ITEM_CHOPLE_BERRY,
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_STEEL_BEAM, MOVE_SEARING_SHOT, MOVE_SNIPE_SHOT, MOVE_ENERGY_BALL},
+    .moves = {MOVE_STEEL_BEAM, MOVE_SEARING_SHOT, MOVE_SNIPE_SHOT, MOVE_ENERGY_BALL}
     }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Tanner2[] = {
     {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 0, 0, 252, 0, 252}, 
-	.species = SPECIES_EMELGY,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_FIRE_GEM,
-	.happiness = 255,
-    .postgamemoves = {MOVE_HURRICANE, MOVE_HYPER_VOICE, MOVE_HEAT_WAVE, MOVE_ROOST},
-    .moves = {MOVE_AIR_SLASH, MOVE_ROOST, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 0, 252, 0, 0, 252}, 
-	.abilityNum = 2,
-	.species = SPECIES_SHAWT,
-    .postgameheldItem = ITEM_TOXIC_ORB,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_EARTHQUAKE, MOVE_PROTECT, MOVE_ROOST, MOVE_TOXIC},
-    .moves = {MOVE_AERIAL_ACE, MOVE_ROOST, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
+    .iv = 255,
     .lvl = 5,
 	.evs = {6, 252, 0, 0, 0, 252}, 
-	.species = SPECIES_NUGGIE,
-    .postgameheldItem = ITEM_FLAME_ORB,
-    .heldItem = ITEM_NONE,
+	.abilityNum = 0,
 	.happiness = 255,
-    .postgamemoves = {MOVE_BRAVE_BIRD, MOVE_RETURN, MOVE_REVERSAL, MOVE_U_TURN},
-    .moves = {MOVE_AERIAL_ACE, MOVE_RETURN, MOVE_NONE, MOVE_NONE}
+	.species = SPECIES_FURRLEAD,
+    .postgameheldItem = ITEM_ROCK_GEM,
+    .heldItem = ITEM_ROCK_GEM,
+    .postgamemoves = {MOVE_STEALTH_ROCK, MOVE_SUCKER_PUNCH, MOVE_SACRED_SWORD, MOVE_DARKEST_LARIAT},
+    .moves = {MOVE_STEALTH_ROCK, MOVE_SUCKER_PUNCH, MOVE_SACRED_SWORD, MOVE_DARKEST_LARIAT}
     },
     {
-    .iv = 200,
+    .iv = 255,
+    .lvl = 5,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+	.abilityNum = 2,
+	.species = SPECIES_ZEPPUR,
+    .postgameheldItem = ITEM_DARK_GEM,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .postgamemoves = {MOVE_SPIKES, MOVE_DARK_PULSE, MOVE_ROOST, MOVE_AIR_SLASH},
+    .moves = {MOVE_SPIKES, MOVE_DARK_PULSE, MOVE_ROOST, MOVE_AIR_SLASH}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+	.evs = {6, 0, 252, 252, 0, 0}, 
+	.species = SPECIES_YOLKANNER,
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_SIZZLE_SLAM, MOVE_EARTHQUAKE, MOVE_TOXIC_SPIKES, MOVE_POISON_JAB},
+    .moves = {MOVE_SIZZLE_SLAM, MOVE_EARTHQUAKE, MOVE_TOXIC_SPIKES, MOVE_POISON_JAB}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+	.evs = {6, 0, 252, 0, 0, 252}, 
+    .abilityNum = 3,
+    .happiness = 255,
+	.species = SPECIES_MINITRON,
+    .postgameheldItem = ITEM_ROCKY_HELMET,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_FLASH_CANNON, MOVE_COSMIC_POWER, MOVE_ICE_BEAM, MOVE_FLAMETHROWER},
+    .moves = {MOVE_FLASH_CANNON, MOVE_COSMIC_POWER, MOVE_ICE_BEAM, MOVE_FLAMETHROWER}
+    },
+    {
+    .iv = 255,
     .lvl = 5,
 	.evs = {6, 252, 0, 0, 0, 252}, 
     .abilityNum = 2,
     .happiness = 255,
-	.species = SPECIES_AMONSUS,
+	.species = SPECIES_TROLOLING,
     .postgameheldItem = ITEM_WEAKNESS_POLICY,
     .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_DRAGON_CLAW, MOVE_FIRE_PUNCH, MOVE_IRON_HEAD, MOVE_DRAGON_DANCE},
-    .moves = {MOVE_DRAGON_CLAW, MOVE_DRAGON_DANCE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 0, 252, 0, 0, 252}, 
-    .abilityNum = 1,
-    .happiness = 255,
-	.species = SPECIES_FILMBRAIN,
-    .postgameheldItem = ITEM_KINGS_ROCK,
-    .heldItem = ITEM_KINGS_ROCK,
-    .postgamemoves = {MOVE_AURA_SPHERE, MOVE_AIR_SLASH, MOVE_MOONBLAST, MOVE_FLAMETHROWER},
-    .moves = {MOVE_AERIAL_ACE, MOVE_AURA_SPHERE, MOVE_NONE, MOVE_NONE}
+    .postgamemoves = {MOVE_TOXIC, MOVE_FOUL_PLAY, MOVE_PAIN_SPLIT, MOVE_DESTINY_BOND},
+    .moves = {MOVE_TOXIC, MOVE_FOUL_PLAY, MOVE_PAIN_SPLIT, MOVE_DESTINY_BOND}
     },
     {
     .iv = 200,
@@ -20357,478 +20371,253 @@ static const struct TrainerMonItemCustomMoves sParty_Tanner2[] = {
 	.evs = {6, 0, 0, 252, 0, 252}, 
     .abilityNum = 3,
     .happiness = 255,
-    .species = SPECIES_ARMYDRONE,
-    .postgameheldItem = ITEM_UNSCNITE,
-    .heldItem = ITEM_UNSCNITE,
-    .postgamemoves = {MOVE_HYPER_VOICE, MOVE_DRAGON_PULSE, MOVE_ICE_BEAM, MOVE_FLAMETHROWER},
-    .moves = {MOVE_AERIAL_ACE, MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE}
+    .species = SPECIES_EGOIRL,
+    .postgameheldItem = ITEM_GOTHOTITE,
+    .heldItem = ITEM_GOTHOTITE,
+    .postgamemoves = {MOVE_DARK_PULSE, MOVE_MOONLIGHT, MOVE_DAZZLING_GLEAM, MOVE_AURA_SPHERE},
+    .moves = {MOVE_DARK_PULSE, MOVE_MOONLIGHT, MOVE_DAZZLING_GLEAM, MOVE_AURA_SPHERE}
     }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Tanner3[] = {
     {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 0, 0, 252, 0, 252}, 
-	.species = SPECIES_BIRDAPP,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_FLYING_GEM,
-	.happiness = 255,
-    .postgamemoves = {MOVE_CHATTER, MOVE_HEAT_WAVE, MOVE_ROOST, MOVE_BOOMBURST},
-    .moves = {MOVE_CHATTER, MOVE_ROOST, MOVE_HEAT_WAVE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
+    .iv = 255,
     .lvl = 5,
 	.evs = {6, 252, 0, 0, 0, 252}, 
+	.abilityNum = 0,
 	.happiness = 255,
-	.species = SPECIES_RUFFLET,
+	.species = SPECIES_FURRLEAD,
     .postgameheldItem = ITEM_ROCK_GEM,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_BRAVE_BIRD, MOVE_ROCK_SLIDE, MOVE_ROOST, MOVE_CLOSE_COMBAT},
-    .moves = {MOVE_AERIAL_ACE, MOVE_ROOST, MOVE_ROCK_SLIDE, MOVE_NONE}
+    .heldItem = ITEM_ROCK_GEM,
+    .postgamemoves = {MOVE_STEALTH_ROCK, MOVE_SUCKER_PUNCH, MOVE_SACRED_SWORD, MOVE_DARKEST_LARIAT},
+    .moves = {MOVE_STEALTH_ROCK, MOVE_SUCKER_PUNCH, MOVE_SACRED_SWORD, MOVE_DARKEST_LARIAT}
     },
     {
-    .iv = 200,
+    .iv = 255,
+    .lvl = 5,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+	.abilityNum = 2,
+	.species = SPECIES_ZEPPUR,
+    .postgameheldItem = ITEM_DARK_GEM,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .postgamemoves = {MOVE_SPIKES, MOVE_DARK_PULSE, MOVE_ROOST, MOVE_AIR_SLASH},
+    .moves = {MOVE_SPIKES, MOVE_DARK_PULSE, MOVE_ROOST, MOVE_AIR_SLASH}
+    },
+    {
+    .iv = 255,
     .lvl = 5,
 	.evs = {6, 0, 252, 252, 0, 0}, 
-	.abilityNum = 2,
-	.species = SPECIES_EMELGY,
-    .postgameheldItem = ITEM_LIFE_ORB,
+	.species = SPECIES_YOLKANNER,
+    .postgameheldItem = ITEM_LEFTOVERS,
     .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_BRAVE_BIRD, MOVE_FLARE_BLITZ, MOVE_ROOST, MOVE_U_TURN},
-    .moves = {MOVE_BRAVE_BIRD, MOVE_FLARE_BLITZ, MOVE_U_TURN, MOVE_NONE}
+    .postgamemoves = {MOVE_SIZZLE_SLAM, MOVE_EARTHQUAKE, MOVE_TOXIC_SPIKES, MOVE_POISON_JAB},
+    .moves = {MOVE_SIZZLE_SLAM, MOVE_EARTHQUAKE, MOVE_TOXIC_SPIKES, MOVE_POISON_JAB}
     },
     {
-    .iv = 200,
+    .iv = 255,
+    .lvl = 5,
+	.evs = {6, 0, 252, 0, 0, 252}, 
+    .abilityNum = 3,
+    .happiness = 255,
+	.species = SPECIES_MINITRON,
+    .postgameheldItem = ITEM_ROCKY_HELMET,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_FLASH_CANNON, MOVE_COSMIC_POWER, MOVE_ICE_BEAM, MOVE_FLAMETHROWER},
+    .moves = {MOVE_FLASH_CANNON, MOVE_COSMIC_POWER, MOVE_ICE_BEAM, MOVE_FLAMETHROWER}
+    },
+    {
+    .iv = 255,
     .lvl = 5,
 	.evs = {6, 252, 0, 0, 0, 252}, 
     .abilityNum = 2,
     .happiness = 255,
-	.species = SPECIES_AMONSUS,
+	.species = SPECIES_TROLOLING,
     .postgameheldItem = ITEM_WEAKNESS_POLICY,
     .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_DRAGON_CLAW, MOVE_FIRE_PUNCH, MOVE_IRON_HEAD, MOVE_DRAGON_DANCE},
-    .moves = {MOVE_DRAGON_CLAW, MOVE_DRAGON_DANCE, MOVE_IRON_HEAD, MOVE_NONE}
+    .postgamemoves = {MOVE_TOXIC, MOVE_FOUL_PLAY, MOVE_PAIN_SPLIT, MOVE_DESTINY_BOND},
+    .moves = {MOVE_TOXIC, MOVE_FOUL_PLAY, MOVE_PAIN_SPLIT, MOVE_DESTINY_BOND}
     },
     {
     .iv = 200,
     .lvl = 5,
 	.evs = {6, 0, 0, 252, 0, 252}, 
-    .abilityNum = 1,
+    .abilityNum = 3,
     .happiness = 255,
-	.species = SPECIES_VIVILLON,
-    .postgameheldItem = ITEM_FOCUS_SASH,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_HURRICANE, MOVE_ROOST, MOVE_BUG_BUZZ, MOVE_QUIVER_DANCE},
-    .moves = {MOVE_HURRICANE, MOVE_BUG_BUZZ, MOVE_QUIVER_DANCE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 0, 0, 252, 0, 252}, 
-    .abilityNum = 2,
-    .happiness = 255,
-    .species = SPECIES_ARMYDRONE,
-    .postgameheldItem = ITEM_UNSCNITE,
-    .heldItem = ITEM_UNSCNITE,
-    .postgamemoves = {MOVE_HYPER_VOICE, MOVE_DRAGON_PULSE, MOVE_ICE_BEAM, MOVE_FLAMETHROWER},
-    .moves = {MOVE_HYPER_VOICE, MOVE_DRAGON_PULSE, MOVE_FLAMETHROWER, MOVE_NONE}
+    .species = SPECIES_EGOIRL,
+    .postgameheldItem = ITEM_GOTHOTITE,
+    .heldItem = ITEM_GOTHOTITE,
+    .postgamemoves = {MOVE_DARK_PULSE, MOVE_MOONLIGHT, MOVE_DAZZLING_GLEAM, MOVE_AURA_SPHERE},
+    .moves = {MOVE_DARK_PULSE, MOVE_MOONLIGHT, MOVE_DAZZLING_GLEAM, MOVE_AURA_SPHERE}
     }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Tanner4[] = {
     {
-    .iv = 200,
+    .iv = 255,
     .lvl = 5,
-	.evs = {6, 252, 0, 0, 0, 252},
-	.abilityNum = 2,	
-	.species = SPECIES_BIRDAPP,
-    .postgameheldItem = ITEM_CHOICE_SCARF,
-    .heldItem = ITEM_NORMAL_GEM,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+	.abilityNum = 0,
 	.happiness = 255,
-    .postgamemoves = {MOVE_RETURN, MOVE_BRAVE_BIRD, MOVE_CLOSE_COMBAT, MOVE_DOUBLE_EDGE},
-    .moves = {MOVE_DOUBLE_EDGE, MOVE_BRAVE_BIRD, MOVE_CLOSE_COMBAT, MOVE_NONE}
+	.species = SPECIES_FURRLEAD,
+    .postgameheldItem = ITEM_ROCK_GEM,
+    .heldItem = ITEM_ROCK_GEM,
+    .postgamemoves = {MOVE_STEALTH_ROCK, MOVE_SUCKER_PUNCH, MOVE_SACRED_SWORD, MOVE_DARKEST_LARIAT},
+    .moves = {MOVE_STEALTH_ROCK, MOVE_SUCKER_PUNCH, MOVE_SACRED_SWORD, MOVE_DARKEST_LARIAT}
     },
     {
-    .iv = 200,
+    .iv = 255,
     .lvl = 5,
-	.evs = {252, 0, 6, 0, 252, 0}, 
-	.species = SPECIES_FLOOTICORN,
-    .postgameheldItem = ITEM_LEFTOVERS,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+	.abilityNum = 2,
+	.species = SPECIES_ZEPPUR,
+    .postgameheldItem = ITEM_DARK_GEM,
     .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_SCALD, MOVE_ROOST, MOVE_PROTECT, MOVE_ICE_BEAM},
-    .moves = {MOVE_SCALD, MOVE_ROOST, MOVE_ICE_BEAM, MOVE_NONE}
+    .postgamemoves = {MOVE_SPIKES, MOVE_DARK_PULSE, MOVE_ROOST, MOVE_AIR_SLASH},
+    .moves = {MOVE_SPIKES, MOVE_DARK_PULSE, MOVE_ROOST, MOVE_AIR_SLASH}
     },
     {
-    .iv = 200,
+    .iv = 255,
     .lvl = 5,
-	.evs = {6, 0, 0, 252, 0, 252}, 
-	.species = SPECIES_FIROME,
-    .postgameheldItem = ITEM_FOCUS_SASH,
+	.evs = {6, 0, 252, 252, 0, 0}, 
+	.species = SPECIES_YOLKANNER,
+    .postgameheldItem = ITEM_LEFTOVERS,
     .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_SLEEP_POWDER, MOVE_HURRICANE, MOVE_BUG_BUZZ, MOVE_ENERGY_BALL},
-    .moves = {MOVE_SLEEP_POWDER, MOVE_HURRICANE, MOVE_BUG_BUZZ, MOVE_NONE}
+    .postgamemoves = {MOVE_SIZZLE_SLAM, MOVE_EARTHQUAKE, MOVE_TOXIC_SPIKES, MOVE_POISON_JAB},
+    .moves = {MOVE_SIZZLE_SLAM, MOVE_EARTHQUAKE, MOVE_TOXIC_SPIKES, MOVE_POISON_JAB}
     },
     {
-    .iv = 200,
+    .iv = 255,
+    .lvl = 5,
+	.evs = {6, 0, 252, 0, 0, 252}, 
+    .abilityNum = 3,
+    .happiness = 255,
+	.species = SPECIES_MINITRON,
+    .postgameheldItem = ITEM_ROCKY_HELMET,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_FLASH_CANNON, MOVE_COSMIC_POWER, MOVE_ICE_BEAM, MOVE_FLAMETHROWER},
+    .moves = {MOVE_FLASH_CANNON, MOVE_COSMIC_POWER, MOVE_ICE_BEAM, MOVE_FLAMETHROWER}
+    },
+    {
+    .iv = 255,
     .lvl = 5,
 	.evs = {6, 252, 0, 0, 0, 252}, 
     .abilityNum = 2,
     .happiness = 255,
-	.species = SPECIES_AMONSUS,
+	.species = SPECIES_TROLOLING,
     .postgameheldItem = ITEM_WEAKNESS_POLICY,
     .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_DRAGON_CLAW, MOVE_FIRE_PUNCH, MOVE_IRON_HEAD, MOVE_DRAGON_DANCE},
-    .moves = {MOVE_DRAGON_CLAW, MOVE_FIRE_PUNCH, MOVE_IRON_HEAD, MOVE_DRAGON_DANCE},
+    .postgamemoves = {MOVE_TOXIC, MOVE_FOUL_PLAY, MOVE_PAIN_SPLIT, MOVE_DESTINY_BOND},
+    .moves = {MOVE_TOXIC, MOVE_FOUL_PLAY, MOVE_PAIN_SPLIT, MOVE_DESTINY_BOND}
     },
     {
     .iv = 200,
     .lvl = 5,
 	.evs = {6, 0, 0, 252, 0, 252}, 
-    .abilityNum = 1,
+    .abilityNum = 3,
     .happiness = 255,
-	.species = SPECIES_KROLLER,
-    .postgameheldItem = ITEM_SITRUS_BERRY,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_DRAGON_PULSE, MOVE_ROOST, MOVE_AIR_SLASH, MOVE_GIGA_DRAIN},
-    .moves = {MOVE_DRAGON_PULSE, MOVE_ROOST, MOVE_AIR_SLASH, MOVE_GIGA_DRAIN},
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 0, 0, 252, 0, 252}, 
-    .abilityNum = 2,
-    .happiness = 255,
-    .species = SPECIES_ARMYDRONE,
-    .postgameheldItem = ITEM_UNSCNITE,
-    .heldItem = ITEM_UNSCNITE,
-    .postgamemoves = {MOVE_HYPER_VOICE, MOVE_DRAGON_PULSE, MOVE_ICE_BEAM, MOVE_FLAMETHROWER},
-    .moves = {MOVE_HYPER_VOICE, MOVE_DRAGON_PULSE, MOVE_ICE_BEAM, MOVE_FLAMETHROWER},
+    .species = SPECIES_EGOIRL,
+    .postgameheldItem = ITEM_GOTHOTITE,
+    .heldItem = ITEM_GOTHOTITE,
+    .postgamemoves = {MOVE_DARK_PULSE, MOVE_MOONLIGHT, MOVE_DAZZLING_GLEAM, MOVE_AURA_SPHERE},
+    .moves = {MOVE_DARK_PULSE, MOVE_MOONLIGHT, MOVE_DAZZLING_GLEAM, MOVE_AURA_SPHERE}
     }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Tanner5[] = {
     {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {252, 0, 252, 0, 6, 0}, 
-    .abilityNum = 2,
-	.species = SPECIES_CORVIKNIGHT,
-    .postgameheldItem = ITEM_ROCKY_HELMET,
-    .heldItem = ITEM_NORMAL_GEM,
-	.happiness = 255,
-    .postgamemoves = {MOVE_ROOST, MOVE_BRAVE_BIRD, MOVE_PROTECT, MOVE_BODY_PRESS},
-    .moves = {MOVE_ROOST, MOVE_BRAVE_BIRD, MOVE_PROTECT, MOVE_BODY_PRESS},
-    },
-    {
-    .iv = 200,
+    .iv = 255,
     .lvl = 5,
 	.evs = {6, 252, 0, 0, 0, 252}, 
-    .abilityNum = 0,
-	.species = SPECIES_USARMY,
-    .postgameheldItem = ITEM_LIFE_ORB,
+	.abilityNum = 0,
+	.happiness = 255,
+	.species = SPECIES_FURRLEAD,
+    .postgameheldItem = ITEM_ROCK_GEM,
+    .heldItem = ITEM_ROCK_GEM,
+    .postgamemoves = {MOVE_STEALTH_ROCK, MOVE_SUCKER_PUNCH, MOVE_SACRED_SWORD, MOVE_DARKEST_LARIAT},
+    .moves = {MOVE_STEALTH_ROCK, MOVE_SUCKER_PUNCH, MOVE_SACRED_SWORD, MOVE_DARKEST_LARIAT}
+    },
+    {
+    .iv = 255,
+    .lvl = 5,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+	.abilityNum = 2,
+	.species = SPECIES_ZEPPUR,
+    .postgameheldItem = ITEM_DARK_GEM,
     .heldItem = ITEM_SITRUS_BERRY,
-    .postgamemoves = {MOVE_BRAVE_BIRD, MOVE_HEAD_SMASH, MOVE_FIRE_FANG, MOVE_EARTHQUAKE},
-    .moves = {MOVE_BRAVE_BIRD, MOVE_HEAD_SMASH, MOVE_FIRE_FANG, MOVE_EARTHQUAKE},
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 0, 0, 252, 0, 252}, 
-    .abilityNum = 1,
-	.species = SPECIES_NOIVERN,
-    .postgameheldItem = ITEM_WHITE_HERB,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_DRACO_METEOR, MOVE_AIR_SLASH, MOVE_TAILWIND, MOVE_BOOMBURST},
-    .moves = {MOVE_DRACO_METEOR, MOVE_AIR_SLASH, MOVE_TAILWIND, MOVE_BOOMBURST},
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 252, 0, 0, 0, 252}, 
-    .abilityNum = 2,
-    .happiness = 255,
-	.species = SPECIES_AMONSUS,
-    .postgameheldItem = ITEM_WEAKNESS_POLICY,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_DRAGON_CLAW, MOVE_FIRE_PUNCH, MOVE_IRON_HEAD, MOVE_DRAGON_DANCE},
-    .moves = {MOVE_DRAGON_CLAW, MOVE_FIRE_PUNCH, MOVE_IRON_HEAD, MOVE_DRAGON_DANCE},
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 252, 0, 0, 0, 252},
-	.abilityNum = 2,	
-	.species = SPECIES_BIRDAPP,
-    .postgameheldItem = ITEM_CHOICE_SCARF,
-    .heldItem = ITEM_NORMAL_GEM,
-	.happiness = 255,
-    .postgamemoves = {MOVE_RETURN, MOVE_BRAVE_BIRD, MOVE_CLOSE_COMBAT, MOVE_DOUBLE_EDGE},
-    .moves = {MOVE_RETURN, MOVE_BRAVE_BIRD, MOVE_CLOSE_COMBAT, MOVE_DOUBLE_EDGE},
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 0, 0, 252, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 255,
-    .species = SPECIES_ARMYDRONE,
-    .postgameheldItem = ITEM_UNSCNITE,
-    .heldItem = ITEM_UNSCNITE,
-    .postgamemoves = {MOVE_HYPER_VOICE, MOVE_DRAGON_PULSE, MOVE_ICE_BEAM, MOVE_FLAMETHROWER},
-    .moves = {MOVE_HYPER_VOICE, MOVE_DRAGON_PULSE, MOVE_ICE_BEAM, MOVE_FLAMETHROWER},
-    }
-};
-static const struct TrainerMonItemCustomMoves sParty_TateAndLiza2[] = {
-    {
-    .iv = 200,
-    .lvl = 6,
-    .evs = {6, 0, 0, 252, 0, 252}, 
-    .abilityNum = 0,
-    .happiness = 255,
-	.species = SPECIES_ELGYEM,
-    .postgameheldItem = ITEM_TERRAIN_EXTENDER,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_SHADOW_BALL, MOVE_THUNDERBOLT, MOVE_PSYSHOCK, MOVE_PSYCHIC_TERRAIN},
-    .moves = {MOVE_CALM_MIND, MOVE_PSYCHIC_TERRAIN, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 6,
-    .evs = {6, 0, 0, 252, 0, 252}, 
-    .abilityNum = 2,
-    .happiness = 255,
-	.species = SPECIES_SHAPIPIZ,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_DAZZLING_GLEAM, MOVE_ENERGY_BALL, MOVE_PSYCHIC, MOVE_SHADOW_BALL},
-    .moves = {MOVE_CALM_MIND, MOVE_DAZZLING_GLEAM, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 6,
-    .evs = {6, 252, 0, 0, 0, 252}, 
-    .abilityNum = 2,
-    .happiness = 255,
-	.species = SPECIES_GALLADE,
-    .postgameheldItem = ITEM_GALLADITE,
-    .heldItem = ITEM_GALLADITE,
-    .postgamemoves = {MOVE_PSYCHO_CUT, MOVE_ROCK_SLIDE, MOVE_CLOSE_COMBAT, MOVE_LEAF_BLADE},
-    .moves = {MOVE_SHADOW_SNEAK, MOVE_PSYCHO_CUT, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 6,
-    .evs = {6, 0, 0, 252, 0, 252}, 
-    .abilityNum = 2,
-    .happiness = 255,
-	.species = SPECIES_THATSFURRY,
-    .postgameheldItem = ITEM_FIRE_GEM,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_MYSTICAL_FIRE, MOVE_DAZZLING_GLEAM, MOVE_PSYCHIC, MOVE_THUNDERBOLT},
-    .moves = {MOVE_PSYCHIC, MOVE_DAZZLING_GLEAM, MOVE_NONE, MOVE_NONE}
+    .postgamemoves = {MOVE_SPIKES, MOVE_DARK_PULSE, MOVE_ROOST, MOVE_AIR_SLASH},
+    .moves = {MOVE_SPIKES, MOVE_DARK_PULSE, MOVE_ROOST, MOVE_AIR_SLASH}
     },
     {
     .iv = 255,
-    .lvl = 6,
-	.evs = {6, 252, 0, 0, 0, 252}, 
-    .happiness = 255,
-    .abilityNum = 2,
-	.species = SPECIES_GANESH,
-    .postgameheldItem = ITEM_WEAKNESS_POLICY,
-    .heldItem = ITEM_LEFTOVERS,
-    .postgamemoves = {MOVE_STONE_EDGE, MOVE_HEAT_CRASH, MOVE_ZEN_HEADBUTT, MOVE_SUNSTEEL_STRIKE},
-    .moves = {MOVE_ROCK_SLIDE, MOVE_HEAT_CRASH, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 255,
-    .lvl = 6,
-	.evs = {6, 0, 0, 252, 0, 252}, 
-    .happiness = 255,
-    .abilityNum = 1,
-    .species = SPECIES_SURTYUR,
-    .postgameheldItem = ITEM_ELECTRIC_GEM,
-    .heldItem = ITEM_LEFTOVERS,
-    .postgamemoves = {MOVE_POWER_GEM, MOVE_ZAP_CANNON, MOVE_EXPANDING_FORCE, MOVE_MOONGEIST_BEAM},
-    .moves = {MOVE_POWER_GEM, MOVE_EXPANDING_FORCE, MOVE_NONE, MOVE_NONE}
-    }
-};
-
-static const struct TrainerMonItemCustomMoves sParty_TateAndLiza3[] = {
-    {
-    .iv = 200,
-    .lvl = 6,
-	.evs = {6, 0, 0, 252, 0, 252}, 
-    .happiness = 255,
-    .abilityNum = 3,
-	.species = SPECIES_INDEEDEE,
+    .lvl = 5,
+	.evs = {6, 0, 252, 252, 0, 0}, 
+	.species = SPECIES_YOLKANNER,
     .postgameheldItem = ITEM_LEFTOVERS,
     .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_PSYSHOCK, MOVE_SHADOW_BALL, MOVE_ENERGY_BALL, MOVE_DAZZLING_GLEAM},
-    .moves = {MOVE_CALM_MIND, MOVE_EXPANDING_FORCE, MOVE_NONE, MOVE_NONE}
+    .postgamemoves = {MOVE_SIZZLE_SLAM, MOVE_EARTHQUAKE, MOVE_TOXIC_SPIKES, MOVE_POISON_JAB},
+    .moves = {MOVE_SIZZLE_SLAM, MOVE_EARTHQUAKE, MOVE_TOXIC_SPIKES, MOVE_POISON_JAB}
     },
     {
-    .iv = 200,
-    .lvl = 6,
-	.evs = {6, 0, 0, 252, 0, 252}, 
-    .happiness = 255,
+    .iv = 255,
+    .lvl = 5,
+	.evs = {6, 0, 252, 0, 0, 252}, 
     .abilityNum = 3,
-	.species = SPECIES_INDEEDEE_FEMALE,
-    .postgameheldItem = ITEM_TERRAIN_EXTENDER,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_PSYSHOCK, MOVE_PSYCHIC_TERRAIN, MOVE_FOCUS_BLAST, MOVE_ENERGY_BALL},
-    .moves = {MOVE_CALM_MIND, MOVE_EXPANDING_FORCE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 6,
-	.evs = {6, 252, 0, 0, 0, 252}, 
     .happiness = 255,
-    .abilityNum = 2,
-	.species = SPECIES_GALLADE,
-    .postgameheldItem = ITEM_FOCUS_SASH,
+	.species = SPECIES_MINITRON,
+    .postgameheldItem = ITEM_ROCKY_HELMET,
     .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_CLOSE_COMBAT, MOVE_PSYCHO_CUT, MOVE_ROCK_SLIDE, MOVE_LEAF_BLADE},
-    .moves = {MOVE_SHADOW_SNEAK, MOVE_PSYCHO_CUT, MOVE_CLOSE_COMBAT, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 6,
-	.evs = {6, 0, 0, 252, 0, 252}, 
-    .happiness = 255,
-    .abilityNum = 2,
-	.species = SPECIES_THATSFURRY,
-    .postgameheldItem = ITEM_AWMANITE,
-    .heldItem = ITEM_AWMANITE,
-    .postgamemoves = {MOVE_HYPER_VOICE, MOVE_PSYSHOCK, MOVE_THUNDERBOLT, MOVE_SHADOW_BALL},
-    .moves = {MOVE_PSYSHOCK, MOVE_SHADOW_BALL, MOVE_THUNDERBOLT, MOVE_NONE}
+    .postgamemoves = {MOVE_FLASH_CANNON, MOVE_COSMIC_POWER, MOVE_ICE_BEAM, MOVE_FLAMETHROWER},
+    .moves = {MOVE_FLASH_CANNON, MOVE_COSMIC_POWER, MOVE_ICE_BEAM, MOVE_FLAMETHROWER}
     },
     {
     .iv = 255,
-    .lvl = 6,
+    .lvl = 5,
 	.evs = {6, 252, 0, 0, 0, 252}, 
-    .happiness = 255,
     .abilityNum = 2,
-	.species = SPECIES_GANESH,
+    .happiness = 255,
+	.species = SPECIES_TROLOLING,
     .postgameheldItem = ITEM_WEAKNESS_POLICY,
-    .heldItem = ITEM_LEFTOVERS,
-    .postgamemoves = {MOVE_STONE_EDGE, MOVE_HEAT_CRASH, MOVE_ZEN_HEADBUTT, MOVE_SUNSTEEL_STRIKE},
-    .moves = {MOVE_ROCK_SLIDE, MOVE_HEAT_CRASH, MOVE_ZEN_HEADBUTT, MOVE_NONE}
-    },
-    {
-    .iv = 255,
-    .lvl = 6,
-	.evs = {6, 0, 0, 252, 0, 252}, 
-    .happiness = 255,
-    .abilityNum = 1,
-    .species = SPECIES_SURTYUR,
-    .postgameheldItem = ITEM_ELECTRIC_GEM,
-    .heldItem = ITEM_LEFTOVERS,
-    .postgamemoves = {MOVE_POWER_GEM, MOVE_ZAP_CANNON, MOVE_EXPANDING_FORCE, MOVE_MOONGEIST_BEAM},
-    .moves = {MOVE_POWER_GEM, MOVE_EXPANDING_FORCE, MOVE_ZAP_CANNON, MOVE_NONE}
-    }
-};
-
-static const struct TrainerMonItemCustomMoves sParty_TateAndLiza4[] = {
-    {
-    .iv = 200,
-    .lvl = 6,
-    .evs = {6, 0, 0, 252, 0, 252}, 
-    .abilityNum = 0,
-    .happiness = 255,
-	.species = SPECIES_MEOWSTIC_FEMALE,
-    .postgameheldItem = ITEM_TERRAIN_EXTENDER,
     .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_SHADOW_BALL, MOVE_THUNDERBOLT, MOVE_PSYSHOCK, MOVE_PSYCHIC_TERRAIN},
-    .moves = {MOVE_PSYSHOCK, MOVE_THUNDERBOLT, MOVE_EXPANDING_FORCE, MOVE_NONE}
+    .postgamemoves = {MOVE_TOXIC, MOVE_FOUL_PLAY, MOVE_PAIN_SPLIT, MOVE_DESTINY_BOND},
+    .moves = {MOVE_TOXIC, MOVE_FOUL_PLAY, MOVE_PAIN_SPLIT, MOVE_DESTINY_BOND}
     },
     {
     .iv = 200,
-    .lvl = 6,
-    .evs = {6, 0, 0, 252, 0, 252}, 
-    .abilityNum = 2,
-    .happiness = 255,
-	.species = SPECIES_MEOWSTIC,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_DAZZLING_GLEAM, MOVE_ENERGY_BALL, MOVE_PSYCHIC, MOVE_SHADOW_BALL},
-    .moves = {MOVE_EXPANDING_FORCE, MOVE_DAZZLING_GLEAM, MOVE_ENERGY_BALL, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 6,
-    .evs = {6, 252, 0, 0, 0, 252}, 
-    .abilityNum = 2,
-    .happiness = 255,
-	.species = SPECIES_GALLADE,
-    .postgameheldItem = ITEM_GALLADITE,
-    .heldItem = ITEM_GALLADITE,
-    .postgamemoves = {MOVE_PSYCHO_CUT, MOVE_ROCK_SLIDE, MOVE_CLOSE_COMBAT, MOVE_LEAF_BLADE},
-    .moves = {MOVE_SHADOW_SNEAK, MOVE_PSYCHO_CUT, MOVE_ROCK_SLIDE, MOVE_CLOSE_COMBAT}
-    },
-    {
-    .iv = 200,
-    .lvl = 6,
-    .evs = {6, 0, 0, 252, 0, 252}, 
-    .abilityNum = 2,
-    .happiness = 255,
-	.species = SPECIES_THATSFURRY,
-    .postgameheldItem = ITEM_FIRE_GEM,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_MYSTICAL_FIRE, MOVE_DAZZLING_GLEAM, MOVE_PSYCHIC, MOVE_THUNDERBOLT},
-    .moves = {MOVE_PSYCHIC, MOVE_DAZZLING_GLEAM, MOVE_THUNDERBOLT, MOVE_MYSTICAL_FIRE}
-    },
-    {
-    .iv = 255,
-    .lvl = 6,
-	.evs = {6, 252, 0, 0, 0, 252}, 
-    .happiness = 255,
-    .abilityNum = 2,
-	.species = SPECIES_GANESH,
-    .postgameheldItem = ITEM_WEAKNESS_POLICY,
-    .heldItem = ITEM_WEAKNESS_POLICY,
-    .postgamemoves = {MOVE_STONE_EDGE, MOVE_HEAT_CRASH, MOVE_ZEN_HEADBUTT, MOVE_SUNSTEEL_STRIKE},
-    .moves = {MOVE_HEAT_CRASH, MOVE_ZEN_HEADBUTT, MOVE_STONE_EDGE, MOVE_EARTHQUAKE}
-    },
-    {
-    .iv = 255,
-    .lvl = 6,
-	.evs = {6, 0, 0, 252, 0, 252}, 
-    .happiness = 255,
-    .abilityNum = 1,
-    .species = SPECIES_SURTYUR,
-    .postgameheldItem = ITEM_ELECTRIC_GEM,
-    .heldItem = ITEM_LEFTOVERS,
-    .postgamemoves = {MOVE_POWER_GEM, MOVE_ZAP_CANNON, MOVE_EXPANDING_FORCE, MOVE_MOONGEIST_BEAM},
-    .moves = {MOVE_POWER_GEM, MOVE_ZAP_CANNON, MOVE_EXPANDING_FORCE, MOVE_SHADOW_BALL}
-    }
-};
-
-static const struct TrainerMonItemCustomMoves sParty_TateAndLiza5[] = {
-    {
-    .iv = 200,
-    .lvl = 6,
+    .lvl = 5,
 	.evs = {6, 0, 0, 252, 0, 252}, 
     .abilityNum = 3,
     .happiness = 255,
-	.species = SPECIES_HEBURROW,
+    .species = SPECIES_EGOIRL,
+    .postgameheldItem = ITEM_GOTHOTITE,
+    .heldItem = ITEM_GOTHOTITE,
+    .postgamemoves = {MOVE_DARK_PULSE, MOVE_MOONLIGHT, MOVE_DAZZLING_GLEAM, MOVE_AURA_SPHERE},
+    .moves = {MOVE_DARK_PULSE, MOVE_MOONLIGHT, MOVE_DAZZLING_GLEAM, MOVE_AURA_SPHERE}
+    }
+};
+static const struct TrainerMonItemCustomMoves sParty_TonyAndSal2[] = {
+    {
+    .iv = 255,
+    .lvl = 6,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+    .abilityNum = 1,
+    .happiness = 255,
+	.species = SPECIES_FROSLING,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_ROCK_SLIDE, MOVE_DRAGON_DANCE, MOVE_GLACIAL_LANCE, MOVE_DRAGON_ENERGY},
+    .moves = {MOVE_ROCK_SLIDE, MOVE_DRAGON_DANCE, MOVE_GLACIAL_LANCE, MOVE_DRAGON_ENERGY}
+    },
+    {
+    .iv = 200,
+    .lvl = 6,
+	.evs = {6, 0, 0, 252, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 255,
+	.species = SPECIES_NAUSEON,
     .postgameheldItem = ITEM_LEFTOVERS,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_PSYSHOCK, MOVE_SHADOW_BALL, MOVE_THUNDERBOLT, MOVE_EARTH_POWER},
-    .moves = {MOVE_EXPANDING_FORCE, MOVE_SHADOW_BALL, MOVE_THUNDERBOLT, MOVE_EARTH_POWER}
-    },
-    {
-    .iv = 200,
-    .lvl = 6,
-	.evs = {6, 0, 0, 252, 0, 252}, 
-    .abilityNum = 3,
-    .happiness = 255,
-	.species = SPECIES_BRONZONG,
-    .postgameheldItem = ITEM_TERRAIN_EXTENDER,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_PSYSHOCK, MOVE_PSYCHIC_TERRAIN, MOVE_FLASH_CANNON, MOVE_THUNDERBOLT},
-    .moves = {MOVE_PSYSHOCK, MOVE_PSYCHIC_TERRAIN, MOVE_FLASH_CANNON, MOVE_THUNDERBOLT}
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_TOXIC_SPIKES, MOVE_HYPER_VOICE, MOVE_FIERY_WRATH, MOVE_ACID},
+    .moves = {MOVE_TOXIC_SPIKES, MOVE_HYPER_VOICE, MOVE_FIERY_WRATH, MOVE_ACID}
     },
     {
     .iv = 200,
@@ -20836,23 +20625,23 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza5[] = {
 	.evs = {6, 252, 0, 0, 0, 252}, 
     .happiness = 255,
     .abilityNum = 2,
-	.species = SPECIES_GALLADE,
+	.species = SPECIES_BADDERY,
     .postgameheldItem = ITEM_FOCUS_SASH,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_CLOSE_COMBAT, MOVE_PSYCHO_CUT, MOVE_ROCK_SLIDE, MOVE_LEAF_BLADE},
-    .moves = {MOVE_CLOSE_COMBAT, MOVE_PSYCHO_CUT, MOVE_ROCK_SLIDE, MOVE_LEAF_BLADE}
+    .heldItem = ITEM_FOCUS_SASH,
+    .postgamemoves = {MOVE_ELECTROWEB, MOVE_DISCHARGE, MOVE_NASTY_PLOT, MOVE_SHADOW_BALL},
+    .moves = {MOVE_ELECTROWEB, MOVE_DISCHARGE, MOVE_NASTY_PLOT, MOVE_SHADOW_BALL}
     },
     {
     .iv = 200,
     .lvl = 6,
-	.evs = {6, 0, 0, 252, 0, 252}, 
+	.evs = {6, 252, 0, 0, 0, 252}, 
     .happiness = 255,
     .abilityNum = 2,
-	.species = SPECIES_THATSFURRY,
-    .postgameheldItem = ITEM_AWMANITE,
-    .heldItem = ITEM_AWMANITE,
-    .postgamemoves = {MOVE_HYPER_VOICE, MOVE_PSYSHOCK, MOVE_THUNDERBOLT, MOVE_SHADOW_BALL},
-    .moves = {MOVE_HYPER_VOICE, MOVE_PSYSHOCK, MOVE_THUNDERBOLT, MOVE_SHADOW_BALL}
+	.species = SPECIES_BIPHARMA,
+    .postgameheldItem = ITEM_BIPHARMITE,
+    .heldItem = ITEM_BIPHARMITE,
+    .postgamemoves = {MOVE_POISON_JAB, MOVE_ROCK_SLIDE, MOVE_IRON_HEAD, MOVE_DRAIN_PUNCH},
+    .moves = {MOVE_POISON_JAB, MOVE_ROCK_SLIDE, MOVE_IRON_HEAD, MOVE_DRAIN_PUNCH}
     },
     {
     .iv = 255,
@@ -20860,23 +20649,248 @@ static const struct TrainerMonItemCustomMoves sParty_TateAndLiza5[] = {
 	.evs = {6, 252, 0, 0, 0, 252}, 
     .happiness = 255,
     .abilityNum = 2,
-	.species = SPECIES_GANESH,
+	.species = SPECIES_GARFEL,
     .postgameheldItem = ITEM_WEAKNESS_POLICY,
     .heldItem = ITEM_LEFTOVERS,
-    .postgamemoves = {MOVE_STONE_EDGE, MOVE_HEAT_CRASH, MOVE_ZEN_HEADBUTT, MOVE_SUNSTEEL_STRIKE},
-    .moves = {MOVE_STONE_EDGE, MOVE_EARTHQUAKE, MOVE_ZEN_HEADBUTT, MOVE_SUNSTEEL_STRIKE}
+    .postgamemoves = {MOVE_FAKE_OUT, MOVE_DARK_VOID, MOVE_SHADOW_FORCE, MOVE_JAW_LOCK},
+    .moves = {MOVE_FAKE_OUT, MOVE_DARK_VOID, MOVE_SHADOW_FORCE, MOVE_JAW_LOCK}
     },
     {
     .iv = 255,
     .lvl = 6,
-	.evs = {6, 0, 0, 252, 0, 252}, 
+	.evs = {6, 252, 0, 252, 0, 0}, 
     .happiness = 255,
     .abilityNum = 1,
-    .species = SPECIES_SURTYUR,
-    .postgameheldItem = ITEM_ELECTRIC_GEM,
+    .species = SPECIES_SCUBITE,
+    .postgameheldItem = ITEM_WATER_GEM,
     .heldItem = ITEM_LEFTOVERS,
-    .postgamemoves = {MOVE_POWER_GEM, MOVE_ZAP_CANNON, MOVE_EXPANDING_FORCE, MOVE_MOONGEIST_BEAM},
-    .moves = {MOVE_POWER_GEM, MOVE_ZAP_CANNON, MOVE_EXPANDING_FORCE, MOVE_MOONGEIST_BEAM}
+    .postgamemoves = {MOVE_JAW_LOCK, MOVE_FISHIOUS_REND, MOVE_AQUA_JET, MOVE_DRAGON_DANCE},
+    .moves = {MOVE_JAW_LOCK, MOVE_FISHIOUS_REND, MOVE_AQUA_JET, MOVE_DRAGON_DANCE}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_TonyAndSal3[] = {
+    {
+    .iv = 255,
+    .lvl = 6,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+    .abilityNum = 1,
+    .happiness = 255,
+	.species = SPECIES_FROSLING,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_ROCK_SLIDE, MOVE_DRAGON_DANCE, MOVE_GLACIAL_LANCE, MOVE_DRAGON_ENERGY},
+    .moves = {MOVE_ROCK_SLIDE, MOVE_DRAGON_DANCE, MOVE_GLACIAL_LANCE, MOVE_DRAGON_ENERGY}
+    },
+    {
+    .iv = 200,
+    .lvl = 6,
+	.evs = {6, 0, 0, 252, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 255,
+	.species = SPECIES_NAUSEON,
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_TOXIC_SPIKES, MOVE_HYPER_VOICE, MOVE_FIERY_WRATH, MOVE_ACID},
+    .moves = {MOVE_TOXIC_SPIKES, MOVE_HYPER_VOICE, MOVE_FIERY_WRATH, MOVE_ACID}
+    },
+    {
+    .iv = 200,
+    .lvl = 6,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+    .happiness = 255,
+    .abilityNum = 2,
+	.species = SPECIES_BADDERY,
+    .postgameheldItem = ITEM_FOCUS_SASH,
+    .heldItem = ITEM_FOCUS_SASH,
+    .postgamemoves = {MOVE_ELECTROWEB, MOVE_DISCHARGE, MOVE_NASTY_PLOT, MOVE_SHADOW_BALL},
+    .moves = {MOVE_ELECTROWEB, MOVE_DISCHARGE, MOVE_NASTY_PLOT, MOVE_SHADOW_BALL}
+    },
+    {
+    .iv = 200,
+    .lvl = 6,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+    .happiness = 255,
+    .abilityNum = 2,
+	.species = SPECIES_BIPHARMA,
+    .postgameheldItem = ITEM_BIPHARMITE,
+    .heldItem = ITEM_BIPHARMITE,
+    .postgamemoves = {MOVE_POISON_JAB, MOVE_ROCK_SLIDE, MOVE_IRON_HEAD, MOVE_DRAIN_PUNCH},
+    .moves = {MOVE_POISON_JAB, MOVE_ROCK_SLIDE, MOVE_IRON_HEAD, MOVE_DRAIN_PUNCH}
+    },
+    {
+    .iv = 255,
+    .lvl = 6,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+    .happiness = 255,
+    .abilityNum = 2,
+	.species = SPECIES_GARFEL,
+    .postgameheldItem = ITEM_WEAKNESS_POLICY,
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_FAKE_OUT, MOVE_DARK_VOID, MOVE_SHADOW_FORCE, MOVE_JAW_LOCK},
+    .moves = {MOVE_FAKE_OUT, MOVE_DARK_VOID, MOVE_SHADOW_FORCE, MOVE_JAW_LOCK}
+    },
+    {
+    .iv = 255,
+    .lvl = 6,
+	.evs = {6, 252, 0, 252, 0, 0}, 
+    .happiness = 255,
+    .abilityNum = 1,
+    .species = SPECIES_SCUBITE,
+    .postgameheldItem = ITEM_WATER_GEM,
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_JAW_LOCK, MOVE_FISHIOUS_REND, MOVE_AQUA_JET, MOVE_DRAGON_DANCE},
+    .moves = {MOVE_JAW_LOCK, MOVE_FISHIOUS_REND, MOVE_AQUA_JET, MOVE_DRAGON_DANCE}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_TonyAndSal4[] = {
+    {
+    .iv = 255,
+    .lvl = 6,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+    .abilityNum = 1,
+    .happiness = 255,
+	.species = SPECIES_FROSLING,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_ROCK_SLIDE, MOVE_DRAGON_DANCE, MOVE_GLACIAL_LANCE, MOVE_DRAGON_ENERGY},
+    .moves = {MOVE_ROCK_SLIDE, MOVE_DRAGON_DANCE, MOVE_GLACIAL_LANCE, MOVE_DRAGON_ENERGY}
+    },
+    {
+    .iv = 200,
+    .lvl = 6,
+	.evs = {6, 0, 0, 252, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 255,
+	.species = SPECIES_NAUSEON,
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_TOXIC_SPIKES, MOVE_HYPER_VOICE, MOVE_FIERY_WRATH, MOVE_ACID},
+    .moves = {MOVE_TOXIC_SPIKES, MOVE_HYPER_VOICE, MOVE_FIERY_WRATH, MOVE_ACID}
+    },
+    {
+    .iv = 200,
+    .lvl = 6,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+    .happiness = 255,
+    .abilityNum = 2,
+	.species = SPECIES_BADDERY,
+    .postgameheldItem = ITEM_FOCUS_SASH,
+    .heldItem = ITEM_FOCUS_SASH,
+    .postgamemoves = {MOVE_ELECTROWEB, MOVE_DISCHARGE, MOVE_NASTY_PLOT, MOVE_SHADOW_BALL},
+    .moves = {MOVE_ELECTROWEB, MOVE_DISCHARGE, MOVE_NASTY_PLOT, MOVE_SHADOW_BALL}
+    },
+    {
+    .iv = 200,
+    .lvl = 6,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+    .happiness = 255,
+    .abilityNum = 2,
+	.species = SPECIES_BIPHARMA,
+    .postgameheldItem = ITEM_BIPHARMITE,
+    .heldItem = ITEM_BIPHARMITE,
+    .postgamemoves = {MOVE_POISON_JAB, MOVE_ROCK_SLIDE, MOVE_IRON_HEAD, MOVE_DRAIN_PUNCH},
+    .moves = {MOVE_POISON_JAB, MOVE_ROCK_SLIDE, MOVE_IRON_HEAD, MOVE_DRAIN_PUNCH}
+    },
+    {
+    .iv = 255,
+    .lvl = 6,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+    .happiness = 255,
+    .abilityNum = 2,
+	.species = SPECIES_GARFEL,
+    .postgameheldItem = ITEM_WEAKNESS_POLICY,
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_FAKE_OUT, MOVE_DARK_VOID, MOVE_SHADOW_FORCE, MOVE_JAW_LOCK},
+    .moves = {MOVE_FAKE_OUT, MOVE_DARK_VOID, MOVE_SHADOW_FORCE, MOVE_JAW_LOCK}
+    },
+    {
+    .iv = 255,
+    .lvl = 6,
+	.evs = {6, 252, 0, 252, 0, 0}, 
+    .happiness = 255,
+    .abilityNum = 1,
+    .species = SPECIES_SCUBITE,
+    .postgameheldItem = ITEM_WATER_GEM,
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_JAW_LOCK, MOVE_FISHIOUS_REND, MOVE_AQUA_JET, MOVE_DRAGON_DANCE},
+    .moves = {MOVE_JAW_LOCK, MOVE_FISHIOUS_REND, MOVE_AQUA_JET, MOVE_DRAGON_DANCE}
+    }
+};
+
+static const struct TrainerMonItemCustomMoves sParty_TonyAndSal5[] = {
+    {
+    .iv = 255,
+    .lvl = 6,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+    .abilityNum = 1,
+    .happiness = 255,
+	.species = SPECIES_FROSLING,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_NONE,
+    .postgamemoves = {MOVE_ROCK_SLIDE, MOVE_DRAGON_DANCE, MOVE_GLACIAL_LANCE, MOVE_DRAGON_ENERGY},
+    .moves = {MOVE_ROCK_SLIDE, MOVE_DRAGON_DANCE, MOVE_GLACIAL_LANCE, MOVE_DRAGON_ENERGY}
+    },
+    {
+    .iv = 200,
+    .lvl = 6,
+	.evs = {6, 0, 0, 252, 0, 252}, 
+    .abilityNum = 2,
+    .happiness = 255,
+	.species = SPECIES_NAUSEON,
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_TOXIC_SPIKES, MOVE_HYPER_VOICE, MOVE_FIERY_WRATH, MOVE_ACID},
+    .moves = {MOVE_TOXIC_SPIKES, MOVE_HYPER_VOICE, MOVE_FIERY_WRATH, MOVE_ACID}
+    },
+    {
+    .iv = 200,
+    .lvl = 6,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+    .happiness = 255,
+    .abilityNum = 2,
+	.species = SPECIES_BADDERY,
+    .postgameheldItem = ITEM_FOCUS_SASH,
+    .heldItem = ITEM_FOCUS_SASH,
+    .postgamemoves = {MOVE_ELECTROWEB, MOVE_DISCHARGE, MOVE_NASTY_PLOT, MOVE_SHADOW_BALL},
+    .moves = {MOVE_ELECTROWEB, MOVE_DISCHARGE, MOVE_NASTY_PLOT, MOVE_SHADOW_BALL}
+    },
+    {
+    .iv = 200,
+    .lvl = 6,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+    .happiness = 255,
+    .abilityNum = 2,
+	.species = SPECIES_BIPHARMA,
+    .postgameheldItem = ITEM_BIPHARMITE,
+    .heldItem = ITEM_BIPHARMITE,
+    .postgamemoves = {MOVE_POISON_JAB, MOVE_ROCK_SLIDE, MOVE_IRON_HEAD, MOVE_DRAIN_PUNCH},
+    .moves = {MOVE_POISON_JAB, MOVE_ROCK_SLIDE, MOVE_IRON_HEAD, MOVE_DRAIN_PUNCH}
+    },
+    {
+    .iv = 255,
+    .lvl = 6,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+    .happiness = 255,
+    .abilityNum = 2,
+	.species = SPECIES_GARFEL,
+    .postgameheldItem = ITEM_WEAKNESS_POLICY,
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_FAKE_OUT, MOVE_DARK_VOID, MOVE_SHADOW_FORCE, MOVE_JAW_LOCK},
+    .moves = {MOVE_FAKE_OUT, MOVE_DARK_VOID, MOVE_SHADOW_FORCE, MOVE_JAW_LOCK}
+    },
+    {
+    .iv = 255,
+    .lvl = 6,
+	.evs = {6, 252, 0, 252, 0, 0}, 
+    .happiness = 255,
+    .abilityNum = 1,
+    .species = SPECIES_SCUBITE,
+    .postgameheldItem = ITEM_WATER_GEM,
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_JAW_LOCK, MOVE_FISHIOUS_REND, MOVE_AQUA_JET, MOVE_DRAGON_DANCE},
+    .moves = {MOVE_JAW_LOCK, MOVE_FISHIOUS_REND, MOVE_AQUA_JET, MOVE_DRAGON_DANCE}
     }
 };
 
@@ -20884,26 +20898,26 @@ static const struct TrainerMonItemCustomMoves sParty_Mitchell2[] = {
     {
     .iv = 200,
     .lvl = 5,
-	.evs = {6, 252, 0, 0, 0, 252}, 
+	.evs = {6, 0, 0, 252, 0, 252}, 
     .happiness = 255,
-    .abilityNum = 1,
-	.species = SPECIES_STROLOKE,
-    .postgameheldItem = ITEM_LIFE_ORB,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_CRABHAMMER, MOVE_HAMMER_ARM, MOVE_X_SCISSOR, MOVE_KNOCK_OFF},
-    .moves = {MOVE_CRABHAMMER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .abilityNum = 0,
+	.species = SPECIES_BILLOMINAT,
+    .postgameheldItem = ITEM_CHOICE_SCARF,
+    .heldItem = ITEM_CHOICE_SCARF,
+    .postgamemoves = {MOVE_TRICK, MOVE_EARTH_POWER, MOVE_STEALTH_ROCK, MOVE_PSYCHIC},
+    .moves = {MOVE_TRICK, MOVE_EARTH_POWER, MOVE_STEALTH_ROCK, MOVE_PSYCHIC}
     },
     {
     .iv = 200,
     .lvl = 5,
-	.evs = {6, 252, 0, 0, 0, 252}, 
+	.evs = {6, 0, 252, 252, 0, 0}, 
     .happiness = 255,
     .abilityNum = 1,
-	.species = SPECIES_COOLAR,
-    .postgameheldItem = ITEM_KINGS_ROCK,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_ROCK_BLAST, MOVE_ICICLE_SPEAR, MOVE_SHELL_SMASH, MOVE_PIN_MISSILE},
-    .moves = {MOVE_ICICLE_SPEAR, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+	.species = SPECIES_SKORCHI,
+    .postgameheldItem = ITEM_SKORPYROSITE_X,
+    .heldItem = ITEM_SKORPYROSITE_X,
+    .postgamemoves = {MOVE_THUNDER_PUNCH, MOVE_FIRE_LASH, MOVE_DRAGON_CLAW, MOVE_EARTHQUAKE},
+    .moves = {MOVE_THUNDER_PUNCH, MOVE_FIRE_LASH, MOVE_DRAGON_CLAW, MOVE_EARTHQUAKE}
     },
     {
     .iv = 200,
@@ -20911,47 +20925,47 @@ static const struct TrainerMonItemCustomMoves sParty_Mitchell2[] = {
 	.evs = {6, 252, 0, 0, 0, 252}, 
     .happiness = 255,
     .abilityNum = 2,
-	.species = SPECIES_CIGHTED,
-    .postgameheldItem = ITEM_WATER_GEM,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_MEGAHORN, MOVE_FISHIOUS_REND, MOVE_POISON_JAB, MOVE_HORN_DRILL},
-    .moves = {MOVE_WATER_PULSE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+	.species = SPECIES_PADDLITE,
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_ICICLE_CRASH, MOVE_IRON_HEAD, MOVE_LIQUIDATION, MOVE_AQUA_JET},
+    .moves = {MOVE_ICICLE_CRASH, MOVE_IRON_HEAD, MOVE_LIQUIDATION, MOVE_AQUA_JET}
     },
     {
     .iv = 200,
     .lvl = 5,
-	.evs = {6, 252, 0, 0, 0, 252}, 
-    .happiness = 255,
-    .abilityNum = 1,
-	.species = SPECIES_SEAKUSH,
-    .postgameheldItem = ITEM_ASSAULT_VEST,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_ICE_PUNCH, MOVE_PLAY_ROUGH, MOVE_LIQUIDATION, MOVE_AQUA_JET},
-    .moves = {MOVE_AQUA_JET, MOVE_NONE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 252, 0, 0, 0, 252}, 
+	.evs = {6, 0, 0, 252, 0, 252}, 
     .happiness = 255,
     .abilityNum = 3,
-	.species = SPECIES_NUSHAKE,
-    .postgameheldItem = ITEM_SNEDDITE,
-    .heldItem = ITEM_SNEDDITE,
-    .postgamemoves = {MOVE_CRUNCH, MOVE_LIQUIDATION, MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE},
-    .moves = {MOVE_CRUNCH, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+	.species = SPECIES_ODOSAUR,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_LIFE_ORB,
+    .postgamemoves = {MOVE_CRUNCH, MOVE_LEAF_BLADE, MOVE_STONE_EDGE, MOVE_EARTHQUAKE},
+    .moves = {MOVE_CRUNCH, MOVE_LEAF_BLADE, MOVE_STONE_EDGE, MOVE_EARTHQUAKE}
+    },
+    {
+    .iv = 200,
+    .lvl = 5,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+    .happiness = 255,
+    .abilityNum = 0,
+	.species = SPECIES_KRAFPUNK,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_LIFE_ORB,
+    .postgamemoves = {MOVE_THUNDER_PUNCH, MOVE_DRAIN_PUNCH, MOVE_ICE_PUNCH, MOVE_PSYCHO_CUT},
+    .moves = {MOVE_THUNDER_PUNCH, MOVE_DRAIN_PUNCH, MOVE_ICE_PUNCH, MOVE_PSYCHO_CUT}
     },
     {
     .iv = 255,
     .lvl = 5,
-	.evs = {6, 0, 0, 252, 0, 252}, 
+	.evs = {6, 252, 0, 0, 0, 252}, 
     .happiness = 255,
     .abilityNum = 0,
-    .species = SPECIES_JANK,
+    .species = SPECIES_CTHEYE,
     .postgameheldItem = ITEM_LIFE_ORB,
     .heldItem = ITEM_LEFTOVERS,
-    .postgamemoves = {MOVE_DRAGON_PULSE, MOVE_ICE_BEAM, MOVE_SCALD, MOVE_FLASH_CANNON},
-    .moves = {MOVE_OCTAZOOKA, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .postgamemoves = {MOVE_DRAGON_CLAW, MOVE_DRAGON_DANCE, MOVE_EXTREME_SPEED, MOVE_DARKEST_LARIAT},
+    .moves = {MOVE_DRAGON_CLAW, MOVE_DRAGON_DANCE, MOVE_EXTREME_SPEED, MOVE_DARKEST_LARIAT}
     }
 };
 
@@ -20959,74 +20973,74 @@ static const struct TrainerMonItemCustomMoves sParty_Mitchell3[] = {
     {
     .iv = 200,
     .lvl = 5,
+	.evs = {6, 0, 0, 252, 0, 252}, 
+    .happiness = 255,
+    .abilityNum = 0,
+	.species = SPECIES_BILLOMINAT,
+    .postgameheldItem = ITEM_CHOICE_SCARF,
+    .heldItem = ITEM_CHOICE_SCARF,
+    .postgamemoves = {MOVE_TRICK, MOVE_EARTH_POWER, MOVE_STEALTH_ROCK, MOVE_PSYCHIC},
+    .moves = {MOVE_TRICK, MOVE_EARTH_POWER, MOVE_STEALTH_ROCK, MOVE_PSYCHIC}
+    },
+    {
+    .iv = 200,
+    .lvl = 5,
+	.evs = {6, 0, 252, 252, 0, 0}, 
+    .happiness = 255,
+    .abilityNum = 1,
+	.species = SPECIES_SKORCHI,
+    .postgameheldItem = ITEM_SKORPYROSITE_X,
+    .heldItem = ITEM_SKORPYROSITE_X,
+    .postgamemoves = {MOVE_THUNDER_PUNCH, MOVE_FIRE_LASH, MOVE_DRAGON_CLAW, MOVE_EARTHQUAKE},
+    .moves = {MOVE_THUNDER_PUNCH, MOVE_FIRE_LASH, MOVE_DRAGON_CLAW, MOVE_EARTHQUAKE}
+    },
+    {
+    .iv = 200,
+    .lvl = 5,
 	.evs = {6, 252, 0, 0, 0, 252}, 
     .happiness = 255,
     .abilityNum = 2,
-	.species = SPECIES_DABBEATLE,
-    .postgameheldItem = ITEM_FOCUS_SASH,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_POISON_JAB, MOVE_LIQUIDATION, MOVE_TOXIC_SPIKES, MOVE_DESTINY_BOND},
-    .moves = {MOVE_LIQUIDATION, MOVE_NONE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {252, 0, 128, 128, 0, 0}, 
-    .happiness = 255,
-    .abilityNum = 0,
 	.species = SPECIES_PADDLITE,
     .postgameheldItem = ITEM_LEFTOVERS,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_EARTH_POWER, MOVE_SCALD, MOVE_ICE_BEAM, MOVE_RECOVER},
-    .moves = {MOVE_RECOVER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_ICICLE_CRASH, MOVE_IRON_HEAD, MOVE_LIQUIDATION, MOVE_AQUA_JET},
+    .moves = {MOVE_ICICLE_CRASH, MOVE_IRON_HEAD, MOVE_LIQUIDATION, MOVE_AQUA_JET}
     },
     {
     .iv = 200,
     .lvl = 5,
-	.evs = {6, 252, 0, 0, 0, 252}, 
-    .happiness = 255,
-    .abilityNum = 0,
-	.species = SPECIES_CHOCCUDLE,
-    .postgameheldItem = ITEM_WHITE_HERB,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_LEECH_LIFE, MOVE_LIQUIDATION, MOVE_POISON_JAB, MOVE_STICKY_WEB},
-    .moves = {MOVE_LEECH_LIFE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 252, 0, 0, 0, 252}, 
-    .happiness = 255,
-    .abilityNum = 0,
-	.species = SPECIES_DESITRUS,
-    .postgameheldItem = ITEM_ASSAULT_VEST,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_FIRST_IMPRESSION, MOVE_LIQUIDATION, MOVE_SUCKER_PUNCH, MOVE_AQUA_JET},
-    .moves = {MOVE_AQUA_JET, MOVE_NONE, MOVE_NONE, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 252, 0, 0, 0, 252}, 
+	.evs = {6, 0, 0, 252, 0, 252}, 
     .happiness = 255,
     .abilityNum = 3,
-	.species = SPECIES_NUSHAKE,
-    .postgameheldItem = ITEM_SNEDDITE,
-    .heldItem = ITEM_SNEDDITE,
-    .postgamemoves = {MOVE_CRUNCH, MOVE_LIQUIDATION, MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE},
-    .moves = {MOVE_CRUNCH, MOVE_LIQUIDATION, MOVE_NONE, MOVE_NONE}
+	.species = SPECIES_ODOSAUR,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_LIFE_ORB,
+    .postgamemoves = {MOVE_CRUNCH, MOVE_LEAF_BLADE, MOVE_STONE_EDGE, MOVE_EARTHQUAKE},
+    .moves = {MOVE_CRUNCH, MOVE_LEAF_BLADE, MOVE_STONE_EDGE, MOVE_EARTHQUAKE}
+    },
+    {
+    .iv = 200,
+    .lvl = 5,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+    .happiness = 255,
+    .abilityNum = 0,
+	.species = SPECIES_KRAFPUNK,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_LIFE_ORB,
+    .postgamemoves = {MOVE_THUNDER_PUNCH, MOVE_DRAIN_PUNCH, MOVE_ICE_PUNCH, MOVE_PSYCHO_CUT},
+    .moves = {MOVE_THUNDER_PUNCH, MOVE_DRAIN_PUNCH, MOVE_ICE_PUNCH, MOVE_PSYCHO_CUT}
     },
     {
     .iv = 255,
     .lvl = 5,
-	.evs = {6, 0, 0, 252, 0, 252}, 
+	.evs = {6, 252, 0, 0, 0, 252}, 
     .happiness = 255,
     .abilityNum = 0,
-    .species = SPECIES_JANK,
+    .species = SPECIES_CTHEYE,
     .postgameheldItem = ITEM_LIFE_ORB,
     .heldItem = ITEM_LEFTOVERS,
-    .postgamemoves = {MOVE_DRAGON_PULSE, MOVE_ICE_BEAM, MOVE_SCALD, MOVE_FLASH_CANNON},
-    .moves = {MOVE_OCTAZOOKA, MOVE_DRAGON_PULSE, MOVE_NONE, MOVE_NONE}
+    .postgamemoves = {MOVE_DRAGON_CLAW, MOVE_DRAGON_DANCE, MOVE_EXTREME_SPEED, MOVE_DARKEST_LARIAT},
+    .moves = {MOVE_DRAGON_CLAW, MOVE_DRAGON_DANCE, MOVE_EXTREME_SPEED, MOVE_DARKEST_LARIAT}
     }
 };
 
@@ -21036,48 +21050,24 @@ static const struct TrainerMonItemCustomMoves sParty_Mitchell4[] = {
     .lvl = 5,
 	.evs = {6, 0, 0, 252, 0, 252}, 
     .happiness = 255,
-    .abilityNum = 2,
-	.species = SPECIES_XDEMON,
-    .postgameheldItem = ITEM_LEFTOVERS,
-    .heldItem = ITEM_LEFTOVERS,
-    .postgamemoves = {MOVE_SURF, MOVE_SUPER_FANG, MOVE_PROTECT, MOVE_THUNDERBOLT},
-    .moves = {MOVE_SURF, MOVE_SUPER_FANG, MOVE_PROTECT, MOVE_THUNDERBOLT}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {252, 0, 128, 0, 128, 0}, 
-    .happiness = 255,
-    .abilityNum = 2,
-	.species = SPECIES_TOXAPEX,
-    .postgameheldItem = ITEM_BLACK_SLUDGE,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_BANEFUL_BUNKER, MOVE_SCALD, MOVE_ICE_BEAM, MOVE_RECOVER},
-    .moves = {MOVE_SCALD, MOVE_BANEFUL_BUNKER, MOVE_RECOVER, MOVE_NONE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 0, 0, 252, 252, 0}, 
-    .happiness = 255,
     .abilityNum = 0,
-	.species = SPECIES_JELLICENT,
-    .postgameheldItem = ITEM_FLAME_ORB,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_WILL_O_WISP, MOVE_SCALD, MOVE_HEX, MOVE_RECOVER},
-    .moves = {MOVE_SCALD, MOVE_HEX, MOVE_NONE, MOVE_NONE}
+	.species = SPECIES_BILLOMINAT,
+    .postgameheldItem = ITEM_CHOICE_SCARF,
+    .heldItem = ITEM_CHOICE_SCARF,
+    .postgamemoves = {MOVE_TRICK, MOVE_EARTH_POWER, MOVE_STEALTH_ROCK, MOVE_PSYCHIC},
+    .moves = {MOVE_TRICK, MOVE_EARTH_POWER, MOVE_STEALTH_ROCK, MOVE_PSYCHIC}
     },
     {
     .iv = 200,
     .lvl = 5,
-	.evs = {6, 0, 0, 0, 252, 252}, 
+	.evs = {6, 0, 252, 252, 0, 0}, 
     .happiness = 255,
-    .abilityNum = 3,
-	.species = SPECIES_FLOOTICORN,
-    .postgameheldItem = ITEM_WEAKNESS_POLICY,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_SCALD, MOVE_TOXIC, MOVE_ICE_BEAM, MOVE_TAILWIND},
-    .moves = {MOVE_SCALD, MOVE_ROOST, MOVE_ICE_BEAM, MOVE_NONE}
+    .abilityNum = 1,
+	.species = SPECIES_SKORCHI,
+    .postgameheldItem = ITEM_SKORPYROSITE_X,
+    .heldItem = ITEM_SKORPYROSITE_X,
+    .postgamemoves = {MOVE_THUNDER_PUNCH, MOVE_FIRE_LASH, MOVE_DRAGON_CLAW, MOVE_EARTHQUAKE},
+    .moves = {MOVE_THUNDER_PUNCH, MOVE_FIRE_LASH, MOVE_DRAGON_CLAW, MOVE_EARTHQUAKE}
     },
     {
     .iv = 200,
@@ -21085,98 +21075,122 @@ static const struct TrainerMonItemCustomMoves sParty_Mitchell4[] = {
 	.evs = {6, 252, 0, 0, 0, 252}, 
     .happiness = 255,
     .abilityNum = 2,
-	.species = SPECIES_NUSHAKE,
-    .postgameheldItem = ITEM_SNEDDITE,
-    .heldItem = ITEM_SNEDDITE,
-    .postgamemoves = {MOVE_CRUNCH, MOVE_LIQUIDATION, MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE},
-    .moves = {MOVE_CRUNCH, MOVE_LIQUIDATION, MOVE_DRAGON_DANCE, MOVE_NONE}
+	.species = SPECIES_PADDLITE,
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_ICICLE_CRASH, MOVE_IRON_HEAD, MOVE_LIQUIDATION, MOVE_AQUA_JET},
+    .moves = {MOVE_ICICLE_CRASH, MOVE_IRON_HEAD, MOVE_LIQUIDATION, MOVE_AQUA_JET}
+    },
+    {
+    .iv = 200,
+    .lvl = 5,
+	.evs = {6, 0, 0, 252, 0, 252}, 
+    .happiness = 255,
+    .abilityNum = 3,
+	.species = SPECIES_ODOSAUR,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_LIFE_ORB,
+    .postgamemoves = {MOVE_CRUNCH, MOVE_LEAF_BLADE, MOVE_STONE_EDGE, MOVE_EARTHQUAKE},
+    .moves = {MOVE_CRUNCH, MOVE_LEAF_BLADE, MOVE_STONE_EDGE, MOVE_EARTHQUAKE}
+    },
+    {
+    .iv = 200,
+    .lvl = 5,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+    .happiness = 255,
+    .abilityNum = 0,
+	.species = SPECIES_KRAFPUNK,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_LIFE_ORB,
+    .postgamemoves = {MOVE_THUNDER_PUNCH, MOVE_DRAIN_PUNCH, MOVE_ICE_PUNCH, MOVE_PSYCHO_CUT},
+    .moves = {MOVE_THUNDER_PUNCH, MOVE_DRAIN_PUNCH, MOVE_ICE_PUNCH, MOVE_PSYCHO_CUT}
     },
     {
     .iv = 255,
     .lvl = 5,
-	.evs = {6, 0, 0, 252, 0, 252}, 
+	.evs = {6, 252, 0, 0, 0, 252}, 
     .happiness = 255,
     .abilityNum = 0,
-    .species = SPECIES_JANK,
+    .species = SPECIES_CTHEYE,
     .postgameheldItem = ITEM_LIFE_ORB,
     .heldItem = ITEM_LEFTOVERS,
-    .postgamemoves = {MOVE_DRAGON_PULSE, MOVE_ICE_BEAM, MOVE_SCALD, MOVE_FLASH_CANNON},
-    .moves = {MOVE_DRAGON_PULSE, MOVE_ICE_BEAM, MOVE_SCALD, MOVE_NONE}
+    .postgamemoves = {MOVE_DRAGON_CLAW, MOVE_DRAGON_DANCE, MOVE_EXTREME_SPEED, MOVE_DARKEST_LARIAT},
+    .moves = {MOVE_DRAGON_CLAW, MOVE_DRAGON_DANCE, MOVE_EXTREME_SPEED, MOVE_DARKEST_LARIAT}
     }
 };
 
 static const struct TrainerMonItemCustomMoves sParty_Mitchell5[] = {
     {
-    .iv = 252,
+    .iv = 200,
     .lvl = 5,
 	.evs = {6, 0, 0, 252, 0, 252}, 
     .happiness = 255,
-    .abilityNum = 2,
-	.species = SPECIES_TOASTEM,
-    .postgameheldItem = ITEM_DAMP_ROCK,
-    .heldItem = ITEM_NONE,
-    .postgamemoves = {MOVE_MUDDY_WATER, MOVE_ICE_BEAM, MOVE_EARTH_POWER, MOVE_MUD_SPORT},
-    .moves = {MOVE_MUDDY_WATER, MOVE_ICE_BEAM, MOVE_EARTH_POWER, MOVE_MUD_SPORT}
+    .abilityNum = 0,
+	.species = SPECIES_BILLOMINAT,
+    .postgameheldItem = ITEM_CHOICE_SCARF,
+    .heldItem = ITEM_CHOICE_SCARF,
+    .postgamemoves = {MOVE_TRICK, MOVE_EARTH_POWER, MOVE_STEALTH_ROCK, MOVE_PSYCHIC},
+    .moves = {MOVE_TRICK, MOVE_EARTH_POWER, MOVE_STEALTH_ROCK, MOVE_PSYCHIC}
     },
     {
-    .iv = 252,
+    .iv = 200,
+    .lvl = 5,
+	.evs = {6, 0, 252, 252, 0, 0}, 
+    .happiness = 255,
+    .abilityNum = 1,
+	.species = SPECIES_SKORCHI,
+    .postgameheldItem = ITEM_SKORPYROSITE_X,
+    .heldItem = ITEM_SKORPYROSITE_X,
+    .postgamemoves = {MOVE_THUNDER_PUNCH, MOVE_FIRE_LASH, MOVE_DRAGON_CLAW, MOVE_EARTHQUAKE},
+    .moves = {MOVE_THUNDER_PUNCH, MOVE_FIRE_LASH, MOVE_DRAGON_CLAW, MOVE_EARTHQUAKE}
+    },
+    {
+    .iv = 200,
+    .lvl = 5,
+	.evs = {6, 252, 0, 0, 0, 252}, 
+    .happiness = 255,
+    .abilityNum = 2,
+	.species = SPECIES_PADDLITE,
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_ICICLE_CRASH, MOVE_IRON_HEAD, MOVE_LIQUIDATION, MOVE_AQUA_JET},
+    .moves = {MOVE_ICICLE_CRASH, MOVE_IRON_HEAD, MOVE_LIQUIDATION, MOVE_AQUA_JET}
+    },
+    {
+    .iv = 200,
+    .lvl = 5,
+	.evs = {6, 0, 0, 252, 0, 252}, 
+    .happiness = 255,
+    .abilityNum = 3,
+	.species = SPECIES_ODOSAUR,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_LIFE_ORB,
+    .postgamemoves = {MOVE_CRUNCH, MOVE_LEAF_BLADE, MOVE_STONE_EDGE, MOVE_EARTHQUAKE},
+    .moves = {MOVE_CRUNCH, MOVE_LEAF_BLADE, MOVE_STONE_EDGE, MOVE_EARTHQUAKE}
+    },
+    {
+    .iv = 200,
     .lvl = 5,
 	.evs = {6, 252, 0, 0, 0, 252}, 
     .happiness = 255,
     .abilityNum = 0,
-	.species = SPECIES_FRIDEGE,
-    .postgameheldItem = ITEM_KINGS_ROCK,
-    .heldItem = ITEM_KINGS_ROCK,
-    .postgamemoves = {MOVE_ROCK_BLAST, MOVE_ICICLE_SPEAR, MOVE_SHELL_SMASH, MOVE_PIN_MISSILE},
-    .moves = {MOVE_ROCK_BLAST, MOVE_ICICLE_SPEAR, MOVE_SHELL_SMASH, MOVE_PIN_MISSILE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 252, 0, 0, 0, 252}, 
-    .happiness = 255,
-    .abilityNum = 2,
-	.species = SPECIES_TEED,
+	.species = SPECIES_KRAFPUNK,
     .postgameheldItem = ITEM_LIFE_ORB,
     .heldItem = ITEM_LIFE_ORB,
-    .postgamemoves = {MOVE_JAW_LOCK, MOVE_DRAGON_DANCE, MOVE_ICE_PUNCH, MOVE_EARTHQUAKE},
-    .moves = {MOVE_JAW_LOCK, MOVE_DRAGON_DANCE, MOVE_ICE_PUNCH, MOVE_EARTHQUAKE}
-    },
-    {
-    .iv = 200,
-    .lvl = 5,
-	.evs = {6, 252, 0, 0, 0, 252}, 
-    .happiness = 255,
-    .abilityNum = 2,
-	.species = SPECIES_SHARKEG,
-    .postgameheldItem = ITEM_WEAKNESS_POLICY,
-    .heldItem = ITEM_WEAKNESS_POLICY,
-    .postgamemoves = {MOVE_CRUNCH, MOVE_FISHIOUS_REND, MOVE_POISON_JAB, MOVE_CLOSE_COMBAT},
-    .moves = {MOVE_CRUNCH, MOVE_FISHIOUS_REND, MOVE_POISON_JAB, MOVE_CLOSE_COMBAT}
+    .postgamemoves = {MOVE_THUNDER_PUNCH, MOVE_DRAIN_PUNCH, MOVE_ICE_PUNCH, MOVE_PSYCHO_CUT},
+    .moves = {MOVE_THUNDER_PUNCH, MOVE_DRAIN_PUNCH, MOVE_ICE_PUNCH, MOVE_PSYCHO_CUT}
     },
     {
     .iv = 255,
     .lvl = 5,
-	.evs = {6, 0, 0, 252, 0, 252}, 
-    .happiness = 255,
-    .abilityNum = 0,
-    .species = SPECIES_DISMALO,
-    .postgameheldItem = ITEM_WATER_GEM,
-    .heldItem = ITEM_WATER_GEM,
-    .postgamemoves = {MOVE_DRAGON_PULSE, MOVE_ICE_BEAM, MOVE_MUDDY_WATER, MOVE_FLASH_CANNON},
-    .moves = {MOVE_DRAGON_PULSE, MOVE_ICE_BEAM, MOVE_MUDDY_WATER, MOVE_FLASH_CANNON}
-    },
-	{
-    .iv = 200,
-    .lvl = 5,
 	.evs = {6, 252, 0, 0, 0, 252}, 
     .happiness = 255,
-    .abilityNum = 3,
-	.species = SPECIES_NUSHAKE,
-    .postgameheldItem = ITEM_SNEDDITE,
-    .heldItem = ITEM_SNEDDITE,
-    .postgamemoves = {MOVE_CRUNCH, MOVE_LIQUIDATION, MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE},
-    .moves = {MOVE_CRUNCH, MOVE_LIQUIDATION, MOVE_DRAGON_DANCE, MOVE_EARTHQUAKE}
+    .abilityNum = 0,
+    .species = SPECIES_CTHEYE,
+    .postgameheldItem = ITEM_LIFE_ORB,
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_DRAGON_CLAW, MOVE_DRAGON_DANCE, MOVE_EXTREME_SPEED, MOVE_DARKEST_LARIAT},
+    .moves = {MOVE_DRAGON_CLAW, MOVE_DRAGON_DANCE, MOVE_EXTREME_SPEED, MOVE_DARKEST_LARIAT}
     }
 };
 

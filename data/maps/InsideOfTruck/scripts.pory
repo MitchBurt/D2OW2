@@ -9,7 +9,7 @@ Start_EventScript_Starter_No_Exploit::
 Start_EventScript_Starter_Chose::
 	lock
 	faceplayer
-	goto_if_set FLAG_ENABLE_NORMAN_MATCH_CALL, Start_EventScript_Starter_No_Exploit
+	goto_if_set FLAG_ENABLE_RICK_MATCH_CALL, Start_EventScript_Starter_No_Exploit
 	goto_if_set FLAG_NEW_GAME_PLUS, Start_EventScript_Starter_Chose_NewGamePlus
 	msgbox Game_Start_Text_Introduction, MSGBOX_DEFAULT
     waitmessage
@@ -1723,7 +1723,7 @@ Start_Flagset::
 	setflag FLAG_HIDE_SOOTOPOLIS_CITY_KRAKRUM
 	setflag FLAG_HIDE_SOOTOPOLIS_CITY_RAYQUAZA
 	setflag FLAG_ENABLE_RIVAL_MATCH_CALL
-	setflag FLAG_ENABLE_NORMAN_MATCH_CALL
+	setflag FLAG_ENABLE_RICK_MATCH_CALL
 	setflag FLAG_ENABLE_PROF_BIRCH_MATCH_CALL
 	setflag FLAG_ENABLE_SCOTT_MATCH_CALL
 	setflag FLAG_DELIVERED_STEVEN_LETTER
@@ -1789,7 +1789,7 @@ Script_PokeballGet::
 	Start_EventScript_Starter_Chose_NewGamePlus::
 		lock
 		faceplayer
-		goto_if_set FLAG_ENABLE_NORMAN_MATCH_CALL, Start_EventScript_Starter_No_Exploit
+		goto_if_set FLAG_ENABLE_RICK_MATCH_CALL, Start_EventScript_Starter_No_Exploit
 		msgbox Game_Start_Text_Introduction_NewGamePlus, MSGBOX_DEFAULT
 		waitmessage
 		multichoice 0, 0, MULTI_NEW_GAME_PLUS_QUESTIONS, 0

@@ -174,7 +174,7 @@ static const union AnimCmd *const sAnims_LeaderJared[] ={
     sAnim_GeneralFrame0,
 };
 
-static const union AnimCmd *const sAnims_LeaderNorman[] ={
+static const union AnimCmd *const sAnims_LeaderRick[] ={
     sAnim_GeneralFrame0,
 };
 
@@ -182,7 +182,7 @@ static const union AnimCmd *const sAnims_LeaderTanner[] ={
     sAnim_GeneralFrame0,
 };
 
-static const union AnimCmd *const sAnims_LeaderTateAndLiza[] ={
+static const union AnimCmd *const sAnims_LeaderTonyAndSal[] ={
     sAnim_GeneralFrame0,
 };
 
@@ -420,9 +420,9 @@ const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
     [TRAINER_PIC_LEADER_ZACH] = sAnims_LeaderZach,
     [TRAINER_PIC_LEADER_TREVOR] = sAnims_LeaderTrevor,
     [TRAINER_PIC_LEADER_JARED] = sAnims_LeaderJared,
-    [TRAINER_PIC_LEADER_NORMAN] = sAnims_LeaderNorman,
+    [TRAINER_PIC_LEADER_RICK] = sAnims_LeaderRick,
     [TRAINER_PIC_LEADER_TANNER] = sAnims_LeaderTanner,
-    [TRAINER_PIC_LEADER_TATE_AND_LIZA] = sAnims_LeaderTateAndLiza,
+    [TRAINER_PIC_LEADER_TONY_AND_SAL] = sAnims_LeaderTonyAndSal,
     [TRAINER_PIC_LEADER_MITCHELL] = sAnims_LeaderMitchell,
     [TRAINER_PIC_SCHOOL_KID_M] = sAnims_SchoolKidM,
     [TRAINER_PIC_SCHOOL_KID_F] = sAnims_SchoolKidF,

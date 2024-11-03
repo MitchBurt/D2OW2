@@ -3758,18 +3758,18 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_Jared1},
     },
 
-    [TRAINER_NORMAN_1] =
+    [TRAINER_RICK_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_NORMAN,
-        .trainerName = _("Norman"),
+        .trainerPic = TRAINER_PIC_LEADER_RICK,
+        .trainerName = _("Rick"),
         .items = {ITEM_HYPER_POTION, ITEM_HYPER_POTION, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_Norman1),
-        .party = {.ItemCustomMoves = sParty_Norman1},
+        .partySize = ARRAY_COUNT(sParty_Rick1),
+        .party = {.ItemCustomMoves = sParty_Rick1},
     },
 
     [TRAINER_TANNER_1] =
@@ -3786,18 +3786,18 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_Tanner1},
     },
 
-    [TRAINER_TATE_AND_LIZA_1] =
+    [TRAINER_TONY_AND_SAL_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .trainerPic = TRAINER_PIC_LEADER_TATE_AND_LIZA,
+        .trainerPic = TRAINER_PIC_LEADER_TONY_AND_SAL,
         .trainerName = _("Tate&Liza"),
         .items = {ITEM_HYPER_POTION, ITEM_HYPER_POTION, ITEM_HYPER_POTION, ITEM_HYPER_POTION},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_TateAndLiza1),
-        .party = {.ItemCustomMoves = sParty_TateAndLiza1},
+        .partySize = ARRAY_COUNT(sParty_TonyAndSal1),
+        .party = {.ItemCustomMoves = sParty_TonyAndSal1},
     },
 
     [TRAINER_MITCHELL_1] =
@@ -11117,60 +11117,60 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_Jared5},
     },
 
-    [TRAINER_NORMAN_2] =
+    [TRAINER_RICK_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_NORMAN,
-        .trainerName = _("Norman"),
+        .trainerPic = TRAINER_PIC_LEADER_RICK,
+        .trainerName = _("Rick"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_Norman2),
-        .party = {.ItemCustomMoves = sParty_Norman2},
+        .partySize = ARRAY_COUNT(sParty_Rick2),
+        .party = {.ItemCustomMoves = sParty_Rick2},
     },
 
-    [TRAINER_NORMAN_3] =
+    [TRAINER_RICK_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_NORMAN,
-        .trainerName = _("Norman"),
+        .trainerPic = TRAINER_PIC_LEADER_RICK,
+        .trainerName = _("Rick"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_Norman3),
-        .party = {.ItemCustomMoves = sParty_Norman3},
+        .partySize = ARRAY_COUNT(sParty_Rick3),
+        .party = {.ItemCustomMoves = sParty_Rick3},
     },
 
-    [TRAINER_NORMAN_4] =
+    [TRAINER_RICK_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_NORMAN,
-        .trainerName = _("Norman"),
+        .trainerPic = TRAINER_PIC_LEADER_RICK,
+        .trainerName = _("Rick"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_Norman4),
-        .party = {.ItemCustomMoves = sParty_Norman4},
+        .partySize = ARRAY_COUNT(sParty_Rick4),
+        .party = {.ItemCustomMoves = sParty_Rick4},
     },
 
-    [TRAINER_NORMAN_5] =
+    [TRAINER_RICK_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_NORMAN,
-        .trainerName = _("Norman"),
+        .trainerPic = TRAINER_PIC_LEADER_RICK,
+        .trainerName = _("Rick"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_Norman5),
-        .party = {.ItemCustomMoves = sParty_Norman5},
+        .partySize = ARRAY_COUNT(sParty_Rick5),
+        .party = {.ItemCustomMoves = sParty_Rick5},
     },
 
     [TRAINER_TANNER_2] =
@@ -11229,60 +11229,60 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_Tanner5},
     },
 
-    [TRAINER_TATE_AND_LIZA_2] =
+    [TRAINER_TONY_AND_SAL_2] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .trainerPic = TRAINER_PIC_LEADER_TATE_AND_LIZA,
+        .trainerPic = TRAINER_PIC_LEADER_TONY_AND_SAL,
         .trainerName = _("Tate&Liza"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_TateAndLiza2),
-        .party = {.ItemCustomMoves = sParty_TateAndLiza2},
+        .partySize = ARRAY_COUNT(sParty_TonyAndSal2),
+        .party = {.ItemCustomMoves = sParty_TonyAndSal2},
     },
 
-    [TRAINER_TATE_AND_LIZA_3] =
+    [TRAINER_TONY_AND_SAL_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .trainerPic = TRAINER_PIC_LEADER_TATE_AND_LIZA,
+        .trainerPic = TRAINER_PIC_LEADER_TONY_AND_SAL,
         .trainerName = _("Tate&Liza"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_TateAndLiza3),
-        .party = {.ItemCustomMoves = sParty_TateAndLiza3},
+        .partySize = ARRAY_COUNT(sParty_TonyAndSal3),
+        .party = {.ItemCustomMoves = sParty_TonyAndSal3},
     },
 
-    [TRAINER_TATE_AND_LIZA_4] =
+    [TRAINER_TONY_AND_SAL_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .trainerPic = TRAINER_PIC_LEADER_TATE_AND_LIZA,
+        .trainerPic = TRAINER_PIC_LEADER_TONY_AND_SAL,
         .trainerName = _("Tate&Liza"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_TateAndLiza4),
-        .party = {.ItemCustomMoves = sParty_TateAndLiza4},
+        .partySize = ARRAY_COUNT(sParty_TonyAndSal4),
+        .party = {.ItemCustomMoves = sParty_TonyAndSal4},
     },
 
-    [TRAINER_TATE_AND_LIZA_5] =
+    [TRAINER_TONY_AND_SAL_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_FEMALE,
-        .trainerPic = TRAINER_PIC_LEADER_TATE_AND_LIZA,
+        .trainerPic = TRAINER_PIC_LEADER_TONY_AND_SAL,
         .trainerName = _("Tate&Liza"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_TateAndLiza5),
-        .party = {.ItemCustomMoves = sParty_TateAndLiza5},
+        .partySize = ARRAY_COUNT(sParty_TonyAndSal5),
+        .party = {.ItemCustomMoves = sParty_TonyAndSal5},
     },
 
     [TRAINER_MITCHELL_2] =

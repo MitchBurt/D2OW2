@@ -505,7 +505,7 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_ZACH 			  		  0x1142
 #define OBJ_EVENT_PAL_TREVOR 			  		  0x1143
 #define OBJ_EVENT_PAL_JARED 			  		  0x1144
-#define OBJ_EVENT_PAL_NORMAN 			  		  0x1145
+#define OBJ_EVENT_PAL_RICK 			  		  0x1145
 #define OBJ_EVENT_PAL_TANNER 			  		  0x1146
 #define OBJ_EVENT_PAL_TATE 			  			  0x1147
 #define OBJ_EVENT_PAL_LIZA 			  			  0x1148
@@ -1433,7 +1433,7 @@ const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPalette_Zach,  	     OBJ_EVENT_PAL_ZACH},				//Leader
 	{gObjectEventPalette_Trevor,  	     OBJ_EVENT_PAL_TREVOR},			//Leader
 	{gObjectEventPalette_Jared,       OBJ_EVENT_PAL_JARED},			//Leader
-	{gObjectEventPalette_Norman,  	     OBJ_EVENT_PAL_NORMAN},				//Leader
+	{gObjectEventPalette_Rick,  	     OBJ_EVENT_PAL_RICK},				//Leader
 	{gObjectEventPalette_Tanner,  	     OBJ_EVENT_PAL_TANNER},				//Leader
 	{gObjectEventPalette_Tate,  	     OBJ_EVENT_PAL_TATE},				//Leader
 	{gObjectEventPalette_Liza,  	     OBJ_EVENT_PAL_LIZA},				//Leader

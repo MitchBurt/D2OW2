@@ -474,9 +474,9 @@ Gym_EventScript_Reset_Rematches::
 	clearflag FLAG_ZACH_REMATCH
 	clearflag FLAG_TREVOR_REMATCH
 	clearflag FLAG_JARED_REMATCH
-	clearflag FLAG_NORMAN_REMATCH
+	clearflag FLAG_RICK_REMATCH
 	clearflag FLAG_TANNER_REMATCH
-	clearflag FLAG_TATE_AND_LIZA_REMATCH
+	clearflag FLAG_TONY_AND_SAL_REMATCH
 	clearflag FLAG_MITCHELL_REMATCH
 	clearflag FLAG_DAILY_ABILITY_PATCH	
 	return
@@ -488,7 +488,7 @@ Gym_EventScript_Reset_Random_Rematch::
 	case 1, Gym_EventScript_Reset_Zach_Rematch
 	case 2, Gym_EventScript_Reset_Trevor_Rematch
 	case 3, Gym_EventScript_Reset_Jared_Rematch
-	case 4, Gym_EventScript_Reset_Norman_Rematch
+	case 4, Gym_EventScript_Reset_Rick_Rematch
 	case 5, Gym_EventScript_Reset_Tanner_Rematch
 	case 6, Gym_EventScript_Reset_Tate_Liza_Rematch
 	case 7, Gym_EventScript_Reset_Mitchell_Rematch
@@ -515,9 +515,9 @@ Gym_EventScript_Reset_Jared_Rematch::
 	clearflag FLAG_JARED_REMATCH
 	return
 	
-Gym_EventScript_Reset_Norman_Rematch::
+Gym_EventScript_Reset_Rick_Rematch::
 	goto_if_unset FLAG_BADGE05_GET, Gym_EventScript_Reset_Random_Rematch
-	clearflag FLAG_NORMAN_REMATCH
+	clearflag FLAG_RICK_REMATCH
 	return
 	
 Gym_EventScript_Reset_Tanner_Rematch::
@@ -527,7 +527,7 @@ Gym_EventScript_Reset_Tanner_Rematch::
 	
 Gym_EventScript_Reset_Tate_Liza_Rematch::
 	goto_if_unset FLAG_BADGE07_GET, Gym_EventScript_Reset_Random_Rematch
-	clearflag FLAG_TATE_AND_LIZA_REMATCH
+	clearflag FLAG_TONY_AND_SAL_REMATCH
 	return
 	
 Gym_EventScript_Reset_Mitchell_Rematch::

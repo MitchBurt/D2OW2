@@ -53,23 +53,23 @@ MossdeepCity_Gym_EventScript_SetSwitch4Metatiles:: @ 8220885
 	setmetatile 5, 24, METATILE_RS_MossdeepGym_Switch_Down, 1
 	end
 
-MossdeepCity_Gym_EventScript_TateAndLiza:: @ 8220898
+MossdeepCity_Gym_EventScript_TonyAndSal:: @ 8220898
 	lock
 	faceplayer
-	call_if_set FLAG_BADGE07_GET, MossdeepCity_Gym_EventScript_TateAndLiza_PostBattle
-	trainerbattle_double TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaIntro, MossdeepCity_Gym_Text_TateAndLizaDefeat, MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons, MossdeepCity_Gym_EventScript_TateAndLizaDefeated, NO_MUSIC
-	msgbox MossdeepCity_Gym_Text_TateAndLizaPostBattle, MSGBOX_DEFAULT
+	call_if_set FLAG_BADGE07_GET, MossdeepCity_Gym_EventScript_TonyAndSal_PostBattle
+	trainerbattle_double TRAINER_TONY_AND_SAL_1, MossdeepCity_Gym_Text_TonyAndSalIntro, MossdeepCity_Gym_Text_TonyAndSalDefeat, MossdeepCity_Gym_Text_TonyAndSalNeedTwoMons, MossdeepCity_Gym_EventScript_TonyAndSalDefeated, NO_MUSIC
+	msgbox MossdeepCity_Gym_Text_TonyAndSalPostBattle, MSGBOX_DEFAULT
 	release
 	end
 
-MossdeepCity_Gym_EventScript_TateAndLizaDefeated:: @ 82208D1
+MossdeepCity_Gym_EventScript_TonyAndSalDefeated:: @ 82208D1
 	message MossdeepCity_Gym_Text_ReceivedMindBadge
 	waitmessage
 	call Common_EventScript_PlayGymBadgeFanfare
 	msgbox MossdeepCity_Gym_Text_ExplainMindBadgeTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_DEFEATED_MOSSDEEP_GYM
 	setflag FLAG_BADGE07_GET
-	setflag FLAG_ENABLE_TATE_AND_LIZA_MATCH_CALL
+	setflag FLAG_ENABLE_TONY_AND_SAL_MATCH_CALL
 	setvar VAR_0x8008, 7
 	call Common_EventScript_SetGymTrainers
 	call Special_Gym_EventScript_Give_Item
@@ -78,8 +78,8 @@ MossdeepCity_Gym_EventScript_TateAndLizaDefeated:: @ 82208D1
 	delay 30
 	playfanfare MUS_REGISTER_MATCH_CALL
 	call Gym_EventScript_Reset_Rematches
-	setflag FLAG_TATE_AND_LIZA_REMATCH
-	msgbox MossdeepCity_Gym_Text_RegisteredTateAndLiza, MSGBOX_DEFAULT
+	setflag FLAG_TONY_AND_SAL_REMATCH
+	msgbox MossdeepCity_Gym_Text_RegisteredTonyAndSal, MSGBOX_DEFAULT
 	waitfanfare
 	closemessage
 	delay 30
@@ -88,31 +88,31 @@ MossdeepCity_Gym_EventScript_TateAndLizaDefeated:: @ 82208D1
 	end
 
 //Rematch	
-MossdeepCity_Gym_EventScript_TateAndLiza_PostBattle::
-	goto_if_unset FLAG_TATE_AND_LIZA_REMATCH, MossdeepCity_Gym_EventScript_TateAndLizaRematch
-	msgbox MossdeepCity_Gym_Text_TateAndLizaPostBattle, MSGBOX_DEFAULT
+MossdeepCity_Gym_EventScript_TonyAndSal_PostBattle::
+	goto_if_unset FLAG_TONY_AND_SAL_REMATCH, MossdeepCity_Gym_EventScript_TonyAndSalRematch
+	msgbox MossdeepCity_Gym_Text_TonyAndSalPostBattle, MSGBOX_DEFAULT
 	release
 	end
 
-MossdeepCity_Gym_EventScript_TateAndLizaRematch::
-	msgbox MossdeepCity_Gym_Text_TateAndLizaPreRematch, MSGBOX_DEFAULT
+MossdeepCity_Gym_EventScript_TonyAndSalRematch::
+	msgbox MossdeepCity_Gym_Text_TonyAndSalPreRematch, MSGBOX_DEFAULT
 	goto MossdeepCity_Gym_EventScript_Start_Rematch_1
 	end
 	
-MossdeepCity_Gym_EventScript_TateAndLizaRematchEnd::
-	msgbox MossdeepCity_Gym_Text_TateAndLizaPostRematch, MSGBOX_AUTOCLOSE
+MossdeepCity_Gym_EventScript_TonyAndSalRematchEnd::
+	msgbox MossdeepCity_Gym_Text_TonyAndSalPostRematch, MSGBOX_AUTOCLOSE
 	call Gym_EventScript_Reset_Random_Rematch
-	setflag FLAG_TATE_AND_LIZA_REMATCH
+	setflag FLAG_TONY_AND_SAL_REMATCH
 	end
 	
 MossdeepCity_Gym_EventScript_Start_Rematch_1::
 	checkitem ITEM_TM04_CALM_MIND, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq MossdeepCity_Gym_EventScript_Start_Rematch_2
-	trainerbattle_no_intro TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat
+	trainerbattle_no_intro TRAINER_TONY_AND_SAL_1, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat
 	msgbox MossdeepCity_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM04_CALM_MIND
-	goto MossdeepCity_Gym_EventScript_TateAndLizaRematchEnd
+	goto MossdeepCity_Gym_EventScript_TonyAndSalRematchEnd
 	end
 	
 MossdeepCity_Gym_EventScript_Start_Rematch_2::
@@ -120,10 +120,10 @@ MossdeepCity_Gym_EventScript_Start_Rematch_2::
 	checkitem ITEM_TM85_DREAM_EATER, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq MossdeepCity_Gym_EventScript_Start_Rematch_3
-	trainerbattle_no_intro TRAINER_TATE_AND_LIZA_2, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat
+	trainerbattle_no_intro TRAINER_TONY_AND_SAL_2, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat
 	msgbox MossdeepCity_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM85_DREAM_EATER
-	goto MossdeepCity_Gym_EventScript_TateAndLizaRematchEnd
+	goto MossdeepCity_Gym_EventScript_TonyAndSalRematchEnd
 	end
 	
 MossdeepCity_Gym_EventScript_Start_Rematch_3::
@@ -131,10 +131,10 @@ MossdeepCity_Gym_EventScript_Start_Rematch_3::
 	checkitem ITEM_TM92_TRICK_ROOM, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq MossdeepCity_Gym_EventScript_Start_Rematch_4
-	trainerbattle_no_intro TRAINER_TATE_AND_LIZA_3, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat
+	trainerbattle_no_intro TRAINER_TONY_AND_SAL_3, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat
 	msgbox MossdeepCity_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM92_TRICK_ROOM
-	goto MossdeepCity_Gym_EventScript_TateAndLizaRematchEnd
+	goto MossdeepCity_Gym_EventScript_TonyAndSalRematchEnd
 	end
 	
 MossdeepCity_Gym_EventScript_Start_Rematch_4::
@@ -142,29 +142,29 @@ MossdeepCity_Gym_EventScript_Start_Rematch_4::
 	checkitem ITEM_TM105_PSYSHOCK, 1
 	compare VAR_RESULT, TRUE
 	goto_if_eq MossdeepCity_Gym_EventScript_Start_Rematch_5
-	trainerbattle_no_intro TRAINER_TATE_AND_LIZA_4, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat
+	trainerbattle_no_intro TRAINER_TONY_AND_SAL_4, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat
 	msgbox MossdeepCity_Gym_Text_GetTM, MSGBOX_DEFAULT
 	giveitem ITEM_TM105_PSYSHOCK
-	goto MossdeepCity_Gym_EventScript_TateAndLizaRematchEnd
+	goto MossdeepCity_Gym_EventScript_TonyAndSalRematchEnd
 	end
 	
 MossdeepCity_Gym_EventScript_Start_Rematch_5::
 	goto_if_unset FLAG_RECEIVED_TM03 MossdeepCity_Gym_EventScript_Start_Rematch_Party_4
 	goto_if_set FLAG_UNUSED_0x276 MossdeepCity_Gym_EventScript_Start_Rematch_6
-	trainerbattle_no_intro TRAINER_TATE_AND_LIZA_4, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat
+	trainerbattle_no_intro TRAINER_TONY_AND_SAL_4, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat
 	msgbox MossdeepCity_Gym_Text_GetMegaStone_2, MSGBOX_DEFAULT
 	giveitem ITEM_GALLADITE
 	setflag FLAG_UNUSED_0x276
-	goto MossdeepCity_Gym_EventScript_TateAndLizaRematchEnd
+	goto MossdeepCity_Gym_EventScript_TonyAndSalRematchEnd
 	end	
 	
 MossdeepCity_Gym_EventScript_Start_Rematch_6::
 	goto_if_set FLAG_GOT_AWMANITE MossdeepCity_Gym_EventScript_Start_Rematch_Final
-	trainerbattle_no_intro TRAINER_TATE_AND_LIZA_5, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat
+	trainerbattle_no_intro TRAINER_TONY_AND_SAL_5, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat
 	msgbox MossdeepCity_Gym_Text_GetMegaStone, MSGBOX_DEFAULT
 	giveitem ITEM_AWMANITE
 	setflag FLAG_GOT_AWMANITE
-	goto MossdeepCity_Gym_EventScript_TateAndLizaRematchEnd
+	goto MossdeepCity_Gym_EventScript_TonyAndSalRematchEnd
 	end
 	
 MossdeepCity_Gym_EventScript_Start_Rematch_Final::
@@ -178,43 +178,43 @@ MossdeepCity_Gym_EventScript_Start_Rematch_Final::
 	end
 	
 MossdeepCity_Gym_EventScript_Start_Rematch_Party_1::
-	trainerbattle_no_intro TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat
-	goto_if_unset FLAG_RECEIVED_TM04, MossdeepCity_Gym_EventScript_TateAndLizaRematchEnd
+	trainerbattle_no_intro TRAINER_TONY_AND_SAL_1, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat
+	goto_if_unset FLAG_RECEIVED_TM04, MossdeepCity_Gym_EventScript_TonyAndSalRematchEnd
 	msgbox MossdeepCity_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_CALM_MINT, 3
-	goto MossdeepCity_Gym_EventScript_TateAndLizaRematchEnd
+	goto MossdeepCity_Gym_EventScript_TonyAndSalRematchEnd
 	end
 	
 MossdeepCity_Gym_EventScript_Start_Rematch_Party_2::
-	trainerbattle_no_intro TRAINER_TATE_AND_LIZA_2, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat
-	goto_if_unset FLAG_RECEIVED_TM04, MossdeepCity_Gym_EventScript_TateAndLizaRematchEnd
+	trainerbattle_no_intro TRAINER_TONY_AND_SAL_2, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat
+	goto_if_unset FLAG_RECEIVED_TM04, MossdeepCity_Gym_EventScript_TonyAndSalRematchEnd
 	msgbox MossdeepCity_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_GENTLE_MINT, 3
-	goto MossdeepCity_Gym_EventScript_TateAndLizaRematchEnd
+	goto MossdeepCity_Gym_EventScript_TonyAndSalRematchEnd
 	end
 	
 MossdeepCity_Gym_EventScript_Start_Rematch_Party_3::
-	trainerbattle_no_intro TRAINER_TATE_AND_LIZA_3, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat
-	goto_if_unset FLAG_RECEIVED_TM04, MossdeepCity_Gym_EventScript_TateAndLizaRematchEnd
+	trainerbattle_no_intro TRAINER_TONY_AND_SAL_3, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat
+	goto_if_unset FLAG_RECEIVED_TM04, MossdeepCity_Gym_EventScript_TonyAndSalRematchEnd
 	msgbox MossdeepCity_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_CAREFUL_MINT, 3
-	goto MossdeepCity_Gym_EventScript_TateAndLizaRematchEnd
+	goto MossdeepCity_Gym_EventScript_TonyAndSalRematchEnd
 	end
 	
 MossdeepCity_Gym_EventScript_Start_Rematch_Party_4::
-	trainerbattle_no_intro TRAINER_TATE_AND_LIZA_4, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat
-	goto_if_unset FLAG_RECEIVED_TM04, MossdeepCity_Gym_EventScript_TateAndLizaRematchEnd
+	trainerbattle_no_intro TRAINER_TONY_AND_SAL_4, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat
+	goto_if_unset FLAG_RECEIVED_TM04, MossdeepCity_Gym_EventScript_TonyAndSalRematchEnd
 	msgbox MossdeepCity_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_SASSY_MINT, 3
-	goto MossdeepCity_Gym_EventScript_TateAndLizaRematchEnd
+	goto MossdeepCity_Gym_EventScript_TonyAndSalRematchEnd
 	end
 	
 MossdeepCity_Gym_EventScript_Start_Rematch_Party_5::
-	trainerbattle_no_intro TRAINER_TATE_AND_LIZA_5, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat
-	goto_if_unset FLAG_RECEIVED_TM04, MossdeepCity_Gym_EventScript_TateAndLizaRematchEnd
+	trainerbattle_no_intro TRAINER_TONY_AND_SAL_5, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat
+	goto_if_unset FLAG_RECEIVED_TM04, MossdeepCity_Gym_EventScript_TonyAndSalRematchEnd
 	msgbox MossdeepCity_Gym_Text_GetReward, MSGBOX_DEFAULT
 	giveitem ITEM_MODEST_MINT, 3
-	goto MossdeepCity_Gym_EventScript_TateAndLizaRematchEnd
+	goto MossdeepCity_Gym_EventScript_TonyAndSalRematchEnd
 	end
 	
 MossdeepCity_Gym_Text_GetTM:
@@ -693,7 +693,7 @@ MossdeepCity_Gym_Text_NicholasPostBattle: @ 822173A
 	.string "All right! I think I'll develop a special\n"
 	.string "invincible Pokémon power next.$"
 
-MossdeepCity_Gym_Text_TateAndLizaIntro: @ 8221783
+MossdeepCity_Gym_Text_TonyAndSalIntro: @ 8221783
 	.string "Tate: Hehehe… Were you surprised?\p"
 	.string "Liza: Fufufu… Were you surprised?\p"
 	.string "Tate: That there are two Gym Leaders?\n"
@@ -707,7 +707,7 @@ MossdeepCity_Gym_Text_TateAndLizaIntro: @ 8221783
 	.string "Tate: This combination of ours…\n"
 	.string "Liza: Can you beat it?$"
 
-MossdeepCity_Gym_Text_TateAndLizaDefeat: @ 82218EC
+MossdeepCity_Gym_Text_TonyAndSalDefeat: @ 82218EC
 	.string "Tate: What?! Our combination…\n"
 	.string "Liza: Was shattered!\p"
 	.string "Tate: It can't be helped. You've won…\n"
@@ -729,18 +729,18 @@ MossdeepCity_Gym_Text_ExplainCalmMind: @ 8221A40
 	.string "Liza: For Psychic Pokémon!\p"
 	.string "… … … … … …$"
 
-MossdeepCity_Gym_Text_RegisteredTateAndLiza: @ 8221AEA
+MossdeepCity_Gym_Text_RegisteredTonyAndSal: @ 8221AEA
 	.string "Registered Gym Leaders Tate & Liza\n"
 	.string "in the Pokénav.$"
 
-MossdeepCity_Gym_Text_TateAndLizaPostBattle: @ 8221B1D
+MossdeepCity_Gym_Text_TonyAndSalPostBattle: @ 8221B1D
 	.string "Tate: Looks like the bond between you\n"
 	.string "and your Pokémon is far stronger than\l"
 	.string "the bond that we share as twins.\p"
 	.string "Liza: You will become even stronger!\n"
 	.string "We've battled you, so we know.$"
 
-MossdeepCity_Gym_Text_TateAndLizaNeedTwoMons: @ 8221BCE
+MossdeepCity_Gym_Text_TonyAndSalNeedTwoMons: @ 8221BCE
 	.string "Tate: Hehehe… Were you surprised?\p"
 	.string "Liza: That there are two Gym Leaders?\p"
 	.string "Tate: Oops, you have only one…\n"
@@ -757,7 +757,7 @@ MossdeepCity_Gym_Text_GymStatueCertified: @ 8221CCA
 	.string "Liza AND Tate'S Certified Trainers:\n"
 	.string "{PLAYER}$"
 
-MossdeepCity_Gym_Text_TateAndLizaPreRematch: @ 8221D0B
+MossdeepCity_Gym_Text_TonyAndSalPreRematch: @ 8221D0B
 	.string "Tate: Pokémon…\n"
 	.string "Liza: Pokémon…\p"
 	.string "Tate: By changing the party's mix…\n"
@@ -769,17 +769,17 @@ MossdeepCity_Gym_Text_TateAndLizaPreRematch: @ 8221D0B
 	.string "Tate: Our combination…\n"
 	.string "Liza: We'll show you again and again!$"
 
-MossdeepCity_Gym_Text_TateAndLizaRematchDefeat: @ 8221E05
+MossdeepCity_Gym_Text_TonyAndSalRematchDefeat: @ 8221E05
 	.string "Tate: You and your Pokémon…\n"
 	.string "Liza: It's as if you were siblings!$"
 
-MossdeepCity_Gym_Text_TateAndLizaPostRematch: @ 8221E45
+MossdeepCity_Gym_Text_TonyAndSalPostRematch: @ 8221E45
 	.string "Tate: You can knock us down,\n"
 	.string "but we'll never stay down!\p"
 	.string "Liza: Because the two of us,\n"
 	.string "we always support each other!$"
 
-MossdeepCity_Gym_Text_TateAndLizaRematchNeedTwoMons: @ 8221EB8
+MossdeepCity_Gym_Text_TonyAndSalRematchNeedTwoMons: @ 8221EB8
 	.string "Tate: You're back again…\n"
 	.string "Liza: You're back again…\p"
 	.string "Tate: To give us a rematch.\n"
@@ -793,32 +793,32 @@ MossdeepCity_Gym_Text_TateAndLizaRematchNeedTwoMons: @ 8221EB8
 `
 
 
-script MossdeepCity_Gym_EventScript_TateAndLiza_New{
+script MossdeepCity_Gym_EventScript_TonyAndSal_New{
 	lock
 	faceplayer
-    if (flag(FLAG_BADGE07_GET) && !flag(FLAG_TATE_AND_LIZA_REMATCH)){
+    if (flag(FLAG_BADGE07_GET) && !flag(FLAG_TONY_AND_SAL_REMATCH)){
 		//Rematch
 		//Intro
-		msgbox(MossdeepCity_Gym_Text_TateAndLizaPreRematch, MSGBOX_NPC)
+		msgbox(MossdeepCity_Gym_Text_TonyAndSalPreRematch, MSGBOX_NPC)
 		//Trainer Battle
-		call(MossdeepCity_Gym_EventScript_TateAndLiza_Battle_New)
+		call(MossdeepCity_Gym_EventScript_TonyAndSal_Battle_New)
 
         //Defeated Message and Reset Rematches for other Leaders
-		msgbox(MossdeepCity_Gym_Text_TateAndLizaPostRematch, MSGBOX_NPC)
+		msgbox(MossdeepCity_Gym_Text_TonyAndSalPostRematch, MSGBOX_NPC)
 		call(Gym_EventScript_Reset_Rematches)
 
 		//Give TMs or Items
 		msgbox(format("Tate: Please take "), MSGBOX_NPC)
 		msgbox(format("Liza: these items with you."), MSGBOX_NPC)
-		call(MossdeepCity_Gym_EventScript_TateAndLiza_Give_Gifts)
+		call(MossdeepCity_Gym_EventScript_TonyAndSal_Give_Gifts)
 
 		msgbox(format("Tate: Come back tomorrow"), MSGBOX_NPC)
 		msgbox(format("Liza: so we can battle again."), MSGBOX_NPC)
 
 		//Set the Rematch Flag as False
-		setflag(FLAG_TATE_AND_LIZA_REMATCH)
+		setflag(FLAG_TONY_AND_SAL_REMATCH)
     }
-	elif(flag(FLAG_BADGE07_GET) && flag(FLAG_TATE_AND_LIZA_REMATCH)){
+	elif(flag(FLAG_BADGE07_GET) && flag(FLAG_TONY_AND_SAL_REMATCH)){
 		//You can challenge the other trainers an infinite number of times
 		msgbox(format("Tate: Our Pokémon are tired for today, do you want to try battling them again?"), MSGBOX_NPC)
 		msgbox(format("Liza: but the other trainers here need training"), MSGBOX_NPC)
@@ -855,9 +855,9 @@ script MossdeepCity_Gym_EventScript_TateAndLiza_New{
 	else{
 		//First Battle
 		//Intro
-		msgbox(MossdeepCity_Gym_Text_TateAndLizaIntro, MSGBOX_NPC)
+		msgbox(MossdeepCity_Gym_Text_TonyAndSalIntro, MSGBOX_NPC)
 		//Trainer Battle
-		call(MossdeepCity_Gym_EventScript_TateAndLiza_Battle_New)
+		call(MossdeepCity_Gym_EventScript_TonyAndSal_Battle_New)
 
 		//Get the Badge
 		message(format("{PLAYER} received the Mind Badge from Tate and Liza."))
@@ -879,116 +879,116 @@ script MossdeepCity_Gym_EventScript_TateAndLiza_New{
 		setflag(FLAG_TEMP_9)
 
 		//Give TMs or Items
-		call(MossdeepCity_Gym_EventScript_TateAndLiza_Give_Gifts)
+		call(MossdeepCity_Gym_EventScript_TonyAndSal_Give_Gifts)
 
 		//Set all the trainers in the Gym as Defeated
 		setvar(VAR_0x8008, 4)
 		call(Common_EventScript_SetGymTrainers)
 
 		//Register Trainer in your PokeNav
-		msgbox(MossdeepCity_Gym_Text_RegisteredTateAndLiza, MSGBOX_DEFAULT)
+		msgbox(MossdeepCity_Gym_Text_RegisteredTonyAndSal, MSGBOX_DEFAULT)
 		playfanfare(MUS_REGISTER_MATCH_CALL)
-		setflag(FLAG_ENABLE_TATE_AND_LIZA_MATCH_CALL)
+		setflag(FLAG_ENABLE_TONY_AND_SAL_MATCH_CALL)
 		waitfanfare
 		closemessage
 
 		//Defeated Message and Reset Rematches for other Leaders
-		msgbox(MossdeepCity_Gym_Text_TateAndLizaPostBattle, MSGBOX_NPC)
+		msgbox(MossdeepCity_Gym_Text_TonyAndSalPostBattle, MSGBOX_NPC)
 		call(Gym_EventScript_Reset_Rematches)
 
 		//Set the Rematch Flag as False
-		setflag(FLAG_TATE_AND_LIZA_REMATCH)
+		setflag(FLAG_TONY_AND_SAL_REMATCH)
 	}
     release
     end
 }
 
-script MossdeepCity_Gym_EventScript_TateAndLiza_Battle_New{
+script MossdeepCity_Gym_EventScript_TonyAndSal_Battle_New{
 	if(flag(FLAG_BADGE07_GET)){
 		if(flag(FLAG_HARD_MODE)){
 			//Hard Mode
 			switch (var(VAR_NUM_BADGES)) {
-			case 0: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-			case 1: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-			case 2: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_2, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-			case 3: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_2, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-			case 4: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_3, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-			case 5: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_3, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-			case 6: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_4, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-			case 7: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_4, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
+			case 0: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_1, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+			case 1: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_1, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+			case 2: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_2, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+			case 3: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_2, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+			case 4: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_3, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+			case 5: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_3, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+			case 6: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_4, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+			case 7: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_4, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
 			default:
 				if(flag(FLAG_SYS_GAME_CLEAR)){
 					//When you beat the game you can get a random rematch each day
 					random(5)
 					switch (var(VAR_RESULT)) {
-						case 0: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-						case 1: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_2, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-						case 2: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_3, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-						case 3: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_4, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-						case 4: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_5, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
+						case 0: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_1, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+						case 1: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_2, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+						case 2: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_3, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+						case 3: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_4, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+						case 4: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_5, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
 					}
 				}
 				else{
 					//If you have 8 badges you battle its final team
-					trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_5, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
+					trainerbattle_no_intro(TRAINER_TONY_AND_SAL_5, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
 				}
 			}
 		}
 		elif(flag(FLAG_NORMAL_MODE)){
 			//Normal Mode
 			switch (var(VAR_NUM_BADGES)) {
-				case 0: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-				case 1: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-				case 2: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-				case 3: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_2, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-				case 4: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_2, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-				case 5: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_3, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-				case 6: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_3, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-				case 7: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_4, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
+				case 0: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_1, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+				case 1: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_1, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+				case 2: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_1, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+				case 3: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_2, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+				case 4: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_2, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+				case 5: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_3, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+				case 6: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_3, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+				case 7: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_4, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
 				default:
 					if(flag(FLAG_SYS_GAME_CLEAR)){
 						//When you beat the game you can get a random rematch each day
 						random(5)
 						switch (var(VAR_RESULT)) {
-							case 0: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-							case 1: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_2, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-							case 2: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_3, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-							case 3: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_4, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-							case 4: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_5, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
+							case 0: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_1, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+							case 1: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_2, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+							case 2: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_3, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+							case 3: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_4, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+							case 4: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_5, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
 						}
 					}
 					else{
 						//If you have 8 badges you battle its final team
-						trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_5, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
+						trainerbattle_no_intro(TRAINER_TONY_AND_SAL_5, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
 					}
 			}
 		}
 		else{
 			//Easy Mode
 			switch (var(VAR_NUM_BADGES)) {
-				case 0: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-				case 1: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-				case 2: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-				case 3: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-				case 4: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_2, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-				case 5: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_2, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-				case 6: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_3, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-				case 7: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_3, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
+				case 0: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_1, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+				case 1: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_1, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+				case 2: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_1, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+				case 3: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_1, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+				case 4: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_2, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+				case 5: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_2, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+				case 6: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_3, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+				case 7: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_3, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
 				default:
 					if(flag(FLAG_SYS_GAME_CLEAR)){
 						//When you beat the game you can get a random rematch each day
 						random(5)
 						switch (var(VAR_RESULT)) {
-							case 0: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-							case 1: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_2, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-							case 2: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_3, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-							case 3: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_4, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
-							case 4: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_5, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
+							case 0: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_1, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+							case 1: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_2, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+							case 2: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_3, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+							case 3: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_4, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
+							case 4: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_5, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
 						}
 					}
 					else{
 						//If you have 8 badges you battle its final team
-						trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_4, MossdeepCity_Gym_Text_TateAndLizaRematchDefeat)
+						trainerbattle_no_intro(TRAINER_TONY_AND_SAL_4, MossdeepCity_Gym_Text_TonyAndSalRematchDefeat)
 					}
 			}
 		}
@@ -998,87 +998,87 @@ script MossdeepCity_Gym_EventScript_TateAndLiza_Battle_New{
 		if(flag(FLAG_HARD_MODE)){
 			//Hard Mode
 			switch (var(VAR_NUM_BADGES)) {
-			case 0: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-			case 1: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-			case 2: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_2, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-			case 3: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_2, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-			case 4: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_3, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-			case 5: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_3, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-			case 6: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_4, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-			case 7: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_4, MossdeepCity_Gym_Text_TateAndLizaDefeat)
+			case 0: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_1, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+			case 1: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_1, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+			case 2: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_2, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+			case 3: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_2, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+			case 4: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_3, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+			case 5: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_3, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+			case 6: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_4, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+			case 7: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_4, MossdeepCity_Gym_Text_TonyAndSalDefeat)
 			default:
 				if(flag(FLAG_SYS_GAME_CLEAR)){
 					//When you beat the game you can get a random rematch each day
 					random(5)
 					switch (var(VAR_RESULT)) {
-						case 0: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-						case 1: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_2, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-						case 2: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_3, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-						case 3: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_4, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-						case 4: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_5, MossdeepCity_Gym_Text_TateAndLizaDefeat)
+						case 0: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_1, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+						case 1: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_2, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+						case 2: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_3, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+						case 3: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_4, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+						case 4: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_5, MossdeepCity_Gym_Text_TonyAndSalDefeat)
 					}
 				}
 				else{
 					//If you have 8 badges you battle its final team
-					trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_5, MossdeepCity_Gym_Text_TateAndLizaDefeat)
+					trainerbattle_no_intro(TRAINER_TONY_AND_SAL_5, MossdeepCity_Gym_Text_TonyAndSalDefeat)
 				}
 			}
 		}
 		elif(flag(FLAG_NORMAL_MODE)){
 			//Normal Mode
 			switch (var(VAR_NUM_BADGES)) {
-				case 0: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-				case 1: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-				case 2: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-				case 3: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_2, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-				case 4: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_2, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-				case 5: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_3, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-				case 6: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_3, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-				case 7: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_4, MossdeepCity_Gym_Text_TateAndLizaDefeat)
+				case 0: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_1, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+				case 1: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_1, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+				case 2: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_1, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+				case 3: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_2, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+				case 4: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_2, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+				case 5: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_3, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+				case 6: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_3, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+				case 7: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_4, MossdeepCity_Gym_Text_TonyAndSalDefeat)
 				default:
 					if(flag(FLAG_SYS_GAME_CLEAR)){
 						//When you beat the game you can get a random rematch each day
 						random(5)
 						switch (var(VAR_RESULT)) {
-							case 0: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-							case 1: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_2, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-							case 2: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_3, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-							case 3: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_4, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-							case 4: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_5, MossdeepCity_Gym_Text_TateAndLizaDefeat)
+							case 0: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_1, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+							case 1: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_2, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+							case 2: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_3, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+							case 3: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_4, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+							case 4: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_5, MossdeepCity_Gym_Text_TonyAndSalDefeat)
 						}
 					}
 					else{
 						//If you have 8 badges you battle its final team
-						trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_5, MossdeepCity_Gym_Text_TateAndLizaDefeat)
+						trainerbattle_no_intro(TRAINER_TONY_AND_SAL_5, MossdeepCity_Gym_Text_TonyAndSalDefeat)
 					}
 			}
 		}
 		else{
 			//Easy Mode
 			switch (var(VAR_NUM_BADGES)) {
-				case 0: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-				case 1: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-				case 2: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-				case 3: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-				case 4: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_2, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-				case 5: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_2, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-				case 6: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_3, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-				case 7: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_3, MossdeepCity_Gym_Text_TateAndLizaDefeat)
+				case 0: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_1, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+				case 1: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_1, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+				case 2: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_1, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+				case 3: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_1, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+				case 4: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_2, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+				case 5: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_2, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+				case 6: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_3, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+				case 7: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_3, MossdeepCity_Gym_Text_TonyAndSalDefeat)
 				default:
 					if(flag(FLAG_SYS_GAME_CLEAR)){
 						//When you beat the game you can get a random rematch each day
 						random(5)
 						switch (var(VAR_RESULT)) {
-							case 0: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_1, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-							case 1: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_2, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-							case 2: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_3, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-							case 3: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_4, MossdeepCity_Gym_Text_TateAndLizaDefeat)
-							case 4: trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_5, MossdeepCity_Gym_Text_TateAndLizaDefeat)
+							case 0: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_1, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+							case 1: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_2, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+							case 2: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_3, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+							case 3: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_4, MossdeepCity_Gym_Text_TonyAndSalDefeat)
+							case 4: trainerbattle_no_intro(TRAINER_TONY_AND_SAL_5, MossdeepCity_Gym_Text_TonyAndSalDefeat)
 						}
 					}
 					else{
 						//If you have 8 badges you battle its final team
-						trainerbattle_no_intro(TRAINER_TATE_AND_LIZA_4, MossdeepCity_Gym_Text_TateAndLizaDefeat)
+						trainerbattle_no_intro(TRAINER_TONY_AND_SAL_4, MossdeepCity_Gym_Text_TonyAndSalDefeat)
 					}
 			}
 		}
@@ -1086,7 +1086,7 @@ script MossdeepCity_Gym_EventScript_TateAndLiza_Battle_New{
 	return
 }
 
-script MossdeepCity_Gym_EventScript_TateAndLiza_Give_Gifts{
+script MossdeepCity_Gym_EventScript_TonyAndSal_Give_Gifts{
 	//Give Dream Eater
 	checkitem(ITEM_TM85_DREAM_EATER, 1)
 	if(var(VAR_NUM_BADGES) >= 3 && var(VAR_RESULT) == FALSE){
@@ -1118,7 +1118,7 @@ script MossdeepCity_Gym_EventScript_TateAndLiza_Give_Gifts{
 	//checkitem(ITEM_TM50_OVERHEAT, 1)
 	//if(var(VAR_NUM_BADGES) >= 8 && var(VAR_RESULT) == FALSE){
 	//	giveitem(ITEM_TM50_OVERHEAT)
-	//	msgbox(format("TateAndLiza: This is one of the strongest Fire-type moves but it also lowers the user Special Attack after each use, use it only while you are in a pinch or with a Pokémon holding a White Herb."), MSGBOX_NPC)
+	//	msgbox(format("TonyAndSal: This is one of the strongest Fire-type moves but it also lowers the user Special Attack after each use, use it only while you are in a pinch or with a Pokémon holding a White Herb."), MSGBOX_NPC)
 	//	setflag(FLAG_TEMP_9) //To check if you have been given multiple items
 	//}
 
@@ -1151,7 +1151,7 @@ script MossdeepCity_Gym_EventScript_GymGuide_New{
 	lock
 	faceplayer
 	if(flag(FLAG_DEFEATED_MOSSDEEP_GYM)){
-		if(!flag(FLAG_TATE_AND_LIZA_REMATCH)){
+		if(!flag(FLAG_TONY_AND_SAL_REMATCH)){
 			msgbox(format("Guide: Hello {PLAYER}, I see you came to this Gym again, do you want me to take you to the Leaders?"), MSGBOX_YESNO)
 			if(var(VAR_RESULT) == 1){
 				msgbox(format("Let me tell them that you are here."), MSGBOX_NPC)
@@ -1175,13 +1175,13 @@ script MossdeepCity_Gym_EventScript_GymGuide_New{
 script MossdeepCity_Gym_EventScript_Gym_Ganesh{
 	lock
 	faceplayer
-	if (flag(FLAG_BADGE07_GET) && !flag(FLAG_TATE_AND_LIZA_REMATCH)){
+	if (flag(FLAG_BADGE07_GET) && !flag(FLAG_TONY_AND_SAL_REMATCH)){
 		//Ready for a rematch
 		msgbox(format("Ganesh: rock!"), MSGBOX_NPC)
 		msgbox(format("The Pokémon seems like it wants a rematch with You, it looks really bright."), MSGBOX_SIGN)
 		waitmessage
 	}
-	elif(flag(FLAG_BADGE07_GET) && flag(FLAG_TATE_AND_LIZA_REMATCH)){
+	elif(flag(FLAG_BADGE07_GET) && flag(FLAG_TONY_AND_SAL_REMATCH)){
 		msgbox(format("Ganesh: rock..."), MSGBOX_NPC)
 		msgbox(format("The Pokémon seems tired after today's battle, its better to leave it rest"), MSGBOX_SIGN)
 		waitmessage
@@ -1198,13 +1198,13 @@ script MossdeepCity_Gym_EventScript_Gym_Ganesh{
 script MossdeepCity_Gym_EventScript_Gym_Surtyur{
 	lock
 	faceplayer
-	if (flag(FLAG_BADGE07_GET) && !flag(FLAG_TATE_AND_LIZA_REMATCH)){
+	if (flag(FLAG_BADGE07_GET) && !flag(FLAG_TONY_AND_SAL_REMATCH)){
 		//Ready for a rematch
 		msgbox(format("Surtyur: tone!"), MSGBOX_NPC)
 		msgbox(format("The Pokémon seems like it wants a rematch with You, it looks really bright."), MSGBOX_SIGN)
 		waitmessage
 	}
-	elif(flag(FLAG_BADGE07_GET) && flag(FLAG_TATE_AND_LIZA_REMATCH)){
+	elif(flag(FLAG_BADGE07_GET) && flag(FLAG_TONY_AND_SAL_REMATCH)){
 		msgbox(format("Surtyur: tone..."), MSGBOX_NPC)
 		msgbox(format("The Pokémon seems tired after today's battle, its better to leave it rest"), MSGBOX_SIGN)
 		waitmessage

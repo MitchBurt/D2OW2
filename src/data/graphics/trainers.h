@@ -130,14 +130,14 @@ const u16 gTrainerPalette_LeaderTrevor[] = INCBIN_U16("graphics/trainers/palette
 const u32 gTrainerFrontPic_LeaderJared[] = INCBIN_U32("graphics/trainers/front_pics/leader_jared_front_pic.4bpp.lz");
 const u16 gTrainerPalette_LeaderJared[] = INCBIN_U16("graphics/trainers/palettes/leader_jared.gbapal");
 
-const u32 gTrainerFrontPic_LeaderNorman[] = INCBIN_U32("graphics/trainers/front_pics/leader_norman_front_pic.4bpp.lz");
-const u16 gTrainerPalette_LeaderNorman[] = INCBIN_U16("graphics/trainers/palettes/leader_norman.gbapal");
+const u32 gTrainerFrontPic_LeaderRick[] = INCBIN_U32("graphics/trainers/front_pics/leader_rick_front_pic.4bpp.lz");
+const u16 gTrainerPalette_LeaderRick[] = INCBIN_U16("graphics/trainers/palettes/leader_rick.gbapal");
 
 const u32 gTrainerFrontPic_LeaderTanner[] = INCBIN_U32("graphics/trainers/front_pics/leader_tanner_front_pic.4bpp.lz");
 const u16 gTrainerPalette_LeaderTanner[] = INCBIN_U16("graphics/trainers/palettes/leader_tanner.gbapal");
 
-const u32 gTrainerFrontPic_LeaderTateAndLiza[] = INCBIN_U32("graphics/trainers/front_pics/leader_tate_and_liza_front_pic.4bpp.lz");
-const u16 gTrainerPalette_LeaderTateAndLiza[] = INCBIN_U16("graphics/trainers/palettes/leader_tate_and_liza.gbapal");
+const u32 gTrainerFrontPic_LeaderTonyAndSal[] = INCBIN_U32("graphics/trainers/front_pics/leader_tony_and_sal_front_pic.4bpp.lz");
+const u16 gTrainerPalette_LeaderTonyAndSal[] = INCBIN_U16("graphics/trainers/palettes/leader_tony_and_sal.gbapal");
 
 const u32 gTrainerFrontPic_LeaderMitchell[] = INCBIN_U32("graphics/trainers/front_pics/leader_mitchell_front_pic.4bpp.lz");
 const u16 gTrainerPalette_LeaderMitchell[] = INCBIN_U16("graphics/trainers/palettes/leader_mitchell.gbapal");

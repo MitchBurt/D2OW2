@@ -11844,6 +11844,14 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
+    [SPECIES_EBOLABLE] =
+    {
+        .move = MOVE_ACID,
+        .modification = SIGNATURE_MOD_POWER,
+        .variable = 80,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
 
 
 /*[SPECIES_AWMANE_MEGA] =
