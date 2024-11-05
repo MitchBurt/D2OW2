@@ -6301,7 +6301,7 @@ const u8 gMoabyPokedexText[] = _(
 const u8 gShawtPokedexText[] = _(
     "Shawt is a small, vibrant Pokémon known for\n"
     "its sharp flavor and invigorating energy.\n"
-    "It’s often found at parties, bringing a\n"
+    "Its often found at parties, bringing a\n"
     "boost of excitement to any gathering.");
 
 const u8 gHolocastPokedexText[] = _(
@@ -6323,7 +6323,7 @@ const u8 gDabbugPokedexText[] = _(
 const u8 gDabbeatlePokedexText[] = _(
     "Dubbeatle take pride in victory so much that\n"
     "they will do a pose to represent it. They\n"
-    "can’t even completely fix their wear before\n"
+    "cant even completely fix their wear before\n"
     "getting into another battle.");
 
 const u8 gNuggiePokedexText[] = _(
@@ -6346,7 +6346,7 @@ const u8 gHappymaulPokedexText[] = _(
 
 const u8 gPinatiPokedexText[] = _(
     "Pinati love nothing more than infiltrating\n"
-    "children’s parties. Instead of bursting to\n"
+    "childrens parties. Instead of bursting to\n"
     "reveal candy, they explode in ambrosial flames.");
 
 const u8 gVivapinautPokedexText[] = _(
@@ -6444,7 +6444,7 @@ const u8 gMortarmaloPokedexText[] = _(
 const u8 gCofficrabPokedexText[] = _(
     "Cofficrab can frequently be found on beaches\n"
     "in groups dancing to seemingly nothing.\n"
-    "Scientists speculate it’s them communicating\n"
+    "Scientists speculate its them communicating\n"
     "to the dead.");
 
 const u8 gCraberavePokedexText[] = _(
@@ -6467,7 +6467,7 @@ const u8 gGahnomedPokedexText[] = _(
 
 const u8 gDryweePokedexText[] = _(
     "Drywee is a fragile Pokémon known for its\n"
-    "dried leaves and brittle texture. It’s\n"
+    "dried leaves and brittle texture. Its\n"
     "often found in dusty corners, where it\n"
     "remains unnoticed until disturbed.");
 
@@ -6717,7 +6717,7 @@ const u8 gTaillowPokedexText[] = _(
     "it becomes hungry.");
 
 const u8 gXappPokedexText[] = _(
-    "Birdapp’s evolution is often seen as pointless\n"
+    "Birdapps evolution is often seen as pointless\n"
     "by trainers who question its change. Despite\n"
     "this, it remains highly active, communicating\n"
     "constantly but rarely in meaningful ways.");
@@ -6753,7 +6753,7 @@ const u8 gNoctrumPokedexText[] = _(
     "those who encounter it under moonlight.");
 
 const u8 gWhiskballPokedexText[] = _(
-    "Whiskball’s flames have a distinct aroma\n"
+    "Whiskballs flames have a distinct aroma\n"
     "reminiscent of cinnamon. Playful yet fierce,\n"
     "it likes to challenge opponents with its\n"
     "fiery moves, never backing down easily.");
@@ -6784,7 +6784,7 @@ const u8 gSmoslimePokedexText[] = _(
 
 const u8 gNyancatPokedexText[] = _(
     "Nyancat is a joyful Pokémon that radiates\n"
-    "a colorful trail as it moves. It’s known\n"
+    "a colorful trail as it moves. Its known\n"
     "for bringing cheer with its sparkling\n"
     "appearance and melodic hums.");
 
@@ -6809,7 +6809,7 @@ const u8 gScatrushPokedexText[] = _(
     "Is that a shit hog? A goddamn shit hog?");
 
 const u8 gHellaphantPokedexText[] = _(
-    "Hellaphant’s aura is dark and foreboding,\n"
+    "Hellaphants aura is dark and foreboding,\n"
     "commanding respect among other Pokémon.\n"
     "Its ancient powers are said to call forth\n"
     "spirits that aid it in battle.");
@@ -7162,7 +7162,7 @@ const u8 gGalvatronPokedexText[] = _(
 const u8 gMurphirePokedexText[] = _(
     "Murphire exudes an intense, sour aroma that\n"
     "can overwhelm even the strongest Pokémon.\n"
-    "Known for its dangerous potency, it’s said\n"
+    "Known for its dangerous potency, its said\n"
     "to be an experience not to be taken lightly.");
 
 const u8 gCastformPokedexText[] = _(
@@ -7324,7 +7324,7 @@ const u8 gOrroflowPokedexText[] = _(
 const u8 gOrrocastPokedexText[] = _(
     "The roar of the first head produces whirlpools;\n"
     "the second brings a tsunami, and the third\n"
-    "will bring all the oceans’ anger.");
+    "will bring all the oceans anger.");
 
 const u8 gOrrowhelmPokedexText[] = _(
     "Legend states when both heads are in complete\n"
