@@ -7577,10 +7577,10 @@ const u8 gBloknockPokedexText[] = _(
     "lego.");
 
 const u8 gJournemapPokedexText[] = _(
-    "Journeymap: Press [J].");
+    "Journeymap: Press J.");
 
 const u8 gJourneshipPokedexText[] = _(
-    "Journeymap: Press [J].");
+    "Journeymap: Press J.");
 
 const u8 gSkorupiPokedexText[] = _(
     "It grips prey with its tail claws and\n"
