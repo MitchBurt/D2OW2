@@ -6073,8 +6073,8 @@ const u8 gWurmPokedexText[] = _(
 const u8 gPhracerPokedexText[] = _(
     "Justice in a steel machine of death.");
 
-const u8 gGlurerillaPokedexText[] = _(
-    "Glurerilla's strength and resilience\n"
+const u8 gGluerillaPokedexText[] = _(
+    "Gluerilla's strength and resilience\n"
     "are unmatched. Its sticky fur binds\n"
     "everything it touches, and its roar can\n"
     "leave entire forests in silence.");
