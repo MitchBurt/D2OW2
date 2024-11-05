@@ -6250,8 +6250,8 @@ const u8 gGahblinPokedexText[] = _(
     "causing trouble. It enjoys tormenting\n"
     "others by unleashing fire ants.");
 
-const u8 gGooblinPokedexText[] = _(
-    "Gooblin grows bolder with age, using\n"
+const u8 gGooblanPokedexText[] = _(
+    "Gooblan grows bolder with age, using\n"
     "its cunning to outsmart prey. It thrives\n"
     "in darkness and is notorious for its\n"
     "devious tricks and fiery antics.");
