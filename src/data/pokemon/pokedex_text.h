@@ -5853,7 +5853,7 @@ const u8 gYeesaurPokedexText[] = _(
 	"playlist.");
 
 const u8 gUnjoyPokedexText[] = _(
-	"FDSGM)SD ) \\eMSDFIGREW");
+	"FDSGM)SD ) MSDFIGREW");
 
 const u8 gBananacePokedexText[] = _(
 	"Bananace is a tricky Pokemon, however\n"
