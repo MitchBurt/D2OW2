@@ -6098,7 +6098,7 @@ const u8 gPichuPokedexText[] = _(
 const u8 gPoopratPokedexText[] = _(
 	"Is that a Pooprat? A goddamn Pooprat?");
 
-const u8 gVCRBrainPokedexText[] = _(
+const u8 gVcrbrainPokedexText[] = _(
     "VCRBrain stores memories like old tapes,\n"
     "but they often get tangled. Its powers\n"
     "fluctuate, leaving it dazed, yet it\n"
