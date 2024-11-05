@@ -1299,8 +1299,8 @@ Cry_Leguessr::
 	.incbin "sound/direct_sound_samples/cries/cry_leguessr.bin"
 
 	.align 2
-Cry_Minimal::
-	.incbin "sound/direct_sound_samples/cries/cry_minimal.bin"
+Cry_Minimalo::
+	.incbin "sound/direct_sound_samples/cries/cry_minimalo.bin"
 
 	.align 2
 Cry_Dismalo::
@@ -2051,8 +2051,8 @@ Cry_Vespiquen::
 	.incbin "sound/direct_sound_samples/cries/cry_not_vespiquen.bin"
 
 	.align 2
-Cry_Pachirisu::
-	.incbin "sound/direct_sound_samples/cries/cry_not_pachirisu.bin"
+Cry_Deadmous::
+	.incbin "sound/direct_sound_samples/cries/cry_not_deadmous.bin"
 
 	.align 2
 Cry_Squigga::

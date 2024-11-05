@@ -858,9 +858,9 @@ script LavaridgeTown_Gym_1F_EventScript_Jared_Give_Gifts{
 
 	//Give Megastone
 	if(var(VAR_NUM_BADGES) >= 7 && !flag(FLAG_GOT_GAHNOMEDITE)){
-		msgbox(format("Jared: Take this as an special gift from me, it's a Minimalite."), MSGBOX_NPC)
+		msgbox(format("Jared: Take this as an special gift from me, it's a Minimaloite."), MSGBOX_NPC)
 		giveitem(ITEM_GAHNOMEDITE)
-		msgbox(format("Make a Minimal hold it to unleash its real potential."), MSGBOX_NPC)
+		msgbox(format("Make a Minimalo hold it to unleash its real potential."), MSGBOX_NPC)
 		setflag(FLAG_GOT_GAHNOMEDITE)
 		setflag(FLAG_TEMP_9) //To check if you have been given multiple items
 	}

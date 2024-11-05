@@ -4191,7 +4191,7 @@ static const struct TrHillFloor sDataTagUnique_Floors[] = {
                                         },
                                     [3] =
                                         {
-                                            .species = SPECIES_MINIMAL,
+                                            .species = SPECIES_MINIMALO,
                                             .heldItem = ITEM_QUICK_CLAW,
                                             .moves = {MOVE_FLAMETHROWER, MOVE_CRUNCH, MOVE_ROAR, MOVE_WILL_O_WISP},
                                             .level = 0,
@@ -4207,7 +4207,7 @@ static const struct TrHillFloor sDataTagUnique_Floors[] = {
                                             .spDefenseIV = 15,
                                             .abilityNum = 1,
                                             .personality = 0xF,
-                                            .nickname = _("Minimal"),
+                                            .nickname = _("Minimalo"),
                                             .friendship = 255,
                                         },
                                     [4] =

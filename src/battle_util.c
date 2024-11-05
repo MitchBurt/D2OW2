@@ -8635,7 +8635,7 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
 			 gBattleMons[battlerAtk].species == SPECIES_PICHU           	 ||
 			 gBattleMons[battlerAtk].species == SPECIES_PURRTANG           	 ||
 			 gBattleMons[battlerAtk].species == SPECIES_PURRSOUR          	 ||
-			 gBattleMons[battlerAtk].species == SPECIES_PACHIRISU       	 ||
+			 gBattleMons[battlerAtk].species == SPECIES_DEADMOUS       	 ||
 			 gBattleMons[battlerAtk].species == SPECIES_EMOLGA          	 ||
 			 gBattleMons[battlerAtk].species == SPECIES_DEDENNE         	 ||
 			 gBattleMons[battlerAtk].species == SPECIES_TOGEDEMARU      	 ||

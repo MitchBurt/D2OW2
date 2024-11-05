@@ -2545,7 +2545,7 @@ static const u8 sLonkestiteDesc[] = _(
 static const u8 sGahnomediteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Minimal.");
+    "Minimalo.");
 
 static const u8 sVoiditeDesc[] = _(
     "Piedra que permite\n"
@@ -5777,7 +5777,7 @@ static const u8 sLonkestiteDesc[] = _(
 
 static const u8 sGahnomediteDesc[] = _(
     "This stone enables\n"
-    "Minimal to Mega\n"
+    "Minimalo to Mega\n"
     "Evolve in battle.");
 
 static const u8 sVoiditeDesc[] = _(

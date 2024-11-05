@@ -9635,7 +9635,7 @@ const struct Item gItems[] =
     [ITEM_GAHNOMEDITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Minimalita"),
+        .name = _("Minimaloita"),
 #else
         .name = _("Gahnomedite"),
 #endif

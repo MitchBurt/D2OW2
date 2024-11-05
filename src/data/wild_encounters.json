@@ -215,7 +215,7 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_MINIMAL"
+                "species": "SPECIES_MINIMALO"
               },
               {
                 "min_level": 3,
@@ -1285,17 +1285,17 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_PACHIRISU"
+                "species": "SPECIES_DEADMOUS"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_MORPEKO"
+                "species": "SPECIES_DEADMOUS"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_TOGEDEMARU"
+                "species": "SPECIES_DEADMOUS"
               }
             ]
           }
@@ -4292,7 +4292,7 @@
               {
                 "min_level": 24,
                 "max_level": 24,
-                "species": "SPECIES_CREEPA"
+                "species": "SPECIES_DEADMOUS"
               },
               {
                 "min_level": 24,
@@ -4560,7 +4560,7 @@
               {
                 "min_level": 27,
                 "max_level": 27,
-                "species": "SPECIES_MINIMAL"
+                "species": "SPECIES_MINIMALO"
               },
               {
                 "min_level": 25,
@@ -4684,7 +4684,7 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_MINIMAL"
+                "species": "SPECIES_MINIMALO"
               },
               {
                 "min_level": 28,
@@ -6779,12 +6779,12 @@
               {
                 "min_level": 35,
                 "max_level": 40,
-                "species": "SPECIES_CHEWTLE"
+                "species": "SPECIES_DABBOI"
               },
               {
                 "min_level": 40,
                 "max_level": 45,
-                "species": "SPECIES_CHEWTLE"
+                "species": "SPECIES_DABBOI"
               }
             ]
           }
@@ -7753,7 +7753,7 @@
               {
                 "min_level": 36,
                 "max_level": 36,
-                "species": "SPECIES_TROLOLO"
+                "species": "SPECIES_TROLOLING"
               }
             ]
           }
@@ -7822,7 +7822,7 @@
               {
                 "min_level": 36,
                 "max_level": 36,
-                "species": "SPECIES_TROLOLO"
+                "species": "SPECIES_TROLOLING"
               }
             ]
           }
@@ -8167,7 +8167,7 @@
               {
                 "min_level": 29,
                 "max_level": 29,
-                "species": "SPECIES_TROLOLO"
+                "species": "SPECIES_TROLOLING"
               }
             ]
           },
@@ -8549,7 +8549,7 @@
               {
                 "min_level": 42,
                 "max_level": 42,
-                "species": "SPECIES_MINIMAL"
+                "species": "SPECIES_MINIMALO"
               },
               {
                 "min_level": 42,
@@ -11025,7 +11025,7 @@
               {
                 "min_level": 23,
                 "max_level": 23,
-                "species": "SPECIES_MINIMAL"
+                "species": "SPECIES_MINIMALO"
               },
               {
                 "min_level": 24,
@@ -12670,7 +12670,7 @@
               {
                 "min_level": 10,
                 "max_level": 10,
-                "species": "SPECIES_TROLOLO"
+                "species": "SPECIES_TROLOLING"
               },
               {
                 "min_level": 12,
@@ -13678,12 +13678,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_DIGLETT"
+                "species": "SPECIES_DEADMOUS"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_DIGLETT"
+                "species": "SPECIES_DEADMOUS"
               },
               {
                 "min_level": 5,
@@ -14203,7 +14203,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_AWMANE"
+                "species": "SPECIES_DEADMOUS"
               },
               {
                 "min_level": 5,
@@ -14223,12 +14223,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_JOLTIK"
+                "species": "SPECIES_DEADMOUS"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_KLINK"
+                "species": "SPECIES_DEADMOUS"
               },
               {
                 "min_level": 5,
@@ -14238,7 +14238,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_FERROSEED"
+                "species": "SPECIES_DEADMOUS"
               },
               {
                 "min_level": 5,
@@ -14720,7 +14720,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_DOGEASTER"
+                "species": "SPECIES_DEADMOUS"
               },
               {
                 "min_level": 5,
@@ -14760,7 +14760,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BADDERY"
+                "species": "SPECIES_DOGEASTER"
               }
             ]
           },
@@ -15019,7 +15019,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_DIGLETT"
+                "species": "SPECIES_DEADMOUS"
               },
               {
                 "min_level": 5,
@@ -15034,22 +15034,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_ARON"
+                "species": "SPECIES_DEADMOUS"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_MIMEJR"
-              },
-              {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_JEWIS"
-              },
-              {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_PASSIMIAN"
+                "species": "SPECIES_DEADMOUS"
               },
               {
                 "min_level": 5,
@@ -15059,7 +15049,17 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_PASSIMIAN"
+                "species": "SPECIES_DEADMOUS"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_JEWIS"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_DEADMOUS"
               }
             ]
           },
@@ -15069,7 +15069,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_JANGMO_O"
+                "species": "SPECIES_DEADMOUS"
               },
               {
                 "min_level": 5,
@@ -15098,7 +15098,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_WOOBAT"
+                "species": "SPECIES_DEADMOUS"
               },
               {
                 "min_level": 5,
@@ -15128,12 +15128,12 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_ROGGENROLA"
+                "species": "SPECIES_DEADMOUS"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_TROLOLO"
+                "species": "SPECIES_TROLOLING"
               },
               {
                 "min_level": 5,
@@ -15143,7 +15143,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_TROLOLO"
+                "species": "SPECIES_TROLOLING"
               },
               {
                 "min_level": 5,
@@ -15307,7 +15307,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_TROLOLO"
+                "species": "SPECIES_TROLOLING"
               },
               {
                 "min_level": 5,
@@ -15317,7 +15317,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_TROLOLO"
+                "species": "SPECIES_TROLOLING"
               },
               {
                 "min_level": 5,
@@ -15481,7 +15481,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_TROLOLO"
+                "species": "SPECIES_TROLOLING"
               },
               {
                 "min_level": 5,
@@ -15491,7 +15491,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_TROLOLO"
+                "species": "SPECIES_TROLOLING"
               },
               {
                 "min_level": 5,

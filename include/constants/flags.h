@@ -689,7 +689,7 @@
 #define FLAG_UNUSED_0x283  0x283 // Godnite Y
 #define FLAG_UNUSED_0x284  0x284 // Bacidite*
 #define FLAG_UNUSED_0x285  0x285 // Nuggieite*
-#define FLAG_GOT_GAHNOMEDITE  0x286 // Minimalite*
+#define FLAG_GOT_GAHNOMEDITE  0x286 // Minimaloite*
 #define FLAG_UNUSED_0x287  0x287 // Frosiliskite*
 #define FLAG_GOT_AWMANITE  0x288 // Awmanite*
 #define FLAG_UNUSED_0x289  0x289 // Mawilite*

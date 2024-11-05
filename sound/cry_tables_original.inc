@@ -230,7 +230,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Flooticorn  @ 869E780
 	cry Cry_Legearth  @ 869E78C
 	cry Cry_Leguessr  @ 869E798
-	cry Cry_Minimal  @ 869E7A4
+	cry Cry_Minimalo  @ 869E7A4
 	cry Cry_Dismalo  @ 869E7B0
 	cry Cry_Mortarmalo  @ 869E7BC
 	cry Cry_Cofficrab  @ 869E7C8
@@ -420,7 +420,7 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Gailord
 	cry_not Cry_Combee
 	cry_not Cry_Vespiquen
-	cry_not Cry_Pachirisu
+	cry_not Cry_Deadmous
 	cry_not Cry_Squigga
 	cry_not Cry_Desparward
 	cry_not Cry_Bushizard
@@ -1507,7 +1507,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Flooticorn  @ 869F9B0
 	cry2 Cry_Legearth  @ 869F9BC
 	cry2 Cry_Leguessr  @ 869F9C8
-	cry2 Cry_Minimal  @ 869F9D4
+	cry2 Cry_Minimalo  @ 869F9D4
 	cry2 Cry_Dismalo  @ 869F9E0
 	cry2 Cry_Mortarmalo  @ 869F9EC
 	cry2 Cry_Cofficrab  @ 869F9F8
@@ -1696,7 +1696,7 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Gailord
 	cry2_not Cry_Combee
 	cry2_not Cry_Vespiquen
-	cry2_not Cry_Pachirisu
+	cry2_not Cry_Deadmous
 	cry2_not Cry_Squigga
 	cry2_not Cry_Desparward
 	cry2_not Cry_Bushizard

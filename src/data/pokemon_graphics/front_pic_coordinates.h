@@ -1150,7 +1150,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x56,
         .y_offset = 3,
     },
-    [SPECIES_MINIMAL] =
+    [SPECIES_MINIMALO] =
     {
         .size = 0x77,
         .y_offset = 13,
@@ -2090,7 +2090,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x66,
         .y_offset = 4,
     },
-    [SPECIES_PACHIRISU] =
+    [SPECIES_DEADMOUS] =
     {
         .size = 0x78,
         .y_offset = 12,

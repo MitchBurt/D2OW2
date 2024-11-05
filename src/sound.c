@@ -614,7 +614,7 @@ void PlayGenericCry(u16 species, bool32 v0){
         case SPECIES_DISHEATS_ALOLAN:
         case SPECIES_PURRTANG:
         case SPECIES_PURRSOUR:
-        case SPECIES_PACHIRISU:
+        case SPECIES_DEADMOUS:
         case SPECIES_EMOLGA:
         case SPECIES_TOGEDEMARU:
         case SPECIES_DEDENNE:

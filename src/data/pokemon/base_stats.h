@@ -3430,7 +3430,7 @@ const struct BaseStats gBaseStats[] =
         .baseHP        = 71,
         .baseAttack    = 117,
         .baseDefense   = 62,
-        .baseSpeed     = 107,
+        .baseSpeed     = 117,
         .baseSpAttack  = 66,
         .baseSpDefense = 94,
         .type1 = TYPE_ELECTRIC,
@@ -6219,7 +6219,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_MINIMAL] =
+    [SPECIES_MINIMALO] =
     {
         .baseHP        = 64,
         .baseAttack    = 63,
@@ -11176,14 +11176,14 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_PACHIRISU] =
+    [SPECIES_DEADMOUS] =
     {
-        .baseHP        = 60,
-        .baseAttack    = 45,
-        .baseDefense   = 70,
-        .baseSpeed     = 95,
-        .baseSpAttack  = 45,
-        .baseSpDefense = 90,
+        .baseHP        = 51,
+        .baseAttack    = 85,
+        .baseDefense   = 42,
+        .baseSpeed     = 90,
+        .baseSpAttack  = 46,
+        .baseSpDefense = 74,
         .type1 = TYPE_ELECTRIC,
         .type2 = TYPE_ELECTRIC,
         .catchRate = 200,
@@ -11197,7 +11197,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup2 = EGG_GROUP_FAIRY,
         .abilities = {ABILITY_RUN_AWAY, ABILITY_PICKUP},
         .abilityHidden = ABILITY_VOLT_ABSORB,
-        .bodyColor = BODY_COLOR_WHITE,
+        .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
     },
 
@@ -39817,7 +39817,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_MINIMAL] =
+    [SPECIES_MINIMALO] =
     {
         .baseHP        = 64,
         .baseAttack    = 63,
@@ -44774,7 +44774,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_PACHIRISU] =
+    [SPECIES_DEADMOUS] =
     {
         .baseHP        = 60,
         .baseAttack    = 45,

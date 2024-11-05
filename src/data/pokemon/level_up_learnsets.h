@@ -4691,7 +4691,7 @@ static const struct LevelUpMove sLeguessrLevelUpLearnset[] = {
 	LEVEL_UP_END
 };
 
-static const struct LevelUpMove sMinimalLevelUpLearnset[] = {
+static const struct LevelUpMove sMinimaloLevelUpLearnset[] = {
 	LEVEL_UP_MOVE( 1, MOVE_DECORATE),
 	LEVEL_UP_MOVE( 1, MOVE_AROMATIC_MIST),
 	LEVEL_UP_MOVE( 1, MOVE_TACKLE),
@@ -9015,7 +9015,7 @@ static const struct LevelUpMove sVespiquenLevelUpLearnset[] = {
     LEVEL_UP_END
 };
 
-static const struct LevelUpMove sPachirisuLevelUpLearnset[] = {
+static const struct LevelUpMove sDeadmousLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE( 1, MOVE_BIDE),
     LEVEL_UP_MOVE( 5, MOVE_QUICK_ATTACK),

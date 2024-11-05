@@ -1150,7 +1150,7 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x56,
         .y_offset = 14,
     },
-    [SPECIES_MINIMAL] =
+    [SPECIES_MINIMALO] =
     {
         .size = 0x87,
         .y_offset = 19,
@@ -2090,7 +2090,7 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x88,
         .y_offset = 0,
     },
-    [SPECIES_PACHIRISU] =
+    [SPECIES_DEADMOUS] =
     {
         .size = 0x88,
         .y_offset = 3,

@@ -5488,7 +5488,7 @@ static const u8 sLeguessrTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sMinimalTutorLearnset[] =
+static const u8 sMinimaloTutorLearnset[] =
 {
     TUTOR(MOVE_BODY_SLAM),
     TUTOR(MOVE_DOUBLE_EDGE),
@@ -9954,7 +9954,7 @@ static const u8 sVespiquenTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sPachirisuTutorLearnset[] =
+static const u8 sDeadmousTutorLearnset[] =
 {
     TUTOR(MOVE_THUNDER_WAVE),
     TUTOR(MOVE_SUBSTITUTE),
@@ -19950,7 +19950,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_FLOOTICORN] = sFlooticornTutorLearnset,
     [SPECIES_LEGEARTH] = sLegearthTutorLearnset,
     [SPECIES_LEGUESSR] = sLeguessrTutorLearnset,
-    [SPECIES_MINIMAL] = sMinimalTutorLearnset,
+    [SPECIES_MINIMALO] = sMinimaloTutorLearnset,
     [SPECIES_DISMALO] = sDismaloTutorLearnset,
     [SPECIES_MORTARMALO] = sMortarmaloTutorLearnset,
     [SPECIES_COFFICRAB] = sCofficrabTutorLearnset,
@@ -20138,7 +20138,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_GAILORD] = sGailordTutorLearnset,
     [SPECIES_COMBEE] = sCombeeTutorLearnset,
     [SPECIES_VESPIQUEN] = sVespiquenTutorLearnset,
-    [SPECIES_PACHIRISU] = sPachirisuTutorLearnset,
+    [SPECIES_DEADMOUS] = sDeadmousTutorLearnset,
     [SPECIES_SQUIGGA] = sSquiggaTutorLearnset,
     [SPECIES_DESPARWARD] = sDesparwardTutorLearnset,
     [SPECIES_BUSHIZARD] = sBushizardTutorLearnset,

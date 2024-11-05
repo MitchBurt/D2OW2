@@ -8898,7 +8898,7 @@ static const u8 sLeguessrTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sMinimalTMHMLearnset[] =
+static const u8 sMinimaloTMHMLearnset[] =
 {
     TMHM(TM04_CALM_MIND),
     TMHM(TM05_ROAR),
@@ -16792,7 +16792,7 @@ static const u8 sVespiquenTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sPachirisuTMHMLearnset[] =
+static const u8 sDeadmousTMHMLearnset[] =
 {
     TMHM(TM06_TOXIC),
     TMHM(TM10_HIDDEN_POWER),
@@ -36397,7 +36397,7 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_FLOOTICORN] = sFlooticornTMHMLearnset,
     [SPECIES_LEGEARTH] = sLegearthTMHMLearnset,
     [SPECIES_LEGUESSR] = sLeguessrTMHMLearnset,
-    [SPECIES_MINIMAL] = sMinimalTMHMLearnset,
+    [SPECIES_MINIMALO] = sMinimaloTMHMLearnset,
     [SPECIES_DISMALO] = sDismaloTMHMLearnset,
     [SPECIES_MORTARMALO] = sMortarmaloTMHMLearnset,
     [SPECIES_COFFICRAB] = sCofficrabTMHMLearnset,
@@ -36585,7 +36585,7 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_GAILORD] = sGailordTMHMLearnset,
     [SPECIES_COMBEE] = sCombeeTMHMLearnset,
     [SPECIES_VESPIQUEN] = sVespiquenTMHMLearnset,
-    [SPECIES_PACHIRISU] = sPachirisuTMHMLearnset,
+    [SPECIES_DEADMOUS] = sDeadmousTMHMLearnset,
     [SPECIES_SQUIGGA] = sSquiggaTMHMLearnset,
     [SPECIES_DESPARWARD] = sDesparwardTMHMLearnset,
     [SPECIES_BUSHIZARD] = sBushizardTMHMLearnset,

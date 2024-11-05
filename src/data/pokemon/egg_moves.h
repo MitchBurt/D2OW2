@@ -2935,7 +2935,7 @@ const u16 gEggMoves[] = {
 		MOVE_WIDE_GUARD,
 		MOVE_GUARD_SPLIT),
 
-	egg_moves(PACHIRISU,
+	egg_moves(DEADMOUS,
 		MOVE_TAIL_WHIP,
 		MOVE_BITE,
 		MOVE_DEFENSE_CURL,

@@ -2685,7 +2685,7 @@ static const union AnimCmd sAnim_LEGUESSR_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_MINIMAL_1[] =
+static const union AnimCmd sAnim_MINIMALO_1[] =
 {
     ANIMCMD_FRAME(1, 40),
     ANIMCMD_FRAME(0, 30),
@@ -5078,7 +5078,7 @@ static const union AnimCmd sAnim_VESPIQUEN_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_PACHIRISU_1[] =
+static const union AnimCmd sAnim_DEADMOUS_1[] =
 {
     ANIMCMD_FRAME(0, 30),
     ANIMCMD_FRAME(1, 30),
@@ -10314,9 +10314,9 @@ static const union AnimCmd *const sAnims_LEGUESSR[] ={
     sAnim_LEGUESSR_1,
 };
 
-static const union AnimCmd *const sAnims_MINIMAL[] ={
+static const union AnimCmd *const sAnims_MINIMALO[] ={
     sAnim_GeneralFrame0,
-    sAnim_MINIMAL_1,
+    sAnim_MINIMALO_1,
 };
 
 static const union AnimCmd *const sAnims_DISMALO[] ={
@@ -11438,9 +11438,9 @@ static const union AnimCmd *const sAnims_VESPIQUEN[] ={
     sAnim_VESPIQUEN_1,
 };
 
-static const union AnimCmd *const sAnims_PACHIRISU[] ={
+static const union AnimCmd *const sAnims_DEADMOUS[] ={
     sAnim_GeneralFrame0,
-    sAnim_PACHIRISU_1,
+    sAnim_DEADMOUS_1,
 };
 
 static const union AnimCmd *const sAnims_SQUIGGA[] ={
@@ -14647,7 +14647,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(FLOOTICORN),
     ANIM_CMD(LEGEARTH),
     ANIM_CMD(LEGUESSR),
-    ANIM_CMD(MINIMAL),
+    ANIM_CMD(MINIMALO),
     ANIM_CMD(DISMALO),
     ANIM_CMD(MORTARMALO),
     ANIM_CMD(COFFICRAB),
@@ -14835,7 +14835,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(GAILORD),
     ANIM_CMD(COMBEE),
     ANIM_CMD(VESPIQUEN),
-    ANIM_CMD(PACHIRISU),
+    ANIM_CMD(DEADMOUS),
     ANIM_CMD(SQUIGGA),
     ANIM_CMD(DESPARWARD),
     ANIM_CMD(BUSHIZARD),

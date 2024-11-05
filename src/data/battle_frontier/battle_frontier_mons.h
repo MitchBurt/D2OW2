@@ -241,7 +241,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
 		.abilitynum = ABILITY_RANDOM
     },
     [FRONTIER_MON_SLUGMA] = {
-        .species = SPECIES_MINIMAL,//TO MOVE
+        .species = SPECIES_MINIMALO,//TO MOVE
         .moves = {MOVE_FIRE_BLAST, MOVE_SUCKER_PUNCH, MOVE_PURSUIT, MOVE_DESTINY_BOND},
         .itemTableId = BATTLE_FRONTIER_ITEM_LIFE_ORB,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
@@ -3408,8 +3408,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_JOLLY,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_MINIMAL_1] = {
-        .species = SPECIES_MINIMAL,
+    [FRONTIER_MON_MINIMALO_1] = {
+        .species = SPECIES_MINIMALO,
         .moves = {MOVE_FLAMETHROWER, MOVE_SHADOW_BALL, MOVE_COUNTER, MOVE_WILL_O_WISP    },
         .itemTableId = BATTLE_FRONTIER_ITEM_FOCUS_BAND,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,
@@ -4176,8 +4176,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_JOLLY,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_MINIMAL_2] = {
-        .species = SPECIES_MINIMAL,
+    [FRONTIER_MON_MINIMALO_2] = {
+        .species = SPECIES_MINIMALO,
         .moves = {MOVE_FIRE_BLAST, MOVE_CRUNCH, MOVE_ROAR, MOVE_REST    },
         .itemTableId = BATTLE_FRONTIER_ITEM_LUM_BERRY,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
@@ -4944,8 +4944,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_JOLLY,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_MINIMAL_3] = {
-        .species = SPECIES_MINIMAL,
+    [FRONTIER_MON_MINIMALO_3] = {
+        .species = SPECIES_MINIMALO,
         .moves = {MOVE_OVERHEAT, MOVE_SHADOW_BALL, MOVE_SLUDGE_BOMB, MOVE_DOUBLE_EDGE    },
         .itemTableId = BATTLE_FRONTIER_ITEM_WHITE_HERB,
         .evSpread = F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,
@@ -5712,8 +5712,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_JOLLY,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_MINIMAL_4] = {
-        .species = SPECIES_MINIMAL,
+    [FRONTIER_MON_MINIMALO_4] = {
+        .species = SPECIES_MINIMALO,
         .moves = {MOVE_OVERHEAT, MOVE_SOLAR_BEAM, MOVE_CRUNCH, MOVE_SUNNY_DAY    },
         .itemTableId = BATTLE_FRONTIER_ITEM_WHITE_HERB,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,

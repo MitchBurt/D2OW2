@@ -2697,7 +2697,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Hope[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_MINIMAL,
+    .species = SPECIES_MINIMALO,
     },
     {
     .iv = 100,
@@ -7779,7 +7779,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Miguel1[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_PACHIRISU
+    .species = SPECIES_DEADMOUS
     },
     {
     .iv = 0,
@@ -14405,7 +14405,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Brenden[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 1,
     .happiness = 0,
-    .species = SPECIES_MINIMAL,
+    .species = SPECIES_MINIMALO,
     },
 	{
     .iv = 200,
