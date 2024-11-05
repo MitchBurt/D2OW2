@@ -7316,12 +7316,12 @@ const u8 gBobisticPokedexText[] = _(
     "for strategy. Its wild nature makes it\n"
     "a formidable opponent in any clash.");
 
-const u8 gOrroflowPokedexText[] = _(
+const u8 gOroflowPokedexText[] = _(
     "While small, its ability to instantly produce\n"
     "whirlpools makes Orroflow a threat to tiny\n"
     "boats and other water Pokémon.");
 
-const u8 gOrrocastPokedexText[] = _(
+const u8 gOrocastPokedexText[] = _(
     "The roar of the first head produces whirlpools;\n"
     "the second brings a tsunami, and the third\n"
     "will bring all the oceans anger.");
