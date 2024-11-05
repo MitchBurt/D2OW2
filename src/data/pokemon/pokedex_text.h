@@ -6985,7 +6985,7 @@ const u8 gFizzcubPokedexText[] = _(
     "This playful creature rolls through snowy regions,\n"
     "often leaving a trail of fizz in its wake. Its\n"
     "bubbly presence can refresh anyone who crosses\n"
-    "its path, providing a moment of lightheartedness.")
+    "its path, providing a moment of lightheartedness.");
 
 const u8 gSeltclawPokedexText[] = _(
     "With a vibrant personality, Seltclaw thrives at\n"
