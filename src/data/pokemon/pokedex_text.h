@@ -6116,7 +6116,7 @@ const u8 gBlurabrainPokedexText[] = _(
     "Its upgraded powers allow it to project\n"
     "images to confuse or delight others.");
 
-const u8 gPuckidPokedexText[] = _(
+const u8 gNatuPokedexText[] = _(
     "Puckid glides effortlessly across icy\n"
     "surfaces, using its sharp claws to\n"
     "slice through snow. It loves to play\n"
