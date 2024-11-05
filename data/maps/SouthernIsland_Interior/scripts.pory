@@ -25,12 +25,12 @@ SouthernIsland_Interior_OnTransition: @ 8242A6E
 
 SouthernIsland_Interior_EventScript_SetUpLatios:: @ 8242A8A
 	setvar VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_LATIOS
-	setvar VAR_TEMP_4, SPECIES_LATIOS
+	setvar VAR_TEMP_4, SPECIES_GLURILLA
 	return
 
 SouthernIsland_Interior_EventScript_SetUpLatias:: @ 8242A95
 	setvar VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_LATIAS
-	setvar VAR_TEMP_4, SPECIES_LATIAS
+	setvar VAR_TEMP_4, SPECIES_GLURILLA
 	return
 
 SouthernIsland_Interior_EventScript_SetUpPlayerGfx:: @ 8242AA0
@@ -114,14 +114,14 @@ SouthernIsland_Interior_EventScript_Sign:: @ 8242B9A
 	end
 
 SouthernIsland_Interior_EventScript_SetLatiosBattleVars:: @ 8242BA4
-	setvar VAR_0x8004, SPECIES_LATIOS
+	setvar VAR_0x8004, SPECIES_GLURILLA
 	setvar VAR_0x8005, 50 @ level
 	setvar VAR_0x8006, ITEM_SOUL_DEW
 	special CreateObedientEnemyMon
 	return
 
 SouthernIsland_Interior_EventScript_SetLatiasBattleVars:: @ 8242BB7
-	setvar VAR_0x8004, SPECIES_LATIAS
+	setvar VAR_0x8004, SPECIES_GLURILLA
 	setvar VAR_0x8005, 50 @ level
 	setvar VAR_0x8006, ITEM_SOUL_DEW
 	special CreateObedientEnemyMon
@@ -165,12 +165,12 @@ SouthernIsland_Interior_EventScript_Latias::
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_LATIAS, 2
+	playmoncry SPECIES_GLURILLA, 2
 	delay 40
 	waitmoncry
 	setflag FLAG_TOTEM_BATTLE
 	setvar VAR_NUM_WILD_POKEMON_STAT_BOOST, 3
-	setwildbattlewithcustommoves SPECIES_LATIAS, 70, ITEM_LATIASITE, MOVE_MIST_BALL, MOVE_DRAGON_PULSE, MOVE_THUNDERBOLT, MOVE_MYSTICAL_FIRE, 0, NATURE_TIMID
+	setwildbattlewithcustommoves SPECIES_GLURILLA, 70, ITEM_LEFTOVERS, MOVE_MIST_BALL, MOVE_FLAMETHROWER, MOVE_ENERGY_BALL, MOVE_MYSTICAL_FIRE, 0, NATURE_TIMID
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
 	dowildbattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
@@ -204,7 +204,7 @@ SouthernIsland_Interior_EventScript_DefeatedLatias::
 	end
 
 SouthernIsland_Interior_EventScript_RanFromLatias::
-	setvar VAR_0x8004, SPECIES_LATIAS
+	setvar VAR_0x8004, SPECIES_GLURILLA
 	fadescreenswapbuffers FADE_TO_BLACK
 	removeobject VAR_LAST_TALKED
 	fadescreenswapbuffers FADE_FROM_BLACK
@@ -220,12 +220,12 @@ SouthernIsland_Interior_EventScript_Latios::
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_LATIOS, 2
+	playmoncry SPECIES_GLURILLA, 2
 	delay 40
 	waitmoncry
 	setflag FLAG_TOTEM_BATTLE
 	setvar VAR_NUM_WILD_POKEMON_STAT_BOOST, 3
-	setwildbattlewithcustommoves SPECIES_LATIOS, 70, ITEM_DUSHROOMITE, MOVE_LUSTER_PURGE, MOVE_DRAGON_PULSE, MOVE_AURA_SPHERE, MOVE_ICE_BEAM, 0, NATURE_MODEST
+	setwildbattlewithcustommoves SPECIES_GLURILLA, 70, ITEM_LEFTOVERS, MOVE_MIST_BALL, MOVE_FLAMETHROWER, MOVE_ENERGY_BALL, MOVE_MYSTICAL_FIRE, 0, NATURE_MODEST
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
 	dowildbattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
@@ -259,7 +259,7 @@ SouthernIsland_Interior_EventScript_DefeatedLatios::
 	end
 
 SouthernIsland_Interior_EventScript_RanFromLatios::
-	setvar VAR_0x8004, SPECIES_LATIOS
+	setvar VAR_0x8004, SPECIES_GLURILLA
 	fadescreenswapbuffers FADE_TO_BLACK
 	removeobject VAR_LAST_TALKED
 	fadescreenswapbuffers FADE_FROM_BLACK

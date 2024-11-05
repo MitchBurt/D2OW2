@@ -71,7 +71,7 @@ EventScript_BattleKecleon:: @ 8272365
 	playmoncry SPECIES_KECLEON, 2
 	delay 40
 	waitmoncry
-	setwildbattle SPECIES_KECLEON, 1, ITEM_NONE
+	setwildbattle SPECIES_IMPOSTOWN, 1, ITEM_NONE
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
 	dowildbattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
@@ -296,10 +296,10 @@ EventScript_WaterBonsly::
 	msgbox gText_Breaddie_Attacked, MSGBOX_DEFAULT
 	closemessage
 	waitse
-	playmoncry SPECIES_BONSLY, 2
+	playmoncry SPECIES_IMPOSTOWN, 2
 	delay 40
 	waitmoncry
-	setwildbattle SPECIES_BONSLY, 1, ITEM_NONE
+	setwildbattle SPECIES_IMPOSTOWN, 1, ITEM_NONE
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
 	dowildbattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE

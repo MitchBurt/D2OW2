@@ -6649,7 +6649,7 @@ const u8 gMechduckPokedexText[] = _(
     "Mechduck is a quirky Pokémon with a\n"
     "partially mechanical body. Its unique\n"
     "design allows it to navigate various terrains\n"
-    "while retaining a charming, whimsical demeanor.")
+    "while retaining a charming, whimsical demeanor.");
 
 const u8 gDuckertronPokedexText[] = _(
     "Fully mechanized and equipped with high-tech\n"
