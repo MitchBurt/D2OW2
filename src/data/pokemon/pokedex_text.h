@@ -6370,8 +6370,8 @@ const u8 gSlugmaPokedexText[] = _(
 const u8 gSugmaballsPokedexText[] = _(
     "Slugma nuts");
 
-const u8 gOraclePokedexText[] = _(
-    "Oracle is a wise Pokémon that resembles\n"
+const u8 gOrcalePokedexText[] = _(
+    "Orcale is a wise Pokémon that resembles\n"
     "an orca, known for its deep intuition.\n"
     "It can predict future events, guiding\n"
     "trainers through challenges with its insights.");
