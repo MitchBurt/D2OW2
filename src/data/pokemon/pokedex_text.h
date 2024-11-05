@@ -6463,7 +6463,7 @@ const u8 gGahnomedPokedexText[] = _(
     "Gahnomed evolves from Gnorb and embodies\n"
     "the essence of gnomes. It quietly lurks,\n"
     "waiting for the perfect moment to shout,\n"
-    "\"You've been gnomed!\" before vanishing.");
+    "You've been gnomed!\" before vanishing.");
 
 const u8 gDryweePokedexText[] = _(
     "Drywee is a fragile Pokémon known for its\n"
