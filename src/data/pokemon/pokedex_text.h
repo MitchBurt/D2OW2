@@ -6167,8 +6167,8 @@ const u8 gBarireeferPokedexText[] = _(
     "sweet aroma that can heal allies and\n"
     "enhance their defenses.");
 
-const u8 gBreadiePokedexText[] = _(
-    "Breadie is a small, fluffy Pokémon that\n"
+const u8 gBreaddiePokedexText[] = _(
+    "Breaddie is a small, fluffy Pokémon that\n"
     "brings joy wherever it goes. It has a\n"
     "delicious aroma and loves to make friends\n"
     "with its soft, doughy body.");
