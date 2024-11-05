@@ -11429,7 +11429,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_GOREFIELD] =
     {
-        .categoryName = _("I'm sorry Jon"),
+        .categoryName = _("ImsorryJon"),
         .height = 10,
         .weight = 320,
         .description = gGorefieldPokedexText,
