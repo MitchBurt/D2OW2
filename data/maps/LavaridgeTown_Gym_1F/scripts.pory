@@ -149,7 +149,7 @@ LavaridgeTown_Gym_1F_EventScript_Start_Rematch_5::
 	goto_if_set FLAG_GOT_GAHNOMEDITE LavaridgeTown_Gym_1F_EventScript_Start_Rematch_6
 	trainerbattle_no_intro TRAINER_JARED_4, LavaridgeTown_Gym_1F_Text_JaredRematchDefeat
 	msgbox LavaridgeTown_Gym_1F_Text_GetMegaStone, MSGBOX_DEFAULT
-	giveitem ITEM_GAHNOMEDITE
+	giveitem ITEM_GOALEMITE
 	setflag FLAG_GOT_GAHNOMEDITE
 	goto LavaridgeTown_Gym_1F_EventScript_JaredRematchEnd
 	end
@@ -220,9 +220,9 @@ LavaridgeTown_Gym_1F_Text_GetTM:
 	.string "Technical Machine.$"
 
 LavaridgeTown_Gym_1F_Text_GetMegaStone:
-	.string "Jared: Please take this\n"
+	.string "Jared: Take this\n"
 	.string "Mega Stone, with you.\p"
-	.string "Make an Murphire hold it to\n"
+	.string "Make an Goalem hold it to\n"
 	.string "unleash its Hidden Potential.$"
 	
 LavaridgeTown_Gym_1F_Text_GetReward:
@@ -332,12 +332,12 @@ LavaridgeTown_Gym_1F_Text_GymGuideAdvice: @ 81FE9BF
 	.string "Hey, how's it going, Champion-\n"
 	.string "bound {PLAYER}?\p"
 	.string "Lavaridge's Gym Leader Jared\n"
-	.string "uses Fire-type Pokémon.\p"
-	.string "Her passion for Pokémon burns stronger\n"
+	.string "uses strong Pokémon.\p"
+	.string "His passion for Pokémon burns stronger\n"
 	.string "and hotter than a volcano.\p"
-	.string "Don't get too close to her--you'll burn!\n"
-	.string "Hose her down with water and then\l"
-	.string "go for it!$"
+	.string "He really likes Pokémon!\n"
+	.string "It's his favorite game!\l"
+	.string "Trust me!$"
 
 LavaridgeTown_Gym_1F_Text_GymGuidePostVictory: @ 81FEAB8
 	.string "Yow! That was a scorching-hot battle!$"
@@ -447,31 +447,10 @@ LavaridgeTown_Gym_B1F_Text_EliPostBattle: @ 81FF09A
 	.string "Hehehehe.$"
 
 LavaridgeTown_Gym_1F_Text_JaredIntro: @ 81FF0DC
-	.string "Welcome… No, wait.\p"
-	.string "Puny Trainer, how good to see you've\n"
-	.string "made it here!\p"
-	.string "I have been entrusted with the…\n"
-	.string "No, wait.\p"
-	.string "I am Jared, and I'm the Gym\n"
-	.string "Leader here!\p"
-	.string "Uh…\n"
-	.string "Dare not underestimate me, though\l"
-	.string "I have been Leader only a short time!\p"
-	.string "With skills inherited from my grand-\n"
-	.string "father, I shall, uh…demonstrate the\l"
-	.string "hot moves we have honed on this land!$"
+	.string "I heard you want the smoke.$"
 
 LavaridgeTown_Gym_1F_Text_JaredDefeat: @ 81FF233
-	.string "Oh…\n"
-	.string "I guess I was trying too hard…\p"
-	.string "I… I've only recently become\n"
-	.string "a Gym Leader.\p"
-	.string "I tried too hard to be someone\n"
-	.string "I'm not.\p"
-	.string "I have to do things my natural way. If\n"
-	.string "I don't, my Pokémon will be confused.\p"
-	.string "Thanks for teaching me that.\n"
-	.string "For that, you deserve this.$"
+	.string "You got lucky$"
 
 LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge: @ 81FF32F
 	.string "{PLAYER} received the Heat Badge\n"
@@ -494,8 +473,8 @@ LavaridgeTown_Gym_1F_Text_RegisteredJared: @ 81FF517
 	.string "in the Pokénav.$"
 
 LavaridgeTown_Gym_1F_Text_JaredPostBattle: @ 81FF546
-	.string "Your power reminds me of someone…\p"
-	.string "Oh! I know! You battle like Rick,\n"
+	.string "You reminds me of someone…\p"
+	.string "Oh! I know! You sound like Rick,\n"
 	.string "the Gym Leader of Petalburg.$"
 
 LavaridgeTown_Gym_1F_Text_GymStatue: @ 81FF5A9
@@ -507,39 +486,20 @@ LavaridgeTown_Gym_1F_Text_GymStatueCertified: @ 81FF5C4
 	.string "{PLAYER}$"
 
 LavaridgeTown_Gym_1F_Text_JaredPreRematch: @ 81FF601
-	.string "Jared: Losing a battle isn't going\n"
-	.string "to deflate me.\p"
-	.string "I love Pokémon.\n"
-	.string "I love to battle.\l"
-	.string "And… I love this Gym!\p"
-	.string "Let's exchange superhot moves\n"
-	.string "in another battle!$"
+	.string "Jared: I heard you want the smoke$"
 
 LavaridgeTown_Gym_1F_Text_JaredRematchDefeat: @ 81FF69F
-	.string "Whew!\n"
-	.string "On the verge of eruption!$"
+	.string "You got lucky.\n"
+	.string "...$"
 
 LavaridgeTown_Gym_1F_Text_JaredPostRematch: @ 81FF6BF
-	.string "Jared: I lost the match,\n"
-	.string "but I'm completely satisfied.\p"
-	.string "It's not often I get to enjoy a battle\n"
-	.string "this heated.\p"
-	.string "Let's have another one like this\n"
-	.string "again sometime!$"
+	.string "Jared: See me in battleshots.$"
 
 LavaridgeTown_Gym_1F_Text_JaredRematchNeedTwoMons: @ 81FF75E
-	.string "Jared: Losing a battle isn't going\n"
-	.string "to deflate me.\p"
-	.string "I love Pokémon.\n"
-	.string "I love to battle.\l"
-	.string "And… I love this Gym!\p"
-	.string "Let's exchange superhot moves\n"
-	.string "in another battle!\p"
-	.string "Oh, wait. Do you only have one Pokémon\n"
-	.string "that can battle?\p"
-	.string "I hate to say this, but when you come\n"
-	.string "see me, bring at least two Pokémon.$"
-`
+	.string "Jared: I heard you want the smoke.\p"
+	.string "What is this, youre unprepared\n"
+	.string "bring at least two Pokémon.$"
+
 
 script LavaridgeTown_Gym_1F_EventScript_Jared_New{
 	lock
@@ -858,9 +818,9 @@ script LavaridgeTown_Gym_1F_EventScript_Jared_Give_Gifts{
 
 	//Give Megastone
 	if(var(VAR_NUM_BADGES) >= 7 && !flag(FLAG_GOT_GAHNOMEDITE)){
-		msgbox(format("Jared: Take this as an special gift from me, it's a Minimaloite."), MSGBOX_NPC)
-		giveitem(ITEM_GAHNOMEDITE)
-		msgbox(format("Make a Minimalo hold it to unleash its real potential."), MSGBOX_NPC)
+		msgbox(format("Jared: Take this as an special gift from me, it's a Goalemite."), MSGBOX_NPC)
+		giveitem(ITEM_GOALEMITE)
+		msgbox(format("Make a Goalem hold it to unleash its real potential."), MSGBOX_NPC)
 		setflag(FLAG_GOT_GAHNOMEDITE)
 		setflag(FLAG_TEMP_9) //To check if you have been given multiple items
 	}
