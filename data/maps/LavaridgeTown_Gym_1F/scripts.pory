@@ -499,7 +499,7 @@ LavaridgeTown_Gym_1F_Text_JaredRematchNeedTwoMons: @ 81FF75E
 	.string "Jared: I heard you want the smoke.\p"
 	.string "What is this, youre unprepared\n"
 	.string "bring at least two Pokémon.$"
-`
+
 
 script LavaridgeTown_Gym_1F_EventScript_Jared_New{
 	lock
