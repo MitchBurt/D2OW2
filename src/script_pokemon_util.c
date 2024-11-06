@@ -92,8 +92,8 @@ u8 ScriptGiveMon(u16 species, u8 level, u16 item, u32 ability, u32 unused2, u8 u
 	else
 		Specie = GetWildPokemon(FirstStage, level, GetMonData(&gPlayerParty[0], MON_DATA_HELD_ITEM));
 	
-	//if(Specie == SPECIES_NONE)
-		//Specie = SPECIES_DITTO;
+	if(Specie == SPECIES_NONE)
+		Specie = SPECIES_SKIPPA;
 
 	if(baseSpecies != SPECIES_THEVOID)
 		CreateMon(&mon, baseSpecies, scaledlevel, 32, 0, 0, OT_ID_PLAYER_ID, 0, formId);

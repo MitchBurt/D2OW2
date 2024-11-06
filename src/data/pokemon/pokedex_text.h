@@ -7417,10 +7417,7 @@ const u8 gMojisleyPokedexText[] = _(
     "Thats parsley in a cup man.");
 
 const u8 gGailordPokedexText[] = _(
-    "It does not keep a nest. While it\n"
-    "loves floral honey, it won't gather\n"
-    "any itself. Instead, it plots to steal\n"
-    "honey collected by Combee.");
+    "Gay Lord");
 
 const u8 gCombeePokedexText[] = _(
     "A Pokémon formed by three others.\n"
