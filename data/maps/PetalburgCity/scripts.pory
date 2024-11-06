@@ -758,7 +758,7 @@ PetalburgCity_Text_FullPartyExplanation: @ 81DCA30
 PetalburgCity_Text_GymSign: @ 81DCAAA
 	.string "Petalburg City Pokémon Gym\n"
 	.string "Leader: Rick\l"
-	.string "“A man in pursuit of power!”$"
+	.string "“A man of knowledge!”$"
 
 PetalburgCity_Text_CitySign: @ 81DCAF1
 	.string "Petalburg City\n"

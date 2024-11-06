@@ -2254,7 +2254,7 @@ Route116_Text_JerryRematchDefeat: @ 829BF4C
 
 Route116_Text_JerryPostRematch: @ 829BF68
 	.string "I'll have to redo some courses at\n"
-	.string "the Trainer's School.\l"
+	.string "the gamer's School.\l"
 	.string "If I don't, Mason will be steamed.$"
 
 Route116_Text_KarenIntro: @ 829BFC5
@@ -2265,8 +2265,8 @@ Route116_Text_KarenDefeat: @ 829BFFA
 	.string "I'm in shock--I lost?$"
 
 Route116_Text_KarenPostBattle: @ 829C010
-	.string "Awww, I'll never become an elegant\n"
-	.string "Trainer like Mason this way!$"
+	.string "Awww, I'll never become an elite\n"
+	.string "gamer like Mason this way!$"
 
 Route116_Text_KarenRegister1: @ 829C052
 	.string "Oh, wow! Isn't that a Pokénav?\n"

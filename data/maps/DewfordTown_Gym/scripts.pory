@@ -248,7 +248,7 @@ DewfordTown_Gym_EventScript_Start_Rematch_5::
 	goto_if_set FLAG_GOT_HERACRONITE DewfordTown_Gym_EventScript_Start_Rematch_6
 	trainerbattle_no_intro TRAINER_ZACH_4, DewfordTown_Gym_Text_ZachRematchDefeat
 	msgbox DewfordTown_Gym_Text_GetMegaStone, MSGBOX_DEFAULT
-	giveitem ITEM_HERACRONITE
+	giveitem ITEM_TOMITE
 	setflag FLAG_GOT_HERACRONITE
 	goto DewfordTown_Gym_EventScript_ZachRematchEnd
 	end
@@ -521,20 +521,12 @@ DewfordTown_Gym_Text_CristianPostBattle: @ 81FCF26
 	.string "Go after that Badge!$"
 
 DewfordTown_Gym_Text_ZachIntro: @ 81FCF44
-	.string "I'm Zach!\n"
-	.string "Dewford's Gym Leader!\p"
-	.string "I've been churned in the rough waves\n"
-	.string "of these parts, and I've grown tough\l"
-	.string "in the pitch-black cave!\p"
-	.string "So you wanted to challenge me?\n"
-	.string "Let me see what you're made of!$"
+	.string "Zach: Yoo! What's up bois?\n"
+	.string "You tryna get some hands?$"
 
 DewfordTown_Gym_Text_ZachDefeat: @ 81FD008
-	.string "Whoah, wow! You made a much bigger\n"
-	.string "splash than I expected!\p"
-	.string "You swamped me!\p"
-	.string "Okay, you've got me.\n"
-	.string "Take this Gym Badge!$"
+	.string "Didn't know this was the worse\n"
+	.string "ever made.$"
 
 DewfordTown_Gym_Text_ReceivedKnuckleBadge: @ 81FD07D
 	.string "{PLAYER} received the Knuckle Badge\n"
@@ -568,31 +560,20 @@ DewfordTown_Gym_Text_GymStatueCertified: @ 81FD28B
 	.string "{PLAYER}$"
 
 DewfordTown_Gym_Text_ZachPreRematch: @ 81FD2C4
-	.string "Zach: A wave may draw back, but it\n"
-	.string "always returns to the shore.\p"
-	.string "A giant wave of a talent like you…\n"
-	.string "I knew you would return!\p"
-	.string "Show me how much higher\n"
-	.string "you've gone!$"
+	.string "Zach: Yoo! What's up bois?\n"
+	.string "You tryna get some hands?$"
 
 DewfordTown_Gym_Text_ZachRematchDefeat: @ 81FD367
 	.string "Wow!\n"
 	.string "Swamped again!$"
 
 DewfordTown_Gym_Text_ZachPostRematch: @ 81FD37B
-	.string "Zach: Battling is vast and it's deep.\n"
-	.string "You can't see the bottom.\l"
-	.string "It's just like the sea of Hoenn!$"
+	.string "Didn't know this was the worse\n"
+	.string "ever made.$"
 
 DewfordTown_Gym_Text_ZachRematchNeedTwoMons: @ 81FD3DE
-	.string "Zach: A wave may draw back, but it\n"
-	.string "always returns to the shore.\p"
-	.string "A giant wave of a talent like you…\n"
-	.string "I knew you would return!\p"
-	.string "Oh? You only have one Pokémon\n"
-	.string "that can battle.\p"
-	.string "I'm sorry, but I'd like you to come back\n"
-	.string "with at least two Pokémon.$"
+	.string "Zach: Yoo! What's up bois?\n"
+	.string "You need two mons ya goof$"
 	
 DewfordTown_Gym_Text_GetTM:
 	.string "Zach: Please take this\n"
@@ -601,7 +582,7 @@ DewfordTown_Gym_Text_GetTM:
 DewfordTown_Gym_Text_GetMegaStone:
 	.string "Zach: Please take this\n"
 	.string "Mega Stone, with you.\p"
-	.string "Make a Happymaul hold it to\n"
+	.string "Make a WHAAAAA hold it to\n"
 	.string "unleash its Hidden Potential.$"
 	
 DewfordTown_Gym_Text_GetReward:
@@ -924,9 +905,9 @@ script DewfordTown_Gym_EventScript_Zach_Give_Gifts{
 
 	//Give Megastone
 	if(var(VAR_NUM_BADGES) >= 7 && !flag(FLAG_GOT_HERACRONITE)){
-		msgbox(format("Zach: Take this as an special gift from me, it's a Heracronite."), MSGBOX_NPC)
-		giveitem(ITEM_HERACRONITE)
-		msgbox(format("Make a Happymaul hold it to unleash its real potential."), MSGBOX_NPC)
+		msgbox(format("Zach: Yoo, take this stone, it's a Tomite."), MSGBOX_NPC)
+		giveitem(ITEM_TOMITE)
+		msgbox(format("Make a Tom hold it to unleash my real potential."), MSGBOX_NPC)
 		setflag(FLAG_GOT_HERACRONITE)
 		setflag(FLAG_TEMP_9) //To check if you have been given multiple items
 	}

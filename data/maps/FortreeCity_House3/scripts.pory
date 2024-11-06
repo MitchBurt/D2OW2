@@ -25,16 +25,12 @@ FortreeCity_House3_EventScript_AsktoTrade::
 	compare VAR_RESULT, PARTY_SIZE
 	goto_if_eq RustboroCity_DevonCorp_2F_EventScript_No_Space
 	removeitem ITEM_GREEN_SHARD, 2
-	random 8
+	random 3
 	switch VAR_RESULT
 	case 0, FortreeCity_House3_EventScript_Give_Meadosaur_Mega
-	case 1, FortreeCity_House3_EventScript_Give_Tom
-	case 2, FortreeCity_House3_EventScript_Give_Berryalen_Mega
-	case 3, FortreeCity_House3_EventScript_Give_Turtwig
-	case 4, FortreeCity_House3_EventScript_Give_Snivy
-	case 5, FortreeCity_House3_EventScript_Give_Chespin
-	case 6, FortreeCity_House3_EventScript_Give_Rowlet
-	case 7, FortreeCity_House3_EventScript_Give_Grookey
+	case 1, FortreeCity_House3_EventScript_Give_Berryalen_Mega
+	case 2, FortreeCity_House3_EventScript_Give_Turtwig
+
 	end
 	
 FortreeCity_House3_EventScript_GrassStarter_Come_Again::
@@ -131,10 +127,10 @@ FortreeCity_House3_EventScript_Give_Berryalen_Mega::
 	
 //Embob
 FortreeCity_House3_EventScript_Give_Turtwig::
-	bufferspeciesname 1, SPECIES_TURTWIG
+	bufferspeciesname 1, SPECIES_SOBBLEAF
 	playfanfare MUS_OBTAIN_ITEM
 	message FortreeCity_House3_Text_ReceivedMonFromOldMan
-	givemon SPECIES_TURTWIG, 10, ITEM_NONE
+	givemon SPECIES_SOBBLEAF, 10, ITEM_NONE
 	waitfanfare
 	msgbox FortreeCity_House3_Text_ComeAgain_Starter, MSGBOX_DEFAULT
 	release

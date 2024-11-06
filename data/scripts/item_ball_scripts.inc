@@ -663,7 +663,7 @@ ScorchedSlab_EventScript_ItemFrosiliskite::
 	end
 	
 MegaStone_EventScript_ItemParangelite::
-	addscaleditem ITEM_PARANGELITE
+	addscaleditem ITEM_JANKITE
 	end
 	
 MegaStone_EventScript_ItemTomite::
@@ -691,7 +691,7 @@ MegaStone_EventScript_ItemUNSCnite::
 	end
 	
 MegaStone_EventScript_ItemGlailite::
-	addscaleditem ITEM_JANKITE
+	addscaleditem ITEM_SNEDDITE
 	end
 	
 MegaStone_EventScript_ItemSalamancite::

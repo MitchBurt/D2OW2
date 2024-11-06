@@ -912,25 +912,25 @@ MatchCall_PersonalizedText24:: @ 82AD34F
 MatchCall_PersonalizedText25:: @ 82AD44E
 	.string "Snivel… It's… {STR_VAR_1}…\n"
 	.string "…Sob…\p"
-	.string "Mason chewed me out in class\n"
+	.string "Mason helped me out in class\n"
 	.string "today.\p"
-	.string "But I don't dislike her or anything.\p"
+	.string "But we weren't cheating.\p"
 	.string "Mason tells me exactly what\n"
-	.string "I did wrong so I can learn from it.\p"
+	.string "I did wrong and the right answers.\p"
 	.string "You bet I'll be going to\n"
 	.string "the Trainer's School tomorrow!\p"
 	.string "See you later!$"
 
 MatchCall_PersonalizedText26:: @ 82AD53A
 	.string "It's {STR_VAR_1}!\p"
-	.string "Mason let me battle with her\n"
+	.string "Mason let me battle with him\n"
 	.string "yesterday.\p"
 	.string "The results…\n"
 	.string "Terrible, like you needed to ask.\p"
 	.string "But I was delighted that Mason\n"
-	.string "would even let me challenge her!\p"
+	.string "would even let me challenge him!\p"
 	.string "You wouldn't believe how much\n"
-	.string "more I admire her!\p"
+	.string "more I admire him!\p"
 	.string "I'm going to really focus and work!\n"
 	.string "I'd better go!$"
 
@@ -2050,27 +2050,27 @@ MatchCall_Text_Mom3:: @ 82B23F3
 
 MatchCall_Text_Mason1:: @ 82B2456
 	.string "Mason: Oh, hello, {PLAYER}!\p"
-	.string "I've been hard at work retraining\n"
-	.string "since we met.\p"
+	.string "I've been hard at work making\n"
+	.string "rockets.\p"
 	.string "I will still need some more time\n"
 	.string "before I can reopen the Gym.\p"
-	.string "But when I do, please visit my Gym\n"
-	.string "for a rematch!$"
+	.string "But when I do, visit my Gym\n"
+	.string "for a rematch.$"
 
 MatchCall_Text_Mason2:: @ 82B250E
-	.string "Mason: Is this {PLAYER}?\n"
-	.string "Congratulations!\l"
-	.string "I've been hearing about you!\p"
-	.string "As for me, I need some more time\n"
+	.string "Mason: Oh, hello, {PLAYER}!\p"
+	.string "I've been hard at work making\n"
+	.string "rockets.\p"
+	.string "I will still need some more time\n"
 	.string "before I can reopen the Gym.\p"
-	.string "But when I do, please visit my Gym\n"
-	.string "for a rematch!$"
+	.string "But when I do, visit my Gym\n"
+	.string "for a rematch.$"
 
 MatchCall_Text_Mason3:: @ 82B25C1
 	.string "Mason: {PLAYER}!\n"
 	.string "My Gym is ready!\p"
 	.string "Please visit Rustboro whenever\n"
-	.string "you can!$"
+	.string "you can.$"
 
 MatchCall_Text_Mason4:: @ 82B2607
 	.string "Mason: {PLAYER}, en el Gimnasio\n"
@@ -3871,28 +3871,28 @@ MatchCall_PersonalizedText24:: @ 82AD34F
 MatchCall_PersonalizedText25:: @ 82AD44E
 	.string "Snivel… It's… {STR_VAR_1}…\n"
 	.string "…Sob…\p"
-	.string "Mason chewed me out in class\n"
+	.string "Mason helped me out in class\n"
 	.string "today.\p"
-	.string "But I don't dislike her or anything.\p"
+	.string "But we weren't cheating.\p"
 	.string "Mason tells me exactly what\n"
-	.string "I did wrong so I can learn from it.\p"
+	.string "I did wrong and the right answers.\p"
 	.string "You bet I'll be going to\n"
 	.string "the Trainer's School tomorrow!\p"
 	.string "See you later!$"
 
 MatchCall_PersonalizedText26:: @ 82AD53A
 	.string "It's {STR_VAR_1}!\p"
-	.string "Mason let me battle with her\n"
+	.string "Mason let me battle with him\n"
 	.string "yesterday.\p"
 	.string "The results…\n"
 	.string "Terrible, like you needed to ask.\p"
 	.string "But I was delighted that Mason\n"
-	.string "would even let me challenge her!\p"
+	.string "would even let me challenge him!\p"
 	.string "You wouldn't believe how much\n"
-	.string "more I admire her!\p"
+	.string "more I admire him!\p"
 	.string "I'm going to really focus and work!\n"
 	.string "I'd better go!$"
-
+	
 MatchCall_PersonalizedText27:: @ 82AD642
 	.string "Hi, it's Anna! I'm with my junior\n"
 	.string "partner Meg again today.\p"
@@ -5007,32 +5007,32 @@ MatchCall_Text_Mom3:: @ 82B23F3
 
 MatchCall_Text_Mason1:: @ 82B2456
 	.string "Mason: Oh, hello, {PLAYER}!\p"
-	.string "I've been hard at work retraining\n"
-	.string "since we met.\p"
+	.string "I've been hard at work making\n"
+	.string "rockets.\p"
 	.string "I will still need some more time\n"
 	.string "before I can reopen the Gym.\p"
-	.string "But when I do, please visit my Gym\n"
-	.string "for a rematch!$"
+	.string "But when I do, visit my Gym\n"
+	.string "for a rematch.$"
 
 MatchCall_Text_Mason2:: @ 82B250E
-	.string "Mason: Is this {PLAYER}?\n"
-	.string "Congratulations!\l"
-	.string "I've been hearing about you!\p"
-	.string "As for me, I need some more time\n"
+	.string "Mason: Oh, hello, {PLAYER}!\p"
+	.string "I've been hard at work making\n"
+	.string "rockets.\p"
+	.string "I will still need some more time\n"
 	.string "before I can reopen the Gym.\p"
-	.string "But when I do, please visit my Gym\n"
-	.string "for a rematch!$"
+	.string "But when I do, visit my Gym\n"
+	.string "for a rematch.$"
 
 MatchCall_Text_Mason3:: @ 82B25C1
 	.string "Mason: {PLAYER}!\n"
 	.string "My Gym is ready!\p"
 	.string "Please visit Rustboro whenever\n"
-	.string "you can!$"
+	.string "you can.$"
 
 MatchCall_Text_Mason4:: @ 82B2607
 	.string "Mason: At the Rustboro Gym,\n"
-	.string "the fact that we battled, {PLAYER},\l"
-	.string "is a matter of pride.$"
+	.string "we battled, {PLAYER},\l"
+	.string ".$"
 
 MatchCall_Text_Zach1:: @ 82B2659
 	.string "Zach: Hey, there, {PLAYER}{KUN}!\p"

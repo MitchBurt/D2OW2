@@ -116,7 +116,7 @@ RustboroCity_Gym_EventScript_Start_Rematch_5::
 	goto_if_set FLAG_GOT_VOIDITE RustboroCity_Gym_EventScript_Start_Rematch_6
 	trainerbattle_no_intro TRAINER_MASON_4, RustboroCity_Gym_Text_MasonRematchDefeat
 	msgbox RustboroCity_Gym_Text_GetMegaStone, MSGBOX_DEFAULT
-	giveitem ITEM_VOIDITE
+	giveitem ITEM_PARANGELITE
 	setflag FLAG_GOT_VOIDITE
 	goto RustboroCity_Gym_EventScript_MasonRematchEnd
 	end
@@ -294,12 +294,12 @@ RustboroCity_Gym_Text_GymGuideAdvice: @ 821309D
 	.string "And that's where I come in!\n"
 	.string "I'm here to provide expert advice!\p"
 	.string "Mason, the Gym Leader, is a user\n"
-	.string "of Rock-type Pokémon.\p"
-	.string "The Rock type is very durable, but\n"
-	.string "it can't stand Water-type and\l"
-	.string "Grass-type moves.\p"
-	.string "Come see me afterwards, if you beat\n"
-	.string "the Gym Leader.\p"
+	.string "of Pokémon.\p"
+	.string "I know right. Pokémon.\n"
+	.string "Just try to get his ass.\l"
+	.string "You can beat him.\p"
+	.string "Probably anyway,\n"
+	.string "who knows.\p"
 	.string "Well, go for it!$"
 
 RustboroCity_Gym_Text_GymGuidePostVictory: @ 82132E2
@@ -353,25 +353,12 @@ RustboroCity_Gym_Text_MarcPostBattle: @ 82135C0
 	.string "pick the Rock type at her young age.$"
 
 RustboroCity_Gym_Text_MasonIntro: @ 821362A
-	.string "Hello, I am Mason, the Rustboro\n"
-	.string "Pokémon Gym Leader.\p"
-	.string "I became a Gym Leader so that I might\n"
-	.string "apply what I learned at the Pokémon\l"
-	.string "Trainer's School in battle.\p"
-	.string "Would you kindly demonstrate how you\n"
-	.string "battle, and with which Pokémon?$"
+ 	.string "Helloo.$"
 
 RustboroCity_Gym_Text_MasonDefeat: @ 821370B
-	.string "So…\n"
+	.string "Hmm.\n"
 	.string "I lost…\p"
-	.string "It seems that I still have much more\n"
-	.string "to learn…\p"
-	.string "I understand.\p"
-	.string "The Pokémon League's rules state\n"
-	.string "that Trainers are to be given this\l"
-	.string "if they defeat a Gym Leader.\p"
-	.string "Please accept the official Pokémon\n"
-	.string "League Stone Badge.$"
+	.string "I see.$"
 
 RustboroCity_Gym_Text_ReceivedStoneBadge: @ 82137EC
 	.string "{PLAYER} received the Stone Badge\n"
@@ -391,10 +378,7 @@ RustboroCity_Gym_Text_ExplainRockTomb: @ 82138B1
 	.string "it without thinking it twice.$"
 
 RustboroCity_Gym_Text_MasonPostBattle: @ 82139A7
-	.string "Since you are so strong, you should\n"
-	.string "challenge other Gym Leaders.\p"
-	.string "By battling many Trainers, you should\n"
-	.string "learn many things.$"
+	.string "Go fight the other gyms.$"
 
 RustboroCity_Gym_Text_GymStatue: @ 8213A21
 	.string "Rustboro City Pokémon Gym$"
@@ -426,34 +410,18 @@ RustboroCity_Gym_Text_RegisteredMason: @ 8213C01
 	.string "in the Pokénav.$"
 
 RustboroCity_Gym_Text_MasonPreRematch: @ 8213C2F
-	.string "Mason: I'm so glad to see you again.\n"
-	.string "I'm Mason, the Gym Leader here.\p"
-	.string "I'm sure we've both experienced many\n"
-	.string "battles since we last met.\p"
-	.string "I would like to see how much better\n"
-	.string "we've become. Let us battle!$"
+	.string "Mason: Hey dude.$"
 
 RustboroCity_Gym_Text_MasonRematchDefeat: @ 8213CF9
 	.string "Grr…\n"
 	.string "Again, I have lost…$"
 
 RustboroCity_Gym_Text_MasonPostRematch: @ 8213D12
-	.string "Mason: I still have much to learn\n"
-	.string "when it comes to battling Pokémon.\p"
-	.string "That awareness makes me love battling\n"
-	.string "all that much more!$"
+	.string "Mason: Shit eh, you got me.$"
 
 RustboroCity_Gym_Text_MasonRematchNeedTwoMons: @ 8213D93
-	.string "Mason: I'm so glad to see you again.\n"
-	.string "I'm Mason, the Gym Leader here.\p"
-	.string "I'm sure we've both experienced many\n"
-	.string "battles since we last met.\p"
-	.string "I would like to see how much better\n"
-	.string "we've become…\p"
-	.string "Oh, no…\n"
-	.string "You only have one Pokémon with you?\p"
-	.string "Please return with at least one more\n"
-	.string "Pokémon.$"
+	.string "Mason: Hey dude.\n"
+	.string "Go get two mons.$"
 
 RustboroCity_Gym_Text_GetTM:
 	.string "Mason: Please take this\n"
@@ -875,8 +843,8 @@ script RustboroCity_Gym_EventScript_Mason_Give_Gifts{
 
 	//Give Megastone
 	if(var(VAR_NUM_BADGES) >= 7 && !flag(FLAG_GOT_VOIDITE)){
-		msgbox(format("Mason: Take this as an special gift from me, it's an Voidite."), MSGBOX_NPC)
-		giveitem(ITEM_VOIDITE)
+		msgbox(format("Mason: Take this as an special gift from me, it's an Parangelite."), MSGBOX_NPC)
+		giveitem(ITEM_PARANGELITE)
 		msgbox(format("Make an Murphire hold it to unleash its real potential."), MSGBOX_NPC)
 		setflag(FLAG_GOT_VOIDITE)
 		setflag(FLAG_TEMP_9) //To check if you have been given multiple items

@@ -2341,7 +2341,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
 					
 					
 				}
-				else if (partyData[i].lvl == 6)//Used for gym tate & liza
+				else if (partyData[i].lvl == 6)//Used for gym tony & sal
 				{
 					if(i == LeaderMonsCount-1){
 						newspecies = GetTrainerPokemon(partyData[5].species, TrainerLevel[i]);	

@@ -226,16 +226,11 @@ LavaridgeTown_EventScript_EventScript_AsktoTrade::
 	compare VAR_RESULT, PARTY_SIZE
 	goto_if_eq RustboroCity_DevonCorp_2F_EventScript_No_Space
 	removeitem ITEM_RED_SHARD, 2
-	random 8
+	random 3
 	switch VAR_RESULT
 	case 0, LavaridgeTown_EventScript_Give_Skorchi_Mega_Y
-	case 1, LavaridgeTown_EventScript_Give_Megatron
-	case 2, LavaridgeTown_EventScript_Give_Cooklet_Mega
-	case 3, LavaridgeTown_EventScript_Give_Embob
-	case 4, LavaridgeTown_EventScript_Give_Tepig
-	case 5, LavaridgeTown_EventScript_Give_Fennekin
-	case 6, LavaridgeTown_EventScript_Give_Litten
-	case 7, LavaridgeTown_EventScript_Give_Scorbunny
+	case 1, LavaridgeTown_EventScript_Give_Cooklet_Mega
+	case 2, LavaridgeTown_EventScript_Give_Embob
 	end
 	
 LavaridgeTown_EventScript_FireStarter_Come_Again::
@@ -588,7 +583,7 @@ LavaridgeTown_Text_TownSign: @ 81EB12B
 LavaridgeTown_Text_GymSign: @ 81EB178
 	.string "Lavaridge Town Pokémon Gym\n"
 	.string "Leader: Jared\l"
-	.string "“One with a fiery passion that burns!”$"
+	.string "“The fiery hunk.”$"
 
 LavaridgeTown_Text_HerbShopSign: @ 81EB1CB
 	.string "Pokémon Herb Shop\n"

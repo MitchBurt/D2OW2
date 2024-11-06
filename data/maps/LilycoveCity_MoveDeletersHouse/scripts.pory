@@ -42,16 +42,11 @@ LilycoveCity_MoveDeletersHouse_EventScript_AsktoTrade::
 	removeitem ITEM_BLUE_SHARD, 2
 	//removeitem ITEM_POTION, 1
 	setflag FLAG_UNUSED_0x938
-	random 8
+	random 3
 	switch VAR_RESULT
 	case 0, LilycoveCity_MoveDeletersHouse_EventScript_Give_Jissm_Mega
-	case 1, LilycoveCity_MoveDeletersHouse_EventScript_Give_Korbie
-	case 2, LilycoveCity_MoveDeletersHouse_EventScript_Give_Baitord_Mega
-	case 3, LilycoveCity_MoveDeletersHouse_EventScript_Give_Oroflow
-	case 4, LilycoveCity_MoveDeletersHouse_EventScript_Give_Oshawott
-	case 5, LilycoveCity_MoveDeletersHouse_EventScript_Give_Froakie
-	case 6, LilycoveCity_MoveDeletersHouse_EventScript_Give_Popplio
-	case 7, LilycoveCity_MoveDeletersHouse_EventScript_Give_Sobble
+	case 1, LilycoveCity_MoveDeletersHouse_EventScript_Give_Baitord_Mega
+	case 2, LilycoveCity_MoveDeletersHouse_EventScript_Give_Oroflow
 	end
 	
 LilycoveCity_MoveDeletersHouse_EventScript_WaterStarter_Come_Again::

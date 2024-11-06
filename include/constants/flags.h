@@ -1582,7 +1582,7 @@
 #define FLAG_JARED_REMATCH                       (DAILY_FLAGS_START + 0x5)  // Jared
 #define FLAG_RICK_REMATCH                         (DAILY_FLAGS_START + 0x6)  // Rick
 #define FLAG_TANNER_REMATCH                         (DAILY_FLAGS_START + 0x7)  // Tanner
-#define FLAG_TONY_AND_SAL_REMATCH                  (DAILY_FLAGS_START + 0x8)  // Tate & Liza
+#define FLAG_TONY_AND_SAL_REMATCH                  (DAILY_FLAGS_START + 0x8)  // Tony & Sal
 #define FLAG_MITCHELL_REMATCH                           (DAILY_FLAGS_START + 0x9)  // Mitchell
 #define FLAG_DAILY_PICKED_LOTO_TICKET               (DAILY_FLAGS_START + 0xA)
 #define FLAG_DAILY_ROUTE_114_RECEIVED_BERRY         (DAILY_FLAGS_START + 0xB)

@@ -118,7 +118,7 @@ FortreeCity_Gym_EventScript_Start_Rematch_5::
 	goto_if_set FLAG_GOT_UNSCNITE FortreeCity_Gym_EventScript_Start_Rematch_6
 	trainerbattle_no_intro TRAINER_TANNER_4, FortreeCity_Gym_Text_TannerRematchDefeat
 	msgbox FortreeCity_Gym_Text_GetMegaStone, MSGBOX_DEFAULT
-	giveitem ITEM_UNSCNITE
+	giveitem ITEM_GOTHOTITE
 	setflag FLAG_GOT_UNSCNITE
 	goto FortreeCity_Gym_EventScript_TannerRematchEnd
 	end
@@ -191,7 +191,7 @@ FortreeCity_Gym_Text_GetTM:
 FortreeCity_Gym_Text_GetMegaStone:
 	.string "Tanner: Please take this\n"
 	.string "Mega Stone, with you.\p"
-	.string "Make an Murphire hold it to\n"
+	.string "Make a Gothot hold it to\n"
 	.string "unleash its Hidden Potential.$"
 	
 FortreeCity_Gym_Text_GetReward:
@@ -378,20 +378,13 @@ FortreeCity_Gym_Text_DariusPostBattle: @ 8216D0F
 	.string "Tanner's Pokémon are all business.$"
 
 FortreeCity_Gym_Text_TannerIntro: @ 8216D75
-	.string "I am Tanner. I am the Leader of\n"
-	.string "the Fortree Pokémon Gym.\p"
-	.string "I have become one with Bird Pokémon\n"
-	.string "and have soared the skies…\p"
-	.string "However grueling the battle, we have\n"
-	.string "triumphed with grace…\p"
-	.string "Witness the elegant choreography\n"
-	.string "of Bird Pokémon and I!$"
+	.string "Tanner: We humans can never escape\n"
+	.string "time's ceaseless march.\p"
+	.string "Nothing we can do,\n"
+	.string "let's battle.$"
 
 FortreeCity_Gym_Text_TannerDefeat: @ 8216E60
-	.string "Never before have I seen a Trainer\n"
-	.string "command Pokémon with more grace\l"
-	.string "than I…\p"
-	.string "In recognition of your prowess,\n"
+	.string "Man.\p"
 	.string "I present to you this Gym Badge.$"
 
 FortreeCity_Gym_Text_ReceivedFeatherBadge: @ 8216EEC
@@ -426,35 +419,21 @@ FortreeCity_Gym_Text_GymStatueCertified: @ 82170C7
 
 FortreeCity_Gym_Text_TannerPreRematch: @ 8217100
 	.string "Tanner: We humans can never escape\n"
-	.string "gravity's pull on the ground.\p"
-	.string "But by striving for excellence,\n"
-	.string "we have the power to soar!\p"
-	.string "Please, allow me to see your power\n"
-	.string "at full flight!$"
+	.string "time's ceaseless march.\p"
+	.string "Nothing we can do,\n"
+	.string "let's battle.$"
 
 FortreeCity_Gym_Text_TannerRematchDefeat: @ 82171E6
 	.string "I failed to reach your height again…$"
 
 FortreeCity_Gym_Text_TannerPostRematch: @ 821720B
-	.string "Tanner: Even though I have lost,\n"
-	.string "the wings of my heart remain unbroken.\p"
-	.string "I can rise and soar again and\n"
-	.string "yet again.\p"
-	.string "I am convinced of it!$"
+	.string "Tanner: Man.$"
 
 FortreeCity_Gym_Text_TannerRematchNeedTwoMons: @ 8217292
 	.string "Tanner: We humans can never escape\n"
-	.string "gravity's pull on the ground.\p"
-	.string "But by striving for excellence,\n"
-	.string "we have the power to soar!\p"
-	.string "You have scaled the pinnacle as\n"
-	.string "the reigning Champion.\p"
-	.string "Please, allow me to see your power\n"
-	.string "at full flight!\p"
-	.string "Oh, no… Do you have but one\n"
-	.string "Pokémon with you?\p"
-	.string "Please return with two Pokémon\n"
-	.string "at the very least.$"
+	.string "time's ceaseless march.\p"
+	.string "Nothing we can do,\n"
+	.string "you only have one mon.$"
 `
 
 
@@ -773,9 +752,9 @@ script FortreeCity_Gym_EventScript_Tanner_Give_Gifts{
 
 	//Give Megastone
 	if(var(VAR_NUM_BADGES) >= 7 && !flag(FLAG_GOT_UNSCNITE)){
-		msgbox(format("Tanner: Take this as an special gift from me, it's a UNSC."), MSGBOX_NPC)
-		giveitem(ITEM_UNSCNITE)
-		msgbox(format("Make a UNSC hold it to unleash its real potential."), MSGBOX_NPC)
+		msgbox(format("Tanner: Take this as an special gift from me, it's a Gothotite."), MSGBOX_NPC)
+		giveitem(ITEM_GOTHOTITE)
+		msgbox(format("Make a Gothot hold it to unleash its real potential."), MSGBOX_NPC)
 		setflag(FLAG_GOT_UNSCNITE)
 		setflag(FLAG_TEMP_9) //To check if you have been given multiple items
 	}

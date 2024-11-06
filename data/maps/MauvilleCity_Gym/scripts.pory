@@ -181,7 +181,7 @@ MauvilleCity_Gym_EventScript_Start_Rematch_5::
 	goto_if_set FLAG_GOT_MANECTITE MauvilleCity_Gym_EventScript_Start_Rematch_6
 	trainerbattle_no_intro TRAINER_TREVOR_4, MauvilleCity_Gym_Text_TrevorRematchDefeat
 	msgbox MauvilleCity_Gym_Text_GetMegaStone, MSGBOX_DEFAULT
-	giveitem ITEM_MANECTITE
+	giveitem ITEM_BUGITE
 	setflag FLAG_GOT_MANECTITE
 	goto MauvilleCity_Gym_EventScript_TrevorRematchEnd
 	end
@@ -254,7 +254,7 @@ MauvilleCity_Gym_Text_GetTM:
 MauvilleCity_Gym_Text_GetMegaStone:
 	.string "Trevor: Please take this\n"
 	.string "Mega Stone, with you.\p"
-	.string "Make an Murphire hold it to\n"
+	.string "Make an Bug hold it to\n"
 	.string "unleash its Hidden Potential.$"
 	
 MauvilleCity_Gym_Text_GetReward:
@@ -475,23 +475,10 @@ MauvilleCity_Gym_Text_AngeloPostBattle: @ 820E5C2
 	.string "forehead. It makes me happy!$"
 
 MauvilleCity_Gym_Text_TrevorIntro: @ 820E602
-	.string "I've given up on my plans to convert\n"
-	.string "the city, I have.\p"
-	.string "And so, I put my time into making\n"
-	.string "door traps in my Gym.\p"
-	.string "Oh? Now, what are you doing here?\p"
-	.string "What's that? You say you've gotten\n"
-	.string "past all my rigged doors?\p"
-	.string "Wahahahah!\n"
-	.string "Now, that is amusing!\p"
-	.string "Then, I, Trevor, the Leader of\n"
-	.string "Mauville Gym, shall electrify you!$"
+	.string "Trevor: I could battle for a bit.$"
 
 MauvilleCity_Gym_Text_TrevorDefeat: @ 820E734
-	.string "Wahahahah!\n"
-	.string "Fine, I lost!\p"
-	.string "You ended up giving me a thrill!\n"
-	.string "Take this Badge!$"
+	.string "GGs.$"
 
 MauvilleCity_Gym_Text_ReceivedDynamoBadge: @ 820E77F
 	.string "{PLAYER} received the Dynamo Badge\n"
@@ -528,34 +515,18 @@ MauvilleCity_Gym_Text_GymStatueCertified: @ 820E96C
 	.string "{PLAYER}$"
 
 MauvilleCity_Gym_Text_TrevorPreRematch: @ 820E9A7
-	.string "Trevor: Ah-ha! Here at last!\n"
-	.string "I know what you want.\l"
-	.string "You want to battle my Pokémon!\p"
-	.string "Wahahahaha!\p"
-	.string "I'll make sparks fly from you!\n"
-	.string "Don't say I didn't warn you!$"
+	.string "Trevor: I could battle for a bit.$"
 
 MauvilleCity_Gym_Text_TrevorRematchDefeat: @ 820EA42
 	.string "Oof…\n"
 	.string "Our batteries ran dry…$"
 
 MauvilleCity_Gym_Text_TrevorPostRematch: @ 820EA5E
-	.string "Trevor: We'll have to recharge our\n"
-	.string "batteries again.\p"
-	.string "When we're fully charged up, we'll\n"
-	.string "gladly accept your challenge.\p"
-	.string "So, come back again sometime,\n"
-	.string "won't you?$"
+	.string "Trevor: GGs$"
 
 MauvilleCity_Gym_Text_TrevorRematchNeedTwoMons: @ 820EAFD
-	.string "Trevor: Ah-ha! Here at last!\n"
-	.string "I know what you want.\l"
-	.string "You want to battle my Pokémon!\p"
-	.string "Wahahahaha!\p"
-	.string "Oops! Wait!\n"
-	.string "You've only one Pokémon with you!\p"
-	.string "Come see me with two or more\n"
-	.string "Pokémon, all right?$"
+	.string "Trevor: I could battle for a bit,\n"
+	.string "but you need two mons.$"
 
 MauvilleCity_Gym_Text_ReceivedMegaStone:
 	.string "Take this Mega Stone with\n"
@@ -876,9 +847,9 @@ script MauvilleCity_Gym_EventScript_Trevor_Give_Gifts{
 
 	//Give Megastone
 	if(var(VAR_NUM_BADGES) >= 6 && !flag(FLAG_GOT_MANECTITE)){
-		msgbox(format("Trevor: Take this as an special gift from me, it's a Manectite."), MSGBOX_NPC)
-		giveitem(ITEM_MANECTITE)
-		msgbox(format("Make a Auxilisk hold it to unleash its real potential."), MSGBOX_NPC)
+		msgbox(format("Trevor: Take this as an special gift from me, it's a Bugite."), MSGBOX_NPC)
+		giveitem(ITEM_BUGITE)
+		msgbox(format("Make a Bug hold it to unleash its real potential."), MSGBOX_NPC)
 		setflag(FLAG_GOT_MANECTITE)
 		setflag(FLAG_TEMP_9) //To check if you have been given multiple items
 	}
@@ -945,7 +916,7 @@ script MauvilleCity_Gym_EventScript_Gym_Cordra{
 				msgbox(format("The Pokémon is chewing on a little toy."), MSGBOX_SIGN)
 				waitmessage
 			}
-		case SPECIES_AUXILISK:
+		case SPECIES_BUG:
 			if (flag(FLAG_BADGE03_GET) && !flag(FLAG_TREVOR_REMATCH)){
 				//Ready for a rematch
 				msgbox(format("Auxilisk: tric!"), MSGBOX_NPC)

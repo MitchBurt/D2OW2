@@ -183,7 +183,7 @@ SootopolisCity_Gym_1F_EventScript_Start_Rematch_5::
 	goto_if_set FLAG_GOT_SNEDDITE SootopolisCity_Gym_1F_EventScript_Start_Rematch_6
 	trainerbattle_no_intro TRAINER_MITCHELL_4, SootopolisCity_Gym_1F_Text_MitchellRematchDefeat
 	msgbox SootopolisCity_Gym_Text_GetMegaStone, MSGBOX_DEFAULT
-	giveitem ITEM_SNEDDITE
+	giveitem ITEM_SKORPYROSITE_X
 	setflag FLAG_GOT_SNEDDITE
 	goto SootopolisCity_Gym_1F_EventScript_MitchellRematchEnd
 	end
@@ -337,29 +337,16 @@ SootopolisCity_Gym_1F_Text_GymGuidePostVictory: @ 82251AF
 	.string "was supposedly the best in all Hoenn!$"
 
 SootopolisCity_Gym_1F_Text_MitchellIntro: @ 8225268
-	.string "Welcome Challenger my name is Mitchell,\n"
-	.string "The Gym leader of Sootopolis.\p"
-	.string "Once, I had given up my position as\n"
-	.string "the Gym Leader to my apprentice,\l"
-	.string "However, a compelling reason arose\l"
-	.string "for me to make a comeback.\p"
-	.string "Ah, but enough chatter. Let us,\n"
-	.string "begin our match, shall we?\p"
-	.string "Please, you shall bear witness to our\n"
-	.string "artistry.\l"
-	.string "A grand illusion of water sculpted\l"
-	.string "by Pokémon and myself!$"
+	.string "Welcome Challenger,\n"
+	.string "you think you can win?$"
 
 @ NOTE: This defeat text actually causes a buffer overflow. It's about 50 bytes too long for
 @ the gDisplayedStringBattle buffer that it's put into, and it stomps all over the gBattleTextBuffs
 @ after, as well as the otherwise unused array after that. One wonders if that's the reason for
 @ the existence of that unused array of ints.
 SootopolisCity_Gym_1F_Text_MitchellDefeat: @ 8225432
-	.string "I see! Your elegance radiates\n"
-	.string "glitz and glamor.\p"
-	.string "It's only natural that you won.\n"
-	.string "I shall reward you with this,\n"
-	.string "the Rain Badge, Please accept it!$"
+	.string "I see! You cheated!\n"
+	.string "I went easy on you.$"
 
 SootopolisCity_Gym_1F_Text_ReceivedRainBadge: @ 8225598
 	.string "{PLAYER} received the Rain Badge\n"
@@ -406,39 +393,19 @@ SootopolisCity_Gym_1F_Text_GymStatueCertified: @ 8225916
 	.string "{PLAYER}$"
 
 SootopolisCity_Gym_1F_Text_MitchellPreRematch: @ 8225950
-	.string "Mitchell: Ah, this Gym had returned to its\n"
-	.string "usual state of serenity…\p"
-	.string "But our young typhoon has returned\n"
-	.string "to put us to the test again!\p"
-	.string "Well, my friend, most certainly!\p"
-	.string "I shall be delighted to dance with you\n"
-	.string "as often as you wish!$"
+	.string "Welcome Challenger,\n"
+	.string "you think you can win?$"
 
 SootopolisCity_Gym_1F_Text_MitchellRematchDefeat: @ 8225A2E
-	.string "Ahahaha, you are the winner!\n"
-	.string "You have defeated me again!$"
+	.string "I see! You cheated!\n"
+	.string "I went easy on you.$"
 
 SootopolisCity_Gym_1F_Text_MitchellPostRematch: @ 8225A67
-	.string "Mitchell: If I told you to become my\n"
-	.string "apprentice, you will refuse, I am sure.\p"
-	.string "I would like to make a gift of my coat\n"
-	.string "to you.\p"
-	.string "But again, you will refuse.\n"
-	.string "I imagine that to be so.\p"
-	.string "And that, my friend, is a certain sign\n"
-	.string "of nobility!$"
+	.string "Mitchell: Just know I let you win,\n"
+	.string "had to make the game fair.$"
 
 SootopolisCity_Gym_1F_Text_MitchellRematchNeedTwoMons: @ 8225B48
-	.string "Mitchell: Ah, this Gym had returned to its\n"
-	.string "usual state of serenity…\p"
-	.string "But our young typhoon has returned\n"
-	.string "to put us to the test again!\p"
-	.string "Well, my friend, most certainly!\n"
-	.string "I shall be delighted to dance with you…\p"
-	.string "Ah, no, no, no.\n"
-	.string "You have with you but one Pokémon.\p"
-	.string "I wish that you would return with\n"
-	.string "two, perhaps more, Pokémon, please.$"
+	.string "Mitchell: Get two mons dumbass$"
 
 `
 
@@ -764,7 +731,7 @@ script SootopolisCity_Gym_1F_EventScript_Mitchell_Give_Gifts{
 	//Give Megastone
 	if(var(VAR_NUM_BADGES) >= 7 && !flag(FLAG_GOT_SNEDDITE)){
 		msgbox(format("Mitchell: Take this as an special gift from me, it's an Kroller."), MSGBOX_NPC)
-		giveitem(ITEM_SNEDDITE)
+		giveitem(ITEM_SKORPYROSITE_X)
 		msgbox(format("Make an Kroller hold it to unleash its real potential."), MSGBOX_NPC)
 		setflag(FLAG_GOT_SNEDDITE)
 		setflag(FLAG_TEMP_9) //To check if you have been given multiple items

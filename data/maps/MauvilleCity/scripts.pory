@@ -590,35 +590,13 @@ MauvilleCity_Text_ScottYouDidntHoldBack: @ 81DFED5
 	.string "I'll be cheering for you!$"
 
 MauvilleCity_Text_TrevorNeedFavorTakeKey: @ 81DFFE4
-	.string "Trevor: Oh, {PLAYER}{KUN}!\n"
-	.string "You look like you have a lot of zip!\l"
-	.string "That's a good thing, wahahahaha!\p"
-	.string "Fine! I've decided!\n"
-	.string "I need a favor, {PLAYER}{KUN}!\p"
-	.string "Mauville City has an underground\n"
-	.string "sector called New Mauville.\p"
-	.string "{PLAYER}{KUN}, I'd like you to go there and\n"
-	.string "switch off the Generator.\p"
-	.string "The Generator has been running a bit\n"
-	.string "haywire. It's getting unsafe.\p"
-	.string "Here, this is the Key to get into\n"
-	.string "New Mauville.$"
+	.string "Trevor: Come talk to me when youre ready$"
 
 MauvilleCity_Text_TrevorWontBeChallenge: @ 81E0154
-	.string "Trevor: Don't you worry about it.\n"
-	.string "It won't be a challenge to you.\p"
-	.string "The entrance to New Mauville is just\n"
-	.string "a short Surf away from Route 110.\p"
-	.string "That's it, then, you have my trust!\n"
-	.string "Wahahahaha!$"
+	.string "Trevor: CS is on, peace.$"
 
 MauvilleCity_Text_TrevorThanksTakeTM: @ 81E020E
-	.string "Trevor: Wahahahaha!\p"
-	.string "I knew it, {PLAYER}{KUN}! I knew I'd made\n"
-	.string "the right choice asking you!\p"
-	.string "This is my thanks--a TM containing\n"
-	.string "Thunderbolt!\p"
-	.string "Go on, you've earned it!$"
+	.string "Trevor: Here's Thunderbolt$"
 
 MauvilleCity_Text_TrevorYoungTakeCharge: @ 81E02AA
 	.string "Trevor: Wahahahaha!\p"
@@ -652,7 +630,7 @@ MauvilleCity_Text_CitySign: @ 81E0485
 MauvilleCity_Text_GymSign: @ 81E04B7
 	.string "Mauville City Pokémon Gym\n"
 	.string "Leader: Trevor\l"
-	.string "“The cheerfully electrifying man!”$"
+	.string "“The factory director!”$"
 
 MauvilleCity_Text_BikeShopSign: @ 81E0504
 	.string "“Ride in gravel and shake up your\n"
