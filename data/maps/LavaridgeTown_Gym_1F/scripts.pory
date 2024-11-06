@@ -473,8 +473,8 @@ LavaridgeTown_Gym_1F_Text_RegisteredJared: @ 81FF517
 	.string "in the Pokénav.$"
 
 LavaridgeTown_Gym_1F_Text_JaredPostBattle: @ 81FF546
-	.string "Your power reminds me of someone…\p"
-	.string "Oh! I know! You battle like Rick,\n"
+	.string "You reminds me of someone…\p"
+	.string "Oh! I know! You sound like Rick,\n"
 	.string "the Gym Leader of Petalburg.$"
 
 LavaridgeTown_Gym_1F_Text_GymStatue: @ 81FF5A9
@@ -489,14 +489,14 @@ LavaridgeTown_Gym_1F_Text_JaredPreRematch: @ 81FF601
 	.string "Jared: I heard you want the smoke$"
 
 LavaridgeTown_Gym_1F_Text_JaredRematchDefeat: @ 81FF69F
-	.string "Whew!\n"
-	.string "On the verge of eruption!$"
+	.string "You got lucky.\n"
+	.string "...$"
 
 LavaridgeTown_Gym_1F_Text_JaredPostRematch: @ 81FF6BF
-	.string "Jared: See me in battleshots$"
+	.string "Jared: See me in battleshots.$"
 
 LavaridgeTown_Gym_1F_Text_JaredRematchNeedTwoMons: @ 81FF75E
-	.string "Jared: I heard you want the smoke./p"
+	.string "Jared: I heard you want the smoke.\p"
 	.string "What is this, youre unprepared\n"
 	.string "bring at least two Pokémon.$"
 `
