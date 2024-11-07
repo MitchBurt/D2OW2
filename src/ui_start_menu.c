@@ -1133,8 +1133,8 @@ static void Task_MenuMain(u8 taskId)
 	
 	if (JOY_NEW(SELECT_BUTTON)){
 		switch(gSaveBlock1Ptr->location.mapNum){
-			case MAP_NUM(EVER_GRANDE_CITY_SIDNEYS_ROOM):
-				if(gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(EVER_GRANDE_CITY_SIDNEYS_ROOM))
+			case MAP_NUM(EVER_GRANDE_CITY_JACKS_ROOM):
+				if(gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(EVER_GRANDE_CITY_JACKS_ROOM))
 					DisableSave = TRUE;
 			break;
 			case MAP_NUM(EVER_GRANDE_CITY_GREGORIUSS_ROOM):

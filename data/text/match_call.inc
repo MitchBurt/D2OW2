@@ -2267,8 +2267,8 @@ MatchCall_Text_Mitchell4:: @ 82B341E
 	.string "componer tu estrategia marcando\l"
 	.string "un ritmo ineludible…$"
 
-MatchCall_Text_Sidney:: @ 82B34CC
-	.string "Sidney: ¡Eh, {PLAYER}!\p"
+MatchCall_Text_Jack:: @ 82B34CC
+	.string "Jack: ¡Eh, {PLAYER}!\p"
 	.string "Si quieres luchar conmigo\n"
 	.string "de nuevo, vuelve cuando quieras\l"
 	.string "a la Liga Pokémon.\p"
@@ -5223,8 +5223,8 @@ MatchCall_Text_Mitchell4:: @ 82B341E
 	.string "When I close my eyes, I see visions\n"
 	.string "of you soaring with the melody…$"
 
-MatchCall_Text_Sidney:: @ 82B34CC
-	.string "Sidney: Yo, {PLAYER}!\p"
+MatchCall_Text_Jack:: @ 82B34CC
+	.string "Jack: Yo, {PLAYER}!\p"
 	.string "If you want to battle with me\n"
 	.string "again, you come on back whenever\l"
 	.string "you like to the Pokémon League.\p"

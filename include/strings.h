@@ -2600,7 +2600,7 @@ extern const u8 MatchCall_Text_Mitchell1[];
 extern const u8 MatchCall_Text_Mitchell2[];
 extern const u8 MatchCall_Text_Mitchell3[];
 extern const u8 MatchCall_Text_Mitchell4[];
-extern const u8 MatchCall_Text_Sidney[];
+extern const u8 MatchCall_Text_Jack[];
 extern const u8 MatchCall_Text_Gregorius[];
 extern const u8 MatchCall_Text_Glacia[];
 extern const u8 MatchCall_Text_Drake[];

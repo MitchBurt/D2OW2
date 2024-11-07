@@ -343,7 +343,7 @@
 #define MAP_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_B1F (14 | (15 << 8))
 
 // gMapGroup16
-#define MAP_EVER_GRANDE_CITY_SIDNEYS_ROOM      (0 | (16 << 8))
+#define MAP_EVER_GRANDE_CITY_JACKS_ROOM      (0 | (16 << 8))
 #define MAP_EVER_GRANDE_CITY_GREGORIUSS_ROOM      (1 | (16 << 8))
 #define MAP_EVER_GRANDE_CITY_GLACIAS_ROOM      (2 | (16 << 8))
 #define MAP_EVER_GRANDE_CITY_DRAKES_ROOM       (3 | (16 << 8))

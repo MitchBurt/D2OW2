@@ -75,7 +75,7 @@ enum {
     REMATCH_TANNER,
     REMATCH_TONY_AND_SAL,
     REMATCH_MITCHELL,
-    REMATCH_SIDNEY, // Entries below SIDNEY are considered part of REMATCH_ELITE_FOUR_ENTRIES.
+    REMATCH_JACK, // Entries below JACK are considered part of REMATCH_ELITE_FOUR_ENTRIES.
     REMATCH_GREGORIUS,
     REMATCH_GLACIA,
     REMATCH_DRAKE,
@@ -84,7 +84,7 @@ enum {
 };
 
 #define REMATCH_SPECIAL_TRAINER_START   REMATCH_WALLY_3
-#define REMATCH_ELITE_FOUR_ENTRIES      REMATCH_SIDNEY
+#define REMATCH_ELITE_FOUR_ENTRIES      REMATCH_JACK
 
 void UpdateGymLeaderRematch(void);
 

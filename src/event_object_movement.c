@@ -512,7 +512,7 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_MITCHELL 			  			  0x1149
 #define OBJ_EVENT_PAL_BATTLE_NURSE            	  0x1150
 #define OBJ_EVENT_PAL_TAG_POKEMON_000			  0x1151
-#define OBJ_EVENT_PAL_SIDNEY 			  		  0x1152
+#define OBJ_EVENT_PAL_JACK 			  		  0x1152
 #define OBJ_EVENT_PAL_GREGORIUS 			  		  0x1153
 #define OBJ_EVENT_PAL_GLACIA 			  		  0x1154
 #define OBJ_EVENT_PAL_DRAKE 			  		  0x1155
@@ -1449,7 +1449,7 @@ const struct SpritePalette sObjectEventSpritePalettes[] = {
 	
 	{gObjectEventPalette_SurfBlob,  	 OBJ_EVENT_PAL_SURF_BLOB},
 	
-	{gObjectEventPal_Sidney,     OBJ_EVENT_PAL_SIDNEY},
+	{gObjectEventPal_Jack,     OBJ_EVENT_PAL_JACK},
 	{gObjectEventPal_Gregorius,     OBJ_EVENT_PAL_GREGORIUS},
 	{gObjectEventPal_Glacia,     OBJ_EVENT_PAL_GLACIA},
 	{gObjectEventPal_Drake,      OBJ_EVENT_PAL_DRAKE},

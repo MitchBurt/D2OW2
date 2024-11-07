@@ -454,7 +454,7 @@
 #define FLAG_REMATCH_TANNER                  0x1A3
 #define FLAG_REMATCH_TONY_AND_SAL           0x1A4
 // Note: FLAG_REMATCH_MITCHELL is handled by FLAG_ENABLE_MITCHELL_MATCH_CALL instead.
-#define FLAG_REMATCH_SIDNEY                  0x1A5
+#define FLAG_REMATCH_JACK                  0x1A5
 #define FLAG_REMATCH_GREGORIUS                  0x1A6
 #define FLAG_REMATCH_GLACIA                  0x1A7
 #define FLAG_REMATCH_DRAKE                   0x1A8
@@ -1320,7 +1320,7 @@
 #define FLAG_SHINY_RAYQUAZA_TITLE_SCREEN                            0x4F9
 #define FLAG_ACHIEVEMENT_DATA_CREATED                               0x4FA
 
-#define FLAG_DEFEATED_ELITE_4_SIDNEY                                0x4FB
+#define FLAG_DEFEATED_ELITE_4_JACK                                0x4FB
 #define FLAG_DEFEATED_ELITE_4_GREGORIUS                                0x4FC
 #define FLAG_DEFEATED_ELITE_4_GLACIA                                0x4FD
 #define FLAG_DEFEATED_ELITE_4_DRAKE                                 0x4FE

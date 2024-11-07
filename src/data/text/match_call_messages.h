@@ -365,10 +365,10 @@ const u8 gText_MatchCallDandyCharm_Mitchell_Pokemon[] = _("Los Pokémon elegante
 const u8 gText_MatchCallDandyCharm_Mitchell_Intro1[] = _("¡Adular a chicas guapas");
 const u8 gText_MatchCallDandyCharm_Mitchell_Intro2[] = _("me llena de energía!");
 
-const u8 gText_MatchCallEliteFour_Sidney_Strategy[] = _("Atacar más que defenderme.");
-const u8 gText_MatchCallEliteFour_Sidney_Pokemon[] = _("Bellezas de tipo Siniestro.");
-const u8 gText_MatchCallEliteFour_Sidney_Intro1[] = _("Decían que era raro, pero");
-const u8 gText_MatchCallEliteFour_Sidney_Intro2[] = _("¡yo soy del Alto Mando!");
+const u8 gText_MatchCallEliteFour_Jack_Strategy[] = _("Atacar más que defenderme.");
+const u8 gText_MatchCallEliteFour_Jack_Pokemon[] = _("Bellezas de tipo Siniestro.");
+const u8 gText_MatchCallEliteFour_Jack_Intro1[] = _("Decían que era raro, pero");
+const u8 gText_MatchCallEliteFour_Jack_Intro2[] = _("¡yo soy del Alto Mando!");
 
 const u8 gText_MatchCallEliteFour_Gregorius_Strategy[] = _("Confundir y perturbar.");
 const u8 gText_MatchCallEliteFour_Gregorius_Pokemon[] = _("Los míos son etéreos.");
@@ -757,10 +757,10 @@ const u8 gText_MatchCallDandyCharm_Mitchell_Pokemon[] = _("Pokémon of elegance!
 const u8 gText_MatchCallDandyCharm_Mitchell_Intro1[] = _("The adulation of beautiful");
 const u8 gText_MatchCallDandyCharm_Mitchell_Intro2[] = _("ladies fills me with energy!");
 
-const u8 gText_MatchCallEliteFour_Sidney_Strategy[] = _("Offense over defense!");
-const u8 gText_MatchCallEliteFour_Sidney_Pokemon[] = _("The Dark side's beauties.");
-const u8 gText_MatchCallEliteFour_Sidney_Intro1[] = _("They said I was a punk, but");
-const u8 gText_MatchCallEliteFour_Sidney_Intro2[] = _("I'm one of the Elite Four!");
+const u8 gText_MatchCallEliteFour_Jack_Strategy[] = _("Offense over defense!");
+const u8 gText_MatchCallEliteFour_Jack_Pokemon[] = _("The Dark side's beauties.");
+const u8 gText_MatchCallEliteFour_Jack_Intro1[] = _("They said I was a punk, but");
+const u8 gText_MatchCallEliteFour_Jack_Intro2[] = _("I'm one of the Elite Four!");
 
 const u8 gText_MatchCallEliteFour_Gregorius_Strategy[] = _("Confuse and confound.");
 const u8 gText_MatchCallEliteFour_Gregorius_Pokemon[] = _("There's nothing definite.");
@@ -859,7 +859,7 @@ const u8 *const gMatchCallFlavorTexts[REMATCH_TABLE_ENTRIES][CHECK_PAGE_ENTRY_CO
     [REMATCH_TANNER] = MCFLAVOR(SkyTamer_Tanner),
     [REMATCH_TONY_AND_SAL] = MCFLAVOR(MysticDuo_TonyAndSal),
     [REMATCH_MITCHELL] = MCFLAVOR(DandyCharm_Mitchell),
-    [REMATCH_SIDNEY] = MCFLAVOR(EliteFour_Sidney),
+    [REMATCH_JACK] = MCFLAVOR(EliteFour_Jack),
     [REMATCH_GREGORIUS] = MCFLAVOR(EliteFour_Gregorius),
     [REMATCH_GLACIA] = MCFLAVOR(EliteFour_Glacia),
     [REMATCH_DRAKE] = MCFLAVOR(EliteFour_Drake),

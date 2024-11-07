@@ -6368,7 +6368,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Walter5[] = {
     }
 };
 // ELITE 4
-static const struct TrainerMonItemCustomMoves sParty_Sidney[] = {
+static const struct TrainerMonItemCustomMoves sParty_Jack[] = {
     {
     .iv = 255,
     .lvl = 65,

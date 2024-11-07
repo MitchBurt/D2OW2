@@ -218,8 +218,8 @@ const u32 gObjectEventPic_DevonEmployee[] = INCBIN_U32("graphics/object_events/p
 const u32 gObjectEventPic_MagmaMemberM[] = INCBIN_U32("graphics/object_events/pics/people/team_magma/magma_member_m.4bpp");
 const u32 gObjectEventPic_MagmaMemberF[] = INCBIN_U32("graphics/object_events/pics/people/team_magma/magma_member_f.4bpp");
 //Elite four
-const u32 gObjectEventPic_Sidney[] 				= INCBIN_U32("graphics/object_events/pics/people/elite_four/sidney.4bpp");
-const u16 gObjectEventPal_Sidney[] 				= INCBIN_U16("graphics/object_events/pics/people/elite_four/sidney.gbapal");
+const u32 gObjectEventPic_Jack[] 				= INCBIN_U32("graphics/object_events/pics/people/elite_four/jack.4bpp");
+const u16 gObjectEventPal_Jack[] 				= INCBIN_U16("graphics/object_events/pics/people/elite_four/jack.gbapal");
 const u32 gObjectEventPic_Gregorius[] 				= INCBIN_U32("graphics/object_events/pics/people/elite_four/gregorius.4bpp");
 const u16 gObjectEventPal_Gregorius[] 				= INCBIN_U16("graphics/object_events/pics/people/elite_four/gregorius.gbapal");
 const u32 gObjectEventPic_Glacia[] 				= INCBIN_U32("graphics/object_events/pics/people/elite_four/glacia.4bpp");

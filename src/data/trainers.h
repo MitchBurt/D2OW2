@@ -3646,18 +3646,18 @@ const struct Trainer gTrainers[] = {
         .party = {.NoItemCustomMoves = sParty_Walter5},
     },
 
-    [TRAINER_SIDNEY] =
+    [TRAINER_JACK] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
-        .trainerPic = TRAINER_PIC_ELITE_FOUR_SIDNEY,
-        .trainerName = _("Sidney"),
+        .trainerPic = TRAINER_PIC_ELITE_FOUR_JACK,
+        .trainerName = _("Jack"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_Sidney),
-        .party = {.ItemCustomMoves = sParty_Sidney},
+        .partySize = ARRAY_COUNT(sParty_Jack),
+        .party = {.ItemCustomMoves = sParty_Jack},
     },
 
     [TRAINER_GREGORIUS] =
