@@ -2410,8 +2410,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE,
-        .partySize = ARRAY_COUNT(sParty_Jack),
-        .party = {.NoItemDefaultMoves = sParty_Jack},
+        .partySize = ARRAY_COUNT(sParty_JackL),
+        .party = {.NoItemDefaultMoves = sParty_JackL},
     },
 
     [TRAINER_DUDLEY] =

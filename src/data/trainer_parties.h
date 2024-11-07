@@ -4360,7 +4360,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Kevin[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Jack[] = {
+static const struct TrainerMonNoItemDefaultMoves sParty_JackL[] = {
     {
     .iv = 0,
     .lvl = 1,
