@@ -5935,7 +5935,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Joshua[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_DEADMAUS,
+    .species = SPECIES_DEADMOUS,
     }
 };
 
@@ -6716,7 +6716,7 @@ static const struct TrainerMonItemCustomMoves sParty_Shinji[] = {
     .evs = {6, 0, 0, 252, 0, 252}, 
     .abilityNum = 1,
     .happiness = 255,
-    .species = SPECIES_SPERIATHAN,
+    .species = SPECIES_SPERIATHON,
 	.ivs = {31, 31, 31, 31, 31, 31}, 
 	.isShiny = FALSE,
 	.pokeball = ITEM_LURE_BALL,
@@ -9384,7 +9384,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Anthony[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_DEADMAUS,
+    .species = SPECIES_DEADMOUS,
     }
 };
 
@@ -9717,7 +9717,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Demetrius[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_DEADMAUS,
+    .species = SPECIES_DEADMOUS,
     }
 };
 
@@ -12641,7 +12641,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Auron[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_DEADMAUS,
+    .species = SPECIES_DEADMOUS,
     },
     {
     .iv = 0,
