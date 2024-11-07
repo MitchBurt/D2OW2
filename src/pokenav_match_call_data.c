@@ -529,36 +529,36 @@ static const struct MatchCallStructTrainer sGregoriusMatchCallHeader =
     .textData = sGregoriusTextScripts
 };
 
-static const match_call_text_data_t sGlaciaTextScripts[] = {
-    { MatchCall_Text_Glacia, 0xFFFF, 0xFFFF },
+static const match_call_text_data_t sGlaciatextScripts[] = {
+    { MatchCall_Text_Thanatos, 0xFFFF, 0xFFFF },
     { NULL,                  0xFFFF, 0xFFFF }
 };
 
-static const struct MatchCallStructTrainer sGlaciaMatchCallHeader =
+static const struct MatchCallStructTrainer sThanatosMatchCallHeader =
 {
     .type = MC_TYPE_LEADER,
     .mapSec = MAPSEC_EVER_GRANDE_CITY,
-    .flag = FLAG_REMATCH_GLACIA,
-    .rematchTableIdx = REMATCH_GLACIA,
+    .flag = FLAG_REMATCH_THANATOS,
+    .rematchTableIdx = REMATCH_THANATOS,
     .desc = gText_EliteFourMatchCallDesc,
     .name = NULL,
-    .textData = sGlaciaTextScripts
+    .textData = sGlaciatextScripts
 };
 
-static const match_call_text_data_t sDrakeTextScripts[] = {
-    { MatchCall_Text_Drake, 0xFFFF, 0xFFFF },
+static const match_call_text_data_t sShinjiTextScripts[] = {
+    { MatchCall_Text_Shinji, 0xFFFF, 0xFFFF },
     { NULL,                 0xFFFF, 0xFFFF }
 };
 
-static const struct MatchCallStructTrainer sDrakeMatchCallHeader =
+static const struct MatchCallStructTrainer sShinjiMatchCallHeader =
 {
     .type = MC_TYPE_LEADER,
     .mapSec = MAPSEC_EVER_GRANDE_CITY,
-    .flag = FLAG_REMATCH_DRAKE,
-    .rematchTableIdx = REMATCH_DRAKE,
+    .flag = FLAG_REMATCH_SHINJI,
+    .rematchTableIdx = REMATCH_SHINJI,
     .desc = gText_EliteFourMatchCallDesc,
     .name = NULL,
-    .textData = sDrakeTextScripts
+    .textData = sShinjiTextScripts
 };
 
 static const match_call_text_data_t sDarioTextScripts[] = {
@@ -596,8 +596,8 @@ static const match_call_t sMatchCallHeaders[] = {
     [MC_HEADER_MITCHELL]       = {.leader = &sMitchellMatchCallHeader},
     [MC_HEADER_JACK]     = {.leader = &sJackMatchCallHeader},
     [MC_HEADER_GREGORIUS]     = {.leader = &sGregoriusMatchCallHeader},
-    [MC_HEADER_GLACIA]     = {.leader = &sGlaciaMatchCallHeader},
-    [MC_HEADER_DRAKE]      = {.leader = &sDrakeMatchCallHeader},
+    [MC_HEADER_THANATOS]     = {.leader = &sThanatosMatchCallHeader},
+    [MC_HEADER_SHINJI]      = {.leader = &sShinjiMatchCallHeader},
     [MC_HEADER_DARIO]    = {.leader = &sDarioMatchCallHeader}
 };
 

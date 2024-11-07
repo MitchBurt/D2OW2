@@ -3340,9 +3340,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_HUMAN_LIKE,
         .eggGroup2 = EGG_GROUP_HUMAN_LIKE,
         .abilities = {ABILITY_BERSERK, ABILITY_NONE},
-        #ifdef BATTLE_ENGINE
-            .abilityHidden = ABILITY_ANALYTIC,
-        #endif
+        .abilityHidden = ABILITY_SPEED_BOOST,
         .bodyColor = BODY_COLOR_PURPLE,
         .noFlip = FALSE,
     },
@@ -4002,7 +4000,7 @@ const struct BaseStats gBaseStats[] =
         .baseAttack    = 100,
         .baseDefense   = 90,
         .baseSpeed     = 90,
-        .baseSpAttack  = 125,
+        .baseSpAttack  = 130,
         .baseSpDefense = 100,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_FAIRY,
@@ -12740,31 +12738,26 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_MAMOSWINE] =
+    [SPECIES_JUBERDUKUS] =
     {
-        .baseHP        = 110,
-        .baseAttack    = 130,
-        .baseDefense   = 80,
-        .baseSpeed     = 80,
-        .baseSpAttack  = 70,
-        .baseSpDefense = 60,
-        .type1 = TYPE_ICE,
+        .baseHP        = 65,
+        .baseAttack    = 45,
+        .baseDefense   = 55,
+        .baseSpeed     = 97,
+        .baseSpAttack  = 140, 
+        .baseSpDefense = 65,
+        .type1 = TYPE_GROUND,
         .type2 = TYPE_GROUND,
-        .catchRate = 50,
-        .expYield = 239,
-        .evYield_Attack    = 3,
+        .catchRate = 90,
+        .expYield = 137,
+        .evYield_SpDefense = 2,
         .genderRatio = PERCENT_FEMALE(50),
-        .eggCycles = 20,
+        .eggCycles = 15,
         .friendship = 70,
-        .growthRate = GROWTH_SLOW,
-        .eggGroup1 = EGG_GROUP_FIELD,
-        .eggGroup2 = EGG_GROUP_FIELD,
-        #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_OBLIVIOUS, ABILITY_SNOW_CLOAK},
-        #else
-            .abilities = {ABILITY_OBLIVIOUS, ABILITY_NONE},
-        #endif
-        .abilityHidden = ABILITY_THICK_FAT,
+        .growthRate = GROWTH_FAST,
+        .eggGroup1 = EGG_GROUP_BUG,
+        .eggGroup2 = EGG_GROUP_BUG,
+        .abilities = {ABILITY_SKILL_LINK, ABILITY_MEGA_LAUNCHER},
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
     },
@@ -46338,7 +46331,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_MAMOSWINE] =
+    [SPECIES_JUBERDUKUS] =
     {
         .baseHP        = 110,
         .baseAttack    = 130,

@@ -4149,13 +4149,13 @@ void UpdateTrainerFanClubGameClear(void)
 }
 
 // If the player has < 3 fans, gain a new fan whenever the counter reaches 20+
-// Defeating Drake or participating in a Contest increments the counter by 2 
+// Defeating Shinji or participating in a Contest increments the counter by 2 
 // Participating at Battle Tower or in a Secret Base battle increments the counter by 1
 u8 TryGainNewFanFromCounter(u8 incrementId)
 {
     static const u8 sCounterIncrements[] = 
     { 
-        [FANCOUNTER_DEFEATED_DRAKE]    = 2, 
+        [FANCOUNTER_DEFEATED_SHINJI]    = 2, 
         [FANCOUNTER_BATTLED_AT_BASE]   = 1, 
         [FANCOUNTER_FINISHED_CONTEST]  = 2, 
         [FANCOUNTER_USED_BATTLE_TOWER] = 1 
@@ -4381,7 +4381,7 @@ static void BufferFanClubTrainerName_(struct LinkBattleRecords *linkRecords, u8 
                 StringCopy(gStringVar1, gText_Gregorius);
                 break;
             case 5:
-                StringCopy(gStringVar1, gText_Glacia);
+                StringCopy(gStringVar1, gText_Thanatos);
                 break;
             default:
                 StringCopy(gStringVar1, gText_Dario);

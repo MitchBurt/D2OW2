@@ -375,8 +375,8 @@ const u8 gBattleBackgroundNames[][30] =
     [MAP_BATTLE_SCENE_AQUA]     = _("AQUA                    "),
     [MAP_BATTLE_SCENE_JACK]   = _("JACK                  "),
     [MAP_BATTLE_SCENE_GREGORIUS]   = _("GREGORIUS                  "),
-    [MAP_BATTLE_SCENE_GLACIA]   = _("GLACIA                  "),
-    [MAP_BATTLE_SCENE_DRAKE]    = _("DRAKE                   "),
+    [MAP_BATTLE_SCENE_THANATOS]   = _("THANATOS                  "),
+    [MAP_BATTLE_SCENE_SHINJI]    = _("SHINJI                   "),
     [MAP_BATTLE_SCENE_FRONTIER] = _("FRONTIER                "),
     [MAP_BATTLE_SCENE_LEADER]   = _("LEADER                  "),
     [MAP_BATTLE_SCENE_DARIO]  = _("DARIO                 "),
@@ -859,15 +859,15 @@ static void LoadBattleBg(u8 battleBgType, u8 battleTerrain)
         LZDecompressVram(gBattleTerrainTilemap_Stadium, (void*)(BG_SCREEN_ADDR(26)));
         LoadCompressedPalette(gBattleTerrainPalette_StadiumGregorius, 0x20, 0x60);
         break;
-    case MAP_BATTLE_SCENE_GLACIA:
+    case MAP_BATTLE_SCENE_THANATOS:
         LZDecompressVram(gBattleTerrainTiles_Stadium, (void*)(BG_CHAR_ADDR(2)));
         LZDecompressVram(gBattleTerrainTilemap_Stadium, (void*)(BG_SCREEN_ADDR(26)));
-        LoadCompressedPalette(gBattleTerrainPalette_StadiumGlacia, 0x20, 0x60);
+        LoadCompressedPalette(gBattleTerrainPalette_StadiumThanatos, 0x20, 0x60);
         break;
-    case MAP_BATTLE_SCENE_DRAKE:
+    case MAP_BATTLE_SCENE_SHINJI:
         LZDecompressVram(gBattleTerrainTiles_Stadium, (void*)(BG_CHAR_ADDR(2)));
         LZDecompressVram(gBattleTerrainTilemap_Stadium, (void*)(BG_SCREEN_ADDR(26)));
-        LoadCompressedPalette(gBattleTerrainPalette_StadiumDrake, 0x20, 0x60);
+        LoadCompressedPalette(gBattleTerrainPalette_StadiumShinji, 0x20, 0x60);
         break;
     case MAP_BATTLE_SCENE_FRONTIER:
         LZDecompressVram(gBattleTerrainTiles_Building, (void*)(BG_CHAR_ADDR(2)));

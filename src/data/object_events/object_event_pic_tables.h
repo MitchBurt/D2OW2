@@ -1931,28 +1931,28 @@ const struct SpriteFrameImage gObjectEventPicTable_Gregorius[] = {
     overworld_frame(gObjectEventPic_Gregorius, 2, 4, 2),
 };
 
-const struct SpriteFrameImage gObjectEventPicTable_Glacia[] = {
-    overworld_frame(gObjectEventPic_Glacia, 2, 4, 0),
-    overworld_frame(gObjectEventPic_Glacia, 2, 4, 1),
-    overworld_frame(gObjectEventPic_Glacia, 2, 4, 2),
-    overworld_frame(gObjectEventPic_Glacia, 2, 4, 0),
-    overworld_frame(gObjectEventPic_Glacia, 2, 4, 0),
-    overworld_frame(gObjectEventPic_Glacia, 2, 4, 1),
-    overworld_frame(gObjectEventPic_Glacia, 2, 4, 1),
-    overworld_frame(gObjectEventPic_Glacia, 2, 4, 2),
-    overworld_frame(gObjectEventPic_Glacia, 2, 4, 2),
+const struct SpriteFrameImage gObjectEventPicTable_Thanatos[] = {
+    overworld_frame(gObjectEventPic_Thanatos, 2, 4, 0),
+    overworld_frame(gObjectEventPic_Thanatos, 2, 4, 1),
+    overworld_frame(gObjectEventPic_Thanatos, 2, 4, 2),
+    overworld_frame(gObjectEventPic_Thanatos, 2, 4, 0),
+    overworld_frame(gObjectEventPic_Thanatos, 2, 4, 0),
+    overworld_frame(gObjectEventPic_Thanatos, 2, 4, 1),
+    overworld_frame(gObjectEventPic_Thanatos, 2, 4, 1),
+    overworld_frame(gObjectEventPic_Thanatos, 2, 4, 2),
+    overworld_frame(gObjectEventPic_Thanatos, 2, 4, 2),
 };
 
-const struct SpriteFrameImage gObjectEventPicTable_Drake[] = {
-    overworld_frame(gObjectEventPic_Drake, 2, 4, 0),
-    overworld_frame(gObjectEventPic_Drake, 2, 4, 1),
-    overworld_frame(gObjectEventPic_Drake, 2, 4, 2),
-    overworld_frame(gObjectEventPic_Drake, 2, 4, 0),
-    overworld_frame(gObjectEventPic_Drake, 2, 4, 0),
-    overworld_frame(gObjectEventPic_Drake, 2, 4, 1),
-    overworld_frame(gObjectEventPic_Drake, 2, 4, 1),
-    overworld_frame(gObjectEventPic_Drake, 2, 4, 2),
-    overworld_frame(gObjectEventPic_Drake, 2, 4, 2),
+const struct SpriteFrameImage gObjectEventPicTable_Shinji[] = {
+    overworld_frame(gObjectEventPic_Shinji, 2, 4, 0),
+    overworld_frame(gObjectEventPic_Shinji, 2, 4, 1),
+    overworld_frame(gObjectEventPic_Shinji, 2, 4, 2),
+    overworld_frame(gObjectEventPic_Shinji, 2, 4, 0),
+    overworld_frame(gObjectEventPic_Shinji, 2, 4, 0),
+    overworld_frame(gObjectEventPic_Shinji, 2, 4, 1),
+    overworld_frame(gObjectEventPic_Shinji, 2, 4, 1),
+    overworld_frame(gObjectEventPic_Shinji, 2, 4, 2),
+    overworld_frame(gObjectEventPic_Shinji, 2, 4, 2),
 };
 
 const struct SpriteFrameImage gObjectEventPicTable_Mason[] = {

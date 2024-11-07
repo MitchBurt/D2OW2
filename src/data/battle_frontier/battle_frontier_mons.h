@@ -249,7 +249,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
 		.abilitynum = ABILITY_RANDOM
     },
     [FRONTIER_MON_ORCALE] = {
-        .species = SPECIES_MAMOSWINE,//TO MOVE
+        .species = SPECIES_JUBERDUKUS,//TO MOVE
         .moves = {MOVE_ICICLE_CRASH, MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_ICE_SHARD},
         .itemTableId = BATTLE_FRONTIER_ITEM_LIFE_ORB,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_SPEED,

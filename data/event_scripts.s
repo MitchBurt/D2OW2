@@ -317,8 +317,8 @@ gStdScripts_End:: @ 81DC2CC
 	.include "data/maps/SootopolisCity_MysteryEventsHouse_B1F/scripts.inc"
 	.include "data/maps/EverGrandeCity_JacksRoom/scripts.inc"
 	.include "data/maps/EverGrandeCity_GregoriussRoom/scripts.inc"
-	.include "data/maps/EverGrandeCity_GlaciasRoom/scripts.inc"
-	.include "data/maps/EverGrandeCity_DrakesRoom/scripts.inc"
+	.include "data/maps/EverGrandeCity_ThanatossRoom/scripts.inc"
+	.include "data/maps/EverGrandeCity_ShinjisRoom/scripts.inc"
 	.include "data/maps/EverGrandeCity_ChampionsRoom/scripts.inc"
 	.include "data/maps/EverGrandeCity_Hall1/scripts.inc"
 	.include "data/maps/EverGrandeCity_Hall2/scripts.inc"
@@ -653,8 +653,8 @@ EventScript_MoveMrBrineyToRoute109:: @ 82718B3
 EverGrandeCity_HallOfFame_EventScript_ResetEliteFour:: @ 82718CC
 	clearflag FLAG_DEFEATED_ELITE_4_JACK
 	clearflag FLAG_DEFEATED_ELITE_4_GREGORIUS
-	clearflag FLAG_DEFEATED_ELITE_4_GLACIA
-	clearflag FLAG_DEFEATED_ELITE_4_DRAKE
+	clearflag FLAG_DEFEATED_ELITE_4_THANATOS
+	clearflag FLAG_DEFEATED_ELITE_4_SHINJI
 	setvar VAR_ELITE_4_STATE, 0
 	return
 

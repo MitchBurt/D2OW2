@@ -10131,7 +10131,7 @@ Move_DRAGON_ASCENT::
 	monbg ANIM_DEF_PARTNER
 	setalpha 12, 8
 	playsewithpan SE_M_DOUBLE_TEAM, SOUND_PAN_ATTACKER
-	launchtemplate gDragonAscentDrakeTemplate, 2, 0x1 5
+	launchtemplate gDragonAscentShinjiTemplate, 2, 0x1 5
 	delay 1
 	playsewithpan SE_M_MEGA_KICK2, SOUND_PAN_TARGET
 	launchtemplate gBasicHitSplatSpriteTemplate, 0x84, 0x4, -10, 0, 1, 0

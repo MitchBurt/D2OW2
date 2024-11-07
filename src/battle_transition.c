@@ -78,8 +78,8 @@ static void Phase2Task_GridSquares(u8 taskId);
 static void Phase2Task_Shards(u8 taskId);
 static void Phase2Task_Jack(u8 taskId);
 static void Phase2Task_Gregorius(u8 taskId);
-static void Phase2Task_Glacia(u8 taskId);
-static void Phase2Task_Drake(u8 taskId);
+static void Phase2Task_Thanatos(u8 taskId);
+static void Phase2Task_Shinji(u8 taskId);
 static void Phase2Task_Champion(u8 taskId);
 static void Phase2Task_Aqua(u8 taskId);
 static void Phase2Task_Magma(u8 taskId);
@@ -333,8 +333,8 @@ static const TaskFunc sPhase2_Tasks[B_TRANSITION_COUNT] =
     [B_TRANSITION_SHARDS] = Phase2Task_Shards,
     [B_TRANSITION_JACK] = Phase2Task_Jack,
     [B_TRANSITION_GREGORIUS] = Phase2Task_Gregorius,
-    [B_TRANSITION_GLACIA] = Phase2Task_Glacia,
-    [B_TRANSITION_DRAKE] = Phase2Task_Drake,
+    [B_TRANSITION_THANATOS] = Phase2Task_Thanatos,
+    [B_TRANSITION_SHINJI] = Phase2Task_Shinji,
     [B_TRANSITION_CHAMPION] = Phase2Task_Champion,
     [B_TRANSITION_AQUA] = Phase2Task_Aqua,
     [B_TRANSITION_MAGMA] = Phase2Task_Magma,
@@ -517,24 +517,24 @@ static const u8 sMugshotsTrainerPicIDsTable[MUGSHOTS_COUNT] =
 {
     [MUGSHOT_JACK] = TRAINER_PIC_ELITE_FOUR_JACK,
     [MUGSHOT_GREGORIUS] = TRAINER_PIC_ELITE_FOUR_GREGORIUS,
-    [MUGSHOT_GLACIA] = TRAINER_PIC_ELITE_FOUR_GLACIA,
-    [MUGSHOT_DRAKE] = TRAINER_PIC_ELITE_FOUR_DRAKE,
+    [MUGSHOT_THANATOS] = TRAINER_PIC_ELITE_FOUR_THANATOS,
+    [MUGSHOT_SHINJI] = TRAINER_PIC_ELITE_FOUR_SHINJI,
     [MUGSHOT_CHAMPION] = TRAINER_PIC_CHAMPION_DARIO,
 };
 static const s16 sMugshotsOpponentRotationScales[MUGSHOTS_COUNT][2] =
 {
     [MUGSHOT_JACK] =   {0x200, 0x200},
     [MUGSHOT_GREGORIUS] =   {0x200, 0x200},
-    [MUGSHOT_GLACIA] =   {0x1B0, 0x1B0},
-    [MUGSHOT_DRAKE] =    {0x1A0, 0x1A0},
+    [MUGSHOT_THANATOS] =   {0x1B0, 0x1B0},
+    [MUGSHOT_SHINJI] =    {0x1A0, 0x1A0},
     [MUGSHOT_CHAMPION] = {0x188, 0x188},
 };
 static const s16 sMugshotsOpponentCoords[MUGSHOTS_COUNT][2] =
 {
     [MUGSHOT_JACK] =   {0,     0},
     [MUGSHOT_GREGORIUS] =   {0,     0},
-    [MUGSHOT_GLACIA] =   {-4,    4},
-    [MUGSHOT_DRAKE] =    {0,     5},
+    [MUGSHOT_THANATOS] =   {-4,    4},
+    [MUGSHOT_SHINJI] =    {0,     5},
     [MUGSHOT_CHAMPION] = {-8,    7},
 };
 
@@ -823,8 +823,8 @@ const struct SpritePalette gSpritePalette_Pokeball = {sFieldEffectPal_Pokeball, 
 
 static const u16 sMugshotPal_Jack[] = INCBIN_U16("graphics/battle_transitions/jack_bg.gbapal");
 static const u16 sMugshotPal_Gregorius[] = INCBIN_U16("graphics/battle_transitions/gregorius_bg.gbapal");
-static const u16 sMugshotPal_Glacia[] = INCBIN_U16("graphics/battle_transitions/glacia_bg.gbapal");
-static const u16 sMugshotPal_Drake[] = INCBIN_U16("graphics/battle_transitions/drake_bg.gbapal");
+static const u16 sMugshotPal_Thanatos[] = INCBIN_U16("graphics/battle_transitions/thanatos_bg.gbapal");
+static const u16 sMugshotPal_Shinji[] = INCBIN_U16("graphics/battle_transitions/shinji_bg.gbapal");
 static const u16 sMugshotPal_Champion[] = INCBIN_U16("graphics/battle_transitions/dario_bg.gbapal");
 static const u16 sMugshotPal_Brendan[] = INCBIN_U16("graphics/battle_transitions/brendan_bg.gbapal");
 static const u16 sMugshotPal_May[] = INCBIN_U16("graphics/battle_transitions/may_bg.gbapal");
@@ -833,8 +833,8 @@ static const u16 *const sOpponentMugshotsPals[MUGSHOTS_COUNT] =
 {
     [MUGSHOT_JACK] = sMugshotPal_Jack,
     [MUGSHOT_GREGORIUS] = sMugshotPal_Gregorius,
-    [MUGSHOT_GLACIA] = sMugshotPal_Glacia,
-    [MUGSHOT_DRAKE] = sMugshotPal_Drake,
+    [MUGSHOT_THANATOS] = sMugshotPal_Thanatos,
+    [MUGSHOT_SHINJI] = sMugshotPal_Shinji,
     [MUGSHOT_CHAMPION] = sMugshotPal_Champion
 };
 
@@ -2085,15 +2085,15 @@ static void Phase2Task_Gregorius(u8 taskId)
     Phase2Task_MugShotTransition(taskId);
 }
 
-static void Phase2Task_Glacia(u8 taskId)
+static void Phase2Task_Thanatos(u8 taskId)
 {
-    gTasks[taskId].tMugshotId = MUGSHOT_GLACIA;
+    gTasks[taskId].tMugshotId = MUGSHOT_THANATOS;
     Phase2Task_MugShotTransition(taskId);
 }
 
-static void Phase2Task_Drake(u8 taskId)
+static void Phase2Task_Shinji(u8 taskId)
 {
-    gTasks[taskId].tMugshotId = MUGSHOT_DRAKE;
+    gTasks[taskId].tMugshotId = MUGSHOT_SHINJI;
     Phase2Task_MugShotTransition(taskId);
 }
 

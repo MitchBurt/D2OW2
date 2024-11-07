@@ -456,8 +456,8 @@
 // Note: FLAG_REMATCH_MITCHELL is handled by FLAG_ENABLE_MITCHELL_MATCH_CALL instead.
 #define FLAG_REMATCH_JACK                  0x1A5
 #define FLAG_REMATCH_GREGORIUS                  0x1A6
-#define FLAG_REMATCH_GLACIA                  0x1A7
-#define FLAG_REMATCH_DRAKE                   0x1A8
+#define FLAG_REMATCH_THANATOS                  0x1A7
+#define FLAG_REMATCH_SHINJI                   0x1A8
 #define FLAG_REMATCH_DARIO                 0x1A9
 
 #define FLAG_SYS_AUTO_RUN                    0x1AA // Auto Run
@@ -1322,8 +1322,8 @@
 
 #define FLAG_DEFEATED_ELITE_4_JACK                                0x4FB
 #define FLAG_DEFEATED_ELITE_4_GREGORIUS                                0x4FC
-#define FLAG_DEFEATED_ELITE_4_GLACIA                                0x4FD
-#define FLAG_DEFEATED_ELITE_4_DRAKE                                 0x4FE
+#define FLAG_DEFEATED_ELITE_4_THANATOS                                0x4FD
+#define FLAG_DEFEATED_ELITE_4_SHINJI                                 0x4FE
 
 // Trainer Flags
 // Trainer flags occupy 0x500 - 0x85F, the last 9 of which are unused

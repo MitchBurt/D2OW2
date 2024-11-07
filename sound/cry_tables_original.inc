@@ -476,7 +476,7 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Leafeon
 	cry_not Cry_Glaceon
 	cry_not Cry_Gliscor
-	cry_not Cry_Mamoswine
+	cry_not Cry_Juberdukus
 	cry_not Cry_Hellspack
 	cry_not Cry_Gallade
 	cry_not Cry_Probopass
@@ -1752,7 +1752,7 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Leafeon
 	cry2_not Cry_Glaceon
 	cry2_not Cry_Gliscor
-	cry2_not Cry_Mamoswine
+	cry2_not Cry_Juberdukus
 	cry2_not Cry_Hellspack
 	cry2_not Cry_Gallade
 	cry2_not Cry_Probopass

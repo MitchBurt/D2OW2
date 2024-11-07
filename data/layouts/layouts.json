@@ -1122,24 +1122,24 @@
       "blockdata_filepath": "data/layouts/EverGrandeCity_GregoriussRoom/map.bin"
     },
     {
-      "id": "LAYOUT_EVER_GRANDE_CITY_GLACIAS_ROOM",
-      "name": "EverGrandeCity_GlaciasRoom_Layout",
+      "id": "LAYOUT_EVER_GRANDE_CITY_THANATOSS_ROOM",
+      "name": "EverGrandeCity_ThanatossRoom_Layout",
       "width": 13,
       "height": 14,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_EliteFour",
-      "border_filepath": "data/layouts/EverGrandeCity_GlaciasRoom/border.bin",
-      "blockdata_filepath": "data/layouts/EverGrandeCity_GlaciasRoom/map.bin"
+      "border_filepath": "data/layouts/EverGrandeCity_ThanatossRoom/border.bin",
+      "blockdata_filepath": "data/layouts/EverGrandeCity_ThanatossRoom/map.bin"
     },
     {
-      "id": "LAYOUT_EVER_GRANDE_CITY_DRAKES_ROOM",
-      "name": "EverGrandeCity_DrakesRoom_Layout",
+      "id": "LAYOUT_EVER_GRANDE_CITY_SHINJIS_ROOM",
+      "name": "EverGrandeCity_ShinjisRoom_Layout",
       "width": 13,
       "height": 14,
       "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_EliteFour",
-      "border_filepath": "data/layouts/EverGrandeCity_DrakesRoom/border.bin",
-      "blockdata_filepath": "data/layouts/EverGrandeCity_DrakesRoom/map.bin"
+      "border_filepath": "data/layouts/EverGrandeCity_ShinjisRoom/border.bin",
+      "blockdata_filepath": "data/layouts/EverGrandeCity_ShinjisRoom/map.bin"
     },
     {
       "id": "LAYOUT_EVER_GRANDE_CITY_CHAMPIONS_ROOM",

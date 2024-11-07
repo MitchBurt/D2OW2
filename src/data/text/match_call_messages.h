@@ -375,15 +375,15 @@ const u8 gText_MatchCallEliteFour_Gregorius_Pokemon[] = _("Los míos son etéreo
 const u8 gText_MatchCallEliteFour_Gregorius_Intro1[] = _("Me pregunto cómo le irá a mi");
 const u8 gText_MatchCallEliteFour_Gregorius_Intro2[] = _("abuela en el Monte Pírico.");
 
-const u8 gText_MatchCallEliteFour_Glacia_Strategy[] = _("Usar objetos como apoyo.");
-const u8 gText_MatchCallEliteFour_Glacia_Pokemon[] = _("¡Arden de glacial cólera!");
-const u8 gText_MatchCallEliteFour_Glacia_Intro1[] = _("Se entrena mejor al tipo");
-const u8 gText_MatchCallEliteFour_Glacia_Intro2[] = _("Hielo en zonas cálidas.");
+const u8 gText_MatchCallEliteFour_Thanatos_Strategy[] = _("Usar objetos como apoyo.");
+const u8 gText_MatchCallEliteFour_Thanatos_Pokemon[] = _("¡Arden de glacial cólera!");
+const u8 gText_MatchCallEliteFour_Thanatos_Intro1[] = _("Se entrena mejor al tipo");
+const u8 gText_MatchCallEliteFour_Thanatos_Intro2[] = _("Hielo en zonas cálidas.");
 
-const u8 gText_MatchCallEliteFour_Drake_Strategy[] = _("Usar la fuerza que tengo.");
-const u8 gText_MatchCallEliteFour_Drake_Pokemon[] = _("¡Del poderoso tipo Dragón!");
-const u8 gText_MatchCallEliteFour_Drake_Intro1[] = _("Me he dedicado a los");
-const u8 gText_MatchCallEliteFour_Drake_Intro2[] = _("Pokémon que me salvaron.");
+const u8 gText_MatchCallEliteFour_Shinji_Strategy[] = _("Usar la fuerza que tengo.");
+const u8 gText_MatchCallEliteFour_Shinji_Pokemon[] = _("¡Del poderoso tipo Dragón!");
+const u8 gText_MatchCallEliteFour_Shinji_Intro1[] = _("Me he dedicado a los");
+const u8 gText_MatchCallEliteFour_Shinji_Intro2[] = _("Pokémon que me salvaron.");
 
 const u8 gText_MatchCallChampion_Dario_Strategy[] = _("Tener dignidad y respeto.");
 const u8 gText_MatchCallChampion_Dario_Pokemon[] = _("Los que sean elegantes.");
@@ -767,15 +767,15 @@ const u8 gText_MatchCallEliteFour_Gregorius_Pokemon[] = _("There's nothing defin
 const u8 gText_MatchCallEliteFour_Gregorius_Intro1[] = _("I wonder how my grandma at");
 const u8 gText_MatchCallEliteFour_Gregorius_Intro2[] = _("Mt. Pyre is doing?");
 
-const u8 gText_MatchCallEliteFour_Glacia_Strategy[] = _("I use items for help.");
-const u8 gText_MatchCallEliteFour_Glacia_Pokemon[] = _("Flaming passion in icy cold!");
-const u8 gText_MatchCallEliteFour_Glacia_Intro1[] = _("The ICE type can be better");
-const u8 gText_MatchCallEliteFour_Glacia_Intro2[] = _("trained in this hot land.");
+const u8 gText_MatchCallEliteFour_Thanatos_Strategy[] = _("I use items for help.");
+const u8 gText_MatchCallEliteFour_Thanatos_Pokemon[] = _("Flaming passion in icy cold!");
+const u8 gText_MatchCallEliteFour_Thanatos_Intro1[] = _("The ICE type can be better");
+const u8 gText_MatchCallEliteFour_Thanatos_Intro2[] = _("trained in this hot land.");
 
-const u8 gText_MatchCallEliteFour_Drake_Strategy[] = _("Harness strong abilities.");
-const u8 gText_MatchCallEliteFour_Drake_Pokemon[] = _("The raw power of Dragons!");
-const u8 gText_MatchCallEliteFour_Drake_Intro1[] = _("I dedicate myself to the");
-const u8 gText_MatchCallEliteFour_Drake_Intro2[] = _("Pokémon that saved me.");
+const u8 gText_MatchCallEliteFour_Shinji_Strategy[] = _("Harness strong abilities.");
+const u8 gText_MatchCallEliteFour_Shinji_Pokemon[] = _("The raw power of Dragons!");
+const u8 gText_MatchCallEliteFour_Shinji_Intro1[] = _("I dedicate myself to the");
+const u8 gText_MatchCallEliteFour_Shinji_Intro2[] = _("Pokémon that saved me.");
 
 const u8 gText_MatchCallChampion_Dario_Strategy[] = _("Dignity and respect.");
 const u8 gText_MatchCallChampion_Dario_Pokemon[] = _("I prefer Pokémon of grace.");
@@ -861,7 +861,7 @@ const u8 *const gMatchCallFlavorTexts[REMATCH_TABLE_ENTRIES][CHECK_PAGE_ENTRY_CO
     [REMATCH_MITCHELL] = MCFLAVOR(DandyCharm_Mitchell),
     [REMATCH_JACK] = MCFLAVOR(EliteFour_Jack),
     [REMATCH_GREGORIUS] = MCFLAVOR(EliteFour_Gregorius),
-    [REMATCH_GLACIA] = MCFLAVOR(EliteFour_Glacia),
-    [REMATCH_DRAKE] = MCFLAVOR(EliteFour_Drake),
+    [REMATCH_THANATOS] = MCFLAVOR(EliteFour_Thanatos),
+    [REMATCH_SHINJI] = MCFLAVOR(EliteFour_Shinji),
     [REMATCH_DARIO] = MCFLAVOR(Champion_Dario),
 };

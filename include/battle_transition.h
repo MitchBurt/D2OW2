@@ -15,8 +15,8 @@ enum // TRANSITION_MUGSHOT
 {
     MUGSHOT_JACK,
     MUGSHOT_GREGORIUS,
-    MUGSHOT_GLACIA,
-    MUGSHOT_DRAKE,
+    MUGSHOT_THANATOS,
+    MUGSHOT_SHINJI,
     MUGSHOT_CHAMPION,
     MUGSHOTS_COUNT
 };
@@ -38,8 +38,8 @@ enum // TRANSITION_MUGSHOT
 #define B_TRANSITION_SHARDS                                    11
 #define B_TRANSITION_JACK                                    12
 #define B_TRANSITION_GREGORIUS                                    13
-#define B_TRANSITION_GLACIA                                    14
-#define B_TRANSITION_DRAKE                                     15
+#define B_TRANSITION_THANATOS                                    14
+#define B_TRANSITION_SHINJI                                     15
 #define B_TRANSITION_CHAMPION                                  16
 // added in Emerald
 #define B_TRANSITION_AQUA                                      17

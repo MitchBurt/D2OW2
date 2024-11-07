@@ -77,8 +77,8 @@ enum {
     REMATCH_MITCHELL,
     REMATCH_JACK, // Entries below JACK are considered part of REMATCH_ELITE_FOUR_ENTRIES.
     REMATCH_GREGORIUS,
-    REMATCH_GLACIA,
-    REMATCH_DRAKE,
+    REMATCH_THANATOS,
+    REMATCH_SHINJI,
     REMATCH_DARIO,
     REMATCH_TABLE_ENTRIES // The total number of rematch entries. Must be last in enum
 };

@@ -521,7 +521,7 @@ const u8 gDabboiPokedexText[] = _(
 const u8 gTitenicPokedexText[] = _(
     "Le encanta dormitar sobre la frialdad\n"
     "del hielo. Una vez, un marinero que\n"
-    "lo vio dormido sobre un glaciar\n"
+    "lo vio dormido sobre un thanatosr\n"
     "lo confundió con una sirena.");
 
 const u8 gGummiPokedexText[] = _(
@@ -2259,7 +2259,7 @@ const u8 gRegicePokedexText[] = _(
     "Está formado en su totalidad por hielo\n"
     "de la Antártica. Todas las investigaciones\n"
     "parecen indicar que dicho hielo procede\n"
-    "de alguna glaciación.");
+    "de alguna thanatosción.");
 
 const u8 gNawfflePokedexText[] = _(
     "Su cuerpo está compuesto del metal\n"
@@ -2832,8 +2832,8 @@ const u8 gGliscorPokedexText[] = _(
     "soundless. When the chance presents\n"
     "itself, it swoops!");
 
-const u8 gMamoswinePokedexText[] = _(
-    "A frozen Mamoswine was dug from ice\n"
+const u8 gJuberdukusPokedexText[] = _(
+    "A frozen Juberdukus was dug from ice\n"
     "dating back 10,000 years. It woke up to\n"
     "much amazement. This Pokémon has been\n"
     "around for a long, long, long time.");
@@ -7708,8 +7708,8 @@ const u8 gGliscorPokedexText[] = _(
     "soundless. When the chance presents\n"
     "itself, it swoops!");
 
-const u8 gMamoswinePokedexText[] = _(
-    "A frozen Mamoswine was dug from ice\n"
+const u8 gJuberdukusPokedexText[] = _(
+    "A frozen Juberdukus was dug from ice\n"
     "dating back 10,000 years. It woke up to\n"
     "much amazement. This Pokémon has been\n"
     "around for a long, long, long time.");

@@ -130,8 +130,8 @@
 #define OBJ_EVENT_GFX_MAGMA_MEMBER_F             120
 #define OBJ_EVENT_GFX_JACK                     121
 #define OBJ_EVENT_GFX_GREGORIUS                     122
-#define OBJ_EVENT_GFX_GLACIA                     123
-#define OBJ_EVENT_GFX_DRAKE                      124
+#define OBJ_EVENT_GFX_THANATOS                     123
+#define OBJ_EVENT_GFX_SHINJI                      124
 #define OBJ_EVENT_GFX_MASON                    125
 #define OBJ_EVENT_GFX_ZACH                     126
 #define OBJ_EVENT_GFX_TREVOR                    127

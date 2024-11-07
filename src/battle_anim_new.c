@@ -1146,20 +1146,20 @@ const struct SpriteTemplate gFusionFlareRedRingTemplate =
 };
 
 //fusion bolt
-static const union AffineAnimCmd sSpriteAffineAnim_DrakeStrikePlayer[] =
+static const union AffineAnimCmd sSpriteAffineAnim_ShinjiStrikePlayer[] =
 {
     AFFINEANIMCMD_FRAME(0, 0, 0xb9, 1),        //.hword 0,0,0x01b9
     AFFINEANIMCMD_END,      //.hword 0,0x7fff,0,0,0
 };
-static const union AffineAnimCmd sSpriteAffineAnim_DrakeStrikeOpponent[] = 
+static const union AffineAnimCmd sSpriteAffineAnim_ShinjiStrikeOpponent[] = 
 {
     AFFINEANIMCMD_FRAME(0, 0, 0x50, 1),    //.hword 0,0,0x0150,0,
     AFFINEANIMCMD_END,      //.hword 0x7fff,0,0,0
 };
-static const union AffineAnimCmd* const sAffineAnimCmdTable_DrakeStriking[] =  //devestating drake, fusion bolt
+static const union AffineAnimCmd* const sAffineAnimCmdTable_ShinjiStriking[] =  //devestating shinji, fusion bolt
 {
-    sSpriteAffineAnim_DrakeStrikePlayer,
-    sSpriteAffineAnim_DrakeStrikeOpponent,
+    sSpriteAffineAnim_ShinjiStrikePlayer,
+    sSpriteAffineAnim_ShinjiStrikeOpponent,
 };
 const struct SpriteTemplate gFusionBoltBallTemplate =
 {
@@ -1168,7 +1168,7 @@ const struct SpriteTemplate gFusionBoltBallTemplate =
     .oam = &gOamData_AffineNormal_ObjNormal_64x64,
     .anims = gDummySpriteAnimTable,
     .images = NULL,
-    .affineAnims = sAffineAnimCmdTable_DrakeStriking,
+    .affineAnims = sAffineAnimCmdTable_ShinjiStriking,
     .callback = AnimFlyBallAttack
 };
 
@@ -1993,15 +1993,15 @@ const struct SpriteTemplate gPrecipiceBladesPlumeTemplate =
 };
 
 //dragon ascent
-static const union AffineAnimCmd sAffineAnimCmd_Drake[] = 
+static const union AffineAnimCmd sAffineAnimCmd_Shinji[] = 
 {
-    AFFINEANIMCMD_FRAME(0, 0, 0, 1), //drake faces up
+    AFFINEANIMCMD_FRAME(0, 0, 0, 1), //shinji faces up
     AFFINEANIMCMD_END,
 };
-static const union AffineAnimCmd* const sAffineAnimCmdTable_DrakeFaceNorth[] =
+static const union AffineAnimCmd* const sAffineAnimCmdTable_ShinjiFaceNorth[] =
 {
-    sAffineAnimCmd_Drake,
-    sAffineAnimCmd_Drake,
+    sAffineAnimCmd_Shinji,
+    sAffineAnimCmd_Shinji,
 };
 const struct SpriteTemplate gDragonAscentFlyUpTemplate =
 {
@@ -2010,18 +2010,18 @@ const struct SpriteTemplate gDragonAscentFlyUpTemplate =
     .oam = &gOamData_AffineNormal_ObjNormal_64x64,
     .anims = gDummySpriteAnimTable,
     .images = NULL,
-    .affineAnims = sAffineAnimCmdTable_DrakeFaceNorth,
+    .affineAnims = sAffineAnimCmdTable_ShinjiFaceNorth,
     .callback = AnimParticleInVortex
 };
 
-const struct SpriteTemplate gDragonAscentDrakeTemplate =
+const struct SpriteTemplate gDragonAscentShinjiTemplate =
 {
     .tileTag = ANIM_TAG_DRAGON_ASCENT,
     .paletteTag = ANIM_TAG_DRAGON_ASCENT,
     .oam = &gOamData_AffineNormal_ObjNormal_64x64,
     .anims = gDummySpriteAnimTable,
     .images = NULL,
-    .affineAnims = sAffineAnimCmdTable_DrakeStriking,
+    .affineAnims = sAffineAnimCmdTable_ShinjiStriking,
     .callback = AnimFlyBallAttack
 };
 

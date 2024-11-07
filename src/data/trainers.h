@@ -3674,32 +3674,32 @@ const struct Trainer gTrainers[] = {
         .party = {.ItemCustomMoves = sParty_Gregorius},
     },
 
-    [TRAINER_GLACIA] =
+    [TRAINER_THANATOS] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
-        .trainerPic = TRAINER_PIC_ELITE_FOUR_GLACIA,
-        .trainerName = _("Glacia"),
+        .trainerPic = TRAINER_PIC_ELITE_FOUR_THANATOS,
+        .trainerName = _("Thanatos"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_Glacia),
-        .party = {.ItemCustomMoves = sParty_Glacia},
+        .partySize = ARRAY_COUNT(sParty_Thanatos),
+        .party = {.ItemCustomMoves = sParty_Thanatos},
     },
 
-    [TRAINER_DRAKE] =
+    [TRAINER_SHINJI] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_ELITE_FOUR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ELITE_FOUR,
-        .trainerPic = TRAINER_PIC_ELITE_FOUR_DRAKE,
-        .trainerName = _("Drake"),
+        .trainerPic = TRAINER_PIC_ELITE_FOUR_SHINJI,
+        .trainerName = _("Shinji"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE},
         .doubleBattle = TRUE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
-        .partySize = ARRAY_COUNT(sParty_Drake),
-        .party = {.ItemCustomMoves = sParty_Drake},
+        .partySize = ARRAY_COUNT(sParty_Shinji),
+        .party = {.ItemCustomMoves = sParty_Shinji},
     },
 
     [TRAINER_MASON_1] =

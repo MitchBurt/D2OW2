@@ -2282,16 +2282,16 @@ MatchCall_Text_Gregorius:: @ 82B3561
 	.string "has estrechado el lazo\l"
 	.string "con tus Pokémon.$"
 
-MatchCall_Text_Glacia:: @ 82B35E4
-	.string "GLACIA: Hola, {PLAYER}.\p"
+MatchCall_Text_Thanatos:: @ 82B35E4
+	.string "THANATOS: Hola, {PLAYER}.\p"
 	.string "Imagino que aún querrás\n"
 	.string "aumentar tu fuerza.\p"
 	.string "Pues, si te apetece, podríamos\n"
 	.string "vernos en la Liga Pokémon\l"
 	.string "para templar los ánimos un poco…$"
 
-MatchCall_Text_Drake:: @ 82B368B
-	.string "Drake: Tu voz me suena…\n"
+MatchCall_Text_Shinji:: @ 82B368B
+	.string "Shinji: Tu voz me suena…\n"
 	.string "Eres {PLAYER}, ¿no?\l"
 	.string "Se te oye muy alegre…\p"
 	.string "Tengo entendido que hay un sitio\n"
@@ -5239,16 +5239,16 @@ MatchCall_Text_Gregorius:: @ 82B3561
 	.string "your bond has grown with your\l"
 	.string "Pokémon.$"
 
-MatchCall_Text_Glacia:: @ 82B35E4
-	.string "Glacia: Hello, {PLAYER}.\p"
+MatchCall_Text_Thanatos:: @ 82B35E4
+	.string "Thanatos: Hello, {PLAYER}.\p"
 	.string "I trust you haven't become\n"
 	.string "complacent with your power?\p"
 	.string "If you feel the need to cool your\n"
 	.string "hot emotions just a little, do come\l"
 	.string "to the Pokémon League…$"
 
-MatchCall_Text_Drake:: @ 82B368B
-	.string "Drake: That voice… {PLAYER}, is it?\n"
+MatchCall_Text_Shinji:: @ 82B368B
+	.string "Shinji: That voice… {PLAYER}, is it?\n"
 	.string "You sound well…\p"
 	.string "I understand that there is now\n"
 	.string "a facility called the Battle\l"

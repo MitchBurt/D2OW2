@@ -11853,6 +11853,20 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .description = _("Default Description"),
     },
 
+    [SPECIES_REAPCHARGE] =
+    {
+        .move = MOVE_SHADOW_CLAW,
+        .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
+        .variable = SIGNATURE_SECONDARY_EFFECT_PARALYSIS,
+        .chance = 40,
+        .modification2 = SIGNATURE_MOD_POWER,
+        .variable2 = 85,
+        .modification3 = SIGNATURE_MOD_SECOND_TYPE,
+        .variable3 = TYPE_ELECTRIC,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+
 
 /*[SPECIES_AWMANE_MEGA] =
     {

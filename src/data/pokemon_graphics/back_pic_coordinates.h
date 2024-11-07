@@ -2370,7 +2370,7 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x86,
         .y_offset = 11,
     },
-    [SPECIES_MAMOSWINE] =
+    [SPECIES_JUBERDUKUS] =
     {
         .size = 0x87,
         .y_offset = 6,

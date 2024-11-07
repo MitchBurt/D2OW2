@@ -122,8 +122,8 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MagmaMemberM;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MagmaMemberF;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Jack;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Gregorius;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Glacia;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Drake;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Thanatos;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Shinji;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mason;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Zach;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Trevor;
@@ -1218,8 +1218,8 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_MAGMA_MEMBER_F] =           &gObjectEventGraphicsInfo_MagmaMemberF,
     [OBJ_EVENT_GFX_JACK] =                   &gObjectEventGraphicsInfo_Jack,
     [OBJ_EVENT_GFX_GREGORIUS] =                   &gObjectEventGraphicsInfo_Gregorius,
-    [OBJ_EVENT_GFX_GLACIA] =                   &gObjectEventGraphicsInfo_Glacia,
-    [OBJ_EVENT_GFX_DRAKE] =                    &gObjectEventGraphicsInfo_Drake,
+    [OBJ_EVENT_GFX_THANATOS] =                   &gObjectEventGraphicsInfo_Thanatos,
+    [OBJ_EVENT_GFX_SHINJI] =                    &gObjectEventGraphicsInfo_Shinji,
     [OBJ_EVENT_GFX_MASON] =                  &gObjectEventGraphicsInfo_Mason,
     [OBJ_EVENT_GFX_ZACH] =                   &gObjectEventGraphicsInfo_Zach,
     [OBJ_EVENT_GFX_TREVOR] =                  &gObjectEventGraphicsInfo_Trevor,

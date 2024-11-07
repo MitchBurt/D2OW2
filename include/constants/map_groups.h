@@ -345,8 +345,8 @@
 // gMapGroup16
 #define MAP_EVER_GRANDE_CITY_JACKS_ROOM      (0 | (16 << 8))
 #define MAP_EVER_GRANDE_CITY_GREGORIUSS_ROOM      (1 | (16 << 8))
-#define MAP_EVER_GRANDE_CITY_GLACIAS_ROOM      (2 | (16 << 8))
-#define MAP_EVER_GRANDE_CITY_DRAKES_ROOM       (3 | (16 << 8))
+#define MAP_EVER_GRANDE_CITY_THANATOSS_ROOM      (2 | (16 << 8))
+#define MAP_EVER_GRANDE_CITY_SHINJIS_ROOM       (3 | (16 << 8))
 #define MAP_EVER_GRANDE_CITY_CHAMPIONS_ROOM    (4 | (16 << 8))
 #define MAP_EVER_GRANDE_CITY_HALL1             (5 | (16 << 8))
 #define MAP_EVER_GRANDE_CITY_HALL2             (6 | (16 << 8))

@@ -11182,7 +11182,7 @@ static const u8 sGliscorTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sMamoswineTutorLearnset[] =
+static const u8 sJuberdukusTutorLearnset[] =
 {
     TUTOR(MOVE_BODY_SLAM),
     TUTOR(MOVE_DOUBLE_EDGE),
@@ -20194,7 +20194,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_LEAFEON] = sLeafeonTutorLearnset,
     [SPECIES_GLACEON] = sGlaceonTutorLearnset,
     [SPECIES_GLISCOR] = sGliscorTutorLearnset,
-    [SPECIES_MAMOSWINE] = sMamoswineTutorLearnset,
+    [SPECIES_JUBERDUKUS] = sJuberdukusTutorLearnset,
     [SPECIES_HELLSPACK] = sHellspackTutorLearnset,
     [SPECIES_GALLADE] = sGalladeTutorLearnset,
     [SPECIES_PROBOPASS] = sProbopassTutorLearnset,

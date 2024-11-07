@@ -5677,12 +5677,12 @@ const struct PokedexEntry gPokedexEntries[] =
 		.trainerOffset = 0,
 	},
 
-	[NATIONAL_DEX_MAMOSWINE] =
+	[NATIONAL_DEX_JUBERDUKUS] =
 	{
 		.categoryName = _("Twin Tusk"),
 		.height = 25,
 		.weight = 2910,
-		.description = gMamoswinePokedexText,
+		.description = gJuberdukusPokedexText,
 		.pokemonScale = 356,
 		.pokemonOffset = 17,
 		.trainerScale = 256,
@@ -16467,12 +16467,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_MAMOSWINE] =
+    [NATIONAL_DEX_JUBERDUKUS] =
     {
         .categoryName = _("Twin Tusk"),
         .height = 25,
         .weight = 2910,
-        .description = gMamoswinePokedexText,
+        .description = gJuberdukusPokedexText,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,

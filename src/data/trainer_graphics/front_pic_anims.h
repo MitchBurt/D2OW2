@@ -150,11 +150,11 @@ static const union AnimCmd *const sAnims_EliteFourGregorius[] ={
     sAnim_GeneralFrame0,
 };
 
-static const union AnimCmd *const sAnims_EliteFourGlacia[] ={
+static const union AnimCmd *const sAnims_EliteFourThanatos[] ={
     sAnim_GeneralFrame0,
 };
 
-static const union AnimCmd *const sAnims_EliteFourDrake[] ={
+static const union AnimCmd *const sAnims_EliteFourShinji[] ={
     sAnim_GeneralFrame0,
 };
 
@@ -414,8 +414,8 @@ const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
     [TRAINER_PIC_GENTLEMAN] = sAnims_Gentleman,
     [TRAINER_PIC_ELITE_FOUR_JACK] = sAnims_EliteFourJack,
     [TRAINER_PIC_ELITE_FOUR_GREGORIUS] = sAnims_EliteFourGregorius,
-    [TRAINER_PIC_ELITE_FOUR_GLACIA] = sAnims_EliteFourGlacia,
-    [TRAINER_PIC_ELITE_FOUR_DRAKE] = sAnims_EliteFourDrake,
+    [TRAINER_PIC_ELITE_FOUR_THANATOS] = sAnims_EliteFourThanatos,
+    [TRAINER_PIC_ELITE_FOUR_SHINJI] = sAnims_EliteFourShinji,
     [TRAINER_PIC_LEADER_MASON] = sAnims_LeaderMason,
     [TRAINER_PIC_LEADER_ZACH] = sAnims_LeaderZach,
     [TRAINER_PIC_LEADER_TREVOR] = sAnims_LeaderTrevor,

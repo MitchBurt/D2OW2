@@ -910,15 +910,15 @@ void DrawMainBattleBackground(void)
             LZDecompressVram(gBattleTerrainTilemap_Stadium, (void*)(BG_SCREEN_ADDR(26)));
             LoadCompressedPalette(gBattleTerrainPalette_StadiumGregorius, 0x20, 0x60);
             break;
-        case MAP_BATTLE_SCENE_GLACIA:
+        case MAP_BATTLE_SCENE_THANATOS:
             LZDecompressVram(gBattleTerrainTiles_Stadium, (void*)(BG_CHAR_ADDR(2)));
             LZDecompressVram(gBattleTerrainTilemap_Stadium, (void*)(BG_SCREEN_ADDR(26)));
-            LoadCompressedPalette(gBattleTerrainPalette_StadiumGlacia, 0x20, 0x60);
+            LoadCompressedPalette(gBattleTerrainPalette_StadiumThanatos, 0x20, 0x60);
             break;
-        case MAP_BATTLE_SCENE_DRAKE:
+        case MAP_BATTLE_SCENE_SHINJI:
             LZDecompressVram(gBattleTerrainTiles_Stadium, (void*)(BG_CHAR_ADDR(2)));
             LZDecompressVram(gBattleTerrainTilemap_Stadium, (void*)(BG_SCREEN_ADDR(26)));
-            LoadCompressedPalette(gBattleTerrainPalette_StadiumDrake, 0x20, 0x60);
+            LoadCompressedPalette(gBattleTerrainPalette_StadiumShinji, 0x20, 0x60);
             break;
         case MAP_BATTLE_SCENE_FRONTIER:
             LZDecompressVram(gBattleTerrainTiles_Building, (void*)(BG_CHAR_ADDR(2)));
@@ -1344,10 +1344,10 @@ bool8 LoadChosenBattleElement(u8 caseId)
             case MAP_BATTLE_SCENE_GREGORIUS:
                 LZDecompressVram(gBattleTerrainTiles_Stadium, (void*)(BG_CHAR_ADDR(2)));
                 break;
-            case MAP_BATTLE_SCENE_GLACIA:
+            case MAP_BATTLE_SCENE_THANATOS:
                 LZDecompressVram(gBattleTerrainTiles_Stadium, (void*)(BG_CHAR_ADDR(2)));
                 break;
-            case MAP_BATTLE_SCENE_DRAKE:
+            case MAP_BATTLE_SCENE_SHINJI:
                 LZDecompressVram(gBattleTerrainTiles_Stadium, (void*)(BG_CHAR_ADDR(2)));
                 break;
             case MAP_BATTLE_SCENE_FRONTIER:
@@ -1406,10 +1406,10 @@ bool8 LoadChosenBattleElement(u8 caseId)
             case MAP_BATTLE_SCENE_GREGORIUS:
                 LZDecompressVram(gBattleTerrainTilemap_Stadium, (void*)(BG_SCREEN_ADDR(26)));
                 break;
-            case MAP_BATTLE_SCENE_GLACIA:
+            case MAP_BATTLE_SCENE_THANATOS:
                 LZDecompressVram(gBattleTerrainTilemap_Stadium, (void*)(BG_SCREEN_ADDR(26)));
                 break;
-            case MAP_BATTLE_SCENE_DRAKE:
+            case MAP_BATTLE_SCENE_SHINJI:
                 LZDecompressVram(gBattleTerrainTilemap_Stadium, (void*)(BG_SCREEN_ADDR(26)));
                 break;
             case MAP_BATTLE_SCENE_FRONTIER:
@@ -1468,11 +1468,11 @@ bool8 LoadChosenBattleElement(u8 caseId)
             case MAP_BATTLE_SCENE_GREGORIUS:
                 LoadCompressedPalette(gBattleTerrainPalette_StadiumGregorius, 0x20, 0x60);
                 break;
-            case MAP_BATTLE_SCENE_GLACIA:
-                LoadCompressedPalette(gBattleTerrainPalette_StadiumGlacia, 0x20, 0x60);
+            case MAP_BATTLE_SCENE_THANATOS:
+                LoadCompressedPalette(gBattleTerrainPalette_StadiumThanatos, 0x20, 0x60);
                 break;
-            case MAP_BATTLE_SCENE_DRAKE:
-                LoadCompressedPalette(gBattleTerrainPalette_StadiumDrake, 0x20, 0x60);
+            case MAP_BATTLE_SCENE_SHINJI:
+                LoadCompressedPalette(gBattleTerrainPalette_StadiumShinji, 0x20, 0x60);
                 break;
             case MAP_BATTLE_SCENE_FRONTIER:
                 LoadCompressedPalette(gBattleTerrainPalette_Frontier, 0x20, 0x60);

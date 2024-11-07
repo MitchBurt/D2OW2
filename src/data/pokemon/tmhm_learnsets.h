@@ -19128,7 +19128,7 @@ static const u8 sGliscorTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sMamoswineTMHMLearnset[] =
+static const u8 sJuberdukusTMHMLearnset[] =
 {
     TMHM(TM05_ROAR),
     TMHM(TM06_TOXIC),
@@ -36643,7 +36643,7 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_LEAFEON] = sLeafeonTMHMLearnset,
     [SPECIES_GLACEON] = sGlaceonTMHMLearnset,
     [SPECIES_GLISCOR] = sGliscorTMHMLearnset,
-    [SPECIES_MAMOSWINE] = sMamoswineTMHMLearnset,
+    [SPECIES_JUBERDUKUS] = sJuberdukusTMHMLearnset,
     [SPECIES_HELLSPACK] = sHellspackTMHMLearnset,
     [SPECIES_GALLADE] = sGalladeTMHMLearnset,
     [SPECIES_PROBOPASS] = sProbopassTMHMLearnset,

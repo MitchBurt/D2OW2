@@ -2275,8 +2275,8 @@ Cry_Gliscor::
 	.incbin "sound/direct_sound_samples/cries/cry_not_gliscor.bin"
 
 	.align 2
-Cry_Mamoswine::
-	.incbin "sound/direct_sound_samples/cries/cry_not_mamoswine.bin"
+Cry_Juberdukus::
+	.incbin "sound/direct_sound_samples/cries/cry_not_juberdukus.bin"
 
 	.align 2
 Cry_Hellspack::

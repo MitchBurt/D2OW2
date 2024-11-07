@@ -222,10 +222,10 @@ const u32 gObjectEventPic_Jack[] 				= INCBIN_U32("graphics/object_events/pics/p
 const u16 gObjectEventPal_Jack[] 				= INCBIN_U16("graphics/object_events/pics/people/elite_four/jack.gbapal");
 const u32 gObjectEventPic_Gregorius[] 				= INCBIN_U32("graphics/object_events/pics/people/elite_four/gregorius.4bpp");
 const u16 gObjectEventPal_Gregorius[] 				= INCBIN_U16("graphics/object_events/pics/people/elite_four/gregorius.gbapal");
-const u32 gObjectEventPic_Glacia[] 				= INCBIN_U32("graphics/object_events/pics/people/elite_four/glacia.4bpp");
-const u16 gObjectEventPal_Glacia[] 				= INCBIN_U16("graphics/object_events/pics/people/elite_four/glacia.gbapal");
-const u32 gObjectEventPic_Drake[] 				= INCBIN_U32("graphics/object_events/pics/people/elite_four/drake.4bpp");
-const u16 gObjectEventPal_Drake[] 				= INCBIN_U16("graphics/object_events/pics/people/elite_four/drake.gbapal");
+const u32 gObjectEventPic_Thanatos[] 				= INCBIN_U32("graphics/object_events/pics/people/elite_four/thanatos.4bpp");
+const u16 gObjectEventPal_Thanatos[] 				= INCBIN_U16("graphics/object_events/pics/people/elite_four/thanatos.gbapal");
+const u32 gObjectEventPic_Shinji[] 				= INCBIN_U32("graphics/object_events/pics/people/elite_four/shinji.4bpp");
+const u16 gObjectEventPal_Shinji[] 				= INCBIN_U16("graphics/object_events/pics/people/elite_four/shinji.gbapal");
 //Gym Leaders
 const u32 gObjectEventPic_Mason[] 		= INCBIN_U32("graphics/object_events/pics/people/gym_leaders/mason.4bpp");
 const u16 gObjectEventPalette_Mason[]     = INCBIN_U16("graphics/object_events/pics/people/gym_leaders/mason.gbapal");

@@ -5543,7 +5543,7 @@ static const union AnimCmd sAnim_GLISCOR_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_MAMOSWINE_1[] =
+static const union AnimCmd sAnim_JUBERDUKUS_1[] =
 {
     ANIMCMD_FRAME(0, 30),
     ANIMCMD_FRAME(1, 30),
@@ -11719,9 +11719,9 @@ static const union AnimCmd *const sAnims_GLISCOR[] ={
     sAnim_GLISCOR_1,
 };
 
-static const union AnimCmd *const sAnims_MAMOSWINE[] ={
+static const union AnimCmd *const sAnims_JUBERDUKUS[] ={
     sAnim_GeneralFrame0,
-    sAnim_MAMOSWINE_1,
+    sAnim_JUBERDUKUS_1,
 };
 
 static const union AnimCmd *const sAnims_HELLSPACK[] ={
@@ -14891,7 +14891,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(LEAFEON),
     ANIM_CMD(GLACEON),
     ANIM_CMD(GLISCOR),
-    ANIM_CMD(MAMOSWINE),
+    ANIM_CMD(JUBERDUKUS),
     ANIM_CMD(HELLSPACK),
     ANIM_CMD(GALLADE),
     ANIM_CMD(PROBOPASS),
