@@ -2400,7 +2400,7 @@ const struct Trainer gTrainers[] = {
         .party = {.NoItemDefaultMoves = sParty_Kevin},
     },
 
-    [TRAINER_JACK] =
+    [TRAINER_JACKL] =
     {
         .partyFlags = 0,
         .trainerClass = TRAINER_CLASS_SWIMMER_M,
