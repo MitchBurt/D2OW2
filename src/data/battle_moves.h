@@ -12819,7 +12819,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .variable4 = SPLIT_PHYSICAL,
         .differentDescription = FALSE,
         .description = _("Default Description"),
-    },   */
+    },   
     [SPECIES_TORTERRA] =
     {
         .move = MOVE_WOOD_HAMMER,
@@ -13227,4 +13227,5 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
+    */
 };
