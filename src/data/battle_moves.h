@@ -11877,16 +11877,16 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
     [SPECIES_RISKPOPOLY] =
     {
         .move = MOVE_PAY_DAY,
-        .modification2 = SIGNATURE_MOD_POWER,
-        .variable2 = 110,
+        .modification = SIGNATURE_MOD_POWER,
+        .variable = 110,
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
     [SPECIES_TERRIPEDE] =
     {
         .move = MOVE_STEAMROLLER,
-        .modification2 = SIGNATURE_MOD_POWER,
-        .variable2 = 100,
+        .modification = SIGNATURE_MOD_POWER,
+        .variable = 100,
         .modification2 = SIGNATURE_MOD_SECOND_TYPE,
         .variable2 = TYPE_GHOST,
         .differentDescription = FALSE,
@@ -12915,24 +12915,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_EQUEMBRYO] =
-    {
-        .move = MOVE_SUCKER_PUNCH,
-        .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
-        .variable = SIGNATURE_SECONDARY_EFFECT_TAUNT,
-        .chance = 20,
-        .differentDescription = FALSE,
-        .description = _("Default Description"),
-    },
-    [SPECIES_TERRIPEDE] =
-    {
-        .move = MOVE_SUCKER_PUNCH,
-        .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
-        .variable = SIGNATURE_SECONDARY_EFFECT_TAUNT,
-        .chance = 30,
-        .differentDescription = FALSE,
-        .description = _("Default Description"),
-    },
+
     [SPECIES_BLOKNOCK] =
     {
         .move = MOVE_AURA_SPHERE,
