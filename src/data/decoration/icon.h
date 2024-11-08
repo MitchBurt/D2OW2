@@ -118,7 +118,7 @@ const u32 *const gDecorIconTable[][2] =
     [DECOR_SKORPYROS_DOLL]  = {gDecorIcon_SkorpyrosDoll, gDecorIconPalette_SkorpyrosDoll},
     [DECOR_SPERIATHON_DOLL]  = {gDecorIcon_SperiathonDoll, gDecorIconPalette_SperiathonDoll},
     [DECOR_SHRIMPOT_DOLL]    = {gDecorIcon_ShrimpotDoll, gDecorIconPalette_ShrimpotDoll},
-    [DECOR_REGIROCK_DOLL]   = {gDecorIcon_RegirockDoll, gDecorIconPalette_RegirockDoll},
+    [DECOR_BEERIO_DOLL]   = {gDecorIcon_BeerioDoll, gDecorIconPalette_BeerioDoll},
     [DECOR_REGICE_DOLL]     = {gDecorIcon_RegiceDoll, gDecorIconPalette_RegiceDoll},
     [DECOR_NAWFFLE_DOLL]  = {gDecorIcon_NawffleDoll, gDecorIconPalette_NawffleDoll}
 };

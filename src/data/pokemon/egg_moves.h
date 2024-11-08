@@ -3250,7 +3250,7 @@ const u16 gEggMoves[] = {
 		MOVE_POISON_TAIL,
 		MOVE_NIGHT_SLASH),
 
-	egg_moves(CROAGUNK,
+	egg_moves(EQUEMBRYO,
 		MOVE_HEADBUTT,
 		MOVE_COUNTER,
 		MOVE_DYNAMIC_PUNCH,

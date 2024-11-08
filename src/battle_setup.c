@@ -907,9 +907,9 @@ void BattleSetup_StartScriptedWildBattle(void)
     gBattleTypeFlags = 0;
     switch (GetMonData(&gEnemyParty[0], MON_DATA_SPECIES, NULL))
     {
-    case SPECIES_REGIROCK:
+    case SPECIES_BEERIO:
         gBattleTypeFlags = BATTLE_TYPE_LEGENDARY;
-        CreateBattleStartTask(B_TRANSITION_REGIROCK, MUS_VS_REGI);
+        CreateBattleStartTask(B_TRANSITION_BEERIO, MUS_VS_REGI);
         break;
     case SPECIES_REGICE:
         gBattleTypeFlags = BATTLE_TYPE_LEGENDARY;
@@ -951,7 +951,7 @@ void BattleSetup_StartScriptedWildBattle(void)
     case SPECIES_HEATRAN:
     case SPECIES_SHAYMIN:
     case SPECIES_TERRAKION:
-    case SPECIES_DIANCIE:
+    case SPECIES_RISKPOPOLY:
     case SPECIES_VOLCANION:
     case SPECIES_LATIOS:
     case SPECIES_LATIAS:
@@ -1062,8 +1062,8 @@ void StartRegiBattle(void)
     species = GetMonData(&gEnemyParty[0], MON_DATA_SPECIES);
     switch (species)
     {
-    case SPECIES_REGIROCK:
-        transitionId = B_TRANSITION_REGIROCK;
+    case SPECIES_BEERIO:
+        transitionId = B_TRANSITION_BEERIO;
         break;
     case SPECIES_REGICE:
         transitionId = B_TRANSITION_REGICE;

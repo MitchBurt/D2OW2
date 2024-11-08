@@ -1,7 +1,7 @@
 {
-  "id": "MAP_GRANITE_CAVE_DIANCIE_ROOM",
-  "name": "GraniteCave_DiancieRoom",
-  "layout": "LAYOUT_GRANITE_CAVE_DIANCIE_ROOM",
+  "id": "MAP_GRANITE_CAVE_RISKPOPOLY_ROOM",
+  "name": "GraniteCave_RiskpopolyRoom",
+  "layout": "LAYOUT_GRANITE_CAVE_RISKPOPOLY_ROOM",
   "music": "MUS_PETALBURG_WOODS",
   "region_map_section": "MAPSEC_GRANITE_CAVE",
   "requires_flash": false,
@@ -24,8 +24,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "GraniteCave_DiancieRoom_EventScript_Diance",
-      "flag": "FLAG_DEFEATED_DIANCIE"
+      "script": "GraniteCave_RiskpopolyRoom_EventScript_Diance",
+      "flag": "FLAG_DEFEATED_RISKPOPOLY"
     }
   ],
   "warp_events": [

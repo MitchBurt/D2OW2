@@ -2700,7 +2700,7 @@ static const u8 sJankiteDesc[] = _(
 static const u8 sShepeirditeDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Diancie.");
+    "Riskpopoly.");
 
 static const u8 sRockiteDesc[] = _(
     "Piedra que permite\n"
@@ -5932,7 +5932,7 @@ static const u8 sJankiteDesc[] = _(
 
 static const u8 sShepeirditeDesc[] = _(
     "This stone enables\n"
-    "Diancie to Mega\n"
+    "Riskpopoly to Mega\n"
     "Evolve in battle.");
 
 static const u8 sRockiteDesc[] = _(

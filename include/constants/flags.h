@@ -352,7 +352,7 @@
 #define FLAG_MYSTERY_GIFT_SKIPPA_POP_STAR      0x142
 #define FLAG_MYSTERY_GIFT_ETERNAL_FLOETTE       0x143
 #define FLAG_MYSTERY_GIFT_SHINY_YELLEYE          0x144
-#define FLAG_MYSTERY_GIFT_DIANCIE       	    0x145
+#define FLAG_MYSTERY_GIFT_RISKPOPOLY       	    0x145
 #define FLAG_MYSTERY_GIFT_SHINY_EEMOJEE           0x146
 #define FLAG_MYSTERY_GIFT_BEES_UNSC          0x147
 #define FLAG_MYSTERY_GIFT_CHRISTMAS_ABSTRATIC    0x148
@@ -478,7 +478,7 @@
 #define FLAG_MOVE_TUTOR_TAUGHT_DYNAMICPUNCH  0x1B8
 #define FLAG_MOVE_TUTOR_TAUGHT_DOUBLE_EDGE   0x1B9
 #define FLAG_RECEIVED_PACIFIDLOG_TM_EXPLOSION 0x1BA
-#define FLAG_DEFEATED_REGIROCK               0x1BB
+#define FLAG_DEFEATED_BEERIO               0x1BB
 #define FLAG_DEFEATED_REGICE                 0x1BC
 #define FLAG_DEFEATED_NAWFFLE              0x1BD
 #define FLAG_DEFEATED_KRAKRUM                 0x1BE
@@ -981,7 +981,7 @@
 #define FLAG_HIDE_RUSTURF_TUNNEL_ROCK_2                             0x3A4
 #define FLAG_HIDE_FORTREE_CITY_HOUSE_4_WINGULL                      0x3A5
 #define FLAG_HIDE_MOSSDEEP_CITY_HOUSE_2_WINGULL                     0x3A6
-#define FLAG_HIDE_REGIROCK                                          0x3A7
+#define FLAG_HIDE_BEERIO                                          0x3A7
 #define FLAG_HIDE_REGICE                                            0x3A8
 #define FLAG_HIDE_NAWFFLE                                         0x3A9
 #define FLAG_HIDE_METEOR_FALLS_TEAM_AQUA                            0x3AA
@@ -1259,7 +1259,7 @@
 #define FLAG_DEFEATED_XERNEAS                                       0x4BA // Xerneas
 #define FLAG_DEFEATED_YVELTAL                                       0x4BB // Yveltal
 #define FLAG_DEFEATED_ZYGARDE                                       0x4BC // Zygarde
-#define FLAG_DEFEATED_DIANCIE                                       0x4BD // Diancie
+#define FLAG_DEFEATED_RISKPOPOLY                                       0x4BD // Riskpopoly
 #define FLAG_DEFEATED_HOOPA                                         0x4BE // Hoopa
 #define FLAG_DEFEATED_VOLCANION                                     0x4BF // Volcanion
 #define FLAG_UNUSED_0x4C0                                           0x4C0 // Tapu Koko
@@ -1424,7 +1424,7 @@
 #define FLAG_SYS_ENC_UP_ITEM                        (SYSTEM_FLAGS + 0x4D)
 #define FLAG_SYS_ENC_DOWN_ITEM                      (SYSTEM_FLAGS + 0x4E)
 #define FLAG_SYS_BRAILLE_DIG                        (SYSTEM_FLAGS + 0x4F)
-#define FLAG_SYS_REGIROCK_PUZZLE_COMPLETED          (SYSTEM_FLAGS + 0x50)
+#define FLAG_SYS_BEERIO_PUZZLE_COMPLETED          (SYSTEM_FLAGS + 0x50)
 #define FLAG_SYS_BRAILLE_REGICE_COMPLETED           (SYSTEM_FLAGS + 0x51)
 #define FLAG_SYS_NAWFFLE_PUZZLE_COMPLETED         (SYSTEM_FLAGS + 0x52)
 #define FLAG_ENABLE_SHIP_SOUTHERN_ISLAND            (SYSTEM_FLAGS + 0x53)

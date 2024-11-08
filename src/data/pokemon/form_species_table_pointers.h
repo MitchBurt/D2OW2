@@ -37,7 +37,7 @@ const u16 *const gFormSpeciesIdTables[NUM_SPECIES] =
     [SPECIES_GOURGEIST] = sGourgeistFormSpeciesIdTable,
     [SPECIES_XERNEAS] = sXerneasFormSpeciesIdTable,
     [SPECIES_ZYGARDE] = sZygardeFormSpeciesIdTable,
-    [SPECIES_DIANCIE] = sDiancieFormSpeciesIdTable,
+    [SPECIES_RISKPOPOLY] = sRiskpopolyFormSpeciesIdTable,
     [SPECIES_HOOPA] = sHoopaFormSpeciesIdTable,
     [SPECIES_ORICORIO] = sOricorioFormSpeciesIdTable,
     [SPECIES_ROCKRUFF] = sRockruffFormSpeciesIdTable,
@@ -73,7 +73,7 @@ const u16 *const gFormSpeciesIdTables[NUM_SPECIES] =
     [SPECIES_ABOMASNOW_MEGA] = sAbomasnowFormSpeciesIdTable,
     [SPECIES_GALLADE_MEGA] = sGalladeFormSpeciesIdTable,
     [SPECIES_UNJOY_MEGA] = sUnjoyFormSpeciesIdTable,
-    [SPECIES_DIANCIE_MEGA] = sDiancieFormSpeciesIdTable,
+    [SPECIES_RISKPOPOLY_MEGA] = sRiskpopolyFormSpeciesIdTable,
     // Special Mega + Primals
     /*[SPECIES_RAYQUAZA_MEGA] = sRayquazaFormSpeciesIdTable,
     [SPECIES_KRAKRUM_PRIMAL] = sKrakrumFormSpeciesIdTable,
@@ -381,7 +381,7 @@ const u16 gBaseFormID[NUM_SPECIES] =
     [SPECIES_LOPUNNY_MEGA] = SPECIES_LOPUNNY,
     [SPECIES_ABOMASNOW_MEGA] = SPECIES_ABOMASNOW,
     [SPECIES_GALLADE_MEGA] = SPECIES_GALLADE,
-    [SPECIES_DIANCIE_MEGA] = SPECIES_DIANCIE,
+    [SPECIES_RISKPOPOLY_MEGA] = SPECIES_RISKPOPOLY,
     // Special Mega + Primals
     /*[SPECIES_RAYQUAZA_MEGA] = SPECIES_RAYQUAZA,
     [SPECIES_KRAKRUM_PRIMAL] = SPECIES_KRAKRUM,

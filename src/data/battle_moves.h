@@ -11866,6 +11866,32 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
+    [SPECIES_PANTS] =
+    {
+        .move = MOVE_HI_JUMP_KICK,
+        .modification = SIGNATURE_MOD_ACCURACY,
+        .variable = 100,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+    [SPECIES_RISKPOPOLY] =
+    {
+        .move = MOVE_PAY_DAY,
+        .modification2 = SIGNATURE_MOD_POWER,
+        .variable2 = 110,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+    [SPECIES_TERRIPEDE] =
+    {
+        .move = MOVE_STEAMROLLER,
+        .modification2 = SIGNATURE_MOD_POWER,
+        .variable2 = 100,
+        .modification2 = SIGNATURE_MOD_SECOND_TYPE,
+        .variable2 = TYPE_GHOST,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
 
 
 /*[SPECIES_AWMANE_MEGA] =
@@ -12768,7 +12794,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_REGIROCK] =
+    [SPECIES_BEERIO] =
     {
         .move = MOVE_ANCIENT_POWER,
         .modification = SIGNATURE_MOD_POWER,
@@ -12889,7 +12915,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_CROAGUNK] =
+    [SPECIES_EQUEMBRYO] =
     {
         .move = MOVE_SUCKER_PUNCH,
         .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
@@ -12898,7 +12924,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_TOXICROAK] =
+    [SPECIES_TERRIPEDE] =
     {
         .move = MOVE_SUCKER_PUNCH,
         .modification = SIGNATURE_MOD_SECONDARY_EFFECT,

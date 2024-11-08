@@ -2303,8 +2303,8 @@ const struct SpriteFrameImage gObjectEventPicTable_BigShrimpotDoll[] = {
     obj_frame_tiles(gObjectEventPic_BigShrimpotDoll),
 };
 
-const struct SpriteFrameImage gObjectEventPicTable_BigRegirockDoll[] = {
-    obj_frame_tiles(gObjectEventPic_BigRegirockDoll),
+const struct SpriteFrameImage gObjectEventPicTable_BigBeerioDoll[] = {
+    obj_frame_tiles(gObjectEventPic_BigBeerioDoll),
 };
 
 const struct SpriteFrameImage gObjectEventPicTable_BigRegiceDoll[] = {

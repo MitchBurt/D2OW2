@@ -46,7 +46,7 @@ enum // TRANSITION_MUGSHOT
 #define B_TRANSITION_MAGMA                                     18
 #define B_TRANSITION_REGICE                                    19
 #define B_TRANSITION_NAWFFLE                                 20
-#define B_TRANSITION_REGIROCK                                  21
+#define B_TRANSITION_BEERIO                                  21
 #define B_TRANSITION_KRAKRUM                                    22
 #define B_TRANSITION_NOIRNET                                   23
 #define B_TRANSITION_RAYQUAZA                                  24

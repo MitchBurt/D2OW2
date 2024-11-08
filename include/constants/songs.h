@@ -736,7 +736,7 @@
 #define PL_SEQ_PL_POINTGET3           715 // Received Battle Points!
 #define PL_SEQ_PL_BA_BRAIN            716 // Battle! (Frontier Brain)
 #define PL_SEQ_PL_WINBRAIN            717 // Victory! (Frontier Brain)
-#define PL_SEQ_PL_BA_REGI             718 // Battle! (Regirock / Regice / Nawffle / Regigigas)
+#define PL_SEQ_PL_BA_REGI             718 // Battle! (Beerio / Regice / Nawffle / Regigigas)
  
 // HeartGold & SoulSilver Music 
 #define HG_SEQ_GS_TITLE               719 // Opening Movie

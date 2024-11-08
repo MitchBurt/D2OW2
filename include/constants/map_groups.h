@@ -128,7 +128,7 @@
 #define MAP_CINNABAR_ISLAND                       (119 | (0 << 8))
 #define MAP_ROUTE21_SOUTH                         (120 | (0 << 8))
 #define MAP_ROUTER1062                            (121 | (0 << 8))
-#define MAP_GRANITE_CAVE_DIANCIE_ROOM             (122 | (0 << 8))
+#define MAP_GRANITE_CAVE_RISKPOPOLY_ROOM          (122 | (0 << 8))
 #define MAP_FOUR_ISLAND                           (123 | (0 << 8))
 
 // gMapGroup1
@@ -343,10 +343,10 @@
 #define MAP_SOOTOPOLIS_CITY_MYSTERY_EVENTS_HOUSE_B1F (14 | (15 << 8))
 
 // gMapGroup16
-#define MAP_EVER_GRANDE_CITY_JACKS_ROOM      (0 | (16 << 8))
-#define MAP_EVER_GRANDE_CITY_GREGORIUSS_ROOM      (1 | (16 << 8))
-#define MAP_EVER_GRANDE_CITY_THANATOSS_ROOM      (2 | (16 << 8))
-#define MAP_EVER_GRANDE_CITY_SHINJIS_ROOM       (3 | (16 << 8))
+#define MAP_EVER_GRANDE_CITY_JACKS_ROOM        (0 | (16 << 8))
+#define MAP_EVER_GRANDE_CITY_GREGORIUSS_ROOM   (1 | (16 << 8))
+#define MAP_EVER_GRANDE_CITY_THANATOSS_ROOM    (2 | (16 << 8))
+#define MAP_EVER_GRANDE_CITY_SHINJIS_ROOM      (3 | (16 << 8))
 #define MAP_EVER_GRANDE_CITY_CHAMPIONS_ROOM    (4 | (16 << 8))
 #define MAP_EVER_GRANDE_CITY_HALL1             (5 | (16 << 8))
 #define MAP_EVER_GRANDE_CITY_HALL2             (6 | (16 << 8))

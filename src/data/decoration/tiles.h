@@ -630,8 +630,8 @@ const u16 DecorGfx_SHRIMPOT_DOLL[] = {
     OBJ_EVENT_GFX_BIG_SHRIMPOT_DOLL
 };
 
-const u16 DecorGfx_REGIROCK_DOLL[] = {
-    OBJ_EVENT_GFX_BIG_REGIROCK_DOLL
+const u16 DecorGfx_BEERIO_DOLL[] = {
+    OBJ_EVENT_GFX_BIG_BEERIO_DOLL
 };
 
 const u16 DecorGfx_REGICE_DOLL[] = {

@@ -1891,8 +1891,8 @@ Cry_Hazethoth::
 	.incbin "sound/direct_sound_samples/cries/cry_hazethoth.bin"
 
 	.align 2
-Cry_Regirock::
-	.incbin "sound/direct_sound_samples/cries/cry_regirock.bin"
+Cry_Beerio::
+	.incbin "sound/direct_sound_samples/cries/cry_beerio.bin"
 
 	.align 2
 Cry_Regice::
@@ -2195,12 +2195,12 @@ Cry_Drapion::
 	.incbin "sound/direct_sound_samples/cries/cry_not_drapion.bin"
 
 	.align 2
-Cry_Croagunk::
-	.incbin "sound/direct_sound_samples/cries/cry_not_croagunk.bin"
+Cry_Equembryo::
+	.incbin "sound/direct_sound_samples/cries/cry_not_equembryo.bin"
 
 	.align 2
-Cry_Toxicroak::
-	.incbin "sound/direct_sound_samples/cries/cry_not_toxicroak.bin"
+Cry_Terripede::
+	.incbin "sound/direct_sound_samples/cries/cry_not_terripede.bin"
 
 	.align 2
 Cry_Carnivine::
@@ -3259,8 +3259,8 @@ Cry_Zygarde::
 	.incbin "sound/direct_sound_samples/cries/cry_not_zygarde.bin"
 
 	.align 2
-Cry_Diancie::
-	.incbin "sound/direct_sound_samples/cries/cry_not_diancie.bin"
+Cry_Riskpopoly::
+	.incbin "sound/direct_sound_samples/cries/cry_not_riskpopoly.bin"
 
 	.align 2
 Cry_Hoopa::
@@ -4155,8 +4155,8 @@ Cry_UNJOY_MEGA::
 	.incbin "sound/direct_sound_samples/cries/cry_not_audino.bin"
 
 	.align 2
-Cry_Diancie_Mega::
-	.incbin "sound/direct_sound_samples/cries/cry_not_diancie.bin"
+Cry_Riskpopoly_Mega::
+	.incbin "sound/direct_sound_samples/cries/cry_not_riskpopoly.bin"
 
 	.align 2
 Cry_Rayquaza_Mega::

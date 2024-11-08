@@ -32,7 +32,7 @@ enum {
 	CARD_SKIPPA_POP_STAR,
 	CARD_AZ_FLOETTE,
 	CARD_SHINY_YELLEYE,
-	CARD_DIANCIE,
+	CARD_RISKPOPOLY,
 	CARD_SHINY_EEMOJEE,
 	CARD_BEE_UNSC,
 	CARD_CHRISTMASS_ABSTRATIC,
@@ -209,17 +209,17 @@ struct WonderCard gSavedWonderCard[] =
 		.footerLine1Text 		= _("Please continue playing"),
 		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
 	},
-	[CARD_DIANCIE] =
+	[CARD_RISKPOPOLY] =
     {
-		.flagId 				= FLAG_MYSTERY_GIFT_DIANCIE,
-		.iconSpecies 			= SPECIES_DIANCIE,
-		.idNumber 				= CARD_DIANCIE,
+		.flagId 				= FLAG_MYSTERY_GIFT_RISKPOPOLY,
+		.iconSpecies 			= SPECIES_RISKPOPOLY,
+		.idNumber 				= CARD_RISKPOPOLY,
 		.type 					= 0,
 		.bgType 				= CARD_BG_SILVER,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
 		.titleText 				= _("Pokémon D.R.L.O."),
-		.subtitleText 			= _("It's the Mythical Pokémon Diancie!"),
+		.subtitleText 			= _("It's the Mythical Pokémon Riskpopoly!"),
 		.bodyText 				= _("Like a diamond, this Pokémon is rare and"
 									"beautiful. It's holding a Mega Stone, so"
 									"it will be able to Mega Evolve in       "
@@ -572,7 +572,7 @@ static const u16 sMysteryGiftFlags[] =
     FLAG_MYSTERY_GIFT_SKIPPA_POP_STAR,
     FLAG_MYSTERY_GIFT_ETERNAL_FLOETTE,
     FLAG_MYSTERY_GIFT_SHINY_YELLEYE,
-    FLAG_MYSTERY_GIFT_DIANCIE,
+    FLAG_MYSTERY_GIFT_RISKPOPOLY,
     FLAG_MYSTERY_GIFT_SHINY_EEMOJEE,
     FLAG_MYSTERY_GIFT_BEES_UNSC,
     FLAG_MYSTERY_GIFT_CHRISTMAS_ABSTRATIC,

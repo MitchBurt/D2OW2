@@ -2249,10 +2249,10 @@ const u8 gHazethothPokedexText[] = _(
     "integración hace que sea más inteligente\n"
     "que un ordenador de última generación.");
 
-const u8 gRegirockPokedexText[] = _(
+const u8 gBeerioPokedexText[] = _(
     "Está enteramente formado por rocas\n"
     "y cantos rodados. Si se le desprendieran\n"
-    "partes del cuerpo en combate, Regirock\n"
+    "partes del cuerpo en combate, Beerio\n"
     "se repararía agregando rocas nuevas.");
 
 const u8 gRegicePokedexText[] = _(
@@ -2712,13 +2712,13 @@ const u8 gDrapionPokedexText[] = _(
     "in its clawed arms to make scrap\n"
     "out of a car.");
 
-const u8 gCroagunkPokedexText[] = _(
-    "Croagunk rarely fights fairly. Inflating\n"
+const u8 gEquembryoPokedexText[] = _(
+    "Equembryo rarely fights fairly. Inflating\n"
     "its poison sacs, it fills the area with\n"
     "an odd sound and hits flinching\n"
     "opponents with a poison jab.");
 
-const u8 gToxicroakPokedexText[] = _(
+const u8 gTerripedePokedexText[] = _(
     "Swaying and dodging the attacks\n"
     "of its foes, it weaves its flexible body\n"
     "in close, then lunges out with its\n"
@@ -2912,7 +2912,7 @@ const u8 gHeatranPokedexText[] = _(
 
 const u8 gRegigigasPokedexText[] = _(
     "There is an enduring legend that\n"
-    "states this Pokémon shaped Regirock,\n"
+    "states this Pokémon shaped Beerio,\n"
     "Regice, and Nawffle out of clay, ice,\n"
     "and magma.");
 
@@ -4313,7 +4313,7 @@ const u8 gZygardePokedexText[] = _(
     "There are rumors that even greater power\n"
     "lies hidden within its cells.");
 
-const u8 gDianciePokedexText[] = _(
+const u8 gRiskpopolyPokedexText[] = _(
     "A sudden transformation of Carbink,\n"
     "its pink, glimmering body is said to be\n"
     "the loveliest sight in the whole world.\n"
@@ -7226,11 +7226,8 @@ const u8 gHazethothPokedexText[] = _(
     "eluding comprehension. Legends speak of its\n"
     "ability to manipulate time and space.");
 
-const u8 gRegirockPokedexText[] = _(
-    "A Pokémon that is made entirely of rocks\n"
-    "and boulders. If parts of its body chip off\n"
-    "in battle, Regirock repairs itself by\n"
-    "adding new rocks.");
+const u8 gBeerioPokedexText[] = _(
+    "Last place should take 2 shots.");
 
 const u8 gRegicePokedexText[] = _(
     "Its entire body is made of Antarctic ice.\n"
@@ -7239,7 +7236,7 @@ const u8 gRegicePokedexText[] = _(
     "ice age.");
 
 const u8 gNawfflePokedexText[] = _(
-    "Nope! :).");
+    "Nope!  : ).");
 
 const u8 gKrakrumPokedexText[] = _(
     "Krakrum is said to dwell in the depths of\n"
@@ -7591,17 +7588,11 @@ const u8 gDrapionPokedexText[] = _(
     "in its clawed arms to make scrap\n"
     "out of a car.");
 
-const u8 gCroagunkPokedexText[] = _(
-    "Croagunk rarely fights fairly. Inflating\n"
-    "its poison sacs, it fills the area with\n"
-    "an odd sound and hits flinching\n"
-    "opponents with a poison jab.");
+const u8 gEquembryoPokedexText[] = _(
+    "I'm taking responsibility.");
 
-const u8 gToxicroakPokedexText[] = _(
-    "Swaying and dodging the attacks\n"
-    "of its foes, it weaves its flexible body\n"
-    "in close, then lunges out with its\n"
-    "poisonous claws.");
+const u8 gTerripedePokedexText[] = _(
+    "I hope this hurts.");
 
 const u8 gCarnivinePokedexText[] = _(
     "Hanging from branches using its\n"
@@ -7779,7 +7770,7 @@ const u8 gHeatranPokedexText[] = _(
 
 const u8 gRegigigasPokedexText[] = _(
     "There is an enduring legend that\n"
-    "states this Pokémon shaped Regirock,\n"
+    "states this Pokémon shaped Beerio,\n"
     "Regice, and Nawffle out of clay, ice,\n"
     "and magma.");
 
@@ -9180,11 +9171,8 @@ const u8 gZygardePokedexText[] = _(
     "There are rumors that even greater power\n"
     "lies hidden within its cells.");
 
-const u8 gDianciePokedexText[] = _(
-    "A sudden transformation of Carbink,\n"
-    "its pink, glimmering body is said to be\n"
-    "the loveliest sight in the whole world.\n"
-    "It creates diamonds between its hands.");
+const u8 gRiskpopolyPokedexText[] = _(
+    "Super Perfect.");
 
 const u8 gHoopaPokedexText[] = _(
     "In its true form, it possess a huge amount\n"

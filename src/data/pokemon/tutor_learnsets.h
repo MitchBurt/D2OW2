@@ -9089,7 +9089,7 @@ static const u8 sHazethothTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sRegirockTutorLearnset[] =
+static const u8 sBeerioTutorLearnset[] =
 {
     TUTOR(MOVE_MEGA_KICK),
     TUTOR(MOVE_BODY_SLAM),
@@ -10715,7 +10715,7 @@ static const u8 sDrapionTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sCroagunkTutorLearnset[] =
+static const u8 sEquembryoTutorLearnset[] =
 {
     TUTOR(MOVE_MEGA_KICK),
     TUTOR(MOVE_COUNTER),
@@ -10738,7 +10738,7 @@ static const u8 sCroagunkTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sToxicroakTutorLearnset[] =
+static const u8 sTerripedeTutorLearnset[] =
 {
     TUTOR(MOVE_SWORDS_DANCE),
     TUTOR(MOVE_MEGA_KICK),
@@ -15828,7 +15828,7 @@ static const u8 sZygardeTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sDiancieTutorLearnset[] =
+static const u8 sRiskpopolyTutorLearnset[] =
 {
     TUTOR(MOVE_METRONOME),
     TUTOR(MOVE_ROCK_SLIDE),
@@ -20098,7 +20098,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_YELLEYE] = sYelleyeTutorLearnset,
     [SPECIES_HARASTUR] = sHarasturTutorLearnset,
     [SPECIES_HAZETHOTH] = sHazethothTutorLearnset,
-    [SPECIES_REGIROCK] = sRegirockTutorLearnset,
+    [SPECIES_BEERIO] = sBeerioTutorLearnset,
     [SPECIES_REGICE] = sRegiceTutorLearnset,
     [SPECIES_NAWFFLE] = sNawffleTutorLearnset,
     [SPECIES_LATIAS] = sLatiasTutorLearnset,
@@ -20174,8 +20174,8 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_JOURNESHIP] = sJourneshipTutorLearnset,
     [SPECIES_SKORUPI] = sSkorupiTutorLearnset,
     [SPECIES_DRAPION] = sDrapionTutorLearnset,
-    [SPECIES_CROAGUNK] = sCroagunkTutorLearnset,
-    [SPECIES_TOXICROAK] = sToxicroakTutorLearnset,
+    [SPECIES_EQUEMBRYO] = sEquembryoTutorLearnset,
+    [SPECIES_TERRIPEDE] = sTerripedeTutorLearnset,
     [SPECIES_CARNIVINE] = sCarnivineTutorLearnset,
     [SPECIES_FINNEON] = sFinneonTutorLearnset,
     [SPECIES_LUMINEON] = sLumineonTutorLearnset,
@@ -20440,7 +20440,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_XERNEAS] = sXerneasTutorLearnset,
     [SPECIES_YVELTAL] = sYveltalTutorLearnset,
     [SPECIES_ZYGARDE] = sZygardeTutorLearnset,
-    [SPECIES_DIANCIE] = sDiancieTutorLearnset,
+    [SPECIES_RISKPOPOLY] = sRiskpopolyTutorLearnset,
     [SPECIES_HOOPA] = sHoopaTutorLearnset,
     [SPECIES_VOLCANION] = sVolcanionTutorLearnset,
     [SPECIES_ROWLET] = sRowletTutorLearnset,

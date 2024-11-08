@@ -183,7 +183,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigYggdraconDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigSkorpyrosDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigSperiathonDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigShrimpotDoll;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigRegirockDoll;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigBeerioDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigRegiceDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigNawffleDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Latias;
@@ -1279,7 +1279,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_BIG_SKORPYROS_DOLL] =       &gObjectEventGraphicsInfo_BigSkorpyrosDoll,
     [OBJ_EVENT_GFX_BIG_SPERIATHON_DOLL] =       &gObjectEventGraphicsInfo_BigSperiathonDoll,
     [OBJ_EVENT_GFX_BIG_SHRIMPOT_DOLL] =         &gObjectEventGraphicsInfo_BigShrimpotDoll,
-    [OBJ_EVENT_GFX_BIG_REGIROCK_DOLL] =        &gObjectEventGraphicsInfo_BigRegirockDoll,
+    [OBJ_EVENT_GFX_BIG_BEERIO_DOLL] =        &gObjectEventGraphicsInfo_BigBeerioDoll,
     [OBJ_EVENT_GFX_BIG_REGICE_DOLL] =          &gObjectEventGraphicsInfo_BigRegiceDoll,
     [OBJ_EVENT_GFX_BIG_NAWFFLE_DOLL] =       &gObjectEventGraphicsInfo_BigNawffleDoll,
     [OBJ_EVENT_GFX_GAMEBOY_KID] =              &gObjectEventGraphicsInfo_GameboyKid,
@@ -1376,7 +1376,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_LATIOS] =                   &gObjectEventGraphicsInfo_Pokemon_Species_381,
 	[OBJ_EVENT_GFX_KRAKRUM_1] =                 &gObjectEventGraphicsInfo_Pokemon_Species_382,
     [OBJ_EVENT_GFX_NOIRNET_1] =                &gObjectEventGraphicsInfo_Pokemon_Species_383,
-	[OBJ_EVENT_GFX_REGIROCK] =                 &gObjectEventGraphicsInfo_Pokemon_Species_377,
+	[OBJ_EVENT_GFX_BEERIO] =                 &gObjectEventGraphicsInfo_Pokemon_Species_377,
     [OBJ_EVENT_GFX_REGICE] =                   &gObjectEventGraphicsInfo_Pokemon_Species_378,
     [OBJ_EVENT_GFX_NAWFFLE] =                &gObjectEventGraphicsInfo_Pokemon_Species_379,
     [OBJ_EVENT_GFX_SMOSLIME] =                   &gObjectEventGraphicsInfo_Pokemon_Species_301,

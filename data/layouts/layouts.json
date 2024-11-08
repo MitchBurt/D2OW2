@@ -5402,14 +5402,14 @@
       "blockdata_filepath": "data/layouts/Router1062/map.bin"
     },
     {
-      "id": "LAYOUT_GRANITE_CAVE_DIANCIE_ROOM",
-      "name": "GraniteCave_DiancieRoom_Layout",
+      "id": "LAYOUT_GRANITE_CAVE_RISKPOPOLY_ROOM",
+      "name": "GraniteCave_RiskpopolyRoom_Layout",
       "width": 20,
       "height": 20,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Cave",
-      "border_filepath": "data/layouts/GraniteCave_DiancieRoom/border.bin",
-      "blockdata_filepath": "data/layouts/GraniteCave_DiancieRoom/map.bin"
+      "border_filepath": "data/layouts/GraniteCave_RiskpopolyRoom/border.bin",
+      "blockdata_filepath": "data/layouts/GraniteCave_RiskpopolyRoom/map.bin"
     },
     {
       "id": "LAYOUT_FOUR_ISLAND",

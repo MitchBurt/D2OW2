@@ -16,7 +16,7 @@
 // why do this, GF?
 enum
 {
-    REGIROCK_PUZZLE,
+    BEERIO_PUZZLE,
     NAWFFLE_PUZZLE
 };
 
@@ -63,7 +63,7 @@ static const u8 gRegicePathCoords[][2] =
 };
 
 void SealedChamberShakingEffect(u8);
-void DoBrailleRegirockEffect(void);
+void DoBrailleBeerioEffect(void);
 void DoBrailleNawffleEffect(void);
 
 bool8 ShouldDoBrailleDigEffect(void)
@@ -113,10 +113,10 @@ bool8 CheckGalacnarLobscald(void)
 
 // THEORY: this was caused by block commenting out all of the older R/S braille functions but leaving the call to it itself, which creates the nullsub.
 // the code is shown below to show what this might look like.
-void ShouldDoBrailleRegirockEffectOld(void)
+void ShouldDoBrailleBeerioEffectOld(void)
 {
     /*
-        if (!FlagGet(FLAG_SYS_REGIROCK_PUZZLE_COMPLETED) && (gSaveBlock1.location.mapGroup == MAP_GROUP_DESERT_RUINS && gSaveBlock1.location.mapNum == MAP_ID_DESERT_RUINS))
+        if (!FlagGet(FLAG_SYS_BEERIO_PUZZLE_COMPLETED) && (gSaveBlock1.location.mapGroup == MAP_GROUP_DESERT_RUINS && gSaveBlock1.location.mapNum == MAP_ID_DESERT_RUINS))
     {
         if (gSaveBlock1.pos.x == 10 && gSaveBlock1.pos.y == 23)
             return TRUE;
@@ -129,7 +129,7 @@ void ShouldDoBrailleRegirockEffectOld(void)
     return FALSE;
 }
 
-void DoBrailleRegirockEffect(void)
+void DoBrailleBeerioEffect(void)
 {
     FieldEffectActiveListRemove(FLDEFF_USE_STRENGTH);
     MapGridSetMetatileIdAt(14, 26, 554);
@@ -140,7 +140,7 @@ void DoBrailleRegirockEffect(void)
     MapGridSetMetatileIdAt(16, 27, 3636);
     DrawWholeMapView();
     PlaySE(SE_BANG);
-    FlagSet(FLAG_SYS_REGIROCK_PUZZLE_COMPLETED);
+    FlagSet(FLAG_SYS_BEERIO_PUZZLE_COMPLETED);
     ScriptContext2_Disable();
 }
 
@@ -238,25 +238,25 @@ void SealedChamberShakingEffect(u8 taskId)
 }
 
 // moved later in the function because it was rewritten.
-bool8 ShouldDoBrailleRegirockEffect(void)
+bool8 ShouldDoBrailleBeerioEffect(void)
 {
-    if (!FlagGet(FLAG_SYS_REGIROCK_PUZZLE_COMPLETED)
+    if (!FlagGet(FLAG_SYS_BEERIO_PUZZLE_COMPLETED)
         && gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(DESERT_RUINS)
         && gSaveBlock1Ptr->location.mapNum == MAP_NUM(DESERT_RUINS))
     {
         if (gSaveBlock1Ptr->pos.x == 6 && gSaveBlock1Ptr->pos.y == 23)
         {
-            sBraillePuzzleCallbackFlag = REGIROCK_PUZZLE;
+            sBraillePuzzleCallbackFlag = BEERIO_PUZZLE;
             return TRUE;
         }
         else if (gSaveBlock1Ptr->pos.x == 5 && gSaveBlock1Ptr->pos.y == 23)
         {
-            sBraillePuzzleCallbackFlag = REGIROCK_PUZZLE;
+            sBraillePuzzleCallbackFlag = BEERIO_PUZZLE;
             return TRUE;
         }
         else if (gSaveBlock1Ptr->pos.x == 7 && gSaveBlock1Ptr->pos.y == 23)
         {
-            sBraillePuzzleCallbackFlag = REGIROCK_PUZZLE;
+            sBraillePuzzleCallbackFlag = BEERIO_PUZZLE;
             return TRUE;
         }
     }
@@ -264,19 +264,19 @@ bool8 ShouldDoBrailleRegirockEffect(void)
     return FALSE;
 }
 
-void SetUpPuzzleEffectRegirock(void)
+void SetUpPuzzleEffectBeerio(void)
 {
     gFieldEffectArguments[0] = GetCursorSelectionMonId();
     FieldEffectStart(FLDEFF_USE_TOMB_PUZZLE_EFFECT);
 }
 
-void UseRegirockHm_Callback(void)
+void UseBeerioHm_Callback(void)
 {
     FieldEffectActiveListRemove(FLDEFF_USE_TOMB_PUZZLE_EFFECT);
-    DoBrailleRegirockEffect();
+    DoBrailleBeerioEffect();
 }
 
-void DoBrailleRegirockEffect(void)
+void DoBrailleBeerioEffect(void)
 {
     MapGridSetMetatileIdAt(14, 26, METATILE_Cave_SealedChamberEntrance_TopLeft);
     MapGridSetMetatileIdAt(15, 26, METATILE_Cave_SealedChamberEntrance_TopMid);
@@ -286,7 +286,7 @@ void DoBrailleRegirockEffect(void)
     MapGridSetMetatileIdAt(16, 27, METATILE_Cave_SealedChamberEntrance_BottomRight | METATILE_COLLISION_MASK);
     DrawWholeMapView();
     PlaySE(SE_BANG);
-    FlagSet(FLAG_SYS_REGIROCK_PUZZLE_COMPLETED);
+    FlagSet(FLAG_SYS_BEERIO_PUZZLE_COMPLETED);
     ScriptContext2_Disable();
 }
 
@@ -418,8 +418,8 @@ bool8 FldEff_UsePuzzleEffect(void)
     }
     else
     {
-        gTasks[taskId].data[8] = (u32)UseRegirockHm_Callback >> 16;
-        gTasks[taskId].data[9] = (u32)UseRegirockHm_Callback;
+        gTasks[taskId].data[8] = (u32)UseBeerioHm_Callback >> 16;
+        gTasks[taskId].data[9] = (u32)UseBeerioHm_Callback;
     }
     return FALSE;
 }

@@ -1319,7 +1319,7 @@ loop:
 
 	.include "data/maps/Router1062/scripts.inc"
 
-	.include "data/maps/GraniteCave_DiancieRoom/scripts.inc"
+	.include "data/maps/GraniteCave_RiskpopolyRoom/scripts.inc"
 
 	.include "data/maps/FourIsland/scripts.inc"
 

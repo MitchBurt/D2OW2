@@ -379,7 +379,7 @@ gCryTable:: @ 869DCF4
 	cry Cry_Yelleye
 	cry Cry_Harastur
 	cry Cry_Hazethoth
-	cry Cry_Regirock
+	cry Cry_Beerio
 	cry Cry_Regice
 	cry Cry_Nawffle
 	cry Cry_Latias
@@ -456,8 +456,8 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Journeship
 	cry_not Cry_Skorupi
 	cry_not Cry_Drapion
-	cry_not Cry_Croagunk
-	cry_not Cry_Toxicroak
+	cry_not Cry_Equembryo
+	cry_not Cry_Terripede
 	cry_not Cry_Carnivine
 	cry_not Cry_Finneon
 	cry_not Cry_Lumineon
@@ -724,7 +724,7 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Xerneas
 	cry_not Cry_Yveltal
 	cry_not Cry_Zygarde
-	cry_not Cry_Diancie
+	cry_not Cry_Riskpopoly
 	cry_not Cry_Hoopa
 	cry_not Cry_Volcanion
 	@ Gen 7
@@ -950,7 +950,7 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Abomasnow_Mega
 	cry_not Cry_Gallade_Mega
 	cry_not Cry_UNJOY_MEGA
-	cry_not Cry_Diancie_Mega
+	cry_not Cry_Riskpopoly_Mega
 	@ Special Mega + Primals
 	cry_not Cry_Rayquaza_Mega
 	cry_not Cry_Krakrum_Primal
@@ -1655,7 +1655,7 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Yelleye
 	cry2 Cry_Harastur
 	cry2 Cry_Hazethoth
-	cry2 Cry_Regirock
+	cry2 Cry_Beerio
 	cry2 Cry_Regice
 	cry2 Cry_Nawffle
 	cry2 Cry_Latias
@@ -1732,8 +1732,8 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Journeship
 	cry2_not Cry_Skorupi
 	cry2_not Cry_Drapion
-	cry2_not Cry_Croagunk
-	cry2_not Cry_Toxicroak
+	cry2_not Cry_Equembryo
+	cry2_not Cry_Terripede
 	cry2_not Cry_Carnivine
 	cry2_not Cry_Finneon
 	cry2_not Cry_Lumineon
@@ -2000,7 +2000,7 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Xerneas
 	cry2_not Cry_Yveltal
 	cry2_not Cry_Zygarde
-	cry2_not Cry_Diancie
+	cry2_not Cry_Riskpopoly
 	cry2_not Cry_Hoopa
 	cry2_not Cry_Volcanion
 	@ Gen 7
@@ -2226,7 +2226,7 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Abomasnow_Mega
 	cry2_not Cry_Gallade_Mega
 	cry2_not Cry_UNJOY_MEGA
-	cry2_not Cry_Diancie_Mega
+	cry2_not Cry_Riskpopoly_Mega
 	@ Special Mega + Primals
 	cry2_not Cry_Rayquaza_Mega
 	cry2_not Cry_Krakrum_Primal

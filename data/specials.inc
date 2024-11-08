@@ -291,7 +291,7 @@ gSpecials:: @ 81DBA64
 	def_special GetPokeblockNameByMonNature
 	def_special GetSecretBaseNearbyMapName
 	def_special CheckGalacnarLobscald
-	def_special ShouldDoBrailleRegirockEffectOld
+	def_special ShouldDoBrailleBeerioEffectOld
 	def_special DoOrbEffect
 	def_special FadeOutOrbEffect
 	def_special WaitWeather

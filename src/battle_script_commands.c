@@ -12292,7 +12292,7 @@ static void Cmd_pickup(void)
             }
 			else if ((species == SPECIES_SECRITLER ||
 				species == SPECIES_CARBINK		||
-				species == SPECIES_DIANCIE)
+				species == SPECIES_RISKPOPOLY)
                 && heldItem == ITEM_NONE
                 && (Random() % 10) == 0)
             {		
@@ -12908,7 +12908,7 @@ static void Cmd_givecaughtmon(void)
         case SPECIES_ABOMASNOW_MEGA:
         case SPECIES_GALLADE_MEGA:
         case SPECIES_UNJOY_MEGA:
-        case SPECIES_DIANCIE_MEGA:
+        case SPECIES_RISKPOPOLY_MEGA:
         case SPECIES_RAYQUAZA_MEGA:
         case SPECIES_KRAKRUM_PRIMAL:
         case SPECIES_NOIRNET_PRIMAL:

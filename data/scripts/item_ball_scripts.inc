@@ -659,7 +659,7 @@ MagmaHideout_3F_3R_EventScript_ItemEscapeRope:: @ 829152C
 	end
 
 ScorchedSlab_EventScript_ItemFrosiliskite::
-	addscaleditem ITEM_FROSILISKITE
+	addscaleditem ITEM_ABILITY_CAPSULE
 	end
 	
 MegaStone_EventScript_ItemParangelite::
@@ -671,23 +671,22 @@ MegaStone_EventScript_ItemTomite::
 	end
 	
 MegaStone_EventScript_ItemSablenite::
-	addscaleditem ITEM_SABLENITE
-	end
-	
-MegaStone_EventScript_ItemMawilite::
-	addscaleditem ITEM_MAWILITE
-	end
-	
-MegaStone_EventScript_ItemSharkegite::
-	addscaleditem ITEM_SHARKEGNITE
-	end
-	
-MegaStone_EventScript_ItemRockite::
 	addscaleditem ITEM_ROCKITE
 	end
 	
+MegaStone_EventScript_ItemMawilite::
+	addscaleditem ITEM_ABILITY_CAPSULE
+	end
+	
+MegaStone_EventScript_ItemSharkegite::
+	addscaleditem ITEM_ABILITY_CAPSULE
+	end
+	
+MegaStone_EventScript_ItemRockite::
+	addscaleditem ITEM_GAHNOMEDITE
+	
 MegaStone_EventScript_ItemUNSCnite::
-	addscaleditem ITEM_UNSCNITE
+	addscaleditem ITEM_ABILITY_CAPSULE
 	end
 	
 MegaStone_EventScript_ItemGlailite::
@@ -695,7 +694,7 @@ MegaStone_EventScript_ItemGlailite::
 	end
 	
 MegaStone_EventScript_ItemSalamancite::
-	addscaleditem ITEM_SALAMENCITE
+	addscaleditem ITEM_ABILITY_CAPSULE
 	end
 	
 MegaStone_EventScript_ItemBugite::
@@ -703,15 +702,15 @@ MegaStone_EventScript_ItemBugite::
 	end
 	
 MegaStone_EventScript_ItemLopunnite::
-	addscaleditem ITEM_LOPUNNITE
+	addscaleditem ITEM_FOCUS_SASH
 	end
 	
 MegaStone_EventScript_ItemGalladite::
-	addscaleditem ITEM_GALLADITE
+	addscaleditem ITEM_ABILITY_CAPSULE
 	end
 	
 MegaStone_EventScript_ItemUNJOYITE::
-	addscaleditem ITEM_UNJOYITE
+	addscaleditem ITEM_DUSHROOMITE
 	end
 	
 MegaStone_EventScript_ItemAwmanite::
@@ -731,11 +730,11 @@ MegaStone_EventScript_ItemSneddite::
 	end
 	
 MegaStone_EventScript_ItemAuxiliskite::
-	addscaleditem ITEM_MANECTITE
+	addscaleditem ITEM_ABILITY_CAPSULE
 	end
 	
 MegaStone_EventScript_ItemBanetite::
-	addscaleditem ITEM_BANETTITE
+	addscaleditem ITEM_UNJOYITE
 	end
 	
 MegaStone_EventScript_Bacidite::
@@ -743,15 +742,15 @@ MegaStone_EventScript_Bacidite::
 	end
 	
 MegaStone_EventScript_Bloknocknite::
-	addscaleditem ITEM_BLOKNOCKNITE
+	addscaleditem ITEM_ABILITY_CAPSULE
 	end
 	
 MegaStone_EventScript_Truckoiseite::
-	addscaleditem ITEM_TRUCKOISEITE
+	addscaleditem ITEM_ABILITY_CAPSULE
 	end
 	
 MegaStone_EventScript_Lonkestite::
-	addscaleditem ITEM_LONKESTITE
+	addscaleditem ITEM_ABILITY_CAPSULE
 	end	
 	
 MegaStone_EventScript_Goalemite::
@@ -759,11 +758,11 @@ MegaStone_EventScript_Goalemite::
 	end	
 
 MegaStone_EventScript_Itrimidite::
-	addscaleditem ITEM_ITRIMIDITE
+	addscaleditem ITEM_ABILITY_CAPSULE
 	end	
 	
 MegaStone_EventScript_Nuggieite::
-	addscaleditem ITEM_NUGGIEITE
+	addscaleditem ITEM_ABILITY_CAPSULE
 	end	
 	
 MegaStone_EventScript_Gigalphite::
@@ -771,7 +770,7 @@ MegaStone_EventScript_Gigalphite::
 	end	
 	
 MegaStone_EventScript_Alakazite::
-	addscaleditem ITEM_ALAKAZITE
+	addscaleditem ITEM_ABILITY_CAPSULE
 	end
 	
 MegaStone_EventScript_Godnite_Y::

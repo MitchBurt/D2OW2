@@ -20,7 +20,7 @@ PrimevalForest_EventScript_Shaymin::
 	waitmoncry
 	setflag FLAG_TOTEM_BATTLE
 	setvar VAR_NUM_WILD_POKEMON_STAT_BOOST, 2
-	setwildbattlewithcustommoves SPECIES_SHAYMIN, 70, ITEM_NONE, MOVE_SEED_FLARE, MOVE_EARTH_POWER, MOVE_PSYCHIC, MOVE_DAZZLING_GLEAM, 0, NATURE_TIMID
+	setwildbattlewithcustommoves SPECIES_GLUERILLA, 70, ITEM_NONE, MOVE_SEED_FLARE, MOVE_EARTH_POWER, MOVE_FLAMETHROWER, MOVE_REST, 0, NATURE_TIMID
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
 	dowildbattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
@@ -53,7 +53,7 @@ PrimevalForest_EventScript_DefeatedShaymin::
 	end
 
 PrimevalForest_EventScript_RanFromShaymin::
-	setvar VAR_0x8004, SPECIES_SHAYMIN
+	setvar VAR_0x8004, SPECIES_GLUERILLA
 	fadescreenswapbuffers FADE_TO_BLACK
 	removeobject VAR_LAST_TALKED
 	fadescreenswapbuffers FADE_FROM_BLACK

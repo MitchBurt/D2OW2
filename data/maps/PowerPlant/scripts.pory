@@ -11,7 +11,7 @@ PowerPlant_EventScript_Zeruel::
 	waitmoncry
 	setflag FLAG_TOTEM_BATTLE
 	setvar VAR_NUM_WILD_POKEMON_STAT_BOOST, 2
-	setwildbattlewithcustommoves SPECIES_ZERUEL, 70, ITEM_NONE, MOVE_THUNDER, MOVE_HURRICANE, MOVE_HEAT_WAVE, MOVE_EXTRASENSORY, 2, NATURE_TIMID
+	setwildbattlewithcustommoves SPECIES_SHOCKITTY, 70, ITEM_NONE, MOVE_THUNDER_FANG, MOVE_CRUNCH, MOVE_HEAT_WAVE, MOVE_DIG, 2, NATURE_TIMID
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
 	dowildbattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
@@ -44,7 +44,7 @@ PowerPlant_EventScript_DefeatedZeruel::
 	end
 
 PowerPlant_EventScript_RanFromZeruel::
-	setvar VAR_0x8004, SPECIES_ZERUEL
+	setvar VAR_0x8004, SPECIES_SHOCKITTY
 	fadescreenswapbuffers FADE_TO_BLACK
 	removeobject VAR_LAST_TALKED
 	fadescreenswapbuffers FADE_FROM_BLACK

@@ -62,7 +62,7 @@ enum {
 	CARD_SKIPPA_POP_STAR,
 	CARD_AZ_FLOETTE,
 	CARD_SHINY_YELLEYE,
-	CARD_DIANCIE,
+	CARD_RISKPOPOLY,
 	CARD_SHINY_EEMOJEE,
 	CARD_BEE_UNSC,
     CARD_CHRISTMASS_ABSTRATIC,
@@ -1326,9 +1326,9 @@ struct MysteryGiftMonStructure gMysteryGiftMons[] =
 		.nickname 			= _("No Nickname"),
 		.isNicknamed		= FALSE,
 	},
-	[CARD_DIANCIE] =
+	[CARD_RISKPOPOLY] =
     {
-		.species 			= SPECIES_DIANCIE,
+		.species 			= SPECIES_RISKPOPOLY,
 		.helditem 			= ITEM_SHEPEIRDITE,
 		.abilityNum 		= 0,
 		.level 				= 70,

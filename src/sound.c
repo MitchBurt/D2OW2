@@ -637,7 +637,7 @@ void PlayGenericCry(u16 species, bool32 v0){
         case SPECIES_LILGUY:
         case SPECIES_THISCRAKER:
         case SPECIES_VICTINI:
-        case SPECIES_DIANCIE:
+        case SPECIES_RISKPOPOLY:
         case SPECIES_FLABEBE:
         case SPECIES_FLABEBE_BLUE_FLOWER:
         case SPECIES_FLABEBE_ORANGE_FLOWER:

@@ -1743,7 +1743,7 @@ static void ShowAutoRunWindow(void)
 
 static void ShowGameVersionWindow(void)
 {
-	static const u8 GameVersion[] =  _("Game Version 1.9.4\n{STR_VAR_1} {STR_VAR_2} {STR_VAR_3}$");
+	static const u8 GameVersion[] =  _("Game Version 1.0.1\n{STR_VAR_1} {STR_VAR_2} {STR_VAR_3}$");
 	static const u8 easymodeText[] = _("{COLOR GREEN}Easy Mode$");
 	static const u8 normalmodeText[] = _("{COLOR BLUE}Normal Mode$");
 	static const u8 hardmodeText[] = _("{COLOR RED}Hard Mode$");
@@ -1753,12 +1753,12 @@ static void ShowGameVersionWindow(void)
 	sSafariBallsWindowId = AddWindow(&sClockWindowTemplate);
     PutWindowTilemap(sSafariBallsWindowId);
     DrawStdWindowFrame(sSafariBallsWindowId, FALSE);
-	if (FlagGet(FLAG_HARD_MODE))
+	if (FlagGet(FLAG_NUZLOCKE))
 		StringCopy(gStringVar1, hardmodeText);
-	else if (FlagGet(FLAG_EASY_MODE))
-		StringCopy(gStringVar1, easymodeText);
-	else
+	else if (FlagGet(FLAG_HARD_MODE))
 		StringCopy(gStringVar1, normalmodeText);
+	else
+		StringCopy(gStringVar1, easymodeText);
 
     if (FlagGet(FLAG_RANDOMIZED_MODE))
         ConvertIntToDecimalStringN(gStringVar2, rndSeed, STR_CONV_MODE_RIGHT_ALIGN, 4);

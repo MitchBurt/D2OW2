@@ -1885,7 +1885,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x87,
         .y_offset = 0,
     },
-    [SPECIES_REGIROCK] =
+    [SPECIES_BEERIO] =
     {
         .size = 0x78,
         .y_offset = 3,
@@ -2270,12 +2270,12 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x56,
         .y_offset = 8,
     },
-    [SPECIES_CROAGUNK] =
+    [SPECIES_EQUEMBRYO] =
     {
         .size = 0x67,
         .y_offset = 9,
     },
-    [SPECIES_TOXICROAK] =
+    [SPECIES_TERRIPEDE] =
     {
         .size = 0x88,
         .y_offset = 5,
@@ -3601,7 +3601,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x45,
         .y_offset = 0,
     },
-    [SPECIES_DIANCIE] =
+    [SPECIES_RISKPOPOLY] =
     {
         .size = 0x45,
         .y_offset = 1,
@@ -4727,7 +4727,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_DIANCIE_MEGA] =
+    [SPECIES_RISKPOPOLY_MEGA] =
     {
         .size = 0,
         .y_offset = 0,

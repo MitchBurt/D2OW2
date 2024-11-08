@@ -4525,12 +4525,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 9,
     },
 
-    [NATIONAL_DEX_REGIROCK] =
+    [NATIONAL_DEX_BEERIO] =
     {
         .categoryName = _("Pico Roca"),
         .height = 17,
         .weight = 2300,
-        .description = gRegirockPokedexText,
+        .description = gBeerioPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 2,
         .trainerScale = 309,
@@ -5437,24 +5437,24 @@ const struct PokedexEntry gPokedexEntries[] =
 		.trainerOffset = 0,
 	},
 
-	[NATIONAL_DEX_CROAGUNK] =
+	[NATIONAL_DEX_EQUEMBRYO] =
 	{
 		.categoryName = _("Toxic Mouth"),
 		.height = 7,
 		.weight = 230,
-		.description = gCroagunkPokedexText,
+		.description = gEquembryoPokedexText,
 		.pokemonScale = 356,
 		.pokemonOffset = 17,
 		.trainerScale = 256,
 		.trainerOffset = 0,
 	},
 
-	[NATIONAL_DEX_TOXICROAK] =
+	[NATIONAL_DEX_TERRIPEDE] =
 	{
 		.categoryName = _("Toxic Mouth"),
 		.height = 13,
 		.weight = 444,
-		.description = gToxicroakPokedexText,
+		.description = gTerripedePokedexText,
 		.pokemonScale = 356,
 		.pokemonOffset = 17,
 		.trainerScale = 256,
@@ -8629,12 +8629,12 @@ const struct PokedexEntry gPokedexEntries[] =
 		.trainerOffset = 0,
 	},
 
-	[NATIONAL_DEX_DIANCIE] =
+	[NATIONAL_DEX_RISKPOPOLY] =
 	{
 		.categoryName = _("Jewel"),
 		.height = 7,
 		.weight = 88,
-		.description = gDianciePokedexText,
+		.description = gRiskpopolyPokedexText,
 		.pokemonScale = 356,
 		.pokemonOffset = 17,
 		.trainerScale = 256,
@@ -15315,12 +15315,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 9,
     },
 
-    [NATIONAL_DEX_REGIROCK] =
+    [NATIONAL_DEX_BEERIO] =
     {
         .categoryName = _("Rock Peak"),
         .height = 17,
         .weight = 2300,
-        .description = gRegirockPokedexText,
+        .description = gBeerioPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 2,
         .trainerScale = 309,
@@ -16227,24 +16227,24 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_CROAGUNK] =
+    [NATIONAL_DEX_EQUEMBRYO] =
     {
         .categoryName = _("Toxic Mouth"),
         .height = 7,
         .weight = 230,
-        .description = gCroagunkPokedexText,
+        .description = gEquembryoPokedexText,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_TOXICROAK] =
+    [NATIONAL_DEX_TERRIPEDE] =
     {
         .categoryName = _("Toxic Mouth"),
         .height = 13,
         .weight = 444,
-        .description = gToxicroakPokedexText,
+        .description = gTerripedePokedexText,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -19419,12 +19419,12 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_DIANCIE] =
+    [NATIONAL_DEX_RISKPOPOLY] =
     {
         .categoryName = _("Jewel"),
         .height = 7,
         .weight = 88,
-        .description = gDianciePokedexText,
+        .description = gRiskpopolyPokedexText,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,

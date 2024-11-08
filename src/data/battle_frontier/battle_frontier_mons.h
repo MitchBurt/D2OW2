@@ -6096,8 +6096,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_MODEST,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_REGIROCK_1] = {
-        .species = SPECIES_REGIROCK,
+    [FRONTIER_MON_BEERIO_1] = {
+        .species = SPECIES_BEERIO,
         .moves = {MOVE_SUPERPOWER, MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_EXPLOSION    },
         .itemTableId = BATTLE_FRONTIER_ITEM_WHITE_HERB,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
@@ -6184,8 +6184,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_CALM,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_REGIROCK_2] = {
-        .species = SPECIES_REGIROCK,
+    [FRONTIER_MON_BEERIO_2] = {
+        .species = SPECIES_BEERIO,
         .moves = {MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_COUNTER, MOVE_EXPLOSION    },
         .itemTableId = BATTLE_FRONTIER_ITEM_QUICK_CLAW,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
@@ -6272,8 +6272,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_MODEST,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_REGIROCK_3] = {
-        .species = SPECIES_REGIROCK,
+    [FRONTIER_MON_BEERIO_3] = {
+        .species = SPECIES_BEERIO,
         .moves = {MOVE_ROCK_SLIDE, MOVE_EARTHQUAKE, MOVE_CURSE, MOVE_REST    },
         .itemTableId = BATTLE_FRONTIER_ITEM_CHESTO_BERRY,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_HP,
@@ -6360,8 +6360,8 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_MODEST,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_REGIROCK_4] = {
-        .species = SPECIES_REGIROCK,
+    [FRONTIER_MON_BEERIO_4] = {
+        .species = SPECIES_BEERIO,
         .moves = {MOVE_ROCK_SLIDE, MOVE_BRICK_BREAK, MOVE_DOUBLE_TEAM, MOVE_THUNDER_WAVE    },
         .itemTableId = BATTLE_FRONTIER_ITEM_LEFTOVERS,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
@@ -6609,7 +6609,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .abilitynum = ABILITY_RANDOM
     },
     [FRONTIER_MON_SHEPEIRD_7] = {
-        .species = SPECIES_DIANCIE,//MEGA
+        .species = SPECIES_RISKPOPOLY,//MEGA
         .moves = {MOVE_DIAMOND_STORM, MOVE_MOONBLAST, MOVE_EARTHQUAKE, MOVE_STEALTH_ROCK},
         .itemTableId = BATTLE_FRONTIER_ITEM_SHEPEIRDITE,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED,
@@ -6617,7 +6617,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
 		.abilitynum = ABILITY_1
     },
     [FRONTIER_MON_SHEPEIRD_8] = {
-        .species = SPECIES_DIANCIE,//NOT MEGA
+        .species = SPECIES_RISKPOPOLY,//NOT MEGA
         .moves = {MOVE_DIAMOND_STORM, MOVE_EXPLOSION, MOVE_TRICK_ROOM, MOVE_STEALTH_ROCK},
         .itemTableId = BATTLE_FRONTIER_ITEM_LEFTOVERS,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,
@@ -6688,16 +6688,16 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_ADAMANT,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_REGIROCK_5] = {
-        .species = SPECIES_REGIROCK,
+    [FRONTIER_MON_BEERIO_5] = {
+        .species = SPECIES_BEERIO,
         .moves = {MOVE_HYPER_BEAM, MOVE_FOCUS_PUNCH, MOVE_ROCK_SLIDE, MOVE_DOUBLE_TEAM    },
         .itemTableId = BATTLE_FRONTIER_ITEM_QUICK_CLAW,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_ADAMANT,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_REGIROCK_6] = {
-        .species = SPECIES_REGIROCK,
+    [FRONTIER_MON_BEERIO_6] = {
+        .species = SPECIES_BEERIO,
         .moves = {MOVE_SWAGGER, MOVE_PSYCH_UP, MOVE_ROCK_SLIDE, MOVE_EXPLOSION    },
         .itemTableId = BATTLE_FRONTIER_ITEM_BRIGHT_POWDER,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_HP,

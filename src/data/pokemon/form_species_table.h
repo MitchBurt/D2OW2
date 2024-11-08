@@ -402,9 +402,9 @@ static const u16 sZygardeFormSpeciesIdTable[] = {
     0xFFFF,
 };
 
-static const u16 sDiancieFormSpeciesIdTable[] = {
-    SPECIES_DIANCIE,
-    SPECIES_DIANCIE_MEGA,
+static const u16 sRiskpopolyFormSpeciesIdTable[] = {
+    SPECIES_RISKPOPOLY,
+    SPECIES_RISKPOPOLY_MEGA,
     0xFFFF,
 };
 

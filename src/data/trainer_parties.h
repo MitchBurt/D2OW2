@@ -153,7 +153,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntPetalburgWoods[] = 
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_DUPLICAT,
+    .species = SPECIES_EQUEMBRYO,
     },
     {
     .iv = 0,
@@ -17883,7 +17883,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntMagmaHideout8[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_DUPLICAT,
+    .species = SPECIES_EQUEMBRYO,
     }
 };
 
@@ -17905,7 +17905,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntMagmaHideout10[] = 
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_DUPLICAT,
+    .species = SPECIES_EQUEMBRYO,
     }
 };
 
@@ -18616,7 +18616,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Cale[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_DUPLICAT,
+    .species = SPECIES_EQUEMBRYO,
     }
 };
 
@@ -21292,7 +21292,7 @@ static const struct TrainerMonItemCustomMoves sParty_Steven[] = {
     .evs = {0, 0, 0, 252, 6, 252}, 
     .abilityNum = 1,
     .happiness = 255,
-    .species = SPECIES_DIANCIE,
+    .species = SPECIES_RISKPOPOLY,
 	.ivs = {31, 31, 31, 31, 31, 31},
 	.hiddenNature = NATURE_TIMID,
 	.pokeball = ITEM_CHERISH_BALL,
@@ -22187,7 +22187,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Gabrielle3[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_DUPLICAT,
+    .species = SPECIES_EQUEMBRYO,
     },
     {
     .iv = 20,
