@@ -66,6 +66,7 @@ const u8 gEnemyMonElevation[NUM_SPECIES] =
     [SPECIES_JOURNEMAP] = 9,
     [SPECIES_HELLSPACK] = 6,
     [SPECIES_SKELEDOOM] = 8,
-
+    [SPECIES_EQUEMBRYO] = 7,
+    [SPECIES_THISCRAKER] = 3,
 };
 
