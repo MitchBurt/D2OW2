@@ -54,7 +54,7 @@ Start_EventScript_Game_Level_Easy::
 	end
 	
 Game_Start_Text_Difficulty_Easy:
-	.string "Do you want to play on {COLOR GREEN}Normal mode{COLOR DARK_GREY}?\n"
+	.string "Do you want to play on {COLOR GREEN}Easy mode{COLOR DARK_GREY}?\n"
 	.string "This can't be changed later!$"
 	
 Start_EventScript_Game_Level_Normal::

@@ -2093,7 +2093,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_DEADMOUS] =
     {
         .size = 0x88,
-        .y_offset = 3,
+        .y_offset = 0,
     },
     [SPECIES_SQUIGGA] =
     {
@@ -2273,12 +2273,12 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_EQUEMBRYO] =
     {
         .size = 0x77,
-        .y_offset = 6,
+        .y_offset = 0,
     },
     [SPECIES_TERRIPEDE] =
     {
         .size = 0x77,
-        .y_offset = 6,
+        .y_offset = 0,
     },
     [SPECIES_CARNIVINE] =
     {
@@ -3603,7 +3603,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_RISKPOPOLY] =
     {
         .size = 0x88,
-        .y_offset = 7,
+        .y_offset = 0,
     },
     [SPECIES_HOOPA] =
     {
