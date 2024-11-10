@@ -334,8 +334,8 @@ Route101_Text_YouSavedMe: @ 81EBF12
 	.string "by my Pokémon Lab later, okay?$"
 
 Route101_Text_TakeTiredPokemonToPokeCenter: @ 81EBFDD
-	.string "If Pokémon get tired, take them to\n"
-	.string "a Pokémon Center.\p"
+	.string "é\n"
+	.string "Sorry I was teaking.\p"
 	.string "There's a Pokémon Center in Oldale\n"
 	.string "Town right close by.$"
 

@@ -5307,9 +5307,9 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_AREALGUN] =
     {
-        .baseHP        = 75,// 95 -> 100
+        .baseHP        = 50,
         .baseAttack    = 150,
-        .baseDefense   = 30, //	85 -> 90
+        .baseDefense   = 30,
         .baseSpeed     = 105,
         .baseSpAttack  = 150,
         .baseSpDefense = 30,
@@ -41347,7 +41347,7 @@ const struct BaseStats gVanillaBaseStats[] =
     [SPECIES_DOOBOB] =
     {
         .baseHP        = 60,
-        .baseAttack    = 60,
+        .baseAttack    = 55,
         .baseDefense   = 60,
         .baseSpeed     = 30,
         .baseSpAttack  = 35,
@@ -41394,10 +41394,10 @@ const struct BaseStats gVanillaBaseStats[] =
 
     [SPECIES_UGADOOBA] =
     {
-        .baseHP        = 130,
-        .baseAttack    = 130,
+        .baseHP        = 110,
+        .baseAttack    = 120,
         .baseDefense   = 100,
-        .baseSpeed     = 100,
+        .baseSpeed     = 90,
         .baseSpAttack  = 95,
         .baseSpDefense = 65,
         .type1 = TYPE_NORMAL,

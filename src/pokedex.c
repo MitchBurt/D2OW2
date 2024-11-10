@@ -3196,7 +3196,7 @@ static u32 CreateDarkenedPokedexMonSprite(u16 num, s16 x, s16 y)
     {
         if (sPokedexView->monSpriteIds[i] == 0xFFFF)
         {
-            u8 spriteId = CreateMonSpriteFromNationalDexNumber(num, x, y, i);
+            u8 spriteId = CreateMonSpriteFromNationalDexNumber(0, x, y, i);
 			
 			//LoadPalette(gPokedexNational_dark_Pal + 1, 1, 0xBE);
 			

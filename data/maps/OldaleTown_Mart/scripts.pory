@@ -61,13 +61,13 @@ OldaleTown_Mart_Text_PokeBallsAreSoldOut: @ 81FC2B2
 	.string "I can't buy any Poké Balls.$"
 
 OldaleTown_Mart_Text_ImGoingToBuyPokeBalls: @ 81FC2F3
-	.string "I'm going to buy a bunch of Poké Balls\n"
+	.string "I'm going to rob the fucking Pokémart,\n"
 	.string "and catch a bunch of Pokémon!$"
 
 OldaleTown_Mart_Text_RestoreHPWithPotion: @ 81FC338
 	.string "If a Pokémon gets hurt and loses its HP\n"
 	.string "and faints, it won't be able to battle.\p"
-	.string "To prevent your Pokémon from fainting,\n"
-	.string "restore its HP with a Potion.$"
+	.string "Or revive, or get back to it's former\n"
+	.string "self. You lost it. Move on.$"
 
 `

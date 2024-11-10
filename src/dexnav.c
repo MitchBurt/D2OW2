@@ -2096,8 +2096,7 @@ static void TryDrawIconInSlot(u16 species, s16 x, s16 y)
     if (species == SPECIES_NONE)
         CreateNoDataIcon(x, y);   //'X' in slot
     else if (!GetSetPokedexFlag(SpeciesToNationalPokedexNum(species), FLAG_GET_SEEN))
-        //CreateBlackMonIcon(species, SpriteCB_MonIcon, x, y, 0, 0, formId); //question mark
-        CreateNoDataIcon(x, y);   //'X' in slot
+        CreateBlackMonIcon(species, SpriteCB_MonIcon, x, y, 0, 0, formId); //question mark
     else
         CreateMonIcon(species, SpriteCB_MonIcon, x, y, 0, 0, formId);
 }

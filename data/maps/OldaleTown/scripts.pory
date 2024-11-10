@@ -368,13 +368,13 @@ OldaleTown_EventScript_OldaleRuinsSign:: @ 81E910C
 	end
 
 OldaleTown_Text_SavingMyProgress: @ 81E918E
-	.string "I want to take a rest, so I'm saving my\n"
-	.string "progress.$"
+	.string "Catch 'em all, they said.\n"
+	.string "They didn’t mention the bills.$"
 
 OldaleTown_Text_IWorkAtPokemonMart: @ 81E91C0
 	.string "Hi!\n"
-	.string "I work at a Pokémon Mart.\p"
-	.string "Can I get you to come with me?$"
+	.string "Don't scream child.\p"
+	.string "Just follow me.$"
 
 OldaleTown_Text_ThisIsAPokemonMart: @ 81E91FD
 	.string "This is a Pokémon Mart.\n"
@@ -386,8 +386,8 @@ OldaleTown_Text_ThisIsAPokemonMart: @ 81E91FD
 
 OldaleTown_Text_PotionExplanation: @ 81E92AF
 	.string "A Potion can be used anytime, so it's\n"
-	.string "even more useful than a Pokémon Center\l"
-	.string "in certain situations.$"
+	.string "except on Hard Mode.\l"
+	.string "Only for nerds.$"
 
 OldaleTown_Text_WaitDontComeInHere: @ 81E9313
 	.string "Aaaaah! Wait!\n"
@@ -398,8 +398,8 @@ OldaleTown_Text_WaitDontComeInHere: @ 81E9313
 	.string "them, okay?$"
 
 OldaleTown_Text_DiscoveredFootprints: @ 81E939A
-	.string "I just discovered the footprints of\n"
-	.string "a rare Pokémon!$"
+	.string "They say Egoirl can sense love.\n"
+	.string "Sadly, mine hasn’t sensed any.$"
 
 OldaleTown_Text_FinishedSketchingFootprints: @ 81E93F8
 	.string "Thats a nice Color$"

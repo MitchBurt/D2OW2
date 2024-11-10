@@ -11,9 +11,9 @@ PetalburgCity_House1_EventScript_Woman:: @ 82077A3
 	end
 
 PetalburgCity_House1_Text_TravelingIsWonderful: @ 82077AC
-	.string "Traveling is wonderful!\p"
-	.string "When I was young, I roamed the seas\n"
-	.string "and the mountains!$"
+	.string "What the hell.\p"
+	.string "They installed a warp dimension in\n"
+	.string "my home!$"
 
 PetalburgCity_House1_Text_GoOnAdventure: @ 82077FB
 	.string "Sigh…\p"

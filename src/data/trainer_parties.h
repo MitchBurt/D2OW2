@@ -1784,7 +1784,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Randall[] = {
     .evs = {0, 0, 0, 0, 0, 252}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_PURRSOUR,
+    .species = SPECIES_BERRYALEN,
     },
     {
     .iv = 255,
@@ -1792,7 +1792,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Randall[] = {
     .evs = {0, 0, 0, 0, 0, 252}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_CHARLES,
+    .species = SPECIES_NYANKITTY,
     },
     {
     .iv = 255,
@@ -1800,7 +1800,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Randall[] = {
     .evs = {0, 0, 0, 0, 0, 252}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_TROLOLING,
+    .species = SPECIES_COFFICRAB,
     },
     {
     .iv = 255,
@@ -1808,7 +1808,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Randall[] = {
     .evs = {0, 0, 0, 0, 0, 252}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_GARFEL,
+    .species = SPECIES_PINATI,
     }
 };
 
@@ -1831,11 +1831,11 @@ static const struct TrainerMonItemCustomMoves sParty_Parker[] = {
     .evs = {6, 128, 0, 0, 0, 128}, 
     .abilityNum = 2,
     .happiness = 0,
-    .species = SPECIES_CHARLES,
+    .species = SPECIES_SHAWT,
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_NONE,
     .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},
-    .moves = {MOVE_FAKE_OUT, MOVE_CONFUSE_RAY, MOVE_NONE, MOVE_NONE},
+    .moves = {MOVE_FAKE_OUT, MOVE_CONFUSE_RAY, MOVE_SHOT, MOVE_NONE},
     },
     {
     .iv = 255,
@@ -1894,7 +1894,7 @@ static const struct TrainerMonItemCustomMoves sParty_George[] = {
     .evs = {252, 0, 252, 0, 6, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_WORMADAMT,
+    .species = SPECIES_EMELGY,
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_SITRUS_BERRY,
     .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},
@@ -2425,7 +2425,7 @@ static const struct TrainerMonItemCustomMoves sParty_Mary[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 1,
     .happiness = 0,
-    .species = SPECIES_WORMADAMT,
+    .species = SPECIES_COFFICRAB,
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_NONE,
     .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},
@@ -2476,7 +2476,7 @@ static const struct TrainerMonItemCustomMoves sParty_Alexia[] = {
     .evs = {6, 0, 252, 0, 252, 0}, 
     .abilityNum = 3,
     .happiness = 255,
-    .species = SPECIES_COWERLIN,
+    .species = SPECIES_TRICERAS,
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_NONE,
     .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},

@@ -1808,7 +1808,7 @@ script PetalburgCity_Gym_EventScript_Rick_New{
 		msgbox(format("Please take these items with you."), MSGBOX_NPC)
 		call(PetalburgCity_Gym_EventScript_Rick_Give_Gifts)
 
-		msgbox(format("Rick: {PLAYER}, please come back tomorrow so you can battle with your dad again."), MSGBOX_NPC)
+		msgbox(format("Rick: {PLAYER}, please come back tomorrow so you can battle with your gramps again."), MSGBOX_NPC)
 
 		//Set the Rematch Flag as False
 		setflag(FLAG_RICK_REMATCH)
