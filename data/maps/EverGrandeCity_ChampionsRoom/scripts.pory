@@ -235,7 +235,7 @@ EverGrandeCity_ChampionsRoom_Text_IntroSpeech: @ 8228C4C
 	.string "You've made it this far…\n"
 	.string "But this is where your adventure\l"
 	.string "ends.\p"
-	.string "Now! Let's Go!\$"
+	.string "Now! Let's Go!$"
 
 EverGrandeCity_ChampionsRoom_Text_Defeat: @ 8228EAC
 	.string "I, the Champion, fall in defeat…\p"
