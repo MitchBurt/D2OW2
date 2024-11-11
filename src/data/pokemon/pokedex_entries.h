@@ -5439,7 +5439,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
 	[NATIONAL_DEX_EQUEMBRYO] =
 	{
-		.categoryName = _("Toxic Mouth"),
+		.categoryName = _("Mouthwash"),
 		.height = 7,
 		.weight = 230,
 		.description = gEquembryoPokedexText,
@@ -5451,7 +5451,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
 	[NATIONAL_DEX_TERRIPEDE] =
 	{
-		.categoryName = _("Toxic Mouth"),
+		.categoryName = _("Mouthwash"),
 		.height = 13,
 		.weight = 444,
 		.description = gTerripedePokedexText,
