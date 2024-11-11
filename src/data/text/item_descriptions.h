@@ -5732,12 +5732,12 @@ static const u8 sSafetyGogglesDesc[] = _(
 
 static const u8 sBipharmiteDesc[] = _(
     "This stone enables\n"
-    "Sans to Mega\n"
+    "Bipharma to Mega\n"
     "Evolve in battle.");
 
 static const u8 sAwmaniteDesc[] = _(
     "This stone enables\n"
-    "Thatsfurry to Mega\n"
+    "Awmane to Mega\n"
     "Evolve in battle.");
 
 static const u8 sBaciditeDesc[] = _(
@@ -5777,122 +5777,122 @@ static const u8 sLonkestiteDesc[] = _(
 
 static const u8 sGahnomediteDesc[] = _(
     "This stone enables\n"
-    "Minimalo to Mega\n"
+    "Gahnomed to Mega\n"
     "Evolve in battle.");
 
 static const u8 sVoiditeDesc[] = _(
     "This stone enables\n"
-    "Murphire to Mega\n"
+    "The Void to Mega\n"
     "Evolve in battle.");
 
 static const u8 sBanettiteDesc[] = _(
     "This stone enables\n"
-    "Tocktower to Mega\n"
+    "NOPE to Mega\n"
     "Evolve in battle.");
 
 static const u8 sFrosiliskiteDesc[] = _(
     "This stone enables\n"
-    "Frosilisk to Mega\n"
+    "NOPE to Mega\n"
     "Evolve in battle.");
 
 static const u8 sNuggieiteDesc[] = _(
     "This stone enables\n"
-    "Nuggie to Mega\n"
+    "NOPE to Mega\n"
     "Evolve in battle.");
 
 static const u8 sItrimiditeDesc[] = _(
     "This stone enables\n"
-    "Itrimid to Mega\n"
+    "NOPE to Mega\n"
     "Evolve in battle.");
 
 static const u8 sGothotiteDesc[] = _(
     "This stone enables\n"
-    "Usarmy to Mega\n"
+    "Gothot to Mega\n"
     "Evolve in battle.");
 
 static const u8 sBloknockniteDesc[] = _(
     "This stone enables\n"
-    "Bloknock to Mega\n"
+    "NOPE to Mega\n"
     "Evolve in battle.");
 
 static const u8 sGigalphiteDesc[] = _(
     "This stone enables\n"
-    "Abomasnow to Mega\n"
+    "NOPE to Mega\n"
     "Evolve in battle.");
 
 static const u8 sTrololoiteDesc[] = _(
     "This stone enables\n"
-    "Trololo to Mega\n"
+    "NOPE to Mega\n"
     "Evolve in battle.");
 
 static const u8 sSnedditeDesc[] = _(
     "This stone enables\n"
-    "Kroller to Mega\n"
+    "Sneddit to Mega\n"
     "Evolve in battle.");
 
 static const u8 sGoalemiteDesc[] = _(
     "This stone enables\n"
-    "Fredbar to Mega\n"
+    "Goalem to Mega\n"
     "Evolve in battle.");
 
 static const u8 sAlakaziteDesc[] = _(
     "This stone enables\n"
-    "Kuklops to Mega\n"
+    "NOPE to Mega\n"
     "Evolve in battle.");
 
 static const u8 sHeracroniteDesc[] = _(
     "This stone enables\n"
-    "Happymaul to Mega\n"
+    "NOPE to Mega\n"
     "Evolve in battle.");
 
 static const u8 sMawiliteDesc[] = _(
     "This stone enables\n"
-    "Minitron to Mega\n"
+    "NOPE to Mega\n"
     "Evolve in battle.");
 
 static const u8 sManectiteDesc[] = _(
     "This stone enables\n"
-    "Auxilisk to Mega\n"
+    "NOPE to Mega\n"
     "Evolve in battle.");
 
 static const u8 sTruckoiseiteDesc[] = _(
     "This stone enables\n"
-    "Truckoise to Mega\n"
+    "NOPE to Mega\n"
     "Evolve in battle.");
 
 static const u8 sLatiasiteDesc[] = _(
     "This stone enables\n"
-    "Latias to Mega\n"
+    "NOPE to Mega\n"
     "Evolve in battle.");
 
 static const u8 sDushroomiteDesc[] = _(
     "This stone enables\n"
-    "Latios to Mega\n"
+    "Dushroom to Mega\n"
     "Evolve in battle.");
 
 static const u8 sBaitankiteDesc[] = _(
     "This stone enables\n"
-    "Baitank to Mega\n"
+    "NOPE to Mega\n"
     "Evolve in battle.");
 
 static const u8 sIncredaleniteDesc[] = _(
     "This stone enables\n"
-    "Incredalen to Mega\n"
+    "NOPE to Mega\n"
     "Evolve in battle.");
 
 static const u8 sSableniteDesc[] = _(
     "This stone enables\n"
-    "Secritler to Mega\n"
+    "NOPE to Mega\n"
     "Evolve in battle.");
 
 static const u8 sUNSCniteDesc[] = _(
     "This stone enables\n"
-    "UNSC to Mega\n"
+    "NOPE to Mega\n"
     "Evolve in battle.");
 
 static const u8 sGalladiteDesc[] = _(
     "This stone enables\n"
-    "Gallade to Mega\n"
+    "NOPE to Mega\n"
     "Evolve in battle.");
 
 static const u8 sUNJOYITEDesc[] = _(
@@ -5902,57 +5902,57 @@ static const u8 sUNJOYITEDesc[] = _(
 
 static const u8 sBugiteDesc[] = _(
     "This stone enables\n"
-    "Hazethoth to Mega\n"
+    "Bug to Mega\n"
     "Evolve in battle.");
 
 static const u8 sSharkegniteDesc[] = _(
     "This stone enables\n"
-    "Sharkeg to Mega\n"
+    "NOPE to Mega\n"
     "Evolve in battle.");
 
 static const u8 sShemueniteDesc[] = _(
     "This stone enables\n"
-    "Shemue to Mega\n"
+    "NOPE to Mega\n"
     "Evolve in battle.");
 
 static const u8 sTomiteDesc[] = _(
     "This stone enables\n"
-    "Holocast to Mega\n"
+    "Tom to Mega\n"
     "Evolve in battle.");
 
 static const u8 sFazeagleiteDesc[] = _(
     "This stone enables\n"
-    "Fazeagle to Mega\n"
+    "NOPE to Mega\n"
     "Evolve in battle.");
 
 static const u8 sJankiteDesc[] = _(
     "This stone enables\n"
-    "Elechair to Mega\n"
+    "Jank to Mega\n"
     "Evolve in battle.");
 
 static const u8 sShepeirditeDesc[] = _(
     "This stone enables\n"
-    "Riskpopoly to Mega\n"
+    "Shepeird to Mega\n"
     "Evolve in battle.");
 
 static const u8 sRockiteDesc[] = _(
     "This stone enables\n"
-    "Errorine to Mega\n"
+    "Rock to Mega\n"
     "Evolve in battle.");
 
 static const u8 sLopunniteDesc[] = _(
     "This stone enables\n"
-    "Lopunny to Mega\n"
+    "NOPE to Mega\n"
     "Evolve in battle.");
 
 static const u8 sSalamenciteDesc[] = _(
     "This stone enables\n"
-    "Drunkabus to Mega\n"
+    "NOPE to Mega\n"
     "Evolve in battle.");
 
 static const u8 sParangeliteDesc[] = _(
     "This stone enables\n"
-    "Berrord to Mega\n"
+    "NOPE to Mega\n"
     "Evolve in battle.");
 
 static const u8 sMegaBraceletDesc[] = _(
