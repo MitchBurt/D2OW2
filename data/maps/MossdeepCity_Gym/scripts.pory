@@ -736,7 +736,7 @@ MossdeepCity_Gym_Text_RegisteredTonyAndSal: @ 8221AEA
 MossdeepCity_Gym_Text_TonyAndSalPostBattle: @ 8221B1D
 	.string "Tony: Looks like the bond between you\n"
 	.string "and your Pokémon is far stronger than\l"
-	.string "the bond that we share as twins.\p"
+	.string "the bond that we share as cousins.\p"
 	.string "Sal: You will become even stronger!\n"
 	.string "We've battled you, so we know.$"
 
