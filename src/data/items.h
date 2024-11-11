@@ -3895,7 +3895,7 @@ const struct Item gItems[] =
         .description = sMetalCoatDesc,
         .pocket = POCKET_TYPE_ITEMS,
         .type = 4,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
         .secondaryId = 0,
     },
 

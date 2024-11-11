@@ -332,12 +332,12 @@ LavaridgeTown_Gym_1F_Text_GymGuideAdvice: @ 81FE9BF
 	.string "Hey, how's it going, Champion-\n"
 	.string "bound {PLAYER}?\p"
 	.string "Lavaridge's Gym Leader Jared\n"
-	.string "uses Fire-type Pokémon.\p"
-	.string "Her passion for Pokémon burns stronger\n"
+	.string "uses strong Pokémon.\p"
+	.string "His passion for Pokémon burns stronger\n"
 	.string "and hotter than a volcano.\p"
-	.string "Don't get too close to her--you'll burn!\n"
-	.string "Hose her down with water and then\l"
-	.string "go for it!$"
+	.string "He really likes Pokémon!\n"
+	.string "It's his favorite game!\p"
+	.string "Trust me!$"
 
 LavaridgeTown_Gym_1F_Text_GymGuidePostVictory: @ 81FEAB8
 	.string "Yow! That was a scorching-hot battle!$"

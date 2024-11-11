@@ -8969,14 +8969,7 @@ u16 GetRandomFirstStage(u16 basespecies){
         rndSeed = VarGet(VAR_RANDOMIZED_SEED);
     }
 
-    if(basespecies == SPECIES_AUDINO     || basespecies == SPECIES_GALACNAR || 
-       basespecies == SPECIES_SHRIMPOT    || basespecies == SPECIES_LOBSCALD   || 
-       basespecies == SPECIES_GARFEL     || basespecies == SPECIES_GOREFIELD   || 
-       basespecies == SPECIES_SMOSLIME     || basespecies == SPECIES_NYANCAT  || 
-       basespecies == SPECIES_VULPOINTER      || basespecies == SPECIES_ERRORINE  || 
-       basespecies == SPECIES_MELARICK    || basespecies == SPECIES_WRECKFAST  || 
-       basespecies == SPECIES_BREWFIN   || basespecies == SPECIES_SHARKEG  ||
-       basespecies == SPECIES_HELIOPTILE || basespecies == SPECIES_HELIOLISK)
+    if(basespecies == SPECIES_HELIOPTILE || basespecies == SPECIES_HELIOLISK)
         return basespecies;
 	else if(basespecies != SPECIES_NONE)
 		num = (basespecies*rndSeed) % POKEMON_FAMILIES;

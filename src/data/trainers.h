@@ -11377,7 +11377,7 @@ const struct Trainer gTrainers[] = {
         .trainerPic = TRAINER_PIC_STEVEN,
         .trainerName = _("Steven"),
         .items = {ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE, ITEM_FULL_RESTORE},
-        .doubleBattle = TRUE,
+        .doubleBattle = FALSE,
         .aiFlags = AI_SCRIPT_CHECK_BAD_MOVE | AI_SCRIPT_TRY_TO_FAINT | AI_SCRIPT_CHECK_VIABILITY,
         .partySize = ARRAY_COUNT(sParty_Steven),
         .party = {.ItemCustomMoves = sParty_Steven},

@@ -840,7 +840,7 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 	
 	switch(basespecies){
 		case SPECIES_DUPLICAT:
-			if(level >= 20){
+			if(level >= 25){
 				u16 PossibleEvo[] = {
 					SPECIES_FURRLEAD,
 					SPECIES_ZEPPUR,
@@ -935,7 +935,7 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 			if(level >= 20){
 				u16 PossibleEvo[] = {
 					SPECIES_MOJISLEY,
-					SPECIES_GAILORD,
+					SPECIES_MOJISLEY,
 				};
 				
 				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];

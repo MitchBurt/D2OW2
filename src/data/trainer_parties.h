@@ -2001,7 +2001,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Vincent[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_KLEFKI,
+    .species = SPECIES_GNORB,
     },
     {
     .iv = 100,
