@@ -11892,7 +11892,16 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-
+    [SPECIES_GOALEM] =
+    {
+        .move = MOVE_ICE_PUNCH,
+        .modification = SIGNATURE_MOD_POWER,
+        .variable = 90,
+        .modification2 = SIGNATURE_MOD_SECOND_TYPE,
+        .variable2 = TYPE_FIGHTING,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
 
 /*[SPECIES_AWMANE_MEGA] =
     {
@@ -12375,17 +12384,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_GOALEM] =
-    {
-        .move = MOVE_FUTURE_SIGHT,
-        .modification = SIGNATURE_MOD_MODIFY_FIELD,
-        .variable = FIELD_SET_TERRAIN_PSYCHIC,
-        .chance = 100,
-        .modification2 = SIGNATURE_MOD_PRIORITY,
-        .variable2 = SIGNATURE_PRIORITY_ALWAYS,
-        .differentDescription = FALSE,
-        .description = _("Default Description"),
-    },
+
     [SPECIES_LOVLILAD] =
     {
         .move = MOVE_WATER_PULSE,

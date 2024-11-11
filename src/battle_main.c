@@ -1924,7 +1924,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
 			
 		if(trainerNum == TRAINER_LEAF || trainerNum == TRAINER_BRENDAN_PLACEHOLDER || trainerNum == TRAINER_MAY_PLACEHOLDER ) 
 			monsCount = PartySize;
-		else if (gTrainers[trainerNum].partySize > TrainerMonsCount)
+		else if (gTrainers[trainerNum].partySize == TrainerMonsCount) //TRAINER MON COUNT?
 			monsCount = TrainerMonsCount;
 		else
 			monsCount = gTrainers[trainerNum].partySize;
