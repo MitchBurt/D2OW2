@@ -369,7 +369,7 @@ OldaleTown_EventScript_OldaleRuinsSign:: @ 81E910C
 
 OldaleTown_Text_SavingMyProgress: @ 81E918E
 	.string "Catch em all, they said.\n"
-	.string "They didn’t mention the bills.$"
+	.string "They didn't mention the bills.$"
 
 OldaleTown_Text_IWorkAtPokemonMart: @ 81E91C0
 	.string "Hi!\n"
@@ -399,7 +399,7 @@ OldaleTown_Text_WaitDontComeInHere: @ 81E9313
 
 OldaleTown_Text_DiscoveredFootprints: @ 81E939A
 	.string "They say Egoirl can sense love.\n"
-	.string "Sadly, mine hasn’t sensed any.$"
+	.string "Sadly, mine hasn't sensed any.$"
 
 OldaleTown_Text_FinishedSketchingFootprints: @ 81E93F8
 	.string "Thats a nice Color$"

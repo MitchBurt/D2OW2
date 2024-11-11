@@ -64,32 +64,17 @@ EverGrandeCity_ShinjisRoom_EventScript_Defeated:: @ 8228724
 	end
 
 EverGrandeCity_ShinjisRoom_Text_IntroSpeech: @ 822873E
-	.string "I am the last of the Pokémon League\n"
-	.string "Elite Four, Shinji the Dragon master!\p"
-	.string "In their natural state, Pokémon are\n"
-	.string "wild living things. They are free.\p"
-	.string "At times, they hinder us.\n"
-	.string "At times, they help us.\p"
-	.string "For us to battle with Pokémon as\n"
-	.string "partners, do you know what it takes?\p"
-	.string "Do you know what is needed?\p"
-	.string "If you don't, then you will never\n"
-	.string "prevail over me!$"
+	.string "I didn't even want to do this...\n"
+	.string "but, here I am anyway.\n"
+	.string "Let's just get this over with.\p"
+	.string "Maybe if I win, I'll feel...\n"
+	.string "something. I don't know.$"
 
 EverGrandeCity_ShinjisRoom_Text_Defeat: @ 8228895
-	.string "Superb, it should be said.$"
+	.string "I don't recognize this ceiling..$"
 
 EverGrandeCity_ShinjisRoom_Text_PostBattleSpeech: @ 82288B0
-	.string "You deserve every credit for coming\n"
-	.string "this far as a Trainer of Pokémon.\p"
-	.string "You do seem to know what is needed.\p"
-	.string "Yes, what a Trainer needs is a\n"
-	.string "virtuous heart.\p"
-	.string "Pokémon touch the good hearts of\n"
-	.string "Trainers and learn good from wrong.\p"
-	.string "They touch the good hearts of\n"
-	.string "Trainers and grow strong.\p"
-	.string "Go! Go onwards!\n"
-	.string "The Champion is waiting!$"
-
+	.string "I knew it... I'm just not\n"
+	.string "cut out for this. I don't\n"
+	.string "know why I even tried.$"
 `
