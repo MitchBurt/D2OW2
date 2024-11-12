@@ -547,9 +547,9 @@ DewfordTown_Gym_Text_RegisteredZach: @ 81FD1E0
 	.string "in the Pokénav.$"
 
 DewfordTown_Gym_Text_ZachPostBattle: @ 81FD20D
-	.string "I can see your talent becoming a giant\n"
-	.string "wave to cause a storm of astonishment\l"
-	.string "among Trainers one day!$"
+	.string "I didn't think we were cheating,\n"
+	.string "but I see you did anyway.\l"
+	.string "Goodbye.$"
 
 DewfordTown_Gym_Text_GymStatue: @ 81FD272
 	.string "Dewford Town Pokémon Gym$"

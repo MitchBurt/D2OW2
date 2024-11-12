@@ -7700,10 +7700,8 @@ const u8 gGliscorPokedexText[] = _(
     "itself, it swoops!");
 
 const u8 gJuberdukusPokedexText[] = _(
-    "A frozen Juberdukus was dug from ice\n"
-    "dating back 10,000 years. It woke up to\n"
-    "much amazement. This Pokémon has been\n"
-    "around for a long, long, long time.");
+    "They are asking me to play void crew\n"
+    "rn and i'm writing 400 pokedex texts.");
 
 const u8 gHellspackPokedexText[] = _(
     "Broguht to you by the Hells Angels.");

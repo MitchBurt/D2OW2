@@ -406,8 +406,8 @@ FortreeCity_Gym_Text_RegisteredTanner: @ 8217044
 	.string "in the Pokénav.$"
 
 FortreeCity_Gym_Text_TannerPostBattle: @ 8217071
-	.string "Though I fell to you, I will remain\n"
-	.string "devoted to Bird Pokémon.$"
+	.string "Its over.\n"
+	.string "Its so over..$"
 
 FortreeCity_Gym_Text_GymStatue: @ 82170AE
 	.string "Fortree City Pokémon Gym$"

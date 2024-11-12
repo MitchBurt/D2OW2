@@ -499,8 +499,8 @@ MauvilleCity_Gym_Text_RegisteredTrevor: @ 820E8B5
 	.string "in the Pokénav.$"
 
 MauvilleCity_Gym_Text_TrevorPostBattle: @ 820E8E3
-	.string "I swell with optimism, seeing a promising\n"
-	.string "young Trainer like you!$"
+	.string "Aight CS is on, peace.\n"
+	.string "..."
 
 MauvilleCity_Gym_Text_TrevorGoForthAndEndeavor: @ 820E925
 	.string "Wahahahah!\n"

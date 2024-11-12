@@ -8631,7 +8631,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
 	[NATIONAL_DEX_RISKPOPOLY] =
 	{
-		.categoryName = _("Jewel"),
+		.categoryName = _("TMG"),
 		.height = 7,
 		.weight = 88,
 		.description = gRiskpopolyPokedexText,
@@ -15317,7 +15317,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_BEERIO] =
     {
-        .categoryName = _("Rock Peak"),
+        .categoryName = _("Drunk"),
         .height = 17,
         .weight = 2300,
         .description = gBeerioPokedexText,
@@ -16229,7 +16229,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_EQUEMBRYO] =
     {
-        .categoryName = _("Toxic Mouth"),
+        .categoryName = _("Mouthwashing"),
         .height = 7,
         .weight = 230,
         .description = gEquembryoPokedexText,
@@ -16241,7 +16241,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_TERRIPEDE] =
     {
-        .categoryName = _("Toxic Mouth"),
+        .categoryName = _("Mouthwashing"),
         .height = 13,
         .weight = 444,
         .description = gTerripedePokedexText,
@@ -19421,7 +19421,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_RISKPOPOLY] =
     {
-        .categoryName = _("Jewel"),
+        .categoryName = _("TMG"),
         .height = 7,
         .weight = 88,
         .description = gRiskpopolyPokedexText,

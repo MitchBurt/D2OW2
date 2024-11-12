@@ -2078,7 +2078,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_GAILORD] =
     {
         .size = 0x76,
-        .y_offset = 12,
+        .y_offset = 3,
     },
     [SPECIES_COMBEE] =
     {
