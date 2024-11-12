@@ -7151,6 +7151,8 @@ extern const u32 gItemIcon_WaterStone[];
 extern const u32 gItemIconPalette_WaterStone[];
 extern const u32 gItemIcon_LeafStone[];
 extern const u32 gItemIconPalette_LeafStone[];
+extern const u32 gItemIcon_CosmicStone[];
+extern const u32 gItemIconPalette_CosmicStone[];
 // Valuables
 extern const u32 gItemIcon_TinyMushroom[];
 extern const u32 gItemIconPalette_Mushroom[];
