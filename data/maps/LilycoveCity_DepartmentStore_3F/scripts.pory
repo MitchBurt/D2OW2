@@ -91,6 +91,7 @@ LilycoveCity_DepartmentStore_3F_Pokemart_StatBoosters: @ 821FCA4
 	.2byte ITEM_DUSK_STONE
 	.2byte ITEM_SHINY_STONE
 	.2byte ITEM_ICE_STONE
+	.2byte ITEM_COSMIC_STONE
 	.2byte ITEM_DRAGON_SCALE
 	.2byte ITEM_KINGS_ROCK
 	.2byte ITEM_METAL_COAT

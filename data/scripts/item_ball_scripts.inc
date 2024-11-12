@@ -659,7 +659,7 @@ MagmaHideout_3F_3R_EventScript_ItemEscapeRope:: @ 829152C
 	end
 
 ScorchedSlab_EventScript_ItemFrosiliskite::
-	addscaleditem ITEM_ABILITY_CAPSULE
+	addscaleditem ITEM_COSMIC_STONE
 	end
 	
 MegaStone_EventScript_ItemParangelite::
@@ -675,11 +675,11 @@ MegaStone_EventScript_ItemSablenite::
 	end
 	
 MegaStone_EventScript_ItemMawilite::
-	addscaleditem ITEM_ABILITY_CAPSULE
+	addscaleditem ITEM_COSMIC_STONE
 	end
 	
 MegaStone_EventScript_ItemSharkegite::
-	addscaleditem ITEM_ABILITY_CAPSULE
+	addscaleditem ITEM_COSMIC_STONE
 	end
 	
 MegaStone_EventScript_ItemRockite::
