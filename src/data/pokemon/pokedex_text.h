@@ -7248,10 +7248,7 @@ const u8 gNoirnetPokedexText[] = _(
     "Real ones know.");
 
 const u8 gTowermastaPokedexText[] = _(
-    "A Pokémon that flies endlessly in the\n"
-    "ozone layer. It is said it would descend\n"
-    "to the ground if Krakrum and Noirnet\n"
-    "were to fight.");
+    "Thanks for playing :).");
 
 const u8 gLatiasPokedexText[] = _(
     "They make a small herd of only several\n"
@@ -7269,10 +7266,7 @@ const u8 gThiscrakerPokedexText[] = _(
     "This Cracker.");
 
 const u8 gSquilithidPokedexText[] = _(
-    "Squilithid emerged from a virus that came\n"
-    "from space. It is highly intelligent and\n"
-    "can shoot lasers from the crystalline\n"
-    "organ on its chest.");
+    "Yucky squid man.");
 
 const u8 gKirbairdePokedexText[] = _(
     "Sakurai please give me a sequel.");
@@ -7469,16 +7463,10 @@ const u8 gDrifblimPokedexText[] = _(
     "No one knows where they go.");
 
 const u8 gPossquadPokedexText[] = _(
-    "You can tell how it feels by the way\n"
-    "it rolls its ears. When it's scared,\n"
-    "both ears are rolled up. When it senses\n"
-    "danger, it perks them up.");
+    "Possums.");
 
 const u8 gPosswarmPokedexText[] = _(
-    "An extremely cautious Pokémon.\n"
-    "It is very conscious of its looks and\n"
-    "never fails to groom its ears.\n"
-    "It runs with sprightly jumps.");
+    "Possum Possum Possum Possum Possum.");
 
 const u8 gMismagiusPokedexText[] = _(
     "Its cries sound like incantations.\n"
@@ -7731,10 +7719,7 @@ const u8 gRotomPokedexText[] = _(
     "in order to make mischief.");
 
 const u8 gLasonyxPokedexText[] = _(
-    "Known as ”The Being of Knowledge,”\n"
-    "according to some sources, this Pokémon\n"
-    "provided people with the intelligence\n"
-    "necessary to solve various problems.");
+    "LASO Goats fr.");
 
 const u8 gMespritPokedexText[] = _(
     "Although it slumbers at the bottom of a\n"

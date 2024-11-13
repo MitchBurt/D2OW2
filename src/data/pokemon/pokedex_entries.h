@@ -4935,7 +4935,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
 	[NATIONAL_DEX_GREEDURN] =
 	{
-		.categoryName = _("Shield"),
+		.categoryName = _("Pot"),
 		.height = 13,
 		.weight = 1495,
 		.description = gGreedurnPokedexText,
@@ -5127,7 +5127,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
 	[NATIONAL_DEX_POSSQUAD] =
 	{
-		.categoryName = _("Rabbit"),
+		.categoryName = _("Possum"),
 		.height = 4,
 		.weight = 55,
 		.description = gPossquadPokedexText,
@@ -5139,7 +5139,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
 	[NATIONAL_DEX_POSSWARM] =
 	{
-		.categoryName = _("Rabbit"),
+		.categoryName = _("Possum"),
 		.height = 12,
 		.weight = 333,
 		.description = gPosswarmPokedexText,
@@ -5763,7 +5763,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
 	[NATIONAL_DEX_LASONYX] =
 	{
-		.categoryName = _("Knowledge"),
+		.categoryName = _("LASO"),
 		.height = 3,
 		.weight = 3,
 		.description = gLasonyxPokedexText,
@@ -15401,7 +15401,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_TOWERMASTA] =
     {
-        .categoryName = _("Sky High"),
+        .categoryName = _("TMG"),
         .height = 70,
         .weight = 2065,
         .description = gTowermastaPokedexText,
@@ -15425,7 +15425,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_SQUILITHID] =
     {
-        .categoryName = _("DNA"),
+        .categoryName = _("Ilithid"),
         .height = 17,
         .weight = 608,
         .description = gSquilithidPokedexText,
@@ -15725,7 +15725,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_GREEDURN] =
     {
-        .categoryName = _("Shield"),
+        .categoryName = _("Pot"),
         .height = 13,
         .weight = 1495,
         .description = gGreedurnPokedexText,
@@ -15917,7 +15917,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_POSSQUAD] =
     {
-        .categoryName = _("Rabbit"),
+        .categoryName = _("Possum"),
         .height = 4,
         .weight = 55,
         .description = gPossquadPokedexText,
@@ -15929,7 +15929,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_POSSWARM] =
     {
-        .categoryName = _("Rabbit"),
+        .categoryName = _("Possum"),
         .height = 12,
         .weight = 333,
         .description = gPosswarmPokedexText,
@@ -16553,7 +16553,7 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_LASONYX] =
     {
-        .categoryName = _("Knowledge"),
+        .categoryName = _("LASO"),
         .height = 3,
         .weight = 3,
         .description = gLasonyxPokedexText,
