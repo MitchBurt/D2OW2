@@ -93,7 +93,7 @@ u8 ScriptGiveMon(u16 species, u8 level, u16 item, u32 ability, u32 unused2, u8 u
 	else
 		Specie = GetWildPokemon(FirstStage, level, GetMonData(&gPlayerParty[0], MON_DATA_HELD_ITEM));
 	
-    i = rand() % 173 + 1;
+    i = Random() % 173 + 1;
 	if(Specie == SPECIES_NONE)
 		Specie = gFirstStageTable[i].species;
 
