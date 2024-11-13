@@ -2319,7 +2319,7 @@ MatchCall_Text_Dario:: @ 82B3790
 	.string "qué es lo que es\l"
 	.string "Como no sea un Meteorito…$"
 
-MatchCall_Text_MayRayquazaCall: @ 82B38C1
+MatchCall_Text_MayTowermastaCall: @ 82B38C1
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
 	.string "May: Hi, {PLAYER}{KUN}!\p"
@@ -2334,7 +2334,7 @@ MatchCall_Text_MayRayquazaCall: @ 82B38C1
 	.string "… … … … … …\n"
 	.string "… … … … … Click!$"
 
-MatchCall_Text_BrendanRayquazaCall: @ 82B39C6
+MatchCall_Text_BrendanTowermastaCall: @ 82B39C6
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
 	.string "Brendan: Hey, {PLAYER}!\n"
@@ -5273,7 +5273,7 @@ MatchCall_Text_Dario:: @ 82B3790
 	.string "But what is a rare stone exactly?\n"
 	.string "All I can think of is a Meteorite…$"
 
-MatchCall_Text_MayRayquazaCall: @ 82B38C1
+MatchCall_Text_MayTowermastaCall: @ 82B38C1
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
 	.string "May: Hi, {PLAYER}{KUN}!\p"
@@ -5288,7 +5288,7 @@ MatchCall_Text_MayRayquazaCall: @ 82B38C1
 	.string "… … … … … …\n"
 	.string "… … … … … Click!$"
 
-MatchCall_Text_BrendanRayquazaCall: @ 82B39C6
+MatchCall_Text_BrendanTowermastaCall: @ 82B39C6
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
 	.string "Brendan: Hey, {PLAYER}!\n"

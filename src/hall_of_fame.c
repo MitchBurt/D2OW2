@@ -568,7 +568,7 @@ static void Task_Hof_DisplayMon(u8 taskId)
     struct HallofFameMon* currMon = &sHofMonPtr->mon[currMonId];
 	formId = GetMonData(&gPlayerParty[currMonId], MON_DATA_FORM_ID, 0);
 	species = GetMonData(&gPlayerParty[currMonId], MON_DATA_SPECIES, 0);
-	if(FlagGet(FLAG_DEFEATED_RAYQUAZA) && FlagGet(FLAG_DEFEATED_LEGEND) && FlagGet(FLAG_DEFEATED_METEOR_FALLS_STEVEN))
+	if(FlagGet(FLAG_DEFEATED_TOWERMASTA) && FlagGet(FLAG_DEFEATED_LEGEND) && FlagGet(FLAG_DEFEATED_METEOR_FALLS_STEVEN))
 		FlagSet(FLAG_ENABLE_RED_FIGHT);
 
     if (gTasks[taskId].tMonNumber > PARTY_SIZE / 2)

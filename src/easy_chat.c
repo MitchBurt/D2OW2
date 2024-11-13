@@ -1078,7 +1078,7 @@ static const u16 sUnknown_0859E64C[] = {
 };
 
 static const u16 sUnknown_0859E658[] = {
-    SPECIES_DEOXYS,
+    SPECIES_SQUILITHID,
 };
 
 void DoEasyChatScreen(u8 type, u16 *words, MainCallback callback, u8 displayedPersonType)

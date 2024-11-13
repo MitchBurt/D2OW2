@@ -2279,7 +2279,7 @@ const u8 gNoirnetPokedexText[] = _(
     "en magma y dicen que, al despertar, hace\n"
     "que los volcanes entren en erupción.");
 
-const u8 gRayquazaPokedexText[] = _(
+const u8 gTowermastaPokedexText[] = _(
     "Este Pokémon vuela sin parar por la\n"
     "capa de ozono. Dicen que, si Krakrum\n"
     "y Noirnet fueran a luchar, bajaría\n"
@@ -2303,7 +2303,7 @@ const u8 gThiscrakerPokedexText[] = _(
     "resistente capa cristalina lo envuelve\n"
     "para protegerlo de los enemigos.");
 
-const u8 gDeoxysPokedexText[] = _(
+const u8 gSquilithidPokedexText[] = _(
     "Es el resultado de la mutación que sufrió\n"
     "un virus espacial expuesto a un rayo láser.\n"
     "Se caracteriza por tener una velocidad\n"
@@ -2459,7 +2459,7 @@ const u8 gShieldonPokedexText[] = _(
     "square off against its heavily armored\n"
     "face, so it's thought.");
 
-const u8 gBastiodonPokedexText[] = _(
+const u8 gGreedurnPokedexText[] = _(
     "Their rock-hard faces serve to protect\n"
     "them from any frontral attacks.\n"
     "When attacked, they form a wall.\n"
@@ -2556,13 +2556,13 @@ const u8 gDrifblimPokedexText[] = _(
     "will inexplicably disappear from view.\n"
     "No one knows where they go.");
 
-const u8 gBunearyPokedexText[] = _(
+const u8 gPossquadPokedexText[] = _(
     "You can tell how it feels by the way\n"
     "it rolls its ears. When it's scared,\n"
     "both ears are rolled up. When it senses\n"
     "danger, it perks them up.");
 
-const u8 gLopunnyPokedexText[] = _(
+const u8 gPosswarmPokedexText[] = _(
     "An extremely cautious Pokémon.\n"
     "It is very conscious of its looks and\n"
     "never fails to groom its ears.\n"
@@ -2874,7 +2874,7 @@ const u8 gRotomPokedexText[] = _(
     "kinds of machines and take control,\n"
     "in order to make mischief.");
 
-const u8 gUxiePokedexText[] = _(
+const u8 gLasonyxPokedexText[] = _(
     "Known as ”The Being of Knowledge,”\n"
     "according to some sources, this Pokémon\n"
     "provided people with the intelligence\n"
@@ -2889,7 +2889,7 @@ const u8 gMespritPokedexText[] = _(
 const u8 gAzelfPokedexText[] = _(
     "This Pokémon is said to have endowed\n"
     "humans with the determination needed to\n"
-    "do things. It is thought that Uxie, Mesprit\n"
+    "do things. It is thought that Lasonyx, Mesprit\n"
     "and Azelf all came from the same egg.");
 
 const u8 gDialgaPokedexText[] = _(
@@ -7247,7 +7247,7 @@ const u8 gKrakrumPokedexText[] = _(
 const u8 gNoirnetPokedexText[] = _(
     "Real ones know.");
 
-const u8 gRayquazaPokedexText[] = _(
+const u8 gTowermastaPokedexText[] = _(
     "A Pokémon that flies endlessly in the\n"
     "ozone layer. It is said it would descend\n"
     "to the ground if Krakrum and Noirnet\n"
@@ -7268,8 +7268,8 @@ const u8 gLatiosPokedexText[] = _(
 const u8 gThiscrakerPokedexText[] = _(
     "This Cracker.");
 
-const u8 gDeoxysPokedexText[] = _(
-    "Deoxys emerged from a virus that came\n"
+const u8 gSquilithidPokedexText[] = _(
+    "Squilithid emerged from a virus that came\n"
     "from space. It is highly intelligent and\n"
     "can shoot lasers from the crystalline\n"
     "organ on its chest.");
@@ -7401,7 +7401,7 @@ const u8 gShieldonPokedexText[] = _(
     "square off against its heavily armored\n"
     "face, so it's thought.");
 
-const u8 gBastiodonPokedexText[] = _(
+const u8 gGreedurnPokedexText[] = _(
     "Their rock-hard faces serve to protect\n"
     "them from any frontral attacks.\n"
     "When attacked, they form a wall.\n"
@@ -7468,13 +7468,13 @@ const u8 gDrifblimPokedexText[] = _(
     "will inexplicably disappear from view.\n"
     "No one knows where they go.");
 
-const u8 gBunearyPokedexText[] = _(
+const u8 gPossquadPokedexText[] = _(
     "You can tell how it feels by the way\n"
     "it rolls its ears. When it's scared,\n"
     "both ears are rolled up. When it senses\n"
     "danger, it perks them up.");
 
-const u8 gLopunnyPokedexText[] = _(
+const u8 gPosswarmPokedexText[] = _(
     "An extremely cautious Pokémon.\n"
     "It is very conscious of its looks and\n"
     "never fails to groom its ears.\n"
@@ -7730,7 +7730,7 @@ const u8 gRotomPokedexText[] = _(
     "kinds of machines and take control,\n"
     "in order to make mischief.");
 
-const u8 gUxiePokedexText[] = _(
+const u8 gLasonyxPokedexText[] = _(
     "Known as ”The Being of Knowledge,”\n"
     "according to some sources, this Pokémon\n"
     "provided people with the intelligence\n"
@@ -7745,7 +7745,7 @@ const u8 gMespritPokedexText[] = _(
 const u8 gAzelfPokedexText[] = _(
     "This Pokémon is said to have endowed\n"
     "humans with the determination needed to\n"
-    "do things. It is thought that Uxie, Mesprit\n"
+    "do things. It is thought that Lasonyx, Mesprit\n"
     "and Azelf all came from the same egg.");
 
 const u8 gDialgaPokedexText[] = _(

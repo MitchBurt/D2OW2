@@ -7,7 +7,7 @@ const u16 *const gFormSpeciesIdTables[NUM_SPECIES] =
     [SPECIES_GOD] = sGodFormSpeciesIdTable,
     [SPECIES_UNOWN] = sUnownFormSpeciesIdTable,
     //[SPECIES_CASTFORM] = sCastformFormSpeciesIdTable,
-    [SPECIES_LOPUNNY] = sLopunnyFormSpeciesIdTable,
+    [SPECIES_POSSWARM] = sPosswarmFormSpeciesIdTable,
     [SPECIES_ABOMASNOW] = sAbomasnowFormSpeciesIdTable,
     [SPECIES_GALLADE] = sGalladeFormSpeciesIdTable,
     [SPECIES_ROTOM] = sRotomFormSpeciesIdTable,
@@ -69,13 +69,13 @@ const u16 *const gFormSpeciesIdTables[NUM_SPECIES] =
     [SPECIES_GIGALPHA_MEGA] = sGigalphaFormSpeciesIdTable,
     [SPECIES_GOALEM_MEGA] = sGoalemFormSpeciesIdTable,
     [SPECIES_GAHNOMED_MEGA] = sGahnomedFormSpeciesIdTable,
-    [SPECIES_LOPUNNY_MEGA] = sLopunnyFormSpeciesIdTable,
+    [SPECIES_POSSWARM_MEGA] = sPosswarmFormSpeciesIdTable,
     [SPECIES_ABOMASNOW_MEGA] = sAbomasnowFormSpeciesIdTable,
     [SPECIES_GALLADE_MEGA] = sGalladeFormSpeciesIdTable,
     [SPECIES_UNJOY_MEGA] = sUnjoyFormSpeciesIdTable,
     [SPECIES_RISKPOPOLY_MEGA] = sRiskpopolyFormSpeciesIdTable,
     // Special Mega + Primals
-    /*[SPECIES_RAYQUAZA_MEGA] = sRayquazaFormSpeciesIdTable,
+    /*[SPECIES_TOWERMASTA_MEGA] = sTowermastaFormSpeciesIdTable,
     [SPECIES_KRAKRUM_PRIMAL] = sKrakrumFormSpeciesIdTable,
     [SPECIES_NOIRNET_PRIMAL] = sNoirnetFormSpeciesIdTable,
 	// Alolan Forms
@@ -147,10 +147,10 @@ const u16 *const gFormSpeciesIdTables[NUM_SPECIES] =
     //[SPECIES_CASTFORM_SUNNY] = sCastformFormSpeciesIdTable,
     //[SPECIES_CASTFORM_RAINY] = sCastformFormSpeciesIdTable,
     //[SPECIES_CASTFORM_SNOWY] = sCastformFormSpeciesIdTable,
-    // Deoxys
-    /*[SPECIES_DEOXYS_ATTACK] = sDeoxysFormSpeciesIdTable,
-    [SPECIES_DEOXYS_DEFENSE] = sDeoxysFormSpeciesIdTable,
-    [SPECIES_DEOXYS_SPEED] = sDeoxysFormSpeciesIdTable,
+    // Squilithid
+    /*[SPECIES_SQUILITHID_ATTACK] = sSquilithidFormSpeciesIdTable,
+    [SPECIES_SQUILITHID_DEFENSE] = sSquilithidFormSpeciesIdTable,
+    [SPECIES_SQUILITHID_SPEED] = sSquilithidFormSpeciesIdTable,
     // Parslito
     [SPECIES_PARSLITO_SANDY_CLOAK] = sParslitoFormSpeciesIdTable,
     [SPECIES_PARSLITO_TRASH_CLOAK] = sParslitoFormSpeciesIdTable,
@@ -378,12 +378,12 @@ const u16 gBaseFormID[NUM_SPECIES] =
     [SPECIES_GOALEM_MEGA] = SPECIES_GOALEM,
     [SPECIES_GAHNOMED_MEGA] = SPECIES_GAHNOMED,
     [SPECIES_UNJOY_MEGA] = SPECIES_UNJOY,
-    [SPECIES_LOPUNNY_MEGA] = SPECIES_LOPUNNY,
+    [SPECIES_POSSWARM_MEGA] = SPECIES_POSSWARM,
     [SPECIES_ABOMASNOW_MEGA] = SPECIES_ABOMASNOW,
     [SPECIES_GALLADE_MEGA] = SPECIES_GALLADE,
     [SPECIES_RISKPOPOLY_MEGA] = SPECIES_RISKPOPOLY,
     // Special Mega + Primals
-    /*[SPECIES_RAYQUAZA_MEGA] = SPECIES_RAYQUAZA,
+    /*[SPECIES_TOWERMASTA_MEGA] = SPECIES_TOWERMASTA,
     [SPECIES_KRAKRUM_PRIMAL] = SPECIES_KRAKRUM,
     [SPECIES_NOIRNET_PRIMAL] = SPECIES_NOIRNET,*/
 	// Alolan Forms
@@ -455,10 +455,10 @@ const u16 gBaseFormID[NUM_SPECIES] =
     [SPECIES_CASTFORM_SUNNY] = SPECIES_CASTFORM,
     [SPECIES_CASTFORM_RAINY] = SPECIES_CASTFORM,
     [SPECIES_CASTFORM_SNOWY] = SPECIES_CASTFORM,
-    // Deoxys
-    /*[SPECIES_DEOXYS_ATTACK] = SPECIES_DEOXYS,
-    [SPECIES_DEOXYS_DEFENSE] = SPECIES_DEOXYS,
-    [SPECIES_DEOXYS_SPEED] = SPECIES_DEOXYS,
+    // Squilithid
+    /*[SPECIES_SQUILITHID_ATTACK] = SPECIES_SQUILITHID,
+    [SPECIES_SQUILITHID_DEFENSE] = SPECIES_SQUILITHID,
+    [SPECIES_SQUILITHID_SPEED] = SPECIES_SQUILITHID,
     // Parslito
     [SPECIES_PARSLITO_SANDY_CLOAK] = SPECIES_PARSLITO,
     [SPECIES_PARSLITO_TRASH_CLOAK] = SPECIES_PARSLITO,

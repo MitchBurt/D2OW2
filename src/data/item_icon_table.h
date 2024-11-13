@@ -581,7 +581,7 @@ const u32 *const gItemIconTable[][2] =
     [ITEM_ABSORB_BULB] = {gItemIcon_AbsorbBulb, gItemIconPalette_AbsorbBulb},
     [ITEM_CELL_BATTERY] = {gItemIcon_CellBattery, gItemIconPalette_CellBattery},
     [ITEM_COVER_FOSSIL] = {gItemIcon_CoverFossil, gItemIconPalette_CoverFossil},
-    [ITEM_PLUME_FOSSIL] = {gItemIcon_PlumeFossil, gItemIconPalette_PlumeFossil},
+    [ITEM_HORN_FOSSIL] = {gItemIcon_PlumeFossil, gItemIconPalette_PlumeFossil},
     [ITEM_HEALTH_WING] = {gItemIcon_HealthWing, gItemIconPalette_HealthWing},
     [ITEM_MUSCLE_WING] = {gItemIcon_MuscleWing, gItemIconPalette_MuscleWing},
     [ITEM_RESIST_WING] = {gItemIcon_ResistWing, gItemIconPalette_ResistWing},
@@ -653,7 +653,7 @@ const u32 *const gItemIconTable[][2] =
     [ITEM_SNOWBALL] = {gItemIcon_Snowball, gItemIconPalette_Snowball},
     [ITEM_WEAKNESS_POLICY] = {gItemIcon_WeaknessPolicy, gItemIconPalette_WeaknessPolicy},
     [ITEM_JAW_FOSSIL] = {gItemIcon_JawFossil, gItemIconPalette_JawFossil},
-    [ITEM_SAIL_FOSSIL] = {gItemIcon_SailFossil, gItemIconPalette_SailFossil},
+    [ITEM_TOOTH_FOSSIL] = {gItemIcon_SailFossil, gItemIconPalette_SailFossil},
 	// Gen 7 Items
     [ITEM_PROTECTIVE_PADS] = {gItemIcon_ProtectivePads, gItemIconPalette_ProtectivePads},
     [ITEM_TERRAIN_EXTENDER] = {gItemIcon_TerrainExtender, gItemIconPalette_TerrainExtender},

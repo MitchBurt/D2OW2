@@ -3840,7 +3840,7 @@ u8 GetTeamLevel(void)
 
 double GetPkmnExpMultiplier(u8 level)
 {
-	if (level >= sLevelCaps[GetNumBadges()] && IsHardMode() && !FlagGet(FLAG_DEFEATED_RAYQUAZA))
+	if (level >= sLevelCaps[GetNumBadges()] && IsHardMode() && !FlagGet(FLAG_DEFEATED_TOWERMASTA))
     {
         return 0.0;
     }
@@ -4025,7 +4025,7 @@ static void Cmd_getexp(void)
                         luckyboost += (VarGet(VAR_NEW_GAME_PLUS_COUNT) * 10);
                     }
 					
-					if (gPlayerParty[gBattleStruct->expGetterMonId].level >= sLevelCaps[GetNumBadges()] && IsHardMode() && !FlagGet(FLAG_DEFEATED_RAYQUAZA))
+					if (gPlayerParty[gBattleStruct->expGetterMonId].level >= sLevelCaps[GetNumBadges()] && IsHardMode() && !FlagGet(FLAG_DEFEATED_TOWERMASTA))
 					{
 						luckyboost = 0;
 					}
@@ -12902,14 +12902,14 @@ static void Cmd_givecaughtmon(void)
         case SPECIES_HAZETHOTH_MEGA:
         case SPECIES_LATIAS_MEGA:
         case SPECIES_LATIOS_MEGA:
-        case SPECIES_LOPUNNY_MEGA:
+        case SPECIES_POSSWARM_MEGA:
         case SPECIES_TRUCKOISE_MEGA:
         case SPECIES_BLOKNOCK_MEGA:
         case SPECIES_ABOMASNOW_MEGA:
         case SPECIES_GALLADE_MEGA:
         case SPECIES_UNJOY_MEGA:
         case SPECIES_RISKPOPOLY_MEGA:
-        case SPECIES_RAYQUAZA_MEGA:
+        case SPECIES_TOWERMASTA_MEGA:
         case SPECIES_KRAKRUM_PRIMAL:
         case SPECIES_NOIRNET_PRIMAL:
             SetMonData(&gEnemyParty[gBattlerPartyIndexes[GetCatchingBattler()]], MON_DATA_FORM_ID, &newFormId);

@@ -43,10 +43,10 @@ MauvilleCity_PokemonCenter_1F_Mystery_Gift:: @ 8210E98
 	goto_if_set FLAG_MYSTERY_GIFT_2, MauvilleCity_PokemonCenter_1F_Mystery_Gift_3
 	//goto_if_unset FLAG_RECEIVED_BADGE_06, MauvilleCity_PokemonCenter_1F_Mystery_Gift_2
 	msgbox MauvilleCity_PokemonCenter_1F_Text_MysteryGift, MSGBOX_NPC
-	bufferspeciesname 1, SPECIES_PICHU_SPIKY_EARED
+	bufferspeciesname 1, SPEICES_BADDERY
 	playfanfare MUS_OBTAIN_ITEM
 	message MauvilleCity_PokemonCenter_Text_ReceivedMysteryGift
-	givemon SPECIES_PICHU_SPIKY_EARED, 5, ITEM_EXIOLITE
+	givemon SPEICES_BADDERY, 5, ITEM_EXIOLITE
 	setflag FLAG_MYSTERY_GIFT_2
 	waitfanfare
 	msgbox MauvilleCity_PokemonCenter_1F_Text_MysteryGift_End, MSGBOX_NPC

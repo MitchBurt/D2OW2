@@ -61,11 +61,11 @@ static void SpriteCB_PokemonLogoShine(struct Sprite *sprite);
 // const rom data
 static const u16 sUnusedUnknownPal[] = INCBIN_U16("graphics/title_screen/unk_853EF78.gbapal");
 
-//Rayquaza
-static const u32 sTitleScreenRayquazaGfx[]	   			= INCBIN_U32("graphics/title_screen/rayquaza.4bpp.lz");
-static const u32 sTitleScreenRayquazaTilemap[] 			= INCBIN_U32("graphics/title_screen/rayquaza.bin.lz");
+//Towermasta
+static const u32 sTitleScreenTowermastaGfx[]	   			= INCBIN_U32("graphics/title_screen/towermasta.4bpp.lz");
+static const u32 sTitleScreenTowermastaTilemap[] 			= INCBIN_U32("graphics/title_screen/towermasta.bin.lz");
 static const u32 sTitleScreenCloudsGfx[]       			= INCBIN_U32("graphics/title_screen/clouds.4bpp.lz");
-static const u16 gTitleScreenBgPalettesRayquazaShiny[]  = INCBIN_U16("graphics/title_screen/pokemon_logo.gbapal", "graphics/title_screen/rayquaza_and_clouds_shiny.gbapal");
+static const u16 gTitleScreenBgPalettesTowermastaShiny[]  = INCBIN_U16("graphics/title_screen/pokemon_logo.gbapal", "graphics/title_screen/towermasta_and_clouds_shiny.gbapal");
 //Noirnet
 static const u32 sTitleScreenNoirnetGfx[]      = INCBIN_U32("graphics/title_screen/noirnet/noirnet.4bpp.lz");
 static const u32 sTitleScreenLavaGfx[]         = INCBIN_U32("graphics/title_screen/noirnet/lava.4bpp.lz");
@@ -592,19 +592,19 @@ void CB2_InitTitleScreen(void)
 		// bg2
 		if (gSaveBlock2Ptr->titleScreen == TITLE_SCREEN_EMERALD)
 		{
-			//Rayquaza
+			//Towermasta
 			LZ77UnCompVram(gTitleScreenPokemonLogoGfx, (void *)(BG_CHAR_ADDR(0)));
 			LZ77UnCompVram(gUnknown_08DE0644, (void *)(BG_SCREEN_ADDR(9)));
 			if(isShiny){
-				LoadPalette(gTitleScreenBgPalettesRayquazaShiny, 0, 0x1E0);
-				FlagSet(FLAG_SHINY_RAYQUAZA_TITLE_SCREEN);
+				LoadPalette(gTitleScreenBgPalettesTowermastaShiny, 0, 0x1E0);
+				FlagSet(FLAG_SHINY_TOWERMASTA_TITLE_SCREEN);
 				m4aSongNumStart(SE_SHINY);
 			}
 			else
 				LoadPalette(gTitleScreenBgPalettes, 0, 0x1E0);
 			// bg3
-			LZ77UnCompVram(sTitleScreenRayquazaGfx, (void *)(BG_CHAR_ADDR(2)));
-			LZ77UnCompVram(sTitleScreenRayquazaTilemap, (void *)(BG_SCREEN_ADDR(26)));
+			LZ77UnCompVram(sTitleScreenTowermastaGfx, (void *)(BG_CHAR_ADDR(2)));
+			LZ77UnCompVram(sTitleScreenTowermastaTilemap, (void *)(BG_SCREEN_ADDR(26)));
 			// bg1
 			LZ77UnCompVram(sTitleScreenCloudsGfx, (void *)(BG_CHAR_ADDR(3)));
 			LZ77UnCompVram(gUnknown_08DDE458, (void *)(BG_SCREEN_ADDR(27)));
@@ -814,7 +814,7 @@ static void Task_TitleScreenPhase2(u8 taskId)
     gTasks[taskId].data[6] = 6;
 }
 
-// Show Rayquaza silhouette and process main title screen input
+// Show Towermasta silhouette and process main title screen input
 static void Task_TitleScreenPhase3(u8 taskId)
 {
     if ((JOY_NEW(A_BUTTON)) || (JOY_NEW(START_BUTTON)))
@@ -822,7 +822,7 @@ static void Task_TitleScreenPhase3(u8 taskId)
         
 		
 		if (gSaveBlock2Ptr->titleScreen == TITLE_SCREEN_EMERALD)
-			PlayCryInternal(SPECIES_RAYQUAZA, 0, 120, 10, 0);
+			PlayCryInternal(SPECIES_TOWERMASTA, 0, 120, 10, 0);
 		else if (gSaveBlock2Ptr->titleScreen == TITLE_SCREEN_RUBY)
 			PlayCryInternal(SPECIES_NOIRNET, 0, 120, 10, 0);
 		else 

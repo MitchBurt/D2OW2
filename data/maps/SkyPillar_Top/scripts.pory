@@ -1,15 +1,15 @@
 raw `
-.set LOCALID_RAYQUAZA_SLEEPING, 1
+.set LOCALID_TOWERMASTA_SLEEPING, 1
 .set LOCALID_LATI, 2
 
 SkyPillar_Top_MapScripts:: @ 82396B8
 	.byte 0
 
 SkyPillar_Top_OnResume: @ 82396C8
-	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, SkyPillar_Top_EventScript_TryRemoveRayquaza
+	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, SkyPillar_Top_EventScript_TryRemoveTowermasta
 	end
 
-SkyPillar_Top_EventScript_TryRemoveRayquaza:: @ 82396D2
+SkyPillar_Top_EventScript_TryRemoveTowermasta:: @ 82396D2
 	specialvar VAR_RESULT, GetBattleOutcome
 	compare VAR_RESULT, B_OUTCOME_CAUGHT
 	goto_if_ne Common_EventScript_NopReturn
@@ -20,85 +20,85 @@ SkyPillar_Top_OnTransition: @ 82396E6
 	compare VAR_SKY_PILLAR_STATE, 2
 	call_if_lt SkyPillar_Top_EventScript_SetCleanLayout
 	compare VAR_SKY_PILLAR_STATE, 2
-	call_if_ge SkyPillar_Top_EventScript_TryShowRayquaza
+	call_if_ge SkyPillar_Top_EventScript_TryShowTowermasta
 	end
 
 SkyPillar_Top_EventScript_SetCleanLayout:: @ 82396FD
 	setmaplayoutindex LAYOUT_SKY_PILLAR_TOP_CLEAN
-	setobjectmovementtype LOCALID_RAYQUAZA_SLEEPING, MOVEMENT_TYPE_FACE_DOWN
+	setobjectmovementtype LOCALID_TOWERMASTA_SLEEPING, MOVEMENT_TYPE_FACE_DOWN
 	return
 
-SkyPillar_Top_EventScript_TryShowRayquaza:: @ 8239705
-	call_if_unset FLAG_DEFEATED_RAYQUAZA, SkyPillar_Top_EventScript_ShowRayquaza
+SkyPillar_Top_EventScript_TryShowTowermasta:: @ 8239705
+	call_if_unset FLAG_DEFEATED_TOWERMASTA, SkyPillar_Top_EventScript_ShowTowermasta
 	return
 
-SkyPillar_Top_EventScript_ShowRayquaza:: @ 823970F
-	clearflag FLAG_HIDE_RAYQUAZA_SKY_TOWER_SUMMIT
+SkyPillar_Top_EventScript_ShowTowermasta:: @ 823970F
+	clearflag FLAG_HIDE_TOWERMASTA_SKY_TOWER_SUMMIT
 	return
 
 SkyPillar_Top_OnWarp: @ 8239713
-	map_script_2 VAR_SKY_PILLAR_STATE, 0, SkyPillar_Top_EventScript_RayquazaFaceDown
+	map_script_2 VAR_SKY_PILLAR_STATE, 0, SkyPillar_Top_EventScript_TowermastaFaceDown
 	.2byte 0
 
-SkyPillar_Top_EventScript_RayquazaFaceDown:: @ 823971D
-	turnobject LOCALID_RAYQUAZA_SLEEPING, DIR_SOUTH
+SkyPillar_Top_EventScript_TowermastaFaceDown:: @ 823971D
+	turnobject LOCALID_TOWERMASTA_SLEEPING, DIR_SOUTH
 	end
 
-SkyPillar_Top_EventScript_Rayquaza:: @ 8239722
+SkyPillar_Top_EventScript_Towermasta:: @ 8239722
 	lockall
 	waitse
-	playmoncry SPECIES_RAYQUAZA, 2
+	playmoncry SPECIES_TOWERMASTA, 2
 	delay 40
 	waitmoncry
 	setflag FLAG_TOTEM_BATTLE
 	setflag FLAG_MEGA_EVOLVE_WILD_POKEMON
 	setvar VAR_NUM_WILD_POKEMON_STAT_BOOST, 5
-	setwildbattlewithcustommoves SPECIES_RAYQUAZA, 85, ITEM_LIFE_ORB, MOVE_DRAGON_ASCENT, MOVE_DRACO_METEOR, MOVE_V_CREATE, MOVE_EARTHQUAKE, 0, NATURE_JOLLY
+	setwildbattlewithcustommoves SPECIES_TOWERMASTA, 85, ITEM_LIFE_ORB, MOVE_DRAGON_ASCENT, MOVE_DRACO_METEOR, MOVE_V_CREATE, MOVE_EARTHQUAKE, 0, NATURE_JOLLY
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
 	dowildbattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
 	specialvar VAR_RESULT, GetBattleOutcome
 	compare VAR_RESULT, B_OUTCOME_CAUGHT
-	goto_if_eq SkyPillar_Top_EventScript_CaughtRayquaza
+	goto_if_eq SkyPillar_Top_EventScript_CaughtTowermasta
 	compare VAR_RESULT, B_OUTCOME_WON
-	goto_if_eq SkyPillar_Top_EventScript_DefeatedRayquaza
+	goto_if_eq SkyPillar_Top_EventScript_DefeatedTowermasta
 	compare VAR_RESULT, B_OUTCOME_RAN
-	goto_if_eq SkyPillar_Top_EventScript_RanFromRayquaza
+	goto_if_eq SkyPillar_Top_EventScript_RanFromTowermasta
 	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
-	goto_if_eq SkyPillar_Top_EventScript_RanFromRayquaza
-	setflag FLAG_DEFEATED_RAYQUAZA
+	goto_if_eq SkyPillar_Top_EventScript_RanFromTowermasta
+	setflag FLAG_DEFEATED_TOWERMASTA
 	clearflag FLAG_MEGA_EVOLVE_WILD_POKEMON
 	releaseall
 	end
 
-SkyPillar_Top_EventScript_CaughtRayquaza::
+SkyPillar_Top_EventScript_CaughtTowermasta::
 	clearflag FLAG_MEGA_EVOLVE_WILD_POKEMON
-	setflag FLAG_DEFEATED_RAYQUAZA
+	setflag FLAG_DEFEATED_TOWERMASTA
 	fadescreenswapbuffers FADE_TO_BLACK
-	removeobject LOCALID_RAYQUAZA_SLEEPING
+	removeobject LOCALID_TOWERMASTA_SLEEPING
 	fadescreenswapbuffers FADE_FROM_BLACK
 	release
 	end
 
-SkyPillar_Top_EventScript_DefeatedRayquaza:: @ 8239768
-	setflag FLAG_DEFEATED_RAYQUAZA
+SkyPillar_Top_EventScript_DefeatedTowermasta:: @ 8239768
+	setflag FLAG_DEFEATED_TOWERMASTA
 	fadescreenswapbuffers FADE_TO_BLACK
-	removeobject LOCALID_RAYQUAZA_SLEEPING
+	removeobject LOCALID_TOWERMASTA_SLEEPING
 	fadescreenswapbuffers FADE_FROM_BLACK
 	releaseall
 	end
 
-SkyPillar_Top_EventScript_RanFromRayquaza:: @ 8239771
-	setvar VAR_0x8004, SPECIES_RAYQUAZA
+SkyPillar_Top_EventScript_RanFromTowermasta:: @ 8239771
+	setvar VAR_0x8004, SPECIES_TOWERMASTA
 	fadescreenswapbuffers FADE_TO_BLACK
-	removeobject LOCALID_RAYQUAZA_SLEEPING
+	removeobject LOCALID_TOWERMASTA_SLEEPING
 	fadescreenswapbuffers FADE_FROM_BLACK
 	bufferspeciesname 0, VAR_0x8004
 	msgbox gText_LegendaryFlewAway, MSGBOX_DEFAULT
 	releaseall
 	end
 
-SkyPillar_Top_EventScript_AwakenRayquaza:: @ 823979A
+SkyPillar_Top_EventScript_AwakenTowermasta:: @ 823979A
 	lockall
 	fadeoutbgm 1
 	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_FaceUp
@@ -107,10 +107,10 @@ SkyPillar_Top_EventScript_AwakenRayquaza:: @ 823979A
 	applymovement OBJ_EVENT_ID_CAMERA, SkyPillar_Top_Movement_CameraPanUp
 	waitmovement 0
 	special RemoveCameraObject
-	applymovement LOCALID_RAYQUAZA_SLEEPING, SkyPillar_Top_Movement_RayquazaStir
+	applymovement LOCALID_TOWERMASTA_SLEEPING, SkyPillar_Top_Movement_TowermastaStir
 	waitmovement 0
 	waitse
-	playmoncry SPECIES_RAYQUAZA, 2
+	playmoncry SPECIES_TOWERMASTA, 2
 	setvar VAR_0x8004, 1  @ vertical pan
 	setvar VAR_0x8005, 1  @ horizontal pan
 	setvar VAR_0x8006, 8  @ num shakes
@@ -118,7 +118,7 @@ SkyPillar_Top_EventScript_AwakenRayquaza:: @ 823979A
 	special ShakeCamera
 	waitstate
 	waitse
-	playmoncry SPECIES_RAYQUAZA, 2
+	playmoncry SPECIES_TOWERMASTA, 2
 	setvar VAR_0x8004, 1  @ vertical pan
 	setvar VAR_0x8005, 2  @ horizontal pan
 	setvar VAR_0x8006, 8  @ num shakes
@@ -126,10 +126,10 @@ SkyPillar_Top_EventScript_AwakenRayquaza:: @ 823979A
 	special ShakeCamera
 	waitstate
 	waitmoncry
-	applymovement LOCALID_RAYQUAZA_SLEEPING, SkyPillar_Top_Movement_RayquazaFlyOff
+	applymovement LOCALID_TOWERMASTA_SLEEPING, SkyPillar_Top_Movement_TowermastaFlyOff
 	waitmovement 0
-	removeobject LOCALID_RAYQUAZA_SLEEPING
-	msgbox SkyPillar_Top_Text_RayquazaFlewOff, MSGBOX_DEFAULT
+	removeobject LOCALID_TOWERMASTA_SLEEPING
+	msgbox SkyPillar_Top_Text_TowermastaFlewOff, MSGBOX_DEFAULT
 	closemessage
 	delay 20
 	fadeinbgm 1
@@ -143,7 +143,7 @@ SkyPillar_Top_EventScript_AwakenRayquaza:: @ 823979A
 	releaseall
 	end
 
-SkyPillar_Top_Movement_RayquazaStir: @ 823983A
+SkyPillar_Top_Movement_TowermastaStir: @ 823983A
 	delay_16
 	walk_in_place_fast_left
 	delay_16
@@ -162,7 +162,7 @@ SkyPillar_Top_Movement_RayquazaStir: @ 823983A
 	delay_16
 	step_end
 
-SkyPillar_Top_Movement_RayquazaFlyOff: @ 823984B
+SkyPillar_Top_Movement_TowermastaFlyOff: @ 823984B
 	delay_16
 	walk_in_place_down
 	delay_8
@@ -189,7 +189,7 @@ SkyPillar_Top_Movement_CameraPanDown: @ 823985C
 	walk_slow_down
 	step_end
 
-SkyPillar_Top_Text_RayquazaFlewOff: @ 8239860
-	.string "The awakened Rayquaza flew off…$"
+SkyPillar_Top_Text_TowermastaFlewOff: @ 8239860
+	.string "The awakened Towermasta flew off…$"
 
 `

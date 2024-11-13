@@ -68,8 +68,8 @@
 #define VAR_FRONTIER_GAMBLER_AMOUNT_BET      0x4032
 #define VAR_FRONTIER_GAMBLER_STATE           0x4033
 
-#define VAR_DEOXYS_ROCK_STEP_COUNT           0x4034
-#define VAR_DEOXYS_ROCK_LEVEL                0x4035
+#define VAR_SQUILITHID_ROCK_STEP_COUNT           0x4034
+#define VAR_SQUILITHID_ROCK_LEVEL                0x4035
 #define VAR_PC_BOX_TO_SEND_MON               0x4036
 #define VAR_ABNORMAL_WEATHER_LOCATION        0x4037
 #define VAR_ABNORMAL_WEATHER_STEP_COUNTER    0x4038
@@ -262,7 +262,7 @@
 #define VAR_GYM_ATTENDANT_STEP_COUNTER  0x40F3
 #define VAR_MASON_CALL_STEP_COUNTER        0x40F4
 #define VAR_SCOTT_BF_CALL_STEP_COUNTER       0x40F5
-#define VAR_RIVAL_RAYQUAZA_CALL_STEP_COUNTER 0x40F6
+#define VAR_RIVAL_TOWERMASTA_CALL_STEP_COUNTER 0x40F6
 #define VAR_DEXNAV_SPECIES                   0x40F7 // Registered dexnav species
 #define VAR_DEXNAV_STEP_COUNTER              0x40F8 // steps for finding hidden pokemon
 /* #define VAR_UNUSED_0x40F9                    0x40F9 // Unused Var

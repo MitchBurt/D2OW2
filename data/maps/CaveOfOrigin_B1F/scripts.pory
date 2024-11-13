@@ -20,12 +20,12 @@ CaveOfOrigin_B1F_EventScript_Dario:: @ 82357A9
 	delay 30
 	applymovement LOCALID_DARIO, Common_Movement_FacePlayer
 	waitmovement 0
-	message CaveOfOrigin_B1F_Text_WhereIsRayquaza
+	message CaveOfOrigin_B1F_Text_WhereIsTowermasta
 	waitmessage
-	goto CaveOfOrigin_B1F_EventScript_WheresRayquaza
+	goto CaveOfOrigin_B1F_EventScript_WheresTowermasta
 
-CaveOfOrigin_B1F_EventScript_WheresRayquaza:: @ 82357F0
-	multichoice 0, 0, MULTI_WHERES_RAYQUAZA, 0
+CaveOfOrigin_B1F_EventScript_WheresTowermasta:: @ 82357F0
+	multichoice 0, 0, MULTI_WHERES_TOWERMASTA, 0
 	switch VAR_RESULT
 	case 0, CaveOfOrigin_B1F_EventScript_AtCaveOfOrigin
 	case 1, CaveOfOrigin_B1F_EventScript_AtMtPyre
@@ -37,17 +37,17 @@ CaveOfOrigin_B1F_EventScript_WheresRayquaza:: @ 82357F0
 CaveOfOrigin_B1F_EventScript_AtCaveOfOrigin:: @ 823582C
 	message CaveOfOrigin_B1F_Text_ButWereInCaveOfOrigin
 	waitmessage
-	goto CaveOfOrigin_B1F_EventScript_WheresRayquaza
+	goto CaveOfOrigin_B1F_EventScript_WheresTowermasta
 
 CaveOfOrigin_B1F_EventScript_AtMtPyre:: @ 8235837
 	message CaveOfOrigin_B1F_Text_OldLadyDidntMentionThat
 	waitmessage
-	goto CaveOfOrigin_B1F_EventScript_WheresRayquaza
+	goto CaveOfOrigin_B1F_EventScript_WheresTowermasta
 
 CaveOfOrigin_B1F_EventScript_DontRemember:: @ 8235842
 	message CaveOfOrigin_B1F_Text_CantYouRememberSomehow
 	waitmessage
-	goto CaveOfOrigin_B1F_EventScript_WheresRayquaza
+	goto CaveOfOrigin_B1F_EventScript_WheresTowermasta
 
 CaveOfOrigin_B1F_EventScript_AtSkyPillar:: @ 823584D
 	msgbox CaveOfOrigin_B1F_Text_WellHeadToSkyPillar, MSGBOX_DEFAULT
@@ -79,16 +79,16 @@ CaveOfOrigin_B1F_Text_DarioStory: @ 823586E
 	.string "ancient Pokémon.\p"
 	.string "There is one more somewhere.\p"
 	.string "Somewhere, there is a super-\n"
-	.string "ancient Pokémon named Rayquaza.\p"
-	.string "It's said that it was Rayquaza that\n"
+	.string "ancient Pokémon named Towermasta.\p"
+	.string "It's said that it was Towermasta that\n"
 	.string "becalmed the two combatants in\l"
 	.string "the distant past.\p"
 	.string "But even I have no clue as to\n"
-	.string "Rayquaza's whereabouts…$"
+	.string "Towermasta's whereabouts…$"
 
-CaveOfOrigin_B1F_Text_WhereIsRayquaza: @ 8235ACE
+CaveOfOrigin_B1F_Text_WhereIsTowermasta: @ 8235ACE
 	.string "Dario: {PLAYER}{KUN}, do you perhaps\n"
-	.string "know where Rayquaza is now?\p"
+	.string "know where Towermasta is now?\p"
 	.string "If you do, please tell me.$"
 
 CaveOfOrigin_B1F_Text_ButWereInCaveOfOrigin: @ 8235B23
@@ -96,7 +96,7 @@ CaveOfOrigin_B1F_Text_ButWereInCaveOfOrigin: @ 8235B23
 	.string "But that's right here!\n"
 	.string "I need you to do better than that!\p"
 	.string "Please, I need you to think about\n"
-	.string "where Rayquaza might be right now.$"
+	.string "where Towermasta might be right now.$"
 
 CaveOfOrigin_B1F_Text_OldLadyDidntMentionThat: @ 8235BBF
 	.string "Dario: Mt. Pyre?\p"

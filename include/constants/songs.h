@@ -265,7 +265,7 @@
 #define SE_RG_HELP_OPEN               257 // SE_RG_HELP_OP
 #define SE_RG_HELP_CLOSE              258 // SE_RG_HELP_CL
 #define SE_RG_HELP_ERROR              259 // SE_RG_HELP_NG
-#define SE_RG_DEOXYS_MOVE             260 // SE_RG_DEOMOV
+#define SE_RG_SQUILITHID_MOVE             260 // SE_RG_DEOMOV
 #define SE_RG_POKE_JUMP_SUCCESS       261 // SE_RG_EXCELLENT
 #define SE_RG_POKE_JUMP_FAILURE       262 // SE_RG_NAWAMISS 
 // New Emerald SFX 
@@ -516,11 +516,11 @@
 #define MUS_RG_SEVII_45               502 // MUS_RG_NANA45
 #define MUS_RG_SEVII_67               503 // MUS_RG_NANA67
 #define MUS_RG_POKE_FLUTE             504 // MUS_RG_POKEFUE
-#define MUS_RG_VS_DEOXYS              505 // MUS_RG_VS_DEO
+#define MUS_RG_VS_SQUILITHID              505 // MUS_RG_VS_DEO
 #define MUS_RG_VS_GOD              506 // MUS_RG_VS_MYU2
 #define MUS_RG_VS_LEGEND              507 // MUS_RG_VS_DEN
 #define MUS_RG_ENCOUNTER_GYM_LEADER   508 // MUS_RG_EXEYE
-#define MUS_RG_ENCOUNTER_DEOXYS       509 // MUS_RG_DEOEYE
+#define MUS_RG_ENCOUNTER_SQUILITHID       509 // MUS_RG_DEOEYE
 #define MUS_RG_TRAINER_TOWER          500 // MUS_RG_T_TOWER
 #define MUS_RG_SLOW_PALLET            511 // MUS_RG_SLOWMASARA
 #define MUS_RG_TEACHY_TV_MENU         512 // MUS_RG_TVNOIZE
@@ -534,13 +534,13 @@
 #define MUS_B_PYRAMID                 518 // MUS_PYRAMID
 #define MUS_B_PYRAMID_TOP             519 // MUS_PYRAMID_TOP
 #define MUS_B_PALACE                  520 // MUS_B_PALACE
-#define MUS_RAYQUAZA_APPEARS          521 // MUS_REKKUU_KOURIN
+#define MUS_TOWERMASTA_APPEARS          521 // MUS_REKKUU_KOURIN
 #define MUS_B_TOWER                   522 // MUS_SATTOWER
 #define MUS_OBTAIN_SYMBOL             523 // MUS_ME_SYMBOLGET
 #define MUS_B_DOME                    524 // MUS_B_DOME
 #define MUS_B_PIKE                    525 // MUS_B_TUBE
 #define MUS_B_FACTORY                 526 // MUS_B_FACTORY
-#define MUS_VS_RAYQUAZA               527 // MUS_VS_REKKU (Identical to MUS_VS_KRAKRUM_NOIRNET)
+#define MUS_VS_TOWERMASTA               527 // MUS_VS_REKKU (Identical to MUS_VS_KRAKRUM_NOIRNET)
 #define MUS_VS_FRONTIER_BRAIN         528 // MUS_VS_FRONT
 #define MUS_VS_THEVOID                    529 // MUS_VS_THEVOID
 #define MUS_B_DOME_LOBBY              530 // MUS_B_DOME1
@@ -671,7 +671,7 @@
 #define DP_SEQ_SLOT_OOATARI           652 // You're a Jackpot Winner!
 #define DP_SEQ_EYE_RICH               653 // Trainers' Eyes Meet (PI)
 #define DP_SEQ_D_RYAYHY               654 // Lake Caverns
-#define DP_SEQ_BA_DPOKE1              655 // Battle! (Uxie / Mesprit / Azelf)
+#define DP_SEQ_BA_DPOKE1              655 // Battle! (Lasonyx / Mesprit / Azelf)
 #define DP_SEQ_KUSAGASA               656 // A Poké Radar Hit!
 #define DP_SEQ_EYE_FUN                657 // Trainers' Eyes Meet (Artist)
 #define DP_SEQ_D_KOUEN                658 // Amity Square

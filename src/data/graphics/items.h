@@ -1237,8 +1237,8 @@ const u32 gItemIconPalette_CellBattery[] = INCBIN_U32("graphics/items/icon_palet
 const u32 gItemIcon_CoverFossil[] = INCBIN_U32("graphics/items/icons/cover_fossil.4bpp.lz");
 const u32 gItemIconPalette_CoverFossil[] = INCBIN_U32("graphics/items/icon_palettes/cover_fossil.gbapal.lz");
 
-const u32 gItemIcon_PlumeFossil[] = INCBIN_U32("graphics/items/icons/plume_fossil.4bpp.lz");
-const u32 gItemIconPalette_PlumeFossil[] = INCBIN_U32("graphics/items/icon_palettes/plume_fossil.gbapal.lz");
+const u32 gItemIcon_PlumeFossil[] = INCBIN_U32("graphics/items/icons/horn_fossil.4bpp.lz");
+const u32 gItemIconPalette_PlumeFossil[] = INCBIN_U32("graphics/items/icon_palettes/horn_fossil.gbapal.lz");
 
 const u32 gItemIcon_HealthWing[] = INCBIN_U32("graphics/items/icons/health_wing.4bpp.lz");
 const u32 gItemIconPalette_HealthWing[] = INCBIN_U32("graphics/items/icon_palettes/health_wing.gbapal.lz");
@@ -1450,8 +1450,8 @@ const u32 gItemIconPalette_WeaknessPolicy[] = INCBIN_U32("graphics/items/icon_pa
 const u32 gItemIcon_JawFossil[] = INCBIN_U32("graphics/items/icons/jaw_fossil.4bpp.lz");
 const u32 gItemIconPalette_JawFossil[] = INCBIN_U32("graphics/items/icon_palettes/jaw_fossil.gbapal.lz");
 
-const u32 gItemIcon_SailFossil[] = INCBIN_U32("graphics/items/icons/sail_fossil.4bpp.lz");
-const u32 gItemIconPalette_SailFossil[] = INCBIN_U32("graphics/items/icon_palettes/sail_fossil.gbapal.lz");
+const u32 gItemIcon_SailFossil[] = INCBIN_U32("graphics/items/icons/tooth_fossil.4bpp.lz");
+const u32 gItemIconPalette_SailFossil[] = INCBIN_U32("graphics/items/icon_palettes/tooth_fossil.gbapal.lz");
 
 // Gen 7 Items
 

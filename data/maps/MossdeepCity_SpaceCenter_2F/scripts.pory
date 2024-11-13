@@ -350,25 +350,25 @@ MossdeepCity_SpaceCenter_2F_EventScript_TabithaTrainer:: @ 8224166
 	trainerbattle TRAINER_BATTLE_SET_TRAINER_B, TRAINER_TABITHA_MOSSDEEP, 0, MossdeepCity_SpaceCenter_Text_TabithaDefeat, MossdeepCity_SpaceCenter_Text_TabithaDefeat
 	end
 
-MossdeepCity_SpaceCenter_2F_EventScript_RivalRayquazaCall:: @ 8224175
+MossdeepCity_SpaceCenter_2F_EventScript_RivalTowermastaCall:: @ 8224175
 	lockall
 	checkplayergender
 	compare VAR_RESULT, MALE
-	call_if_eq MossdeepCity_SpaceCenter_2F_EventScript_MayRayquazaCall
+	call_if_eq MossdeepCity_SpaceCenter_2F_EventScript_MayTowermastaCall
 	compare VAR_RESULT, FEMALE
-	call_if_eq MossdeepCity_SpaceCenter_2F_EventScript_BrendanRayquazaCall
+	call_if_eq MossdeepCity_SpaceCenter_2F_EventScript_BrendanTowermastaCall
 	closemessage
 	clearflag FLAG_DEFEATED_MAGMA_SPACE_CENTER
 	releaseall
 	end
 
-MossdeepCity_SpaceCenter_2F_EventScript_MayRayquazaCall:: @ 8224193
-	pokenavcall MatchCall_Text_MayRayquazaCall
+MossdeepCity_SpaceCenter_2F_EventScript_MayTowermastaCall:: @ 8224193
+	pokenavcall MatchCall_Text_MayTowermastaCall
 	waitmessage
 	return
 
-MossdeepCity_SpaceCenter_2F_EventScript_BrendanRayquazaCall:: @ 822419A
-	pokenavcall MatchCall_Text_BrendanRayquazaCall
+MossdeepCity_SpaceCenter_2F_EventScript_BrendanTowermastaCall:: @ 822419A
+	pokenavcall MatchCall_Text_BrendanTowermastaCall
 	waitmessage
 	return
 

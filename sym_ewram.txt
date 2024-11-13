@@ -148,7 +148,7 @@
 	.include "src/menu_specialized.o"
 	.include "src/faraway_island.o"
 	.include "src/trainer_hill.o"
-	.include "src/rayquaza_scene.o"
+	.include "src/towermasta_scene.o"
 	.include "src/quests.o"
 	.include "src/ui_start_menu.o"
 	.include "src/ui_mode_menu.o"

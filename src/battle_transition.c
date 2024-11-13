@@ -88,7 +88,7 @@ static void Phase2Task_Nawffle(u8 taskId);
 static void Phase2Task_Beerio(u8 taskId);
 static void Phase2Task_Krakrum(u8 taskId);
 static void Phase2Task_Noirnet(u8 taskId);
-static void Phase2Task_Rayquaza(u8 taskId);
+static void Phase2Task_Towermasta(u8 taskId);
 static void Phase2Task_ShredSplit(u8 taskId);
 static void Phase2Task_Blackhole1(u8 taskId);
 static void Phase2Task_Blackhole2(u8 taskId);
@@ -117,7 +117,7 @@ static void VBlankCB0_Phase2_WhiteFade(void);
 static void VBlankCB1_Phase2_WhiteFade(void);
 static void HBlankCB_Phase2_WhiteFade(void);
 static void VBlankCB_Phase2_Shards(void);
-static void VBlankCB_Phase2_Rayquaza(void);
+static void VBlankCB_Phase2_Towermasta(void);
 static bool8 Phase2_Blur_Func1(struct Task *task);
 static bool8 Phase2_Blur_Func2(struct Task *task);
 static bool8 Phase2_Blur_Func3(struct Task *task);
@@ -198,13 +198,13 @@ static bool8 Phase2_FrontierLogoWave_Func1(struct Task *task);
 static bool8 Phase2_FrontierLogoWave_Func2(struct Task *task);
 static bool8 Phase2_FrontierLogoWave_Func3(struct Task *task);
 static bool8 Phase2_FrontierLogoWave_Func4(struct Task *task);
-static bool8 Phase2_Rayquaza_Func3(struct Task *task);
-static bool8 Phase2_Rayquaza_Func4(struct Task *task);
-static bool8 Phase2_Rayquaza_Func5(struct Task *task);
-static bool8 Phase2_Rayquaza_Func6(struct Task *task);
-static bool8 Phase2_Rayquaza_Func7(struct Task *task);
-static bool8 Phase2_Rayquaza_Func8(struct Task *task);
-static bool8 Phase2_Rayquaza_Func9(struct Task *task);
+static bool8 Phase2_Towermasta_Func3(struct Task *task);
+static bool8 Phase2_Towermasta_Func4(struct Task *task);
+static bool8 Phase2_Towermasta_Func5(struct Task *task);
+static bool8 Phase2_Towermasta_Func6(struct Task *task);
+static bool8 Phase2_Towermasta_Func7(struct Task *task);
+static bool8 Phase2_Towermasta_Func8(struct Task *task);
+static bool8 Phase2_Towermasta_Func9(struct Task *task);
 static bool8 Phase2_FrontierSquares_Func1(struct Task *task);
 static bool8 Phase2_FrontierSquares_Func2(struct Task *task);
 static bool8 Phase2_FrontierSquares_Func3(struct Task *task);
@@ -299,9 +299,9 @@ static const u16 sKrakrum1_Palette[] = INCBIN_U16("graphics/battle_transitions/k
 static const u16 sKrakrum2_Palette[] = INCBIN_U16("graphics/battle_transitions/krakrum_pt2.gbapal");
 static const u16 sNoirnet1_Palette[] = INCBIN_U16("graphics/battle_transitions/noirnet_pt1.gbapal");
 static const u16 sNoirnet2_Palette[] = INCBIN_U16("graphics/battle_transitions/noirnet_pt2.gbapal");
-static const u16 sRayquaza_Palette[] = INCBIN_U16("graphics/battle_transitions/rayquaza.gbapal");
-static const u32 sRayquaza_Tileset[] = INCBIN_U32("graphics/battle_transitions/rayquaza.4bpp");
-static const u32 sRayquaza_Tilemap[] = INCBIN_U32("graphics/battle_transitions/rayquaza.bin");
+static const u16 sTowermasta_Palette[] = INCBIN_U16("graphics/battle_transitions/towermasta.gbapal");
+static const u32 sTowermasta_Tileset[] = INCBIN_U32("graphics/battle_transitions/towermasta.4bpp");
+static const u32 sTowermasta_Tilemap[] = INCBIN_U32("graphics/battle_transitions/towermasta.bin");
 static const u16 sFrontierLogo_Palette[] = INCBIN_U16("graphics/battle_transitions/frontier_logo.gbapal");
 static const u32 sFrontierLogo_Tileset[] = INCBIN_U32("graphics/battle_transitions/frontier_logo.4bpp.lz");
 static const u32 sFrontierLogo_Tilemap[] = INCBIN_U32("graphics/battle_transitions/frontier_logo.bin.lz");
@@ -343,7 +343,7 @@ static const TaskFunc sPhase2_Tasks[B_TRANSITION_COUNT] =
     [B_TRANSITION_BEERIO] = Phase2Task_Beerio,
     [B_TRANSITION_KRAKRUM] = Phase2Task_Krakrum,
     [B_TRANSITION_NOIRNET] = Phase2Task_Noirnet,
-    [B_TRANSITION_RAYQUAZA] = Phase2Task_Rayquaza,
+    [B_TRANSITION_TOWERMASTA] = Phase2Task_Towermasta,
     [B_TRANSITION_SHRED_SPLIT] = Phase2Task_ShredSplit,
     [B_TRANSITION_BLACKHOLE1] = Phase2Task_Blackhole1,
     [B_TRANSITION_BLACKHOLE2] = Phase2Task_Blackhole2,
@@ -651,17 +651,17 @@ static const TransitionStateFunc sPhase2_Noirnet_Funcs[] =
     Phase2_WeatherDuo_Func7
 };
 
-static const TransitionStateFunc sPhase2_Rayquaza_Funcs[] =
+static const TransitionStateFunc sPhase2_Towermasta_Funcs[] =
 {
     Phase2_WeatherTrio_Func1,
     Phase2_WaitPaletteFade,
-    Phase2_Rayquaza_Func3,
-    Phase2_Rayquaza_Func4,
-    Phase2_Rayquaza_Func5,
-    Phase2_Rayquaza_Func6,
-    Phase2_Rayquaza_Func7,
-    Phase2_Rayquaza_Func8,
-    Phase2_Rayquaza_Func9,
+    Phase2_Towermasta_Func3,
+    Phase2_Towermasta_Func4,
+    Phase2_Towermasta_Func5,
+    Phase2_Towermasta_Func6,
+    Phase2_Towermasta_Func7,
+    Phase2_Towermasta_Func8,
+    Phase2_Towermasta_Func9,
     Phase2_Blackhole1_Func2,
     Phase2_Blackhole1_Func3
 };
@@ -3111,12 +3111,12 @@ static bool8 Phase2_Noirnet_Func5(struct Task *task)
     return FALSE;
 }
 
-static void Phase2Task_Rayquaza(u8 taskId)
+static void Phase2Task_Towermasta(u8 taskId)
 {
-    while (sPhase2_Rayquaza_Funcs[gTasks[taskId].tState](&gTasks[taskId]));
+    while (sPhase2_Towermasta_Funcs[gTasks[taskId].tState](&gTasks[taskId]));
 }
 
-static bool8 Phase2_Rayquaza_Func3(struct Task *task)
+static bool8 Phase2_Towermasta_Func3(struct Task *task)
 {
     u16 *tilemap, *tileset;
     u16 i;
@@ -3127,11 +3127,11 @@ static bool8 Phase2_Rayquaza_Func3(struct Task *task)
     SetGpuReg(REG_OFFSET_BG0CNT, 0x9A08);
     GetBg0TilesDst(&tilemap, &tileset);
     CpuFill16(0, tilemap, 0x800);
-    CpuCopy16(sRayquaza_Tileset, tileset, 0x2000);
+    CpuCopy16(sTowermasta_Tileset, tileset, 0x2000);
 
     sTransitionStructPtr->field_20 = 0;
     task->tState++;
-    LoadPalette(sRayquaza_Palette + 0x50, 0xF0, 0x20);
+    LoadPalette(sTowermasta_Palette + 0x50, 0xF0, 0x20);
 
     for (i = 0; i < 160; i++)
     {
@@ -3139,26 +3139,26 @@ static bool8 Phase2_Rayquaza_Func3(struct Task *task)
         gScanlineEffectRegBuffers[1][i] = 0x100;
     }
 
-    SetVBlankCallback(VBlankCB_Phase2_Rayquaza);
+    SetVBlankCallback(VBlankCB_Phase2_Towermasta);
     return FALSE;
 }
 
-static bool8 Phase2_Rayquaza_Func4(struct Task *task)
+static bool8 Phase2_Towermasta_Func4(struct Task *task)
 {
     u16 *tilemap, *tileset;
 
     GetBg0TilesDst(&tilemap, &tileset);
-    CpuCopy16(sRayquaza_Tilemap, tilemap, 0x1000);
+    CpuCopy16(sTowermasta_Tilemap, tilemap, 0x1000);
     task->tState++;
     return FALSE;
 }
 
-static bool8 Phase2_Rayquaza_Func5(struct Task *task)
+static bool8 Phase2_Towermasta_Func5(struct Task *task)
 {
     if ((task->tData1 % 4) == 0)
     {
         u16 value = task->tData1 / 4;
-        const u16 *palPtr = &sRayquaza_Palette[(value + 5) * 16];
+        const u16 *palPtr = &sTowermasta_Palette[(value + 5) * 16];
         LoadPalette(palPtr, 0xF0, 0x20);
     }
     if (++task->tData1 > 40)
@@ -3170,7 +3170,7 @@ static bool8 Phase2_Rayquaza_Func5(struct Task *task)
     return FALSE;
 }
 
-static bool8 Phase2_Rayquaza_Func6(struct Task *task)
+static bool8 Phase2_Towermasta_Func6(struct Task *task)
 {
     if (++task->tData1 > 20)
     {
@@ -3182,7 +3182,7 @@ static bool8 Phase2_Rayquaza_Func6(struct Task *task)
     return FALSE;
 }
 
-static bool8 Phase2_Rayquaza_Func7(struct Task *task)
+static bool8 Phase2_Towermasta_Func7(struct Task *task)
 {
     if (!gPaletteFade.active)
     {
@@ -3193,7 +3193,7 @@ static bool8 Phase2_Rayquaza_Func7(struct Task *task)
     return FALSE;
 }
 
-static bool8 Phase2_Rayquaza_Func8(struct Task *task)
+static bool8 Phase2_Towermasta_Func8(struct Task *task)
 {
     BlendPalettes(0x00007FFF, 8, 0);
     BlendPalettes(0xFFFF8000, 0, 0);
@@ -3202,12 +3202,12 @@ static bool8 Phase2_Rayquaza_Func8(struct Task *task)
     return FALSE;
 }
 
-static bool8 Phase2_Rayquaza_Func9(struct Task *task)
+static bool8 Phase2_Towermasta_Func9(struct Task *task)
 {
     if ((task->tData1 % 3) == 0)
     {
         u16 value = task->tData1 / 3;
-        const u16 *palPtr = &sRayquaza_Palette[(value + 0) * 16];
+        const u16 *palPtr = &sTowermasta_Palette[(value + 0) * 16];
         LoadPalette(palPtr, 0xF0, 0x20);
     }
     if (++task->tData1 >= 40)
@@ -3234,7 +3234,7 @@ static bool8 Phase2_Rayquaza_Func9(struct Task *task)
     return FALSE;
 }
 
-static void VBlankCB_Phase2_Rayquaza(void)
+static void VBlankCB_Phase2_Towermasta(void)
 {
     void *dmaSrc;
 

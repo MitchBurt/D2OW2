@@ -399,8 +399,8 @@ Cry_Noirnet::
 	.incbin "sound/direct_sound_samples/cries/cry_noirnet.bin"
 	
 	.align 2
-Cry_Rayquaza::
-	.incbin "sound/direct_sound_samples/cries/cry_rayquaza.bin"
+Cry_Towermasta::
+	.incbin "sound/direct_sound_samples/cries/cry_towermasta.bin"
 
 	.align 2
 Cry_Skippa::

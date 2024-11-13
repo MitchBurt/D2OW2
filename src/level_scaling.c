@@ -162,7 +162,7 @@ u16 GetFirstEvolution(u16 species){
 
 u8 GetNumBadges()
 {
-	if (FlagGet(FLAG_DEFEATED_RAYQUAZA))
+	if (FlagGet(FLAG_DEFEATED_TOWERMASTA))
 		return 10;
 	if (FlagGet(FLAG_SYS_GAME_CLEAR))
 		return 9;
@@ -1577,9 +1577,9 @@ u16 GetScaledItem(u16 itemId)
 		ITEM_SKULL_FOSSIL,			//Cranidos
 		ITEM_ARMOR_FOSSIL,			//Shieldon
 		ITEM_COVER_FOSSIL,			//Tirtuga
-		ITEM_PLUME_FOSSIL,			//Archen
+		ITEM_HORN_FOSSIL,			//Archen
 		ITEM_JAW_FOSSIL,			//Tyrunt
-		ITEM_SAIL_FOSSIL,			//Amaura
+		ITEM_TOOTH_FOSSIL,			//Amaura
 	};
 	
 	u16 sScaledItems_ZeroBadges[] = {	//Zero or One Badges

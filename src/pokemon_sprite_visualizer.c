@@ -382,7 +382,7 @@ const u8 gBattleBackgroundNames[][30] =
     [MAP_BATTLE_SCENE_DARIO]  = _("DARIO                 "),
     [MAP_BATTLE_SCENE_NOIRNET]  = _("NOIRNET                 "),
     [MAP_BATTLE_SCENE_KRAKRUM]   = _("KRAKRUM                  "),
-    [MAP_BATTLE_SCENE_RAYQUAZA] = _("RAYQUAZA                "),
+    [MAP_BATTLE_SCENE_TOWERMASTA] = _("TOWERMASTA                "),
 };
 const u8 gBattleBackgroundTerrainNames[][26] =
 {
@@ -894,10 +894,10 @@ static void LoadBattleBg(u8 battleBgType, u8 battleTerrain)
         LZDecompressVram(gBattleTerrainTilemap_Water, (void*)(BG_SCREEN_ADDR(26)));
         LoadCompressedPalette(gBattleTerrainPalette_Krakrum, 0x20, 0x60);
         break;
-    case MAP_BATTLE_SCENE_RAYQUAZA:
-        LZDecompressVram(gBattleTerrainTiles_Rayquaza, (void*)(BG_CHAR_ADDR(2)));
-        LZDecompressVram(gBattleTerrainTilemap_Rayquaza, (void*)(BG_SCREEN_ADDR(26)));
-        LoadCompressedPalette(gBattleTerrainPalette_Rayquaza, 0x20, 0x60);
+    case MAP_BATTLE_SCENE_TOWERMASTA:
+        LZDecompressVram(gBattleTerrainTiles_Towermasta, (void*)(BG_CHAR_ADDR(2)));
+        LZDecompressVram(gBattleTerrainTilemap_Towermasta, (void*)(BG_SCREEN_ADDR(26)));
+        LoadCompressedPalette(gBattleTerrainPalette_Towermasta, 0x20, 0x60);
         break;
     }
 }
@@ -929,7 +929,7 @@ static void UpdateBattleBg(u8 taskId, bool8 increment)
         else
         {
             if (data->battleTerrain == BATTLE_TERRAIN_GRASS)
-                data->battleBgType = MAP_BATTLE_SCENE_RAYQUAZA;
+                data->battleBgType = MAP_BATTLE_SCENE_TOWERMASTA;
             else
                 data->battleTerrain -= 1;
         }
@@ -944,7 +944,7 @@ static void UpdateBattleBg(u8 taskId, bool8 increment)
             data->battleTerrain = BATTLE_TERRAIN_PLAIN;
         }
     }
-    else if (data->battleBgType == MAP_BATTLE_SCENE_RAYQUAZA)
+    else if (data->battleBgType == MAP_BATTLE_SCENE_TOWERMASTA)
     {
         if (increment)
         {

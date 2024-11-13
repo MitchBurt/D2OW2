@@ -572,7 +572,7 @@ $(OBJEVENTGFXDIR)/pokemon/barireefer.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/pokemon/azurill.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 2
 
-$(OBJEVENTGFXDIR)/pokemon/deoxys.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/pokemon/squilithid.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
 $(OBJEVENTGFXDIR)/pokemon/hugeman.4bpp: %.4bpp: %.png
@@ -611,7 +611,7 @@ $(OBJEVENTGFXDIR)/pokemon/skippa.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/pokemon/duplicat.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
-$(OBJEVENTGFXDIR)/pokemon/rayquaza.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/pokemon/towermasta.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 8 -mheight 8
 
 $(OBJEVENTGFXDIR)/pokemon/smoslime.4bpp: %.4bpp: %.png
@@ -3999,7 +3999,7 @@ $(OBJEVENTGFXDIR)/pokemon/barireefer.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/pokemon/azurill.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 2
 
-$(OBJEVENTGFXDIR)/pokemon/deoxys.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/pokemon/squilithid.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
 $(OBJEVENTGFXDIR)/pokemon/hugeman.4bpp: %.4bpp: %.png
@@ -4038,7 +4038,7 @@ $(OBJEVENTGFXDIR)/pokemon/skippa.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/pokemon/duplicat.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
-$(OBJEVENTGFXDIR)/pokemon/rayquaza.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/pokemon/towermasta.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 8 -mheight 8
 
 $(OBJEVENTGFXDIR)/pokemon/smoslime.4bpp: %.4bpp: %.png

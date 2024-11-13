@@ -24,7 +24,7 @@
                               | BATTLE_TYPE_WALLY_TUTORIAL | BATTLE_TYPE_ROAMER | BATTLE_TYPE_EREADER_TRAINER    \
                               | BATTLE_TYPE_KRAKRUM_NOIRNET | BATTLE_TYPE_LEGENDARY | BATTLE_TYPE_REGI            \
                               | BATTLE_TYPE_RECORDED | BATTLE_TYPE_TRAINER_HILL | BATTLE_TYPE_SECRET_BASE        \
-                              | BATTLE_TYPE_NOIRNET | BATTLE_TYPE_KRAKRUM | BATTLE_TYPE_RAYQUAZA))
+                              | BATTLE_TYPE_NOIRNET | BATTLE_TYPE_KRAKRUM | BATTLE_TYPE_TOWERMASTA))
 
 struct PlayerInfo
 {

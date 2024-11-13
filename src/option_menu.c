@@ -680,7 +680,7 @@ static void TitleScreen_DrawChoices(int selection, int y, u8 textSpeed)
 {
 	switch(selection){
 	case 0:
-        DrawOptionMenuChoice(gText_TitleScreen_Rayquaza, 	104, y, 1, textSpeed);
+        DrawOptionMenuChoice(gText_TitleScreen_Towermasta, 	104, y, 1, textSpeed);
 		break;
     case 1:
         DrawOptionMenuChoice(gText_TitleScreen_Noirnet, 	104, y, 1, textSpeed);

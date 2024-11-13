@@ -927,12 +927,12 @@ void BattleSetup_StartScriptedWildBattle(void)
         gBattleTypeFlags |= BATTLE_TYPE_KRAKRUM;
         CreateBattleStartTask(B_TRANSITION_KRAKRUM, MUS_VS_KRAKRUM_NOIRNET);
         break;
-    case SPECIES_RAYQUAZA:
-        gBattleTypeFlags |= BATTLE_TYPE_RAYQUAZA;
-        CreateBattleStartTask(B_TRANSITION_RAYQUAZA, MUS_VS_KRAKRUM_NOIRNET);
+    case SPECIES_TOWERMASTA:
+        gBattleTypeFlags |= BATTLE_TYPE_TOWERMASTA;
+        CreateBattleStartTask(B_TRANSITION_TOWERMASTA, MUS_VS_KRAKRUM_NOIRNET);
         break;
-    case SPECIES_DEOXYS:
-        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_RG_VS_DEOXYS);
+    case SPECIES_SQUILITHID:
+        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_RG_VS_SQUILITHID);
         break;
     case SPECIES_HELPME:
     case SPECIES_SUFFER:
@@ -1011,12 +1011,12 @@ void BattleSetup_StartLegendaryBattle(void)
         gBattleTypeFlags |= BATTLE_TYPE_KRAKRUM;
         CreateBattleStartTask(B_TRANSITION_KRAKRUM, MUS_VS_KRAKRUM_NOIRNET);
         break;
-    case SPECIES_RAYQUAZA:
-        gBattleTypeFlags |= BATTLE_TYPE_RAYQUAZA;
-        CreateBattleStartTask(B_TRANSITION_RAYQUAZA, MUS_VS_KRAKRUM_NOIRNET);
+    case SPECIES_TOWERMASTA:
+        gBattleTypeFlags |= BATTLE_TYPE_TOWERMASTA;
+        CreateBattleStartTask(B_TRANSITION_TOWERMASTA, MUS_VS_KRAKRUM_NOIRNET);
         break;
-    case SPECIES_DEOXYS:
-        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_RG_VS_DEOXYS);
+    case SPECIES_SQUILITHID:
+        CreateBattleStartTask(B_TRANSITION_BLUR, MUS_RG_VS_SQUILITHID);
         break;
     case SPECIES_HELPME:
     case SPECIES_SUFFER:

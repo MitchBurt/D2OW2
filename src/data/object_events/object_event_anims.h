@@ -945,7 +945,7 @@ const union AnimCmd gObjectEventImageAnim_8509230[] =
     ANIMCMD_JUMP(0),
 };
 
-const union AnimCmd *const gObjectEventImageAnimTable_Rayquaza2[] = {
+const union AnimCmd *const gObjectEventImageAnimTable_Towermasta2[] = {
     gObjectEventImageAnim_8509218,
     gObjectEventImageAnim_8509220,
     gObjectEventImageAnim_8509228,

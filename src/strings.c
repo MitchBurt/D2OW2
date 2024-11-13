@@ -3983,7 +3983,7 @@ const u8 gText_ColorGray[] 		= _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Gray     ");
 const u8 gText_ColorWhite[] 	= _("{COLOR GREEN}{SHADOW LIGHT_GREEN}White    ");
 const u8 gText_ColorPink[] 					= _("{COLOR GREEN}{SHADOW LIGHT_GREEN}Pink     ");
 
-const u8 gText_TitleScreen_Rayquaza[]    	= _("Rayquaza");
+const u8 gText_TitleScreen_Towermasta[]    	= _("Towermasta");
 const u8 gText_TitleScreen_Noirnet[] 		= _("Noirnet{0x77}{0x77}");
 const u8 gText_TitleScreen_Krakrum[]   		= _("Krakrum{0x77}{0x77}{0x77}");
 

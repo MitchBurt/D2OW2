@@ -8128,12 +8128,8 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_FAST,
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FAIRY,
-        #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_CUTE_CHARM, ABILITY_NORMALIZE},
-            .abilityHidden = ABILITY_WONDER_SKIN,
-        #else
-            .abilities = {ABILITY_CUTE_CHARM, ABILITY_NONE},
-        #endif
+        .abilities = {ABILITY_IMMUNITY, ABILITY_NORMALIZE},
+        .abilityHidden = ABILITY_WONDER_SKIN,
         .bodyColor = BODY_COLOR_PINK,
         .noFlip = FALSE,
     },
@@ -10280,16 +10276,16 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_RAYQUAZA] =
+    [SPECIES_TOWERMASTA] =
     {
         .baseHP        = 105,
-        .baseAttack    = 150,
-        .baseDefense   = 90,
+        .baseAttack    = 120,
+        .baseDefense   = 150,
         .baseSpeed     = 95,
-        .baseSpAttack  = 150,
-        .baseSpDefense = 90,
-        .type1 = TYPE_DRAGON,
-        .type2 = TYPE_FLYING,
+        .baseSpAttack  = 50,
+        .baseSpDefense = 150,
+        .type1 = TYPE_ROCK,
+        .type2 = TYPE_ROCK,
         .catchRate = 3,
         .expYield = 306,
         .evYield_Attack    = 2,
@@ -10300,7 +10296,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_SLOW,
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
-        .abilities = {ABILITY_AIR_LOCK, ABILITY_NONE},
+        .abilities = {ABILITY_DAUNTLESS_SHIELD, ABILITY_MOUNTAINEER},
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
     },
@@ -10332,7 +10328,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_DEOXYS] =
+    [SPECIES_SQUILITHID] =
     {
         .baseHP        = 50,
         .baseAttack    = 150,
@@ -10341,7 +10337,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 150,
         .baseSpDefense = 50,
         .type1 = TYPE_PSYCHIC,
-        .type2 = TYPE_PSYCHIC,
+        .type2 = TYPE_COSMIC,
         .catchRate = 3,
         .expYield = 270,
         .evYield_Attack    = 1,
@@ -10353,8 +10349,8 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_SLOW,
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
-        .abilities = {ABILITY_PRESSURE, ABILITY_NONE},
-        .bodyColor = BODY_COLOR_RED,
+        .abilities = {ABILITY_SOUL_HEART, ABILITY_TELEPATHY},
+        .bodyColor = BODY_COLOR_PURPLE,
         .noFlip = FALSE,
     },
 
@@ -10758,6 +10754,7 @@ const struct BaseStats gBaseStats[] =
         .abilityHidden = ABILITY_TINTED_LENS,
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
+        .flags = F_FOOD
     },
 
     [SPECIES_DESQUEEZE] =
@@ -10788,6 +10785,7 @@ const struct BaseStats gBaseStats[] =
         #endif
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
+        .flags = F_FOOD
     },
 
     [SPECIES_SHINX] =
@@ -10821,14 +10819,14 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_RIMESLANCH] =
     {
-        .baseHP        = 60,
-        .baseAttack    = 85,
-        .baseDefense   = 49,
-        .baseSpeed     = 60,
+        .baseHP        = 105,
+        .baseAttack    = 80,
+        .baseDefense   = 100,
+        .baseSpeed     = 50,
         .baseSpAttack  = 60,
-        .baseSpDefense = 49,
-        .type1 = TYPE_ELECTRIC,
-        .type2 = TYPE_ELECTRIC,
+        .baseSpDefense = 120,
+        .type1 = TYPE_NORMAL,
+        .type2 = TYPE_NORMAL,
         .catchRate = 120,
         .expYield = 127,
         .evYield_Attack    = 2,
@@ -10838,11 +10836,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_SLOW,
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
-        #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_RIVALRY, ABILITY_INTIMIDATE},
-        #else
-            .abilities = {ABILITY_NONE, ABILITY_INTIMIDATE},
-        #endif
+        .abilities = {ABILITY_IMMUNITY, ABILITY_NORMALIZE},
         .abilityHidden = ABILITY_GUTS,
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
@@ -11015,7 +11009,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_BASTIODON] =
+    [SPECIES_GREEDURN] =
     {
         .baseHP        = 60,
         .baseAttack    = 52,
@@ -11024,7 +11018,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 47,
         .baseSpDefense = 138,
         .type1 = TYPE_ROCK,
-        .type2 = TYPE_STEEL,
+        .type2 = TYPE_ROCK,
         .catchRate = 45,
         .expYield = 173,
         .evYield_Defense   = 2,
@@ -11033,8 +11027,8 @@ const struct BaseStats gBaseStats[] =
         .friendship = 70,
         .growthRate = GROWTH_ERRATIC,
         .eggGroup1 = EGG_GROUP_MONSTER,
-        .eggGroup2 = EGG_GROUP_MONSTER,
-        .abilities = {ABILITY_STURDY, ABILITY_NONE},
+        .eggGroup2 = EGG_GROUP_MINERAL,
+        .abilities = {ABILITY_TRACE, ABILITY_ROCK_HEAD},
         .abilityHidden = ABILITY_SOUNDPROOF,
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
@@ -11448,7 +11442,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_BUNEARY] =
+    [SPECIES_POSSQUAD] =
     {
         .baseHP        = 55,
         .baseAttack    = 66,
@@ -11469,17 +11463,13 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_HUMAN_LIKE,
-        #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_RUN_AWAY, ABILITY_KLUTZ},
-        #else
-            .abilities = {ABILITY_RUN_AWAY, ABILITY_NONE},
-        #endif
+        .abilities = {ABILITY_RUN_AWAY, ABILITY_LIMBER},
         .abilityHidden = ABILITY_LIMBER,
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
     },
 
-    [SPECIES_LOPUNNY] =
+    [SPECIES_POSSWARM] =
     {
         .baseHP        = 65,
         .baseAttack    = 76,
@@ -11500,12 +11490,8 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_HUMAN_LIKE,
-        #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_CUTE_CHARM, ABILITY_KLUTZ},
-        #else
-            .abilities = {ABILITY_CUTE_CHARM, ABILITY_NONE},
-        #endif
-        .abilityHidden = ABILITY_LIMBER,
+        .abilities = {ABILITY_CUTE_CHARM, ABILITY_LIMBER},
+        .abilityHidden = ABILITY_PARENTAL_BOND,
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
     },
@@ -12920,7 +12906,7 @@ const struct BaseStats gBaseStats[] =
 		.flags = F_GROUND_INMUNITY,
     },
 
-    [SPECIES_UXIE] =
+    [SPECIES_LASONYX] =
     {
         .baseHP        = 75,
         .baseAttack    = 75,
@@ -25923,7 +25909,7 @@ const struct BaseStats gBaseStats[] =
 		.flags = F_GROUND_INMUNITY,
     },
 
-    [SPECIES_LOPUNNY_MEGA] =
+    [SPECIES_POSSWARM_MEGA] =
     {
         .baseHP        = 65,
         .baseAttack    = 136,
@@ -26077,7 +26063,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_RAYQUAZA_MEGA] =
+    [SPECIES_TOWERMASTA_MEGA] =
     {
         .baseHP        = 105,
         .baseAttack    = 180,
@@ -28453,7 +28439,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_DEOXYS_ATTACK] =
+    [SPECIES_SQUILITHID_ATTACK] =
     {
         .baseHP        = 50,
         .baseAttack    = 180,
@@ -28479,7 +28465,7 @@ const struct BaseStats gBaseStats[] =
         .flags = F_UNOBTAINABLE_FORM,
     },
 
-    [SPECIES_DEOXYS_DEFENSE] =
+    [SPECIES_SQUILITHID_DEFENSE] =
     {
         .baseHP        = 50,
         .baseAttack    = 70,
@@ -28505,7 +28491,7 @@ const struct BaseStats gBaseStats[] =
         .flags = F_UNOBTAINABLE_FORM,
     },
 
-    [SPECIES_DEOXYS_SPEED] =
+    [SPECIES_SQUILITHID_SPEED] =
     {
         .baseHP        = 50,
         .baseAttack    = 95,
@@ -42231,6 +42217,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .abilities = {ABILITY_STEAM_ENGINE, ABILITY_NONE},
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
+        .flags = F_FOOD
     },
 
     [SPECIES_LOBSCALD] =
@@ -42255,6 +42242,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .abilities = {ABILITY_STEAM_ENGINE, ABILITY_COOKING},
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
+        .flags = F_FOOD
     },
 
     [SPECIES_VULPOINTER] =
@@ -43759,6 +43747,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .abilities = {ABILITY_OWN_TEMPO, ABILITY_MOXIE},
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
+        .flags = F_FOOD,
     },
 
     [SPECIES_LATIAS] =
@@ -43863,7 +43852,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_RAYQUAZA] =
+    [SPECIES_TOWERMASTA] =
     {
         .baseHP        = 105,
         .baseAttack    = 150,
@@ -43915,7 +43904,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_DEOXYS] =
+    [SPECIES_SQUILITHID] =
     {
         .baseHP        = 50,
         .baseAttack    = 150,
@@ -44598,7 +44587,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_BASTIODON] =
+    [SPECIES_GREEDURN] =
     {
         .baseHP        = 60,
         .baseAttack    = 52,
@@ -45031,7 +45020,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_BUNEARY] =
+    [SPECIES_POSSQUAD] =
     {
         .baseHP        = 55,
         .baseAttack    = 66,
@@ -45062,7 +45051,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_LOPUNNY] =
+    [SPECIES_POSSWARM] =
     {
         .baseHP        = 65,
         .baseAttack    = 76,
@@ -46516,7 +46505,7 @@ const struct BaseStats gVanillaBaseStats[] =
 		.flags = F_GROUND_INMUNITY,
     },
 
-    [SPECIES_UXIE] =
+    [SPECIES_LASONYX] =
     {
         .baseHP        = 75,
         .baseAttack    = 75,
@@ -59521,7 +59510,7 @@ const struct BaseStats gVanillaBaseStats[] =
 		.flags = F_GROUND_INMUNITY,
     },
 
-    [SPECIES_LOPUNNY_MEGA] =
+    [SPECIES_POSSWARM_MEGA] =
     {
         .baseHP        = 65,
         .baseAttack    = 136,
@@ -59675,7 +59664,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_RAYQUAZA_MEGA] =
+    [SPECIES_TOWERMASTA_MEGA] =
     {
         .baseHP        = 105,
         .baseAttack    = 180,
@@ -62051,7 +62040,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_DEOXYS_ATTACK] =
+    [SPECIES_SQUILITHID_ATTACK] =
     {
         .baseHP        = 50,
         .baseAttack    = 180,
@@ -62077,7 +62066,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .flags = F_UNOBTAINABLE_FORM,
     },
 
-    [SPECIES_DEOXYS_DEFENSE] =
+    [SPECIES_SQUILITHID_DEFENSE] =
     {
         .baseHP        = 50,
         .baseAttack    = 70,
@@ -62103,7 +62092,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .flags = F_UNOBTAINABLE_FORM,
     },
 
-    [SPECIES_DEOXYS_SPEED] =
+    [SPECIES_SQUILITHID_SPEED] =
     {
         .baseHP        = 50,
         .baseAttack    = 95,

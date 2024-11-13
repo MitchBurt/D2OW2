@@ -10871,7 +10871,7 @@
               {
                 "min_level": 23,
                 "max_level": 23,
-                "species": "SPECIES_BUNEARY"
+                "species": "SPECIES_POSSQUAD"
               },
               {
                 "min_level": 24,
@@ -14080,7 +14080,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BUNEARY"
+                "species": "SPECIES_POSSQUAD"
               },
               {
                 "min_level": 5,
@@ -14090,7 +14090,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BUNEARY"
+                "species": "SPECIES_POSSQUAD"
               }
             ]
           },
@@ -14651,7 +14651,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BUNEARY"
+                "species": "SPECIES_POSSQUAD"
               },
               {
                 "min_level": 5,
@@ -16621,7 +16621,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BUNEARY"
+                "species": "SPECIES_POSSQUAD"
               },
               {
                 "min_level": 5,

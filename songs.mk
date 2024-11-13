@@ -333,7 +333,7 @@ $(MID_SUBDIR)/mus_b_pyramid_top.s: %.s: %.mid
 $(MID_SUBDIR)/mus_ever_grande.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G068 -V086
 
-$(MID_SUBDIR)/mus_rayquaza_appears.s: %.s: %.mid
+$(MID_SUBDIR)/mus_towermasta_appears.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G109 -V090
 
 $(MID_SUBDIR)/mus_rg_rocket_hideout.s: %.s: %.mid
@@ -354,7 +354,7 @@ $(MID_SUBDIR)/mus_rg_intro_fight.s: %.s: %.mid
 $(MID_SUBDIR)/mus_rg_hall_of_fame.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G145 -V079
 
-$(MID_SUBDIR)/mus_rg_encounter_deoxys.s: %.s: %.mid
+$(MID_SUBDIR)/mus_rg_encounter_squilithid.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G184 -V079
 
 $(MID_SUBDIR)/mus_rg_credits.s: %.s: %.mid
@@ -519,7 +519,7 @@ $(MID_SUBDIR)/mus_rg_union_room.s: %.s: %.mid
 $(MID_SUBDIR)/mus_rg_vs_legend.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G157 -V090
 
-$(MID_SUBDIR)/mus_rg_vs_deoxys.s: %.s: %.mid
+$(MID_SUBDIR)/mus_rg_vs_squilithid.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G185 -V080
 
 $(MID_SUBDIR)/mus_rg_vs_gym_leader.s: %.s: %.mid
@@ -999,7 +999,7 @@ $(MID_SUBDIR)/se_rg_card_flipping.s: %.s: %.mid
 $(MID_SUBDIR)/se_rg_card_open.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G129 -V112 -P5
 
-$(MID_SUBDIR)/se_rg_deoxys_move.s: %.s: %.mid
+$(MID_SUBDIR)/se_rg_squilithid_move.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G129 -V080 -P5
 
 $(MID_SUBDIR)/se_rg_poke_jump_success.s: %.s: %.mid

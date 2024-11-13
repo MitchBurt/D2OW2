@@ -80,7 +80,7 @@
 #define FLAG_SAILED_FROM_SLATEPORT       0x44 //
 #define FLAG_DEBUG_FOLLOWER_ENABLED      0x45 // Debug
 #define FLAG_OBTAINED_TM99               0x46 // Dazzling Gleam
-#define FLAG_MEGA_EVOLVE_WILD_POKEMON    0x47 // For Rayquaza and God
+#define FLAG_MEGA_EVOLVE_WILD_POKEMON    0x47 // For Towermasta and God
 #define FLAG_SMART_AI                    0x48 // For Smart Pokemon
 #define FLAG_TOTEM_BATTLE                0x49 // For Legendary Pokemon or other static Pokemon Battles
 #define FLAG_MYSTERY_GIFT_2              0x4C // Spiky Eared Pichu
@@ -89,7 +89,7 @@
 #define FLAG_RECEIVED_EXIOLITE           0x4F // Exiolite
 
 // Scripts
-#define FLAG_HIDE_RAYQUAZA_SKY_TOWER_SUMMIT  0x50
+#define FLAG_HIDE_TOWERMASTA_SKY_TOWER_SUMMIT  0x50
 #define FLAG_SET_WALL_CLOCK                  0x51
 #define FLAG_RESCUED_BIRCH                   0x52
 #define FLAG_LEGENDARIES_IN_SOOTOPOLIS       0x53
@@ -463,8 +463,8 @@
 #define FLAG_SYS_AUTO_RUN                    0x1AA // Auto Run
 #define FLAG_NO_EVS_MODE    				 0x1AB // Game Mode
 
-#define FLAG_DEFEATED_DEOXYS                 0x1AC
-#define FLAG_BATTLED_DEOXYS                  0x1AD
+#define FLAG_DEFEATED_SQUILITHID                 0x1AC
+#define FLAG_BATTLED_SQUILITHID                  0x1AD
 #define FLAG_SHOWN_EON_TICKET                0x1AE
 #define FLAG_SHOWN_AURORA_TICKET             0x1AF
 #define FLAG_SHOWN_OLD_SEA_MAP               0x1B0
@@ -483,7 +483,7 @@
 #define FLAG_DEFEATED_NAWFFLE              0x1BD
 #define FLAG_DEFEATED_KRAKRUM                 0x1BE
 #define FLAG_DEFEATED_NOIRNET                0x1BF
-#define FLAG_DEFEATED_RAYQUAZA               0x1C0
+#define FLAG_DEFEATED_TOWERMASTA               0x1C0
 #define FLAG_DEFEATED_AWMANE_1_NEW_MAUVILLE 0x1C1
 #define FLAG_DEFEATED_AWMANE_2_NEW_MAUVILLE 0x1C2
 #define FLAG_DEFEATED_AWMANE_3_NEW_MAUVILLE 0x1C3
@@ -810,8 +810,8 @@
 #define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM      0x2F8
 #define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK              0x2F9
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_TRUCK                  0x2FA
-#define FLAG_HIDE_DEOXYS                                            0x2FB
-#define FLAG_HIDE_BIRTH_ISLAND_DEOXYS_TRIANGLE                      0x2FC
+#define FLAG_HIDE_SQUILITHID                                            0x2FB
+#define FLAG_HIDE_BIRTH_ISLAND_SQUILITHID_TRIANGLE                      0x2FC
 #define FLAG_HIDE_MAUVILLE_CITY_SCOTT                               0x2FD
 #define FLAG_HIDE_VERDANTURF_TOWN_SCOTT                             0x2FE
 #define FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT                  0x2FF
@@ -820,7 +820,7 @@
 #define FLAG_HIDE_ROUTE_111_VIVI_WINSTRATE                          0x302
 #define FLAG_HIDE_ROUTE_111_VICKY_WINSTRATE                         0x303
 #define FLAG_HIDE_PETALBURG_GYM_RICK                              0x304
-#define FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA_2                         0x305
+#define FLAG_HIDE_SKY_PILLAR_TOP_TOWERMASTA_2                         0x305
 #define FLAG_HIDE_LILYCOVE_CONTEST_HALL_CONTEST_ATTENDANT_1         0x306
 #define FLAG_HIDE_LILYCOVE_MUSEUM_CURATOR                           0x307
 #define FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_1                          0x308
@@ -1042,7 +1042,7 @@
 #define FLAG_HIDE_LILYCOVE_POKEMON_CENTER_CONTEST_LADY_MON          0x3E1
 #define FLAG_HIDE_MT_CHIMNEY_LAVA_COOKIE_LADY                       0x3E2
 #define FLAG_HIDE_PETALBURG_CITY_SCOTT                              0x3E3
-#define FLAG_HIDE_SOOTOPOLIS_CITY_RAYQUAZA                          0x3E4
+#define FLAG_HIDE_SOOTOPOLIS_CITY_TOWERMASTA                          0x3E4
 #define FLAG_HIDE_SOOTOPOLIS_CITY_KRAKRUM                            0x3E5
 #define FLAG_HIDE_SOOTOPOLIS_CITY_NOIRNET                           0x3E6
 #define FLAG_HIDE_RUSTBORO_CITY_POKEMON_SCHOOL_SCOTT                0x3E7
@@ -1234,7 +1234,7 @@
 #define FLAG_DEFEATED_THISCRAKER                                       0x4A0 // Thiscraker
 #define FLAG_DEFEATED_AZELF                                         0x4A2 // Azelf
 #define FLAG_DEFEATED_MESPRIT                                       0x4A3 // Mesprit
-#define FLAG_DEFEATED_UXIE                                          0x4A4 // Uxie
+#define FLAG_DEFEATED_LASONYX                                          0x4A4 // Lasonyx
 #define FLAG_DEFEATED_DIALGA                                        0x4A5 // Dialga
 #define FLAG_DEFEATED_PALKIA                                        0x4A6 // Palkia
 #define FLAG_DEFEATED_GIRATINA                                      0x4A7 // Giratina
@@ -1317,7 +1317,7 @@
 #define FLAG_DEFEATED_SOOTOPOLIS_GYM                                0x4F7
 #define FLAG_DEFEATED_METEOR_FALLS_STEVEN                           0x4F8
 
-#define FLAG_SHINY_RAYQUAZA_TITLE_SCREEN                            0x4F9
+#define FLAG_SHINY_TOWERMASTA_TITLE_SCREEN                            0x4F9
 #define FLAG_ACHIEVEMENT_DATA_CREATED                               0x4FA
 
 #define FLAG_DEFEATED_ELITE_4_JACK                                0x4FB
@@ -1466,8 +1466,8 @@
 #define FLAG_SYS_PYRAMID_GOLD                       (SYSTEM_FLAGS + 0x71)
 #define FLAG_SYS_FRONTIER_PASS                      (SYSTEM_FLAGS + 0x72)
 
-#define FLAG_MAP_SCRIPT_CHECKED_DEOXYS              (SYSTEM_FLAGS + 0x73)
-#define FLAG_DEOXYS_ROCK_COMPLETE                   (SYSTEM_FLAGS + 0x74)
+#define FLAG_MAP_SCRIPT_CHECKED_SQUILITHID              (SYSTEM_FLAGS + 0x73)
+#define FLAG_SQUILITHID_ROCK_COMPLETE                   (SYSTEM_FLAGS + 0x74)
 #define FLAG_ENABLE_SHIP_BIRTH_ISLAND               (SYSTEM_FLAGS + 0x75)
 #define FLAG_ENABLE_SHIP_FARAWAY_ISLAND             (SYSTEM_FLAGS + 0x76)
 

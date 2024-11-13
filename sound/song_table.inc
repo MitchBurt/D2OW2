@@ -261,7 +261,7 @@ gSongTable::
 	song se_rg_help_open, 1, 1
 	song se_rg_help_close, 1, 1
 	song se_rg_help_error, 1, 1
-	song se_rg_deoxys_move, 1, 1
+	song se_rg_squilithid_move, 1, 1
 	song se_rg_poke_jump_success, 1, 1
 	song se_rg_poke_jump_failure, 1, 1
 	song se_pokenav_call, 1, 1
@@ -506,11 +506,11 @@ gSongTable::
 	song mus_rg_sevii_45, 0, 0
 	song mus_rg_sevii_67, 0, 0
 	song mus_rg_poke_flute, 2, 2
-	song mus_rg_vs_deoxys, 0, 0
+	song mus_rg_vs_squilithid, 0, 0
 	song mus_rg_vs_god, 0, 0
 	song mus_rg_vs_legend, 0, 0
 	song mus_rg_encounter_gym_leader, 0, 0
-	song mus_rg_encounter_deoxys, 0, 0
+	song mus_rg_encounter_squilithid, 0, 0
 	song mus_rg_trainer_tower, 0, 0
 	song mus_rg_slow_pallet, 0, 0
 	song mus_rg_teachy_tv_menu, 0, 0
@@ -522,7 +522,7 @@ gSongTable::
 	song mus_b_pyramid, 0, 0
 	song mus_b_pyramid_top, 0, 0
 	song mus_b_palace, 0, 0
-	song mus_rayquaza_appears, 0, 0
+	song mus_towermasta_appears, 0, 0
 	song mus_b_tower, 0, 0
 	song mus_obtain_symbol, 2, 2
 	song mus_b_dome, 0, 0

@@ -503,7 +503,7 @@ static void CreateLilycoveSSTidalMultichoice(void)
         }
     }
 
-    if (FlagGet(FLAG_SYS_FRONTIER_PASS) == TRUE && FLAG_DEFEATED_RAYQUAZA)
+    if (FlagGet(FLAG_SYS_FRONTIER_PASS) == TRUE && FLAG_DEFEATED_TOWERMASTA)
     {
         if (gSpecialVar_0x8004 == 0)
         {
@@ -519,7 +519,7 @@ static void CreateLilycoveSSTidalMultichoice(void)
         }
     }
 
-    if (FlagGet(FLAG_SYS_FRONTIER_PASS) == TRUE && FLAG_DEFEATED_RAYQUAZA)
+    if (FlagGet(FLAG_SYS_FRONTIER_PASS) == TRUE && FLAG_DEFEATED_TOWERMASTA)
     {
         if (gSpecialVar_0x8004 == 0)
         {
@@ -535,7 +535,7 @@ static void CreateLilycoveSSTidalMultichoice(void)
         }
     }
 
-    if (FlagGet(FLAG_SYS_FRONTIER_PASS) == TRUE && FLAG_DEFEATED_RAYQUAZA)
+    if (FlagGet(FLAG_SYS_FRONTIER_PASS) == TRUE && FLAG_DEFEATED_TOWERMASTA)
     {
         if (gSpecialVar_0x8004 == 0)
         {
@@ -853,7 +853,7 @@ static const u8 sText_Fossil_5[] = _("Claw Fossil");
 static const u8 sText_Fossil_6[] = _("Skull Fossil");
 static const u8 sText_Fossil_7[] = _("Armor Fossil");
 static const u8 sText_Fossil_8[] = _("Cover Fossil");
-static const u8 sText_Fossil_9[] = _("Plume Fossil");
+static const u8 sText_Fossil_9[] = _("Horn Fossil");
 static const u8 sText_Fossil_10[] = _("Jaw Fossil");
 static const u8 sText_Fossil_11[] = _("Sail Fossil");
 

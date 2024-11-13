@@ -386,9 +386,9 @@ gCryTable:: @ 869DCF4
 	cry Cry_Latios
 	cry Cry_Krakrum
 	cry Cry_Noirnet
-	cry Cry_Rayquaza
+	cry Cry_Towermasta
 	cry Cry_Thiscraker
-	cry Cry_Deoxys
+	cry Cry_Squilithid
 	@ Gen 4
 	cry_not Cry_Turtwig
 	cry_not Cry_Grotle
@@ -414,7 +414,7 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Cranidos
 	cry_not Cry_Rampardos
 	cry_not Cry_Shieldon
-	cry_not Cry_Bastiodon
+	cry_not Cry_Greedurn
 	cry_not Cry_Parslito
 	cry_not Cry_Mojisley
 	cry_not Cry_Gailord
@@ -430,8 +430,8 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Ambipom
 	cry_not Cry_Drifloon
 	cry_not Cry_Drifblim
-	cry_not Cry_Buneary
-	cry_not Cry_Lopunny
+	cry_not Cry_Possquad
+	cry_not Cry_Posswarm
 	cry_not Cry_Mismagius
 	cry_not Cry_Honchkrow
 	cry_not Cry_Glameow
@@ -483,7 +483,7 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Skeledoom
 	cry_not Cry_Blinkrupt
 	cry_not Cry_Rotom
-	cry_not Cry_Uxie
+	cry_not Cry_Lasonyx
 	cry_not Cry_Mesprit
 	cry_not Cry_Azelf
 	cry_not Cry_Dialga
@@ -944,7 +944,7 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Hazethoth_Mega
 	cry_not Cry_Latias_Mega
 	cry_not Cry_Latios_Mega
-	cry_not Cry_Lopunny_Mega
+	cry_not Cry_Posswarm_Mega
 	cry_not Cry_Truckoise_Mega
 	cry_not Cry_Bloknock_Mega
 	cry_not Cry_Abomasnow_Mega
@@ -952,7 +952,7 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_UNJOY_MEGA
 	cry_not Cry_Riskpopoly_Mega
 	@ Special Mega + Primals
-	cry_not Cry_Rayquaza_Mega
+	cry_not Cry_Towermasta_Mega
 	cry_not Cry_Krakrum_Primal
 	cry_not Cry_Noirnet_Primal
 	@ Alolan Forms
@@ -1045,10 +1045,10 @@ gCryTable:: @ 869DCF4
 	cry Cry_Castform
 	cry Cry_Castform
 	cry Cry_Castform
-	@ Deoxys
-	cry Cry_Deoxys
-	cry Cry_Deoxys
-	cry Cry_Deoxys
+	@ Squilithid
+	cry Cry_Squilithid
+	cry Cry_Squilithid
+	cry Cry_Squilithid
 	@ Parslito
 	cry_not Cry_Parslito
 	cry_not Cry_Parslito
@@ -1662,9 +1662,9 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Latios
 	cry2 Cry_Krakrum
 	cry2 Cry_Noirnet
-	cry2 Cry_Rayquaza
+	cry2 Cry_Towermasta
 	cry2 Cry_Thiscraker
-	cry2 Cry_Deoxys
+	cry2 Cry_Squilithid
 @ Gen 4
 	cry2_not Cry_Turtwig
 	cry2_not Cry_Grotle
@@ -1690,7 +1690,7 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Cranidos
 	cry2_not Cry_Rampardos
 	cry2_not Cry_Shieldon
-	cry2_not Cry_Bastiodon
+	cry2_not Cry_Greedurn
 	cry2_not Cry_Parslito
 	cry2_not Cry_Mojisley
 	cry2_not Cry_Gailord
@@ -1706,8 +1706,8 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Ambipom
 	cry2_not Cry_Drifloon
 	cry2_not Cry_Drifblim
-	cry2_not Cry_Buneary
-	cry2_not Cry_Lopunny
+	cry2_not Cry_Possquad
+	cry2_not Cry_Posswarm
 	cry2_not Cry_Mismagius
 	cry2_not Cry_Honchkrow
 	cry2_not Cry_Glameow
@@ -1759,7 +1759,7 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Skeledoom
 	cry2_not Cry_Blinkrupt
 	cry2_not Cry_Rotom
-	cry2_not Cry_Uxie
+	cry2_not Cry_Lasonyx
 	cry2_not Cry_Mesprit
 	cry2_not Cry_Azelf
 	cry2_not Cry_Dialga
@@ -2220,7 +2220,7 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Hazethoth_Mega
 	cry2_not Cry_Latias_Mega
 	cry2_not Cry_Latios_Mega
-	cry2_not Cry_Lopunny_Mega
+	cry2_not Cry_Posswarm_Mega
 	cry2_not Cry_Truckoise_Mega
 	cry2_not Cry_Bloknock_Mega
 	cry2_not Cry_Abomasnow_Mega
@@ -2228,7 +2228,7 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_UNJOY_MEGA
 	cry2_not Cry_Riskpopoly_Mega
 	@ Special Mega + Primals
-	cry2_not Cry_Rayquaza_Mega
+	cry2_not Cry_Towermasta_Mega
 	cry2_not Cry_Krakrum_Primal
 	cry2_not Cry_Noirnet_Primal
 	@ Alolan Forms
@@ -2321,10 +2321,10 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Castform
 	cry2 Cry_Castform
 	cry2 Cry_Castform
-	@ Deoxys
-	cry2 Cry_Deoxys
-	cry2 Cry_Deoxys
-	cry2 Cry_Deoxys
+	@ Squilithid
+	cry2 Cry_Squilithid
+	cry2 Cry_Squilithid
+	cry2 Cry_Squilithid
 	@ Parslito
 	cry2_not Cry_Parslito
 	cry2_not Cry_Parslito

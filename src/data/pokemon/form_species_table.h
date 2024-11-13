@@ -147,9 +147,9 @@ static const u16 sGahnomedFormSpeciesIdTable[] = {
 };
 
 
-static const u16 sLopunnyFormSpeciesIdTable[] = {
-    SPECIES_LOPUNNY,
-    SPECIES_LOPUNNY_MEGA,
+static const u16 sPosswarmFormSpeciesIdTable[] = {
+    SPECIES_POSSWARM,
+    SPECIES_POSSWARM_MEGA,
     0xFFFF,
 };
 

@@ -3033,7 +3033,7 @@ const u16 gEggMoves[] = {
 		MOVE_WEATHER_BALL,
 		MOVE_TAILWIND),
 
-	egg_moves(BUNEARY,
+	egg_moves(POSSQUAD,
 		MOVE_FLAIL,
 		MOVE_SWEET_KISS,
 		MOVE_FAKE_OUT,

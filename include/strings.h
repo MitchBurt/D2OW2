@@ -3212,7 +3212,7 @@ extern const u8  gText_ColorGray[];
 extern const u8  gText_ColorWhite[];
 extern const u8  gText_ColorPink[];
 
-extern const u8 gText_TitleScreen_Rayquaza[];
+extern const u8 gText_TitleScreen_Towermasta[];
 extern const u8 gText_TitleScreen_Noirnet[];
 extern const u8 gText_TitleScreen_Krakrum[];
 //extern const u8 gText_Game_Modes_Cancel[]

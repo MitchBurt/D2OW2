@@ -687,9 +687,9 @@ static bool8 TryStartStepCountScript(u16 metatileBehavior)
             ScriptContext1_SetupScript(RustboroCity_Gym_EventScript_RegisterMason);
             return TRUE;
         }
-        if (ShouldDoRivalRayquazaCall() == TRUE)
+        if (ShouldDoRivalTowermastaCall() == TRUE)
         {
-            ScriptContext1_SetupScript(MossdeepCity_SpaceCenter_2F_EventScript_RivalRayquazaCall);
+            ScriptContext1_SetupScript(MossdeepCity_SpaceCenter_2F_EventScript_RivalTowermastaCall);
             return TRUE;
         }
     }

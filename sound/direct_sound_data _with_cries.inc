@@ -1919,16 +1919,16 @@ Cry_Noirnet::
 	.incbin "sound/direct_sound_samples/cries/cry_noirnet.bin"
 
 	.align 2
-Cry_Rayquaza::
-	.incbin "sound/direct_sound_samples/cries/cry_rayquaza.bin"
+Cry_Towermasta::
+	.incbin "sound/direct_sound_samples/cries/cry_towermasta.bin"
 
 	.align 2
 Cry_Thiscraker::
 	.incbin "sound/direct_sound_samples/cries/cry_thiscraker.bin"
 
 	.align 2
-Cry_Deoxys::
-	.incbin "sound/direct_sound_samples/cries/cry_deoxys.bin"
+Cry_Squilithid::
+	.incbin "sound/direct_sound_samples/cries/cry_squilithid.bin"
 
 	.align 2
 Cry_Turtwig::
@@ -2027,8 +2027,8 @@ Cry_Shieldon::
 	.incbin "sound/direct_sound_samples/cries/cry_not_shieldon.bin"
 
 	.align 2
-Cry_Bastiodon::
-	.incbin "sound/direct_sound_samples/cries/cry_not_bastiodon.bin"
+Cry_Greedurn::
+	.incbin "sound/direct_sound_samples/cries/cry_not_greedurn.bin"
 
 	.align 2
 Cry_Parslito::
@@ -2091,12 +2091,12 @@ Cry_Drifblim::
 	.incbin "sound/direct_sound_samples/cries/cry_not_drifblim.bin"
 
 	.align 2
-Cry_Buneary::
-	.incbin "sound/direct_sound_samples/cries/cry_not_buneary.bin"
+Cry_Possquad::
+	.incbin "sound/direct_sound_samples/cries/cry_not_possquad.bin"
 
 	.align 2
-Cry_Lopunny::
-	.incbin "sound/direct_sound_samples/cries/cry_not_lopunny.bin"
+Cry_Posswarm::
+	.incbin "sound/direct_sound_samples/cries/cry_not_posswarm.bin"
 
 	.align 2
 Cry_Mismagius::
@@ -2303,8 +2303,8 @@ Cry_Rotom::
 	.incbin "sound/direct_sound_samples/cries/cry_not_rotom.bin"
 
 	.align 2
-Cry_Uxie::
-	.incbin "sound/direct_sound_samples/cries/cry_not_uxie.bin"
+Cry_Lasonyx::
+	.incbin "sound/direct_sound_samples/cries/cry_not_lasonyx.bin"
 
 	.align 2
 Cry_Mesprit::
@@ -4131,8 +4131,8 @@ Cry_Latios_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_latios.bin"
 
 	.align 2
-Cry_Lopunny_Mega::
-	.incbin "sound/direct_sound_samples/cries/cry_not_lopunny.bin"
+Cry_Posswarm_Mega::
+	.incbin "sound/direct_sound_samples/cries/cry_not_posswarm.bin"
 
 	.align 2
 Cry_Truckoise_Mega::
@@ -4159,8 +4159,8 @@ Cry_Riskpopoly_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_not_riskpopoly.bin"
 
 	.align 2
-Cry_Rayquaza_Mega::
-	.incbin "sound/direct_sound_samples/cries/cry_rayquaza.bin"
+Cry_Towermasta_Mega::
+	.incbin "sound/direct_sound_samples/cries/cry_towermasta.bin"
 
 	.align 2
 Cry_Krakrum_Primal::

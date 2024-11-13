@@ -81,17 +81,8 @@ RustboroCity_DevonCorp_2F_EventScript_WhatFossil::
 	msgbox LilycoveCity_MoveDeletersHouse_Text_Chose_Well, MSGBOX_SIGN
 	scrollingmultichoice 5, 2, 3, 5, TRUE
 	switch VAR_RESULT
-	case 0, RustboroCity_DevonCorp_2F_EventScript_Revive_Dome_Fossil
-	case 1, RustboroCity_DevonCorp_2F_EventScript_Revive_Helix_Fossil
-	case 2, RustboroCity_DevonCorp_2F_EventScript_Revive_Old_Amber_Mega
-	case 3, RustboroCity_DevonCorp_2F_EventScript_Revive_Root_Fossil
-	case 4, RustboroCity_DevonCorp_2F_EventScript_Revive_Claw_Fossil
-	case 5, RustboroCity_DevonCorp_2F_EventScript_Revive_Skull_Fossil
-	case 6, RustboroCity_DevonCorp_2F_EventScript_Revive_Armor_Fossil
-	case 7, RustboroCity_DevonCorp_2F_EventScript_Revive_Cover_Fossil
-	case 8, RustboroCity_DevonCorp_2F_EventScript_Revive_Plume_Fossil
-	case 9, RustboroCity_DevonCorp_2F_EventScript_Revive_Jaw_Fossil
-	case 10, RustboroCity_DevonCorp_2F_EventScript_Revive_Sail_Fossil
+	case 0, RustboroCity_DevonCorp_2F_EventScript_Revive_HORN_FOSSIL
+	case 1, RustboroCity_DevonCorp_2F_EventScript_Revive_TOOTH_FOSSIL
 	case 0x7F, RustboroCity_DevonCorp_2F_EventScript_DeclineGiveFossil
 	end
 	
@@ -315,24 +306,24 @@ RustboroCity_DevonCorp_2F_EventScript_Revive_Cover_Fossil::
 	release
 	end
 	
-RustboroCity_DevonCorp_2F_EventScript_Revive_Plume_Fossil::
-	checkitem ITEM_PLUME_FOSSIL, 1
+RustboroCity_DevonCorp_2F_EventScript_Revive_HORN_FOSSIL::
+	checkitem ITEM_HORN_FOSSIL, 1
 	compare VAR_RESULT, FALSE
 	goto_if_eq RustboroCity_DevonCorp_2F_EventScript_No_Fossil
-	bufferitemname 0, ITEM_PLUME_FOSSIL
+	bufferitemname 0, ITEM_HORN_FOSSIL
 	msgbox RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher, MSGBOX_DEFAULT
 	fadescreen 1
 	playfanfare MUS_HEAL
 	closemessage
-	removeitem ITEM_PLUME_FOSSIL
-	bufferspeciesname 1, SPECIES_ARCHEN
+	removeitem ITEM_HORN_FOSSIL
+	bufferspeciesname 1, SPECIES_TRICERAS
 	waitfanfare
 	fadescreen 0
 	delay 30
 	msgbox RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife, MSGBOX_DEFAULT
 	playfanfare MUS_OBTAIN_ITEM
 	message RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher
-	givemon SPECIES_ARCHEN, 10, ITEM_NONE
+	givemon SPECIES_TRICERAS, 10, ITEM_NONE
 	waitfanfare
 	msgbox RustboroCity_DevonCorp_2F_Text_More_Fossils, MSGBOX_DEFAULT
 	release
@@ -361,24 +352,24 @@ RustboroCity_DevonCorp_2F_EventScript_Revive_Jaw_Fossil::
 	release
 	end
 
-RustboroCity_DevonCorp_2F_EventScript_Revive_Sail_Fossil::
-	checkitem ITEM_SAIL_FOSSIL, 1
+RustboroCity_DevonCorp_2F_EventScript_Revive_TOOTH_FOSSIL::
+	checkitem ITEM_TOOTH_FOSSIL, 1
 	compare VAR_RESULT, FALSE
 	goto_if_eq RustboroCity_DevonCorp_2F_EventScript_No_Fossil
-	bufferitemname 0, ITEM_SAIL_FOSSIL
+	bufferitemname 0, ITEM_TOOTH_FOSSIL
 	msgbox RustboroCity_DevonCorp_2F_Text_HandedFossilToResearcher, MSGBOX_DEFAULT
 	fadescreen 1
 	playfanfare MUS_HEAL
 	closemessage
-	removeitem ITEM_SAIL_FOSSIL
-	bufferspeciesname 1, SPECIES_AMAURA
+	removeitem ITEM_TOOTH_FOSSIL
+	bufferspeciesname 1, SPECIES_ODOSAUR
 	waitfanfare
 	fadescreen 0
 	delay 30
 	msgbox RustboroCity_DevonCorp_2F_Text_FossilizedMonBroughtBackToLife, MSGBOX_DEFAULT
 	playfanfare MUS_OBTAIN_ITEM
 	message RustboroCity_DevonCorp_2F_Text_ReceivedMonFromResearcher
-	givemon SPECIES_AMAURA, 10, ITEM_NONE
+	givemon SPECIES_ODOSAUR, 10, ITEM_NONE
 	waitfanfare
 	msgbox RustboroCity_DevonCorp_2F_Text_More_Fossils, MSGBOX_DEFAULT
 	release

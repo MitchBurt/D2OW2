@@ -78,11 +78,11 @@
  * Task_IntroLoadClouds2
  * Task_IntroLoadClouds3
  * Task_IntroCloudsScene
- * Task_IntroLoadRayquazaLightningScene
- * Task_IntroRayquazaLightningScene
- * Task_IntroLoadRayquazaGlowScene
- * Task_IntroRayquazaGlowScene_0
- *  - Runs concurrently with Task_IntroRayquazaGlowScene_1
+ * Task_IntroLoadTowermastaLightningScene
+ * Task_IntroTowermastaLightningScene
+ * Task_IntroLoadTowermastaGlowScene
+ * Task_IntroTowermastaGlowScene_0
+ *  - Runs concurrently with Task_IntroTowermastaGlowScene_1
  * Task_EndIntroMovie
  * MainCB2_EndIntro
  *  - Advances to CB2_InitTitleScreen
@@ -339,12 +339,12 @@ static const struct SpriteTemplate gUnknown_085E4BDC =
     .affineAnims = gDummySpriteAffineAnimTable,
     .callback = sub_816DAE8,
 };
-static const struct CompressedSpriteSheet gIntroRayquazaLightningSpriteSheet[] =
+static const struct CompressedSpriteSheet gIntroTowermastaLightningSpriteSheet[] =
 {
     {gIntro3LightningGfx, 0xC00, 1503},
     {NULL},
 };
-static const struct SpritePalette gIntroRayquazaLightningPalette[] =
+static const struct SpritePalette gIntroTowermastaLightningPalette[] =
 {
     {gIntro3LightningPal, 1503},
     {NULL},
@@ -389,7 +389,7 @@ static const union AnimCmd *const gUnknown_085E4C40[] =
     gUnknown_085E4C28,
     gUnknown_085E4C34,
 };
-static void SpriteCB_IntroRayquazaLightning(struct Sprite *sprite);
+static void SpriteCB_IntroTowermastaLightning(struct Sprite *sprite);
 static const struct SpriteTemplate gIntroLightningSprite =
 {
     .tileTag = 1503,
@@ -398,7 +398,7 @@ static const struct SpriteTemplate gIntroLightningSprite =
     .anims = gUnknown_085E4C40,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
-    .callback = SpriteCB_IntroRayquazaLightning,
+    .callback = SpriteCB_IntroTowermastaLightning,
 };
 static const s16 gIntroNoirnetRockData[][3] =
 {
@@ -875,8 +875,8 @@ static const union AnimCmd *const gUnknown_085E502C[] =
 {
     gUnknown_085E5024,
 };
-static void SpriteCB_IntroRayquazaHyperbeam(struct Sprite *sprite);
-static const struct SpriteTemplate gIntroRayquazaHyperbeamSprite =
+static void SpriteCB_IntroTowermastaHyperbeam(struct Sprite *sprite);
+static const struct SpriteTemplate gIntroTowermastaHyperbeamSprite =
 {
     .tileTag = 2003,
     .paletteTag = 2003,
@@ -884,14 +884,14 @@ static const struct SpriteTemplate gIntroRayquazaHyperbeamSprite =
     .anims = gUnknown_085E502C,
     .images = NULL,
     .affineAnims = gDummySpriteAffineAnimTable,
-    .callback = SpriteCB_IntroRayquazaHyperbeam,
+    .callback = SpriteCB_IntroTowermastaHyperbeam,
 };
-static const struct CompressedSpriteSheet gIntroRayquazaGlowSpriteSheet[] =
+static const struct CompressedSpriteSheet gIntroTowermastaGlowSpriteSheet[] =
 {
     {gIntro3MiscTiles, 0xA00, 2003},
     {NULL},
 };
-static const struct SpritePalette gIntroRayquazaGlowPalette[] =
+static const struct SpritePalette gIntroTowermastaGlowPalette[] =
 {
     {gIntro3Misc1Palette, 2003},
     {NULL},
@@ -928,16 +928,16 @@ static void Task_IntroLoadClouds1(u8);
 static void Task_IntroLoadClouds2(u8);
 static void Task_IntroLoadClouds3(u8);
 static void Task_IntroCloudScene(u8);
-static void Task_IntroLoadRayquazaLightningScene(u8);
-static void Task_IntroRayquazaLightningScene(u8);
-static void Task_IntroLoadRayquazaGlowScene(u8);
-static void Task_IntroRayquazaGlowScene_0(u8);
+static void Task_IntroLoadTowermastaLightningScene(u8);
+static void Task_IntroTowermastaLightningScene(u8);
+static void Task_IntroLoadTowermastaGlowScene(u8);
+static void Task_IntroTowermastaGlowScene_0(u8);
 static void Task_EndIntroMovie(u8);
 static void CreateNoirnetRockSprites(u8);
 static void SpriteCB_IntroNoirnetRocks(struct Sprite *);
 static void CreateKrakrumBubbleSprites_0(u8);
 static void CreateKrakrumBubbleSprites_1(void);
-static void Task_IntroRayquazaGlowScene_1(u8);
+static void Task_IntroTowermastaGlowScene_1(u8);
 static void sub_816F46C(struct Sprite *);
 static void sub_816F5B4(struct Sprite *);
 static void sub_816F660(struct Sprite *);
@@ -2147,16 +2147,16 @@ static void Task_IntroCloudScene(u8 taskId)
         if (data[6] != 0)
             data[6] -= 0x80;
         else if (!gPaletteFade.active)
-            gTasks[taskId].func = Task_IntroLoadRayquazaLightningScene;
+            gTasks[taskId].func = Task_IntroLoadTowermastaLightningScene;
         break;
     }
 }
 
-static void Task_IntroLoadRayquazaLightningScene(u8 taskId)
+static void Task_IntroLoadTowermastaLightningScene(u8 taskId)
 {
-    LZDecompressVram(gIntro3RayquazaTilemap, (void *)(BG_SCREEN_ADDR(28)));
+    LZDecompressVram(gIntro3TowermastaTilemap, (void *)(BG_SCREEN_ADDR(28)));
     LZDecompressVram(gIntro3Clouds4Tilemap, (void *)(BG_CHAR_ADDR(3)));
-    LZDecompressVram(gIntro3RayquazaGfx, (void *)(BG_CHAR_ADDR(1)));
+    LZDecompressVram(gIntro3TowermastaGfx, (void *)(BG_CHAR_ADDR(1)));
     LZDecompressVram(gIntro3Clouds2Gfx, (void *)VRAM);
     SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_MODE_0
                                 | DISPCNT_OBJ_1D_MAP
@@ -2164,15 +2164,15 @@ static void Task_IntroLoadRayquazaLightningScene(u8 taskId)
                                 | DISPCNT_BG2_ON
                                 | DISPCNT_OBJ_ON
                                 | DISPCNT_WIN0_ON);
-    gTasks[taskId].func = Task_IntroRayquazaLightningScene;
+    gTasks[taskId].func = Task_IntroTowermastaLightningScene;
     gTasks[taskId].data[0] = 0;
     gTasks[taskId].data[6] = 1;
     gTasks[taskId].data[7] = 0;
-    LoadCompressedSpriteSheetUsingHeap(gIntroRayquazaLightningSpriteSheet);
-    LoadSpritePalettes(gIntroRayquazaLightningPalette);
+    LoadCompressedSpriteSheetUsingHeap(gIntroTowermastaLightningSpriteSheet);
+    LoadSpritePalettes(gIntroTowermastaLightningPalette);
 }
 
-static void Task_IntroRayquazaLightningScene(u8 taskId)
+static void Task_IntroTowermastaLightningScene(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
     u8 spriteId;
@@ -2205,12 +2205,12 @@ static void Task_IntroRayquazaLightningScene(u8 taskId)
         break;
     case 2:
         if (--data[6] == 0)
-            gTasks[taskId].func = Task_IntroLoadRayquazaGlowScene;
+            gTasks[taskId].func = Task_IntroLoadTowermastaGlowScene;
         break;
     }
 }
 
-static void SpriteCB_IntroRayquazaLightning(struct Sprite *sprite)
+static void SpriteCB_IntroTowermastaLightning(struct Sprite *sprite)
 {
     if (sprite->animEnded)
         sprite->invisible = TRUE;
@@ -2241,30 +2241,30 @@ static void SpriteCB_IntroRayquazaLightning(struct Sprite *sprite)
     }
 }
 
-static void Task_IntroLoadRayquazaGlowScene(u8 taskId)
+static void Task_IntroLoadTowermastaGlowScene(u8 taskId)
 {
     u8 newTaskId;
 
-    LoadCompressedSpriteSheet(gIntroRayquazaGlowSpriteSheet);
-    LoadSpritePalettes(gIntroRayquazaGlowPalette);
+    LoadCompressedSpriteSheet(gIntroTowermastaGlowSpriteSheet);
+    LoadSpritePalettes(gIntroTowermastaGlowPalette);
     SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_MODE_0
                                 | DISPCNT_OBJ_1D_MAP
                                 | DISPCNT_BG0_ON
                                 | DISPCNT_BG2_ON
                                 | DISPCNT_OBJ_ON
                                 | DISPCNT_WIN0_ON);
-    gTasks[taskId].func = Task_IntroRayquazaGlowScene_0;
+    gTasks[taskId].func = Task_IntroTowermastaGlowScene_0;
     BeginNormalPaletteFade(0x0000FFDE, 0, 16, 0, RGB(9, 10, 10));
     gTasks[taskId].data[0] = 0;
     gTasks[taskId].data[1] = 0xA8;
     gTasks[taskId].data[2] = -0x10;
     gTasks[taskId].data[3] = -0x88;
     gTasks[taskId].data[4] = -0x10;
-    newTaskId = CreateTask(Task_IntroRayquazaGlowScene_1, 0);
+    newTaskId = CreateTask(Task_IntroTowermastaGlowScene_1, 0);
     gTasks[newTaskId].data[4] = taskId;
 }
 
-static void Task_IntroRayquazaGlowScene_0(u8 taskId)
+static void Task_IntroTowermastaGlowScene_0(u8 taskId)
 {
     s16 *data = gTasks[taskId].data;
 
@@ -2317,9 +2317,9 @@ static void Task_EndIntroMovie(u8 taskId)
     SetMainCallback2(MainCB2_EndIntro);
 }
 
-static void Task_IntroRayquazaGlowScene_1(u8 taskId)
+static void Task_IntroTowermastaGlowScene_1(u8 taskId)
 {
-    // Note: data[4] contains the taskId of Task_IntroRayquazaGlowScene_0
+    // Note: data[4] contains the taskId of Task_IntroTowermastaGlowScene_0
     u8 spriteId;
     s16 *data = gTasks[taskId].data;
     data[2]++;
@@ -2368,7 +2368,7 @@ static void Task_IntroRayquazaGlowScene_1(u8 taskId)
             }
             if (data[1] == 6)
             {
-                spriteId = CreateSprite(&gIntroRayquazaHyperbeamSprite, 120, 88, 15);
+                spriteId = CreateSprite(&gIntroTowermastaHyperbeamSprite, 120, 88, 15);
                 PlaySE(SE_INTRO_BLAST);
                 gSprites[spriteId].invisible = TRUE;
                 gSprites[spriteId].data[3] = data[4];
@@ -3057,7 +3057,7 @@ static void sub_816FEDC(struct Sprite *sprite)
     }
 }
 
-static void SpriteCB_IntroRayquazaHyperbeam(struct Sprite *sprite)
+static void SpriteCB_IntroTowermastaHyperbeam(struct Sprite *sprite)
 {
     u16 foo;
 

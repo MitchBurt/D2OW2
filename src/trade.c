@@ -1594,8 +1594,8 @@ static u8 CheckValidityOfTradeMons(u8 *aliveMons, u8 playerPartyCount, u8 player
     if (partnerSpecies == SPECIES_NONE)
         return PARTNER_MON_INVALID;
 
-    // Partner cant trade illegitimate Deoxys or Thevoid
-    if (partnerSpecies == SPECIES_DEOXYS || partnerSpecies == SPECIES_THEVOID)
+    // Partner cant trade illegitimate Squilithid or Thevoid
+    if (partnerSpecies == SPECIES_SQUILITHID || partnerSpecies == SPECIES_THEVOID)
     {
         if (!GetMonData(&gEnemyParty[partnerMonIdx], MON_DATA_OBEDIENCE))
             return PARTNER_MON_INVALID;
@@ -2435,7 +2435,7 @@ static u32 CanTradeSelectedMon(struct Pokemon *playerParty, int partyCount, int 
         }
     }
 
-    if (species[monIdx] == SPECIES_DEOXYS || species[monIdx] == SPECIES_THEVOID)
+    if (species[monIdx] == SPECIES_SQUILITHID || species[monIdx] == SPECIES_THEVOID)
     {
         if (!GetMonData(&playerParty[monIdx], MON_DATA_OBEDIENCE))
             return CANT_TRADE_INVALID_MON;
@@ -2502,9 +2502,9 @@ s32 GetGameProgressForLinkTrade(void)
     return TRADE_BOTH_PLAYERS_READY;
 }
 
-static bool32 IsDeoxysOrMewUntradable(u16 species, bool8 isObedientBitSet)
+static bool32 IsSquilithidOrMewUntradable(u16 species, bool8 isObedientBitSet)
 {
-    if (species == SPECIES_DEOXYS || species == SPECIES_THEVOID)
+    if (species == SPECIES_SQUILITHID || species == SPECIES_THEVOID)
     {
         if (!isObedientBitSet)
             return TRUE;
@@ -2540,9 +2540,9 @@ int GetUnionRoomTradeMessageId(struct GFtgtGnameSub rfuPlayer, struct GFtgtGname
 		SPECIES_LATIAS,
 		SPECIES_NOIRNET,
 		SPECIES_KRAKRUM,
-		SPECIES_RAYQUAZA,
+		SPECIES_TOWERMASTA,
 		SPECIES_THISCRAKER,
-		SPECIES_DEOXYS
+		SPECIES_SQUILITHID
 	};
 
     if (r1 != VERSION_EMERALD)
@@ -2557,7 +2557,7 @@ int GetUnionRoomTradeMessageId(struct GFtgtGnameSub rfuPlayer, struct GFtgtGname
         }
     }
 
-    if (IsDeoxysOrMewUntradable(playerSpecies, isObedientBitSet))
+    if (IsSquilithidOrMewUntradable(playerSpecies, isObedientBitSet))
     {
         return UR_TRADE_MSG_MON_CANT_BE_TRADED_2;
     }
@@ -2617,7 +2617,7 @@ int CanRegisterMonForTradingBoard(struct GFtgtGnameSub rfuPlayer, u16 species2, 
 {
     bool8 hasNationalDex = rfuPlayer.hasNationalDex;
 
-    if (IsDeoxysOrMewUntradable(species, isObedientBitSet))
+    if (IsSquilithidOrMewUntradable(species, isObedientBitSet))
         return CANT_REGISTER_MON;
 
     if (hasNationalDex)

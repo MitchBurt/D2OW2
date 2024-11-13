@@ -24,22 +24,22 @@ static void IncrementCardStatForNewTrainer(u32 a0, u32 a1, u32 *a2, int a3);
 
 enum {
     CARD_TEST,
-    CARD_VIVILLON_1,
-    CARD_GRENINJA,
-    CARD_PICHU,
-	CARD_VIVILLON_2,
-	CARD_COSPLAY_SKIPPA,
-	CARD_SKIPPA_POP_STAR,
-	CARD_AZ_FLOETTE,
+    CARD_GNORB,
+    CARD_CTHEYE,
+    CARD_FROSLING,
+	CARD_SKORCHI,
+	CARD_MEADOSAUR,
+	CARD_JISSM,
+	CARD_COOKLET,
 	CARD_SHINY_YELLEYE,
 	CARD_RISKPOPOLY,
 	CARD_SHINY_EEMOJEE,
-	CARD_BEE_UNSC,
-	CARD_CHRISTMASS_ABSTRATIC,
-	CARD_COSPLAY_SKIPPA_LIBRE,
-	CARD_SHINY_AXEW,
-    CARD_MANAPHY,
-	CARD_HALLOWEEN_GOURGEIST,
+	CARD_BERRYALEN,
+    CARD_CHRISTMASS_ABSTRATIC,
+	CARD_BAITORD,
+	CARD_DNDICE,
+	CARD_REWINDLE,
+    CARD_THISCRAKER,
 };
 
 #define CARD_BG_YELLOW 			0
@@ -65,133 +65,113 @@ struct WonderCard gSavedWonderCard[] =
 		.titleText 				= _("titleText"),
 		.subtitleText 			= _("subtitleText"),
 		.bodyText 				= _("bodyText"),
-		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
+		.footerLine1Text 		= _("Thank you for playing"),
+		.footerLine2Text 		= _("Pokemon DARIO 2!"),
 	},
-	[CARD_VIVILLON_1] =
+	[CARD_GNORB] =
     {
 		.flagId 				= FLAG_MYSTERY_GIFT_VIVILLON_POKEBALL,
-		.iconSpecies 			= SPECIES_VIVILLON_POKE_BALL,
-		.idNumber 				= CARD_VIVILLON_1,
+		.iconSpecies 			= SPECIES_GNORB,
+		.idNumber 				= CARD_GNORB,
 		.type 					= 0,
 		.bgType 				= CARD_BG_RED,//Red
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon D.R.L.O."),
-		.subtitleText 			= _("It's a Poké Ball Pattern Vivillon!"),
-		.bodyText 				= _("Here's a special Vivillon you can't find"
-									"through normal gameplay to add to your  "
-									"Pokédex and complete your colorful      "
-									"Vivillon collection."),
-		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
+		.titleText 				= _("Pokémon DARIO 2"),
+		.subtitleText 			= _("You've been Gahnomed!"),
+		.bodyText 				= _("Here's a shiny Gnorb,"),
+		.footerLine1Text 		= _("Thank you for playing"),
+		.footerLine2Text 		= _("Pokemon DARIO 2!"),
 	},
-	[CARD_GRENINJA] =
+	[CARD_CTHEYE] =
     {
 		.flagId 				= FLAG_MYSTERY_GIFT_GRENINJA,
-		.iconSpecies 			= SPECIES_GRENINJA_BATTLE_BOND,
-		.idNumber 				= CARD_GRENINJA,
+		.iconSpecies 			= SPECIES_CTHEYE,
+		.idNumber 				= CARD_CTHEYE,
 		.type 					= 0,
 		.bgType 				= CARD_BG_BLUE_2,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon D.R.L.O."),
-		.subtitleText 			= _("Special Ash-Greninja!"),
-		.bodyText 				= _("It's a Greninja with an Special Ability,"
-									"This Pokémon will be a great help on your "
-									"adventure in this game."),
-		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
+		.titleText 				= _("Pokémon DARIO 2"),
+		.subtitleText 			= _("Shiny Ctheye!"),
+		.bodyText 				= _("I owed Zach this one."),
+		.footerLine1Text 		= _("Thank you for playing"),
+		.footerLine2Text 		= _("Pokemon DARIO 2!"),
 	},
-	[CARD_PICHU] =
+	[CARD_FROSLING] =
     {
 		.flagId 				= FLAG_MYSTERY_GIFT_SPIKY_EARED_PICHU,
-		.iconSpecies 			= SPECIES_PICHU_SPIKY_EARED,
-		.idNumber 				= CARD_PICHU,
+		.iconSpecies 			= SPECIES_FROSLING,
+		.idNumber 				= CARD_FROSLING,
 		.type 					= 0,
 		.bgType 				= CARD_BG_YELLOW,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon D.R.L.O."),
-		.subtitleText 			= _("Special Spiky-eared Pichu!"),
-		.bodyText 				= _("It's a Pichu with a Special Trait,      "
-									"She may not be able to evolve but she   "
-									"will be a great help during your        "
-									"adventure in this game."),
-		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
+		.titleText 				= _("Pokémon DARIO 2"),
+		.subtitleText 			= _("Shiny Frosling!"),
+		.bodyText 				= _("Enjoy!"),
+		.footerLine1Text 		= _("Thank you for playing"),
+		.footerLine2Text 		= _("Pokemon DARIO 2!"),
 	},
-	[CARD_COSPLAY_SKIPPA] =
+	[CARD_SKORCHI] =
     {
 		.flagId 				= FLAG_MYSTERY_GIFT_COSPLAY_SKIPPA,
 		.iconSpecies 			= SPECIES_SKIPPA_COSPLAY,
-		.idNumber 				= CARD_COSPLAY_SKIPPA,
+		.idNumber 				= CARD_SKORCHI,
 		.type 					= 0,
 		.bgType 				= CARD_BG_YELLOW,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon D.R.L.O."),
-		.subtitleText 			= _("It's the Cosplay Skippa!"),
-		.bodyText 				= _("Here's a Cosplay Skippa                "
-									"which you can't find through normal     "
-									"gameplay to add to your Skippa         "
-									"collection."),
-		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
+		.titleText 				= _("Pokémon DARIO 2"),
+		.subtitleText 			= _("Shiny Skorchi!"),
+		.bodyText 				= _("Enjoy!"),
+		.footerLine1Text 		= _("Thank you for playing"),
+		.footerLine2Text 		= _("Pokemon DARIO 2!"),
 	},
-	[CARD_SKIPPA_POP_STAR] =
+	[CARD_MEADOSAUR] =
     {
 		.flagId 				= FLAG_MYSTERY_GIFT_SKIPPA_POP_STAR,
-		.iconSpecies 			= SPECIES_SKIPPA_POP_STAR,
-		.idNumber 				= CARD_SKIPPA_POP_STAR,
+		.iconSpecies 			= SPECIES_MEADOSAUR,
+		.idNumber 				= CARD_MEADOSAUR,
 		.type 					= 0,
 		.bgType 				= CARD_BG_BLUE,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon D.R.L.O."),
-		.subtitleText 			= _("It's the Cosplay Skippa!"),
-		.bodyText 				= _("Here's a Cosplay Skippa                "
-									"which you can't find through normal     "
-									"gameplay to add to your Skippa         "
-									"collection."),
-		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
+		.titleText 				= _("Pokémon DARIO 2"),
+		.subtitleText 			= _("Shiny Meadosaur!"),
+		.bodyText 				= _("Enjoy!"),
+		.footerLine1Text 		= _("Thank you for playing"),
+		.footerLine2Text 		= _("Pokemon DARIO 2!"),
 	},
-	[CARD_VIVILLON_2] =
+	[CARD_JISSM] =
     {
 		.flagId 				= FLAG_MYSTERY_GIFT_VIVILLON_FANCY,
-		.iconSpecies 			= SPECIES_VIVILLON_FANCY,
-		.idNumber 				= CARD_VIVILLON_2,
+		.iconSpecies 			= SPECIES_JISSM,
+		.idNumber 				= CARD_JISSM,
 		.type 					= 0,
 		.bgType 				= CARD_BG_GREEN,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon D.R.L.O."),
-		.subtitleText 			= _("It's the Fancy Pattern Vivillon!"),
-		.bodyText 				= _("Here's a Vivillon with the Fancy Pattern"
-									"which you can't find through normal     "
-									"gameplay to add to your Vivillon        "
-									"collection."),
-		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
+		.titleText 				= _("Pokémon DARIO 2"),
+		.subtitleText 			= _("Shiny Jissm!"),
+		.bodyText 				= _("Enjoy!"),
+		.footerLine1Text 		= _("Thank you for playing"),
+		.footerLine2Text 		= _("Pokemon DARIO 2!"),
 	},
-	[CARD_AZ_FLOETTE] =
+	[CARD_COOKLET] =
     {
 		.flagId 				= FLAG_MYSTERY_GIFT_ETERNAL_FLOETTE,
-		.iconSpecies 			= SPECIES_FLOETTE_ETERNAL_FLOWER,
-		.idNumber 				= CARD_AZ_FLOETTE,
+		.iconSpecies 			= SPECIES_COOKLET,
+		.idNumber 				= CARD_COOKLET,
 		.type 					= 0,
 		.bgType 				= CARD_BG_RED,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon D.R.L.O."),
-		.subtitleText 			= _("It's a 3,000 year old Floette!"),
-		.bodyText 				= _("Here's a special Floette you can't find "
-									"through normal gameplay, this Pokémon is"
-									"is stronger than its evolved form and   "
-									"will help you on your Adventure."),
-		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
+		.titleText 				= _("Pokémon DARIO 2"),
+		.subtitleText 			= _("Shiny Cooklet!"),
+		.bodyText 				= _("Enjoy!"),
+		.footerLine1Text 		= _("Thank you for playing"),
+		.footerLine2Text 		= _("Pokemon DARIO 2!"),
 	},
 	[CARD_SHINY_YELLEYE] =
     {
@@ -202,12 +182,12 @@ struct WonderCard gSavedWonderCard[] =
 		.bgType 				= CARD_BG_SILVER,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon D.R.L.O."),
+		.titleText 				= _("Pokémon DARIO 2"),
 		.subtitleText 			= _("It's a Shiny Yelleye!"),
 		.bodyText 				= _("This Yelleye is not only Shiny, it's also"
 									"holding a Mega Stone just for you!"),
-		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
+		.footerLine1Text 		= _("Thank you for playing"),
+		.footerLine2Text 		= _("Pokemon DARIO 2!"),
 	},
 	[CARD_RISKPOPOLY] =
     {
@@ -218,14 +198,11 @@ struct WonderCard gSavedWonderCard[] =
 		.bgType 				= CARD_BG_SILVER,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon D.R.L.O."),
+		.titleText 				= _("Pokémon DARIO 2"),
 		.subtitleText 			= _("It's the Mythical Pokémon Riskpopoly!"),
-		.bodyText 				= _("Like a diamond, this Pokémon is rare and"
-									"beautiful. It's holding a Mega Stone, so"
-									"it will be able to Mega Evolve in       "
-									"battle!"),
-		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
+		.bodyText 				= _("Enjoy!"),
+		.footerLine1Text 		= _("Thank you for playing"),
+		.footerLine2Text 		= _("Pokemon DARIO 2!"),
 	},
 	[CARD_SHINY_EEMOJEE] =
     {
@@ -236,31 +213,29 @@ struct WonderCard gSavedWonderCard[] =
 		.bgType 				= CARD_BG_SILVER,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon D.R.L.O."),
+		.titleText 				= _("Pokémon DARIO 2"),
 		.subtitleText 			= _("It's a Shiny Eemojee!"),
 		.bodyText 				= _("This Eemojee is not only Shiny, it's also "
 									"holding an Exiolite, use it to stop     "
 									"Eemojee from evolving but it will get an  "
 									"stats boost after level 25!"),
-		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
+		.footerLine1Text 		= _("Thank you for playing"),
+		.footerLine2Text 		= _("Pokemon DARIO 2!"),
 	},
-	[CARD_BEE_UNSC] =
+	[CARD_BERRYALEN] =
     {
 		.flagId 				= FLAG_MYSTERY_GIFT_BEES_UNSC,
 		.iconSpecies 			= SPECIES_UNSC,
-		.idNumber 				= CARD_BEE_UNSC,
+		.idNumber 				= CARD_BERRYALEN,
 		.type 					= 0,
 		.bgType 				= CARD_BG_YELLOW,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon D.R.L.O."),
-		.subtitleText 			= _("It's Bee's UNSC!"),
-		.bodyText 				= _("This UNSC is not only Shiny, it's    "
-									"also holding a Mega Stone, so it will   "
-									"bee able to Mega Evolve in battle!"),
-		.footerLine1Text 		= _("To give our most sincere"),
-		.footerLine2Text 		= _("thanks to Bee as our Admin!"),
+		.titleText 				= _("Pokémon DARIO 2"),
+		.subtitleText 			= _("Shiny Berryalen!"),
+		.bodyText 				= _("Enjoy!"),
+		.footerLine1Text 		= _("Thank you for playing"),
+		.footerLine2Text 		= _("Pokemon DARIO 2!"),
 	},
 	[CARD_CHRISTMASS_ABSTRATIC] =
     {
@@ -276,71 +251,64 @@ struct WonderCard gSavedWonderCard[] =
 		.bodyText 				= _("This Abstratic is not only Shiny, it's   "
 									"also holding an special item, that will "
 									"help you in your adventure!"),
-		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
+		.footerLine1Text 		= _("Thank you for playing"),
+		.footerLine2Text 		= _("Pokemon DARIO 2!"),
 	},
-	[CARD_COSPLAY_SKIPPA_LIBRE] =
+	[CARD_BAITORD] =
     {
 		.flagId 				= FLAG_MYSTERY_GIFT_COSPLAY_SKIPPA_LIBRE,
 		.iconSpecies 			= SPECIES_SKIPPA_LIBRE,
-		.idNumber 				= CARD_COSPLAY_SKIPPA_LIBRE,
+		.idNumber 				= CARD_BAITORD,
 		.type 					= 0,
 		.bgType 				= CARD_BG_YELLOW_SECIAL,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon D.R.L.O."),
-		.subtitleText 			= _("It's Skippa Libre!"),
-		.bodyText 				= _("Skippa Libre, a wrestling idol, is a   "
-									"small masked fighter overflowing with   "
-									"fighting spirit."),
-		.footerLine1Text 		= _("To Celebrate 8000 Users"),
-		.footerLine2Text 		= _("on the Discord Server!"),
+		.titleText 				= _("Pokémon DARIO 2"),
+		.subtitleText 			= _("Shiny Baitord!"),
+		.bodyText 				= _("Enjoy!"),
+		.footerLine1Text 		= _("Thank you for playing"),
+		.footerLine2Text 		= _("Pokemon DARIO 2!"),
 	},
-    [CARD_SHINY_AXEW] =
+    [CARD_DNDICE] =
     {
 		.flagId 				= FLAG_MYSTERY_GIFT_SHINY_AXEW,
 		.iconSpecies 			= SPECIES_AXEW,
-		.idNumber 				= CARD_SHINY_AXEW,
+		.idNumber 				= CARD_DNDICE,
 		.type 					= 0,
 		.bgType 				= CARD_BG_GREEN,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon D.R.L.O."),
-		.subtitleText 			= _("It's a Shiny Axew!"),
-		.bodyText 				= _("This Axew is not only Shiny, it's also  "
-									"has the TGC only move Lunge, it will    "
-									"help you on your adventure "),
-		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
+		.titleText 				= _("Pokémon DARIO 2"),
+		.subtitleText 			= _("Shiny Dndice!"),
+		.bodyText 				= _("Enjoy!"),
+		.footerLine1Text 		= _("Thank you for playing"),
+		.footerLine2Text 		= _("Pokemon DARIO 2!"),
 	},
-    [CARD_MANAPHY] =
+    [CARD_REWINDLE] =
     {
 		.flagId 				= FLAG_MYSTERY_GIFT_MANAPHY,
 		.iconSpecies 			= SPECIES_MANAPHY,
-		.idNumber 				= CARD_MANAPHY,
+		.idNumber 				= CARD_REWINDLE,
 		.type 					= 0,
 		.bgType 				= CARD_BG_BLUE_2,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon D.R.L.O."),
-		.subtitleText 			= _("It's the Mythical Pokémon Manaphy!"),
-		.bodyText 				= _("This Pokémon is rare and beautiful.     "
-									"It was first found as an Egg in the game"
-									"Pokémon Ranger and is now available in  "
-									"Pokemon D.R.L.O. too!"),
-		.footerLine1Text 		= _("Please continue playing"),
-		.footerLine2Text 		= _("Pokemon D.R.L.O.!"),
+		.titleText 				= _("Pokémon DARIO 2"),
+		.subtitleText 			= _("Shiny Rewindle!"),
+		.bodyText 				= _("Enjoy!"),
+		.footerLine1Text 		= _("Thank you for playing"),
+		.footerLine2Text 		= _("Pokemon DARIO 2!"),
 	},
-    [CARD_HALLOWEEN_GOURGEIST] =
+    [CARD_HANGINGY] =
     {
         .flagId 				= FLAG_MYSTERY_GIFT_HALLOWEEN_GOURGEIST,
-		.iconSpecies 			= SPECIES_GOURGEIST_SUPER,
-		.idNumber 				= CARD_HALLOWEEN_GOURGEIST,
+		.iconSpecies 			= SPECIES_HANGINGY,
+		.idNumber 				= CARD_HANGINGY,
 		.type 					= 0,
 		.bgType 				= CARD_BG_SILVER,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
-		.titleText 				= _("Pokémon D.R.L.O."),
+		.titleText 				= _("Pokémon DARIO 2"),
 		.subtitleText 			= _("It's the Spooky Month!"),
 		.bodyText 				= _("This Super Sized Gourgeist is not only  "
 									"Shiny, it has access to it's Hidden     "
@@ -362,21 +330,21 @@ struct WonderCardMetadata gSavedWonderCardMetadata[] =
 		.stampData 					= 1,
 	// First element is STAMP_SPECIES, second is STAMP_ID
 	},
-	[CARD_VIVILLON_1] =
+	[CARD_GNORB] =
     {
 		.battlesWon 				= 1,
 		.battlesLost 				= 1,
 		.numTrades 					= 1,
-		.iconSpecies 				= SPECIES_VIVILLON_POKE_BALL,
+		.iconSpecies 				= SPECIES_GNORB,
 		.stampData 					= 1,
 	// First element is STAMP_SPECIES, second is STAMP_ID
 	},
-	[CARD_GRENINJA] =
+	[CARD_CTHEYE] =
     {
 		.battlesWon 				= 1,
 		.battlesLost 				= 1,
 		.numTrades 					= 1,
-		.iconSpecies 				= SPECIES_GRENINJA_ASH,
+		.iconSpecies 				= SPECIES_CTHEYE,
 		.stampData 					= 1,
 	// First element is STAMP_SPECIES, second is STAMP_ID
 	}

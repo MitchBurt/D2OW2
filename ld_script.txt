@@ -331,7 +331,7 @@ SECTIONS {
         src/faraway_island.o(.text);
         src/ereader_screen.o(.text);
         src/trainer_hill.o(.text);
-        src/rayquaza_scene.o(.text);
+        src/towermasta_scene.o(.text);
         src/walda_phrase.o(.text);
         src/contest_link_util.o(.text);
         src/gym_leader_rematch.o(.text);
@@ -704,7 +704,7 @@ SECTIONS {
         src/faraway_island.o(.rodata);
         src/ereader_screen.o(.rodata);
         src/trainer_hill.o(.rodata);
-        src/rayquaza_scene.o(.rodata);
+        src/towermasta_scene.o(.rodata);
         src/walda_phrase.o(.rodata);
         src/gym_leader_rematch.o(.rodata);
         src/battle_transition_frontier.o(.rodata);
@@ -992,7 +992,7 @@ SECTIONS {
         sound/songs/midi/se_rg_help_open.o(.rodata);
         sound/songs/midi/se_rg_help_close.o(.rodata);
         sound/songs/midi/se_rg_help_error.o(.rodata);
-        sound/songs/midi/se_rg_deoxys_move.o(.rodata);
+        sound/songs/midi/se_rg_squilithid_move.o(.rodata);
         sound/songs/midi/se_rg_poke_jump_success.o(.rodata);
         sound/songs/midi/se_rg_poke_jump_failure.o(.rodata);
         sound/songs/midi/se_pokenav_call.o(.rodata);
@@ -1230,11 +1230,11 @@ SECTIONS {
         sound/songs/midi/mus_rg_sevii_45.o(.rodata);
         sound/songs/midi/mus_rg_sevii_67.o(.rodata);
         sound/songs/midi/mus_rg_poke_flute.o(.rodata);
-        sound/songs/midi/mus_rg_vs_deoxys.o(.rodata);
+        sound/songs/midi/mus_rg_vs_squilithid.o(.rodata);
         sound/songs/midi/mus_rg_vs_god.o(.rodata);
         sound/songs/midi/mus_rg_vs_legend.o(.rodata);
         sound/songs/midi/mus_rg_encounter_gym_leader.o(.rodata);
-        sound/songs/midi/mus_rg_encounter_deoxys.o(.rodata);
+        sound/songs/midi/mus_rg_encounter_squilithid.o(.rodata);
         sound/songs/midi/mus_rg_trainer_tower.o(.rodata);
         sound/songs/midi/mus_rg_slow_pallet.o(.rodata);
         sound/songs/midi/mus_rg_teachy_tv_menu.o(.rodata);
@@ -1246,7 +1246,7 @@ SECTIONS {
         sound/songs/midi/mus_b_pyramid.o(.rodata);
         sound/songs/midi/mus_b_pyramid_top.o(.rodata);
         sound/songs/midi/mus_b_palace.o(.rodata);
-        sound/songs/midi/mus_rayquaza_appears.o(.rodata);
+        sound/songs/midi/mus_towermasta_appears.o(.rodata);
         sound/songs/midi/mus_b_tower.o(.rodata);
         sound/songs/midi/mus_obtain_symbol.o(.rodata);
         sound/songs/midi/mus_b_dome.o(.rodata);

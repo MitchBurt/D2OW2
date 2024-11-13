@@ -741,9 +741,9 @@ static const struct BattleBackground gBattleTerrainTable[] =
     {
         .tileset = gBattleTerrainTiles_Cave,
         .tilemap = gBattleTerrainTilemap_Cave,
-        .entryTileset = gBattleTerrainAnimTiles_Rayquaza,
-        .entryTilemap = gBattleTerrainAnimTilemap_Rayquaza,
-        .palette = gBattleTerrainPalette_Rayquaza,
+        .entryTileset = gBattleTerrainAnimTiles_Towermasta,
+        .entryTilemap = gBattleTerrainAnimTilemap_Towermasta,
+        .palette = gBattleTerrainPalette_Towermasta,
     },
 	
 	[BATTLE_TERRAIN_FOREST] =
@@ -842,11 +842,11 @@ void DrawMainBattleBackground(void)
         LZDecompressVram(gBattleTerrainTilemap_Water, (void*)(BG_SCREEN_ADDR(26)));
         LoadCompressedPalette(gBattleTerrainPalette_Krakrum, 0x20, 0x60);
     }
-    else if (gBattleTypeFlags & BATTLE_TYPE_RAYQUAZA) 
+    else if (gBattleTypeFlags & BATTLE_TYPE_TOWERMASTA) 
     {
-        LZDecompressVram(gBattleTerrainTiles_Rayquaza, (void*)(BG_CHAR_ADDR(2)));
-        LZDecompressVram(gBattleTerrainTilemap_Rayquaza, (void*)(BG_SCREEN_ADDR(26)));
-        LoadCompressedPalette(gBattleTerrainPalette_Rayquaza, 0x20, 0x60);
+        LZDecompressVram(gBattleTerrainTiles_Towermasta, (void*)(BG_CHAR_ADDR(2)));
+        LZDecompressVram(gBattleTerrainTilemap_Towermasta, (void*)(BG_SCREEN_ADDR(26)));
+        LoadCompressedPalette(gBattleTerrainPalette_Towermasta, 0x20, 0x60);
     }
     else
     {
@@ -869,9 +869,9 @@ void DrawMainBattleBackground(void)
             }
 			/*/else if (trainerClass == TRAINER_CLASS_PKMN_MASTER)
 			{
-				LZDecompressVram(gBattleTerrainTiles_Rayquaza, (void*)(BG_CHAR_ADDR(2)));
-				LZDecompressVram(gBattleTerrainTilemap_Rayquaza, (void*)(BG_SCREEN_ADDR(26)));
-				LoadCompressedPalette(gBattleTerrainPalette_Rayquaza, 0x20, 0x60);
+				LZDecompressVram(gBattleTerrainTiles_Towermasta, (void*)(BG_CHAR_ADDR(2)));
+				LZDecompressVram(gBattleTerrainTilemap_Towermasta, (void*)(BG_SCREEN_ADDR(26)));
+				LoadCompressedPalette(gBattleTerrainPalette_Towermasta, 0x20, 0x60);
 				return;
 			}/*/
 			
@@ -1244,10 +1244,10 @@ void DrawBattleEntryBackground(void)
         LZDecompressVram(gBattleTerrainAnimTiles_Underwater, (void*)(BG_CHAR_ADDR(1)));
         LZDecompressVram(gBattleTerrainAnimTilemap_Underwater, (void*)(BG_SCREEN_ADDR(28)));
     }
-    else if (gBattleTypeFlags & BATTLE_TYPE_RAYQUAZA)
+    else if (gBattleTypeFlags & BATTLE_TYPE_TOWERMASTA)
     {
-        LZDecompressVram(gBattleTerrainAnimTiles_Rayquaza, (void*)(BG_CHAR_ADDR(1)));
-        LZDecompressVram(gBattleTerrainAnimTilemap_Rayquaza, (void*)(BG_SCREEN_ADDR(28)));
+        LZDecompressVram(gBattleTerrainAnimTiles_Towermasta, (void*)(BG_CHAR_ADDR(1)));
+        LZDecompressVram(gBattleTerrainAnimTilemap_Towermasta, (void*)(BG_SCREEN_ADDR(28)));
     }
     else
     {

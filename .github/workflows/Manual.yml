@@ -51,10 +51,10 @@ jobs:
         # builds agbcc to pokeemerald repo
 
       - name: Build the patch
-        run: chmod -R 755 ./flips-linux && ls && ./flips-linux --create tools/pokeemerald/pokeemerald.gba pokeemerald.gba ROWE_Source.bps
+        run: chmod -R 755 ./flips-linux && ls && ./flips-linux --create tools/pokeemerald/pokeemerald.gba pokeemerald.gba DRLO_Source.bps
 
       - name: Upload bps file
         uses: actions/upload-artifact@v3
         with:
           name: pokeemerald_patch
-          path: ROWE_Source.bps
+          path: DRLO_Source.bps

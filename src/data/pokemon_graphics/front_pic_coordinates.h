@@ -1910,7 +1910,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x88,
         .y_offset = 0,
     },
-    [SPECIES_RAYQUAZA] =
+    [SPECIES_TOWERMASTA] =
     {
         .size = 0x88,
         .y_offset = 0,
@@ -1930,7 +1930,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x66,
         .y_offset = 6,
     },
-    [SPECIES_DEOXYS] =
+    [SPECIES_SQUILITHID] =
     {
         .size = 0x88,
         .y_offset = 0,
@@ -2060,7 +2060,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x88,
         .y_offset = 15,
     },
-    [SPECIES_BASTIODON] =
+    [SPECIES_GREEDURN] =
     {
         .size = 0x67,
         .y_offset = 6,
@@ -2140,12 +2140,12 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x67,
         .y_offset = 7,
     },
-    [SPECIES_BUNEARY] =
+    [SPECIES_POSSQUAD] =
     {
         .size = 0x67,
         .y_offset = 9,
     },
-    [SPECIES_LOPUNNY] =
+    [SPECIES_POSSWARM] =
     {
         .size = 0x88,
         .y_offset = 4,
@@ -2405,7 +2405,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x77,
         .y_offset = 11,
     },
-    [SPECIES_UXIE] =
+    [SPECIES_LASONYX] =
     {
         .size = 0x77,
         .y_offset = 6,
@@ -4697,7 +4697,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_LOPUNNY_MEGA] =
+    [SPECIES_POSSWARM_MEGA] =
     {
         .size = 0,
         .y_offset = 2,
@@ -4733,7 +4733,7 @@ const struct MonCoords gMonFrontPicCoords[] =
         .y_offset = 0,
     },
     // Special Mega + Primals
-    [SPECIES_RAYQUAZA_MEGA] =
+    [SPECIES_TOWERMASTA_MEGA] =
     {
         .size = 0,
         .y_offset = 0,
@@ -5166,18 +5166,18 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x34,
         .y_offset = 17,
     },
-    // Deoxys
-    [SPECIES_DEOXYS_ATTACK] =
+    // Squilithid
+    [SPECIES_SQUILITHID_ATTACK] =
     {
         .size = 0x88,
         .y_offset = 0,
     },
-    [SPECIES_DEOXYS_DEFENSE] =
+    [SPECIES_SQUILITHID_DEFENSE] =
     {
         .size = 0x88,
         .y_offset = 0,
     },
-    [SPECIES_DEOXYS_SPEED] =
+    [SPECIES_SQUILITHID_SPEED] =
     {
         .size = 0x88,
         .y_offset = 0,

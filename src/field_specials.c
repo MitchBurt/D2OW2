@@ -30,7 +30,7 @@
 #include "pokemon.h"
 #include "pokemon_storage_system.h"
 #include "random.h"
-#include "rayquaza_scene.h"
+#include "towermasta_scene.h"
 #include "region_map.h"
 #include "rtc.h"
 #include "script.h"
@@ -127,9 +127,9 @@ static void ScrollableMultichoice_RemoveScrollArrows(u8 taskId);
 static void sub_813A600(u8 taskId);
 static void sub_813A664(u8 taskId);
 static void ShowFrontierExchangeCornerItemIcon(u16 item);
-static void Task_DeoxysRockInteraction(u8 taskId);
-static void ChangeDeoxysRockLevel(u8 a0);
-static void WaitForDeoxysRockMovement(u8 taskId);
+static void Task_SquilithidRockInteraction(u8 taskId);
+static void ChangeSquilithidRockLevel(u8 a0);
+static void WaitForSquilithidRockMovement(u8 taskId);
 static void Task_LinkRetireStatusWithBattleTowerPartner(u8 taskId);
 static void Task_LoopWingFlapSE(u8 taskId);
 static void Task_CloseBattlePikeCurtain(u8 taskId);
@@ -479,7 +479,7 @@ bool32 ShouldDoMasonCall(void)
     return TRUE;
 }
 
-bool32 ShouldDoRivalRayquazaCall(void)
+bool32 ShouldDoRivalTowermastaCall(void)
 {
     if (FlagGet(FLAG_DEFEATED_MAGMA_SPACE_CENTER))
     {
@@ -489,7 +489,7 @@ bool32 ShouldDoRivalRayquazaCall(void)
             case MAP_TYPE_CITY:
             case MAP_TYPE_ROUTE:
             case MAP_TYPE_OCEAN_ROUTE:
-                if (++(*GetVarPointer(VAR_RIVAL_RAYQUAZA_CALL_STEP_COUNTER)) < 250)
+                if (++(*GetVarPointer(VAR_RIVAL_TOWERMASTA_CALL_STEP_COUNTER)) < 250)
                 {
                     return FALSE;
                 }
@@ -3409,26 +3409,26 @@ void sub_813AF48(void)
 #undef tListTaskId         
 #undef tTaskId              
 
-void DoDeoxysRockInteraction(void)
+void DoSquilithidRockInteraction(void)
 {
-    CreateTask(Task_DeoxysRockInteraction, 8);
+    CreateTask(Task_SquilithidRockInteraction, 8);
 }
 
-static const u16 sDeoxysRockPalettes[][16] = {
-    INCBIN_U16("graphics/misc/deoxys1.gbapal"),
-    INCBIN_U16("graphics/misc/deoxys2.gbapal"),
-    INCBIN_U16("graphics/misc/deoxys3.gbapal"),
-    INCBIN_U16("graphics/misc/deoxys4.gbapal"),
-    INCBIN_U16("graphics/misc/deoxys5.gbapal"),
-    INCBIN_U16("graphics/misc/deoxys6.gbapal"),
-    INCBIN_U16("graphics/misc/deoxys7.gbapal"),
-    INCBIN_U16("graphics/misc/deoxys8.gbapal"),
-    INCBIN_U16("graphics/misc/deoxys9.gbapal"),
-    INCBIN_U16("graphics/misc/deoxys10.gbapal"),
-    INCBIN_U16("graphics/misc/deoxys11.gbapal"),
+static const u16 sSquilithidRockPalettes[][16] = {
+    INCBIN_U16("graphics/misc/squilithid1.gbapal"),
+    INCBIN_U16("graphics/misc/squilithid2.gbapal"),
+    INCBIN_U16("graphics/misc/squilithid3.gbapal"),
+    INCBIN_U16("graphics/misc/squilithid4.gbapal"),
+    INCBIN_U16("graphics/misc/squilithid5.gbapal"),
+    INCBIN_U16("graphics/misc/squilithid6.gbapal"),
+    INCBIN_U16("graphics/misc/squilithid7.gbapal"),
+    INCBIN_U16("graphics/misc/squilithid8.gbapal"),
+    INCBIN_U16("graphics/misc/squilithid9.gbapal"),
+    INCBIN_U16("graphics/misc/squilithid10.gbapal"),
+    INCBIN_U16("graphics/misc/squilithid11.gbapal"),
 };
 
-static const u8 sDeoxysRockCoords[][2] = {
+static const u8 sSquilithidRockCoords[][2] = {
     { 15, 12 },
     { 11, 14 },
     { 15,  8 },
@@ -3442,11 +3442,11 @@ static const u8 sDeoxysRockCoords[][2] = {
     { 15, 10 },
 };
 
-static void Task_DeoxysRockInteraction(u8 taskId)
+static void Task_SquilithidRockInteraction(u8 taskId)
 {
     static const u8 sStoneMaxStepCounts[] = { 4, 8, 8, 8, 4, 4, 4, 6, 3, 3 };
 
-    if (FlagGet(FLAG_DEOXYS_ROCK_COMPLETE) == TRUE)
+    if (FlagGet(FLAG_SQUILITHID_ROCK_COMPLETE) == TRUE)
     {
         gSpecialVar_Result = 3;
         EnableBothScriptContexts();
@@ -3454,21 +3454,21 @@ static void Task_DeoxysRockInteraction(u8 taskId)
     }
     else
     {
-        u16 rockLevel = VarGet(VAR_DEOXYS_ROCK_LEVEL);
-        u16 stepCount = VarGet(VAR_DEOXYS_ROCK_STEP_COUNT);
+        u16 rockLevel = VarGet(VAR_SQUILITHID_ROCK_LEVEL);
+        u16 stepCount = VarGet(VAR_SQUILITHID_ROCK_STEP_COUNT);
 
-        VarSet(VAR_DEOXYS_ROCK_STEP_COUNT, 0);
+        VarSet(VAR_SQUILITHID_ROCK_STEP_COUNT, 0);
         if (rockLevel != 0 && sStoneMaxStepCounts[rockLevel - 1] < stepCount)
         {
             // Player failed to take the shortest path to the stone, so it resets.
-            ChangeDeoxysRockLevel(0);
-            VarSet(VAR_DEOXYS_ROCK_LEVEL, 0);
+            ChangeSquilithidRockLevel(0);
+            VarSet(VAR_SQUILITHID_ROCK_LEVEL, 0);
             gSpecialVar_Result = 0;
             DestroyTask(taskId);
         }
         else if (rockLevel == 10)
         {
-            FlagSet(FLAG_DEOXYS_ROCK_COMPLETE);
+            FlagSet(FLAG_SQUILITHID_ROCK_COMPLETE);
             gSpecialVar_Result = 2;
             EnableBothScriptContexts();
             DestroyTask(taskId);
@@ -3476,44 +3476,44 @@ static void Task_DeoxysRockInteraction(u8 taskId)
         else
         {
             rockLevel++;
-            ChangeDeoxysRockLevel(rockLevel);
-            VarSet(VAR_DEOXYS_ROCK_LEVEL, rockLevel);
+            ChangeSquilithidRockLevel(rockLevel);
+            VarSet(VAR_SQUILITHID_ROCK_LEVEL, rockLevel);
             gSpecialVar_Result = 1;
             DestroyTask(taskId);
         }
     }
 }
 
-static void ChangeDeoxysRockLevel(u8 rockLevel)
+static void ChangeSquilithidRockLevel(u8 rockLevel)
 {
     u8 objectEventId;
-    LoadPalette(&sDeoxysRockPalettes[rockLevel], 0x1A0, 8);
+    LoadPalette(&sSquilithidRockPalettes[rockLevel], 0x1A0, 8);
     TryGetObjectEventIdByLocalIdAndMap(1, gSaveBlock1Ptr->location.mapNum, gSaveBlock1Ptr->location.mapGroup, &objectEventId);
 
     if (rockLevel == 0)
         PlaySE(SE_M_CONFUSE_RAY);
     else
-        PlaySE(SE_RG_DEOXYS_MOVE);
+        PlaySE(SE_RG_SQUILITHID_MOVE);
 
-    CreateTask(WaitForDeoxysRockMovement, 8);
+    CreateTask(WaitForSquilithidRockMovement, 8);
     gFieldEffectArguments[0] = 1;
     gFieldEffectArguments[1] = 58;
     gFieldEffectArguments[2] = 26;
-    gFieldEffectArguments[3] = sDeoxysRockCoords[rockLevel][0];
-    gFieldEffectArguments[4] = sDeoxysRockCoords[rockLevel][1];
+    gFieldEffectArguments[3] = sSquilithidRockCoords[rockLevel][0];
+    gFieldEffectArguments[4] = sSquilithidRockCoords[rockLevel][1];
 
     if (rockLevel == 0)
         gFieldEffectArguments[5] = 60;
     else
         gFieldEffectArguments[5] = 5;
 
-    FieldEffectStart(FLDEFF_MOVE_DEOXYS_ROCK);
-    Overworld_SetObjEventTemplateCoords(1, sDeoxysRockCoords[rockLevel][0], sDeoxysRockCoords[rockLevel][1]);
+    FieldEffectStart(FLDEFF_MOVE_SQUILITHID_ROCK);
+    Overworld_SetObjEventTemplateCoords(1, sSquilithidRockCoords[rockLevel][0], sSquilithidRockCoords[rockLevel][1]);
 }
 
-static void WaitForDeoxysRockMovement(u8 taskId)
+static void WaitForSquilithidRockMovement(u8 taskId)
 {
-    if (FieldEffectActiveListContains(FLDEFF_MOVE_DEOXYS_ROCK) == FALSE)
+    if (FieldEffectActiveListContains(FLDEFF_MOVE_SQUILITHID_ROCK) == FALSE)
     {
         EnableBothScriptContexts();
         DestroyTask(taskId);
@@ -3522,24 +3522,24 @@ static void WaitForDeoxysRockMovement(u8 taskId)
 
 void IncrementBirthIslandRockStepCount(void)
 {
-    u16 var = VarGet(VAR_DEOXYS_ROCK_STEP_COUNT);
+    u16 var = VarGet(VAR_SQUILITHID_ROCK_STEP_COUNT);
     if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(BIRTH_ISLAND_EXTERIOR) && gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(BIRTH_ISLAND_EXTERIOR))
     {
         var++;
         if (var > 99)
         {
-            VarSet(VAR_DEOXYS_ROCK_STEP_COUNT, 0);
+            VarSet(VAR_SQUILITHID_ROCK_STEP_COUNT, 0);
         }
         else
         {
-            VarSet(VAR_DEOXYS_ROCK_STEP_COUNT, var);
+            VarSet(VAR_SQUILITHID_ROCK_STEP_COUNT, var);
         }
     }
 }
 
-void SetDeoxysRockPalette(void)
+void SetSquilithidRockPalette(void)
 {
-    LoadPalette(&sDeoxysRockPalettes[(u8)VarGet(VAR_DEOXYS_ROCK_LEVEL)], 0x1A0, 8);
+    LoadPalette(&sSquilithidRockPalettes[(u8)VarGet(VAR_SQUILITHID_ROCK_LEVEL)], 0x1A0, 8);
     BlendPalettes(0x04000000, 16, 0);
 }
 
@@ -3939,17 +3939,17 @@ static void Task_LinkRetireStatusWithBattleTowerPartner(u8 taskId)
     }
 }
 
-void Script_DoRayquazaScene(void)
+void Script_DoTowermastaScene(void)
 {
     if (!gSpecialVar_0x8004)
     {
         // Noirnet/Krakrum fight scene
-        DoRayquazaScene(0, TRUE, CB2_ReturnToFieldContinueScriptPlayMapMusic);
+        DoTowermastaScene(0, TRUE, CB2_ReturnToFieldContinueScriptPlayMapMusic);
     }
     else
     {
-        // Rayquaza arrives scene
-        DoRayquazaScene(1, FALSE, CB2_ReturnToFieldContinueScriptPlayMapMusic);
+        // Towermasta arrives scene
+        DoTowermastaScene(1, FALSE, CB2_ReturnToFieldContinueScriptPlayMapMusic);
     }
 }
 

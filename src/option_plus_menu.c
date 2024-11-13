@@ -1182,7 +1182,7 @@ static void DrawChoices_Title_Screen_Mon(int selection, int y)
     bool8 active = CheckConditions(MENUITEM_CUSTOM_TITLE_SCREEN);
     switch(selection){
         case 0:
-            DrawOptionMenuChoice(gText_TitleScreen_Rayquaza, 104, y, 1, active);
+            DrawOptionMenuChoice(gText_TitleScreen_Towermasta, 104, y, 1, active);
         break;
         case 1:
             DrawOptionMenuChoice(gText_TitleScreen_Noirnet, 104, y, 1, active);

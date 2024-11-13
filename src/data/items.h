@@ -7268,14 +7268,14 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_PLUME_FOSSIL] =
+    [ITEM_HORN_FOSSIL] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
         .name = _("Fósil Pluma"),
 #else
-        .name = _("Plume Fossil"),
+        .name = _("Horn Fossil"),
 #endif
-        .itemId = ITEM_PLUME_FOSSIL,
+        .itemId = ITEM_HORN_FOSSIL,
         .price = 0,
         .description = sPlumeFossilDesc,
         .importance = 0,
@@ -7302,14 +7302,14 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_SAIL_FOSSIL] =
+    [ITEM_TOOTH_FOSSIL] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
         .name = _("Fósil Aleta"),
 #else
         .name = _("Sail Fossil"),
 #endif
-        .itemId = ITEM_SAIL_FOSSIL,
+        .itemId = ITEM_TOOTH_FOSSIL,
         .price = 0,
         .description = sSailFossilDesc,
         .importance = 0,

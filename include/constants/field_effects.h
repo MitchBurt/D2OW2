@@ -65,9 +65,9 @@
 #define FLDEFF_PCTURN_ON                 61
 #define FLDEFF_HALL_OF_FAME_RECORD       62
 #define FLDEFF_USE_TELEPORT              63
-#define FLDEFF_RAYQUAZA_SPOTLIGHT        64
-#define FLDEFF_DESTROY_DEOXYS_ROCK       65
-#define FLDEFF_MOVE_DEOXYS_ROCK          66
+#define FLDEFF_TOWERMASTA_SPOTLIGHT        64
+#define FLDEFF_DESTROY_SQUILITHID_ROCK       65
+#define FLDEFF_MOVE_SQUILITHID_ROCK          66
 #define FLDEFF_CAVE_DUST                 67
 #define FLDEFF_RIDE_TAXI                 68
 #define FLDEFF_USE_HEADBUTT 			 69
@@ -108,7 +108,7 @@
 #define FLDEFFOBJ_ASH_LAUNCH            33
 #define FLDEFFOBJ_BUBBLES               34
 #define FLDEFFOBJ_SMALL_SPARKLE         35
-#define FLDEFFOBJ_RAYQUAZA              36
+#define FLDEFFOBJ_TOWERMASTA              36
 #define FLDEFFOBJ_CAVE_DUST             37
 
 

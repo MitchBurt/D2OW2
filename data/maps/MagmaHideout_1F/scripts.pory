@@ -5,7 +5,7 @@ MagmaHideout_1F_MapScripts:: @ 8239880
 	.byte 0
 	
 MagmaHideout_1F_OnLoad::
-	call_if_unset FLAG_DEFEATED_RAYQUAZA, MagmaHideout_1F_EventScript_OpenHeattarCave
+	call_if_unset FLAG_DEFEATED_TOWERMASTA, MagmaHideout_1F_EventScript_OpenHeattarCave
 	end
 	
 MagmaHideout_1F_EventScript_OpenHeattarCave:: @ 81EC3AE

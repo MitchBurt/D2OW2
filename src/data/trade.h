@@ -1010,8 +1010,8 @@ static const struct InGameTrade sIngameTrades[] =
 {
     [INGAME_TRADE_SOBBLEAF] = 
     {
-        .nickname = _("Arctovish"), 
-        .species = SPECIES_ARCTOVISH,
+        .nickname = _("Kobe"), 
+        .species = SPECIES_BIGOBEET,
         .ivs = {0, 0, 0, 0, 0, 0},
         .abilityNum = 1, 
         .otId = 38726,
@@ -1022,12 +1022,12 @@ static const struct InGameTrade sIngameTrades[] =
         .otName = _("Kobe"), 
         .otGender = MALE, 
         .sheen = 10,
-        .requestedSpecies = SPECIES_SWAMPOGRE
+        .requestedSpecies = SPECIES_SOBBLEAF
     }, 
     [INGAME_TRADE_PURRSOUR] = 
     {
-        .nickname = _("Arctozolt"), 
-        .species = SPECIES_ARCTOZOLT,
+        .nickname = _("Kitty"), 
+        .species = SPECIES_NYANCAT,
         .ivs = {0, 0, 0, 0, 0, 0},
         .abilityNum = 0, 
         .otId = 73996,
@@ -1038,12 +1038,12 @@ static const struct InGameTrade sIngameTrades[] =
         .otName = _("Roman"), 
         .otGender = MALE, 
         .sheen = 10,
-        .requestedSpecies = SPECIES_BLINKRUPT
+        .requestedSpecies = SPECIES_PURRSOUR
     }, 
     [INGAME_TRADE_JANK] = 
     {
-        .nickname = _("Dracovish"),
-        .species = SPECIES_DRACOVISH,
+        .nickname = _("Nibbles"),
+        .species = SPECIES_SCUBITE,
         .ivs = {0, 0, 0, 0, 0, 0},
         .abilityNum = 0, 
         .otId = 46285,
@@ -1054,12 +1054,12 @@ static const struct InGameTrade sIngameTrades[] =
         .otName = _("Skylar"), 
         .otGender = MALE, 
         .sheen = 10,
-        .requestedSpecies = SPECIES_APPLETUN
+        .requestedSpecies = SPECIES_JANK
     }, 
     [INGAME_TRADE_GARFEL] = 
     {
-        .nickname = _("Dracozolt"),
-        .species = SPECIES_DRACOZOLT,
+        .nickname = _("Sus"),
+        .species = SPECIES_AMONSUS,
         .ivs = {0, 0, 0, 0, 0, 0},
         .abilityNum = 0, 
         .otId = 91481,

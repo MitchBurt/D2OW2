@@ -345,7 +345,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .abilitynum = ABILITY_RANDOM
     },
     [FRONTIER_MON_SNEDDIT] = {
-        .species = SPECIES_BASTIODON,
+        .species = SPECIES_GREEDURN,
         .moves = {MOVE_STEALTH_ROCK, MOVE_METAL_BURST, MOVE_TOXIC, MOVE_MAGIC_COAT},
         .itemTableId = BATTLE_FRONTIER_ITEM_ROCKY_HELMET,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
@@ -1185,7 +1185,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .abilitynum = ABILITY_RANDOM
     },
     [FRONTIER_MON_DURASHELL] = {
-        .species = SPECIES_LOPUNNY,
+        .species = SPECIES_POSSWARM,
         .moves = {MOVE_RETURN, MOVE_FAKE_OUT, MOVE_HI_JUMP_KICK, MOVE_ICE_PUNCH    },
         .itemTableId = BATTLE_FRONTIER_ITEM_LOPUNNITE,
         .evSpread = F_EV_SPREAD_ATTACK | F_EV_SPREAD_SPEED,

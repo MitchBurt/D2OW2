@@ -186,18 +186,18 @@ static const u8 gText_SideQuestName_3[]  = _("003 - Ready for Victory");
 static const u8 gText_SideQuestDesc_3[]  = _("Defeat every Gym Leader in Hoenn");
 static const u8 gText_SideQuestHint_3[]  = _("Eight");
 //Quest 4	-	Done
-static const u8 gText_SideQuestName_4[]  = _("004 - Frail Boy");
-static const u8 gText_SideQuestDesc_4[]  = _("Defeat the Pokémon Trainer Wally in\nthe Victory Road");
-static const u8 gText_SideQuestHint_4[]  = _("Frail");
+static const u8 gText_SideQuestName_4[]  = _("004 - The Homie");
+static const u8 gText_SideQuestDesc_4[]  = _("Defeat the Trainer Big Slime in\nthe Victory Road");
+static const u8 gText_SideQuestHint_4[]  = _("Homie");
 //Quest 5	-	Done
 static const u8 gText_SideQuestName_5[]  = _("005 - Hoenn Champion");
 static const u8 gText_SideQuestDesc_5[]  = _("Enter the Hall of Fame for the first\ntime");
 static const u8 gText_SideQuestHint_5[]  = _("Champion");
 //Quest 6	-	Done
 static const u8 gText_SideQuestName_6[]  = _("006 - Fry HIGHER");
-static const u8 gText_SideQuestDesc_6[]  = _("Defeat or Catch the Sky High Pokémon\nRayquaza");
+static const u8 gText_SideQuestDesc_6[]  = _("Defeat or Catch the Sky High Pokémon\nTowermasta");
 static const u8 gText_SideQuestHint_6[]  = _("Sky High");
-//Quest 7	-	Done
+//Quest 7	-	Todo
 static const u8 gText_SideQuestName_7[]  = _("007 - Pokémon Trader");
 static const u8 gText_SideQuestDesc_7[]  = _("Complete every in-game Trade");
 static const u8 gText_SideQuestHint_7[]  = _("Trade");
@@ -224,9 +224,9 @@ static const u8 gText_SideQuestHint_12[] = _("Map");
 //Quest 13	-	Done
 static const u8 gText_SideQuestName_13[] = _("013 - JACKPOT");
 static const u8 gText_SideQuestDesc_13[] = _("Match three 7 in the slot machines\n20 times");
-static const u8 gText_SideQuestHint_13[] = _("Seven");
+static const u8 gText_SideQuestHint_13[] = _("Gamble");
 //Quest 14	-	Done
-static const u8 gText_SideQuestName_14[] = _("014 - Big Prize");
+static const u8 gText_SideQuestName_14[] = _("014 - Mega Millions");
 static const u8 gText_SideQuestDesc_14[] = _("Win the Lottery for the first time");
 static const u8 gText_SideQuestHint_14[] = _("Lottery");
 //Quest 15
@@ -304,7 +304,7 @@ static const u8 gText_SideQuestDesc_32[] = _("Gave the scanner to Capt. Stern");
 static const u8 gText_SideQuestHint_32[] = _("Scanner");
 //Quest 49
 static const u8 gText_SideQuestName_49[] = _("049 - Pokémon Master");
-static const u8 gText_SideQuestDesc_49[] = _("Defeat the Pokémon Master Red and the\nEx-Champion Steven");
+static const u8 gText_SideQuestDesc_49[] = _("Defeat the Pokémon Master Red and the\nEx-Champion Mitch");
 static const u8 gText_SideQuestHint_49[] = _("Master");
 //Quest 50
 static const u8 gText_SideQuestName_50[] = _("050 - Silver Symbols");
@@ -312,7 +312,7 @@ static const u8 gText_SideQuestDesc_50[] = _("Get all the Silver Symbols in the 
 static const u8 gText_SideQuestHint_50[] = _("Silver");
 //Quest 51
 static const u8 gText_SideQuestName_51[] = _("051 - Ambition");
-static const u8 gText_SideQuestDesc_51[] = _("Get a Shiny Rayquaza at the Title Screen");
+static const u8 gText_SideQuestDesc_51[] = _("Get a Shiny at the Title Screen");
 static const u8 gText_SideQuestHint_51[] = _("Nobunaga");
 //Quest 52
 static const u8 gText_SideQuestName_52[] = _("052 - Hard Battler");
@@ -348,8 +348,8 @@ static const u8 gText_SideQuestDesc_98[] = _("Complete your Pokedex");
 static const u8 gText_SideQuestHint_98[] = _("Dex");
 //Quest 99
 static const u8 gText_SideQuestName_99[] = _("099 - The last challenge");
-static const u8 gText_SideQuestDesc_99[] = _("Defeat or Catch the Alpha Pokémon \nArceus");
-static const u8 gText_SideQuestHint_99[] = _("Alpha");
+static const u8 gText_SideQuestDesc_99[] = _("Defeat or Catch the God Pokémon");
+static const u8 gText_SideQuestHint_99[] = _("God");
 //Quest 100
 static const u8 gText_SideQuestName_100[] = _("100 - My deepest apologies");
 static const u8 gText_SideQuestDesc_100[] = _("Complete every mission in the game");
@@ -365,10 +365,10 @@ static const struct SideQuest sSideQuests[SIDE_QUEST_COUNT] =
     side_quest(gText_SideQuestName_1,  gText_SideQuestDesc_1,  ITEM_LUCKY_EGG		, 1, 	gText_SideQuestHint_1,  FLAG_ACHIEVEMENT_REWARD_01),
     side_quest(gText_SideQuestName_2,  gText_SideQuestDesc_2,  ITEM_DESTINY_KNOT	, 1, 	gText_SideQuestHint_2,  FLAG_ACHIEVEMENT_REWARD_02),
     side_quest(gText_SideQuestName_3,  gText_SideQuestDesc_3,  ITEM_POWER_CANDY		, 6, 	gText_SideQuestHint_3,  FLAG_ACHIEVEMENT_REWARD_03),
-    side_quest(gText_SideQuestName_4,  gText_SideQuestDesc_4,  ITEM_GALLADITE		, 1, 	gText_SideQuestHint_4,  FLAG_ACHIEVEMENT_REWARD_04),
-    side_quest(gText_SideQuestName_5,  gText_SideQuestDesc_5,  ITEM_BAITANKITE		, 1, 	gText_SideQuestHint_5,  FLAG_ACHIEVEMENT_REWARD_05),
+    side_quest(gText_SideQuestName_4,  gText_SideQuestDesc_4,  ITEM_SNEDDITE		, 1, 	gText_SideQuestHint_4,  FLAG_ACHIEVEMENT_REWARD_04),
+    side_quest(gText_SideQuestName_5,  gText_SideQuestDesc_5,  ITEM_GODNITE_X		, 1, 	gText_SideQuestHint_5,  FLAG_ACHIEVEMENT_REWARD_05),
     side_quest(gText_SideQuestName_6,  gText_SideQuestDesc_6,  ITEM_DUSHROOMITE		, 1, 	gText_SideQuestHint_6,  FLAG_ACHIEVEMENT_REWARD_06),
-    side_quest(gText_SideQuestName_7,  gText_SideQuestDesc_7,  ITEM_ALAKAZITE		, 1, 	gText_SideQuestHint_7,  FLAG_ACHIEVEMENT_REWARD_07),
+    side_quest(gText_SideQuestName_7,  gText_SideQuestDesc_7,  ITEM_GAHNOMEDITE		, 1, 	gText_SideQuestHint_7,  FLAG_ACHIEVEMENT_REWARD_07),
     side_quest(gText_SideQuestName_8,  gText_SideQuestDesc_8,  ITEM_GOTHOTITE	, 1, 	gText_SideQuestHint_8,  FLAG_ACHIEVEMENT_REWARD_08),
     side_quest(gText_SideQuestName_9,  gText_SideQuestDesc_9,  ITEM_SOOTHE_BELL		, 6, 	gText_SideQuestHint_9,  FLAG_ACHIEVEMENT_REWARD_09),
     side_quest(gText_SideQuestName_10, gText_SideQuestDesc_10, ITEM_RARE_CANDY		, 10, 	gText_SideQuestHint_10, FLAG_ACHIEVEMENT_REWARD_10),
@@ -382,8 +382,8 @@ static const struct SideQuest sSideQuests[SIDE_QUEST_COUNT] =
     side_quest(gText_SideQuestName_18, gText_SideQuestDesc_18, ITEM_ZOOM_LENS		, 3, 	gText_SideQuestHint_18, FLAG_ACHIEVEMENT_REWARD_18),
     side_quest(gText_SideQuestName_19, gText_SideQuestDesc_19, ITEM_DAMP_ROCK		, 3, 	gText_SideQuestHint_19, FLAG_ACHIEVEMENT_REWARD_19),
     side_quest(gText_SideQuestName_20, gText_SideQuestDesc_20, ITEM_OVAL_CHARM		, 1, 	gText_SideQuestHint_20, FLAG_ACHIEVEMENT_REWARD_20),
-    side_quest(gText_SideQuestName_21, gText_SideQuestDesc_21, ITEM_ADAMANT_ORB		, 1, 	gText_SideQuestHint_21, FLAG_ACHIEVEMENT_REWARD_21),
-    side_quest(gText_SideQuestName_22, gText_SideQuestDesc_22, ITEM_LATIASITE		, 1, 	gText_SideQuestHint_22, FLAG_ACHIEVEMENT_REWARD_22),
+    side_quest(gText_SideQuestName_21, gText_SideQuestDesc_21, ITEM_COSMIC_STONE		, 1, 	gText_SideQuestHint_21, FLAG_ACHIEVEMENT_REWARD_21),
+    side_quest(gText_SideQuestName_22, gText_SideQuestDesc_22, ITEM_YGGDRACONITE		, 1, 	gText_SideQuestHint_22, FLAG_ACHIEVEMENT_REWARD_22),
     side_quest(gText_SideQuestName_23, gText_SideQuestDesc_23, ITEM_LURE_BALL		, 20, 	gText_SideQuestHint_23, FLAG_ACHIEVEMENT_REWARD_23),
     side_quest(gText_SideQuestName_24, gText_SideQuestDesc_24, ITEM_SAFARI_BALL_SEAL, 5, 	gText_SideQuestHint_24, FLAG_ACHIEVEMENT_REWARD_24),
     side_quest(gText_SideQuestName_25, gText_SideQuestDesc_25, ITEM_MAX_ELIXIR		, 5, 	gText_SideQuestHint_25, FLAG_ACHIEVEMENT_REWARD_25),
@@ -457,7 +457,7 @@ static const struct SideQuest sSideQuests[SIDE_QUEST_COUNT] =
     side_quest(gText_SideQuestName_00, gText_SideQuestDesc_00, ITEM_POKE_BALL	, 1, gText_SideQuestHint_00, FLAG_ACHIEVEMENT_REWARD_01),
     side_quest(gText_SideQuestName_00, gText_SideQuestDesc_00, ITEM_POKE_BALL	, 1, gText_SideQuestHint_00, FLAG_ACHIEVEMENT_REWARD_01),
     side_quest(gText_SideQuestName_00, gText_SideQuestDesc_00, ITEM_POKE_BALL	, 1, gText_SideQuestHint_00, FLAG_ACHIEVEMENT_REWARD_01),
-    side_quest(gText_SideQuestName_96, gText_SideQuestDesc_96, ITEM_GRISEOUS_ORB, 1, gText_SideQuestHint_96, FLAG_ACHIEVEMENT_REWARD_96),
+    side_quest(gText_SideQuestName_96, gText_SideQuestDesc_96, ITEM_ABILITY_CAPSULE, 1, gText_SideQuestHint_96, FLAG_ACHIEVEMENT_REWARD_96),
     side_quest(gText_SideQuestName_97, gText_SideQuestDesc_97, ITEM_NUGGET		, 50, gText_SideQuestHint_97, FLAG_ACHIEVEMENT_REWARD_97),
     side_quest(gText_SideQuestName_98, gText_SideQuestDesc_98, ITEM_POKE_BALL	, 1, gText_SideQuestHint_98, FLAG_ACHIEVEMENT_REWARD_98),
     side_quest(gText_SideQuestName_99, gText_SideQuestDesc_99, ITEM_IRON_PLATE	, 1, gText_SideQuestHint_99, FLAG_ACHIEVEMENT_REWARD_99),
@@ -1970,11 +1970,11 @@ static void UnlockQuestMenu(void)
 		GetSetQuestFlag(SIDE_QUEST_5, FLAG_SET_COMPLETED);
 	//Achievement 6----------------------------------------------------------
 	//Unlocked after you defeat Noirnet and Krakrum
-	//Completed after you defeat Rayquaza
+	//Completed after you defeat Towermasta
 	if(FlagGet(FLAG_DEFEATED_KRAKRUM) && FlagGet(FLAG_DEFEATED_NOIRNET))
 		GetSetQuestFlag(SIDE_QUEST_6, FLAG_SET_UNLOCKED);
 	
-	if(FlagGet(FLAG_DEFEATED_RAYQUAZA))
+	if(FlagGet(FLAG_DEFEATED_TOWERMASTA))
 		GetSetQuestFlag(SIDE_QUEST_6, FLAG_SET_COMPLETED);
 	
 	//Achievement 7----------------------------------------------------------
@@ -2267,7 +2267,7 @@ static void UnlockQuestMenu(void)
 		GetSetQuestFlag(SIDE_QUEST_50, FLAG_SET_UNLOCKED);
 	
 	//Achievement 51----------------------------------------------------------
-	if(FlagGet(FLAG_SHINY_RAYQUAZA_TITLE_SCREEN))
+	if(FlagGet(FLAG_SHINY_TOWERMASTA_TITLE_SCREEN))
 		GetSetQuestFlag(SIDE_QUEST_51, FLAG_SET_COMPLETED);
 	
 	//Achievement 52----------------------------------------------------------
@@ -2349,31 +2349,10 @@ static void Task_QuestMenuProgress(u8 taskId)
 		case SIDE_QUEST_8:
 			if(TRUE){
 			u16 fossilMons[] = {
-				SPECIES_ATTACO,
-				SPECIES_GAISER,
-				SPECIES_CORORK,
-				SPECIES_BIGOBEET,
-				SPECIES_USARMY,
+				SPECIES_YEESAUR,
 				SPECIES_ODOSAUR,
 				SPECIES_TRICERAS,
-				SPECIES_XENOTOPS,
-				SPECIES_CRANIDOS,
-				SPECIES_RAMPARDOS,
-				SPECIES_SHIELDON,
-				SPECIES_BASTIODON,
-				SPECIES_TIRTOUGA,
-				SPECIES_CARRACOSTA,
-				SPECIES_ARCHEN,
-				SPECIES_ARCHEOPS,
-				SPECIES_TYRUNT,
-				SPECIES_TYRANTRUM,
-				SPECIES_AMAURA,
-				SPECIES_AURORUS,
-				SPECIES_DRACOZOLT,
-				SPECIES_ARCTOZOLT,
-				SPECIES_DRACOVISH,
-				SPECIES_ARCTOVISH,
-				SPECIES_GALACNAR};
+				SPECIES_XENOTOPS,};
 			
 			currentProgress = 0;
 			Objetive = (sizeof(fossilMons)/sizeof(fossilMons[0]));

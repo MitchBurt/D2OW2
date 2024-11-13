@@ -1415,14 +1415,14 @@ void UpdateSparkleFieldEffect(struct Sprite *sprite)
 #define sAnimState   data[7]
 
 // Same as InitSpriteForFigure8Anim
-static void InitRayquazaForFigure8Anim(struct Sprite *sprite)
+static void InitTowermastaForFigure8Anim(struct Sprite *sprite)
 {
     sprite->sAnimCounter = 0;
     sprite->sAnimState = 0;
 }
 
 // Only different from AnimateSpriteInFigure8 by the addition of SetGpuReg to move the spotlight
-static bool8 AnimateRayquazaInFigure8(struct Sprite *sprite)
+static bool8 AnimateTowermastaInFigure8(struct Sprite *sprite)
 {
     bool8 finished = FALSE;
 
@@ -1446,7 +1446,7 @@ static bool8 AnimateRayquazaInFigure8(struct Sprite *sprite)
         break;
     }
 
-    // Update spotlight to sweep left and right with Rayquaza
+    // Update spotlight to sweep left and right with Towermasta
     SetGpuReg(REG_OFFSET_BG0HOFS, -sprite->pos2.x);
 
     if (++sprite->sAnimCounter == FIGURE_8_LENGTH)
@@ -1464,7 +1464,7 @@ static bool8 AnimateRayquazaInFigure8(struct Sprite *sprite)
     return finished;
 }
 
-void UpdateRayquazaSpotlightEffect(struct Sprite *sprite)
+void UpdateTowermastaSpotlightEffect(struct Sprite *sprite)
 {
     u8 i, j;
 
@@ -1533,17 +1533,17 @@ void UpdateRayquazaSpotlightEffect(struct Sprite *sprite)
             }
             break;
         case 5:
-            InitRayquazaForFigure8Anim(sprite);
+            InitTowermastaForFigure8Anim(sprite);
             sprite->sState = 6;
             sprite->sTimer = 0;
             break;
         case 6:
-            if (AnimateRayquazaInFigure8(sprite))
+            if (AnimateTowermastaInFigure8(sprite))
             {
                 sprite->sTimer = 0;
                 if (++sprite->sCounter <= 2)
                 {
-                    InitRayquazaForFigure8Anim(sprite);
+                    InitTowermastaForFigure8Anim(sprite);
                 }
                 else
                 {
@@ -1568,7 +1568,7 @@ void UpdateRayquazaSpotlightEffect(struct Sprite *sprite)
                 }
             }
             SetGpuReg(REG_OFFSET_BG0VOFS, 0);
-            FieldEffectStop(sprite, FLDEFF_RAYQUAZA_SPOTLIGHT);
+            FieldEffectStop(sprite, FLDEFF_TOWERMASTA_SPOTLIGHT);
             break;
     }
 

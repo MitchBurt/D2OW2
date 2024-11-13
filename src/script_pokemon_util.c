@@ -81,6 +81,7 @@ u8 ScriptGiveMon(u16 species, u8 level, u16 item, u32 ability, u32 unused2, u8 u
     u16 nationalDexNum;
     int sentToPc;
     u8 heldItem[2];
+    u16 i;
     struct Pokemon mon;
     u8 formId = GetFormIdFromFormSpeciesId(species);
     u16 baseSpecies = GetFormSpeciesId(species, 0);
@@ -92,8 +93,9 @@ u8 ScriptGiveMon(u16 species, u8 level, u16 item, u32 ability, u32 unused2, u8 u
 	else
 		Specie = GetWildPokemon(FirstStage, level, GetMonData(&gPlayerParty[0], MON_DATA_HELD_ITEM));
 	
+    i = rand() % 173 + 1;
 	if(Specie == SPECIES_NONE)
-		Specie = SPECIES_SKIPPA;
+		Specie = gFirstStageTable[i].species;
 
 	if(baseSpecies != SPECIES_THEVOID)
 		CreateMon(&mon, baseSpecies, scaledlevel, 32, 0, 0, OT_ID_PLAYER_ID, 0, formId);

@@ -172,7 +172,7 @@ SkyPillar_Outside_Text_GotToGoBackForSootopolis: @ 823953A
 	.string "The weather distortion is spreading\n"
 	.string "even here…\p"
 	.string "{PLAYER}{KUN}.\p"
-	.string "Rayquaza should be farther up\n"
+	.string "Towermasta should be farther up\n"
 	.string "from here.\p"
 	.string "I'm worried about Sootopolis.\n"
 	.string "I've got to go back.\p"
@@ -180,6 +180,6 @@ SkyPillar_Outside_Text_GotToGoBackForSootopolis: @ 823953A
 	.string "Don't fail us!$"
 	
 SkyPillar_Outside_Text_Not_Allowed:
-	.string "Only those allowed by Rayquaza\n"
+	.string "Only those allowed by Towermasta\n"
 	.string "can enter here.$"
 `

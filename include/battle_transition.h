@@ -49,7 +49,7 @@ enum // TRANSITION_MUGSHOT
 #define B_TRANSITION_BEERIO                                  21
 #define B_TRANSITION_KRAKRUM                                    22
 #define B_TRANSITION_NOIRNET                                   23
-#define B_TRANSITION_RAYQUAZA                                  24
+#define B_TRANSITION_TOWERMASTA                                  24
 #define B_TRANSITION_SHRED_SPLIT                               25
 #define B_TRANSITION_BLACKHOLE1                                26
 #define B_TRANSITION_BLACKHOLE2                                27

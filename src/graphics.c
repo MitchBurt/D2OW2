@@ -1726,7 +1726,7 @@ const u32 gPokeblockGold_Pal[] = INCBIN_U32("graphics/pokeblock/gold.gbapal.lz")
 const u32 gUnknown_08D9BA44[] = INCBIN_U32("graphics/interface/pokeblock_feeding_bg_map.bin.lz");
 
 #include "data/graphics/berries.h"
-#include "data/graphics/rayquaza_scene.h"
+#include "data/graphics/towermasta_scene.h"
 #include "data/graphics/items.h"
 #include "data/graphics/decorations.h"
 
@@ -2119,7 +2119,7 @@ const u16 gMonIconPalettes[][16] =
 };
 
 const u16 gTitleScreenBgPalettes[] = INCBIN_U16("graphics/title_screen/pokemon_logo.gbapal",
-                                                "graphics/title_screen/rayquaza_and_clouds.gbapal");
+                                                "graphics/title_screen/towermasta_and_clouds.gbapal");
 												
 const u16 gTitleScreenEmeraldVersionPal[] = INCBIN_U16("graphics/title_screen/emerald_version.gbapal");
 

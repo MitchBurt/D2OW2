@@ -775,18 +775,18 @@ gBattleAnims_Moves::
 	.4byte Move_THUNDEROUS_KICK
 	.4byte Move_GLACIAL_LANCE
 	.4byte Move_ASTRAL_BARRAGE
+	.4byte Move_EERIE_SPELL
 	.4byte Move_SHOT
-	.4byte Move_SIZZLE_SLAM
 	.4byte Move_SEED_FORCE
+	.4byte Move_SIZZLE_SLAM
 	.4byte Move_COSMIC_RAY
 	.4byte Move_BOOZE_BASH
-	.4byte Move_FUNNEL
 	.4byte Move_FERMENT
+	.4byte Move_FUNNEL
+	.4byte Move_MOLOTOV
 	.4byte Move_BOTTLE_SMASH
 	.4byte Move_BEER_FROTH
-	.4byte Move_MOLOTOV
 	.4byte Move_SHOTGUN
-	.4byte Move_EERIE_SPELL
 	.4byte Move_EXPLOSION2
 	.4byte Move_COUNT @ cannot be reached, because last move is Eerie Spell
 
@@ -13320,11 +13320,14 @@ Move_DRAGON_DARTS::
 Move_TEATIME::
 	goto Move_MILK_DRINK
 
-Move_SIZZLE_SLAM::
-	goto Move_HEADBUTT
+Move_SHOT::
+	goto Move_MILK_DRINK
 
 Move_SEED_FORCE::
 	goto Move_SEED_BOMB
+
+Move_SIZZLE_SLAM::
+	goto Move_HEADBUTT
 
 Move_COSMIC_RAY::
 	goto Move_DRAGON_PULSE
@@ -13349,9 +13352,6 @@ Move_BEER_FROTH::
 
 Move_SHOTGUN::
 	goto Move_WATERFALL
-
-Move_SHOT::
-	goto Move_MILK_DRINK
 
 Move_EXPLOSION2::
 	goto Move_EXPLOSION

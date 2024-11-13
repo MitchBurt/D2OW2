@@ -10,7 +10,7 @@ BATINTGFXDIR := graphics/battle_interface
 MASKSGFXDIR := graphics/battle_anims/masks
 BATTRANSGFXDIR := graphics/battle_transitions
 TYPESGFXDIR := graphics/types
-RAYQUAZAGFXDIR := graphics/rayquaza_scene
+TOWERMASTAGFXDIR := graphics/towermasta_scene
 ROULETTEGFXDIR := graphics/roulette
 SLOTMACHINEGFXDIR := graphics/slot_machine
 PKNAVGFXDIR := graphics/pokenav
@@ -438,23 +438,23 @@ $(TYPESGFXDIR)/move_types.gbapal: $(TYPESGFXDIR)/move_types_1.gbapal \
 $(INTERFACEGFXDIR)/bag_screen.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 53
 
-$(RAYQUAZAGFXDIR)/scene_2/rayquaza.8bpp: %.8bpp: %.png
+$(TOWERMASTAGFXDIR)/scene_2/towermasta.8bpp: %.8bpp: %.png
 	$(GFX) $< $@ -num_tiles 227
 
-$(RAYQUAZAGFXDIR)/scene_2/bg.4bpp: %.4bpp: %.png
+$(TOWERMASTAGFXDIR)/scene_2/bg.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 313
 
-$(RAYQUAZAGFXDIR)/scene_3/rayquaza.4bpp: %.4bpp: %.png
+$(TOWERMASTAGFXDIR)/scene_3/towermasta.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 124
 
-$(RAYQUAZAGFXDIR)/scene_3/rayquaza_tail_fix.4bpp: $(RAYQUAZAGFXDIR)/scene_3/rayquaza_tail.4bpp
+$(TOWERMASTAGFXDIR)/scene_3/towermasta_tail_fix.4bpp: $(TOWERMASTAGFXDIR)/scene_3/towermasta_tail.4bpp
 	cp $< $@
 	head -c 12 /dev/zero >> $@
 
-$(RAYQUAZAGFXDIR)/scene_4/streaks.4bpp: %.4bpp: %.png
+$(TOWERMASTAGFXDIR)/scene_4/streaks.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 19
 
-$(RAYQUAZAGFXDIR)/scene_4/rayquaza.4bpp: %.4bpp: %.png
+$(TOWERMASTAGFXDIR)/scene_4/towermasta.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 155
 
 graphics/picture_frame/frame5.4bpp: %.4bpp: %.png
@@ -473,7 +473,7 @@ $(ROULETTEGFXDIR)/wheel_icons.4bpp: $(ROULETTEGFXDIR)/babinion.4bpp \
 $(BATTRANSGFXDIR)/regis.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 53
 
-$(BATTRANSGFXDIR)/rayquaza.4bpp: %.4bpp: %.png
+$(BATTRANSGFXDIR)/towermasta.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 938
 
 $(BATTRANSGFXDIR)/frontier_square_1.4bpp: $(BATTRANSGFXDIR)/frontier_squares_blanktiles.4bpp \

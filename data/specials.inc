@@ -479,7 +479,7 @@ gSpecials:: @ 81DBA64
 	def_special PrintPlayerBerryPowderAmount
 	def_special ShowFrontierGamblerLookingMessage
 	def_special ShowFrontierGamblerGoMessage
-	def_special Script_DoRayquazaScene
+	def_special Script_DoTowermastaScene
 	def_special OpenPokenavForTutorial
 	def_special ScriptMenu_CreateStartMenuForPokenavTutorial
 	def_special CountPlayerTrainerStars
@@ -489,8 +489,8 @@ gSpecials:: @ 81DBA64
 	def_special ChooseMonForMoveTutor
 	def_special GetBattleFrontierTutorMoveIndex
 	def_special sub_813AF48
-	def_special DoDeoxysRockInteraction
-	def_special SetDeoxysRockPalette
+	def_special DoSquilithidRockInteraction
+	def_special SetSquilithidRockPalette
 	def_special CreateObedientEnemyMon
 	def_special StartMirageTowerDisintegration
 	def_special StartMirageTowerShake
@@ -517,7 +517,7 @@ gSpecials:: @ 81DBA64
 	def_special LinkRetireStatusWithBattleTowerPartner
 	def_special sub_813B534
 	def_special CallTrainerHillFunction
-	def_special Script_DoRayquazaScene @ Listed twice
+	def_special Script_DoTowermastaScene @ Listed twice
 	def_special LoopWingFlapSE
 	def_special DestroyMewEmergingGrassSprite
 	def_special ShowBerryCrushRankings

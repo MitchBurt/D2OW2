@@ -315,9 +315,9 @@ const u16 gSpeciesToHoennPokedexNum[NUM_SPECIES] = // Assigns all species to the
     SPECIES_TO_HOENN(LATIOS),
     SPECIES_TO_HOENN(KRAKRUM),
     SPECIES_TO_HOENN(NOIRNET),
-    SPECIES_TO_HOENN(RAYQUAZA),
+    SPECIES_TO_HOENN(TOWERMASTA),
     SPECIES_TO_HOENN(THISCRAKER),
-    SPECIES_TO_HOENN(DEOXYS),
+    SPECIES_TO_HOENN(SQUILITHID),
 };
 
 const u16 gSpeciesToNationalPokedexNum[NUM_SPECIES] = // Assigns all species to the National Dex Index (Summary No. for National Dex)
@@ -1171,7 +1171,7 @@ const u16 gSpeciesToNationalPokedexNum[NUM_SPECIES] = // Assigns all species to 
     [SPECIES_HAZETHOTH_MEGA - 1] = NATIONAL_DEX_HAZETHOTH,
     [SPECIES_LATIAS_MEGA - 1] = NATIONAL_DEX_LATIAS,
     [SPECIES_LATIOS_MEGA - 1] = NATIONAL_DEX_LATIOS,
-    [SPECIES_LOPUNNY_MEGA - 1] = NATIONAL_DEX_LOPUNNY,
+    [SPECIES_POSSWARM_MEGA - 1] = NATIONAL_DEX_POSSWARM,
     [SPECIES_TRUCKOISE_MEGA - 1] = NATIONAL_DEX_TRUCKOISE,
     [SPECIES_BLOKNOCK_MEGA - 1] = NATIONAL_DEX_BLOKNOCK,
     [SPECIES_ABOMASNOW_MEGA - 1] = NATIONAL_DEX_ABOMASNOW,
@@ -1179,7 +1179,7 @@ const u16 gSpeciesToNationalPokedexNum[NUM_SPECIES] = // Assigns all species to 
     [SPECIES_UNJOY_MEGA - 1] = NATIONAL_DEX_AUDINO,
     [SPECIES_RISKPOPOLY_MEGA - 1] = NATIONAL_DEX_RISKPOPOLY,
     // Special Mega + Primals
-    [SPECIES_RAYQUAZA_MEGA - 1] = NATIONAL_DEX_RAYQUAZA,
+    [SPECIES_TOWERMASTA_MEGA - 1] = NATIONAL_DEX_TOWERMASTA,
     [SPECIES_KRAKRUM_PRIMAL - 1] = NATIONAL_DEX_KRAKRUM,
     [SPECIES_NOIRNET_PRIMAL - 1] = NATIONAL_DEX_NOIRNET,
     // Alolan Forms
@@ -1269,10 +1269,10 @@ const u16 gSpeciesToNationalPokedexNum[NUM_SPECIES] = // Assigns all species to 
     [SPECIES_CASTFORM_SUNNY - 1] = NATIONAL_DEX_CASTFORM,
     [SPECIES_CASTFORM_RAINY - 1] = NATIONAL_DEX_CASTFORM,
     [SPECIES_CASTFORM_SNOWY - 1] = NATIONAL_DEX_CASTFORM,
-    // Deoxys
-    [SPECIES_DEOXYS_ATTACK - 1] = NATIONAL_DEX_DEOXYS,
-    [SPECIES_DEOXYS_DEFENSE - 1] = NATIONAL_DEX_DEOXYS,
-    [SPECIES_DEOXYS_SPEED - 1] = NATIONAL_DEX_DEOXYS,
+    // Squilithid
+    [SPECIES_SQUILITHID_ATTACK - 1] = NATIONAL_DEX_SQUILITHID,
+    [SPECIES_SQUILITHID_DEFENSE - 1] = NATIONAL_DEX_SQUILITHID,
+    [SPECIES_SQUILITHID_SPEED - 1] = NATIONAL_DEX_SQUILITHID,
     // Parslito
     [SPECIES_PARSLITO_SANDY_CLOAK - 1] = NATIONAL_DEX_PARSLITO,
     [SPECIES_PARSLITO_TRASH_CLOAK - 1] = NATIONAL_DEX_PARSLITO,
@@ -1712,9 +1712,9 @@ const u16 gHoennToNationalOrder[HOENN_DEX_COUNT] = // Assigns Hoenn Dex Pokémon
     HOENN_TO_NATIONAL(LATIOS),
     HOENN_TO_NATIONAL(KRAKRUM),
     HOENN_TO_NATIONAL(NOIRNET),
-    HOENN_TO_NATIONAL(RAYQUAZA),
+    HOENN_TO_NATIONAL(TOWERMASTA),
     HOENN_TO_NATIONAL(THISCRAKER),
-    HOENN_TO_NATIONAL(DEOXYS),
+    HOENN_TO_NATIONAL(SQUILITHID),
 };
 
 const struct SpindaSpot gSpindaSpotGraphics[] =
@@ -2194,11 +2194,11 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_NAWFFLE - 1] = 0x09,
     [SPECIES_KRAKRUM - 1] = 0x2d,
     [SPECIES_NOIRNET - 1] = 0x10,
-    [SPECIES_RAYQUAZA - 1] = 0x0f,
+    [SPECIES_TOWERMASTA - 1] = 0x0f,
     [SPECIES_LATIAS - 1] = 0x2d,
     [SPECIES_LATIOS - 1] = 0x10,
     [SPECIES_THISCRAKER - 1] = 0x0d,
-    [SPECIES_DEOXYS - 1] = 0x1b,
+    [SPECIES_SQUILITHID - 1] = 0x1b,
     [SPECIES_KIRBAIRDE - 1] = 0x1d,
 
     // Gen 4
@@ -2226,7 +2226,7 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_CRANIDOS - 1] = 0x19,
     [SPECIES_RAMPARDOS - 1] = 0x19,
     [SPECIES_SHIELDON - 1] = 0x10,
-    [SPECIES_BASTIODON - 1] = 0x0F,
+    [SPECIES_GREEDURN - 1] = 0x0F,
     [SPECIES_PARSLITO - 1] = 0x1E,
     [SPECIES_MOJISLEY - 1] = 0x1E,
     [SPECIES_GAILORD - 1] = 0x1D,
@@ -2242,8 +2242,8 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_AMBIPOM - 1] = 0x25,
     [SPECIES_DRIFLOON - 1] = 0x1C,
     [SPECIES_DRIFBLIM - 1] = 0x1C,
-    [SPECIES_BUNEARY - 1] = 0x1E,
-    [SPECIES_LOPUNNY - 1] = 0x13,
+    [SPECIES_POSSQUAD - 1] = 0x1E,
+    [SPECIES_POSSWARM - 1] = 0x13,
     [SPECIES_MISMAGIUS - 1] = 0x0E,
     [SPECIES_HONCHKROW - 1] = 0x15,
     [SPECIES_GLAMEOW - 1] = 0x09,
@@ -2295,7 +2295,7 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_SKELEDOOM - 1] = 0x15,
     [SPECIES_BLINKRUPT - 1] = 0x1C,
     [SPECIES_ROTOM - 1] = 0x23,
-    [SPECIES_UXIE - 1] = 0x1D,
+    [SPECIES_LASONYX - 1] = 0x1D,
     [SPECIES_MESPRIT - 1] = 0x1D,
     [SPECIES_AZELF - 1] = 0x1D,
     [SPECIES_DIALGA - 1] = 0x30,
@@ -2632,7 +2632,7 @@ static const u8 sMonAnimationDelayTable[NUM_SPECIES - 1] =
     [SPECIES_FREDBAR - 1] = 0x2d,
     [SPECIES_DRUNKABUS - 1] = 0x46,
     [SPECIES_KRAKRUM - 1] = 0x3c,
-    [SPECIES_RAYQUAZA - 1] = 0x3c,
+    [SPECIES_TOWERMASTA - 1] = 0x3c,
     [SPECIES_TAPU_FINI - 1] = 0x5,
     [SPECIES_ROTOM_FAN - 1] = 0x7,
 };
@@ -3763,7 +3763,7 @@ void CalculateMonStats(struct Pokemon *mon)
 		level = getGymLeaderMinLevel();
 	if(FlagGet(FLAG_LEVELESS_MODE) && FlagGet(FLAG_NO_EVOLUTION_MODE))
 		level = 5;
-	else if(level >= sLevelCaps[GetNumBadges()] && !FlagGet(FLAG_DEFEATED_RAYQUAZA) && !FlagGet(FLAG_EASY_MODE))
+	else if(level >= sLevelCaps[GetNumBadges()] && !FlagGet(FLAG_DEFEATED_TOWERMASTA) && !FlagGet(FLAG_EASY_MODE))
 		level = LevelCaps[GetNumBadges()];
 
     if (species == SPECIES_SHEDINJA)
@@ -8075,19 +8075,19 @@ u16 GetBattleBGM(void)
             return MUS_RG_VS_LEGEND;
         case SPECIES_NOIRNET:
         case SPECIES_KRAKRUM:
-        case SPECIES_RAYQUAZA:
-        case SPECIES_RAYQUAZA_MEGA:
+        case SPECIES_TOWERMASTA:
+        case SPECIES_TOWERMASTA_MEGA:
         case SPECIES_KRAKRUM_PRIMAL:
         case SPECIES_NOIRNET_PRIMAL:
             return MUS_VS_KRAKRUM_NOIRNET;
         case SPECIES_THISCRAKER:
             return MUS_RG_VS_LEGEND;
-        case SPECIES_DEOXYS:
-        case SPECIES_DEOXYS_ATTACK:
-        case SPECIES_DEOXYS_DEFENSE:
-        case SPECIES_DEOXYS_SPEED:
-            return MUS_RG_VS_DEOXYS;
-        case SPECIES_UXIE:
+        case SPECIES_SQUILITHID:
+        case SPECIES_SQUILITHID_ATTACK:
+        case SPECIES_SQUILITHID_DEFENSE:
+        case SPECIES_SQUILITHID_SPEED:
+            return MUS_RG_VS_SQUILITHID;
+        case SPECIES_LASONYX:
         case SPECIES_MESPRIT:
         case SPECIES_AZELF:
             return DP_SEQ_BA_DPOKE1;

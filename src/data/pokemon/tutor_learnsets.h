@@ -9301,7 +9301,7 @@ static const u8 sNoirnetTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sRayquazaTutorLearnset[] =
+static const u8 sTowermastaTutorLearnset[] =
 {
     TUTOR(MOVE_SWORDS_DANCE),
     TUTOR(MOVE_BODY_SLAM),
@@ -9362,7 +9362,7 @@ static const u8 sThiscrakerTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sDeoxysTutorLearnset[] =
+static const u8 sSquilithidTutorLearnset[] =
 {
     TUTOR(MOVE_DREAM_EATER),
     TUTOR(MOVE_THUNDER_WAVE),
@@ -9867,7 +9867,7 @@ static const u8 sShieldonTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sBastiodonTutorLearnset[] =
+static const u8 sGreedurnTutorLearnset[] =
 {
     TUTOR(MOVE_BODY_SLAM),
     TUTOR(MOVE_DOUBLE_EDGE),
@@ -10154,7 +10154,7 @@ static const u8 sDrifblimTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sBunearyTutorLearnset[] =
+static const u8 sPossquadTutorLearnset[] =
 {
     TUTOR(MOVE_MEGA_KICK),
     TUTOR(MOVE_THUNDER_WAVE),
@@ -10177,7 +10177,7 @@ static const u8 sBunearyTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sLopunnyTutorLearnset[] =
+static const u8 sPosswarmTutorLearnset[] =
 {
     TUTOR(MOVE_MEGA_KICK),
     TUTOR(MOVE_THUNDER_WAVE),
@@ -11352,7 +11352,7 @@ static const u8 sRotomTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sUxieTutorLearnset[] =
+static const u8 sLasonyxTutorLearnset[] =
 {
     TUTOR(MOVE_METRONOME),
     TUTOR(MOVE_DREAM_EATER),
@@ -19345,7 +19345,7 @@ static const u8 sStunfiskGalarianTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sDeoxysAttackTutorLearnset[] =
+static const u8 sSquilithidAttackTutorLearnset[] =
 {
     TUTOR(MOVE_MEGA_KICK),
     TUTOR(MOVE_BODY_SLAM),
@@ -19374,7 +19374,7 @@ static const u8 sDeoxysAttackTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sDeoxysDefenseTutorLearnset[] =
+static const u8 sSquilithidDefenseTutorLearnset[] =
 {
     TUTOR(MOVE_MEGA_KICK),
     TUTOR(MOVE_BODY_SLAM),
@@ -19403,7 +19403,7 @@ static const u8 sDeoxysDefenseTutorLearnset[] =
     0xFF,
 };
 
-static const u8 sDeoxysSpeedTutorLearnset[] =
+static const u8 sSquilithidSpeedTutorLearnset[] =
 {
     TUTOR(MOVE_MEGA_KICK),
     TUTOR(MOVE_BODY_SLAM),
@@ -20105,9 +20105,9 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_LATIOS] = sLatiosTutorLearnset,
     [SPECIES_KRAKRUM] = sKrakrumTutorLearnset,
     [SPECIES_NOIRNET] = sNoirnetTutorLearnset,
-    [SPECIES_RAYQUAZA] = sRayquazaTutorLearnset,
+    [SPECIES_TOWERMASTA] = sTowermastaTutorLearnset,
     [SPECIES_THISCRAKER] = sThiscrakerTutorLearnset,
-    [SPECIES_DEOXYS] = sDeoxysTutorLearnset,
+    [SPECIES_SQUILITHID] = sSquilithidTutorLearnset,
     [SPECIES_TURTWIG] = sTurtwigTutorLearnset,
     [SPECIES_GROTLE] = sGrotleTutorLearnset,
     [SPECIES_TORTERRA] = sTorterraTutorLearnset,
@@ -20132,7 +20132,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_CRANIDOS] = sCranidosTutorLearnset,
     [SPECIES_RAMPARDOS] = sRampardosTutorLearnset,
     [SPECIES_SHIELDON] = sShieldonTutorLearnset,
-    [SPECIES_BASTIODON] = sBastiodonTutorLearnset,
+    [SPECIES_GREEDURN] = sGreedurnTutorLearnset,
     [SPECIES_PARSLITO] = sParslitoTutorLearnset,
     [SPECIES_MOJISLEY] = sWormadamTutorLearnset,
     [SPECIES_GAILORD] = sGailordTutorLearnset,
@@ -20148,8 +20148,8 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_AMBIPOM] = sAmbipomTutorLearnset,
     [SPECIES_DRIFLOON] = sDrifloonTutorLearnset,
     [SPECIES_DRIFBLIM] = sDrifblimTutorLearnset,
-    [SPECIES_BUNEARY] = sBunearyTutorLearnset,
-    [SPECIES_LOPUNNY] = sLopunnyTutorLearnset,
+    [SPECIES_POSSQUAD] = sPossquadTutorLearnset,
+    [SPECIES_POSSWARM] = sPosswarmTutorLearnset,
     [SPECIES_MISMAGIUS] = sMismagiusTutorLearnset,
     [SPECIES_HONCHKROW] = sHonchkrowTutorLearnset,
     [SPECIES_GLAMEOW] = sGlameowTutorLearnset,
@@ -20201,7 +20201,7 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_SKELEDOOM] = sSkeledoomTutorLearnset,
     [SPECIES_BLINKRUPT] = sBlinkruptTutorLearnset,
     [SPECIES_ROTOM] = sRotomTutorLearnset,
-    [SPECIES_UXIE] = sUxieTutorLearnset,
+    [SPECIES_LASONYX] = sLasonyxTutorLearnset,
     [SPECIES_MESPRIT] = sMespritTutorLearnset,
     [SPECIES_AZELF] = sAzelfTutorLearnset,
     [SPECIES_DIALGA] = sDialgaTutorLearnset,
@@ -20676,9 +20676,9 @@ const u8 *const sTutorLearnsets[] =
     [SPECIES_DARMANITAN_GALARIAN] = sDarmanitanGalarianTutorLearnset,
     [SPECIES_YAMASK_GALARIAN] = sYamaskGalarianTutorLearnset,
     [SPECIES_STUNFISK_GALARIAN] = sStunfiskGalarianTutorLearnset,
-    [SPECIES_DEOXYS_ATTACK] = sDeoxysAttackTutorLearnset,
-    [SPECIES_DEOXYS_DEFENSE] = sDeoxysDefenseTutorLearnset,
-    [SPECIES_DEOXYS_SPEED] = sDeoxysSpeedTutorLearnset,
+    [SPECIES_SQUILITHID_ATTACK] = sSquilithidAttackTutorLearnset,
+    [SPECIES_SQUILITHID_DEFENSE] = sSquilithidDefenseTutorLearnset,
+    [SPECIES_SQUILITHID_SPEED] = sSquilithidSpeedTutorLearnset,
     [SPECIES_MOJISLEY_SANDY_CLOAK] = sMojisleySandyCloakTutorLearnset,
     [SPECIES_MOJISLEY_TRASH_CLOAK] = sWormadamTrashCloakTutorLearnset,
     [SPECIES_ROTOM_HEAT] = sRotomTutorLearnset,

@@ -69,9 +69,9 @@ gFieldEffectScriptPointers:: @ 82DB9D4
 	.4byte gFieldEffectScript_SecretBaseBootPC          @ FLDEFF_PCTURN_ON
 	.4byte gFieldEffectScript_HallOfFameRecord          @ FLDEFF_HALL_OF_FAME_RECORD
 	.4byte gFieldEffectScript_UseTeleport               @ FLDEFF_USE_TELEPORT
-	.4byte gFieldEffectScript_RayquazaSpotlight         @ FLDEFF_RAYQUAZA_SPOTLIGHT
-	.4byte gFieldEffectScript_DestroyDeoxysRock         @ FLDEFF_DESTROY_DEOXYS_ROCK
-	.4byte gFieldEffectScript_MoveDeoxysRock            @ FLDEFF_MOVE_DEOXYS_ROCK
+	.4byte gFieldEffectScript_TowermastaSpotlight         @ FLDEFF_TOWERMASTA_SPOTLIGHT
+	.4byte gFieldEffectScript_DestroySquilithidRock         @ FLDEFF_DESTROY_SQUILITHID_ROCK
+	.4byte gFieldEffectScript_MoveSquilithidRock            @ FLDEFF_MOVE_SQUILITHID_ROCK
     .4byte gFieldEffectScript_CaveDust                  @ FLDEFF_CAVE_DUST
 	.4byte gFieldEffectScript_UseHeadbutt 				@ FLDEFF_USE_HEADBUTT
     
@@ -334,16 +334,16 @@ gFieldEffectScript_UseTeleport:: @ 82DBCED
 	field_eff_callnative FldEff_UseTeleport
 	field_eff_end
 
-gFieldEffectScript_RayquazaSpotlight:: @ 82DBCF3
-	field_eff_callnative FldEff_RayquazaSpotlight
+gFieldEffectScript_TowermastaSpotlight:: @ 82DBCF3
+	field_eff_callnative FldEff_TowermastaSpotlight
 	field_eff_end
 
-gFieldEffectScript_DestroyDeoxysRock:: @ 82DBCF9
-	field_eff_callnative FldEff_DestroyDeoxysRock
+gFieldEffectScript_DestroySquilithidRock:: @ 82DBCF9
+	field_eff_callnative FldEff_DestroySquilithidRock
 	field_eff_end
 
-gFieldEffectScript_MoveDeoxysRock:: @ 82DBCFF
-	field_eff_callnative FldEff_MoveDeoxysRock
+gFieldEffectScript_MoveSquilithidRock:: @ 82DBCFF
+	field_eff_callnative FldEff_MoveSquilithidRock
 	field_eff_end
     
 @ NEW

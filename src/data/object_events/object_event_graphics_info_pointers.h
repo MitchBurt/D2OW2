@@ -39,7 +39,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PsychicM;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SchoolKidM;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Maniac;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_HexManiac;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rayquaza1;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Towermasta1;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SwimmerM;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SwimmerF;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BlackBelt;
@@ -1136,7 +1136,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_SCHOOL_KID_M] =             &gObjectEventGraphicsInfo_SchoolKidM,
     [OBJ_EVENT_GFX_MANIAC] =                   &gObjectEventGraphicsInfo_Maniac,
     [OBJ_EVENT_GFX_HEX_MANIAC] =               &gObjectEventGraphicsInfo_HexManiac,
-    [OBJ_EVENT_GFX_RAYQUAZA_1] =               &gObjectEventGraphicsInfo_Pokemon_Species_384,
+    [OBJ_EVENT_GFX_TOWERMASTA_1] =               &gObjectEventGraphicsInfo_Pokemon_Species_384,
     [OBJ_EVENT_GFX_SWIMMER_M] =                &gObjectEventGraphicsInfo_SwimmerM,
 	[OBJ_EVENT_GFX_SWIMMER_M_LAND] =           &gObjectEventGraphicsInfo_SwimmerM_Land,
     [OBJ_EVENT_GFX_SWIMMER_F] =                &gObjectEventGraphicsInfo_SwimmerF,
@@ -1304,7 +1304,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_UNION_ROOM_NURSE] =         &gObjectEventGraphicsInfo_UnionRoomAttendant,
     [OBJ_EVENT_GFX_RED] =                      &gObjectEventGraphicsInfo_Red,
     [OBJ_EVENT_GFX_LEAF] =                     &gObjectEventGraphicsInfo_Leaf,
-    [OBJ_EVENT_GFX_DEOXYS_TRIANGLE] =          &gObjectEventGraphicsInfo_BirthIslandStone,
+    [OBJ_EVENT_GFX_SQUILITHID_TRIANGLE] =          &gObjectEventGraphicsInfo_BirthIslandStone,
     [OBJ_EVENT_GFX_BRANDON] =                  &gObjectEventGraphicsInfo_Brandon,
     [OBJ_EVENT_GFX_LINK_RS_BRENDAN] =          &gObjectEventGraphicsInfo_RubySapphireBrendan,
     [OBJ_EVENT_GFX_LINK_RS_MAY] =              &gObjectEventGraphicsInfo_RubySapphireMay,
@@ -1382,12 +1382,12 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_SMOSLIME] =                   &gObjectEventGraphicsInfo_Pokemon_Species_301,
 	[OBJ_EVENT_GFX_KRAKRUM_2] =                 &gObjectEventGraphicsInfo_Pokemon_Species_382,
     [OBJ_EVENT_GFX_NOIRNET_2] =                &gObjectEventGraphicsInfo_Pokemon_Species_383,
-    [OBJ_EVENT_GFX_RAYQUAZA_2] =               &gObjectEventGraphicsInfo_Pokemon_Species_384,
+    [OBJ_EVENT_GFX_TOWERMASTA_2] =               &gObjectEventGraphicsInfo_Pokemon_Species_384,
 	[OBJ_EVENT_GFX_SKIPPA] =                  &gObjectEventGraphicsInfo_Pokemon_Species_025,
 	[OBJ_EVENT_GFX_KRAKRUM_3] =                 &gObjectEventGraphicsInfo_Pokemon_Species_382,
     [OBJ_EVENT_GFX_NOIRNET_3] =                &gObjectEventGraphicsInfo_Pokemon_Species_383,
     [OBJ_EVENT_GFX_HUGEMAN] =                 &gObjectEventGraphicsInfo_Pokemon_Species_477,
-	[OBJ_EVENT_GFX_DEOXYS] =                   &gObjectEventGraphicsInfo_Pokemon_Species_386,
+	[OBJ_EVENT_GFX_SQUILITHID] =                   &gObjectEventGraphicsInfo_Pokemon_Species_386,
 	[OBJ_EVENT_GFX_KECLEON_1] =                &gObjectEventGraphicsInfo_Pokemon_Species_352,
     [OBJ_EVENT_GFX_MEOWRRIOR_2] =              &gObjectEventGraphicsInfo_Pokemon_Species_263,
     [OBJ_EVENT_GFX_BARIREEFER] =                &gObjectEventGraphicsInfo_Pokemon_Species_184,

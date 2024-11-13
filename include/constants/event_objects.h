@@ -44,7 +44,7 @@
 #define OBJ_EVENT_GFX_SCHOOL_KID_M                38
 #define OBJ_EVENT_GFX_MANIAC                      39
 #define OBJ_EVENT_GFX_HEX_MANIAC                  40
-#define OBJ_EVENT_GFX_RAYQUAZA_1                  41
+#define OBJ_EVENT_GFX_TOWERMASTA_1                  41
 #define OBJ_EVENT_GFX_SWIMMER_M                   42
 #define OBJ_EVENT_GFX_SWIMMER_M_WATER 			  42
 #define OBJ_EVENT_GFX_SWIMMER_F                   43
@@ -214,7 +214,7 @@
 #define OBJ_EVENT_GFX_KECLEON_1                  204
 #define OBJ_EVENT_GFX_KRAKRUM_2                   205
 #define OBJ_EVENT_GFX_NOIRNET_2                  206
-#define OBJ_EVENT_GFX_RAYQUAZA_2                 207
+#define OBJ_EVENT_GFX_TOWERMASTA_2                 207
 #define OBJ_EVENT_GFX_MEOWRRIOR_2                208
 #define OBJ_EVENT_GFX_SKIPPA                    209
 #define OBJ_EVENT_GFX_BARIREEFER                  210
@@ -239,8 +239,8 @@
 #define OBJ_EVENT_GFX_THEVOID                        229
 #define OBJ_EVENT_GFX_RED                        230
 #define OBJ_EVENT_GFX_LEAF                       231
-#define OBJ_EVENT_GFX_DEOXYS                     232
-#define OBJ_EVENT_GFX_DEOXYS_TRIANGLE            233
+#define OBJ_EVENT_GFX_SQUILITHID                     232
+#define OBJ_EVENT_GFX_SQUILITHID_TRIANGLE            233
 #define OBJ_EVENT_GFX_BRANDON                    234
 #define OBJ_EVENT_GFX_LINK_RS_BRENDAN            235
 #define OBJ_EVENT_GFX_LINK_RS_MAY                236

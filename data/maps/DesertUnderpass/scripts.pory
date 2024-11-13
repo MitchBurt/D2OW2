@@ -18,21 +18,21 @@ DesertUnderpass_EventScript_Fossil:: @ 823AF41
 	end
 
 DesertUnderpass_EventScript_GiveClawFossil:: @ 823AF57
-	giveitem ITEM_CLAW_FOSSIL
+	giveitem ITEM_HORN_FOSSIL
 	removeobject LOCALID_FOSSIL
 	release
 	end
 
 DesertUnderpass_EventScript_GiveRootFossil:: @ 823AF68
-	giveitem ITEM_ROOT_FOSSIL
+	giveitem ITEM_TOOTH_FOSSIL
 	removeobject LOCALID_FOSSIL
 	release
 	end
 
 DesertUnderpass_Text_FoundRootFossil:: @ 823AF79
-	.string "{PLAYER} found the Root Fossil.$"
+	.string "{PLAYER} found the Tooth Fossil.$"
 
 DesertUnderpass_Text_FoundClawFossil:: @ 823AF93
-	.string "{PLAYER} found the Claw Fossil.$"
+	.string "{PLAYER} found the Horn Fossil.$"
 
 `

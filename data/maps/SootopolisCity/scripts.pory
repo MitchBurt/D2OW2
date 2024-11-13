@@ -8,7 +8,7 @@ raw `
 .set LOCALID_WOMAN_1, 8
 .set LOCALID_NOIRNET, 9
 .set LOCALID_KRAKRUM, 10
-.set LOCALID_RAYQUAZA, 11
+.set LOCALID_TOWERMASTA, 11
 .set LOCALID_MANIAC, 12
 .set LOCALID_GIRL, 13
 .set LOCALID_BLACK_BELT, 14
@@ -212,7 +212,7 @@ SootopolisCity_OnResume: @ 81E590B
 
 SootopolisCity_OnFrame: @ 81E5914
 	map_script_2 VAR_SOOTOPOLIS_CITY_STATE, 1, SootopolisCity_EventScript_StartLegendariesScene
-	map_script_2 VAR_SKY_PILLAR_STATE, 1, SootopolisCity_EventScript_StartRayquazaScene
+	map_script_2 VAR_SKY_PILLAR_STATE, 1, SootopolisCity_EventScript_StartTowermastaScene
 	.2byte 0
 
 @ If not at PokeCenter, assumed to have arrived via Dive
@@ -237,7 +237,7 @@ SootopolisCity_EventScript_LegendariesSceneFromPokeCenter:: @ 81E5946
 	setweather WEATHER_ABNORMAL
 	doweather
 	setvar VAR_0x8004, FALSE @ Just do Noirnet/Krakrum fight scene
-	special Script_DoRayquazaScene
+	special Script_DoTowermastaScene
 	waitstate
 	applymovement LOCALID_KRAKRUM, Common_Movement_WalkInPlaceFastestLeft
 	applymovement LOCALID_NOIRNET, Common_Movement_WalkInPlaceFastestRight
@@ -337,7 +337,7 @@ SootopolisCity_EventScript_LegendariesSceneFromDive:: @ 81E5A82
 	setweather WEATHER_ABNORMAL
 	doweather
 	setvar VAR_0x8004, FALSE @ Just do Noirnet/Krakrum fight scene
-	special Script_DoRayquazaScene
+	special Script_DoTowermastaScene
 	waitstate
 	applymovement LOCALID_KRAKRUM, Common_Movement_WalkInPlaceFastestLeft
 	applymovement LOCALID_NOIRNET, Common_Movement_WalkInPlaceFastestRight
@@ -507,17 +507,17 @@ SootopolisCity_Movement_NoirnetIdle: @ 81E5BF7
 	step_end
 
 @ If not at PokeCenter, assumed to have arrived via Dive
-SootopolisCity_EventScript_StartRayquazaScene:: @ 81E5BFE
+SootopolisCity_EventScript_StartTowermastaScene:: @ 81E5BFE
 	lockall
 	special StorePlayerCoordsInVars
 	compare VAR_0x8004, 43
-	goto_if_ne SootopolisCity_EventScript_RayquazaSceneFromDive
+	goto_if_ne SootopolisCity_EventScript_TowermastaSceneFromDive
 	compare VAR_0x8005, 32
-	goto_if_ne SootopolisCity_EventScript_RayquazaSceneFromDive
-	goto SootopolisCity_EventScript_RayquazaSceneFromPokeCenter
+	goto_if_ne SootopolisCity_EventScript_TowermastaSceneFromDive
+	goto SootopolisCity_EventScript_TowermastaSceneFromPokeCenter
 	end
 
-SootopolisCity_EventScript_RayquazaSceneFromPokeCenter:: @ 81E5C1E
+SootopolisCity_EventScript_TowermastaSceneFromPokeCenter:: @ 81E5C1E
 	delay 60
 	special SpawnCameraObject
 	applymovement OBJ_EVENT_ID_CAMERA, SootopolisCity_Movement_PanToActionFromPokeCenter
@@ -528,16 +528,16 @@ SootopolisCity_EventScript_RayquazaSceneFromPokeCenter:: @ 81E5C1E
 	call SootopolisCity_EventScript_SetRoughWater
 	removeobject LOCALID_NOIRNET
 	removeobject LOCALID_KRAKRUM
-	addobject LOCALID_RAYQUAZA
+	addobject LOCALID_TOWERMASTA
 	setvar VAR_0x8004, TRUE
-	special Script_DoRayquazaScene
+	special Script_DoTowermastaScene
 	waitstate
 	playse SE_THUNDER
 	special SpawnCameraObject
 	applymovement OBJ_EVENT_ID_CAMERA, SootopolisCity_Movement_PanUp
 	waitmovement 0
 	waitse
-	playmoncry SPECIES_RAYQUAZA, 2
+	playmoncry SPECIES_TOWERMASTA, 2
 	setvar VAR_0x8004, 1  @ vertical pan
 	setvar VAR_0x8005, 1  @ horizontal pan
 	setvar VAR_0x8006, 8  @ num shakes
@@ -545,7 +545,7 @@ SootopolisCity_EventScript_RayquazaSceneFromPokeCenter:: @ 81E5C1E
 	special ShakeCamera
 	waitstate
 	waitse
-	playmoncry SPECIES_RAYQUAZA, 2
+	playmoncry SPECIES_TOWERMASTA, 2
 	setvar VAR_0x8004, 1  @ vertical pan
 	setvar VAR_0x8005, 2  @ horizontal pan
 	setvar VAR_0x8006, 8  @ num shakes
@@ -555,9 +555,9 @@ SootopolisCity_EventScript_RayquazaSceneFromPokeCenter:: @ 81E5C1E
 	waitmoncry
 	setweather WEATHER_NONE
 	doweather
-	applymovement LOCALID_RAYQUAZA, SootopolisCity_Movement_RayquazaFlyOff
+	applymovement LOCALID_TOWERMASTA, SootopolisCity_Movement_TowermastaFlyOff
 	waitmovement 0
-	removeobject LOCALID_RAYQUAZA
+	removeobject LOCALID_TOWERMASTA
 	special WaitWeather
 	waitstate
 	clearflag FLAG_SYS_WEATHER_CTRL
@@ -570,7 +570,7 @@ SootopolisCity_EventScript_RayquazaSceneFromPokeCenter:: @ 81E5C1E
 	waitstate
 	end
 
-SootopolisCity_EventScript_RayquazaSceneFromDive:: @ 81E5CCE
+SootopolisCity_EventScript_TowermastaSceneFromDive:: @ 81E5CCE
 	delay 60
 	special SpawnCameraObject
 	applymovement OBJ_EVENT_ID_CAMERA, SootopolisCity_Movement_PanToActionFromDive
@@ -581,16 +581,16 @@ SootopolisCity_EventScript_RayquazaSceneFromDive:: @ 81E5CCE
 	call SootopolisCity_EventScript_SetRoughWater
 	removeobject LOCALID_NOIRNET
 	removeobject LOCALID_KRAKRUM
-	addobject LOCALID_RAYQUAZA
+	addobject LOCALID_TOWERMASTA
 	setvar VAR_0x8004, TRUE
-	special Script_DoRayquazaScene
+	special Script_DoTowermastaScene
 	waitstate
 	special SpawnCameraObject
 	applymovement OBJ_EVENT_ID_CAMERA, SootopolisCity_Movement_PanUp
 	applymovement OBJ_EVENT_ID_PLAYER, SootopolisCity_Movement_PlayerApproachLegendaries
 	waitmovement 0
 	waitse
-	playmoncry SPECIES_RAYQUAZA, 2
+	playmoncry SPECIES_TOWERMASTA, 2
 	setvar VAR_0x8004, 1  @ vertical pan
 	setvar VAR_0x8005, 1  @ horizontal pan
 	setvar VAR_0x8006, 8  @ num shakes
@@ -598,7 +598,7 @@ SootopolisCity_EventScript_RayquazaSceneFromDive:: @ 81E5CCE
 	special ShakeCamera
 	waitstate
 	waitse
-	playmoncry SPECIES_RAYQUAZA, 2
+	playmoncry SPECIES_TOWERMASTA, 2
 	setvar VAR_0x8004, 1  @ vertical pan
 	setvar VAR_0x8005, 2  @ horizontal pan
 	setvar VAR_0x8006, 8  @ num shakes
@@ -608,9 +608,9 @@ SootopolisCity_EventScript_RayquazaSceneFromDive:: @ 81E5CCE
 	waitmoncry
 	setweather WEATHER_NONE
 	doweather
-	applymovement LOCALID_RAYQUAZA, SootopolisCity_Movement_RayquazaFlyOff
+	applymovement LOCALID_TOWERMASTA, SootopolisCity_Movement_TowermastaFlyOff
 	waitmovement 0
-	removeobject LOCALID_RAYQUAZA
+	removeobject LOCALID_TOWERMASTA
 	special WaitWeather
 	waitstate
 	clearflag FLAG_SYS_WEATHER_CTRL
@@ -650,7 +650,7 @@ SootopolisCity_EventScript_SetRoughWater:: @ 81E5D82
 	setmetatile 35, 45, METATILE_Sootopolis_RoughWater, 0
 	return
 
-SootopolisCity_Movement_RayquazaFlyOff: @ 81E5E5B
+SootopolisCity_Movement_TowermastaFlyOff: @ 81E5E5B
 	walk_fast_up
 	walk_fastest_up
 	walk_fastest_up
@@ -751,7 +751,7 @@ SootopolisCity_EventScript_Kiri:: @ 81E5ED8
 	compare VAR_SOOTOPOLIS_CITY_STATE, 6
 	goto_if_ge SootopolisCity_EventScript_KiriGiveBerry
 	compare VAR_SOOTOPOLIS_CITY_STATE, 5
-	goto_if_eq SootopolisCity_EventScript_KiriRayquaza
+	goto_if_eq SootopolisCity_EventScript_KiriTowermasta
 	msgbox SootopolisCity_Text_BigPokemonFighting, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_KIRI, Common_Movement_FaceOriginalDirection
@@ -759,7 +759,7 @@ SootopolisCity_EventScript_Kiri:: @ 81E5ED8
 	release
 	end
 
-SootopolisCity_EventScript_KiriRayquaza:: @ 81E5F10
+SootopolisCity_EventScript_KiriTowermasta:: @ 81E5F10
 	msgbox SootopolisCity_Text_PrettyMonCameFromSky, MSGBOX_DEFAULT
 	closemessage
 	release
@@ -820,7 +820,7 @@ SootopolisCity_EventScript_Woman2:: @ 81E5FE2
 	applymovement LOCALID_WOMAN_2, Common_Movement_FacePlayer
 	waitmovement 0
 	compare VAR_SOOTOPOLIS_CITY_STATE, 5
-	goto_if_eq SootopolisCity_EventScript_Woman2Rayquaza
+	goto_if_eq SootopolisCity_EventScript_Woman2Towermasta
 	msgbox SootopolisCity_Text_WeatherWentWild, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_WOMAN_2, Common_Movement_FaceOriginalDirection
@@ -828,7 +828,7 @@ SootopolisCity_EventScript_Woman2:: @ 81E5FE2
 	releaseall
 	end
 
-SootopolisCity_EventScript_Woman2Rayquaza:: @ 81E600D
+SootopolisCity_EventScript_Woman2Towermasta:: @ 81E600D
 	msgbox SootopolisCity_Text_YouBroughtFlyingMon, MSGBOX_DEFAULT
 	releaseall
 	end
@@ -853,7 +853,7 @@ SootopolisCity_EventScript_Woman1:: @ 81E6038
 	compare VAR_SOOTOPOLIS_CITY_STATE, 6
 	goto_if_ge SootopolisCity_EventScript_Woman1PostLegendaries
 	compare VAR_SOOTOPOLIS_CITY_STATE, 5
-	goto_if_eq SootopolisCity_EventScript_Woman1Rayquaza
+	goto_if_eq SootopolisCity_EventScript_Woman1Towermasta
 	compare VAR_SOOTOPOLIS_CITY_STATE, 2
 	goto_if_ge SootopolisCity_EventScript_Woman1Legendaries
 	msgbox SootopolisCity_Text_SootopolisSkyBeautiful, MSGBOX_DEFAULT
@@ -873,7 +873,7 @@ SootopolisCity_EventScript_Woman1PostLegendaries:: @ 81E607A
 	release
 	end
 
-SootopolisCity_EventScript_Woman1Rayquaza:: @ 81E6084
+SootopolisCity_EventScript_Woman1Towermasta:: @ 81E6084
 	msgbox SootopolisCity_Text_FearedWorstWhenPokemonFlewDown, MSGBOX_DEFAULT
 	release
 	end
@@ -883,7 +883,7 @@ SootopolisCity_EventScript_NinjaBoy:: @ 81E608E
 	applymovement LOCALID_NINJA_BOY, Common_Movement_FacePlayer
 	waitmovement 0
 	compare VAR_SOOTOPOLIS_CITY_STATE, 5
-	goto_if_eq SootopolisCity_EventScript_NinjaBoyRayquaza
+	goto_if_eq SootopolisCity_EventScript_NinjaBoyTowermasta
 	compare VAR_SOOTOPOLIS_CITY_STATE, 6
 	goto_if_ge SootopolisCity_EventScript_NinjaBoyNormal
 	compare VAR_SOOTOPOLIS_CITY_STATE, 1
@@ -900,7 +900,7 @@ SootopolisCity_EventScript_NinjaBoyNormal:: @ 81E60CF
 	release
 	end
 
-SootopolisCity_EventScript_NinjaBoyRayquaza:: @ 81E60D9
+SootopolisCity_EventScript_NinjaBoyTowermasta:: @ 81E60D9
 	msgbox SootopolisCity_Text_ThatWasWicked, MSGBOX_DEFAULT
 	release
 	end
@@ -910,7 +910,7 @@ SootopolisCity_EventScript_Boy1:: @ 81E60E3
 	applymovement LOCALID_BOY_1, Common_Movement_FacePlayer
 	waitmovement 0
 	compare VAR_SOOTOPOLIS_CITY_STATE, 5
-	goto_if_eq SootopolisCity_EventScript_Boy1Rayquaza
+	goto_if_eq SootopolisCity_EventScript_Boy1Towermasta
 	goto_if_set FLAG_SYS_GAME_CLEAR, SootopolisCity_EventScript_Boy1GameClear
 	compare VAR_SOOTOPOLIS_CITY_STATE, 6
 	goto_if_ge SootopolisCity_EventScript_Boy1Normal
@@ -923,7 +923,7 @@ SootopolisCity_EventScript_Boy1:: @ 81E60E3
 	release
 	end
 
-SootopolisCity_EventScript_Boy1Rayquaza:: @ 81E612D
+SootopolisCity_EventScript_Boy1Towermasta:: @ 81E612D
 	msgbox SootopolisCity_Text_WhatIsThatGreenPokemon, MSGBOX_DEFAULT
 	release
 	end
@@ -962,7 +962,7 @@ SootopolisCity_EventScript_Steven:: @ 81E6166
 	compare VAR_SOOTOPOLIS_CITY_STATE, 4
 	goto_if_eq SootopolisCity_EventScript_StevenHelpedDario
 	goto_if_set FLAG_SOOTOPOLIS_ARCHIE_MAXIE_LEAVE, SootopolisCity_EventScript_StevenMaxieArchieLeft
-	msgbox SootopolisCity_Text_SoThatsRayquaza, MSGBOX_DEFAULT
+	msgbox SootopolisCity_Text_SoThatsTowermasta, MSGBOX_DEFAULT
 	releaseall
 	end
 
@@ -1289,7 +1289,7 @@ SootopolisCity_EventScript_Boy2:: @ 81E635D
 	applymovement LOCALID_BOY_2, Common_Movement_FacePlayer
 	waitmovement 0
 	compare VAR_SOOTOPOLIS_CITY_STATE, 5
-	goto_if_eq SootopolisCity_EventScript_Boy2Rayquaza
+	goto_if_eq SootopolisCity_EventScript_Boy2Towermasta
 	msgbox SootopolisCity_Text_TwoPokemonArentAngry, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_BOY_2, Common_Movement_FaceOriginalDirection
@@ -1297,7 +1297,7 @@ SootopolisCity_EventScript_Boy2:: @ 81E635D
 	releaseall
 	end
 
-SootopolisCity_EventScript_Boy2Rayquaza:: @ 81E6388
+SootopolisCity_EventScript_Boy2Towermasta:: @ 81E6388
 	msgbox SootopolisCity_Text_FlyingMonStoppedRampage, MSGBOX_DEFAULT
 	closemessage
 	releaseall
@@ -1306,7 +1306,7 @@ SootopolisCity_EventScript_Boy2Rayquaza:: @ 81E6388
 SootopolisCity_EventScript_BlackBelt:: @ 81E6393
 	lockall
 	compare VAR_SOOTOPOLIS_CITY_STATE, 5
-	goto_if_eq SootopolisCity_EventScript_BlackBeltRayquaza
+	goto_if_eq SootopolisCity_EventScript_BlackBeltTowermasta
 	msgbox SootopolisCity_Text_GoRedAndBlueMon, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_BLACK_BELT, Common_Movement_FacePlayer
@@ -1318,7 +1318,7 @@ SootopolisCity_EventScript_BlackBelt:: @ 81E6393
 	releaseall
 	end
 
-SootopolisCity_EventScript_BlackBeltRayquaza:: @ 81E63C7
+SootopolisCity_EventScript_BlackBeltTowermasta:: @ 81E63C7
 	applymovement LOCALID_BLACK_BELT, Common_Movement_FacePlayer
 	waitmovement 0
 	msgbox SootopolisCity_Text_GreenOneSettlesThings, MSGBOX_DEFAULT
@@ -1330,7 +1330,7 @@ SootopolisCity_EventScript_Girl:: @ 81E63DB
 	applymovement LOCALID_GIRL, Common_Movement_FacePlayer
 	waitmovement 0
 	compare VAR_SOOTOPOLIS_CITY_STATE, 5
-	goto_if_eq SootopolisCity_EventScript_GirlRayquaza
+	goto_if_eq SootopolisCity_EventScript_GirlTowermasta
 	msgbox SootopolisCity_Text_SootopolisWillBeWrecked, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_GIRL, Common_Movement_FaceOriginalDirection
@@ -1338,7 +1338,7 @@ SootopolisCity_EventScript_Girl:: @ 81E63DB
 	releaseall
 	end
 
-SootopolisCity_EventScript_GirlRayquaza:: @ 81E6406
+SootopolisCity_EventScript_GirlTowermasta:: @ 81E6406
 	msgbox SootopolisCity_Text_SootopolisDidntGetWrecked, MSGBOX_DEFAULT
 	closemessage
 	releaseall
@@ -1349,7 +1349,7 @@ SootopolisCity_EventScript_Maniac:: @ 81E6411
 	applymovement LOCALID_MANIAC, Common_Movement_FacePlayer
 	waitmovement 0
 	compare VAR_SOOTOPOLIS_CITY_STATE, 5
-	goto_if_eq SootopolisCity_EventScript_ManiacRayquaza
+	goto_if_eq SootopolisCity_EventScript_ManiacTowermasta
 	msgbox SootopolisCity_Text_SeeingLegendWithOwnEyes, MSGBOX_DEFAULT
 	closemessage
 	applymovement LOCALID_MANIAC, Common_Movement_FaceOriginalDirection
@@ -1357,7 +1357,7 @@ SootopolisCity_EventScript_Maniac:: @ 81E6411
 	releaseall
 	end
 
-SootopolisCity_EventScript_ManiacRayquaza:: @ 81E643C
+SootopolisCity_EventScript_ManiacTowermasta:: @ 81E643C
 	msgbox SootopolisCity_Text_SawLegendWithOwnEyes, MSGBOX_DEFAULT
 	releaseall
 	end
@@ -1425,13 +1425,13 @@ SootopolisCity_Movement_DarioMoveFromGymWest: @ 81E64EF
 SootopolisCity_EventScript_Maxie:: @ 81E64F2
 	lockall
 	compare VAR_SOOTOPOLIS_CITY_STATE, 5
-	goto_if_eq SootopolisCity_EventScript_MaxieRayquaza
+	goto_if_eq SootopolisCity_EventScript_MaxieTowermasta
 	msgbox SootopolisCity_Text_NoirnetPleaseStop, MSGBOX_DEFAULT
 	closemessage
 	releaseall
 	end
 
-SootopolisCity_EventScript_MaxieRayquaza:: @ 81E6509
+SootopolisCity_EventScript_MaxieTowermasta:: @ 81E6509
 	msgbox SootopolisCity_Text_AfterAllOurScheming, MSGBOX_DEFAULT
 	setflag FLAG_MET_MAXIE_SOOTOPOLIS
 	goto_if_set FLAG_MET_ARCHIE_SOOTOPOLIS, SootopolisCity_EventScript_MaxieArchieLeave
@@ -1441,13 +1441,13 @@ SootopolisCity_EventScript_MaxieRayquaza:: @ 81E6509
 SootopolisCity_EventScript_Archie:: @ 81E651F
 	lockall
 	compare VAR_SOOTOPOLIS_CITY_STATE, 5
-	goto_if_eq SootopolisCity_EventScript_ArchieRayquaza
+	goto_if_eq SootopolisCity_EventScript_ArchieTowermasta
 	msgbox SootopolisCity_Text_KrakrumCalmDown, MSGBOX_DEFAULT
 	closemessage
 	releaseall
 	end
 
-SootopolisCity_EventScript_ArchieRayquaza:: @ 81E6536
+SootopolisCity_EventScript_ArchieTowermasta:: @ 81E6536
 	msgbox SootopolisCity_Text_TryingMeaninglessToPokemon, MSGBOX_DEFAULT
 	setflag FLAG_MET_ARCHIE_SOOTOPOLIS
 	goto_if_set FLAG_MET_MAXIE_SOOTOPOLIS, SootopolisCity_EventScript_MaxieArchieLeave
@@ -1744,8 +1744,8 @@ SootopolisCity_Text_NeverBeenToSkyPillar: @ 81E789A
 	.string "I've never been there.\n"
 	.string "I wonder where it could be?$"
 
-SootopolisCity_Text_SoThatsRayquaza: @ 81E78E5
-	.string "Steven: So that's Rayquaza…\p"
+SootopolisCity_Text_SoThatsTowermasta: @ 81E78E5
+	.string "Steven: So that's Towermasta…\p"
 	.string "It's incredible how the two rampaging\n"
 	.string "Pokémon would flee from it in fear…$"
 

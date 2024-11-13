@@ -2710,7 +2710,7 @@ static const u8 sRockiteDesc[] = _(
 static const u8 sLopunniteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Lopunny.");
+    "Posswarm.");
 
 static const u8 sSalamenciteDesc[] = _(
     "Piedra que permite\n"
@@ -5101,7 +5101,7 @@ static const u8 sCoverFossilDesc[] = _(
 static const u8 sPlumeFossilDesc[] = _(
     "A piece of a\n"
     "prehistoric POKé-\n"
-    "MON's wing.");
+    "MON's Horn.");
 
 static const u8 sJawFossilDesc[] = _(
     "A piece of a prehis-\n"
@@ -5111,7 +5111,7 @@ static const u8 sJawFossilDesc[] = _(
 static const u8 sSailFossilDesc[] = _(
     "A piece of a prehis-\n"
     "toric Pokémon's\n"
-    "skin sail.");
+    "Tooth.");
 
 static const u8 sSilphScopeDesc[] = _(
     "Silph Co's scope\n"

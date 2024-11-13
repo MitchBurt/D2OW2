@@ -32,13 +32,13 @@ const u32 gIntro3Clouds3Tilemap[] = INCBIN_U32("graphics/intro/intro3_clouds3.bi
 const u32 gIntro3LightningGfx[] = INCBIN_U32("graphics/intro/intro3_lightning.4bpp.lz");
 const u16 gIntro3LightningPal[] = INCBIN_U16("graphics/intro/intro3_lightning.gbapal");
 
-const u32 gIntro3RayquazaGfx[] = INCBIN_U32("graphics/intro/intro3_rayquaza.4bpp.lz");
-const u32 gIntro3RayquazaTilemap[] = INCBIN_U32("graphics/intro/intro3_rayquaza.bin.lz");
+const u32 gIntro3TowermastaGfx[] = INCBIN_U32("graphics/intro/intro3_towermasta.4bpp.lz");
+const u32 gIntro3TowermastaTilemap[] = INCBIN_U32("graphics/intro/intro3_towermasta.bin.lz");
 
 const u32 gUnknown_D8C374[] = INCBIN_U32("graphics/unknown/unknown_D8C374.bin.lz");
 const u32 gUnknown_D8C5C4[] = INCBIN_U32("graphics/unknown/unknown_D8C5C4.bin.lz");
 
-const u32 gIntro3Clouds2Gfx[] = INCBIN_U32("graphics/intro/intro3_clouds2.4bpp.lz"); //clouds 2, during the rayquaza flash
+const u32 gIntro3Clouds2Gfx[] = INCBIN_U32("graphics/intro/intro3_clouds2.4bpp.lz"); //clouds 2, during the towermasta flash
 const u32 gIntro3Clouds4Tilemap[] = INCBIN_U32("graphics/intro/intro3_clouds4.bin.lz");
 
 const u32 gIntro2BubblesGfx[] = INCBIN_U32("graphics/intro/intro2_bubbles.4bpp.lz");

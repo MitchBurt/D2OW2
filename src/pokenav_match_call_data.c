@@ -170,7 +170,7 @@ static const match_call_text_data_t sMrStoneTextScripts[] = {
     { MatchCall_Text_MrStone8,  FLAG_RECEIVED_BADGE_07, 	0xFFFF },
     { MatchCall_Text_MrStone9,  FLAG_RECEIVED_BADGE_08, 	0xFFFF },
     { MatchCall_Text_MrStone10, FLAG_SYS_GAME_CLEAR,        0xFFFF },
-    { MatchCall_Text_MrStone11, FLAG_DEFEATED_RAYQUAZA,     0xFFFF },
+    { MatchCall_Text_MrStone11, FLAG_DEFEATED_TOWERMASTA,     0xFFFF },
     { NULL,                     0xFFFF,                     0xFFFF }
 };
 

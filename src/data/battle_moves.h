@@ -12980,7 +12980,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_LOPUNNY] =
+    [SPECIES_POSSWARM] =
     {
         .move = MOVE_RETURN,
         .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
@@ -12989,7 +12989,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-    [SPECIES_LOPUNNY_MEGA] =
+    [SPECIES_POSSWARM_MEGA] =
     {
         .move = MOVE_RETURN,
         .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
