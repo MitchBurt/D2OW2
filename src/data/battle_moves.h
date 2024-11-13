@@ -1042,8 +1042,8 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_LOW_KICK] =
     {
-        .effect = EFFECT_LOW_KICK,
-        .power = 1,
+        .effect = EFFECT_HIT,
+        .power = 50,
         .type = TYPE_FIGHTING,
         .accuracy = 100,
         .pp = 20,
@@ -6910,8 +6910,8 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_GRASS_KNOT] =
     {
-        .effect = EFFECT_LOW_KICK,
-        .power = 1,
+        .effect = EFFECT_HIT,
+        .power = 60,
         .type = TYPE_GRASS,
         .accuracy = 100,
         .pp = 20,
@@ -7450,10 +7450,10 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_HEAVY_SLAM] =
     {
-        .effect = EFFECT_HEAT_CRASH,
-        .power = 1,
+        .effect = EFFECT_HIT,
+        .power = 100,
         .type = TYPE_STEEL,
-        .accuracy = 100,
+        .accuracy = 85,
         .pp = 10,
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
@@ -8214,10 +8214,10 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_HEAT_CRASH] =
     {
-        .effect = EFFECT_HEAT_CRASH,
-        .power = 1,
+        .effect = EFFECT_HIT,
+        .power = 100,
         .type = TYPE_FIRE,
-        .accuracy = 100,
+        .accuracy = 90,
         .pp = 10,
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,

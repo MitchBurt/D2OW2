@@ -7692,7 +7692,7 @@ const u8 gJuberdukusPokedexText[] = _(
     "rn and i'm writing 400 pokedex texts.");
 
 const u8 gHellspackPokedexText[] = _(
-    "Broguht to you by the Hells Angels.");
+    "Brought to you by the Hells Angels.");
 
 const u8 gGalladePokedexText[] = _(
     "A master of courtesy and swordsmanship,\n"
