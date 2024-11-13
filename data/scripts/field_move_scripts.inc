@@ -63,7 +63,7 @@ EventScript_RockSmash:: @ 82907A6
 	end
 
 EventScript_DisheatsSmash::
-	setvar VAR_0x8004, SPECIES_SAWK
+	setvar VAR_0x8004, SPECIES_AGANDA
 	setvar VAR_0x8008, MOVE_ROCK_SMASH
 	setvar VAR_0x8009, 1
 	bufferspeciesname 0, VAR_0x8004	
@@ -129,7 +129,7 @@ Text_WantToSmash: @ 829083A
 
 Text_DisheatsSmash:
 	.string "This rock appears to be breakable.\n"
-	.string "Call Poke Ride's Sawk to smash it?$"
+	.string "Call Poke Ride's Aganda to smash it?$"
 
 Text_CantSmash: @ 829087F
 	.string "It's a rugged rock, but a Pokémon\n"
@@ -205,7 +205,7 @@ Text_WantToStrength: @ 829092C
 Text_OpticuluStrength: @ 829092C
 	.string "It's a big boulder, but a Pokémon\n"
 	.string "may be able to push it aside.\p"
-	.string "Call Poke Ride's Bewear to push it?$"
+	.string "Call Poke Ride's Brixel to push it?$"
 
 Text_MonUsedStrength: @ 829098C
 	.string "{STR_VAR_1} used Strength!\p"
@@ -213,8 +213,8 @@ Text_MonUsedStrength: @ 829098C
 	.string "possible to move boulders around!$"
 
 Text_OpticuluUsedStrength:
-	.string "Bewear used Strength!\p"
-	.string "Bewear's Strength made it\n"
+	.string "Brixel used Strength!\p"
+	.string "Brixel's Strength made it\n"
 	.string "possible to move boulders around!$"
 
 Text_CantStrength: @ 82909D6
@@ -237,7 +237,7 @@ EventScript_CannotUseWaterfall:: @ 8290A83
 	lockall
 
 EventScript_FreddiferWaterfall::
-	setvar VAR_0x8004, SPECIES_DISMALO
+	setvar VAR_0x8004, SPECIES_FLOOTEY
 	setvar VAR_0x8008, MOVE_WATERFALL
 	setvar VAR_0x8009, 1
 	bufferspeciesname 0, VAR_0x8004	
@@ -264,7 +264,7 @@ Text_WantToWaterfall: @ 8290AC3
 
 Text_FreddiferWaterfall:
 	.string "It's a large waterfall.\n"
-	.string "Call Poke Ride's Dismalo to climb it?$"
+	.string "Call Poke Ride's Flootey to climb it?$"
 
 Text_MonUsedWaterfall: @ 8290AFC
 	.string "{STR_VAR_1} used Waterfall.$"
