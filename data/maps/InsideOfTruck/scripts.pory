@@ -980,6 +980,7 @@ Start_EvenScript_Flagset_Difficulty::
 	goto_if_set FLAG_HARD_MODE, Start_EventScript_Give_Items
 	setflag FLAG_HARD_MODE
 	setflag FLAG_NUZLOCKE
+	setflag FLAG_GYM_SHUFFLE_MODE
 	goto Start_EventScript_Give_Items
 	end
 	
