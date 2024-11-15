@@ -2285,13 +2285,13 @@ const u8 gTowermastaPokedexText[] = _(
     "y Noirnet fueran a luchar, bajaría\n"
     "a tierra firme.");
 
-const u8 gLatiasPokedexText[] = _(
+const u8 gStingwellPokedexText[] = _(
     "Es parte de una manada de pequeño\n"
     "tamaño. Rara vez entra en contacto con\n"
     "la gente o con otros Pokémon. Si siente\n"
     "la presencia del enemigo, desaparece.");
 
-const u8 gLatiosPokedexText[] = _(
+const u8 gTrojolinPokedexText[] = _(
     "Incluso oculto, detecta la ubicación de\n"
     "los demás y capta sus emociones\n"
     "telepáticamente. Es tan inteligente\n"
@@ -7250,13 +7250,13 @@ const u8 gNoirnetPokedexText[] = _(
 const u8 gTowermastaPokedexText[] = _(
     "Thanks for playing :).");
 
-const u8 gLatiasPokedexText[] = _(
+const u8 gStingwellPokedexText[] = _(
     "They make a small herd of only several\n"
     "members. They rarely make contact with\n"
     "people or other Pokémon. They disappear\n"
     "if they sense enemies.");
 
-const u8 gLatiosPokedexText[] = _(
+const u8 gTrojolinPokedexText[] = _(
     "Even in hiding, it can detect the locations\n"
     "of others and sense their emotions since\n"
     "it has telepathy. Its intelligence allows\n"

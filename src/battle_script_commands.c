@@ -12900,8 +12900,8 @@ static void Cmd_givecaughtmon(void)
         case SPECIES_ELECHAIR_MEGA:
         case SPECIES_DRUNKABUS_MEGA:
         case SPECIES_HAZETHOTH_MEGA:
-        case SPECIES_LATIAS_MEGA:
-        case SPECIES_LATIOS_MEGA:
+        case SPECIES_STINGWELL_MEGA:
+        case SPECIES_TROJOLIN_MEGA:
         case SPECIES_POSSWARM_MEGA:
         case SPECIES_TRUCKOISE_MEGA:
         case SPECIES_BLOKNOCK_MEGA:

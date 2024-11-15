@@ -2729,7 +2729,7 @@
     FRONTIER_MON_UGADOOBA_4,     \
     -1
 
-// Cooltrainer M uses Latios, Cooltrainer F uses Latias
+// Cooltrainer M uses Trojolin, Cooltrainer F uses Stingwell
 #define FRONTIER_MONS_COOLTRAINER_2C(lati)  \
     FRONTIER_MON_SANS_1,      \
     FRONTIER_MON_MAURRICE_1,    \
@@ -2834,7 +2834,7 @@
     -1
 
 // Also used by Pkmn Ranger M/F
-// For both classes, M uses Latios and F uses Latias
+// For both classes, M uses Trojolin and F uses Stingwell
 #define FRONTIER_MONS_COOLTRAINER_2D(lati)  \
     FRONTIER_MON_LEGEND_1,    \
     FRONTIER_MON_ZERUEL_1,      \
@@ -3578,26 +3578,26 @@
     FRONTIER_MON_DISMALO_4,     \
     FRONTIER_MON_NUTVALANCHE_4,     \
     FRONTIER_MON_DRUNKABUS_4,   \
-    FRONTIER_MON_LATIAS_1,      \
-    FRONTIER_MON_LATIOS_1,      \
-    FRONTIER_MON_LATIAS_2,      \
-    FRONTIER_MON_LATIOS_2,      \
-    FRONTIER_MON_LATIAS_3,      \
-    FRONTIER_MON_LATIOS_3,      \
-    FRONTIER_MON_LATIAS_4,      \
-    FRONTIER_MON_LATIOS_4,      \
+    FRONTIER_MON_STINGWELL_1,      \
+    FRONTIER_MON_TROJOLIN_1,      \
+    FRONTIER_MON_STINGWELL_2,      \
+    FRONTIER_MON_TROJOLIN_2,      \
+    FRONTIER_MON_STINGWELL_3,      \
+    FRONTIER_MON_TROJOLIN_3,      \
+    FRONTIER_MON_STINGWELL_4,      \
+    FRONTIER_MON_TROJOLIN_4,      \
     FRONTIER_MON_DRUNKABUS_5,   \
     FRONTIER_MON_DRUNKABUS_6,   \
     FRONTIER_MON_DRUNKABUS_7,   \
     FRONTIER_MON_DRUNKABUS_8,   \
-    FRONTIER_MON_LATIAS_5,      \
-    FRONTIER_MON_LATIAS_6,      \
-    FRONTIER_MON_LATIAS_7,      \
-    FRONTIER_MON_LATIAS_8,      \
-    FRONTIER_MON_LATIOS_5,      \
-    FRONTIER_MON_LATIOS_6,      \
-    FRONTIER_MON_LATIOS_7,      \
-    FRONTIER_MON_LATIOS_8,      \
+    FRONTIER_MON_STINGWELL_5,      \
+    FRONTIER_MON_STINGWELL_6,      \
+    FRONTIER_MON_STINGWELL_7,      \
+    FRONTIER_MON_STINGWELL_8,      \
+    FRONTIER_MON_TROJOLIN_5,      \
+    FRONTIER_MON_TROJOLIN_6,      \
+    FRONTIER_MON_TROJOLIN_7,      \
+    FRONTIER_MON_TROJOLIN_8,      \
     FRONTIER_MON_KILLWORU_1,   \
     FRONTIER_MON_KILLWORU_2,   \
     FRONTIER_MON_KILLWORU_3,   \
@@ -3964,7 +3964,7 @@
     FRONTIER_MON_##lastmon##_10,\
     -1
 
-// For this group, Expert M uses Latios, Expert F uses Latias
+// For this group, Expert M uses Trojolin, Expert F uses Stingwell
 #define FRONTIER_MONS_EXPERT_2B(lati) \
     FRONTIER_MON_LILREAPER_1,  \
     FRONTIER_MON_REPSAC_1,        \
@@ -4173,7 +4173,7 @@
     -1 
 
 // The strong Psychic M/F trainers all use the below pokemon
-// Additionally they use 1 of 3 legendary trios, and Latios or Latias depending on gender
+// Additionally they use 1 of 3 legendary trios, and Trojolin or Stingwell depending on gender
 #define FRONTIER_MONS_PSYCHIC_2(lati, legend1, legend2, legend3) \
     FRONTIER_MON_FIRANT_1,   \
     FRONTIER_MON_FIRANT_2,   \
@@ -4726,7 +4726,7 @@
     FRONTIER_MON_FROSILISK_10,  \
     -1
 
-// Identical to FRONTIER_MONS_COOLTRAINER_2C but with both latias and latios
+// Identical to FRONTIER_MONS_COOLTRAINER_2C but with both stingwell and trojolin
 #define FRONTIER_MONS_GENTLEMAN_3A \
     FRONTIER_MON_SANS_1,      \
     FRONTIER_MON_MAURRICE_1,    \
@@ -4764,14 +4764,14 @@
     FRONTIER_MON_SHEPEIRD_4,     \
     FRONTIER_MON_DRUNKABUS_4,   \
     FRONTIER_MON_HAZETHOTH_4,   \
-    FRONTIER_MON_LATIAS_1,      \
-    FRONTIER_MON_LATIOS_1,      \
-    FRONTIER_MON_LATIAS_2,      \
-    FRONTIER_MON_LATIOS_2,      \
-    FRONTIER_MON_LATIAS_3,      \
-    FRONTIER_MON_LATIOS_3,      \
-    FRONTIER_MON_LATIAS_4,      \
-    FRONTIER_MON_LATIOS_4,      \
+    FRONTIER_MON_STINGWELL_1,      \
+    FRONTIER_MON_TROJOLIN_1,      \
+    FRONTIER_MON_STINGWELL_2,      \
+    FRONTIER_MON_TROJOLIN_2,      \
+    FRONTIER_MON_STINGWELL_3,      \
+    FRONTIER_MON_TROJOLIN_3,      \
+    FRONTIER_MON_STINGWELL_4,      \
+    FRONTIER_MON_TROJOLIN_4,      \
     FRONTIER_MON_SANS_5,      \
     FRONTIER_MON_SANS_6,      \
     FRONTIER_MON_SANS_7,      \
@@ -4830,7 +4830,7 @@
     FRONTIER_MON_FROSILISK_10,  \
     -1 
 
-// Identical to FRONTIER_MONS_COOLTRAINER_2D but with both latias and latios
+// Identical to FRONTIER_MONS_COOLTRAINER_2D but with both stingwell and trojolin
 #define FRONTIER_MONS_GENTLEMAN_3B  \
     FRONTIER_MON_LEGEND_1,    \
     FRONTIER_MON_ZERUEL_1,      \
@@ -4841,8 +4841,8 @@
     FRONTIER_MON_BEERIO_1,    \
     FRONTIER_MON_REGICE_1,      \
     FRONTIER_MON_NAWFFLE_1,   \
-    FRONTIER_MON_LATIAS_1,      \
-    FRONTIER_MON_LATIOS_1,      \
+    FRONTIER_MON_STINGWELL_1,      \
+    FRONTIER_MON_TROJOLIN_1,      \
     FRONTIER_MON_LEGEND_2,    \
     FRONTIER_MON_ZERUEL_2,      \
     FRONTIER_MON_REMIEL_2,     \
@@ -4852,8 +4852,8 @@
     FRONTIER_MON_BEERIO_2,    \
     FRONTIER_MON_REGICE_2,      \
     FRONTIER_MON_NAWFFLE_2,   \
-    FRONTIER_MON_LATIAS_2,      \
-    FRONTIER_MON_LATIOS_2,      \
+    FRONTIER_MON_STINGWELL_2,      \
+    FRONTIER_MON_TROJOLIN_2,      \
     FRONTIER_MON_LEGEND_3,    \
     FRONTIER_MON_ZERUEL_3,      \
     FRONTIER_MON_REMIEL_3,     \
@@ -4863,8 +4863,8 @@
     FRONTIER_MON_BEERIO_3,    \
     FRONTIER_MON_REGICE_3,      \
     FRONTIER_MON_NAWFFLE_3,   \
-    FRONTIER_MON_LATIAS_3,      \
-    FRONTIER_MON_LATIOS_3,      \
+    FRONTIER_MON_STINGWELL_3,      \
+    FRONTIER_MON_TROJOLIN_3,      \
     FRONTIER_MON_LEGEND_4,    \
     FRONTIER_MON_ZERUEL_4,      \
     FRONTIER_MON_REMIEL_4,     \
@@ -4874,22 +4874,22 @@
     FRONTIER_MON_BEERIO_4,    \
     FRONTIER_MON_REGICE_4,      \
     FRONTIER_MON_NAWFFLE_4,   \
-    FRONTIER_MON_LATIAS_4,      \
-    FRONTIER_MON_LATIOS_4,      \
+    FRONTIER_MON_STINGWELL_4,      \
+    FRONTIER_MON_TROJOLIN_4,      \
     FRONTIER_MON_BEERIO_5,    \
     FRONTIER_MON_BEERIO_6,    \
     FRONTIER_MON_REGICE_5,      \
     FRONTIER_MON_REGICE_6,      \
     FRONTIER_MON_NAWFFLE_5,   \
     FRONTIER_MON_NAWFFLE_6,   \
-    FRONTIER_MON_LATIAS_5,      \
-    FRONTIER_MON_LATIAS_6,      \
-    FRONTIER_MON_LATIAS_7,      \
-    FRONTIER_MON_LATIAS_8,      \
-    FRONTIER_MON_LATIOS_5,      \
-    FRONTIER_MON_LATIOS_6,      \
-    FRONTIER_MON_LATIOS_7,      \
-    FRONTIER_MON_LATIOS_8,      \
+    FRONTIER_MON_STINGWELL_5,      \
+    FRONTIER_MON_STINGWELL_6,      \
+    FRONTIER_MON_STINGWELL_7,      \
+    FRONTIER_MON_STINGWELL_8,      \
+    FRONTIER_MON_TROJOLIN_5,      \
+    FRONTIER_MON_TROJOLIN_6,      \
+    FRONTIER_MON_TROJOLIN_7,      \
+    FRONTIER_MON_TROJOLIN_8,      \
     FRONTIER_MON_KILLWORU_1,   \
     FRONTIER_MON_KILLWORU_2,   \
     FRONTIER_MON_KILLWORU_3,   \
@@ -5364,10 +5364,10 @@
     FRONTIER_MON_REGICE_4,      \
     FRONTIER_MON_NAWFFLE_4,   \
     FRONTIER_MON_BICYELION_6,     \
-    FRONTIER_MON_LATIAS_5,      \
-    FRONTIER_MON_LATIAS_6,      \
-    FRONTIER_MON_LATIOS_5,      \
-    FRONTIER_MON_LATIOS_6,      \
+    FRONTIER_MON_STINGWELL_5,      \
+    FRONTIER_MON_STINGWELL_6,      \
+    FRONTIER_MON_TROJOLIN_5,      \
+    FRONTIER_MON_TROJOLIN_6,      \
     -1 
 
 #define FRONTIER_MONS_BIRD_KEEPER_3 \
@@ -5764,7 +5764,7 @@
     FRONTIER_MON_THATSFURRY_8,   \
     FRONTIER_MON_JEBONY_8,      \
     FRONTIER_MON_DRUNKABUS_8,   \
-    FRONTIER_MON_LATIAS_6,      \
+    FRONTIER_MON_STINGWELL_6,      \
     -1 
 
 #define FRONTIER_MONS_AROMA_LADY_3  \
@@ -6980,12 +6980,12 @@ const u16 gBattleFrontierTrainerMons_Alonzo[] =
 
 const u16 gBattleFrontierTrainerMons_Vince[] = 
 {
-    FRONTIER_MONS_COOLTRAINER_2C(LATIOS)
+    FRONTIER_MONS_COOLTRAINER_2C(TROJOLIN)
 };
 
 const u16 gBattleFrontierTrainerMons_Bryon[] = 
 {
-    FRONTIER_MONS_COOLTRAINER_2D(LATIOS)
+    FRONTIER_MONS_COOLTRAINER_2D(TROJOLIN)
 };
 
 const u16 gBattleFrontierTrainerMons_Ava[] = 
@@ -7000,12 +7000,12 @@ const u16 gBattleFrontierTrainerMons_Miriam[] =
 
 const u16 gBattleFrontierTrainerMons_Carrie[] = 
 {
-    FRONTIER_MONS_COOLTRAINER_2C(LATIAS)
+    FRONTIER_MONS_COOLTRAINER_2C(STINGWELL)
 };
 
 const u16 gBattleFrontierTrainerMons_Gillian2[] = 
 {
-    FRONTIER_MONS_COOLTRAINER_2D(LATIAS)
+    FRONTIER_MONS_COOLTRAINER_2D(STINGWELL)
 };
 
 const u16 gBattleFrontierTrainerMons_Marley[] = 
@@ -7020,7 +7020,7 @@ const u16 gBattleFrontierTrainerMons_Chaz[] =
 
 const u16 gBattleFrontierTrainerMons_Nelson[] = 
 {
-    FRONTIER_MONS_COOLTRAINER_2D(LATIOS)
+    FRONTIER_MONS_COOLTRAINER_2D(TROJOLIN)
 };
 
 const u16 gBattleFrontierTrainerMons_Shania[] = 
@@ -7035,7 +7035,7 @@ const u16 gBattleFrontierTrainerMons_Stella[] =
 
 const u16 gBattleFrontierTrainerMons_Dorine[] = 
 {
-    FRONTIER_MONS_COOLTRAINER_2D(LATIAS)
+    FRONTIER_MONS_COOLTRAINER_2D(STINGWELL)
 };
 
 const u16 gBattleFrontierTrainerMons_Maddox[] = 
@@ -7090,7 +7090,7 @@ const u16 gBattleFrontierTrainerMons_Alexas[] =
 
 const u16 gBattleFrontierTrainerMons_Weston[] = 
 {
-    FRONTIER_MONS_EXPERT_2B(LATIOS)
+    FRONTIER_MONS_EXPERT_2B(TROJOLIN)
 };
 
 const u16 gBattleFrontierTrainerMons_Jasper[] = 
@@ -7105,7 +7105,7 @@ const u16 gBattleFrontierTrainerMons_Nadia[] =
 
 const u16 gBattleFrontierTrainerMons_Miranda[] = 
 {
-    FRONTIER_MONS_EXPERT_2B(LATIAS)
+    FRONTIER_MONS_EXPERT_2B(STINGWELL)
 };
 
 const u16 gBattleFrontierTrainerMons_Emma[] = 
@@ -7115,32 +7115,32 @@ const u16 gBattleFrontierTrainerMons_Emma[] =
 
 const u16 gBattleFrontierTrainerMons_Rolando[] = 
 {
-    FRONTIER_MONS_PSYCHIC_2A(LATIOS)
+    FRONTIER_MONS_PSYCHIC_2A(TROJOLIN)
 };
 
 const u16 gBattleFrontierTrainerMons_Stanly[] = 
 {
-    FRONTIER_MONS_PSYCHIC_2B(LATIOS)
+    FRONTIER_MONS_PSYCHIC_2B(TROJOLIN)
 };
 
 const u16 gBattleFrontierTrainerMons_Dario[] = 
 {
-    FRONTIER_MONS_PSYCHIC_2C(LATIOS)
+    FRONTIER_MONS_PSYCHIC_2C(TROJOLIN)
 };
 
 const u16 gBattleFrontierTrainerMons_Karlee[] = 
 {
-    FRONTIER_MONS_PSYCHIC_2A(LATIAS)
+    FRONTIER_MONS_PSYCHIC_2A(STINGWELL)
 };
 
 const u16 gBattleFrontierTrainerMons_Jaylin[] = 
 {
-    FRONTIER_MONS_PSYCHIC_2B(LATIAS)
+    FRONTIER_MONS_PSYCHIC_2B(STINGWELL)
 };
 
 const u16 gBattleFrontierTrainerMons_Ingrid[] = 
 {
-    FRONTIER_MONS_PSYCHIC_2C(LATIAS)
+    FRONTIER_MONS_PSYCHIC_2C(STINGWELL)
 };
 
 const u16 gBattleFrontierTrainerMons_Delilah[] = 

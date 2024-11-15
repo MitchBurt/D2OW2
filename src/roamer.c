@@ -82,9 +82,9 @@ void CreateOnlineRoamer(u16 species, u8 level)
     sRoamerLocation[MAP_NUM]               = sRoamerLocations[Random() % (ARRAY_COUNT(sRoamerLocations) - 1)][0];
 }
 
-static void CreateInitialRoamerMon(bool16 createLatios)
+static void CreateInitialRoamerMon(bool16 createTrojolin)
 {
-    if (!createLatios)
+    if (!createTrojolin)
         (&gSaveBlock1Ptr->roamer)->species = SPECIES_PHIONE;
     else
         (&gSaveBlock1Ptr->roamer)->species = SPECIES_PHIONE;

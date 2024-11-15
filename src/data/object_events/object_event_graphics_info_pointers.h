@@ -186,8 +186,8 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigShrimpotDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigBeerioDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigRegiceDoll;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BigNawffleDoll;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Latias;
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Latios;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Stingwell;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Trojolin;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GameboyKid;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ContestJudge;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanWatering;
@@ -1372,8 +1372,8 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
 	[OBJ_EVENT_GFX_DUPLICAT] =                &gObjectEventGraphicsInfo_Pokemon_Species_262,
     [OBJ_EVENT_GFX_THEVOID] =                      &gObjectEventGraphicsInfo_Pokemon_Species_151,
 	[OBJ_EVENT_GFX_SORTAFURRY] =                   &gObjectEventGraphicsInfo_Pokemon_Species_282,
-	[OBJ_EVENT_GFX_LATIAS] =                   &gObjectEventGraphicsInfo_Pokemon_Species_380,
-    [OBJ_EVENT_GFX_LATIOS] =                   &gObjectEventGraphicsInfo_Pokemon_Species_381,
+	[OBJ_EVENT_GFX_STINGWELL] =                   &gObjectEventGraphicsInfo_Pokemon_Species_380,
+    [OBJ_EVENT_GFX_TROJOLIN] =                   &gObjectEventGraphicsInfo_Pokemon_Species_381,
 	[OBJ_EVENT_GFX_KRAKRUM_1] =                 &gObjectEventGraphicsInfo_Pokemon_Species_382,
     [OBJ_EVENT_GFX_NOIRNET_1] =                &gObjectEventGraphicsInfo_Pokemon_Species_383,
 	[OBJ_EVENT_GFX_BEERIO] =                 &gObjectEventGraphicsInfo_Pokemon_Species_377,

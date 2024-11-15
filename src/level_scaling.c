@@ -2183,18 +2183,18 @@ void RandomizeIfSpeciesNone(void)
 		}
 	}
 	
-	//For Permanent Mega Latios and Mega Latias
+	//For Permanent Mega Trojolin and Mega Stingwell
 	for (i = 0; i < CalculatePlayerPartyCount(); i++)
     {
-		if(GetMonData(&gPlayerParty[i], MON_DATA_SPECIES) == SPECIES_LATIOS_MEGA){
-			newSpecies = SPECIES_LATIOS;
+		if(GetMonData(&gPlayerParty[i], MON_DATA_SPECIES) == SPECIES_TROJOLIN_MEGA){
+			newSpecies = SPECIES_TROJOLIN;
 			SetMonData(&gPlayerParty[i], MON_DATA_SPECIES, &newSpecies);
 			SetMonData(&gPlayerParty[i], MON_DATA_NICKNAME, &gSpeciesNames[newSpecies]);
 			GiveMonInitialMoveset(&gPlayerParty[i]);
 			CalculateMonStats(&gPlayerParty[i]);
 		}
-		else if(GetMonData(&gPlayerParty[i], MON_DATA_SPECIES) == SPECIES_LATIAS_MEGA){
-			newSpecies = SPECIES_LATIAS;
+		else if(GetMonData(&gPlayerParty[i], MON_DATA_SPECIES) == SPECIES_STINGWELL_MEGA){
+			newSpecies = SPECIES_STINGWELL;
 			SetMonData(&gPlayerParty[i], MON_DATA_SPECIES, &newSpecies);
 			SetMonData(&gPlayerParty[i], MON_DATA_NICKNAME, &gSpeciesNames[newSpecies]);
 			GiveMonInitialMoveset(&gPlayerParty[i]);

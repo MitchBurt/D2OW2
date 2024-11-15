@@ -4494,7 +4494,7 @@ static const union AnimCmd sAnim_TOWERMASTA_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_LATIAS_1[] =
+static const union AnimCmd sAnim_STINGWELL_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(1, 10),
@@ -4504,7 +4504,7 @@ static const union AnimCmd sAnim_LATIAS_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_LATIAS_2[] =
+static const union AnimCmd sAnim_STINGWELL_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -4513,7 +4513,7 @@ static const union AnimCmd sAnim_LATIAS_2[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_LATIOS_1[] =
+static const union AnimCmd sAnim_TROJOLIN_1[] =
 {
     ANIMCMD_FRAME(0, 10),
     ANIMCMD_FRAME(1, 10),
@@ -4523,7 +4523,7 @@ static const union AnimCmd sAnim_LATIOS_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_LATIOS_2[] =
+static const union AnimCmd sAnim_TROJOLIN_2[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(2, 20),
@@ -8666,13 +8666,13 @@ static const union AnimCmd sAnim_HAZETHOTH_MEGA_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_LATIAS_MEGA_1[] =
+static const union AnimCmd sAnim_STINGWELL_MEGA_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_LATIOS_MEGA_1[] =
+static const union AnimCmd sAnim_TROJOLIN_MEGA_1[] =
 {
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
@@ -11119,16 +11119,16 @@ static const union AnimCmd *const sAnims_TOWERMASTA[] ={
     sAnim_TOWERMASTA_2,
 };
 
-static const union AnimCmd *const sAnims_LATIAS[] ={
+static const union AnimCmd *const sAnims_STINGWELL[] ={
     sAnim_GeneralFrame0,
-    sAnim_LATIAS_1,
-    sAnim_LATIAS_2,
+    sAnim_STINGWELL_1,
+    sAnim_STINGWELL_2,
 };
 
-static const union AnimCmd *const sAnims_LATIOS[] ={
+static const union AnimCmd *const sAnims_TROJOLIN[] ={
     sAnim_GeneralFrame0,
-    sAnim_LATIOS_1,
-    sAnim_LATIOS_2,
+    sAnim_TROJOLIN_1,
+    sAnim_TROJOLIN_2,
 };
 
 static const union AnimCmd *const sAnims_THISCRAKER[] ={
@@ -14054,14 +14054,14 @@ static const union AnimCmd *const sAnims_HAZETHOTH_MEGA[] ={
     sAnim_HAZETHOTH_MEGA_1,
 };
 
-static const union AnimCmd *const sAnims_LATIAS_MEGA[] ={
+static const union AnimCmd *const sAnims_STINGWELL_MEGA[] ={
     sAnim_GeneralFrame0,
-    sAnim_LATIAS_MEGA_1,
+    sAnim_STINGWELL_MEGA_1,
 };
 
-static const union AnimCmd *const sAnims_LATIOS_MEGA[] ={
+static const union AnimCmd *const sAnims_TROJOLIN_MEGA[] ={
     sAnim_GeneralFrame0,
-    sAnim_LATIOS_MEGA_1,
+    sAnim_TROJOLIN_MEGA_1,
 };
 
 static const union AnimCmd *const sAnims_KRAKRUM_PRIMAL[] ={
@@ -14800,8 +14800,8 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(KRAKRUM),
     ANIM_CMD(NOIRNET),
     ANIM_CMD(TOWERMASTA),
-    ANIM_CMD(LATIAS),
-    ANIM_CMD(LATIOS),
+    ANIM_CMD(STINGWELL),
+    ANIM_CMD(TROJOLIN),
     ANIM_CMD(THISCRAKER),
     ANIM_CMD(SQUILITHID),
     ANIM_CMD(KIRBAIRDE),
@@ -15353,8 +15353,8 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(ELECHAIR_MEGA),
     ANIM_CMD(DRUNKABUS_MEGA),
     ANIM_CMD(HAZETHOTH_MEGA),
-    ANIM_CMD(LATIAS_MEGA),
-    ANIM_CMD(LATIOS_MEGA),
+    ANIM_CMD(STINGWELL_MEGA),
+    ANIM_CMD(TROJOLIN_MEGA),
     ANIM_CMD(POSSWARM_MEGA),
     ANIM_CMD(TRUCKOISE_MEGA),
     ANIM_CMD(BLOKNOCK_MEGA),

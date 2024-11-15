@@ -77,15 +77,15 @@ static const u32 sRegionMapBg_TilemapLZ[] = INCBIN_U32("graphics/soar/region_map
 
 #define GFX_TAG_EON 9999
 
-static const u32 sEonBrendanSpriteTiles[] = INCBIN_U32("graphics/soar/latias_brendan.4bpp.lz");
-static const u32 sEonBrendanSpritePaletteData[] = INCBIN_U32("graphics/soar/latias_brendan.gbapal.lz");
-static const u32 sEonMaySpriteTiles[] = INCBIN_U32("graphics/soar/latias_may.4bpp.lz");
-static const u32 sEonMaySpritePaletteData[] = INCBIN_U32("graphics/soar/latias_may.gbapal.lz");
+static const u32 sEonBrendanSpriteTiles[] = INCBIN_U32("graphics/soar/stingwell_brendan.4bpp.lz");
+static const u32 sEonBrendanSpritePaletteData[] = INCBIN_U32("graphics/soar/stingwell_brendan.gbapal.lz");
+static const u32 sEonMaySpriteTiles[] = INCBIN_U32("graphics/soar/stingwell_may.4bpp.lz");
+static const u32 sEonMaySpritePaletteData[] = INCBIN_U32("graphics/soar/stingwell_may.gbapal.lz");
 
-static const u32 sEonBrendanSpriteTiles2[] = INCBIN_U32("graphics/soar/latios_brendan.4bpp.lz");
-static const u32 sEonBrendanSpritePaletteData2[] = INCBIN_U32("graphics/soar/latios_brendan.gbapal.lz");
-static const u32 sEonMaySpriteTiles2[] = INCBIN_U32("graphics/soar/latios_may.4bpp.lz");
-static const u32 sEonMaySpritePaletteData2[] = INCBIN_U32("graphics/soar/latios_may.gbapal.lz");
+static const u32 sEonBrendanSpriteTiles2[] = INCBIN_U32("graphics/soar/trojolin_brendan.4bpp.lz");
+static const u32 sEonBrendanSpritePaletteData2[] = INCBIN_U32("graphics/soar/trojolin_brendan.gbapal.lz");
+static const u32 sEonMaySpriteTiles2[] = INCBIN_U32("graphics/soar/trojolin_may.4bpp.lz");
+static const u32 sEonMaySpritePaletteData2[] = INCBIN_U32("graphics/soar/trojolin_may.gbapal.lz");
 
 static const struct OamData sEonSpriteOamData =
 {

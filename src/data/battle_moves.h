@@ -1861,7 +1861,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED,
         .split = SPLIT_PHYSICAL,
     },
-
+//food
     [MOVE_EGG_BOMB] =
     {
         .effect = EFFECT_HIT,
@@ -2079,7 +2079,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .priority = 0,
         .split = SPLIT_STATUS,
     },
-
+//food
     [MOVE_SOFT_BOILED] =
     {
         .effect = EFFECT_SOFTBOILED,
@@ -3255,7 +3255,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MAGICCOAT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
         .split = SPLIT_STATUS,
     },
-
+//food
     [MOVE_MILK_DRINK] =
     {
         .effect = EFFECT_SOFTBOILED,
@@ -3581,7 +3581,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED,
         .split = SPLIT_PHYSICAL,
     },
-
+//food
     [MOVE_SWEET_SCENT] =
     {
         .effect = EFFECT_EVASION_DOWN_2,
@@ -3963,7 +3963,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED | FLAG_SOUND,
         .split = SPLIT_SPECIAL,
     },
-
+//food
     [MOVE_STOCKPILE] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_4
@@ -3981,7 +3981,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_SNATCH_AFFECTED,
         .split = SPLIT_STATUS,
     },
-
+//food
     [MOVE_SPIT_UP] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_4
@@ -3999,7 +3999,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_KINGSROCK_AFFECTED,
         .split = SPLIT_SPECIAL,
     },
-
+//food
     [MOVE_SWALLOW] =
     {
         .effect = EFFECT_SWALLOW,
@@ -5622,7 +5622,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED,
         .split = SPLIT_SPECIAL,
     },
-
+//food
     [MOVE_NATURAL_GIFT] =
     {
         .effect = EFFECT_NATURAL_GIFT,
@@ -8606,7 +8606,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_STATUS,
         .argument = TRUE, // Protects the whole side.
     },
-
+//food
     [MOVE_BELCH] =
     {
         .effect = EFFECT_BELCH,
@@ -9125,7 +9125,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECTION_MOVE,
         .split = SPLIT_STATUS,
     },
-
+//food
     [MOVE_AROMATIC_MIST] =
     {
         .effect = EFFECT_AROMATIC_MIST,
@@ -10621,7 +10621,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED,
         .split = SPLIT_PHYSICAL,
     },
-
+//food
     [MOVE_TEATIME] =
     {
         .effect = EFFECT_PLACEHOLDER,   //TODO
@@ -10859,7 +10859,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED | FLAG_SOUND,
         .split = SPLIT_SPECIAL,
     },
-
+//food
     [MOVE_APPLE_ACID] =
     {
         .effect = EFFECT_SPECIAL_DEFENSE_DOWN_HIT,
@@ -10873,7 +10873,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED,
         .split = SPLIT_SPECIAL,
     },
-
+//food
     [MOVE_GRAV_APPLE] =
     {
         .effect = EFFECT_DEFENSE_DOWN_HIT,

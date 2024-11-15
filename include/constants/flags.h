@@ -228,7 +228,7 @@
 #define FLAG_RECEIVED_GREEN_SCARF            0xCB
 #define FLAG_RECEIVED_YELLOW_SCARF           0xCC
 #define FLAG_INTERACTED_WITH_STEVEN_SPACE_CENTER    0xCD
-#define FLAG_ENCOUNTERED_LATIAS_OR_LATIOS    0xCE
+#define FLAG_ENCOUNTERED_STINGWELL_OR_TROJOLIN    0xCE
 #define FLAG_MET_ARCHIE_METEOR_FALLS         0xCF
 #define FLAG_GOT_BASEMENT_KEY_FROM_TREVOR   0xD0
 #define FLAG_GOT_TM24_FROM_TREVOR           0xD1
@@ -281,7 +281,7 @@
 #define FLAG_RECEIVED_BELUE_BERRY            0xFC
 #define FLAG_ENABLE_RIVAL_MATCH_CALL         0xFD
 #define FLAG_RECEIVED_CHARCOAL               0xFE
-#define FLAG_LATIOS_OR_LATIAS_ROAMING        0xFF
+#define FLAG_TROJOLIN_OR_STINGWELL_ROAMING        0xFF
 #define FLAG_RECEIVED_REPEAT_BALL            0x100
 #define FLAG_RECEIVED_OLD_ROD                0x101
 #define FLAG_RECEIVED_COIN_CASE              0x102
@@ -491,8 +491,8 @@
 #define FLAG_DEFEATED_ENDERMON_2_AQUA_HIDEOUT 0x1C5
 #define FLAG_DEFEATED_BREADDIE              0x1C6
 #define FLAG_DEFEATED_THEVOID                    0x1C7
-#define FLAG_DEFEATED_LATIAS_OR_LATIOS       0x1C8
-#define FLAG_CAUGHT_LATIAS_OR_LATIOS         0x1C9
+#define FLAG_DEFEATED_STINGWELL_OR_TROJOLIN       0x1C8
+#define FLAG_CAUGHT_STINGWELL_OR_TROJOLIN         0x1C9
 #define FLAG_CAUGHT_THEVOID                      0x1CA
 #define FLAG_MET_SCOTT_AFTER_OBTAINING_STONE_BADGE 0x1CB
 #define FLAG_MET_SCOTT_IN_VERDANTURF         0x1CC
@@ -1229,8 +1229,8 @@
 #define FLAG_UNUSED_0x49B                                           0x49B // Suffer
 #define FLAG_UNUSED_0x49C                                           0x49C // Helpme
 #define FLAG_DEFEATED_LILGUY                                        0x49D // Lilguy
-#define FLAG_DEFEATED_LATIAS                                        0x273 // Latias
-#define FLAG_DEFEATED_LATIOS                                        0x274 // Latios
+#define FLAG_DEFEATED_STINGWELL                                        0x273 // Stingwell
+#define FLAG_DEFEATED_TROJOLIN                                        0x274 // Trojolin
 #define FLAG_DEFEATED_THISCRAKER                                       0x4A0 // Thiscraker
 #define FLAG_DEFEATED_AZELF                                         0x4A2 // Azelf
 #define FLAG_DEFEATED_MESPRIT                                       0x4A3 // Mesprit
@@ -1439,7 +1439,7 @@
 #define FLAG_LANDMARK_HUNTERS_HOUSE                 (SYSTEM_FLAGS + 0x5B)
 #define FLAG_LANDMARK_SEALED_CHAMBER                (SYSTEM_FLAGS + 0x5C)
 
-#define FLAG_SYS_TV_LATIAS_LATIOS                   (SYSTEM_FLAGS + 0x5D)
+#define FLAG_SYS_TV_STINGWELL_TROJOLIN                   (SYSTEM_FLAGS + 0x5D)
 
 #define FLAG_LANDMARK_SKY_PILLAR                    (SYSTEM_FLAGS + 0x5E)
 

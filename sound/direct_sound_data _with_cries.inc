@@ -1903,12 +1903,12 @@ Cry_Nawffle::
 	.incbin "sound/direct_sound_samples/cries/cry_nawffle.bin"
 
 	.align 2
-Cry_Latias::
-	.incbin "sound/direct_sound_samples/cries/cry_latias.bin"
+Cry_Stingwell::
+	.incbin "sound/direct_sound_samples/cries/cry_stingwell.bin"
 
 	.align 2
-Cry_Latios::
-	.incbin "sound/direct_sound_samples/cries/cry_latios.bin"
+Cry_Trojolin::
+	.incbin "sound/direct_sound_samples/cries/cry_trojolin.bin"
 
 	.align 2
 Cry_Krakrum::
@@ -4123,12 +4123,12 @@ Cry_Hazethoth_Mega::
 	.incbin "sound/direct_sound_samples/cries/cry_hazethoth.bin"
 
 	.align 2
-Cry_Latias_Mega::
-	.incbin "sound/direct_sound_samples/cries/cry_latias.bin"
+Cry_Stingwell_Mega::
+	.incbin "sound/direct_sound_samples/cries/cry_stingwell.bin"
 
 	.align 2
-Cry_Latios_Mega::
-	.incbin "sound/direct_sound_samples/cries/cry_latios.bin"
+Cry_Trojolin_Mega::
+	.incbin "sound/direct_sound_samples/cries/cry_trojolin.bin"
 
 	.align 2
 Cry_Posswarm_Mega::

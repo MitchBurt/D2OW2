@@ -9938,17 +9938,17 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-    [ITEM_LATIASITE] =
+    [ITEM_STINGWELLITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Latiasita"),
+        .name = _("Stingwellita"),
 #else
-        .name = _("Latiasite"),
+        .name = _("Stingwellite"),
 #endif
-        .itemId = ITEM_LATIASITE,
+        .itemId = ITEM_STINGWELLITE,
         .price = 200,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
-        .description = sLatiasiteDesc,
+        .description = sStingwelliteDesc,
         .pocket = POCKET_MEGA_STONES,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -9958,7 +9958,7 @@ const struct Item gItems[] =
     [ITEM_DUSHROOMITE] =
     {
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
-        .name = _("Latiosita"),
+        .name = _("Trojolinita"),
 #else
         .name = _("Dushroomite"),
 #endif

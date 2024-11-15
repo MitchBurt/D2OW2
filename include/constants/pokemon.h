@@ -285,7 +285,7 @@
 #define FLAG_STRIKER_BOOST          (1 << 24)
 #define FLAG_BLADEMASTER_BOOST      (1 << 25)
 #define FLAG_WIND_BASED             (1 << 26)
-#define FLAG_ALCOHOL             (1 << 26)
+#define FLAG_ALCOHOL             (1 << 27)
 
 // Split defines.
 #define SPLIT_PHYSICAL  0x0

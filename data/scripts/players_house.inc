@@ -478,7 +478,7 @@ PlayersHouse_1F_EventScript_GetSSTicketAndDabboiatiTV:: @ 8292AF2
 	delay 20
 	msgbox PlayersHouse_1F_Text_DadShouldStayLonger, MSGBOX_DEFAULT
 	closemessage
-	setflag FLAG_SYS_TV_LATIAS_LATIOS
+	setflag FLAG_SYS_TV_STINGWELL_TROJOLIN
 	special TurnOnTVScreen
 	delay 60
 	compare VAR_0x8008, MALE
@@ -493,8 +493,8 @@ PlayersHouse_1F_EventScript_GetSSTicketAndDabboiatiTV:: @ 8292AF2
 	call_if_eq PlayersHouse_1F_EventScript_PlayerApproachTVForLatiFemale
 	msgbox PlayersHouse_1F_Text_LatiEmergencyNewsFlash, MSGBOX_DEFAULT
 	closemessage
-	clearflag FLAG_SYS_TV_LATIAS_LATIOS
-	setflag FLAG_LATIOS_OR_LATIAS_ROAMING
+	clearflag FLAG_SYS_TV_STINGWELL_TROJOLIN
+	setflag FLAG_TROJOLIN_OR_STINGWELL_ROAMING
 	special TurnOffTVScreen
 	compare VAR_0x8008, MALE
 	call_if_eq PlayersHouse_1F_EventScript_MomApproachPlayerAfterTVMale
@@ -514,7 +514,7 @@ PlayersHouse_1F_EventScript_GetSSTicketAndDabboiatiTV:: @ 8292AF2
 
 @ Never called.
 PlayersHouse_1F_EventScript_AirLatiBroadcast:: @ 8292C72
-	setflag FLAG_SYS_TV_LATIAS_LATIOS
+	setflag FLAG_SYS_TV_STINGWELL_TROJOLIN
 	return
 
 PlayersHouse_1F_EventScript_SetUpObjectEventVarsMale:: @ 8292C76

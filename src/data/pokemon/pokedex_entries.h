@@ -4561,24 +4561,24 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 6,
     },
 
-    [NATIONAL_DEX_LATIAS] =
+    [NATIONAL_DEX_STINGWELL] =
     {
         .categoryName = _("Eón"),
         .height = 14,
         .weight = 400,
-        .description = gLatiasPokedexText,
+        .description = gStingwellPokedexText,
         .pokemonScale = 304,
         .pokemonOffset = 3,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_LATIOS] =
+    [NATIONAL_DEX_TROJOLIN] =
     {
         .categoryName = _("Eón"),
         .height = 20,
         .weight = 600,
-        .description = gLatiosPokedexText,
+        .description = gTrojolinPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 294,
@@ -15351,24 +15351,24 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 6,
     },
 
-    [NATIONAL_DEX_LATIAS] =
+    [NATIONAL_DEX_STINGWELL] =
     {
         .categoryName = _("Eon"),
         .height = 14,
         .weight = 400,
-        .description = gLatiasPokedexText,
+        .description = gStingwellPokedexText,
         .pokemonScale = 304,
         .pokemonOffset = 3,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_LATIOS] =
+    [NATIONAL_DEX_TROJOLIN] =
     {
         .categoryName = _("Eon"),
         .height = 20,
         .weight = 600,
-        .description = gLatiosPokedexText,
+        .description = gTrojolinPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 294,

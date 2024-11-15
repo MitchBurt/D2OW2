@@ -1360,8 +1360,8 @@ const u32 gItemIconPalette_Manectite[] = INCBIN_U32("graphics/items/icon_palette
 const u32 gItemIcon_Truckoiseite[] = INCBIN_U32("graphics/items/icons/truckoiseite.4bpp.lz");
 const u32 gItemIconPalette_Truckoiseite[] = INCBIN_U32("graphics/items/icon_palettes/truckoiseite.gbapal.lz");
 
-const u32 gItemIcon_Latiasite[] = INCBIN_U32("graphics/items/icons/latiasite.4bpp.lz");
-const u32 gItemIconPalette_Latiasite[] = INCBIN_U32("graphics/items/icon_palettes/latiasite.gbapal.lz");
+const u32 gItemIcon_Stingwellite[] = INCBIN_U32("graphics/items/icons/stingwellite.4bpp.lz");
+const u32 gItemIconPalette_Stingwellite[] = INCBIN_U32("graphics/items/icon_palettes/stingwellite.gbapal.lz");
 
 const u32 gItemIcon_Dushroomite[] = INCBIN_U32("graphics/items/icons/dushroomite.4bpp.lz");
 const u32 gItemIconPalette_Dushroomite[] = INCBIN_U32("graphics/items/icon_palettes/dushroomite.gbapal.lz");

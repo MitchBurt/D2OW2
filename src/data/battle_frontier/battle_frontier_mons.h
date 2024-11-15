@@ -609,7 +609,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .abilitynum = ABILITY_RANDOM
     },
     [FRONTIER_MON_CHAIROLD] = {
-        .species = SPECIES_LATIAS,
+        .species = SPECIES_STINGWELL,
         .moves = {MOVE_DRAGON_PULSE, MOVE_MYSTICAL_FIRE, MOVE_PSYSHOCK, MOVE_ROOST    },
         .itemTableId = BATTLE_FRONTIER_ITEM_SOUL_DEW,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SP_DEFENSE,
@@ -617,7 +617,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .abilitynum = ABILITY_RANDOM
     },
     [FRONTIER_MON_SIPKING] = {
-        .species = SPECIES_LATIOS,
+        .species = SPECIES_TROJOLIN,
         .moves = {MOVE_DRAGON_PULSE, MOVE_PSYCHIC, MOVE_AIR_SLASH, MOVE_ROOST    },
         .itemTableId = BATTLE_FRONTIER_ITEM_SOUL_DEW,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SP_DEFENSE,
@@ -6120,16 +6120,16 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_ADAMANT,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_LATIAS_1] = {
-        .species = SPECIES_LATIAS,
+    [FRONTIER_MON_STINGWELL_1] = {
+        .species = SPECIES_STINGWELL,
         .moves = {MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_ICE_BEAM, MOVE_DRAGON_CLAW    },
         .itemTableId = BATTLE_FRONTIER_ITEM_LUM_BERRY,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_MODEST,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_LATIOS_1] = {
-        .species = SPECIES_LATIOS,
+    [FRONTIER_MON_TROJOLIN_1] = {
+        .species = SPECIES_TROJOLIN,
         .moves = {MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_ICE_BEAM, MOVE_DRAGON_CLAW    },
         .itemTableId = BATTLE_FRONTIER_ITEM_LUM_BERRY,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,
@@ -6208,16 +6208,16 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_QUIET,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_LATIAS_2] = {
-        .species = SPECIES_LATIAS,
+    [FRONTIER_MON_STINGWELL_2] = {
+        .species = SPECIES_STINGWELL,
         .moves = {MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_ICE_BEAM, MOVE_EARTHQUAKE    },
         .itemTableId = BATTLE_FRONTIER_ITEM_QUICK_CLAW,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK,
         .nature = NATURE_DOCILE,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_LATIOS_2] = {
-        .species = SPECIES_LATIOS,
+    [FRONTIER_MON_TROJOLIN_2] = {
+        .species = SPECIES_TROJOLIN,
         .moves = {MOVE_PSYCHIC, MOVE_THUNDERBOLT, MOVE_ICE_BEAM, MOVE_EARTHQUAKE    },
         .itemTableId = BATTLE_FRONTIER_ITEM_QUICK_CLAW,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK,
@@ -6296,16 +6296,16 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_ADAMANT,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_LATIAS_3] = {
-        .species = SPECIES_LATIAS,
+    [FRONTIER_MON_STINGWELL_3] = {
+        .species = SPECIES_STINGWELL,
         .moves = {MOVE_DRAGON_CLAW, MOVE_THUNDERBOLT, MOVE_ICE_BEAM, MOVE_EARTHQUAKE    },
         .itemTableId = BATTLE_FRONTIER_ITEM_FOCUS_BAND,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK,
         .nature = NATURE_DOCILE,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_LATIOS_3] = {
-        .species = SPECIES_LATIOS,
+    [FRONTIER_MON_TROJOLIN_3] = {
+        .species = SPECIES_TROJOLIN,
         .moves = {MOVE_DRAGON_CLAW, MOVE_THUNDERBOLT, MOVE_ICE_BEAM, MOVE_EARTHQUAKE    },
         .itemTableId = BATTLE_FRONTIER_ITEM_FOCUS_BAND,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK,
@@ -6384,16 +6384,16 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_IMPISH,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_LATIAS_4] = {
-        .species = SPECIES_LATIAS,
+    [FRONTIER_MON_STINGWELL_4] = {
+        .species = SPECIES_STINGWELL,
         .moves = {MOVE_MIST_BALL, MOVE_SHADOW_BALL, MOVE_CHARM, MOVE_REFLECT    },
         .itemTableId = BATTLE_FRONTIER_ITEM_LEFTOVERS,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_DOCILE,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_LATIOS_4] = {
-        .species = SPECIES_LATIOS,
+    [FRONTIER_MON_TROJOLIN_4] = {
+        .species = SPECIES_TROJOLIN,
         .moves = {MOVE_LUSTER_PURGE, MOVE_THUNDERBOLT, MOVE_ICE_BEAM, MOVE_DRAGON_CLAW    },
         .itemTableId = BATTLE_FRONTIER_ITEM_LUM_BERRY,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,
@@ -6736,64 +6736,64 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .nature = NATURE_ADAMANT,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_LATIAS_5] = {
-        .species = SPECIES_LATIAS,
+    [FRONTIER_MON_STINGWELL_5] = {
+        .species = SPECIES_STINGWELL,
         .moves = {MOVE_DRAGON_CLAW, MOVE_THUNDER_WAVE, MOVE_CALM_MIND, MOVE_RECOVER    },
         .itemTableId = BATTLE_FRONTIER_ITEM_BRIGHT_POWDER,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
         .nature = NATURE_MODEST,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_LATIAS_6] = {
-        .species = SPECIES_LATIAS,
+    [FRONTIER_MON_STINGWELL_6] = {
+        .species = SPECIES_STINGWELL,
         .moves = {MOVE_MIST_BALL, MOVE_DRAGON_CLAW, MOVE_ATTRACT, MOVE_THUNDER_WAVE    },
         .itemTableId = BATTLE_FRONTIER_ITEM_SHELL_BELL,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_HP,
         .nature = NATURE_MODEST,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_LATIAS_7] = {
-        .species = SPECIES_LATIAS,
+    [FRONTIER_MON_STINGWELL_7] = {
+        .species = SPECIES_STINGWELL,
         .moves = {MOVE_EARTHQUAKE, MOVE_SHADOW_BALL, MOVE_SWAGGER, MOVE_PSYCH_UP    },
         .itemTableId = BATTLE_FRONTIER_ITEM_LEFTOVERS,
         .evSpread = F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
         .nature = NATURE_ADAMANT,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_LATIAS_8] = {
-        .species = SPECIES_LATIAS,
+    [FRONTIER_MON_STINGWELL_8] = {
+        .species = SPECIES_STINGWELL,
         .moves = {MOVE_PSYCHIC, MOVE_SHADOW_BALL, MOVE_EARTHQUAKE, MOVE_AERIAL_ACE    },
         .itemTableId = BATTLE_FRONTIER_ITEM_KINGS_ROCK,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,
         .nature = NATURE_DOCILE,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_LATIOS_5] = {
-        .species = SPECIES_LATIOS,
+    [FRONTIER_MON_TROJOLIN_5] = {
+        .species = SPECIES_TROJOLIN,
         .moves = {MOVE_DRAGON_CLAW, MOVE_THUNDER_WAVE, MOVE_CALM_MIND, MOVE_RECOVER    },
         .itemTableId = BATTLE_FRONTIER_ITEM_BRIGHT_POWDER,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
         .nature = NATURE_MODEST,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_LATIOS_6] = {
-        .species = SPECIES_LATIOS,
+    [FRONTIER_MON_TROJOLIN_6] = {
+        .species = SPECIES_TROJOLIN,
         .moves = {MOVE_LUSTER_PURGE, MOVE_SHADOW_BALL, MOVE_DRAGON_CLAW, MOVE_THUNDER_WAVE    },
         .itemTableId = BATTLE_FRONTIER_ITEM_SHELL_BELL,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_ATTACK,
         .nature = NATURE_DOCILE,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_LATIOS_7] = {
-        .species = SPECIES_LATIOS,
+    [FRONTIER_MON_TROJOLIN_7] = {
+        .species = SPECIES_TROJOLIN,
         .moves = {MOVE_EARTHQUAKE, MOVE_SHADOW_BALL, MOVE_DRAGON_DANCE, MOVE_RECOVER    },
         .itemTableId = BATTLE_FRONTIER_ITEM_BRIGHT_POWDER,
         .evSpread = F_EV_SPREAD_DEFENSE | F_EV_SPREAD_HP,
         .nature = NATURE_ADAMANT,
         .abilitynum = ABILITY_RANDOM
     },
-    [FRONTIER_MON_LATIOS_8] = {
-        .species = SPECIES_LATIOS,
+    [FRONTIER_MON_TROJOLIN_8] = {
+        .species = SPECIES_TROJOLIN,
         .moves = {MOVE_PSYCHIC, MOVE_SHADOW_BALL, MOVE_EARTHQUAKE, MOVE_AERIAL_ACE    },
         .itemTableId = BATTLE_FRONTIER_ITEM_KINGS_ROCK,
         .evSpread = F_EV_SPREAD_SP_ATTACK | F_EV_SPREAD_SPEED | F_EV_SPREAD_ATTACK,

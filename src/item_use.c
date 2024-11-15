@@ -1039,7 +1039,7 @@ static u32 GetBallThrowableState(void)
         return BALL_THROW_UNABLE_NO_ROOM;
     /* else if (HasCaughtMonInRegion(gMapHeader.regionMapSectionId) == TRUE)
         return BALL_THROW_UNABLE_NONE_LEFT; */
-    else if (gNuzlockeCannotCatch == 1){
+    else if (gNuzlockeCannotCatch == 1 || gNuzlockeCannotCatch == 2){
         return BALL_THROW_UNABLE_NONE_LEFT;
    }
 

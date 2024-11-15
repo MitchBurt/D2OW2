@@ -953,8 +953,8 @@ void BattleSetup_StartScriptedWildBattle(void)
     case SPECIES_TERRAKION:
     case SPECIES_RISKPOPOLY:
     case SPECIES_VOLCANION:
-    case SPECIES_LATIOS:
-    case SPECIES_LATIAS:
+    case SPECIES_TROJOLIN:
+    case SPECIES_STINGWELL:
         CreateBattleStartTask(B_TRANSITION_BLUR, MUS_RG_VS_LEGEND);
         gBattleTypeFlags = BATTLE_TYPE_LEGENDARY;
         CreateBattleStartTask(GetWildBattleTransition(), 0);

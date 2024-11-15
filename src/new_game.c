@@ -447,7 +447,7 @@ void NewGameInitData(void)
         ResetGameStats();
         ResetPokedex();
         ClearPokedexFlags();
-        SetMoney(&gSaveBlock1Ptr->money, 3000);
+        SetMoney(&gSaveBlock1Ptr->money, money);
         SetCoins(0);
         ResetPokemonStorageSystem();
         NewGameInitPCItems();
@@ -477,13 +477,13 @@ void NewGameInitData(void)
             gSaveBlock1Ptr->dexCaught[i] = dexCaught[i];
             gSaveBlock1Ptr->dexSeen[i] = dexSeen[i];
         }
-
+/*
         //PC Items
         for (i = 0; i < PC_ITEMS_COUNT; i++)
         {
             if(pcItemsplus[i].quantity != ITEM_NONE && pcItemsplus[i].quantity != ITEM_MASTER_BALL)
 				gSaveBlock1Ptr->pcItems[i] = pcItemsplus[i];
-        }
+        }*/
 
         //TMs
         for (i = 0; i < NUM_TMS; i++)

@@ -15,7 +15,7 @@
   "connections": 0,
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_LATIAS",
+      "graphics_id": "OBJ_EVENT_GFX_STINGWELL",
       "x": 11,
       "y": 9,
       "elevation": 3,
@@ -24,11 +24,11 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SouthernIsland_Interior_EventScript_Latias",
-      "flag": "FLAG_DEFEATED_LATIAS"
+      "script": "SouthernIsland_Interior_EventScript_Stingwell",
+      "flag": "FLAG_DEFEATED_STINGWELL"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_LATIOS",
+      "graphics_id": "OBJ_EVENT_GFX_TROJOLIN",
       "x": 15,
       "y": 9,
       "elevation": 3,
@@ -37,8 +37,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SouthernIsland_Interior_EventScript_Latios",
-      "flag": "FLAG_DEFEATED_LATIOS"
+      "script": "SouthernIsland_Interior_EventScript_Trojolin",
+      "flag": "FLAG_DEFEATED_TROJOLIN"
     }
   ],
   "warp_events": [

@@ -596,7 +596,7 @@ $(OBJEVENTGFXDIR)/pokemon/sortafurry.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/pokemon/krakrum.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
-$(OBJEVENTGFXDIR)/pokemon/latias_latios.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/pokemon/stingwell_trojolin.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
 $(OBJEVENTGFXDIR)/pokemon/helpme.4bpp: %.4bpp: %.png
@@ -4023,7 +4023,7 @@ $(OBJEVENTGFXDIR)/pokemon/sortafurry.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/pokemon/krakrum.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
-$(OBJEVENTGFXDIR)/pokemon/latias_latios.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/pokemon/stingwell_trojolin.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
 $(OBJEVENTGFXDIR)/pokemon/helpme.4bpp: %.4bpp: %.png

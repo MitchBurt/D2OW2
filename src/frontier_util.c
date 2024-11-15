@@ -135,7 +135,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
                 .moves = {MOVE_THUNDERBOLT, MOVE_CALM_MIND, MOVE_REFLECT, MOVE_REST},
             },
             {
-                .species = SPECIES_LATIOS,
+                .species = SPECIES_TROJOLIN,
                 .heldItem = ITEM_BRIGHT_POWDER,
                 .fixedIV = 31,
                 .nature = NATURE_MODEST,
@@ -200,7 +200,7 @@ static const struct FrontierBrainMon sFrontierBrainsMons[][2][FRONTIER_PARTY_SIZ
                 .moves = {MOVE_PSYCHIC, MOVE_METEOR_MASH, MOVE_EARTHQUAKE, MOVE_PROTECT},
             },
             {
-                .species = SPECIES_LATIAS,
+                .species = SPECIES_STINGWELL,
                 .heldItem = ITEM_CHESTO_BERRY,
                 .fixedIV = 31,
                 .nature = NATURE_MODEST,

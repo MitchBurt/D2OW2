@@ -1915,12 +1915,12 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x88,
         .y_offset = 0,
     },
-    [SPECIES_LATIAS] =
+    [SPECIES_STINGWELL] =
     {
         .size = 0x88,
         .y_offset = 8,
     },
-    [SPECIES_LATIOS] =
+    [SPECIES_TROJOLIN] =
     {
         .size = 0x88,
         .y_offset = 0,
@@ -4687,12 +4687,12 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_LATIAS_MEGA] =
+    [SPECIES_STINGWELL_MEGA] =
     {
         .size = 0,
         .y_offset = 0,
     },
-    [SPECIES_LATIOS_MEGA] =
+    [SPECIES_TROJOLIN_MEGA] =
     {
         .size = 0,
         .y_offset = 0,

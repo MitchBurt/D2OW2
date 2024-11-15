@@ -82,6 +82,7 @@ Start_EventScript_Game_Level_Hard::
 	clearflag FLAG_NORMAL_MODE
 	setflag FLAG_HARD_MODE
 	setflag FLAG_NUZLOCKE
+	setflag FLAG_GYM_SHUFFLE_MODE
 	goto Start_EventScript_Difficulty_Save
 	end
 	

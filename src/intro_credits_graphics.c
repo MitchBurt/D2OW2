@@ -47,10 +47,10 @@ static const u16 gIntro2MayPalette[] = INCBIN_U16("graphics/intro/intro2_may.gba
 static const u16 gUnknown_085F3490[0xF0] = {0};
 static const u32 gIntro2MayTiles[] = INCBIN_U32("graphics/intro/intro2_may.4bpp.lz");
 static const u32 gIntro2BicycleTiles[] = INCBIN_U32("graphics/intro/intro2_bicycle.4bpp.lz");
-static const u16 gIntro2LatiosPalette[] = INCBIN_U16("graphics/intro/intro2_latios.gbapal");
-static const u32 gIntro2LatiosTiles[] = INCBIN_U32("graphics/intro/intro2_latios.4bpp.lz");
-static const u16 gIntro2LatiasPalette[] = INCBIN_U16("graphics/intro/intro2_latias.gbapal");
-static const u32 gIntro2LatiasTiles[] = INCBIN_U32("graphics/intro/intro2_latias.4bpp.lz");
+static const u16 gIntro2TrojolinPalette[] = INCBIN_U16("graphics/intro/intro2_trojolin.gbapal");
+static const u32 gIntro2TrojolinTiles[] = INCBIN_U32("graphics/intro/intro2_trojolin.4bpp.lz");
+static const u16 gIntro2StingwellPalette[] = INCBIN_U16("graphics/intro/intro2_stingwell.gbapal");
+static const u32 gIntro2StingwellTiles[] = INCBIN_U32("graphics/intro/intro2_stingwell.4bpp.lz");
 
 static void sub_817B62C(struct Sprite *sprite);
 static void nullsub_65(struct Sprite *sprite);
@@ -649,7 +649,7 @@ const struct CompressedSpriteSheet gUnknown_085F5354[] =
 static const struct CompressedSpriteSheet gUnknown_085F5364[] =
 {
     {
-        .data = gIntro2LatiosTiles,
+        .data = gIntro2TrojolinTiles,
         .size = 0x1000,
         .tag = 1004
     },
@@ -659,7 +659,7 @@ static const struct CompressedSpriteSheet gUnknown_085F5364[] =
 static const struct CompressedSpriteSheet gUnknown_085F5374[] =
 {
     {
-        .data = gIntro2LatiasTiles,
+        .data = gIntro2StingwellTiles,
         .size = 0x1000,
         .tag = 1005
     },
@@ -670,8 +670,8 @@ const struct SpritePalette gUnknown_085F5384[] =
 {
     { .data = gIntro2BrendanPalette, .tag = 1002 },
     { .data = gIntro2MayPalette,     .tag = 1003 },
-    { .data = gIntro2LatiosPalette,  .tag = 1004 },
-    { .data = gIntro2LatiasPalette,  .tag = 1005 },
+    { .data = gIntro2TrojolinPalette,  .tag = 1004 },
+    { .data = gIntro2StingwellPalette,  .tag = 1005 },
     {}
 };
 
@@ -1098,10 +1098,10 @@ static void sub_817B8E8(struct Sprite* sprite)
 static u8 sub_817B948(s16 a, s16 b)
 {
     u8 sprite = CreateSprite(&gUnknown_085F528C, a - 32, b, 5);
-    u8 latios = CreateSprite(&gUnknown_085F528C, a + 32, b, 6);
-    gSprites[latios].data[0] = sprite;
-    StartSpriteAnim(&gSprites[latios], 1);
-    gSprites[latios].callback = &sub_817B8E8;
+    u8 trojolin = CreateSprite(&gUnknown_085F528C, a + 32, b, 6);
+    gSprites[trojolin].data[0] = sprite;
+    StartSpriteAnim(&gSprites[trojolin], 1);
+    gSprites[trojolin].callback = &sub_817B8E8;
     return sprite;
 }
 

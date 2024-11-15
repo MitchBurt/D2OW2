@@ -15206,7 +15206,7 @@ static const u8 sNawffleTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sLatiasTMHMLearnset[] =
+static const u8 sStingwellTMHMLearnset[] =
 {
     TMHM(TM02_DRAGON_CLAW),
     TMHM(TM03_WATER_PULSE),
@@ -15264,7 +15264,7 @@ static const u8 sLatiasTMHMLearnset[] =
     0xFF,
 };
 
-static const u8 sLatiosTMHMLearnset[] =
+static const u8 sTrojolinTMHMLearnset[] =
 {
     TMHM(TM02_DRAGON_CLAW),
     TMHM(TM03_WATER_PULSE),
@@ -36620,8 +36620,8 @@ const u8 *const gTMHMLearnsets[] =
     [SPECIES_BEERIO] = sBeerioTMHMLearnset,
     [SPECIES_REGICE] = sRegiceTMHMLearnset,
     [SPECIES_NAWFFLE] = sNawffleTMHMLearnset,
-    [SPECIES_LATIAS] = sLatiasTMHMLearnset,
-    [SPECIES_LATIOS] = sLatiosTMHMLearnset,
+    [SPECIES_STINGWELL] = sStingwellTMHMLearnset,
+    [SPECIES_TROJOLIN] = sTrojolinTMHMLearnset,
     [SPECIES_KRAKRUM] = sKrakrumTMHMLearnset,
     [SPECIES_NOIRNET] = sNoirnetTMHMLearnset,
     [SPECIES_TOWERMASTA] = sTowermastaTMHMLearnset,

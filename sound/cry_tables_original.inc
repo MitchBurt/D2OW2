@@ -382,8 +382,8 @@ gCryTable:: @ 869DCF4
 	cry Cry_Beerio
 	cry Cry_Regice
 	cry Cry_Nawffle
-	cry Cry_Latias
-	cry Cry_Latios
+	cry Cry_Stingwell
+	cry Cry_Trojolin
 	cry Cry_Krakrum
 	cry Cry_Noirnet
 	cry Cry_Towermasta
@@ -942,8 +942,8 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Elechair_Mega
 	cry_not Cry_Drunkabus_Mega
 	cry_not Cry_Hazethoth_Mega
-	cry_not Cry_Latias_Mega
-	cry_not Cry_Latios_Mega
+	cry_not Cry_Stingwell_Mega
+	cry_not Cry_Trojolin_Mega
 	cry_not Cry_Posswarm_Mega
 	cry_not Cry_Truckoise_Mega
 	cry_not Cry_Bloknock_Mega
@@ -1658,8 +1658,8 @@ gCryTable2:: @ 869EF24
 	cry2 Cry_Beerio
 	cry2 Cry_Regice
 	cry2 Cry_Nawffle
-	cry2 Cry_Latias
-	cry2 Cry_Latios
+	cry2 Cry_Stingwell
+	cry2 Cry_Trojolin
 	cry2 Cry_Krakrum
 	cry2 Cry_Noirnet
 	cry2 Cry_Towermasta
@@ -2218,8 +2218,8 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Elechair_Mega
 	cry2_not Cry_Drunkabus_Mega
 	cry2_not Cry_Hazethoth_Mega
-	cry2_not Cry_Latias_Mega
-	cry2_not Cry_Latios_Mega
+	cry2_not Cry_Stingwell_Mega
+	cry2_not Cry_Trojolin_Mega
 	cry2_not Cry_Posswarm_Mega
 	cry2_not Cry_Truckoise_Mega
 	cry2_not Cry_Bloknock_Mega

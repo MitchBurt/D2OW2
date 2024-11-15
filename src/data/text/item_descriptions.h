@@ -1060,7 +1060,7 @@ static const u8 sCleanseTagDesc[] = _(
 static const u8 sSoulDewDesc[] = _(
     "Al llevarlo, suben\n"
     "el At. y la Def. Esp.\n"
-    "de Latios y Latias.");
+    "de Trojolin y Stingwell.");
 
 static const u8 sDeepSeaToothDesc[] = _(
     "Al llevarlo, sube el\n"
@@ -2627,15 +2627,15 @@ static const u8 sTruckoiseiteDesc[] = _(
     "megaevolucionar a\n"
     "Truckoise.");
 
-static const u8 sLatiasiteDesc[] = _(
+static const u8 sStingwelliteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Latias.");
+    "Stingwell.");
 
 static const u8 sDushroomiteDesc[] = _(
     "Piedra que permite\n"
     "megaevolucionar a\n"
-    "Latios.");
+    "Trojolin.");
 
 static const u8 sBaitankiteDesc[] = _(
     "Piedra que permite\n"
@@ -2825,8 +2825,8 @@ static const u8 sStrangeSouvenirDesc[] = _(
     
 static const u8 sEonFluteDesc[] = _(
     "Flauta capaz de\n"
-    "invocar a Latias\n"
-    "o Latios.");
+    "invocar a Stingwell\n"
+    "o Trojolin.");
 
 static const u8 sLureDesc[] = _(
     "Makes Pokémon more\n"
@@ -3931,7 +3931,7 @@ static const u8 sCleanseTagDesc[] = _(
 static const u8 sSoulDewDesc[] = _(
     "Hold item: raises\n"
     "Sp. Atk & Sp. Def of\n"
-    "Latios & Latias.");
+    "Trojolin & Stingwell.");
 
 static const u8 sDeepSeaToothDesc[] = _(
     "A hold item that\n"
@@ -5860,7 +5860,7 @@ static const u8 sTruckoiseiteDesc[] = _(
     "NOPE to Mega\n"
     "Evolve in battle.");
 
-static const u8 sLatiasiteDesc[] = _(
+static const u8 sStingwelliteDesc[] = _(
     "This stone enables\n"
     "NOPE to Mega\n"
     "Evolve in battle.");
@@ -6068,8 +6068,8 @@ static const u8 sStrangeSouvenirDesc[] = _(
     
 static const u8 sEonFluteDesc[] = _(
     "A flute that can\n"
-    "summon Latias or\n"
-    "Latios.");
+    "summon Stingwell or\n"
+    "Trojolin.");
 
 static const u8 sLureDesc[] = _(
     "Makes Pokémon more\n"

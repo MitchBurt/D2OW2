@@ -8,8 +8,8 @@ Debug_ShowFieldMessageStringVar4::
 Debug_CheatStart::
 	lockall
 	setvar VAR_DEX_UPGRADE_JOHTO_STARTER_STATE, 5
-	clearflag FLAG_DEFEATED_LATIAS
-	clearflag FLAG_DEFEATED_LATIOS
+	clearflag FLAG_DEFEATED_STINGWELL
+	clearflag FLAG_DEFEATED_TROJOLIN
 	closemessage
 	release
 	end

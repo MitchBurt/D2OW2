@@ -729,10 +729,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
-        .abilities = {ABILITY_FLUFFY, ABILITY_FLUFFY},
-        #ifdef BATTLE_ENGINE
-            .abilityHidden = ABILITY_SAND_RUSH,
-        #endif
+        .abilities = {ABILITY_STRIKER, ABILITY_STRIKER},
         .bodyColor = BODY_COLOR_YELLOW,
         .noFlip = FALSE,
     },
@@ -1080,13 +1077,8 @@ const struct BaseStats gBaseStats[] =
         .baseSpeed     = 70,
         .baseSpAttack  = 110,
         .baseSpDefense = 80,
-        #if P_UPDATED_TYPES >= GEN_6
-            .type1 = TYPE_PSYCHIC,
-            .type2 = TYPE_PSYCHIC,
-        #else
-            .type1 = TYPE_PSYCHIC,
-            .type2 = TYPE_PSYCHIC,
-        #endif
+        .type1 = TYPE_PSYCHIC,
+        .type2 = TYPE_COSMIC,
         .catchRate = 170,
         .expYield = 95,
         .evYield_HP        = 2,
@@ -4502,7 +4494,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_FLYING,
         .eggGroup2 = EGG_GROUP_FLYING,
-        .abilities = {ABILITY_EARTH_EATER, ABILITY_NONE},
+        .abilities = {ABILITY_EARTH_EATER, ABILITY_STRIKER},
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
     },
@@ -6080,6 +6072,7 @@ const struct BaseStats gBaseStats[] =
         .abilities = {ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD},
         .bodyColor = BODY_COLOR_YELLOW,
         .noFlip = FALSE,
+        .flags = F_FOOD,
     },
 
     [SPECIES_SYSTANIC] =
@@ -6547,7 +6540,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_SLOW,
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
-        .abilities = {ABILITY_ROCK_HEAD, ABILITY_NONE},
+        .abilities = {ABILITY_STRIKER, ABILITY_STRIKER},
         .abilityHidden = ABILITY_NO_GUARD,
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
@@ -6845,6 +6838,7 @@ const struct BaseStats gBaseStats[] =
         #endif
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
+        .flags = F_FOOD,
     },
 
     [SPECIES_VERYBERRY] =
@@ -6872,6 +6866,7 @@ const struct BaseStats gBaseStats[] =
         #endif
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
+        .flags = F_FOOD,
     },
 
     [SPECIES_INCREDALEN] =
@@ -6897,6 +6892,7 @@ const struct BaseStats gBaseStats[] =
         .abilityHidden = ABILITY_UNBURDEN,
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
+        .flags = F_FOOD,
     },
 
     [SPECIES_COOKLET] =
@@ -10171,58 +10167,53 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_LATIAS] =
+    [SPECIES_STINGWELL] =
     {
-        .baseHP        = 80,
-        .baseAttack    = 80,
-        .baseDefense   = 90,
-        .baseSpeed     = 110,
-        .baseSpAttack  = 110,
-        .baseSpDefense = 130,
-        .type1 = TYPE_DRAGON,
-        .type2 = TYPE_PSYCHIC,
+        .baseHP        = 90,
+        .baseAttack    = 150,
+        .baseDefense   = 100,
+        .baseSpeed     = 145,
+        .baseSpAttack  = 15,
+        .baseSpDefense = 100,
+        .type1 = TYPE_BUG,
+        .type2 = TYPE_BUG,
         .catchRate = 3,
         .expYield = 270,
         .evYield_SpDefense = 3,
-        .item1 = ITEM_LATIASITE,
-        .item2 = ITEM_LATIASITE,
         .genderRatio = MON_FEMALE,
         .eggCycles = 120,
         .friendship = 90,
         .growthRate = GROWTH_SLOW,
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
-        .abilities = {ABILITY_TELEPATHY, ABILITY_NONE},
+        .abilities = {ABILITY_SWARM, ABILITY_NONE},
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
 		.flags = F_GROUND_INMUNITY,
     },
 
-    [SPECIES_LATIOS] =
+    [SPECIES_TROJOLIN] =
     {
-        .baseHP        = 80,
-        .baseAttack    = 90,
-        .baseDefense   = 80,
-        .baseSpeed     = 110,
-        .baseSpAttack  = 130,
-        .baseSpDefense = 110,
-        .type1 = TYPE_DRAGON,
-        .type2 = TYPE_PSYCHIC,
+        .baseHP        = 90,
+        .baseAttack    = 150,
+        .baseDefense   = 100,
+        .baseSpeed     = 145,
+        .baseSpAttack  = 15,
+        .baseSpDefense = 100,
+        .type1 = TYPE_FIGHTING,
+        .type2 = TYPE_FIGHTING,
         .catchRate = 3,
         .expYield = 270,
         .evYield_SpAttack  = 3,
-        .item1 = ITEM_DUSHROOMITE,
-        .item2 = ITEM_DUSHROOMITE,
         .genderRatio = MON_MALE,
         .eggCycles = 120,
         .friendship = 90,
         .growthRate = GROWTH_SLOW,
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
-        .abilities = {ABILITY_TELEPATHY, ABILITY_NONE},
+        .abilities = {ABILITY_JUSTICE_FISTS, ABILITY_NONE},
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
-		.flags = F_GROUND_INMUNITY,
     },
 
     [SPECIES_KRAKRUM] =
@@ -25854,7 +25845,7 @@ const struct BaseStats gBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_LATIAS_MEGA] =
+    [SPECIES_STINGWELL_MEGA] =
     {
         .baseHP        = 80,
         .baseAttack    = 100,
@@ -25880,7 +25871,7 @@ const struct BaseStats gBaseStats[] =
 		.flags = F_GROUND_INMUNITY,
     },
 
-    [SPECIES_LATIOS_MEGA] =
+    [SPECIES_TROJOLIN_MEGA] =
     {
         .baseHP        = 80,
         .baseAttack    = 130,
@@ -43746,7 +43737,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .flags = F_FOOD,
     },
 
-    [SPECIES_LATIAS] =
+    [SPECIES_STINGWELL] =
     {
         .baseHP        = 80,
         .baseAttack    = 80,
@@ -43759,8 +43750,8 @@ const struct BaseStats gVanillaBaseStats[] =
         .catchRate = 3,
         .expYield = 270,
         .evYield_SpDefense = 3,
-        .item1 = ITEM_LATIASITE,
-        .item2 = ITEM_LATIASITE,
+        .item1 = ITEM_STINGWELLITE,
+        .item2 = ITEM_STINGWELLITE,
         .genderRatio = MON_FEMALE,
         .eggCycles = 120,
         .friendship = 90,
@@ -43773,7 +43764,7 @@ const struct BaseStats gVanillaBaseStats[] =
 		.flags = F_GROUND_INMUNITY,
     },
 
-    [SPECIES_LATIOS] =
+    [SPECIES_TROJOLIN] =
     {
         .baseHP        = 80,
         .baseAttack    = 90,
@@ -59454,7 +59445,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .noFlip = FALSE,
     },
 
-    [SPECIES_LATIAS_MEGA] =
+    [SPECIES_STINGWELL_MEGA] =
     {
         .baseHP        = 80,
         .baseAttack    = 100,
@@ -59480,7 +59471,7 @@ const struct BaseStats gVanillaBaseStats[] =
 		.flags = F_GROUND_INMUNITY,
     },
 
-    [SPECIES_LATIOS_MEGA] =
+    [SPECIES_TROJOLIN_MEGA] =
     {
         .baseHP        = 80,
         .baseAttack    = 130,
