@@ -169,11 +169,8 @@ static const struct MenuAction gPCText_ItemPCOptionsText[] =
     { gText_Cancel, ItemStorage_Exit }
 };
 
-static const struct ItemSlot gNewGamePCItems[] =
-{
-    { ITEM_POTION, 1 },
-    { ITEM_NONE, 0 }
-};
+struct ItemSlot gNewGamePCItems[];
+
 
 const struct MenuAction gMailboxMailOptions[] =
 {
@@ -308,8 +305,8 @@ void NewGameInitPCItems(void)
 {
     u8 i;
     // because Game Freak don't know how to use a struct or a 2d array
-   //for(i = 0, ClearItemSlots(gSaveBlock1Ptr->pcItems, ARRAY_COUNT(gSaveBlock1Ptr->pcItems)); NEW_GAME_PC_ITEMS(i, PC_ITEM_ID) && NEW_GAME_PC_ITEMS(i, PC_QUANTITY) &&
-       // AddPCItem(NEW_GAME_PC_ITEMS(i, PC_ITEM_ID), NEW_GAME_PC_ITEMS(i, PC_QUANTITY)) == TRUE; i++);
+    for(i = 0, ClearItemSlots(gSaveBlock1Ptr->pcItems, ARRAY_COUNT(gSaveBlock1Ptr->pcItems)); NEW_GAME_PC_ITEMS(i, PC_ITEM_ID) && NEW_GAME_PC_ITEMS(i, PC_QUANTITY) &&
+        AddPCItem(NEW_GAME_PC_ITEMS(i, PC_ITEM_ID), NEW_GAME_PC_ITEMS(i, PC_QUANTITY)) == TRUE; i++);
 }
 
 void BedroomPC(void)
