@@ -41,6 +41,7 @@
 #include "decoration_inventory.h"
 #include "secret_base.h"
 #include "player_pc.h"
+#include "player_pc.c"
 #include "field_specials.h"
 #include "berry_powder.h"
 #include "mevent.h"
