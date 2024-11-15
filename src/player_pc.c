@@ -308,7 +308,7 @@ void NewGameInitPCItems(void)
 {
     u8 i;
     // because Game Freak don't know how to use a struct or a 2d array
-   for(i = 0, gSaveBlock1Ptr->pcItems(i, PC_ITEM_ID) && gSaveBlock1Ptr->pcItems(i, PC_QUANTITY) &&
+   for(i = 0, ClearItemSlots(gSaveBlock1Ptr->pcItems, ARRAY_COUNT(gSaveBlock1Ptr->pcItems)); gSaveBlock1Ptr->pcItems(i, PC_ITEM_ID) && gSaveBlock1Ptr->pcItems(i, PC_QUANTITY) &&
         AddPCItem(gSaveBlock1Ptr->pcItems(i, PC_ITEM_ID), gSaveBlock1Ptr->pcItems(i, PC_QUANTITY)) == TRUE; i++);
 }
 
