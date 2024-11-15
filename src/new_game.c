@@ -486,10 +486,10 @@ void NewGameInitData(void)
         }
 
         //PC Items
-        for (i = 0; i < PC_ITEMS_COUNT; i++)
-        {
-            gSaveBlock1Ptr->pcItems[i] = pcItemsplus[i];
-        }
+       // for (i = 0; i < PC_ITEMS_COUNT; i++)
+       // {
+       //     gSaveBlock1Ptr->pcItems[i] = pcItemsplus[i];
+        //}
 
         //TMs
         for (i = 0; i < NUM_TMS; i++)
