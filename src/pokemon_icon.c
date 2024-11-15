@@ -2567,7 +2567,7 @@ u8 CreateMonIcon(u16 species, void (*callback)(struct Sprite *), s16 x, s16 y, u
     };
 
     if (species > NUM_SPECIES)
-        Template.paletteTag = POKE_ICON_BASE_PAL_TAG;
+        iconTemplate.paletteTag = POKE_ICON_BASE_PAL_TAG;
     else if (SpeciesHasGenderDifference[species] && GetGenderFromSpeciesAndPersonality(species, personality) == MON_FEMALE)
         iconTemplate.paletteTag = POKE_ICON_BASE_PAL_TAG + gMonIconPaletteIndicesFemale[species];
 
