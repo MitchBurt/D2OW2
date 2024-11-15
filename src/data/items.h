@@ -5001,7 +5001,7 @@ const struct Item gItems[] =
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
         .name = _("Wailmegadera"),
 #else
-        .name = _("Shrimpot Pail"),
+        .name = _("Wailmer pail"),
 #endif
         .itemId = ITEM_SHRIMPOT_PAIL,
         .price = 0,

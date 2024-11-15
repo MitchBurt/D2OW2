@@ -254,7 +254,7 @@ BerryTree_Text_BerryLeftUnpicked: @ 82746CB
 
 BerryTree_Text_WantToWater: @ 82746E4
 	.string "Want to water the {STR_VAR_1} with the\n"
-	.string "Shrimpot Pail?$"
+	.string "Wailmer pail?$"
 
 BerryTree_Text_WateredTheBerry: @ 8274710
 	.string "{PLAYER} watered the {STR_VAR_1}.$"
