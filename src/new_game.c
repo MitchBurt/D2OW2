@@ -460,6 +460,11 @@ void NewGameInitData(void)
         NewGameInitPCItems();
         memset(&gSaveBlock2Ptr->unlockedQuests, 0, sizeof(gSaveBlock2Ptr->unlockedQuests));
         memset(&gSaveBlock2Ptr->completedQuests, 0, sizeof(gSaveBlock2Ptr->completedQuests));
+    
+    for (i = 0; i < PC_ITEMS_COUNT; i++)
+        {
+            pcItemsplus[i] = gSaveBlock1Ptr->pcItems[i];
+        }
     }
     else{
         SetMoney(&gSaveBlock1Ptr->money, money);
@@ -486,10 +491,6 @@ void NewGameInitData(void)
         }
 
         //PC Items
-        for (i = 0; i < PC_ITEMS_COUNT; i++)
-        {
-            pcItemsplus[i] = gSaveBlock1Ptr->pcItems[i];
-        }
 
         //TMs
         for (i = 0; i < NUM_TMS; i++)
