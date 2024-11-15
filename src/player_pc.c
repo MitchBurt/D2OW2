@@ -169,7 +169,7 @@ static const struct MenuAction gPCText_ItemPCOptionsText[] =
     { gText_Cancel, ItemStorage_Exit }
 };
 
-struct ItemSlot gNewGamePCItems[];
+struct ItemSlot gNewGamePCItems[PC_ITEMS_COUNT];
 
 
 const struct MenuAction gMailboxMailOptions[] =
