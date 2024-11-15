@@ -41,7 +41,6 @@
 #include "decoration_inventory.h"
 #include "secret_base.h"
 #include "player_pc.h"
-#include "player_pc.c"
 #include "field_specials.h"
 #include "berry_powder.h"
 #include "mevent.h"
@@ -460,7 +459,7 @@ void NewGameInitData(void)
         ResetPokemonStorageSystem();
         for (i = 0; i < PC_ITEMS_COUNT; i++)
         {
-            gNewGamePCItems[i] = gSaveBlock1Ptr->pcItems[i];
+            pcItemsplus[i] = gSaveBlock1Ptr->pcItems[i];
         }
         
         NewGameInitPCItems();
