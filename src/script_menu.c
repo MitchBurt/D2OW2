@@ -865,6 +865,7 @@ static const struct ListMenuItem sSet0[] =
     {sText_Surprise, 15},
     {gText_City_01, 0},
     {gText_City_03, 1},
+    {gText_City_02, 2},
     {gText_City_04, 3},
     {gText_City_05, 4},
     {gText_City_06, 5},
@@ -877,7 +878,6 @@ static const struct ListMenuItem sSet0[] =
     {gText_City_13, 12},
     {gText_City_14, 13},
     {gText_City_15, 14},
-    {gText_City_02, 2},
 };
 
 //Starter Selection -------------------------------------------------------------------------

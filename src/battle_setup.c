@@ -485,7 +485,6 @@ void BattleSetup_StartWildBattle(void)
         varToCheck = 0;
         bitToCheck = 15;   
         break;
-        
     case MAPSEC_ROUTE_101:
         varToCheck = 1;
         bitToCheck = 0;
@@ -550,7 +549,6 @@ void BattleSetup_StartWildBattle(void)
         varToCheck = 1;
         bitToCheck = 15;
         break;
-        
     case MAPSEC_ROUTE_117:
         varToCheck = 2;
         bitToCheck = 0;
@@ -615,7 +613,6 @@ void BattleSetup_StartWildBattle(void)
         varToCheck = 2;
         bitToCheck = 15;
         break;
-
     case MAPSEC_ROUTE_133:
         varToCheck = 3;
         bitToCheck = 0;
@@ -680,7 +677,6 @@ void BattleSetup_StartWildBattle(void)
         varToCheck = 3;
         bitToCheck = 15;
         break;
-        
     case MAPSEC_CAVE_OF_ORIGIN:
         varToCheck = 4;
         bitToCheck = 0;
@@ -724,6 +720,15 @@ void BattleSetup_StartWildBattle(void)
     case MAPSEC_ALTERING_CAVE:
         varToCheck = 4;
         bitToCheck = 10;
+    case  MAPSEC_SKY_PILLAR:
+        varToCheck = 4;
+        bitToCheck = 11;
+    case  MAPSEC_BERRY_FOREST:
+        varToCheck = 4;
+        bitToCheck = 12;
+    case  MAPSEC_KINDLE_ROAD:
+        varToCheck = 4;
+        bitToCheck = 13;
     default:
         return 0;
     }
