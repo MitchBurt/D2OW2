@@ -2716,7 +2716,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_STUFFUL"
+                "species": "SPECIES_PARSLITO"
               },
               {
                 "min_level": 5,
@@ -2741,12 +2741,12 @@
               {
                 "min_level": 5,
                 "max_level": 10,
-                "species": "SPECIES_PARSLITO_SANDY_CLOAK"
+                "species": "SPECIES_PARSLITO"
               },
               {
                 "min_level": 15,
                 "max_level": 20,
-                "species": "SPECIES_PARSLITO_TRASH_CLOAK"
+                "species": "SPECIES_PARSLITO"
               },
               {
                 "min_level": 15,
@@ -2756,7 +2756,7 @@
               {
                 "min_level": 15,
                 "max_level": 20,
-                "species": "SPECIES_APPLIN"
+                "species": "SPECIES_PARSLITO"
               }
             ]
           }

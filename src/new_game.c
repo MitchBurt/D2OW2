@@ -418,7 +418,13 @@ void NewGameInitData(void)
 
     if (gSaveFileStatus == SAVE_STATUS_EMPTY || gSaveFileStatus == SAVE_STATUS_CORRUPT)
         RtcReset();
-
+        //PC Items
+    
+    for (i = 0; i < PC_ITEMS_COUNT; i++)
+        {
+            pcItemsplus[i] = gSaveBlock1Ptr->pcItems[i];
+        }
+        
     gDifferentSaveFile = 1;
     gSaveBlock2Ptr->encryptionKey = 0;
     //ZeroPlayerPartyMons();
@@ -458,7 +464,7 @@ void NewGameInitData(void)
         SetCoins(0);
         for (i = 0; i < PC_ITEMS_COUNT; i++)
         {
-            gSaveBlock1Ptr->pcItems[i] = gSaveBlock1Ptr->pcItems[i];
+            pcItemsplus[i] = gSaveBlock1Ptr->pcItems[i];
         }
         ResetPokemonStorageSystem();
         
@@ -582,6 +588,10 @@ void NewGameInitData(void)
 
         VarSet(VAR_NEW_GAME_PLUS_COUNT, newgamepluscount);
         FlagSet(FLAG_NEW_GAME_PLUS);
+    }
+    for (i = 0; i < PC_ITEMS_COUNT; i++)
+    {
+        pcItemsplus[i] = gSaveBlock1Ptr->pcItems[i];
     }
     ClearRoamerData();
     ClearRoamerLocationData();

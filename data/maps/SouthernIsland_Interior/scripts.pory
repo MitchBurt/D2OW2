@@ -25,12 +25,12 @@ SouthernIsland_Interior_OnTransition: @ 8242A6E
 
 SouthernIsland_Interior_EventScript_SetUpTrojolin:: @ 8242A8A
 	setvar VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_TROJOLIN
-	setvar VAR_TEMP_4, SPECIES_GLUERILLA
+	setvar VAR_TEMP_4, SPECIES_TROJOLIN
 	return
 
 SouthernIsland_Interior_EventScript_SetUpStingwell:: @ 8242A95
 	setvar VAR_OBJ_GFX_ID_1, OBJ_EVENT_GFX_STINGWELL
-	setvar VAR_TEMP_4, SPECIES_GLUERILLA
+	setvar VAR_TEMP_4, SPECIES_TROJOLIN
 	return
 
 SouthernIsland_Interior_EventScript_SetUpPlayerGfx:: @ 8242AA0
@@ -114,14 +114,14 @@ SouthernIsland_Interior_EventScript_Sign:: @ 8242B9A
 	end
 
 SouthernIsland_Interior_EventScript_SetTrojolinBattleVars:: @ 8242BA4
-	setvar VAR_0x8004, SPECIES_GLUERILLA
+	setvar VAR_0x8004, SPECIES_TROJOLIN
 	setvar VAR_0x8005, 50 @ level
 	setvar VAR_0x8006, ITEM_SOUL_DEW
 	special CreateObedientEnemyMon
 	return
 
 SouthernIsland_Interior_EventScript_SetStingwellBattleVars:: @ 8242BB7
-	setvar VAR_0x8004, SPECIES_GLUERILLA
+	setvar VAR_0x8004, SPECIES_TROJOLIN
 	setvar VAR_0x8005, 50 @ level
 	setvar VAR_0x8006, ITEM_SOUL_DEW
 	special CreateObedientEnemyMon
@@ -165,12 +165,12 @@ SouthernIsland_Interior_EventScript_Stingwell::
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_GLUERILLA, 2
+	playmoncry SPECIES_TROJOLIN, 2
 	delay 40
 	waitmoncry
 	setflag FLAG_TOTEM_BATTLE
 	setvar VAR_NUM_WILD_POKEMON_STAT_BOOST, 3
-	setwildbattlewithcustommoves SPECIES_GLUERILLA, 70, ITEM_LEFTOVERS, MOVE_MIST_BALL, MOVE_FLAMETHROWER, MOVE_ENERGY_BALL, MOVE_MYSTICAL_FIRE, 0, NATURE_TIMID
+	setwildbattlewithcustommoves SPECIES_TROJOLIN, 70, ITEM_LEFTOVERS, MOVE_MIST_BALL, MOVE_FLAMETHROWER, MOVE_ENERGY_BALL, MOVE_MYSTICAL_FIRE, 0, NATURE_TIMID
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
 	dowildbattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
@@ -204,7 +204,7 @@ SouthernIsland_Interior_EventScript_DefeatedStingwell::
 	end
 
 SouthernIsland_Interior_EventScript_RanFromStingwell::
-	setvar VAR_0x8004, SPECIES_GLUERILLA
+	setvar VAR_0x8004, SPECIES_TROJOLIN
 	fadescreenswapbuffers FADE_TO_BLACK
 	removeobject VAR_LAST_TALKED
 	fadescreenswapbuffers FADE_FROM_BLACK
@@ -220,12 +220,12 @@ SouthernIsland_Interior_EventScript_Trojolin::
 	lock
 	faceplayer
 	waitse
-	playmoncry SPECIES_GLUERILLA, 2
+	playmoncry SPECIES_TROJOLIN, 2
 	delay 40
 	waitmoncry
 	setflag FLAG_TOTEM_BATTLE
 	setvar VAR_NUM_WILD_POKEMON_STAT_BOOST, 3
-	setwildbattlewithcustommoves SPECIES_GLUERILLA, 70, ITEM_LEFTOVERS, MOVE_MIST_BALL, MOVE_FLAMETHROWER, MOVE_ENERGY_BALL, MOVE_MYSTICAL_FIRE, 0, NATURE_MODEST
+	setwildbattlewithcustommoves SPECIES_TROJOLIN, 70, ITEM_LEFTOVERS, MOVE_MIST_BALL, MOVE_FLAMETHROWER, MOVE_ENERGY_BALL, MOVE_MYSTICAL_FIRE, 0, NATURE_MODEST
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
 	dowildbattle
 	clearflag FLAG_SYS_CTRL_OBJ_DELETE
@@ -259,7 +259,7 @@ SouthernIsland_Interior_EventScript_DefeatedTrojolin::
 	end
 
 SouthernIsland_Interior_EventScript_RanFromTrojolin::
-	setvar VAR_0x8004, SPECIES_GLUERILLA
+	setvar VAR_0x8004, SPECIES_TROJOLIN
 	fadescreenswapbuffers FADE_TO_BLACK
 	removeobject VAR_LAST_TALKED
 	fadescreenswapbuffers FADE_FROM_BLACK
