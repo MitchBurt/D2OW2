@@ -269,7 +269,7 @@ void NewGameInitData(void)
     u16 pcItems_plus_itemID[PC_ITEMS_COUNT];
     u8 pcItems_plus_quantity[PC_ITEMS_COUNT];
 
-    //struct ItemSlot pcItemsplus[PC_ITEMS_COUNT];
+    struct ItemSlot pcItemsplus[PC_ITEMS_COUNT];
 	
     u16 bagPocket_Items_plus_itemID[BAG_ITEMS_COUNT];
     u8 bagPocket_Items_plus_quantity[BAG_ITEMS_COUNT];
