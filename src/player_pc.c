@@ -123,7 +123,6 @@ static void sub_816B4DC(u8 taskId);
 static void ItemStorage_MoveCursor(s32 id, bool8 b, struct ListMenu * thisMenu);
 static void fish4_goto_x5_or_x6(u8 windowId, s32 id, u8 yOffset);
 
-struct ItemSlot pcItemsplus[PC_ITEMS_COUNT];
 
 // EWRAM
 static EWRAM_DATA const u8 *gPcItemMenuOptionOrder = NULL;
