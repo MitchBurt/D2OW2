@@ -123,6 +123,8 @@ static void sub_816B4DC(u8 taskId);
 static void ItemStorage_MoveCursor(s32 id, bool8 b, struct ListMenu * thisMenu);
 static void fish4_goto_x5_or_x6(u8 windowId, s32 id, u8 yOffset);
 
+struct ItemSlot pcItemsplus[PC_ITEMS_COUNT];
+
 // EWRAM
 static EWRAM_DATA const u8 *gPcItemMenuOptionOrder = NULL;
 static EWRAM_DATA u8 gPcItemMenuOptionsNum = 0;
@@ -308,10 +310,11 @@ void NewGameInitPCItems(void)
 {
     u8 i;
 
-    // because Game Freak don't know how to use a struct or a 2d array
-   for(i = 0, ClearItemSlots(gSaveBlock1Ptr->pcItems, ARRAY_COUNT(gSaveBlock1Ptr->pcItems)); NEW_GAME_PC_ITEMS(i, PC_ITEM_ID) && NEW_GAME_PC_ITEMS(i, PC_QUANTITY) &&
-        AddPCItem(NEW_GAME_PC_ITEMS(i, PC_ITEM_ID), NEW_GAME_PC_ITEMS(i, PC_QUANTITY)) == TRUE; i++);
-}
+    for (i = 0; i < PC_ITEMS_COUNT; i++)
+    {
+        gSaveBlock1Ptr->pcItems[i] = pcItemsplus[i];
+    }
+} 
 
 void BedroomPC(void)
 {

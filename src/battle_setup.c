@@ -408,6 +408,8 @@ void BattleSetup_StartWildBattle(void)
     VAR_WILD_PKMN_ROUTE_SEEN_2,
     VAR_WILD_PKMN_ROUTE_SEEN_3,
     VAR_WILD_PKMN_ROUTE_SEEN_4,
+    VAR_WILD_PKMN_ROUTE_SEEN_5,
+
     };
     currLocation = currLocConvertForNuzlocke(currLocation);
     if (!FlagGet(FLAG_NUZLOCKE) || !FlagGet(FLAG_SYS_POKEDEX_GET)){
@@ -416,6 +418,7 @@ void BattleSetup_StartWildBattle(void)
         VarSet(VAR_WILD_PKMN_ROUTE_SEEN_2, 0);
         VarSet(VAR_WILD_PKMN_ROUTE_SEEN_3, 0);
         VarSet(VAR_WILD_PKMN_ROUTE_SEEN_4, 0);
+        VarSet(VAR_WILD_PKMN_ROUTE_SEEN_5, 0);
         return 0;
     } 
     switch (currLocation)
@@ -733,6 +736,40 @@ void BattleSetup_StartWildBattle(void)
         varToCheck = 4;
         bitToCheck = 13;
         break;
+    case  MAPSEC_CERULEAN_CAVE:
+        varToCheck = 4;
+        bitToCheck = 14;
+        break;
+    case  MAPSEC_POWER_PLANT:
+        varToCheck = 4;
+        bitToCheck = 15;
+        break;
+    case  MAPSEC_FOUR_ISLAND:
+        varToCheck = 5;
+        bitToCheck = 0;
+        break;
+    case  MAPSEC_TREASURE_BEACH:
+        varToCheck = 5;
+        bitToCheck = 1;
+        break;
+    case  MAPSEC_CAPE_BRINK:
+        varToCheck = 5;
+        bitToCheck = 2;
+        break;
+    case  MAPSEC_BOND_BRIDGE:
+        varToCheck = 5;
+        bitToCheck = 3;
+        break;
+    case  MAPSEC_MT_EMBER:
+        varToCheck = 5;
+        bitToCheck = 4;
+        break;
+    case  MAPSEC_ICEFALL_CAVE:
+        varToCheck = 5;
+        bitToCheck = 5;
+        break;
+
+
     default:
         return 0;
     }

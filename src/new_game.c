@@ -269,7 +269,7 @@ void NewGameInitData(void)
     u16 pcItems_plus_itemID[PC_ITEMS_COUNT];
     u8 pcItems_plus_quantity[PC_ITEMS_COUNT];
 
-    struct ItemSlot pcItemsplus[PC_ITEMS_COUNT];
+    //struct ItemSlot pcItemsplus[PC_ITEMS_COUNT];
 	
     u16 bagPocket_Items_plus_itemID[BAG_ITEMS_COUNT];
     u8 bagPocket_Items_plus_quantity[BAG_ITEMS_COUNT];
@@ -418,13 +418,8 @@ void NewGameInitData(void)
 
     if (gSaveFileStatus == SAVE_STATUS_EMPTY || gSaveFileStatus == SAVE_STATUS_CORRUPT)
         RtcReset();
-        //PC Items
+
     
-    for (i = 0; i < PC_ITEMS_COUNT; i++)
-        {
-            pcItemsplus[i] = gSaveBlock1Ptr->pcItems[i];
-        }
-        
     gDifferentSaveFile = 1;
     gSaveBlock2Ptr->encryptionKey = 0;
     //ZeroPlayerPartyMons();
@@ -588,10 +583,6 @@ void NewGameInitData(void)
 
         VarSet(VAR_NEW_GAME_PLUS_COUNT, newgamepluscount);
         FlagSet(FLAG_NEW_GAME_PLUS);
-    }
-    for (i = 0; i < PC_ITEMS_COUNT; i++)
-    {
-        pcItemsplus[i] = gSaveBlock1Ptr->pcItems[i];
     }
     ClearRoamerData();
     ClearRoamerLocationData();

@@ -11065,7 +11065,7 @@
               {
                 "min_level": 26,
                 "max_level": 26,
-                "species": "SPECIES_MOABY"
+                "species": "SPECIES_WAILE"
               },
               {
                 "min_level": 28,
@@ -13340,62 +13340,62 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_MOABY"
+                "species": "SPECIES_AMONSUS"
               },
               {
                 "min_level": 5,
                 "max_level": 8,
-                "species": "SPECIES_MOABY"
+                "species": "SPECIES_BIGOBEET"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_MOABY"
+                "species": "SPECIES_PIRAGHOUL"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_MOABY"
+                "species": "SPECIES_GOLBNAR"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_MOABY"
+                "species": "SPECIES_BLINKY"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_MOABY"
+                "species": "SPECIES_POTOGREED"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_MOABY"
+                "species": "SPECIES_NONGETIVE"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_MOABY"
+                "species": "SPECIES_LUIWEE"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_MOABY"
+                "species": "SPECIES_TOM"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_MOABY"
+                "species": "SPECIES_ZACTORY"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_MOABY"
+                "species": "SPECIES_ENDMYSUFF"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_MOABY"
+                "species": "SPECIES_ALIEN"
               }
             ]
           }
@@ -15118,7 +15118,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_DUGGAME"
+                "species": "SPECIES_CREEPA"
               },
               {
                 "min_level": 5,
@@ -15128,7 +15128,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_DEADMOUS"
+                "species": "SPECIES_LILREAPER"
               },
               {
                 "min_level": 5,
@@ -15441,7 +15441,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_RATMAN"
+                "species": "SPECIES_ARAKETSU"
               },
               {
                 "min_level": 5,
@@ -15466,7 +15466,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_DUGGAME"
+                "species": "SPECIES_SNEDDIT"
               },
               {
                 "min_level": 5,
@@ -15793,7 +15793,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BIRDAPP"
+                "species": "SPECIES_COFFICRAB"
               },
               {
                 "min_level": 5,
@@ -15803,17 +15803,17 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_GARFEL"
+                "species": "SPECIES_FLOOTEY"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_DUGGAME"
+                "species": "SPECIES_PARSLITO"
               },
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_COFFICRAB"
+                "species": "SPECIES_JEWIS"
               },
               {
                 "min_level": 5,
@@ -15858,7 +15858,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_BASSHOP"
+                "species": "SPECIES_FLOOTEY"
               },
               {
                 "min_level": 5,

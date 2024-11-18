@@ -236,7 +236,7 @@
 #define VAR_HAS_TALKED_TO_SEAFLOOR_CAVERN_ENTRANCE_GRUNT 0x40D9
 #define VAR_REGISTER_BIRCH_STATE             0x40DA
 #define VAR_UNUSED_0x40DB                    0x40DB // Unused Var
-#define VAR_UNUSED_0x40DC                    0x40DC // Unused Var
+//#define VAR_UNUSED_0x40DC                    0x40DC // Unused Var
 #define VAR_EVENT_PICHU_SLOT                 0x40DD
 #define VAR_NEVER_READ_0x40DE                0x40DE // Var is written to, but never read
 #define VAR_NEVER_READ_0x40DF                0x40DF // Var is written to, but never read
@@ -275,6 +275,7 @@
 #define VAR_WILD_PKMN_ROUTE_SEEN_2                       0x40FC
 #define VAR_WILD_PKMN_ROUTE_SEEN_3                       0x40FD
 #define VAR_WILD_PKMN_ROUTE_SEEN_4                       0x40E5
+#define VAR_WILD_PKMN_ROUTE_SEEN_5                       0x40DC
 #define VAR_SAVE_VERSION                     0x40FE
 #define VAR_DIMENSION_LINK                   0x40FF
 
