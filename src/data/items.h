@@ -4413,8 +4413,8 @@ const struct Item gItems[] =
         .holdEffect = HOLD_EFFECT_UP_GRADE,
         .description = sUpGradeDesc,
         .pocket = POCKET_POWER_UP,
-        .type = 4,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .type = 1,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
         .secondaryId = 0,
     },
 

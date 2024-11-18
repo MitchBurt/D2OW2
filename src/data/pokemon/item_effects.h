@@ -527,6 +527,7 @@ const u8 *const gItemEffectTable[ITEMS_COUNT] =
     [ITEM_FIRE_STONE] = gItemEffect_EvoStone,
     [ITEM_METAL_COAT] = gItemEffect_EvoStone,
     [ITEM_THUNDER_STONE] = gItemEffect_EvoStone,
+    [ITEM_UP_GRADE] = gItemEffect_EvoStone,
     [ITEM_WATER_STONE] = gItemEffect_EvoStone,
     [ITEM_LEAF_STONE] = gItemEffect_EvoStone,
     [ITEM_DAWN_STONE] = gItemEffect_EvoStone,

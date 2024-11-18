@@ -16219,21 +16219,21 @@ static const struct TrainerMonNoItemDefaultMoves sParty_WallyMauville[] = {
 };
 //WALLY
 static const struct TrainerMonItemCustomMoves sParty_WallyVR2[] = {
-    {
+     {
     .iv = 255,
     .lvl = 5, 
     .evs = {6, 0, 0, 252, 0, 252}, 
     .abilityNum = 2,
     .happiness = 255,
-    .species = SPECIES_MOJISLEY,
+    .species = SPECIES_RIMESLANCH,
 	.ivs = {31, 31, 30, 31, 30, 30},	//Hidden Power Rock
 	.hiddenNature = NATURE_TIMID,
 	.pokeball = ITEM_LOVE_BALL,
 	.isShiny = FALSE,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_BLACK_SLUDGE,
-    .postgamemoves = {MOVE_SLUDGE_BOMB, MOVE_GIGA_DRAIN, MOVE_SHOTGUN, MOVE_HIDDEN_POWER},
-    .moves = {MOVE_SLUDGE_BOMB, MOVE_GIGA_DRAIN, MOVE_SHOTGUN, MOVE_HIDDEN_POWER}
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_POISON_JAB, MOVE_TOXIC_SPIKES, MOVE_STEALTH_ROCK, MOVE_RECOVER},
+    .moves = {MOVE_POISON_JAB, MOVE_TOXIC_SPIKES, MOVE_STEALTH_ROCK, MOVE_RECOVER}
     },
     {
     .iv = 255,
@@ -16241,15 +16241,15 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR2[] = {
     .evs = {0, 252, 6, 0, 0, 252}, 
     .abilityNum = 2,
     .happiness = 255,
-    .species = SPECIES_FAZEAGLE,
+    .species = SPECIES_HELLSPACK,
 	.ivs = {31, 31, 31, 31, 31, 31},
 	.hiddenNature = NATURE_JOLLY,
 	.pokeball = ITEM_CHERISH_BALL,
 	.isShiny = FALSE,
-    .postgameheldItem = ITEM_NONE,
+    .postgameheldItem = ITEM_LIFE_ORB,
     .heldItem = ITEM_LIFE_ORB,
-    .postgamemoves = {MOVE_BRAVE_BIRD, MOVE_FLARE_BLITZ, MOVE_STEEL_WING, MOVE_U_TURN},
-    .moves = {MOVE_BRAVE_BIRD, MOVE_FLARE_BLITZ, MOVE_STEEL_WING, MOVE_U_TURN}
+    .postgamemoves = {MOVE_BRAVE_BIRD, MOVE_FLARE_BLITZ, MOVE_STEEL_WING, MOVE_PLAY_ROUGH},
+    .moves = {MOVE_BRAVE_BIRD, MOVE_FLARE_BLITZ, MOVE_STEEL_WING, MOVE_PLAY_ROUGH}
     },
     {
     .iv = 255,
@@ -16257,15 +16257,15 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR2[] = {
     .evs = {6, 252, 0, 0, 0, 252}, 
     .abilityNum = 1,
     .happiness = 0,
-    .species = SPECIES_BARIREEFER,
+    .species = SPECIES_JEBONY,
 	.ivs = {31, 31, 31, 31, 31, 31},
 	.hiddenNature = NATURE_ADAMANT,
 	.pokeball = ITEM_LURE_BALL,
 	.isShiny = FALSE,
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_ASSAULT_VEST,
-    .postgamemoves = {MOVE_AQUA_JET, MOVE_LIQUIDATION, MOVE_PLAY_ROUGH, MOVE_ICE_PUNCH},
-    .moves = {MOVE_AQUA_JET, MOVE_LIQUIDATION, MOVE_PLAY_ROUGH, MOVE_ICE_PUNCH}
+    .postgamemoves = {MOVE_TROP_KICK, MOVE_KNOCK_OFF, MOVE_STONE_EDGE, MOVE_ICE_PUNCH},
+    .moves = {MOVE_TROP_KICK, MOVE_KNOCK_OFF, MOVE_STONE_EDGE, MOVE_ICE_PUNCH}
     },
     {
     .iv = 255,
@@ -16273,15 +16273,15 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR2[] = {
     .evs = {0, 0, 6, 252, 0, 252}, 
     .abilityNum = 2,
     .happiness = 255,
-    .species = SPECIES_DEATHCUBED,
+    .species = SPECIES_DESPARWARD,
 	.ivs = {31, 31, 31, 31, 31, 31},
 	.hiddenNature = NATURE_MODEST,
 	.pokeball = ITEM_HEAVY_BALL,
 	.isShiny = FALSE,
     .postgameheldItem = ITEM_ASSAULT_VEST,
     .heldItem = ITEM_ASSAULT_VEST,
-    .postgamemoves = {MOVE_THUNDERBOLT, MOVE_FLASH_CANNON, MOVE_TRI_ATTACK, MOVE_SIGNAL_BEAM},
-    .moves = {MOVE_THUNDERBOLT, MOVE_FLASH_CANNON, MOVE_TRI_ATTACK, MOVE_SIGNAL_BEAM}
+    .postgamemoves = {MOVE_KNOCK_OFF, MOVE_LIQUIDATION, MOVE_POISON_JAB, MOVE_EARTHQUAKE},
+    .moves = {MOVE_KNOCK_OFF, MOVE_LIQUIDATION, MOVE_POISON_JAB, MOVE_EARTHQUAKE}
     },
 	{
     .iv = 250,
@@ -16310,7 +16310,7 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR2[] = {
 	.hiddenNature = NATURE_JOLLY,
 	.pokeball = ITEM_CHERISH_BALL,
 	.isShiny = FALSE,
-    .postgameheldItem = ITEM_NONE,
+    .postgameheldItem = ITEM_SNEDDITE,
     .heldItem = ITEM_SNEDDITE,
     .postgamemoves = {MOVE_ZEN_HEADBUTT, MOVE_CLOSE_COMBAT, MOVE_LEAF_BLADE, MOVE_POISON_JAB},
     .moves = {MOVE_ZEN_HEADBUTT, MOVE_CLOSE_COMBAT, MOVE_LEAF_BLADE, MOVE_POISON_JAB}
@@ -16324,15 +16324,15 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR3[] = {
     .evs = {6, 0, 0, 252, 0, 252}, 
     .abilityNum = 2,
     .happiness = 255,
-    .species = SPECIES_MOJISLEY,
+    .species = SPECIES_RIMESLANCH,
 	.ivs = {31, 31, 30, 31, 30, 30},	//Hidden Power Rock
 	.hiddenNature = NATURE_TIMID,
 	.pokeball = ITEM_LOVE_BALL,
 	.isShiny = FALSE,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_BLACK_SLUDGE,
-    .postgamemoves = {MOVE_SLUDGE_BOMB, MOVE_GIGA_DRAIN, MOVE_SHOTGUN, MOVE_HIDDEN_POWER},
-    .moves = {MOVE_SLUDGE_BOMB, MOVE_GIGA_DRAIN, MOVE_SHOTGUN, MOVE_HIDDEN_POWER}
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_POISON_JAB, MOVE_TOXIC_SPIKES, MOVE_STEALTH_ROCK, MOVE_RECOVER},
+    .moves = {MOVE_POISON_JAB, MOVE_TOXIC_SPIKES, MOVE_STEALTH_ROCK, MOVE_RECOVER}
     },
     {
     .iv = 255,
@@ -16340,15 +16340,15 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR3[] = {
     .evs = {0, 252, 6, 0, 0, 252}, 
     .abilityNum = 2,
     .happiness = 255,
-    .species = SPECIES_FAZEAGLE,
+    .species = SPECIES_HELLSPACK,
 	.ivs = {31, 31, 31, 31, 31, 31},
 	.hiddenNature = NATURE_JOLLY,
 	.pokeball = ITEM_CHERISH_BALL,
 	.isShiny = FALSE,
-    .postgameheldItem = ITEM_NONE,
+    .postgameheldItem = ITEM_LIFE_ORB,
     .heldItem = ITEM_LIFE_ORB,
-    .postgamemoves = {MOVE_BRAVE_BIRD, MOVE_FLARE_BLITZ, MOVE_STEEL_WING, MOVE_U_TURN},
-    .moves = {MOVE_BRAVE_BIRD, MOVE_FLARE_BLITZ, MOVE_STEEL_WING, MOVE_U_TURN}
+    .postgamemoves = {MOVE_BRAVE_BIRD, MOVE_FLARE_BLITZ, MOVE_STEEL_WING, MOVE_PLAY_ROUGH},
+    .moves = {MOVE_BRAVE_BIRD, MOVE_FLARE_BLITZ, MOVE_STEEL_WING, MOVE_PLAY_ROUGH}
     },
     {
     .iv = 255,
@@ -16356,15 +16356,15 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR3[] = {
     .evs = {6, 252, 0, 0, 0, 252}, 
     .abilityNum = 1,
     .happiness = 0,
-    .species = SPECIES_BARIREEFER,
+    .species = SPECIES_JEBONY,
 	.ivs = {31, 31, 31, 31, 31, 31},
 	.hiddenNature = NATURE_ADAMANT,
 	.pokeball = ITEM_LURE_BALL,
 	.isShiny = FALSE,
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_ASSAULT_VEST,
-    .postgamemoves = {MOVE_AQUA_JET, MOVE_LIQUIDATION, MOVE_PLAY_ROUGH, MOVE_ICE_PUNCH},
-    .moves = {MOVE_AQUA_JET, MOVE_LIQUIDATION, MOVE_PLAY_ROUGH, MOVE_ICE_PUNCH}
+    .postgamemoves = {MOVE_TROP_KICK, MOVE_KNOCK_OFF, MOVE_STONE_EDGE, MOVE_ICE_PUNCH},
+    .moves = {MOVE_TROP_KICK, MOVE_KNOCK_OFF, MOVE_STONE_EDGE, MOVE_ICE_PUNCH}
     },
     {
     .iv = 255,
@@ -16372,15 +16372,15 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR3[] = {
     .evs = {0, 0, 6, 252, 0, 252}, 
     .abilityNum = 2,
     .happiness = 255,
-    .species = SPECIES_DEATHCUBED,
+    .species = SPECIES_DESPARWARD,
 	.ivs = {31, 31, 31, 31, 31, 31},
 	.hiddenNature = NATURE_MODEST,
 	.pokeball = ITEM_HEAVY_BALL,
 	.isShiny = FALSE,
     .postgameheldItem = ITEM_ASSAULT_VEST,
     .heldItem = ITEM_ASSAULT_VEST,
-    .postgamemoves = {MOVE_THUNDERBOLT, MOVE_FLASH_CANNON, MOVE_TRI_ATTACK, MOVE_SIGNAL_BEAM},
-    .moves = {MOVE_THUNDERBOLT, MOVE_FLASH_CANNON, MOVE_TRI_ATTACK, MOVE_SIGNAL_BEAM}
+    .postgamemoves = {MOVE_KNOCK_OFF, MOVE_LIQUIDATION, MOVE_POISON_JAB, MOVE_EARTHQUAKE},
+    .moves = {MOVE_KNOCK_OFF, MOVE_LIQUIDATION, MOVE_POISON_JAB, MOVE_EARTHQUAKE}
     },
 	{
     .iv = 250,
@@ -16409,7 +16409,7 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR3[] = {
 	.hiddenNature = NATURE_JOLLY,
 	.pokeball = ITEM_CHERISH_BALL,
 	.isShiny = FALSE,
-    .postgameheldItem = ITEM_NONE,
+    .postgameheldItem = ITEM_SNEDDITE,
     .heldItem = ITEM_SNEDDITE,
     .postgamemoves = {MOVE_ZEN_HEADBUTT, MOVE_CLOSE_COMBAT, MOVE_LEAF_BLADE, MOVE_POISON_JAB},
     .moves = {MOVE_ZEN_HEADBUTT, MOVE_CLOSE_COMBAT, MOVE_LEAF_BLADE, MOVE_POISON_JAB}
@@ -16417,21 +16417,21 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR3[] = {
 };
 
 static const struct TrainerMonItemCustomMoves sParty_WallyVR4[] = {
-    {
+     {
     .iv = 255,
     .lvl = 5, 
     .evs = {6, 0, 0, 252, 0, 252}, 
     .abilityNum = 2,
     .happiness = 255,
-    .species = SPECIES_MOJISLEY,
+    .species = SPECIES_RIMESLANCH,
 	.ivs = {31, 31, 30, 31, 30, 30},	//Hidden Power Rock
 	.hiddenNature = NATURE_TIMID,
 	.pokeball = ITEM_LOVE_BALL,
 	.isShiny = FALSE,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_BLACK_SLUDGE,
-    .postgamemoves = {MOVE_SLUDGE_BOMB, MOVE_GIGA_DRAIN, MOVE_SHOTGUN, MOVE_HIDDEN_POWER},
-    .moves = {MOVE_SLUDGE_BOMB, MOVE_GIGA_DRAIN, MOVE_SHOTGUN, MOVE_HIDDEN_POWER}
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_POISON_JAB, MOVE_TOXIC_SPIKES, MOVE_STEALTH_ROCK, MOVE_RECOVER},
+    .moves = {MOVE_POISON_JAB, MOVE_TOXIC_SPIKES, MOVE_STEALTH_ROCK, MOVE_RECOVER}
     },
     {
     .iv = 255,
@@ -16439,15 +16439,15 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR4[] = {
     .evs = {0, 252, 6, 0, 0, 252}, 
     .abilityNum = 2,
     .happiness = 255,
-    .species = SPECIES_FAZEAGLE,
+    .species = SPECIES_HELLSPACK,
 	.ivs = {31, 31, 31, 31, 31, 31},
 	.hiddenNature = NATURE_JOLLY,
 	.pokeball = ITEM_CHERISH_BALL,
 	.isShiny = FALSE,
-    .postgameheldItem = ITEM_NONE,
+    .postgameheldItem = ITEM_LIFE_ORB,
     .heldItem = ITEM_LIFE_ORB,
-    .postgamemoves = {MOVE_BRAVE_BIRD, MOVE_FLARE_BLITZ, MOVE_STEEL_WING, MOVE_U_TURN},
-    .moves = {MOVE_BRAVE_BIRD, MOVE_FLARE_BLITZ, MOVE_STEEL_WING, MOVE_U_TURN}
+    .postgamemoves = {MOVE_BRAVE_BIRD, MOVE_FLARE_BLITZ, MOVE_STEEL_WING, MOVE_PLAY_ROUGH},
+    .moves = {MOVE_BRAVE_BIRD, MOVE_FLARE_BLITZ, MOVE_STEEL_WING, MOVE_PLAY_ROUGH}
     },
     {
     .iv = 255,
@@ -16455,15 +16455,15 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR4[] = {
     .evs = {6, 252, 0, 0, 0, 252}, 
     .abilityNum = 1,
     .happiness = 0,
-    .species = SPECIES_BARIREEFER,
+    .species = SPECIES_JEBONY,
 	.ivs = {31, 31, 31, 31, 31, 31},
 	.hiddenNature = NATURE_ADAMANT,
 	.pokeball = ITEM_LURE_BALL,
 	.isShiny = FALSE,
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_ASSAULT_VEST,
-    .postgamemoves = {MOVE_AQUA_JET, MOVE_LIQUIDATION, MOVE_PLAY_ROUGH, MOVE_ICE_PUNCH},
-    .moves = {MOVE_AQUA_JET, MOVE_LIQUIDATION, MOVE_PLAY_ROUGH, MOVE_ICE_PUNCH}
+    .postgamemoves = {MOVE_TROP_KICK, MOVE_KNOCK_OFF, MOVE_STONE_EDGE, MOVE_ICE_PUNCH},
+    .moves = {MOVE_TROP_KICK, MOVE_KNOCK_OFF, MOVE_STONE_EDGE, MOVE_ICE_PUNCH}
     },
     {
     .iv = 255,
@@ -16471,15 +16471,15 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR4[] = {
     .evs = {0, 0, 6, 252, 0, 252}, 
     .abilityNum = 2,
     .happiness = 255,
-    .species = SPECIES_DEATHCUBED,
+    .species = SPECIES_DESPARWARD,
 	.ivs = {31, 31, 31, 31, 31, 31},
 	.hiddenNature = NATURE_MODEST,
 	.pokeball = ITEM_HEAVY_BALL,
 	.isShiny = FALSE,
     .postgameheldItem = ITEM_ASSAULT_VEST,
     .heldItem = ITEM_ASSAULT_VEST,
-    .postgamemoves = {MOVE_THUNDERBOLT, MOVE_FLASH_CANNON, MOVE_TRI_ATTACK, MOVE_SIGNAL_BEAM},
-    .moves = {MOVE_THUNDERBOLT, MOVE_FLASH_CANNON, MOVE_TRI_ATTACK, MOVE_SIGNAL_BEAM}
+    .postgamemoves = {MOVE_KNOCK_OFF, MOVE_LIQUIDATION, MOVE_POISON_JAB, MOVE_EARTHQUAKE},
+    .moves = {MOVE_KNOCK_OFF, MOVE_LIQUIDATION, MOVE_POISON_JAB, MOVE_EARTHQUAKE}
     },
 	{
     .iv = 250,
@@ -16508,7 +16508,7 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR4[] = {
 	.hiddenNature = NATURE_JOLLY,
 	.pokeball = ITEM_CHERISH_BALL,
 	.isShiny = FALSE,
-    .postgameheldItem = ITEM_NONE,
+    .postgameheldItem = ITEM_SNEDDITE,
     .heldItem = ITEM_SNEDDITE,
     .postgamemoves = {MOVE_ZEN_HEADBUTT, MOVE_CLOSE_COMBAT, MOVE_LEAF_BLADE, MOVE_POISON_JAB},
     .moves = {MOVE_ZEN_HEADBUTT, MOVE_CLOSE_COMBAT, MOVE_LEAF_BLADE, MOVE_POISON_JAB}
@@ -16516,21 +16516,21 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR4[] = {
 };
 
 static const struct TrainerMonItemCustomMoves sParty_WallyVR5[] = {
-    {
+     {
     .iv = 255,
     .lvl = 5, 
     .evs = {6, 0, 0, 252, 0, 252}, 
     .abilityNum = 2,
     .happiness = 255,
-    .species = SPECIES_MOJISLEY,
+    .species = SPECIES_RIMESLANCH,
 	.ivs = {31, 31, 30, 31, 30, 30},	//Hidden Power Rock
 	.hiddenNature = NATURE_TIMID,
 	.pokeball = ITEM_LOVE_BALL,
 	.isShiny = FALSE,
-    .postgameheldItem = ITEM_NONE,
-    .heldItem = ITEM_BLACK_SLUDGE,
-    .postgamemoves = {MOVE_SLUDGE_BOMB, MOVE_GIGA_DRAIN, MOVE_SHOTGUN, MOVE_HIDDEN_POWER},
-    .moves = {MOVE_SLUDGE_BOMB, MOVE_GIGA_DRAIN, MOVE_SHOTGUN, MOVE_HIDDEN_POWER}
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_LEFTOVERS,
+    .postgamemoves = {MOVE_POISON_JAB, MOVE_TOXIC_SPIKES, MOVE_STEALTH_ROCK, MOVE_RECOVER},
+    .moves = {MOVE_POISON_JAB, MOVE_TOXIC_SPIKES, MOVE_STEALTH_ROCK, MOVE_RECOVER}
     },
     {
     .iv = 255,
@@ -16538,15 +16538,15 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR5[] = {
     .evs = {0, 252, 6, 0, 0, 252}, 
     .abilityNum = 2,
     .happiness = 255,
-    .species = SPECIES_FAZEAGLE,
+    .species = SPECIES_HELLSPACK,
 	.ivs = {31, 31, 31, 31, 31, 31},
 	.hiddenNature = NATURE_JOLLY,
 	.pokeball = ITEM_CHERISH_BALL,
 	.isShiny = FALSE,
-    .postgameheldItem = ITEM_NONE,
+    .postgameheldItem = ITEM_LIFE_ORB,
     .heldItem = ITEM_LIFE_ORB,
-    .postgamemoves = {MOVE_BRAVE_BIRD, MOVE_FLARE_BLITZ, MOVE_STEEL_WING, MOVE_U_TURN},
-    .moves = {MOVE_BRAVE_BIRD, MOVE_FLARE_BLITZ, MOVE_STEEL_WING, MOVE_U_TURN}
+    .postgamemoves = {MOVE_BRAVE_BIRD, MOVE_FLARE_BLITZ, MOVE_STEEL_WING, MOVE_PLAY_ROUGH},
+    .moves = {MOVE_BRAVE_BIRD, MOVE_FLARE_BLITZ, MOVE_STEEL_WING, MOVE_PLAY_ROUGH}
     },
     {
     .iv = 255,
@@ -16554,15 +16554,15 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR5[] = {
     .evs = {6, 252, 0, 0, 0, 252}, 
     .abilityNum = 1,
     .happiness = 0,
-    .species = SPECIES_BARIREEFER,
+    .species = SPECIES_JEBONY,
 	.ivs = {31, 31, 31, 31, 31, 31},
 	.hiddenNature = NATURE_ADAMANT,
 	.pokeball = ITEM_LURE_BALL,
 	.isShiny = FALSE,
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_ASSAULT_VEST,
-    .postgamemoves = {MOVE_AQUA_JET, MOVE_LIQUIDATION, MOVE_PLAY_ROUGH, MOVE_ICE_PUNCH},
-    .moves = {MOVE_AQUA_JET, MOVE_LIQUIDATION, MOVE_PLAY_ROUGH, MOVE_ICE_PUNCH}
+    .postgamemoves = {MOVE_TROP_KICK, MOVE_KNOCK_OFF, MOVE_STONE_EDGE, MOVE_ICE_PUNCH},
+    .moves = {MOVE_TROP_KICK, MOVE_KNOCK_OFF, MOVE_STONE_EDGE, MOVE_ICE_PUNCH}
     },
     {
     .iv = 255,
@@ -16570,15 +16570,15 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR5[] = {
     .evs = {0, 0, 6, 252, 0, 252}, 
     .abilityNum = 2,
     .happiness = 255,
-    .species = SPECIES_DEATHCUBED,
+    .species = SPECIES_DESPARWARD,
 	.ivs = {31, 31, 31, 31, 31, 31},
 	.hiddenNature = NATURE_MODEST,
 	.pokeball = ITEM_HEAVY_BALL,
 	.isShiny = FALSE,
     .postgameheldItem = ITEM_ASSAULT_VEST,
     .heldItem = ITEM_ASSAULT_VEST,
-    .postgamemoves = {MOVE_THUNDERBOLT, MOVE_FLASH_CANNON, MOVE_TRI_ATTACK, MOVE_SIGNAL_BEAM},
-    .moves = {MOVE_THUNDERBOLT, MOVE_FLASH_CANNON, MOVE_TRI_ATTACK, MOVE_SIGNAL_BEAM}
+    .postgamemoves = {MOVE_KNOCK_OFF, MOVE_LIQUIDATION, MOVE_POISON_JAB, MOVE_EARTHQUAKE},
+    .moves = {MOVE_KNOCK_OFF, MOVE_LIQUIDATION, MOVE_POISON_JAB, MOVE_EARTHQUAKE}
     },
 	{
     .iv = 250,
@@ -16607,7 +16607,7 @@ static const struct TrainerMonItemCustomMoves sParty_WallyVR5[] = {
 	.hiddenNature = NATURE_JOLLY,
 	.pokeball = ITEM_CHERISH_BALL,
 	.isShiny = FALSE,
-    .postgameheldItem = ITEM_NONE,
+    .postgameheldItem = ITEM_SNEDDITE,
     .heldItem = ITEM_SNEDDITE,
     .postgamemoves = {MOVE_ZEN_HEADBUTT, MOVE_CLOSE_COMBAT, MOVE_LEAF_BLADE, MOVE_POISON_JAB},
     .moves = {MOVE_ZEN_HEADBUTT, MOVE_CLOSE_COMBAT, MOVE_LEAF_BLADE, MOVE_POISON_JAB}

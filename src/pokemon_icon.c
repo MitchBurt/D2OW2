@@ -1243,7 +1243,7 @@ const u8 *const gMonIconTableFemale[] =
 	[SPECIES_JELLICENT] = gMonIcon_JellicentF,
 	[SPECIES_PYROAR] = gMonIcon_PyroarF,
 };
-//TODO
+
 const u8 gMonIconPaletteIndices[] =
 {
 	[SPECIES_MEADOSAUR] = 1,

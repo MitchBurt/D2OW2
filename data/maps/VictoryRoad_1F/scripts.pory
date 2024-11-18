@@ -125,10 +125,10 @@ VictoryRoad_1F_EventScript_Katelynn:: @ 8235ECF
 	end
 
 VictoryRoad_1F_Text_WallyNotGoingToLoseAnymore: @ 8235EE6
-	.string "My name is Wally, im here to train\n"
-	.string "with my Pokémon, you seem strong,\p"
-	.string "please let me test the courage and \n"
-	.string "strength that i got from my Pokémon!\p"
+	.string "Hey Im Big Slime.\n"
+	.string "Hows it going homie,\p"
+	.string "Wanna Battle? \n"
+	.string "We are gonaa battle now.\p"
 	.string "Okay… Here I come!$"
 
 VictoryRoad_1F_Text_WallyEntranceDefeat: @ 8235FFC
@@ -140,7 +140,7 @@ VictoryRoad_1F_Text_WallyPostEntranceBattle: @ 8236020
 	.string "I'll keep training and catch up to you!$"
 
 VictoryRoad_1F_Text_WallyIntro: @ 8236073
-	.string "Wally: Hi! {PLAYER}!\p"
+	.string "Slime: Hi! {PLAYER}!\p"
 	.string "I've gotten stronger since that last\n"
 	.string "time! I wanted to show you, {PLAYER}!\p"
 	.string "Okay… Here I come!$"
@@ -150,7 +150,7 @@ VictoryRoad_1F_Text_WallyDefeat: @ 82360DA
 	.string "{PLAYER}, you are strong, after all!$"
 
 VictoryRoad_1F_Text_WallyPostBattle: @ 82360FE
-	.string "Wally: I couldn't beat you this time,\n"
+	.string "Slime: I couldn't beat you this time,\n"
 	.string "too… But one of these days, {PLAYER},\l"
 	.string "I'm going to catch up to you…\p"
 	.string "And beat the Pokémon League!$"

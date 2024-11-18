@@ -548,7 +548,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_FENNAF] =
     {
         .size = 0x66,
-        .y_offset = 9,
+        .y_offset = 7,
     },
     [SPECIES_BIPHARMA] =
     {
@@ -573,7 +573,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_BANANACE] =
     {
         .size = 0x67,
-        .y_offset = 10,
+        .y_offset = 7,
     },
     [SPECIES_TROLOLO] =
     {
@@ -633,7 +633,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_ENDMYSUFF] =
     {
         .size = 0x77,
-        .y_offset = 8,
+        .y_offset = 0,
     },
     [SPECIES_ITRIMID] =
     {
@@ -648,7 +648,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_NUSHAKE] =
     {
         .size = 0x67,
-        .y_offset = 10,
+        .y_offset = 0,
     },
     [SPECIES_KROLLER] =
     {

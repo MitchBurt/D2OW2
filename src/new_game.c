@@ -459,7 +459,8 @@ void NewGameInitData(void)
         SetCoins(0);
         for (i = 0; i < PC_ITEMS_COUNT; i++)
         {
-            pcItemsplus[i] = gSaveBlock1Ptr->pcItems[i];
+            pcItems_plus_itemID[i] = gSaveBlock1Ptr->bagPocket_Items[i].itemId;
+            pcItems_plus_quantity[i] = CountTotalItemQuantityInBag(bagPocket_Items_plus_itemID[i]);
         }
         ResetPokemonStorageSystem();
         
