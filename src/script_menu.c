@@ -864,8 +864,8 @@ static const struct ListMenuItem sSet0[] =
 {
     {sText_Surprise, 15},
     {gText_City_01, 0},
-    {gText_City_02, 2},
-    {gText_City_03, 1},
+    {gText_City_02, 1},
+    {gText_City_03, 2},
     {gText_City_04, 3},
     {gText_City_05, 4},
     {gText_City_06, 5},

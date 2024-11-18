@@ -720,15 +720,19 @@ void BattleSetup_StartWildBattle(void)
     case MAPSEC_ALTERING_CAVE:
         varToCheck = 4;
         bitToCheck = 10;
+        break;
     case  MAPSEC_SKY_PILLAR:
         varToCheck = 4;
         bitToCheck = 11;
+        break;
     case  MAPSEC_BERRY_FOREST:
         varToCheck = 4;
         bitToCheck = 12;
+        break;
     case  MAPSEC_KINDLE_ROAD:
         varToCheck = 4;
         bitToCheck = 13;
+        break;
     default:
         return 0;
     }

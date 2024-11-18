@@ -423,12 +423,12 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_DIVINI] =
     {
         .size = 0x57,
-        .y_offset = 4,
+        .y_offset = 0,
     },
     [SPECIES_PARANGELIA] =
     {
         .size = 0x88,
-        .y_offset = 4,
+        .y_offset = 0,
     },
     [SPECIES_DABBOI] =
     {

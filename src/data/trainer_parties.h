@@ -9597,7 +9597,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Dylan4[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_PARANGELIA,
+    .species = SPECIES_DIVINI,
     }
 };
 
@@ -9608,7 +9608,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Dylan5[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_PARANGELIA,
+    .species = SPECIES_DIVINI,
     }
 };
 
@@ -9668,7 +9668,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Maria4[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_PARANGELIA,
+    .species = SPECIES_DIVINI,
     }
 };
 
@@ -9679,7 +9679,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Maria5[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_PARANGELIA,
+    .species = SPECIES_DIVINI,
     }
 };
 
@@ -18342,7 +18342,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Kyra[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_PARANGELIA,
+    .species = SPECIES_DIVINI,
     }
 };
 

@@ -31,7 +31,7 @@ else
 EXE :=
 endif
 
-TITLE       := POKEMON RWSC
+TITLE       := POKEMON DRLO
 GAME_CODE   := BPEE
 MAKER_CODE  := 01
 REVISION    := 0
