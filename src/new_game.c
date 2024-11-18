@@ -24,6 +24,7 @@
 #include "text.h"
 #include "overworld.h"
 #include "mail.h"
+#include "malloc.h"
 #include "battle_records.h"
 #include "item.h"
 #include "pokedex.h"
