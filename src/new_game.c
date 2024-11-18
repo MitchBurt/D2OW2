@@ -271,6 +271,8 @@ void NewGameInitData(void)
 
     struct ItemSlot pcItemsplus[PC_ITEMS_COUNT];
 	
+    struct ItemSlot *newItems;
+
     u16 bagPocket_Items_plus_itemID[BAG_ITEMS_COUNT];
     u8 bagPocket_Items_plus_quantity[BAG_ITEMS_COUNT];
 	
@@ -462,7 +464,6 @@ void NewGameInitData(void)
             pcItems_plus_itemID[i] = gSaveBlock1Ptr->bagPocket_Items[i].itemId;
             pcItems_plus_quantity[i] = GetPCItemQuantity(&gSaveBlock1Ptr->pcItems[i].quantity);
         }
-        struct ItemSlot *newItems;
         newItems = AllocZeroed(sizeof(gSaveBlock1Ptr->pcItems));
         memcpy(newItems, gSaveBlock1Ptr->pcItems, sizeof(gSaveBlock1Ptr->pcItems));
 
