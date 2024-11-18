@@ -22,7 +22,7 @@ Start_EventScript_Starter_Chose::
 	end
 	
 Game_Start_Text_Introduction:
-	.string "Welcome to Pokémon D.R.L.O.\n"
+	.string "Welcome to Pokémon Dario 2.\n"
 	.string "Do you have any questions?$"
 	
 Start_EventScript_Game_Level::

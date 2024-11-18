@@ -460,8 +460,12 @@ void NewGameInitData(void)
         for (i = 0; i < PC_ITEMS_COUNT; i++)
         {
             pcItems_plus_itemID[i] = gSaveBlock1Ptr->bagPocket_Items[i].itemId;
-            pcItems_plus_quantity[i] = CountTotalItemQuantityInBag(bagPocket_Items_plus_itemID[i]);
+            pcItems_plus_quantity[i] = GetPCItemQuantity(&gSaveBlock1Ptr->pcItems[i].quantity);
         }
+        struct ItemSlot *newItems;
+        newItems = AllocZeroed(sizeof(gSaveBlock1Ptr->pcItems));
+        memcpy(newItems, gSaveBlock1Ptr->pcItems, sizeof(gSaveBlock1Ptr->pcItems));
+
         ResetPokemonStorageSystem();
         
        // NewGameInitPCItems();
