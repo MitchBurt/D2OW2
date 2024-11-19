@@ -481,7 +481,7 @@ MauvilleCity_Text_UncleHesTooPeppy: @ 81DF7DC
 	.string "But he's become a bit too peppy…$"
 
 MauvilleCity_Text_WallyWantToChallengeGym: @ 81DF845
-	.string "Wally: Aww, Uncle, please?\p"
+	.string "Slime Aww, Uncle, please?\p"
 	.string "I want to challenge this Gym and see\n"
 	.string "how much better I've become.\p"
 	.string "Please? May I, please?$"
@@ -494,12 +494,12 @@ MauvilleCity_Text_UncleYourePushingIt: @ 81DF8B9
 	.string "to suddenly challenge a Gym?$"
 
 MauvilleCity_Text_WallyWeCanBeatAnyone: @ 81DF963
-	.string "Wally: I'm not pushing it.\p"
+	.string "Slime I'm not pushing it.\p"
 	.string "If I combine forces with Notafurry,\n"
 	.string "we can beat anyone!$"
 
 MauvilleCity_Text_WallyWillYouBattleMe: @ 81DF9B2
-	.string "Wally: Oh! Hi, {PLAYER}!\p"
+	.string "Slime Oh! Hi, {PLAYER}!\p"
 	.string "I've gotten a lot stronger since\n"
 	.string "we met.\p"
 	.string "{PLAYER}, I want you and my Uncle to\n"
@@ -508,7 +508,7 @@ MauvilleCity_Text_WallyWillYouBattleMe: @ 81DF9B2
 	.string "a battle with me?$"
 
 MauvilleCity_Text_WallyMyUncleWontKnowImStrong: @ 81DFA4A
-	.string "Wally: Oh… If you won't battle me,\n"
+	.string "Slime Oh… If you won't battle me,\n"
 	.string "{PLAYER}, my Uncle won't know that I've\l"
 	.string "become really strong.$"
 
@@ -520,20 +520,20 @@ MauvilleCity_Text_UncleCanYouBattleWally: @ 81DFAA5
 	.string "any reason the way he is now.$"
 
 MauvilleCity_Text_WallyPleaseBattleMe: @ 81DFB42
-	.string "Wally: {PLAYER}, please!\n"
+	.string "Slime {PLAYER}, please!\n"
 	.string "Battle with me, please.$"
 
 MauvilleCity_Text_WallyHereICome: @ 81DFB6D
-	.string "Wally: {PLAYER}, thank you.\p"
+	.string "Slime {PLAYER}, thank you.\p"
 	.string "Okay… Here I come!$"
 
 MauvilleCity_Text_WallyDefeat: @ 81DFB96
-	.string "Wally: … … … … … … …\p"
+	.string "Slime … … … … … … …\p"
 	.string "… … … … … … … …\p"
 	.string "I lost…$"
 
 MauvilleCity_Text_WallyIllGoBackToVerdanturf: @ 81DFBC3
-	.string "Wally: Uncle…\n"
+	.string "Slime Uncle…\n"
 	.string "I'll go back to Verdanturf…$"
 
 MauvilleCity_Text_ThankYouNotEnoughToBattle: @ 81DFBED
@@ -564,7 +564,7 @@ MauvilleCity_Text_UncleVisitUsSometime: @ 81DFD34
 MauvilleCity_Text_WallyPokenavCall: @ 81DFDFB
 	.string "… … … … … …\n"
 	.string "… … … … … Beep!\p"
-	.string "Wally: Oh, hello, {PLAYER}!\p"
+	.string "Slime Oh, hello, {PLAYER}!\p"
 	.string "I just wanted to tell you that\n"
 	.string "my uncle bought me a Pokénav!\p"
 	.string "Now I can get in touch with you\n"

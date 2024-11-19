@@ -69,5 +69,6 @@ const u8 gEnemyMonElevation[NUM_SPECIES] =
     [SPECIES_EQUEMBRYO] = 7,
     [SPECIES_THISCRAKER] = 3,
     [SPECIES_GAILORD] = 3,
+    [SPECIES_ENDERGON] = 6,
 };
 

@@ -7251,16 +7251,10 @@ const u8 gTowermastaPokedexText[] = _(
     "Thanks for playing :).");
 
 const u8 gStingwellPokedexText[] = _(
-    "They make a small herd of only several\n"
-    "members. They rarely make contact with\n"
-    "people or other Pokémon. They disappear\n"
-    "if they sense enemies.");
+    "Born Ready.");
 
 const u8 gTrojolinPokedexText[] = _(
-    "Even in hiding, it can detect the locations\n"
-    "of others and sense their emotions since\n"
-    "it has telepathy. Its intelligence allows\n"
-    "it to understand human languages.");
+    "Stay Classy");
 
 const u8 gThiscrakerPokedexText[] = _(
     "This Cracker.");

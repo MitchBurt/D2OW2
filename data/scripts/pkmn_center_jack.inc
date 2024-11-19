@@ -8,11 +8,10 @@ Common_EventScript_PkmnCenterJack::
 	case 0, Common_EventScript_PkmnCenterJack_NameRater_ChooseMonToRate
 	case 1, Common_EventScript_PkmnCenterJack_Move_Learner
 	case 2, Common_EventScript_PkmnCenterJack_MoveDeleter_ChooseMonAndMoveToForget
-	case 3, Common_EventScript_PkmnCenterJack_WonderTrade
-	case 4, Common_EventScript_PkmnCenterJack_Change_Costume
-	case 5, Common_EventScript_PkmnCenterJack_StartARandomBattle
-	case 6, Common_EventScript_PkmnCenterJack_Companion_Stuff
-	case 7, Common_EventScript_PkmnCenterJack_ComeBackAnytime
+	case 3, Common_EventScript_PkmnCenterJack_Change_Costume
+	case 4, Common_EventScript_PkmnCenterJack_StartARandomBattle
+	case 5, Common_EventScript_PkmnCenterJack_Companion_Stuff
+	case 6, Common_EventScript_PkmnCenterJack_ComeBackAnytime
 	case MULTI_B_PRESSED, Common_EventScript_PkmnCenterJack_ComeBackAnytime
 	end
 

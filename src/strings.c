@@ -3792,7 +3792,7 @@ const u8 gText_XsYWereSwapped[] = _("{STR_VAR_1}'s {STR_VAR_2} were swapped!{PAU
 const u8 gText_JackRateNickname[] = _("Rate a nickname");
 const u8 gText_JackRememberMove[] = _("Teach a move");
 const u8 gText_JackForgetMove[] = _("Forget a move");
-const u8 gText_JackWonderTrade[] = _("Try Wonder Trading");
+//const u8 gText_JackWonderTrade[] = _("Try Wonder Trading");
 const u8 gText_JackChangeCostume[] = _("Change Costume");
 
 // Rotom form options

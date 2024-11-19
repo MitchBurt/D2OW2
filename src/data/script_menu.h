@@ -776,7 +776,7 @@ static const struct MenuAction MultichoiceList_PokeCenterJack[] =
     {gText_JackRateNickname},
     {gText_JackRememberMove},
     {gText_JackForgetMove},
-	{gText_JackWonderTrade},
+//	{gText_JackWonderTrade},
 	{gText_JackChangeCostume},
     {gText_Exit},
 };

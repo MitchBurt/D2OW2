@@ -2600,19 +2600,19 @@ MatchCall_Text_Brendan15:: @ 2B4D46
 	.string "envious!$"
 
 MatchCall_Text_Wally1:: @ 2B4DE2
-	.string "Wally: Oh, {PLAYER}!\p"
+	.string "Slime Oh, {PLAYER}!\p"
 	.string "I've been getting healthier and\n"
 	.string "more physically fit.\p"
 	.string "I hope I can become a Trainer like\n"
 	.string "you soon, {PLAYER}!$"
 
 MatchCall_Text_Wally2:: @ 2B4E57
-	.string "Wally: {PLAYER}, hello!\p"
+	.string "Slime {PLAYER}, hello!\p"
 	.string "After Rusturf Tunnel went\n"
 	.string "through, Wanda's been very happy!$"
 
 MatchCall_Text_Wally3:: @ 2B4EA5
-	.string "Wally: Oh, {PLAYER}!\p"
+	.string "Slime Oh, {PLAYER}!\p"
 	.string "I… I left my uncle's place in\n"
 	.string "Verdanturf without telling anyone.\p"
 	.string "I wonder if he's furious with me…\p"
@@ -2620,7 +2620,7 @@ MatchCall_Text_Wally3:: @ 2B4EA5
 	.string "I feel, don't you?$"
 
 MatchCall_Text_Wally4:: @ 2B4F41
-	.string "Wally: {PLAYER}?\n"
+	.string "Slime {PLAYER}?\n"
 	.string "It's me, Wally!\p"
 	.string "The world of Trainers is amazing!\p"
 	.string "When I have my Pokémon with me,\n"
@@ -2629,7 +2629,7 @@ MatchCall_Text_Wally4:: @ 2B4F41
 	.string "connected through Pokémon!$"
 
 MatchCall_Text_Wally5:: @ 2B4FF3
-	.string "Wally: {PLAYER}? It's awesome!\n"
+	.string "Slime {PLAYER}? It's awesome!\n"
 	.string "That Notafurry we caught together?\l"
 	.string "It evolved, {PLAYER}!\p"
 	.string "Maybe I'm talented…\p"
@@ -2644,7 +2644,7 @@ MatchCall_Text_Wally6:: @ 2B50B1
 	.string "en la que no hay cobertura…$"
 
 MatchCall_Text_Wally7:: @ 2B5100
-	.string "Wally: ¡Hola, {PLAYER}!\p"
+	.string "Slime ¡Hola, {PLAYER}!\p"
 	.string "Antes de conocerte, apenas\n"
 	.string "había salido de casa…\p"
 	.string "Y ahora, voy yo solito con mis\n"
@@ -5554,19 +5554,19 @@ MatchCall_Text_Brendan15:: @ 2B4D46
 	.string "envious!$"
 
 MatchCall_Text_Wally1:: @ 2B4DE2
-	.string "Wally: Oh, {PLAYER}!\p"
+	.string "Slime Oh, {PLAYER}!\p"
 	.string "I've been getting healthier and\n"
 	.string "more physically fit.\p"
 	.string "I hope I can become a Trainer like\n"
 	.string "you soon, {PLAYER}!$"
 
 MatchCall_Text_Wally2:: @ 2B4E57
-	.string "Wally: {PLAYER}, hello!\p"
+	.string "Slime {PLAYER}, hello!\p"
 	.string "After Rusturf Tunnel went\n"
 	.string "through, Wanda's been very happy!$"
 
 MatchCall_Text_Wally3:: @ 2B4EA5
-	.string "Wally: Oh, {PLAYER}!\p"
+	.string "Slime Oh, {PLAYER}!\p"
 	.string "I… I left my uncle's place in\n"
 	.string "Verdanturf without telling anyone.\p"
 	.string "I wonder if he's furious with me…\p"
@@ -5574,7 +5574,7 @@ MatchCall_Text_Wally3:: @ 2B4EA5
 	.string "I feel, don't you?$"
 
 MatchCall_Text_Wally4:: @ 2B4F41
-	.string "Wally: {PLAYER}?\n"
+	.string "Slime {PLAYER}?\n"
 	.string "It's me, Wally!\p"
 	.string "The world of Trainers is amazing!\p"
 	.string "When I have my Pokémon with me,\n"
@@ -5583,7 +5583,7 @@ MatchCall_Text_Wally4:: @ 2B4F41
 	.string "connected through Pokémon!$"
 
 MatchCall_Text_Wally5:: @ 2B4FF3
-	.string "Wally: {PLAYER}? It's awesome!\n"
+	.string "Slime {PLAYER}? It's awesome!\n"
 	.string "That Notafurry we caught together?\l"
 	.string "It evolved, {PLAYER}!\p"
 	.string "Maybe I'm talented…\p"
@@ -5599,7 +5599,7 @@ MatchCall_Text_Wally6:: @ 2B50B1
 	.string "the Pokénav's service area…$"
 
 MatchCall_Text_Wally7:: @ 2B5100
-	.string "Wally: Oh, {PLAYER}!\p"
+	.string "Slime Oh, {PLAYER}!\p"
 	.string "Before I met you, I hardly ever\n"
 	.string "left my house…\p"
 	.string "But now, I'm on an adventure with\n"

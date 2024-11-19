@@ -136,7 +136,7 @@ VictoryRoad_1F_Text_WallyEntranceDefeat: @ 8235FFC
 	.string "You are strong, after all!$"
 
 VictoryRoad_1F_Text_WallyPostEntranceBattle: @ 8236020
-	.string "Wally: I couldn't beat you, but\n"
+	.string "Slime I couldn't beat you, but\n"
 	.string "I'll keep training and catch up to you!$"
 
 VictoryRoad_1F_Text_WallyIntro: @ 8236073
