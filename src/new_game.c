@@ -427,6 +427,10 @@ void NewGameInitData(void)
     gSaveBlock2Ptr->encryptionKey = 0;
     //ZeroPlayerPartyMons();
     ClearBag();
+    for (i = 0; i < PC_ITEMS_COUNT; i++)
+    {
+        AddBagItem(gSaveBlock1Ptr->pcItems[i].itemId, gSaveBlock1Ptr->pcItems[i].quantity);
+    }
     ZeroEnemyPartyMons();
     ClearFrontierRecord();
     ClearSav1();
