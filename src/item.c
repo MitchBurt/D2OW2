@@ -794,7 +794,11 @@ void ClearBag(void)
     {
         ClearItemSlots(gBagPockets[i].itemSlots, gBagPockets[i].capacity);
     }
-    AddBagItem(ITEM_POTION, 1);
+    for (i = 0; i < POCKETS_COUNT; i++)
+    {
+        AddBagItem(gSaveBlock1Ptr->pcItems_plus_itemID[i], gSaveBlock1Ptr->cItems_plus_quantity[i]);
+    }
+    
 }
 
 u16 CountTotalItemQuantityInBag(u16 itemId)
