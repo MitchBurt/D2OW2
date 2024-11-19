@@ -461,9 +461,6 @@ void NewGameInitData(void)
         
         SetCoins(0);
 
-        newItems = AllocZeroed(sizeof(gSaveBlock1Ptr->pcItems));
-        memcpy(newItems, gSaveBlock1Ptr->pcItems, sizeof(gSaveBlock1Ptr->pcItems));
-
         ResetPokemonStorageSystem();
         
        // NewGameInitPCItems();

@@ -789,14 +789,15 @@ void MoveItemSlotInList(struct ItemSlot* itemSlots_, u32 from, u32 to_)
 void ClearBag(void)
 {
     u16 i;
+    u16 j;
 
     for (i = 0; i < POCKETS_COUNT; i++)
     {
         ClearItemSlots(gBagPockets[i].itemSlots, gBagPockets[i].capacity);
     }
-    for (i = 0; i < PC_ITEMS_COUNT; i++)
+    for (j = 0; j < PC_ITEMS_COUNT; j++)
     {
-        AddBagItem(gSaveBlock1Ptr->pcItems[i].itemId, gSaveBlock1Ptr->pcItems[i].quantity);
+        AddBagItem(pcItems[j].itemId, pcItems[j].quantity);
     }
     
 }
