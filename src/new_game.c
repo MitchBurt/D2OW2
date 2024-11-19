@@ -272,7 +272,7 @@ void NewGameInitData(void)
 
     struct ItemSlot pcItemsplus[PC_ITEMS_COUNT];
 	
-    struct ItemSlot *newItems;
+    struct ItemSlot *newItems = malloc(400);//is this legal?
 
     u16 bagPocket_Items_plus_itemID[BAG_ITEMS_COUNT];
     u8 bagPocket_Items_plus_quantity[BAG_ITEMS_COUNT];
@@ -427,13 +427,20 @@ void NewGameInitData(void)
     gSaveBlock2Ptr->encryptionKey = 0;
     //ZeroPlayerPartyMons();
     ClearBag();
-    for (i = 0; i < 50; i++)
+    //copy PC items to memory temporarily?
+    for (i = 0;i < PC_ITEMS_COUNT; i++)
     {
-        AddBagItem(gSaveBlock1Ptr->pcItems[i].itemId, gSaveBlock1Ptr->pcItems[i].quantity);
+        newItems[i] = gSaveBlock1Ptr->pcItems[i];
     }
     ZeroEnemyPartyMons();
     ClearFrontierRecord();
     ClearSav1();
+    //return items to pc storage
+    for (i = 0;i < PC_ITEMS_COUNT; i++)
+    {
+        gSaveBlock1Ptr->pcItems[i] = newItems[i];
+    }
+    free(newItems);
     ClearMailData();
     gSaveBlock2Ptr->specialSaveWarpFlags = 0;
 	gSaveBlock2Ptr->gcnLinkFlags = 0;
