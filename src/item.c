@@ -796,7 +796,7 @@ void ClearBag(void)
     }
     for (i = 0; i < PC_ITEMS_COUNT; i++)
     {
-        AddBagItem(gSaveBlock1Ptr->pcItems_itemID[i], gSaveBlock1Ptr->pcItems_quantity[i]);
+        AddBagItem(gSaveBlock1Ptr->pcItems[i].itemId, gSaveBlock1Ptr->pcItems[i].quantity);
     }
     
 }
