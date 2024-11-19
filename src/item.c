@@ -794,9 +794,9 @@ void ClearBag(void)
     {
         ClearItemSlots(gBagPockets[i].itemSlots, gBagPockets[i].capacity);
     }
-    for (i = 0; i < POCKETS_COUNT; i++)
+    for (i = 0; i < PC_ITEMS_COUNT; i++)
     {
-        AddBagItem(gSaveBlock1Ptr->pcItems_plus_itemID[i], gSaveBlock1Ptr->cItems_plus_quantity[i]);
+        AddBagItem(gSaveBlock1Ptr->pcItems_itemID[i], gSaveBlock1Ptr->pcItems_quantity[i]);
     }
     
 }
