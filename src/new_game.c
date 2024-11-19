@@ -426,6 +426,7 @@ void NewGameInitData(void)
     gDifferentSaveFile = 1;
     gSaveBlock2Ptr->encryptionKey = 0;
     //ZeroPlayerPartyMons();
+    ClearBag();
     ZeroEnemyPartyMons();
     ClearFrontierRecord();
     ClearSav1();
@@ -444,7 +445,6 @@ void NewGameInitData(void)
     ClearPlayerLinkBattleRecords();
     InitSobbleafSizeRecord();
     InitScubiteSizeRecord();
-    ClearBag();
     if(!newgameplus){
         gPlayerPartyCount = 0;
         ZeroPlayerPartyMons();
@@ -460,11 +460,7 @@ void NewGameInitData(void)
         }
         
         SetCoins(0);
-        for (i = 0; i < PC_ITEMS_COUNT; i++)
-        {
-            pcItems_plus_itemID[i] = gSaveBlock1Ptr->bagPocket_Items[i].itemId;
-            pcItems_plus_quantity[i] = GetPCItemQuantity(&gSaveBlock1Ptr->pcItems[i].quantity);
-        }
+
         newItems = AllocZeroed(sizeof(gSaveBlock1Ptr->pcItems));
         memcpy(newItems, gSaveBlock1Ptr->pcItems, sizeof(gSaveBlock1Ptr->pcItems));
 
