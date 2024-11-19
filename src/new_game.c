@@ -306,6 +306,8 @@ void NewGameInitData(void)
 	u8 completedQuestsplus[SIDE_QUEST_FLAGS_COUNT];
 
 	u8 numBadges = GetNumBadges();
+
+    u8 numWhiteOuts = 0 + VarGet(VAR_TIMES_WHITED_OUT);
     
 	bool8 flagstoCarry[FLAGS_TO_CARRY_COUNT];
 	
@@ -605,9 +607,8 @@ void NewGameInitData(void)
         VarSet(VAR_NEW_GAME_PLUS_COUNT, newgamepluscount);
         FlagSet(FLAG_NEW_GAME_PLUS);
     }
-    u8 numWhiteOuts = 0 + VarGet(VAR_TIMES_WHITED_OUT);
 	numWhiteOuts++;
-    VarSet(VAR_NEW_GAME_PLUS_COUNT, numWhiteOuts);
+	VarSet(VAR_TIMES_WHITED_OUT, numWhiteOuts);
     ClearRoamerData();
     ClearRoamerLocationData();
     //gSaveBlock1Ptr->registeredItem = 0;
