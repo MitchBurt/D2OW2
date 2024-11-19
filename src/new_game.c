@@ -50,6 +50,7 @@
 #include "constants/map_groups.h"
 #include "constants/items.h"
 #include "tx_pokemon_follower.h"
+#include "level_scaling.h"
 
 extern const u8 EventScript_ResetAllMapFlags[];
 
@@ -304,6 +305,7 @@ void NewGameInitData(void)
     u8 unlockedQuestsplus[SIDE_QUEST_FLAGS_COUNT];
 	u8 completedQuestsplus[SIDE_QUEST_FLAGS_COUNT];
 
+	u8 numBadges = GetNumBadges();
     
 	bool8 flagstoCarry[FLAGS_TO_CARRY_COUNT];
 	
@@ -428,19 +430,27 @@ void NewGameInitData(void)
     //ZeroPlayerPartyMons();
     ClearBag();
     //copy PC items to memory temporarily?
-    for (i = 0;i < PC_ITEMS_COUNT; i++)
-    {
-        newItems[i] = gSaveBlock1Ptr->pcItems[i];
+    if(numBadges >= 1){
+        for (i = 0;i < PC_ITEMS_COUNT; i++)
+        {
+            newItems[i] = gSaveBlock1Ptr->pcItems[i];
+        }
+        ZeroEnemyPartyMons();
+        ClearFrontierRecord();
+        ClearSav1();
+        //return items to pc storage
+        for (i = 0;i < PC_ITEMS_COUNT; i++)
+        {
+            gSaveBlock1Ptr->pcItems[i] = newItems[i];
+        }
+        free(newItems);
     }
-    ZeroEnemyPartyMons();
-    ClearFrontierRecord();
-    ClearSav1();
-    //return items to pc storage
-    for (i = 0;i < PC_ITEMS_COUNT; i++)
+    else
     {
-        gSaveBlock1Ptr->pcItems[i] = newItems[i];
+        ZeroEnemyPartyMons();
+        ClearFrontierRecord();
+        ClearSav1();
     }
-    free(newItems);
     ClearMailData();
     gSaveBlock2Ptr->specialSaveWarpFlags = 0;
 	gSaveBlock2Ptr->gcnLinkFlags = 0;
@@ -595,6 +605,9 @@ void NewGameInitData(void)
         VarSet(VAR_NEW_GAME_PLUS_COUNT, newgamepluscount);
         FlagSet(FLAG_NEW_GAME_PLUS);
     }
+    u8 numWhiteOuts = 0 + VarGet(VAR_TIMES_WHITED_OUT);
+	numWhiteOuts++;
+    VarSet(VAR_NEW_GAME_PLUS_COUNT, numWhiteOuts);
     ClearRoamerData();
     ClearRoamerLocationData();
     //gSaveBlock1Ptr->registeredItem = 0;

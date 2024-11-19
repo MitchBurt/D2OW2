@@ -6702,7 +6702,7 @@ static const struct TrainerMonItemCustomMoves sParty_Shinji[] = {
     .happiness = 255,
     .species = SPECIES_UNJOY,
 	.ivs = {31, 31, 31, 31, 31, 31}, 
-	.isShiny = TRUE,
+	.isShiny = FALSE,
 	.pokeball = ITEM_FRIEND_BALL,
 	.hiddenNature = NATURE_ADAMANT,
     .postgameheldItem = ITEM_UNJOYITE,
@@ -8837,15 +8837,15 @@ static const struct TrainerMonItemCustomMoves sParty_Dario[] = {
     .evs = {6, 0, 0, 252, 0, 252}, 
     .abilityNum = 2,
     .happiness = 255,
-    .species = SPECIES_DRUNKABUS,
+    .species = SPECIES_NAWFFLE,
 	.ivs = {31, 31, 31, 31, 31, 31}, 
 	.isShiny = FALSE,
 	.pokeball = ITEM_LURE_BALL,
 	.hiddenNature = NATURE_JOLLY,
     .postgameheldItem = ITEM_LEFTOVERS,
     .heldItem = ITEM_LEFTOVERS,
-    .postgamemoves = {MOVE_BATON_PASS, MOVE_IRON_HEAD, MOVE_BOOZE_BASH, MOVE_LIQUIDATION},
-    .moves = {MOVE_BATON_PASS, MOVE_IRON_HEAD, MOVE_BOOZE_BASH, MOVE_LIQUIDATION}
+    .postgamemoves = {MOVE_EXTREME_SPEED, MOVE_IRON_HEAD, MOVE_BOOZE_BASH, MOVE_ZEN_HEADBUTT},
+    .moves = {MOVE_EXTREME_SPEED, MOVE_IRON_HEAD, MOVE_BOOZE_BASH, MOVE_ZEN_HEADBUTT}
     },
     {
     .iv = 255,

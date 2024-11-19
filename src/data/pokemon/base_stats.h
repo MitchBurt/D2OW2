@@ -3110,9 +3110,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_AMORPHOUS,
         .eggGroup2 = EGG_GROUP_FAIRY,
         .abilities = {ABILITY_AFTERMATH, ABILITY_SHADOW_TAG},
-        #ifdef BATTLE_ENGINE
-            .abilityHidden = ABILITY_AUTO_HEAL,
-        #endif
+        //.abilityHidden = ABILITY_AUTO_HEAL,
         .bodyColor = BODY_COLOR_PINK,
         .noFlip = FALSE,
     },
@@ -25213,10 +25211,10 @@ const struct BaseStats gBaseStats[] =
     {
         .baseHP        = 255,
         .baseAttack    = 5,
-        .baseDefense   = 150,
+        .baseDefense   = 90,
         .baseSpeed     = 50,
-        .baseSpAttack  = 110,
-        .baseSpDefense = 150,
+        .baseSpAttack  = 100,
+        .baseSpDefense = 110,
         .type1 = TYPE_GHOST,
         .type2 = TYPE_FAIRY,
         .catchRate = 255,

@@ -526,6 +526,8 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 
 #define OBJ_EVENT_PAL_HILBERT 			  	      0x1161
 
+#define OBJ_EVENT_PAL_DARIO 			  	      0x1162
+
 #define OBJ_EVENT_PAL_TAG_NONE 					  0x11FF
 
 #define OBJ_EVENT_PAL_TAG_POKEMON_START 0x1800
@@ -1446,6 +1448,7 @@ const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPalette_AquaMemberF,  	 OBJ_EVENT_PAL_AQUA_F},
 	{gObjectEventPalette_Archie,  	 	 OBJ_EVENT_PAL_ARCHIE},
 	{gObjectEventPalette_BattleNurse,  	 OBJ_EVENT_PAL_BATTLE_NURSE},
+    {gObjectEventPalette_BattleNurse,  	 OBJ_EVENT_PAL_DARIO},
 	
 	{gObjectEventPalette_SurfBlob,  	 OBJ_EVENT_PAL_SURF_BLOB},
 	
