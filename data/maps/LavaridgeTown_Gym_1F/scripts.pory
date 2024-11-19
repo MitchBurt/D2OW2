@@ -488,13 +488,8 @@ LavaridgeTown_Gym_1F_Text_GymStatueCertified: @ 81FF5C4
 	.string "{PLAYER}$"
 
 LavaridgeTown_Gym_1F_Text_JaredPreRematch: @ 81FF601
-	.string "Jared: Losing a battle isn't going\n"
-	.string "to deflate me.\p"
-	.string "I love Pokémon.\n"
-	.string "I love to battle.\l"
-	.string "And… I love this Gym!\p"
-	.string "Let's exchange superhot moves\n"
-	.string "in another battle!$"
+	.string "Yo.\p"
+	.string "I heard you want the smoke.$"
 
 LavaridgeTown_Gym_1F_Text_JaredRematchDefeat: @ 81FF69F
 	.string "Whew!\n"
@@ -509,13 +504,8 @@ LavaridgeTown_Gym_1F_Text_JaredPostRematch: @ 81FF6BF
 	.string "again sometime!$"
 
 LavaridgeTown_Gym_1F_Text_JaredRematchNeedTwoMons: @ 81FF75E
-	.string "Jared: Losing a battle isn't going\n"
-	.string "to deflate me.\p"
-	.string "I love Pokémon.\n"
-	.string "I love to battle.\l"
-	.string "And… I love this Gym!\p"
-	.string "Let's exchange superhot moves\n"
-	.string "in another battle!\p"
+	.string "Yo.\p"
+	.string "I heard you want the smoke."
 	.string "Oh, wait. Do you only have one Pokémon\n"
 	.string "that can battle?\p"
 	.string "I hate to say this, but when you come\n"
