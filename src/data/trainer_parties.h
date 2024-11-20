@@ -1621,7 +1621,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Simon[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SOBBLE,
+    .species = SPECIES_SCUBITE,
     }
 };
 
@@ -3311,7 +3311,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntSpaceCenter2[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_PATRAT,
+    .species = SPECIES_POSSQUAD,
     },
     {
     .iv = 0,
@@ -10188,7 +10188,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Danny[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_DEINO,
+    .species = SPECIES_CAPPLE,
     },
     {
     .iv = 0,
@@ -14043,7 +14043,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lorenzo[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_FOMANTIS,
+    .species = SPECIES_EMBOB,
     }
 };
 
@@ -15622,7 +15622,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Trent1[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_CRANIDOS,
+    .species = SPECIES_TRICERAS,
     },
     {
     .iv = 0,
@@ -17572,7 +17572,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Marcos[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_TOXEL,
+    .species = SPECIES_ENDERMON,
     }
 };
 
@@ -17583,7 +17583,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Rhett[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_SCRAGGY,
+    .species = SPECIES_BRIXEL,
     },
 	{
     .iv = 100,
@@ -18557,7 +18557,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Rachel[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_PARSLITO,
+    .species = SPECIES_TICKTOWEL,
     },
     {
     .iv = 0,
@@ -18565,7 +18565,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Rachel[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_MIMIKYU,
+    .species = SPECIES_BEEGMIKE,
     },
 };
 
