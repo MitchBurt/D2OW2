@@ -1743,7 +1743,7 @@ static void ShowAutoRunWindow(void)
 
 static void ShowGameVersionWindow(void)
 {
-	static const u8 GameVersion[] =  _("Game Version 1.0.1\n{STR_VAR_1} {STR_VAR_2} {STR_VAR_3}$");
+	static const u8 GameVersion[] =  _("Game Version 1.0.0\n{STR_VAR_1} {STR_VAR_2} {STR_VAR_3}$");
 	static const u8 easymodeText[] = _("{COLOR GREEN}Easy Mode$");
 	static const u8 normalmodeText[] = _("{COLOR BLUE}Normal Mode$");
 	static const u8 hardmodeText[] = _("{COLOR RED}Hard Mode$");

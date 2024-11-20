@@ -370,7 +370,7 @@ void DoWhiteOut(void)
 
     if ((anyPokemonLeft == FALSE) && FlagGet(FLAG_NUZLOCKE))
     {
-        //ClearSaveData(); TODO? DOES THIS WORK?
+        ClearSaveData();
         ResetSafariZoneFlag();
         NewGameInitData();
         ResetMenuAndMonGlobals();
