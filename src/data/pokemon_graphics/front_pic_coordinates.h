@@ -133,7 +133,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_DISHEATS] =
     {
         .size = 0x67,
-        .y_offset = 1,
+        .y_offset = 4,
     },
     [SPECIES_JAFEET] =
     {
