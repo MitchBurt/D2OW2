@@ -9,7 +9,6 @@ Start_EventScript_Starter_No_Exploit::
 Start_EventScript_Starter_Chose::
 	lock
 	faceplayer
-	call Common_EventScript_SaveGame
 	goto_if_set FLAG_ENABLE_RICK_MATCH_CALL, Start_EventScript_Starter_No_Exploit
 	goto_if_set FLAG_NEW_GAME_PLUS, Start_EventScript_Starter_Chose_NewGamePlus
 	msgbox Game_Start_Text_Introduction, MSGBOX_DEFAULT

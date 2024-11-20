@@ -64,7 +64,7 @@ gText_Birch_AreYouReady:: @ 82C8C7A
 gText_Birch_Welcome:: @ 82C897B
 	.string "Hi! Nice to see you again\p"
 	.string "Welcome to Pokémon Dario 2.\p"
-	.string "$"
+	.string "A new Rouge-Like Adventure$"
 
 gText_Birch_Pokemon:: @ 82C89FB
 	.string "This is what we call a “Pokémon.”\p"
