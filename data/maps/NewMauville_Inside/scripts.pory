@@ -175,8 +175,8 @@ NewMauville_Inside_EventScript_RedButton_Unpressed:
 	
 NewMauville_Inside_EventScript_DoRotomBattle:
 	msgbox NewMauville_Inside_Text_SteppedOnSwitchRotomBattle, MSGBOX_DEFAULT
-	setwildbattle SPECIES_ROTOM, 1, ITEM_NONE
-	playmoncry SPECIES_ROTOM, 2
+	setwildbattle SPECIES_AWMANE, 1, ITEM_NONE
+	playmoncry SPECIES_AWMANE, 2
 	delay 40
 	waitmoncry
 	dowildbattle

@@ -283,11 +283,9 @@ FortreeCity_Gym_Text_GymGuideAdvice: @ 8216785
 	.string "Yo, how's it going, Champion-\n"
 	.string "bound {PLAYER}?\p"
 	.string "Fortree Gym Leader Tanner is\n"
-	.string "a master of Flying-type Pokémon.\p"
-	.string "She's waiting at the back of this Gym,\n"
-	.string "behind the rotating doors.\p"
-	.string "She's waiting for new challengers\n"
-	.string "who are trying to take wing!\p"
+	.string "on the pooper right now.\p"
+	.string "He'll be  at the back of this Gym,\n"
+	.string "when he's ready.\p"
 	.string "Okay, go for it!$"
 
 FortreeCity_Gym_Text_GymGuidePostVictory: @ 821687D
@@ -334,8 +332,8 @@ FortreeCity_Gym_Text_FlintDefeat: @ 8216AC4
 	.string "I lost!$"
 
 FortreeCity_Gym_Text_FlintPostBattle: @ 8216AD7
-	.string "Tanner is cute and she's strong.\n"
-	.string "She's the ultimate Leader!\p"
+	.string "Tanner is big and he's strong.\n"
+	.string "He's the ultimate Leader!\p"
 	.string "Blush…$"
 
 FortreeCity_Gym_Text_AshleyIntro: @ 8216B1A
