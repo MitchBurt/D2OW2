@@ -93,6 +93,12 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
                                        {EVO_LEVEL_ATK_LT_DEF, 30, SPECIES_BABEYON},
                                        {EVO_ITEM, ITEM_FIRE_STONE, SPECIES_DEEPFRIEON},
 									   {EVO_ITEM, ITEM_COSMIC_STONE, SPECIES_ALIEON}},
+
+    [SPECIES_REWINDLE]                 = {{EVO_LEVEL_ATK_GT_DEF, 30, SPECIES_AMAZULK},
+                                       {EVO_LEVEL_ATK_EQ_DEF, 30, SPECIES_SURBSQUACH},
+                                       {EVO_LEVEL_ATK_LT_DEF, 30, SPECIES_BIREMIC},
+                                       {EVO_ITEM, ITEM_WATER_STONE, SPECIES_REPLITOR},},
+
     [SPECIES_AURICLIARY]	            = {{EVO_ITEM, ITEM_ELECTIRIZER, SPECIES_SETRONIC}},
     [SPECIES_ATTACO]	            = {{EVO_LEVEL, 28, SPECIES_GAISER}},
     [SPECIES_SHEPEIRD]	            = {{EVO_MEGA_EVOLUTION, ITEM_SHEPEIRDITE, SPECIES_SHEPEIRD_MEGA}},
@@ -207,7 +213,6 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_USARMY]               = {{EVO_ITEM, ITEM_COSMIC_STONE, SPECIES_UNSC}},
     [SPECIES_BABINION]                = {{EVO_FRIENDSHIP, 30, SPECIES_SWAMPOGRE}},
     [SPECIES_RATMAN]               = {{EVO_LEVEL, 26, SPECIES_BATANARF}},
-    [SPECIES_ALIEON]               = {{EVO_ITEM, ITEM_SHINY_STONE, SPECIES_ROSERADE}},
     [SPECIES_DOOBOB]               = {{EVO_LEVEL, 21, SPECIES_DOODOOBOB}},
     [SPECIES_DOODOOBOB]              = {{EVO_LEVEL, 38, SPECIES_UGADOOBA}},
     [SPECIES_SYMBITE]                = {{EVO_FRIENDSHIP, 30, SPECIES_ANIVENOM}},

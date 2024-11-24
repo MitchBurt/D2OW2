@@ -277,8 +277,8 @@ static const u8 sText_GreenColor[]          = _("Green Color");
 static const u8 sText_TitleScreen[]         = _("Title Screen");
 static const u8 sText_Transition[]          = _("Transition Speed");
 static const u8 sText_ShowDamage[]          = _("Show Damage Done");
-static const u8 sText_AutomaticFollowers[]  = _("Auto Followers");
-static const u8 sText_ROWECries[]           = _("Cry Type");
+//static const u8 sText_AutomaticFollowers[]  = _("Auto Followers");
+//static const u8 sText_ROWECries[]           = _("Cry Type");
 static const u8 sText_UnitSystem[]          = _("UNIT SYSTEM");
 static const u8 *const sOptionMenuItemsNamesCustom[MENUITEM_CUSTOM_COUNT] =
 {
@@ -290,8 +290,8 @@ static const u8 *const sOptionMenuItemsNamesCustom[MENUITEM_CUSTOM_COUNT] =
     [MENUITEM_CUSTOM_TITLE_SCREEN]        = sText_TitleScreen,
     [MENUITEM_CUSTOM_TRANSITION]          = sText_Transition,
 	[MENUITEM_CUSTOM_SHOW_DAMAGE]         = sText_ShowDamage,
-	[MENUITEM_CUSTOM_AUTOMATIC_FOLLOWER]  = sText_AutomaticFollowers,
-	[MENUITEM_CUSTOM_ROWECRIES]           = sText_ROWECries,
+//	[MENUITEM_CUSTOM_AUTOMATIC_FOLLOWER]  = sText_AutomaticFollowers,
+//	[MENUITEM_CUSTOM_ROWECRIES]           = sText_ROWECries,
     [MENUITEM_CUSTOM_CANCEL]              = gText_OptionMenuSave,
 };
 
@@ -407,8 +407,8 @@ static const u8 *const sOptionMenuItemDescriptionsCustom[MENUITEM_CUSTOM_COUNT][
     [MENUITEM_CUSTOM_TITLE_SCREEN]       = {sText_Desc_TitleScreen,        sText_Empty},
     [MENUITEM_CUSTOM_TRANSITION]         = {sText_Desc_Transition,         sText_Empty},
 	[MENUITEM_CUSTOM_SHOW_DAMAGE]        = {sText_Desc_ShowDamageDone,     sText_Empty},
-	[MENUITEM_CUSTOM_AUTOMATIC_FOLLOWER] = {sText_Desc_AutomaticFollow,    sText_Empty},
-	[MENUITEM_CUSTOM_ROWECRIES]          = {sText_Desc_RoweCries,          sText_Empty},
+//	[MENUITEM_CUSTOM_AUTOMATIC_FOLLOWER] = {sText_Desc_AutomaticFollow,    sText_Empty},
+//	[MENUITEM_CUSTOM_ROWECRIES]          = {sText_Desc_RoweCries,          sText_Empty},
     [MENUITEM_CUSTOM_CANCEL]             = {sText_Desc_Save,               sText_Empty},
 };
 
