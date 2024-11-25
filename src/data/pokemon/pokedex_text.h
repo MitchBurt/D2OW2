@@ -7339,7 +7339,7 @@ const u8 gXdikPokedexText[] = _(
     "XDDDDD.");
 
 const u8 gXdemonPokedexText[] = _(
-    "THe Demon that has possessed Dariobot.");
+    "The Demon that has possessed Dariobot.");
 
 const u8 gDesitrusPokedexText[] = _(
     "Lemon.");
@@ -7390,10 +7390,7 @@ const u8 gShieldonPokedexText[] = _(
     "face, so it's thought.");
 
 const u8 gGreedurnPokedexText[] = _(
-    "Their rock-hard faces serve to protect\n"
-    "them from any frontral attacks.\n"
-    "When attacked, they form a wall.\n"
-    "They shielded their young in that way.");
+    "Draw 3 cards.");
 
 const u8 gParslitoPokedexText[] = _(
     "That's not mint.");
