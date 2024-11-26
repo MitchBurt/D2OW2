@@ -11660,20 +11660,6 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_PHYSICAL,
     },
 
-    [MOVE_GOURMET_SLAM] =
-    {
-        .effect = EFFECT_PARALYZE_HIT,
-        .power = 90,
-        .type = TYPE_FOOD,
-        .accuracy = 100,
-        .pp = 15,
-        .secondaryEffectChance = 30,
-        .target = MOVE_TARGET_SELECTED,
-        .priority = 0,
-        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST | FLAG_DMG_MINIMIZE,
-        .split = SPLIT_PHYSICAL,
-    },
-
     [MOVE_SWEET_DRIZZLE] =
     {
         .effect = EFFECT_SPECIAL_DEFENSE_DOWN_HIT,
