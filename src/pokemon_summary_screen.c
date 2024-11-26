@@ -873,6 +873,10 @@ static const union AnimCmd sSpriteAnim_TypeAlcohol[] = {
     ANIMCMD_FRAME(TYPE_ALCOHOL * 8, 0, FALSE, FALSE),
     ANIMCMD_END
 };
+static const union AnimCmd sSpriteAnim_TypeFood[] = {
+    ANIMCMD_FRAME(TYPE_FOOD * 8, 0, FALSE, FALSE),
+    ANIMCMD_END
+};
 static const union AnimCmd sSpriteAnim_CategoryCool[] = {
     ANIMCMD_FRAME((CONTEST_CATEGORY_COOL + NUMBER_OF_MON_TYPES) * 8, 0, FALSE, FALSE),
     ANIMCMD_END
@@ -961,6 +965,7 @@ static const u8 sMoveTypeToOamPaletteNum[NUMBER_OF_MON_TYPES + CONTEST_CATEGORIE
     [TYPE_FAIRY] = 14,
     [TYPE_COSMIC] = 15,
     [TYPE_ALCOHOL] = 13,
+    [TYPE_FOOD] = 13,
     [NUMBER_OF_MON_TYPES + CONTEST_CATEGORY_COOL] = 13,
     [NUMBER_OF_MON_TYPES + CONTEST_CATEGORY_BEAUTY] = 14,
     [NUMBER_OF_MON_TYPES + CONTEST_CATEGORY_CUTE] = 14,

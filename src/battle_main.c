@@ -342,6 +342,7 @@ const u8 gTypeNames[NUMBER_OF_MON_TYPES][TYPE_NAME_LENGTH + 1] =
     _("Hada"),
     _("Cosmic"),
     _("Alcohl"), 
+    _("Food"), 
 #else
     _("Normal"),
     _("Fight"),
@@ -363,7 +364,8 @@ const u8 gTypeNames[NUMBER_OF_MON_TYPES][TYPE_NAME_LENGTH + 1] =
     _("Dark"),
     _("Fairy"),
     _("Cosmic"),
-    _("Alcohl"), 
+    _("Alcohl"),
+    _("Food"), 
 #endif
 
 };

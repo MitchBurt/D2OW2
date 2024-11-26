@@ -2079,7 +2079,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_BIREMIC:
 				case SPECIES_MUK:
 				case SPECIES_GUMMI:
-				case SPECIES_BRONZONG:
+				case SPECIES_SANGBLADE:
 				case SPECIES_CRUSTLE:
 				case SPECIES_HYDREIGON:
 				case SPECIES_KARRABLAST:
@@ -2130,7 +2130,7 @@ static void UnlockQuestMenu(void)
 				case SPECIES_ZWEILOUS:
 				case SPECIES_TURTWIG:
 				case SPECIES_LURANTIS:
-				case SPECIES_BRONZOR:
+				case SPECIES_UNGGRUNT:
 				case SPECIES_DIVINI:
 				case SPECIES_TAILLOW:
 				case SPECIES_MIMEJR:

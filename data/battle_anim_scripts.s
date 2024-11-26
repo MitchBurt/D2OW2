@@ -788,6 +788,13 @@ gBattleAnims_Moves::
 	.4byte Move_BEER_FROTH
 	.4byte Move_SHOTGUN
 	.4byte Move_EXPLOSION2
+	.4byte Move_FOOD_COMA
+	.4byte Move_FOOD_FIGHT
+	.4byte Move_DOUGH_ROLL
+	.4byte Move_SAVORY_SURGE
+	.4byte Move_GOURMET_SLAM
+	.4byte Move_SWEET_DRIZZLE
+	.4byte Move_BATTER
 	.4byte Move_COUNT @ cannot be reached, because last move is Eerie Spell
 
 	.align 2
@@ -13355,6 +13362,27 @@ Move_SHOTGUN::
 
 Move_EXPLOSION2::
 	goto Move_EXPLOSION
+
+Move_FOOD_COMA::
+	goto Move_BODY_PRESS
+
+Move_FOOD_FIGHT::
+	goto Move_NATURAL_GIFT
+
+Move_DOUGH_ROLL::
+	goto Move_ICE_BALL
+
+Move_SAVORY_SURGE::
+	goto Move_AROMATHERAPY
+
+Move_GOURMET_SLAM::
+	goto Move_BODY_PRESS
+
+Move_SWEET_DRIZZLE::
+	goto Move_APPLE_ACID
+
+Move_BATTER::
+	goto Move_PLAY_ROUGH
 
 Move_OCTOLOCK::
 	loadspritegfx ANIM_TAG_TENDRILS

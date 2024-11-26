@@ -291,6 +291,9 @@ static const u16 Type_Icon_Alcohol_Pal[] = INCBIN_U16("graphics/battle_interface
 static const u8 Type_Icon_Cosmic[]      = INCBIN_U8("graphics/battle_interface/custom/types/cosmic.4bpp"); 
 static const u16 Type_Icon_Cosmic_Pal[] = INCBIN_U16("graphics/battle_interface/custom/types/cosmic.gbapal");
 
+static const u8 Type_Icon_Food[]      = INCBIN_U8("graphics/battle_interface/custom/types/food.4bpp"); 
+static const u16 Type_Icon_Food_Pal[] = INCBIN_U16("graphics/battle_interface/custom/types/food.gbapal");
+
 static const u8 Type_Icon_Mystery[]      = INCBIN_U8("graphics/battle_interface/custom/types/mystery.4bpp"); 
 static const u16 Type_Icon_Mystery_Pal[] = INCBIN_U16("graphics/battle_interface/custom/types/mystery.gbapal");
 
@@ -1954,6 +1957,10 @@ static void MoveSelectionDisplayMoveTypeDoubles(u8 targetId)
             BlitBitmapToWindow(B_WIN_MOVE_TYPE , Type_Icon_Alcohol, x, y, 32, 16);
             LoadPalette(Type_Icon_Alcohol_Pal, 10 * 0x10, 0x20);
         break;
+        case TYPE_FOOD:
+            BlitBitmapToWindow(B_WIN_MOVE_TYPE , Type_Icon_Food, x, y, 32, 16);
+            LoadPalette(Type_Icon_Food_Pal, 10 * 0x10, 0x20);
+        break;
         default:
             BlitBitmapToWindow(B_WIN_MOVE_TYPE , Type_Icon_Mystery, x, y, 32, 16);
             LoadPalette(Type_Icon_Mystery_Pal, 10 * 0x10, 0x20);
@@ -2088,6 +2095,10 @@ static void MoveSelectionDisplayMoveType(void)
         case TYPE_ALCOHOL:
             BlitBitmapToWindow(B_WIN_MOVE_TYPE , Type_Icon_Alcohol, x, y, 32, 16);
             LoadPalette(Type_Icon_Alcohol_Pal, 10 * 0x10, 0x20);
+        break;
+        case TYPE_FOOD:
+            BlitBitmapToWindow(B_WIN_MOVE_TYPE , Type_Icon_Food, x, y, 32, 16);
+            LoadPalette(Type_Icon_Food_Pal, 10 * 0x10, 0x20);
         break;
         default:
             BlitBitmapToWindow(B_WIN_MOVE_TYPE , Type_Icon_Mystery, x, y, 32, 16);

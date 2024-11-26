@@ -3021,7 +3021,7 @@ const u16 gEggMoves[] = {
 		MOVE_BRINE,
 		MOVE_TRUMP_CARD),
 
-	egg_moves(DRIFLOON,
+	egg_moves(CHEETORCH,
 		MOVE_DISABLE,
 		MOVE_HYPNOSIS,
 		MOVE_HAZE,

@@ -1688,6 +1688,7 @@ static const struct SearchOptionText sDexSearchTypeOptions[] =
     {gText_DexEmptyString, gTypeNames[TYPE_FAIRY]},
     {gText_DexEmptyString, gTypeNames[TYPE_COSMIC]},
     {gText_DexEmptyString, gTypeNames[TYPE_ALCOHOL]},
+    {gText_DexEmptyString, gTypeNames[TYPE_FOOD]},
     #endif
     {},
 };
@@ -1727,6 +1728,7 @@ static const u8 sDexSearchTypeIds[] =
     TYPE_FAIRY,
     TYPE_COSMIC,
     TYPE_ALCOHOL,
+    TYPE_FOOD,
     #endif
 };
 
@@ -4641,6 +4643,7 @@ static const u8 sMoveTypeToOamPaletteNum[NUMBER_OF_MON_TYPES + CONTEST_CATEGORIE
     [TYPE_DARK] = TYPE_ICON_PAL_NUM_0,
     [TYPE_COSMIC] = TYPE_ICON_PAL_NUM_2,
     [TYPE_ALCOHOL] = TYPE_ICON_PAL_NUM_0,
+    [TYPE_FOOD] = TYPE_ICON_PAL_NUM_0,
     [NUMBER_OF_MON_TYPES + CONTEST_CATEGORY_COOL] = TYPE_ICON_PAL_NUM_0,
     [NUMBER_OF_MON_TYPES + CONTEST_CATEGORY_BEAUTY] = TYPE_ICON_PAL_NUM_1,
     [NUMBER_OF_MON_TYPES + CONTEST_CATEGORY_CUTE] = TYPE_ICON_PAL_NUM_1,

@@ -2222,6 +2222,7 @@ static const u8 sMoveTypeToOamPaletteNum[NUMBER_OF_MON_TYPES] =
     #endif
     [TYPE_COSMIC] = TYPE_ICON_PAL_NUM_2,
     [TYPE_ALCOHOL] = TYPE_ICON_PAL_NUM_0,
+    [TYPE_FOOD] = TYPE_ICON_PAL_NUM_0,
 };
 static void SetTypeIconPosAndPal(u8 typeId, u8 x, u8 y, u8 spriteArrayId)
 {

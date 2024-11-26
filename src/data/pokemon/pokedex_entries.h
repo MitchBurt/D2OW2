@@ -5101,24 +5101,24 @@ const struct PokedexEntry gPokedexEntries[] =
 		.trainerOffset = 0,
 	},
 
-	[NATIONAL_DEX_DRIFLOON] =
+	[NATIONAL_DEX_CHEETORCH] =
 	{
 		.categoryName = _("Balloon"),
 		.height = 4,
 		.weight = 12,
-		.description = gDrifloonPokedexText,
+		.description = gCheetorchPokedexText,
 		.pokemonScale = 356,
 		.pokemonOffset = 17,
 		.trainerScale = 256,
 		.trainerOffset = 0,
 	},
 
-	[NATIONAL_DEX_DRIFBLIM] =
+	[NATIONAL_DEX_SPICHEETAH] =
 	{
 		.categoryName = _("Blimp"),
 		.height = 12,
 		.weight = 150,
-		.description = gDrifblimPokedexText,
+		.description = gSpicheetahPokedexText,
 		.pokemonScale = 356,
 		.pokemonOffset = 17,
 		.trainerScale = 256,
@@ -5233,24 +5233,24 @@ const struct PokedexEntry gPokedexEntries[] =
 		.trainerOffset = 0,
 	},
 
-	[NATIONAL_DEX_BRONZOR] =
+	[NATIONAL_DEX_UNGGRUNT] =
 	{
 		.categoryName = _("Bronze"),
 		.height = 5,
 		.weight = 605,
-		.description = gBronzorPokedexText,
+		.description = gUnggruntPokedexText,
 		.pokemonScale = 356,
 		.pokemonOffset = 17,
 		.trainerScale = 256,
 		.trainerOffset = 0,
 	},
 
-	[NATIONAL_DEX_BRONZONG] =
+	[NATIONAL_DEX_SANGBLADE] =
 	{
 		.categoryName = _("Bronze Bell"),
 		.height = 13,
 		.weight = 1870,
-		.description = gBronzongPokedexText,
+		.description = gSangbladePokedexText,
 		.pokemonScale = 356,
 		.pokemonOffset = 17,
 		.trainerScale = 256,
@@ -15891,24 +15891,24 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_DRIFLOON] =
+    [NATIONAL_DEX_CHEETORCH] =
     {
-        .categoryName = _("Balloon"),
+        .categoryName = _("Cheeto"),
         .height = 4,
         .weight = 12,
-        .description = gDrifloonPokedexText,
+        .description = gCheetorchPokedexText,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_DRIFBLIM] =
+    [NATIONAL_DEX_SPICHEETAH] =
     {
-        .categoryName = _("Blimp"),
+        .categoryName = _("Cheeto"),
         .height = 12,
         .weight = 150,
-        .description = gDrifblimPokedexText,
+        .description = gSpicheetahPokedexText,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
@@ -16023,24 +16023,24 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_BRONZOR] =
+    [NATIONAL_DEX_UNGGRUNT] =
     {
-        .categoryName = _("Bronze"),
+        .categoryName = _("Grunt"),
         .height = 5,
         .weight = 605,
-        .description = gBronzorPokedexText,
+        .description = gUnggruntPokedexText,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,
         .trainerOffset = 0,
     },
 
-    [NATIONAL_DEX_BRONZONG] =
+    [NATIONAL_DEX_SANGBLADE] =
     {
-        .categoryName = _("Bronze Bell"),
+        .categoryName = _("Elite"),
         .height = 13,
         .weight = 1870,
-        .description = gBronzongPokedexText,
+        .description = gSangbladePokedexText,
         .pokemonScale = 356,
         .pokemonOffset = 17,
         .trainerScale = 256,

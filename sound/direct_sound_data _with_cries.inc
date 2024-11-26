@@ -2083,12 +2083,12 @@ Cry_Ambipom::
 	.incbin "sound/direct_sound_samples/cries/cry_not_ambipom.bin"
 
 	.align 2
-Cry_Drifloon::
-	.incbin "sound/direct_sound_samples/cries/cry_not_drifloon.bin"
+Cry_Cheetorch::
+	.incbin "sound/direct_sound_samples/cries/cry_not_cheetorch.bin"
 
 	.align 2
-Cry_Drifblim::
-	.incbin "sound/direct_sound_samples/cries/cry_not_drifblim.bin"
+Cry_Spicheetah::
+	.incbin "sound/direct_sound_samples/cries/cry_not_spicheetah.bin"
 
 	.align 2
 Cry_Possquad::
@@ -2127,12 +2127,12 @@ Cry_Skuntank::
 	.incbin "sound/direct_sound_samples/cries/cry_not_skuntank.bin"
 
 	.align 2
-Cry_Bronzor::
-	.incbin "sound/direct_sound_samples/cries/cry_not_bronzor.bin"
+Cry_Unggrunt::
+	.incbin "sound/direct_sound_samples/cries/cry_not_unggrunt.bin"
 
 	.align 2
-Cry_Bronzong::
-	.incbin "sound/direct_sound_samples/cries/cry_not_bronzong.bin"
+Cry_Sangblade::
+	.incbin "sound/direct_sound_samples/cries/cry_not_sangblade.bin"
 
 	.align 2
 Cry_Bonsly::

@@ -2544,15 +2544,15 @@ const u8 gAmbipomPokedexText[] = _(
     "its hands now.\n"
     "");
 
-const u8 gDrifloonPokedexText[] = _(
+const u8 gCheetorchPokedexText[] = _(
     "Because of the way it floats aimlessly,\n"
     "an old folktale calls it a “Signpost for\n"
     "Wandering Spirits.” Children holding\n"
     "them sometimes vanish.");
 
-const u8 gDrifblimPokedexText[] = _(
+const u8 gSpicheetahPokedexText[] = _(
     "Even while under careful observation,\n"
-    "large flocks of Drifblim flying at dusk\n"
+    "large flocks of Spicheetah flying at dusk\n"
     "will inexplicably disappear from view.\n"
     "No one knows where they go.");
 
@@ -2610,13 +2610,13 @@ const u8 gSkuntankPokedexText[] = _(
     "smells worse the longer it is allowed\n"
     "to fester.");
 
-const u8 gBronzorPokedexText[] = _(
+const u8 gUnggruntPokedexText[] = _(
     "Implements shaped like it were discovered\n"
     "in ancient tombs. There are researchers\n"
     "who believe this Pokémon reflected like a\n"
     "mirror in the distant past.");
 
-const u8 gBronzongPokedexText[] = _(
+const u8 gSangbladePokedexText[] = _(
     "In ages past, this Pokémon was revered as\n"
     "a bringer of rain. One caused a news stir\n"
     "when it was dug up at a construction site\n"
@@ -7441,17 +7441,11 @@ const u8 gAmbipomPokedexText[] = _(
     "its hands now.\n"
     "");
 
-const u8 gDrifloonPokedexText[] = _(
-    "Because of the way it floats aimlessly,\n"
-    "an old folktale calls it a “Signpost for\n"
-    "Wandering Spirits.” Children holding\n"
-    "them sometimes vanish.");
+const u8 gCheetorchPokedexText[] = _(
+    "It aint easy being cheesy.");
 
-const u8 gDrifblimPokedexText[] = _(
-    "Even while under careful observation,\n"
-    "large flocks of Drifblim flying at dusk\n"
-    "will inexplicably disappear from view.\n"
-    "No one knows where they go.");
+const u8 gSpicheetahPokedexText[] = _(
+    "It ain't icy being spicy.");
 
 const u8 gPossquadPokedexText[] = _(
     "Possums.");
@@ -7495,17 +7489,11 @@ const u8 gSkuntankPokedexText[] = _(
     "smells worse the longer it is allowed\n"
     "to fester.");
 
-const u8 gBronzorPokedexText[] = _(
-    "Implements shaped like it were discovered\n"
-    "in ancient tombs. There are researchers\n"
-    "who believe this Pokémon reflected like a\n"
-    "mirror in the distant past.");
+const u8 gUnggruntPokedexText[] = _(
+    "WAAAAAAAAAAAAAH");
 
-const u8 gBronzongPokedexText[] = _(
-    "In ages past, this Pokémon was revered as\n"
-    "a bringer of rain. One caused a news stir\n"
-    "when it was dug up at a construction site\n"
-    "after a 2000-year sleep.");
+const u8 gSangbladePokedexText[] = _(
+        "WORT WORT WORT.");
 
 const u8 gBonslyPokedexText[] = _(
     "Bonsly prefers an arid atmosphere.\n"

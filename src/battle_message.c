@@ -2425,6 +2425,7 @@ static const u8 sATypeMove_Table[][17] =
     [TYPE_FAIRY]    = _("a Fairy move"),
     [TYPE_COSMIC]   = _("a Cosmic move"),
     [TYPE_ALCOHOL]  = _("an Alcohol move"),
+    [TYPE_FOOD]     = _("a Food move"),
 };
 
 const u8 gText_BattleTourney[] = _("Battle Tourney");

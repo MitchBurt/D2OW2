@@ -5146,7 +5146,7 @@ static const union AnimCmd sAnim_AMBIPOM_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_DRIFLOON_1[] =
+static const union AnimCmd sAnim_CHEETORCH_1[] =
 {
     ANIMCMD_FRAME(0, 30),
     ANIMCMD_FRAME(1, 30),
@@ -5154,7 +5154,7 @@ static const union AnimCmd sAnim_DRIFLOON_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_DRIFBLIM_1[] =
+static const union AnimCmd sAnim_SPICHEETAH_1[] =
 {
     ANIMCMD_FRAME(0, 20),
     ANIMCMD_FRAME(1, 20),
@@ -5241,7 +5241,7 @@ static const union AnimCmd sAnim_SKUNTANK_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_BRONZOR_1[] =
+static const union AnimCmd sAnim_UNGGRUNT_1[] =
 {
     ANIMCMD_FRAME(0, 30),
     ANIMCMD_FRAME(1, 30),
@@ -5249,7 +5249,7 @@ static const union AnimCmd sAnim_BRONZOR_1[] =
     ANIMCMD_END,
 };
 
-static const union AnimCmd sAnim_BRONZONG_1[] =
+static const union AnimCmd sAnim_SANGBLADE_1[] =
 {
     ANIMCMD_FRAME(0, 30),
     ANIMCMD_FRAME(1, 30),
@@ -11479,14 +11479,14 @@ static const union AnimCmd *const sAnims_AMBIPOM[] ={
     sAnim_AMBIPOM_1,
 };
 
-static const union AnimCmd *const sAnims_DRIFLOON[] ={
+static const union AnimCmd *const sAnims_CHEETORCH[] ={
     sAnim_GeneralFrame0,
-    sAnim_DRIFLOON_1,
+    sAnim_CHEETORCH_1,
 };
 
-static const union AnimCmd *const sAnims_DRIFBLIM[] ={
+static const union AnimCmd *const sAnims_SPICHEETAH[] ={
     sAnim_GeneralFrame0,
-    sAnim_DRIFBLIM_1,
+    sAnim_SPICHEETAH_1,
 };
 
 static const union AnimCmd *const sAnims_POSSQUAD[] ={
@@ -11534,14 +11534,14 @@ static const union AnimCmd *const sAnims_SKUNTANK[] ={
     sAnim_SKUNTANK_1,
 };
 
-static const union AnimCmd *const sAnims_BRONZOR[] ={
+static const union AnimCmd *const sAnims_UNGGRUNT[] ={
     sAnim_GeneralFrame0,
-    sAnim_BRONZOR_1,
+    sAnim_UNGGRUNT_1,
 };
 
-static const union AnimCmd *const sAnims_BRONZONG[] ={
+static const union AnimCmd *const sAnims_SANGBLADE[] ={
     sAnim_GeneralFrame0,
-    sAnim_BRONZONG_1,
+    sAnim_SANGBLADE_1,
 };
 
 static const union AnimCmd *const sAnims_BONSLY[] ={
@@ -14843,8 +14843,8 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(CHOCCUDLE),
     ANIM_CMD(CHOCTIC),
     ANIM_CMD(AMBIPOM),
-    ANIM_CMD(DRIFLOON),
-    ANIM_CMD(DRIFBLIM),
+    ANIM_CMD(CHEETORCH),
+    ANIM_CMD(SPICHEETAH),
     ANIM_CMD(POSSQUAD),
     ANIM_CMD(POSSWARM),
     ANIM_CMD(MISMAGIUS),
@@ -14854,8 +14854,8 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD(LUIWEE),
     ANIM_CMD(STUNKY),
     ANIM_CMD(SKUNTANK),
-    ANIM_CMD(BRONZOR),
-    ANIM_CMD(BRONZONG),
+    ANIM_CMD(UNGGRUNT),
+    ANIM_CMD(SANGBLADE),
     ANIM_CMD(BONSLY),
     ANIM_CMD(MIMEJR),
     ANIM_CMD(HANGINGY),

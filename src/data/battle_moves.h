@@ -1861,13 +1861,13 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED,
         .split = SPLIT_PHYSICAL,
     },
-//food
+
     [MOVE_EGG_BOMB] =
     {
         .effect = EFFECT_HIT,
-        .power = 100,
-        .type = TYPE_NORMAL,
-        .accuracy = 75,
+        .power = 80,
+        .type = TYPE_FOOD,
+        .accuracy = 90,
         .pp = 10,
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
@@ -2079,12 +2079,12 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .priority = 0,
         .split = SPLIT_STATUS,
     },
-//food
+
     [MOVE_SOFT_BOILED] =
     {
         .effect = EFFECT_SOFTBOILED,
         .power = 0,
-        .type = TYPE_NORMAL,
+        .type = TYPE_FOOD,
         .accuracy = 100,
         .pp = 10,
         .secondaryEffectChance = 0,
@@ -3255,12 +3255,12 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MAGICCOAT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED,
         .split = SPLIT_STATUS,
     },
-//food
+
     [MOVE_MILK_DRINK] =
     {
         .effect = EFFECT_SOFTBOILED,
         .power = 0,
-        .type = TYPE_NORMAL,
+        .type = TYPE_FOOD,
         .accuracy = 0,
         .pp = 10,
         .secondaryEffectChance = 0,
@@ -3581,12 +3581,12 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED,
         .split = SPLIT_PHYSICAL,
     },
-//food
+
     [MOVE_SWEET_SCENT] =
     {
         .effect = EFFECT_EVASION_DOWN_2,
         .power = 0,
-        .type = TYPE_NORMAL,
+        .type = TYPE_FOOD,
         .accuracy = 100,
         .pp = 20,
         .secondaryEffectChance = 0,
@@ -3963,7 +3963,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED | FLAG_SOUND,
         .split = SPLIT_SPECIAL,
     },
-//food
+
     [MOVE_STOCKPILE] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_4
@@ -3973,7 +3973,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         #endif
         .effect = EFFECT_STOCKPILE,
         .power = 0,
-        .type = TYPE_NORMAL,
+        .type = TYPE_FOOD,
         .accuracy = 0,
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_USER,
@@ -3981,7 +3981,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_SNATCH_AFFECTED,
         .split = SPLIT_STATUS,
     },
-//food
+
     [MOVE_SPIT_UP] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_4
@@ -3990,7 +3990,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
             .power = 100,
         #endif
         .effect = EFFECT_SPIT_UP,
-        .type = TYPE_NORMAL,
+        .type = TYPE_FOOD,
         .accuracy = 100,
         .pp = 10,
         .secondaryEffectChance = 0,
@@ -3999,12 +3999,12 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_KINGSROCK_AFFECTED,
         .split = SPLIT_SPECIAL,
     },
-//food
+
     [MOVE_SWALLOW] =
     {
         .effect = EFFECT_SWALLOW,
         .power = 0,
-        .type = TYPE_NORMAL,
+        .type = TYPE_FOOD,
         .accuracy = 0,
         .pp = 10,
         .secondaryEffectChance = 0,
@@ -5622,12 +5622,12 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED,
         .split = SPLIT_SPECIAL,
     },
-//food
+
     [MOVE_NATURAL_GIFT] =
     {
         .effect = EFFECT_NATURAL_GIFT,
         .power = 1,
-        .type = TYPE_NORMAL,
+        .type = TYPE_FOOD,
         .accuracy = 100,
         .pp = 15,
         .secondaryEffectChance = 0,
@@ -8606,13 +8606,13 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_STATUS,
         .argument = TRUE, // Protects the whole side.
     },
-//food
+
     [MOVE_BELCH] =
     {
         .effect = EFFECT_BELCH,
-        .power = 120,
-        .type = TYPE_POISON,
-        .accuracy = 90,
+        .power = 75,
+        .type = TYPE_FOOD,
+        .accuracy = 100,
         .pp = 10,
         .secondaryEffectChance = 0,
         .target = MOVE_TARGET_SELECTED,
@@ -9125,12 +9125,12 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECTION_MOVE,
         .split = SPLIT_STATUS,
     },
-//food
+
     [MOVE_AROMATIC_MIST] =
     {
         .effect = EFFECT_AROMATIC_MIST,
         .power = 0,
-        .type = TYPE_FAIRY,
+        .type = TYPE_FOOD,
         .accuracy = 0,
         .pp = 20,
         .secondaryEffectChance = 0,
@@ -10621,12 +10621,12 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED,
         .split = SPLIT_PHYSICAL,
     },
-//food
+
     [MOVE_TEATIME] =
     {
         .effect = EFFECT_PLACEHOLDER,   //TODO
         .power = 0,
-        .type = TYPE_NORMAL,
+        .type = TYPE_FOOD,
         .accuracy = 0,
         .pp = 10,
         .secondaryEffectChance = 0,
@@ -10859,12 +10859,12 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED | FLAG_SOUND,
         .split = SPLIT_SPECIAL,
     },
-//food
+
     [MOVE_APPLE_ACID] =
     {
         .effect = EFFECT_SPECIAL_DEFENSE_DOWN_HIT,
         .power = 80,
-        .type = TYPE_GRASS,
+        .type = TYPE_FOOD,
         .accuracy = 100,
         .pp = 10,
         .secondaryEffectChance = 100,
@@ -10873,12 +10873,12 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED,
         .split = SPLIT_SPECIAL,
     },
-//food
+
     [MOVE_GRAV_APPLE] =
     {
         .effect = EFFECT_DEFENSE_DOWN_HIT,
         .power = 80,
-        .type = TYPE_GRASS,
+        .type = TYPE_FOOD,
         .accuracy = 100,
         .pp = 10,
         .secondaryEffectChance = 100,
@@ -11436,20 +11436,6 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_PHYSICAL,
     },
 
-    [MOVE_SIZZLE_SLAM] =
-    {
-        .effect = EFFECT_BURN_HIT,
-        .power = 50,
-        .type = TYPE_FIRE,
-        .accuracy = 100,
-        .pp = 15,
-        .secondaryEffectChance = 10,
-        .target = MOVE_TARGET_SELECTED,
-        .priority = 0,
-        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_IRON_FIST_BOOST | FLAG_SHEER_FORCE_BOOST,
-        .split = SPLIT_PHYSICAL,
-    },
-
     [MOVE_COSMIC_RAY] =
     {
         .power = 80,
@@ -11463,7 +11449,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED | FLAG_MEGA_LAUNCHER_BOOST,
         .split = SPLIT_SPECIAL,
     },
-
+//alcohol moves
     [MOVE_SHOT] =
     {
         .effect = EFFECT_INTOXICATE_HIT,
@@ -11589,6 +11575,118 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED,
         .split = SPLIT_PHYSICAL,
     },
+//food moves
+    [MOVE_FOOD_COMA] =
+    {
+        .effect = EFFECT_SLEEP_HIT,   //EFFECT_SLEEP_HIT,
+        .power = 60,
+        .type = TYPE_FOOD,
+        .accuracy = 100,
+        .pp = 10,
+        .secondaryEffectChance = 25,
+        .target = MOVE_TARGET_BOTH,
+        .priority = 0,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST,
+        .split = SPLIT_SPECIAL,
+    },
+
+    [MOVE_SIZZLE_SLAM] =
+    {
+        .effect = EFFECT_BURN_HIT,
+        .power = 50,
+        .type = TYPE_FOOD,
+        .accuracy = 100,
+        .pp = 15,
+        .secondaryEffectChance = 20,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST,
+        .split = SPLIT_PHYSICAL,
+    },
+
+    [MOVE_FOOD_FIGHT] =
+    {
+        .effect = EFFECT_ACCURACY_DOWN_HIT,
+        .power = 75,
+        .type = TYPE_FOOD,
+        .accuracy = 100,
+        .pp = 10,
+        .secondaryEffectChance = 50,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST,
+        .split = SPLIT_PHYSICAL,
+    },
+
+    [MOVE_DOUGH_ROLL] =
+    {
+        .effect = EFFECT_ROLLOUT,
+        .power = 30,
+        .type = TYPE_FOOD,
+        .accuracy = 90,
+        .pp = 20,
+        .secondaryEffectChance = 0,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED,
+        .split = SPLIT_PHYSICAL,
+    },
+
+    [MOVE_SAVORY_SURGE] =
+    {
+        .effect = EFFECT_SP_ATTACK_UP_HIT,
+        .power = 100,
+        .type = TYPE_FOOD,
+        .accuracy = 85,
+        .pp = 5,
+        .secondaryEffectChance = 50,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_KINGSROCK_AFFECTED | FLAG_SHEER_FORCE_BOOST,
+        .split = SPLIT_SPECIAL,
+    },
+    
+    [MOVE_GOURMET_SLAM] =
+    {
+        .effect = EFFECT_PARALYZE_HIT,
+        .power = 90,
+        .type = TYPE_FOOD,
+        .accuracy = 100,
+        .pp = 15,
+        .secondaryEffectChance = 30,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST | FLAG_DMG_MINIMIZE,
+        .split = SPLIT_PHYSICAL,
+    },
+
+    [MOVE_GOURUMET_SLAM] =
+    {
+        .effect = EFFECT_PARALYZE_HIT,
+        .power = 90,
+        .type = TYPE_FOOD,
+        .accuracy = 100,
+        .pp = 15,
+        .secondaryEffectChance = 30,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_MAKES_CONTACT | FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST | FLAG_DMG_MINIMIZE,
+        .split = SPLIT_PHYSICAL,
+    },
+
+    [MOVE_SWEET_DRIZZLE] =
+    {
+        .effect = EFFECT_SPECIAL_DEFENSE_DOWN_HIT,
+        .power = 40,
+        .type = TYPE_FOOD,
+        .accuracy = 100,
+        .pp = 10,
+        .secondaryEffectChance = 100,
+        .target = MOVE_TARGET_SELECTED,
+        .priority = 0,
+        .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST,
+        .split = SPLIT_SPECIAL,
+    },
 
 //TODO
     //Banslip Bomb - everyone target, grass type
@@ -11642,7 +11740,9 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
     {
         .move = MOVE_EGG_BOMB,
         .modification = SIGNATURE_MOD_ACCURACY,
-        .variable = 95,
+        .variable = 100,
+        .modification2 = SIGNATURE_MOD_POWER,
+        .variable2 = 100,
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
@@ -11650,7 +11750,9 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
     {
         .move = MOVE_EGG_BOMB,
         .modification = SIGNATURE_MOD_ACCURACY,
-        .variable = 95,
+        .variable = 100,
+        .modification2 = SIGNATURE_MOD_POWER,
+        .variable2 = 100,
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
@@ -11658,7 +11760,9 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
     {
         .move = MOVE_EGG_BOMB,
         .modification = SIGNATURE_MOD_ACCURACY,
-        .variable = 95,
+        .variable = 100,
+        .modification2 = SIGNATURE_MOD_POWER,
+        .variable2 = 100,
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
@@ -11949,6 +12053,26 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
         .variable = SIGNATURE_SECONDARY_EFFECT_GIVE_THIRD_TYPE,
         .argument = TYPE_GHOST,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+
+    [SPECIES_UNGGRUNT] =
+    {
+        .move = MOVE_SELF_DESTRUCT,
+        .modification = SIGNATURE_MOD_TYPE,
+        .variable = TYPE_COSMIC,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+
+    [SPECIES_SANGBLADE] =
+    {
+        .move = MOVE_SACRED_SWORD,
+        .modification = SIGNATURE_MOD_POWER,
+        .variable = 100,
+        .modification2 = SIGNATURE_MOD_TYPE,
+        .variable2 = TYPE_COSMIC,
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },

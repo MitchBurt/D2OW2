@@ -428,8 +428,8 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Choccudle
 	cry_not Cry_Choctic
 	cry_not Cry_Ambipom
-	cry_not Cry_Drifloon
-	cry_not Cry_Drifblim
+	cry_not Cry_Cheetorch
+	cry_not Cry_Spicheetah
 	cry_not Cry_Possquad
 	cry_not Cry_Posswarm
 	cry_not Cry_Mismagius
@@ -439,8 +439,8 @@ gCryTable:: @ 869DCF4
 	cry_not Cry_Luiwee
 	cry_not Cry_Stunky
 	cry_not Cry_Skuntank
-	cry_not Cry_Bronzor
-	cry_not Cry_Bronzong
+	cry_not Cry_Unggrunt
+	cry_not Cry_Sangblade
 	cry_not Cry_Bonsly
 	cry_not Cry_Mimejr
 	cry_not Cry_Hangingy
@@ -1704,8 +1704,8 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Choccudle
 	cry2_not Cry_Choctic
 	cry2_not Cry_Ambipom
-	cry2_not Cry_Drifloon
-	cry2_not Cry_Drifblim
+	cry2_not Cry_Cheetorch
+	cry2_not Cry_Spicheetah
 	cry2_not Cry_Possquad
 	cry2_not Cry_Posswarm
 	cry2_not Cry_Mismagius
@@ -1715,8 +1715,8 @@ gCryTable2:: @ 869EF24
 	cry2_not Cry_Luiwee
 	cry2_not Cry_Stunky
 	cry2_not Cry_Skuntank
-	cry2_not Cry_Bronzor
-	cry2_not Cry_Bronzong
+	cry2_not Cry_Unggrunt
+	cry2_not Cry_Sangblade
 	cry2_not Cry_Bonsly
 	cry2_not Cry_Mimejr
 	cry2_not Cry_Hangingy

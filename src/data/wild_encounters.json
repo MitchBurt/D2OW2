@@ -150,7 +150,7 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_BREADDIE"
+                "species": "SPECIES_CHEETORCH"
               },
               {
                 "min_level": 3,
@@ -170,7 +170,7 @@
               {
                 "min_level": 3,
                 "max_level": 3,
-                "species": "SPECIES_POSSQUAD"
+                "species": "SPECIES_BREADDIE"
               },
               {
                 "min_level": 4,
@@ -255,7 +255,7 @@
               {
                 "min_level": 4,
                 "max_level": 4,
-                "species": "SPECIES_ALCOO"
+                "species": "SPECIES_CHEETORCH"
               },
               {
                 "min_level": 4,
@@ -2035,7 +2035,7 @@
               {
                 "min_level": 6,
                 "max_level": 6,
-                "species": "SPECIES_POSSQUAD"
+                "species": "SPECIES_CHEETORCH"
               },
               {
                 "min_level": 4,
@@ -3549,7 +3549,7 @@
               {
                 "min_level": 30,
                 "max_level": 30,
-                "species": "SPECIES_GOOFSHRUM"
+                "species": "SPECIES_UNGGRUNT"
               },
               {
                 "min_level": 35,
@@ -4719,7 +4719,7 @@
               {
                 "min_level": 28,
                 "max_level": 28,
-                "species": "SPECIES_RATMAN"
+                "species": "SPECIES_CHEETORCH"
               },
               {
                 "min_level": 25,
@@ -8122,7 +8122,7 @@
               {
                 "min_level": 25,
                 "max_level": 25,
-                "species": "SPECIES_POSSQUAD"
+                "species": "SPECIES_CHEETORCH"
               },
               {
                 "min_level": 27,
@@ -8807,7 +8807,7 @@
               {
                 "min_level": 14,
                 "max_level": 14,
-                "species": "SPECIES_GOOFSHRUM"
+                "species": "SPECIES_UNGGRUNT"
               },
               {
                 "min_level": 19,
@@ -9125,7 +9125,7 @@
               {
                 "min_level": 17,
                 "max_level": 17,
-                "species": "SPECIES_BATCARDI"
+                "species": "SPECIES_UNGGRUNT"
               },
               {
                 "min_level": 18,
@@ -12675,7 +12675,7 @@
               {
                 "min_level": 12,
                 "max_level": 12,
-                "species": "SPECIES_TEED"
+                "species": "SPECIES_CHEETORCH"
               },
               {
                 "min_level": 16,
@@ -12690,7 +12690,7 @@
               {
                 "min_level": 8,
                 "max_level": 8,
-                "species": "SPECIES_TEED"
+                "species": "SPECIES_CHEETORCH"
               },
               {
                 "min_level": 14,
@@ -13609,7 +13609,7 @@
               {
                 "min_level": 5,
                 "max_level": 5,
-                "species": "SPECIES_GOLBNAR"
+                "species": "SPECIES_CHEETORCH"
               },
               {
                 "min_level": 5,

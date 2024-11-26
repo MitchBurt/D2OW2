@@ -2130,15 +2130,15 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x88,
         .y_offset = 0,
     },
-    [SPECIES_DRIFLOON] =
+    [SPECIES_CHEETORCH] =
     {
         .size = 0x45,
-        .y_offset = 5,
+        .y_offset = 3,
     },
-    [SPECIES_DRIFBLIM] =
+    [SPECIES_SPICHEETAH] =
     {
         .size = 0x67,
-        .y_offset = 5,
+        .y_offset = 3,
     },
     [SPECIES_POSSQUAD] =
     {
@@ -2185,15 +2185,15 @@ const struct MonCoords gMonFrontPicCoords[] =
         .size = 0x88,
         .y_offset = 5,
     },
-    [SPECIES_BRONZOR] =
+    [SPECIES_UNGGRUNT] =
     {
         .size = 0x54,
-        .y_offset = 12,
+        .y_offset = 3,
     },
-    [SPECIES_BRONZONG] =
+    [SPECIES_SANGBLADE] =
     {
         .size = 0x75,
-        .y_offset = 4,
+        .y_offset = 3,
     },
     [SPECIES_BONSLY] =
     {

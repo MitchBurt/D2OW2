@@ -1462,8 +1462,8 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_BREAKING_SWIPE] = _("Breaking Swipe"),
     [MOVE_BRANCH_POKE] = _("Branch Poke"),
     [MOVE_OVERDRIVE] = _("Overdrive"),
-    [MOVE_APPLE_ACID] = _("Apple Acid"),
-    [MOVE_GRAV_APPLE] = _("Grav Apple"),
+    [MOVE_APPLE_ACID] = _("Citric Acid"),
+    [MOVE_GRAV_APPLE] = _("Grav Berry"),
     [MOVE_SPIRIT_BREAK] = _("Spirit Break"),
     [MOVE_STRANGE_STEAM] = _("Strange Steam"),
     [MOVE_LIFE_DEW] = _("Life Dew"),
@@ -1514,10 +1514,12 @@ const u8 gMoveNames[MOVES_COUNT][MOVE_NAME_LENGTH + 1] =
     [MOVE_SHOTGUN] = _("Shotgun"),
     [MOVE_FERMENT] = _("Ferment"),
     [MOVE_EXPLOSION2] = _("Explosion"),    
-    
-
-
-
-
+    [MOVE_FOOD_COMA] = _("Food Coma"),
+    [MOVE_FOOD_FIGHT] = _("Food Fight"),
+    [MOVE_DOUGH_ROLL] = _("Dough Roll"),   
+    [MOVE_SAVORY_SURGE] = _("Savory Surge"), 
+    [MOVE_GOURMET_SLAM] = _("Gourmet Slam"),   
+    [MOVE_SWEET_DRIZZLE] = _("Sweet Drizzle"), 
+    [MOVE_BATTER] = _("Batter"), 
 #endif
 };

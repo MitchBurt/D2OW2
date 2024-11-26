@@ -1041,7 +1041,7 @@ const struct FacilityMon gBattleFrontierMons[NUM_FRONTIER_MONS] =
         .abilitynum = ABILITY_RANDOM
     },
     [FRONTIER_MON_HEROKKU] = {
-        .species = SPECIES_BRONZONG,
+        .species = SPECIES_SANGBLADE,
         .moves = {MOVE_PSYWAVE, MOVE_TOXIC, MOVE_STEALTH_ROCK, MOVE_PROTECT    },
         .itemTableId = BATTLE_FRONTIER_ITEM_LEFTOVERS,
         .evSpread = F_EV_SPREAD_SP_DEFENSE | F_EV_SPREAD_HP,
