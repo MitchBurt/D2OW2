@@ -7420,7 +7420,7 @@ const u8 gSquiggaPokedexText[] = _(
     "Whats up my squigga.");
 
 const u8 gDesparwardPokedexText[] = _(
-    "Squigga's suicide.");
+    "Squigga's squicide.");
 
 const u8 gBushizardPokedexText[] = _(
     "Thats a bush wizard.");
