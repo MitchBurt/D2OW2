@@ -11660,7 +11660,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         .split = SPLIT_PHYSICAL,
     },
 
-    [MOVE_GOURUMET_SLAM] =
+    [MOVE_GOURMET_SLAM] =
     {
         .effect = EFFECT_PARALYZE_HIT,
         .power = 90,
