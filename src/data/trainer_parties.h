@@ -3437,7 +3437,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Cindy4[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_UNGGRUNTZ,
+    .species = SPECIES_UNGGRUNT,
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_NUGGET
     },
