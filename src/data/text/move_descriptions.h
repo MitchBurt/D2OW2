@@ -5937,6 +5937,33 @@ static const u8 sSHOTGUNDescription[] = _(
     "The foe chugs a drink that\n"
     "may cause confusion.");
 
+static const u8 sFOOD_COMADescription[] = _(
+    "Strikes with large amounts of\n"
+    "food that tires the foe.");
+
+static const u8 sFOOD_FIGHTDescription[] = _(
+    "Strikes by sending food,\n"
+    "may lower accuracy.");
+
+static const u8 sDOUGH_ROLLDescription[] = _(
+    "An attack lasting 5 turns\n"
+    "with rising intensity.");
+
+static const u8 sSAVORY_SURGEDescription[] = _(
+    "Overwhelms foe with flavor that\n"
+    "raises Sp. Atk.");
+
+static const u8 sGOURMET_SLAMDescription[] = _(
+    "A full-body slam that may\n"
+    "cause paralysis.");
+
+static const u8 sSWEET_DRIZZLEDescription[] = _(
+    "Sprays a sticky drizzle.\n"
+    "May lower Defense.");
+
+static const u8 sBATTERDescription[] = _(
+    "Strikes foe repeatedly.");
+
 static const u8 sNotDoneYetDescription[] = _(
     "Not done yet.");
 
@@ -6711,4 +6738,11 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_SIZZLE_SLAM - 1] = sSIZZLE_SLAMDescription,
     [MOVE_BOOZE_BASH - 1] = sBOOZE_BASHDescription,
     [MOVE_COSMIC_RAY - 1] = sCOSMIC_RAYDescription,
+    [MOVE_FOOD_COMA - 1] = sFOOD_COMADescription,
+    [MOVE_FOOD_FIGHT - 1] = sFOOD_FIGHTDescription,
+    [MOVE_DOUGH_ROLL - 1] = sDOUGH_ROLLDescription,
+    [MOVE_SAVORY_SURGE - 1] = sSAVORY_SURGEDescription,
+    [MOVE_GOURMET_SLAM - 1] = sGOURMET_SLAMDescription,  
+    [MOVE_SWEET_DRIZZLE - 1] = sSWEET_DRIZZLEDescription,
+    [MOVE_BATTER - 1] = sBATTERDescription,
 };
