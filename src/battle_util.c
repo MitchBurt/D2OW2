@@ -9764,7 +9764,7 @@ u8 GetBattleMoveSplit(u32 moveId)
 {
     if (IS_MOVE_STATUS(moveId) || !FlagGet(FLAG_NO_SPLIT_MODE))
         return gBattleMoves[moveId].split;
-    else if (gBattleMoves[moveId].type < TYPE_MYSTERY){
+    else if (gBattleMoves[moveId].type < TYPE_MYSTERY || gBattleMoves[moveId].type == TYPE_FOOD){
         if(!FlagGet(FLAG_INVERSE_MODE))
 			return SPLIT_PHYSICAL;
 		else

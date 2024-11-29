@@ -11721,14 +11721,129 @@ Spiked- Turns water into alcohol?
 //
 //
 const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
+
+[SPECIES_YGGDRACON] =
+    {
+        .move = MOVE_WOOD_HAMMER,
+        .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
+        .variable = SIGNATURE_SECONDARY_EFFECT_FLINCH,
+        .chance = 30,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+
+[SPECIES_SKORPYROS] =
+    {
+        .move = MOVE_X_SCISSOR,
+        .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
+        .variable = SIGNATURE_SECONDARY_EFFECT_BURN,
+        .chance = 20,
+        .differentDescription = FALSE,
+        .description = _("Slashes the foe with crossed\n"
+                        "scythes, claws, etc.\n"
+                        "May Burn foe."),
+    },
+
+    [SPECIES_SPERIATHON] =
+    {
+        .move = MOVE_MUDDY_WATER,
+        .modification = SIGNATURE_MOD_PSS_CHANGE,
+        .variable = SPLIT_HIGHEST,
+        .modification2 = SIGNATURE_MOD_SECOND_TYPE,
+        .variable2 = TYPE_POISON,
+        .modification3 = SIGNATURE_MOD_ACCURACY,
+        .variable3 = 100,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+
+[SPECIES_CHEETORCH] =
+    {
+        .move = MOVE_FLAME_CHARGE,
+        .modification = SIGNATURE_MOD_DAMAGE_STAT,
+        .variable = STAT_SPEED,
+        .differentDescription = FALSE,
+        .description = _(
+            "Attacks in a cloak of\n"
+            "flames. Raises Speed.\n"
+            "Attacks with Speed Stat."),
+    },
+
+[SPECIES_SPICHEETAH] =
+    {
+        .move = MOVE_FLAME_CHARGE,
+        .modification = SIGNATURE_MOD_DAMAGE_STAT,
+        .variable = STAT_SPEED,
+        .modification2 = SIGNATURE_MOD_POWER,
+        .variable2 = 80,
+        .differentDescription = FALSE,
+        .description = _(
+            "Attacks in a cloak of\n"
+            "flames. Raises Speed.\n"
+            "Attacks with Speed Stat."),
+    },
+
+[SPECIES_FAZEAGLE] =
+    {
+        .move = MOVE_SNIPE_SHOT,
+        .modification = SIGNATURE_MOD_PSS_CHANGE,
+        .variable = SPLIT_HIGHEST,
+        .modification2 = SIGNATURE_MOD_TYPE,
+        .variable2 = TYPE_FIRE,
+        .modification3 = SIGNATURE_MOD_POWER,
+        .variable3 = 90,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+
+[SPECIES_BIRDAPP] =
+    {
+        .move = MOVE_UPROAR,
+        .modification = SIGNATURE_MOD_PSS_CHANGE,
+        .variable = SPLIT_HIGHEST,
+        .modification2 = SIGNATURE_MOD_TYPE,
+        .variable2 = TYPE_FLYING,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+[SPECIES_XAPP] =
+    {
+        .move = MOVE_UPROAR,
+        .modification = SIGNATURE_MOD_PSS_CHANGE,
+        .variable = SPLIT_HIGHEST,
+        .modification2 = SIGNATURE_MOD_TYPE,
+        .variable2 = TYPE_FLYING,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
     
+[SPECIES_JAFEET] =
+    {
+        .move = MOVE_DOUBLE_KICK,
+        .modification = SIGNATURE_MOD_TYPE,
+        .variable = TYPE_GROUND,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+
+[SPECIES_JADOUG] =
+    {
+        .move = MOVE_DOUBLE_KICK,
+        .modification = SIGNATURE_MOD_TYPE,
+        .variable = TYPE_GROUND,
+        .modification2 = SIGNATURE_MOD_POWER,
+        .variable2 = TYPE_50,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+
 [SPECIES_YOLKANNER] =
     {
         .move = MOVE_EGG_BOMB,
         .modification = SIGNATURE_MOD_ACCURACY,
         .variable = 100,
         .modification2 = SIGNATURE_MOD_POWER,
-        .variable2 = 100,
+        .variable2 = 85,
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
@@ -11738,7 +11853,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .modification = SIGNATURE_MOD_ACCURACY,
         .variable = 100,
         .modification2 = SIGNATURE_MOD_POWER,
-        .variable2 = 100,
+        .variable2 = 90,
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
@@ -11757,18 +11872,26 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .move = MOVE_HEADBUTT,
         .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
         .variable = SIGNATURE_SECONDARY_EFFECT_PARALYSIS,
-        .chance = 25,
+        .chance = 20,
+        .modification2 = SIGNATURE_MOD_TYPE,
+        .variable2 = TYPE_FIGHTING,
         .differentDescription = FALSE,
-        .description = _("Default Description"),
+        .description = _("Hits with a strong head-\n"
+                         "butt. May cause flinching\n"
+                         "or paralysis."),
     },
 [SPECIES_ANGBEAST] =
     {
         .move = MOVE_HEADBUTT,
         .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
         .variable = SIGNATURE_SECONDARY_EFFECT_PARALYSIS,
-        .chance = 25,
+        .chance = 20,
+        .modification2 = SIGNATURE_MOD_TYPE,
+        .variable2 = TYPE_FIGHTING,
         .differentDescription = FALSE,
-        .description = _("Default Description"),
+        .description = _("Hits with a strong head-\n"
+                         "butt. May cause flinching\n"
+                         "or paralysis."),
     },
 [SPECIES_CORDRA] =
     {
@@ -11790,33 +11913,47 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
-/*[SPECIES_FIZZCUB] =
+[SPECIES_FIZZCUB] =
     {
         .move = MOVE_METAL_CLAW,
         .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
-        .variable = SIGNATURE_SECONDARY_EFFECT_INTOXICATE,
-        .chance = 25,
+        .variable = SIGNATURE_SECONDARY_EFFECT_FREEZE,
+        .chance = 20,
+        .modification2 = SIGNATURE_MOD_TYPE,
+        .variable2 = TYPE_ICE,
         .differentDescription = FALSE,
-        .description = _("Default Description"),
+        .description = _("A claw attack that may\n"
+                        "raise the user's Attack.\n"
+                        "May freeze foe."),
     },
 [SPECIES_SELTCLAW] =
     {
         .move = MOVE_METAL_CLAW,
         .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
-        .variable = SIGNATURE_SECONDARY_EFFECT_INTOXICATE,
-        .chance = 25,
+        .variable = SIGNATURE_SECONDARY_EFFECT_FREEZE,
+        .chance = 20,
+        .modification2 = SIGNATURE_MOD_TYPE,
+        .variable2 = TYPE_ICE,
         .differentDescription = FALSE,
-        .description = _("Default Description"),
+        .description = _("A claw attack that may\n"
+                        "raise the user's Attack.\n"
+                        "May freeze foe."),
     },
 [SPECIES_YELTZER] =
     {
         .move = MOVE_METAL_CLAW,
         .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
-        .variable = SIGNATURE_SECONDARY_EFFECT_INTOXICATE,
-        .chance = 25,
+        .variable = SIGNATURE_SECONDARY_EFFECT_FREEZE,
+        .chance = 20,
+        .modification2 = SIGNATURE_MOD_TYPE,
+        .variable2 = TYPE_ICE,
         .differentDescription = FALSE,
-        .description = _("Default Description"),
-    },*/
+        .description = _("A claw attack that may\n"
+                        "raise the user's Attack.\n"
+                        "May freeze foe."),
+        .modification3 = SIGNATURE_MOD_POWER,
+        .variable3 = 80,
+    },
     [SPECIES_SHAWT] =
     {
         .move = MOVE_SHOT,
@@ -11886,8 +12023,12 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .move = MOVE_ATTACK_ORDER,
         .modification = SIGNATURE_MOD_MODIFY_FIELD,
         .variable = FIELD_OPPONET_SET_STICKY_WEB,
+        .modification2 = SIGNATURE_MOD_PSS_CHANGE,
+        .variable2 = SPLIT_PHYSICAL,
         .differentDescription = FALSE,
-        .description = _("Default Description"),
+        .description = _("Spiderlings pummel the foe.\n"
+	                    "High critical-hit ratio.\n"
+                        "Leaves Sticky Web."),
     },
 
     [SPECIES_SURTYUR] =
@@ -11898,7 +12039,9 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .modification2 = SIGNATURE_MOD_SECOND_TYPE,
         .variable2 = TYPE_ROCK,
         .differentDescription = FALSE,
-        .description = _("Default Description"),
+        .description = _("A charge that may burn the\n"
+                         "foe. Also hurts the user.\n"
+                         "Leaves Stealth Rock"),
     },
    
     [SPECIES_COOPID] =
@@ -11918,7 +12061,9 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .variable = SIGNATURE_SECONDARY_EFFECT_TAUNT,
         .chance = 100,
         .differentDescription = FALSE,
-        .description = _("Default Description"),
+        .description = _("Raises Sp. Atk and Sp. Def\n"
+                         "by focusing the mind.\n"
+                         "Also Taunts foe."),
     },
 
     [SPECIES_BACID] =
@@ -11930,7 +12075,9 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .variable2 = FIELD_SET_TERRAIN_ELECTRIC,
         .chance2 = 25,
         .differentDescription = FALSE,
-        .description = _("Default Description"),
+        .description = _("Zaps the foes with electri-\n"
+	                    "city. May paralyze them.\n"
+                        "Creates Electric Terrain."),
     },
     [SPECIES_EBOLABLE] =
     {
@@ -11952,7 +12099,9 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .modification3 = SIGNATURE_MOD_SECOND_TYPE,
         .variable3 = TYPE_ELECTRIC,
         .differentDescription = FALSE,
-        .description = _("Default Description"),
+        .description = _("High crit ratio. Deals\n"
+                        "Ghost and Electric damage.\n"
+                        "May paralyze foe.\n"),
     },
     [SPECIES_PANTS] =
     {
@@ -11977,8 +12126,12 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .variable = 100,
         .modification2 = SIGNATURE_MOD_SECOND_TYPE,
         .variable2 = TYPE_GHOST,
+        .modification3 = SIGNATURE_MOD_EFFECT_CHANCE,
+        .variable3 = 50,
         .differentDescription = FALSE,
-        .description = _("Default Description"),
+        .description = _("Crushes the foe with its\n"
+	                    "body. May cause flinching.\n"
+                        "Deals Bug and Ghost damage"),
     },
     [SPECIES_GOALEM] =
     {

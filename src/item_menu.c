@@ -1534,6 +1534,9 @@ static void DrawPocketIndicator()
 	case KEYITEMS_POCKET:
 		BlitBitmapToWindow(windowId, sKeyItemIcon, (posX*8), (posY*8), 8, 8);
 		break;
+    case CHARMS_POCKET:
+		BlitBitmapToWindow(windowId, sKeyItemIcon, (posX*8), (posY*8), 8, 8);
+		break;
 	}
 	
     //ScheduleBgCopyTilemapToVram(2);
@@ -1783,6 +1786,7 @@ void OpenContextMenu(u8 unused)
                     case POWERUP_POCKET:
                     case TYPEITEMS_POCKET:
                     case MEGASTONES_POCKET:
+                    case CHARMS_POCKET:
                         gBagMenu->contextMenuItemsPtr = sContextMenuItems_ItemsPocket;
                         gBagMenu->contextMenuNumItems = ARRAY_COUNT(sContextMenuItems_ItemsPocket);
                         break;
@@ -3387,6 +3391,10 @@ void SortItemsInBag(u8 pocket, u8 type)
     case KEYITEMS_POCKET:
         itemMem = gSaveBlock1Ptr->bagPocket_KeyItems;
         itemAmount = BAG_KEYITEMS_COUNT;
+        break;
+    case CHARMS_POCKET:
+        itemMem = gSaveBlock1Ptr->bagPocket_Charms;
+        itemAmount = BAG_CHARMS_COUNT;
         break;
     default:
         return;

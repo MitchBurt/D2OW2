@@ -27,6 +27,7 @@ EventScript_BufferPocketNameAndTryFanfare:: @ 8271B08
 	case POCKET_POWER_UP, EventScript_BufferPowerUpPocket
 	case POCKET_TM_HM, EventScript_BufferTMHMsPocket
 	case POCKET_KEY_ITEMS, EventScript_BufferKeyItemsPocket
+	case POCKET_CHARMS, EventScript_BufferCharmsPocket
 	end
 
 EventScript_BufferItemsPocket:: @ 8271B45
@@ -85,6 +86,12 @@ EventScript_BufferTypeItemsPocket::
 
 EventScript_BufferMegaStonesPocket::
 	bufferstdstring 2, STDSTRING_MEGASTONES
+	compare VAR_0x8007, 1
+	call_if_eq EventScript_PlayFanfareObtainedItem
+	return
+
+EventScript_BufferCharmsPocket::
+	bufferstdstring 2, STDSTRING_CHARMS
 	compare VAR_0x8007, 1
 	call_if_eq EventScript_PlayFanfareObtainedItem
 	return

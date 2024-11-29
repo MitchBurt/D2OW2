@@ -58,6 +58,7 @@ extern const u8 gText_BattleItems[];
 extern const u8 gText_PowerUp[];
 extern const u8 gText_TypeItems[];
 extern const u8 gText_MegaStones[];
+extern const u8 gText_Charms[];
 
 extern const u8 gText_Single2[];
 extern const u8 gText_Double2[];

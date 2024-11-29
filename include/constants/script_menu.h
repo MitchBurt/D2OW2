@@ -186,5 +186,6 @@
 #define STDSTRING_POWERUP          32
 #define STDSTRING_TYPEITEMS        33
 #define STDSTRING_MEGASTONES       34
+#define STDSTRING_CHARMS           35
 
 #endif //GUARD_SCRIPT_MENU_CONSTANTS_H

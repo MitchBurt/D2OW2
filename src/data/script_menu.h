@@ -1080,6 +1080,7 @@ const u8 *const gStdStrings[] =
     [STDSTRING_POWERUP] = gText_PowerUp,
     [STDSTRING_TYPEITEMS] = gText_TypeItems,
     [STDSTRING_MEGASTONES] = gText_MegaStones,
+    [STDSTRING_CHARMS] = gText_Charms,
 };
 
 static const u8 sLinkServicesMultichoiceIds[] = 

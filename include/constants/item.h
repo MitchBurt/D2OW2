@@ -13,6 +13,7 @@
 #define POCKET_POWER_UP     8
 #define POCKET_TM_HM        9
 #define POCKET_KEY_ITEMS    10
+#define POCKET_CHARMS    11
 
 #define ITEMS_POCKET        0
 #define MEDICINE_POCKET     1
@@ -24,7 +25,8 @@
 #define POWERUP_POCKET      7
 #define TMHM_POCKET         8
 #define KEYITEMS_POCKET     9
-#define POCKETS_COUNT       10
+#define CHARMS_POCKET       10
+#define POCKETS_COUNT       11
 
 // The TM/HM pocket is the largest pocket, so the maximum amount of items
 // in a pocket is its count + 1 for the cancel option

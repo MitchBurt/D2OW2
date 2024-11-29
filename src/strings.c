@@ -291,6 +291,7 @@ const u8 gText_BattleItemsPocket[] = _("Obj. Pelea");
 const u8 gText_PowerUpPocket[] = _("Potenciar");
 const u8 gText_TypeItemsPocket[] = _("Obj. Tipos");
 const u8 gText_MegaStonesPocket[] = _("M. Piedras");
+const u8 gText_CharmsPocket[] = _("Charms");
 
 const u8 *const gPocketNamesStringsTable[] =
 {
@@ -304,6 +305,7 @@ const u8 *const gPocketNamesStringsTable[] =
     gText_PowerUpPocket,
     gText_TMHMPocket,
     gText_KeyItemsPocket
+    gText_CharmsPocket
 };
 
 const u8 gText_NumberVar1Clear7Var2[] = _("{NO}{STR_VAR_1}{CLEAR 0x07}{STR_VAR_2}");
@@ -746,6 +748,7 @@ const u8 gText_BattleItems[] = _("Battle Items");
 const u8 gText_PowerUp[] = _("Power-Up");
 const u8 gText_TypeItems[] = _("Type Items");
 const u8 gText_MegaStones[] = _("Mega Stones");
+const u8 gText_Charms[] = _("Charms");
 const u8 gText_SomeonesPC[] = _("Someone's PC");
 const u8 gText_LanettesPC[] = _("Lanette's PC");
 const u8 gText_PlayersPC[] = _("{PLAYER}'s PC");
@@ -2188,6 +2191,7 @@ const u8 gText_BattleItemsPocket[] = _("Battle Item");
 const u8 gText_PowerUpPocket[] = _("Power-Up");
 const u8 gText_TypeItemsPocket[] = _("Type Items");
 const u8 gText_MegaStonesPocket[] = _("M. Stones");
+const u8 gText_CharmsPocket[] = _("Charms");
 
 const u8 *const gPocketNamesStringsTable[] =
 {
@@ -2200,7 +2204,8 @@ const u8 *const gPocketNamesStringsTable[] =
     gText_BerriesPocket,
     gText_PowerUpPocket,
     gText_TMHMPocket,
-    gText_KeyItemsPocket
+    gText_KeyItemsPocket,
+    gText_CharmsPocket
 };
 
 const u8 gText_NumberVar1Clear7Var2[] = _("{NO}{STR_VAR_1}{CLEAR 0x07}{STR_VAR_2}");
@@ -2648,6 +2653,7 @@ const u8 gText_BattleItems[] = _("Battle Item");
 const u8 gText_PowerUp[] = _("Power-Up");
 const u8 gText_TypeItems[] = _("Type Items");
 const u8 gText_MegaStones[] = _("Mega Stones");
+const u8 gText_Charms[] = _("Charms");
 const u8 gText_SomeonesPC[] = _("Someone's PC");
 const u8 gText_LanettesPC[] = _("Lanette's PC");
 const u8 gText_PlayersPC[] = _("{PLAYER}'s PC");
