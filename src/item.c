@@ -333,14 +333,14 @@ static void SetTmHmOwned(u16 itemId)
 bool8 AddBagItem(u16 itemId, u16 count)
 {
     u8 i;
-
+/*
     if (itemId == ITEM_BAD_OMEN){
         //ADD_BAD_CHARM
     }
     if (itemId == ITEM_GOOD_OMEN){
         return AddGoodCharm();
     }
-
+*/
     if (ItemId_GetPocket(itemId) == POCKET_NONE)
         return FALSE;
 
@@ -1274,5 +1274,10 @@ static void DestroyItemIconSprite(void)
 
 static void AddGoodCharm(void)
 {
-    
+    u16 sGoodCharms[] = {
+		ITEM_OVAL_CHARM,
+		ITEM_CATCHING_CHARM,
+		ITEM_SHINY_CHARM,
+		ITEM_EXP_CHARM,
+	};
 }
