@@ -334,6 +334,13 @@ bool8 AddBagItem(u16 itemId, u16 count)
 {
     u8 i;
 
+    if (itemId == ITEM_BAD_OMEN){
+        //ADD_BAD_CHARM
+    }
+    if (itemId == ITEM_GOOD_OMEN){
+        return AddGoodCharm();
+    }
+
     if (ItemId_GetPocket(itemId) == POCKET_NONE)
         return FALSE;
 
@@ -1265,4 +1272,7 @@ static void DestroyItemIconSprite(void)
     }
 }
 
-//u16 gActiveCharms[MAX_ACTIVE_CHARMS] = {0}; // 0 represents an unused slot
+static void AddGoodCharm(void)
+{
+    
+}
