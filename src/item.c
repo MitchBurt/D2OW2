@@ -1264,3 +1264,5 @@ static void DestroyItemIconSprite(void)
         DestroySprite(&gSprites[sItemIconSpriteId2]);
     }
 }
+
+//u16 gActiveCharms[MAX_ACTIVE_CHARMS] = {0}; // 0 represents an unused slot
