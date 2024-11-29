@@ -302,6 +302,9 @@ void NewGameInitData(void)
 	u16 bagPocket_MegaStones_plus_itemID[BAG_MEGASTONES_COUNT];
     u8 bagPocket_MegaStones_plus_quantity[BAG_MEGASTONES_COUNT];
 
+	u16 bagPocket_Charms_plus_itemID[BAG_CHARMS_COUNT];
+    u8 bagPocket_Charms_plus_quantity[BAG_CHARMS_COUNT];
+
     u8 unlockedQuestsplus[SIDE_QUEST_FLAGS_COUNT];
 	u8 completedQuestsplus[SIDE_QUEST_FLAGS_COUNT];
 

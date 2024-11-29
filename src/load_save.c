@@ -31,6 +31,7 @@ struct LoadedSaveData
  /*0x0230*/ struct ItemSlot powerUp[BAG_POWERUP_COUNT];
  /*0x0230*/ struct ItemSlot typeItems[BAG_TYPEITEMS_COUNT];
  /*0x0230*/ struct ItemSlot megaStones[BAG_MEGASTONES_COUNT];
+ /*0x0230*/ struct ItemSlot charms[BAG_CHARMS_COUNT];
 };
 
 // EWRAM DATA
@@ -260,9 +261,13 @@ void LoadPlayerBag(void)
     for (i = 0; i < BAG_TYPEITEMS_COUNT; i++)
         gLoadedSaveData.typeItems[i] = gSaveBlock1Ptr->bagPocket_TypeItems[i];
 
-    // load player power up.
+    // load player mega stones.
     for (i = 0; i < BAG_MEGASTONES_COUNT; i++)
         gLoadedSaveData.megaStones[i] = gSaveBlock1Ptr->bagPocket_MegaStones[i];
+
+    // load player charms.
+    for (i = 0; i < BAG_CHARMS_COUNT; i++)
+        gLoadedSaveData.charms[i] = gSaveBlock1Ptr->bagPocket_Charms[i];
 
     gLastEncryptionKey = gSaveBlock2Ptr->encryptionKey;
 }
@@ -315,6 +320,10 @@ void SavePlayerBag(void)
     // save player mega stones
     for (i = 0; i < BAG_MEGASTONES_COUNT; i++)
         gSaveBlock1Ptr->bagPocket_MegaStones[i] = gLoadedSaveData.megaStones[i];
+    
+    // save player charms
+    for (i = 0; i < BAG_CHARMS_COUNT; i++)
+        gSaveBlock1Ptr->bagPocket_Charms[i] = gLoadedSaveData.charms[i];
 
     encryptionKeyBackup = gSaveBlock2Ptr->encryptionKey;
     gSaveBlock2Ptr->encryptionKey = gLastEncryptionKey;

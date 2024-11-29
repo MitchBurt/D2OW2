@@ -132,7 +132,7 @@ void SetBagItemsPointers(void)
     gBagPockets[MEGASTONES_POCKET].itemSlots = gSaveBlock1Ptr->bagPocket_MegaStones;
     gBagPockets[MEGASTONES_POCKET].capacity = BAG_MEGASTONES_COUNT;
 
-    gBagPockets[CHARMS_POCKET].itemSlots = gSaveBlock1Ptr->bagPocket_MegaStones;
+    gBagPockets[CHARMS_POCKET].itemSlots = gSaveBlock1Ptr->bagPocket_Charms;
     gBagPockets[CHARMS_POCKET].capacity = BAG_CHARMS_COUNT;
 }
 

@@ -112,6 +112,12 @@ static const union AnimCmd sSpriteAnim_Bag_KeyItems[] =
     ANIMCMD_END
 };
 
+static const union AnimCmd sSpriteAnim_Bag_Charms[] =
+{
+    ANIMCMD_FRAME(256, 4),
+    ANIMCMD_END
+};
+
 static const union AnimCmd *const sBagSpriteAnimTable[] =
 {
     sSpriteAnim_Bag_Closed,
@@ -124,7 +130,8 @@ static const union AnimCmd *const sBagSpriteAnimTable[] =
     sSpriteAnim_Bag_Berries,
     sSpriteAnim_Bag_PowerUp,
     sSpriteAnim_Bag_TMsHMs,
-    sSpriteAnim_Bag_KeyItems
+    sSpriteAnim_Bag_KeyItems,
+    sSpriteAnim_Bag_Charms
 };
 
 static const union AffineAnimCmd sSpriteAffineAnim_BagNormal[] =
