@@ -331,6 +331,46 @@ static void SetTmHmOwned(u16 itemId)
     *flagByte = (*flagByte) | (1 << ((itemId - ITEM_TM01) % 8));
 }
 
+static void AddGoodCharm(void)
+{
+    u8 i = 0;
+	u8 rand = Random() % 3;
+    u16 sGoodCharms[] = {
+		ITEM_OVAL_CHARM,
+		ITEM_CATCHING_CHARM,
+		ITEM_SHINY_CHARM,
+		ITEM_EXP_CHARM,
+	};
+
+    if (CheckBagHasItem(sGoodCharms[rand], 1)){
+        AddGoodCharm();
+    }
+    else{
+        AddBagItem(sGoodCharms[rand], 1);
+        RemoveBagItem(ITEM_GOOD_OMEN, 1);
+    }
+}
+
+static void AddBadCharm(void)
+{
+    u8 i = 0;
+	u8 rand = Random() % 3;
+    u16 sBadCharms[] = { //placeholder items
+		ITEM_DUSK_BALL,
+		ITEM_HEAVY_BALL,
+		ITEM_DUSK_BALL,
+		ITEM_HEAVY_BALL,
+	};
+
+    if (CheckBagHasItem(sBadCharms[rand], 1)){
+        AddBadCharm();
+    }
+    else{
+        AddBagItem(sBadCharms[rand], 1);
+        RemoveBagItem(ITEM_BAD_OMEN, 1);
+    }
+}
+
 bool8 AddBagItem(u16 itemId, u16 count)
 {
     u8 i;
@@ -1272,45 +1312,5 @@ static void DestroyItemIconSprite(void)
         //FreeSpritePaletteByTag(ITEM_TAG);
         FreeSpriteOamMatrix(&gSprites[sItemIconSpriteId2]);
         DestroySprite(&gSprites[sItemIconSpriteId2]);
-    }
-}
-
-static void AddGoodCharm(void)
-{
-    u8 i = 0;
-	u8 rand = Random() % 3;
-    u16 sGoodCharms[] = {
-		ITEM_OVAL_CHARM,
-		ITEM_CATCHING_CHARM,
-		ITEM_SHINY_CHARM,
-		ITEM_EXP_CHARM,
-	};
-
-    if (CheckBagHasItem(sGoodCharms[rand], 1)){
-        AddGoodCharm();
-    }
-    else{
-        AddBagItem(sGoodCharms[rand], 1);
-        RemoveBagItem(ITEM_GOOD_OMEN, 1);
-    }
-}
-
-static void AddBadCharm(void)
-{
-    u8 i = 0;
-	u8 rand = Random() % 3;
-    u16 sBadCharms[] = { //placeholder items
-		ITEM_DUSK_BALL,
-		ITEM_HEAVY_BALL,
-		ITEM_DUSK_BALL,
-		ITEM_HEAVY_BALL,
-	};
-
-    if (CheckBagHasItem(sBadCharms[rand], 1)){
-        AddBadCharm();
-    }
-    else{
-        AddBagItem(sBadCharms[rand], 1);
-        RemoveBagItem(ITEM_BAD_OMEN, 1);
     }
 }
