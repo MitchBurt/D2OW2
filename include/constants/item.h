@@ -13,7 +13,7 @@
 #define POCKET_POWER_UP     8
 #define POCKET_TM_HM        9
 #define POCKET_KEY_ITEMS    10
-#define POCKET_CHARMS    11
+#define POCKET_CHARMS       11
 
 #define ITEMS_POCKET        0
 #define MEDICINE_POCKET     1
