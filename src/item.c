@@ -333,14 +333,14 @@ static void SetTmHmOwned(u16 itemId)
 bool8 AddBagItem(u16 itemId, u16 count)
 {
     u8 i;
-/*
+
     if (itemId == ITEM_BAD_OMEN){
-        //ADD_BAD_CHARM
+        return AddGoodCharm();
     }
     if (itemId == ITEM_GOOD_OMEN){
         return AddGoodCharm();
     }
-*/
+
     if (ItemId_GetPocket(itemId) == POCKET_NONE)
         return FALSE;
 
@@ -1272,12 +1272,42 @@ static void DestroyItemIconSprite(void)
     }
 }
 
-static void AddGoodCharm(void)
+void AddGoodCharm(void)
 {
+    u8 i = 0;
+	u8 rand = Random() % 12;
     u16 sGoodCharms[] = {
 		ITEM_OVAL_CHARM,
 		ITEM_CATCHING_CHARM,
 		ITEM_SHINY_CHARM,
 		ITEM_EXP_CHARM,
 	};
+
+    if (CheckBagHasItem(sGoodCharms[rand], 1)){
+        AddGoodCharm();
+    }
+    else{
+        AddBagItem(sGoodCharms[rand], 1);
+        RemoveBagItem(ITEM_GOOD_OMEN, 1);
+    }
+}
+
+void AddBadCharm(void)
+{
+    u8 i = 0;
+	u8 rand = Random() % 12;
+    u16 sBadCharms[] = { //placeholder items
+		ITEM_DUSK_BALL,
+		ITEM_HEAVY_BALL,
+		ITEM_DUSK_BALL,
+		ITEM_HEAVY_BALL,
+	};
+
+    if (CheckBagHasItem(sBadCharms[rand], 1)){
+        AddBadCharm();
+    }
+    else{
+        AddBagItem(sBadCharms[rand], 1);
+        RemoveBagItem(ITEM_BAD_OMEN, 1);
+    }
 }
