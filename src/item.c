@@ -21,6 +21,7 @@
 #include "constants/items.h"
 #include "constants/hold_effects.h"
 #include "constants/tv.h"
+#include "random.h"
 
 extern u16 gUnknown_0203CF30[];
 
@@ -335,10 +336,12 @@ bool8 AddBagItem(u16 itemId, u16 count)
     u8 i;
 
     if (itemId == ITEM_BAD_OMEN){
-        return AddGoodCharm();
+        AddBadCharm();
+        return;
     }
     if (itemId == ITEM_GOOD_OMEN){
-        return AddGoodCharm();
+        AddGoodCharm();
+        return;
     }
 
     if (ItemId_GetPocket(itemId) == POCKET_NONE)
@@ -1275,7 +1278,7 @@ static void DestroyItemIconSprite(void)
 void AddGoodCharm(void)
 {
     u8 i = 0;
-	u8 rand = Random() % 12;
+	u8 rand = Random() % 3;
     u16 sGoodCharms[] = {
 		ITEM_OVAL_CHARM,
 		ITEM_CATCHING_CHARM,
@@ -1295,7 +1298,7 @@ void AddGoodCharm(void)
 void AddBadCharm(void)
 {
     u8 i = 0;
-	u8 rand = Random() % 12;
+	u8 rand = Random() % 3;
     u16 sBadCharms[] = { //placeholder items
 		ITEM_DUSK_BALL,
 		ITEM_HEAVY_BALL,
