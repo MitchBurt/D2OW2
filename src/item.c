@@ -337,11 +337,11 @@ bool8 AddBagItem(u16 itemId, u16 count)
 
     if (itemId == ITEM_BAD_OMEN){
         AddBadCharm();
-        return;
+        return FALSE;
     }
     if (itemId == ITEM_GOOD_OMEN){
         AddGoodCharm();
-        return;
+        return FALSE;
     }
 
     if (ItemId_GetPocket(itemId) == POCKET_NONE)
@@ -1275,7 +1275,7 @@ static void DestroyItemIconSprite(void)
     }
 }
 
-void AddGoodCharm(void)
+static void AddGoodCharm(void)
 {
     u8 i = 0;
 	u8 rand = Random() % 3;
@@ -1295,7 +1295,7 @@ void AddGoodCharm(void)
     }
 }
 
-void AddBadCharm(void)
+static void AddBadCharm(void)
 {
     u8 i = 0;
 	u8 rand = Random() % 3;
