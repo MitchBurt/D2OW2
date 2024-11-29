@@ -1485,7 +1485,7 @@ static const u8 sBerryIcon[]      = INCBIN_U8("graphics/ui_menu/bag_menu/berry_i
 static const u8 sPowerUpIcon[]    = INCBIN_U8("graphics/ui_menu/bag_menu/power_up_icon.4bpp");
 static const u8 sTMIcon[]         = INCBIN_U8("graphics/ui_menu/bag_menu/tm_icon.4bpp");
 static const u8 sKeyItemIcon[]    = INCBIN_U8("graphics/ui_menu/bag_menu/key_item_icon.4bpp");
-static const u8 sCharmsIcon[]    = INCBIN_U8("graphics/ui_menu/bag_menu/charms_icon.4bpp");
+static const u8 sCharmsIcon[]     = INCBIN_U8("graphics/ui_menu/bag_menu/dummy_icon.4bpp");
 static const u8 sNoIcon[]         = INCBIN_U8("graphics/ui_menu/bag_menu/no_icon.4bpp");
 
 static void DrawPocketIndicator()
@@ -1741,6 +1741,7 @@ void OpenContextMenu(u8 unused)
                             gBagMenu->contextMenuItemsBuffer[0] = ITEMMENUACTION_CHECK;
                         break;
                     case KEYITEMS_POCKET:
+                    case CHARMS_POCKET:
                         gBagMenu->contextMenuItemsPtr = gBagMenu->contextMenuItemsBuffer;
                         
                         if (sRegisterSubMenu == FALSE)
@@ -1787,7 +1788,6 @@ void OpenContextMenu(u8 unused)
                     case POWERUP_POCKET:
                     case TYPEITEMS_POCKET:
                     case MEGASTONES_POCKET:
-                    case CHARMS_POCKET:
                         gBagMenu->contextMenuItemsPtr = sContextMenuItems_ItemsPocket;
                         gBagMenu->contextMenuNumItems = ARRAY_COUNT(sContextMenuItems_ItemsPocket);
                         break;

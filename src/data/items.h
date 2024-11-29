@@ -11321,4 +11321,28 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
         .secondaryId = 0,
     },
+
+    [ITEM_BAD_OMEN] =
+    {
+        .name = _("Bad Omen"),
+        .itemId = ITEM_BAD_OMEN,
+        .price = 0,
+        .description = sCatchingCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_GOOD_OMEN] =
+    {
+        .name = _("Good Omen"),
+        .itemId = ITEM_BAD_OMEN,
+        .price = 0,
+        .description = sCatchingCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
 };

@@ -1573,3 +1573,9 @@ const u32 gItemIconPalette_ExpCharm[] = INCBIN_U32("graphics/items/icon_palettes
 
 const u32 gItemIcon_CatchingCharm[] = INCBIN_U32("graphics/items/icons/catching_charm.4bpp.lz");
 const u32 gItemIconPalette_CatchingCharm[] = INCBIN_U32("graphics/items/icon_palettes/catching_charm.gbapal.lz");
+
+const u32 gItemIcon_BadOmen[] = INCBIN_U32("graphics/items/icons/catching_charm.4bpp.lz");
+const u32 gItemIconPalette_BadOmen[] = INCBIN_U32("graphics/items/icon_palettes/catching_charm.gbapal.lz");
+
+const u32 gItemIcon_GoodOmen[] = INCBIN_U32("graphics/items/icons/catching_charm.4bpp.lz");
+const u32 gItemIconPalette_GoodOmen[] = INCBIN_U32("graphics/items/icon_palettes/catching_charm.gbapal.lz");

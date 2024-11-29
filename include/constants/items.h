@@ -944,6 +944,9 @@
 //New
 #define ITEM_COSMIC_STONE       777
 
+#define ITEM_GOOD_OMEN          778
+#define ITEM_BAD_OMEN           779
+
 #define ITEMS_COUNT 779
 #define ITEM_FIELD_ARROW ITEMS_COUNT
 

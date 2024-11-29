@@ -727,4 +727,7 @@ const u32 *const gItemIconTable[][2] =
     [ITEM_BEAST_BALL_SEAL] = {gItemIcon_BeastBall, gItemIconPalette_BeastBall},
     [ITEM_EXP_CHARM]       = {gItemIcon_ExpCharm, gItemIconPalette_ExpCharm},
     [ITEM_CATCHING_CHARM]  = {gItemIcon_CatchingCharm, gItemIconPalette_CatchingCharm},
+
+    [ITEM_BAD_OMEN]  = {gItemIcon_BadOmen, gItemIconPalette_BadOmen},
+    [ITEM_GOOD_OMEN]  = {gItemIcon_GoodOmen, gItemIconPalette_GoodOmen},
 };
