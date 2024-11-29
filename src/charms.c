@@ -1,6 +1,6 @@
 #include "global.h"
 #include "items.h"
-
+/*
 void AddCharm(u16 itemId)
 {
     for (int i = 0; i < MAX_ACTIVE_CHARMS; i++)
@@ -42,3 +42,4 @@ void ClearAllCharms(void)
         gActiveCharms[i] = 0;
     }
 }
+*/
