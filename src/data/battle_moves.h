@@ -11832,7 +11832,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .modification = SIGNATURE_MOD_TYPE,
         .variable = TYPE_GROUND,
         .modification2 = SIGNATURE_MOD_POWER,
-        .variable2 = TYPE_50,
+        .variable2 = 50,
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
