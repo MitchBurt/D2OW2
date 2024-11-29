@@ -9575,4 +9575,11 @@ extern const u32 gItemIconPalette_CatchingCharm[];
 
 extern const u32 gItemIcon_HeavyDutyBoots[];
 extern const u32 gItemIconPalette_HeavyDutyBoots[];
+
+//New Items
+extern const u32 gItemIcon_BadOmen[];
+extern const u32 gItemIconPalette_BadOmen[];
+extern const u32 gItemIcon_GoodOmen[];
+extern const u32 gItemIconPalette_GoodOmen[];
+
 #endif //GUARD_GRAPHICS_H
