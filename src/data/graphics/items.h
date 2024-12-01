@@ -1571,7 +1571,7 @@ const u32 gItemIconPalette_IronPill[] = INCBIN_U32("graphics/items/icon_palettes
 const u32 gItemIcon_ExpCharm[] = INCBIN_U32("graphics/items/icons/charms/exp_charm.4bpp.lz");
 const u32 gItemIconPalette_ExpCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/exp_charm.gbapal.lz");
 
-const u32 gItemIcon_CatchingCharm[] = INCBIN_U32("graphics/items/icons/charms//catching_charm.4bpp.lz");
+const u32 gItemIcon_CatchingCharm[] = INCBIN_U32("graphics/items/icons/charms/catching_charm.4bpp.lz");
 const u32 gItemIconPalette_CatchingCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/catching_charm.gbapal.lz");
 
 const u32 gItemIcon_BadOmen[] = INCBIN_U32("graphics/items/icons/catching_charm.4bpp.lz");
