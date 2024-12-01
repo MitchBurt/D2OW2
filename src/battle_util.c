@@ -6540,8 +6540,10 @@ static u8 ItemHealHp(u32 battlerId, u32 itemId, bool32 end2, bool32 percentHeal)
 
 static bool32 UnnerveOn(u32 battlerId, u32 itemId)
 {
-    if (ItemId_GetPocket(itemId) == POCKET_BERRIES && IsAbilityOnOpposingSide(battlerId, ABILITY_UNNERVE) || GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER && CheckBagHasItem(ITEM_FAMINE_CHARM, 1))
+    if ((ItemId_GetPocket(itemId) == POCKET_BERRIES && IsAbilityOnOpposingSide(battlerId, ABILITY_UNNERVE)) 
+        || (GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER && CheckBagHasItem(ITEM_FAMINE_CHARM, 1))){
         return TRUE;
+        }
     return FALSE;
 }
 
@@ -9084,7 +9086,7 @@ static u32 CalcFinalDmg(u32 dmg, u16 move, u8 battlerAtk, u8 battlerDef, u8 move
         }
         if(CheckBagHasItem(ITEM_SPECIALIST_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
         {
-            MulModifier(&finalModifier, UQ_4_12(1.25)
+            MulModifier(&finalModifier, UQ_4_12(1.25))
         }
 
     }
