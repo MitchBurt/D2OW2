@@ -1808,7 +1808,7 @@ static void Cmd_ppreduce(void)
             }
             break;
         default:
-            if (gBattlerAttacker != gBattlerTarget && GetBattlerAbility(gBattlerTarget) == ABILITY_PRESSURE || (CheckBagHasItem(ITEM_RECESSION_CHARM, 1) && GetBattlerSide(gBattlerAttacker) == B_SIDE_PLAYER))
+            if ((gBattlerAttacker != gBattlerTarget && GetBattlerAbility(gBattlerTarget) == ABILITY_PRESSURE) || (CheckBagHasItem(ITEM_RECESSION_CHARM, 1) && GetBattlerSide(gBattlerAttacker) == B_SIDE_PLAYER))
                 ppToDeduct++;
             break;
         }
