@@ -1471,7 +1471,8 @@ u8 TrySetCantSelectMoveBattleScript(void)
         }
     }
 
-    if (gDisableStructs[gActiveBattler].throatChopTimer != 0 && gBattleMoves[move].flags & FLAG_SOUND || GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER && CheckBagHasItem(ITEM_MUFFLE_CHARM, 1) && gBattleMoves[move].flags & FLAG_SOUND)
+    if ((gDisableStructs[gActiveBattler].throatChopTimer != 0 && gBattleMoves[move].flags & FLAG_SOUND) 
+        || (GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER && CheckBagHasItem(ITEM_MUFFLE_CHARM, 1) && gBattleMoves[move].flags & FLAG_SOUND))
     {
         gCurrentMove = move;
         if (gBattleTypeFlags & BATTLE_TYPE_PALACE)
