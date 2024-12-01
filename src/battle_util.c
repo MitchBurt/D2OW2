@@ -1456,7 +1456,7 @@ u8 TrySetCantSelectMoveBattleScript(void)
         }
     }
 
-    if (gDisableStructs[gActiveBattler].tauntTimer != 0 && gBattleMoves[move].power == 0 || GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER && CheckBagHasItem(ITEM_BERSERK_CHARM, 1) && gBattleMoves[move].power == 0)
+    if ((gDisableStructs[gActiveBattler].tauntTimer != 0 && gBattleMoves[move].power == 0) || (GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER && CheckBagHasItem(ITEM_BERSERK_CHARM, 1) && gBattleMoves[move].power == 0))
     {
         gCurrentMove = move;
         if (gBattleTypeFlags & BATTLE_TYPE_PALACE)
