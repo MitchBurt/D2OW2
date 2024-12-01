@@ -2832,7 +2832,7 @@ static void SetPartyMonFieldSelectionActions(struct Pokemon *mons, u8 slotId)
 
 //Nuzlocke
    // This if statement causes dead pokemon to only be able to show summary, switch, and cancel. No field moves or items.
-   if (GetMonData(&mons[slotId], MON_DATA_DEAD) && FlagGet(FLAG_HARD_MODE))
+   if (GetMonData(&mons[slotId], MON_DATA_DEAD) && FlagGet(FLAG_NUZLOCKE))
    {
         if (GetMonData(&mons[1], MON_DATA_SPECIES) != SPECIES_NONE)
            AppendToList(sPartyMenuInternal->actions, &sPartyMenuInternal->numActions, MENU_SWITCH);
@@ -4759,7 +4759,7 @@ void ItemUseCB_Medicine(u8 taskId, TaskFunc task)
         gPartyMenuUseExitCallback = FALSE;
         PlaySE(SE_SELECT);
         //DisplayPartyMenuMessage(gText_WontHaveEffect, TRUE);
-        if (canHeal &&  FlagGet(FLAG_HARD_MODE) && GetMonData(mon, MON_DATA_DEAD))
+        if (canHeal &&  FlagGet(FLAG_NUZLOCKE) && GetMonData(mon, MON_DATA_DEAD))
             DisplayPartyMenuMessage(gText_WontHaveEffectNuzlocke, TRUE);
         else
             DisplayPartyMenuMessage(gText_WontHaveEffect, TRUE);
@@ -5641,7 +5641,7 @@ void Task_Exiolite(u8 taskId)
     if(gBaseStats[species].flags & F_WORKS_WITH_EVIOLITE)
         canEvolve = TRUE;
 	
-	if(FlagGet(FLAG_NO_EVOLUTION_MODE))
+	if(FlagGet(FLAG_NO_EVOLUTION_MODE) || CheckBagHasItem(ITEM_STASIS_CHARM, 1))
 		canEvolve = FALSE;
 
     switch (tState)

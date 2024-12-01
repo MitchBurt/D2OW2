@@ -1456,7 +1456,7 @@ u8 TrySetCantSelectMoveBattleScript(void)
         }
     }
 
-    if (gDisableStructs[gActiveBattler].tauntTimer != 0 && gBattleMoves[move].power == 0)
+    if (gDisableStructs[gActiveBattler].tauntTimer != 0 && gBattleMoves[move].power == 0 || GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER && CheckBagHasItem(ITEM_BERSERK_CHARM, 1) && gBattleMoves[move].power == 0)
     {
         gCurrentMove = move;
         if (gBattleTypeFlags & BATTLE_TYPE_PALACE)
@@ -1471,7 +1471,7 @@ u8 TrySetCantSelectMoveBattleScript(void)
         }
     }
 
-    if (gDisableStructs[gActiveBattler].throatChopTimer != 0 && gBattleMoves[move].flags & FLAG_SOUND)
+    if (gDisableStructs[gActiveBattler].throatChopTimer != 0 && gBattleMoves[move].flags & FLAG_SOUND || GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER && CheckBagHasItem(ITEM_MUFFLE_CHARM, 1) && gBattleMoves[move].flags & FLAG_SOUND)
     {
         gCurrentMove = move;
         if (gBattleTypeFlags & BATTLE_TYPE_PALACE)
@@ -2403,8 +2403,14 @@ u8 DoBattlerEndTurnEffects(void)
             {
                 MAGIC_GAURD_CHECK;
 				BURN_GUARD_CHECK;
-
-                gBattleMoveDamage = gBattleMons[gActiveBattler].maxHP / (B_BURN_DAMAGE >= GEN_7 ? 16 : 8);
+                if (GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER && CheckBagHasItem(ITEM_SCORCH_CHARM, 1))
+                {
+                    gBattleMoveDamage = gBattleMons[gActiveBattler].maxHP / 8;
+                }
+                else
+                {
+                    gBattleMoveDamage = gBattleMons[gActiveBattler].maxHP / (B_BURN_DAMAGE >= GEN_7 ? 16 : 8);
+                }
                 if (ability == ABILITY_HEATPROOF)
                 {
                     if (gBattleMoveDamage > (gBattleMoveDamage / 2) + 1) // Record ability if the burn takes less damage than it normally would.
@@ -6420,7 +6426,7 @@ static bool32 HasEnoughHpToEatBerry(u32 battlerId, u32 hpFraction, u32 itemId)
     if (gBattleMons[battlerId].hp == 0)
         return FALSE;
     // Unnerve prevents consumption of opponents' berries.
-    if (isBerry && IsAbilityOnOpposingSide(battlerId, ABILITY_UNNERVE))
+    if (isBerry && IsAbilityOnOpposingSide(battlerId, ABILITY_UNNERVE) || GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER && CheckBagHasItem(ITEM_FAMINE_CHARM, 1))
         return FALSE;
     if (gBattleMons[battlerId].hp <= gBattleMons[battlerId].maxHP / hpFraction)
         return TRUE;
@@ -6534,7 +6540,7 @@ static u8 ItemHealHp(u32 battlerId, u32 itemId, bool32 end2, bool32 percentHeal)
 
 static bool32 UnnerveOn(u32 battlerId, u32 itemId)
 {
-    if (ItemId_GetPocket(itemId) == POCKET_BERRIES && IsAbilityOnOpposingSide(battlerId, ABILITY_UNNERVE))
+    if (ItemId_GetPocket(itemId) == POCKET_BERRIES && IsAbilityOnOpposingSide(battlerId, ABILITY_UNNERVE) || GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER && CheckBagHasItem(ITEM_FAMINE_CHARM, 1))
         return TRUE;
     return FALSE;
 }
@@ -8436,8 +8442,19 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
      if (gBattleMoves[move].flags & FLAG_STRONG_JAW_BOOST && gBaseStats[gBattleMons[battlerDef].species].flags & F_FOOD){
         MulModifier(&modifier, UQ_4_12(1.5));
      }
-           
 
+    if(CheckBagHasItem(ITEM_GLASS_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_OPPONENT){
+        if (IsMoveMakingContact(move, battlerAtk))
+        {
+            MulModifier(&modifier, UQ_4_12(1.5));
+        }
+    }
+    if(CheckBagHasItem(ITEM_SOFT_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER){
+        if (IsMoveMakingContact(move, battlerAtk))
+        {
+            MulModifier(&modifier, UQ_4_12(0.5));
+        }
+    }
 
     return ApplyModifier(modifier, basePower);
 }
@@ -8938,6 +8955,103 @@ static u32 CalcFinalDmg(u32 dmg, u16 move, u8 battlerAtk, u8 battlerDef, u8 move
         else if (moveType == TYPE_WATER)
             dmg = ApplyModifier(UQ_4_12(1.5), dmg);
     }
+    
+    if(CheckBagHasItem(ITEM_WET_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_FIRE)
+            dmg = ApplyModifier(UQ_4_12(0.7), dmg);
+    }
+    if(CheckBagHasItem(ITEM_DRY_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_WATER)
+            dmg = ApplyModifier(UQ_4_12(0.7), dmg);
+    }
+    if(CheckBagHasItem(ITEM_WILT_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_GRASS)
+            dmg = ApplyModifier(UQ_4_12(0.7), dmg);
+    }
+    if(CheckBagHasItem(ITEM_INSULATE_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_ELECTRIC)
+            dmg = ApplyModifier(UQ_4_12(0.7), dmg);
+    }
+    if(CheckBagHasItem(ITEM_THAW_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_ICE)
+            dmg = ApplyModifier(UQ_4_12(0.7), dmg);
+    }
+    if(CheckBagHasItem(ITEM_SOBER_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_ALCOHOL)
+            dmg = ApplyModifier(UQ_4_12(0.7), dmg);
+    }
+    if(CheckBagHasItem(ITEM_MINDBLOCK_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_PSYCHIC)
+            dmg = ApplyModifier(UQ_4_12(0.7), dmg);
+    }
+    if(CheckBagHasItem(ITEM_BRITTLE_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_ROCK)
+            dmg = ApplyModifier(UQ_4_12(0.7), dmg);
+    }
+    if(CheckBagHasItem(ITEM_BRIGHT_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_DARK)
+            dmg = ApplyModifier(UQ_4_12(0.7), dmg);
+    }
+    if(CheckBagHasItem(ITEM_BRITTLE_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_ROCK)
+            dmg = ApplyModifier(UQ_4_12(0.7), dmg);
+    }
+    if(CheckBagHasItem(ITEM_RUST_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_STEEL)
+            dmg = ApplyModifier(UQ_4_12(0.7), dmg);
+    }
+    if(CheckBagHasItem(ITEM_BANISHED_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_GHOST)
+            dmg = ApplyModifier(UQ_4_12(0.7), dmg);
+    }
+    if(CheckBagHasItem(ITEM_CLIPPED_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_FLYING)
+            dmg = ApplyModifier(UQ_4_12(0.7), dmg);
+    }
+    if(CheckBagHasItem(ITEM_SPOILED_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_FOOD)
+            dmg = ApplyModifier(UQ_4_12(0.7), dmg);
+    }
+    if(CheckBagHasItem(ITEM_CLEANSE_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_POISON)
+            dmg = ApplyModifier(UQ_4_12(0.7), dmg);
+    }
+    if(CheckBagHasItem(ITEM_UNCHARMED_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_FAIRY)
+            dmg = ApplyModifier(UQ_4_12(0.7), dmg);
+    }
+    if(CheckBagHasItem(ITEM_COLLAPSE_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_COSMIC)
+            dmg = ApplyModifier(UQ_4_12(0.7), dmg);
+    }
+    if(CheckBagHasItem(ITEM_SWATTER_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_BUG)
+            dmg = ApplyModifier(UQ_4_12(0.7), dmg);
+    }
+    if(CheckBagHasItem(ITEM_FANGLESS_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_DRAGON)
+            dmg = ApplyModifier(UQ_4_12(0.7), dmg);
+    }
+
     else if (WEATHER_HAS_EFFECT && gBattleWeather & WEATHER_SUN_ANY)
     {
         if (moveType == TYPE_FIRE)
@@ -8949,56 +9063,76 @@ static u32 CalcFinalDmg(u32 dmg, u16 move, u8 battlerAtk, u8 battlerDef, u8 move
     // check stab
     if (IS_BATTLER_OF_TYPE(battlerAtk, moveType) && move != MOVE_STRUGGLE)
     {
-        if((isBattlerSingleTyped(battlerAtk) || FlagGet(FLAG_OLD_STAB_MODE)) && abilityAtk != ABILITY_PROTEAN && abilityAtk != ABILITY_LIBERO){
-            if (abilityAtk == ABILITY_ADAPTABILITY)
-                MulModifier(&finalModifier, UQ_4_12(2.0));
-            else
-                MulModifier(&finalModifier, UQ_4_12(1.5));
+        if(CheckBagHasItem(ITEM_DETUNE_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+        {
+            //Don't
         }
-        else{
-            if (abilityAtk == ABILITY_ADAPTABILITY)
-                MulModifier(&finalModifier, UQ_4_12(1.5));
-            else
-                MulModifier(&finalModifier, UQ_4_12(1.25));
+        else
+        {
+            if((isBattlerSingleTyped(battlerAtk) || FlagGet(FLAG_OLD_STAB_MODE)) && abilityAtk != ABILITY_PROTEAN && abilityAtk != ABILITY_LIBERO){
+                if (abilityAtk == ABILITY_ADAPTABILITY)
+                    MulModifier(&finalModifier, UQ_4_12(2.0));
+                else
+                    MulModifier(&finalModifier, UQ_4_12(1.5));
+            }
+            else{
+                if (abilityAtk == ABILITY_ADAPTABILITY)
+                    MulModifier(&finalModifier, UQ_4_12(1.5));
+                else
+                    MulModifier(&finalModifier, UQ_4_12(1.25));
+            }
         }
+        if(CheckBagHasItem(ITEM_SPECIALIST_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+        {
+            MulModifier(&finalModifier, UQ_4_12(1.25)
+        }
+
     }
 
     // Monotype boost
+    
     if(!FlagGet(FLAG_OLD_STAB_MODE) && move != MOVE_STRUGGLE){
         //Attacker boost
-        switch(attackermonotypeboost){
-            case 1:
-                MulModifier(&finalModifier, UQ_4_12(1.1));
-            break;
-            case 2:
-                MulModifier(&finalModifier, UQ_4_12(1.2));
-            break;
-            case 3:
-                MulModifier(&finalModifier, UQ_4_12(1.3));
-            break;
-            case 4:
-                MulModifier(&finalModifier, UQ_4_12(1.4));
-            break;
-            case 5:
-                MulModifier(&finalModifier, UQ_4_12(1.5));
-            break;
-            case 6:
-                MulModifier(&finalModifier, UQ_4_12(1.6));
-            break;
-            case 7:
-                MulModifier(&finalModifier, UQ_4_12(1.7));
-            break;
-            case 8:
-                MulModifier(&finalModifier, UQ_4_12(1.8));
-            break;
-            case 9:
-                MulModifier(&finalModifier, UQ_4_12(1.9));
-            break;
-            case 10:
-            case 11:
-            case 12:
-                MulModifier(&finalModifier, UQ_4_12(2.0));
-            break;
+        if(CheckBagHasItem(ITEM_DETUNE_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+        {
+            //Don't
+        }
+        else
+        {
+            switch(attackermonotypeboost){
+                case 1:
+                    MulModifier(&finalModifier, UQ_4_12(1.1));
+                break;
+                case 2:
+                    MulModifier(&finalModifier, UQ_4_12(1.2));
+                break;
+                case 3:
+                    MulModifier(&finalModifier, UQ_4_12(1.3));
+                break;
+                case 4:
+                    MulModifier(&finalModifier, UQ_4_12(1.4));
+                break;
+                case 5:
+                    MulModifier(&finalModifier, UQ_4_12(1.5));
+                break;
+                case 6:
+                    MulModifier(&finalModifier, UQ_4_12(1.6));
+                break;
+                case 7:
+                    MulModifier(&finalModifier, UQ_4_12(1.7));
+                break;
+                case 8:
+                    MulModifier(&finalModifier, UQ_4_12(1.8));
+                break;
+                case 9:
+                    MulModifier(&finalModifier, UQ_4_12(1.9));
+                break;
+                case 10:
+                case 11:
+                case 12:
+                    MulModifier(&finalModifier, UQ_4_12(2.0));
+                break;
+            }
         }
 
         //Defender boost

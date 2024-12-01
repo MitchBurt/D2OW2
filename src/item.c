@@ -334,12 +334,19 @@ static void SetTmHmOwned(u16 itemId)
 static void AddGoodCharm(void)
 {
     u8 i = 0;
-	u8 rand = Random() % 3;
+	u8 rand = Random() % 6;
     u16 sGoodCharms[] = {
 		ITEM_OVAL_CHARM,
 		ITEM_CATCHING_CHARM,
 		ITEM_SHINY_CHARM,
 		ITEM_EXP_CHARM,
+        ITEM_TOTEM_CHARM,
+        ITEM_FORTUNE_CHARM,
+        ITEM_ORACLE_CHARM,
+        ITEM_ENERGIZER_CHARM,
+        ITEM_SPECIALIST_CHARM,
+        ITEM_LUCKY_CHARM,
+        ITEM_SCOPE_CHARM,
 	};
 
     if (CheckBagHasItem(sGoodCharms[rand], 1)){
@@ -354,13 +361,56 @@ static void AddGoodCharm(void)
 static void AddBadCharm(void)
 {
     u8 i = 0;
-	u8 rand = Random() % 3;
-    u16 sBadCharms[] = { //placeholder items
-		ITEM_DUSK_BALL,
-		ITEM_HEAVY_BALL,
-		ITEM_DUSK_BALL,
-		ITEM_HEAVY_BALL,
+	u8 rand = Random() % 38;
+    u16 sBadCharms[] = { 
+		ITEM_INVERSE_CHARM,
+		ITEM_NOSTALGIC_CHARM,
+        ITEM_TAG_CHARM,
+        ITEM_LONELY_CHARM,
+        ITEM_STASIS_CHARM,
+        ITEM_STICKY_CHARM,
+        ITEM_BLURRY_CHARM,
+        ITEM_BERSERK_CHARM,
+        ITEM_SCORCH_CHARM,
+        ITEM_FAMINE_CHARM,
+        ITEM_INCOGNITO_CHARM,
+        ITEM_MISFORTUNE_CHARM,
+        ITEM_RECESSION_CHARM,
+        ITEM_DETUNE_CHARM,
+        ITEM_SNARE_CHARM,
+        ITEM_MUFFLE_CHARM,
+        ITEM_FRIGHT_CHARM,
+        ITEM_DRY_CHARM,
+		ITEM_WET_CHARM,
+        ITEM_WILT_CHARM,
+        ITEM_INSULATE_CHARM,
+        ITEM_THAW_CHARM,
+        ITEM_SOBER_CHARM,
+        ITEM_MINDBLOCK_CHARM,
+        ITEM_BRITTLE_CHARM,
+        ITEM_BRIGHT_CHARM,
+        ITEM_RUST_CHARM,
+        ITEM_BANISHED_CHARM,
+        ITEM_CLIPPED_CHARM,
+        ITEM_SPOILED_CHARM,
+        ITEM_CLEANSE_CHARM,
+        ITEM_UNCHARMED_CHARM,
+        ITEM_COLLAPSE_CHARM,
+        ITEM_SWATTER_CHARM,
+        ITEM_FANGLESS_CHARM,
+        ITEM_UNLUCKY_CHARM,
+        ITEM_GLASS_CHARM,
+        ITEM_SKILLED_CHARM,
+        ITEM_RELENTLESS_CHARM,
+        ITEM_SOFT_CHARM,
 	};
+    u16 sBlackCharms[] = { 
+		ITEM_INVERSE_CHARM,
+		ITEM_NOSTALGIC_CHARM,
+        ITEM_TAG_CHARM,
+        ITEM_LONELY_CHARM,
+        ITEM_STASIS_CHARM,
+    };
 
     if (CheckBagHasItem(sBadCharms[rand], 1)){
         AddBadCharm();
@@ -368,7 +418,43 @@ static void AddBadCharm(void)
     else{
         AddBagItem(sBadCharms[rand], 1);
         RemoveBagItem(ITEM_BAD_OMEN, 1);
+        for (i = 0; i < ARRAY_COUNT(sBlackCharms); i++){
+            if(CheckBagHasItem(sBlackCharms[i], 1))
+                RemoveBagItem(sBlackCharms[i], 1);
+        }
     }
+}
+static void DoLonelyCharm(void)
+{
+    FlagSet(FLAG_SYS_NO_CATCHING);
+}
+static void TakeLonelyCharm(void)
+{
+    FlagClear(FLAG_SYS_NO_CATCHING);
+}
+static void DoInverseCharm(void)
+{
+    FlagSet(FLAG_INVERSE_MODE);
+}
+static void TakeInverseCharm(void)
+{
+    FlagClear(FLAG_INVERSE_MODE);
+}
+static void DoTagCharm(void)
+{
+    FlagSet(FLAG_DOUBLE_BATTLE_MODE);
+}
+static void TakeTagCharm(void)
+{
+    FlagClear(FLAG_DOUBLE_BATTLE_MODE);
+}
+static void DoNostalgicCharm(void)
+{
+    FlagSet(FLAG_NO_SPLIT_MODE);
+}
+static void TakeNostalgicCharm(void)
+{
+    FlagClear(FLAG_NO_SPLIT_MODE);
 }
 
 bool8 AddBagItem(u16 itemId, u16 count)
@@ -379,10 +465,23 @@ bool8 AddBagItem(u16 itemId, u16 count)
         AddBadCharm();
         return FALSE;
     }
-    if (itemId == ITEM_GOOD_OMEN){
+    else if (itemId == ITEM_GOOD_OMEN){
         AddGoodCharm();
         return FALSE;
     }
+    else if (itemId == ITEM_LONELY_CHARM){
+        DoLonelyCharm();
+    }
+    else if (itemId == ITEM_INVERSE_CHARM){
+        DoInverseCharm();
+    }
+    else if (itemId == ITEM_TAG_CHARM){
+        DoTagCharm();
+    }
+    else if (itemId == ITEM_NOSTALGIC_CHARM){
+        DoNostalgicCharm();
+    }
+
 
     if (ItemId_GetPocket(itemId) == POCKET_NONE)
         return FALSE;
@@ -510,6 +609,18 @@ bool8 RemoveBagItem(u16 itemId, u16 count)
     if (ItemId_GetPocket(itemId) == POCKET_NONE || itemId == ITEM_NONE)
         return FALSE;
 
+    if (itemId == ITEM_LONELY_CHARM){
+        TakeLonelyCharm();
+    }
+    else if (itemId == ITEM_INVERSE_CHARM){
+        TakeInverseCharm();
+    }
+    else if (itemId == ITEM_TAG_CHARM){
+        TakeTagCharm();
+    }
+    else if (itemId == ITEM_NOSTALGIC_CHARM){
+        TakeNostalgicCharm();
+    }
     // check Battle Pyramid Bag
     if (InBattlePyramid() || FlagGet(FLAG_STORING_ITEMS_IN_PYRAMID_BAG) == TRUE)
     {

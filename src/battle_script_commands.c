@@ -1717,6 +1717,13 @@ u32 GetTotalAccuracy(u32 battlerAtk, u32 battlerDef, u32 move)
     if (gBattleMons[battlerAtk].status1 & STATUS1_INTOXICATE){
         calc = (calc * 25) / 100; // 1.5 intoxicate loss
     }
+    if(CheckBagHasItem(ITEM_BLURRY_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER){ 
+        calc = (calc * 90) / 100;
+    }
+    if(CheckBagHasItem(ITEM_SCOPE_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER){ 
+        calc = (calc * 110) / 100; // 1.1  boost
+    }
+
     return calc;
 }
 
@@ -1801,7 +1808,7 @@ static void Cmd_ppreduce(void)
             }
             break;
         default:
-            if (gBattlerAttacker != gBattlerTarget && GetBattlerAbility(gBattlerTarget) == ABILITY_PRESSURE)
+            if (gBattlerAttacker != gBattlerTarget && GetBattlerAbility(gBattlerTarget) == ABILITY_PRESSURE || (CheckBagHasItem(ITEM_RECESSION_CHARM, 1) && GetBattlerSide(gBattlerAttacker) == B_SIDE_PLAYER))
                 ppToDeduct++;
             break;
         }
@@ -1879,8 +1886,9 @@ s32 CalcCritChanceStage(u8 battlerAtk, u8 battlerDef, u32 move, bool32 recordAbi
                     + 2 * (holdEffectAtk == HOLD_EFFECT_STICK && gBattleMons[gBattlerAttacker].species == SPECIES_IMPOSTOWN)
 					+ 2 * (holdEffectAtk == HOLD_EFFECT_STICK && gBattleMons[gBattlerAttacker].species == SPECIES_SIRFETCHD)
                     + 2 * (abilityAtk == ABILITY_HYPER_CUTTER && (gBattleMoves[move].flags & FLAG_MAKES_CONTACT))
-                    + (abilityAtk == ABILITY_SUPER_LUCK);
-
+                    + (abilityAtk == ABILITY_SUPER_LUCK)
+                    + (CheckBagHasItem(ITEM_UNLUCKY_CHARM, 1) && GetBattlerSide(gBattlerAttacker) == B_SIDE_OPPONENT)
+                    + (CheckBagHasItem(ITEM_LUCKY_CHARM, 1) && GetBattlerSide(gBattlerAttacker) == B_SIDE_PLAYER);
         if (critChance >= ARRAY_COUNT(sCriticalHitChance))
             critChance = ARRAY_COUNT(sCriticalHitChance) - 1;
     }
@@ -2912,7 +2920,7 @@ void SetMoveEffect(bool32 primary, u32 certain)
                 }
                 break;
             case MOVE_EFFECT_FLINCH:
-                if (GetBattlerAbility(gEffectBattler) == ABILITY_INNER_FOCUS)
+                if (GetBattlerAbility(gEffectBattler) == ABILITY_INNER_FOCUS || CheckBagHasItem(ITEM_FOCUS_CHARM, 1) && GetBattlerSide(gEffectBattler) == B_SIDE_OPPONENT)
                 {
                     if (primary == TRUE || certain == MOVE_EFFECT_CERTAIN)
                     {
@@ -3095,10 +3103,23 @@ void SetMoveEffect(bool32 primary, u32 certain)
                 }
                 break;
             case MOVE_EFFECT_RECHARGE:
-                gBattleMons[gEffectBattler].status2 |= STATUS2_RECHARGE;
-                gDisableStructs[gEffectBattler].rechargeTimer = 2;
-                gLockedMoves[gEffectBattler] = gCurrentMove;
-                gBattlescriptCurrInstr++;
+                if(CheckBagHasItem(ITEM_ENERGIZER_CHARM, 1) && GetBattlerSide(gBattlerAttacker) == B_SIDE_PLAYER)
+                {
+                        gBattlescriptCurrInstr++;
+                        break;
+                }
+                else if (CheckBagHasItem(ITEM_RELENTLESS_CHARM, 1) && GetBattlerSide(gBattlerAttacker) == B_SIDE_OPPONENT)
+                {
+                        gBattlescriptCurrInstr++;
+                        break;
+                }
+                else
+                {
+                    gBattleMons[gEffectBattler].status2 |= STATUS2_RECHARGE;
+                    gDisableStructs[gEffectBattler].rechargeTimer = 2;
+                    gLockedMoves[gEffectBattler] = gCurrentMove;
+                    gBattlescriptCurrInstr++;
+                }
                 break;
             case MOVE_EFFECT_RAGE:
                 gBattleMons[gBattlerAttacker].status2 |= STATUS2_RAGE;
@@ -6574,6 +6595,14 @@ static u32 GetTrainerMoneyToGive(u16 trainerId)
             if (gTrainerMoneyTable[i].classId == gTrainers[trainerId].trainerClass)
                 break;
         }
+        
+        if CheckBagHasItem(ITEM_FORTUNE_CHARM, 1){
+            gBattleStruct->moneyMultiplier *= 2;
+        }
+        if CheckBagHasItem(ITEM_MISFORTUNE_CHARM, 1){
+            gBattleStruct->moneyMultiplier /= 2;
+        }
+
 
         if (gBattleTypeFlags & BATTLE_TYPE_TWO_OPPONENTS)
             moneyReward = 4 * lastMonLevel * gBattleStruct->moneyMultiplier * gTrainerMoneyTable[i].value;
@@ -9648,6 +9677,10 @@ static void Cmd_setmultihitcounter(void)
         if (GetBattlerAbility(gBattlerAttacker) == ABILITY_SKILL_LINK)
         {
             gMultiHitCounter = 5;
+        }
+        if(CheckBagHasItem(ITEM_SKILLED_CHARM, 1) && GetBattlerSide(gBattlerAttacker) == B_SIDE_OPPONENT)
+        {
+           gMultiHitCounter = 5; 
         }
         else if (B_MULTI_HIT_CHANCE >= GEN_5)
         {

@@ -11345,4 +11345,568 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .secondaryId = 0,
     },
+
+        [ITEM_INVERSE_CHARM] =
+    {
+        .name = _("Inverse Charm"),
+        .itemId = ITEM_INVERSE_CHARM,
+        .price = 0,
+        .description = sInverseCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_LONELY_CHARM] =
+    {
+        .name = _("Lonely Charm"),
+        .itemId = ITEM_LONELY_CHARM,
+        .price = 0,
+        .description = sLonelyCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_STASIS_CHARM] =
+    {
+        .name = _("Stasis Charm"),
+        .itemId = ITEM_STASIS_CHARM,
+        .price = 0,
+        .description = sStasisCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_TAG_CHARM] =
+    {
+        .name = _("Tag Charm"),
+        .itemId = ITEM_TAG_CHARM,
+        .price = 0,
+        .description = sTagCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_NOSTALGIC_CHARM] =
+    {
+        .name = _("Nostalgic Charm"),
+        .itemId = ITEM_NOSTALGIC_CHARM,
+        .price = 0,
+        .description = sNostalgicCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_STICKY_CHARM] =
+    {
+        .name = _("Sticky Charm"),
+        .itemId = ITEM_STICKY_CHARM,
+        .price = 0,
+        .description = sStickyCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_BLURRY_CHARM] =
+    {
+        .name = _("Blurry Charm"),
+        .itemId = ITEM_BLURRY_CHARM,
+        .price = 0,
+        .description = sBlurryCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_BERSERK_CHARM] =
+    {
+        .name = _("Berserk Charm"),
+        .itemId = ITEM_BERSERK_CHARM,
+        .price = 0,
+        .description = sBerserkCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_SCORCH_CHARM] =
+    {
+        .name = _("Scorch Charm"),
+        .itemId = ITEM_SCORCH_CHARM,
+        .price = 0,
+        .description = sScorchCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_FAMINE_CHARM] =
+    {
+        .name = _("Famine Charm"),
+        .itemId = ITEM_FAMINE_CHARM,
+        .price = 0,
+        .description = sFamineCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_INCOGNITO_CHARM] =
+    {
+        .name = _("Incognito Charm"),
+        .itemId = ITEM_INCOGNITO_CHARM,
+        .price = 0,
+        .description = sIncognitoCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+    [ITEM_DRY_CHARM] =
+    {
+        .name = _("Dry Charm"),
+        .itemId = ITEM_DRY_CHARM,
+        .price = 0,
+        .description = sDryCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_WET_CHARM] =
+    {
+        .name = _("Wet Charm"),
+        .itemId = ITEM_WET_CHARM,
+        .price = 0,
+        .description = sWetCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_TOTEM_CHARM] =
+    {
+        .name = _("Totem Charm"),
+        .itemId = ITEM_TOTEM_CHARM,
+        .price = 0,
+        .description = sTotemCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_FORTUNE_CHARM] =
+    {
+        .name = _("Fortune Charm"),
+        .itemId = ITEM_FORTUNE_CHARM,
+        .price = 0,
+        .description = sFortuneCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_MISFORTUNE_CHARM] =
+    {
+        .name = _("Misfortune Charm"),
+        .itemId = ITEM_MISFORTUNE_CHARM,
+        .price = 0,
+        .description = sMisfortuneCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_ORACLE_CHARM] =
+    {
+        .name = _("Oracle Charm"),
+        .itemId = ITEM_ORACLE_CHARM,
+        .price = 0,
+        .description = sOracleCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_SNARE_CHARM] =
+    {
+        .name = _("Snare Charm"),
+        .itemId = ITEM_SNARE_CHARM,
+        .price = 0,
+        .description = sSnareCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_MUFFLE_CHARM] =
+    {
+        .name = _("Muffle Charm"),
+        .itemId = ITEM_MUFFLE_CHARM,
+        .price = 0,
+        .description = sMuffleCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_FRIGHT_CHARM] =
+    {
+        .name = _("Fright Charm"),
+        .itemId = ITEM_FRIGHT_CHARM,
+        .price = 0,
+        .description = sFrightCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_DETUNE_CHARM] =
+    {
+        .name = _("Detune Charm"),
+        .itemId = ITEM_DETUNE_CHARM,
+        .price = 0,
+        .description = sDetuneCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_RECESSION_CHARM] =
+    {
+        .name = _("Recession Charm"),
+        .itemId = ITEM_RECESSION_CHARM,
+        .price = 0,
+        .description = sRecessionCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_ENERGIZER_CHARM] =
+    {
+        .name = _("Energizer Charm"),
+        .itemId = ITEM_ENERGIZER_CHARM,
+        .price = 0,
+        .description = sEnergizerCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_SPECIALIST_CHARM] =
+    {
+        .name = _("Specialist Charm"),
+        .itemId = ITEM_SPECIALIST_CHARM,
+        .price = 0,
+        .description = sSpecialistCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_WILT_CHARM] =
+    {
+        .name = _("Wilt Charm"),
+        .itemId = ITEM_WILT_CHARM,
+        .price = 0,
+        .description = sWiltCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_INSULATE_CHARM] =
+    {
+        .name = _("Insulate Charm"),
+        .itemId = ITEM_INSULATE_CHARM,
+        .price = 0,
+        .description = sInsulateCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_THAW_CHARM] =
+    {
+        .name = _("Thaw Charm"),
+        .itemId = ITEM_THAW_CHARM,
+        .price = 0,
+        .description = sThawCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_SOBER_CHARM] =
+    {
+        .name = _("Sober Charm"),
+        .itemId = ITEM_SOBER_CHARM,
+        .price = 0,
+        .description = sSoberCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_MINDBLOCK_CHARM] =
+    {
+        .name = _("Mindblock Charm"),
+        .itemId = ITEM_MINDBLOCK_CHARM,
+        .price = 0,
+        .description = sMindblockCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_BRITTLE_CHARM] =
+    {
+        .name = _("Brittle Charm"),
+        .itemId = ITEM_BRITTLE_CHARM,
+        .price = 0,
+        .description = sBrittleCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_BRIGHT_CHARM] =
+    {
+        .name = _("Bright Charm"),
+        .itemId = ITEM_BRIGHT_CHARM,
+        .price = 0,
+        .description = sBrightCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_RUST_CHARM] =
+    {
+        .name = _("Rust Charm"),
+        .itemId = ITEM_RUST_CHARM,
+        .price = 0,
+        .description = sRustCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_BANISHED_CHARM] =
+    {
+        .name = _("Banished Charm"),
+        .itemId = ITEM_BANISHED_CHARM,
+        .price = 0,
+        .description = sBanishedCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_CLIPPED_CHARM] =
+    {
+        .name = _("Clipped Charm"),
+        .itemId = ITEM_CLIPPED_CHARM,
+        .price = 0,
+        .description = sClippedCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_SPOILED_CHARM] =
+    {
+        .name = _("Spoiled Charm"),
+        .itemId = ITEM_SPOILED_CHARM,
+        .price = 0,
+        .description = sSpoiledCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_CLEANSE_CHARM] =
+    {
+        .name = _("Cleanse Charm"),
+        .itemId = ITEM_CLEANSE_CHARM,
+        .price = 0,
+        .description = sCleanseCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_UNCHARMED_CHARM] =
+    {
+        .name = _("Uncharmed Charm"),
+        .itemId = ITEM_UNCHARMED_CHARM,
+        .price = 0,
+        .description = sUncharmedCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_COLLAPSE_CHARM] =
+    {
+        .name = _("Collapse Charm"),
+        .itemId = ITEM_COLLAPSE_CHARM,
+        .price = 0,
+        .description = sCollapseCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_SWATTER_CHARM] =
+    {
+        .name = _("Swatter Charm"),
+        .itemId = ITEM_SWATTER_CHARM,
+        .price = 0,
+        .description = sSwatterCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_FANGLESS_CHARM] =
+    {
+        .name = _("Fangless Charm"),
+        .itemId = ITEM_FANGLESS_CHARM,
+        .price = 0,
+        .description = sFanglessCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+        [ITEM_UNLUCKY_CHARM] =
+    {
+        .name = _("Unlucky Charm"),
+        .itemId = ITEM_UNLUCKY_CHARM,
+        .price = 0,
+        .description = sUnluckyCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_LUCKY_CHARM] =
+    {
+        .name = _("Lucky Charm"),
+        .itemId = ITEM_LUCKY_CHARM,
+        .price = 0,
+        .description = sLuckyCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_GLASS_CHARM] =
+    {
+        .name = _("Glass Charm"),
+        .itemId = ITEM_GLASS_CHARM,
+        .price = 0,
+        .description = sGlassCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_SKILLED_CHARM] =
+    {
+        .name = _("Skilled Charm"),
+        .itemId = ITEM_SKILLED_CHARM,
+        .price = 0,
+        .description = sSkilledCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_SOFT_CHARM] =
+    {
+        .name = _("Soft Charm"),
+        .itemId = ITEM_SOFT_CHARM,
+        .price = 0,
+        .description = sSoftCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_RELENTLESS_CHARM] =
+    {
+        .name = _("Relentless Charm"),
+        .itemId = ITEM_RELENTLESS_CHARM,
+        .price = 0,
+        .description = sRelentlessCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_SCOPE_CHARM] =
+    {
+        .name = _("Scope Charm"),
+        .itemId = ITEM_SCOPE_CHARM,
+        .price = 0,
+        .description = sScopeCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
 };

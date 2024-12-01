@@ -1125,6 +1125,10 @@ static void UpdateLvlInHealthbox(u8 healthboxSpriteId, u8 lvl)
 				DisableLvl = TRUE;
 		break;
 	}
+    
+    if(CheckBagHasItem(ITEM_INGONITO_CHARM, 1)){
+        DisableLvl = TRUE;
+    }
 
     // Don't print Lv char if mon is mega evolved.
     if (gBattleStruct->mega.evolvedPartyIds[GetBattlerSide(battler)] & gBitTable[gBattlerPartyIndexes[battler]])

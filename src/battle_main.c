@@ -2066,7 +2066,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
 				}
 				
 				//Check for Gahnomed
-				if(newspecies == SPECIES_GAHNOMED){
+				if(newspecies == SPECIES_ABOMASNOW){
 					for (j = 0; j < MAX_MON_MOVES; j++)
 					{
 						randomMove = Random() % MOVES_COUNT;
@@ -4354,6 +4354,12 @@ u8 IsRunningFromBattleImpossible(void)
         gBattleCommunication[MULTISTRING_CHOOSER] = 0;
         return 1;
     }
+
+    if(CheckBagHasItem(ITEM_SNARE_CHARM, 1) && GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER) 
+    {
+        gBattleCommunication[MULTISTRING_CHOOSER] = 0;
+        return 1;
+    }
     return 0;
 }
 
@@ -4975,6 +4981,10 @@ u32 GetBattlerTotalSpeedStat(u8 battlerId)
     // paralysis drop
     if (gBattleMons[battlerId].status1 & STATUS1_PARALYSIS && ability != ABILITY_QUICK_FEET)
         speed /= (B_PARALYSIS_SPEED >= GEN_7 ? 2 : 4);
+
+    if(CheckBagHasItem(ITEM_STICKY_CHARM, 1) && GetBattlerSide(gBattleMons[battlerId]) == B_SIDE_PLAYER){
+        speed = (speed * 2) / 3; 
+    }
 
     return speed;
 }

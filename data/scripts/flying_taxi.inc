@@ -35,6 +35,7 @@ Special_Gym_EventScript_Give_Item::
 	
 Special_Gym_EventScript_Amulet_Coin::
 	giveitem ITEM_AMULET_COIN
+	giveitem ITEM_BAD_OMEN
 	msgbox   Special_Gym_Text_Explain_Amulet_Coin, MSGBOX_DEFAULT
 	setflag  FLAG_RECEIVED_BADGE_01
 	setvar   VAR_NUM_BADGES, 1
@@ -43,6 +44,7 @@ Special_Gym_EventScript_Amulet_Coin::
 	
 Special_Gym_EventScript_Item_Finder::
 	giveitem ITEM_ITEMFINDER
+	giveitem ITEM_BAD_OMEN
 	msgbox   Special_Gym_Text_Explain_Item_Finder, MSGBOX_DEFAULT
 	setflag  FLAG_RECEIVED_BADGE_02
 	setvar   VAR_NUM_BADGES, 2
@@ -51,6 +53,7 @@ Special_Gym_EventScript_Item_Finder::
 	
 Special_Gym_EventScript_Good_Rod::
 	giveitem ITEM_GOOD_ROD
+	giveitem ITEM_BAD_OMEN	
 	msgbox   Special_Gym_Text_Explain_Good_Rod, MSGBOX_DEFAULT
 	setflag  FLAG_RECEIVED_BADGE_03
 	setvar   VAR_NUM_BADGES, 3
@@ -59,6 +62,7 @@ Special_Gym_EventScript_Good_Rod::
 	
 Special_Gym_EventScript_Catching_Charm::
 	giveitem ITEM_CATCHING_CHARM
+	giveitem ITEM_BAD_OMEN
 	msgbox   Special_Gym_Text_Explain_Catching_Charm, MSGBOX_DEFAULT
 	setflag  FLAG_RECEIVED_BADGE_04
 	setvar   VAR_NUM_BADGES, 4
@@ -67,6 +71,7 @@ Special_Gym_EventScript_Catching_Charm::
 	
 Special_Gym_EventScript_Super_Rod::
 	giveitem ITEM_SUPER_ROD
+	giveitem ITEM_BAD_OMEN
 	msgbox   Special_Gym_Text_Explain_Super_Rod, MSGBOX_DEFAULT
 	setflag  FLAG_RECEIVED_BADGE_05
 	setvar   VAR_NUM_BADGES, 5
@@ -75,6 +80,7 @@ Special_Gym_EventScript_Super_Rod::
 	
 Special_Gym_EventScript_Lucky_Egg::
 	giveitem ITEM_LUCKY_EGG
+	giveitem ITEM_BAD_OMEN
 	msgbox   Special_Gym_Text_Explain_Lucky_Egg, MSGBOX_DEFAULT
 	setflag  FLAG_RECEIVED_BADGE_06
 	setvar   VAR_NUM_BADGES, 6
@@ -83,6 +89,7 @@ Special_Gym_EventScript_Lucky_Egg::
 	
 Special_Gym_EventScript_Mega_Bracelet::
 	giveitem ITEM_MEGA_BRACELET
+	giveitem ITEM_BAD_OMEN
 	msgbox   Special_Gym_Text_Explain_Mega_Bracelet, MSGBOX_DEFAULT
 	setflag  FLAG_RECEIVED_BADGE_07
 	setvar   VAR_NUM_BADGES, 7
@@ -91,6 +98,7 @@ Special_Gym_EventScript_Mega_Bracelet::
 	
 Special_Gym_EventScript_Shiny_Charm::
 	giveitem ITEM_SHINY_CHARM
+	giveitem ITEM_BAD_OMEN
 	msgbox   Special_Gym_Text_Explain_Shiny_Charm, MSGBOX_DEFAULT
 	setflag  FLAG_RECEIVED_BADGE_08
 	setvar   VAR_NUM_BADGES, 8

@@ -1260,11 +1260,11 @@ const u32 gItemIconPalette_SwiftWing[] = INCBIN_U32("graphics/items/icon_palette
 
 const u32 gItemIcon_PrettyWing[] = INCBIN_U32("graphics/items/icons/pretty_wing.4bpp.lz");
 const u32 gItemIconPalette_PrettyWing[] = INCBIN_U32("graphics/items/icon_palettes/pretty_wing.gbapal.lz");
-const u32 gItemIcon_ShinyCharm[] = INCBIN_U32("graphics/items/icons/shiny_charm.4bpp.lz");
-const u32 gItemIconPalette_ShinyCharm[] = INCBIN_U32("graphics/items/icon_palettes/shiny_charm.gbapal.lz");
+const u32 gItemIcon_ShinyCharm[] = INCBIN_U32("graphics/items/icons/charms/shiny_charm.4bpp.lz");
+const u32 gItemIconPalette_ShinyCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/shiny_charm.gbapal.lz");
 
-const u32 gItemIcon_OvalCharm[] = INCBIN_U32("graphics/items/icons/oval_charm.4bpp.lz");
-const u32 gItemIconPalette_OvalCharm[] = INCBIN_U32("graphics/items/icon_palettes/oval_charm.gbapal.lz");
+const u32 gItemIcon_OvalCharm[] = INCBIN_U32("graphics/items/icons/charms/oval_charm.4bpp.lz");
+const u32 gItemIconPalette_OvalCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/oval_charm.gbapal.lz");
 // Gen 6 Items
 
 const u32 gItemIcon_AssaultVest[] = INCBIN_U32("graphics/items/icons/assault_vest.4bpp.lz");
@@ -1568,14 +1568,155 @@ const u32 gItemIconPalette_MaxCandy[] = INCBIN_U32("graphics/items/icons/max_can
 const u32 gItemIcon_IronPill[] = INCBIN_U32("graphics/items/icons/iron_pill.4bpp.lz");
 const u32 gItemIconPalette_IronPill[] = INCBIN_U32("graphics/items/icon_palettes/iron_pill.gbapal.lz");
 
-const u32 gItemIcon_ExpCharm[] = INCBIN_U32("graphics/items/icons/exp_charm.4bpp.lz");
-const u32 gItemIconPalette_ExpCharm[] = INCBIN_U32("graphics/items/icon_palettes/exp_charm.gbapal.lz");
+const u32 gItemIcon_ExpCharm[] = INCBIN_U32("graphics/items/icons/charms/exp_charm.4bpp.lz");
+const u32 gItemIconPalette_ExpCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/exp_charm.gbapal.lz");
 
-const u32 gItemIcon_CatchingCharm[] = INCBIN_U32("graphics/items/icons/catching_charm.4bpp.lz");
-const u32 gItemIconPalette_CatchingCharm[] = INCBIN_U32("graphics/items/icon_palettes/catching_charm.gbapal.lz");
+const u32 gItemIcon_CatchingCharm[] = INCBIN_U32("graphics/items/icons/charms//catching_charm.4bpp.lz");
+const u32 gItemIconPalette_CatchingCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/catching_charm.gbapal.lz");
 
 const u32 gItemIcon_BadOmen[] = INCBIN_U32("graphics/items/icons/catching_charm.4bpp.lz");
 const u32 gItemIconPalette_BadOmen[] = INCBIN_U32("graphics/items/icon_palettes/catching_charm.gbapal.lz");
 
 const u32 gItemIcon_GoodOmen[] = INCBIN_U32("graphics/items/icons/catching_charm.4bpp.lz");
 const u32 gItemIconPalette_GoodOmen[] = INCBIN_U32("graphics/items/icon_palettes/catching_charm.gbapal.lz");
+
+const u32 gItemIcon_InverseCharm[] = INCBIN_U32("graphics/items/icons/charms/inverse_charm.4bpp.lz");
+const u32 gItemIconPalette_InverseCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/inverse_charm.gbapal.lz");
+
+const u32 gItemIcon_LonelyCharm[] = INCBIN_U32("graphics/items/icons/charms/lonely_charm.4bpp.lz");
+const u32 gItemIconPalette_LonelyCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/lonely_charm.gbapal.lz");
+
+const u32 gItemIcon_StasisCharm[] = INCBIN_U32("graphics/items/icons/charms/stasis_charm.4bpp.lz");
+const u32 gItemIconPalette_StasisCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/stasis_charm.gbapal.lz");
+
+const u32 gItemIcon_TagCharm[] = INCBIN_U32("graphics/items/icons/charms/tag_charm.4bpp.lz");
+const u32 gItemIconPalette_TagCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/tag_charm.gbapal.lz");
+
+const u32 gItemIcon_NostalgicCharm[] = INCBIN_U32("graphics/items/icons/charms/nostalgic_charm.4bpp.lz");
+const u32 gItemIconPalette_NostalgicCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/nostalgic_charm.gbapal.lz");
+
+const u32 gItemIcon_StickyCharm[] = INCBIN_U32("graphics/items/icons/charms/sticky_charm.4bpp.lz");
+const u32 gItemIconPalette_StickyCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/sticky_charm.gbapal.lz");
+
+const u32 gItemIcon_BlurryCharm[] = INCBIN_U32("graphics/items/icons/charms/blurry_charm.4bpp.lz");
+const u32 gItemIconPalette_BlurryCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/blurry_charm.gbapal.lz");
+
+const u32 gItemIcon_BerserkCharm[] = INCBIN_U32("graphics/items/icons/charms/berserk_charm.4bpp.lz");
+const u32 gItemIconPalette_BerserkCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/berserk_charm.gbapal.lz");
+
+const u32 gItemIcon_ScorchCharm[] = INCBIN_U32("graphics/items/icons/charms/scorch_charm.4bpp.lz");
+const u32 gItemIconPalette_ScorchCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/scorch_charm.gbapal.lz");
+
+const u32 gItemIcon_FamineCharm[] = INCBIN_U32("graphics/items/icons/charms/famine_charm.4bpp.lz");
+const u32 gItemIconPalette_FamineCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/famine_charm.gbapal.lz");
+
+const u32 gItemIcon_IncognitoCharm[] = INCBIN_U32("graphics/items/icons/charms/incognito_charm.4bpp.lz");
+const u32 gItemIconPalette_IncognitoCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/incognito_charm.gbapal.lz");
+
+const u32 gItemIcon_DryCharm[] = INCBIN_U32("graphics/items/icons/charms/dry_charm.4bpp.lz");
+const u32 gItemIconPalette_DryCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/dry_charm.gbapal.lz");
+
+const u32 gItemIcon_WetCharm[] = INCBIN_U32("graphics/items/icons/charms/wet_charm.4bpp.lz");
+const u32 gItemIconPalette_WetCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/wet_charm.gbapal.lz");
+
+const u32 gItemIcon_TotemCharm[] = INCBIN_U32("graphics/items/icons/charms/totem_charm.4bpp.lz");
+const u32 gItemIconPalette_TotemCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/totem_charm.gbapal.lz");
+
+const u32 gItemIcon_FortuneCharm[] = INCBIN_U32("graphics/items/icons/charms/fortune_charm.4bpp.lz");
+const u32 gItemIconPalette_FortuneCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/fortune_charm.gbapal.lz");
+
+const u32 gItemIcon_MisfortuneCharm[] = INCBIN_U32("graphics/items/icons/charms/misfortune_charm.4bpp.lz");
+const u32 gItemIconPalette_MisfortuneCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/misfortune_charm.gbapal.lz");
+
+const u32 gItemIcon_OracleCharm[] = INCBIN_U32("graphics/items/icons/charms/oracle_charm.4bpp.lz");
+const u32 gItemIconPalette_OracleCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/oracle_charm.gbapal.lz");
+
+const u32 gItemIcon_SnareCharm[] = INCBIN_U32("graphics/items/icons/charms/snare_charm.4bpp.lz");
+const u32 gItemIconPalette_SnareCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/snare_charm.gbapal.lz");
+
+const u32 gItemIcon_MuffleCharm[] = INCBIN_U32("graphics/items/icons/charms/muffle_charm.4bpp.lz");
+const u32 gItemIconPalette_MuffleCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/muffle_charm.gbapal.lz");
+
+const u32 gItemIcon_FrightCharm[] = INCBIN_U32("graphics/items/icons/charms/fright_charm.4bpp.lz");
+const u32 gItemIconPalette_FrightCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/fright_charm.gbapal.lz");
+
+const u32 gItemIcon_DetuneCharm[] = INCBIN_U32("graphics/items/icons/charms/detune_charm.4bpp.lz");
+const u32 gItemIconPalette_DetuneCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/detune_charm.gbapal.lz");
+
+const u32 gItemIcon_RecessionCharm[] = INCBIN_U32("graphics/items/icons/charms/recession_charm.4bpp.lz");
+const u32 gItemIconPalette_RecessionCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/recession_charm.gbapal.lz");
+
+const u32 gItemIcon_EnergizerCharm[] = INCBIN_U32("graphics/items/icons/charms/energizer_charm.4bpp.lz");
+const u32 gItemIconPalette_EnergizerCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/energizer_charm.gbapal.lz");
+
+const u32 gItemIcon_SpecialistCharm[] = INCBIN_U32("graphics/items/icons/charms/specialist_charm.4bpp.lz");
+const u32 gItemIconPalette_SpecialistCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/specialist_charm.gbapal.lz");
+
+const u32 gItemIcon_WiltCharm[] = INCBIN_U32("graphics/items/icons/charms/wilt_charm.4bpp.lz");
+const u32 gItemIconPalette_WiltCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/wilt_charm.gbapal.lz");
+
+const u32 gItemIcon_InsulateCharm[] = INCBIN_U32("graphics/items/icons/charms/insulate_charm.4bpp.lz");
+const u32 gItemIconPalette_InsulateCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/insulate_charm.gbapal.lz");
+
+const u32 gItemIcon_ThawCharm[] = INCBIN_U32("graphics/items/icons/charms/thaw_charm.4bpp.lz");
+const u32 gItemIconPalette_ThawCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/thaw_charm.gbapal.lz");
+
+const u32 gItemIcon_SoberCharm[] = INCBIN_U32("graphics/items/icons/charms/sober_charm.4bpp.lz");
+const u32 gItemIconPalette_SoberCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/sober_charm.gbapal.lz");
+
+const u32 gItemIcon_MindblockCharm[] = INCBIN_U32("graphics/items/icons/charms/mindblock_charm.4bpp.lz");
+const u32 gItemIconPalette_MindblockCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/mindblock_charm.gbapal.lz");
+
+const u32 gItemIcon_BrittleCharm[] = INCBIN_U32("graphics/items/icons/charms/brittle_charm.4bpp.lz");
+const u32 gItemIconPalette_BrittleCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/brittle_charm.gbapal.lz");
+
+const u32 gItemIcon_BrightCharm[] = INCBIN_U32("graphics/items/icons/charms/bright_charm.4bpp.lz");
+const u32 gItemIconPalette_BrightCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/bright_charm.gbapal.lz");
+
+const u32 gItemIcon_RustCharm[] = INCBIN_U32("graphics/items/icons/charms/rust_charm.4bpp.lz");
+const u32 gItemIconPalette_RustCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/rust_charm.gbapal.lz");
+
+const u32 gItemIcon_BanishedCharm[] = INCBIN_U32("graphics/items/icons/charms/banished_charm.4bpp.lz");
+const u32 gItemIconPalette_BanishedCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/banished_charm.gbapal.lz");
+
+const u32 gItemIcon_ClippedCharm[] = INCBIN_U32("graphics/items/icons/charms/clipped_charm.4bpp.lz");
+const u32 gItemIconPalette_ClippedCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/clipped_charm.gbapal.lz");
+
+const u32 gItemIcon_SpoiledCharm[] = INCBIN_U32("graphics/items/icons/charms/spoiled_charm.4bpp.lz");
+const u32 gItemIconPalette_SpoiledCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/spoiled_charm.gbapal.lz");
+
+const u32 gItemIcon_CleanseCharm[] = INCBIN_U32("graphics/items/icons/charms/cleanse_charm.4bpp.lz");
+const u32 gItemIconPalette_CleanseCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/cleanse_charm.gbapal.lz");
+
+const u32 gItemIcon_UncharmedCharm[] = INCBIN_U32("graphics/items/icons/charms/uncharmed_charm.4bpp.lz");
+const u32 gItemIconPalette_UncharmedCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/uncharmed_charm.gbapal.lz");
+
+const u32 gItemIcon_CollapseCharm[] = INCBIN_U32("graphics/items/icons/charms/collapse_charm.4bpp.lz");
+const u32 gItemIconPalette_CollapseCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/collapse_charm.gbapal.lz");
+
+const u32 gItemIcon_SwatterCharm[] = INCBIN_U32("graphics/items/icons/charms/swatter_charm.4bpp.lz");
+const u32 gItemIconPalette_SwatterCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/swatter_charm.gbapal.lz");
+
+const u32 gItemIcon_FanglessCharm[] = INCBIN_U32("graphics/items/icons/charms/fangless_charm.4bpp.lz");
+const u32 gItemIconPalette_FanglessCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/fangless_charm.gbapal.lz");
+
+const u32 gItemIcon_UnluckyCharm[] = INCBIN_U32("graphics/items/icons/charms/unlucky_charm.4bpp.lz");
+const u32 gItemIconPalette_UnluckyCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/unlucky_charm.gbapal.lz");
+
+const u32 gItemIcon_LuckyCharm[] = INCBIN_U32("graphics/items/icons/charms/lucky_charm.4bpp.lz");
+const u32 gItemIconPalette_LuckyCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/lucky_charm.gbapal.lz");
+
+const u32 gItemIcon_GlassCharm[] = INCBIN_U32("graphics/items/icons/charms/glass_charm.4bpp.lz");
+const u32 gItemIconPalette_GlassCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/glass_charm.gbapal.lz");
+
+const u32 gItemIcon_SkilledCharm[] = INCBIN_U32("graphics/items/icons/charms/skilled_charm.4bpp.lz");
+const u32 gItemIconPalette_SkilledCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/skilled_charm.gbapal.lz");
+
+const u32 gItemIcon_SoftCharm[] = INCBIN_U32("graphics/items/icons/charms/soft_charm.4bpp.lz");
+const u32 gItemIconPalette_SoftCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/soft_charm.gbapal.lz");
+
+const u32 gItemIcon_RelentlessCharm[] = INCBIN_U32("graphics/items/icons/charms/relentless_charm.4bpp.lz");
+const u32 gItemIconPalette_RelentlessCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/relentless_charm.gbapal.lz");
+
+const u32 gItemIcon_ScopeCharm[] = INCBIN_U32("graphics/items/icons/charms/scope_charm.4bpp.lz");
+const u32 gItemIconPalette_ScopeCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/scope_charm.gbapal.lz");

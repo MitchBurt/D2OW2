@@ -6036,8 +6036,7 @@ static const u8 sPrettyWingDesc[] = _(
     "does nothing.");
 
 static const u8 sShinyCharmDesc[] = _(
-    "A charm that will\n"
-    "raise the chance\n"
+    "Raise the chance\n"
     "of Shiny Pokémon.");
     
 static const u8 sOvalCharmDesc[] = _(
@@ -6046,13 +6045,12 @@ static const u8 sOvalCharmDesc[] = _(
     "at the daycare.");
 
 static const u8 sExpCharmDesc[] = _(
-    "A charm that increases\n"
-    "the Exp. Points that\n"
-    "Pokémon can get.");
+    "Increases the Exp.\n"
+    "Points that Pokémon\n"
+    "get from battle.");
 
 static const u8 sCatchingCharmDesc[] = _(
-    "Holding it is said to\n"
-    "increase the chance of \n"
+    "Increases the chance of \n"
     "getting a crit catch.");
 
 //Mod items
@@ -6206,5 +6204,221 @@ static const u8 sIronPillDesc[] = _(
     "Slows down the\n"
     "Pokémon that\n"
 	"consumes it");
+
+static const u8 sInverseCharmDesc[] = _(
+    "Flips Type Effective-\n"
+    "ness. Removed upon\n"
+    "clearing a Gym");
+
+static const u8 sLonelyCharmDesc[] = _(
+    "Prevents capturing\n"
+    "Pokémon. Removed upon\n"
+    "clearing a Gym");
+
+static const u8 sStasisCharmDesc[] = _(
+    "Prevents evolving\n"
+    "Pokémon. Removed upon\n"
+    "clearing a Gym");
+
+static const u8 sTagCharmDesc[] = _(
+    "Enables Double-Battle\n"
+    "mode. Removed upon\n"
+    "clearing a Gym");
+
+static const u8 sNostalgicCharmDesc[] = _(
+    "Removes Physical- \n"
+    "Special split. Removed\n"
+    "upon clearing a Gym");
+
+static const u8 sStickyCharmDesc[] = _(
+    "Slows allied Pokémon.");
+
+static const u8 sBlurryCharmDesc[] = _(
+    "Lowers accuracy of \n"
+    "allied Pokémon.");
+
+static const u8 sBerserkCharmDesc[] = _(
+    "Prevents allied Pokémon\n"
+    "from using non-damaging\n"
+    "moves.");
+
+static const u8 sScorchCharmDesc[] = _(
+    "Increases the damage\n"
+    "allied Pokémon take from\n"
+    "Burn");
+
+static const u8 sFamineCharmDesc[] = _(
+    "Prevents allied Pokémon\n"
+    "from consuming Berries");
+
+static const u8 sIncognitoCharmDesc[] = _(
+    "Hides opponent's \n"
+    "Pokémon's Levels.");
+
+static const u8 sDryCharmDesc[] = _(
+    "Lowers the damage of\n"
+    "allied Pokémon's Water\n"
+    "Type attacks.");
+
+static const u8 sWetCharmDesc[] = _(
+    "Lowers the damage of\n"
+    "allied Pokémon's Fire\n"
+    "Type attacks.");
+
+static const u8 sTotemCharmDesc[] = _(
+    "Consumes this Charm to\n"
+    "prevent a Pokémon from\n"
+    "Fainting");
+
+static const u8 sFortuneCharmDesc[] = _(
+    "Doubles money\n"
+    "earned in battle");
+
+static const u8 sMisfortuneCharmDesc[] = _(
+    "Halves money\n"
+    "earned in battle");
+
+static const u8 sOracleCharmDesc[] = _(
+    "TODO");
+
+static const u8 sSnareCharmDesc[] = _(
+    "Prevents running from\n"
+    "Wild Battles.");
+
+static const u8 sMuffleCharmDesc[] = _(
+    "Allied Pokémon cannot\n"
+    "use Sound moves.");
+
+static const u8 sFrightCharmDesc[] = _(
+    "Allied Pokémon more\n"
+    "likely to flinch");
+
+static const u8 sDetuneCharmDesc[] = _(
+    "Removes STAB damage\n"
+    "from allied Pokémon");
+
+static const u8 sRecessionCharmDesc[] = _(
+    "Raises Allied Pokémon\n"
+    "PP usage.");
+
+static const u8 sEnergizerCharmDesc[] = _(
+    "Allied Pokémon's moves\n"
+    "do not require recharge.");
+
+static const u8 sSpecialistCharmDesc[] = _(
+    "Ups STAB damage.");
+
+static const u8 sWiltCharmDesc[] = _(
+    "Lowers the damage of\n"
+    "allied Pokémon's Grass\n"
+    "Type attacks.");
+
+static const u8 sInsulateCharmDesc[] = _(
+    "Lowers the damage of\n"
+    "allied Pokémon's Electric\n"
+    "Type attacks.");
+
+static const u8 sThawCharmDesc[] = _(
+    "Lowers the damage of\n"
+    "allied Pokémon's Ice\n"
+    "Type attacks.");
+
+static const u8 sSoberCharmDesc[] = _(
+    "Lowers the damage of\n"
+    "allied Pokémon's Alcohol\n"
+    "Type attacks.");
+
+static const u8 sMindblockCharmDesc[] = _(
+    "Lowers the damage of\n"
+    "allied Pokémon's Psychic\n"
+    "Type attacks.");
+
+static const u8 sBrittleCharmDesc[] = _(
+    "Lowers the damage of\n"
+    "allied Pokémon's Rock\n"
+    "Type attacks.");
+
+static const u8 sBrightCharmDesc[] = _(
+    "Lowers the damage of\n"
+    "allied Pokémon's Dark\n"
+    "Type attacks.");
+
+static const u8 sRustCharmDesc[] = _(
+    "Lowers the damage of\n"
+    "allied Pokémon's Steel\n"
+    "Type attacks.");
+
+static const u8 sBanishedCharmDesc[] = _(
+    "Lowers the damage of\n"
+    "allied Pokémon's Ghost\n"
+    "Type attacks.");
+
+static const u8 sClippedCharmDesc[] = _(
+    "Lowers the damage of\n"
+    "allied Pokémon's Flying\n"
+    "Type attacks.");
+
+static const u8 sSpoiledCharmDesc[] = _(
+    "Lowers the damage of\n"
+    "allied Pokémon's Food\n"
+    "Type attacks.");
+
+static const u8 sCleanseCharmDesc[] = _(
+    "Lowers the damage of\n"
+    "allied Pokémon's Poison\n"
+    "Type attacks.");
+
+static const u8 sUncharmedCharmDesc[] = _(
+    "Lowers the damage of\n"
+    "allied Pokémon's Fairy\n"
+    "Type attacks.");
+
+static const u8 sCollapseCharmDesc[] = _(
+    "Lowers the damage of\n"
+    "allied Pokémon's Cosmic\n"
+    "Type attacks.");
+
+static const u8 sSwatterCharmDesc[] = _(
+    "Lowers the damage of\n"
+    "allied Pokémon's Bug\n"
+    "Type attacks.");
+
+static const u8 sFanglessCharmDesc[] = _(
+    "Lowers the damage of\n"
+    "allied Pokémon's Dragon\n"
+    "Type attacks.");
+
+static const u8 sUnluckyCharmDesc[] = _(
+    "Raises the\n"
+    "critical-hit ratio\n"
+    "of opposing Pokémon.");
+
+static const u8 sLuckyCharmDesc[] = _(
+    "Raises the\n"
+    "critical-hit ratio\n"
+    "of allied Pokémon.");
+
+static const u8 sGlassCharmDesc[] = _(
+    "Allied Pokémon take\n"
+    "extra damage from contact\n"
+    "moves.");
+
+static const u8 sSkilledCharmDesc[] = _(
+    "Opposing Pokémon's Multi\n"
+    "-hit moves hit 5 times");
+
+static const u8 sSoftCharmDesc[] = _(
+    "Allied Pokémon deal\n"
+    "less damage with contact\n"
+    "moves.");
+
+static const u8 sRelentlessCharmDesc[] = _(
+    "Opposing Pokémon's moves\n"
+    "do not require recharge.");
+
+static const u8 sScopeCharmDesc[] = _(
+    "Ups the accuracy of \n"
+    "allied Pokémon.");
+
 
 #endif

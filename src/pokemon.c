@@ -4128,7 +4128,7 @@ void BoxMonToMon(const struct BoxPokemon *src, struct Pokemon *dest)
     value = 255;
     SetMonData(dest, MON_DATA_MAIL, &value);
     CalculateMonStats(dest);
-    if (GetMonData(dest, MON_DATA_DEAD) && FlagGet(FLAG_HARD_MODE))
+    if (GetMonData(dest, MON_DATA_DEAD) && FlagGet(FLAG_NUZLOCKE))
     {
         value = 0;
         SetMonData(dest, MON_DATA_HP, &value);
@@ -6536,6 +6536,11 @@ u16 GetEvolutionTargetSpecies(struct Pokemon *mon, u8 type, u16 evolutionItem, u
 
     if ((holdEffect == HOLD_EFFECT_PREVENT_EVOLVE && type != 3) || heldItem == ITEM_EVIOLITE || exioliteStatus == 1)
         return SPECIES_NONE;
+
+    if(CheckBagHasItem(ITEM_STASIS_CHARM, 1))
+    {
+        return SPECIES_NONE;
+    }
 
     switch (type)
     {

@@ -946,8 +946,57 @@
 
 #define ITEM_GOOD_OMEN          778
 #define ITEM_BAD_OMEN           779
+#define ITEM_INVERSE_CHARM          780
+#define ITEM_LONELY_CHARM           781
+#define ITEM_STASIS_CHARM           782
+#define ITEM_TAG_CHARM              783
+#define ITEM_NOSTALGIC_CHARM        784
+#define ITEM_STICKY_CHARM          785
+#define ITEM_BLURRY_CHARM          786
+#define ITEM_BERSERK_CHARM         787
+#define ITEM_SCORCH_CHARM          788
+#define ITEM_FAMINE_CHARM          789
+#define ITEM_INCOGNITO_CHARM       790
+#define ITEM_DRY_CHARM             791
+#define ITEM_WET_CHARM             792
+#define ITEM_TOTEM_CHARM           793
+#define ITEM_FORTUNE_CHARM         794
+#define ITEM_MISFORTUNE_CHARM      795
+#define ITEM_ORACLE_CHARM          796
+#define ITEM_SNARE_CHARM         797
+#define ITEM_MUFFLE_CHARM        798
+#define ITEM_FRIGHT_CHARM        799
+#define ITEM_DETUNE_CHARM        800
+#define ITEM_RECESSION_CHARM     801
+#define ITEM_ENERGIZER_CHARM     802
+#define ITEM_SPECIALIST_CHARM    803
+#define ITEM_WILT_CHARM          804
+#define ITEM_INSULATE_CHARM      805
+#define ITEM_THAW_CHARM          806
+#define ITEM_SOBER_CHARM         807
+#define ITEM_MINDBLOCK_CHARM     808
+#define ITEM_BRITTLE_CHARM       809
+#define ITEM_BRIGHT_CHARM        810
+#define ITEM_RUST_CHARM          811
+#define ITEM_BANISHED_CHARM          812
+#define ITEM_CLIPPED_CHARM           813
+#define ITEM_SPOILED_CHARM           814
+#define ITEM_CLEANSE_CHARM           815
+#define ITEM_UNCHARMED_CHARM         816
+#define ITEM_COLLAPSE_CHARM          817
+#define ITEM_SWATTER_CHARM           818
+#define ITEM_FANGLESS_CHARM          819
+#define ITEM_UNLUCKY_CHARM         820
+#define ITEM_LUCKY_CHARM           821
+#define ITEM_GLASS_CHARM           822
+#define ITEM_SKILLED_CHARM         823
+#define ITEM_SOFT_CHARM          824
+#define ITEM_RELENTLESS_CHARM    825
+#define ITEM_SCOPE_CHARM         826
 
-#define ITEMS_COUNT 790
+
+
+#define ITEMS_COUNT 827
 #define ITEM_FIELD_ARROW ITEMS_COUNT
 
 #define FIRST_BERRY_INDEX             ITEM_CHERI_BERRY

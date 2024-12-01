@@ -9582,4 +9582,145 @@ extern const u32 gItemIconPalette_BadOmen[];
 extern const u32 gItemIcon_GoodOmen[];
 extern const u32 gItemIconPalette_GoodOmen[];
 
+extern const u32 gItemIcon_InverseCharm[];
+extern const u32 gItemIconPalette_InverseCharm[];
+
+extern const u32 gItemIcon_LonelyCharm[];
+extern const u32 gItemIconPalette_LonelyCharm[];
+
+extern const u32 gItemIcon_StasisCharm[];
+extern const u32 gItemIconPalette_StasisCharm[];
+
+extern const u32 gItemIcon_TagCharm[];
+extern const u32 gItemIconPalette_TagCharm[];
+
+extern const u32 gItemIcon_NostalgicCharm[];
+extern const u32 gItemIconPalette_NostalgicCharm[];
+
+extern const u32 gItemIcon_StickyCharm[];
+extern const u32 gItemIconPalette_StickyCharm[];
+
+extern const u32 gItemIcon_BlurryCharm[];
+extern const u32 gItemIconPalette_BlurryCharm[];
+
+extern const u32 gItemIcon_BerserkCharm[];
+extern const u32 gItemIconPalette_BerserkCharm[];
+
+extern const u32 gItemIcon_ScorchCharm[];
+extern const u32 gItemIconPalette_ScorchCharm[];
+
+extern const u32 gItemIcon_FamineCharm[];
+extern const u32 gItemIconPalette_FamineCharm[];
+
+extern const u32 gItemIcon_IncognitoCharm[];
+extern const u32 gItemIconPalette_IncognitoCharm[];
+
+extern const u32 gItemIcon_DryCharm[];
+extern const u32 gItemIconPalette_DryCharm[];
+
+extern const u32 gItemIcon_WetCharm[];
+extern const u32 gItemIconPalette_WetCharm[];
+
+extern const u32 gItemIcon_TotemCharm[];
+extern const u32 gItemIconPalette_TotemCharm[];
+
+extern const u32 gItemIcon_FortuneCharm[];
+extern const u32 gItemIconPalette_FortuneCharm[];
+
+extern const u32 gItemIcon_MisfortuneCharm[];
+extern const u32 gItemIconPalette_MisfortuneCharm[];
+
+extern const u32 gItemIcon_OracleCharm[];
+extern const u32 gItemIconPalette_OracleCharm[];
+
+extern const u32 gItemIcon_SnareCharm[];
+extern const u32 gItemIconPalette_SnareCharm[];
+
+extern const u32 gItemIcon_MuffleCharm[];
+extern const u32 gItemIconPalette_MuffleCharm[];
+
+extern const u32 gItemIcon_FrightCharm[];
+extern const u32 gItemIconPalette_FrightCharm[];
+
+extern const u32 gItemIcon_DetuneCharm[];
+extern const u32 gItemIconPalette_DetuneCharm[];
+
+extern const u32 gItemIcon_RecessionCharm[];
+extern const u32 gItemIconPalette_RecessionCharm[];
+
+extern const u32 gItemIcon_EnergizerCharm[];
+extern const u32 gItemIconPalette_EnergizerCharm[];
+
+extern const u32 gItemIcon_SpecialistCharm[];
+extern const u32 gItemIconPalette_SpecialistCharm[];
+
+extern const u32 gItemIcon_WiltCharm[];
+extern const u32 gItemIconPalette_WiltCharm[];
+
+extern const u32 gItemIcon_InsulateCharm[];
+extern const u32 gItemIconPalette_InsulateCharm[];
+
+extern const u32 gItemIcon_ThawCharm[];
+extern const u32 gItemIconPalette_ThawCharm[];
+
+extern const u32 gItemIcon_SoberCharm[];
+extern const u32 gItemIconPalette_SoberCharm[];
+
+extern const u32 gItemIcon_MindblockCharm[];
+extern const u32 gItemIconPalette_MindblockCharm[];
+
+extern const u32 gItemIcon_BrittleCharm[];
+extern const u32 gItemIconPalette_BrittleCharm[];
+
+extern const u32 gItemIcon_BrightCharm[];
+extern const u32 gItemIconPalette_BrightCharm[];
+
+extern const u32 gItemIcon_RustCharm[];
+extern const u32 gItemIconPalette_RustCharm[];
+
+extern const u32 gItemIcon_BanishedCharm[];
+extern const u32 gItemIconPalette_BanishedCharm[];
+
+extern const u32 gItemIcon_ClippedCharm[];
+extern const u32 gItemIconPalette_ClippedCharm[];
+
+extern const u32 gItemIcon_SpoiledCharm[];
+extern const u32 gItemIconPalette_SpoiledCharm[];
+
+extern const u32 gItemIcon_CleanseCharm[];
+extern const u32 gItemIconPalette_CleanseCharm[];
+
+extern const u32 gItemIcon_UncharmedCharm[];
+extern const u32 gItemIconPalette_UncharmedCharm[];
+
+extern const u32 gItemIcon_CollapseCharm[];
+extern const u32 gItemIconPalette_CollapseCharm[];
+
+extern const u32 gItemIcon_SwatterCharm[];
+extern const u32 gItemIconPalette_SwatterCharm[];
+
+extern const u32 gItemIcon_FanglessCharm[];
+extern const u32 gItemIconPalette_FanglessCharm[];
+
+extern const u32 gItemIcon_UnluckyCharm[];
+extern const u32 gItemIconPalette_UnluckyCharm[];
+
+extern const u32 gItemIcon_LuckyCharm[];
+extern const u32 gItemIconPalette_LuckyCharm[];
+
+extern const u32 gItemIcon_GlassCharm[];
+extern const u32 gItemIconPalette_GlassCharm[];
+
+extern const u32 gItemIcon_SkilledCharm[];
+extern const u32 gItemIconPalette_SkilledCharm[];
+
+extern const u32 gItemIcon_SoftCharm[];
+extern const u32 gItemIconPalette_SoftCharm[];
+
+extern const u32 gItemIcon_ScopeCharm[];
+extern const u32 gItemIconPalette_ScopeCharm[];
+
+extern const u32 gItemIcon_RelentlessCharm[];
+extern const u32 gItemIconPalette_RelentlessCharm[];
+
 #endif //GUARD_GRAPHICS_H
