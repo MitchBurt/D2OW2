@@ -1126,7 +1126,7 @@ static void UpdateLvlInHealthbox(u8 healthboxSpriteId, u8 lvl)
 		break;
 	}
     
-    if(CheckBagHasItem(ITEM_INGONITO_CHARM, 1)){
+    if(CheckBagHasItem(ITEM_INCOGNITO_CHARM, 1)){
         DisableLvl = TRUE;
     }
 
