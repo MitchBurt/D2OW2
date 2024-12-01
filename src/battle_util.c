@@ -6427,7 +6427,7 @@ static bool32 HasEnoughHpToEatBerry(u32 battlerId, u32 hpFraction, u32 itemId)
     if (gBattleMons[battlerId].hp == 0)
         return FALSE;
     // Unnerve prevents consumption of opponents' berries.
-    if (isBerry && IsAbilityOnOpposingSide(battlerId, ABILITY_UNNERVE) || GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER && CheckBagHasItem(ITEM_FAMINE_CHARM, 1))
+    if ((isBerry && IsAbilityOnOpposingSide(battlerId, ABILITY_UNNERVE)) || (GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER && CheckBagHasItem(ITEM_FAMINE_CHARM, 1)))
         return FALSE;
     if (gBattleMons[battlerId].hp <= gBattleMons[battlerId].maxHP / hpFraction)
         return TRUE;

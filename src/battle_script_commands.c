@@ -2920,7 +2920,7 @@ void SetMoveEffect(bool32 primary, u32 certain)
                 }
                 break;
             case MOVE_EFFECT_FLINCH:
-                if (GetBattlerAbility(gEffectBattler) == ABILITY_INNER_FOCUS || CheckBagHasItem(ITEM_FOCUS_CHARM, 1) && GetBattlerSide(gEffectBattler) == B_SIDE_OPPONENT)
+                if (GetBattlerAbility(gEffectBattler) == ABILITY_INNER_FOCUS || (CheckBagHasItem(ITEM_FOCUS_CHARM, 1) && GetBattlerSide(gEffectBattler) == B_SIDE_OPPONENT))
                 {
                     if (primary == TRUE || certain == MOVE_EFFECT_CERTAIN)
                     {
