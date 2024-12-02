@@ -401,12 +401,10 @@ MauvilleCity_Gym_EventScript_GymStatue:: @ 820E175
 MauvilleCity_Gym_Text_GymGuideAdvice: @ 820E17F
 	.string "Hey, how's it going, Champion-\n"
 	.string "bound {PLAYER}?\p"
-	.string "Trevor, the Leader of Mauville\n"
-	.string "Gym, uses Electric-type Pokémon.\p"
-	.string "If you challenge him with Water-type\n"
-	.string "Pokémon, he'll zap them! Bzzt!\p"
-	.string "And, he's put in switch-controlled\n"
-	.string "doors all over his Gym! Eccentric!\p"
+	.string "Trevor, the Leader of Factory\n"
+	.string "employs many Pokémon.\p"
+	.string "If you challenge him with weakling\n"
+ 	.string "Pokémon, you'll lose!\p"
 	.string "Hey, go for it!$"
 
 MauvilleCity_Gym_Text_GymGuidePostVictory: @ 820E283
