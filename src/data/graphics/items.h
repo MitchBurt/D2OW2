@@ -1720,3 +1720,6 @@ const u32 gItemIconPalette_RelentlessCharm[] = INCBIN_U32("graphics/items/icon_p
 
 const u32 gItemIcon_ScopeCharm[] = INCBIN_U32("graphics/items/icons/charms/scope_charm.4bpp.lz");
 const u32 gItemIconPalette_ScopeCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/scope_charm.gbapal.lz");
+
+const u32 gItemIcon_FocusCharm[] = INCBIN_U32("graphics/items/icons/charms/focus_charm.4bpp.lz");
+const u32 gItemIconPalette_FocusCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/focus_charm.gbapal.lz");

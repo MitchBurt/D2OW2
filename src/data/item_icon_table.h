@@ -780,6 +780,7 @@ const u32 *const gItemIconTable[][2] =
     [ITEM_SOFT_CHARM]       = {gItemIcon_SoftCharm, gItemIconPalette_SoftCharm},
     [ITEM_RELENTLESS_CHARM] = {gItemIcon_RelentlessCharm, gItemIconPalette_RelentlessCharm},
     [ITEM_SCOPE_CHARM]      = {gItemIcon_ScopeCharm, gItemIconPalette_ScopeCharm},
+    [ITEM_FOCUS_CHARM]       = {gItemIcon_FocusCharm, gItemIconPalette_FocusCharm},
 
 
 };

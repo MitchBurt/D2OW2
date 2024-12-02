@@ -11909,4 +11909,17 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
+        [ITEM_FOCUS_CHARM] =
+    {
+        .name = _("Focus Charm"),
+        .itemId = ITEM_FOCUS_CHARM,
+        .price = 0,
+        .description = sFocusCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+
 };

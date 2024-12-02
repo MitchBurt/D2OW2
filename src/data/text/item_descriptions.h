@@ -6420,5 +6420,8 @@ static const u8 sScopeCharmDesc[] = _(
     "Ups the accuracy of \n"
     "allied Pokémon.");
 
+static const u8 sFocusCharmDesc[] = _(
+    "Opposing Pokémon do\n"
+    "not flinch.");
 
 #endif

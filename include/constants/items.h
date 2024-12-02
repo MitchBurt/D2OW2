@@ -993,10 +993,11 @@
 #define ITEM_SOFT_CHARM          824
 #define ITEM_RELENTLESS_CHARM    825
 #define ITEM_SCOPE_CHARM         826
+#define ITEM_FOCUS_CHARM          827
 
 
 
-#define ITEMS_COUNT 827
+#define ITEMS_COUNT 828
 #define ITEM_FIELD_ARROW ITEMS_COUNT
 
 #define FIRST_BERRY_INDEX             ITEM_CHERI_BERRY
