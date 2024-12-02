@@ -6596,10 +6596,10 @@ static u32 GetTrainerMoneyToGive(u16 trainerId)
                 break;
         }
         
-        if CheckBagHasItem(ITEM_FORTUNE_CHARM, 1){
+        if(CheckBagHasItem(ITEM_FORTUNE_CHARM, 1)){
             gBattleStruct->moneyMultiplier *= 2;
         }
-        if CheckBagHasItem(ITEM_MISFORTUNE_CHARM, 1){
+        if(CheckBagHasItem(ITEM_MISFORTUNE_CHARM, 1)){
             gBattleStruct->moneyMultiplier /= 2;
         }
 
