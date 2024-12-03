@@ -1049,7 +1049,7 @@ static const struct ListMenuItem sSet7[] =
 static const u8 gText_RateANickname[]   	= _("Rate a Nickname");
 static const u8 gText_TeachAMove[]  		= _("Teach a Move");
 static const u8 gText_ForgetAMove[]  		= _("Forget a Move");
-//static const u8 gText_TryWondertrading[]  	= _("Try Wonder Trading");
+static const u8 gText_BuyCharm[]          	= _("Purchase Charm");
 static const u8 gText_ChangeCostume[]  		= _("Change Costume");
 static const u8 gText_StartABattle[]  		= _("Start a Mock Battle");
 static const u8 gText_Companion_Stuff[]     = _("Companion Stuff");
@@ -1059,7 +1059,7 @@ static const struct ListMenuItem sSetBlueNurse[] =
     {gText_RateANickname,  		0},
     {gText_TeachAMove,  		1},
 	{gText_ForgetAMove,  		2},
-//	{gText_TryWondertrading,  	3},
+	{gText_BuyCharm,  	        3},
 	{gText_ChangeCostume,  		3},
 	{gText_StartABattle,  		4},
 	{gText_Companion_Stuff,     5},

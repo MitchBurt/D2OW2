@@ -8,10 +8,11 @@ Common_EventScript_PkmnCenterJack::
 	case 0, Common_EventScript_PkmnCenterJack_NameRater_ChooseMonToRate
 	case 1, Common_EventScript_PkmnCenterJack_Move_Learner
 	case 2, Common_EventScript_PkmnCenterJack_MoveDeleter_ChooseMonAndMoveToForget
-	case 3, Common_EventScript_PkmnCenterJack_Change_Costume
-	case 4, Common_EventScript_PkmnCenterJack_StartARandomBattle
-	case 5, Common_EventScript_PkmnCenterJack_Companion_Stuff
-	case 6, Common_EventScript_PkmnCenterJack_ComeBackAnytime
+	case 3, Common_EventScript_PkmnCenterJack_BuyCharm
+	case 4, Common_EventScript_PkmnCenterJack_Change_Costume
+	case 5, Common_EventScript_PkmnCenterJack_StartARandomBattle
+	case 6, Common_EventScript_PkmnCenterJack_Companion_Stuff
+	case 7, Common_EventScript_PkmnCenterJack_ComeBackAnytime
 	case MULTI_B_PRESSED, Common_EventScript_PkmnCenterJack_ComeBackAnytime
 	end
 
@@ -462,36 +463,31 @@ Common_EventScript_PkmnCenterJack_MoveReminder_ComeBackAnytime:: @ 8201452
 	releaseall
 	end
 
-Common_EventScript_PkmnCenterJack_WonderTrade:
-	setvar VAR_0x8008, INGAME_TRADE_SOBBLEAF
-	copyvar VAR_0x8004, VAR_0x8008
-	specialvar VAR_RESULT, GetInGameTradeSpeciesInfo
-	copyvar VAR_0x8009, VAR_RESULT
-	msgbox Common_PkmnCenterJack_Text_WonderTrade1, MSGBOX_YESNO
-	compare VAR_RESULT, NO
-	goto_if_eq Common_EventScript_PkmnCenterJack_WonderTrade_Cancel
-	special ChoosePartyMon
-	waitstate
-	copyvar VAR_0x800A, VAR_0x8004
-	compare VAR_0x8004, 255
-	goto_if_eq Common_EventScript_PkmnCenterJack_WonderTrade_Cancel
-	copyvar VAR_0x8005, VAR_0x800A
-	specialvar VAR_RESULT, GetTradeSpecies
-	copyvar VAR_0x800B, VAR_RESULT
-	compare VAR_RESULT, VAR_0x8009
-	//goto_if_ne FortreeCity_House1_EventScript_NotRequestedMon
-	copyvar VAR_0x8004, VAR_0x8008
-	copyvar VAR_0x8005, VAR_0x800A
-	special CreateInGameWonderTradePokemon
-	special DoInGameTradeScene
-	waitstate
-	special DestroyFollower
-	bufferspeciesname 0, VAR_0x8009
-	msgbox Common_PkmnCenterJack_Text_WonderTrade2, MSGBOX_DEFAULT
-	release
+
+Common_EventScript_PkmnCenterJack_CheckVoucher:
+	call Common_EventScript_PkmnCenterJack_GetVoucher
+	compare VAR_TEMP_1, 0
+	goto_if_eq Common_EventScript_PkmnCenterJack_NoCharms
+	goto Common_EventScript_PkmnCenterJack_HasCharm
 	end
-	
-Common_EventScript_PkmnCenterJack_WonderTrade_Cancel:
-	msgbox Common_PkmnCenterJack_Text_DoVisitAgain, MSGBOX_DEFAULT
-	releaseall
+
+Common_EventScript_PkmnCenterJack_GetVoucher:
+	setvar VAR_TEMP_1, 0
+	checkitem ITEM_CHARM_VOUCHER, 1
+	compare VAR_RESULT, TRUE
+	goto_if_eq Common_EventScript_PkmnCenterJack_FoundVoucher
+	return
+
+Common_EventScript_PkmnCenterJack_FoundVoucher:
+	setvar VAR_TEMP_1, 1
+	return
+
+Common_EventScript_PkmnCenterJack_HasCharm:
+	takeitem ITEM_CHARM_VOUCHER, 1
+	giveitem ITEM_GOOD_OMEN, 1
+	msgbox Common_PkmnCenterJack_Text_TradeSuccessful, MSGBOX_DEFAULT
+	end
+
+Common_EventScript_PkmnCenterJack_NoCharms:
+	msgbox Common_PkmnCenterJack_Text_NoVoucher, MSGBOX_DEFAULT
 	end

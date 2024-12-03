@@ -61,7 +61,7 @@ Special_Gym_EventScript_Good_Rod::
 	end
 	
 Special_Gym_EventScript_Catching_Charm::
-	giveitem ITEM_CATCHING_CHARM
+	giveitem ITEM_CHARM_VOUCHER
 	giveitem ITEM_BAD_OMEN
 	msgbox   Special_Gym_Text_Explain_Catching_Charm, MSGBOX_DEFAULT
 	setflag  FLAG_RECEIVED_BADGE_04
@@ -97,7 +97,7 @@ Special_Gym_EventScript_Mega_Bracelet::
 	end
 	
 Special_Gym_EventScript_Shiny_Charm::
-	giveitem ITEM_SHINY_CHARM
+	giveitem ITEM_CHARM_VOUCHER
 	giveitem ITEM_BAD_OMEN
 	msgbox   Special_Gym_Text_Explain_Shiny_Charm, MSGBOX_DEFAULT
 	setflag  FLAG_RECEIVED_BADGE_08

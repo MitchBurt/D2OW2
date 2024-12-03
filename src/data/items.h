@@ -11961,7 +11961,7 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
-        [ITEM_FOCUS_CHARM] =
+    [ITEM_FOCUS_CHARM] =
     {
         .name = _("Focus Charm"),
         .itemId = ITEM_FOCUS_CHARM,
@@ -11969,6 +11969,70 @@ const struct Item gItems[] =
         .description = sFocusCharmDesc,
         .pocket = POCKET_CHARMS,
         .importance = 1,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_CHARM_VOUCHER] =
+    {
+        .name = _("Charm Voucher"),
+        .itemId = ITEM_CHARM_VOUCHER,
+        .price = 0,
+        .description = sCharmVoucherDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_UNITY_CHARM] =
+    {
+        .name = _("Unity Charm"),
+        .itemId = ITEM_UNITY_CHARM,
+        .price = 0,
+        .importance = 1,
+        .description = sUnityCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_MOMENTUM_CHARM] =
+    {
+        .name = _("Momentum Charm"),
+        .itemId = ITEM_MOMENTUM_CHARM,
+        .price = 0,
+        .importance = 1,
+        .description = sMomentumCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_KAMIKAZE_CHARM] =
+    {
+        .name = _("Kamikaze Charm"),
+        .itemId = ITEM_KAMIKAZE_CHARM,
+        .price = 0,
+        .importance = 1,
+        .description = sKamikazeCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_FATE_CHARM] =
+    {
+        .name = _("Fate Charm"),
+        .itemId = ITEM_FATE_CHARM,
+        .price = 0,
+        .importance = 1,
+        .description = sFateCharmDesc,
+        .pocket = POCKET_CHARMS,
         .type = 4,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .secondaryId = 0,

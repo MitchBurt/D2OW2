@@ -342,11 +342,13 @@ static void AddGoodCharm(void)
 		ITEM_EXP_CHARM,
         ITEM_TOTEM_CHARM,
         ITEM_FORTUNE_CHARM,
-        ITEM_ORACLE_CHARM,
+        //ITEM_ORACLE_CHARM,
         ITEM_ENERGIZER_CHARM,
         ITEM_SPECIALIST_CHARM,
         ITEM_LUCKY_CHARM,
         ITEM_SCOPE_CHARM,
+        ITEM_MOMENTUM_CHARM,
+        ITEM_UNITY_CHARM,
 	};
 
     if (CheckBagHasItem(sGoodCharms[rand], 1)){
@@ -379,7 +381,7 @@ static void AddBadCharm(void)
         ITEM_DETUNE_CHARM,
         ITEM_SNARE_CHARM,
         ITEM_MUFFLE_CHARM,
-        ITEM_FRIGHT_CHARM,
+        //ITEM_FRIGHT_CHARM,
         ITEM_DRY_CHARM,
 		ITEM_WET_CHARM,
         ITEM_WILT_CHARM,

@@ -3237,23 +3237,43 @@ void SetMoveEffect(bool32 primary, u32 certain)
                 gBattlescriptCurrInstr = BattleScript_DefSpDefDown;
                 break;
             case MOVE_EFFECT_RECOIL_25: // Take Down, 25% recoil
+                if(CheckBagHasItem(ITEM_KAMIKAZE_CHARM, 1) && GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER)
+                {
+                    gBattleMoveDamage = (gHpDealt) / 2;
+                }
+                else{
                 gBattleMoveDamage = (gHpDealt) / 4;
+                }
                 if (gBattleMoveDamage == 0)
                     gBattleMoveDamage = 1;
 
                 BattleScriptPush(gBattlescriptCurrInstr + 1);
                 gBattlescriptCurrInstr = sMoveEffectBS_Ptrs[gBattleScripting.moveEffect];
                 break;
-            case MOVE_EFFECT_RECOIL_33: // Double Edge, 33 % recoil
-                gBattleMoveDamage = gHpDealt / 3;
+            case MOVE_EFFECT_RECOIL_33: // Double Edge, 33% recoil
+                if (CheckBagHasItem(ITEM_KAMIKAZE_CHARM, 1) && GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER)
+                {
+                    gBattleMoveDamage = (gHpDealt * 2) / 3; // Double the 33% recoil to 66% (2/3)
+                }
+                else
+                {
+                    gBattleMoveDamage = gHpDealt / 3; // Normal 33% recoil
+                }
                 if (gBattleMoveDamage == 0)
                     gBattleMoveDamage = 1;
 
                 BattleScriptPush(gBattlescriptCurrInstr + 1);
                 gBattlescriptCurrInstr = sMoveEffectBS_Ptrs[gBattleScripting.moveEffect];
                 break;
-            case MOVE_EFFECT_RECOIL_50: // Head Smash, 50 % recoil
-                gBattleMoveDamage = gHpDealt / 2;
+            case MOVE_EFFECT_RECOIL_50: // Head Smash, 50% recoil
+                if (CheckBagHasItem(ITEM_KAMIKAZE_CHARM, 1) && GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER)
+                {
+                    gBattleMoveDamage = gHpDealt; // Double the 50% recoil to 100% (all damage dealt)
+                }
+                else
+                {
+                    gBattleMoveDamage = gHpDealt / 2; // Normal 50% recoil
+                }
                 if (gBattleMoveDamage == 0)
                     gBattleMoveDamage = 1;
 
@@ -3261,7 +3281,14 @@ void SetMoveEffect(bool32 primary, u32 certain)
                 gBattlescriptCurrInstr = BattleScript_MoveEffectRecoil;
                 break;
             case MOVE_EFFECT_RECOIL_33_STATUS: // Flare Blitz - can burn, Volt Tackle - can paralyze
-                gBattleScripting.savedDmg = gHpDealt / 3;
+                if (CheckBagHasItem(ITEM_KAMIKAZE_CHARM, 1) && GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER)
+                {
+                    gBattleScripting.savedDmg = (gHpDealt * 2) / 3; // Double the 33% recoil to 66% (2/3)
+                }
+                else
+                {
+                    gBattleScripting.savedDmg = gHpDealt / 3; // Normal 33% recoil
+                }
                 if (gBattleScripting.savedDmg == 0)
                     gBattleScripting.savedDmg = 1;
 
@@ -3460,6 +3487,10 @@ static void Cmd_seteffectwithchance(void)
         percentChance = percentChance * 2;
 	else if (GetBattlerAbility(gBattlerAttacker) == ABILITY_LUCKY_BOOST)
         percentChance = percentChance * 1.5;
+    if(CheckBagHasItem(ITEM_FATE_CHARM, 1) && GetBattlerSide(gBattlerAttacker) == B_SIDE_OPPONENT)
+    {
+        percentChance = percentChance * 2;
+    }
 
     if (gBattleScripting.moveEffect & MOVE_EFFECT_CERTAIN
         && !(gMoveResultFlags & MOVE_RESULT_NO_EFFECT))

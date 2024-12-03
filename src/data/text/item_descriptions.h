@@ -6426,4 +6426,26 @@ static const u8 sFocusCharmDesc[] = _(
     "Opposing Pokémon do\n"
     "not flinch.");
 
+static const u8 sCharmVoucherDesc[] = _(
+    "Can be exchanged for\n"
+    "one positive Charm.");
+
+static const u8 sUnityCharmDesc[] = _(
+    "Allied Pokémon\n"
+    "have their Friendship\n"
+    "raised faster.");
+
+static const u8 sMomentumCharmDesc[] = _(
+    "Ups damage of\n"
+    "Rollout-moves.");
+
+static const u8 sKamikazeCharmDesc[] = _(
+    "Doubles Recoil\n"
+    "for Allied Pokémon.");
+
+static const u8 sFateCharmDesc[] = _(
+    "Promotes added effects\n"
+    "for Opposing Pokémon.");
+
+
 #endif

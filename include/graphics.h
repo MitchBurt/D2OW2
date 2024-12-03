@@ -9726,4 +9726,17 @@ extern const u32 gItemIconPalette_RelentlessCharm[];
 extern const u32 gItemIcon_FocusCharm[];
 extern const u32 gItemIconPalette_FocusCharm[];
 
+extern const u32 gItemIcon_UnityCharm[];
+extern const u32 gItemIconPalette_UnityCharm[];
+
+extern const u32 gItemIcon_MomentumCharm[];
+extern const u32 gItemIconPalette_MomentumCharm[];
+
+extern const u32 gItemIcon_KamikazeCharm[];
+extern const u32 gItemIconPalette_KamikazeCharm[];
+
+extern const u32 gItemIcon_FateCharm[];
+extern const u32 gItemIconPalette_FateCharm[];
+
+
 #endif //GUARD_GRAPHICS_H

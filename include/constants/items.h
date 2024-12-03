@@ -994,10 +994,15 @@
 #define ITEM_RELENTLESS_CHARM    825
 #define ITEM_SCOPE_CHARM         826
 #define ITEM_FOCUS_CHARM          827
+#define ITEM_CHARM_VOUCHER        828
+#define ITEM_UNITY_CHARM          829
+#define ITEM_MOMENTUM_CHARM       830
+#define ITEM_KAMIKAZE_CHARM       831
+#define ITEM_FATE_CHARM           832
 
 
 
-#define ITEMS_COUNT 828
+#define ITEMS_COUNT 833
 #define ITEM_FIELD_ARROW ITEMS_COUNT
 
 #define FIRST_BERRY_INDEX             ITEM_CHERI_BERRY

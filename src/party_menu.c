@@ -4744,7 +4744,14 @@ void ItemUseCB_Medicine(u8 taskId, TaskFunc task)
     }
     if (FlagGet(FLAG_NUZLOCKE) && GetMonData(mon, MON_DATA_DEAD))
     {
+        if(CheckBagHasItem(ITEM_TOTEM_CHARM, 1)){
+            cannotUse = FALSE;
+            RemoveBagItem(ITEM_TOTEM_CHARM, 1);
+        }
+        else{
         cannotUse = TRUE;
+        }
+
     }
     else
     {

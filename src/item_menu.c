@@ -1485,7 +1485,7 @@ static const u8 sBerryIcon[]      = INCBIN_U8("graphics/ui_menu/bag_menu/berry_i
 static const u8 sPowerUpIcon[]    = INCBIN_U8("graphics/ui_menu/bag_menu/power_up_icon.4bpp");
 static const u8 sTMIcon[]         = INCBIN_U8("graphics/ui_menu/bag_menu/tm_icon.4bpp");
 static const u8 sKeyItemIcon[]    = INCBIN_U8("graphics/ui_menu/bag_menu/key_item_icon.4bpp");
-static const u8 sCharmsIcon[]     = INCBIN_U8("graphics/ui_menu/bag_menu/dummy_icon.4bpp");
+static const u8 sCharmsIcon[]     = INCBIN_U8("graphics/ui_menu/bag_menu/charms_icon.4bpp");
 static const u8 sNoIcon[]         = INCBIN_U8("graphics/ui_menu/bag_menu/no_icon.4bpp");
 
 static void DrawPocketIndicator()

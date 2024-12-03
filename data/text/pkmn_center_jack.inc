@@ -254,4 +254,12 @@ Common_PkmnCenterJack_Text_No_Costume:
 	.string "Sorry but this costume\n"
 	.string "is not available yet.$"
 
+Common_PkmnCenterJack_Text_TradeSuccessful:
+	.string "You traded in your Charm Voucher!$"
+
+Common_PkmnCenterJack_Text_NoVoucher:
+	.string "You don't have any Charm Vouchers\n"
+	.string "to trade.$"
+
+
 #endif

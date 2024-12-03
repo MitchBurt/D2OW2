@@ -11551,11 +11551,11 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_SHOTGUN] =
     {
         .power = 80,
-        .effect = EFFECT_CONFUSE_HIT,
+        .effect = EFFECT_INTOXICATE_HIT,
         .type = TYPE_ALCOHOL,
         .accuracy = 100,
         .pp = 30,
-        .secondaryEffectChance = 10,
+        .secondaryEffectChance = 20,
         .target = MOVE_TARGET_SELECTED,
         .priority = 0,
         .flags = FLAG_PROTECT_AFFECTED | FLAG_MIRROR_MOVE_AFFECTED | FLAG_SHEER_FORCE_BOOST,

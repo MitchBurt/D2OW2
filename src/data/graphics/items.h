@@ -1723,3 +1723,15 @@ const u32 gItemIconPalette_ScopeCharm[] = INCBIN_U32("graphics/items/icon_palett
 
 const u32 gItemIcon_FocusCharm[] = INCBIN_U32("graphics/items/icons/charms/focus_charm.4bpp.lz");
 const u32 gItemIconPalette_FocusCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/focus_charm.gbapal.lz");
+
+const u32 gItemIcon_UnityCharm[] = INCBIN_U32("graphics/items/icons/charms/unity_charm.4bpp.lz");
+const u32 gItemIconPalette_UnityCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/unity_charm.gbapal.lz");
+
+const u32 gItemIcon_MomentumCharm[] = INCBIN_U32("graphics/items/icons/charms/momentum_charm.4bpp.lz");
+const u32 gItemIconPalette_MomentumCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/momentum_charm.gbapal.lz");
+
+const u32 gItemIcon_KamikazeCharm[] = INCBIN_U32("graphics/items/icons/charms/kamikaze_charm.4bpp.lz");
+const u32 gItemIconPalette_KamikazeCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/kamikaze_charm.gbapal.lz");
+
+const u32 gItemIcon_FateCharm[] = INCBIN_U32("graphics/items/icons/charms/fate_charm.4bpp.lz");
+const u32 gItemIconPalette_FateCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/fate_charm.gbapal.lz");

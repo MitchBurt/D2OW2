@@ -7303,6 +7303,8 @@ void AdjustFriendship(struct Pokemon *mon, u8 event)
             s8 mod = sFriendshipEventModifiers[event][friendshipLevel];
             if (mod > 0 && holdEffect == HOLD_EFFECT_HAPPINESS_UP)
                 mod = (150 * mod) / 100;
+            if (mod > 0 && CheckBagHasItem(ITEM_UNITY_CHARM, 1))
+                mod = (150 * mod) / 100;
             friendship += mod;
             if (mod > 0)
             {

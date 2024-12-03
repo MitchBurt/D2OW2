@@ -7919,7 +7919,7 @@ static u16 CalcMoveBasePower(u16 move, u8 battlerAtk, u8 battlerDef)
     case EFFECT_ROLLOUT:
         for (i = 1; i < (5 - gDisableStructs[battlerAtk].rolloutTimer); i++)
             basePower *= 2;
-        if (gBattleMons[battlerAtk].status2 & STATUS2_DEFENSE_CURL)
+        if ((gBattleMons[battlerAtk].status2 & STATUS2_DEFENSE_CURL) || (CheckBagHasItem(ITEM_MOMENTUM_CHARM)))
             basePower *= 2;
         break;
     case EFFECT_MAGNITUDE:

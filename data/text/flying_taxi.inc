@@ -29,15 +29,14 @@ gText_FlyingTaxi_Goodbye::
 	.string "Pokémon than the Old Rod.$"
 	
 	Special_Gym_Text_Explain_Oval_Charm:
-	.string "This item is an Oval Charm.\p"
-	.string "Its an item that doubles the\n"
-	.string "possibilites of getting an Baby\l"
-	.string "Pokémon from the Daycare.$"
+	.string "This item is Charm Voucher.\p"
+	.string "It can be exchanged in any\n"
+	.string "Pokemon Center.$"
 
 	Special_Gym_Text_Explain_Catching_Charm:
-	.string "This item is a Catching Charm.\p"
-	.string "It increase the chance of getting a\n"
-	.string "critical catch.$"
+	.string "This item is Charm Voucher.\p"
+	.string "It can be exchanged in any\n"
+	.string "Pokemon Center.$"
 	
 	Special_Gym_Text_Explain_Super_Rod:
 	.string "This item is the Super Rod.\p"
@@ -58,10 +57,9 @@ gText_FlyingTaxi_Goodbye::
 	.string "that can Mega Evolve in Battle.$"
 	
 	Special_Gym_Text_Explain_Shiny_Charm:
-	.string "This item is the Shiny Charm.\p"
-	.string "Its an item that doubles the\n"
-	.string "possibilites of getting a shiny\l"
-	.string "Pokémon.$"
+	.string "This item is Charm Voucher.\p"
+	.string "It can be exchanged in any\n"
+	.string "Pokemon Center.$"
 	
 	Special_Gym_Text_Explain_Old_Save:
 	.string "It looks like you are using\n"

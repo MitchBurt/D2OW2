@@ -1313,9 +1313,15 @@ static const union AnimCmd sSpriteAnim_StatusFaint[] =
     ANIMCMD_END
 };
 
-static const union AnimCmd sSpriteAnim_Blank[] =
+static const union AnimCmd sSpriteAnim_Intox[] =
 {
     ANIMCMD_FRAME(28, 0),
+    ANIMCMD_END
+};
+
+static const union AnimCmd sSpriteAnim_Blank[] =
+{
+    ANIMCMD_FRAME(32, 0),
     ANIMCMD_END
 };
 
@@ -1328,6 +1334,7 @@ static const union AnimCmd *const sSpriteTemplate_StatusCondition[] =
     sSpriteAnim_StatusBurn,
     sSpriteAnim_StatusPokerus,
     sSpriteAnim_StatusFaint,
+    sSpriteAnim_Intox
     sSpriteAnim_Blank
 };
 

@@ -5935,7 +5935,7 @@ static const u8 sFERMENTDescription[] = _(
 
 static const u8 sSHOTGUNDescription[] = _(
     "The foe chugs a drink that\n"
-    "may cause confusion.");
+    "may cause intoxication.");
 
 static const u8 sFOOD_COMADescription[] = _(
     "Strikes with large amounts of\n"
