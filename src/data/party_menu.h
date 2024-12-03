@@ -1334,7 +1334,7 @@ static const union AnimCmd *const sSpriteTemplate_StatusCondition[] =
     sSpriteAnim_StatusBurn,
     sSpriteAnim_StatusPokerus,
     sSpriteAnim_StatusFaint,
-    sSpriteAnim_Intox
+    sSpriteAnim_Intox,
     sSpriteAnim_Blank
 };
 
