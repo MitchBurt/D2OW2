@@ -405,6 +405,8 @@ static void AddBadCharm(void)
         ITEM_SKILLED_CHARM,
         ITEM_RELENTLESS_CHARM,
         ITEM_SOFT_CHARM,
+        ITEM_KAMIKAZE_CHARM,
+        ITEM_FATE_CHARM,
 	};
     u16 sBlackCharms[] = { 
 		ITEM_INVERSE_CHARM,
