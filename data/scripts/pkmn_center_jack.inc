@@ -8,7 +8,7 @@ Common_EventScript_PkmnCenterJack::
 	case 0, Common_EventScript_PkmnCenterJack_NameRater_ChooseMonToRate
 	case 1, Common_EventScript_PkmnCenterJack_Move_Learner
 	case 2, Common_EventScript_PkmnCenterJack_MoveDeleter_ChooseMonAndMoveToForget
-	case 3, Common_EventScript_PkmnCenterJack_BuyCharm
+	case 3, Common_EventScript_PkmnCenterJack_CheckVoucher
 	case 4, Common_EventScript_PkmnCenterJack_Change_Costume
 	case 5, Common_EventScript_PkmnCenterJack_StartARandomBattle
 	case 6, Common_EventScript_PkmnCenterJack_Companion_Stuff
