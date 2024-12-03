@@ -483,7 +483,7 @@ Common_EventScript_PkmnCenterJack_FoundVoucher:
 	return
 
 Common_EventScript_PkmnCenterJack_HasCharm:
-	takeitem ITEM_CHARM_VOUCHER, 1
+	removeitem ITEM_CHARM_VOUCHER, 1
 	giveitem ITEM_GOOD_OMEN, 1
 	msgbox Common_PkmnCenterJack_Text_TradeSuccessful, MSGBOX_DEFAULT
 	end
