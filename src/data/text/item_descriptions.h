@@ -6315,8 +6315,8 @@ static const u8 sWiltCharmDesc[] = _(
 
 static const u8 sInsulateCharmDesc[] = _(
     "Lowers the damage of\n"
-    "allied Pokémon's Electric\n"
-    "Type attacks.");
+    "allied Pokémon's\n"
+    "Electric Type attacks.");
 
 static const u8 sThawCharmDesc[] = _(
     "Lowers the damage of\n"
@@ -6400,21 +6400,23 @@ static const u8 sLuckyCharmDesc[] = _(
 
 static const u8 sGlassCharmDesc[] = _(
     "Allied Pokémon take\n"
-    "extra damage from contact\n"
-    "moves.");
+    "extra damage from\n"
+    "contact moves.");
 
 static const u8 sSkilledCharmDesc[] = _(
-    "Opposing Pokémon's Multi\n"
-    "-hit moves hit 5 times");
+    "Opposing Pokémon's\n"
+    "Multi-hit moves\n"
+    "hit 5 times");
 
 static const u8 sSoftCharmDesc[] = _(
     "Allied Pokémon deal\n"
-    "less damage with contact\n"
-    "moves.");
+    "less damage with\n"
+    "contact moves.");
 
 static const u8 sRelentlessCharmDesc[] = _(
-    "Opposing Pokémon's moves\n"
-    "do not require recharge.");
+    "Opposing Pokémon's\n"
+    "moves do not require\n"
+    "recharge.");
 
 static const u8 sScopeCharmDesc[] = _(
     "Ups the accuracy of \n"
