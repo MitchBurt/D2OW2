@@ -1060,10 +1060,10 @@ static const struct ListMenuItem sSetBlueNurse[] =
     {gText_TeachAMove,  		1},
 	{gText_ForgetAMove,  		2},
 	{gText_BuyCharm,  	        3},
-	{gText_ChangeCostume,  		3},
-	{gText_StartABattle,  		4},
-	{gText_Companion_Stuff,     5},
-	{gText_Cancel2,  			6},
+	{gText_ChangeCostume,  		4},
+	{gText_StartABattle,  		5},
+	{gText_Companion_Stuff,     6},
+	{gText_Cancel2,  			7},
 };
 
 //------------------------------------------------------------------------------------

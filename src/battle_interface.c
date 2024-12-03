@@ -160,9 +160,6 @@ enum
     HEALTHBOX_GFX_115,
     HEALTHBOX_GFX_116, //unknown_D12FEC
     HEALTHBOX_GFX_117, //unknown_D1300C
-    HEALTHBOX_GFX_STATUS_DRK_BATTLER0,  //status drk
-    HEALTHBOX_GFX_119,
-    HEALTHBOX_GFX_120,
 };
 
 // strings
@@ -598,8 +595,7 @@ enum
     PAL_STATUS_PAR,
     PAL_STATUS_SLP,
     PAL_STATUS_FRZ,
-    PAL_STATUS_BRN,
-    PAL_STATUS_DRK
+    PAL_STATUS_BRN
 };
 
 static const u16 sStatusIconColors[] =
@@ -608,8 +604,7 @@ static const u16 sStatusIconColors[] =
     [PAL_STATUS_PAR] = RGB(23, 23, 3),
     [PAL_STATUS_SLP] = RGB(20, 20, 17),
     [PAL_STATUS_FRZ] = RGB(17, 22, 28),
-    [PAL_STATUS_BRN] = RGB(28, 14, 10),
-    [PAL_STATUS_DRK] = RGB(24, 12, 24),
+    [PAL_STATUS_BRN] = RGB(28, 14, 10),\
 };
 
 static const struct WindowTemplate sHealthboxWindowTemplate = {0, 0, 0, 8, 2, 0, 0}; // width = 8, height = 2
@@ -2282,12 +2277,7 @@ static void UpdateStatusIconInHealthbox(u8 healthboxSpriteId)
         tileNumAdder = 0x11;
     }
 
-    if (status & STATUS1_INTOXICATE)
-    {
-        statusGfxPtr = GetHealthboxElementGfxPtr(GetStatusIconForBattlerId(HEALTHBOX_GFX_STATUS_DRK_BATTLER0, battlerId));
-        statusPalId = PAL_STATUS_DRK;
-    }
-    else if (status & STATUS1_SLEEP)
+    if (status & STATUS1_SLEEP)
     {
         statusGfxPtr = GetHealthboxElementGfxPtr(GetStatusIconForBattlerId(HEALTHBOX_GFX_STATUS_SLP_BATTLER0, battlerId));
         statusPalId = PAL_STATUS_SLP;
