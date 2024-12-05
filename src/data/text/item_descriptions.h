@@ -6447,5 +6447,25 @@ static const u8 sFateCharmDesc[] = _(
     "Promotes added effects\n"
     "for Opposing Pokémon.");
 
+static const u8 sFrostproofCharmDesc[] = _(
+    "Prevents opposing\n"
+    "Pokémon from becoming\n"
+    "Frozen");
+
+static const u8 sFireproofCharmDesc[] = _(
+    "Prevents opposing\n"
+    "Pokémon from becoming\n"
+    "Burned");
+
+static const u8 sInsomniaCharmDesc[] = _(
+    "Prevents opposing\n"
+    "Pokémon from becoming\n"
+    "put to sleep");
+
+static const u8 sStaticproofCharmDesc[] = _(
+    "Prevents opposing\n"
+    "Pokémon from becoming\n"
+    "Paralyzed");
+
 
 #endif

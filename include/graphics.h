@@ -9738,5 +9738,16 @@ extern const u32 gItemIconPalette_KamikazeCharm[];
 extern const u32 gItemIcon_FateCharm[];
 extern const u32 gItemIconPalette_FateCharm[];
 
+extern const u32 gItemIcon_FrostproofCharm[];
+extern const u32 gItemIconPalette_FrostproofCharm[];
+
+extern const u32 gItemIcon_FireproofCharm[];
+extern const u32 gItemIconPalette_FireproofCharm[];
+
+extern const u32 gItemIcon_InsomniaCharm[];
+extern const u32 gItemIconPalette_InsomniaCharm[];
+
+extern const u32 gItemIcon_StaticproofCharm[];
+extern const u32 gItemIconPalette_StaticproofCharm[];
 
 #endif //GUARD_GRAPHICS_H

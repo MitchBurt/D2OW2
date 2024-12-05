@@ -1735,3 +1735,15 @@ const u32 gItemIconPalette_KamikazeCharm[] = INCBIN_U32("graphics/items/icon_pal
 
 const u32 gItemIcon_FateCharm[] = INCBIN_U32("graphics/items/icons/charms/fate_charm.4bpp.lz");
 const u32 gItemIconPalette_FateCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/fate_charm.gbapal.lz");
+
+const u32 gItemIcon_FrostproofCharm[] = INCBIN_U32("graphics/items/icons/charms/frostproof_charm.4bpp.lz");
+const u32 gItemIconPalette_FrostproofCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/frostproof_charm.gbapal.lz");
+
+const u32 gItemIcon_FireproofCharm[] = INCBIN_U32("graphics/items/icons/charms/fireproof_charm.4bpp.lz");
+const u32 gItemIconPalette_FireproofCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/fireproof_charm.gbapal.lz");
+
+const u32 gItemIcon_InsomniaCharm[] = INCBIN_U32("graphics/items/icons/charms/insomnia_charm.4bpp.lz");
+const u32 gItemIconPalette_InsomniaCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/insomnia_charm.gbapal.lz");
+
+const u32 gItemIcon_StaticproofCharm[] = INCBIN_U32("graphics/items/icons/charms/staticproof_charm.4bpp.lz");
+const u32 gItemIconPalette_StaticproofCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/staticproof_charm.gbapal.lz");

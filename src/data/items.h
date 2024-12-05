@@ -12038,5 +12038,57 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
+    [ITEM_FROSTPROOF_CHARM] =
+    {
+        .name = _("Frostproof Charm"),
+        .itemId = ITEM_FROSTPROOF_CHARM,
+        .price = 0,
+        .importance = 1,
+        .description = sFrostproofCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_FIREPROOF_CHARM] =
+    {
+        .name = _("Fireproof Charm"),
+        .itemId = ITEM_FIREPROOF_CHARM,
+        .price = 0,
+        .importance = 1,
+        .description = sFireproofCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_INSOMNIA_CHARM] =
+    {
+        .name = _("Insomnia Charm"),
+        .itemId = ITEM_INSOMNIA_CHARM,
+        .price = 0,
+        .importance = 1,
+        .description = sInsomniaCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_STATICPROOF_CHARM] =
+    {
+        .name = _("Staticproof Charm"),
+        .itemId = ITEM_STATICPROOF_CHARM,
+        .price = 0,
+        .importance = 1,
+        .description = sStaticproofCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
 
 };

@@ -786,6 +786,9 @@ const u32 *const gItemIconTable[][2] =
     [ITEM_MOMENTUM_CHARM]    = {gItemIcon_MomentumCharm, gItemIconPalette_MomentumCharm},
     [ITEM_KAMIKAZE_CHARM]    = {gItemIcon_KamikazeCharm, gItemIconPalette_KamikazeCharm},
     [ITEM_FATE_CHARM]        = {gItemIcon_FateCharm, gItemIconPalette_FateCharm},
-
+    [ITEM_FROSTPROOF_CHARM]  = {gItemIcon_FrostproofCharm, gItemIconPalette_FrostproofCharm},
+    [ITEM_FIREPROOF_CHARM]   = {gItemIcon_FireproofCharm, gItemIconPalette_FireproofCharm},
+    [ITEM_INSOMNIA_CHARM]    = {gItemIcon_InsomniaCharm, gItemIconPalette_InsomniaCharm},
+    [ITEM_STATICPROOF_CHARM] = {gItemIcon_StaticproofCharm, gItemIconPalette_StaticproofCharm},
 
 };
