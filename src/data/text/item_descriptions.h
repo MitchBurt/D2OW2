@@ -6482,7 +6482,7 @@ static const u8 sSurgewardCharmDesc[] = _(
     "Pokémon from becoming\n"
     "Paralyzed");
 
-static const u8 sInsomniaCharmDesc[] = _(
+static const u8 sSlumberlessCharmDesc[] = _(
     "Prevents opposing\n"
     "Pokémon from becoming\n"
     "put to sleep");

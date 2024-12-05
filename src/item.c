@@ -412,6 +412,10 @@ static void AddBadCharm(void)
         ITEM_SOFT_CHARM,
         ITEM_KAMIKAZE_CHARM,
         ITEM_FATE_CHARM,
+        ITEM_CHILLPROOF_CHARM,
+        ITEM_HEATSHIELD_CHARM,
+        ITEM_SURGEWARD_CHARM,
+        ITEM_SLUMBERLESS_CHARM,
 
 	};
     u16 sBlackCharms[] = { 
@@ -420,6 +424,7 @@ static void AddBadCharm(void)
         ITEM_TAG_CHARM,
         ITEM_LONELY_CHARM,
         ITEM_STASIS_CHARM,
+        ITEM_SOFT_CHARM,
     };
 
     if (CheckBagHasItem(sBadCharms[rand], 1)){
