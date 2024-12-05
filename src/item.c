@@ -476,11 +476,11 @@ bool8 AddBagItem(u16 itemId, u16 count)
 {
     u8 i;
 
-    if (itemId == ITEM_BAD_OMEN){
+    if (itemId == ITEM_BAD_OMEN && FlagGet(FLAG_NUZLOCKE)){
         AddBadCharm();
         return FALSE;
     }
-    else if (itemId == ITEM_GOOD_OMEN){
+    else if (itemId == ITEM_GOOD_OMEN && FlagGet(FLAG_NUZLOCKE)){
         AddGoodCharm();
         return FALSE;
     }

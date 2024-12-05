@@ -1041,6 +1041,8 @@ static u32 GetBallThrowableState(void)
         return BALL_THROW_UNABLE_NONE_LEFT; */
     else if (gNuzlockeCannotCatch == 1 || gNuzlockeCannotCatch == 2){
         return BALL_THROW_UNABLE_NONE_LEFT;
+    else if (gMonotypeCannotCatch == 1){
+        return BALL_WRONG_TYPE;
    }
 
     return BALL_THROW_ABLE;
@@ -1056,6 +1058,7 @@ static const u8 sText_CantThrowPokeBall_TwoMons[] = _("Cannot throw a ball!\nThe
 static const u8 sText_CantThrowPokeBall_NoneLeft[] = _("You can only catch the\nfirst Pokémon seen per route!\p");
 static const u8 sText_CantThrowPokeBall_SemiInvulnerable[] = _("Cannot throw a ball!\nThere's no Pokémon in sight!\p");
 static const u8 sText_CantThrowPokeBall[] = _("Cannot throw a ball!\p");
+static const u8 sText_CantThrowPokeBall_Monotype[] = _("You can only catch\Pokémon of your type!\p");
 void ItemUseInBattle_PokeBall(u8 taskId)
 {
     switch (GetBallThrowableState())

@@ -56,6 +56,8 @@ enum {
     BALL_THROW_UNABLE_NO_ROOM,
     BALL_THROW_ABLE,
     BALL_THROW_UNABLE_NONE_LEFT,
+    BALL_WRONG_TYPE,
+
 };
 
 bool32 CanThrowBall(void);

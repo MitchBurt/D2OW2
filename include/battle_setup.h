@@ -18,6 +18,7 @@ extern u16 gTrainerBattleOpponent_A;
 extern u16 gTrainerBattleOpponent_B;
 extern u16 gPartnerTrainerId;
 extern bool8 gNuzlockeCannotCatch;
+extern bool8 gMonotypeCannotCatch;
 
 void BattleSetup_StartWildBattle(void);
 void BattleSetup_StartDoubleWildBattle(void);
