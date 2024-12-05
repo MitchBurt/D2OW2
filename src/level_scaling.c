@@ -1026,8 +1026,6 @@ u16 SplitEvolutions(u16 basespecies, u8 level){
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
 					SPECIES_MOJISLEY,
-					SPECIES_MOJISLEY_SANDY_CLOAK,
-					SPECIES_MOJISLEY_TRASH_CLOAK,
 				};
 				
 				return PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];

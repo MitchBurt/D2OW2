@@ -4719,8 +4719,6 @@ u16 getWonderTradePokemonFormID(u16 species)
 			if(!disablealternateforms){
 				u16 PossibleEvo[] = {
 					SPECIES_MOJISLEY,
-					SPECIES_MOJISLEY_SANDY_CLOAK,
-					SPECIES_MOJISLEY_TRASH_CLOAK,
 				};
 				
 				newspecies = PossibleEvo[rand % (sizeof(PossibleEvo)/sizeof(PossibleEvo[0]))];
