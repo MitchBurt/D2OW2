@@ -2657,7 +2657,7 @@ void SetMoveEffect(bool32 primary, u32 certain)
             if (gActiveBattler != gBattlersCount)
                 break;
              if (GetBattlerAbility(gEffectBattler) == ABILITY_COMATOSE
-                || IS_BATTLER_OF_TYPE(battlerTarget, TYPE_ALCOHOL)
+                || IS_BATTLER_OF_TYPE(gEffectBattler, TYPE_ALCOHOL)
                 || IsAbilityStatusProtected(gEffectBattler))
                 break; 
             CancelMultiTurnMoves(gEffectBattler);
