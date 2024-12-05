@@ -1041,8 +1041,8 @@ static u32 GetBallThrowableState(void)
         return BALL_THROW_UNABLE_NONE_LEFT; */
     else if (gNuzlockeCannotCatch == 1 || gNuzlockeCannotCatch == 2){
         return BALL_THROW_UNABLE_NONE_LEFT;
-    else if (gMonotypeCannotCatch == 1){
-        return BALL_WRONG_TYPE;
+    //else if (gMonotypeCannotCatch == 1){
+       // return BALL_WRONG_TYPE;
    }
 
     return BALL_THROW_ABLE;
