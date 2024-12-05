@@ -6491,5 +6491,8 @@ static const u8 sAmplifyCharmDesc[] = _(
     "Promotes added effects\n"
     "for allied Pokémon.");
 
+static const u8 sGoodOmenDesc[] = _(
+    "Only Active in HARD\n"
+    "mode.");
 
 #endif
