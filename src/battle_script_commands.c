@@ -2649,7 +2649,7 @@ void SetMoveEffect(bool32 primary, u32 certain)
             {
                 break;
             }
-            if(CheckBagHasItem(ITEM_SLEEPLESS_CHARM, 1) && GetBattlerSide(gEffectBattler) == B_SIDE_OPPONENT)
+            if(CheckBagHasItem(ITEM_SLUMBERLESS_CHARM, 1) && GetBattlerSide(gEffectBattler) == B_SIDE_OPPONENT)
             {
                 break;
             }
