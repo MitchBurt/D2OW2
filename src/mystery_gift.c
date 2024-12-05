@@ -1175,7 +1175,7 @@ struct MysteryGiftMonStructure gMysteryGiftMons[] =
 	[CARD_CTHEYE] =
     {
 		.species 			= SPECIES_CTHEYE,
-		.helditem 			= ITEM_SMOKE_BALL,
+		.helditem 			= ITEM_TOTEM_CHARM,
 		.abilityNum 		= 0,
 		.level 				= 5,
 		.nature				= NATURE_TIMID,

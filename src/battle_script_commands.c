@@ -3621,14 +3621,14 @@ static void Cmd_tryfaintmon(void)
             gBattlescriptCurrInstr = BS_ptr;
             if (GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER)
             {
-               /*  //Nuzlocke
+                //Nuzlocke
                 if (FlagGet(FLAG_NUZLOCKE)){
                     bool8 dead = TRUE;
                     SetMonData(&gPlayerParty[gBattlerPartyIndexes[gActiveBattler]], MON_DATA_DEAD, &dead);
-                } */
+                } 
 
                 // Nuzlocke
-                if (FlagGet(FLAG_NUZLOCKE))
+/*                 if (FlagGet(FLAG_NUZLOCKE))
                 {
                     struct Pokemon *mon = &gPlayerParty[gBattlerPartyIndexes[gActiveBattler]];
 
@@ -3651,7 +3651,7 @@ static void Cmd_tryfaintmon(void)
                         // Otherwise, mark the Pokémon as dead
                         bool8 dead = TRUE;
                         SetMonData(&gPlayerParty[gBattlerPartyIndexes[gActiveBattler]], MON_DATA_DEAD, &dead);
-                    }
+                    } */
                 }
 
                 gHitMarker |= HITMARKER_x400000;

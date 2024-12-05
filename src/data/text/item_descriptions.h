@@ -6267,8 +6267,8 @@ static const u8 sWetCharmDesc[] = _(
 
 static const u8 sTotemCharmDesc[] = _(
     "Consumes this Charm to\n"
-    "prevent a Pokémon from\n"
-    "Fainting");
+    "allow a fainted\n"
+    "Pokémon to be revived");
 
 static const u8 sFortuneCharmDesc[] = _(
     "Doubles money\n"

@@ -271,7 +271,7 @@ int ProcessPlayerFieldInput(struct FieldInput *input)
 
 //TODO DEBUG
 
-    //#if DEBUGGING
+/*     //#if DEBUGGING
         if (input->input_field_1_2)
         {
         PlaySE(SE_WIN_OPEN);
@@ -279,7 +279,7 @@ int ProcessPlayerFieldInput(struct FieldInput *input)
         return TRUE;
         }
     //#endif
-
+ */
 
 
     return FALSE;
