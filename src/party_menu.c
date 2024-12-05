@@ -4744,14 +4744,17 @@ void ItemUseCB_Medicine(u8 taskId, TaskFunc task)
     }
     if (FlagGet(FLAG_NUZLOCKE) && GetMonData(mon, MON_DATA_DEAD))
     {
-        if(CheckBagHasItem(ITEM_TOTEM_CHARM, 1)){
-            canHeal == TRUE;
+        if (CheckBagHasItem(ITEM_TOTEM_CHARM, 1))
+        {
+            // Consume the Totem Charm and attempt to revive the Pokémon
             RemoveBagItem(ITEM_TOTEM_CHARM, 1);
+            cannotUse = ExecuteTableBasedItemEffect_(gPartyMenu.slotId, item, 0);
         }
-        else{
-        cannotUse = TRUE;
+        else
+        {
+            // Prevent the revive if no Totem Charm is available
+            cannotUse = TRUE;
         }
-
     }
     else
     {
@@ -4769,7 +4772,6 @@ void ItemUseCB_Medicine(u8 taskId, TaskFunc task)
     {
         gPartyMenuUseExitCallback = FALSE;
         PlaySE(SE_SELECT);
-        //DisplayPartyMenuMessage(gText_WontHaveEffect, TRUE);
         if (canHeal &&  FlagGet(FLAG_NUZLOCKE) && GetMonData(mon, MON_DATA_DEAD))
             DisplayPartyMenuMessage(gText_WontHaveEffectNuzlocke, TRUE);
         else

@@ -3621,11 +3621,39 @@ static void Cmd_tryfaintmon(void)
             gBattlescriptCurrInstr = BS_ptr;
             if (GetBattlerSide(gActiveBattler) == B_SIDE_PLAYER)
             {
-                //Nuzlocke
+               /*  //Nuzlocke
                 if (FlagGet(FLAG_NUZLOCKE)){
                     bool8 dead = TRUE;
                     SetMonData(&gPlayerParty[gBattlerPartyIndexes[gActiveBattler]], MON_DATA_DEAD, &dead);
+                } */
+
+                // Nuzlocke
+                if (FlagGet(FLAG_NUZLOCKE))
+                {
+                    struct Pokemon *mon = &gPlayerParty[gBattlerPartyIndexes[gActiveBattler]];
+
+                    if (IsMonShiny(mon))
+                    {
+                        // If the Pokémon is shiny, modify its personality value to remove shiny status
+                        u32 personality = GetMonData(mon, MON_DATA_PERSONALITY);
+                        personality ^= 0x1; // Flip a bit to break shiny calculation
+                        SetMonData(mon, MON_DATA_PERSONALITY, &personality);
+
+                        // Update stats after personality value change
+                        CalculateMonStats(mon);
+
+                        // Optionally notify the player
+                        //BattleStringExpandPlaceholdersToDisplayedString(gText_Shiny1UpUsed);
+                       // BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG);
+                    }
+                    else
+                    {
+                        // Otherwise, mark the Pokémon as dead
+                        bool8 dead = TRUE;
+                        SetMonData(&gPlayerParty[gBattlerPartyIndexes[gActiveBattler]], MON_DATA_DEAD, &dead);
+                    }
                 }
+
                 gHitMarker |= HITMARKER_x400000;
                 if (gBattleResults.playerFaintCounter < 0xFF)
                     gBattleResults.playerFaintCounter++;
