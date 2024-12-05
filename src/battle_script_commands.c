@@ -3651,8 +3651,8 @@ static void Cmd_tryfaintmon(void)
                         // Otherwise, mark the Pokémon as dead
                         bool8 dead = TRUE;
                         SetMonData(&gPlayerParty[gBattlerPartyIndexes[gActiveBattler]], MON_DATA_DEAD, &dead);
-                    } */
-                }
+                    } 
+                }*/
 
                 gHitMarker |= HITMARKER_x400000;
                 if (gBattleResults.playerFaintCounter < 0xFF)
