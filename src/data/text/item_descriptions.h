@@ -6445,27 +6445,51 @@ static const u8 sKamikazeCharmDesc[] = _(
 
 static const u8 sFateCharmDesc[] = _(
     "Promotes added effects\n"
-    "for Opposing Pokémon.");
+    "for opposing Pokémon.");
 
 static const u8 sFrostproofCharmDesc[] = _(
-    "Prevents opposing\n"
+    "Prevents allied\n"
     "Pokémon from becoming\n"
     "Frozen");
 
 static const u8 sFireproofCharmDesc[] = _(
+    "Prevents allied\n"
+    "Pokémon from becoming\n"
+    "Burned");
+
+static const u8 sInsomniaCharmDesc[] = _(
+    "Prevents allied\n"
+    "Pokémon from becoming\n"
+    "put to sleep");
+
+static const u8 sStaticproofCharmDesc[] = _(
+    "Prevents allied\n"
+    "Pokémon from becoming\n"
+    "Paralyzed");
+
+static const u8 sChillproofCharmDesc[] = _(
+    "Prevents allied\n"
+    "Pokémon from becoming\n"
+    "Frozen");
+
+static const u8 sHeatshieldCharmDesc[] = _(
     "Prevents opposing\n"
     "Pokémon from becoming\n"
     "Burned");
+
+static const u8 sSurgewardCharmDesc[] = _(
+    "Prevents opposing\n"
+    "Pokémon from becoming\n"
+    "Paralyzed");
 
 static const u8 sInsomniaCharmDesc[] = _(
     "Prevents opposing\n"
     "Pokémon from becoming\n"
     "put to sleep");
 
-static const u8 sStaticproofCharmDesc[] = _(
-    "Prevents opposing\n"
-    "Pokémon from becoming\n"
-    "Paralyzed");
+static const u8 sAmplifyCharmDesc[] = _(
+    "Promotes added effects\n"
+    "for allied Pokémon.");
 
 
 #endif

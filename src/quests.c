@@ -362,7 +362,7 @@ static const u8 gText_SideQuestHint_00[] = _("Wait");
 #define side_quest(n, d, r, q, h, f) {.name = n, .desc = d, .reward = r, .reward_qty = q, .hint = h, .reward_flag = f}
 static const struct SideQuest sSideQuests[SIDE_QUEST_COUNT] =
 {
-    side_quest(gText_SideQuestName_1,  gText_SideQuestDesc_1,  ITEM_LUCKY_EGG		, 1, 	gText_SideQuestHint_1,  FLAG_ACHIEVEMENT_REWARD_01),
+    side_quest(gText_SideQuestName_1,  gText_SideQuestDesc_1,  ITEM_CHARM_VOUCHER		, 1, 	gText_SideQuestHint_1,  FLAG_ACHIEVEMENT_REWARD_01),
     side_quest(gText_SideQuestName_2,  gText_SideQuestDesc_2,  ITEM_DESTINY_KNOT	, 1, 	gText_SideQuestHint_2,  FLAG_ACHIEVEMENT_REWARD_02),
     side_quest(gText_SideQuestName_3,  gText_SideQuestDesc_3,  ITEM_POWER_CANDY		, 6, 	gText_SideQuestHint_3,  FLAG_ACHIEVEMENT_REWARD_03),
     side_quest(gText_SideQuestName_4,  gText_SideQuestDesc_4,  ITEM_SNEDDITE		, 1, 	gText_SideQuestHint_4,  FLAG_ACHIEVEMENT_REWARD_04),

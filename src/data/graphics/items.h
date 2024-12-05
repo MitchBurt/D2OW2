@@ -1747,3 +1747,18 @@ const u32 gItemIconPalette_InsomniaCharm[] = INCBIN_U32("graphics/items/icon_pal
 
 const u32 gItemIcon_StaticproofCharm[] = INCBIN_U32("graphics/items/icons/charms/staticproof_charm.4bpp.lz");
 const u32 gItemIconPalette_StaticproofCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/staticproof_charm.gbapal.lz");
+
+const u32 gItemIcon_ChillproofCharm[] = INCBIN_U32("graphics/items/icons/charms/chillproof_charm.4bpp.lz");
+const u32 gItemIconPalette_ChillproofCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/chillproof_charm.gbapal.lz");
+
+const u32 gItemIcon_HeatshieldCharm[] = INCBIN_U32("graphics/items/icons/charms/heatshield_charm.4bpp.lz");
+const u32 gItemIconPalette_HeatshieldCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/heatshield_charm.gbapal.lz");
+
+const u32 gItemIcon_SurgewardCharm[] = INCBIN_U32("graphics/items/icons/charms/surgeward_charm.4bpp.lz");
+const u32 gItemIconPalette_SurgewardCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/surgeward_charm.gbapal.lz");
+
+const u32 gItemIcon_SlumberlessCharm[] = INCBIN_U32("graphics/items/icons/charms/slumberless_charm.4bpp.lz");
+const u32 gItemIconPalette_SlumberlessCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/slumberless_charm.gbapal.lz");
+
+const u32 gItemIcon_AmplifyCharm[] = INCBIN_U32("graphics/items/icons/charms/amplify_charm.4bpp.lz");
+const u32 gItemIconPalette_AmplifyCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/amplify_charm.gbapal.lz");

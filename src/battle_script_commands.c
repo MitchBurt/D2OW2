@@ -2645,6 +2645,14 @@ void SetMoveEffect(bool32 primary, u32 certain)
                 || IsAbilityOnSide(gEffectBattler, ABILITY_SWEET_VEIL)
                 || IsAbilityStatusProtected(gEffectBattler))
                 break;
+            if(CheckBagHasItem(ITEM_INSOMNIA_CHARM, 1) && GetBattlerSide(gEffectBattler) == B_SIDE_PLAYER)
+            {
+                break;
+            }
+            if(CheckBagHasItem(ITEM_SLEEPLESS_CHARM, 1) && GetBattlerSide(gEffectBattler) == B_SIDE_OPPONENT)
+            {
+                break;
+            }
 
             CancelMultiTurnMoves(gEffectBattler);
             statusChanged = TRUE;
@@ -2659,7 +2667,7 @@ void SetMoveEffect(bool32 primary, u32 certain)
              if (GetBattlerAbility(gEffectBattler) == ABILITY_COMATOSE
                 || IS_BATTLER_OF_TYPE(gEffectBattler, TYPE_ALCOHOL)
                 || IsAbilityStatusProtected(gEffectBattler))
-                break; 
+                break;
             CancelMultiTurnMoves(gEffectBattler);
             statusChanged = TRUE;
             break;
@@ -2734,6 +2742,14 @@ void SetMoveEffect(bool32 primary, u32 certain)
                 break;
             if (gBattleMons[gEffectBattler].status1)
                 break;
+            if(CheckBagHasItem(ITEM_FIREPROOF_CHARM, 1) && GetBattlerSide(gEffectBattler) == B_SIDE_PLAYER)
+            {
+                break;
+            }
+            if(CheckBagHasItem(ITEM_HEATSHIELD_CHARM, 1) && GetBattlerSide(gEffectBattler) == B_SIDE_OPPONENT)
+            {
+                break;
+            }
 
             statusChanged = TRUE;
             break;
@@ -2750,6 +2766,14 @@ void SetMoveEffect(bool32 primary, u32 certain)
                 || GetBattlerAbility(gEffectBattler) == ABILITY_COMATOSE
                 || IsAbilityStatusProtected(gEffectBattler))
                 break;
+            if(CheckBagHasItem(ITEM_FROSTPROOF_CHARM, 1) && GetBattlerSide(gEffectBattler) == B_SIDE_PLAYER)
+            {
+                break;
+            }
+            if(CheckBagHasItem(ITEM_CHILLPROOF_CHARM, 1) && GetBattlerSide(gEffectBattler) == B_SIDE_OPPONENT)
+            {
+                break;
+            }
 
             CancelMultiTurnMoves(gEffectBattler);
             statusChanged = TRUE;
@@ -2797,6 +2821,15 @@ void SetMoveEffect(bool32 primary, u32 certain)
                 break;
             if (gBattleMons[gEffectBattler].status1)
                 break;
+        
+            if(CheckBagHasItem(ITEM_STATICPROOF_CHARM, 1) && GetBattlerSide(gEffectBattler) == B_SIDE_PLAYER)
+            {
+                break;
+            }
+            if(CheckBagHasItem(ITEM_SURGEWARD_CHARM, 1) && GetBattlerSide(gEffectBattler) == B_SIDE_OPPONENT)
+            {
+                break;
+            }
 
             statusChanged = TRUE;
             break;
@@ -3488,6 +3521,10 @@ static void Cmd_seteffectwithchance(void)
 	else if (GetBattlerAbility(gBattlerAttacker) == ABILITY_LUCKY_BOOST)
         percentChance = percentChance * 1.5;
     if(CheckBagHasItem(ITEM_FATE_CHARM, 1) && GetBattlerSide(gBattlerAttacker) == B_SIDE_OPPONENT)
+    {
+        percentChance = percentChance * 2;
+    }
+    if(CheckBagHasItem(ITEM_AMPLIFY_CHARM, 1) && GetBattlerSide(gBattlerAttacker) == B_SIDE_PLAYER)
     {
         percentChance = percentChance * 2;
     }

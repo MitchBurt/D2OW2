@@ -9750,4 +9750,20 @@ extern const u32 gItemIconPalette_InsomniaCharm[];
 extern const u32 gItemIcon_StaticproofCharm[];
 extern const u32 gItemIconPalette_StaticproofCharm[];
 
+extern const u32 gItemIcon_ChillproofCharm[];
+extern const u32 gItemIconPalette_ChillproofCharm[];
+
+extern const u32 gItemIcon_HeatshieldCharm[];
+extern const u32 gItemIconPalette_HeatshieldCharm[];
+
+extern const u32 gItemIcon_SurgewardCharm[];
+extern const u32 gItemIconPalette_SurgewardCharm[];
+
+extern const u32 gItemIcon_SlumberlessCharm[];
+extern const u32 gItemIconPalette_SlumberlessCharm[];
+
+extern const u32 gItemIcon_AmplifyCharm[];
+extern const u32 gItemIconPalette_AmplifyCharm[];
+
+
 #endif //GUARD_GRAPHICS_H

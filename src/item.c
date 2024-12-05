@@ -349,6 +349,11 @@ static void AddGoodCharm(void)
         ITEM_SCOPE_CHARM,
         ITEM_MOMENTUM_CHARM,
         ITEM_UNITY_CHARM,
+        ITEM_FROSTPROOF_CHARM,
+        ITEM_FIREPROOF_CHARM,
+        ITEM_STATICPROOF_CHARM,
+        ITEM_INSOMNIA_CHARM,
+        ITEM_AMPLIFY_CHARM,
 	};
 
     if (CheckBagHasItem(sGoodCharms[rand], 1)){
@@ -407,6 +412,7 @@ static void AddBadCharm(void)
         ITEM_SOFT_CHARM,
         ITEM_KAMIKAZE_CHARM,
         ITEM_FATE_CHARM,
+
 	};
     u16 sBlackCharms[] = { 
 		ITEM_INVERSE_CHARM,

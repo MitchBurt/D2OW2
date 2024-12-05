@@ -12090,5 +12090,71 @@ const struct Item gItems[] =
         .secondaryId = 0,
     },
 
+        [ITEM_CHILLPROOF_CHARM] =
+    {
+        .name = _("Chillproof Charm"),
+        .itemId = ITEM_CHILLPROOF_CHARM,
+        .price = 0,
+        .importance = 1,
+        .description = sChillproofCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_HEATSHIELD_CHARM] =
+    {
+        .name = _("Heatshield Charm"),
+        .itemId = ITEM_HEATSHIELD_CHARM,
+        .price = 0,
+        .importance = 1,
+        .description = sHeatshieldCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_SURGEWARD_CHARM] =
+    {
+        .name = _("Surgeward Charm"),
+        .itemId = ITEM_SURGEWARD_CHARM,
+        .price = 0,
+        .importance = 1,
+        .description = sSurgewardCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_SLUMBERLESS_CHARM] =
+    {
+        .name = _("Slumberless Charm"),
+        .itemId = ITEM_SLUMBERLESS_CHARM,
+        .price = 0,
+        .importance = 1,
+        .description = sSlumberlessCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+    [ITEM_AMPLIFY_CHARM] =
+    {
+        .name = _("Amplify Charm"),
+        .itemId = ITEM_AMPLIFY_CHARM,
+        .price = 0,
+        .importance = 1,
+        .description = sAmplifyCharmDesc,
+        .pocket = POCKET_CHARMS,
+        .type = 4,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .secondaryId = 0,
+    },
+
+
 
 };
