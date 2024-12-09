@@ -3633,25 +3633,25 @@ static void Cmd_tryfaintmon(void)
                     struct Pokemon *mon = &gPlayerParty[gBattlerPartyIndexes[gActiveBattler]];
                     if (IsMonShiny(mon))
                     {
-                        // Retrieve Pokémon data
+                        // Retrieve existing data
                         u32 personality = GetMonData(mon, MON_DATA_PERSONALITY);
                         u32 otId = GetMonData(mon, MON_DATA_OT_ID);
+                        u8 nature = GetNatureFromPersonality(personality);
 
-                        // Modify personality value to break shiny status
-                        // Shiny formula: ((Trainer ID XOR Secret ID) XOR (High 16 of Personality XOR Low 16 of Personality)) < 16
-                        // Adjust personality to ensure shiny formula no longer satisfies
-                        do {
-                            personality++;
-                        } while ((((HIHALF(otId) ^ LOHALF(otId)) ^ (HIHALF(personality) ^ LOHALF(personality))) < 16));
+                        // Modify personality to break shiny condition
+                        do
+                        {
+                            personality += 0x10000; // Increment high 16 bits in a controlled manner
+                        } while ((((HIHALF(otId) ^ LOHALF(otId)) ^ (HIHALF(personality) ^ LOHALF(personality))) < 16)
+                                || GetNatureFromPersonality(personality) != nature);
 
-                        // Apply updated personality
+                        // Apply modified personality value
                         SetMonData(mon, MON_DATA_PERSONALITY, &personality);
 
                         // Recalculate stats after personality value change
                         CalculateMonStats(mon);
 
-                        // Notify player about shiny removal
-                        // (Optional, uncomment if desired)
+                        // Notify the player
                         // BattleStringExpandPlaceholdersToDisplayedString(gText_Shiny1UpUsed);
                         // BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG);
                     }
@@ -3659,7 +3659,7 @@ static void Cmd_tryfaintmon(void)
                     {
                         // Mark the Pokémon as dead
                         bool8 dead = TRUE;
-                        SetMonData(mon, MON_DATA_DEAD, &dead);
+                        SetMonData(&gPlayerParty[gBattlerPartyIndexes[gActiveBattler]], MON_DATA_DEAD, &dead);
                     }
                 }
 
