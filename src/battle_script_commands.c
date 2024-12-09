@@ -3661,6 +3661,7 @@ static void Cmd_tryfaintmon(void)
                         bool8 dead = TRUE;
                         SetMonData(mon, MON_DATA_DEAD, &dead);
                     }
+                }
 
 
                 gHitMarker |= HITMARKER_x400000;
