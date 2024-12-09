@@ -3636,11 +3636,11 @@ static void Cmd_tryfaintmon(void)
                         struct BoxPokemon clonedMon;
                         struct Pokemon *originalMon = mon;
 
-                        // Clone the original Pokémon into a Box Pokémon structure
-                        BoxMonToMon(mon, &clonedMon);
+                        // Convert the active Pokémon into a Box Pokémon
+                        MonToBoxMon(originalMon, &clonedMon);
 
                         // Get OT ID and personality from the original Pokémon
-                        u32 otId = GetBoxMonData(&clonedMon, MON_DATA_OT_ID, NULL);
+                        u32 otId = GetMonData(originalMon, MON_DATA_OT_ID, NULL);
                         u32 personality = GetBoxMonData(&clonedMon, MON_DATA_PERSONALITY, NULL);
 
                         // Adjust personality value to remove shiny status while preserving nature
@@ -3675,7 +3675,6 @@ static void Cmd_tryfaintmon(void)
                         bool8 dead = TRUE;
                         SetMonData(&gPlayerParty[gBattlerPartyIndexes[gActiveBattler]], MON_DATA_DEAD, &dead);
                     }
-
 
                 }
 
