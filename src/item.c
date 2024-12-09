@@ -333,14 +333,14 @@ static void SetTmHmOwned(u16 itemId)
 
 static void AddGoodCharm(void)
 {
-    u8 i = 0;
+    //u8 i = 0;
 	u8 rand = Random() % 6;
     u16 sGoodCharms[] = {
 		ITEM_OVAL_CHARM,
 		ITEM_CATCHING_CHARM,
 		ITEM_SHINY_CHARM,
 		ITEM_EXP_CHARM,
-        //ITEM_TOTEM_CHARM,
+        ITEM_TOTEM_CHARM,
         ITEM_FORTUNE_CHARM,
         //ITEM_ORACLE_CHARM,
         ITEM_ENERGIZER_CHARM,
@@ -356,13 +356,39 @@ static void AddGoodCharm(void)
         ITEM_AMPLIFY_CHARM,
 	};
 
-    if (CheckBagHasItem(sGoodCharms[rand], 1)){
+    u16 sNormalModeCharms[] = {
+		ITEM_OVAL_CHARM,
+		ITEM_CATCHING_CHARM,
+		ITEM_SHINY_CHARM,
+		ITEM_EXP_CHARM,
+	};
+
+    if(FlagGet(FLAG_NUZLOCKE) == TRUE)
+    {
+        if (CheckBagHasItem(sGoodCharms[rand], 1)){
         AddGoodCharm();
+        }
+        else{
+            AddBagItem(sGoodCharms[rand], 1);
+            RemoveBagItem(ITEM_GOOD_OMEN, 1);
+        }
     }
     else{
-        AddBagItem(sGoodCharms[rand], 1);
+        // Check for sequential items in normal mode
+        for (u8 i = 0; i < ARRAY_COUNT(sNormalModeCharms); i++)
+        {
+            if (!CheckBagHasItem(sNormalModeCharms[i], 1))
+            {
+                AddBagItem(sNormalModeCharms[i], 1); // Add the next item in order
+                RemoveBagItem(ITEM_GOOD_OMEN, 1);
+                return; // Exit once an item is successfully added
+            }
+        }
+
+        // If all items are already owned
         RemoveBagItem(ITEM_GOOD_OMEN, 1);
     }
+
 }
 
 static void AddBadCharm(void)
@@ -480,7 +506,7 @@ bool8 AddBagItem(u16 itemId, u16 count)
         AddBadCharm();
         return FALSE;
     }
-    else if (itemId == ITEM_GOOD_OMEN && FlagGet(FLAG_NUZLOCKE)){
+    else if (itemId == ITEM_GOOD_OMEN){
         AddGoodCharm();
         return FALSE;
     }

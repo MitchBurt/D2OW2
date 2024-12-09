@@ -916,11 +916,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpeed     = 65,
         .baseSpAttack  = 50,
         .baseSpDefense = 85,
-        #if P_UPDATED_STATS >= GEN_6
-            .baseAttack    = 130,
-        #else
-            .baseAttack    = 120,
-        #endif
+        .baseAttack    = 130,
         .type1 = TYPE_GROUND,
         .type2 = TYPE_FIGHTING,
         .catchRate = 45,
