@@ -442,8 +442,9 @@ u8 getTrainerPokemonNum(){
 
 u8 getLeaderPokemonNum(){
 	u8 NewGamePlusCount = VarGet(VAR_NEW_GAME_PLUS_COUNT);
-	u8 PartySize = GetPlayerUsableMons();
-
+	//u8 PartySize = GetPlayerUsableMons();
+	u8 PartySize = 6;
+	
 	if(FlagGet(FLAG_NEW_GAME_PLUS) && LEVEL_SCALING_FOR_TRAINERS){
 		if(FlagGet(FLAG_HARD_MODE)){
 			if(PartySize > Hard_Mode_Boss_Pokemon_Number[GetNumBadges()])

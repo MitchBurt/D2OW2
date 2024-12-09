@@ -1835,7 +1835,7 @@ static const struct TrainerMonItemCustomMoves sParty_Parker[] = {
     .postgameheldItem = ITEM_NONE,
     .heldItem = ITEM_NONE,
     .postgamemoves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE},
-    .moves = {MOVE_FAKE_OUT, MOVE_CONFUSE_RAY, MOVE_SHOT, MOVE_NONE},
+    .moves = {MOVE_SHOT, MOVE_NONE, MOVE_NONE, MOVE_NONE},
     },
     {
     .iv = 255,
