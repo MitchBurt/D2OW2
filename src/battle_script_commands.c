@@ -3632,35 +3632,50 @@ static void Cmd_tryfaintmon(void)
                 {
                     struct Pokemon *mon = &gPlayerParty[gBattlerPartyIndexes[gActiveBattler]];
                     if (IsMonShiny(mon))
-                {
-                    // Retrieve existing data
-                    u32 personality = GetMonData(mon, MON_DATA_PERSONALITY);
-                    u32 otId = GetMonData(mon, MON_DATA_OT_ID);
-
-                    // Modify personality to break shiny condition
-                    u16 shinyXor = (HIHALF(otId) ^ LOHALF(otId)) ^ (HIHALF(personality) ^ LOHALF(personality));
-                    if (shinyXor < 16)
                     {
-                        // Increment by 0x10000 (high bits) to break shiny calculation
-                        personality += 0x10000;
+                        struct BoxPokemon clonedMon;
+                        struct Pokemon *originalMon = mon;
+
+                        // Clone the original Pokémon into a Box Pokémon structure
+                        BoxMonToMon(mon, &clonedMon);
+
+                        // Get OT ID and personality from the original Pokémon
+                        u32 otId = GetBoxMonData(&clonedMon, MON_DATA_OT_ID, NULL);
+                        u32 personality = GetBoxMonData(&clonedMon, MON_DATA_PERSONALITY, NULL);
+
+                        // Adjust personality value to remove shiny status while preserving nature
+                        u8 nature = GetNatureFromPersonality(personality);
+                        do
+                        {
+                            personality += 0x10000; // Increment high 16 bits
+                        } while ((((HIHALF(otId) ^ LOHALF(otId)) ^ (HIHALF(personality) ^ LOHALF(personality))) < 16)
+                                || GetNatureFromPersonality(personality) != nature);
+
+                        // Update the personality value of the clone
+                        SetBoxMonData(&clonedMon, MON_DATA_PERSONALITY, &personality);
+
+                        // Recalculate stats for the clone
+                        CalculateBoxMonStats(&clonedMon);
+
+                        // Send the clone to the PC
+                        if (SendMonToPC(&clonedMon) == 0) // 0 indicates successful transfer
+                        {
+                            // Optionally notify the player
+                            BattleStringExpandPlaceholdersToDisplayedString(gText_Shiny1UpUsed);
+                            BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG);
+                        }
+
+                        // Optionally mark the original Pokémon as dead (if needed)
+                        bool8 dead = TRUE;
+                        SetMonData(originalMon, MON_DATA_DEAD, &dead);
+                    }
+                    else
+                    {
+                        // If not shiny, mark the Pokémon as dead
+                        bool8 dead = TRUE;
+                        SetMonData(&gPlayerParty[gBattlerPartyIndexes[gActiveBattler]], MON_DATA_DEAD, &dead);
                     }
 
-                    // Reapply personality to the Pokémon
-                    SetMonData(mon, MON_DATA_PERSONALITY, &personality);
-
-                    // Recalculate stats to ensure correct propagation
-                    CalculateMonStats(mon);
-
-                    // Optionally notify the player
-                    // BattleStringExpandPlaceholdersToDisplayedString(gText_Shiny1UpUsed);
-                    // BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG);
-                }
-                else
-                {
-                    // Mark the Pokémon as dead
-                    bool8 dead = TRUE;
-                    SetMonData(mon, MON_DATA_DEAD, &dead);
-                }
 
                 }
 
