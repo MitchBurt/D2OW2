@@ -3628,31 +3628,40 @@ static void Cmd_tryfaintmon(void)
                 } 
 
                 // Nuzlocke
-/*                 if (FlagGet(FLAG_NUZLOCKE))
+                if (FlagGet(FLAG_NUZLOCKE))
                 {
-                    struct Pokemon *mon = &gPlayerParty[gBattlerPartyIndexes[gActiveBattler]];
-
                     if (IsMonShiny(mon))
                     {
-                        // If the Pokémon is shiny, modify its personality value to remove shiny status
+                        // Retrieve Pokémon data
                         u32 personality = GetMonData(mon, MON_DATA_PERSONALITY);
-                        personality ^= 0x1; // Flip a bit to break shiny calculation
+                        u32 otId = GetMonData(mon, MON_DATA_OT_ID);
+
+                        // Modify personality value to break shiny status
+                        // Shiny formula: ((Trainer ID XOR Secret ID) XOR (High 16 of Personality XOR Low 16 of Personality)) < 16
+                        // Adjust personality to ensure shiny formula no longer satisfies
+                        do {
+                            personality++;
+                        } while ((((HIHALF(otId) ^ LOHALF(otId)) ^ (HIHALF(personality) ^ LOHALF(personality))) < 16));
+
+                        // Apply updated personality
                         SetMonData(mon, MON_DATA_PERSONALITY, &personality);
 
-                        // Update stats after personality value change
+                        // Recalculate stats after personality value change
                         CalculateMonStats(mon);
 
-                        // Optionally notify the player
-                        //BattleStringExpandPlaceholdersToDisplayedString(gText_Shiny1UpUsed);
-                       // BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG);
+                        // Notify player about shiny removal
+                        // (Optional, uncomment if desired)
+                        // BattleStringExpandPlaceholdersToDisplayedString(gText_Shiny1UpUsed);
+                        // BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG);
                     }
                     else
                     {
-                        // Otherwise, mark the Pokémon as dead
+                        // Mark the Pokémon as dead
                         bool8 dead = TRUE;
-                        SetMonData(&gPlayerParty[gBattlerPartyIndexes[gActiveBattler]], MON_DATA_DEAD, &dead);
-                    } 
-                }*/
+                        SetMonData(mon, MON_DATA_DEAD, &dead);
+                    }
+                }
+
 
                 gHitMarker |= HITMARKER_x400000;
                 if (gBattleResults.playerFaintCounter < 0xFF)

@@ -375,7 +375,7 @@ static void AddGoodCharm(void)
     }
     else{
         // Check for sequential items in normal mode
-        for (u8 i = 0; i < ARRAY_COUNT(sNormalModeCharms); i++)
+        for (i = 0; i < ARRAY_COUNT(sNormalModeCharms); i++)
         {
             if (!CheckBagHasItem(sNormalModeCharms[i], 1))
             {
