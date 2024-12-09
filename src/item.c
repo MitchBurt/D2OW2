@@ -333,7 +333,7 @@ static void SetTmHmOwned(u16 itemId)
 
 static void AddGoodCharm(void)
 {
-    //u8 i = 0;
+    u8 i = 0;
 	u8 rand = Random() % 6;
     u16 sGoodCharms[] = {
 		ITEM_OVAL_CHARM,
