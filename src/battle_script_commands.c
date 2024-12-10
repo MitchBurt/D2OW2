@@ -3628,56 +3628,31 @@ static void Cmd_tryfaintmon(void)
                 } 
 
                 // Nuzlocke
-                if (FlagGet(FLAG_NUZLOCKE))
+/*                 if (FlagGet(FLAG_NUZLOCKE))
                 {
                     struct Pokemon *mon = &gPlayerParty[gBattlerPartyIndexes[gActiveBattler]];
+
                     if (IsMonShiny(mon))
                     {
-                        struct BoxPokemon clonedMon;
-                        struct Pokemon *originalMon = mon;
+                        // If the Pokémon is shiny, modify its personality value to remove shiny status
+                        u32 personality = GetMonData(mon, MON_DATA_PERSONALITY);
+                        personality ^= 0x1; // Flip a bit to break shiny calculation
+                        SetMonData(mon, MON_DATA_PERSONALITY, &personality);
 
-                        // Convert the active Pokémon into a Box Pokémon
-                        MonToBoxMon(originalMon, &clonedMon);
+                        // Update stats after personality value change
+                        CalculateMonStats(mon);
 
-                        // Get OT ID and personality from the original Pokémon
-                        u32 otId = GetMonData(originalMon, MON_DATA_OT_ID, NULL);
-                        u32 personality = GetBoxMonData(&clonedMon, MON_DATA_PERSONALITY, NULL);
-
-                        // Adjust personality value to remove shiny status while preserving nature
-                        u8 nature = GetNatureFromPersonality(personality);
-                        do
-                        {
-                            personality += 0x10000; // Increment high 16 bits
-                        } while ((((HIHALF(otId) ^ LOHALF(otId)) ^ (HIHALF(personality) ^ LOHALF(personality))) < 16)
-                                || GetNatureFromPersonality(personality) != nature);
-
-                        // Update the personality value of the clone
-                        SetBoxMonData(&clonedMon, MON_DATA_PERSONALITY, &personality);
-
-                        // Recalculate stats for the clone
-                        CalculateBoxMonStats(&clonedMon);
-
-                        // Send the clone to the PC
-                        if (SendMonToPC(&clonedMon) == 0) // 0 indicates successful transfer
-                        {
-                            // Optionally notify the player
-                            BattleStringExpandPlaceholdersToDisplayedString(gText_Shiny1UpUsed);
-                            BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG);
-                        }
-
-                        // Optionally mark the original Pokémon as dead (if needed)
-                        bool8 dead = TRUE;
-                        SetMonData(originalMon, MON_DATA_DEAD, &dead);
+                        // Optionally notify the player
+                        //BattleStringExpandPlaceholdersToDisplayedString(gText_Shiny1UpUsed);
+                       // BattlePutTextOnWindow(gDisplayedStringBattle, B_WIN_MSG);
                     }
                     else
                     {
-                        // If not shiny, mark the Pokémon as dead
+                        // Otherwise, mark the Pokémon as dead
                         bool8 dead = TRUE;
                         SetMonData(&gPlayerParty[gBattlerPartyIndexes[gActiveBattler]], MON_DATA_DEAD, &dead);
-                    }
-
-                }
-
+                    } 
+                }*/
 
                 gHitMarker |= HITMARKER_x400000;
                 if (gBattleResults.playerFaintCounter < 0xFF)
