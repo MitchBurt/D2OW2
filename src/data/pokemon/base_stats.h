@@ -4261,7 +4261,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 115,
         .baseSpDefense = 70,
         .type1 = TYPE_NORMAL,
-        .type2 = TYPE_NORMAL,
+        .type2 = TYPE_PSYCHIC,
         .catchRate = 45,
         .expYield = 142,
         .evYield_Speed     = 1,
@@ -8852,7 +8852,7 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_COMETIDE] =
     {
         .baseHP        = 50,
-        .baseAttack    = 70,
+        .baseAttack    = 100,
         .baseDefense   = 50,
         .baseSpeed     = 70,
         .baseSpAttack  = 50,
