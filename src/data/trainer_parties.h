@@ -6792,7 +6792,7 @@ static const struct TrainerMonItemCustomMoves sParty_Mason1[] = {
     .lvl = 5,
 	.ivs = {31, 31, 31, 31, 31, 31}, 
     .evs = {0, 252, 6, 0, 0, 252}, 
-    .abilityNum = 2,
+    .abilityNum = 0,
     .happiness = 252,
     .species = SPECIES_ALIEN,
     .postgameheldItem = ITEM_LEFTOVERS,
@@ -6822,9 +6822,9 @@ static const struct TrainerMonItemCustomMoves sParty_Mason1[] = {
     .happiness = 252,
     .species = SPECIES_BADDERY,
     .postgameheldItem = ITEM_CHOICE_SPECS,
-    .heldItem = ITEM_ZAP_PLATE,
+    .heldItem = ITEM_NONE,
     .postgamemoves = {MOVE_DISCHARGE, MOVE_SHADOW_BALL, MOVE_GUNK_SHOT, MOVE_HIDDEN_POWER},
-    .moves = {MOVE_DISCHARGE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_SHOCK_WAVE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 255,
