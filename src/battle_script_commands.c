@@ -9774,7 +9774,7 @@ static void Cmd_setmultihitcounter(void)
         {
             gMultiHitCounter = 5;
         }
-        if(CheckBagHasItem(ITEM_SKILLED_CHARM, 1) && GetBattlerSide(gBattlerAttacker) == B_SIDE_OPPONENT)
+        else if(CheckBagHasItem(ITEM_SKILLED_CHARM, 1) && GetBattlerSide(gBattlerAttacker) == B_SIDE_OPPONENT)
         {
            gMultiHitCounter = 5; 
         }
