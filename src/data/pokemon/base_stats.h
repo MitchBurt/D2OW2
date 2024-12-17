@@ -39050,7 +39050,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .eggGroup2 = EGG_GROUP_BUG,
         .abilities = {ABILITY_SWARM, ABILITY_NONE},
         #ifdef BATTLE_ENGINE
-            .abilityHidden = ABILITY_TELEPATHY,
+            .abilityHidden = ABILITY_FLAME_BODY,
         #endif
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
@@ -39077,7 +39077,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .eggGroup1 = EGG_GROUP_BUG,
         .eggGroup2 = EGG_GROUP_BUG,
         .abilities = {ABILITY_SWARM, ABILITY_NONE},
-        .abilityHidden = ABILITY_OPPOSITE_DAY,
+        .abilityHidden = ABILITY_FLAME_BODY,
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
     },
@@ -39104,7 +39104,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .eggGroup2 = EGG_GROUP_MONSTER,
         .abilities = {ABILITY_SWARM, ABILITY_SHEER_FORCE},
         #ifdef BATTLE_ENGINE
-            .abilityHidden = ABILITY_STAKEOUT,
+            .abilityHidden = ABILITY_FLAME_BODY,
         #endif
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
