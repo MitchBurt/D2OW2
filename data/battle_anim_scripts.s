@@ -13370,7 +13370,7 @@ Move_FOOD_FIGHT::
 	goto Move_NATURAL_GIFT
 
 Move_DOUGH_ROLL::
-	goto Move_ICE_BALL
+	goto Move_ROLLOUT
 
 Move_SAVORY_SURGE::
 	goto Move_AROMATHERAPY

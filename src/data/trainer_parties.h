@@ -1041,7 +1041,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Foster[] = {
     .evs = {0, 0, 0, 0, 0, 0}, 
     .abilityNum = 3,
     .happiness = 0,
-    .species = SPECIES_CRANIDOS,
+    .species = SPECIES_ODOSAUR,
     },
 	{
     .iv = 100,

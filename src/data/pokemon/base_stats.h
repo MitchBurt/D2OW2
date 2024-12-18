@@ -7096,12 +7096,8 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
-        #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_INTIMIDATE, ABILITY_PRANKSTER},
-            .abilityHidden = ABILITY_MOXIE,
-        #else
-            .abilities = {ABILITY_INTIMIDATE, ABILITY_NONE},
-        #endif
+        .abilities = {ABILITY_INTIMIDATE, ABILITY_PRANKSTER},
+        .abilityHidden = ABILITY_SHARPNESS,
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
     },
@@ -7127,12 +7123,8 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
-        #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_PICKUP, ABILITY_PRANKSTER},
-            .abilityHidden = ABILITY_QUICK_FEET,
-        #else
-            .abilities = {ABILITY_PICKUP, ABILITY_NONE},
-        #endif
+        .abilities = {ABILITY_INTIMIDATE, ABILITY_PRANKSTER},
+        .abilityHidden = ABILITY_SHARPNESS,
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
     },
@@ -7158,12 +7150,8 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
-        #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_SCRAPPY, ABILITY_GLUTTONY},
-            .abilityHidden = ABILITY_QUICK_FEET,
-        #else
-            .abilities = {ABILITY_PICKUP, ABILITY_NONE},
-        #endif
+        .abilities = {ABILITY_SCRAPPY, ABILITY_GLUTTONY},
+        .abilityHidden = ABILITY_WIND_RIDER,
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
     },
@@ -7190,7 +7178,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_BUG,
         .eggGroup2 = EGG_GROUP_BUG,
         .abilities = {ABILITY_SCRAPPY, ABILITY_GLUTTONY},
-        .abilityHidden = ABILITY_QUICK_FEET,
+        .abilityHidden = ABILITY_WIND_RIDER,
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
     },
@@ -37916,7 +37904,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .baseSpDefense = 35,
         .type1 = TYPE_FAIRY,
         .type2 = TYPE_FAIRY,
-        .catchRate = 45,
+        .catchRate = 120,
         .expYield = 239,
         .evYield_Attack    = 2,
         .evYield_Defense   = 1,
@@ -37944,7 +37932,7 @@ const struct BaseStats gVanillaBaseStats[] =
         .baseSpDefense = 135,
         .type1 = TYPE_FAIRY,
         .type2 = TYPE_FAIRY,
-        .catchRate = 255,
+        .catchRate = 45,
         .expYield = 43,
         .evYield_Attack    = 1,
         .item2 = ITEM_ORAN_BERRY,

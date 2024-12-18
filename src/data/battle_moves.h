@@ -8182,11 +8182,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_SACRED_SWORD] =
     {
-        #if B_UPDATED_MOVE_DATA >= GEN_6
-            .pp = 15,
-        #else
-            .pp = 20,
-        #endif
+        .pp = 15,
         .effect = EFFECT_HIT,
         .power = 90,
         .type = TYPE_FIGHTING,
@@ -12226,6 +12222,28 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .variable = 100,
         .modification2 = SIGNATURE_MOD_TYPE,
         .variable2 = TYPE_COSMIC,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+
+    [SPECIES_ZEPURRINE] =
+    {
+        .move = MOVE_AIR_SLASH,
+        .modification = SIGNATURE_MOD_POWER,
+        .variable = 100,
+        .modification2 = SIGNATURE_MOD_ACCURACY,
+        .variable2 = 100,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+
+    [SPECIES_MEOWRRIOR] =
+    {
+        .move = MOVE_SACRED_SWORD,
+        .modification = SIGNATURE_MOD_POWER,
+        .variable = 100,
+        .modification2 = SIGNATURE_MOD_TYPE,
+        .variable2 = TYPE_DARK,
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
