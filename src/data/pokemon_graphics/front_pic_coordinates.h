@@ -918,7 +918,7 @@ const struct MonCoords gMonFrontPicCoords[] =
     [SPECIES_SEAKUSH] =
     {
         .size = 0x65,
-        .y_offset = 12,
+        .y_offset = 3,
     },
     [SPECIES_BARIREEFER] =
     {

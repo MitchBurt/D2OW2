@@ -11998,10 +11998,10 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
     [SPECIES_TOASTRIDER] =
     {
         .move = MOVE_FLAME_WHEEL,
-        .modification = SIGNATURE_MOD_SECOND_TYPE,
-        .variable = TYPE_GHOST,
-        .modification2 = SIGNATURE_MOD_POWER,
-        .variable2 = 80,
+        //.modification = SIGNATURE_MOD_SECOND_TYPE,
+        //.variable = TYPE_GHOST,
+        .modification = SIGNATURE_MOD_POWER,
+        .variable = 80,
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
@@ -12230,7 +12230,7 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
     {
         .move = MOVE_AIR_SLASH,
         .modification = SIGNATURE_MOD_POWER,
-        .variable = 100,
+        .variable = 90,
         .modification2 = SIGNATURE_MOD_ACCURACY,
         .variable2 = 100,
         .differentDescription = FALSE,

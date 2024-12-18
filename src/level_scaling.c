@@ -511,7 +511,7 @@ u16 GetWildPokemon(u16 basespecies, u8 level, u16 heldItem){
 	u8 BadgesMidgame = 5;
 	u8 BadgesLategame = 7;
 	
- 	if(basespecies == SPECIES_GOLBNAR || basespecies == SPECIES_DNDICE || basespecies == SPECIES_SMITNION)
+ 	if(basespecies == SPECIES_GOLBNAR || basespecies == SPECIES_DNDICE || basespecies == SPECIES_SMITNION || basespecies == SPECIES_SHAWT || basespecies == SPECIES_ALCOO)
 		return basespecies;
 	else if(FlagGet(FLAG_RANDOMIZED_MODE) && !FlagGet(FLAG_FULL_RANDOMIZED_MODE) && IsPokemonValid(GetRandomFirstStage(basespecies)))
 		return GetRandomizedWildPokemon(GetRandomFirstStage(basespecies), level, heldItem);
@@ -553,7 +553,7 @@ u16 GetWildPokemon(u16 basespecies, u8 level, u16 heldItem){
 		case EVO_EXIOLITE:
 		case EVO_LEVEL_RAIN:
 		case EVO_LEVEL_DUSK:
-		case EVO_LEVEL_DARK_TYPE_MON_IN_PARTY:
+		//case EVO_LEVEL_DARK_TYPE_MON_IN_PARTY:
 		case EVO_LEVEL_SEVII:
 		case EVO_LEVEL_NOT_SEVII:
 			if(gEvolutionTable[split][0].param && gEvolutionTable[split][0].param <= level)
