@@ -7196,7 +7196,7 @@ const u8 gSortafurryPokedexText[] = _(
     "Okay this is sorta furry, like it could be.");
 
 const u8 gThatsfurryPokedexText[] = _(
-    "This is dengerously furry.");
+    "This is dangerously furry.");
 
 const u8 gSipkingPokedexText[] = _(
     "Take a sip.");
