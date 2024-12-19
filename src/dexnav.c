@@ -2624,7 +2624,7 @@ static void Task_DexNavMain(u8 taskId)
     {
         species = DexNavGetSpecies();
 		
-        if (species == SPECIES_NONE)
+        if (species == SPECIES_NONE || FlagGet(FLAG_NUZLOCKE))
         {
             PlaySE(SE_FAILURE);
         }
