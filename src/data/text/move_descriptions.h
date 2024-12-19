@@ -6745,4 +6745,5 @@ const u8 *const gMoveDescriptionPointers[MOVES_COUNT - 1] =
     [MOVE_GOURMET_SLAM - 1] = sGOURMET_SLAMDescription,  
     [MOVE_SWEET_DRIZZLE - 1] = sSWEET_DRIZZLEDescription,
     [MOVE_BATTER - 1] = sBATTERDescription,
+    [MOVE_SHOTGUN - 1] = sSHOTGUNDescription,
 };

@@ -825,7 +825,6 @@ script MossdeepCity_Gym_EventScript_TonyAndSal_New{
 		msgbox(format("Tony: Do you want to try battling them again?"), MSGBOX_YESNO)
 		if(var(VAR_RESULT) == 1){
 			cleartrainerflag(TRAINER_PRESTON)
-			cleartrainerflag(TRAINER_VIRGIL)
 			cleartrainerflag(TRAINER_BLAKE)
 			cleartrainerflag(TRAINER_HANNAH)
 			cleartrainerflag(TRAINER_SAMANTHA)
@@ -846,7 +845,7 @@ script MossdeepCity_Gym_EventScript_TonyAndSal_New{
 			msgbox(format("Sal: so we can battle again."), MSGBOX_NPC)
 		}
 	}
-	elif((!defeated(TRAINER_PRESTON) || !defeated(TRAINER_VIRGIL) || !defeated(TRAINER_BLAKE) || !defeated(TRAINER_HANNAH) || !defeated(TRAINER_SAMANTHA) || !defeated(TRAINER_MAURA) ||
+	elif((!defeated(TRAINER_PRESTON) || !defeated(TRAINER_BLAKE) || !defeated(TRAINER_HANNAH) || !defeated(TRAINER_SAMANTHA) || !defeated(TRAINER_MAURA) ||
 	      !defeated(TRAINER_NICHOLAS) || !defeated(TRAINER_MACEY) || !defeated(TRAINER_CLIFFORD) || !defeated(TRAINER_KATHLEEN) || !defeated(TRAINER_NATE) || !defeated(TRAINER_SYLVIA))
 		  && flag(FLAG_HARD_MODE)){
 		msgbox(format("Tony: You need to defeat every"), MSGBOX_NPC)

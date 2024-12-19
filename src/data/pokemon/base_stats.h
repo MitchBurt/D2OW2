@@ -8227,12 +8227,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_GALVATRON] =
     {
-        .baseHP        = 60,
-        .baseAttack    = 90,
-        .baseDefense   = 140,
-        .baseSpAttack  = 50,
-        .baseSpDefense = 50,
-        .baseSpeed     = 40,
+        .baseHP        = 99,
+        .baseAttack    = 110,
+        .baseDefense   = 91,
+        .baseSpeed     = 80,
+        .baseSpAttack  = 120,
+        .baseSpDefense = 99,
         .type1 = TYPE_STEEL,
         .type2 = TYPE_COSMIC,
         .catchRate = 90,
@@ -9234,7 +9234,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 50,
         .baseSpDefense = 65,
         .type1 = TYPE_GROUND,
-        .type2 = TYPE_GROUND,
+        .type2 = TYPE_DARK,
         .catchRate = 60,
         .expYield = 178,
         .evYield_Attack    = 2,
@@ -41772,12 +41772,12 @@ const struct BaseStats gVanillaBaseStats[] =
 
     [SPECIES_GALVATRON] =
     {
-        .baseHP        = 60,
-        .baseAttack    = 90,
-        .baseDefense   = 140,
-        .baseSpAttack  = 50,
-        .baseSpDefense = 50,
-        .baseSpeed     = 40,
+        .baseHP        = 99,
+        .baseAttack    = 110,
+        .baseDefense   = 91,
+        .baseSpeed     = 80,
+        .baseSpAttack  = 120,
+        .baseSpDefense = 99,
         .type1 = TYPE_STEEL,
         .type2 = TYPE_COSMIC,
         .catchRate = 90,
