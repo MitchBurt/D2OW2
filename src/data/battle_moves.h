@@ -12248,6 +12248,26 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .description = _("Default Description"),
     },
 
+    [SPECIES_GOTHOT] =
+    {
+        .move = MOVE_MOONBLAST,
+        .modification = SIGNATURE_MOD_TYPE,
+        .variable = TYPE_FAIRY,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+
+    [SPECIES_GOTHOT_MEGA] =
+    {
+        .move = MOVE_MOONBLAST,
+        .modification = SIGNATURE_MOD_TYPE,
+        .variable = TYPE_FAIRY,
+        .modification = SIGNATURE_MOD_PRIORITY,
+        .variable = SIGNATURE_PRIORITY_ALWAYS,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+
 
 /*[SPECIES_AWMANE_MEGA] =
     {

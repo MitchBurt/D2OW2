@@ -20318,7 +20318,7 @@ static const struct TrainerMonItemCustomMoves sParty_Tanner2[] = {
     .postgameheldItem = ITEM_ROCK_GEM,
     .heldItem = ITEM_ROCK_GEM,
     .postgamemoves = {MOVE_STEALTH_ROCK, MOVE_SUCKER_PUNCH, MOVE_SACRED_SWORD, MOVE_DARKEST_LARIAT},
-    .moves = {MOVE_STEALTH_ROCK, MOVE_SUCKER_PUNCH, MOVE_SACRED_SWORD, MOVE_DARKEST_LARIAT}
+    .moves = {MOVE_SUCKER_PUNCH, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 255,
@@ -20326,10 +20326,10 @@ static const struct TrainerMonItemCustomMoves sParty_Tanner2[] = {
 	.evs = {6, 252, 0, 0, 0, 252}, 
 	.abilityNum = 2,
 	.species = SPECIES_ZEPPUR,
-    .postgameheldItem = ITEM_DARK_GEM,
-    .heldItem = ITEM_SITRUS_BERRY,
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_LEFTOVERS,
     .postgamemoves = {MOVE_SPIKES, MOVE_DARK_PULSE, MOVE_ROOST, MOVE_AIR_SLASH},
-    .moves = {MOVE_SPIKES, MOVE_DARK_PULSE, MOVE_ROOST, MOVE_AIR_SLASH}
+    .moves = {MOVE_SPIKES, MOVE_AIR_SLASH, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 255,
@@ -20339,7 +20339,7 @@ static const struct TrainerMonItemCustomMoves sParty_Tanner2[] = {
     .postgameheldItem = ITEM_LEFTOVERS,
     .heldItem = ITEM_LEFTOVERS,
     .postgamemoves = {MOVE_SIZZLE_SLAM, MOVE_EARTHQUAKE, MOVE_TOXIC_SPIKES, MOVE_POISON_JAB},
-    .moves = {MOVE_SIZZLE_SLAM, MOVE_EARTHQUAKE, MOVE_TOXIC_SPIKES, MOVE_POISON_JAB}
+    .moves = {MOVE_SIZZLE_SLAM, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 255,
@@ -20351,19 +20351,19 @@ static const struct TrainerMonItemCustomMoves sParty_Tanner2[] = {
     .postgameheldItem = ITEM_ROCKY_HELMET,
     .heldItem = ITEM_ROCKY_HELMET,
     .postgamemoves = {MOVE_FLASH_CANNON, MOVE_COSMIC_POWER, MOVE_ICE_BEAM, MOVE_FLAMETHROWER},
-    .moves = {MOVE_FLASH_CANNON, MOVE_COSMIC_POWER, MOVE_ICE_BEAM, MOVE_FLAMETHROWER}
+    .moves = {MOVE_FLASH_CANNON, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 255,
     .lvl = 5,
 	.evs = {6, 252, 0, 0, 0, 252}, 
-    .abilityNum = 2,
+    .abilityNum = 1,
     .happiness = 255,
 	.species = SPECIES_TROLOLING,
     .postgameheldItem = ITEM_WEAKNESS_POLICY,
     .heldItem = ITEM_WEAKNESS_POLICY,
     .postgamemoves = {MOVE_TOXIC, MOVE_FOUL_PLAY, MOVE_PAIN_SPLIT, MOVE_DESTINY_BOND},
-    .moves = {MOVE_TOXIC, MOVE_FOUL_PLAY, MOVE_PAIN_SPLIT, MOVE_DESTINY_BOND}
+    .moves = {MOVE_TAUNT, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 200,
@@ -20375,7 +20375,7 @@ static const struct TrainerMonItemCustomMoves sParty_Tanner2[] = {
     .postgameheldItem = ITEM_GOTHOTITE,
     .heldItem = ITEM_GOTHOTITE,
     .postgamemoves = {MOVE_DARK_PULSE, MOVE_MOONLIGHT, MOVE_DAZZLING_GLEAM, MOVE_AURA_SPHERE},
-    .moves = {MOVE_DARK_PULSE, MOVE_MOONLIGHT, MOVE_DAZZLING_GLEAM, MOVE_AURA_SPHERE}
+    .moves = {MOVE_DAZZLING_GLEAM, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
 };
 
@@ -20390,7 +20390,7 @@ static const struct TrainerMonItemCustomMoves sParty_Tanner3[] = {
     .postgameheldItem = ITEM_ROCK_GEM,
     .heldItem = ITEM_ROCK_GEM,
     .postgamemoves = {MOVE_STEALTH_ROCK, MOVE_SUCKER_PUNCH, MOVE_SACRED_SWORD, MOVE_DARKEST_LARIAT},
-    .moves = {MOVE_STEALTH_ROCK, MOVE_SUCKER_PUNCH, MOVE_SACRED_SWORD, MOVE_DARKEST_LARIAT}
+    .moves = {MOVE_SUCKER_PUNCH, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 255,
@@ -20398,10 +20398,10 @@ static const struct TrainerMonItemCustomMoves sParty_Tanner3[] = {
 	.evs = {6, 252, 0, 0, 0, 252}, 
 	.abilityNum = 2,
 	.species = SPECIES_ZEPPUR,
-    .postgameheldItem = ITEM_DARK_GEM,
-    .heldItem = ITEM_SITRUS_BERRY,
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_LEFTOVERS,
     .postgamemoves = {MOVE_SPIKES, MOVE_DARK_PULSE, MOVE_ROOST, MOVE_AIR_SLASH},
-    .moves = {MOVE_SPIKES, MOVE_DARK_PULSE, MOVE_ROOST, MOVE_AIR_SLASH}
+    .moves = {MOVE_SPIKES, MOVE_AIR_SLASH, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 255,
@@ -20411,7 +20411,7 @@ static const struct TrainerMonItemCustomMoves sParty_Tanner3[] = {
     .postgameheldItem = ITEM_LEFTOVERS,
     .heldItem = ITEM_LEFTOVERS,
     .postgamemoves = {MOVE_SIZZLE_SLAM, MOVE_EARTHQUAKE, MOVE_TOXIC_SPIKES, MOVE_POISON_JAB},
-    .moves = {MOVE_SIZZLE_SLAM, MOVE_EARTHQUAKE, MOVE_TOXIC_SPIKES, MOVE_POISON_JAB}
+    .moves = {MOVE_SIZZLE_SLAM, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 255,
@@ -20423,19 +20423,19 @@ static const struct TrainerMonItemCustomMoves sParty_Tanner3[] = {
     .postgameheldItem = ITEM_ROCKY_HELMET,
     .heldItem = ITEM_ROCKY_HELMET,
     .postgamemoves = {MOVE_FLASH_CANNON, MOVE_COSMIC_POWER, MOVE_ICE_BEAM, MOVE_FLAMETHROWER},
-    .moves = {MOVE_FLASH_CANNON, MOVE_COSMIC_POWER, MOVE_ICE_BEAM, MOVE_FLAMETHROWER}
+    .moves = {MOVE_FLASH_CANNON, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 255,
     .lvl = 5,
 	.evs = {6, 252, 0, 0, 0, 252}, 
-    .abilityNum = 2,
+    .abilityNum = 1,
     .happiness = 255,
 	.species = SPECIES_TROLOLING,
     .postgameheldItem = ITEM_WEAKNESS_POLICY,
     .heldItem = ITEM_WEAKNESS_POLICY,
     .postgamemoves = {MOVE_TOXIC, MOVE_FOUL_PLAY, MOVE_PAIN_SPLIT, MOVE_DESTINY_BOND},
-    .moves = {MOVE_TOXIC, MOVE_FOUL_PLAY, MOVE_PAIN_SPLIT, MOVE_DESTINY_BOND}
+    .moves = {MOVE_TAUNT, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 200,
@@ -20447,7 +20447,7 @@ static const struct TrainerMonItemCustomMoves sParty_Tanner3[] = {
     .postgameheldItem = ITEM_GOTHOTITE,
     .heldItem = ITEM_GOTHOTITE,
     .postgamemoves = {MOVE_DARK_PULSE, MOVE_MOONLIGHT, MOVE_DAZZLING_GLEAM, MOVE_AURA_SPHERE},
-    .moves = {MOVE_DARK_PULSE, MOVE_MOONLIGHT, MOVE_DAZZLING_GLEAM, MOVE_AURA_SPHERE}
+    .moves = {MOVE_DAZZLING_GLEAM, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
 };
 
@@ -20462,7 +20462,7 @@ static const struct TrainerMonItemCustomMoves sParty_Tanner4[] = {
     .postgameheldItem = ITEM_ROCK_GEM,
     .heldItem = ITEM_ROCK_GEM,
     .postgamemoves = {MOVE_STEALTH_ROCK, MOVE_SUCKER_PUNCH, MOVE_SACRED_SWORD, MOVE_DARKEST_LARIAT},
-    .moves = {MOVE_STEALTH_ROCK, MOVE_SUCKER_PUNCH, MOVE_SACRED_SWORD, MOVE_DARKEST_LARIAT}
+    .moves = {MOVE_SUCKER_PUNCH, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 255,
@@ -20470,10 +20470,10 @@ static const struct TrainerMonItemCustomMoves sParty_Tanner4[] = {
 	.evs = {6, 252, 0, 0, 0, 252}, 
 	.abilityNum = 2,
 	.species = SPECIES_ZEPPUR,
-    .postgameheldItem = ITEM_DARK_GEM,
-    .heldItem = ITEM_SITRUS_BERRY,
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_LEFTOVERS,
     .postgamemoves = {MOVE_SPIKES, MOVE_DARK_PULSE, MOVE_ROOST, MOVE_AIR_SLASH},
-    .moves = {MOVE_SPIKES, MOVE_DARK_PULSE, MOVE_ROOST, MOVE_AIR_SLASH}
+    .moves = {MOVE_SPIKES, MOVE_AIR_SLASH, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 255,
@@ -20483,7 +20483,7 @@ static const struct TrainerMonItemCustomMoves sParty_Tanner4[] = {
     .postgameheldItem = ITEM_LEFTOVERS,
     .heldItem = ITEM_LEFTOVERS,
     .postgamemoves = {MOVE_SIZZLE_SLAM, MOVE_EARTHQUAKE, MOVE_TOXIC_SPIKES, MOVE_POISON_JAB},
-    .moves = {MOVE_SIZZLE_SLAM, MOVE_EARTHQUAKE, MOVE_TOXIC_SPIKES, MOVE_POISON_JAB}
+    .moves = {MOVE_SIZZLE_SLAM, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 255,
@@ -20495,19 +20495,19 @@ static const struct TrainerMonItemCustomMoves sParty_Tanner4[] = {
     .postgameheldItem = ITEM_ROCKY_HELMET,
     .heldItem = ITEM_ROCKY_HELMET,
     .postgamemoves = {MOVE_FLASH_CANNON, MOVE_COSMIC_POWER, MOVE_ICE_BEAM, MOVE_FLAMETHROWER},
-    .moves = {MOVE_FLASH_CANNON, MOVE_COSMIC_POWER, MOVE_ICE_BEAM, MOVE_FLAMETHROWER}
+    .moves = {MOVE_FLASH_CANNON, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 255,
     .lvl = 5,
 	.evs = {6, 252, 0, 0, 0, 252}, 
-    .abilityNum = 2,
+    .abilityNum = 1,
     .happiness = 255,
 	.species = SPECIES_TROLOLING,
     .postgameheldItem = ITEM_WEAKNESS_POLICY,
     .heldItem = ITEM_WEAKNESS_POLICY,
     .postgamemoves = {MOVE_TOXIC, MOVE_FOUL_PLAY, MOVE_PAIN_SPLIT, MOVE_DESTINY_BOND},
-    .moves = {MOVE_TOXIC, MOVE_FOUL_PLAY, MOVE_PAIN_SPLIT, MOVE_DESTINY_BOND}
+    .moves = {MOVE_TAUNT, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 200,
@@ -20519,7 +20519,7 @@ static const struct TrainerMonItemCustomMoves sParty_Tanner4[] = {
     .postgameheldItem = ITEM_GOTHOTITE,
     .heldItem = ITEM_GOTHOTITE,
     .postgamemoves = {MOVE_DARK_PULSE, MOVE_MOONLIGHT, MOVE_DAZZLING_GLEAM, MOVE_AURA_SPHERE},
-    .moves = {MOVE_DARK_PULSE, MOVE_MOONLIGHT, MOVE_DAZZLING_GLEAM, MOVE_AURA_SPHERE}
+    .moves = {MOVE_DAZZLING_GLEAM, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
 };
 
@@ -20534,7 +20534,7 @@ static const struct TrainerMonItemCustomMoves sParty_Tanner5[] = {
     .postgameheldItem = ITEM_ROCK_GEM,
     .heldItem = ITEM_ROCK_GEM,
     .postgamemoves = {MOVE_STEALTH_ROCK, MOVE_SUCKER_PUNCH, MOVE_SACRED_SWORD, MOVE_DARKEST_LARIAT},
-    .moves = {MOVE_STEALTH_ROCK, MOVE_SUCKER_PUNCH, MOVE_SACRED_SWORD, MOVE_DARKEST_LARIAT}
+    .moves = {MOVE_SUCKER_PUNCH, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 255,
@@ -20542,10 +20542,10 @@ static const struct TrainerMonItemCustomMoves sParty_Tanner5[] = {
 	.evs = {6, 252, 0, 0, 0, 252}, 
 	.abilityNum = 2,
 	.species = SPECIES_ZEPPUR,
-    .postgameheldItem = ITEM_DARK_GEM,
-    .heldItem = ITEM_SITRUS_BERRY,
+    .postgameheldItem = ITEM_LEFTOVERS,
+    .heldItem = ITEM_LEFTOVERS,
     .postgamemoves = {MOVE_SPIKES, MOVE_DARK_PULSE, MOVE_ROOST, MOVE_AIR_SLASH},
-    .moves = {MOVE_SPIKES, MOVE_DARK_PULSE, MOVE_ROOST, MOVE_AIR_SLASH}
+    .moves = {MOVE_SPIKES, MOVE_AIR_SLASH, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 255,
@@ -20555,7 +20555,7 @@ static const struct TrainerMonItemCustomMoves sParty_Tanner5[] = {
     .postgameheldItem = ITEM_LEFTOVERS,
     .heldItem = ITEM_LEFTOVERS,
     .postgamemoves = {MOVE_SIZZLE_SLAM, MOVE_EARTHQUAKE, MOVE_TOXIC_SPIKES, MOVE_POISON_JAB},
-    .moves = {MOVE_SIZZLE_SLAM, MOVE_EARTHQUAKE, MOVE_TOXIC_SPIKES, MOVE_POISON_JAB}
+    .moves = {MOVE_SIZZLE_SLAM, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 255,
@@ -20567,19 +20567,19 @@ static const struct TrainerMonItemCustomMoves sParty_Tanner5[] = {
     .postgameheldItem = ITEM_ROCKY_HELMET,
     .heldItem = ITEM_ROCKY_HELMET,
     .postgamemoves = {MOVE_FLASH_CANNON, MOVE_COSMIC_POWER, MOVE_ICE_BEAM, MOVE_FLAMETHROWER},
-    .moves = {MOVE_FLASH_CANNON, MOVE_COSMIC_POWER, MOVE_ICE_BEAM, MOVE_FLAMETHROWER}
+    .moves = {MOVE_FLASH_CANNON, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 255,
     .lvl = 5,
 	.evs = {6, 252, 0, 0, 0, 252}, 
-    .abilityNum = 2,
+    .abilityNum = 1,
     .happiness = 255,
 	.species = SPECIES_TROLOLING,
     .postgameheldItem = ITEM_WEAKNESS_POLICY,
     .heldItem = ITEM_WEAKNESS_POLICY,
     .postgamemoves = {MOVE_TOXIC, MOVE_FOUL_PLAY, MOVE_PAIN_SPLIT, MOVE_DESTINY_BOND},
-    .moves = {MOVE_TOXIC, MOVE_FOUL_PLAY, MOVE_PAIN_SPLIT, MOVE_DESTINY_BOND}
+    .moves = {MOVE_TAUNT, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 200,
@@ -20591,7 +20591,7 @@ static const struct TrainerMonItemCustomMoves sParty_Tanner5[] = {
     .postgameheldItem = ITEM_GOTHOTITE,
     .heldItem = ITEM_GOTHOTITE,
     .postgamemoves = {MOVE_DARK_PULSE, MOVE_MOONLIGHT, MOVE_DAZZLING_GLEAM, MOVE_AURA_SPHERE},
-    .moves = {MOVE_DARK_PULSE, MOVE_MOONLIGHT, MOVE_DAZZLING_GLEAM, MOVE_AURA_SPHERE}
+    .moves = {MOVE_DAZZLING_GLEAM, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
 };
 static const struct TrainerMonItemCustomMoves sParty_TonyAndSal2[] = {

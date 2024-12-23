@@ -1259,13 +1259,13 @@ u16 GetHeldItem(u16 baseitem)
 		NumBadges = NumBadges + 1;
 	
 	if(holdEffect != HOLD_EFFECT_MEGA_STONE){
-	if (NumBadges >= 7)
+	if (NumBadges >= 6)
 		return baseitem;
 	else 
 		return ITEM_SITRUS_BERRY;
 	}
 	
-	if(baseitem == ITEM_ORAN_BERRY)//HP restorative items
+	if(baseitem == ITEM_ORAN_BERRY || baseitem == ITEM_NONE)//HP restorative items
 	{
 		if(NumBadges >= 6)
 			return ITEM_SITRUS_BERRY;
