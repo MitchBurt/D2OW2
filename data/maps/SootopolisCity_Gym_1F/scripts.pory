@@ -183,7 +183,7 @@ SootopolisCity_Gym_1F_EventScript_Start_Rematch_5::
 	goto_if_set FLAG_GOT_SNEDDITE SootopolisCity_Gym_1F_EventScript_Start_Rematch_6
 	trainerbattle_no_intro TRAINER_MITCHELL_4, SootopolisCity_Gym_1F_Text_MitchellRematchDefeat
 	msgbox SootopolisCity_Gym_Text_GetMegaStone, MSGBOX_DEFAULT
-	giveitem ITEM_SKORPYROSITE_X
+	giveitem ITEM_SKORPYROSITE_Y
 	setflag FLAG_GOT_SNEDDITE
 	goto SootopolisCity_Gym_1F_EventScript_MitchellRematchEnd
 	end
@@ -731,7 +731,7 @@ script SootopolisCity_Gym_1F_EventScript_Mitchell_Give_Gifts{
 	//Give Megastone
 	if(var(VAR_NUM_BADGES) >= 7 && !flag(FLAG_GOT_SNEDDITE)){
 		msgbox(format("Mitchell: Take this as an special gift from me, it's an Kroller."), MSGBOX_NPC)
-		giveitem(ITEM_SKORPYROSITE_X)
+		giveitem(ITEM_SKORPYROSITE_Y)
 		msgbox(format("Make an Kroller hold it to unleash its real potential."), MSGBOX_NPC)
 		setflag(FLAG_GOT_SNEDDITE)
 		setflag(FLAG_TEMP_9) //To check if you have been given multiple items

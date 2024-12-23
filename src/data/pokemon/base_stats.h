@@ -2400,11 +2400,11 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_TITENIC] =
     {
-        .baseHP        = 87,
-        .baseAttack    = 95, //70 -> 50
+        .baseHP        = 95,
+        .baseAttack    = 95,
         .baseDefense   = 125,
         .baseSpeed     = 70,
-        .baseSpAttack  = 50, //70 -> 90
+        .baseSpAttack  = 50,
         .baseSpDefense = 115,
         .type1 = TYPE_WATER,
         .type2 = TYPE_ICE,
@@ -2419,8 +2419,8 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_MEDIUM_FAST,
         .eggGroup1 = EGG_GROUP_WATER_1,
         .eggGroup2 = EGG_GROUP_FIELD,
-            .abilities = {ABILITY_STEELWORKER, ABILITY_STEELWORKER},	// Hydratation -> Ice Body
-            .abilityHidden = ABILITY_ICE_SCALES,				// Ice Body -> Ice Scales
+            .abilities = {ABILITY_STEELWORKER, ABILITY_STEELWORKER},
+            .abilityHidden = ABILITY_ICE_SCALES,
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
     },
@@ -3431,7 +3431,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_HUMAN_LIKE,
         .eggGroup2 = EGG_GROUP_HUMAN_LIKE,
         .abilities = {ABILITY_STATIC, ABILITY_OVERCHARGE},
-        .abilityHidden = ABILITY_VITAL_SPIRIT,
+        .abilityHidden = ABILITY_IRON_FIST,
         .bodyColor = BODY_COLOR_YELLOW,
         .noFlip = FALSE,
     },
@@ -24894,9 +24894,9 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_SKORPYROS_MEGA_X] =
     {
         .baseHP        = 78,
-        .baseAttack    = 130,
+        .baseAttack    = 140,
         .baseDefense   = 121,
-        .baseSpeed     = 120,
+        .baseSpeed     = 135,
         .baseSpAttack  = 130,
         .baseSpDefense = 105,
         .type1 = TYPE_FIRE,
@@ -24912,7 +24912,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup2 = EGG_GROUP_DRAGON,
         .abilities = {ABILITY_TOUGH_CLAWS, ABILITY_TOUGH_CLAWS},
 		.abilityHidden = ABILITY_TOUGH_CLAWS,
-        .bodyColor = BODY_COLOR_BLACK,
+        .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
     },
 

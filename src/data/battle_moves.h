@@ -11756,14 +11756,14 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
 
     [SPECIES_SKORPYROS_MEGA_X] =
     {
-        .move = MOVE_X_SCISSOR,
+        .move = MOVE_DRAGON_CLAW,
         .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
         .variable = SIGNATURE_SECONDARY_EFFECT_BURN,
         .chance = 50,
         .modification2 = SIGNATURE_MOD_PSS_CHANGE,
         .variable2 = SPLIT_HIGHEST,
         .modification3 = SIGNATURE_MOD_POWER,
-        .variable3 = 110,
+        .variable3 = 100,
         .differentDescription = FALSE,
         .description = _("Slashes the foe with crossed\n"
                         "scythes, claws, etc.\n"
