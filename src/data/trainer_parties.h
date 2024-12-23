@@ -7298,9 +7298,9 @@ static const struct TrainerMonItemCustomMoves sParty_Mitchell1[] = {
     .abilityNum = 0,
 	.species = SPECIES_BILLOMINAT,
     .postgameheldItem = ITEM_CHOICE_SCARF,
-    .heldItem = ITEM_CHOICE_SCARF,
+    .heldItem = ITEM_CHOICE_BAND,
     .postgamemoves = {MOVE_TRICK, MOVE_EARTH_POWER, MOVE_STEALTH_ROCK, MOVE_PSYCHIC},
-    .moves = {MOVE_TRICK, MOVE_EARTH_POWER, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_TRICK, MOVE_EARTH_POWER, MOVE_STEALTH_ROCK, MOVE_PSYCHIC}
     },
     {
     .iv = 200,
@@ -7312,7 +7312,7 @@ static const struct TrainerMonItemCustomMoves sParty_Mitchell1[] = {
     .postgameheldItem = ITEM_SKORPYROSITE_X,
     .heldItem = ITEM_SKORPYROSITE_X,
     .postgamemoves = {MOVE_THUNDER_PUNCH, MOVE_FIRE_LASH, MOVE_DRAGON_CLAW, MOVE_EARTHQUAKE},
-    .moves = {MOVE_X_SCISSOR, MOVE_FIRE_LASH, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_THUNDER_PUNCH, MOVE_FIRE_LASH, MOVE_DRAGON_CLAW, MOVE_EARTHQUAKE}
     },
     {
     .iv = 200,
@@ -7324,7 +7324,7 @@ static const struct TrainerMonItemCustomMoves sParty_Mitchell1[] = {
     .postgameheldItem = ITEM_LEFTOVERS,
     .heldItem = ITEM_LEFTOVERS,
     .postgamemoves = {MOVE_ICICLE_CRASH, MOVE_IRON_HEAD, MOVE_LIQUIDATION, MOVE_AQUA_JET},
-    .moves = {MOVE_LIQUIDATION, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_ICICLE_CRASH, MOVE_IRON_HEAD, MOVE_LIQUIDATION, MOVE_AQUA_JET}
     },
     {
     .iv = 200,
@@ -7336,7 +7336,7 @@ static const struct TrainerMonItemCustomMoves sParty_Mitchell1[] = {
     .postgameheldItem = ITEM_LIFE_ORB,
     .heldItem = ITEM_LIFE_ORB,
     .postgamemoves = {MOVE_CRUNCH, MOVE_LEAF_BLADE, MOVE_STONE_EDGE, MOVE_EARTHQUAKE},
-    .moves = {MOVE_CRUNCH, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_CRUNCH, MOVE_LEAF_BLADE, MOVE_STONE_EDGE, MOVE_EARTHQUAKE}
     },
     {
     .iv = 200,
@@ -7348,7 +7348,7 @@ static const struct TrainerMonItemCustomMoves sParty_Mitchell1[] = {
     .postgameheldItem = ITEM_LIFE_ORB,
     .heldItem = ITEM_LIFE_ORB,
     .postgamemoves = {MOVE_THUNDER_PUNCH, MOVE_DRAIN_PUNCH, MOVE_ICE_PUNCH, MOVE_PSYCHO_CUT},
-    .moves = {MOVE_THUNDER_PUNCH, MOVE_DRAIN_PUNCH, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_THUNDER_PUNCH, MOVE_DRAIN_PUNCH, MOVE_ICE_PUNCH, MOVE_PSYCHO_CUT}
     },
     {
     .iv = 255,
@@ -7360,7 +7360,7 @@ static const struct TrainerMonItemCustomMoves sParty_Mitchell1[] = {
     .postgameheldItem = ITEM_LIFE_ORB,
     .heldItem = ITEM_LEFTOVERS,
     .postgamemoves = {MOVE_DRAGON_CLAW, MOVE_DRAGON_DANCE, MOVE_EXTREME_SPEED, MOVE_DARKEST_LARIAT},
-    .moves = {MOVE_DRAGON_CLAW, MOVE_DRAGON_DANCE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_DRAGON_CLAW, MOVE_DRAGON_DANCE, MOVE_EXTREME_SPEED, MOVE_DARKEST_LARIAT}
     }
 };
 
