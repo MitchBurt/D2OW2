@@ -9671,7 +9671,7 @@
               {
                 "min_level": 25,
                 "max_level": 35,
-                "species": "SPECIES_PIRAGHOUL"
+                "species": "SPECIES_JISSM"
               }
             ]
           },
@@ -10427,7 +10427,7 @@
               {
                 "min_level": 30,
                 "max_level": 35,
-                "species": "SPECIES_SEAWEE"
+                "species": "SPECIES_JISSM"
               }
             ]
           }
