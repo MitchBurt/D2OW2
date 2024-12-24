@@ -8255,10 +8255,10 @@ const struct BaseStats gBaseStats[] =
     {
         .baseHP        = 90,
         .baseAttack    = 120,
-        .baseDefense   = 80,
+        .baseDefense   = 70,
         .baseSpeed     = 85,
         .baseSpAttack  = 155,
-        .baseSpDefense = 90,
+        .baseSpDefense = 70,
         .type1 = TYPE_ALCOHOL,
         .type2 = TYPE_STEEL,
         .catchRate = 45,
@@ -8969,8 +8969,8 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_UNSC] =
     {
-        .baseHP        = 92,
-        .baseAttack    = 125,
+        .baseHP        = 80,
+        .baseAttack    = 120,
         .baseDefense   = 75,
         .baseSpeed     = 130,
         .baseSpAttack  = 70,
@@ -8992,7 +8992,7 @@ const struct BaseStats gBaseStats[] =
         .abilityHidden = ABILITY_CLOUD_NINE,
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
-        .flags = F_GROUND_INMUNITY,
+        //.flags = F_GROUND_INMUNITY,
     },
 
     [SPECIES_SMITNION] =

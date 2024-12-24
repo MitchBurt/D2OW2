@@ -6396,8 +6396,8 @@ static const struct TrainerMonItemCustomMoves sParty_Jack[] = {
     .heldItem = ITEM_LIFE_ORB,
 	.pokeball = ITEM_CHERISH_BALL,
 	.hiddenNature = NATURE_ADAMANT,
-    .postgamemoves = {MOVE_ICE_HAMMER, MOVE_SWORDS_DANCE, MOVE_POISON_JAB, MOVE_BOOZE_BASH},
-    .moves = {MOVE_ICE_HAMMER, MOVE_SWORDS_DANCE, MOVE_POISON_JAB, MOVE_BOOZE_BASH}
+    .postgamemoves = {MOVE_METAL_CLAW, MOVE_SWORDS_DANCE, MOVE_POISON_JAB, MOVE_BOOZE_BASH},
+    .moves = {MOVE_METAL_CLAW, MOVE_SWORDS_DANCE, MOVE_POISON_JAB, MOVE_BOOZE_BASH}
     },
     {
     .iv = 250,
@@ -8826,10 +8826,10 @@ static const struct TrainerMonItemCustomMoves sParty_Dario[] = {
 	.isShiny = FALSE,
 	.pokeball = ITEM_HEAVY_BALL,
 	.hiddenNature = NATURE_TIMID,
-    .postgameheldItem = ITEM_WHITE_HERB,
-    .heldItem = ITEM_WHITE_HERB,
-    .postgamemoves = {MOVE_SHELL_SMASH, MOVE_PSYCHIC, MOVE_ICE_BEAM, MOVE_THUNDERBOLT},
-    .moves = {MOVE_ROCK_SLIDE, MOVE_RAZOR_SHELL, MOVE_X_SCISSOR, MOVE_SACRED_SWORD}
+    .postgameheldItem = ITEM_WEAKNESS_POLICY,
+    .heldItem = ITEM_WEAKNESS_POLICY,
+    .postgamemoves = {MOVE_AURA_SPHERE, MOVE_JUDGMENT, MOVE_ICE_BEAM, MOVE_FLAMETHROWER},
+    .moves = {MOVE_AURA_SPHERE, MOVE_JUDGMENT, MOVE_ICE_BEAM, MOVE_FLAMETHROWER}
     },
     {
     .iv = 255,
@@ -21177,8 +21177,8 @@ static const struct TrainerMonItemCustomMoves sParty_Mitchell5[] = {
 	.species = SPECIES_KRAFPUNK,
     .postgameheldItem = ITEM_LIFE_ORB,
     .heldItem = ITEM_LIFE_ORB,
-    .postgamemoves = {MOVE_THUNDER_PUNCH, MOVE_DRAIN_PUNCH, MOVE_ICE_PUNCH, MOVE_PSYCHO_CUT},
-    .moves = {MOVE_THUNDER_PUNCH, MOVE_DRAIN_PUNCH, MOVE_ICE_PUNCH, MOVE_PSYCHO_CUT}
+    .postgamemoves = {MOVE_THUNDER_PUNCH, MOVE_DRAIN_PUNCH, MOVE_ICE_PUNCH, MOVE_KNOCK_OFF},
+    .moves = {MOVE_THUNDER_PUNCH, MOVE_DRAIN_PUNCH, MOVE_ICE_PUNCH, MOVE_KNOCK_OFF}
     },
     {
     .iv = 255,

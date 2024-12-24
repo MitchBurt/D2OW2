@@ -370,6 +370,7 @@ enum{
     SIGNATURE_SECONDARY_EFFECT_NONE,                        //No secondary effect
     SIGNATURE_SECONDARY_EFFECT_POISON,                      //Poisons the target
     SIGNATURE_SECONDARY_EFFECT_TOXIC,                       //Badly poisons the target
+    SIGNATURE_SECONDARY_EFFECT_DRUNK,                       //Intoxicates the targer                       
     SIGNATURE_SECONDARY_EFFECT_PARALYSIS,                   //Paralyzes the target
     SIGNATURE_SECONDARY_EFFECT_BURN,                        //Burns the target
     SIGNATURE_SECONDARY_EFFECT_FREEZE,                      //Freezes the target

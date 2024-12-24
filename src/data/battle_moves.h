@@ -11764,6 +11764,8 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .variable2 = SPLIT_HIGHEST,
         .modification3 = SIGNATURE_MOD_POWER,
         .variable3 = 100,
+        .modification4 = SIGNATURE_MOD_SE_AGAINST_TYPE,
+        .variable4 = TYPE_STEEL,
         .differentDescription = FALSE,
         .description = _("Slashes the foe with crossed\n"
                         "scythes, claws, etc.\n"
@@ -11956,8 +11958,8 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
     {
         .move = MOVE_METAL_CLAW,
         .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
-        .variable = SIGNATURE_SECONDARY_EFFECT_FREEZE,
-        .chance = 20,
+        .variable = SIGNATURE_SECONDARY_EFFECT_DRUNK,
+        .chance = 40,
         .modification2 = SIGNATURE_MOD_TYPE,
         .variable2 = TYPE_ICE,
         .differentDescription = FALSE,
@@ -11969,10 +11971,12 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
     {
         .move = MOVE_METAL_CLAW,
         .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
-        .variable = SIGNATURE_SECONDARY_EFFECT_FREEZE,
-        .chance = 20,
+        .variable = SIGNATURE_SECONDARY_EFFECT_DRUNK,
+        .chance = 80,
         .modification2 = SIGNATURE_MOD_TYPE,
         .variable2 = TYPE_ICE,
+    	.modification3 = SIGNATURE_MOD_POWER,
+        .variable3 = 100,
         .differentDescription = FALSE,
         .description = _("A claw attack that may\n"
                         "raise the user's Attack.\n"
@@ -12284,7 +12288,59 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .description = _("Default Description"),
     },
 
+    [SPECIES_PHASMORGAN] =
+    {
+        .move = MOVE_SHADOW_BALL,
+        .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
+        .variable = SIGNATURE_SECONDARY_EFFECT_DRUNK,
+        .chance = 60,
+        .modification2 = SIGNATURE_MOD_PRIORITY,
+        .variable2 = SIGNATURE_PRIORITY_ALWAYS,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
 
+    [SPECIES_BEVRAGON] =
+    {
+        .move = MOVE_OUTRAGE,
+        .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
+        .variable = SIGNATURE_SECONDARY_EFFECT_DRUNK,
+        .chance = 60,
+        .modification2 = SIGNATURE_MOD_SE_AGAINST_TYPE,
+        .variable2 = TYPE_STEEL,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+
+    [SPECIES_WARPNAR] =
+    {
+        .move = MOVE_DARK_PULSE,
+        .modification = SIGNATURE_MOD_SECOND_TYPE,
+        .variable = TYPE_PSYCHIC,
+        .modification2 = SIGNATURE_MOD_PRIORITY,
+        .variable2 = SIGNATURE_PRIORITY_ALWAYS,
+        .modification3 = SIGNATURE_MOD_POWER,
+        .variable3 = 100,
+        .modification4 = SIGNATURE_MOD_SE_AGAINST_TYPE,
+        .variable4 = TYPE_DARK,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
+
+    [SPECIES_GOD] =
+    {
+        .move = MOVE_JUDGMENT,
+        .modification = SIGNATURE_MOD_TYPE,
+        .variable = TYPE_PSYCHIC,
+        .modification2 = SIGNATURE_MOD_PRIORITY,
+        .variable2 = SIGNATURE_PRIORITY_ALWAYS,
+        .modification3 = SIGNATURE_MOD_POWER,
+        .variable3 = 150,
+        .modification4 = SIGNATURE_MOD_SE_AGAINST_TYPE,
+        .variable4 = TYPE_DARK,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
 /*[SPECIES_AWMANE_MEGA] =
     {
         .move = MOVE_EXPLOSION,
@@ -12426,14 +12482,6 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .chance2 = 10,
         .modification3 = SIGNATURE_MOD_SECOND_TYPE,
         .variable3 = TYPE_PSYCHIC,
-        .differentDescription = FALSE,
-        .description = _("Default Description"),
-    },
-    [SPECIES_BEVRAGON] =
-    {
-        .move = MOVE_POISON_FANG,
-        .modification = SIGNATURE_MOD_POWER,
-        .variable = 95,
         .differentDescription = FALSE,
         .description = _("Default Description"),
     },
