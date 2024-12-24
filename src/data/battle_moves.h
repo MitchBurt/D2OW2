@@ -11981,8 +11981,6 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .description = _("A claw attack that may\n"
                         "raise the user's Attack.\n"
                         "May freeze foe."),
-        .modification3 = SIGNATURE_MOD_POWER,
-        .variable3 = 80,
     },
     [SPECIES_SHAWT] =
     {
