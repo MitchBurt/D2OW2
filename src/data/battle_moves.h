@@ -12310,6 +12310,17 @@ const struct SignatureMove gSignatureMoveList[NUM_SPECIES] = {
         .description = _("Default Description"),
     },
 
+    [SPECIES_DRUNKABUS] =
+    {
+        .move = MOVE_IRON_HEAD,
+        .modification = SIGNATURE_MOD_SECONDARY_EFFECT,
+        .variable = SIGNATURE_SECONDARY_EFFECT_DRUNK,
+        .chance = 50,
+        .modification = SIGNATURE_MOD_DAMAGE_STAT,
+        .variable = STAT_SPEED,
+        .differentDescription = FALSE,
+        .description = _("Default Description"),
+    },
     [SPECIES_WARPNAR] =
     {
         .move = MOVE_DARK_PULSE,

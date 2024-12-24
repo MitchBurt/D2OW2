@@ -6458,8 +6458,8 @@ static const struct TrainerMonItemCustomMoves sParty_Jack[] = {
     .heldItem = ITEM_FOCUS_SASH,
 	.pokeball = ITEM_MOON_BALL,
 	.hiddenNature = NATURE_JOLLY,
-    .postgamemoves = {MOVE_SWORDS_DANCE, MOVE_BATON_PASS, MOVE_GYRO_BALL, MOVE_BOOZE_BASH},
-    .moves = {MOVE_SWORDS_DANCE, MOVE_BATON_PASS, MOVE_GYRO_BALL, MOVE_BOOZE_BASH}
+    .postgamemoves = {MOVE_SWORDS_DANCE, MOVE_BATON_PASS, MOVE_IRON_HEAD, MOVE_BOOZE_BASH},
+    .moves = {MOVE_SWORDS_DANCE, MOVE_BATON_PASS, MOVE_IRON_HEAD, MOVE_BOOZE_BASH}
     },
 };
 

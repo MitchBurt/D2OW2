@@ -5287,9 +5287,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_WATER_2,
         .eggGroup2 = EGG_GROUP_WATER_2,
         .abilities = {ABILITY_ROUGH_SKIN, ABILITY_STRONG_JAW},
-        #ifdef BATTLE_ENGINE
-            .abilityHidden = ABILITY_STRONG_JAW,
-        #endif
+        .abilityHidden = ABILITY_STRONG_JAW,
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
     },
@@ -7730,12 +7728,8 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_FLUCTUATING,
         .eggGroup1 = EGG_GROUP_FAIRY,
         .eggGroup2 = EGG_GROUP_GRASS,
-        #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_EFFECT_SPORE, ABILITY_WHITE_SMOKE},
-            .abilityHidden = ABILITY_TECHNICIAN,
-        #else
-            .abilities = {ABILITY_EFFECT_SPORE, ABILITY_NONE},
-        #endif
+        .abilities = {ABILITY_EFFECT_SPORE, ABILITY_WHITE_SMOKE},
+        .abilityHidden = ABILITY_TECHNICIAN,
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
     },
