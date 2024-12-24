@@ -65,7 +65,7 @@ enum {
 	CARD_RISKPOPOLY,
 	CARD_SHINY_EEMOJEE,
 	CARD_BERRYALEN,
-    CARD_CHRISTMASS_ABSTRATIC,
+    CARD_CHRISTMASS_NUSHAKE,
 	CARD_BAITORD,
 	CARD_DNDICE,
 	CARD_REWINDLE,
@@ -1392,9 +1392,9 @@ struct MysteryGiftMonStructure gMysteryGiftMons[] =
 		.nickname 			= _("チルタリス"),
 		.isNicknamed		= TRUE,
 	},
-	[CARD_CHRISTMASS_ABSTRATIC] =
+	[CARD_CHRISTMASS_NUSHAKE] =
     {
-		.species 			= SPECIES_ABSTRATIC,
+		.species 			= SPECIES_NUSHAKE,
 		.helditem 			= ITEM_CHERISH_BALL_SEAL,
 		.abilityNum 		= 0,
 		.level 				= 0,

@@ -35,7 +35,7 @@ enum {
 	CARD_RISKPOPOLY,
 	CARD_SHINY_EEMOJEE,
 	CARD_BERRYALEN,
-    CARD_CHRISTMASS_ABSTRATIC,
+    CARD_CHRISTMASS_NUSHAKE,
 	CARD_BAITORD,
 	CARD_DNDICE,
 	CARD_REWINDLE,
@@ -237,18 +237,18 @@ struct WonderCard gSavedWonderCard[] =
 		.footerLine1Text 		= _("Thank you for playing"),
 		.footerLine2Text 		= _("Pokemon DARIO 2!"),
 	},
-	[CARD_CHRISTMASS_ABSTRATIC] =
+	[CARD_CHRISTMASS_NUSHAKE] =
     {
 		.flagId 				= FLAG_MYSTERY_GIFT_CHRISTMAS_ABSTRATIC,
-		.iconSpecies 			= SPECIES_ABSTRATIC,
-		.idNumber 				= CARD_CHRISTMASS_ABSTRATIC,
+		.iconSpecies 			= SPECIES_NUSHAKE,
+		.idNumber 				= CARD_CHRISTMASS_NUSHAKE,
 		.type 					= 0,
 		.bgType 				= CARD_BG_RED,
 		.sendType 				= 0,
 		.maxStamps 				= 0,
 		.titleText 				= _("Merry Christmas!"),
-		.subtitleText 			= _("It's Shiny Abstratic!"),
-		.bodyText 				= _("This Abstratic is not only Shiny, it's   "
+		.subtitleText 			= _("It's Shiny Nushake!"),
+		.bodyText 				= _("This Nushake is not only Shiny, it's   "
 									"also holding an special item, that will "
 									"help you in your adventure!"),
 		.footerLine1Text 		= _("Thank you for playing"),
