@@ -8992,6 +8992,7 @@ const struct BaseStats gBaseStats[] =
         .abilityHidden = ABILITY_CLOUD_NINE,
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
+        .flags = F_GROUND_INMUNITY,
     },
 
     [SPECIES_SMITNION] =
