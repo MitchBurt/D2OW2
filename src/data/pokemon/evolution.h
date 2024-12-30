@@ -106,7 +106,7 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_REWINDLE]                 = {{EVO_LEVEL_ATK_GT_DEF, 30, SPECIES_AMAZULK},
                                        {EVO_LEVEL_ATK_EQ_DEF, 30, SPECIES_SURBSQUACH},
                                        {EVO_LEVEL_ATK_LT_DEF, 30, SPECIES_BIREMIC},
-                                       {EVO_ITEM, ITEM_WATER_STONE, SPECIES_REPLITOR},},
+                                       {EVO_ITEM, ITEM_WATER_STONE, SPECIES_REPLITOR}},
 
     [SPECIES_AURICLIARY]	            = {{EVO_ITEM, ITEM_ELECTIRIZER, SPECIES_SETRONIC}},
     [SPECIES_ATTACO]	            = {{EVO_LEVEL, 28, SPECIES_GAISER}},
