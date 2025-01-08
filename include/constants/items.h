@@ -1008,7 +1008,27 @@
 #define ITEM_SURGEWARD_CHARM      839
 #define ITEM_SLUMBERLESS_CHARM    840
 #define ITEM_AMPLIFY_CHARM        841
-
+#define ITEM_BALANCE_CHARM        842
+#define ITEM_KINDLE_CHARM       843
+#define ITEM_WAVE_CHARM         844
+#define ITEM_SPARK_CHARM        845
+#define ITEM_LEAF_CHARM         846
+#define ITEM_FREEZE_CHARM       847
+#define ITEM_BRAWN_CHARM        848
+#define ITEM_TOXIC_CHARM        849
+#define ITEM_EARTH_CHARM        850
+#define ITEM_WIND_CHARM         851
+#define ITEM_MIND_CHARM         852
+#define ITEM_SWARM_CHARM        853
+#define ITEM_CRAG_CHARM         854
+#define ITEM_PHANTOM_CHARM      855
+#define ITEM_MYTHIC_CHARM       856
+#define ITEM_DUSK_CHARM         857
+#define ITEM_METAL_CHARM        858
+#define ITEM_PIXIE_CHARM        859
+#define ITEM_STELLAR_CHARM      860
+#define ITEM_GOURMET_CHARM      861
+#define ITEM_BREW_CHARM         862
 
 
 

@@ -9765,5 +9765,49 @@ extern const u32 gItemIconPalette_SlumberlessCharm[];
 extern const u32 gItemIcon_AmplifyCharm[];
 extern const u32 gItemIconPalette_AmplifyCharm[];
 
+extern const u32 gItemIcon_BalanceCharm[];
+extern const u32 gItemIconPalette_BalanceCharm[];
+extern const u32 gItemIcon_KindleCharm[];
+extern const u32 gItemIconPalette_KindleCharm[];
+extern const u32 gItemIcon_WaveCharm[];
+extern const u32 gItemIconPalette_WaveCharm[];
+extern const u32 gItemIcon_SparkCharm[];
+extern const u32 gItemIconPalette_SparkCharm[];
+extern const u32 gItemIcon_LeafCharm[];
+extern const u32 gItemIconPalette_LeafCharm[];
+extern const u32 gItemIcon_FreezeCharm[];
+extern const u32 gItemIconPalette_FreezeCharm[];
+extern const u32 gItemIcon_BrawnCharm[];
+extern const u32 gItemIconPalette_BrawnCharm[];
+extern const u32 gItemIcon_ToxicCharm[];
+extern const u32 gItemIconPalette_ToxicCharm[];
+extern const u32 gItemIcon_EarthCharm[];
+extern const u32 gItemIconPalette_EarthCharm[];
+extern const u32 gItemIcon_WindCharm[];
+extern const u32 gItemIconPalette_WindCharm[];
+extern const u32 gItemIcon_MindCharm[];
+extern const u32 gItemIconPalette_MindCharm[];
+extern const u32 gItemIcon_SwarmCharm[];
+extern const u32 gItemIconPalette_SwarmCharm[];
+extern const u32 gItemIcon_CragCharm[];
+extern const u32 gItemIconPalette_CragCharm[];
+extern const u32 gItemIcon_PhantomCharm[];
+extern const u32 gItemIconPalette_PhantomCharm[];
+extern const u32 gItemIcon_MythicCharm[];
+extern const u32 gItemIconPalette_MythicCharm[];
+extern const u32 gItemIcon_DuskCharm[];
+extern const u32 gItemIconPalette_DuskCharm[];
+extern const u32 gItemIcon_MetalCharm[];
+extern const u32 gItemIconPalette_MetalCharm[];
+extern const u32 gItemIcon_PixieCharm[];
+extern const u32 gItemIconPalette_PixieCharm[];
+extern const u32 gItemIcon_StellarCharm[];
+extern const u32 gItemIconPalette_StellarCharm[];
+extern const u32 gItemIcon_GourmetCharm[];
+extern const u32 gItemIconPalette_GourmetCharm[];
+extern const u32 gItemIcon_BrewCharm[];
+extern const u32 gItemIconPalette_BrewCharm[];
+
+
 
 #endif //GUARD_GRAPHICS_H

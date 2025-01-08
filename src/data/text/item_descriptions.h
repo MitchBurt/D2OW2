@@ -6495,4 +6495,105 @@ static const u8 sGoodOmenDesc[] = _(
     "Only Active in HARD\n"
     "mode.");
 
+static const u8 sBalanceCharmDesc[] = _(
+    "Raises the damage of\n"
+    "allied Pokémon's Normal\n"
+    "Type attacks.");
+
+
+static const u8 sWaveCharmDesc[] = _(
+    "Raises the damage of\n"
+    "allied Pokémon's Water\n"
+    "Type attacks.");
+
+static const u8 sSparkCharmDesc[] = _(
+    "Raises the damage of\n"
+    "allied Pokémon's Electric\n"
+    "Type attacks.");
+
+static const u8 sLeafCharmDesc[] = _(
+    "Raises the damage of\n"
+    "allied Pokémon's Grass\n"
+    "Type attacks.");
+
+static const u8 sFreezeCharmDesc[] = _(
+    "Raises the damage of\n"
+    "allied Pokémon's Ice\n"
+    "Type attacks.");
+
+static const u8 sBrawnCharmDesc[] = _(
+    "Raises the damage of\n"
+    "allied Pokémon's Fighting\n"
+    "Type attacks.");
+
+static const u8 sToxicCharmDesc[] = _(
+    "Raises the damage of\n"
+    "allied Pokémon's Poison\n"
+    "Type attacks.");
+
+static const u8 sEarthCharmDesc[] = _(
+    "Raises the damage of\n"
+    "allied Pokémon's Ground\n"
+    "Type attacks.");
+
+static const u8 sWindCharmDesc[] = _(
+    "Raises the damage of\n"
+    "allied Pokémon's Flying\n"
+    "Type attacks.");
+
+static const u8 sMindCharmDesc[] = _(
+    "Raises the damage of\n"
+    "allied Pokémon's Psychic\n"
+    "Type attacks.");
+
+static const u8 sSwarmCharmDesc[] = _(
+    "Raises the damage of\n"
+    "allied Pokémon's Bug\n"
+    "Type attacks.");
+
+static const u8 sCragCharmDesc[] = _(
+    "Raises the damage of\n"
+    "allied Pokémon's Rock\n"
+    "Type attacks.");
+
+static const u8 sPhantomCharmDesc[] = _(
+    "Raises the damage of\n"
+    "allied Pokémon's Ghost\n"
+    "Type attacks.");
+
+static const u8 sMythicCharmDesc[] = _(
+    "Raises the damage of\n"
+    "allied Pokémon's Dragon\n"
+    "Type attacks.");
+
+static const u8 sDuskCharmDesc[] = _(
+    "Raises the damage of\n"
+    "allied Pokémon's Dark\n"
+    "Type attacks.");
+
+static const u8 sMetalCharmDesc[] = _(
+    "Raises the damage of\n"
+    "allied Pokémon's Steel\n"
+    "Type attacks.");
+
+static const u8 sPixieCharmDesc[] = _(
+    "Raises the damage of\n"
+    "allied Pokémon's Fairy\n"
+    "Type attacks.");
+
+static const u8 sStellarCharmDesc[] = _(
+    "Raises the damage of\n"
+    "allied Pokémon's Cosmic\n"
+    "Type attacks.");
+
+static const u8 sGourmetCharmDesc[] = _(
+    "Raises the damage of\n"
+    "allied Pokémon's Food\n"
+    "Type attacks.");
+
+static const u8 sBrewCharmDesc[] = _(
+    "Raises the damage of\n"
+    "allied Pokémon's Alcohol\n"
+    "Type attacks.");
+
 #endif

@@ -9063,6 +9063,139 @@ static u32 CalcFinalDmg(u32 dmg, u16 move, u8 battlerAtk, u8 battlerDef, u8 move
         if (moveType == TYPE_DRAGON)
             dmg = ApplyModifier(UQ_4_12(0.7), dmg);
     }
+    // Normal Type Boost
+    if(CheckBagHasItem(ITEM_BALANCE_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_NORMAL)
+            dmg = ApplyModifier(UQ_4_12(1.3), dmg);
+    }
+
+    // Fire Type Boost
+    if(CheckBagHasItem(ITEM_KINDLE_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_FIRE)
+            dmg = ApplyModifier(UQ_4_12(1.3), dmg);
+    }
+
+    // Water Type Boost
+    if(CheckBagHasItem(ITEM_WAVE_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_WATER)
+            dmg = ApplyModifier(UQ_4_12(1.3), dmg);
+    }
+
+    // Electric Type Boost
+    if(CheckBagHasItem(ITEM_SPARK_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_ELECTRIC)
+            dmg = ApplyModifier(UQ_4_12(1.3), dmg);
+    }
+
+    // Grass Type Boost
+    if(CheckBagHasItem(ITEM_LEAF_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_GRASS)
+            dmg = ApplyModifier(UQ_4_12(1.3), dmg);
+    }
+
+    // Ice Type Boost
+    if(CheckBagHasItem(ITEM_FREEZE_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_ICE)
+            dmg = ApplyModifier(UQ_4_12(1.3), dmg);
+    }
+
+    // Fighting Type Boost
+    if(CheckBagHasItem(ITEM_BRAWN_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_FIGHTING)
+            dmg = ApplyModifier(UQ_4_12(1.3), dmg);
+    }
+
+    // Poison Type Boost
+    if(CheckBagHasItem(ITEM_TOXIC_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_POISON)
+            dmg = ApplyModifier(UQ_4_12(1.3), dmg);
+    }
+
+    // Ground Type Boost
+    if(CheckBagHasItem(ITEM_EARTH_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_GROUND)
+            dmg = ApplyModifier(UQ_4_12(1.3), dmg);
+    }
+
+    // Flying Type Boost
+    if(CheckBagHasItem(ITEM_WIND_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_FLYING)
+            dmg = ApplyModifier(UQ_4_12(1.3), dmg);
+    }
+
+    // Psychic Type Boost
+    if(CheckBagHasItem(ITEM_MIND_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_PSYCHIC)
+            dmg = ApplyModifier(UQ_4_12(1.3), dmg);
+    }
+
+    // Bug Type Boost
+    if(CheckBagHasItem(ITEM_SWARM_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_BUG)
+            dmg = ApplyModifier(UQ_4_12(1.3), dmg);
+    }
+
+    // Rock Type Boost
+    if(CheckBagHasItem(ITEM_CRAG_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_ROCK)
+            dmg = ApplyModifier(UQ_4_12(1.3), dmg);
+    }
+
+    // Ghost Type Boost
+    if(CheckBagHasItem(ITEM_PHANTOM_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_GHOST)
+            dmg = ApplyModifier(UQ_4_12(1.3), dmg);
+    }
+
+    // Dragon Type Boost
+    if(CheckBagHasItem(ITEM_MYTHIC_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_DRAGON)
+            dmg = ApplyModifier(UQ_4_12(1.3), dmg);
+    }
+
+    // Dark Type Boost
+    if(CheckBagHasItem(ITEM_DUSK_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_DARK)
+            dmg = ApplyModifier(UQ_4_12(1.3), dmg);
+    }
+
+    // Steel Type Boost
+    if(CheckBagHasItem(ITEM_METAL_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_STEEL)
+            dmg = ApplyModifier(UQ_4_12(1.3), dmg);
+    }
+
+    // Fairy Type Boost
+    if(CheckBagHasItem(ITEM_PIXIE_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_FAIRY)
+            dmg = ApplyModifier(UQ_4_12(1.3), dmg);
+    }
+
+    // Cosmic Type Boost
+    if(CheckBagHasItem(ITEM_STELLAR_CHARM, 1) && GetBattlerSide(battlerAtk) == B_SIDE_PLAYER)
+    {
+        if (moveType == TYPE_COSMIC)
+            dmg = ApplyModifier(UQ_4_12(1.3), dmg);
+    }
+
 
     else if (WEATHER_HAS_EFFECT && gBattleWeather & WEATHER_SUN_ANY)
     {

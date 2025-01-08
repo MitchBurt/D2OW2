@@ -1762,3 +1762,66 @@ const u32 gItemIconPalette_SlumberlessCharm[] = INCBIN_U32("graphics/items/icon_
 
 const u32 gItemIcon_AmplifyCharm[] = INCBIN_U32("graphics/items/icons/charms/amplify_charm.4bpp.lz");
 const u32 gItemIconPalette_AmplifyCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/amplify_charm.gbapal.lz");
+
+const u32 gItemIcon_BalanceCharm[] = INCBIN_U32("graphics/items/icons/charms/balance_charm.4bpp.lz");
+const u32 gItemIconPalette_BalanceCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/balance_charm.gbapal.lz");
+
+const u32 gItemIcon_KindleCharm[] = INCBIN_U32("graphics/items/icons/charms/kindle_charm.4bpp.lz");
+const u32 gItemIconPalette_KindleCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/kindle_charm.gbapal.lz");
+
+const u32 gItemIcon_WaveCharm[] = INCBIN_U32("graphics/items/icons/charms/wave_charm.4bpp.lz");
+const u32 gItemIconPalette_WaveCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/wave_charm.gbapal.lz");
+
+const u32 gItemIcon_SparkCharm[] = INCBIN_U32("graphics/items/icons/charms/spark_charm.4bpp.lz");
+const u32 gItemIconPalette_SparkCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/spark_charm.gbapal.lz");
+
+const u32 gItemIcon_LeafCharm[] = INCBIN_U32("graphics/items/icons/charms/leaf_charm.4bpp.lz");
+const u32 gItemIconPalette_LeafCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/leaf_charm.gbapal.lz");
+
+const u32 gItemIcon_FreezeCharm[] = INCBIN_U32("graphics/items/icons/charms/freeze_charm.4bpp.lz");
+const u32 gItemIconPalette_FreezeCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/freeze_charm.gbapal.lz");
+
+const u32 gItemIcon_BrawnCharm[] = INCBIN_U32("graphics/items/icons/charms/brawn_charm.4bpp.lz");
+const u32 gItemIconPalette_BrawnCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/brawn_charm.gbapal.lz");
+
+const u32 gItemIcon_ToxicCharm[] = INCBIN_U32("graphics/items/icons/charms/toxic_charm.4bpp.lz");
+const u32 gItemIconPalette_ToxicCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/toxic_charm.gbapal.lz");
+
+const u32 gItemIcon_EarthCharm[] = INCBIN_U32("graphics/items/icons/charms/earth_charm.4bpp.lz");
+const u32 gItemIconPalette_EarthCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/earth_charm.gbapal.lz");
+
+const u32 gItemIcon_WindCharm[] = INCBIN_U32("graphics/items/icons/charms/wind_charm.4bpp.lz");
+const u32 gItemIconPalette_WindCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/wind_charm.gbapal.lz");
+
+const u32 gItemIcon_MindCharm[] = INCBIN_U32("graphics/items/icons/charms/mind_charm.4bpp.lz");
+const u32 gItemIconPalette_MindCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/mind_charm.gbapal.lz");
+
+const u32 gItemIcon_SwarmCharm[] = INCBIN_U32("graphics/items/icons/charms/swarm_charm.4bpp.lz");
+const u32 gItemIconPalette_SwarmCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/swarm_charm.gbapal.lz");
+
+const u32 gItemIcon_CragCharm[] = INCBIN_U32("graphics/items/icons/charms/crag_charm.4bpp.lz");
+const u32 gItemIconPalette_CragCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/crag_charm.gbapal.lz");
+
+const u32 gItemIcon_PhantomCharm[] = INCBIN_U32("graphics/items/icons/charms/phantom_charm.4bpp.lz");
+const u32 gItemIconPalette_PhantomCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/phantom_charm.gbapal.lz");
+
+const u32 gItemIcon_MythicCharm[] = INCBIN_U32("graphics/items/icons/charms/mythic_charm.4bpp.lz");
+const u32 gItemIconPalette_MythicCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/mythic_charm.gbapal.lz");
+
+const u32 gItemIcon_DuskCharm[] = INCBIN_U32("graphics/items/icons/charms/dusk_charm.4bpp.lz");
+const u32 gItemIconPalette_DuskCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/dusk_charm.gbapal.lz");
+
+const u32 gItemIcon_MetalCharm[] = INCBIN_U32("graphics/items/icons/charms/metal_charm.4bpp.lz");
+const u32 gItemIconPalette_MetalCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/metal_charm.gbapal.lz");
+
+const u32 gItemIcon_PixieCharm[] = INCBIN_U32("graphics/items/icons/charms/pixie_charm.4bpp.lz");
+const u32 gItemIconPalette_PixieCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/pixie_charm.gbapal.lz");
+
+const u32 gItemIcon_StellarCharm[] = INCBIN_U32("graphics/items/icons/charms/stellar_charm.4bpp.lz");
+const u32 gItemIconPalette_StellarCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/stellar_charm.gbapal.lz");
+
+const u32 gItemIcon_GourmetCharm[] = INCBIN_U32("graphics/items/icons/charms/gourmet_charm.4bpp.lz");
+const u32 gItemIconPalette_GourmetCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/gourmet_charm.gbapal.lz");
+
+const u32 gItemIcon_BrewCharm[] = INCBIN_U32("graphics/items/icons/charms/brew_charm.4bpp.lz");
+const u32 gItemIconPalette_BrewCharm[] = INCBIN_U32("graphics/items/icon_palettes/charms/brew_charm.gbapal.lz");

@@ -354,6 +354,27 @@ static void AddGoodCharm(void)
         ITEM_STATICPROOF_CHARM,
         ITEM_INSOMNIA_CHARM,
         ITEM_AMPLIFY_CHARM,
+        ITEM_BALANCE_CHARM,
+        ITEM_KINDLE_CHARM,
+        ITEM_WAVE_CHARM,
+        ITEM_SPARK_CHARM,
+        ITEM_LEAF_CHARM,
+        ITEM_FREEZE_CHARM,
+        ITEM_BRAWN_CHARM,
+        ITEM_TOXIC_CHARM,
+        ITEM_EARTH_CHARM,
+        ITEM_WIND_CHARM,
+        ITEM_MIND_CHARM,
+        ITEM_SWARM_CHARM,
+        ITEM_CRAG_CHARM,
+        ITEM_PHANTOM_CHARM,
+        ITEM_MYTHIC_CHARM,
+        ITEM_DUSK_CHARM,
+        ITEM_METAL_CHARM,
+        ITEM_PIXIE_CHARM,
+        ITEM_GOURMET_CHARM,
+        ITEM_BREW_CHARM,
+
 	};
 
     u16 sNormalModeCharms[] = {
