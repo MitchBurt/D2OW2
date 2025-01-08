@@ -6500,6 +6500,10 @@ static const u8 sBalanceCharmDesc[] = _(
     "allied Pokémon's Normal\n"
     "Type attacks.");
 
+static const u8 sKindleCharmDesc[] = _(
+    "Raises the damage of\n"
+    "allied Pokémon's Fire\n"
+    "Type attacks.");
 
 static const u8 sWaveCharmDesc[] = _(
     "Raises the damage of\n"
