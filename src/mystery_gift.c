@@ -1395,7 +1395,7 @@ struct MysteryGiftMonStructure gMysteryGiftMons[] =
 	[CARD_CHRISTMASS_NUSHAKE] =
     {
 		.species 			= SPECIES_NUSHAKE,
-		.helditem 			= ITEM_CHERISH_BALL_SEAL,
+		.helditem 			= ITEM_CHARM_VOUCHER,
 		.abilityNum 		= 0,
 		.level 				= 0,
 		.nature				= NATURE_TIMID,
