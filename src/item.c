@@ -334,12 +334,12 @@ static void SetTmHmOwned(u16 itemId)
 static void AddGoodCharm(void)
 {
     u8 i = 0;
-	u8 rand = Random() % 6;
+	u8 rand = Random() % 37;
     u16 sGoodCharms[] = {
-		ITEM_OVAL_CHARM,
-		ITEM_CATCHING_CHARM,
-		ITEM_SHINY_CHARM,
-		ITEM_EXP_CHARM,
+	ITEM_OVAL_CHARM,
+	ITEM_CATCHING_CHARM,
+	ITEM_SHINY_CHARM,
+	ITEM_EXP_CHARM,
         ITEM_TOTEM_CHARM,
         ITEM_FORTUNE_CHARM,
         //ITEM_ORACLE_CHARM,
@@ -415,10 +415,10 @@ static void AddGoodCharm(void)
 static void AddBadCharm(void)
 {
     u8 i = 0;
-	u8 rand = Random() % 38;
+	u8 rand = Random() % 44;
     u16 sBadCharms[] = { 
-		ITEM_INVERSE_CHARM,
-		ITEM_NOSTALGIC_CHARM,
+	ITEM_INVERSE_CHARM,
+	ITEM_NOSTALGIC_CHARM,
         ITEM_TAG_CHARM,
         ITEM_LONELY_CHARM,
         ITEM_STASIS_CHARM,
@@ -435,7 +435,7 @@ static void AddBadCharm(void)
         ITEM_MUFFLE_CHARM,
         //ITEM_FRIGHT_CHARM,
         ITEM_DRY_CHARM,
-		ITEM_WET_CHARM,
+	ITEM_WET_CHARM,
         ITEM_WILT_CHARM,
         ITEM_INSULATE_CHARM,
         ITEM_THAW_CHARM,
