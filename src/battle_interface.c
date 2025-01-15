@@ -1095,7 +1095,7 @@ static void UpdateLvlInHealthbox(u8 healthboxSpriteId, u8 lvl)
 	bool8 DisableLvl = FALSE;
 	bool8 isMega = FALSE;
 	
-	switch(gSaveBlock1Ptr->location.mapNum){
+	/*switch(gSaveBlock1Ptr->location.mapNum){
 		case MAP_NUM(EVER_GRANDE_CITY_JACKS_ROOM):
 			if(gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(EVER_GRANDE_CITY_JACKS_ROOM))
 				DisableLvl = FALSE;
@@ -1106,25 +1106,25 @@ static void UpdateLvlInHealthbox(u8 healthboxSpriteId, u8 lvl)
 		break;
 		case MAP_NUM(EVER_GRANDE_CITY_THANATOSS_ROOM):
 			if(gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(EVER_GRANDE_CITY_THANATOSS_ROOM))
-				DisableLvl = TRUE;
+				DisableLvl = FALSE;
 		break;
 		case MAP_NUM(EVER_GRANDE_CITY_SHINJIS_ROOM):
 			if(gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(EVER_GRANDE_CITY_SHINJIS_ROOM))
-				DisableLvl = TRUE;
+				DisableLvl = FALSE;
 		break;
 		case MAP_NUM(EVER_GRANDE_CITY_CHAMPIONS_ROOM):
 			if(gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(EVER_GRANDE_CITY_CHAMPIONS_ROOM))
-				DisableLvl = TRUE;
+				DisableLvl = FALSE;
 		break;
 		case MAP_NUM(SHOAL_CAVE_HIGH_TIDE_INNER_ROOM):
 			if(gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(SHOAL_CAVE_HIGH_TIDE_INNER_ROOM))
-				DisableLvl = TRUE;
+				DisableLvl = FALSE;
 		break;
 		case MAP_NUM(METEOR_FALLS_STEVENS_CAVE):
 			if(gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(METEOR_FALLS_STEVENS_CAVE))
-				DisableLvl = TRUE;
-		break;
-	}
+				DisableLvl = FALSE;
+		break; 
+	}*/
     
     if(CheckBagHasItem(ITEM_INCOGNITO_CHARM, 1)){
         DisableLvl = TRUE;

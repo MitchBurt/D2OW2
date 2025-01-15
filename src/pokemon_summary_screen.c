@@ -1856,7 +1856,7 @@ static void Task_HandleInput(u8 taskId)
 					 !sMonSummaryScreen->isBoxMon &&
 					 !sMonSummaryScreen->lockMovesFlag &&
 					 !FlagGet(FLAG_NO_EVS_MODE) &&
-					 (GetMonData(&gPlayerParty[sMonSummaryScreen->curMonIndex], MON_DATA_LEVEL) >= 90 || FlagGet(FLAG_ENABLE_EV_CHANGES)))
+					 (GetNumBadges() >= 8 || FlagGet(FLAG_ENABLE_EV_CHANGES)))
 			{
 				sMonSummaryScreen->ModifyStatMode = !sMonSummaryScreen->ModifyStatMode;
 				CalculateMonStats(&gPlayerParty[sMonSummaryScreen->curMonIndex]);
