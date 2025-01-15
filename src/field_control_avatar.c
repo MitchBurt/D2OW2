@@ -270,7 +270,7 @@ int ProcessPlayerFieldInput(struct FieldInput *input)
         return TRUE;
 
 //TODO DEBUG
-
+/*
        //#if DEBUGGING
         if (input->input_field_1_2)
         {
@@ -279,7 +279,7 @@ int ProcessPlayerFieldInput(struct FieldInput *input)
         return TRUE;
         }
     //#endif 
-
+*/
  
 
     return FALSE;
