@@ -1098,11 +1098,11 @@ static void UpdateLvlInHealthbox(u8 healthboxSpriteId, u8 lvl)
 	switch(gSaveBlock1Ptr->location.mapNum){
 		case MAP_NUM(EVER_GRANDE_CITY_JACKS_ROOM):
 			if(gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(EVER_GRANDE_CITY_JACKS_ROOM))
-				DisableLvl = TRUE;
+				DisableLvl = FALSE;
 		break;
 		case MAP_NUM(EVER_GRANDE_CITY_GREGORIUSS_ROOM):
 			if(gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(EVER_GRANDE_CITY_GREGORIUSS_ROOM))
-				DisableLvl = TRUE;
+				DisableLvl = FALSE;
 		break;
 		case MAP_NUM(EVER_GRANDE_CITY_THANATOSS_ROOM):
 			if(gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(EVER_GRANDE_CITY_THANATOSS_ROOM))
