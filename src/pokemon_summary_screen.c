@@ -52,6 +52,7 @@
 #include "constants/battle_config.h"
 #include "printf.h"
 #include "mgba.h"
+#include "level_scaling.h"
 
 // Screen titles (upper left)
 #define PSS_WINDOW_TOP 0
