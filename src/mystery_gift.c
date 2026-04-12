@@ -1153,7 +1153,7 @@ struct MysteryGiftMonStructure gMysteryGiftMons[] =
 	[CARD_GNORB] =
     {
 		.species 			= SPECIES_GNORB,
-		.helditem 			= ITEM_POKE_BALL_SEAL,
+		.helditem 			= ITEM_CHARM_VOUCHER,
 		.abilityNum 		= 0,
 		.level 				= 1,
 		.nature				= NATURE_TIMID,
