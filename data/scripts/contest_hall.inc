@@ -1159,7 +1159,7 @@ ContestHall_EventScript_DontSkipPrize:: @ 827ABCD
 
 @ This flag is never read
 ContestHall_EventScript_SetSketchFlag:: @ 827ABCE
-	setflag FLAG_CONTEST_SKETCH_CREATED
+@	setflag FLAG_CONTEST_SKETCH_CREATED
 	return
 
 ContestHall_EventScript_SetReadyForContestArtist:: @ 827ABD2
