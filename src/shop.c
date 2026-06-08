@@ -286,6 +286,7 @@ static const u16 sShopInventory_EightBadges[] = {
     ITEM_ESCAPE_ROPE,
 	ITEM_PP_UP,
 	ITEM_PP_MAX,
+	ITEM_RARE_CANDY,
     ITEM_NONE
 };
 

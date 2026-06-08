@@ -296,7 +296,7 @@
 #define FLAG_RECEIVED_REVIVED_FOSSIL_MON     0x10B
 #define FLAG_SECRET_BASE_REGISTRY_ENABLED    0x10C
 #define FLAG_RECEIVED_TM46                   0x10D
-#define FLAG_CONTEST_SKETCH_CREATED          0x10E  // Set but never read
+#define FLAG_SOULS_MODE                      0x10E
 #define FLAG_EVIL_TEAM_ESCAPED_STERN_SPOKE   0x10F
 #define FLAG_RECEIVED_FAZEAGLEITE             0x110
 #define FLAG_POKERUS_EXPLAINED               0x111
@@ -1306,7 +1306,6 @@
 #define FLAG_NEW_GAME_PLUS                                          0x49E
 #define FLAG_SYS_MOVE_INFO                                          0x49F
 #define FLAG_NUZLOCKE                                               0x4A1
-//#define FLAG_UNUSED_0x4A1                                           0x4A1 // Unused
 
 #define FLAG_DEFEATED_RUSTBORO_GYM                                  0x4F0
 #define FLAG_DEFEATED_DEWFORD_GYM                                   0x4F1
