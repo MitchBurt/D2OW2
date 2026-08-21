@@ -71,6 +71,7 @@
 #include "printf.h"
 #include "mgba.h"
 #include "region_map.h"
+#include "speedup.h"
 
 extern struct MusicPlayerInfo gMPlayInfo_SE1;
 extern struct MusicPlayerInfo gMPlayInfo_SE2;

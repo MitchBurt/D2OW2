@@ -38,6 +38,7 @@
 #include "constants/map_types.h"
 #include "constants/maps.h"
 #include "mgba.h"
+#include "speedup.h"
 
 enum
 {   // Corresponds to gHealthboxElementsGfxTable (and the tables after it) in graphics.c
@@ -2544,7 +2545,7 @@ s32 MoveBattleBar(u8 battlerId, u8 healthboxSpriteId, u8 whichBar, u8 unused)
     gBattleSpritesDataPtr->battleBars[battlerId].oddFrame ^= 1;
 
     toLoop *= Speedup_GetBattleSpeedScale(TRUE)
-    
+
     if (instant)
         previousVal = SetInstantBarMove(&gBattleSpritesDataPtr->battleBars[battlerId]);
 
