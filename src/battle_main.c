@@ -1751,11 +1751,47 @@ static void CB2_HandleStartMultiBattle(void)
 
 void BattleMainCB2(void)
 {
-    AnimateSprites();
-    BuildOamBuffer();
-    RunTextPrinters();
-    UpdatePaletteFade();
-    RunTasks();
+    u8 speedScale = Speedup_GetBattleSpeedScale(FALSE);
+
+    // Palette fades don't like being run mid-transition multiple times per
+    // frame (colour blending gets corrupted), so force 1x while one's active.
+    if (gPaletteFade.active)
+        speedScale = 1;
+
+    if (speedScale <= 1)
+    {
+        AnimateSprites();
+        BuildOamBuffer();
+        RunTextPrinters();
+        UpdatePaletteFade();
+        RunTasks();
+    }
+    else
+    {
+        u8 s;
+
+        for (s = 1; s < speedScale; s++)
+        {
+            AnimateSprites();
+            RunTextPrinters();
+            UpdatePaletteFade();
+            RunTasks();
+            VBlankCB_Battle();
+
+            if (gMain.callback1)
+                gMain.callback1();
+
+            if (gPaletteFade.active)
+                break; // a fade just started mid-loop, bail out to the final pass below
+        }
+
+        // final "real" pass for this frame
+        AnimateSprites();
+        BuildOamBuffer();
+        RunTextPrinters();
+        UpdatePaletteFade();
+        RunTasks();
+    }
 
     if (JOY_HELD(B_BUTTON) && gBattleTypeFlags & BATTLE_TYPE_RECORDED && sub_8186450())
     {
@@ -3143,9 +3179,10 @@ static void SpriteCb_MoveWildMonToRight(struct Sprite *sprite)
 {
     if ((gIntroSlideFlags & 1) == 0)
     {
-        sprite->pos2.x += 2;
-        if (sprite->pos2.x == 0)
+        sprite->pos2.x += Speedup_ModifyBattleSlideAnim(2);
+        if (sprite->pos2.x >= 0)
         {
+            sprite->pos2.x = 0;
             sprite->callback = SpriteCb_WildMonShowHealthbox;
         }
     }

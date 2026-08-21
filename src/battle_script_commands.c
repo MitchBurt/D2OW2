@@ -283,6 +283,7 @@ static const s32 sExperienceScalingFactors[] =
 
 #define STAT_CHANGE_WORKED      0
 #define STAT_CHANGE_DIDNT_WORK  1
+#define EXP_GAIN_MULTIPLIER 500  // percentage: 100 = normal, 300 = 3x, 400 = 4x, etc.
 
 // this file's functions
 static bool8 IsTwoTurnsMove(u16 move);
@@ -4148,6 +4149,9 @@ static void Cmd_getexp(void)
 					}
 					
 					gBattleMoveDamage = (gBattleMoveDamage * luckyboost) / 100;
+
+                    // Global exp multiplier — flat boost on top of every other bonus
+					gBattleMoveDamage = (gBattleMoveDamage * EXP_GAIN_MULTIPLIER) / 100;
 	
 					if(FlagGet(FLAG_SYS_GAME_CLEAR) && IsHardMode())
 						gBattleMoveDamage = (gBattleMoveDamage * 120) / 100;
