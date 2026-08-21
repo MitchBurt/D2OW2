@@ -262,6 +262,16 @@ u8 gMultiUsePlayerCursor;
 u8 gNumberOfMovesToChoose;
 u8 gUnknown_03005D7C[MAX_BATTLERS_COUNT];
 
+// speedup.h — just declarations, no .c file needed
+#ifndef GUARD_SPEEDUP_H
+#define GUARD_SPEEDUP_H
+
+bool8 Speedup_IsHeld(void);
+u8 Speedup_GetBattleSpeedScale(bool8 forHealthbar);
+s16 Speedup_ModifyBattleSlideAnim(s16 rate);
+
+#endif
+
 // rom const data
 static const struct ScanlineEffectParams sIntroScanlineParams16Bit =
 {
