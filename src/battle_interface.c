@@ -212,7 +212,7 @@ static void SpriteCB_LastUsedBall(struct Sprite *sprite);
 static void SpriteCB_LastUsedBallWin(struct Sprite *sprite);
 
 #define SPEEDUP_BUTTON R_BUTTON
-#define SPEEDUP_SCALE  4
+#define SPEEDUP_SCALE  3
 
 bool8 Speedup_IsHeld(void)
 {

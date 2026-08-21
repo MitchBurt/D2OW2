@@ -3190,7 +3190,7 @@ static void SpriteCb_MoveWildMonToRight(struct Sprite *sprite)
 {
     if ((gIntroSlideFlags & 1) == 0)
     {
-        sprite->pos2.x += Speedup_ModifyBattleSlideAnim(2);
+        sprite->pos2.x += 2;   // plain rate — the outer loop already speeds this up
         if (sprite->pos2.x >= 0)
         {
             sprite->pos2.x = 0;
