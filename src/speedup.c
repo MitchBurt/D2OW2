@@ -1,5 +1,6 @@
 // speedup.c
 #include "global.h"
+#include "main.h"
 #include "battle.h"
 #include "speedup.h"
 
