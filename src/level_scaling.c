@@ -534,7 +534,7 @@ u16 GetWildPokemon(u16 basespecies, u8 level, u16 heldItem){
 		case EVO_FRIENDSHIP_DAY:
 		case EVO_FRIENDSHIP_NIGHT:
 		case EVO_ITEM_HOLD_DAY:
-		if(level >= FriendshipLevel)
+		if(numbadges >= BadgesMidgame && level >= FriendshipLevel)
 			return GetWildPokemon(gEvolutionTable[split][0].targetSpecies, level-1, heldItem);
 		break;
 		
@@ -616,7 +616,7 @@ u16 GetRandomizedWildPokemon(u16 basespecies, u8 level, u16 heldItem){
 		case EVO_ITEM_HOLD_DAY:
 		case EVO_FRIENDSHIP_DAY:
 		case EVO_FRIENDSHIP_NIGHT:
-		if(level >= FriendshipLevel)
+		if(numbadges >= BadgesMidgame && level >= FriendshipLevel)
 			return GetRandomizedWildPokemon(gEvolutionTable[split][0].targetSpecies, level-1, heldItem);
 		break;
 		
@@ -696,7 +696,7 @@ u16 GetTrainerPokemon(u16 basespecies, u8 level){
 		case EVO_ITEM_HOLD_DAY:
 		case EVO_FRIENDSHIP_DAY:
 		case EVO_FRIENDSHIP_NIGHT:
-		if(level >= FriendshipLevel)
+		if(numbadges >= BadgesMidgame && level >= FriendshipLevel)
 			return GetTrainerPokemon(gEvolutionTable[split][0].targetSpecies, level);
 		break;
 		
@@ -771,7 +771,7 @@ u16 GetRandomizedTrainerPokemon(u16 basespecies, u8 level){
 		case EVO_ITEM_HOLD_DAY:
 		case EVO_FRIENDSHIP_DAY:
 		case EVO_FRIENDSHIP_NIGHT:
-		if(level >= FriendshipLevel)
+		if(numbadges >= BadgesMidgame && level >= FriendshipLevel)
 			return GetRandomizedTrainerPokemon(gEvolutionTable[split][0].targetSpecies, level);
 		break;
 		
@@ -1257,13 +1257,10 @@ u16 GetHeldItem(u16 baseitem)
 	u16 NumBadges = GetNumBadges();
 	if(IsHardMode() == 1)
 		NumBadges = NumBadges + 1;
-	
-	if(holdEffect != HOLD_EFFECT_MEGA_STONE){
-	if (NumBadges >= 6)
+
+	// Keep mega stones unchanged so specific trainers can still use them.
+	if (holdEffect == HOLD_EFFECT_MEGA_STONE)
 		return baseitem;
-	else 
-		return ITEM_SITRUS_BERRY;
-	}
 	
 	if(baseitem == ITEM_ORAN_BERRY || baseitem == ITEM_NONE)//HP restorative items
 	{
