@@ -295,6 +295,19 @@ const struct SpriteTemplate gUnknown_0831AC88 =
     .callback = sub_8038528,
 };
 
+static u8 GetLeaderScaledIV(u16 trainerNum, u8 numBadges, u8 baseIv)
+{
+    if (gTrainers[trainerNum].trainerClass != TRAINER_CLASS_LEADER)
+        return baseIv;
+
+    if (numBadges < 2)
+        return 0;
+    if (numBadges >= 8)
+        return 31;
+
+    return (numBadges - 1) * 31 / 7;   // 2 badges≈4, 5 badges≈17, 8 badges=31
+}
+
 static const u8 sText_ShedinjaJpnName[] = _("ヌケニン"); // Nukenin
 
 const struct OamData gOamData_831ACA8 =
@@ -1891,6 +1904,8 @@ static void sub_8038538(struct Sprite *sprite)
 
 static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 firstTrainer)
 {
+    u8 numBadges = GetNumBadges();
+	bool8 isEarlyLeader = (gTrainers[trainerNum].trainerClass == TRAINER_CLASS_LEADER && numBadges < 2);
     u32 nameHash = 0;
     u32 personalityValue;
     u8 fixedIV;
@@ -2360,7 +2375,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
                     nameHash += gSpeciesNames[partyData[i].species][j];
 
                 personalityValue += nameHash << 8;
-                fixedIV = partyData[i].iv * 31 / 255;
+                fixedIV = GetLeaderScaledIV(trainerNum, numBadges, partyData[i].iv * 31 / 255);
 					
 				//Check if the pokemon is forced to be shiny ------------------------------------------------------------------
 				if (partyData[i].isShiny)          
@@ -2437,20 +2452,33 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
 					SetMonData(&party[i], MON_DATA_HELD_ITEM, &PokemonHeldItem[i]);	
 				}
 				
-				// Sets the Battle moves ---------------------------------------------------------------------------------
-				if(numBadges >= 7 && !FlagGet(FLAG_FULL_RANDOMIZED_MODE) && !FlagGet(FLAG_RANDOMIZED_MODE))
+				if (!isEarlyLeader)
 				{
-					for (j = 0; j < MAX_MON_MOVES; j++)
+					// Sets the Battle moves ---------------------------------------------------------------------------------
+					if(numBadges >= 7 && !FlagGet(FLAG_FULL_RANDOMIZED_MODE) && !FlagGet(FLAG_RANDOMIZED_MODE))
 					{
-						if(partyData[i].postgamemoves[j] != MOVE_NONE){
-							SetMonData(&party[i], MON_DATA_MOVE1 + j, &partyData[speciesnumber].postgamemoves[j]);
-							SetMonData(&party[i], MON_DATA_PP1 + j, &gBattleMoves[partyData[speciesnumber].postgamemoves[j]].pp);
-						}else if(partyData[i].moves[j] != MOVE_NONE){
-							SetMonData(&party[i], MON_DATA_MOVE1 + j, &partyData[speciesnumber].moves[j]);
-							SetMonData(&party[i], MON_DATA_PP1 + j, &gBattleMoves[partyData[speciesnumber].moves[j]].pp);
+						for (j = 0; j < MAX_MON_MOVES; j++)
+						{
+							if(partyData[i].postgamemoves[j] != MOVE_NONE){
+								SetMonData(&party[i], MON_DATA_MOVE1 + j, &partyData[speciesnumber].postgamemoves[j]);
+								SetMonData(&party[i], MON_DATA_PP1 + j, &gBattleMoves[partyData[speciesnumber].postgamemoves[j]].pp);
+							}else if(partyData[i].moves[j] != MOVE_NONE){
+								SetMonData(&party[i], MON_DATA_MOVE1 + j, &partyData[speciesnumber].moves[j]);
+								SetMonData(&party[i], MON_DATA_PP1 + j, &gBattleMoves[partyData[speciesnumber].moves[j]].pp);
+							}
+						}
+	                }
+					else if(!FlagGet(FLAG_FULL_RANDOMIZED_MODE) && !FlagGet(FLAG_RANDOMIZED_MODE))
+					{
+						for (j = 0; j < MAX_MON_MOVES; j++)
+						{
+							if(partyData[i].moves[j] != MOVE_NONE && IsMoveUsable(gBattleMoves[partyData[speciesnumber].moves[j]].power)){
+								SetMonData(&party[i], MON_DATA_MOVE1 + j, &partyData[speciesnumber].moves[j]);
+								SetMonData(&party[i], MON_DATA_PP1 + j, &gBattleMoves[partyData[speciesnumber].moves[j]].pp);
+							}
 						}
 					}
-                }
+				}
 				else if(!FlagGet(FLAG_FULL_RANDOMIZED_MODE) && !FlagGet(FLAG_RANDOMIZED_MODE))
 				{
 					for (j = 0; j < MAX_MON_MOVES; j++)
@@ -2462,40 +2490,43 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
 					}
 				}
 				
-				//Sets the Pokemon Evs ---------------------------------------------------------------------------------
-				for (j = 0; j < NUM_STATS; j++)
-                {
-					PokemonEvs[j] = GetEvsfromPokemon(partyData[speciesnumber].evs[j]);
-					TotalEvs += PokemonEvs[j];
-					
-					switch(j){
-					case 0:
-						SetMonData(&party[i], MON_DATA_HP_EV, &PokemonEvs[j]);
-					break;
-					case 1:
-						SetMonData(&party[i], MON_DATA_ATK_EV, &PokemonEvs[j]);
-					break;
-					case 2:
-						SetMonData(&party[i], MON_DATA_DEF_EV, &PokemonEvs[j]);
-					break;
-					case 3:
-						SetMonData(&party[i], MON_DATA_SPATK_EV, &PokemonEvs[j]);
-					break;
-					case 4:
-						SetMonData(&party[i], MON_DATA_SPDEF_EV, &PokemonEvs[j]);
-					break;
-					case 5:
-						SetMonData(&party[i], MON_DATA_SPEED_EV, &PokemonEvs[j]);
-					break;
-					}
-                }
-				
-				if(TotalEvs == 0 && !FlagGet(FLAG_EASY_MODE)){
-					TotalEvs = (GetEvsfromPokemon(255))*2;
-					TotalEvs = TotalEvs/6;
+				if (!isEarlyLeader)
+				{
+					//Sets the Pokemon Evs ---------------------------------------------------------------------------------
 					for (j = 0; j < NUM_STATS; j++)
-					{
-						SetMonData(&party[i], MON_DATA_HP_EV + j, &TotalEvs);
+	                {
+						PokemonEvs[j] = GetEvsfromPokemon(partyData[speciesnumber].evs[j]);
+						TotalEvs += PokemonEvs[j];
+						
+						switch(j){
+						case 0:
+							SetMonData(&party[i], MON_DATA_HP_EV, &PokemonEvs[j]);
+						break;
+						case 1:
+							SetMonData(&party[i], MON_DATA_ATK_EV, &PokemonEvs[j]);
+						break;
+						case 2:
+							SetMonData(&party[i], MON_DATA_DEF_EV, &PokemonEvs[j]);
+						break;
+						case 3:
+							SetMonData(&party[i], MON_DATA_SPATK_EV, &PokemonEvs[j]);
+						break;
+						case 4:
+							SetMonData(&party[i], MON_DATA_SPDEF_EV, &PokemonEvs[j]);
+						break;
+						case 5:
+							SetMonData(&party[i], MON_DATA_SPEED_EV, &PokemonEvs[j]);
+						break;
+						}
+	                }
+					
+					if(TotalEvs == 0 && !FlagGet(FLAG_EASY_MODE)){
+						TotalEvs = (GetEvsfromPokemon(255))*2;
+						TotalEvs = TotalEvs/6;
+						for (j = 0; j < NUM_STATS; j++)
+						{
+							SetMonData(&party[i], MON_DATA_HP_EV + j, &TotalEvs);
+						}
 					}
 				}
 				
@@ -2524,24 +2555,25 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
 				//Pokemon Ivs
 				for (j = 0; j < NUM_STATS; j++)
                 {
+					u8 monIv = GetLeaderScaledIV(trainerNum, numBadges, partyData[speciesnumber].ivs[j]);
 					switch(j){
 					case 0:
-						SetMonData(&party[i], MON_DATA_HP_IV, &partyData[speciesnumber].ivs[j]);
+						SetMonData(&party[i], MON_DATA_HP_IV, &monIv);
 					break;
 					case 1:
-						SetMonData(&party[i], MON_DATA_ATK_IV, &partyData[speciesnumber].ivs[j]);
+						SetMonData(&party[i], MON_DATA_ATK_IV, &monIv);
 					break;
 					case 2:
-						SetMonData(&party[i], MON_DATA_DEF_IV, &partyData[speciesnumber].ivs[j]);
+						SetMonData(&party[i], MON_DATA_DEF_IV, &monIv);
 					break;
 					case 3:
-						SetMonData(&party[i], MON_DATA_SPATK_IV, &partyData[speciesnumber].ivs[j]);
+						SetMonData(&party[i], MON_DATA_SPATK_IV, &monIv);
 					break;
 					case 4:
-						SetMonData(&party[i], MON_DATA_SPDEF_IV, &partyData[speciesnumber].ivs[j]);
+						SetMonData(&party[i], MON_DATA_SPDEF_IV, &monIv);
 					break;
 					case 5:
-						SetMonData(&party[i], MON_DATA_SPEED_IV, &partyData[speciesnumber].ivs[j]);
+						SetMonData(&party[i], MON_DATA_SPEED_IV, &monIv);
 					break;
 					}
                 }

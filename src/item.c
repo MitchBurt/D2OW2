@@ -435,7 +435,7 @@ static void AddBadCharm(void)
         ITEM_MUFFLE_CHARM,
         //ITEM_FRIGHT_CHARM,
         ITEM_DRY_CHARM,
-	ITEM_WET_CHARM,
+	    ITEM_WET_CHARM,
         ITEM_WILT_CHARM,
         ITEM_INSULATE_CHARM,
         ITEM_THAW_CHARM,
