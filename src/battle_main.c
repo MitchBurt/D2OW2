@@ -315,6 +315,14 @@ static u8 GetLeaderScaledIV(u16 trainerNum, u8 numBadges, u8 baseIv)
     return (baseIv * GetLeaderStatRampPercent(trainerNum, numBadges)) / 100;
 }
 
+static u8 GetLeaderScaledEv(u16 trainerNum, u8 numBadges, u8 baseEv)
+{
+    if (baseEv == 0)
+        return 0;
+
+    return (baseEv * GetLeaderStatRampPercent(trainerNum, numBadges)) / 100;
+}
+
 static const u8 sText_ShedinjaJpnName[] = _("ヌケニン"); // Nukenin
 
 const struct OamData gOamData_831ACA8 =
@@ -1917,7 +1925,10 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
     s32 i, j;
     u8 monsCount;
 	u8 numBadges = GetNumBadges();
-    bool8 isEarlyLeader = (gTrainers[trainerNum].trainerClass == TRAINER_CLASS_LEADER && numBadges < 2);
+    bool8 isEarlyLeader = (gTrainers[trainerNum].trainerClass == TRAINER_CLASS_LEADER && numBadges <= 2);
+    bool8 shouldUseCustomMoves = (gTrainers[trainerNum].trainerClass == TRAINER_CLASS_LEADER)
+        ? numBadges > 2
+        : numBadges >= 7;
 	u8 TrainerMonsCount = getTrainerPokemonNum();
 	u8 DoubleTrainerMonsCount = getDoubleTrainerPokemonNum();
 	u8 LeaderMonsCount = getLeaderPokemonNum();
@@ -2093,7 +2104,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
 				//Pokemon Evs
 				for (j = 0; j < NUM_STATS; j++)
                 {
-					PokemonEvs[j] = GetEvsfromPokemon(partyData[i].evs[j]);
+					PokemonEvs[j] = GetLeaderScaledEv(trainerNum, numBadges, GetEvsfromPokemon(partyData[i].evs[j]));
 					TotalEvs += PokemonEvs[j];
 					
 					switch(j){
@@ -2178,7 +2189,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
                     nameHash += gSpeciesNames[partyData[i].species][j];
 
                 personalityValue += nameHash << 8;
-                fixedIV = partyData[i].iv * 31 / 255;
+                fixedIV = GetLeaderScaledIV(trainerNum, numBadges, partyData[i].iv * 31 / 255);
 				
 				//Get Trainer Species
 				if (partyData[i].lvl == 1){
@@ -2204,7 +2215,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
 				//Create Pokemon
 				CreateMon(&party[i], newspecies, pokemonLevel, fixedIV, TRUE, personalityValue, OT_ID_RANDOM_NO_SHINY, 0, formId);
 				
-				if(numBadges >= 7 && !FlagGet(FLAG_FULL_RANDOMIZED_MODE) && !FlagGet(FLAG_RANDOMIZED_MODE)){
+				if(shouldUseCustomMoves && !FlagGet(FLAG_FULL_RANDOMIZED_MODE) && !FlagGet(FLAG_RANDOMIZED_MODE)){
 				for (j = 0; j < MAX_MON_MOVES; j++)
                 {
 					if(partyData[i].postgamemoves[j] != MOVE_NONE){
@@ -2215,7 +2226,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
 						SetMonData(&party[i], MON_DATA_PP1 + j, &gBattleMoves[partyData[i].moves[j]].pp);
 					}
                 }}
-				else{
+				else if(!FlagGet(FLAG_FULL_RANDOMIZED_MODE) && !FlagGet(FLAG_RANDOMIZED_MODE) && !isEarlyLeader){
 				for (j = 0; j < MAX_MON_MOVES; j++)
                 {
 					if(partyData[i].moves[j] != MOVE_NONE && IsMoveUsable(gBattleMoves[partyData[i].moves[j]].power)){
@@ -2461,7 +2472,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
 				if (!isEarlyLeader)
 				{
 					// Sets the Battle moves ---------------------------------------------------------------------------------
-					if(numBadges >= 7 && !FlagGet(FLAG_FULL_RANDOMIZED_MODE) && !FlagGet(FLAG_RANDOMIZED_MODE))
+					if(shouldUseCustomMoves && !FlagGet(FLAG_FULL_RANDOMIZED_MODE) && !FlagGet(FLAG_RANDOMIZED_MODE))
 					{
 						for (j = 0; j < MAX_MON_MOVES; j++)
 						{
@@ -2474,7 +2485,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
 							}
 						}
 	                }
-					else if(!FlagGet(FLAG_FULL_RANDOMIZED_MODE) && !FlagGet(FLAG_RANDOMIZED_MODE))
+					else if(!FlagGet(FLAG_FULL_RANDOMIZED_MODE) && !FlagGet(FLAG_RANDOMIZED_MODE) && !isEarlyLeader)
 					{
 						for (j = 0; j < MAX_MON_MOVES; j++)
 						{
@@ -2500,11 +2511,9 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
 				{
                     //Sets the Pokemon Evs ---------------------------------------------------------------------------------
                     {
-                        u8 evPercent = GetLeaderStatRampPercent(trainerNum, numBadges);
-
                         for (j = 0; j < NUM_STATS; j++)
                         {
-                            PokemonEvs[j] = (GetEvsfromPokemon(partyData[speciesnumber].evs[j]) * evPercent) / 100;
+                            PokemonEvs[j] = GetLeaderScaledEv(trainerNum, numBadges, GetEvsfromPokemon(partyData[speciesnumber].evs[j]));
                             TotalEvs += PokemonEvs[j];
                             
                             switch(j){
