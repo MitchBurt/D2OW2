@@ -1926,9 +1926,6 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
     u8 monsCount;
 	u8 numBadges = GetNumBadges();
     bool8 isEarlyLeader = (gTrainers[trainerNum].trainerClass == TRAINER_CLASS_LEADER && numBadges <= 2);
-    bool8 shouldUseCustomMoves = (gTrainers[trainerNum].trainerClass == TRAINER_CLASS_LEADER)
-        ? numBadges > 2
-        : numBadges >= 7;
 	u8 TrainerMonsCount = getTrainerPokemonNum();
 	u8 DoubleTrainerMonsCount = getDoubleTrainerPokemonNum();
 	u8 LeaderMonsCount = getLeaderPokemonNum();
@@ -2215,7 +2212,7 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
 				//Create Pokemon
 				CreateMon(&party[i], newspecies, pokemonLevel, fixedIV, TRUE, personalityValue, OT_ID_RANDOM_NO_SHINY, 0, formId);
 				
-				if(shouldUseCustomMoves && !FlagGet(FLAG_FULL_RANDOMIZED_MODE) && !FlagGet(FLAG_RANDOMIZED_MODE)){
+                if(!isEarlyLeader && numBadges >= 7 && !FlagGet(FLAG_FULL_RANDOMIZED_MODE) && !FlagGet(FLAG_RANDOMIZED_MODE)){
 				for (j = 0; j < MAX_MON_MOVES; j++)
                 {
 					if(partyData[i].postgamemoves[j] != MOVE_NONE){
@@ -2471,41 +2468,31 @@ static u8 CreateNPCTrainerParty(struct Pokemon *party, u16 trainerNum, bool8 fir
 				
 				if (!isEarlyLeader)
 				{
-					// Sets the Battle moves ---------------------------------------------------------------------------------
-					if(shouldUseCustomMoves && !FlagGet(FLAG_FULL_RANDOMIZED_MODE) && !FlagGet(FLAG_RANDOMIZED_MODE))
-					{
-						for (j = 0; j < MAX_MON_MOVES; j++)
-						{
-							if(partyData[i].postgamemoves[j] != MOVE_NONE){
-								SetMonData(&party[i], MON_DATA_MOVE1 + j, &partyData[speciesnumber].postgamemoves[j]);
-								SetMonData(&party[i], MON_DATA_PP1 + j, &gBattleMoves[partyData[speciesnumber].postgamemoves[j]].pp);
-							}else if(partyData[i].moves[j] != MOVE_NONE){
-								SetMonData(&party[i], MON_DATA_MOVE1 + j, &partyData[speciesnumber].moves[j]);
-								SetMonData(&party[i], MON_DATA_PP1 + j, &gBattleMoves[partyData[speciesnumber].moves[j]].pp);
-							}
-						}
-	                }
-					else if(!FlagGet(FLAG_FULL_RANDOMIZED_MODE) && !FlagGet(FLAG_RANDOMIZED_MODE) && !isEarlyLeader)
-					{
-						for (j = 0; j < MAX_MON_MOVES; j++)
-						{
-							if(partyData[i].moves[j] != MOVE_NONE && IsMoveUsable(gBattleMoves[partyData[speciesnumber].moves[j]].power)){
-								SetMonData(&party[i], MON_DATA_MOVE1 + j, &partyData[speciesnumber].moves[j]);
-								SetMonData(&party[i], MON_DATA_PP1 + j, &gBattleMoves[partyData[speciesnumber].moves[j]].pp);
-							}
-						}
-					}
-				}
-				else if(!FlagGet(FLAG_FULL_RANDOMIZED_MODE) && !FlagGet(FLAG_RANDOMIZED_MODE))
-				{
-					for (j = 0; j < MAX_MON_MOVES; j++)
-					{
-						if(partyData[i].moves[j] != MOVE_NONE && IsMoveUsable(gBattleMoves[partyData[speciesnumber].moves[j]].power)){
-							SetMonData(&party[i], MON_DATA_MOVE1 + j, &partyData[speciesnumber].moves[j]);
-							SetMonData(&party[i], MON_DATA_PP1 + j, &gBattleMoves[partyData[speciesnumber].moves[j]].pp);
-						}
-					}
-				}
+                    // Sets the Battle moves ---------------------------------------------------------------------------------
+                        if(numBadges >= 7 && !FlagGet(FLAG_FULL_RANDOMIZED_MODE) && !FlagGet(FLAG_RANDOMIZED_MODE))
+                        {
+                            for (j = 0; j < MAX_MON_MOVES; j++)
+                            {
+                                if(partyData[speciesnumber].postgamemoves[j] != MOVE_NONE){
+                                    SetMonData(&party[i], MON_DATA_MOVE1 + j, &partyData[speciesnumber].postgamemoves[j]);
+                                    SetMonData(&party[i], MON_DATA_PP1 + j, &gBattleMoves[partyData[speciesnumber].postgamemoves[j]].pp);
+                                }else if(partyData[speciesnumber].moves[j] != MOVE_NONE){
+                                    SetMonData(&party[i], MON_DATA_MOVE1 + j, &partyData[speciesnumber].moves[j]);
+                                    SetMonData(&party[i], MON_DATA_PP1 + j, &gBattleMoves[partyData[speciesnumber].moves[j]].pp);
+                                }
+                            }
+                        }
+                        else if(!FlagGet(FLAG_FULL_RANDOMIZED_MODE) && !FlagGet(FLAG_RANDOMIZED_MODE))
+                        {
+                            for (j = 0; j < MAX_MON_MOVES; j++)
+                            {
+                                if(partyData[speciesnumber].moves[j] != MOVE_NONE && IsMoveUsable(gBattleMoves[partyData[speciesnumber].moves[j]].power)){
+                                    SetMonData(&party[i], MON_DATA_MOVE1 + j, &partyData[speciesnumber].moves[j]);
+                                    SetMonData(&party[i], MON_DATA_PP1 + j, &gBattleMoves[partyData[speciesnumber].moves[j]].pp);
+                                }
+                            }
+                        }
+                    }
 				
 				if (!isEarlyLeader)
 				{
